@@ -1,6 +1,82 @@
 {
-  "last_updated": "2024-04-02T11:19:03+00:00",
+  "last_updated": "2024-04-03T17:24:12+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#6667",
+      "time": "2024-04-03T17:24:12+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/6667#issuecomment-2035174938",
+      "text": "@rithviknishad , is this ok ?\r\n![image](https://github.com/coronasafe/care_fe/assets/146672184/f5499a98-443d-4151-ae65-bd564ae00263)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#421",
+      "time": "2024-04-03T14:23:16+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/issues/421#issuecomment-2034773891",
+      "text": "- before using dynamic import \r\n![image](https://github.com/coronasafe/leaderboard/assets/146672184/c9e38bdd-d882-48f2-91cf-a72bd023e291)\r\n- after using dynamic import \r\n![Screenshot from 2024-04-03 19-48-11](https://github.com/coronasafe/leaderboard/assets/146672184/fa0dfd6a-8f73-4458-b8b4-199e1108ebfd)\r\nand the after using dynamic import we are getting more size than the current one "
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7529",
+      "time": "2024-04-03T13:18:35+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7529",
+      "text": "Staging Release for v24.15.0",
+      "collaborated_with": [
+        "soumya-maheshwari",
+        "rithviknishad",
+        "Ashesh3",
+        "AshrafMd-1",
+        "mohanrajnambe",
+        "aeswibon"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#6667",
+      "time": "2024-04-03T12:13:30+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/6667#issuecomment-2034415244",
+      "text": "Yup , I'll try it ."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#6667",
+      "time": "2024-04-03T10:56:52+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/6667#issuecomment-2034248449",
+      "text": "@rithviknishad Currently, we are fetching information for assets from [api/v1/assets]\r\n![Screenshot from 2024-04-03 16-18-12](https://github.com/coronasafe/care_fe/assets/146672184/96cf9a7b-3905-40f4-8d12-9b97fcfacb70)\r\n. Instead, if we try to fetch from [/api/v1/facility/{facility_external_id}/patient_asset_beds/], we get the additional information of the patient name too, and if we try to include the patient's age in the route in the backend I think we can solve this, Is my approach right?"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#6667",
+      "time": "2024-04-03T09:58:49+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/6667#issuecomment-2034121454",
+      "text": "If no one is working on this , I would like to work on this issue "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7438",
+      "time": "2024-04-03T02:55:22+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7438#issuecomment-2033439447",
+      "text": "@r-nikhilkumar ig the problem is with the typescript errors , see the screenshot attached"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7411",
+      "time": "2024-04-03T02:13:01+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7411",
+      "text": "Add Age field in patient registration",
+      "turnaround_time": 41972
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7411",
+      "time": "2024-04-03T02:13:01+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7411",
+      "text": "Add Age field in patient registration",
+      "collaborated_with": [
+        "rithviknishad",
+        "nihal467"
+      ]
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/leaderboard#420",
@@ -970,31 +1046,21 @@
     {
       "link": "https://github.com/coronasafe/leaderboard/pull/420",
       "title": "fix theme for footer",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/leaderboard/pull/418",
       "title": "enable/disable features from env variables",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "changes required"
       ]
     },
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/7411",
-      "title": "Add Age field in patient registration",
-      "stale_for": 0,
-      "labels": [
-        "Backend",
-        "tested",
-        "P1"
-      ]
-    },
-    {
       "link": "https://github.com/coronasafe/care/pull/1929",
       "title": "Add age validation in PatientDetailSerializer",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     }
   ],

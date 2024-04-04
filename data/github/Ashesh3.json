@@ -1,6 +1,70 @@
 {
-  "last_updated": "2024-04-02T07:23:18+00:00",
+  "last_updated": "2024-04-03T13:18:35+00:00",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7529",
+      "time": "2024-04-03T13:18:35+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7529",
+      "text": "Staging Release for v24.15.0",
+      "collaborated_with": [
+        "soumya-maheshwari",
+        "rithviknishad",
+        "rash-27",
+        "AshrafMd-1",
+        "mohanrajnambe",
+        "aeswibon"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7480",
+      "time": "2024-04-03T12:21:38+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7480#issuecomment-2034435574",
+      "text": "Deploy is failing"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7342",
+      "time": "2024-04-03T09:57:11+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7342#issuecomment-2034118256",
+      "text": "@aparnacoronasafe could you confirm the same, so we can close the issue?\r\n\r\ncc: @nihal467"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-03T09:33:01+00:00",
+      "title": "coronasafe/ayushma#491",
+      "link": "https://github.com/coronasafe/ayushma/pull/491#pullrequestreview-1976156478",
+      "text": "fix(error): added more specific errors"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-03T09:32:10+00:00",
+      "title": "coronasafe/care_fe#7404",
+      "link": "https://github.com/coronasafe/care_fe/pull/7404#pullrequestreview-1976154193",
+      "text": "fix: Removed unnecessary rendering of microphone permission warning info."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7342",
+      "time": "2024-04-03T06:29:19+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7342#issuecomment-2033660417",
+      "text": "@thedevildude could you confirm if the issue is still relevant? After updating a preset - does it reflect immediately or you need to manually refresh the page?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-03T05:01:34+00:00",
+      "title": "coronasafe/care#2045",
+      "link": "https://github.com/coronasafe/care/pull/2045#pullrequestreview-1975503148",
+      "text": "Added github workflow for automated release"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-03T05:01:16+00:00",
+      "title": "coronasafe/care_fe#7526",
+      "link": "https://github.com/coronasafe/care_fe/pull/7526#pullrequestreview-1975502895",
+      "text": "Added github workflow for automated release"
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/zoomdrive#20",
@@ -443,7 +507,7 @@
       "title": "coronasafe/care_fe#7450",
       "time": "2024-03-22T04:36:48+00:00",
       "link": "https://github.com/coronasafe/care_fe/pull/7450#issuecomment-2014340310",
-      "text": "> > Hey, could you recheck? It appears in the files changed tab.\r\n> > https://github.com/coronasafe/care_fe/pull/7450/files#diff-053150b640a7ce75eff69d1a22cae7f0f94ad64ce9a855db544dda0929316519\r\n> > Commit `E-chart preview precision problem fixed ( commit: c126287b4311ad77f5a81e46db9182de05552325 )` [c126287#diff-053150b640a7ce75eff69d1a22cae7f0f94ad64ce9a855db544dda0929316519](https://github.com/coronasafe/care_fe/commit/c126287b4311ad77f5a81e46db9182de05552325#diff-053150b640a7ce75eff69d1a22cae7f0f94ad64ce9a855db544dda0929316519)\r\n> \r\n> @Ashesh3 maybe some version changes occured in my system while running npm install but no package was installed explicitly and there is no change in package.json right\r\n\r\nRight, if there are no changes to package.json - there's no need to push an updated lock file. 😅"
+      "text": "> > Hey, could you recheck? It appears in the files changed tab.\r\n> > https://github.com/coronasafe/care_fe/pull/7450/files#diff-053150b640a7ce75eff69d1a22cae7f0f94ad64ce9a855db544dda0929316519\r\n> > Commit `E-chart preview precision problem fixed ( commit: c126287b4311ad77f5a81e46db9182de05552325 )` [c126287#diff-053150b640a7ce75eff69d1a22cae7f0f94ad64ce9a855db544dda0929316519](https://github.com/coronasafe/care_fe/commit/c126287b4311ad77f5a81e46db9182de05552325#diff-053150b640a7ce75eff69d1a22cae7f0f94ad64ce9a855db544dda0929316519)\r\n> \r\n> @Ashesh3 maybe some version changes occured in my system while running npm install but no package was installed explicitly and there is no change in package.json right\r\n\r\nRight, if there are no changes to package.json - there's no need to push an updated lock file. \ud83d\ude05"
     },
     {
       "type": "comment_created",
@@ -1009,7 +1073,7 @@
       "title": "coronasafe/care#1647",
       "time": "2024-03-08T18:44:51+00:00",
       "link": "https://github.com/coronasafe/care/issues/1647#issuecomment-1986223455",
-      "text": "@Shahbaz898414 Issue is already assigned and PR is already open for it 😅 Feel free to take up another issue!\r\n\r\nhttps://github.com/coronasafe/care/pull/1900"
+      "text": "@Shahbaz898414 Issue is already assigned and PR is already open for it \ud83d\ude05 Feel free to take up another issue!\r\n\r\nhttps://github.com/coronasafe/care/pull/1900"
     },
     {
       "type": "comment_created",
@@ -1111,7 +1175,7 @@
       "title": "coronasafe/care#1936",
       "time": "2024-03-06T17:16:39+00:00",
       "link": "https://github.com/coronasafe/care/pull/1936#issuecomment-1981387948",
-      "text": "Missing migrations 😓\r\n\r\nhttps://github.com/coronasafe/care/actions/runs/8141158502/job/22247833198#step:7:11\r\n\r\ncc: @sainak @rithviknishad "
+      "text": "Missing migrations \ud83d\ude13\r\n\r\nhttps://github.com/coronasafe/care/actions/runs/8141158502/job/22247833198#step:7:11\r\n\r\ncc: @sainak @rithviknishad "
     },
     {
       "type": "pr_merged",
@@ -1530,7 +1594,7 @@
       "title": "coronasafe/ayushma_fe#187",
       "time": "2024-02-28T11:09:11.000Z",
       "link": "https://github.com/coronasafe/ayushma_fe/pull/187#issuecomment-1968752422",
-      "text": "> @Ashesh3 can you make the changes? 😀\r\n\r\nDone!"
+      "text": "> @Ashesh3 can you make the changes? \ud83d\ude00\r\n\r\nDone!"
     },
     {
       "type": "pr_opened",
@@ -2168,7 +2232,7 @@
       "time": "2024-02-12T12:29:47.000Z",
       "title": "coronasafe/leaderboard#216",
       "link": "https://github.com/coronasafe/leaderboard/pull/216#pullrequestreview-1875136449",
-      "text": "Adds API route `/leaderboard` and ✨ Optimize leaderboard page size"
+      "text": "Adds API route `/leaderboard` and \u2728 Optimize leaderboard page size"
     },
     {
       "type": "pr_merged",
@@ -2626,7 +2690,7 @@
       "time": "2024-02-05T15:59:27.000Z",
       "title": "coronasafe/care_fe#7174",
       "link": "https://github.com/coronasafe/care_fe/pull/7174#pullrequestreview-1863173348",
-      "text": "Migrate useDispatch to useQuery for 📂 File Upload module"
+      "text": "Migrate useDispatch to useQuery for \ud83d\udcc2 File Upload module"
     },
     {
       "type": "pr_collaborated",
@@ -2723,7 +2787,7 @@
       "title": "coronasafe/care_fe#7160",
       "time": "2024-02-03T16:27:29.000Z",
       "link": "https://github.com/coronasafe/care_fe/pull/7160#issuecomment-1925374791",
-      "text": "Oh weird 🤔 . @Omkar76 could you take a look into this issue?"
+      "text": "Oh weird \ud83e\udd14 . @Omkar76 could you take a look into this issue?"
     },
     {
       "type": "comment_created",
@@ -3722,7 +3786,7 @@
       "title": "coronasafe/care#1818",
       "time": "2024-01-10T08:05:02.000Z",
       "link": "https://github.com/coronasafe/care/pull/1818#issuecomment-1884362619",
-      "text": "> We can keep the old names\r\n\r\nThat's alright, We'll switch everything back to `discharge_reason` after a week of production, in the next stage as planned. Let's just keep it distinct for now to follow along the changes made 😅 "
+      "text": "> We can keep the old names\r\n\r\nThat's alright, We'll switch everything back to `discharge_reason` after a week of production, in the next stage as planned. Let's just keep it distinct for now to follow along the changes made \ud83d\ude05 "
     },
     {
       "type": "comment_created",
@@ -4523,7 +4587,7 @@
       "title": "coronasafe/care#1760",
       "time": "2023-12-18T09:05:20.000Z",
       "link": "https://github.com/coronasafe/care/pull/1760#issuecomment-1859849285",
-      "text": "> Something feels off about the migration, why is it showing that a migration was edited , cc @sainak\r\n\r\nWhile resolving a merge conflict with the migration, I might have moved one of the previous migrations after this PR's migration 😅 . I've fixed that, should be fine now. could you review?"
+      "text": "> Something feels off about the migration, why is it showing that a migration was edited , cc @sainak\r\n\r\nWhile resolving a merge conflict with the migration, I might have moved one of the previous migrations after this PR's migration \ud83d\ude05 . I've fixed that, should be fine now. could you review?"
     },
     {
       "type": "pr_opened",
@@ -4537,7 +4601,7 @@
       "title": "coronasafe/ayushma_fe#153",
       "time": "2023-12-14T16:11:34.000Z",
       "link": "https://github.com/coronasafe/ayushma_fe/pull/153#issuecomment-1856133363",
-      "text": "@rithviknishad LGTM but preview deploy failed\r\n\r\n```\r\n<html>\r\n<body>\r\n<!--StartFragment-->\r\nFailed to compile.\r\n--\r\n21:24:41.519 |  \r\n21:24:41.519 | ./chatbot/src/main.tsx:33:13\r\n21:24:41.519 | Type error: Argument of type 'Element' is not assignable to parameter of type 'ReactNode'.\r\n21:24:41.519 |  \r\n21:24:41.519 | 31 \\|         const root = createRoot(rootElement);\r\n21:24:41.519 | 32 \\|         root.render(\r\n21:24:41.519 | > 33 \\|             <React.StrictMode>\r\n21:24:41.519 | \\|             ^\r\n21:24:41.519 | 34 \\|                 <Chatbot\r\n21:24:41.519 | 35 \\|                     position={this.position}\r\n21:24:41.519 | 36 \\|                     projectID={this.projectID}\r\n21:24:41.643 | error Command failed with exit code 1.\r\n\r\n<!--EndFragment-->\r\n</body>\r\n</html>\r\n```"
+      "text": "@rithviknishad LGTM but preview deploy failed\r\n\r\n```\r\n<html>\r\n<body>\r\n<!--StartFragment-->\r\nFailed to compile.\r\n--\r\n21:24:41.519 | \u00a0\r\n21:24:41.519 | ./chatbot/src/main.tsx:33:13\r\n21:24:41.519 | Type error: Argument of type 'Element' is not assignable to parameter of type 'ReactNode'.\r\n21:24:41.519 | \u00a0\r\n21:24:41.519 | 31 \\|         const root = createRoot(rootElement);\r\n21:24:41.519 | 32 \\|         root.render(\r\n21:24:41.519 | > 33 \\|             <React.StrictMode>\r\n21:24:41.519 | \\|             ^\r\n21:24:41.519 | 34 \\|                 <Chatbot\r\n21:24:41.519 | 35 \\|                     position={this.position}\r\n21:24:41.519 | 36 \\|                     projectID={this.projectID}\r\n21:24:41.643 | error Command failed with exit code 1.\r\n\r\n<!--EndFragment-->\r\n</body>\r\n</html>\r\n```"
     },
     {
       "type": "pr_reviewed",
@@ -4759,7 +4823,7 @@
       "time": "2023-12-08T21:57:33.000Z",
       "title": "coronasafe/care_fe#6828",
       "link": "https://github.com/coronasafe/care_fe/pull/6828#pullrequestreview-1773224037",
-      "text": "Prevent CARE from reloading during sign in/out 🏃‍♂️"
+      "text": "Prevent CARE from reloading during sign in/out \ud83c\udfc3\u200d\u2642\ufe0f"
     },
     {
       "type": "pr_opened",
@@ -4920,14 +4984,14 @@
       "title": "coronasafe/care#1748",
       "time": "2023-12-06T10:19:11.000Z",
       "link": "https://github.com/coronasafe/care/pull/1748#issuecomment-1842585809",
-      "text": "Yep, done!\r\n\r\n> > Hey, I am not deleting any files 😅 Just added more facilities and patients to the existing dummy data. I think the change size `+1 −3,128` might have been confusing since the new data is all in a single line. This is to discourage someone manually working with the json file directly.\r\n> \r\n> Oh so that's why the title 😅, formatting the json gave more clarity,\r\n> \r\n> can you regenerate the fixtures by excluding, `facility.historicalpatientregistration` and `facility.historicalfacilitycapacity` they are not required and take half of the file size and the `facility_users.json` seems redundant, so both the command and file can be removed\r\n\r\nyep, done!"
+      "text": "Yep, done!\r\n\r\n> > Hey, I am not deleting any files \ud83d\ude05 Just added more facilities and patients to the existing dummy data. I think the change size `+1 \u22123,128` might have been confusing since the new data is all in a single line. This is to discourage someone manually working with the json file directly.\r\n> \r\n> Oh so that's why the title \ud83d\ude05, formatting the json gave more clarity,\r\n> \r\n> can you regenerate the fixtures by excluding, `facility.historicalpatientregistration` and `facility.historicalfacilitycapacity` they are not required and take half of the file size and the `facility_users.json` seems redundant, so both the command and file can be removed\r\n\r\nyep, done!"
     },
     {
       "type": "comment_created",
       "title": "coronasafe/care#1748",
       "time": "2023-12-06T09:30:29.000Z",
       "link": "https://github.com/coronasafe/care/pull/1748#issuecomment-1842507937",
-      "text": "> Deleting this will throw an error in\r\n> \r\n> https://github.com/coronasafe/care/blob/033d0855cdb4a602327e1f4f19808a8d706db4ed/care/facility/management/commands/load_dummy_data.py#L29-L31\r\n> \r\n> as the first file is missing, the other two will fail due to constraint error.\r\n> \r\n> These files are useful for setting up the backend for initial testing, so we should keep these instead and only run\r\n> \r\n> https://github.com/coronasafe/care/blob/033d0855cdb4a602327e1f4f19808a8d706db4ed/care/facility/management/commands/load_dummy_data.py#L25-L28\r\n> \r\n> \r\n> for cypress\r\n\r\nHey, I am not deleting any files 😅 Just added more facilities and patients to the existing dummy data. I think the change size `+1 −3,128` might have been confusing since the new data is all in a single line.\r\n\r\n![image](https://github.com/coronasafe/care/assets/3626859/81bb0110-176e-4313-9a2e-c0a41b20195f)\r\n"
+      "text": "> Deleting this will throw an error in\r\n> \r\n> https://github.com/coronasafe/care/blob/033d0855cdb4a602327e1f4f19808a8d706db4ed/care/facility/management/commands/load_dummy_data.py#L29-L31\r\n> \r\n> as the first file is missing, the other two will fail due to constraint error.\r\n> \r\n> These files are useful for setting up the backend for initial testing, so we should keep these instead and only run\r\n> \r\n> https://github.com/coronasafe/care/blob/033d0855cdb4a602327e1f4f19808a8d706db4ed/care/facility/management/commands/load_dummy_data.py#L25-L28\r\n> \r\n> \r\n> for cypress\r\n\r\nHey, I am not deleting any files \ud83d\ude05 Just added more facilities and patients to the existing dummy data. I think the change size `+1 \u22123,128` might have been confusing since the new data is all in a single line.\r\n\r\n![image](https://github.com/coronasafe/care/assets/3626859/81bb0110-176e-4313-9a2e-c0a41b20195f)\r\n"
     },
     {
       "type": "pr_opened",
@@ -5516,28 +5580,28 @@
       "time": "2023-11-03T15:45:05.000Z",
       "title": "coronasafe/care_fe#6536",
       "link": "https://github.com/coronasafe/care_fe/pull/6536#pullrequestreview-1713034868",
-      "text": "🔧 Hide Camera Feed Tab for bed with no camera attached."
+      "text": "\ud83d\udd27 Hide Camera Feed Tab for bed with no camera attached."
     },
     {
       "type": "pr_reviewed",
       "time": "2023-11-03T15:43:50.000Z",
       "title": "coronasafe/care_fe#6536",
       "link": "https://github.com/coronasafe/care_fe/pull/6536#pullrequestreview-1713032630",
-      "text": "🔧 Hide Camera Feed Tab for bed with no camera attached."
+      "text": "\ud83d\udd27 Hide Camera Feed Tab for bed with no camera attached."
     },
     {
       "type": "pr_reviewed",
       "time": "2023-11-03T15:21:16.000Z",
       "title": "coronasafe/care_fe#6536",
       "link": "https://github.com/coronasafe/care_fe/pull/6536#pullrequestreview-1712960841",
-      "text": "🔧 Hide Camera Feed Tab for bed with no camera attached."
+      "text": "\ud83d\udd27 Hide Camera Feed Tab for bed with no camera attached."
     },
     {
       "type": "pr_reviewed",
       "time": "2023-11-03T15:09:46.000Z",
       "title": "coronasafe/care_fe#6536",
       "link": "https://github.com/coronasafe/care_fe/pull/6536#pullrequestreview-1712929557",
-      "text": "🔧 Hide Camera Feed Tab for bed with no camera attached."
+      "text": "\ud83d\udd27 Hide Camera Feed Tab for bed with no camera attached."
     },
     {
       "type": "pr_merged",
@@ -5551,7 +5615,7 @@
       "time": "2023-11-03T14:56:40.000Z",
       "title": "coronasafe/care_fe#6536",
       "link": "https://github.com/coronasafe/care_fe/pull/6536#pullrequestreview-1712899281",
-      "text": "🔧 Hide Camera Feed Tab for bed with no camera attached."
+      "text": "\ud83d\udd27 Hide Camera Feed Tab for bed with no camera attached."
     },
     {
       "type": "pr_opened",
@@ -5723,14 +5787,14 @@
       "title": "coronasafe/care_fe#6495",
       "time": "2023-10-26T10:16:25.000Z",
       "link": "https://github.com/coronasafe/care_fe/pull/6495#issuecomment-1780825046",
-      "text": "Try to think of a different way to pass the redirect url across pages/components 🤔 Something like the session expired page can silently pass the redirect url to the login component internally without exposing it through the URL. @rithviknishad any suggestions?"
+      "text": "Try to think of a different way to pass the redirect url across pages/components \ud83e\udd14 Something like the session expired page can silently pass the redirect url to the login component internally without exposing it through the URL. @rithviknishad any suggestions?"
     },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#6495",
       "time": "2023-10-26T10:09:41.000Z",
       "link": "https://github.com/coronasafe/care_fe/pull/6495#issuecomment-1780814949",
-      "text": "> now it adds a / in between of the .my.subdomian do you want me to sanitise the redirect further like remove any . or other symbols in front of the redirect? @Ashesh3\r\n\r\n@AshrafMd-1 The POC to redirect to a different domain still works 😅 , It can be exploited to redirect to a different website.\r\n\r\nPOC: https://deploy-preview-6495--care-egov-staging.netlify.app/session-expired?redirect=https://google.com"
+      "text": "> now it adds a / in between of the .my.subdomian do you want me to sanitise the redirect further like remove any . or other symbols in front of the redirect? @Ashesh3\r\n\r\n@AshrafMd-1 The POC to redirect to a different domain still works \ud83d\ude05 , It can be exploited to redirect to a different website.\r\n\r\nPOC: https://deploy-preview-6495--care-egov-staging.netlify.app/session-expired?redirect=https://google.com"
     },
     {
       "type": "pr_opened",
@@ -5821,7 +5885,7 @@
       "time": "2023-10-25T13:30:20.000Z",
       "title": "coronasafe/care#1678",
       "link": "https://github.com/coronasafe/care/pull/1678#pullrequestreview-1697357335",
-      "text": "Patient Consultation: Route to Facility 🏥, Admission Date & Time 🕚, Rename variable: `verified_by` to `treating_physician`"
+      "text": "Patient Consultation: Route to Facility \ud83c\udfe5, Admission Date & Time \ud83d\udd5a, Rename variable: `verified_by` to `treating_physician`"
     },
     {
       "type": "pr_merged",
@@ -7313,14 +7377,14 @@
       "title": "coronasafe/care_fe#6181",
       "time": "2023-09-05T09:05:02.000Z",
       "link": "https://github.com/coronasafe/care_fe/issues/6181#issuecomment-1706228618",
-      "text": "> I don't have an iPhone :/\r\n\r\nNo worries, he was assigning it to me and selected your name by mistake 😅 "
+      "text": "> I don't have an iPhone :/\r\n\r\nNo worries, he was assigning it to me and selected your name by mistake \ud83d\ude05 "
     },
     {
       "type": "comment_created",
       "title": "coronasafe/ayushma#299",
       "time": "2023-09-04T13:03:24.000Z",
       "link": "https://github.com/coronasafe/ayushma/pull/299#issuecomment-1705238692",
-      "text": "> Hey @Ashesh3, did you make migrations after removing the size from the preset_questions field?\r\n\r\nNope, made them now. Thanks for the heads up 😅 "
+      "text": "> Hey @Ashesh3, did you make migrations after removing the size from the preset_questions field?\r\n\r\nNope, made them now. Thanks for the heads up \ud83d\ude05 "
     },
     {
       "type": "pr_reviewed",
@@ -8247,7 +8311,7 @@
       "time": "2023-08-11T07:50:03.000Z",
       "title": "coronasafe/care_fe#6052",
       "link": "https://github.com/coronasafe/care_fe/pull/6052#pullrequestreview-1573172848",
-      "text": "🧹 Replace `loadable` package with react's built-in lazy and add top-level Suspense boundary "
+      "text": "\ud83e\uddf9 Replace `loadable` package with react's built-in lazy and add top-level Suspense boundary "
     },
     {
       "type": "pr_merged",
@@ -8972,7 +9036,7 @@
       "title": "coronasafe/care#1484",
       "time": "2023-07-28T06:46:37.000Z",
       "link": "https://github.com/coronasafe/care/pull/1484#issuecomment-1655122157",
-      "text": "> Tests :)\r\n\r\nTests added, thanks for the nudge. 😅 "
+      "text": "> Tests :)\r\n\r\nTests added, thanks for the nudge. \ud83d\ude05 "
     },
     {
       "type": "pr_opened",
@@ -9387,7 +9451,7 @@
       "title": "coronasafe/care#1454",
       "time": "2023-07-18T15:07:39.000Z",
       "link": "https://github.com/coronasafe/care/pull/1454#issuecomment-1640408328",
-      "text": "> ## Suspect Issues\r\n> This pull request has been deployed and Sentry has observed the following issues:\r\n> \r\n> * ‼️ **APIException: ** `care.facility.tasks.asset_monitor.check_asset_s...` [View Issue](https://coronasafe-network.sentry.io/issues/4323661838/?referrer=github-pr-bot)\r\n> \r\n> Did you find this useful? React with a 👍 or 👎\r\n\r\nThis is expected. Some middleware endpoints are non functional."
+      "text": "> ## Suspect Issues\r\n> This pull request has been deployed and Sentry has observed the following issues:\r\n> \r\n> * \u203c\ufe0f **APIException: ** `care.facility.tasks.asset_monitor.check_asset_s...` [View Issue](https://coronasafe-network.sentry.io/issues/4323661838/?referrer=github-pr-bot)\r\n> \r\n> Did you find this useful? React with a \ud83d\udc4d or \ud83d\udc4e\r\n\r\nThis is expected. Some middleware endpoints are non functional."
     },
     {
       "type": "pr_merged",
@@ -12248,7 +12312,7 @@
       "title": "coronasafe/care_fe#5140",
       "time": "2023-03-25T06:53:14.000Z",
       "link": "https://github.com/coronasafe/care_fe/pull/5140#issuecomment-1483744761",
-      "text": "With this my build time goes down from `210s` to `57s` and hot reload time goes down to `6s` from `28s`. This is really helpful. Great work! \r\nTested on 3.0 GHz Ampere® Altra™ x4 core CPU with 32GB memory."
+      "text": "With this my build time goes down from `210s` to `57s` and hot reload time goes down to `6s` from `28s`. This is really helpful. Great work! \r\nTested on 3.0 GHz Ampere\u00ae Altra\u2122 x4 core CPU with 32GB memory."
     },
     {
       "type": "pr_collaborated",
@@ -13663,7 +13727,7 @@
       "time": "2023-01-04T14:35:38.000Z",
       "title": "coronasafe/care_fe#4506",
       "link": "https://github.com/coronasafe/care_fe/pull/4506#pullrequestreview-1235978117",
-      "text": "🔄 Auto update CARE"
+      "text": "\ud83d\udd04 Auto update CARE"
     },
     {
       "type": "pr_opened",
@@ -13856,7 +13920,7 @@
       "title": "coronasafe/care_fe#4394",
       "time": "2022-12-24T11:43:01.000Z",
       "link": "https://github.com/coronasafe/care_fe/issues/4394#issuecomment-1364515854",
-      "text": "> I thought there was something like (HTML way) since it's pretty common behaviour in other websites to not validate until focus.\r\n> \r\n> Additional JS, I also wouldn't proceed 😅\r\n\r\nI am personally not aware of any such method, tried asking OpenAI too 😬 .\r\n![image](https://user-images.githubusercontent.com/3626859/209434380-ae4bcbe8-79bf-484f-a91e-50dbc9dca885.png)\r\n\r\nSo, I guess we'll have to keep the existing behavior in this case.\r\n"
+      "text": "> I thought there was something like (HTML way) since it's pretty common behaviour in other websites to not validate until focus.\r\n> \r\n> Additional JS, I also wouldn't proceed \ud83d\ude05\r\n\r\nI am personally not aware of any such method, tried asking OpenAI too \ud83d\ude2c .\r\n![image](https://user-images.githubusercontent.com/3626859/209434380-ae4bcbe8-79bf-484f-a91e-50dbc9dca885.png)\r\n\r\nSo, I guess we'll have to keep the existing behavior in this case.\r\n"
     },
     {
       "type": "comment_created",
@@ -14700,7 +14764,7 @@
       "title": "coronasafe/dashboard#203",
       "time": "2022-11-16T07:16:35.000Z",
       "link": "https://github.com/coronasafe/dashboard/issues/203#issuecomment-1316487543",
-      "text": "@aparnacoronasafe You can close the issue if it's resolved 😄 "
+      "text": "@aparnacoronasafe You can close the issue if it's resolved \ud83d\ude04 "
     },
     {
       "type": "issue_closed",
@@ -14735,7 +14799,7 @@
       "title": "coronasafe/care#1091",
       "time": "2022-11-15T12:38:10.000Z",
       "link": "https://github.com/coronasafe/care/pull/1091#issuecomment-1315253336",
-      "text": "@vigneshhari Any updates on getting this merged? 😃 "
+      "text": "@vigneshhari Any updates on getting this merged? \ud83d\ude03 "
     },
     {
       "type": "comment_created",
@@ -16559,7 +16623,7 @@
       "title": "coronasafe/care_fe#3544",
       "time": "2022-09-06T04:58:43.000Z",
       "link": "https://github.com/coronasafe/care_fe/pull/3544#issuecomment-1237659849",
-      "text": "> Why isn't the package-lock changed?\r\n\r\nThat's a good question! Since we're using Yarn as our primary package manager, I've removed and added packages solely using `yarn` commands. It does not touch package-lock, instead it has it's own lock file `yarn.lock` which was indeed modified during this migration. So why isn't it there in this PR? 🤔 It's apparently ignored in the `.gitignore` file [here](https://github.com/coronasafe/care_fe/blob/develop/.gitignore#L52).\r\nIt was recently added in [this commit](https://github.com/coronasafe/care_fe/commit/6e53406f168d005caa5ba4a9747dd4bf25e2b320#diff-bc37d034bad564583790a46f19d807abfe519c5671395fd494d8cce506c42947R50-R52) (probably unintentionally)\r\n\r\nIdeally, it should be checked out to source control. \r\n\r\nhttps://classic.yarnpkg.com/en/docs/migrating-from-npm\r\n\r\n> When you run either yarn or yarn add <package>, Yarn will generate a yarn.lock file within the root directory of your package. You don’t need to read or understand this file - just check it into source control. When other people start using Yarn instead of npm, the yarn.lock file will ensure that they get precisely the same dependencies as you have.\r\n\r\nI made a PR resolving the above issue here: #3545"
+      "text": "> Why isn't the package-lock changed?\r\n\r\nThat's a good question! Since we're using Yarn as our primary package manager, I've removed and added packages solely using `yarn` commands. It does not touch package-lock, instead it has it's own lock file `yarn.lock` which was indeed modified during this migration. So why isn't it there in this PR? \ud83e\udd14 It's apparently ignored in the `.gitignore` file [here](https://github.com/coronasafe/care_fe/blob/develop/.gitignore#L52).\r\nIt was recently added in [this commit](https://github.com/coronasafe/care_fe/commit/6e53406f168d005caa5ba4a9747dd4bf25e2b320#diff-bc37d034bad564583790a46f19d807abfe519c5671395fd494d8cce506c42947R50-R52) (probably unintentionally)\r\n\r\nIdeally, it should be checked out to source control. \r\n\r\nhttps://classic.yarnpkg.com/en/docs/migrating-from-npm\r\n\r\n> When you run either yarn or yarn add <package>, Yarn will generate a yarn.lock file within the root directory of your package. You don\u2019t need to read or understand this file - just check it into source control. When other people start using Yarn instead of npm, the yarn.lock file will ensure that they get precisely the same dependencies as you have.\r\n\r\nI made a PR resolving the above issue here: #3545"
     },
     {
       "type": "pr_opened",
@@ -17294,7 +17358,7 @@
       "title": "coronasafe/care_fe#3218",
       "time": "2022-08-08T19:29:28.000Z",
       "link": "https://github.com/coronasafe/care_fe/pull/3218#issuecomment-1208523747",
-      "text": "> \r\n\r\nI missed your earlier comment, 😅 just noticed it's already fixed, good to close!  "
+      "text": "> \r\n\r\nI missed your earlier comment, \ud83d\ude05 just noticed it's already fixed, good to close!  "
     },
     {
       "type": "pr_opened",
@@ -17420,7 +17484,7 @@
       "title": "coronasafe/care_fe#3325",
       "time": "2022-08-05T07:18:26.000Z",
       "link": "https://github.com/coronasafe/care_fe/issues/3325#issuecomment-1206126678",
-      "text": "@aparnacoronasafe PR https://github.com/coronasafe/care_fe/pull/3318/ already fixes this issue! Linked this issue to said PR.😄 "
+      "text": "@aparnacoronasafe PR https://github.com/coronasafe/care_fe/pull/3318/ already fixes this issue! Linked this issue to said PR.\ud83d\ude04 "
     },
     {
       "type": "comment_created",
@@ -18204,14 +18268,14 @@
       "title": "coronasafe/care_fe#2715",
       "time": "2022-06-23T09:01:11.000Z",
       "link": "https://github.com/coronasafe/care_fe/pull/2715#issuecomment-1164145611",
-      "text": "> @Ashesh3 sorry about that, this issue was reported and wanted to be fixed urgent, so when I searched the issues, there was no issue regarding this error, so I kinda went a head and made a pr without searching if there was any pr related to this. 😅\r\n> \r\n> It's my bad, just to be more careful for here on, I suggest creating an issue and assign it to yourself and move a head with pr.\r\n> \r\n> sorry again Ashesh.\r\n\r\nOh I see, Yep this was indeed an important issue, I agree with you! Thank you for the tip, will create issues for my PRs 😄 And It's all good man! As long as the bugs are resolved, that's what we're here for, right 😉 ! Thanks again!"
+      "text": "> @Ashesh3 sorry about that, this issue was reported and wanted to be fixed urgent, so when I searched the issues, there was no issue regarding this error, so I kinda went a head and made a pr without searching if there was any pr related to this. \ud83d\ude05\r\n> \r\n> It's my bad, just to be more careful for here on, I suggest creating an issue and assign it to yourself and move a head with pr.\r\n> \r\n> sorry again Ashesh.\r\n\r\nOh I see, Yep this was indeed an important issue, I agree with you! Thank you for the tip, will create issues for my PRs \ud83d\ude04 And It's all good man! As long as the bugs are resolved, that's what we're here for, right \ud83d\ude09 ! Thanks again!"
     },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#2715",
       "time": "2022-06-23T08:16:16.000Z",
       "link": "https://github.com/coronasafe/care_fe/pull/2715#issuecomment-1164099784",
-      "text": "@khavinshankar @gigincg Wait, i am a bit confused here.. Wasn't this PR opened before? 😅 It was opened, approved days ago but a newer PR ended up getting merged instead? Am i missing something here? 😅 Just wanna make sure my PRs aren't getting hidden behind.\r\nJune 14 this PR and June 17 the other PR"
+      "text": "@khavinshankar @gigincg Wait, i am a bit confused here.. Wasn't this PR opened before? \ud83d\ude05 It was opened, approved days ago but a newer PR ended up getting merged instead? Am i missing something here? \ud83d\ude05 Just wanna make sure my PRs aren't getting hidden behind.\r\nJune 14 this PR and June 17 the other PR"
     },
     {
       "type": "pr_merged",
@@ -18316,7 +18380,7 @@
       "title": "coronasafe/care_fe#2706",
       "time": "2022-06-14T08:23:25.000Z",
       "link": "https://github.com/coronasafe/care_fe/pull/2706#issuecomment-1154871486",
-      "text": "> Hey @Ashesh3! This issue has been already fixed in #2702 😅\r\n\r\nOh, alright! 😄 You can link the issue to that PR then!"
+      "text": "> Hey @Ashesh3! This issue has been already fixed in #2702 \ud83d\ude05\r\n\r\nOh, alright! \ud83d\ude04 You can link the issue to that PR then!"
     },
     {
       "type": "pr_opened",
@@ -18533,7 +18597,7 @@
       "title": "coronasafe/care_fe#2535",
       "time": "2022-05-26T12:10:49.000Z",
       "link": "https://github.com/coronasafe/care_fe/issues/2535#issuecomment-1138497558",
-      "text": "Now that's one smart way to hide your last seen! 👀 "
+      "text": "Now that's one smart way to hide your last seen! \ud83d\udc40 "
     },
     {
       "type": "pr_opened",
@@ -18554,7 +18618,7 @@
       "title": "coronasafe/care_fe#2532",
       "time": "2022-05-26T11:52:48.000Z",
       "link": "https://github.com/coronasafe/care_fe/issues/2532#issuecomment-1138457947",
-      "text": "> > I believe that the intention of displaying the message \"Comment should contain at least 1 character\" to the user is to prevent mishaps where they user might accidently try to hit the \"Post comment\"/\"Add note\" button without actually filling the box.\r\n> > Sure, they can still bypass it by adding a space. But if we then add a check for the space, we would need to address dozens other ways where the user might try to post an empty comment. For example, using empty Unicode characters or even unintentional characters like a single dot or multiple spaces, tabs etc.\r\n> > Although adding this is a neat little change, I think it might be out of scope of the behavior we are expecting from the check there currently is (Which is only checking length of the TextField's value).\r\n> > TLDR; There would be many ways to bypass this check and it's main purpose should be limited to just nudging the user in case they hit submit without any text, accidently.\r\n> > Just my thoughts, would love to hear other opinions on this! smile\r\n> \r\n> Yeah @Ashesh3 I completely agree on this but comment without anything looks a little unprofessional it can contain anything a dot or any single character but containing space can make it look empty :) Even in whatsapp try to send a message containing only spaces no character it would not allow you to send it. Having this check maybe a bit enhancement 😄\r\n\r\nYep, agree with you there, could be a neat enhancement! \r\nWe would also need to add a check for invisible Unicode characters too, since that would let users post a blank (but non empty) comment. \r\n\r\nBonus: Try copy pasting this character `‏‏‎ ‎` (select the code block and copy), into Whatsapp and see what happens 😉 "
+      "text": "> > I believe that the intention of displaying the message \"Comment should contain at least 1 character\" to the user is to prevent mishaps where they user might accidently try to hit the \"Post comment\"/\"Add note\" button without actually filling the box.\r\n> > Sure, they can still bypass it by adding a space. But if we then add a check for the space, we would need to address dozens other ways where the user might try to post an empty comment. For example, using empty Unicode characters or even unintentional characters like a single dot or multiple spaces, tabs etc.\r\n> > Although adding this is a neat little change, I think it might be out of scope of the behavior we are expecting from the check there currently is (Which is only checking length of the TextField's value).\r\n> > TLDR; There would be many ways to bypass this check and it's main purpose should be limited to just nudging the user in case they hit submit without any text, accidently.\r\n> > Just my thoughts, would love to hear other opinions on this! smile\r\n> \r\n> Yeah @Ashesh3 I completely agree on this but comment without anything looks a little unprofessional it can contain anything a dot or any single character but containing space can make it look empty :) Even in whatsapp try to send a message containing only spaces no character it would not allow you to send it. Having this check maybe a bit enhancement \ud83d\ude04\r\n\r\nYep, agree with you there, could be a neat enhancement! \r\nWe would also need to add a check for invisible Unicode characters too, since that would let users post a blank (but non empty) comment. \r\n\r\nBonus: Try copy pasting this character `\u200f\u200f\u200e \u200e` (select the code block and copy), into Whatsapp and see what happens \ud83d\ude09 "
     },
     {
       "type": "pr_opened",
@@ -18568,7 +18632,7 @@
       "title": "coronasafe/care_fe#2532",
       "time": "2022-05-26T11:32:00.000Z",
       "link": "https://github.com/coronasafe/care_fe/issues/2532#issuecomment-1138435255",
-      "text": "I believe that the intention of displaying the message \"Comment should contain at least 1 character\" to the user is to prevent mishaps where they user might accidently try to hit the \"Post comment\"/\"Add note\" button without actually filling the box.\r\n\r\nSure, they can still bypass it by adding a space. But if we then add a check for the space, we would need to address dozens other ways where the user might try to post an empty comment. For example, using empty Unicode characters or even unintentional characters like a single dot or multiple spaces, tabs etc. \r\n\r\nAlthough adding this is a neat little change, I think it might be out of scope of the behavior we are expecting from the check there currently is (Which is only checking length of the TextField's value).\r\n\r\nTLDR; There would be many ways to bypass this check and it's main purpose should be limited to just nudging the user in case they hit submit without any text, accidently.\r\n\r\nJust my thoughts, would love to hear other opinions on this! 😄 "
+      "text": "I believe that the intention of displaying the message \"Comment should contain at least 1 character\" to the user is to prevent mishaps where they user might accidently try to hit the \"Post comment\"/\"Add note\" button without actually filling the box.\r\n\r\nSure, they can still bypass it by adding a space. But if we then add a check for the space, we would need to address dozens other ways where the user might try to post an empty comment. For example, using empty Unicode characters or even unintentional characters like a single dot or multiple spaces, tabs etc. \r\n\r\nAlthough adding this is a neat little change, I think it might be out of scope of the behavior we are expecting from the check there currently is (Which is only checking length of the TextField's value).\r\n\r\nTLDR; There would be many ways to bypass this check and it's main purpose should be limited to just nudging the user in case they hit submit without any text, accidently.\r\n\r\nJust my thoughts, would love to hear other opinions on this! \ud83d\ude04 "
     },
     {
       "type": "pr_opened",

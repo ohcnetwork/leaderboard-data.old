@@ -1,6 +1,39 @@
 {
-  "last_updated": "2024-04-02T15:01:01+00:00",
+  "last_updated": "2024-04-03T13:18:35+00:00",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7529",
+      "time": "2024-04-03T13:18:35+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7529",
+      "text": "Staging Release for v24.15.0",
+      "collaborated_with": [
+        "soumya-maheshwari",
+        "rithviknishad",
+        "Ashesh3",
+        "rash-27",
+        "mohanrajnambe",
+        "aeswibon"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7499",
+      "time": "2024-04-03T08:18:27+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7499",
+      "text": "Add Cypress test to patient file upload",
+      "turnaround_time": 52133
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7499",
+      "time": "2024-04-03T08:18:27+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7499",
+      "text": "Add Cypress test to patient file upload",
+      "collaborated_with": [
+        "nihal467"
+      ]
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7498",
@@ -1969,7 +2002,7 @@
       "title": "coronasafe/care_fe#6495",
       "time": "2023-10-26T17:15:51.000Z",
       "link": "https://github.com/coronasafe/care_fe/pull/6495#issuecomment-1781524430",
-      "text": ">  The navigate should work, why is it navigating to `/` or going into the refresh loop?\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/98876115/49b0eef7-e99c-4c66-923e-7f80274167f1)\r\n![image](https://github.com/coronasafe/care_fe/assets/98876115/37f3c77f-22b6-4859-8689-c6d5bb23ea9b)\r\n\r\nThe issue arises from the `isAuthenticated` function continuing to return `true`, even when the token is incorrect. Furthermore, I can keep the browsing history intact until the session expiration page, but when I attempt to navigate to the login page, the entire history is wiped clean.\r\n\r\nAs a solution, I reached out to @rithviknishad , who suggested revisiting the query parameter approach. Now, the recommendation is to check if the origin of the redirect URL matches the origin of care.\r\n\r\n@Ashesh3 , I'm currently implementing the query parameter approach. "
+      "text": ">  The navigate should work, why is it navigating to\u00a0`/`\u00a0or going into the refresh loop?\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/98876115/49b0eef7-e99c-4c66-923e-7f80274167f1)\r\n![image](https://github.com/coronasafe/care_fe/assets/98876115/37f3c77f-22b6-4859-8689-c6d5bb23ea9b)\r\n\r\nThe issue arises from the `isAuthenticated` function continuing to return `true`, even when the token is incorrect. Furthermore, I can keep the browsing history intact until the session expiration page, but when I attempt to navigate to the login page, the entire history is wiped clean.\r\n\r\nAs a solution, I reached out to @rithviknishad , who suggested revisiting the query parameter approach. Now, the recommendation is to check if the origin of the redirect URL matches the origin of care.\r\n\r\n@Ashesh3 , I'm currently implementing the query parameter approach. "
     },
     {
       "type": "comment_created",
@@ -2108,65 +2141,6 @@
       "text": "Add Cypress test to patient file upload"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7517",
-      "title": "Fixed scroll overlay in medicine dashboard ",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7499",
-      "title": "Add Cypress test to patient file upload",
-      "stale_for": 0,
-      "labels": [
-        "needs testing"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7498",
-      "title": "Restrict Unauthorized Users from Accessing Facility's Patient Registration",
-      "stale_for": 0,
-      "labels": [
-        "Deploy-Failed"
-      ]
-    }
-  ],
-  "authored_issue_and_pr": [
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7384",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7392"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6923",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6946"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6902",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6910"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6838",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6842"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6837",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6841"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6783",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6848"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6632",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6639"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6599",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6614"
-    }
-  ]
+  "open_prs": [],
+  "authored_issue_and_pr": []
 }
