@@ -1,6 +1,90 @@
 {
-  "last_updated": "2024-04-04T18:18:28+00:00",
+  "last_updated": "2024-04-05T17:03:46+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7551",
+      "time": "2024-04-05T17:03:46+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7551",
+      "text": "search by typing in symptoms"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2055",
+      "time": "2024-04-05T06:20:15+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2055#issuecomment-2039031549",
+      "text": "@rithviknishad I capitalized the names and also capitalized in the frontend "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-05T05:56:58+00:00",
+      "title": "coronasafe/care#2055",
+      "link": "https://github.com/coronasafe/care/pull/2055#pullrequestreview-1981999732",
+      "text": "Occupation dropdown backend"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-05T05:49:28+00:00",
+      "title": "coronasafe/care#2055",
+      "link": "https://github.com/coronasafe/care/pull/2055#pullrequestreview-1981992357",
+      "text": "Occupation dropdown backend"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2055",
+      "time": "2024-04-05T05:23:47+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2055#issuecomment-2038966697",
+      "text": "@rithviknishad I changed this in my windows machine just to run the command and pushed it by mistake I changed it back"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#3618",
+      "time": "2024-04-05T05:11:03+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/3618#issuecomment-2038952130",
+      "text": "@rithviknishad assign me the related PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7541",
+      "time": "2024-04-05T05:08:50+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7541#issuecomment-2038949787",
+      "text": "@rithviknishad I made the backend PR also check the link in the issues"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7541",
+      "time": "2024-04-05T05:02:44+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7541#issuecomment-2038943210",
+      "text": "@rithviknishad yes yes I didn't notice that it was already exported..."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7544",
+      "time": "2024-04-05T03:33:33+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7544#issuecomment-2038788043",
+      "text": "@athulmanuel I can do this can you assign me"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7544",
+      "time": "2024-04-05T03:33:03+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7544#issuecomment-2038786611",
+      "text": "@athulmanuel we can make the changes in such a way that user gets a date form field for every symptom and accordingly we can changes in the backend also."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7543",
+      "time": "2024-04-05T03:26:42+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7543#issuecomment-2038772285",
+      "text": "@athulmanuel can you assign me"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7543",
+      "time": "2024-04-05T03:26:10+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7543#issuecomment-2038771316",
+      "text": "@athulmanuel we can use autoCompleteFormField component to solve this issue"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7516",
@@ -544,6 +628,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7551",
+      "title": "search by typing in symptoms",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care/pull/2055",
       "title": "Occupation dropdown backend",
       "stale_for": 0,
@@ -553,12 +643,16 @@
       "link": "https://github.com/coronasafe/care_fe/pull/7541",
       "title": "Occupation dropdown frontend",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review",
+        "waiting for backend"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1996",
       "title": "Soft delete assets from deleted facilities/hospitals",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],
