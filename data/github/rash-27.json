@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-04-05T09:33:33+00:00",
+  "last_updated": "2024-04-06T13:33:16+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#421",
+      "time": "2024-04-06T13:33:16+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/issues/421#issuecomment-2041083392",
+      "text": "Sure , I'll look into it ."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#421",
+      "time": "2024-04-06T13:24:39+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/issues/421#issuecomment-2041081485",
+      "text": "@Re-Dei what I thought is that currently we are rendering '/people' on the server side and showing cards using tailwind (using opacity so that we are fetching them while rendering on the server) ,and converting that to a client side component may take away the advantages of the SSR right ? "
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/care_fe#7548",
@@ -1067,25 +1081,25 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7548",
       "title": "add seperate sub-heading for each user type in DoctorConnect",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7545",
       "title": "show details of patient in live feed monitoring",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/leaderboard/pull/420",
       "title": "fix theme for footer",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/leaderboard/pull/418",
       "title": "enable/disable features from env variables",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": [
         "changes required"
       ]
@@ -1093,7 +1107,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1929",
       "title": "Add age validation in PatientDetailSerializer",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     }
   ],
