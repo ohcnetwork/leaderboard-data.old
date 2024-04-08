@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-04-03T09:17:25+00:00",
+  "last_updated": "2024-04-07T11:50:26+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7487",
+      "time": "2024-04-07T11:50:26+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7487#issuecomment-2041443514",
+      "text": "Hey @rithviknishad ,\r\nI found a bug in the shifting section. I had done the scroll thing but the issue is that even if there are more than 14 patients in any section, only 14 are loaded by pagination. THERE IS NO MORE OPTION. It is expected to have a more option at the end, but there is some bug in the code so it is not showing, EVEN IN ORIGINAL HOSTED WEBSITE. I am working on that, I will sort it real soon.  I have shared a ss of the bug. \r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/97839370/4692662b-5bae-40f6-846c-cece306bd434)\r\n"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-04-03T09:17:25+00:00",
@@ -51,6 +58,15 @@
       "text": "Hello, myself Dwip Brahma, pre-final year CS undergrad from Jadavpur University. I am well versed in technologies like Node,React , Django and programming languages like Javascript, Typescript, etc. Besides that, I have special interest in contributions to medical field, and am a participant of Hack-o-Med. I am really interested to make contributions to the project.\r\n\r\nRegarding the project, besides the support for adding various media and user tagging, I propose to add features like pasring reports to extract information, making it easier for doctor to maintain the patient record. I would like to discuss further possible improvements and request for a chance to work on it.\r\n\r\nContact details - brahma.dwip.56@gmail.com"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7491",
+      "title": "Solving the scroll issue in Shifting",
+      "stale_for": 4,
+      "labels": [
+        "changes required"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }
