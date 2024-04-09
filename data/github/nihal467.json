@@ -1,6 +1,133 @@
 {
-  "last_updated": "2024-04-06T21:59:31+00:00",
+  "last_updated": "2024-04-08T22:53:13+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7533",
+      "time": "2024-04-08T22:53:13+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7533#issuecomment-2043768296",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#1940",
+      "time": "2024-04-08T22:46:50+00:00",
+      "link": "https://github.com/coronasafe/care/pull/1940#issuecomment-2043762632",
+      "text": "@AnkurPrabhu \r\n![image](https://github.com/coronasafe/care/assets/57055998/ddc9f18e-9f9e-4157-adf9-7784ed547c86)\r\n\r\nthe backend is not loading properly in docker, just check your PR is working properly , there are migration missing in it"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7561",
+      "time": "2024-04-08T21:34:32+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7561#issuecomment-2043680171",
+      "text": "LGTM"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-08T21:31:59+00:00",
+      "title": "coronasafe/care_fe#7553",
+      "link": "https://github.com/coronasafe/care_fe/pull/7553#pullrequestreview-1987438384",
+      "text": "Add option to mark notification as unread"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7532",
+      "time": "2024-04-08T20:47:43+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7532#issuecomment-2043616995",
+      "text": "QA test\r\n\r\n- [ ] normal log update working properly\r\n- [ ] MEWS working properly\r\n- [ ] previous value copying properly\r\n- [ ] edit existing log update\r\n- [ ] verify the chart reflection"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7551",
+      "time": "2024-04-08T20:41:38+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7551#issuecomment-2043608582",
+      "text": "![image](https://github.com/coronasafe/care_fe/assets/57055998/69c22c61-e692-46df-9f0c-8d02743083a9)\r\n\r\n- [ ] Go to the patient_consultation.cy.ts file and modify the patientconsultationpage.selectsymptoms().\r\n- [ ] Since we don't have search and multi-select reusable selector components, create a component in the command.ts file for Cypress, and use it to select symptoms in the function."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7517",
+      "time": "2024-04-08T18:39:49+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7517#issuecomment-2043426511",
+      "text": "LGTM"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7577",
+      "time": "2024-04-08T17:56:00+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7577",
+      "text": "Production release v24.15.0 | April week 2",
+      "collaborated_with": [
+        "soumya-maheshwari",
+        "mohanrajnambe",
+        "aeswibon",
+        "rash-27",
+        "rithviknishad",
+        "AshrafMd-1",
+        "gigincg",
+        "khavinshankar",
+        "Ashesh3"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7576",
+      "time": "2024-04-08T15:55:31+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7576",
+      "text": "Merge Develop into Staging",
+      "collaborated_with": [
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7575",
+      "time": "2024-04-08T15:09:29+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7575#issuecomment-2043015085",
+      "text": "LGTM"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7574",
+      "time": "2024-04-08T12:55:20+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7574",
+      "text": "change date of birth field to year of birth in patient registration form"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7573",
+      "time": "2024-04-08T12:19:26+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7573",
+      "text": "Cypress test for patient discharge"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7541",
+      "time": "2024-04-08T12:09:46+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7541#issuecomment-2042581954",
+      "text": "@hrit2773 we are having a cypress test failure, fix it\r\n\r\nNavigate to the \"patient_spec\" folder, then locate the \"patient_registration.cy.ts\" file. In this file, update the Occupation selection component. Currently, it uses \"cy.clickAndSelectOption\". Change this to reuse the \"cy.searchAndSelectOption\" function as you change the occupation component from a select form field to an autocomplete form field."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7438",
+      "time": "2024-04-08T11:44:27+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7438#issuecomment-2042534321",
+      "text": "![image](https://github.com/coronasafe/care_fe/assets/57055998/bb06c5d2-b088-4c37-b1e0-d0e4a84eedc2)\r\n\r\n**Above is PR deployment**\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/de02abbd-6c37-4e65-b9c9-b38d0f56a8cd)\r\n\r\n**Above is the current staging**\r\n\r\n@r-nikhilkumar When there is a log update present for a patient, and the MEWS relevant data are missing, the MEWS score should be displayed as \"-\" Upon hovering over it, the related tooltip should show the missing data and related information. This functionality is currently working properly in the staging environment but is missing in your pull request.\r\n\r\nIt is a basic functionality of the MEWS score. Therefore, I kindly request you to familiarize yourself with the function first, understand its functionality, make the necessary changes, conduct self QA of the function, and then submit it for review."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7404",
+      "time": "2024-04-08T11:19:45+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7404#issuecomment-2042489045",
+      "text": "lgtm"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7554",
+      "time": "2024-04-08T01:31:36+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7554",
+      "text": "New Cypress Test | Patient consultation file upload | Patient Consultation Module",
+      "turnaround_time": 17468
+    },
     {
       "type": "issue_opened",
       "title": "coronasafe/care_fe#7558",
@@ -33150,15 +33277,17 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/7554",
-      "title": "New Cypress Test | Patient consultation file upload | Patient Consultation Module",
+      "link": "https://github.com/coronasafe/care_fe/pull/7573",
+      "title": "Cypress test for patient discharge",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "merge conflict"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7476",
       "title": "Cypress Test | Critical Care",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": []
     }
   ],

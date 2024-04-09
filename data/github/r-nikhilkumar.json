@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-04-03T13:07:54+00:00",
+  "last_updated": "2024-04-08T13:58:13+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7438",
+      "time": "2024-04-08T13:58:13+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7438#issuecomment-2042832514",
+      "text": "@nihal467 it is because I mentioned this\r\n![image](https://github.com/coronasafe/care_fe/assets/91010142/11ff5897-da9c-4f27-9bba-cdbeb7c3b6b2)\r\n\r\n\r\nin my local its showing the mews field as you shown in staging view, it is not showing in deployed preview might be a reason that from backend mews_field is getting sent as a response field and to get mews_field in response first need to make changes from backend and for the backend changes i raised a pr already once that will be deployed in main server, then the mews_field response will be fetched successfully and the mews score will be show too\r\n![image](https://github.com/coronasafe/care_fe/assets/91010142/73e0decc-0dfe-40b5-ab1c-5cf11f207a32)\r\n"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care#1991",
@@ -445,6 +452,23 @@
       "text": "Issue resolved \"Handle the 0 Input in the Pressure sore and Pain Scale component\""
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/coronasafe/care/pull/1991",
+      "title": "Enhance MEWS calculation by fetching data from last 5 log updates",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7438",
+      "title": "Solved issue \"Enhancement to MEWS Score\"",
+      "stale_for": 0,
+      "labels": [
+        "test failed",
+        "changes required",
+        "waiting for backend"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }
