@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-04-07T06:34:11+00:00",
+  "last_updated": "2024-04-09T10:48:37+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7367",
+      "time": "2024-04-09T10:48:37+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7367#issuecomment-2044699190",
+      "text": "@rithviknishad can you please mark this as needs testing "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-09T10:20:52+00:00",
+      "title": "coronasafe/care_fe#7561",
+      "link": "https://github.com/coronasafe/care_fe/pull/7561#pullrequestreview-1988677840",
+      "text": "fix: Auto-close country codes dropdown when clicking outside the component"
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/care_fe#7561",
@@ -1083,18 +1097,21 @@
       "link": "https://github.com/coronasafe/care_fe/pull/7561",
       "title": "fix: Auto-close country codes dropdown when clicking outside the component",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "tested",
+        "changes required"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7556",
       "title": "Fix: unusual behaviour when removing selected Options",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1964",
       "title": "Adds bulk import support for assets",
-      "stale_for": 2,
+      "stale_for": 4,
       "labels": []
     },
     {
@@ -1102,8 +1119,7 @@
       "title": "Introduced Reusable JSON Parser and Validator with Schema, File Preview, and Selected Import Support for XLSX/CSV Files",
       "stale_for": 0,
       "labels": [
-        "test failed",
-        "Deploy-Failed"
+        "needs testing"
       ]
     }
   ],
