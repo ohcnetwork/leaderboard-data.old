@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-04-09T10:48:37+00:00",
+  "last_updated": "2024-04-10T17:38:27+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#430",
+      "time": "2024-04-10T17:38:27+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/issues/430#issuecomment-2048121190",
+      "text": "> How would you validate a user is allowed to access the deployment?\r\n\r\n- The feature will be disabled by default, and all routes related to authentication (/api/auth) will redirect to the home page if it's disabled.\r\n- The user needs to manually change a flag like (ENABLE_AUTHENTICATION=true) in the environment variables to enable authentication.\r\n- If a user has enabled this flag, they need to provide a client ID and secret from their own OAuth.\r\n- The user's role will be fetched from the data repo directly based on a username."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#430",
+      "time": "2024-04-10T17:04:57+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/issues/430#issuecomment-2048064046",
+      "text": "@rithviknishad can you please assign this to me !"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/leaderboard#430",
+      "time": "2024-04-10T17:03:59+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/issues/430",
+      "text": "Configurable Authentication for Leaderboard"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7561",
+      "time": "2024-04-10T14:56:28+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7561#issuecomment-2047784070",
+      "text": "> Would it be possible to use one of the headlessui component to handle the dropdown/popover? So that we won't need a custom hook to handle click outside to begin with?\r\n\r\nwill give it a try"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7367",
@@ -1098,26 +1126,25 @@
       "title": "fix: Auto-close country codes dropdown when clicking outside the component",
       "stale_for": 0,
       "labels": [
-        "tested",
         "changes required"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7556",
       "title": "Fix: unusual behaviour when removing selected Options",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1964",
       "title": "Adds bulk import support for assets",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7367",
       "title": "Introduced Reusable JSON Parser and Validator with Schema, File Preview, and Selected Import Support for XLSX/CSV Files",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing"
       ]
