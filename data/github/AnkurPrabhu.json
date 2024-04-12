@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-04-10T18:26:13+00:00",
+  "last_updated": "2024-04-11T21:34:24+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7569",
+      "time": "2024-04-11T21:34:24+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7569#issuecomment-2050592767",
+      "text": "\r\n<img width=\"551\" alt=\"Screenshot 2024-04-12 at 2 58 40 AM\" src=\"https://github.com/coronasafe/care_fe/assets/85862184/060444bb-cd2f-4c74-a698-34899a2aa3fc\">\r\n\r\n\r\n@rithviknishad in the query object instead of adding `searchAll` we just have to use `unoccupiedOnly` this will solve this issue right ?\r\nlet me know if this is what we want ill make the pr for this one "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7571",
+      "time": "2024-04-11T20:15:06+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7571#issuecomment-2050445527",
+      "text": "@rithviknishad  here is the pr can you tell me how can i test is locally for valid QR codes "
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7588",
+      "time": "2024-04-11T20:14:09+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7588",
+      "text": "Fix Incorrect error message for invalid QR code "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7571",
+      "time": "2024-04-11T15:32:48+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7571#issuecomment-2049973468",
+      "text": "fixing it and raising a pr "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7571",
+      "time": "2024-04-11T15:32:37+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7571#issuecomment-2049973114",
+      "text": "@rithviknishad I found the root cause "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7583",
+      "time": "2024-04-11T10:35:29+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7583#issuecomment-2049400090",
+      "text": "@sainak can i take this up ?"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care#1940",
@@ -490,9 +532,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7588",
+      "title": "Fix Incorrect error message for invalid QR code ",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care/pull/2024",
       "title": "add support for configurable sms backend",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "Hold"
       ]
@@ -500,7 +548,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1940",
       "title": "Add created_by and updated_by fields to base model",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],

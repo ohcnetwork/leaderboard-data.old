@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-04-10T17:38:27+00:00",
+  "last_updated": "2024-04-11T08:50:36+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#430",
+      "time": "2024-04-11T08:50:36+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/issues/430#issuecomment-2049225821",
+      "text": "That might be a bit tricky! \r\n\r\n- One thing we can do is domain specific validation (email@organization.com).\r\n- Only the users present in the data repository will be validated or allowed.\r\n- We can add something like a request for access, which creates a PR similar to what we have for updating profiles. If and only if the pr gets merged, then the user will get access."
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/leaderboard#430",
@@ -1124,7 +1131,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7561",
       "title": "fix: Auto-close country codes dropdown when clicking outside the component",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "changes required"
       ]
@@ -1132,19 +1139,19 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7556",
       "title": "Fix: unusual behaviour when removing selected Options",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1964",
       "title": "Adds bulk import support for assets",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7367",
       "title": "Introduced Reusable JSON Parser and Validator with Schema, File Preview, and Selected Import Support for XLSX/CSV Files",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs testing"
       ]
