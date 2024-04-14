@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-04-11T08:50:36+00:00",
+  "last_updated": "2024-04-13T20:21:48+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#430",
+      "time": "2024-04-13T20:21:48+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/issues/430#issuecomment-2053749818",
+      "text": "@dgparmar14 we need authentication to verify the users who will have access to private repositories, right? \r\nthe problem here is how we going to allow which users will have access \r\nlet me know if you have any ideas on how this can be achived "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#430",
+      "time": "2024-04-13T20:16:30+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/issues/430#issuecomment-2053748603",
+      "text": "@rithviknishad , can we have a separate endpoint that is only accessible to the owner? The owner's email will be placed in the env , and the user with that email can access a route where the owner can add users' emails to allow them access to the website. I think we can somehow have write access permissions for the data repository directly using GitHub's new fine-grained PAT and update the data repository using Octokit.\r\n![image](https://github.com/coronasafe/leaderboard/assets/111575806/a952f2be-f24e-486d-95b0-c0c497e3eb2b)\r\n, Also, we can directly update a specific file, such as `allowedUsers`, from the web using Octokit.\r\nhttps://stackoverflow.com/questions/41316067/updating-a-file-in-github-repository-using-octokit"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/leaderboard#430",
@@ -1127,68 +1141,6 @@
       "text": "Added indication for option selected in Date Range picker"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7561",
-      "title": "fix: Auto-close country codes dropdown when clicking outside the component",
-      "stale_for": 1,
-      "labels": [
-        "changes required"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7556",
-      "title": "Fix: unusual behaviour when removing selected Options",
-      "stale_for": 4,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/coronasafe/care/pull/1964",
-      "title": "Adds bulk import support for assets",
-      "stale_for": 6,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7367",
-      "title": "Introduced Reusable JSON Parser and Validator with Schema, File Preview, and Selected Import Support for XLSX/CSV Files",
-      "stale_for": 2,
-      "labels": [
-        "needs testing"
-      ]
-    }
-  ],
-  "authored_issue_and_pr": [
-    {
-      "issue_link": "https://github.com/coronasafe/leaderboard/issues/377",
-      "pr_link": "https://github.com/coronasafe/leaderboard/pull/380"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/leaderboard/issues/312",
-      "pr_link": "https://github.com/coronasafe/leaderboard/pull/313"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/leaderboard/issues/311",
-      "pr_link": "https://github.com/coronasafe/leaderboard/pull/325"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/leaderboard/issues/289",
-      "pr_link": "https://github.com/coronasafe/leaderboard/pull/310"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/leaderboard/issues/271",
-      "pr_link": "https://github.com/coronasafe/leaderboard/pull/280"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/leaderboard/issues/270",
-      "pr_link": "https://github.com/coronasafe/leaderboard/pull/296"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/leaderboard/issues/257",
-      "pr_link": "https://github.com/coronasafe/leaderboard/pull/267"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7248",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7250"
-    }
-  ]
+  "open_prs": [],
+  "authored_issue_and_pr": []
 }
