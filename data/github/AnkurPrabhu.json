@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-04-12T13:15:29+00:00",
+  "last_updated": "2024-04-14T23:03:58+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7608",
+      "time": "2024-04-14T23:03:58+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7608#issuecomment-2054213465",
+      "text": "@nihal467 found the root cause for this will discuss my solution with others and make a pr\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7608",
+      "time": "2024-04-14T20:12:11+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7608#issuecomment-2054172556",
+      "text": "@nihal467 can i pick this up ?"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7595",
+      "time": "2024-04-14T20:11:25+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7595#issuecomment-2054172351",
+      "text": "@nihal467 we already had a notification for this one just fixed it do we still need the copy change ? it is currently \"Cover image deleted\""
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7609",
+      "time": "2024-04-14T20:08:28+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7609#issuecomment-2054171432",
+      "text": "@rithviknishad we already had notification for deletion its just that due to re-renders it does not show it. this should fix it \r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7609",
+      "time": "2024-04-14T20:07:46+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7609",
+      "text": "Fix Notifications for Facility Cover Image Deletion "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7595",
+      "time": "2024-04-14T09:45:17+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7595#issuecomment-2053987095",
+      "text": "can i take this up ?"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care#1840",
@@ -539,15 +581,21 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7609",
+      "title": "Fix Notifications for Facility Cover Image Deletion ",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/7588",
       "title": "Fix Incorrect error message for invalid QR code ",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2024",
       "title": "add support for configurable sms backend",
-      "stale_for": 4,
+      "stale_for": 6,
       "labels": [
         "Hold"
       ]
@@ -555,7 +603,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1940",
       "title": "Add created_by and updated_by fields to base model",
-      "stale_for": 2,
+      "stale_for": 4,
       "labels": []
     }
   ],
