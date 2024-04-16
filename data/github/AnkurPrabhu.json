@@ -1,6 +1,41 @@
 {
-  "last_updated": "2024-04-14T23:03:58+00:00",
+  "last_updated": "2024-04-15T19:17:38+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2089",
+      "time": "2024-04-15T19:17:38+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2089",
+      "text": "Fix facility n+1"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7571",
+      "time": "2024-04-15T18:53:43+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7571#issuecomment-2057593696",
+      "text": "@khavinshankar @Ashesh3 my changes are to handle invalid qr code \r\ncurrently the page starts infinite loading if a wrong QR code is sent \r\nand notification says something went wrong "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-15T12:25:32+00:00",
+      "title": "coronasafe/care_fe#7609",
+      "link": "https://github.com/coronasafe/care_fe/pull/7609#pullrequestreview-2000964094",
+      "text": "Fix Notifications for Facility Cover Image Deletion "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-15T12:23:14+00:00",
+      "title": "coronasafe/care_fe#7609",
+      "link": "https://github.com/coronasafe/care_fe/pull/7609#pullrequestreview-2000959109",
+      "text": "Fix Notifications for Facility Cover Image Deletion "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7601",
+      "time": "2024-04-15T08:04:50+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7601#issuecomment-2056050748",
+      "text": "i can take this up now "
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7608",
@@ -581,21 +616,31 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/7609",
-      "title": "Fix Notifications for Facility Cover Image Deletion ",
+      "link": "https://github.com/coronasafe/care/pull/2089",
+      "title": "Fix facility n+1",
       "stale_for": 0,
       "labels": []
     },
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7609",
+      "title": "Fix Notifications for Facility Cover Image Deletion ",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/7588",
       "title": "Fix Incorrect error message for invalid QR code ",
-      "stale_for": 3,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2024",
       "title": "add support for configurable sms backend",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": [
         "Hold"
       ]
@@ -603,7 +648,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1940",
       "title": "Add created_by and updated_by fields to base model",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     }
   ],

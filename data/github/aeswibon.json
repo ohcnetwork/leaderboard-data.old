@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-04-08T17:56:00+00:00",
+  "last_updated": "2024-04-15T14:11:41+00:00",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7070",
+      "time": "2024-04-15T14:11:41+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7070",
+      "text": "Frontend: Treat no input as null/undefined (to have a clear distinction between no value specified and value specified but the value could be 0)"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#6985",
+      "time": "2024-04-15T14:11:34+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/6985",
+      "text": "All fields in Daily Rounds table to treat no value specified as `undefined` instead instead of colaescing it with 0 or -1 in some fields"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care_fe#7577",
@@ -7641,19 +7655,19 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2062",
       "title": "feat: adds Camera Preset model",
-      "stale_for": 0,
+      "stale_for": 7,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1898",
       "title": "fix: Update validation for Daily Round form",
-      "stale_for": 26,
+      "stale_for": 33,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/6512",
       "title": "fix(location): duty doctors and staff for each location in a facility",
-      "stale_for": 31,
+      "stale_for": 38,
       "labels": [
         "do not merge",
         "hold",
@@ -7665,7 +7679,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1689",
       "title": "fix(asset_location): added duty_staff endpoint",
-      "stale_for": 26,
+      "stale_for": 33,
       "labels": [
         "do-not-merge",
         "waiting-for-review",
