@@ -1,6 +1,83 @@
 {
-  "last_updated": "2024-04-15T09:00:37+00:00",
+  "last_updated": "2024-04-16T19:14:55+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7636",
+      "time": "2024-04-16T19:14:55+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7636#issuecomment-2059767033",
+      "text": "@rithviknishad probably i should add one onset date for other symptoms also right?"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2095",
+      "time": "2024-04-16T17:28:26+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2095#issuecomment-2059587782",
+      "text": "@rithviknishad I have added a JSON field symptoms_with_dates where each object stores date and list of symptoms. And also overridden the to_representation() method of patient consultation serializers to sort the symptoms timeline based on date(viewing in chronological order as mentioned in the issue). Can you plz confirm these changes."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7636",
+      "time": "2024-04-16T17:19:41+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7636#issuecomment-2059574761",
+      "text": "https://github.com/coronasafe/care/pull/2095 @rithviknishad this is the backend draft PR link"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7636",
+      "time": "2024-04-16T17:17:27+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7636#issuecomment-2059571461",
+      "text": "@rithviknishad this PR is a draft PR i have created this in order to get the confirmation on the progress can you plz review my changes. The work is in progress"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2095",
+      "time": "2024-04-16T17:14:38+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2095",
+      "text": "consultation depth backend"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7636",
+      "time": "2024-04-16T17:12:43+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7636",
+      "text": "building depth in consultation frontend"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7509",
+      "time": "2024-04-16T13:19:03+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7509#issuecomment-2059075782",
+      "text": "@rithviknishad yes so the tasks to do would be \r\n1) adding a checkbox to select whether to filter based on home facility or linked facility  \r\n2) adding a filter for home facility \r\n3) writing test cases "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7509",
+      "time": "2024-04-16T13:09:39+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7509#issuecomment-2059055663",
+      "text": "@rithviknishad let's give an option to choose whether to show all the users associated with that facility or just with home facility.. how would that be?"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7509",
+      "time": "2024-04-16T12:53:36+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7509#issuecomment-2059023120",
+      "text": "@NNSiri I'm ready to take this up I have had a look on this issue last week. there is no filter for the users based on home facility field that needs to be added it's a frontend and backend issue waiting for a confirmation from @rithviknishad "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7620",
+      "time": "2024-04-16T08:32:12+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7620#issuecomment-2058538108",
+      "text": "@nihal467 can you assign this to me"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7541",
+      "time": "2024-04-16T08:29:02+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7541#issuecomment-2058531834",
+      "text": "https://github.com/coronasafe/care/pull/2055#pullrequestreview-1981862720 @rithviknishad @sainak can you review the backend PR also"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7583",
@@ -698,10 +775,17 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care/pull/2095",
+      "title": "consultation depth backend",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/7551",
       "title": "search by typing in symptoms",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
+        "needs testing",
         "test failed",
         "changes required",
         "waiting for backend"
@@ -710,23 +794,22 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2055",
       "title": "Occupation dropdown backend",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7541",
       "title": "Occupation dropdown frontend",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "test failed",
-        "waiting for backend",
-        "cypress failed"
+        "changes required",
+        "waiting for backend"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1996",
       "title": "Soft delete assets from deleted facilities/hospitals",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],

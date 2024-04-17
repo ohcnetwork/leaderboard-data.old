@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-04-15T19:17:38+00:00",
+  "last_updated": "2024-04-16T12:55:11+00:00",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-16T12:55:11+00:00",
+      "title": "coronasafe/care#2089",
+      "link": "https://github.com/coronasafe/care/pull/2089#pullrequestreview-2003551829",
+      "text": "Fix facility n+1"
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/care#2089",
@@ -619,7 +626,9 @@
       "link": "https://github.com/coronasafe/care/pull/2089",
       "title": "Fix facility n+1",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "waiting for confirmation"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7609",
@@ -640,7 +649,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2024",
       "title": "add support for configurable sms backend",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": [
         "Hold"
       ]
@@ -648,7 +657,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1940",
       "title": "Add created_by and updated_by fields to base model",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": []
     }
   ],
