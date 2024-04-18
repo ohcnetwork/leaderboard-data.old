@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-04-16T19:29:04+00:00",
+  "last_updated": "2024-04-17T15:21:58+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7593",
+      "time": "2024-04-17T15:21:58+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7593#issuecomment-2061530222",
+      "text": "@aparnacoronasafe, @gigincg @nihal467\r\nHere are some examples of UI, as @nihal467 said in today's meeting to share these three UIs, kindly have a look and check\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/91010142/07d77914-2c68-4d81-84b4-c7275b0ef518)\r\n![image-2](https://github.com/coronasafe/care_fe/assets/91010142/a311a8c1-72ee-4dbc-938a-9d8ee58a43fe)\r\n![image-1](https://github.com/coronasafe/care_fe/assets/91010142/68907ceb-b45d-4ccc-beaa-363f8979ea92)\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7645",
+      "time": "2024-04-17T10:55:30+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7645",
+      "text": "[FIXED] Modified Notification related to Patient Log update successfully"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7619",
+      "time": "2024-04-17T05:59:50+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7619#issuecomment-2060438670",
+      "text": "@nihal467 it should be something like this, right?\r\n![image](https://github.com/coronasafe/care_fe/assets/91010142/21f5d0bf-5569-42b9-9aba-742347345071)\r\n\r\nif yes? assign me, I'll create pull request asap"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7619",
+      "time": "2024-04-17T05:42:52+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7619#issuecomment-2060418389",
+      "text": "@nihal467, @rithviknishad  can you assign this issue to me?"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7593",
+      "time": "2024-04-17T02:34:18+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7593#issuecomment-2060229962",
+      "text": "@nihal467 you are saying in live it should only show live patients who isn't discharged yet but it's showing total counts including discharged also??"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7593",
+      "time": "2024-04-17T02:31:26+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7593#issuecomment-2060227830",
+      "text": "@nihal467 It won't show any number if there's no discharged patient available there, and in the current ui, the number will be visible once you will go in discharged section, in the screenshot you are in live section, I discussed with mentor then after I implemented this."
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/care_fe#7639",
@@ -510,9 +552,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7645",
+      "title": "[FIXED] Modified Notification related to Patient Log update successfully",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/7639",
       "title": "[FIXED] Improved the change password handling in profile edit page",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -526,7 +574,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1991",
       "title": "Enhance MEWS calculation by fetching data from last 5 log updates",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "discussion"
       ]
@@ -534,7 +582,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7438",
       "title": "Solved issue \"Enhancement to MEWS Score\"",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Backend",
         "discussion required"

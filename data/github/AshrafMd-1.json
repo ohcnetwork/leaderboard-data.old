@@ -1,6 +1,60 @@
 {
-  "last_updated": "2024-04-16T15:20:16+00:00",
+  "last_updated": "2024-04-17T09:38:39+00:00",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7568",
+      "time": "2024-04-17T09:38:39+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7568",
+      "text": "Fix Domiciliary Care discrepancy. ",
+      "turnaround_time": 11417
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7568",
+      "time": "2024-04-17T09:38:39+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7568",
+      "text": "Fix Domiciliary Care discrepancy. ",
+      "collaborated_with": [
+        "khavinshankar",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7628",
+      "time": "2024-04-17T07:49:06+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7628#issuecomment-2060611491",
+      "text": "@Ashesh3 It seems like a backend issue most probably because there is no age field in the DB\r\nEven in the frontend we calculate age by using data of birth \r\nalso adding a backend tag would be better \r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7643",
+      "time": "2024-04-17T07:42:03+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7643#issuecomment-2060592610",
+      "text": "@nihal467 can you check once "
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7643",
+      "time": "2024-04-17T07:41:43+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7643",
+      "text": "Fix blank page in test sample details. "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7642",
+      "time": "2024-04-17T07:12:02+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7642#issuecomment-2060539095",
+      "text": "@rithviknishad can you assign me this issue "
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7642",
+      "time": "2024-04-17T07:11:41+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7642",
+      "text": "Sample test details page is displaying blank page."
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7628",
@@ -2266,65 +2320,6 @@
       "text": "Add Cypress test to patient file upload"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7618",
-      "title": "Add notification for inventory use stock. ",
-      "stale_for": 0,
-      "labels": [
-        "changes required"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7568",
-      "title": "Fix Domiciliary Care discrepancy. ",
-      "stale_for": 0,
-      "labels": [
-        "tested",
-        "cypress passed"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7498",
-      "title": "Restrict Unauthorized Users from Accessing Facility's Patient Registration",
-      "stale_for": 0,
-      "labels": [
-        "changes required"
-      ]
-    }
-  ],
-  "authored_issue_and_pr": [
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7384",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7392"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6923",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6946"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6902",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6910"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6838",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6842"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6837",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6841"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6783",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6848"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6632",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6639"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6599",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6614"
-    }
-  ]
+  "open_prs": [],
+  "authored_issue_and_pr": []
 }
