@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-04-16T12:57:23+00:00",
+  "last_updated": "2024-04-18T17:43:22+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7658",
+      "time": "2024-04-18T17:43:22+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7658",
+      "text": "fix: improving asset bed and camera preset relations"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7511",
@@ -7660,21 +7667,30 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7658",
+      "title": "fix: improving asset bed and camera preset relations",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "waiting for backend"
+      ]
+    },
+    {
       "link": "https://github.com/coronasafe/care/pull/2062",
       "title": "feat: adds Camera Preset model",
-      "stale_for": 8,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1898",
       "title": "fix: Update validation for Daily Round form",
-      "stale_for": 34,
+      "stale_for": 36,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/6512",
       "title": "fix(location): duty doctors and staff for each location in a facility",
-      "stale_for": 39,
+      "stale_for": 41,
       "labels": [
         "do not merge",
         "hold",
@@ -7686,7 +7702,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1689",
       "title": "fix(asset_location): added duty_staff endpoint",
-      "stale_for": 34,
+      "stale_for": 36,
       "labels": [
         "do-not-merge",
         "waiting-for-review",
