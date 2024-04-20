@@ -1,6 +1,58 @@
 {
-  "last_updated": "2024-04-18T11:19:56+00:00",
+  "last_updated": "2024-04-19T17:34:51+00:00",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-19T17:34:51+00:00",
+      "title": "coronasafe/teleicu_middleware#126",
+      "link": "https://github.com/coronasafe/teleicu_middleware/pull/126#pullrequestreview-2012003650",
+      "text": "use new Date for vitals from image"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-19T17:09:16+00:00",
+      "title": "coronasafe/teleicu_middleware#125",
+      "link": "https://github.com/coronasafe/teleicu_middleware/pull/125#pullrequestreview-2011959735",
+      "text": "added validation for ocr data"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-19T16:35:42+00:00",
+      "title": "coronasafe/teleicu_middleware#124",
+      "link": "https://github.com/coronasafe/teleicu_middleware/pull/124#pullrequestreview-2011898268",
+      "text": "get parsed value directly from openai"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-19T16:30:42+00:00",
+      "title": "coronasafe/teleicu_middleware#124",
+      "link": "https://github.com/coronasafe/teleicu_middleware/pull/124#pullrequestreview-2011889344",
+      "text": "get parsed value directly from openai"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7663",
+      "time": "2024-04-19T14:10:47+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7663",
+      "text": "Add trailing slashes to api routes to avoid 301 responses from care"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/teleicu_middleware#123",
+      "time": "2024-04-19T13:11:15+00:00",
+      "link": "https://github.com/coronasafe/teleicu_middleware/pull/123",
+      "text": "handle axios errors when status >= 400",
+      "collaborated_with": [
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-19T13:10:49+00:00",
+      "title": "coronasafe/teleicu_middleware#123",
+      "link": "https://github.com/coronasafe/teleicu_middleware/pull/123#pullrequestreview-2011385066",
+      "text": "handle axios errors when status >= 400"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care#2066",
@@ -12548,6 +12600,154 @@
       "text": "Cleanup and fix docker local builds"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7663",
+      "title": "Add trailing slashes to api routes to avoid 301 responses from care",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2094",
+      "title": "Allow `audio/mp4` by default",
+      "stale_for": 3,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2093",
+      "title": "Add workflow to combine dependency update prs",
+      "stale_for": 1,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2081",
+      "title": "Update dependencies",
+      "stale_for": 4,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/citizen/pull/44",
+      "title": "Quick changes to get the app running again",
+      "stale_for": 33,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/6457",
+      "title": "add support for webrtc stream",
+      "stale_for": 145,
+      "labels": [
+        "blocked",
+        "changes required",
+        "merge conflict",
+        "cypress failed"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/1579",
+      "title": "refactor all files as per ruff rules",
+      "stale_for": 37,
+      "labels": [
+        "In progress"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/1559",
+      "title": "feat: use ruff",
+      "stale_for": 37,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/medibase/pull/7",
+      "title": "Update dependencies",
+      "stale_for": 274,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/1349",
+      "title": "use signals to update patient and bed count of facilities",
+      "stale_for": 37,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/2098",
+      "pr_link": "https://github.com/coronasafe/care/pull/2099"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1883",
+      "pr_link": "https://github.com/coronasafe/care/pull/1888"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/teleicu_middleware/issues/118",
+      "pr_link": "https://github.com/coronasafe/teleicu_middleware/pull/119"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/teleicu_middleware/issues/118",
+      "pr_link": "https://github.com/coronasafe/care/pull/2000"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1702",
+      "pr_link": "https://github.com/coronasafe/care/pull/1703"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/teleicu_middleware/issues/111",
+      "pr_link": "https://github.com/coronasafe/teleicu_middleware/pull/119"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/6500",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/6501"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1681",
+      "pr_link": "https://github.com/coronasafe/care/pull/1682"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1658",
+      "pr_link": "https://github.com/coronasafe/care/pull/1788"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1645",
+      "pr_link": "https://github.com/coronasafe/care/pull/1646"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1627",
+      "pr_link": "https://github.com/coronasafe/care/pull/1628"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1610",
+      "pr_link": "https://github.com/coronasafe/care/pull/1611"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1594",
+      "pr_link": "https://github.com/coronasafe/care/pull/1591"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1593",
+      "pr_link": "https://github.com/coronasafe/care/pull/1591"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/6131",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/6132"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1542",
+      "pr_link": "https://github.com/coronasafe/care/pull/1546"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1542",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/6132"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/6086",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/6087"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/zoomdrive/issues/2",
+      "pr_link": "https://github.com/coronasafe/zoomdrive/pull/4"
+    }
+  ]
 }

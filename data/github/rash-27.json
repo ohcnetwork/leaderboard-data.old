@@ -1,6 +1,52 @@
 {
-  "last_updated": "2024-04-18T08:03:31+00:00",
+  "last_updated": "2024-04-19T17:03:54+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7664",
+      "time": "2024-04-19T17:03:54+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7664#issuecomment-2066957695",
+      "text": "@nihal467 @aparnacoronasafe In this issue, we are synchronising the doctor types with available skills and using staff capacity instead of the doctor's list in the facility dashboard. I feel like we can completely go with the staff capacity in the facility dashboard and make corresponding changes to shift from displaying doctors to staff.The changes include \r\n- [ ] Changing the route names that we are using currently using to fetch staff details (`/api/v1/facility/{facilityId}/hospital_doctor/` and `/api/v1/facility/{facilityId}/hospital_doctor/{id}/`) for more readability \r\n- [ ] And also making changes in the frontend like, the notifications currently are displaying \"Doctor count added successfully\" and we can change them to \"Staff count added successfully\" and etc. \r\n- [ ] And also in frontend code can we change the variable names accordingly for more readability of the code as currently we are displaying the Staff details in facility dashboard instead of doctors details ?\r\n What do you think? "
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7664",
+      "time": "2024-04-19T16:33:35+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7664",
+      "text": "update area of specialisation of doctor "
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2102",
+      "time": "2024-04-19T16:32:47+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2102",
+      "text": "Increase area of specialisation in doctors"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7545",
+      "time": "2024-04-19T08:12:18+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7545#issuecomment-2066061817",
+      "text": "@nihal lint issued fixed, please have a look"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/leaderboard#418",
+      "time": "2024-04-19T05:13:11+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/pull/418",
+      "text": "enable/disable features from env variables",
+      "turnaround_time": 7170
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/leaderboard#418",
+      "time": "2024-04-19T05:13:11+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/pull/418",
+      "text": "enable/disable features from env variables",
+      "collaborated_with": [
+        "rithviknishad"
+      ]
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-04-18T08:03:31+00:00",
@@ -1257,6 +1303,74 @@
       "text": "Update Navbar styling for readability closes #359"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7664",
+      "title": "update area of specialisation of doctor ",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2102",
+      "title": "Increase area of specialisation in doctors",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2096",
+      "title": "upgrade user skills",
+      "stale_for": 1,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7637",
+      "title": "add seperate subheading in doctor connect",
+      "stale_for": 3,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7599",
+      "title": "update middleware update notification",
+      "stale_for": 1,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7589",
+      "title": "add notifications for file upload , prescription ",
+      "stale_for": 3,
+      "labels": [
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2070",
+      "title": "add notifications for file upload , prescription ",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7545",
+      "title": "show details of patient in live feed monitoring",
+      "stale_for": 0,
+      "labels": [
+        "changes required",
+        "merge conflict"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/1929",
+      "title": "Add age validation in PatientDetailSerializer",
+      "stale_for": 1,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7260",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7264"
+    }
+  ]
 }
