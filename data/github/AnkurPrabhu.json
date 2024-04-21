@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-04-17T14:29:36+00:00",
+  "last_updated": "2024-04-20T19:51:04+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7671",
+      "time": "2024-04-20T19:51:04+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7671",
+      "text": "Allow only admins to delete a location or a bed"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2089",
+      "time": "2024-04-20T12:51:52+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2089#issuecomment-2067664339",
+      "text": "@sainak have resolved your comments pls take a look "
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7609",
@@ -637,17 +651,21 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7671",
+      "title": "Allow only admins to delete a location or a bed",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care/pull/2089",
       "title": "Fix facility n+1",
-      "stale_for": 1,
-      "labels": [
-        "waiting for confirmation"
-      ]
+      "stale_for": 0,
+      "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7609",
       "title": "Fix Notifications for Facility Cover Image Deletion ",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "changes required"
       ]
@@ -655,7 +673,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7588",
       "title": "Fix Incorrect error message for invalid QR code ",
-      "stale_for": 0,
+      "stale_for": 3,
       "labels": [
         "changes required"
       ]
@@ -663,7 +681,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2024",
       "title": "add support for configurable sms backend",
-      "stale_for": 9,
+      "stale_for": 12,
       "labels": [
         "Hold"
       ]
@@ -671,7 +689,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1940",
       "title": "Add created_by and updated_by fields to base model",
-      "stale_for": 1,
+      "stale_for": 4,
       "labels": []
     }
   ],
