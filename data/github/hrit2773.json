@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-04-18T09:55:21+00:00",
+  "last_updated": "2024-04-21T06:56:41+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7551",
+      "time": "2024-04-21T06:56:41+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7551#issuecomment-2067931450",
+      "text": "@rithviknishad @nihal467 now i added auto close for single select also so it is preserving the previous behaviour of closing the component as soon as user clicks on Asymptomatic. "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7551",
+      "time": "2024-04-21T06:08:42+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7551#issuecomment-2067920109",
+      "text": "@nihal467 why are the commas getting excluded during the commit the lint test is failing is it due the changes in prettier? because even if iam adding the commas its considering it as empty commit "
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7551",
@@ -801,6 +815,43 @@
       "text": "Hello Nihal sir I'm Hritesh Kumar Shanty, a 3rd year student at CBIT hyderabad. I'm interested to contribute to this project...actually Its been a while making projects using react, nextjs and express but recently I explored django and I was really looking for a project like this where I can integrate django and nextjs. I would definitely like to give my 100% to this project idea\r\n"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/coronasafe/care/pull/2095",
+      "title": "consultation depth backend",
+      "stale_for": 5,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7551",
+      "title": "search by typing in symptoms",
+      "stale_for": 0,
+      "labels": [
+        "test failed",
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2055",
+      "title": "Occupation dropdown backend",
+      "stale_for": 3,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7541",
+      "title": "Occupation dropdown frontend",
+      "stale_for": 3,
+      "labels": [
+        "needs testing",
+        "waiting for backend"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/1996",
+      "title": "Soft delete assets from deleted facilities/hospitals",
+      "stale_for": 6,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }
