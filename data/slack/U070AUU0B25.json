@@ -1,0 +1,564 @@
+{
+    "2024-04-22 00:00:00": [
+        {
+            "user": "U070AUU0B25",
+            "type": "message",
+            "ts": "1713797696.749629",
+            "bot_id": "B0700P2THGU",
+            "app_id": "A06UXMZMUDD",
+            "text": "",
+            "team": "TC99SV7B6",
+            "bot_profile": {
+                "id": "B0700P2THGU",
+                "deleted": false,
+                "name": "Activities Bot",
+                "updated": 1713761392,
+                "app_id": "A06UXMZMUDD",
+                "icons": {
+                    "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+                    "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+                    "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+                },
+                "team_id": "TC99SV7B6"
+            },
+            "attachments": [
+                {
+                    "id": 1,
+                    "blocks": [
+                        {
+                            "type": "header",
+                            "block_id": "xKWzL",
+                            "text": {
+                                "type": "plain_text",
+                                "text": "Updates for Rithvik Nishad",
+                                "emoji": true
+                            }
+                        },
+                        {
+                            "type": "section",
+                            "block_id": "Q2vuc",
+                            "text": {
+                                "type": "mrkdwn",
+                                "text": "_rithviknishad_\n<@U02TDGQQPMJ>\n<https://api.github.com/users/rithviknishad|Github Profile>\n<https://contributors.ohc.network/contributors/rithviknishad|Contributor Profile>",
+                                "verbatim": false
+                            },
+                            "accessory": {
+                                "type": "image",
+                                "image_url": "https://avatars.githubusercontent.com/u/25143503?v=4",
+                                "alt_text": "profile image"
+                            }
+                        },
+                        {
+                            "type": "divider",
+                            "block_id": "wq3lq"
+                        },
+                        {
+                            "type": "rich_text",
+                            "block_id": "F6xyY",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Pull Requests Opened (4)",
+                                            "style": {
+                                                "bold": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "\n"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_list",
+                                    "elements": [
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/pull/7685",
+                                                    "text": "User Filters: Adds support for filtering by home facility"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/pull/7683",
+                                                    "text": "Adds missing required validation for death confirmed doctor in discharge as expired popup"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/pull/7676",
+                                                    "text": "Fixes app crash upon clearing referred to facility field in discharge dialog"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/pull/7675",
+                                                    "text": "Disable Discontinue, Administer, Archive Administration & Edit prescription for discharged patients; disallow titrated prescriptions for discharge prescriptions; and more..."
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "style": "bullet",
+                                    "indent": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "divider",
+                            "block_id": "XMrCq"
+                        },
+                        {
+                            "type": "rich_text",
+                            "block_id": "9q2vU",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Commits (6)",
+                                            "style": {
+                                                "bold": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "\n"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_list",
+                                    "elements": [
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/leaderboard/commit/1e9556dea1af1a04bc28f20597820ff1406fb6c9",
+                                                    "text": "slack eod bot: fix incorrect env being used in update app home"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/leaderboard/commit/a70e1d176fd60206446f370e74211d72d39894ac",
+                                                    "text": "slack eod bot: add logs"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/commit/e8fefad23ff60c88473a3e83f94ed13ea236e745",
+                                                    "text": "fix typo"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/commit/86259bff1cf02055b12123ad5f475689d37c4357",
+                                                    "text": "fixes incorrect null checks for referred to facility in discharge modal"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/commit/dfede2cca5a016af91216091b4abc1d90f54b2c8",
+                                                    "text": "fix archive not disabled"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/commit/6fceb4241c1c632e61759e783ebcb490018a56b0",
+                                                    "text": "disallow titrated prescription for discharge"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "style": "bullet",
+                                    "indent": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "divider",
+                            "block_id": "qizWu"
+                        },
+                        {
+                            "type": "rich_text",
+                            "block_id": "hweeR",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviews (0)",
+                                            "style": {
+                                                "bold": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "\nNo reviews for today"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_list",
+                                    "elements": [],
+                                    "style": "bullet",
+                                    "indent": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "divider",
+                            "block_id": "osAWt"
+                        },
+                        {
+                            "type": "rich_text",
+                            "block_id": "l8FDI",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "General updates (1)",
+                                            "style": {
+                                                "bold": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "\n"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_list",
+                                    "elements": [
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Had a huddle with Nihal to discuss something about new issues"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "style": "bullet",
+                                    "indent": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "divider",
+                            "block_id": "kviR4"
+                        },
+                        {
+                            "type": "rich_text",
+                            "block_id": "yRsnN",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Active Issues (2)",
+                                            "style": {
+                                                "bold": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "\n"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_list",
+                                    "elements": [
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/issues/6376",
+                                                    "text": "\ud83d\udee0\ufe0f Replace `useDispatch` w. `useQuery`/`request`: Facility (Part 1, A-D) (`src/Components/Facility/*`)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe_hcx/issues/1",
+                                                    "text": "Eligibility Check workflow"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "style": "bullet",
+                                    "indent": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "divider",
+                            "block_id": "VPXaf"
+                        },
+                        {
+                            "type": "rich_text",
+                            "block_id": "CoBim",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Pending Issues (18)",
+                                            "style": {
+                                                "bold": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "\n"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_list",
+                                    "elements": [
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/issues/7621",
+                                                    "text": "Terminate camera feed loading on moving to next page"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/issues/7611",
+                                                    "text": "Add Diagonal Cursors in the Camera feeds when Patient Dashboard is Opened."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/issues/7567",
+                                                    "text": "Support for changes in patient diagnosis in log updates"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/leaderboard/issues/422",
+                                                    "text": "Issue with rendering relative time in server side (ISR/pre-render)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/leaderboard/issues/417",
+                                                    "text": "Incorrect week summary in leaderboard"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/leaderboard/issues/397",
+                                                    "text": "Support for scraping EOD messages from Discord"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/issues/7394",
+                                                    "text": "Update README to specify to use local backend for cypress tests"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/leaderboard/issues/329",
+                                                    "text": "Request for Website Architecture and Documentation"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/docs/issues/7",
+                                                    "text": "Add documentation on leaderboards architecture"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/leaderboard/issues/269",
+                                                    "text": "Enhancements to Slack EOD Bot"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/leaderboard/issues/260",
+                                                    "text": "Configure Error Monitoring with Sentry for Scraper"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/issues/7232",
+                                                    "text": "Provision to link an investigation which led to the change in verification status of a diagnosis"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/issues/6968",
+                                                    "text": "Feature: Add doctor availability date and time"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care/issues/1714",
+                                                    "text": "PrescriptionSerializer: Serialize Medicine from in-memory table instead of doing a lookup on db"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care/issues/1713",
+                                                    "text": "N+1 Query: Prescriptions"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/issues/5353",
+                                                    "text": "Medicine administration record: Withhold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/care_fe/issues/5293",
+                                                    "text": "ICD-11 Search enhancement"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "link",
+                                                    "url": "https://github.com/coronasafe/10bedicu/issues/56",
+                                                    "text": "Fix the broken links in the header"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "style": "bullet",
+                                    "indent": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "color": "#00FF00",
+                    "fallback": "[no preview available]"
+                }
+            ]
+        }
+    ]
+}
