@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-04-22T20:20:25+00:00",
+  "last_updated": "2024-04-23T22:38:17+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2113",
+      "time": "2024-04-23T22:38:17+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2113",
+      "text": "fix:Hide asset users from users list page (#2107)"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2106",
+      "time": "2024-04-23T20:40:31+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2106#issuecomment-2073407558",
+      "text": "@sainak but using serializers/viewset in models will create circular import error "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2106",
+      "time": "2024-04-23T14:55:09+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2106#issuecomment-2072576013",
+      "text": "okay working on it\r\n"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care#2107",
@@ -60,16 +81,18 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/7688",
-      "title": "'Treating Physician' field nomenclature changed to 'Treating Doctor' ",
+      "link": "https://github.com/coronasafe/care/pull/2113",
+      "title": "fix:Hide asset users from users list page (#2107)",
       "stale_for": 0,
       "labels": []
     },
     {
-      "link": "https://github.com/coronasafe/care/pull/2106",
-      "title": "Added \u201cmodified_date\u201d & \u201cupdated_by\u201d to the User table #2085",
-      "stale_for": 1,
-      "labels": []
+      "link": "https://github.com/coronasafe/care_fe/pull/7688",
+      "title": "'Treating Physician' field nomenclature changed to 'Treating Doctor' ",
+      "stale_for": 0,
+      "labels": [
+        "needs review"
+      ]
     }
   ],
   "authored_issue_and_pr": []

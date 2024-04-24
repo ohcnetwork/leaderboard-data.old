@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-04-22T17:32:16+00:00",
+  "last_updated": "2024-04-23T14:14:58+00:00",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-23T14:14:58+00:00",
+      "title": "coronasafe/leaderboard#439",
+      "link": "https://github.com/coronasafe/leaderboard/pull/439#pullrequestreview-2017403376",
+      "text": "Slack EOD Bot: Prevent N+1 GraphQL calls to GitHub APIs for pulling reviews to avoid rate limit"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/teleicu_middleware#128",
@@ -32542,21 +32549,22 @@
     {
       "link": "https://github.com/coronasafe/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7564",
       "title": "TEMP: disable eslint in code climate",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": [
-        "needs testing"
+        "needs review",
+        "tested"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7193",
       "title": "ABDM M3",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": [
         "needs review",
         "tested",
@@ -32568,7 +32576,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1829",
       "title": "ABDM M3",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": [
         "peer-reviewed",
         "ABDM"
@@ -32577,7 +32585,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1229",
       "title": "Hcx Refactors",
-      "stale_for": 35,
+      "stale_for": 36,
       "labels": [
         "waiting-for-review"
       ]
@@ -32585,13 +32593,13 @@
     {
       "link": "https://github.com/coronasafe/care_fe_hcx/pull/3",
       "title": "Hcx/eligibility check workflow",
-      "stale_for": 148,
+      "stale_for": 149,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1093",
       "title": "Added is_occupied field in Bed",
-      "stale_for": 40,
+      "stale_for": 41,
       "labels": [
         "changes required"
       ]
@@ -32599,25 +32607,25 @@
     {
       "link": "https://github.com/coronasafe/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 857,
+      "stale_for": 858,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 863,
+      "stale_for": 864,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 864,
+      "stale_for": 865,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/life/pull/306",
       "title": "filtered duplicate tweets",
-      "stale_for": 1059,
+      "stale_for": 1060,
       "labels": []
     }
   ],

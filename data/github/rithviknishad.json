@@ -1,6 +1,77 @@
 {
-  "last_updated": "2024-04-22T18:49:31+00:00",
+  "last_updated": "2024-04-23T16:46:20+00:00",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care#2112",
+      "time": "2024-04-23T16:46:20+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2112",
+      "text": "Remove defining `date_of_birth` and `year_of_birth` serializer fields",
+      "turnaround_time": 4471
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7694",
+      "time": "2024-04-23T16:20:55+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7694",
+      "text": "Fixes alignment of \"Year of Birth\" text in patient registration form"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2112",
+      "time": "2024-04-23T15:31:50+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2112",
+      "text": "Remove defining `date_of_birth` and `year_of_birth` serializer fields"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7693",
+      "time": "2024-04-23T15:24:00+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7693",
+      "text": "error \"This field may not be null\" when registering a patient"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7692",
+      "time": "2024-04-23T15:21:05+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7692",
+      "text": "\"year of birth\" text misaligned in patient registration form"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/leaderboard#439",
+      "time": "2024-04-23T14:04:15+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/pull/439",
+      "text": "Slack EOD Bot: Prevent N+1 GraphQL calls to GitHub APIs for pulling reviews to avoid rate limit"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7496",
+      "time": "2024-04-23T12:19:57+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7496#issuecomment-2072154164",
+      "text": "@Sulochan-khadka I'd suggest creating a separate issue for that, as the related issue simply needs to solve the icon overlapping issue and have a good UI."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7578",
+      "time": "2024-04-23T12:14:46+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7578#issuecomment-2072144828",
+      "text": "@Jrl0 It is a work in progress, ready for QA testing, and it will go live within a week after the related PR has been tested."
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7691",
+      "time": "2024-04-23T12:10:15+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7691",
+      "text": "Allow 'State Admin Read Only' to view Camera + Refactor permissions related code to reduce duplication"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/leaderboard#438",
+      "time": "2024-04-23T11:47:10+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/issues/438",
+      "text": "Support for Loading Animation when filters are updated"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care#2056",
@@ -44358,6 +44429,146 @@
       "text": "Adds state summary view"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7694",
+      "title": "Fixes alignment of \"Year of Birth\" text in patient registration form",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/leaderboard/pull/439",
+      "title": "Slack EOD Bot: Prevent N+1 GraphQL calls to GitHub APIs for pulling reviews to avoid rate limit",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7691",
+      "title": "Allow 'State Admin Read Only' to view Camera + Refactor permissions related code to reduce duplication",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "tested",
+        "P1"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7685",
+      "title": "User Filters: Adds support for filtering by home facility",
+      "stale_for": 0,
+      "labels": [
+        "tested",
+        "P1"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7683",
+      "title": "Adds missing required validation for death confirmed doctor in discharge as expired popup",
+      "stale_for": 0,
+      "labels": [
+        "test failed"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2101",
+      "title": "Annotate CSV export fields with patient age for sample test and shifting",
+      "stale_for": 1,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7654",
+      "title": "Migrate Consultation Camera Feed to use newer camera feed components",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "reviewed"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7652",
+      "title": "Fixes profile page not able to retrieve details for superusers",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "reviewed"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/leaderboard-data/pull/37",
+      "title": "Test preview deploy with empty commit",
+      "stale_for": 7,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/5681",
+      "title": "HCX Communication",
+      "stale_for": 64,
+      "labels": [
+        "merge conflict",
+        "stale",
+        "cypress failed"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7693",
+      "pr_link": "https://github.com/coronasafe/care/pull/2112"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7527",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7528"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7506",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7508"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7482",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7469"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7468",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7469"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7466",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7472"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7465",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7472"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/2008",
+      "pr_link": "https://github.com/coronasafe/care/pull/2009"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/2008",
+      "pr_link": "https://github.com/coronasafe/care/pull/2010"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1998",
+      "pr_link": "https://github.com/coronasafe/care/pull/1999"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1998",
+      "pr_link": "https://github.com/coronasafe/care/pull/2002"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7419",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7418"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/leaderboard/issues/382",
+      "pr_link": "https://github.com/coronasafe/leaderboard/pull/383"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1957",
+      "pr_link": "https://github.com/coronasafe/care/pull/1958"
+    }
+  ]
 }

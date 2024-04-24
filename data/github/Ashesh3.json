@@ -1,6 +1,69 @@
 {
-  "last_updated": "2024-04-22T17:32:16+00:00",
+  "last_updated": "2024-04-23T16:31:04+00:00",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-23T16:31:04+00:00",
+      "title": "coronasafe/care#2112",
+      "link": "https://github.com/coronasafe/care/pull/2112#pullrequestreview-2017744436",
+      "text": "Remove defining `date_of_birth` and `year_of_birth` serializer fields"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7641",
+      "time": "2024-04-23T07:54:26+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7641",
+      "text": "Terminology needs to Changed to \"Critical Care\" of Round type in Log Updates instead of 'Ventilator'"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7641",
+      "time": "2024-04-23T07:54:21+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7641#issuecomment-2071658115",
+      "text": "Fixed by https://github.com/coronasafe/care_fe/pull/7666"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7641",
+      "time": "2024-04-23T07:53:03+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7641#issuecomment-2071655881",
+      "text": "This seems to be resolved already - @nihal467 could you confirm?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-23T07:51:42+00:00",
+      "title": "coronasafe/care_fe#7652",
+      "link": "https://github.com/coronasafe/care_fe/pull/7652#pullrequestreview-2016514529",
+      "text": "Fixes profile page not able to retrieve details for superusers"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-23T07:50:48+00:00",
+      "title": "coronasafe/care_fe#7654",
+      "link": "https://github.com/coronasafe/care_fe/pull/7654#pullrequestreview-2016512758",
+      "text": "Migrate Consultation Camera Feed to use newer camera feed components"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2110",
+      "time": "2024-04-23T04:10:07+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2110",
+      "text": "Add validation for patient transfers"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7689",
+      "time": "2024-04-23T03:41:33+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7689",
+      "text": "Add Patient transfer validations"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-23T01:09:53+00:00",
+      "title": "coronasafe/care#2101",
+      "link": "https://github.com/coronasafe/care/pull/2101#pullrequestreview-2016051478",
+      "text": "Annotate CSV export fields with patient age for sample test and shifting"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/teleicu_middleware#128",
@@ -20321,21 +20384,33 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care/pull/2110",
+      "title": "Add validation for patient transfers",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7689",
+      "title": "Add Patient transfer validations",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/docs/pull/19",
       "title": "Add Care Scribe Docs",
-      "stale_for": 12,
+      "stale_for": 13,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/zoomdrive/pull/20",
       "title": "Fix workflow file hyperlink in README",
-      "stale_for": 20,
+      "stale_for": 21,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1903",
       "title": "Migrate consultation's assigned_to to assigned_clinicians",
-      "stale_for": 22,
+      "stale_for": 23,
       "labels": [
         "waiting-for-review"
       ]
@@ -20343,7 +20418,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1657",
       "title": "POC: AI discharge summary",
-      "stale_for": 40,
+      "stale_for": 41,
       "labels": [
         "POC"
       ]
@@ -20351,7 +20426,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5147",
       "title": "[WIP] Integrate LiveKit for doctor connect",
-      "stale_for": 384,
+      "stale_for": 385,
       "labels": [
         "work-in-progress",
         "merge conflict"
@@ -20360,7 +20435,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1227",
       "title": "[WIP] Integrate LiveKit for doctor connect",
-      "stale_for": 40,
+      "stale_for": 41,
       "labels": []
     }
   ],
