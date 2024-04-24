@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/slack-eod-bot/cron/post-update?preview=yes",
+      "schedule": "30 13 * * *"
+    },
+    {
+      "path": "/api/slack-eod-bot/cron/post-update",
+      "schedule": "00 14 * * *"
+    }
+  ]
+}
