@@ -1,6 +1,174 @@
 {
-  "last_updated": "2024-04-23T16:46:20+00:00",
+  "last_updated": "2024-04-24T14:29:45+00:00",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2115",
+      "time": "2024-04-24T14:29:45+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2115",
+      "text": "Merge develop to staging v24.18.0",
+      "collaborated_with": [
+        "GokulramGHV",
+        "Pranshu1902",
+        "hrit2773",
+        "DraKen0009",
+        "rash-27",
+        "sainak",
+        "vigneshhari"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7694",
+      "time": "2024-04-24T13:43:47+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7694",
+      "text": "Fixes alignment of \"Year of Birth\" text in patient registration form",
+      "turnaround_time": 80563
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7673",
+      "time": "2024-04-24T12:43:01+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7673#issuecomment-2074860258",
+      "text": "It happens even for this page:\r\n\r\nThe GPU load is consistently high on mouse hover. Looks like causing because of the small buttons having blur...\r\n\r\n<img width=\"1710\" alt=\"image\" src=\"https://github.com/coronasafe/care_fe/assets/25143503/f7bb4f4f-ad54-43e0-8c64-6f89543d30c3\">\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7644",
+      "time": "2024-04-24T12:22:56+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7644#issuecomment-2074822683",
+      "text": "@manasvi-gaur the patient registration cypress tests need to be modified to account for the changes made in this PR.\r\n\r\nAlso ensure lint checks are passing. Ensure prettier is configured in your local and has latest packages installed."
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/leaderboard#439",
+      "time": "2024-04-24T12:16:37+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/pull/439",
+      "text": "Slack EOD Bot: Prevent N+1 GraphQL calls to GitHub APIs for pulling reviews to avoid rate limit",
+      "turnaround_time": 79943
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-24T12:14:57+00:00",
+      "title": "coronasafe/care_fe#7252",
+      "link": "https://github.com/coronasafe/care_fe/pull/7252#pullrequestreview-2019690425",
+      "text": "Added IP Days Chip in Patient List and Patient Dashboard"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7252",
+      "time": "2024-04-24T12:13:27+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7252#issuecomment-2074803805",
+      "text": "@nihal467 could you elaborate a bit more? Everything seems fine to me, IP Days are present in the patient list as well as consultation dashboard."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-24T12:09:39+00:00",
+      "title": "coronasafe/care_fe#6901",
+      "link": "https://github.com/coronasafe/care_fe/pull/6901#pullrequestreview-2019679763",
+      "text": "Added Timeline UI for Bed Activity"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7363",
+      "time": "2024-04-24T12:08:32+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7363#issuecomment-2074794300",
+      "text": "Closing as stale + deploy failed not fixed + conflicts + solved in #7654"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-24T12:06:29+00:00",
+      "title": "coronasafe/care_fe#7564",
+      "link": "https://github.com/coronasafe/care_fe/pull/7564#pullrequestreview-2019673669",
+      "text": "TEMP: disable eslint in code climate"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-24T12:03:13+00:00",
+      "title": "coronasafe/care_fe#7639",
+      "link": "https://github.com/coronasafe/care_fe/pull/7639#pullrequestreview-2018805239",
+      "text": "[FIXED] Improved the change password handling in profile edit page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-24T12:03:13+00:00",
+      "title": "coronasafe/care_fe#7639",
+      "link": "https://github.com/coronasafe/care_fe/pull/7639#pullrequestreview-2018805239",
+      "text": "[FIXED] Improved the change password handling in profile edit page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-24T12:01:25+00:00",
+      "title": "coronasafe/care_fe#7688",
+      "link": "https://github.com/coronasafe/care_fe/pull/7688#pullrequestreview-2019663418",
+      "text": "'Treating Physician' field nomenclature changed to 'Treating Doctor' "
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7652",
+      "time": "2024-04-24T11:30:02+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7652",
+      "text": "Fixes profile page not able to retrieve details for superusers",
+      "turnaround_time": 7160
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7652",
+      "time": "2024-04-24T11:30:02+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7652",
+      "text": "Fixes profile page not able to retrieve details for superusers",
+      "collaborated_with": [
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7541",
+      "time": "2024-04-24T07:18:35+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7541",
+      "text": "Occupation dropdown frontend",
+      "collaborated_with": [
+        "hrit2773",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7685",
+      "time": "2024-04-24T07:15:36+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7685",
+      "text": "User Filters: Adds support for filtering by home facility",
+      "turnaround_time": 64546
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-24T07:04:20+00:00",
+      "title": "coronasafe/care_fe#7545",
+      "link": "https://github.com/coronasafe/care_fe/pull/7545#pullrequestreview-2019033823",
+      "text": "show details of patient in live feed monitoring"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7691",
+      "time": "2024-04-24T06:41:06+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7691",
+      "text": "Allow 'State Admin Read Only' to view Camera + Refactor permissions related code to reduce duplication",
+      "turnaround_time": 79828
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-24T05:42:19+00:00",
+      "title": "coronasafe/zoomdrive#20",
+      "link": "https://github.com/coronasafe/zoomdrive/pull/20#pullrequestreview-2018890846",
+      "text": "Fix workflow file hyperlink in README"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-24T05:12:11+00:00",
+      "title": "coronasafe/care_fe#7645",
+      "link": "https://github.com/coronasafe/care_fe/pull/7645#pullrequestreview-2018842168",
+      "text": "[FIXED] Modified Notification related to Patient Log update successfully"
+    },
     {
       "type": "pr_merged",
       "title": "coronasafe/care#2112",
@@ -44431,43 +44599,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/7694",
-      "title": "Fixes alignment of \"Year of Birth\" text in patient registration form",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/leaderboard/pull/439",
-      "title": "Slack EOD Bot: Prevent N+1 GraphQL calls to GitHub APIs for pulling reviews to avoid rate limit",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7691",
-      "title": "Allow 'State Admin Read Only' to view Camera + Refactor permissions related code to reduce duplication",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested",
-        "P1"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7685",
-      "title": "User Filters: Adds support for filtering by home facility",
-      "stale_for": 0,
-      "labels": [
-        "tested",
-        "P1"
-      ]
-    },
-    {
       "link": "https://github.com/coronasafe/care_fe/pull/7683",
       "title": "Adds missing required validation for death confirmed doctor in discharge as expired popup",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "test failed"
       ]
@@ -44475,37 +44609,30 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2101",
       "title": "Annotate CSV export fields with patient age for sample test and shifting",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "P1"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7654",
       "title": "Migrate Consultation Camera Feed to use newer camera feed components",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "reviewed"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7652",
-      "title": "Fixes profile page not able to retrieve details for superusers",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
+        "changes required",
         "reviewed"
       ]
     },
     {
       "link": "https://github.com/coronasafe/leaderboard-data/pull/37",
       "title": "Test preview deploy with empty commit",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 64,
+      "stale_for": 65,
       "labels": [
         "merge conflict",
         "stale",
@@ -44517,6 +44644,10 @@
     {
       "issue_link": "https://github.com/coronasafe/care_fe/issues/7693",
       "pr_link": "https://github.com/coronasafe/care/pull/2112"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7692",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7694"
     },
     {
       "issue_link": "https://github.com/coronasafe/care_fe/issues/7527",

@@ -1,6 +1,41 @@
 {
-  "last_updated": "2024-04-22T17:33:50+00:00",
+  "last_updated": "2024-04-24T14:52:19+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7593",
+      "time": "2024-04-24T14:52:19+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7593#issuecomment-2075139751",
+      "text": "@aparnacoronasafe so which design should I implement?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-24T12:19:12+00:00",
+      "title": "coronasafe/care_fe#7639",
+      "link": "https://github.com/coronasafe/care_fe/pull/7639#pullrequestreview-2019699971",
+      "text": "[FIXED] Improved the change password handling in profile edit page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-24T09:22:46+00:00",
+      "title": "coronasafe/care_fe#7645",
+      "link": "https://github.com/coronasafe/care_fe/pull/7645#pullrequestreview-2019358092",
+      "text": "[FIXED] Modified Notification related to Patient Log update successfully"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-24T09:22:40+00:00",
+      "title": "coronasafe/care_fe#7645",
+      "link": "https://github.com/coronasafe/care_fe/pull/7645#pullrequestreview-2019357898",
+      "text": "[FIXED] Modified Notification related to Patient Log update successfully"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7645",
+      "time": "2024-04-24T04:41:17+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7645#issuecomment-2074015505",
+      "text": "@nihal467 I can make changes but this is not right, https://github.com/coronasafe/care_fe/pull/7645#discussion_r1574870124 here I explained why, so I think this is ok, what u say?"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-04-22T17:33:50+00:00",
@@ -599,21 +634,25 @@
       "title": "[FIXED] Improved the change password handling in profile edit page",
       "stale_for": 0,
       "labels": [
+        "needs review",
         "changes required"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7593",
       "title": "[FIXED] Total Discharge patients Number is made Visible for all user type",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": [
-        "changes required"
+        "changes required",
+        "Deploy-Failed",
+        "discussion required",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1991",
       "title": "Enhance MEWS calculation by fetching data from last 5 log updates",
-      "stale_for": 6,
+      "stale_for": 8,
       "labels": [
         "discussion"
       ]
@@ -621,10 +660,11 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7438",
       "title": "Solved issue \"Enhancement to MEWS Score\"",
-      "stale_for": 6,
+      "stale_for": 0,
       "labels": [
         "Backend",
-        "discussion required"
+        "discussion required",
+        "stale"
       ]
     }
   ],

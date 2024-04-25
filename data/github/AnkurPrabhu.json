@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-04-20T19:51:04+00:00",
+  "last_updated": "2024-04-24T21:07:02+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2116",
+      "time": "2024-04-24T21:07:02+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2116",
+      "text": "Disable the Bed List of Already occupied Beds (back-end change)"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7699",
+      "time": "2024-04-24T21:03:08+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7699",
+      "text": "Disable the Bed List of Already occupied Beds (front-end change)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-24T13:30:12+00:00",
+      "title": "coronasafe/care_fe#7609",
+      "link": "https://github.com/coronasafe/care_fe/pull/7609#pullrequestreview-2019879417",
+      "text": "Fix Notifications for Facility Cover Image Deletion "
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/care_fe#7671",
@@ -651,10 +672,24 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care/pull/2116",
+      "title": "Disable the Bed List of Already occupied Beds (back-end change)",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7699",
+      "title": "Disable the Bed List of Already occupied Beds (front-end change)",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/7671",
       "title": "Allow only admins to delete a location or a bed",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "test failed"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2089",
@@ -665,7 +700,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7609",
       "title": "Fix Notifications for Facility Cover Image Deletion ",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "changes required"
       ]
@@ -681,7 +716,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2024",
       "title": "add support for configurable sms backend",
-      "stale_for": 12,
+      "stale_for": 16,
       "labels": [
         "Hold"
       ]
@@ -689,7 +724,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1940",
       "title": "Add created_by and updated_by fields to base model",
-      "stale_for": 4,
+      "stale_for": 8,
       "labels": []
     }
   ],

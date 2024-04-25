@@ -1,6 +1,44 @@
 {
-  "last_updated": "2024-04-23T16:29:41+00:00",
+  "last_updated": "2024-04-24T14:29:45+00:00",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2115",
+      "time": "2024-04-24T14:29:45+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2115",
+      "text": "Merge develop to staging v24.18.0",
+      "collaborated_with": [
+        "GokulramGHV",
+        "Pranshu1902",
+        "hrit2773",
+        "rithviknishad",
+        "DraKen0009",
+        "rash-27",
+        "vigneshhari"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-24T13:46:48+00:00",
+      "title": "coronasafe/care#2114",
+      "link": "https://github.com/coronasafe/care/pull/2114#pullrequestreview-2019933734",
+      "text": "Prevent destination facility from marking shift as complete"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-24T13:46:22+00:00",
+      "title": "coronasafe/care#2110",
+      "link": "https://github.com/coronasafe/care/pull/2110#pullrequestreview-2019927954",
+      "text": "Add validation for patient transfers"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7663",
+      "time": "2024-04-24T06:42:21+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7663",
+      "text": "Add trailing slashes to api routes to avoid 301 responses from care",
+      "turnaround_time": 59494
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-04-23T16:29:41+00:00",
@@ -12825,42 +12863,33 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/7663",
-      "title": "Add trailing slashes to api routes to avoid 301 responses from care",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested"
-      ]
-    },
-    {
       "link": "https://github.com/coronasafe/care/pull/2094",
       "title": "Allow `audio/mp4` by default",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2093",
       "title": "Add workflow to combine dependency update prs",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2081",
       "title": "Update dependencies",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/citizen/pull/44",
       "title": "Quick changes to get the app running again",
-      "stale_for": 37,
+      "stale_for": 38,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 149,
+      "stale_for": 150,
       "labels": [
         "blocked",
         "changes required",
@@ -12871,7 +12900,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1579",
       "title": "refactor all files as per ruff rules",
-      "stale_for": 41,
+      "stale_for": 42,
       "labels": [
         "In progress"
       ]
@@ -12879,19 +12908,19 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 41,
+      "stale_for": 42,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/medibase/pull/7",
       "title": "Update dependencies",
-      "stale_for": 278,
+      "stale_for": 279,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1349",
       "title": "use signals to update patient and bed count of facilities",
-      "stale_for": 41,
+      "stale_for": 42,
       "labels": []
     }
   ],
