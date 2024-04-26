@@ -1,6 +1,125 @@
 {
-  "last_updated": "2024-04-24T14:29:45+00:00",
+  "last_updated": "2024-04-25T16:26:31+00:00",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7712",
+      "time": "2024-04-25T16:26:31+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7712",
+      "text": "Daily Rounds Enhancements - Part 2: Support for editing prescriptions through Daily Rounds and linking the changes made to the daily round"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7711",
+      "time": "2024-04-25T16:24:09+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7711",
+      "text": "Daily Rounds Enhancements - Part 1: Drop support for \"copy previous log update\" in favour of events"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7706",
+      "time": "2024-04-25T14:18:20+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7706#issuecomment-2077321388",
+      "text": "Related to #7159"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-25T13:45:35+00:00",
+      "title": "coronasafe/leaderboard#396",
+      "link": "https://github.com/coronasafe/leaderboard/pull/396#pullrequestreview-2022551498",
+      "text": "Added contrbutors OG image using genratemetadata"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-25T13:45:34+00:00",
+      "title": "coronasafe/leaderboard#396",
+      "link": "https://github.com/coronasafe/leaderboard/pull/396#pullrequestreview-2022551498",
+      "text": "Added contrbutors OG image using genratemetadata"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7593",
+      "time": "2024-04-25T13:41:03+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7593#issuecomment-2077223637",
+      "text": "> so which design should I implement?\r\n\r\n@r-nikhilkumar As mentioned, designs to be kept consistent like how we have in the Live patients list page.\r\n\r\nNone of the designs shown above are consistent with the live patients list page."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-25T13:36:47+00:00",
+      "title": "coronasafe/care_fe#7644",
+      "link": "https://github.com/coronasafe/care_fe/pull/7644#pullrequestreview-2022528157",
+      "text": "Fixed #7610 Toggle  Emergency Contact No. From Phone Number"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7645",
+      "time": "2024-04-25T13:33:43+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7645#issuecomment-2077198670",
+      "text": "@r-nikhilkumar lint checks and cypress tests failing"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7656",
+      "time": "2024-04-25T13:31:28+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7656#issuecomment-2077190655",
+      "text": "@vishisht-dubey few more things:\r\n\r\n- As for the migration, existing data can be set to null for `prescribed_by`.\r\n- For such entries show only \"entered by <user name>\" in the FE and omit the \"prescribed by <user name>\"\r\n- The prescribed by doctor's home facility must be the same as the patient's admitted facility.\r\n\r\ncc: @aparnacoronasafe \r\n\r\n\r\nTo discuss: \r\n\r\n- Should the prescribed_by be filled with the created_by user if the user is a doctor for existing data."
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7709",
+      "time": "2024-04-25T13:16:25+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7709",
+      "text": "Enhancements to Doctor Connect Slideover"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-25T11:41:55+00:00",
+      "title": "coronasafe/care_fe#7645",
+      "link": "https://github.com/coronasafe/care_fe/pull/7645#pullrequestreview-2022263605",
+      "text": "[FIXED] Modified Notification related to Patient Log update successfully"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-25T11:41:46+00:00",
+      "title": "coronasafe/care_fe#7645",
+      "link": "https://github.com/coronasafe/care_fe/pull/7645#pullrequestreview-2022263319",
+      "text": "[FIXED] Modified Notification related to Patient Log update successfully"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7702",
+      "time": "2024-04-25T11:03:22+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7702",
+      "text": "fix spacing of phone number fields in user filters"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-25T10:18:45+00:00",
+      "title": "coronasafe/care_fe#7699",
+      "link": "https://github.com/coronasafe/care_fe/pull/7699#pullrequestreview-2022110502",
+      "text": "Disable the Bed List of Already occupied Beds (front-end change)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-25T10:17:48+00:00",
+      "title": "coronasafe/care#2116",
+      "link": "https://github.com/coronasafe/care/pull/2116#pullrequestreview-2022108874",
+      "text": "Disable the Bed List of Already occupied Beds (back-end change)"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7673",
+      "time": "2024-04-25T05:09:02+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7673#issuecomment-2076366286",
+      "text": "Not reproducible on Firefox"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/leaderboard#440",
+      "time": "2024-04-25T04:47:24+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/issues/440",
+      "text": "Enhancements to Slack Activities Bot"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care#2115",
@@ -44599,17 +44718,35 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7709",
+      "title": "Enhancements to Doctor Connect Slideover",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7702",
+      "title": "fix spacing of phone number fields in user filters",
+      "stale_for": 0,
+      "labels": [
+        "needs testing"
+      ]
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/7683",
       "title": "Adds missing required validation for death confirmed doctor in discharge as expired popup",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "test failed"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2101",
       "title": "Annotate CSV export fields with patient age for sample test and shifting",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "P1"
       ]
@@ -44619,20 +44756,20 @@
       "title": "Migrate Consultation Camera Feed to use newer camera feed components",
       "stale_for": 0,
       "labels": [
-        "changes required",
+        "needs testing",
         "reviewed"
       ]
     },
     {
       "link": "https://github.com/coronasafe/leaderboard-data/pull/37",
       "title": "Test preview deploy with empty commit",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 65,
+      "stale_for": 66,
       "labels": [
         "merge conflict",
         "stale",

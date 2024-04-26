@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-04-24T16:55:03+00:00",
+  "last_updated": "2024-04-25T18:49:58+00:00",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-25T18:49:58+00:00",
+      "title": "coronasafe/care_fe#7688",
+      "link": "https://github.com/coronasafe/care_fe/pull/7688#pullrequestreview-2023339650",
+      "text": "'Treating Physician' field nomenclature changed to 'Treating Doctor' "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-25T18:49:46+00:00",
+      "title": "coronasafe/care_fe#7709",
+      "link": "https://github.com/coronasafe/care_fe/pull/7709#pullrequestreview-2023338895",
+      "text": "Enhancements to Doctor Connect Slideover"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-25T18:49:25+00:00",
+      "title": "coronasafe/care_fe#7644",
+      "link": "https://github.com/coronasafe/care_fe/pull/7644#pullrequestreview-2023337601",
+      "text": "Fixed #7610 Toggle  Emergency Contact No. From Phone Number"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-25T18:49:12+00:00",
+      "title": "coronasafe/care_fe#7645",
+      "link": "https://github.com/coronasafe/care_fe/pull/7645#pullrequestreview-2023336989",
+      "text": "[FIXED] Modified Notification related to Patient Log update successfully"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7710",
+      "time": "2024-04-25T14:46:06+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7710",
+      "text": "Change home facility indicator in linked facilities slideover"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7707",
+      "time": "2024-04-25T12:16:45+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7707",
+      "text": "Fix facility page live monitor button"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-04-24T16:55:03+00:00",
@@ -20558,15 +20600,29 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7710",
+      "title": "Change home facility indicator in linked facilities slideover",
+      "stale_for": 0,
+      "labels": [
+        "needs testing"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7707",
+      "title": "Fix facility page live monitor button",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care/pull/2114",
       "title": "Prevent destination facility from marking shift as complete",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7697",
       "title": "Rework Shifting Process for \"Complete\" stage",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "waiting for backend"
       ]
@@ -20574,13 +20630,13 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2110",
       "title": "Add validation for patient transfers",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7689",
       "title": "Add Patient transfer validations",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "waiting for backend"
       ]
@@ -20588,13 +20644,13 @@
     {
       "link": "https://github.com/coronasafe/docs/pull/19",
       "title": "Add Care Scribe Docs",
-      "stale_for": 14,
+      "stale_for": 15,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1903",
       "title": "Migrate consultation's assigned_to to assigned_clinicians",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "waiting-for-review"
       ]
@@ -20602,7 +20658,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1657",
       "title": "POC: AI discharge summary",
-      "stale_for": 42,
+      "stale_for": 43,
       "labels": [
         "POC"
       ]
@@ -20610,7 +20666,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5147",
       "title": "[WIP] Integrate LiveKit for doctor connect",
-      "stale_for": 386,
+      "stale_for": 387,
       "labels": [
         "work-in-progress",
         "merge conflict"
@@ -20619,7 +20675,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1227",
       "title": "[WIP] Integrate LiveKit for doctor connect",
-      "stale_for": 42,
+      "stale_for": 43,
       "labels": []
     }
   ],
