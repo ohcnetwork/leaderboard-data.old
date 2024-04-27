@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-03-29T18:31:19+00:00",
+  "last_updated": "2024-04-26T12:53:30+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2035",
+      "time": "2024-04-26T12:53:30+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2035#issuecomment-2079333843",
+      "text": "Hi, @vigneshhari @sainak I tried to read the DRF docs for serializers and ORM, tried various solutions, and finally was able to do it for `bed_count`, but I got stuck again when did the same for `patient_count` because the query started to give incorrect results when I annotated the `patientregistration` table too.\r\n\r\nORM started to join the bed table with `patientregistration` and fetch extra results\r\nmaybe we can achieve this by using raw SQL query \r\n\r\n\r\n```\r\n    queryset = (\r\n        ResourceRequest.objects.all()\r\n        .select_related(\r\n            \"origin_facility\",\r\n            \"origin_facility__ward\",\r\n            \"origin_facility__local_body\",\r\n            \"origin_facility__district\",\r\n            \"origin_facility__state\",\r\n            \"approving_facility\",\r\n            \"approving_facility__ward\",\r\n            \"approving_facility__local_body\",\r\n            \"approving_facility__district\",\r\n            \"approving_facility__state\",\r\n            \"assigned_facility\",\r\n            \"assigned_facility__ward\",\r\n            \"assigned_facility__local_body\",\r\n            \"assigned_facility__district\",\r\n            \"assigned_facility__state\",\r\n            \"assigned_to\",\r\n            \"created_by\",\r\n            \"last_edited_by\",\r\n        )\r\n        .annotate(\r\n            origin_facility_bed_count=Count(\"origin_facility__bed\"),\r\n            approving_facility_bed_count=Count(\"approving_facility__bed\"),\r\n            assigned_facility_bed_count=Count(\"assigned_facility__bed\"),\r\n        )\r\n        .annotate(\r\n            origin_facility_patient_count=Count(\"origin_facility__patientregistration\"),\r\n            approving_facility_patient_count=Count(\r\n                \"approving_facility__patientregistration\"\r\n            ),\r\n            assigned_facility_patient_count=Count(\r\n                \"assigned_facility__patientregistration\"\r\n            ),\r\n        )\r\n    )\r\n```"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care#1336",

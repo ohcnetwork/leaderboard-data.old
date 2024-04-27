@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-04-22T16:32:35+00:00",
+  "last_updated": "2024-04-26T18:48:48+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7656",
+      "time": "2024-04-26T18:48:48+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7656#issuecomment-2079950500",
+      "text": "@rithviknishad @aparnacoronasafe is there any api to find out the role of a logged in user.\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7656",
+      "time": "2024-04-26T17:21:39+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7656#issuecomment-2079788792",
+      "text": "> @vishisht-dubey few more things:\r\n> \r\n> * As for the migration, existing data can be set to null for `prescribed_by`.\r\n> * For such entries show only \"entered by `<user name>`\" in the FE and omit the \"prescribed by `<user name>`\"\r\n> * The prescribed by doctor's home facility must be the same as the patient's admitted facility.\r\n> \r\n> cc: @aparnacoronasafe\r\n\r\nok got it"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/ayushma_fe#196",
@@ -518,7 +532,7 @@
     {
       "link": "https://github.com/coronasafe/ayushma_fe/pull/192",
       "title": "Closes #Issue-191 UI Compatibility",
-      "stale_for": 32,
+      "stale_for": 36,
       "labels": []
     }
   ],

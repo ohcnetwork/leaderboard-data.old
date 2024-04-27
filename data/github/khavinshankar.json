@@ -1,6 +1,90 @@
 {
-  "last_updated": "2024-04-24T14:15:58+00:00",
+  "last_updated": "2024-04-26T12:12:41+00:00",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-26T12:12:41+00:00",
+      "title": "coronasafe/care_fe#7718",
+      "link": "https://github.com/coronasafe/care_fe/pull/7718#pullrequestreview-2024900077",
+      "text": "Minor fix | Merge develop to Staging v24.18.0"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-26T12:02:36+00:00",
+      "title": "coronasafe/care_fe#7717",
+      "link": "https://github.com/coronasafe/care_fe/pull/7717#pullrequestreview-2024882668",
+      "text": "Correct spelling for comment on PR close on stale"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7713",
+      "time": "2024-04-26T11:58:08+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7713",
+      "text": "Typo in Github Actions bot comment"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7703",
+      "time": "2024-04-26T11:58:08+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7703",
+      "text": "Enhance the doctor connect slideover"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-26T11:57:54+00:00",
+      "title": "coronasafe/care_fe#7709",
+      "link": "https://github.com/coronasafe/care_fe/pull/7709#pullrequestreview-2024872306",
+      "text": "Enhancements to Doctor Connect Slideover"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-26T10:56:20+00:00",
+      "title": "coronasafe/care_fe#7717",
+      "link": "https://github.com/coronasafe/care_fe/pull/7717#pullrequestreview-2024774874",
+      "text": "Correct spelling for comment on PR close on stale"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-26T10:56:20+00:00",
+      "title": "coronasafe/care_fe#7717",
+      "link": "https://github.com/coronasafe/care_fe/pull/7717#pullrequestreview-2024774874",
+      "text": "Correct spelling for comment on PR close on stale"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7700",
+      "time": "2024-04-26T07:53:43+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7700",
+      "text": "Remove the extra spacing in the phone number advance filter"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-26T07:53:35+00:00",
+      "title": "coronasafe/care_fe#7702",
+      "link": "https://github.com/coronasafe/care_fe/pull/7702#pullrequestreview-2024360593",
+      "text": "fix spacing of phone number fields in user filters"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7701",
+      "time": "2024-04-26T07:53:12+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7701",
+      "text": "Fix the responsive view in facility detail page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-26T07:53:04+00:00",
+      "title": "coronasafe/care_fe#7707",
+      "link": "https://github.com/coronasafe/care_fe/pull/7707#pullrequestreview-2024359728",
+      "text": "Fix facility page live monitor button"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7714",
+      "time": "2024-04-26T04:04:09+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7714",
+      "text": "disable ratelimiting for cypress action"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-04-24T14:15:58+00:00",
@@ -32821,15 +32905,24 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7714",
+      "title": "disable ratelimiting for cypress action",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "tested"
+      ]
+    },
+    {
       "link": "https://github.com/coronasafe/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 11,
+      "stale_for": 13,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7193",
       "title": "ABDM M3",
-      "stale_for": 9,
+      "stale_for": 11,
       "labels": [
         "needs review",
         "tested",
@@ -32841,7 +32934,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1829",
       "title": "ABDM M3",
-      "stale_for": 11,
+      "stale_for": 13,
       "labels": [
         "peer-reviewed",
         "ABDM"
@@ -32850,7 +32943,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1229",
       "title": "Hcx Refactors",
-      "stale_for": 37,
+      "stale_for": 39,
       "labels": [
         "waiting-for-review"
       ]
@@ -32858,13 +32951,13 @@
     {
       "link": "https://github.com/coronasafe/care_fe_hcx/pull/3",
       "title": "Hcx/eligibility check workflow",
-      "stale_for": 150,
+      "stale_for": 152,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1093",
       "title": "Added is_occupied field in Bed",
-      "stale_for": 42,
+      "stale_for": 44,
       "labels": [
         "changes required"
       ]
@@ -32872,25 +32965,25 @@
     {
       "link": "https://github.com/coronasafe/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 859,
+      "stale_for": 861,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 865,
+      "stale_for": 867,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 866,
+      "stale_for": 868,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/life/pull/306",
       "title": "filtered duplicate tweets",
-      "stale_for": 1061,
+      "stale_for": 1063,
       "labels": []
     }
   ],

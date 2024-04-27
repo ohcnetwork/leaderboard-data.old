@@ -1,6 +1,92 @@
 {
-  "last_updated": "2024-04-25T16:26:31+00:00",
+  "last_updated": "2024-04-26T12:12:52+00:00",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7718",
+      "time": "2024-04-26T12:12:52+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7718",
+      "text": "Minor fix | Merge develop to Staging v24.18.0",
+      "collaborated_with": [
+        "Ashesh3"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7717",
+      "time": "2024-04-26T12:02:49+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7717",
+      "text": "Correct spelling for comment on PR close on stale",
+      "turnaround_time": 8531
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7709",
+      "time": "2024-04-26T11:58:07+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7709",
+      "text": "Enhancements to Doctor Connect Slideover",
+      "turnaround_time": 551
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7709",
+      "time": "2024-04-26T11:58:07+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7709",
+      "text": "Enhancements to Doctor Connect Slideover",
+      "collaborated_with": [
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-26T11:55:03+00:00",
+      "title": "coronasafe/care_fe#7717",
+      "link": "https://github.com/coronasafe/care_fe/pull/7717#pullrequestreview-2024867717",
+      "text": "Correct spelling for comment on PR close on stale"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-26T11:55:03+00:00",
+      "title": "coronasafe/care_fe#7717",
+      "link": "https://github.com/coronasafe/care_fe/pull/7717#pullrequestreview-2024867717",
+      "text": "Correct spelling for comment on PR close on stale"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7717",
+      "time": "2024-04-26T11:49:14+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7717#issuecomment-2079232618",
+      "text": "@care-frontend-maintainers"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7717",
+      "time": "2024-04-26T09:40:39+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7717",
+      "text": "Correct spelling for comment on PR close on stale"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7702",
+      "time": "2024-04-26T07:53:42+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7702",
+      "text": "fix spacing of phone number fields in user filters",
+      "turnaround_time": 75134
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7705",
+      "time": "2024-04-26T05:39:56+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7705#issuecomment-2078669429",
+      "text": "@ankitmrj This is a larger piece to be solved with a few prerequisites that need to be solved before this can be taken up.\r\n\r\nFeel free to take up other good first issues: https://github.com/coronasafe/care_fe/contribute\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7645",
+      "time": "2024-04-26T04:36:51+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7645#issuecomment-2078614464",
+      "text": "> why this error comming in cypress? this is something related to cy.contains(), can you plz guide\r\n\r\nThe cypress test needs to be modified. Notification message is being verified in cypress. So the updated notification message needs to be used in cypress test."
+    },
     {
       "type": "issue_opened",
       "title": "coronasafe/care_fe#7712",
@@ -44718,26 +44804,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/7709",
-      "title": "Enhancements to Doctor Connect Slideover",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7702",
-      "title": "fix spacing of phone number fields in user filters",
-      "stale_for": 0,
-      "labels": [
-        "needs testing"
-      ]
-    },
-    {
       "link": "https://github.com/coronasafe/care_fe/pull/7683",
       "title": "Adds missing required validation for death confirmed doctor in discharge as expired popup",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review"
@@ -44746,7 +44815,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2101",
       "title": "Annotate CSV export fields with patient age for sample test and shifting",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "P1"
       ]
@@ -44754,7 +44823,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7654",
       "title": "Migrate Consultation Camera Feed to use newer camera feed components",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "reviewed"
@@ -44763,13 +44832,13 @@
     {
       "link": "https://github.com/coronasafe/leaderboard-data/pull/37",
       "title": "Test preview deploy with empty commit",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 66,
+      "stale_for": 67,
       "labels": [
         "merge conflict",
         "stale",
