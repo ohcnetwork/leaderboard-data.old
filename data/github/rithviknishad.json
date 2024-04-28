@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-04-26T12:12:52+00:00",
+  "last_updated": "2024-04-27T13:29:16+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#3618",
+      "time": "2024-04-27T13:29:16+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/3618#issuecomment-2080662802",
+      "text": "@hrit2773\r\n\r\nWe've discussed with @aparnacoronasafe and the following things need to be done:\r\n\r\n\r\n1. The JSON field should be converted to a dedicated table. The table should have the following fields: symptom (varchar with choices); other symptom (varchar, nullable); onset_date (date field); cure_date (date field); consultation (foreign key -> PatientConsultation);\r\n\r\n2. Through the daily rounds/log update form, we should be able to mark existing symptoms as cured or add a new symptom. \r\n\r\n3. Ensure existing data is migrated. (JSON to Table)\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-27T08:19:03+00:00",
+      "title": "coronasafe/care_fe#7639",
+      "link": "https://github.com/coronasafe/care_fe/pull/7639#pullrequestreview-2026598203",
+      "text": "[FIXED] Improved the change password handling in profile edit page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-04-27T08:19:03+00:00",
+      "title": "coronasafe/care_fe#7639",
+      "link": "https://github.com/coronasafe/care_fe/pull/7639#pullrequestreview-2026598203",
+      "text": "[FIXED] Improved the change password handling in profile edit page"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care_fe#7718",
@@ -44806,7 +44827,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7683",
       "title": "Adds missing required validation for death confirmed doctor in discharge as expired popup",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs testing",
         "needs review"
@@ -44815,7 +44836,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2101",
       "title": "Annotate CSV export fields with patient age for sample test and shifting",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "P1"
       ]
@@ -44823,7 +44844,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7654",
       "title": "Migrate Consultation Camera Feed to use newer camera feed components",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs testing",
         "reviewed"
@@ -44832,13 +44853,13 @@
     {
       "link": "https://github.com/coronasafe/leaderboard-data/pull/37",
       "title": "Test preview deploy with empty commit",
-      "stale_for": 10,
+      "stale_for": 11,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 67,
+      "stale_for": 68,
       "labels": [
         "merge conflict",
         "stale",

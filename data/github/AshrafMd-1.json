@@ -1,6 +1,62 @@
 {
-  "last_updated": "2024-04-26T19:14:56+00:00",
+  "last_updated": "2024-04-27T17:44:18+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7726",
+      "time": "2024-04-27T17:44:18+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7726",
+      "text": "Fix QR code error notification"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7708",
+      "time": "2024-04-27T17:20:19+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7708#issuecomment-2081105220",
+      "text": "<img width=\"449\" alt=\"image\" src=\"https://github.com/coronasafe/care_fe/assets/98876115/7b4efea7-8712-4a52-8c76-4c8f02b1421f\">\r\n\r\n\r\nThis is how i have handled it\r\n\r\nif its okay i will make a PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7708",
+      "time": "2024-04-27T17:18:57+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7708#issuecomment-2081104922",
+      "text": "Actually, the problem here is that when you search for the non authorized qr you get like an error \r\n\r\n<img width=\"626\" alt=\"image\" src=\"https://github.com/coronasafe/care_fe/assets/98876115/9ccc0bd2-b025-4fea-bbbb-46bb26d7e356\">\r\n\r\nthat's the reason it shows something went wrong \r\n\r\nbut how about  from the backend we display a non-authorized message so we can directly implement it here \r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7708",
+      "time": "2024-04-27T17:16:07+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7708#issuecomment-2081104360",
+      "text": "@nihal467 can you assign me this issue "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7725",
+      "time": "2024-04-27T16:56:43+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7725#issuecomment-2081091066",
+      "text": "@nihal467 is this design okay ?"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7725",
+      "time": "2024-04-27T16:55:51+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7725",
+      "text": "Make the switch bed card styling consistent."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7724",
+      "time": "2024-04-27T16:43:34+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7724#issuecomment-2081063434",
+      "text": "Wromg commit "
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7724",
+      "time": "2024-04-27T16:39:39+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7724",
+      "text": "Make the switch bed card styling consistent."
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7498",
@@ -2440,9 +2496,21 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7726",
+      "title": "Fix QR code error notification",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7725",
+      "title": "Make the switch bed card styling consistent.",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/7720",
       "title": "Add loading to external results.",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
