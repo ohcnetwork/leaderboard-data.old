@@ -7,7 +7,7 @@ on:
 
 jobs:
   run-slack-eod-reminder:
-    uses: coronasafe/leaderboard/.github/workflows/post-eod-activities-slack@main
+    uses: coronasafe/leaderboard/.github/workflows/post-eod-activities-slack.yaml@main
     if: github.ref == 'refs/heads/main'
     permissions:
       issues: read
