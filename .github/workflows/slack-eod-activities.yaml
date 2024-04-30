@@ -1,0 +1,21 @@
+name: Post EOD Messages to Slack Channel
+
+on:
+  schedule:
+    - cron: "00 14 * * *" # 19:30 IST
+  workflow_dispatch:
+
+jobs:
+  run-slack-eod-reminder:
+    uses: coronasafe/leaderboard/.github/workflows/post-activities-updates.yaml
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      issues: read
+      pull-requests: read
+    with:
+      LEADERBOARD_URL: https://contributors.ohc.network
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      LEADERBOARD_API_KEY: ${{ secrets.LEADERBOARD_API_KEY }}
+      SLACK_EOD_BOT_CHANNEL: ${{ vars.SLACK_EOD_BOT_CHANNEL }}
+      SLACK_EOD_BOT_TOKEN: ${{ secrets.SLACK_EOD_BOT_TOKEN }}
