@@ -1,6 +1,56 @@
 {
-  "last_updated": "2024-04-23T13:29:44+00:00",
+  "last_updated": "2024-04-30T13:44:55+00:00",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/leaderboard#443",
+      "time": "2024-04-30T13:44:55+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/pull/443",
+      "text": "Fixed Slack Events Duplicates",
+      "turnaround_time": 447
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/leaderboard#443",
+      "time": "2024-04-30T13:37:29+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/pull/443",
+      "text": "changed storage key"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/leaderboard#442",
+      "time": "2024-04-30T13:35:25+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/issues/442",
+      "text": "Ensure a general update is only added once, and prevent duplicate entries due to Slack's unpredictable retires."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7737",
+      "time": "2024-04-30T12:50:06+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7737#issuecomment-2085244809",
+      "text": "Will track exports in another issue"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7745",
+      "time": "2024-04-30T12:49:04+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7745",
+      "text": "Export Discharged Patients"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7744",
+      "time": "2024-04-30T12:39:08+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7744",
+      "text": "Updated discharged patients page"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2124",
+      "time": "2024-04-30T12:27:42+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2124",
+      "text": "Added discharge patient filters"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7673",
@@ -7705,21 +7755,41 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7744",
+      "title": "Updated discharged patients page",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "waiting for backend"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2124",
+      "title": "Added discharge patient filters",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care/pull/1967",
       "title": "Painscale changed from 0 - 5 to 0 - 10",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7380",
       "title": "Updated Preview UIs and Changes to Painscale",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "waiting for backend"
       ]
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/coronasafe/leaderboard/issues/442",
+      "pr_link": "https://github.com/coronasafe/leaderboard/pull/443"
+    },
     {
       "issue_link": "https://github.com/coronasafe/care/issues/2004",
       "pr_link": "https://github.com/coronasafe/care/pull/2006"
