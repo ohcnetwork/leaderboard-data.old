@@ -1,6 +1,90 @@
 {
-  "last_updated": "2024-05-03T13:41:59+00:00",
+  "last_updated": "2024-05-04T16:49:17+00:00",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-04T16:49:17+00:00",
+      "title": "coronasafe/care_fe#7671",
+      "link": "https://github.com/coronasafe/care_fe/pull/7671#pullrequestreview-2039515665",
+      "text": "Allow only admins to delete a location or a bed"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-04T16:49:17+00:00",
+      "title": "coronasafe/care_fe#7671",
+      "link": "https://github.com/coronasafe/care_fe/pull/7671#pullrequestreview-2039515665",
+      "text": "Allow only admins to delete a location or a bed"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#398",
+      "time": "2024-05-04T16:39:54+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/pull/398#issuecomment-2094294454",
+      "text": "Even for the leaderboard page, the time has increased by two times. Production deployment loaded in ~5 seconds, but preview deployment leaderboard page loaded in ~10 seconds."
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7753",
+      "time": "2024-05-04T15:11:04+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7753",
+      "text": "Improving usages of font sizes in CARE"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#398",
+      "time": "2024-05-04T13:59:42+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/pull/398#issuecomment-2094211020",
+      "text": "https://leaderboard-git-fork-re-dei-plaiceholder-ohcnetwork.vercel.app/people\r\n\r\nThe deploy preview page for `/people` seems to be taking way longer time to load (more than a minute or so), and the blur barely lasts for a second."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-04T13:31:46+00:00",
+      "title": "coronasafe/care#2116",
+      "link": "https://github.com/coronasafe/care/pull/2116#pullrequestreview-2039353132",
+      "text": "Disable the Bed List of Already occupied Beds (back-end change)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-04T11:20:23+00:00",
+      "title": "coronasafe/care_fe#7609",
+      "link": "https://github.com/coronasafe/care_fe/pull/7609#pullrequestreview-2039333713",
+      "text": "Fix Notifications for Facility Cover Image Deletion "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-04T11:19:38+00:00",
+      "title": "coronasafe/care_fe#7588",
+      "link": "https://github.com/coronasafe/care_fe/pull/7588#pullrequestreview-2039333659",
+      "text": "Fix Incorrect error message for invalid QR code "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-04T11:12:06+00:00",
+      "title": "coronasafe/care#2116",
+      "link": "https://github.com/coronasafe/care/pull/2116#pullrequestreview-2039332294",
+      "text": "Disable the Bed List of Already occupied Beds (back-end change)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-04T11:12:06+00:00",
+      "title": "coronasafe/care#2116",
+      "link": "https://github.com/coronasafe/care/pull/2116#pullrequestreview-2039332294",
+      "text": "Disable the Bed List of Already occupied Beds (back-end change)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-04T05:39:23+00:00",
+      "title": "coronasafe/care_fe#7726",
+      "link": "https://github.com/coronasafe/care_fe/pull/7726#pullrequestreview-2039258603",
+      "text": "Fix QR code error notification"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-04T05:38:23+00:00",
+      "title": "coronasafe/care_fe#7498",
+      "link": "https://github.com/coronasafe/care_fe/pull/7498#pullrequestreview-2039258514",
+      "text": "Restrict Unauthorized Users from Accessing Facility's Patient Registration"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-05-03T13:41:59+00:00",
@@ -45355,19 +45439,19 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7752",
       "title": "Daily Rounds: Remove support for copying from previous log update",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7750",
       "title": "Update asset import template to include `VENTILATOR` class and remove `asset_type` column",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7749",
       "title": "Increase no. of users shown in the User Autocomplete Input",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs testing",
         "needs review"
@@ -45376,7 +45460,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7735",
       "title": "Adds IP Days chip for admission encounters",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "needs review",
         "tested"
@@ -45385,7 +45469,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7654",
       "title": "Migrate Consultation Camera Feed to use newer camera feed components",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "needs testing",
         "reviewed"
@@ -45394,7 +45478,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 74,
+      "stale_for": 75,
       "labels": [
         "merge conflict",
         "stale",

@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-04-25T14:05:48+00:00",
+  "last_updated": "2024-05-04T12:02:05+00:00",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-04T12:02:05+00:00",
+      "title": "coronasafe/care#2116",
+      "link": "https://github.com/coronasafe/care/pull/2116#pullrequestreview-2039340391",
+      "text": "Disable the Bed List of Already occupied Beds (back-end change)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-04T10:36:23+00:00",
+      "title": "coronasafe/care_fe#7609",
+      "link": "https://github.com/coronasafe/care_fe/pull/7609#pullrequestreview-2039322482",
+      "text": "Fix Notifications for Facility Cover Image Deletion "
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7708",
@@ -696,43 +710,45 @@
       "title": "Disable the Bed List of Already occupied Beds (front-end change)",
       "stale_for": 0,
       "labels": [
+        "changes required",
         "waiting for backend"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7671",
       "title": "Allow only admins to delete a location or a bed",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "test failed"
+        "changes required"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2089",
       "title": "Fix facility n+1",
-      "stale_for": 1,
+      "stale_for": 10,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7609",
       "title": "Fix Notifications for Facility Cover Image Deletion ",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7588",
       "title": "Fix Incorrect error message for invalid QR code ",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2024",
       "title": "add support for configurable sms backend",
-      "stale_for": 17,
+      "stale_for": 26,
       "labels": [
         "Hold"
       ]
@@ -740,7 +756,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1940",
       "title": "Add created_by and updated_by fields to base model",
-      "stale_for": 9,
+      "stale_for": 18,
       "labels": []
     }
   ],
