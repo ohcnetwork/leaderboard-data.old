@@ -1,12 +1,12 @@
 ---
 name: ashuchow
-title: Contributor
+title: Data Analytics Engineer
 github: ashuchow
 twitter: ""
 linkedin: ""
-slack: ""
+slack: "U065F462NF2"
 joining_date: ""
-role: contributor
+role: core
 ---
 
 Still waiting for this
