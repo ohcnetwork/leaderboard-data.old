@@ -2,7 +2,7 @@ name: Post EOD Messages to Slack Channel
 
 on:
   schedule:
-    - cron: "00 14 * * *" # 19:30 IST
+    - cron: "30 13 * * *" # 19:30 IST
   workflow_dispatch:
 
 jobs:
