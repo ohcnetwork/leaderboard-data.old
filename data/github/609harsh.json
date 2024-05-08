@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-05-06T16:57:32+00:00",
+  "last_updated": "2024-05-07T14:20:38+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7758",
+      "time": "2024-05-07T14:20:38+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7758#issuecomment-2098525723",
+      "text": "and what about fetching oxygen details?\r\nshould i use this \r\n![image](https://github.com/coronasafe/care_fe/assets/97297407/1774ec8d-34e0-4d06-b598-75ec54c7d51d)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7758",
+      "time": "2024-05-07T13:45:22+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7758#issuecomment-2098448259",
+      "text": "@rithviknishad this one?\r\n![image](https://github.com/coronasafe/care_fe/assets/97297407/8145601f-3820-4454-bd1b-bb1b7f885a13)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7758",
+      "time": "2024-05-07T12:45:08+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7758#issuecomment-2098323561",
+      "text": "Hi @rithviknishad, we need 4 new api endpoints (Get,Post,Put,Delete) for Oxygen Section at facility home page. can i create those or do i have to raise a issue?\r\n\r\nAlso while making Post api call at update facility button should we remove oxygen data that we are sending (as in  ui we have removed) or keep default values to be 0. since if we remove oxygen related data for api call i guess we will also need to update that endpoint."
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7758",
@@ -62,10 +83,10 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7746",
       "title": "occupation field options are in alphabetical order",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "tested"
       ]
     }
   ],

@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-05-06T17:22:31+00:00",
+  "last_updated": "2024-05-07T17:48:42+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2134",
+      "time": "2024-05-07T17:48:42+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2134",
+      "text": "Skip creating event group if all fields are null"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-07T11:46:33+00:00",
+      "title": "coronasafe/leaderboard-data#40",
+      "link": "https://github.com/coronasafe/leaderboard-data/pull/40#pullrequestreview-2042950451",
+      "text": "Drop vercel cron triggers for reminders API"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-07T11:43:31+00:00",
+      "title": "coronasafe/leaderboard#451",
+      "link": "https://github.com/coronasafe/leaderboard/pull/451#pullrequestreview-2042945012",
+      "text": "Move Activities Bot reminder to GH Actions"
+    },
     {
       "type": "pr_merged",
       "title": "coronasafe/care_fe#7765",
@@ -13040,11 +13061,16 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care/pull/2134",
+      "title": "Skip creating event group if all fields are null",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/7741",
       "title": "upgrade storybook to v8",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
         "needs review",
         "changes required"
       ]
@@ -13052,25 +13078,25 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2094",
       "title": "Allow `audio/mp4` by default",
-      "stale_for": 20,
+      "stale_for": 21,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2081",
       "title": "Update dependencies",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/citizen/pull/44",
       "title": "Quick changes to get the app running again",
-      "stale_for": 50,
+      "stale_for": 51,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 162,
+      "stale_for": 163,
       "labels": [
         "blocked",
         "changes required",
@@ -13081,7 +13107,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1579",
       "title": "refactor all files as per ruff rules",
-      "stale_for": 54,
+      "stale_for": 55,
       "labels": [
         "In progress"
       ]
@@ -13089,19 +13115,19 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 54,
+      "stale_for": 55,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/medibase/pull/7",
       "title": "Update dependencies",
-      "stale_for": 291,
+      "stale_for": 292,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1349",
       "title": "use signals to update patient and bed count of facilities",
-      "stale_for": 54,
+      "stale_for": 55,
       "labels": []
     }
   ],

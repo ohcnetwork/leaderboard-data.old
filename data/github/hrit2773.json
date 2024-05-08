@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-05-06T06:56:28+00:00",
+  "last_updated": "2024-05-07T13:56:20+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#3618",
+      "time": "2024-05-07T13:56:20+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/3618#issuecomment-2098472348",
+      "text": "something like this? from implies the onset date and if cure date exists then the string would be \" from {onset date} to {cure date} \" in this case as there is no cure date so \"to {cure date}\" is not visible\r\n![Screenshot 2024-05-07 190910](https://github.com/coronasafe/care_fe/assets/128292557/b25a80ea-9761-4620-982d-9c0ab331a1f3)\r\n"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-05-06T06:56:28+00:00",
@@ -1019,9 +1026,9 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7696",
       "title": "Adding proper error message for Camera config page",
-      "stale_for": 9,
+      "stale_for": 0,
       "labels": [
-        "needs testing"
+        "tested"
       ]
     },
     {
@@ -1033,7 +1040,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1996",
       "title": "Soft delete assets from deleted facilities/hospitals",
-      "stale_for": 12,
+      "stale_for": 13,
       "labels": []
     }
   ],

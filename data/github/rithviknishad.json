@@ -1,6 +1,221 @@
 {
-  "last_updated": "2024-05-06T17:22:31+00:00",
+  "last_updated": "2024-05-07T15:33:33+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7748",
+      "time": "2024-05-07T15:33:33+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7748#issuecomment-2098736328",
+      "text": "As discussed, we'd be migrating all existing notes under doctor's discussion thread."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7758",
+      "time": "2024-05-07T15:27:15+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7758#issuecomment-2098715756",
+      "text": "You don't need to fetch anything right? The parent component which is the facility details page, already would have fetched the facility record right? Just pass it down as a prop?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-07T15:01:31+00:00",
+      "title": "coronasafe/care_fe#7770",
+      "link": "https://github.com/coronasafe/care_fe/pull/7770#pullrequestreview-2043459281",
+      "text": "fixed usages of font sizes to respect browser's"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7758",
+      "time": "2024-05-07T13:56:50+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7758#issuecomment-2098473387",
+      "text": "Yup!\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7758",
+      "time": "2024-05-07T12:53:12+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7758#issuecomment-2098338555",
+      "text": "You could simply use the existing  PATCH facility api instead right?"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7748",
+      "time": "2024-05-07T12:33:38+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7748#issuecomment-2098301494",
+      "text": "With that approach, we'll have an issue with categorizing notes filed by \"District Admin\" user type. Which thread will those existing notes belong to?\r\n\r\nWe have such records as of develop env. DB\r\n\r\n<img width=\"640\" alt=\"image\" src=\"https://github.com/coronasafe/care_fe/assets/25143503/a02d300a-b4fd-4cb1-860a-c42bea664090\">\r\n\r\n<img width=\"1698\" alt=\"image\" src=\"https://github.com/coronasafe/care_fe/assets/25143503/ae14153a-bdb6-446b-ad4a-02c667b61386\">\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-07T12:16:03+00:00",
+      "title": "coronasafe/care_fe#7750",
+      "link": "https://github.com/coronasafe/care_fe/pull/7750#pullrequestreview-2043022287",
+      "text": "Update asset import template to include `VENTILATOR` class and remove `asset_type` column"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/leaderboard-data#40",
+      "time": "2024-05-07T12:01:56+00:00",
+      "link": "https://github.com/coronasafe/leaderboard-data/pull/40",
+      "text": "Drop vercel cron triggers for reminders API",
+      "turnaround_time": 1850
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/leaderboard#451",
+      "time": "2024-05-07T12:01:43+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/pull/451",
+      "text": "Move Activities Bot reminder to GH Actions",
+      "turnaround_time": 26059
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2133",
+      "time": "2024-05-07T11:55:34+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2133",
+      "text": "Prescriptions and MAR: Disallow non-home facility users to perform edits and disallow edits for discharged patients"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/leaderboard-data#40",
+      "time": "2024-05-07T11:31:07+00:00",
+      "link": "https://github.com/coronasafe/leaderboard-data/pull/40",
+      "text": "Drop vercel cron triggers for reminders API"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/leaderboard#451",
+      "time": "2024-05-07T11:21:52+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/pull/451",
+      "text": "Move Activities Bot reminder to GH Actions"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7757",
+      "time": "2024-05-07T09:33:09+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7757",
+      "text": "Hides nurse read only user type",
+      "turnaround_time": 86317
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7735",
+      "time": "2024-05-07T09:28:49+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7735",
+      "text": "Adds IP Days chip for admission encounters",
+      "turnaround_time": 83707
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7644",
+      "time": "2024-05-07T09:22:22+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7644",
+      "text": "Fixed #7610 Toggle  Emergency Contact No. From Phone Number",
+      "collaborated_with": [
+        "nihal467",
+        "manasvi-gaur",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7502",
+      "time": "2024-05-07T09:14:39+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7502",
+      "text": "Show no information card if consultation and sample test history list is empty",
+      "collaborated_with": [
+        "nihal467",
+        "Sulochan-khadka"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7496",
+      "time": "2024-05-07T09:05:49+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7496",
+      "text": "Icon overlapping with text in text-box of Doctor's Notes. #7495",
+      "collaborated_with": [
+        "nihal467",
+        "Sulochan-khadka"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7480",
+      "time": "2024-05-07T09:03:27+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7480",
+      "text": "fixes \"Set average weekly working hour\" button in user tab is not responsive Fixes #7309",
+      "collaborated_with": [
+        "nihal467",
+        "kabirrajsingh"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7323",
+      "time": "2024-05-07T09:01:26+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7323",
+      "text": "#7308 fix : use \"hidden\" css property to toggle b/w Login & Forgot Password",
+      "collaborated_with": [
+        "Vibhu1710"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7273",
+      "time": "2024-05-07T09:00:51+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7273",
+      "text": "Fix : Minimum value in forms should be greater than 0",
+      "collaborated_with": [
+        "nihal467",
+        "Ashesh3",
+        "khavinshankar",
+        "Keshav-0907"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#1838",
+      "time": "2024-05-07T08:47:14+00:00",
+      "link": "https://github.com/coronasafe/care/issues/1838#issuecomment-2097773950",
+      "text": "@Clemo97 unassigning due to no activity. Feel free to take it up if you'd be making a PR to solve this issue."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7769",
+      "time": "2024-05-07T08:44:57+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7769#issuecomment-2097769761",
+      "text": "Related to: https://github.com/coronasafe/care/issues/1838"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/leaderboard-data#39",
+      "time": "2024-05-07T06:19:46+00:00",
+      "link": "https://github.com/coronasafe/leaderboard-data/pull/39",
+      "text": "Update ashuchow.md",
+      "collaborated_with": [
+        "ashuchow"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-07T06:18:47+00:00",
+      "title": "coronasafe/leaderboard-data#39",
+      "link": "https://github.com/coronasafe/leaderboard-data/pull/39#pullrequestreview-2042156882",
+      "text": "Update ashuchow.md"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-07T06:18:47+00:00",
+      "title": "coronasafe/leaderboard-data#39",
+      "link": "https://github.com/coronasafe/leaderboard-data/pull/39#pullrequestreview-2042156882",
+      "text": "Update ashuchow.md"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7758",
+      "time": "2024-05-07T04:39:45+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7758#issuecomment-2097432018",
+      "text": "Couldn't find one specific to oxygen/cylinder. You could use the same one as the one used in the  \"Add Triage\" button."
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care_fe#7765",
@@ -45564,63 +45779,57 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/7757",
-      "title": "Hides nurse read only user type",
+      "link": "https://github.com/coronasafe/care/pull/2133",
+      "title": "Prescriptions and MAR: Disallow non-home facility users to perform edits and disallow edits for discharged patients",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "In progress"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2127",
       "title": "Drops support for cloning previous log update",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7752",
       "title": "Daily Rounds: Remove support for copying from previous log update",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "merge conflict"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7750",
       "title": "Update asset import template to include `VENTILATOR` class and remove `asset_type` column",
-      "stale_for": 4,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7749",
-      "title": "Increase no. of users shown in the User Autocomplete Input",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"
       ]
     },
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/7735",
-      "title": "Adds IP Days chip for admission encounters",
-      "stale_for": 6,
+      "link": "https://github.com/coronasafe/care_fe/pull/7749",
+      "title": "Increase no. of users shown in the User Autocomplete Input",
+      "stale_for": 5,
       "labels": [
-        "needs review",
-        "tested"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7654",
       "title": "Migrate Consultation Camera Feed to use newer camera feed components",
-      "stale_for": 6,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "reviewed"
+        "test failed"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 77,
+      "stale_for": 78,
       "labels": [
         "merge conflict",
         "stale",
