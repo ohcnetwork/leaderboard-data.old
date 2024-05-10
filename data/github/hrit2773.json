@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-05-08T08:58:23+00:00",
+  "last_updated": "2024-05-09T16:57:49+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#3618",
+      "time": "2024-05-09T16:57:49+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/3618#issuecomment-2103049332",
+      "text": "@rithviknishad so in total we will have 2 foreign key fields one is consultation and other one daily round"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#3618",
+      "time": "2024-05-09T16:56:30+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/3618#issuecomment-2103047258",
+      "text": "@rithviknishad for linking the symptoms with the daily rounds we also need to add a daily round foreign key field in the ConsultationSymptom model because to update log we have to get access to the symptoms which were part of that particular log update. \r\n![Screenshot 2024-05-09 222549](https://github.com/coronasafe/care_fe/assets/128292557/7af26d80-47f5-4c6b-80eb-e37abfb447dd)\r\n"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-05-08T08:58:23+00:00",
@@ -1040,7 +1054,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7696",
       "title": "Adding proper error message for Camera config page",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "tested",
@@ -1050,13 +1064,13 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2095",
       "title": "consultation depth backend",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1996",
       "title": "Soft delete assets from deleted facilities/hospitals",
-      "stale_for": 14,
+      "stale_for": 15,
       "labels": []
     }
   ],
