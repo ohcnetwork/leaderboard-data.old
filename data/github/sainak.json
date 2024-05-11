@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-05-09T17:53:34+00:00",
+  "last_updated": "2024-05-10T12:48:23+00:00",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-10T12:48:23+00:00",
+      "title": "coronasafe/care#2140",
+      "link": "https://github.com/coronasafe/care/pull/2140#pullrequestreview-2050007325",
+      "text": "fixes review interval not being updated for \"no review\""
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/care_fe#7785",
@@ -13172,36 +13179,39 @@
       "link": "https://github.com/coronasafe/care_fe/pull/7785",
       "title": "Update dependencies and re-lock without legacy peer deps",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2134",
       "title": "Skip creating event group if all fields are null",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2094",
       "title": "Allow `audio/mp4` by default",
-      "stale_for": 23,
+      "stale_for": 24,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2081",
       "title": "Update dependencies",
-      "stale_for": 10,
+      "stale_for": 11,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/citizen/pull/44",
       "title": "Quick changes to get the app running again",
-      "stale_for": 53,
+      "stale_for": 54,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 165,
+      "stale_for": 166,
       "labels": [
         "blocked",
         "changes required",
@@ -13212,7 +13222,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1579",
       "title": "refactor all files as per ruff rules",
-      "stale_for": 57,
+      "stale_for": 58,
       "labels": [
         "In progress"
       ]
@@ -13220,19 +13230,19 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 57,
+      "stale_for": 58,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/medibase/pull/7",
       "title": "Update dependencies",
-      "stale_for": 294,
+      "stale_for": 295,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1349",
       "title": "use signals to update patient and bed count of facilities",
-      "stale_for": 57,
+      "stale_for": 58,
       "labels": []
     }
   ],
