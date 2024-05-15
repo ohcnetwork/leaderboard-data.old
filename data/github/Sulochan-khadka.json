@@ -1,6 +1,92 @@
 {
-  "last_updated": "2024-05-13T20:33:22+00:00",
+  "last_updated": "2024-05-14T22:41:57+00:00",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7804",
+      "time": "2024-05-14T22:41:57+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7804",
+      "text": "fixes: manage patient button is not properly responsive  #7799",
+      "turnaround_time": 65640
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7816",
+      "time": "2024-05-14T22:39:33+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7816",
+      "text": "fixes: #7813. Removed COVID Status and added Last Discharged Reason with better alignment in Patient details page",
+      "turnaround_time": 42984
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7820",
+      "time": "2024-05-14T20:09:36+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7820",
+      "text": "fixes: Renaming patient categorisation #7811"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7810",
+      "time": "2024-05-14T13:00:20+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7810#issuecomment-2110175224",
+      "text": "Since this is P1, can @rithviknishad @nihal467 comment on this and let me know if I can go ahead and raise a PR?"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7816",
+      "time": "2024-05-14T11:14:54+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7816#issuecomment-2109935632",
+      "text": "@rithviknishad have changed the title to the PR."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7816",
+      "time": "2024-05-14T11:13:06+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7816#issuecomment-2109931818",
+      "text": "> @Sulochan-khadka It'd be great if you could give a meaningful title to the PR as this would be part of the changelog entry.\r\n> \r\n> +1 for attaching screenshots of the updated UI too! \ud83d\ude04\r\n\r\nOhh... this just somehow escaped from my focus... I will surely..."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7811",
+      "time": "2024-05-14T11:11:26+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7811#issuecomment-2109928075",
+      "text": "I think the data which has already been saved aren't changing. For example in this :\r\n<img width=\"1438\" alt=\"Screenshot 2024-05-14 at 4 40 40\u202fPM\" src=\"https://github.com/coronasafe/care_fe/assets/122200551/78cba153-c500-439a-abfc-358b93170985\">\r\n\r\nHowever, I have changed in the mentioned places...\r\n\r\nShall I raise a PR? @aparnacoronasafe "
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7816",
+      "time": "2024-05-14T10:43:09+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7816",
+      "text": "fixes: #7813"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7813",
+      "time": "2024-05-14T10:38:35+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7813#issuecomment-2109863440",
+      "text": "@aparnacoronasafe for status-live, I have made \"Last Discharged Reason\" : \"-\".\r\n\r\nHave a look at the proposed PR.\r\n<img width=\"1438\" alt=\"Screenshot 2024-05-14 at 4 06 40\u202fPM\" src=\"https://github.com/coronasafe/care_fe/assets/122200551/492960a7-d68f-468b-a7f5-a118de575630\">\r\n\r\n<img width=\"1438\" alt=\"Screenshot 2024-05-14 at 4 06 52\u202fPM\" src=\"https://github.com/coronasafe/care_fe/assets/122200551/37a34849-8ecb-47c6-8e4a-9c0dc18ad782\">\r\n\r\n<img width=\"1438\" alt=\"Screenshot 2024-05-14 at 4 07 13\u202fPM\" src=\"https://github.com/coronasafe/care_fe/assets/122200551/4f387358-5046-45e0-ab46-dd527dc5693e\">\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7810",
+      "time": "2024-05-14T10:22:06+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7810#issuecomment-2109830693",
+      "text": "@aparnacoronasafe Let me know if I can help you ..."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7810",
+      "time": "2024-05-14T10:21:20+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7810#issuecomment-2109828941",
+      "text": "I guess there are two ways in which we can achieve this... \r\n\r\nLike this: (Dropdown)\r\n<img width=\"1438\" alt=\"Screenshot 2024-05-14 at 3 44 56\u202fPM\" src=\"https://github.com/coronasafe/care_fe/assets/122200551/84015f3c-7d6d-4250-bb94-2d72c2abbb09\">\r\n\r\n\r\nor like this: (SlideOver)\r\n<img width=\"1438\" alt=\"Screenshot 2024-05-14 at 3 49 37\u202fPM\" src=\"https://github.com/coronasafe/care_fe/assets/122200551/67a3d08b-4137-414c-9b47-0ca8201cc406\">\r\n\r\nAlso let me know if it should have the functionality to unlink the skills or not."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7810",
+      "time": "2024-05-14T09:55:51+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7810#issuecomment-2109777167",
+      "text": "May you present some UI idea to that... I think since the skills may be large thus, having a dropdown with the heading as Skills would be better."
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/care_fe#7804",
@@ -760,8 +846,8 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/7804",
-      "title": "fixesmanage patient button is not properly responsive  #7799",
+      "link": "https://github.com/coronasafe/care_fe/pull/7820",
+      "title": "fixes: Renaming patient categorisation #7811",
       "stale_for": 0,
       "labels": []
     }
