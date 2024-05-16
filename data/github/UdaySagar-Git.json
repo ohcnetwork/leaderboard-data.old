@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-05-14T20:03:04+00:00",
+  "last_updated": "2024-05-15T09:58:33+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2160",
+      "time": "2024-05-15T09:58:33+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2160#issuecomment-2112082226",
+      "text": "@sainak , thanks for pointing that out. It won't fetch the parent if there are more notes. Instead of sending just the ID, sending the complete parent object along with the note would solve this. Should I consider that?"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care#2160",
@@ -1312,8 +1319,8 @@
       "title": "Reply feature for doctor notes",
       "stale_for": 0,
       "labels": [
-        "needs review",
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     }
   ],

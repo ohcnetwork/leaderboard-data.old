@@ -1,6 +1,100 @@
 {
-  "last_updated": "2024-05-14T22:41:57+00:00",
+  "last_updated": "2024-05-15T14:57:36+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7767",
+      "time": "2024-05-15T14:57:36+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7767#issuecomment-2112774390",
+      "text": "Is this issue solved @gigincg @bodhish or shall I raise a PR?"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7762",
+      "time": "2024-05-15T14:50:04+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7762#issuecomment-2112756121",
+      "text": "@gayann-au the issue is unclear to work on. Also the screen recording is not visible to me..."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7820",
+      "time": "2024-05-15T14:48:17+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7820#issuecomment-2112751921",
+      "text": "@rithviknishad could you review this?"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7822",
+      "time": "2024-05-15T14:45:41+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7822#issuecomment-2112745799",
+      "text": "> Nice work! The UI has improved a lot!\r\n> \r\n> Few more suggestions, and should be ready for testing.\r\n> \r\n> 1. If there are 3 or more skills, since we are truncating it, show those as comma-separated values inside the tooltip.\r\n> 2. Just correct the minor alignment and spacing issue. Seems to be vertically off center.\r\n> \r\n> Before the PR: <img alt=\"image\" width=\"361\" src=\"https://private-user-images.githubusercontent.com/25143503/330844030-40438252-31b6-46de-95dd-bc6c640f252b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU3ODQzMDIsIm5iZiI6MTcxNTc4NDAwMiwicGF0aCI6Ii8yNTE0MzUwMy8zMzA4NDQwMzAtNDA0MzgyNTItMzFiNi00NmRlLTk1ZGQtYmM2YzY0MGYyNTJiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE1VDE0NDAwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZkNDNmMDk4MjRmNThkN2MwYTg4NTQzYjhlNjBiOWE2YWI1YjZhYTgxMjA3MjM4YjNjNWQxYjlkMzU5MmViOTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.amLpP6wxIGrrN2qXc_fK-UvaTCzcdM0ia46D_tL_i_c\">\r\n> \r\n> PR: <img alt=\"image\" width=\"508\" src=\"https://private-user-images.githubusercontent.com/25143503/330843944-309cbf56-8162-4fa9-a401-8e8bb9490c0c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU3ODQzMDIsIm5iZiI6MTcxNTc4NDAwMiwicGF0aCI6Ii8yNTE0MzUwMy8zMzA4NDM5NDQtMzA5Y2JmNTYtODE2Mi00ZmE5LWE0MDEtOGU4YmI5NDkwYzBjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE1VDE0NDAwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU5N2M0Mjc0NmMyOTc4YWY0NWM5MTA5MTczNWRlMGRlOWRkNDg2YzFhMmNhYzNjOTYxYzM4ZDg0YWExNjJmMDUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.IHni17Zu5m8s5xJIPiM4CX8Du0MeM8rztOcvb99NMFs\">\r\n\r\n1. But some users have much more skills, how do I represent them?  Could you give some idea about how should UI look like? A similar reference would be highly appreciated."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-15T13:56:27+00:00",
+      "title": "coronasafe/care_fe#7822",
+      "link": "https://github.com/coronasafe/care_fe/pull/7822#pullrequestreview-2058115361",
+      "text": "fixes: Linked skills- to show on patient dashboard for \"treating doct\u2026"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7822",
+      "time": "2024-05-15T13:17:40+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7822#issuecomment-2112496497",
+      "text": "@rithviknishad , I have also added appropriate grammar since it was not proper then. Let me know if this PR requires some more improvements."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-15T13:16:28+00:00",
+      "title": "coronasafe/care_fe#7822",
+      "link": "https://github.com/coronasafe/care_fe/pull/7822#pullrequestreview-2057991115",
+      "text": "fixes: Linked skills- to show on patient dashboard for \"treating doct\u2026"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-15T13:00:40+00:00",
+      "title": "coronasafe/care_fe#7822",
+      "link": "https://github.com/coronasafe/care_fe/pull/7822#pullrequestreview-2057945155",
+      "text": "fixes: Linked skills- to show on patient dashboard for \"treating doct\u2026"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-15T12:53:39+00:00",
+      "title": "coronasafe/care_fe#7822",
+      "link": "https://github.com/coronasafe/care_fe/pull/7822#pullrequestreview-2057927368",
+      "text": "fixes: Linked skills- to show on patient dashboard for \"treating doct\u2026"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7821",
+      "time": "2024-05-15T08:22:08+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7821",
+      "text": "Merge Develop to Staging v24.21.0",
+      "collaborated_with": [
+        "sainak",
+        "r-nikhilkumar",
+        "Ashutosh0602",
+        "AshrafMd-1",
+        "rithviknishad",
+        "skks1212",
+        "khavinshankar",
+        "rash-27"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7822",
+      "time": "2024-05-15T07:56:00+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7822#issuecomment-2111826857",
+      "text": "<img width=\"1438\" alt=\"Screenshot 2024-05-15 at 1 25 39\u202fPM\" src=\"https://github.com/coronasafe/care_fe/assets/122200551/4b7deac7-8896-4f14-92ce-8e4fa4b6e90b\">\r\nHere is the result for reference!!"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7822",
+      "time": "2024-05-15T07:53:59+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7822",
+      "text": "fixes: Linked skills- to show on patient dashboard for \"treating doct\u2026"
+    },
     {
       "type": "pr_merged",
       "title": "coronasafe/care_fe#7804",
@@ -845,6 +939,15 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7822",
+      "title": "fixes: Linked skills- to show on patient dashboard for \"treating doct\u2026",
+      "stale_for": 0,
+      "labels": [
+        "P1",
+        "changes required"
+      ]
+    },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7820",
       "title": "fixes: Renaming patient categorisation #7811",
