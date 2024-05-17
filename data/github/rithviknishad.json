@@ -1,6 +1,92 @@
 {
-  "last_updated": "2024-05-15T17:09:12+00:00",
+  "last_updated": "2024-05-16T16:25:40+00:00",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2172",
+      "time": "2024-05-16T16:25:40+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2172",
+      "text": "Develop to Staging",
+      "collaborated_with": [
+        "vigneshhari",
+        "bodhish",
+        "GokulramGHV",
+        "skks1212",
+        "khavinshankar",
+        "DraKen0009",
+        "gigincg",
+        "sainak",
+        "rash-27"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7833",
+      "time": "2024-05-16T16:04:24+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7833#issuecomment-2115636979",
+      "text": "<img width=\"974\" alt=\"image\" src=\"https://github.com/coronasafe/care_fe/assets/25143503/996b4a2f-4d23-4057-b909-326d1bf79713\">\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-16T16:02:53+00:00",
+      "title": "coronasafe/care_fe#7833",
+      "link": "https://github.com/coronasafe/care_fe/pull/7833#pullrequestreview-2061254021",
+      "text": "fixes: Prescriptions: Default Discontinued Prescriptions Collapsed #7767"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-16T16:01:39+00:00",
+      "title": "coronasafe/care_fe#7833",
+      "link": "https://github.com/coronasafe/care_fe/pull/7833#pullrequestreview-2061250330",
+      "text": "fixes: Prescriptions: Default Discontinued Prescriptions Collapsed #7767"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7833",
+      "time": "2024-05-16T15:59:24+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7833#issuecomment-2115625333",
+      "text": "@Sulochan-khadka you might also want to update the cypress tests are related test is failing."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-16T15:58:28+00:00",
+      "title": "coronasafe/care_fe#7833",
+      "link": "https://github.com/coronasafe/care_fe/pull/7833#pullrequestreview-2061236948",
+      "text": "fixes: Prescriptions: Default Discontinued Prescriptions Collapsed #7767"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-16T15:58:28+00:00",
+      "title": "coronasafe/care_fe#7833",
+      "link": "https://github.com/coronasafe/care_fe/pull/7833#pullrequestreview-2061236948",
+      "text": "fixes: Prescriptions: Default Discontinued Prescriptions Collapsed #7767"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care#2171",
+      "time": "2024-05-16T15:17:57+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2171",
+      "text": "Removes unused field `temperature_measured_at` from Daily Rounds",
+      "turnaround_time": 79726
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2170",
+      "time": "2024-05-16T15:16:39+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2170",
+      "text": "Store critical care daily round changes in events",
+      "collaborated_with": [
+        "sainak"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7829",
+      "time": "2024-05-16T15:14:23+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7829",
+      "text": "Removes unused field `temperature_measured_at`",
+      "turnaround_time": 79662
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/care#2171",
@@ -46800,24 +46886,8 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care/pull/2171",
-      "title": "Removes unused field `temperature_measured_at` from Daily Rounds",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7829",
-      "title": "Removes unused field `temperature_measured_at`",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "Backend",
-        "needs review"
-      ]
-    },
-    {
       "link": "https://github.com/coronasafe/care_fe/pull/7826",
-      "title": "Switch to events tab as default",
+      "title": "Events: Set as default tab; Fixes nested objects not rendered in events; Limit precision for numeric values;",
       "stale_for": 0,
       "labels": [
         "needs testing",
@@ -46827,13 +46897,13 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow non-home facility users to perform edits and disallow edits for discharged patients",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7654",
       "title": "Migrate Consultation Camera Feed to use newer camera feed components",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "test failed",
         "stale"
@@ -46842,7 +46912,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 86,
+      "stale_for": 87,
       "labels": [
         "merge conflict",
         "stale",
@@ -46851,6 +46921,10 @@
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/2163",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7752"
+    },
     {
       "issue_link": "https://github.com/coronasafe/care_fe/issues/7778",
       "pr_link": "https://github.com/coronasafe/care_fe/pull/7797"
