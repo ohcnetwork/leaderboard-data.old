@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-05-20T16:47:17+00:00",
+  "last_updated": "2024-05-21T10:52:02+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2147",
+      "time": "2024-05-21T10:52:02+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2147#issuecomment-2122355240",
+      "text": "PR was incomplete, forgot to label as wip \ud83d\ude05. Fixing now"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care#2179",
@@ -8220,15 +8227,17 @@
       "link": "https://github.com/coronasafe/care/pull/2176",
       "title": "Removed Discharge Filters, reused patient filters",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "P0"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7853",
       "title": "Updated discharged patients page",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
         "needs review",
+        "tested",
         "waiting for backend"
       ]
     },
@@ -8236,12 +8245,14 @@
       "link": "https://github.com/coronasafe/care/pull/2147",
       "title": "Fix op number constraint for readmitted patients",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "P1"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7772",
       "title": "Added facility hubs",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": [
         "needs review",
         "changes required",
@@ -8257,10 +8268,10 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7292",
       "title": "Update Security Policy to redirect to issue page",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "tested"
       ]
     }
   ],
