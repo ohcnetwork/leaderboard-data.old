@@ -1,10 +1,10 @@
 ---
 name: Ankur Prabhu
-title: Contributor
+title: GSoC 2024 Contributor
 github: AnkurPrabhu
 twitter: ""
 linkedin: ""
-slack: ""
+slack: "U06LE6S6F2R"
 joining_date: ""
 role: contributor
 ---
