@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-05-21T10:43:49+00:00",
+  "last_updated": "2024-05-22T15:11:57+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7882",
+      "time": "2024-05-22T15:11:57+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7882#issuecomment-2125051556",
+      "text": "Issues noted:\n\n1- when \"patient code status for a patient is updated for the first time (within an encounter), this pop-up window need not come up\n![image](https://github.com/coronasafe/care_fe/assets/67050716/f911558a-36ec-4f7f-88c0-16cd97ee74f0)\n\n2- when I type file name before selecting file, the name of the file I select replaces the file name I typed. This shouldn't happen. Only when the file name field is empty should the name of file uploaded come up there\n\n3- when I uploaded patient code for the first time \"permission denied\" error came up alongside success message. The first workflow was good, but the error message is misplaced \n\n4- small alignment issue view button on mobile screen\n![image](https://github.com/coronasafe/care_fe/assets/67050716/15efe044-e989-42e5-9f4c-1ac75963fd66)\n\n5- I first filed a patient code status DNH. Then I filed one for active treatment. The heading - patient code status continued to show DNH. When I tried to update the patient code status the pop up window also said I am changing it from DNH (it should have been active treatment since that is the latest code status)\n![image](https://github.com/coronasafe/care_fe/assets/67050716/15248c27-e2fc-4642-9561-bb1f759b6053)"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7751",
+      "time": "2024-05-22T09:17:57+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7751#issuecomment-2124283697",
+      "text": "The requirement here is to remove any type of Data validation on the OP No. field. Irrespective of the facility the patient is admitted to.\r\n\r\nDiscussed with @gigincg \r\n\r\nCC: @rithviknishad @skks1212 @nihal467 \r\n\r\nREASON: The issue is, some hospitals are utilising this field to add their Patient ID (MRD No) for the patient, which may be consistant across all encounters for the patient in the facility. This is an acceptable behaviour. In order to allow this, remove all data validation from the field"
+    },
     {
       "type": "issue_opened",
       "title": "coronasafe/care_fe#7872",

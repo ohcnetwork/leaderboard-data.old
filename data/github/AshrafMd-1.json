@@ -1,6 +1,21 @@
 {
-  "last_updated": "2024-05-21T14:18:11+00:00",
+  "last_updated": "2024-05-22T19:16:08+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2190",
+      "time": "2024-05-22T19:16:08+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2190",
+      "text": "Add new medical history options "
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7725",
+      "time": "2024-05-22T12:02:12+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7725",
+      "text": "Make the switch bed card styling consistent.",
+      "turnaround_time": 68781
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7866",
@@ -2804,12 +2819,17 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care/pull/2190",
+      "title": "Add new medical history options ",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/7852",
       "title": "Expanding medical history [ Comorbidities ]",
       "stale_for": 0,
       "labels": [
-        "Deploy-Failed",
-        "merge conflict"
+        "Deploy-Failed"
       ]
     },
     {
@@ -2819,15 +2839,6 @@
       "labels": [
         "needs review",
         "test failed"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7725",
-      "title": "Make the switch bed card styling consistent.",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
       ]
     }
   ],
