@@ -1,6 +1,113 @@
 {
-  "last_updated": "2024-05-22T15:25:10+00:00",
+  "last_updated": "2024-05-23T16:34:27+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7889",
+      "time": "2024-05-23T16:34:27+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7889",
+      "text": "Removes \"Bed Status\" for Domiciliary Care encounters"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7888",
+      "time": "2024-05-23T16:02:23+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7888",
+      "text": "Add cypress test: filter user by home facility"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-23T14:09:46+00:00",
+      "title": "coronasafe/care_fe#7885",
+      "link": "https://github.com/coronasafe/care_fe/pull/7885#pullrequestreview-2074099130",
+      "text": "Adds watermark to Camera Feed and disables access to context menu."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-23T14:09:46+00:00",
+      "title": "coronasafe/care_fe#7885",
+      "link": "https://github.com/coronasafe/care_fe/pull/7885#pullrequestreview-2074099130",
+      "text": "Adds watermark to Camera Feed and disables access to context menu."
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2191",
+      "time": "2024-05-23T10:03:05+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2191",
+      "text": "Merge Develop to Staging v24.22.0",
+      "collaborated_with": [
+        "skks1212",
+        "sainak",
+        "vigneshhari",
+        "AnkurPrabhu",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7884",
+      "time": "2024-05-23T09:20:13+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7884",
+      "text": "Merge Develop to Staging v24.22.0",
+      "collaborated_with": [
+        "r-nikhilkumar",
+        "AshrafMd-1",
+        "Sulochan-khadka",
+        "AnkurPrabhu",
+        "khavinshankar",
+        "sunny-thakurwar",
+        "skks1212"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7854",
+      "time": "2024-05-23T08:20:38+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7854#issuecomment-2126513241",
+      "text": "A simpler solution would be to show a notification when there are no home facility doctors available when the prefetch request completes. And maybe also modify the dropdown text to the following:\r\n\r\n<img width=\"603\" alt=\"image\" src=\"https://github.com/coronasafe/care_fe/assets/25143503/533053a0-f292-4acf-930f-0d71f03c611f\">\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7885",
+      "time": "2024-05-23T07:03:31+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7885",
+      "text": "Adds watermark to Camera Feed and disables access to context menu."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7872",
+      "time": "2024-05-23T06:19:15+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7872#issuecomment-2126318509",
+      "text": "We'll also need to disable right clicks on the video player as the context menu has options to the following options where we cannot place watermark.\r\n\r\n1. play in picture-in-picture mode\r\n2. cast\r\n3. save video frame as image\r\n\r\n<img width=\"1703\" alt=\"image\" src=\"https://github.com/coronasafe/care_fe/assets/25143503/6c7efdd2-0d41-4780-a802-069cb62ed0ea\">\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-23T05:24:13+00:00",
+      "title": "coronasafe/care_fe#7852",
+      "link": "https://github.com/coronasafe/care_fe/pull/7852#pullrequestreview-2072850717",
+      "text": "Expanding medical history [ Comorbidities ]"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-23T05:24:13+00:00",
+      "title": "coronasafe/care_fe#7852",
+      "link": "https://github.com/coronasafe/care_fe/pull/7852#pullrequestreview-2072850717",
+      "text": "Expanding medical history [ Comorbidities ]"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-23T05:14:59+00:00",
+      "title": "coronasafe/care#2190",
+      "link": "https://github.com/coronasafe/care/pull/2190#pullrequestreview-2072847332",
+      "text": "Add new medical history options "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-23T05:14:59+00:00",
+      "title": "coronasafe/care#2190",
+      "link": "https://github.com/coronasafe/care/pull/2190#pullrequestreview-2072847332",
+      "text": "Add new medical history options "
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-05-22T15:25:10+00:00",
@@ -47519,9 +47626,36 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7889",
+      "title": "Removes \"Bed Status\" for Domiciliary Care encounters",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7888",
+      "title": "Add cypress test: filter user by home facility",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7885",
+      "title": "Adds watermark to Camera Feed and disables access to context menu.",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/7883",
       "title": "Cypress Tests for Doctors Log Update & Symptoms V2",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "do not merge",
         "work-in-progress"
@@ -47530,7 +47664,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7874",
       "title": "Adds support for specifying onset and cure date in Encounter Symptoms",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "urgent",
         "Backend",
@@ -47542,7 +47676,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7839",
       "title": "Adds support for Doctors Log Update round type (v1)",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "urgent",
         "needs review",
@@ -47554,15 +47688,15 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow non-home facility users to perform edits and disallow edits for discharged patients",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "P1"
+        "P2"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 93,
+      "stale_for": 94,
       "labels": [
         "merge conflict",
         "stale",
