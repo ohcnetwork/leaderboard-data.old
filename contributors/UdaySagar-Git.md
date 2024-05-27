@@ -1,6 +1,6 @@
 ---
 name: Uday Sagar
-title: Contributor
+title: GSoC 2024 Contributor
 github: UdaySagar-Git
 twitter: udaySagar_twt
 linkedin: udaysagar-in
@@ -9,4 +9,5 @@ joining_date: ""
 role: contributor
 ---
 
-Still waiting for this
+## Hey 👋!
+I'm Uday, a Full Stack Developer dedicated to creating innovative web applications and exploring new technologies.
