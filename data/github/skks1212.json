@@ -1,6 +1,41 @@
 {
-  "last_updated": "2024-05-27T17:53:25+00:00",
+  "last_updated": "2024-05-28T17:00:48+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7921",
+      "time": "2024-05-28T17:00:48+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7921#issuecomment-2135726655",
+      "text": "Awaiting discussion on https://docs-git-fork-skks1212-cep-consent-restructure-ohcnetwork.vercel.app/docs/care/CEP/consent-restructure"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7933",
+      "time": "2024-05-28T16:56:54+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7933",
+      "text": "reenabled discharge patient admitted to filter"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2204",
+      "time": "2024-05-28T16:53:48+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2204",
+      "text": "Adds functionality for `last_consultation_admitted_bed_type_list` in discharge patient filters"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/docs#26",
+      "time": "2024-05-28T09:50:50+00:00",
+      "link": "https://github.com/coronasafe/docs/pull/26",
+      "text": "New Consent Restructure Proposal"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7828",
+      "time": "2024-05-28T06:43:13+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7828#issuecomment-2134458126",
+      "text": "If we follow conventions, I believe we should use a simple `title` prop rather than a tooltip for all names regardless of length.\r\nWe can also keep a toggle on the name. If you click/hover on it, rather than a tooltip, the full name is toggled. Just suggesting. \r\nKeeping the popup dependant on length doesn't seem like a good idea to me\r\ncc. @rithviknishad "
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care#2195",
@@ -8438,9 +8473,31 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7933",
+      "title": "Reenabled discharge patient admitted to filter",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "waiting for backend"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2204",
+      "title": "Adds functionality for `last_consultation_admitted_bed_type_list` in discharge patient filters",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/docs/pull/26",
+      "title": "New Consent Restructure Proposal",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care/pull/2194",
       "title": "auto archive deleted consents",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -8463,7 +8520,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2135",
       "title": "Added Facility Hubs",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     }
   ],

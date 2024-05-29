@@ -1,6 +1,236 @@
 {
-  "last_updated": "2024-05-27T17:53:25+00:00",
+  "last_updated": "2024-05-28T17:43:11+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/teleicu_middleware#130",
+      "time": "2024-05-28T17:43:11+00:00",
+      "link": "https://github.com/coronasafe/teleicu_middleware/pull/130",
+      "text": "Dump vitals from observation and image to s3 while creating automated daily round"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T15:58:55+00:00",
+      "title": "coronasafe/care#2203",
+      "link": "https://github.com/coronasafe/care/pull/2203#pullrequestreview-2083295316",
+      "text": "fix state admin access to daily rounds"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T13:42:33+00:00",
+      "title": "coronasafe/care_fe#7930",
+      "link": "https://github.com/coronasafe/care_fe/pull/7930#pullrequestreview-2082835128",
+      "text": "Adds cypress tests for Doctors Log Update & Symptoms V2"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7712",
+      "time": "2024-05-28T11:31:57+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7712",
+      "text": "Daily Rounds Enhancements - Part 2: Support for editing prescriptions through Daily Rounds and linking the changes made to the daily round"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7567",
+      "time": "2024-05-28T11:31:56+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7567",
+      "text": "Support for changes in patient diagnosis in log updates"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7839",
+      "time": "2024-05-28T11:31:56+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7839",
+      "text": "Adds support for Doctors Log Update round type (v1)",
+      "collaborated_with": [
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T11:31:44+00:00",
+      "title": "coronasafe/care_fe#7839",
+      "link": "https://github.com/coronasafe/care_fe/pull/7839#pullrequestreview-2082521298",
+      "text": "Adds support for Doctors Log Update round type (v1)"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7544",
+      "time": "2024-05-28T11:23:02+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7544",
+      "text": "adding date of onset selection for each symptom - not urgent"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#3618",
+      "time": "2024-05-28T11:23:02+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/3618",
+      "text": "Symptoms: Building depth in consultation"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7874",
+      "time": "2024-05-28T11:23:01+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7874",
+      "text": "Adds support for specifying onset and cure date in Encounter Symptoms",
+      "collaborated_with": [
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T11:22:29+00:00",
+      "title": "coronasafe/care_fe#7874",
+      "link": "https://github.com/coronasafe/care_fe/pull/7874#pullrequestreview-2082490696",
+      "text": "Adds support for specifying onset and cure date in Encounter Symptoms"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7397",
+      "time": "2024-05-28T11:13:05+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7397",
+      "text": "[Enhancement] Ventilator Parameters Input - Validate Consultation Bed for Linked Ventilator Asset"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T11:12:50+00:00",
+      "title": "coronasafe/care_fe#7522",
+      "link": "https://github.com/coronasafe/care_fe/pull/7522#pullrequestreview-2082466457",
+      "text": "[Enhancement] Ventilator Parameters Input - Validate Consultation Bed for Linked Ventilator Asset is resolved"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7354",
+      "time": "2024-05-28T11:10:39+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7354",
+      "text": "prescription- Log of change"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T11:08:31+00:00",
+      "title": "coronasafe/care_fe#7584",
+      "link": "https://github.com/coronasafe/care_fe/pull/7584#pullrequestreview-2082457695",
+      "text": "Add Medicine Prescription Log Summary Section"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7906",
+      "time": "2024-05-28T11:06:41+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7906",
+      "text": "APL/BPL for patients"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T11:06:31+00:00",
+      "title": "coronasafe/care_fe#7926",
+      "link": "https://github.com/coronasafe/care_fe/pull/7926#pullrequestreview-2082453743",
+      "text": "Adds support specifying and filtering by ration card category for patients"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T10:41:54+00:00",
+      "title": "coronasafe/care_fe#7925",
+      "link": "https://github.com/coronasafe/care_fe/pull/7925#pullrequestreview-2082406483",
+      "text": "Sort discontinued medicines to the last"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7927",
+      "time": "2024-05-28T10:41:17+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7927",
+      "text": "Camera preset is overlapping with the camera name in the live monitoring page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T10:41:06+00:00",
+      "title": "coronasafe/care_fe#7928",
+      "link": "https://github.com/coronasafe/care_fe/pull/7928#pullrequestreview-2082404889",
+      "text": "fixes presets overflow issue in live monitoring"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T06:08:55+00:00",
+      "title": "coronasafe/care_fe#7830",
+      "link": "https://github.com/coronasafe/care_fe/pull/7830#pullrequestreview-2081828493",
+      "text": "fixes: Oversized cover image in facility page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T06:08:55+00:00",
+      "title": "coronasafe/care_fe#7830",
+      "link": "https://github.com/coronasafe/care_fe/pull/7830#pullrequestreview-2081828493",
+      "text": "fixes: Oversized cover image in facility page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T06:08:10+00:00",
+      "title": "coronasafe/care_fe#7830",
+      "link": "https://github.com/coronasafe/care_fe/pull/7830#pullrequestreview-2081827508",
+      "text": "fixes: Oversized cover image in facility page"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7858",
+      "time": "2024-05-28T06:01:05+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7858",
+      "text": "Patients not admitted- remove Bed status"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T06:00:58+00:00",
+      "title": "coronasafe/care_fe#7889",
+      "link": "https://github.com/coronasafe/care_fe/pull/7889#pullrequestreview-2081816084",
+      "text": "Removes \"Bed Status\" for Domiciliary Care encounters"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7767",
+      "time": "2024-05-28T06:00:01+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7767",
+      "text": "Prescriptions: Default Discontinued Prescriptions Collapsed"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T05:59:48+00:00",
+      "title": "coronasafe/care_fe#7833",
+      "link": "https://github.com/coronasafe/care_fe/pull/7833#pullrequestreview-2081814496",
+      "text": "Prescriptions: Default Discontinued Prescriptions Collapsed"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7919",
+      "time": "2024-05-28T05:57:02+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7919",
+      "text": "badges are overlapping with IP days's in the patient consultation page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T05:56:55+00:00",
+      "title": "coronasafe/care_fe#7924",
+      "link": "https://github.com/coronasafe/care_fe/pull/7924#pullrequestreview-2081810725",
+      "text": "fixes badges overlapping with IP days in patient consultation page"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7920",
+      "time": "2024-05-28T05:56:40+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7920",
+      "text": "Remove the Consent Record from Overview of Patient consultation Page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T05:56:32+00:00",
+      "title": "coronasafe/care_fe#7923",
+      "link": "https://github.com/coronasafe/care_fe/pull/7923#pullrequestreview-2081810214",
+      "text": "Removes consent records view from consultation overview tab"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7850",
+      "time": "2024-05-28T05:56:07+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7850",
+      "text": "Scroll functionality is malfunctioning in the consultation form"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care#2195",
@@ -34835,9 +35065,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/teleicu_middleware/pull/130",
+      "title": "Dump vitals from observation and image to s3 while creating automated daily round",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/7840",
       "title": "Migrate to Headless UI v2",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": [
         "needs review",
         "dependencies",
@@ -34848,17 +35084,17 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7817",
       "title": "Frontend Adjustments for ABDM Plug Conversion",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
         "needs review",
+        "work-in-progress",
         "ABDM"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2161",
       "title": "Convert ABDM into Plug - Part 1/2",
-      "stale_for": 7,
+      "stale_for": 0,
       "labels": [
         "ABDM"
       ]
@@ -34866,19 +35102,19 @@
     {
       "link": "https://github.com/coronasafe/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 21,
+      "stale_for": 22,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 44,
+      "stale_for": 45,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1229",
       "title": "Hcx Refactors",
-      "stale_for": 70,
+      "stale_for": 71,
       "labels": [
         "waiting-for-review"
       ]
@@ -34886,31 +35122,31 @@
     {
       "link": "https://github.com/coronasafe/care_fe_hcx/pull/3",
       "title": "Hcx/eligibility check workflow",
-      "stale_for": 183,
+      "stale_for": 184,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 892,
+      "stale_for": 893,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 898,
+      "stale_for": 899,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 899,
+      "stale_for": 900,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/life/pull/306",
       "title": "filtered duplicate tweets",
-      "stale_for": 1094,
+      "stale_for": 1095,
       "labels": []
     }
   ],

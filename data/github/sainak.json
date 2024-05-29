@@ -1,6 +1,122 @@
 {
-  "last_updated": "2024-05-27T17:53:25+00:00",
+  "last_updated": "2024-05-28T15:59:58+00:00",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care#2203",
+      "time": "2024-05-28T15:59:58+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2203",
+      "text": "fix state admin access to daily rounds",
+      "turnaround_time": 3242
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2203",
+      "time": "2024-05-28T15:38:06+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2203",
+      "text": "fix state admin access to daily rounds"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T11:03:02+00:00",
+      "title": "coronasafe/care#2160",
+      "link": "https://github.com/coronasafe/care/pull/2160#pullrequestreview-2082447189",
+      "text": "Reply feature for Doctor notes "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T11:01:55+00:00",
+      "title": "coronasafe/care#2160",
+      "link": "https://github.com/coronasafe/care/pull/2160#pullrequestreview-2082431101",
+      "text": "Reply feature for Doctor notes "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T11:01:55+00:00",
+      "title": "coronasafe/care#2160",
+      "link": "https://github.com/coronasafe/care/pull/2160#pullrequestreview-2082431101",
+      "text": "Reply feature for Doctor notes "
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care#2202",
+      "time": "2024-05-28T10:44:54+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2202",
+      "text": "merge migrations",
+      "turnaround_time": 36
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2202",
+      "time": "2024-05-28T10:44:19+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2202",
+      "text": "merge migrations"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care#2193",
+      "time": "2024-05-28T10:41:38+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2193",
+      "text": "fix redis tokenization for icd11 ids",
+      "turnaround_time": 85910
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2193",
+      "time": "2024-05-28T10:41:38+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2193",
+      "text": "fix redis tokenization for icd11 ids",
+      "collaborated_with": [
+        "vigneshhari"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care#2186",
+      "time": "2024-05-28T10:38:41+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2186",
+      "text": "Symptoms table",
+      "turnaround_time": 6542
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2186",
+      "time": "2024-05-28T10:38:41+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2186",
+      "text": "Symptoms table",
+      "collaborated_with": [
+        "rithviknishad",
+        "hrit2773"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7751",
+      "time": "2024-05-28T07:21:52+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7751#issuecomment-2134516015",
+      "text": "> The requirement here is to remove any type of Data validation on the OP No. field. Irrespective of the facility the patient is admitted to.\r\n> \r\n> Discussed with @gigincg\r\n> \r\n> CC: @rithviknishad @skks1212 @nihal467\r\n> \r\n> REASON: The issue is, some hospitals are utilising this field to add their Patient ID (MRD No) for the patient, which may be consistent across all encounters for the patient in the facility. This is an acceptable behaviour. In order to allow this, remove all data validation from the field\r\n\r\n@aparnacoronasafe the filed is handling many responsibilities, should we consider splitting it up?\r\n\r\ncc: @gigincg "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T06:52:39+00:00",
+      "title": "coronasafe/care#2201",
+      "link": "https://github.com/coronasafe/care/pull/2201#pullrequestreview-2081902371",
+      "text": "Adds support to specify and filter ration card category of a patient"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T06:51:11+00:00",
+      "title": "coronasafe/care#2147",
+      "link": "https://github.com/coronasafe/care/pull/2147#pullrequestreview-2081899807",
+      "text": "Fix op number constraint for readmitted patients"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T06:48:28+00:00",
+      "title": "coronasafe/care#2201",
+      "link": "https://github.com/coronasafe/care/pull/2201#pullrequestreview-2081894863",
+      "text": "Adds support to specify and filter ration card category of a patient"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care#2195",
@@ -13945,33 +14061,21 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care/pull/2193",
-      "title": "fix redis tokenization for icd11 ids",
-      "stale_for": 1,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/coronasafe/care/pull/2186",
-      "title": "Symptoms table",
-      "stale_for": 4,
-      "labels": []
-    },
-    {
       "link": "https://github.com/coronasafe/care/pull/2081",
       "title": "Update dependencies",
-      "stale_for": 28,
+      "stale_for": 29,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/citizen/pull/44",
       "title": "Quick changes to get the app running again",
-      "stale_for": 71,
+      "stale_for": 72,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 183,
+      "stale_for": 184,
       "labels": [
         "blocked",
         "changes required",
@@ -13982,13 +14086,13 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 12,
+      "stale_for": 13,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/medibase/pull/7",
       "title": "Update dependencies",
-      "stale_for": 312,
+      "stale_for": 313,
       "labels": []
     }
   ],
@@ -14012,6 +14116,10 @@
     {
       "issue_link": "https://github.com/coronasafe/teleicu_middleware/issues/118",
       "pr_link": "https://github.com/coronasafe/care/pull/2000"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1838",
+      "pr_link": "https://github.com/coronasafe/care/pull/2193"
     },
     {
       "issue_link": "https://github.com/coronasafe/care/issues/1702",
@@ -14068,10 +14176,6 @@
     {
       "issue_link": "https://github.com/coronasafe/care_fe/issues/6086",
       "pr_link": "https://github.com/coronasafe/care_fe/pull/6087"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/zoomdrive/issues/2",
-      "pr_link": "https://github.com/coronasafe/zoomdrive/pull/4"
     }
   ]
 }

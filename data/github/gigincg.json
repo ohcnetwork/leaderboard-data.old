@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-05-27T17:53:25+00:00",
+  "last_updated": "2024-05-28T15:59:59+00:00",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7759",
+      "time": "2024-05-28T15:59:59+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7759",
+      "text": "Unable to View the Log Updates for State Admin User Type"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-28T15:59:47+00:00",
+      "title": "coronasafe/care#2203",
+      "link": "https://github.com/coronasafe/care/pull/2203#pullrequestreview-2083297154",
+      "text": "fix state admin access to daily rounds"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7751",
+      "time": "2024-05-28T07:45:22+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7751#issuecomment-2134554790",
+      "text": "> The requirement here is to remove any type of Data validation on the OP No. field. Irrespective of the facility the patient is admitted to.\r\n> \r\n> Discussed with @gigincg\r\n> \r\n> CC: @rithviknishad @skks1212 @nihal467\r\n> \r\n> REASON: The issue is, some hospitals are utilising this field to add their Patient ID (MRD No) for the patient, which may be consistent across all encounters for the patient in the facility. This is an acceptable behaviour. In order to allow this, remove all data validation from the field\r\n\r\n@aparnacoronasafe I thought we finalized on dropping Validations for Both OP and IP Numbers. "
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care#2195",
@@ -8653,7 +8674,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/6670",
       "title": "Add Medispeak for Preview on Care",
-      "stale_for": 167,
+      "stale_for": 168,
       "labels": [
         "In Progress"
       ]
