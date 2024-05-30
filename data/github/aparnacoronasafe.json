@@ -1,6 +1,55 @@
 {
-  "last_updated": "2024-05-27T12:08:10+00:00",
+  "last_updated": "2024-05-29T15:24:11+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7939",
+      "time": "2024-05-29T15:24:11+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7939#issuecomment-2137686399",
+      "text": "Agreed. Please go ahead "
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7936",
+      "time": "2024-05-29T08:38:08+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7936",
+      "text": "Improving UI of Camera Feed"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7798",
+      "time": "2024-05-29T07:43:25+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7798#issuecomment-2136755738",
+      "text": "@rithviknishad the ideal thing to do is to have 3 numbers captured for every patient/encounter.\r\n\r\nMRD (Medicine records department) No. /Patient ID: This is 1 unique ID for a patient per facility. Every new facility the patient goes to, a new unique ID within the facility will be issued to the patient.\r\n\r\nIP No.: everytime the patient gets admitted, a unique IP number for the facility will be assigned to that encounter of the patient.\r\n\r\nOP No.: every time the patient gets an OP consultation at a hospital, a unique OP number for the facility will given to the patient for that encounter. This OP number will be the same for any immediate follow ups recommended, usually within 2 weeks. \r\n\r\nYou can think of every hospital maintaining 3 separate registers- \r\n1. patient registry (MRD No.)\r\n2. IP registry and\r\n3. OP Registry\r\n\r\nCurrent need:\r\n\r\nSince CARE is adopted only by smaller hospitals, they may have a more simplified approach to patient registries. What we gather is that hospitals may not be keeping separate OP registers but only patient registry (MRD No.) and IP registry. Hence currently, we can retain the existing fields in CARE for IP and OP numbers and allow users to type in the MRD No. within the OP field if the hospital does not have a separate OP Numbering system.\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7872",
+      "time": "2024-05-29T07:20:25+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7872#issuecomment-2136709093",
+      "text": "@rithviknishad \r\n\r\nPlease improve the watermarks. \r\n\r\n- [ ] I think placing 2 watermarks should be enough. 4 seems a bit excessive right now. \r\n![Screenshot 2024-05-29 at 12 46 49\u202fPM](https://github.com/coronasafe/care_fe/assets/67050716/3a105161-bc9b-4260-8072-f9b0d2bc13d7)\r\nWould you consider removing the ones marked in red?\r\n\r\n- [ ] Size of the watermark doesnt respond to display size. This needs to be fixed.\r\n![Screenshot 2024-05-29 at 12 44 14\u202fPM](https://github.com/coronasafe/care_fe/assets/67050716/1ce934cc-87a5-4caf-ac4e-35759dc3b156)\r\nScreenshot from a smaller phone screen. Please ensure the size of the watermark decreases with screen size."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7751",
+      "time": "2024-05-29T06:56:51+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7751#issuecomment-2136673559",
+      "text": "please proceed with removing all validations for both IP and OP field\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7912",
+      "time": "2024-05-29T06:53:18+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7912#issuecomment-2136668634",
+      "text": "PS: I don't think notify feature is working at all. better to test feature and file a separate issue. @nihal467 "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7912",
+      "time": "2024-05-29T06:48:22+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7912#issuecomment-2136661593",
+      "text": "Expected behaviour is to allow state/district/localbody/ward admins to see notifications from all facilities within the state/district/localbody/ward.\r\n\r\nPlease check about celery load and see if this is viable"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7912",

@@ -1,6 +1,89 @@
 {
-  "last_updated": "2024-05-28T17:04:41+00:00",
+  "last_updated": "2024-05-29T17:52:20+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2207",
+      "time": "2024-05-29T17:52:20+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2207",
+      "text": "ICD11: Fallback to meta_chapter if meta_chapter_short is null"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7938",
+      "time": "2024-05-29T17:47:17+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7938#issuecomment-2137953287",
+      "text": "As per https://github.com/coronasafe/care_fe/issues/6231, the chapter for these was marked to be removed and hence does not have a short name. Shall we fall back to showing the full chapter text in such cases?\r\n\r\n<img width=\"793\" alt=\"image\" src=\"https://github.com/coronasafe/care_fe/assets/25143503/5bfef25d-9714-4f1e-a8eb-222b08178556\">\r\n\r\n<img width=\"1550\" alt=\"image\" src=\"https://github.com/coronasafe/care_fe/assets/25143503/c8abac86-6157-4832-89b3-be52e6e96055\">\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7940",
+      "time": "2024-05-29T17:32:23+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7940",
+      "text": "Disable switching to \"Refer to another facility\"/\"Declare Death\" in Decision after consultation in edit consultation form"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-29T16:49:06+00:00",
+      "title": "coronasafe/care_fe#7852",
+      "link": "https://github.com/coronasafe/care_fe/pull/7852#pullrequestreview-2085934504",
+      "text": "Expanding medical history [ Comorbidities ]"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7935",
+      "time": "2024-05-29T07:57:11+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7935",
+      "text": "Camera Feed: Improve watermark and preset sizes in mobile view"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2205",
+      "time": "2024-05-29T06:51:11+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2205",
+      "text": "Merge Develop To Staging v24.23.0",
+      "collaborated_with": [
+        "vigneshhari",
+        "sainak"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7934",
+      "time": "2024-05-29T06:40:00+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7934",
+      "text": "Merge Develop To Staging v24.23.0",
+      "collaborated_with": [
+        "manasvi-gaur",
+        "Pranshu1902",
+        "khavinshankar",
+        "Sulochan-khadka",
+        "AshrafMd-1"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7932",
+      "time": "2024-05-29T06:15:29+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7932",
+      "text": "fixes overflow issues in consultation dashboard",
+      "turnaround_time": 78972
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7931",
+      "time": "2024-05-29T06:13:59+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7931",
+      "text": "fixes up/down arrow of numeric inputs not clickable in facility create and other places",
+      "turnaround_time": 50403
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-05-29T04:05:26+00:00",
+      "title": "coronasafe/care#2190",
+      "link": "https://github.com/coronasafe/care/pull/2190#pullrequestreview-2084220487",
+      "text": "Add new medical history options "
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-05-28T17:04:41+00:00",
@@ -48130,17 +48213,24 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/7932",
-      "title": "fixes overflow issues in consultation dashboard",
+      "link": "https://github.com/coronasafe/care/pull/2207",
+      "title": "ICD11: Fallback to meta_chapter if meta_chapter_short is null",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7940",
+      "title": "Disable switching to \"Refer to another facility\"/\"Declare Death\" in Decision after consultation in edit consultation form",
       "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review"
+        "needs review",
+        "P1"
       ]
     },
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/7931",
-      "title": "fixes up/down arrow of numeric inputs not clickable in facility create and other places",
+      "link": "https://github.com/coronasafe/care_fe/pull/7935",
+      "title": "Camera Feed: Improve watermark and preset sizes in mobile view",
       "stale_for": 0,
       "labels": [
         "needs testing",
@@ -48150,7 +48240,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow non-home facility users to perform edits and disallow edits for discharged patients",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": [
         "P2"
       ]
@@ -48158,7 +48248,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 99,
+      "stale_for": 100,
       "labels": [
         "merge conflict",
         "stale",
