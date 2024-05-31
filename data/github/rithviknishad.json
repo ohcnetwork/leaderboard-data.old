@@ -1,6 +1,22 @@
 {
-  "last_updated": "2024-05-29T17:52:20+00:00",
+  "last_updated": "2024-05-30T09:49:36+00:00",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7935",
+      "time": "2024-05-30T09:49:36+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7935",
+      "text": "Camera Feed: Improve watermark and preset sizes in mobile view",
+      "turnaround_time": 12490
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7940",
+      "time": "2024-05-30T09:48:47+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7940",
+      "text": "Disable switching to \"Refer to another facility\"/\"Declare Death\" in Decision after consultation in edit consultation form",
+      "turnaround_time": 60814
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/care#2207",
@@ -48214,33 +48230,14 @@
   "open_prs": [
     {
       "link": "https://github.com/coronasafe/care/pull/2207",
-      "title": "ICD11: Fallback to meta_chapter if meta_chapter_short is null",
+      "title": "Exclude ICD11 entries from redis that does not have a `meta_chapter_short`",
       "stale_for": 0,
       "labels": []
     },
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/7940",
-      "title": "Disable switching to \"Refer to another facility\"/\"Declare Death\" in Decision after consultation in edit consultation form",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review",
-        "P1"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7935",
-      "title": "Camera Feed: Improve watermark and preset sizes in mobile view",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
       "link": "https://github.com/coronasafe/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow non-home facility users to perform edits and disallow edits for discharged patients",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": [
         "P2"
       ]
@@ -48248,7 +48245,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 100,
+      "stale_for": 101,
       "labels": [
         "merge conflict",
         "stale",
