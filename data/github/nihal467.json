@@ -1,6 +1,70 @@
 {
-  "last_updated": "2024-05-30T10:10:00+00:00",
+  "last_updated": "2024-05-31T12:47:32+00:00",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7955",
+      "time": "2024-05-31T12:47:32+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7955",
+      "text": "Merge Develop to Staging v24.23.0",
+      "turnaround_time": 616
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7955",
+      "time": "2024-05-31T12:37:16+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7955",
+      "text": "Merge Develop to Staging v24.23.0"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7952",
+      "time": "2024-05-31T12:29:13+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7952#issuecomment-2141983785",
+      "text": "LGTM"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7953",
+      "time": "2024-05-31T12:24:39+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7953",
+      "text": "Handle the white spacing the patient consultation page"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7951",
+      "time": "2024-05-31T12:18:51+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7951",
+      "text": "Replace the Perinatal status to bottom of the page"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7949",
+      "time": "2024-05-31T12:09:09+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7949#issuecomment-2141928008",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7946",
+      "time": "2024-05-31T10:22:38+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7946#issuecomment-2141716126",
+      "text": "@skks1212 \r\n\r\n**Bug**\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/492d68ab-dfa4-44a1-a292-63712a8e134a)\r\n\r\n- [ ] as per issue, if all existing uploaded files are archived and no active file are present, the consent missing badge should appear in the consultation, but in the PR, it is not behaving as expect \r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/b0921276-3abb-4c0d-b852-4b1355bdd4a7)\r\n\r\n- [ ] once a file is archived, you should replace upload by user name with the username who archived it\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/616c2b63-4c4d-4fb5-90b2-8c2aa88e3a01)\r\n- [ ] since you are replacing username based on the above comment, add the created by and at details in the more details pop-up\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/6716edeb-a816-4bd1-b342-7e615501fef2)\r\n\r\n- [ ] currently, in the more info pop-up everything is center aligned, doesn't look good, as a mockup i tried playing around with the UI, can you look into the scope making the pop-up UI better\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/3776e375-c113-471c-8ff6-58d6dc8143aa)\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/ddef36eb-0d88-4005-a9a7-749e51607de6)\r\n\r\n\r\n- [ ] when user uploads a .xlsx file, the process will get completed, but preview mode will fail. In existing consultation file upload, .xlsx format doesn't have preview. So, rather than making it similar to file upload to handle .xlsx, take an opinion from @aparnacoronasafe / @gigincg and allow certain type of file only to be uploaded in the consent page\r\n\r\nAdditional Enhancement for Users\r\n\r\n- [ ] Add a edit button for users, in case they want to modify the file name"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7948",
+      "time": "2024-05-31T09:34:04+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7948",
+      "text": "Map Modified Patient category in shifting detail page"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7947",
+      "time": "2024-05-31T09:32:05+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7947",
+      "text": "Hide time in the tooltip related to symptoms"
+    },
     {
       "type": "pr_merged",
       "title": "coronasafe/care_fe#7945",
