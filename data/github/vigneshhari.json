@@ -1,6 +1,108 @@
 {
-  "last_updated": "2024-06-01T19:19:41+00:00",
+  "last_updated": "2024-06-02T15:18:09+00:00",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-02T15:18:09+00:00",
+      "title": "coronasafe/care#2220",
+      "link": "https://github.com/coronasafe/care/pull/2220#pullrequestreview-2092399958",
+      "text": "Update actions dependencies and remove unused workflows"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7938",
+      "time": "2024-06-02T13:09:11+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7938",
+      "text": "Missing Category for Some Diagnosis"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2207",
+      "time": "2024-06-02T13:09:10+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2207",
+      "text": "Exclude ICD11 entries from redis that does not have a `meta_chapter_short`",
+      "collaborated_with": [
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-02T13:08:57+00:00",
+      "title": "coronasafe/care#2207",
+      "link": "https://github.com/coronasafe/care/pull/2207#pullrequestreview-2092305988",
+      "text": "Exclude ICD11 entries from redis that does not have a `meta_chapter_short`"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2217",
+      "time": "2024-06-02T13:07:48+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2217#issuecomment-2143846938",
+      "text": "@gigincg can you just confirm if all the data was migrated over, just to re-confirm."
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care#2178",
+      "time": "2024-06-02T13:06:50+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2178",
+      "text": "Remove `PatientTeleConsultation` model"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2184",
+      "time": "2024-06-02T13:06:49+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2184",
+      "text": "Remove `PatientTeleConsultation` model",
+      "collaborated_with": [
+        "sainak",
+        "jasonmokk"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-02T13:06:26+00:00",
+      "title": "coronasafe/care#2184",
+      "link": "https://github.com/coronasafe/care/pull/2184#pullrequestreview-2092304943",
+      "text": "Remove `PatientTeleConsultation` model"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care#2212",
+      "time": "2024-06-02T12:55:00+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2212",
+      "text": "Bump Dependencies",
+      "turnaround_time": 63319
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2212",
+      "time": "2024-06-02T12:55:00+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2212",
+      "text": "Bump Dependencies",
+      "collaborated_with": [
+        "sainak"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/docs#27",
+      "time": "2024-06-02T07:38:52+00:00",
+      "link": "https://github.com/coronasafe/docs/pull/27#issuecomment-2143735472",
+      "text": "Assigned CEP 6 for this enhancement."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/docs#27",
+      "time": "2024-06-02T07:37:44+00:00",
+      "link": "https://github.com/coronasafe/docs/pull/27#issuecomment-2143735116",
+      "text": "Can we switch to using a vaccine registry? Enums are hard to manage as they require code changes each time a new vaccine is added. can we switch the design to allow vaccines to be added by admins, very similar to what we have for investigations. "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/docs#27",
+      "time": "2024-06-02T07:35:24+00:00",
+      "link": "https://github.com/coronasafe/docs/pull/27#issuecomment-2143734557",
+      "text": "I am making some changes to reorganize the files, this would be a decision record, not an enhancement proposal. "
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/care#2212",
@@ -10587,15 +10689,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care/pull/2212",
-      "title": "Bump Dependencies",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
       "link": "https://github.com/coronasafe/docs/pull/6",
       "title": "CEP 4 RBAC: initial spec",
-      "stale_for": 63,
+      "stale_for": 64,
       "labels": []
     }
   ],

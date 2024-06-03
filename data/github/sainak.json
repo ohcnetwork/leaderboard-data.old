@@ -1,6 +1,90 @@
 {
-  "last_updated": "2024-06-01T14:32:25+00:00",
+  "last_updated": "2024-06-02T13:24:20+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2220",
+      "time": "2024-06-02T13:24:20+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2220",
+      "text": "Update actions dependencies and remove unused workflows"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2184",
+      "time": "2024-06-02T13:06:49+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2184",
+      "text": "Remove `PatientTeleConsultation` model",
+      "collaborated_with": [
+        "vigneshhari",
+        "jasonmokk"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2212",
+      "time": "2024-06-02T12:55:00+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2212",
+      "text": "Bump Dependencies",
+      "collaborated_with": [
+        "vigneshhari"
+      ]
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2217",
+      "time": "2024-06-02T11:53:04+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2217",
+      "text": "remove deprecated symptoms fields"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2216",
+      "time": "2024-06-02T11:48:16+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2216",
+      "text": "Remove `multiselectfield` references from migrations and other places"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2215",
+      "time": "2024-06-02T11:48:13+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2215",
+      "text": "Convert `Facility.features` to ArrayField"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2214",
+      "time": "2024-06-02T11:48:10+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2214",
+      "text": "Remove `deprecated_symptoms`"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2213",
+      "time": "2024-06-02T11:47:49+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2213",
+      "text": "Remove package django-multiselect-field"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-02T11:41:33+00:00",
+      "title": "coronasafe/care#2209",
+      "link": "https://github.com/coronasafe/care/pull/2209#pullrequestreview-2092281260",
+      "text": "Add Consent Model"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2184",
+      "time": "2024-06-02T11:31:57+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2184#issuecomment-2143812104",
+      "text": "@vigneshhari this is good for merge"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2081",
+      "time": "2024-06-02T11:28:53+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2081#issuecomment-2143811231",
+      "text": "closing in favor of #2212 "
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-06-01T14:32:25+00:00",
@@ -14144,27 +14228,33 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_scribe/pull/9",
-      "title": "Use translation API to generate text for the prompt",
-      "stale_for": 3,
+      "link": "https://github.com/coronasafe/care/pull/2220",
+      "title": "Update actions dependencies and remove unused workflows",
+      "stale_for": 0,
       "labels": []
     },
     {
-      "link": "https://github.com/coronasafe/care/pull/2081",
-      "title": "Update dependencies",
-      "stale_for": 33,
+      "link": "https://github.com/coronasafe/care/pull/2217",
+      "title": "remove deprecated symptoms fields",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_scribe/pull/9",
+      "title": "Use translation API to generate text for the prompt",
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/citizen/pull/44",
       "title": "Quick changes to get the app running again",
-      "stale_for": 76,
+      "stale_for": 77,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 188,
+      "stale_for": 189,
       "labels": [
         "blocked",
         "changes required",
@@ -14175,13 +14265,13 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 17,
+      "stale_for": 18,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/medibase/pull/7",
       "title": "Update dependencies",
-      "stale_for": 317,
+      "stale_for": 318,
       "labels": []
     }
   ],

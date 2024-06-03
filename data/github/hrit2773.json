@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-05-29T13:49:33+00:00",
+  "last_updated": "2024-06-02T08:09:48+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/docs#27",
+      "time": "2024-06-02T08:09:48+00:00",
+      "link": "https://github.com/coronasafe/docs/pull/27#issuecomment-2143743789",
+      "text": "> Can we switch to using a vaccine registry? Enums are hard to manage as they require code changes each time a new vaccine is added. can we switch the design to allow vaccines to be added by admins, very similar to what we have for investigations.\r\n@vigneshhari yes we can do that cc: @gigincg \r\n"
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/docs#27",
@@ -1171,18 +1178,20 @@
       "link": "https://github.com/coronasafe/docs/pull/27",
       "title": "Added Vaccination model migration issue frontend and backend changes",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "CEP"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2167",
       "title": "Facility Search functionality improvement",
-      "stale_for": 0,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7696",
       "title": "Adding proper error message for Camera config page",
-      "stale_for": 21,
+      "stale_for": 25,
       "labels": [
         "needs review",
         "tested",
@@ -1192,7 +1201,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1996",
       "title": "Soft delete assets from deleted facilities/hospitals",
-      "stale_for": 35,
+      "stale_for": 39,
       "labels": []
     }
   ],
