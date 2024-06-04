@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-05-29T10:15:06+00:00",
+  "last_updated": "2024-06-03T04:29:45+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7914",
+      "time": "2024-06-03T04:29:45+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7914#issuecomment-2144256029",
+      "text": "> > ```\r\n> > * [ ]  As per the issue, when we click on the component, it should pre-fetch the data, not just when we start typing in the component.\r\n> > ```\r\n> \r\n> I've been able to use useQuery to prefetch the data, however I haven't had much success in displaying the results as a dropdown (trying to tie to onClick event in Autocomplete component). Any pointers on how to achieve that?\r\n> \r\n> Alternatively I could use the prefetched data and just disable the component and display placeholder text, as you had originally envisioned (and remove the notifications as well).\r\n\r\n@nihal467 Pinging for followup, thanks."
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7914",
