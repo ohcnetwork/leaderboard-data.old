@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-05-27T17:53:25+00:00",
+  "last_updated": "2024-06-04T20:31:15+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/docs#30",
+      "time": "2024-06-04T20:31:15+00:00",
+      "link": "https://github.com/coronasafe/docs/pull/30",
+      "text": "Doc Rewriting-Middleware-Server-in-Django"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care#2195",
@@ -882,21 +889,27 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/docs/pull/30",
+      "title": "Doc Rewriting-Middleware-Server-in-Django",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/teleicu_middleware_backend/pull/1",
       "title": "Middleware Initial code",
-      "stale_for": 8,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2089",
       "title": "Fix facility n+1",
-      "stale_for": 15,
+      "stale_for": 23,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7609",
       "title": "Fix Notifications for Facility Cover Image Deletion ",
-      "stale_for": 3,
+      "stale_for": 11,
       "labels": [
         "tested",
         "changes required"
@@ -905,10 +918,11 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7588",
       "title": "Fix Incorrect error message for invalid QR code ",
-      "stale_for": 5,
+      "stale_for": 4,
       "labels": [
         "needs review",
-        "test failed"
+        "test failed",
+        "stale"
       ]
     }
   ],

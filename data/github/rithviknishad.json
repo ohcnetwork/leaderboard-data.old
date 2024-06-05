@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-06-03T16:46:57+00:00",
+  "last_updated": "2024-06-04T10:28:56+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2231",
+      "time": "2024-06-04T10:28:56+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2231",
+      "text": "ICD11: gracefully return `None` if issues with redis"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7973",
+      "time": "2024-06-04T10:28:41+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7973",
+      "text": "Show ICD-11 Diagnosis functionality unavailable error if issues with Redis"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care_fe#7967",
@@ -48425,9 +48439,25 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care/pull/2231",
+      "title": "ICD11: gracefully return `None` if issues with redis",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7973",
+      "title": "Show ICD-11 Diagnosis functionality unavailable error if issues with Redis",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "waiting for backend"
+      ]
+    },
+    {
       "link": "https://github.com/coronasafe/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow non-home facility users to perform edits and disallow edits for discharged patients",
-      "stale_for": 11,
+      "stale_for": 0,
       "labels": [
         "P2"
       ]
@@ -48435,7 +48465,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 105,
+      "stale_for": 106,
       "labels": [
         "merge conflict",
         "stale",

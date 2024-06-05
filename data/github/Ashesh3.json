@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-06-02T07:44:28+00:00",
+  "last_updated": "2024-06-04T17:48:46+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7974",
+      "time": "2024-06-04T17:48:46+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7974",
+      "text": "Add support for retries in Scribe"
+    },
     {
       "type": "pr_merged",
       "title": "coronasafe/docs#24",
@@ -20749,36 +20756,44 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7974",
+      "title": "Add support for retries in Scribe",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/docs/pull/25",
       "title": "Scribe: Azure details, Fixes to the flowchart, Add details on Celery task, and revise Accessibility and Dependencies",
-      "stale_for": 24,
+      "stale_for": 26,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/docs/pull/23",
       "title": "Add docs for discharge summary",
-      "stale_for": 26,
+      "stale_for": 28,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2114",
       "title": "Prevent destination facility from marking shift as complete",
-      "stale_for": 31,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "P2"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7697",
       "title": "Rework Shifting Process for \"Complete\" stage",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
-        "waiting for backend",
-        "merge conflict"
+        "test failed",
+        "waiting for backend"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2110",
       "title": "Add validation for patient transfers",
-      "stale_for": 18,
+      "stale_for": 20,
       "labels": [
         "do-not-merge"
       ]
@@ -20786,7 +20801,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1903",
       "title": "Migrate consultation's assigned_to to assigned_clinicians",
-      "stale_for": 39,
+      "stale_for": 41,
       "labels": [
         "waiting-for-review"
       ]
@@ -20794,7 +20809,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5147",
       "title": "[WIP] Integrate LiveKit for doctor connect",
-      "stale_for": 425,
+      "stale_for": 427,
       "labels": [
         "work-in-progress",
         "merge conflict"
