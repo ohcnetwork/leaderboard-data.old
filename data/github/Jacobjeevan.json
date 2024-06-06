@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-06-03T04:29:45+00:00",
+  "last_updated": "2024-06-05T08:15:01+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7914",
+      "time": "2024-06-05T08:15:01+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7914#issuecomment-2149171295",
+      "text": "@khavinshankar Sure, I haven't had much success with triggering/displaying the drop down results. My approach has been to call fetchOptions under onClick (which I added as prop added to UserAutocompleteFormField.Autocomplete and called under Combobox.Input).\r\n\r\n<img width=\"514\" alt=\"image\" src=\"https://github.com/coronasafe/care_fe/assets/40040905/95dab763-6bbf-4bbe-b7de-b77e8a232111\">\r\n\r\n<img width=\"514\" alt=\"image\" src=\"https://github.com/coronasafe/care_fe/assets/40040905/e8387817-d79b-4015-a208-b17d7378b745\">\r\n\r\nAlternatively, I have been able to prefetch results using useQuery in UserAutocompleteFormField, although I'm unsure on how to attach that to options and trigger the dropdown."
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7914",
@@ -51,7 +58,8 @@
       "stale_for": 0,
       "labels": [
         "test failed",
-        "changes required"
+        "changes required",
+        "discussion required"
       ]
     }
   ],

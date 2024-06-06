@@ -1,6 +1,148 @@
 {
-  "last_updated": "2024-06-03T16:46:17+00:00",
+  "last_updated": "2024-06-05T17:47:12+00:00",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care#2234",
+      "time": "2024-06-05T17:47:12+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2234",
+      "text": "Create a new endpoint to show the current app version"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2242",
+      "time": "2024-06-05T17:47:11+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2242",
+      "text": "Add endpoint to get version info",
+      "collaborated_with": [
+        "sainak"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T17:46:58+00:00",
+      "title": "coronasafe/care#2242",
+      "link": "https://github.com/coronasafe/care/pull/2242#pullrequestreview-2099865617",
+      "text": "Add endpoint to get version info"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T17:45:32+00:00",
+      "title": "coronasafe/care#2242",
+      "link": "https://github.com/coronasafe/care/pull/2242#pullrequestreview-2099862936",
+      "text": "Add endpoint to get version info"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care#2233",
+      "time": "2024-06-05T17:42:58+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2233",
+      "text": "Add queue length info in the health check endpoint"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care#2235",
+      "time": "2024-06-05T17:42:48+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2235",
+      "text": "Change sentry reporting to error only by default"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2243",
+      "time": "2024-06-05T17:42:48+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2243",
+      "text": "Make sentry event level configurable and use error by default",
+      "collaborated_with": [
+        "sainak"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T17:42:33+00:00",
+      "title": "coronasafe/care#2243",
+      "link": "https://github.com/coronasafe/care/pull/2243#pullrequestreview-2099856368",
+      "text": "Make sentry event level configurable and use error by default"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T17:41:58+00:00",
+      "title": "coronasafe/care#2242",
+      "link": "https://github.com/coronasafe/care/pull/2242#pullrequestreview-2099854946",
+      "text": "Add endpoint to get version info"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T17:41:58+00:00",
+      "title": "coronasafe/care#2242",
+      "link": "https://github.com/coronasafe/care/pull/2242#pullrequestreview-2099854946",
+      "text": "Add endpoint to get version info"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T17:40:39+00:00",
+      "title": "coronasafe/care#2244",
+      "link": "https://github.com/coronasafe/care/pull/2244#pullrequestreview-2099852767",
+      "text": "Add health check for celery queue length"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7751",
+      "time": "2024-06-05T17:40:14+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7751",
+      "text": "Remove all OP number validation "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2147",
+      "time": "2024-06-05T17:40:07+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2147#issuecomment-2150609227",
+      "text": "I still think we need a unique validator across patients, as in two live patients cannot have the same IP/OP number"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T17:39:34+00:00",
+      "title": "coronasafe/care#2147",
+      "link": "https://github.com/coronasafe/care/pull/2147#pullrequestreview-2099850859",
+      "text": "Fix op number constraint for readmitted patients"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2231",
+      "time": "2024-06-05T17:37:58+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2231",
+      "text": "ICD11: gracefully return `None` if issues with redis",
+      "collaborated_with": [
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2231",
+      "time": "2024-06-05T17:37:54+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2231#issuecomment-2150605746",
+      "text": "Keep in mind that this is not just redis exceptions, this is gracefully returning on **_all_** exceptions, maybe create a ticket to handle it better in the future."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T17:36:48+00:00",
+      "title": "coronasafe/care#2231",
+      "link": "https://github.com/coronasafe/care/pull/2231#pullrequestreview-2099845804",
+      "text": "ICD11: gracefully return `None` if issues with redis"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7976",
+      "time": "2024-06-05T17:36:30+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7976",
+      "text": "Modify the patient list sort"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T17:36:25+00:00",
+      "title": "coronasafe/care#2232",
+      "link": "https://github.com/coronasafe/care/pull/2232#pullrequestreview-2099845062",
+      "text": "update default patient list to show recently_modified first after no_consultation_filed"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care#2226",
@@ -10744,7 +10886,7 @@
     {
       "link": "https://github.com/coronasafe/docs/pull/6",
       "title": "CEP 4 RBAC: initial spec",
-      "stale_for": 65,
+      "stale_for": 67,
       "labels": []
     }
   ],

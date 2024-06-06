@@ -1,6 +1,209 @@
 {
-  "last_updated": "2024-06-04T16:22:04+00:00",
+  "last_updated": "2024-06-05T17:47:11+00:00",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care#2242",
+      "time": "2024-06-05T17:47:11+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2242",
+      "text": "Add endpoint to get version info",
+      "turnaround_time": 32117
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2242",
+      "time": "2024-06-05T17:47:11+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2242",
+      "text": "Add endpoint to get version info",
+      "collaborated_with": [
+        "vigneshhari"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T17:44:34+00:00",
+      "title": "coronasafe/care#2242",
+      "link": "https://github.com/coronasafe/care/pull/2242#pullrequestreview-2099861113",
+      "text": "Add endpoint to get version info"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T17:43:52+00:00",
+      "title": "coronasafe/care#2242",
+      "link": "https://github.com/coronasafe/care/pull/2242#pullrequestreview-2099859172",
+      "text": "Add endpoint to get version info"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care#2244",
+      "time": "2024-06-05T17:42:58+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2244",
+      "text": "Add health check for celery queue length",
+      "turnaround_time": 31864
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care#2243",
+      "time": "2024-06-05T17:42:48+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2243",
+      "text": "Make sentry event level configurable and use error by default",
+      "turnaround_time": 31854
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2243",
+      "time": "2024-06-05T17:42:48+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2243",
+      "text": "Make sentry event level configurable and use error by default",
+      "collaborated_with": [
+        "vigneshhari"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2147",
+      "time": "2024-06-05T17:40:13+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2147",
+      "text": "Fix op number constraint for readmitted patients",
+      "collaborated_with": [
+        "Shivank Kacker",
+        "skks1212"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care#2232",
+      "time": "2024-06-05T17:36:29+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2232",
+      "text": "update default patient list to show recently_modified first after no_consultation_filed",
+      "turnaround_time": 33132
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2244",
+      "time": "2024-06-05T10:34:20+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2244#issuecomment-2149459725",
+      "text": "skipping lint to avoid conflict with https://github.com/coronasafe/care/pull/2242\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2244",
+      "time": "2024-06-05T10:20:22+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2244",
+      "text": "Add health check for celery queue length"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2243",
+      "time": "2024-06-05T09:12:37+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2243",
+      "text": "Make sentry event level configurable and use error by default"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2242",
+      "time": "2024-06-05T09:08:29+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2242",
+      "text": "Add endpoint to get version info"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2241",
+      "time": "2024-06-05T08:50:57+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2241",
+      "text": "Middleware to log request times"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2240",
+      "time": "2024-06-05T08:49:46+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2240",
+      "text": "Investigate values being logged from constraint exceptions"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2239",
+      "time": "2024-06-05T08:49:08+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2239",
+      "text": "Research slow db timeouts reported on sentry"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2238",
+      "time": "2024-06-05T08:48:19+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2238",
+      "text": "Set default permission class to IsAuthenticated"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2237",
+      "time": "2024-06-05T08:46:18+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2237",
+      "text": "Add a global 20 seconds timeout to middleware requests"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2236",
+      "time": "2024-06-05T08:45:35+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2236",
+      "text": "Add a global timeout of 20 seconds to external requests to abdm"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2235",
+      "time": "2024-06-05T08:44:45+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2235",
+      "text": "Change sentry reporting to error only by default"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2234",
+      "time": "2024-06-05T08:43:53+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2234",
+      "text": "Create a new endpoint to show the current app version"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2233",
+      "time": "2024-06-05T08:43:17+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2233",
+      "text": "Add queue length info in the health check endpoint"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2232",
+      "time": "2024-06-05T08:24:18+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2232",
+      "text": "update default patient list to show recently_modified first after no_consultation_filed"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T06:19:21+00:00",
+      "title": "coronasafe/care#2231",
+      "link": "https://github.com/coronasafe/care/pull/2231#pullrequestreview-2098135461",
+      "text": "ICD11: gracefully return `None` if issues with redis"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T06:15:08+00:00",
+      "title": "coronasafe/care#2209",
+      "link": "https://github.com/coronasafe/care/pull/2209#pullrequestreview-2098121571",
+      "text": "Add Consent Model"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T06:15:08+00:00",
+      "title": "coronasafe/care#2209",
+      "link": "https://github.com/coronasafe/care/pull/2209#pullrequestreview-2098121571",
+      "text": "Add Consent Model"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T06:05:04+00:00",
+      "title": "coronasafe/care#2147",
+      "link": "https://github.com/coronasafe/care/pull/2147#pullrequestreview-2098111991",
+      "text": "Fix op number constraint for readmitted patients"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-06-04T16:22:04+00:00",
@@ -14347,25 +14550,25 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2217",
       "title": "remove deprecated symptoms fields",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_scribe/pull/9",
       "title": "Use translation API to generate text for the prompt",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/citizen/pull/44",
       "title": "Quick changes to get the app running again",
-      "stale_for": 79,
+      "stale_for": 80,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 191,
+      "stale_for": 192,
       "labels": [
         "blocked",
         "changes required",
@@ -14376,17 +14579,29 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 20,
+      "stale_for": 21,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/medibase/pull/7",
       "title": "Update dependencies",
-      "stale_for": 320,
+      "stale_for": 321,
       "labels": []
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/2235",
+      "pr_link": "https://github.com/coronasafe/care/pull/2243"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/2234",
+      "pr_link": "https://github.com/coronasafe/care/pull/2242"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/2233",
+      "pr_link": "https://github.com/coronasafe/care/pull/2244"
+    },
     {
       "issue_link": "https://github.com/coronasafe/care/issues/2098",
       "pr_link": "https://github.com/coronasafe/care/pull/2099"
@@ -14450,22 +14665,6 @@
     {
       "issue_link": "https://github.com/coronasafe/care/issues/1593",
       "pr_link": "https://github.com/coronasafe/care/pull/1591"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6131",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6132"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care/issues/1542",
-      "pr_link": "https://github.com/coronasafe/care/pull/1546"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care/issues/1542",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6132"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/6086",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/6087"
     }
   ]
 }

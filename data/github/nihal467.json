@@ -1,6 +1,166 @@
 {
-  "last_updated": "2024-06-04T18:11:00+00:00",
+  "last_updated": "2024-06-05T22:15:02+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7895",
+      "time": "2024-06-05T22:15:02+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7895#issuecomment-2151047679",
+      "text": "@khavinshankar the lint is fixed\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7979",
+      "time": "2024-06-05T21:52:27+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7979",
+      "text": "Fix Cypress Flaky test in Investigation"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7978",
+      "time": "2024-06-05T21:37:08+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7978",
+      "text": "bulk administration cypress test"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7726",
+      "time": "2024-06-05T12:56:37+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7726",
+      "text": "Fix QR code error notification",
+      "collaborated_with": [
+        "AshrafMd-1"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#7958",
+      "time": "2024-06-05T12:52:21+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7958",
+      "text": "Fix sort button width",
+      "collaborated_with": [
+        "skks1212"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7697",
+      "time": "2024-06-05T12:45:03+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7697#issuecomment-2149762299",
+      "text": "@khavinshankar the validation for shifting form destination facility is skipped, when we mark the complete and submit the form. So modify the PR to ensure that the shifting form validation is passed first then only the discharge pop-up should comes into the screen"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7697",
+      "time": "2024-06-05T12:40:56+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7697#issuecomment-2149749120",
+      "text": "@aparnacoronasafe \r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/4a73a2b0-9b04-445d-8ee1-9f4deabcb447)\r\n\r\n- [ ] When you are marking a patient complete, the destination facility is mandatory, then only we can successfully discharge a patient in the shifting module\r\n- [ ] But at the same time, the referred to discharge pop-up destination facility is an optional field, so it will throw an error, since we are trying to reuse the discharge pop-up here\r\n\r\nSimilar operation but different approach can be confusing, but can you comment on this issue how to handle it @aparnacoronasafe "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2231",
+      "time": "2024-06-05T12:33:24+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2231#issuecomment-2149725169",
+      "text": "LGTM tested through tunnel"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2222",
+      "time": "2024-06-05T12:01:22+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2222#issuecomment-2149659593",
+      "text": "@khavinshankar \r\n![image](https://github.com/coronasafe/care/assets/57055998/51ccbc3e-28b0-43a8-b007-e42d881b646d)\r\n\r\nas a nurse id , iam able to view all restricted details mention in the issue, can you fix it"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7970",
+      "time": "2024-06-05T11:39:34+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7970#issuecomment-2149617730",
+      "text": "@skks1212 \r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/a54b3462-c81e-476e-91d0-579ded70d8ce)\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/89be8cdf-eeaa-4d09-af4e-366e3835a1a5)\r\n\r\n\r\n- [ ] Now the patient is transferred from icu bed to the isolation bed type and it show the definition, which as per issue shouldn't be showing it "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7726",
+      "time": "2024-06-05T11:33:25+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7726#issuecomment-2149606469",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7974",
+      "time": "2024-06-05T11:25:42+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7974#issuecomment-2149591893",
+      "text": "LGTM @khavinshankar can you try it once and approve it"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7684",
+      "time": "2024-06-05T10:08:46+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7684#issuecomment-2149409719",
+      "text": "@aparnacoronasafe \r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/4a73a2b0-9b04-445d-8ee1-9f4deabcb447)\r\n\r\n- [ ] when you are marking a patient complete, the destination facility is mandatory , then only we can successfully discharge a patient in shifting module\r\n- [ ] But at the same time, the referred to discharge pop-up destination facility is a optional field, so it will throw a error, since we are trying to reuse the discharge pop-up here"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7977",
+      "time": "2024-06-05T09:24:20+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7977",
+      "text": "Add IP/OP number in the patient list tab"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2232",
+      "time": "2024-06-05T09:19:58+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2232#issuecomment-2149305418",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7970",
+      "time": "2024-06-05T09:04:49+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7970#issuecomment-2149273552",
+      "text": "@skks1212 can you modify the PR based on the issue"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7976",
+      "time": "2024-06-05T08:19:57+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7976",
+      "text": "Modify the patient list sort"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7895",
+      "time": "2024-06-05T06:14:50+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7895#issuecomment-2148964135",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7891",
+      "time": "2024-06-05T06:13:12+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7891#issuecomment-2148961939",
+      "text": "@sunny-thakurwar \r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/cec5660c-32be-410f-be11-f9ad172df17e)\r\n\r\nwhen we click the Kannada language, even though we can write it in a single row, it utilising two rows, can you check it"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7962",
+      "time": "2024-06-05T05:57:51+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7962#issuecomment-2148920422",
+      "text": "![image](https://github.com/coronasafe/care_fe/assets/57055998/a8ee0ec8-25f3-4f07-a89f-fb26764c3bc6)\r\n\r\n- When we are filing a new consultation, the category is filled first and later only, we will be allocating a bed, so based on a bed category, if we are showing the fine text, it might not work properly during create consultation. @aparnacoronasafe can you share your view on this"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7958",
+      "time": "2024-06-05T05:47:50+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7958#issuecomment-2148907820",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7956",
+      "time": "2024-06-05T05:00:26+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7956#issuecomment-2148858465",
+      "text": "LGTM"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care#2133",
@@ -38058,6 +38218,19 @@
       "text": "Modified Cypress Test | Facility delete test | Facility Module "
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7979",
+      "title": "Fix Cypress Flaky test in Investigation",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7978",
+      "title": "bulk administration cypress test",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }

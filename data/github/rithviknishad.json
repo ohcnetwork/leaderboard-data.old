@@ -1,6 +1,59 @@
 {
-  "last_updated": "2024-06-04T10:28:56+00:00",
+  "last_updated": "2024-06-05T17:51:30+00:00",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2245",
+      "time": "2024-06-05T17:51:30+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2245",
+      "text": "ICD11: Fallback to DB lookup for unresolved lookups to redis and improving exception handling"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care#2231",
+      "time": "2024-06-05T17:37:58+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2231",
+      "text": "ICD11: gracefully return `None` if issues with redis",
+      "turnaround_time": 85584
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2231",
+      "time": "2024-06-05T17:37:58+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2231",
+      "text": "ICD11: gracefully return `None` if issues with redis",
+      "collaborated_with": [
+        "vigneshhari"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7796",
+      "time": "2024-06-05T07:32:41+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7796#issuecomment-2149084535",
+      "text": "@609harsh you could simply pass the refetch callback from the useQuery and call that instead to refresh latest information.\n\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T06:03:03+00:00",
+      "title": "coronasafe/care#2206",
+      "link": "https://github.com/coronasafe/care/pull/2206#pullrequestreview-2098108483",
+      "text": "Allow Nurses to clear their home facility"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T06:02:21+00:00",
+      "title": "coronasafe/care#2209",
+      "link": "https://github.com/coronasafe/care/pull/2209#pullrequestreview-2098107567",
+      "text": "Add Consent Model"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-05T01:19:23+00:00",
+      "title": "coronasafe/care#2147",
+      "link": "https://github.com/coronasafe/care/pull/2147#pullrequestreview-2097690015",
+      "text": "Fix op number constraint for readmitted patients"
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/care#2231",
@@ -48439,25 +48492,18 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care/pull/2231",
-      "title": "ICD11: gracefully return `None` if issues with redis",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
       "link": "https://github.com/coronasafe/care_fe/pull/7973",
       "title": "Show ICD-11 Diagnosis functionality unavailable error if issues with Redis",
       "stale_for": 0,
       "labels": [
-        "needs testing",
         "needs review",
-        "waiting for backend"
+        "tested"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow non-home facility users to perform edits and disallow edits for discharged patients",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "P2"
       ]
@@ -48465,7 +48511,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 106,
+      "stale_for": 107,
       "labels": [
         "merge conflict",
         "stale",
@@ -48557,10 +48603,6 @@
     {
       "issue_link": "https://github.com/coronasafe/care_fe/issues/7419",
       "pr_link": "https://github.com/coronasafe/care_fe/pull/7418"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/leaderboard/issues/382",
-      "pr_link": "https://github.com/coronasafe/leaderboard/pull/383"
     }
   ]
 }
