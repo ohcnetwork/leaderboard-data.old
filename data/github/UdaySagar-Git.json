@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-06-05T21:17:45+00:00",
+  "last_updated": "2024-06-06T06:35:52+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7981",
+      "time": "2024-06-06T06:35:52+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7981#issuecomment-2151513662",
+      "text": "ready for testing"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7982",
+      "time": "2024-06-06T06:34:10+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7982#issuecomment-2151511208",
+      "text": "ready for testing"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#7982",
+      "time": "2024-06-06T06:29:42+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7982",
+      "text": "Fix autolabel workflow error and removes needs testing label if changes are requested"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7981",
+      "time": "2024-06-06T06:05:52+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7981#issuecomment-2151477660",
+      "text": "this can be fixed by removing \r\nhttps://github.com/coronasafe/care_fe/blob/db8b1f4cb641f6c3513ddf7790ff0e4f182c3e4b/.github/workflows/auto-testing-label.yml#L6-L7\r\n\r\nif they are not required "
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#7981",
+      "time": "2024-06-06T06:04:46+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7981",
+      "text": "GitHub Action Failing: Auto Add Needs Testing Label Workflow Error - 'Cannot read properties of undefined (reading 'draft')'"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#3924",
+      "time": "2024-06-06T05:23:16+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/3924#issuecomment-2151435622",
+      "text": "@rithviknishad can i get this assigned ? "
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/docs#31",
@@ -1366,27 +1408,35 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/7982",
+      "title": "Fix autolabel workflow error and removes needs testing label if changes are requested",
+      "stale_for": 0,
+      "labels": [
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/coronasafe/docs/pull/31",
       "title": "Docs for GSoC proposal (Doctor Notes)",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/docs/pull/29",
       "title": "docs for doctor notes reply feature",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2160",
       "title": "Reply feature for Doctor notes ",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7805",
       "title": "Reply feature for doctor notes",
-      "stale_for": 13,
+      "stale_for": 14,
       "labels": [
         "needs review",
         "tested",

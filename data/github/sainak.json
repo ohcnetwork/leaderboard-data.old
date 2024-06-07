@@ -1,6 +1,94 @@
 {
-  "last_updated": "2024-06-05T17:47:11+00:00",
+  "last_updated": "2024-06-06T14:36:18+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2251",
+      "time": "2024-06-06T14:36:18+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2251",
+      "text": "dont allow users to set consent type as others"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care#2250",
+      "time": "2024-06-06T14:22:19+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2250",
+      "text": "Fix consent records migration",
+      "turnaround_time": 261
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2250",
+      "time": "2024-06-06T14:17:59+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2250",
+      "text": "Fix consent records migration"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2249",
+      "time": "2024-06-06T11:39:30+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2249",
+      "text": "Flush redis befor loading static data"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2248",
+      "time": "2024-06-06T11:28:30+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2248",
+      "text": "Exclude ICD11 entries that does not have a `meta_chapter_short` from search instead for not loading in redis table"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-06T10:36:27+00:00",
+      "title": "coronasafe/care#2223",
+      "link": "https://github.com/coronasafe/care/pull/2223#pullrequestreview-2101585037",
+      "text": "migrating feature field  to array field "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-06T10:36:04+00:00",
+      "title": "coronasafe/care#2223",
+      "link": "https://github.com/coronasafe/care/pull/2223#pullrequestreview-2094010322",
+      "text": "migrating feature field  to array field "
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2209",
+      "time": "2024-06-06T10:22:39+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2209",
+      "text": "Add Consent Model",
+      "collaborated_with": [
+        "skks1212"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2246",
+      "time": "2024-06-06T09:16:55+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2246",
+      "text": "Merge Develop to Staging v24.24.0",
+      "collaborated_with": [
+        "jasonmokk",
+        "vigneshhari",
+        "skks1212",
+        "DraKen0009",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-06T07:51:08+00:00",
+      "title": "coronasafe/care#2209",
+      "link": "https://github.com/coronasafe/care/pull/2209#pullrequestreview-2101144016",
+      "text": "Add Consent Model"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-06T06:18:27+00:00",
+      "title": "coronasafe/care#2209",
+      "link": "https://github.com/coronasafe/care/pull/2209#pullrequestreview-2100887332",
+      "text": "Add Consent Model"
+    },
     {
       "type": "pr_merged",
       "title": "coronasafe/care#2242",
@@ -14548,27 +14636,39 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care/pull/2251",
+      "title": "Dont allow users to set patient code status as not specified for consent",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2248",
+      "title": "Exclude ICD11 entries that does not have a `meta_chapter_short` from search instead for not loading in redis table",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care/pull/2217",
       "title": "remove deprecated symptoms fields",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_scribe/pull/9",
       "title": "Use translation API to generate text for the prompt",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/citizen/pull/44",
       "title": "Quick changes to get the app running again",
-      "stale_for": 80,
+      "stale_for": 81,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 192,
+      "stale_for": 193,
       "labels": [
         "blocked",
         "changes required",
@@ -14579,13 +14679,13 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 21,
+      "stale_for": 22,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/medibase/pull/7",
       "title": "Update dependencies",
-      "stale_for": 321,
+      "stale_for": 322,
       "labels": []
     }
   ],
