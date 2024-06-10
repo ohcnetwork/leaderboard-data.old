@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-03-11T17:33:29+00:00",
+  "last_updated": "2024-06-09T11:15:11+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2238",
+      "time": "2024-06-09T11:15:11+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2238#issuecomment-2156448793",
+      "text": "@sainak Can you assign this issue to me?"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2241",
+      "time": "2024-06-09T11:10:30+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2241#issuecomment-2156447062",
+      "text": "@sainak A new middleware is required or can we just append the response time to the existing `AuditLogMiddleware`?"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2208",
+      "time": "2024-06-09T10:59:14+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2208#issuecomment-2156442845",
+      "text": "@skks1212 I think so the following code, covers the changes you suggested.\r\n\r\nCommands like **migrate, shell_plus & dbshell** are covered under wildcard command.\r\n**reset_test_db** is covered separately.\r\n\r\n```\r\n# Reset the test database and apply migrations\r\nreset_test_db:\r\n\tdocker compose exec backend bash -c \"python manage.py reset_db --noinput\"\r\n\tdocker compose exec backend bash -c \"python manage.py migrate\"\r\n\r\n# Wildcard command to run any Django management command\r\n%:\r\n\tdocker compose exec backend bash -c \"python manage.py $*\"\r\n```"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2085",
+      "time": "2024-06-09T10:32:00+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2085#issuecomment-2156433916",
+      "text": "@sainak What behaviour do we want to implement on User object creation?\r\n\r\nInitially SET updated_by to null\r\nor \r\nInitially SET updated_by equal to created_by"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care#1962",
