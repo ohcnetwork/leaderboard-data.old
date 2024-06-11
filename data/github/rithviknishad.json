@@ -1,6 +1,79 @@
 {
-  "last_updated": "2024-06-09T09:59:32+00:00",
+  "last_updated": "2024-06-10T17:05:56+00:00",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8014",
+      "time": "2024-06-10T17:05:56+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8014",
+      "text": "Production release v24.24.0",
+      "collaborated_with": [
+        "nihal467",
+        "AshrafMd-1",
+        "gigincg",
+        "Ashesh3",
+        "khavinshankar",
+        "Aryanshu919",
+        "skks1212"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2258",
+      "time": "2024-06-10T17:05:53+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2258",
+      "text": "Production release v24.24.0",
+      "collaborated_with": [
+        "jasonmokk",
+        "gigincg",
+        "sainak",
+        "vigneshhari",
+        "skks1212",
+        "DraKen0009"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-10T17:03:00+00:00",
+      "title": "coronasafe/care_fe#7957",
+      "link": "https://github.com/coronasafe/care_fe/pull/7957#pullrequestreview-2108321826",
+      "text": "Fix error message when session expires "
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8013",
+      "time": "2024-06-10T12:42:53+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8013",
+      "text": "Show confirmation dialog for updating preset in consultation feed"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-10T06:17:36+00:00",
+      "title": "coronasafe/care_fe#8010",
+      "link": "https://github.com/coronasafe/care_fe/pull/8010#pullrequestreview-2106721838",
+      "text": "Fixed a type error in Autocomplete"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-10T02:32:59+00:00",
+      "title": "coronasafe/care#2190",
+      "link": "https://github.com/coronasafe/care/pull/2190#pullrequestreview-2106517870",
+      "text": "Add new medical history options "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-10T02:18:46+00:00",
+      "title": "coronasafe/care_fe#7957",
+      "link": "https://github.com/coronasafe/care_fe/pull/7957#pullrequestreview-2106508555",
+      "text": "Fix error message when session expires "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-10T02:18:46+00:00",
+      "title": "coronasafe/care_fe#7957",
+      "link": "https://github.com/coronasafe/care_fe/pull/7957#pullrequestreview-2106508555",
+      "text": "Fix error message when session expires "
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#8002",
@@ -48724,15 +48797,34 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/8013",
+      "title": "Show confirmation dialog for updating preset in consultation feed",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/coronasafe/care/pull/2252",
       "title": "Disallow read only users from performing writes to asset",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7990",
       "title": "Show IP/OP number in patients list page",
-      "stale_for": 3,
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "P1",
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/7988",
+      "title": "Doctor's Log Update- Progress Note and other improvements",
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review",
@@ -48740,35 +48832,24 @@
       ]
     },
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/7988",
-      "title": "Doctor's Log Update- Progress Note and other improvements",
-      "stale_for": 2,
-      "labels": [
-        "needs testing",
-        "needs review",
-        "P1",
-        "merge conflict"
-      ]
-    },
-    {
       "link": "https://github.com/coronasafe/care/pull/2247",
       "title": "remove deprecated fields that has been migrated to new models (Diagnosis and Prescriptions)",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7983",
       "title": "Drop unused `context` from Form Fields due to unnecessary complexity",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "tested"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
         "P2"
       ]
@@ -48776,7 +48857,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 111,
+      "stale_for": 112,
       "labels": [
         "merge conflict",
         "stale",

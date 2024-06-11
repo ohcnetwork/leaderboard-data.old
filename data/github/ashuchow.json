@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-05-07T06:19:46+00:00",
+  "last_updated": "2024-06-10T05:19:56+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/metabase_manager#16",
+      "time": "2024-06-10T05:19:56+00:00",
+      "link": "https://github.com/coronasafe/metabase_manager/pull/16#issuecomment-2157290386",
+      "text": "A solution that I have been able to find is to move the api folder within app completely to a new directory called pages and keep the rest of the files within the app folder but I'm not sure of whether such a change is recommended. The API does show as working in the test file when this change is made. To implement our own custom authorisation however, we do need to install nodeemailer and have a user email and password saved in the env file. I would like some guidance on the same"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/metabase_manager#16",
+      "time": "2024-06-10T05:02:43+00:00",
+      "link": "https://github.com/coronasafe/metabase_manager/pull/16",
+      "text": "Attempting local auth but facing errors"
+    },
     {
       "type": "pr_merged",
       "title": "coronasafe/leaderboard-data#39",
@@ -137,6 +151,13 @@
       "text": "Sync Log"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/coronasafe/metabase_manager/pull/16",
+      "title": "Attempting local auth but facing errors",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }
