@@ -1,6 +1,39 @@
 {
-  "last_updated": "2024-06-13T10:05:47+00:00",
+  "last_updated": "2024-06-14T18:19:31+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8003",
+      "time": "2024-06-14T18:19:31+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8003#issuecomment-2168540761",
+      "text": "@nihal467, are you sure the filters apart from facility filters should change the number shown in the alerts? I believe it is to show patients in that facility (or everywhere) that have no consents regardless of filters. @aparnacoronasafe can you confirm?"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8026",
+      "time": "2024-06-14T13:40:32+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8026",
+      "text": "Staging Release v24.25.0",
+      "collaborated_with": [
+        "nihal467",
+        "Sulochan-khadka",
+        "khavinshankar",
+        "Ashutosh0602",
+        "UdaySagar-Git",
+        "AshrafMd-1",
+        "bodhish",
+        "Pranshu1902",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7994",
+      "time": "2024-06-14T11:42:15+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7994",
+      "text": "Added label to painscale preview",
+      "turnaround_time": 22667
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7962",
@@ -8928,9 +8961,9 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8003",
       "title": "Added consent indicators and filters",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
+        "question",
         "needs review",
         "P1",
         "waiting for backend"
@@ -8939,31 +8972,22 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2255",
       "title": "Return files with consent lists and consent filters",
-      "stale_for": 5,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7994",
-      "title": "Added label to painscale preview",
       "stale_for": 6,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
+      "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7975",
       "title": "Updated ABHA popup UI",
       "stale_for": 0,
       "labels": [
-        "needs review",
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7970",
       "title": "Added patient category descriptions for ICU bed patients",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "needs testing",
         "hold",
@@ -8973,7 +8997,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7933",
       "title": "Reenabled discharge patient admitted to filter",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "test failed",
@@ -8983,19 +9007,19 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2204",
       "title": "Adds functionality for `last_consultation_admitted_bed_type_list` in discharge patient filters",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/docs/pull/26",
       "title": "New Consent Restructure Proposal",
-      "stale_for": 15,
+      "stale_for": 16,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7772",
       "title": "Added facility hubs",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "hold",
         "needs review",
@@ -9005,7 +9029,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2135",
       "title": "Added Facility Hubs",
-      "stale_for": 23,
+      "stale_for": 24,
       "labels": []
     }
   ],
