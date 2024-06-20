@@ -1,6 +1,42 @@
 {
-  "last_updated": "2024-06-18T16:52:41+00:00",
+  "last_updated": "2024-06-19T17:35:37+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8056",
+      "time": "2024-06-19T17:35:37+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8056#issuecomment-2179223061",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8049",
+      "time": "2024-06-19T14:17:42+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8049#issuecomment-2178834442",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8050",
+      "time": "2024-06-19T14:16:19+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/8050#issuecomment-2178831387",
+      "text": "@Ramannandiwal steps to reproduce \r\n\r\n1. Go to patient consultation page of a existing patient from the patient tab\r\n2. Click on the log update button\r\n3. create a log update with round type \"Critical care\" or \"Progress Note\"\r\n4. submit it, now in the daily round tab, find the relevant card, and click view details button in the card\r\n5. then you will see the page crashes"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#8050",
+      "time": "2024-06-19T10:09:17+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/8050",
+      "text": "BUG : View details page is crashing for critical care & progress note"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#7978",
+      "time": "2024-06-19T05:50:15+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7978",
+      "text": "New Cypress Test | Bulk Administration of Medicine | Prescription Module",
+      "turnaround_time": 63352
+    },
     {
       "type": "pr_merged",
       "title": "coronasafe/care#2276",
@@ -38856,15 +38892,6 @@
       "text": "Modified Cypress Test | Facility delete test | Facility Module "
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7978",
-      "title": "bulk administration cypress test",
-      "stale_for": 5,
-      "labels": [
-        "stale"
-      ]
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }
