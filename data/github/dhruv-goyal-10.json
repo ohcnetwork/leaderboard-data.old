@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-06-17T14:37:11+00:00",
+  "last_updated": "2024-06-24T19:15:07+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2208",
+      "time": "2024-06-24T19:15:07+00:00",
+      "link": "https://github.com/coronasafe/care/issues/2208#issuecomment-2187239166",
+      "text": "@skks1212 Yep, it will be passed down if the entire command is passed as string.\r\n\r\nIn your case, `make \"migrate facility 0001\"` will work same as running `python manage.py migrate facility 0001`."
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care#2268",
@@ -201,13 +208,13 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2268",
       "title": "Set default permission class to IsAuthenticated & made required changes",
-      "stale_for": 0,
+      "stale_for": 7,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2260",
       "title": "Fixed N+1 query occurrence in the /api/v1/facility/",
-      "stale_for": 0,
+      "stale_for": 7,
       "labels": []
     }
   ],
