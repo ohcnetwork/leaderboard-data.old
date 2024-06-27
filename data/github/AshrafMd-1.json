@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-06-18T16:52:29+00:00",
+  "last_updated": "2024-06-26T15:09:33+00:00",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-06-26T15:09:33+00:00",
+      "title": "coronasafe/care_fe#8031",
+      "link": "https://github.com/coronasafe/care_fe/pull/8031#pullrequestreview-2142186128",
+      "text": "Error message modification in the asset configuration page"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care_fe#8043",
@@ -3189,12 +3196,14 @@
       "link": "https://github.com/coronasafe/care_fe/pull/8031",
       "title": "Error message modification in the asset configuration page",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "changes required"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2190",
       "title": "Add new medical history options ",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": []
     },
     {
@@ -3202,8 +3211,8 @@
       "title": "Expanding medical history [ Comorbidities ]",
       "stale_for": 0,
       "labels": [
-        "needs testing",
         "needs review",
+        "tested",
         "waiting for backend"
       ]
     }
