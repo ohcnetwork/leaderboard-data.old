@@ -1,6 +1,59 @@
 {
-  "last_updated": "2024-07-03T15:58:45+00:00",
+  "last_updated": "2024-07-04T11:26:01+00:00",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-04T11:26:01+00:00",
+      "title": "coronasafe/care_fe#8086",
+      "link": "https://github.com/coronasafe/care_fe/pull/8086#pullrequestreview-2158700396",
+      "text": "Fix multi-select dropdown for facilities in user creation module"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-04T11:26:01+00:00",
+      "title": "coronasafe/care_fe#8086",
+      "link": "https://github.com/coronasafe/care_fe/pull/8086#pullrequestreview-2158700396",
+      "text": "Fix multi-select dropdown for facilities in user creation module"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8111",
+      "time": "2024-07-04T09:32:00+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8111",
+      "text": "Merge Develop to Staging 24.28.0",
+      "collaborated_with": [
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2289",
+      "time": "2024-07-04T09:28:35+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2289",
+      "text": "Allows duplicate symptom entries for once that has cure date"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8110",
+      "time": "2024-07-04T08:37:49+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8110",
+      "text": "Fixes vertical alignment of patients age in patients list page",
+      "turnaround_time": 6569
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8051",
+      "time": "2024-07-04T07:00:44+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/8051#issuecomment-2208256996",
+      "text": "@gayann-au The purpose of the mobile/landline/support(toll-free) number icons are for indicating which type of number are ALLOWED in that particular field, and not which is the current type based on the input. \r\n\r\nCertain phone number fields in CARE do not accept landline numbers and certain fields do accept support / toll-free numbers in addition to mobile and landline numbers. Icons are to indicate those."
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8110",
+      "time": "2024-07-04T06:48:21+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8110",
+      "text": "Fixes vertical alignment of patients age in patients list page"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-07-03T15:58:45+00:00",
@@ -49138,6 +49191,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care/pull/2289",
+      "title": "Allows creation of duplicate symptoms if cure date is present",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/8109",
       "title": "Progress Notes: Adds support for filing Resp. support and Neurological Monitoring data",
       "stale_for": 0,
@@ -49150,19 +49209,19 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2252",
       "title": "Disallow read only users from performing writes to asset",
-      "stale_for": 20,
+      "stale_for": 21,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2247",
       "title": "remove deprecated fields that has been migrated to new models (Diagnosis and Prescriptions)",
-      "stale_for": 19,
+      "stale_for": 20,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": [
         "P2"
       ]
@@ -49170,7 +49229,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 135,
+      "stale_for": 136,
       "labels": [
         "merge conflict",
         "stale",

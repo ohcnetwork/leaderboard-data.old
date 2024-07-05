@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-06-26T15:00:23+00:00",
+  "last_updated": "2024-07-04T11:26:12+00:00",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-04T11:26:12+00:00",
+      "title": "coronasafe/care_fe#8086",
+      "link": "https://github.com/coronasafe/care_fe/pull/8086#pullrequestreview-2158701888",
+      "text": "Fix multi-select dropdown for facilities in user creation module"
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/care_fe#8086",
@@ -32,17 +39,27 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/8104",
+      "title": "set treating doctor to non mandatory if decision after consultation is domiciliary care.",
+      "stale_for": 1,
+      "labels": [
+        "needs testing"
+      ]
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/8086",
       "title": "Fix multi-select dropdown for facilities in user creation module",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8045",
       "title": "Update filter button behaviour when filters are applied",
-      "stale_for": 4,
+      "stale_for": 1,
       "labels": [
-        "test failed",
         "changes required"
       ]
     }
