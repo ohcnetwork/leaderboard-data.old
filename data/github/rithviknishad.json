@@ -1,6 +1,55 @@
 {
-  "last_updated": "2024-07-04T11:26:01+00:00",
+  "last_updated": "2024-07-05T17:30:09+00:00",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/leaderboard#461",
+      "time": "2024-07-05T17:30:09+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/issues/461",
+      "text": "Add sitemap"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8040",
+      "time": "2024-07-05T14:10:57+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/8040#issuecomment-2210951198",
+      "text": "@aparnacoronasafe \r\n\r\n> The aspect ratio has changed.\r\n\r\nThe aspect ratio has not been changed. It uses 16:9 standard video ratio before and now. Could you provide screenshots / more details for it?\r\n\r\n> Is it possible that the new component is slower and requires a better internet speed to work.\r\n\r\nThe new component does not require any extra internet speed to work. It uses the same method as before to stream the video. \r\n\r\nThe new component would attempt to reconnect if the latency goes beyond 5 seconds and would cause a momentary black screen until reconnected. Should we consider increasing the latency threshold? "
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8118",
+      "time": "2024-07-05T13:41:06+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8118",
+      "text": "Improvements to fullscreen support in Camera Feed"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-05T12:38:41+00:00",
+      "title": "coronasafe/care_fe#8117",
+      "link": "https://github.com/coronasafe/care_fe/pull/8117#pullrequestreview-2160642389",
+      "text": "Fixes vertical alignment of location badge in location management page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-05T12:07:59+00:00",
+      "title": "coronasafe/care_fe#7995",
+      "link": "https://github.com/coronasafe/care_fe/pull/7995#pullrequestreview-2160592204",
+      "text": "New profile picture feature "
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2290",
+      "time": "2024-07-05T10:40:22+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2290",
+      "text": "Adds choice 'Sublingual' to prescription routes"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#8115",
+      "time": "2024-07-05T05:12:00+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/8115",
+      "text": "Support for form templates in Log Update"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-07-04T11:26:01+00:00",
@@ -49191,15 +49240,30 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/8118",
+      "title": "Improvements to fullscreen support in Camera Feed",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2290",
+      "title": "Adds additional units and route to prescriptions",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care/pull/2289",
       "title": "Allows creation of duplicate symptoms if cure date is present",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8109",
       "title": "Progress Notes: Adds support for filing Resp. support and Neurological Monitoring data",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review",
@@ -49209,19 +49273,19 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2252",
       "title": "Disallow read only users from performing writes to asset",
-      "stale_for": 21,
+      "stale_for": 22,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2247",
       "title": "remove deprecated fields that has been migrated to new models (Diagnosis and Prescriptions)",
-      "stale_for": 20,
+      "stale_for": 21,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 10,
+      "stale_for": 11,
       "labels": [
         "P2"
       ]
@@ -49229,7 +49293,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 136,
+      "stale_for": 137,
       "labels": [
         "merge conflict",
         "stale",
