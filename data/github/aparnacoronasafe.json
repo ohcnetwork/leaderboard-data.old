@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-07-05T10:23:52+00:00",
+  "last_updated": "2024-07-08T08:53:03+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7962",
+      "time": "2024-07-08T08:53:03+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/7962#issuecomment-2213423363",
+      "text": "The reason why we need to classify patient as \"mild moderate critical\" is for the obvious need to understand what degree of care is provided to patients admitted. Having a 4th category for \"actively dying\" is important to understand the number of patients admitted, where the goal for healthcare providers is not to treat the patient to recovery but to provide the patient care so the patient can have a comfortable death. \n\nHaving this classification is patients in important to make sense of patient outcomes. Where ever you have higher % of actively dying patients, % of expired in outcome will also be high. \n\nEarlier we were using the term \"comfort care\" for the classification. However using comfort care is not correct here because it is a wider term that may include patients actively dying or other patients that may be suffering from a disease like a viral infection that may not have any active treatment options. Some of such patients may recover. Hence the definition is \"comfort care\" is too wide. \"Actively dying\" is defined very specifically as patients that are dying. \n\nFor analytics we will have 5 categories \nMild\nModerate\nCritical\nComfort care\nActively dying. \n\n "
+    },
     {
       "type": "issue_opened",
       "title": "coronasafe/care_fe#8116",
