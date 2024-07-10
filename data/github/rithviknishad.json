@@ -1,6 +1,127 @@
 {
-  "last_updated": "2024-07-08T16:49:28+00:00",
+  "last_updated": "2024-07-09T17:25:33+00:00",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8086",
+      "time": "2024-07-09T17:25:33+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8086",
+      "text": "Fix multi-select dropdown for facilities in user creation module",
+      "collaborated_with": [
+        "nihal467",
+        "Dev-Harwani"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8109",
+      "time": "2024-07-09T17:25:03+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8109",
+      "text": "Progress Notes: Adds support for filing Resp. support and Neurological Monitoring data",
+      "turnaround_time": 14096
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8075",
+      "time": "2024-07-09T17:22:49+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8075",
+      "text": "Adds additional units and route to prescriptions",
+      "collaborated_with": [
+        "cu8code"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8118",
+      "time": "2024-07-09T17:19:18+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8118",
+      "text": "Improvements to fullscreen support in Camera Feed",
+      "turnaround_time": 8853
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-09T16:35:59+00:00",
+      "title": "coronasafe/care#2299",
+      "link": "https://github.com/coronasafe/care/pull/2299#pullrequestreview-2166868845",
+      "text": "Fix race condition in consultation creation"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/leaderboard#462",
+      "time": "2024-07-09T12:49:45+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/pull/462",
+      "text": "Adds sitemap generation for main pages and contributor profiles"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-09T11:09:11+00:00",
+      "title": "coronasafe/care#2252",
+      "link": "https://github.com/coronasafe/care/pull/2252#pullrequestreview-2166001567",
+      "text": "Disallow read only users from performing writes to asset"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2297",
+      "time": "2024-07-09T11:00:32+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2297",
+      "text": "Prevent N+1 queries in Encounter Symptoms ViewSet"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-09T10:10:22+00:00",
+      "title": "coronasafe/care#2253",
+      "link": "https://github.com/coronasafe/care/pull/2253#pullrequestreview-2165784599",
+      "text": "New profile picture feature"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8124",
+      "time": "2024-07-09T09:13:17+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8124#issuecomment-2217106982",
+      "text": "@nihal467 \r\n\r\nAs discussed with @aparnacoronasafe , we've decided to show the n'th day (i.e. the logic in the discharge popup is correct and the IP Days number needs to be incremented by 1)\r\n\r\ni.e.:\r\nFor first 24 hours: days would be 1\r\nFor 24-48th hour: days would be 2\r\nand so on."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8125",
+      "time": "2024-07-09T07:55:05+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8125#issuecomment-2216864711",
+      "text": "@nihal467 The caution in the encounter date field is not shown if it's within 30 days. And for values beyond 30 days, it'll always show as a month ago and above and not the actual no. of days ago.\r\n\r\nHence this PR can be tested without the potential changes from #8124"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8126",
+      "time": "2024-07-09T07:32:38+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8126#issuecomment-2216822762",
+      "text": "I've instead updated the icon in the user create page to be question mark and ensured all other usages are correct.\r\n\r\nThe question mark icon is more appropriate for \"need help\"."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-09T06:32:33+00:00",
+      "title": "coronasafe/care_fe#8016",
+      "link": "https://github.com/coronasafe/care_fe/pull/8016#pullrequestreview-2165166477",
+      "text": "GSoC - Doctor Notes Enhancement "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-09T06:32:33+00:00",
+      "title": "coronasafe/care_fe#8016",
+      "link": "https://github.com/coronasafe/care_fe/pull/8016#pullrequestreview-2165166477",
+      "text": "GSoC - Doctor Notes Enhancement "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-09T04:53:15+00:00",
+      "title": "coronasafe/care_fe#8123",
+      "link": "https://github.com/coronasafe/care_fe/pull/8123#pullrequestreview-2164995556",
+      "text": "Block expired patients from being transfered"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-09T04:16:08+00:00",
+      "title": "coronasafe/care#2293",
+      "link": "https://github.com/coronasafe/care/pull/2293#pullrequestreview-2164936097",
+      "text": "Block expired patients from being transfered"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care_fe#8129",
@@ -49348,5 +49469,94 @@
     }
   ],
   "open_prs": [],
-  "authored_issue_and_pr": []
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8085",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/8118"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7878",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7879"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/leaderboard/issues/455",
+      "pr_link": "https://github.com/coronasafe/leaderboard/pull/456"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/2163",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7752"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7778",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7797"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7712",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7839"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7711",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7752"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7711",
+      "pr_link": "https://github.com/coronasafe/care/pull/2127"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7693",
+      "pr_link": "https://github.com/coronasafe/care/pull/2112"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7692",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7694"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7567",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7839"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7527",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7528"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7506",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7508"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7482",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7469"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7468",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7469"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7466",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7472"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7465",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7472"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/2008",
+      "pr_link": "https://github.com/coronasafe/care/pull/2009"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/2008",
+      "pr_link": "https://github.com/coronasafe/care/pull/2010"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1998",
+      "pr_link": "https://github.com/coronasafe/care/pull/1999"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/1998",
+      "pr_link": "https://github.com/coronasafe/care/pull/2002"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7419",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7418"
+    }
+  ]
 }

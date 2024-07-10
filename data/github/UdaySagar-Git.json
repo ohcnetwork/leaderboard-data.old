@@ -1,6 +1,83 @@
 {
-  "last_updated": "2024-07-08T09:44:59+00:00",
+  "last_updated": "2024-07-09T14:48:36+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8016",
+      "time": "2024-07-09T14:48:36+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8016#issuecomment-2217930474",
+      "text": "- [x]  the cypress is failing, fix it\r\n- [ ]  the warning message for mike looks weirds always present in the UI, it is fine with file upload component, but in this space it doesn't look good, try to think of a better UI to place in her in the chat\r\n- [ ]  i can't remove applied bold or italic or any mark editor to the text, by again clicking on that particular icon\r\n- [ ]  when i apply a mark editor , the text is modified instantly but to see the highlight of any applied mark's i need to click outside the icons.\r\n- [ ]  for hyperlinking, add a pop-up similar to the gmail, where we can see the text we are hyperlinking and the link we want to redirect\r\n- [ ]  the hyperlinked text should be highlight as blue, not as black\r\n- [ ]  i try to hyperlink to google.com, but when i click on the link, i initially redirected to a page not found page, after that i was redirected to google.com, it should ideally redirect to the link\r\n- [ ]  when we click on the hyperlink, always have a browser behavior to open it on a new tab, so the user don't miss the chat\r\n- [ ]  on hovering over the icon, add a tooltip to exact the full name of the icon lets say if user hover over B, the tooltip should say bold, similar for all icons\r\n- [ ]  when i upload a new profile photo, the success notification is shown in the platform, to view the upload new profile, i need to manually reload the page to refresh the state of the page\r\n- [ ]  the icons are clipping in and why are we always showing no replies in text. We could use any icon to represent replies if exist , and no icon if no replies exist\r\n- [ ]  keep the default view as the default, not the thread view\r\n\r\n---\r\nAttachments and mentions enhancements are planned after mid term\r\n\r\n- [ ]  the attached image or audio files are not been attached to the chat.\r\n- [ ]  you are reusing the voice recording component here, it doesnt go with the UI , think of a better UI\r\n- [ ]  when a invalid file type is upload, the chat space is not restore the state, it is still showing 100% uploaded all the time\r\n- [ ]  rather than showing invalid file type, mention more user friendly error message\r\n- [ ]  try to inspire the tagging mechanism from slack, when we type, the text is visible to the user, and based on each character input, the list keep on filtering\r\n- [ ]  change the cancel text for reply comment to a icon and the send icons giving a feel it doesn't suit there, for example the slack editor looks good for the icon positioning\r\n- [ ]  if a user was tagged in the note, they should be send a notification stating that he/she has been mentioned in this note.\r\n- [ ]  when you click on the tagged user name, you are been taken to a page not found space,"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8016",
+      "time": "2024-07-09T14:17:05+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8016#issuecomment-2217862639",
+      "text": "sure @nihal467 "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8016",
+      "time": "2024-07-09T14:15:39+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8016#issuecomment-2217859007",
+      "text": "@khavinshankar sure! i will try to update by tommorrow"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2295",
+      "time": "2024-07-09T13:34:16+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2295#issuecomment-2217762691",
+      "text": "@nihal467 can you re run the tests now "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-09T10:56:37+00:00",
+      "title": "coronasafe/care#2253",
+      "link": "https://github.com/coronasafe/care/pull/2253#pullrequestreview-2165961652",
+      "text": "New profile picture feature"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2295",
+      "time": "2024-07-09T10:15:42+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2295",
+      "text": "GSoC - Doctor Notes Enhancement "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-09T07:02:14+00:00",
+      "title": "coronasafe/care_fe#8016",
+      "link": "https://github.com/coronasafe/care_fe/pull/8016#pullrequestreview-2165240924",
+      "text": "GSoC - Doctor Notes Enhancement "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-09T07:01:57+00:00",
+      "title": "coronasafe/care_fe#8016",
+      "link": "https://github.com/coronasafe/care_fe/pull/8016#pullrequestreview-2165240250",
+      "text": "GSoC - Doctor Notes Enhancement "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-09T07:01:51+00:00",
+      "title": "coronasafe/care_fe#8016",
+      "link": "https://github.com/coronasafe/care_fe/pull/8016#pullrequestreview-2165240013",
+      "text": "GSoC - Doctor Notes Enhancement "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-09T07:01:41+00:00",
+      "title": "coronasafe/care_fe#8016",
+      "link": "https://github.com/coronasafe/care_fe/pull/8016#pullrequestreview-2165239619",
+      "text": "GSoC - Doctor Notes Enhancement "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-09T07:01:23+00:00",
+      "title": "coronasafe/care_fe#8016",
+      "link": "https://github.com/coronasafe/care_fe/pull/8016#pullrequestreview-2165238857",
+      "text": "GSoC - Doctor Notes Enhancement "
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#7995",

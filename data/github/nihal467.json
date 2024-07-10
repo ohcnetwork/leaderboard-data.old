@@ -1,6 +1,94 @@
 {
-  "last_updated": "2024-07-08T18:12:42+00:00",
+  "last_updated": "2024-07-09T17:25:33+00:00",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8086",
+      "time": "2024-07-09T17:25:33+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8086",
+      "text": "Fix multi-select dropdown for facilities in user creation module",
+      "collaborated_with": [
+        "rithviknishad",
+        "Dev-Harwani"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8016",
+      "time": "2024-07-09T14:16:01+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8016#issuecomment-2217860037",
+      "text": "@UdaySagar-Git once you fix all the issues, before re-review , attach a functionality video of the PR, "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8016",
+      "time": "2024-07-09T13:25:22+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8016#issuecomment-2217740101",
+      "text": "@UdaySagar-Git \r\n\r\n- [ ] the cypress is failing, fix it\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/5f29e46f-ab28-4010-84a8-9760de587142)\r\n\r\n- [ ] the warning message for mike looks weirds always present in the UI, it is fine with file upload component, but in this space it doesn't look good, try to think of a better UI to place in her in the chat\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/c0dc0604-072c-497c-87db-82625d7ddf56)\r\n\r\n- [ ] the attached image or audio files are not been attached to the chat.\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/1e485c49-7b05-46e9-8644-ab18e203dbbf)\r\n\r\n- [ ] you are reusing the voice recording component here, it doesnt go with the UI , think of a better UI\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/dc18b91c-a3a4-4e9c-8462-1fed62c7a54d)\r\n\r\n- [ ] when a invalid file type is upload, the chat space is not restore the state, it is still showing 100% uploaded all the time\r\n- [ ] rather than showing invalid file type, mention more user friendly error message\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/77c03982-8dfa-4625-95d5-c82b064b070b)\r\n\r\n- [ ] i can't remove applied bold or italic or any mark editor to the text, by again clicking on that particular icon\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/b344872f-1aef-49c6-a71d-654dbdbd3a8f)\r\n\r\n- [ ] when i apply a mark editor , the text is modified instantly but to see the highlight of any applied mark's i need to click outside the icons.\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2295",
+      "time": "2024-07-09T12:50:09+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2295#issuecomment-2217637215",
+      "text": "@UdaySagar-Git fix the test and lint"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8123",
+      "time": "2024-07-09T08:35:24+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8123#issuecomment-2216953811",
+      "text": "@khavinshankar \r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/7d460421-17cd-4aa8-812d-8a7605bbdd1c)\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/ec021314-5c76-4ebf-8452-55f8d69772b9)\r\n\r\nin the patient transfer form, dropdown, as per issue, it should mention expired, and greyed out"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8126",
+      "time": "2024-07-09T08:24:29+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8126#issuecomment-2216924040",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8126",
+      "time": "2024-07-09T07:57:09+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8126#issuecomment-2216868752",
+      "text": "@rithviknishad \r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/0b3b4f00-def7-4019-a49b-bb1383e810fe)\r\n\r\nthe tooltip is clipping out"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8126",
+      "time": "2024-07-09T07:14:45+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8126#issuecomment-2216784061",
+      "text": "@rithviknishad \r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/a72b391b-793a-4f54-96ba-e2f779402ce3)\r\n\r\ncan we use the above screenshot icon for this purpose, to keep design consistency "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8125",
+      "time": "2024-07-09T07:12:38+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8125#issuecomment-2216775915",
+      "text": "@rithviknishad once the logic is fixed in https://github.com/coronasafe/care_fe/pull/8124 , implement it here as well"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8124",
+      "time": "2024-07-09T07:10:26+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8124#issuecomment-2216768043",
+      "text": "![image](https://github.com/coronasafe/care_fe/assets/57055998/3f654b00-e993-4898-ac18-c966b23fc0d5)\r\n![image](https://github.com/coronasafe/care_fe/assets/57055998/476c53bf-4609-45ef-8fa4-64ea6ae6fc87)\r\n\r\n@rithviknishad the IP no of patients are shown as 24 days and in the discharge pop-up it is shown as 25 days, how are we calculating the no of days, is it based on 24 hours clock from the date of admission or is it per night, we need to clarify it with @aparnacoronasafe and modify the PR based on the logic finalised"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7975",
+      "time": "2024-07-09T06:21:31+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/7975#issuecomment-2216681046",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8118",
+      "time": "2024-07-09T06:10:05+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8118#issuecomment-2216655033",
+      "text": "android test was failing in browser stack, but successful running in a real device via khavins helps. so LGTM"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#8118",
@@ -39319,7 +39407,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8083",
       "title": "New Cypress Test | Doctor Log Update | Consultation Module",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": [
         "stale"
       ]
