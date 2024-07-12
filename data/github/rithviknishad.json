@@ -1,6 +1,93 @@
 {
-  "last_updated": "2024-07-10T07:45:22+00:00",
+  "last_updated": "2024-07-11T08:47:51+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8138",
+      "time": "2024-07-11T08:47:51+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8138",
+      "text": "Replace usages of gray color shade with secondary (alias of gray) for consistency and maintainability"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8137",
+      "time": "2024-07-11T08:31:32+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8137",
+      "text": "Show medicine's generic in prescriptions table and details card"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8125",
+      "time": "2024-07-11T07:12:28+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8125",
+      "text": "Add caution for encounter date field if date is beyond 30 days.",
+      "turnaround_time": 68735
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8126",
+      "time": "2024-07-11T07:11:59+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8126",
+      "text": "Phone number field: Adds helper icon to improve how supported phone number types are shown",
+      "turnaround_time": 63360
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8124",
+      "time": "2024-07-11T06:50:39+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8124",
+      "text": "Shows encounter duration in discharge confirmation dialog",
+      "turnaround_time": 67478
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-11T03:55:23+00:00",
+      "title": "coronasafe/care#2223",
+      "link": "https://github.com/coronasafe/care/pull/2223#pullrequestreview-2170859488",
+      "text": "migrating feature field  to array field "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-11T03:54:00+00:00",
+      "title": "coronasafe/care#2287",
+      "link": "https://github.com/coronasafe/care/pull/2287#pullrequestreview-2170858395",
+      "text": "Update dependencies"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-11T03:53:09+00:00",
+      "title": "coronasafe/care#2288",
+      "link": "https://github.com/coronasafe/care/pull/2288#pullrequestreview-2170857807",
+      "text": "Add taken at field for patient consultation events"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-11T03:51:26+00:00",
+      "title": "coronasafe/care#2260",
+      "link": "https://github.com/coronasafe/care/pull/2260#pullrequestreview-2170856656",
+      "text": "Fixed N+1 query occurrence in the /api/v1/facility/"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-11T03:51:06+00:00",
+      "title": "coronasafe/care#2260",
+      "link": "https://github.com/coronasafe/care/pull/2260#pullrequestreview-2170856304",
+      "text": "Fixed N+1 query occurrence in the /api/v1/facility/"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-11T03:51:05+00:00",
+      "title": "coronasafe/care#2260",
+      "link": "https://github.com/coronasafe/care/pull/2260#pullrequestreview-2170856304",
+      "text": "Fixed N+1 query occurrence in the /api/v1/facility/"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-11T03:48:42+00:00",
+      "title": "coronasafe/care#2104",
+      "link": "https://github.com/coronasafe/care/pull/2104#pullrequestreview-2170854776",
+      "text": "added tests for beds endpoints"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care_fe#8132",
@@ -49491,6 +49578,165 @@
       "text": "Adds state summary view"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/8138",
+      "title": "Replace usages of gray color shade with secondary (alias of gray) for consistency and maintainability",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/8137",
+      "title": "Show medicine's generic in prescriptions table and details card",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2297",
+      "title": "Prevent N+1 queries in Encounter Symptoms ViewSet",
+      "stale_for": 1,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/8128",
+      "title": "Refactor rendering of array of strings to utilise `humanizeStrings` utility method",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2289",
+      "title": "Allows creation of duplicate symptoms if cure date is present",
+      "stale_for": 7,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2252",
+      "title": "Disallow read only users from performing writes to asset",
+      "stale_for": 1,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2247",
+      "title": "remove deprecated fields that has been migrated to new models (Diagnosis and Prescriptions)",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2133",
+      "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
+      "stale_for": 2,
+      "labels": [
+        "P2"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/5681",
+      "title": "HCX Communication",
+      "stale_for": 143,
+      "labels": [
+        "merge conflict",
+        "stale",
+        "cypress failed"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8121",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/8124"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8120",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/8125"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/leaderboard/issues/461",
+      "pr_link": "https://github.com/coronasafe/leaderboard/pull/462"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8085",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/8118"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7878",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7879"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/leaderboard/issues/455",
+      "pr_link": "https://github.com/coronasafe/leaderboard/pull/456"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/2163",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7752"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7778",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7797"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7712",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7839"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7711",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7752"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7711",
+      "pr_link": "https://github.com/coronasafe/care/pull/2127"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7693",
+      "pr_link": "https://github.com/coronasafe/care/pull/2112"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7692",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7694"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7567",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7839"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7527",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7528"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7506",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7508"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7482",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7469"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7468",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7469"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7466",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7472"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7465",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7472"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/2008",
+      "pr_link": "https://github.com/coronasafe/care/pull/2009"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/2008",
+      "pr_link": "https://github.com/coronasafe/care/pull/2010"
+    }
+  ]
 }
