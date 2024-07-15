@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-07-12T16:40:23+00:00",
+  "last_updated": "2024-07-14T15:54:55+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8016",
+      "time": "2024-07-14T15:54:55+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8016#issuecomment-2227394182",
+      "text": "markdown editor pending \r\n- preselect/deselect options before we start typing\r\n- after clearing a word the next words to be plain text instead of previous styles\r\n\r\nBugs in functionality\r\n-----\r\n- [ ] when you select a text and apply a preference , then remove a preference, and then again give a preference, the selected text will go out of focus (a video of indicating the issue would be helpful)\r\n- [ x]  when i select a text preference for example Bold, then start typing text, the text preference is not applied to the text (checking this as duplicate- issue 1)\r\n- [ x]  when i apply a text preference for a specific text and after applying, continue typing, the text preference is been applied to the new text as well (thats the expected behaviour - ref : slack editor)\r\n- [ x]  when i apply italics and go to next row of the text, now type to un-select italic, it wont allow  (checking this as duplicate- issue 1)\r\n- [ x]  edit and reply buttons are not visible in mobile view\r\n- [ ]  user tagging will fail if we mention more than 1 character in yours name for example @d if we type it will show the users list but we continue to type @de the list of users wont be visible at all\r\n- [ x]  when we download the uploaded file , formatting is wrong for example in place of audio.mp3 they are saving as audio.mp3.mp3\r\n\r\n \r\nBug in Design\r\n\r\n- [ ] the tagged user text is clickable in a existing note, but when we go and click over it, it's not having any redirection or pop-up or anything relevant ( on last test there was a pop-up showing user name and details currently seem like it is removed) ---yes removed temporaryly to do that from backend\r\n- [x ]  the edit and reply button are only visible when we move the cursor near to the place marked as 2 in the above screenshot\r\n- [ x]  the edit and reply icon is overlapping with notes in mobile view\r\n- [ x]  when we upload a profile image, it is still fully reloading the entire page"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-07-12T16:40:23+00:00",
@@ -1770,19 +1777,19 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2295",
       "title": "GSoC - Doctor Notes Enhancement ",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2291",
       "title": "Adds support for retrieving file uploads in doctor notes",
-      "stale_for": 6,
+      "stale_for": 8,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8096",
       "title": "Thread view for doctor notes",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": [
         "merge conflict"
       ]
@@ -1790,7 +1797,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8070",
       "title": "Rich text editor component ( markdown + mentions + fileuploads)",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": [
         "changes required"
       ]
@@ -1806,7 +1813,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7995",
       "title": "New profile picture feature ",
-      "stale_for": 4,
+      "stale_for": 6,
       "labels": [
         "needs review",
         "changes required",
@@ -1816,25 +1823,25 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2253",
       "title": "New profile picture feature",
-      "stale_for": 3,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/docs/pull/31",
       "title": "Docs for GSoC proposal (Doctor Notes)",
-      "stale_for": 2,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2160",
       "title": "Reply feature for Doctor notes ",
-      "stale_for": 4,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7805",
       "title": "Reply feature for doctor notes",
-      "stale_for": 50,
+      "stale_for": 52,
       "labels": [
         "needs review",
         "tested",

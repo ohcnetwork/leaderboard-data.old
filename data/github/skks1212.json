@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-07-13T14:16:01+00:00",
+  "last_updated": "2024-07-14T21:34:38+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2303",
+      "time": "2024-07-14T21:34:38+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2303",
+      "text": "Merge migrations"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2302",
+      "time": "2024-07-14T19:51:06+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2302",
+      "text": "Added new skills"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8142",
+      "time": "2024-07-14T19:33:21+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/8142#issuecomment-2227460917",
+      "text": "@nihal467 adding to this, a user should not be able to unlink a doctor from a facility until the doctor is unassigned from all the active patients. An error should be thrown if unassigned.\r\n\r\ncc. @gigincg "
+    },
     {
       "type": "pr_merged",
       "title": "coronasafe/care#2255",
@@ -9324,15 +9345,29 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care/pull/2303",
+      "title": "Merge migrations",
+      "stale_for": 0,
+      "labels": [
+        "P1"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2302",
+      "title": "Added new skills",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/ayushma/pull/519",
       "title": "Switch to Milvus, Added GPT-4 support",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2298",
       "title": "Added actively dying patient category",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
@@ -9346,7 +9381,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8003",
       "title": "Added consent indicators and filters",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "tested",
@@ -9356,7 +9391,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7970",
       "title": "Added patient category descriptions for ICU bed patients",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "needs testing",
         "needs review",
@@ -9366,7 +9401,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7933",
       "title": "Reenabled discharge patient admitted to filter",
-      "stale_for": 25,
+      "stale_for": 26,
       "labels": [
         "needs review",
         "tested",
@@ -9376,19 +9411,19 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2204",
       "title": "Adds functionality for `last_consultation_admitted_bed_type_list` in discharge patient filters",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/docs/pull/26",
       "title": "New Consent Restructure Proposal",
-      "stale_for": 45,
+      "stale_for": 46,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7772",
       "title": "Added facility hubs",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "hold",
         "needs review",
@@ -9399,7 +9434,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2135",
       "title": "Added Facility Hubs",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "blocked"
       ]
