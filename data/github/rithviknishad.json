@@ -1,6 +1,58 @@
 {
-  "last_updated": "2024-07-15T17:15:32+00:00",
+  "last_updated": "2024-07-16T16:52:14+00:00",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8168",
+      "time": "2024-07-16T16:52:14+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8168",
+      "text": "fixes responsiveness issue in asset configure presets"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8167",
+      "time": "2024-07-16T16:37:07+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8167",
+      "text": "Fix usages of gray shade that had spelling mistake with grey"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8141",
+      "time": "2024-07-16T12:52:30+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8141",
+      "text": "Update meta description",
+      "turnaround_time": 19383
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8128",
+      "time": "2024-07-16T12:51:50+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8128",
+      "text": "Refactor rendering of array of strings to utilise `humanizeStrings` utility method",
+      "turnaround_time": 83234
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8138",
+      "time": "2024-07-16T12:45:17+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8138",
+      "text": "Replace usages of gray color shade with secondary (alias of gray) for consistency and maintainability",
+      "turnaround_time": 14247
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8155",
+      "time": "2024-07-16T05:31:19+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8155",
+      "text": "Fixes location management page not opening from CNS if no patient present in monitor"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8154",
+      "time": "2024-07-16T05:16:45+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8154",
+      "text": "Improve strength of the caution message for potentially incorrect discharge dates"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care_fe#8152",
@@ -49871,9 +49923,45 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/8141",
-      "title": "Update meta description",
-      "stale_for": 3,
+      "link": "https://github.com/coronasafe/care_fe/pull/8168",
+      "title": "fixes responsiveness issue in asset configure presets",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/8167",
+      "title": "Fix usages of gray shade that had spelling mistake with grey",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/8156",
+      "title": "Improve visual feedback when filters are applied in CNS and Live Feed page",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/8155",
+      "title": "Fixes location management page not opening from CNS if no patient present in monitor",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/8154",
+      "title": "Improve strength of the caution message for potentially incorrect discharge dates",
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"
@@ -49882,34 +49970,17 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8140",
       "title": "Enhancements to Camera Feed Component",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/8138",
-      "title": "Replace usages of gray color shade with secondary (alias of gray) for consistency and maintainability",
-      "stale_for": 4,
-      "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "work-in-progress",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8137",
       "title": "Show medicine's generic in prescriptions table and details card",
-      "stale_for": 4,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/8128",
-      "title": "Refactor rendering of array of strings to utilise `humanizeStrings` utility method",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"
@@ -49918,19 +49989,19 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2289",
       "title": "Allows creation of duplicate symptoms if cure date is present",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2247",
       "title": "remove deprecated fields that has been migrated to new models (Diagnosis and Prescriptions)",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "P2"
       ]
@@ -49938,7 +50009,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/5681",
       "title": "HCX Communication",
-      "stale_for": 147,
+      "stale_for": 148,
       "labels": [
         "merge conflict",
         "stale",
@@ -49947,6 +50018,10 @@
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8127",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/8128"
+    },
     {
       "issue_link": "https://github.com/coronasafe/care_fe/issues/8121",
       "pr_link": "https://github.com/coronasafe/care_fe/pull/8124"
