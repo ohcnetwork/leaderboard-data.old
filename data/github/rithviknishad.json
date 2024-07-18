@@ -1,6 +1,94 @@
 {
-  "last_updated": "2024-07-16T16:52:14+00:00",
+  "last_updated": "2024-07-17T17:01:57+00:00",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2308",
+      "time": "2024-07-17T17:01:57+00:00",
+      "link": "https://github.com/coronasafe/care/pull/2308",
+      "text": "Merge Develop to Staging v24.30.0",
+      "collaborated_with": [
+        "skks1212",
+        "sainak",
+        "DraKen0009",
+        "vigneshhari",
+        "khavinshankar",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8171",
+      "time": "2024-07-17T17:01:31+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8171",
+      "text": "Merge Develop to Staging v24.30.0",
+      "collaborated_with": [
+        "skks1212",
+        "khavinshankar",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8123",
+      "time": "2024-07-17T17:01:11+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8123",
+      "text": "Block expired patients from being transfered",
+      "collaborated_with": [
+        "khavinshankar",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8167",
+      "time": "2024-07-17T17:00:32+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8167",
+      "text": "Fix usages of gray shade that had spelling mistake with grey",
+      "turnaround_time": 17823
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8176",
+      "time": "2024-07-17T16:55:36+00:00",
+      "link": "https://github.com/coronasafe/care_fe/issues/8176#issuecomment-2233766249",
+      "text": "@nihal467 GitHub already provides this feature:\r\n\r\n<img width=\"1453\" alt=\"Screenshot 2024-07-17 at 22 24 06\" src=\"https://github.com/user-attachments/assets/5f633893-faaf-40f0-942c-0383cbe86b1d\">\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-17T16:07:44+00:00",
+      "title": "coronasafe/leaderboard#463",
+      "link": "https://github.com/coronasafe/leaderboard/pull/463#pullrequestreview-2183385562",
+      "text": "GSoC 2024: GitHub Discussion UI at Home,  Discussion and Contributor's route"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-17T15:19:33+00:00",
+      "title": "coronasafe/care_fe#8175",
+      "link": "https://github.com/coronasafe/care_fe/pull/8175#pullrequestreview-2183254753",
+      "text": "Added a last online filter for users"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-17T15:08:46+00:00",
+      "title": "coronasafe/leaderboard#463",
+      "link": "https://github.com/coronasafe/leaderboard/pull/463#pullrequestreview-2182975639",
+      "text": "GSoC 2024: GitHub Discussion UI at Home,  Discussion and Contributor's route"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-17T15:08:46+00:00",
+      "title": "coronasafe/leaderboard#463",
+      "link": "https://github.com/coronasafe/leaderboard/pull/463#pullrequestreview-2182975639",
+      "text": "GSoC 2024: GitHub Discussion UI at Home,  Discussion and Contributor's route"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8140",
+      "time": "2024-07-17T08:20:09+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8140#issuecomment-2232717849",
+      "text": "### Changes that would be solved in this PR\r\n\r\n- [ ] Inline PTZ controls are not being used for certain screen sizes in landscape full-screen view causing it to show a reduced-sized feed. ([ref](https://github.com/coronasafe/care_fe/pull/8140#issuecomment-2230497790))\r\n- [ ] Camera feed is not always auto-restarting after crossing the latency threshold. Stuck in a loading state. (all devices, desktop and mobile) ([ref](https://github.com/coronasafe/care_fe/pull/8140#issuecomment-2230309395))\r\n- [ ] Add shortcut keys for diagonal movement controls. ([ref](https://github.com/coronasafe/care_fe/pull/8140#issuecomment-2230117857))\r\n\r\n### Changes that would be addressed as a separate issue\r\n\r\n- [ ] Add network ping information for _iOS devices_. ([ref](https://github.com/coronasafe/care_fe/pull/8140#issuecomment-2230121465))\r\n- [ ] Showing PTZ Controls for _iOS devices_ in fullscreen. ([ref](https://github.com/coronasafe/care_fe/pull/8140#issuecomment-2230135691))\r\n- [ ] Lag in feed for mobile displays compared to desktop feed. ([ref](https://github.com/coronasafe/care_fe/pull/8140#issuecomment-2230163555))\r\n- [ ] Move to the last used preset instead of the first available preset when opening the patient feed. ([ref](https://github.com/coronasafe/care_fe/pull/8140#issuecomment-2230497790))\r\n"
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/care_fe#8168",
@@ -49921,186 +50009,6 @@
       "text": "Adds state summary view"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/8168",
-      "title": "fixes responsiveness issue in asset configure presets",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/8167",
-      "title": "Fix usages of gray shade that had spelling mistake with grey",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/8156",
-      "title": "Improve visual feedback when filters are applied in CNS and Live Feed page",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/8155",
-      "title": "Fixes location management page not opening from CNS if no patient present in monitor",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/8154",
-      "title": "Improve strength of the caution message for potentially incorrect discharge dates",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/8140",
-      "title": "Enhancements to Camera Feed Component",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "work-in-progress",
-        "merge conflict"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/8137",
-      "title": "Show medicine's generic in prescriptions table and details card",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care/pull/2289",
-      "title": "Allows creation of duplicate symptoms if cure date is present",
-      "stale_for": 3,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/coronasafe/care/pull/2247",
-      "title": "remove deprecated fields that has been migrated to new models (Diagnosis and Prescriptions)",
-      "stale_for": 5,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/coronasafe/care/pull/2133",
-      "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 4,
-      "labels": [
-        "P2"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/5681",
-      "title": "HCX Communication",
-      "stale_for": 148,
-      "labels": [
-        "merge conflict",
-        "stale",
-        "cypress failed"
-      ]
-    }
-  ],
-  "authored_issue_and_pr": [
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/8127",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/8128"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/8121",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/8124"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/8120",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/8125"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/leaderboard/issues/461",
-      "pr_link": "https://github.com/coronasafe/leaderboard/pull/462"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/8085",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/8118"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7878",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7879"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/leaderboard/issues/455",
-      "pr_link": "https://github.com/coronasafe/leaderboard/pull/456"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care/issues/2163",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7752"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7778",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7797"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7712",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7839"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7711",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7752"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7711",
-      "pr_link": "https://github.com/coronasafe/care/pull/2127"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7693",
-      "pr_link": "https://github.com/coronasafe/care/pull/2112"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7692",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7694"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7567",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7839"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7527",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7528"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7506",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7508"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7482",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7469"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7468",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7469"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7466",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7472"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7465",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7472"
-    }
-  ]
+  "open_prs": [],
+  "authored_issue_and_pr": []
 }
