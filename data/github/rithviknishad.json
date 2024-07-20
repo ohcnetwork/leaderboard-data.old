@@ -1,6 +1,83 @@
 {
-  "last_updated": "2024-07-18T13:59:07+00:00",
+  "last_updated": "2024-07-19T17:54:07+00:00",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8140",
+      "time": "2024-07-19T17:54:07+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8140#issuecomment-2239797417",
+      "text": "@nihal467 the padding issue for webkit based browsers has been fixed. However the network signal was disabled for webkit based browsers as it was not supported as mentioned in an earlier comment. We can bring this back in a separate issue."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-19T14:13:38+00:00",
+      "title": "coronasafe/care_fe#8178",
+      "link": "https://github.com/coronasafe/care_fe/pull/8178#pullrequestreview-2188344579",
+      "text": "Hcx communication"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-19T13:43:39+00:00",
+      "title": "coronasafe/leaderboard#463",
+      "link": "https://github.com/coronasafe/leaderboard/pull/463#pullrequestreview-2188280186",
+      "text": "GSoC 2024: GitHub Discussion UI at Home,  Discussion and Contributor's route"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#463",
+      "time": "2024-07-19T12:58:48+00:00",
+      "link": "https://github.com/coronasafe/leaderboard/pull/463#issuecomment-2239079794",
+      "text": "When changing the filter state, the page gets reloaded altogether. This issue is not present in `main` branch.\r\n\r\n<img width=\"549\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a5e3b51a-ec51-4d9e-b5f4-f698220b5aed\">\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-19T12:44:06+00:00",
+      "title": "coronasafe/leaderboard#463",
+      "link": "https://github.com/coronasafe/leaderboard/pull/463#pullrequestreview-2188141481",
+      "text": "GSoC 2024: GitHub Discussion UI at Home,  Discussion and Contributor's route"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-19T12:34:32+00:00",
+      "title": "coronasafe/leaderboard#463",
+      "link": "https://github.com/coronasafe/leaderboard/pull/463#pullrequestreview-2188110106",
+      "text": "GSoC 2024: GitHub Discussion UI at Home,  Discussion and Contributor's route"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-19T12:03:55+00:00",
+      "title": "coronasafe/care_fe#8178",
+      "link": "https://github.com/coronasafe/care_fe/pull/8178#pullrequestreview-2188065753",
+      "text": "Hcx communication"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-19T12:03:54+00:00",
+      "title": "coronasafe/care_fe#8178",
+      "link": "https://github.com/coronasafe/care_fe/pull/8178#pullrequestreview-2188065753",
+      "text": "Hcx communication"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8140",
+      "time": "2024-07-19T11:21:11+00:00",
+      "link": "https://github.com/coronasafe/care_fe/pull/8140#issuecomment-2238933585",
+      "text": "Shortcuts have been disabled momentarily as @nihal467 reported that it is not working in windows as expected. This will be fixed in an upcoming PR"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-19T07:44:23+00:00",
+      "title": "coronasafe/leaderboard#463",
+      "link": "https://github.com/coronasafe/leaderboard/pull/463#pullrequestreview-2187562117",
+      "text": "GSoC 2024: GitHub Discussion UI at Home,  Discussion and Contributor's route"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-19T06:34:30+00:00",
+      "title": "coronasafe/care_fe#8178",
+      "link": "https://github.com/coronasafe/care_fe/pull/8178#pullrequestreview-2187430179",
+      "text": "Hcx communication"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-07-18T13:59:07+00:00",
@@ -50051,6 +50128,130 @@
       "text": "Adds state summary view"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/8172",
+      "title": "Add popup to acknowledge discharge",
+      "stale_for": 2,
+      "labels": [
+        "merge conflict"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/8140",
+      "title": "Enhancements to Camera Feed Component",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "Waiting UI Approval"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2289",
+      "title": "Allows creation of duplicate symptoms if cure date is present",
+      "stale_for": 6,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2247",
+      "title": "remove deprecated fields that has been migrated to new models (Diagnosis and Prescriptions)",
+      "stale_for": 8,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2133",
+      "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
+      "stale_for": 7,
+      "labels": [
+        "P2"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8127",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/8128"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8121",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/8124"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8120",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/8125"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/leaderboard/issues/461",
+      "pr_link": "https://github.com/coronasafe/leaderboard/pull/462"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8085",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/8118"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7878",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7879"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/leaderboard/issues/455",
+      "pr_link": "https://github.com/coronasafe/leaderboard/pull/456"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care/issues/2163",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7752"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7778",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7797"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7712",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7839"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7711",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7752"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7711",
+      "pr_link": "https://github.com/coronasafe/care/pull/2127"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7693",
+      "pr_link": "https://github.com/coronasafe/care/pull/2112"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7692",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7694"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7567",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7839"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7527",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7528"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7506",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7508"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7482",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7469"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7468",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7469"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7466",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7472"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7465",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/7472"
+    }
+  ]
 }
