@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-07-24T13:44:57+00:00",
+  "last_updated": "2024-07-25T18:21:35.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2324",
+      "time": "2024-07-25T18:21:35.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2324",
+      "text": "events module: serialize only specific fields of related objects"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-25T09:05:00.000Z",
+      "title": "coronasafe/leaderboard#463",
+      "link": "https://github.com/coronasafe/leaderboard/pull/463#pullrequestreview-2198743334",
+      "text": "GSoC 2024: GitHub Discussion UI at Home,  Discussion and Contributor's route"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care#2322",
@@ -2632,7 +2646,7 @@
       "time": "2024-04-23T13:34:50+00:00",
       "title": "coronasafe/care#2106",
       "link": "https://github.com/coronasafe/care/pull/2106#pullrequestreview-2017293602",
-      "text": "Added \u201cmodified_date\u201d & \u201cupdated_by\u201d to the User table #2085"
+      "text": "Added “modified_date” & “updated_by” to the User table #2085"
     },
     {
       "type": "pr_reviewed",
@@ -3201,7 +3215,7 @@
       "title": "coronasafe/care#2085",
       "time": "2024-04-15T08:46:31+00:00",
       "link": "https://github.com/coronasafe/care/issues/2085",
-      "text": "Add \u201cupdated_at\u201d & \u201cupdated_by\u201d to the User table"
+      "text": "Add “updated_at” & “updated_by” to the User table"
     },
     {
       "type": "pr_reviewed",
@@ -5579,7 +5593,7 @@
       "title": "coronasafe/leaderboard#293",
       "time": "2024-03-01T14:50:13.000Z",
       "link": "https://github.com/coronasafe/leaderboard/pull/293#issuecomment-1973335163",
-      "text": "<img width=\"1561\" alt=\"Screenshot 2024-03-01 at 8 19 09\u202fPM\" src=\"https://github.com/coronasafe/leaderboard/assets/46787056/df96283b-35d6-4c0e-a131-19cb6828bd85\">\r\n<img width=\"1556\" alt=\"Screenshot 2024-03-01 at 8 19 49\u202fPM\" src=\"https://github.com/coronasafe/leaderboard/assets/46787056/00bca7c0-ea58-4f0e-8191-5c603d92e1b6\">\r\n"
+      "text": "<img width=\"1561\" alt=\"Screenshot 2024-03-01 at 8 19 09 PM\" src=\"https://github.com/coronasafe/leaderboard/assets/46787056/df96283b-35d6-4c0e-a131-19cb6828bd85\">\r\n<img width=\"1556\" alt=\"Screenshot 2024-03-01 at 8 19 49 PM\" src=\"https://github.com/coronasafe/leaderboard/assets/46787056/00bca7c0-ea58-4f0e-8191-5c603d92e1b6\">\r\n"
     },
     {
       "type": "comment_created",
@@ -8295,14 +8309,14 @@
       "title": "coronasafe/care#1748",
       "time": "2023-12-06T09:50:54.000Z",
       "link": "https://github.com/coronasafe/care/pull/1748#issuecomment-1842540968",
-      "text": "<img width=\"309\" alt=\"image\" src=\"https://github.com/coronasafe/care/assets/46787056/086befba-35bb-48d0-ad83-f386784147a8\">\r\n\r\n\ud83d\ude05 i thought its deleted"
+      "text": "<img width=\"309\" alt=\"image\" src=\"https://github.com/coronasafe/care/assets/46787056/086befba-35bb-48d0-ad83-f386784147a8\">\r\n\r\n😅 i thought its deleted"
     },
     {
       "type": "comment_created",
       "title": "coronasafe/care#1748",
       "time": "2023-12-06T09:48:45.000Z",
       "link": "https://github.com/coronasafe/care/pull/1748#issuecomment-1842536902",
-      "text": "> Hey, I am not deleting any files \ud83d\ude05 Just added more facilities and patients to the existing dummy data. I think the change size `+1 \u22123,128` might have been confusing since the new data is all in a single line. This is to discourage someone manually working with the json file directly.\r\n\r\nOh so that's why the title \ud83d\ude05,\r\nformatting the json gave more clarity,\r\n\r\ncan you regenerate the fixtures by excluding, `facility.historicalpatientregistration` and `facility.historicalfacilitycapacity` they are not required and half of the file size\r\nand the `facility_users.json` seems redundant, so both the command and file can be removed"
+      "text": "> Hey, I am not deleting any files 😅 Just added more facilities and patients to the existing dummy data. I think the change size `+1 −3,128` might have been confusing since the new data is all in a single line. This is to discourage someone manually working with the json file directly.\r\n\r\nOh so that's why the title 😅,\r\nformatting the json gave more clarity,\r\n\r\ncan you regenerate the fixtures by excluding, `facility.historicalpatientregistration` and `facility.historicalfacilitycapacity` they are not required and half of the file size\r\nand the `facility_users.json` seems redundant, so both the command and file can be removed"
     },
     {
       "type": "pr_reviewed",
@@ -8601,7 +8615,7 @@
       "time": "2023-11-14T07:42:27.000Z",
       "title": "coronasafe/care#1678",
       "link": "https://github.com/coronasafe/care/pull/1678#pullrequestreview-1729076447",
-      "text": "Patient Consultation: Route to Facility \ud83c\udfe5, Admission Date & Time \ud83d\udd5a, Rename variable: `verified_by` to `treating_physician`"
+      "text": "Patient Consultation: Route to Facility 🏥, Admission Date & Time 🕚, Rename variable: `verified_by` to `treating_physician`"
     },
     {
       "type": "pr_merged",
@@ -8876,7 +8890,7 @@
       "time": "2023-10-30T09:30:54.000Z",
       "title": "coronasafe/care#1678",
       "link": "https://github.com/coronasafe/care/pull/1678#pullrequestreview-1703647923",
-      "text": "Patient Consultation: Route to Facility \ud83c\udfe5, Admission Date & Time \ud83d\udd5a, Rename variable: `verified_by` to `treating_physician`"
+      "text": "Patient Consultation: Route to Facility 🏥, Admission Date & Time 🕚, Rename variable: `verified_by` to `treating_physician`"
     },
     {
       "type": "pr_opened",
@@ -10659,7 +10673,7 @@
       "time": "2023-08-09T08:19:56.000Z",
       "title": "coronasafe/care_fe#6034",
       "link": "https://github.com/coronasafe/care_fe/pull/6034#pullrequestreview-1569009306",
-      "text": "\ud83e\ude84 Adds type safety for `CareIcon` names + \u2728 reduced index.css size by 95% + Refactor string interpolated tw classes"
+      "text": "🪄 Adds type safety for `CareIcon` names + ✨ reduced index.css size by 95% + Refactor string interpolated tw classes"
     },
     {
       "type": "pr_reviewed",
@@ -11578,7 +11592,7 @@
       "title": "coronasafe/care#1370",
       "time": "2023-07-20T16:06:46.000Z",
       "link": "https://github.com/coronasafe/care/pull/1370",
-      "text": "prefetched skills for userassigned serializer in patientconsultation \u2026",
+      "text": "prefetched skills for userassigned serializer in patientconsultation …",
       "collaborated_with": [
         "yaswanthsaivendra",
         "vigneshhari"
@@ -12131,7 +12145,7 @@
       "time": "2023-07-05T12:09:18.000Z",
       "title": "coronasafe/care#1370",
       "link": "https://github.com/coronasafe/care/pull/1370#pullrequestreview-1514365029",
-      "text": "prefetched skills for userassigned serializer in patientconsultation \u2026"
+      "text": "prefetched skills for userassigned serializer in patientconsultation …"
     },
     {
       "type": "pr_reviewed",
@@ -13569,14 +13583,14 @@
       "title": "coronasafe/qr-generator#7",
       "time": "2022-11-24T18:51:18.000Z",
       "link": "https://github.com/coronasafe/qr-generator/pull/7",
-      "text": "Convert to vite \u26a1"
+      "text": "Convert to vite ⚡"
     },
     {
       "type": "pr_reviewed",
       "time": "2022-11-23T16:50:41.000Z",
       "title": "coronasafe/qr-generator#7",
       "link": "https://github.com/coronasafe/qr-generator/pull/7#pullrequestreview-1192000664",
-      "text": "Convert to vite \u26a1"
+      "text": "Convert to vite ⚡"
     },
     {
       "type": "comment_created",
@@ -13590,7 +13604,7 @@
       "title": "coronasafe/qr-generator#7",
       "time": "2022-11-15T17:54:23.000Z",
       "link": "https://github.com/coronasafe/qr-generator/pull/7",
-      "text": "Convert to vite \u26a1"
+      "text": "Convert to vite ⚡"
     },
     {
       "type": "comment_created",
@@ -13836,7 +13850,7 @@
       "title": "coronasafe/care#1019",
       "time": "2022-09-09T17:57:22.000Z",
       "link": "https://github.com/coronasafe/care/pull/1019",
-      "text": "return internal name in file list to make determining the file extens\u2026"
+      "text": "return internal name in file list to make determining the file extens…"
     },
     {
       "type": "pr_merged",
@@ -15444,57 +15458,57 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care/pull/2324",
+      "title": "events module: serialize only specific fields of related objects",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/8199",
       "title": "Handle exceptions raised by the addSourceBuffer method",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_scribe/pull/10",
       "title": "use internal endpoint to get s3 files",
-      "stale_for": 8,
+      "stale_for": 10,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2299",
       "title": "Fix race condition in consultation creation",
-      "stale_for": 7,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/coronasafe/care/pull/2288",
-      "title": "Add taken at field for patient consultation events",
-      "stale_for": 13,
+      "stale_for": 9,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2287",
       "title": "Update dependencies",
-      "stale_for": 13,
+      "stale_for": 15,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2217",
       "title": "remove deprecated symptoms fields",
-      "stale_for": 52,
+      "stale_for": 54,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_scribe/pull/9",
       "title": "Use translation API to generate text for the prompt",
-      "stale_for": 56,
+      "stale_for": 58,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/citizen/pull/44",
       "title": "Quick changes to get the app running again",
-      "stale_for": 129,
+      "stale_for": 131,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 241,
+      "stale_for": 243,
       "labels": [
         "blocked",
         "changes required",
@@ -15505,13 +15519,13 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 70,
+      "stale_for": 72,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/medibase/pull/7",
       "title": "Update dependencies",
-      "stale_for": 370,
+      "stale_for": 372,
       "labels": []
     }
   ],

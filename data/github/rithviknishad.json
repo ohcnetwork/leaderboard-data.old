@@ -1,6 +1,123 @@
 {
-  "last_updated": "2024-07-24T13:44:57.000Z",
+  "last_updated": "2024-07-25T14:23:09.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8215",
+      "time": "2024-07-25T14:23:09.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8215",
+      "text": "Fixes last active filter badge showing up when filters other than the last active filter is applied"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#428",
+      "time": "2024-07-25T10:31:13.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/428#issuecomment-2250004953",
+      "text": "@dgparmar14 \r\n\r\nSince we've moved away from python based github scraper, feel free to open a fresh PR on this!"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#335",
+      "time": "2024-07-25T10:30:05.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/335#issuecomment-2250002924",
+      "text": "Closing as stale and has conflicts. Feel free to re-open."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#409",
+      "time": "2024-07-25T10:29:07.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/409#issuecomment-2250001393",
+      "text": "@Samuel-Aktar-Laskar \r\n\r\nWe have moved away from python based github scraper and we are now using octokit in typescript to achieve the same. We can use octokit's graphql fn. to perform graphql calls to scrape data too! \r\n\r\nFeel free to re-open a fresh PR 😄 "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#459",
+      "time": "2024-07-25T10:24:27.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/459#issuecomment-2249993293",
+      "text": "@dependabot rebase"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/leaderboard#457",
+      "time": "2024-07-25T10:23:50.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/457",
+      "text": "Bump requests from 2.31.0 to 2.32.0 in /scraper",
+      "turnaround_time": 5627789
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/leaderboard#463",
+      "time": "2024-07-25T10:20:24.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/463",
+      "text": "GSoC 2024: GitHub Discussion UI at Home,  Discussion and Contributor's route",
+      "turnaround_time": 1127156
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/leaderboard#463",
+      "time": "2024-07-25T10:20:24.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/463",
+      "text": "GSoC 2024: GitHub Discussion UI at Home,  Discussion and Contributor's route",
+      "collaborated_with": [
+        "dgparmar14",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-07-25T07:11:27.000Z",
+      "title": "coronasafe/leaderboard#463",
+      "link": "https://github.com/coronasafe/leaderboard/pull/463#pullrequestreview-2198496148",
+      "text": "GSoC 2024: GitHub Discussion UI at Home,  Discussion and Contributor's route"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/leaderboard-data-test#1",
+      "time": "2024-07-25T06:47:47.000Z",
+      "link": "https://github.com/coronasafe/leaderboard-data-test/pull/1",
+      "text": "modify data for testing purpose",
+      "turnaround_time": 127
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/leaderboard-data-test#1",
+      "time": "2024-07-25T06:45:41.000Z",
+      "link": "https://github.com/coronasafe/leaderboard-data-test/pull/1",
+      "text": "modify data for testing purpose"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/leaderboard#466",
+      "time": "2024-07-25T06:07:26.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/466",
+      "text": "Test: Refactor github scraper and integrate github discussions",
+      "turnaround_time": 20
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/leaderboard#466",
+      "time": "2024-07-25T06:07:26.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/466",
+      "text": "Test: Refactor github scraper and integrate github discussions",
+      "collaborated_with": [
+        "dgparmar14",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/leaderboard#466",
+      "time": "2024-07-25T06:07:06.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/466",
+      "text": "Test: Refactor github scraper and integrate github discussions"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#463",
+      "time": "2024-07-25T05:54:10.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/463#issuecomment-2249517130",
+      "text": "@dgparmar14 Builds failing when there is no discussion directory (which happens when no discussions were scraped so far and none were present to be scrapped in the last 24 hours or the given scraping time range)\r\n\r\n<img width=\"1094\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5f9117fa-1d9d-405a-9bb5-01ba0edd3f01\">\r\n"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care#2322",
@@ -50510,36 +50627,27 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/8215",
-      "title": "Fixes last active filter badge showing up when filters other than the last active filter is applied",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested"
-      ]
-    },
-    {
       "link": "https://github.com/coronasafe/care/pull/2320",
       "title": "Update pre-commit config",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2289",
       "title": "Allows creation of duplicate symptoms if cure date is present",
-      "stale_for": 12,
+      "stale_for": 13,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2247",
       "title": "remove deprecated fields that has been migrated to new models (Diagnosis and Prescriptions)",
-      "stale_for": 14,
+      "stale_for": 15,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 13,
+      "stale_for": 14,
       "labels": [
         "P2"
       ]
