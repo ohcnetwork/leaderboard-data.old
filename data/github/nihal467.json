@@ -1,6 +1,97 @@
 {
-  "last_updated": "2024-07-29T13:29:34.000Z",
+  "last_updated": "2024-07-30T20:07:21.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8199",
+      "time": "2024-07-30T20:07:21.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8199#issuecomment-2259121689",
+      "text": "@sainak is this ready for testing"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7696",
+      "time": "2024-07-30T20:06:06.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/7696#issuecomment-2259119798",
+      "text": "@hrit2773 any update on the PR "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7828",
+      "time": "2024-07-30T20:05:03.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/7828#issuecomment-2259118092",
+      "text": "@609harsh any update on the PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7772",
+      "time": "2024-07-30T19:56:27.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/7772#issuecomment-2259103845",
+      "text": "@skks1212 any update on this PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8233",
+      "time": "2024-07-30T19:48:10.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8233#issuecomment-2259091597",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8223",
+      "time": "2024-07-30T19:43:36.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8223#issuecomment-2259084491",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2132",
+      "time": "2024-07-30T13:47:22.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2132#issuecomment-2258396344",
+      "text": "@DraKen0009 before requesting another QA review, ensure the following : \r\n\r\n- [ ] check all the bugs and questions are answered or resolved\r\n- [ ] The backend test is passing\r\n- [ ] update the PR description properly, mentioning all fields existing in the new template, along with adding a comparison comment as well, mentioning which of the following new fields are added and removed compared to the old template"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2132",
+      "time": "2024-07-30T13:16:12.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2132#issuecomment-2258327903",
+      "text": "@DraKen0009 \r\n![image](https://github.com/user-attachments/assets/1bd91e95-f5b3-4c2e-b338-330c9e0365bd)\r\n\r\n- [ ] the duration of admission is not available for live patient , so hide or show n/a incase data is not available post taking confirmation from @sainak and aparna . We can't show temp there in the pdf\r\n\r\n![image](https://github.com/user-attachments/assets/729022d0-74a6-42ea-aeb1-66847c8f96cd)\r\n\r\n- [ ] only admission patient are having IP number , and all other patients are having OP number, this need to be corrected in discharge summary of non-admitted patients\r\n- [ ] For all non-admission patient they wont be having date of admission, they will be having some other relevant based on the decision after consultation, for example for domiciliary care patient it will be date of the domicilary care commencement, so change these field in discharge summary based of the decision after consultation\r\n\r\n![image](https://github.com/user-attachments/assets/d0ecc5cb-ca9e-4c75-b6ad-7f17a0dfe838)\r\n\r\n- [ ] the diagnosis in admission is kind of confusing which of the shown diagnosis are provisional, differential, confirmed or principal diagnosis. Have a opinion taken from @sainak and aparna on how to handle these data's\r\n\r\n![image](https://github.com/user-attachments/assets/3e9e6c02-0f3b-4c10-809f-1169a8bfb37d)\r\n\r\n- [ ] if you dont have data available on the above fields either mark is N/A or hide it, confirm it with @sainak and aparna on the approach on this issue\r\n- [ ] We don't have a field called reason for admission in care, can you elaborate from which field we are fetching data for this particular feedback\r\n\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8220",
+      "time": "2024-07-30T10:24:52.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8220#issuecomment-2258011667",
+      "text": "@Suvrajit69 already @NitinPSingh pushed a PR for this issue, feel free to work on any other issue"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2324",
+      "time": "2024-07-30T10:11:19.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2324#issuecomment-2257985849",
+      "text": "@sainak \r\n![image](https://github.com/user-attachments/assets/22b06bff-d06f-4576-9dbf-e32a87292555)\r\n\r\nthe events is throwing 500 error"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2132",
+      "time": "2024-07-30T08:26:01.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2132#issuecomment-2257769643",
+      "text": "test report [in-progress]\r\n\r\n- [ ] Demographic Details [ With & without mandatory fields ]\r\n- [ ] "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8216",
+      "time": "2024-07-30T07:52:33.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8216#issuecomment-2257704363",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7914",
+      "time": "2024-07-30T07:46:39.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/7914#issuecomment-2257694012",
+      "text": "@rithviknishad \r\n![image](https://github.com/user-attachments/assets/ae475fc8-66c7-40b4-9cdd-a8a9de57f27a)\r\n\r\n- [ ] declared dead patient won't have a treating physician field, so when the user enters the create consultation page, showing the error message \"No home facility ....\" won't make sense. A better approach would be to disable the treating physician field, and just below the field show the error message, there is no home facility or some proper one"
+    },
     {
       "type": "issue_opened",
       "title": "coronasafe/landing#6",
