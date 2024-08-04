@@ -1,0 +1,44 @@
+{
+  "last_updated": "2024-08-02T14:23:43.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8187",
+      "time": "2024-08-02T14:23:43.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8187#issuecomment-2265509262",
+      "text": "I was able to change the pop-up so that it closes instead of redirecting but I can't figure out how to clear the phone number field \r\n```\r\n<PhoneNumberFormField\r\n  {...field(\"phone_number\")}\r\n  required\r\n  label=\"Phone Number\"\r\n  onChange={(event) => {\r\n    if (!id) duplicateCheck(event.value);\r\n    field(\"phone_number\").onChange(event);\r\n    if (isEmergencyNumberEnabled) {\r\n      field(\"emergency_phone_number\").onChange({\r\n        name: field(\"emergency_phone_number\").name,\r\n        value: event.value,\r\n      });\r\n    }\r\n  }}\r\n  types={[\"mobile\", \"landline\"]}\r\n/>\r\n```\r\nCould you help with this? Thanks!"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8187",
+      "time": "2024-08-02T13:21:01.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8187#issuecomment-2265394520",
+      "text": "When the user clicks the close button, is it fine if the page refreshes to clear the inputted phone number?"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8242",
+      "time": "2024-08-02T09:22:54.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8242",
+      "text": "Increased Max Width for prescription form to fit text in one line #8221"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8221",
+      "time": "2024-08-02T08:29:27.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8221#issuecomment-2264852839",
+      "text": "I’m new to open-source contributions. I’ve increased the form's max-width by changing max-w-4xl to max-w-5xl. Here’s how it looks now. If this solution is satisfactory, could you please assign the issue to me? I’ll prepare a PR.\r\n<img width=\"1152\" alt=\"Screenshot 2024-08-02 at 1 51 29 PM\" src=\"https://github.com/user-attachments/assets/faee6eae-98f1-4c12-b7ff-86af280c5b54\">\r\n\r\n\r\n"
+    }
+  ],
+  "open_prs": [
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/8244",
+      "title": "Increased Form Size & Updated Indicator Field",
+      "stale_for": 0,
+      "labels": [
+        "needs testing"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": []
+}
