@@ -1,6 +1,41 @@
 {
-  "last_updated": "2024-08-02T05:10:29.000Z",
+  "last_updated": "2024-08-04T21:09:27.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8054",
+      "time": "2024-08-04T21:09:27.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8054#issuecomment-2267673987",
+      "text": "@aparnacoronasafe can you provide more information regarding the issue?"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8248",
+      "time": "2024-08-04T20:36:13.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8248",
+      "text": "Show weight and height as unspecified rather than 0"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8247",
+      "time": "2024-08-04T17:06:47.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8247",
+      "text": "Add option to filter users by no home facility"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2332",
+      "time": "2024-08-04T17:01:02.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2332",
+      "text": "Add option to filter users with no home facility"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-04T08:31:38.000Z",
+      "title": "coronasafe/care_fe#8244",
+      "link": "https://github.com/coronasafe/care_fe/pull/8244#pullrequestreview-2217494130",
+      "text": "Increased Form Size & Updated Indicator Field"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care_scribe#11",
@@ -9704,15 +9739,40 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/8248",
+      "title": "Show weight and height as unspecified rather than 0",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/8247",
+      "title": "Add option to filter users by no home facility",
+      "stale_for": 1,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "waiting for backend"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2332",
+      "title": "Add option to filter users with no home facility",
+      "stale_for": 1,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/landing/pull/5",
       "title": "Added page for CARE",
-      "stale_for": 6,
+      "stale_for": 8,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8183",
       "title": "Made Scribe work with Symptoms and Investigations",
-      "stale_for": 2,
+      "stale_for": 4,
       "labels": [
         "needs testing",
         "needs review"
@@ -9721,43 +9781,43 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2309",
       "title": "Show error if doctor is not linked to the consultation facility",
-      "stale_for": 16,
+      "stale_for": 18,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2302",
       "title": "Added new skills",
-      "stale_for": 16,
+      "stale_for": 18,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/ayushma/pull/519",
       "title": "Switch to Milvus, Added GPT-4 support",
-      "stale_for": 10,
+      "stale_for": 12,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2298",
       "title": "Added actively dying patient category",
-      "stale_for": 10,
+      "stale_for": 12,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8119",
       "title": "Migrate rescript components to typescript; uninstall ReScript",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
+        "needs testing",
         "needs review",
-        "test failed",
         "P1",
-        "Deploy-Failed",
-        "Major Code Change"
+        "Major Code Change",
+        "cypress passed"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7970",
       "title": "Added patient category descriptions for ICU bed patients",
-      "stale_for": 18,
+      "stale_for": 20,
       "labels": [
         "needs review",
         "tested",
@@ -9767,7 +9827,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7933",
       "title": "Reenabled discharge patient admitted to filter",
-      "stale_for": 10,
+      "stale_for": 12,
       "labels": [
         "needs review",
         "tested",
@@ -9777,19 +9837,19 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2204",
       "title": "Adds functionality for `last_consultation_admitted_bed_type_list` in discharge patient filters",
-      "stale_for": 4,
+      "stale_for": 6,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/docs/pull/26",
       "title": "New Consent Restructure Proposal",
-      "stale_for": 66,
+      "stale_for": 68,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7772",
       "title": "Added facility hubs",
-      "stale_for": 4,
+      "stale_for": 6,
       "labels": [
         "hold",
         "needs review",
@@ -9800,7 +9860,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2135",
       "title": "Added Facility Hubs",
-      "stale_for": 21,
+      "stale_for": 23,
       "labels": [
         "blocked"
       ]
