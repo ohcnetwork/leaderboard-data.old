@@ -1,6 +1,53 @@
 {
-  "last_updated": "2024-08-01T09:01:11.000Z",
+  "last_updated": "2024-08-05T17:52:16.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8256",
+      "time": "2024-08-05T17:52:16.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8256",
+      "text": "Production release v24.32.0",
+      "collaborated_with": [
+        "rithviknishad",
+        "ahmedobaid23",
+        "o",
+        "i",
+        "A",
+        "NitinPSingh",
+        "Jacobjeevan",
+        "sainak",
+        "AnkurPrabhu",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8178",
+      "time": "2024-08-05T10:10:01.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8178#issuecomment-2268702242",
+      "text": "New UI\r\n![image](https://github.com/user-attachments/assets/21a48bfa-c446-4137-9176-00a09a1acbab)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8177",
+      "time": "2024-08-05T09:10:29.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8177#issuecomment-2268561762",
+      "text": "Can be closed in favor of https://github.com/coronasafe/care_fe/pull/8178, HCX will be enabled by default in develop when the communications flow is merged. "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7424",
+      "time": "2024-08-05T04:08:00.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/7424#issuecomment-2268132688",
+      "text": "Docs of the initial ideation of scheduling can be found at https://github.com/coronasafe/docs/pull/34\r\n\r\nPreview: https://docs-git-scheduling-ohcnetwork.vercel.app/docs/care/CEP/Draft/scheduling"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/docs#34",
+      "time": "2024-08-05T04:05:11.000Z",
+      "link": "https://github.com/coronasafe/docs/pull/34",
+      "text": "[CEP-7]  Proposal for Scheduling in Care"
+    },
     {
       "type": "pr_merged",
       "title": "coronasafe/care_fe#8238",
@@ -37041,56 +37088,58 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/8260",
+      "title": "Migrate to Headless UI v2",
+      "stale_for": 0,
+      "labels": [
+        "urgent",
+        "test failed"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/docs/pull/34",
+      "title": "[CEP-7]  Proposal for Scheduling in Care",
+      "stale_for": 1,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care/pull/2313",
       "title": "Convert ABDM into Plug - Part 2/2",
-      "stale_for": 11,
+      "stale_for": 15,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2312",
       "title": "Abdm Plug",
-      "stale_for": 2,
+      "stale_for": 6,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8178",
       "title": "Hcx communication",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "changes required",
+        "urgent",
+        "test failed",
         "reviewed"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8177",
       "title": "Enable hcx",
-      "stale_for": 1,
-      "labels": [
-        "stale"
-      ]
+      "stale_for": 0,
+      "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2222",
       "title": "limit user details based on user type",
-      "stale_for": 58,
+      "stale_for": 62,
       "labels": []
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/7840",
-      "title": "Migrate to Headless UI v2",
-      "stale_for": 25,
-      "labels": [
-        "needs review",
-        "dependencies",
-        "merge conflict",
-        "stale",
-        "cypress failed"
-      ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7817",
       "title": "Frontend Adjustments for ABDM Plug Conversion",
-      "stale_for": 18,
+      "stale_for": 22,
       "labels": [
         "needs review",
         "tested",
@@ -37101,7 +37150,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2161",
       "title": "Convert ABDM into Plug - Part 1/2",
-      "stale_for": 25,
+      "stale_for": 29,
       "labels": [
         "ABDM"
       ]
@@ -37109,19 +37158,19 @@
     {
       "link": "https://github.com/coronasafe/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 88,
+      "stale_for": 92,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 111,
+      "stale_for": 115,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1229",
       "title": "Hcx Refactors",
-      "stale_for": 137,
+      "stale_for": 141,
       "labels": [
         "waiting-for-review"
       ]
@@ -37129,31 +37178,31 @@
     {
       "link": "https://github.com/coronasafe/care_fe_hcx/pull/3",
       "title": "Hcx/eligibility check workflow",
-      "stale_for": 250,
+      "stale_for": 254,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 959,
+      "stale_for": 963,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 965,
+      "stale_for": 969,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 966,
+      "stale_for": 970,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/life/pull/306",
       "title": "filtered duplicate tweets",
-      "stale_for": 1161,
+      "stale_for": 1165,
       "labels": []
     }
   ],

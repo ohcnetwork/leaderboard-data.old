@@ -1,6 +1,53 @@
 {
-  "last_updated": "2024-08-01T09:01:11.000Z",
+  "last_updated": "2024-08-05T18:04:35.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#6989",
+      "time": "2024-08-05T18:04:35.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/6989#issuecomment-2269617992",
+      "text": "> @sainak Can you update the status of this? Is this still an issue?\r\n\r\nthis issue is similar to the duplicate consultation issue, it is caused by a race condition"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7656",
+      "time": "2024-08-05T18:03:09.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/7656#issuecomment-2269615747",
+      "text": "> @rithviknishad @aparnacoronasafe is there any api to find out the role of a logged in user.\r\n\r\nyes the `api/v1/users/getcurrentuser/` returns the details of the current user which includes the role"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8256",
+      "time": "2024-08-05T17:52:16.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8256",
+      "text": "Production release v24.32.0",
+      "collaborated_with": [
+        "rithviknishad",
+        "ahmedobaid23",
+        "o",
+        "i",
+        "A",
+        "NitinPSingh",
+        "Jacobjeevan",
+        "sainak",
+        "AnkurPrabhu",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8256",
+      "time": "2024-08-05T17:37:41.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8256",
+      "text": "Production release v24.32.0"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/teleicu_middleware#140",
+      "time": "2024-08-05T08:26:58.000Z",
+      "link": "https://github.com/coronasafe/teleicu_middleware/issues/140",
+      "text": "CSS is not loading in some middleware deployments"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care_fe#8238",
@@ -15612,49 +15659,49 @@
     {
       "link": "https://github.com/coronasafe/docs/pull/33",
       "title": "[CEP-6] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 1,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2324",
       "title": "events module: serialize only specific fields of related objects",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2299",
       "title": "Fix race condition in consultation creation",
-      "stale_for": 16,
+      "stale_for": 20,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2287",
       "title": "Update dependencies",
-      "stale_for": 22,
+      "stale_for": 26,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2217",
       "title": "remove deprecated symptoms fields",
-      "stale_for": 61,
+      "stale_for": 65,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_scribe/pull/9",
       "title": "Use translation API to generate text for the prompt",
-      "stale_for": 65,
+      "stale_for": 69,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/citizen/pull/44",
       "title": "Quick changes to get the app running again",
-      "stale_for": 138,
+      "stale_for": 142,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 250,
+      "stale_for": 254,
       "labels": [
         "blocked",
         "changes required",
@@ -15665,13 +15712,13 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 79,
+      "stale_for": 83,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/medibase/pull/7",
       "title": "Update dependencies",
-      "stale_for": 379,
+      "stale_for": 383,
       "labels": []
     }
   ],
