@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-08-05T18:52:26.000Z",
+  "last_updated": "2024-08-06T18:13:23.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-06T18:13:23.000Z",
+      "title": "coronasafe/care_fe#8245",
+      "link": "https://github.com/coronasafe/care_fe/pull/8245#pullrequestreview-2221959307",
+      "text": "Fixed: Transfer patient pop-up behavior"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-06T18:11:43.000Z",
+      "title": "coronasafe/care_fe#8261",
+      "link": "https://github.com/coronasafe/care_fe/pull/8261#pullrequestreview-2221956289",
+      "text": "Fix: Added online status to Doctor Connect"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#480",
+      "time": "2024-08-06T16:19:04.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/issues/480#issuecomment-2271669354",
+      "text": "@Indrajeety993648 \r\n\r\nNot all orgs may have the required all social accounts. So let's show the social logo's only if that social's env value is defined. \r\n\r\nSo\r\n\r\n1. Make the social env's optional (even existing ones). \r\n2. Add X logo (the new one, not twitter), if the env value is present.\r\n3. You may skip adding the twitter URL for this org."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8259",
+      "time": "2024-08-06T14:08:53.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8259#issuecomment-2271391148",
+      "text": "Looking into it @samholics \r\n\r\nFew things to that needs to be discussed:\r\n\r\n- [ ] Should date of print be mentioned in the print?\r\n- [ ] Should any other patient details has to be included? (Address has been seen in many sample images on google)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-06T11:01:02.000Z",
+      "title": "coronasafe/care_fe#8263",
+      "link": "https://github.com/coronasafe/care_fe/pull/8263#pullrequestreview-2220975172",
+      "text": "scroll to mandatory empty fields"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8246",
+      "time": "2024-08-06T09:29:48.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8246#issuecomment-2270822672",
+      "text": "@kushalbhana Was this closed by accident?"
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#5701",
@@ -51312,35 +51354,14 @@
       "stale_for": 0,
       "labels": [
         "urgent",
-        "P1",
-        "changes required",
-        "discussion required"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/8255",
-      "title": "Live Feed: Move to last accessed preset instead of last created",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested",
-        "Camera Integration"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/8254",
-      "title": "Camera Feed: Ensure camera moves everytime the preset is clicked",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review",
-        "Camera Integration"
+        "test failed",
+        "P1"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "work-in-progress",
         "Camera Integration"
@@ -51349,19 +51370,19 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2320",
       "title": "Update pre-commit config",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2289",
       "title": "Allows creation of duplicate symptoms if cure date is present",
-      "stale_for": 24,
+      "stale_for": 25,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2247",
       "title": "remove deprecated fields that has been migrated to new models (Diagnosis and Prescriptions)",
-      "stale_for": 26,
+      "stale_for": 27,
       "labels": []
     },
     {
