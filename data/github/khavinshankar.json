@@ -1,6 +1,94 @@
 {
-  "last_updated": "2024-08-06T16:02:22.000Z",
+  "last_updated": "2024-08-07T14:43:13.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8267",
+      "time": "2024-08-07T14:43:13.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8267",
+      "text": "Cypress: fix incorrect patient category select's id",
+      "turnaround_time": 1831
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-07T14:42:53.000Z",
+      "title": "coronasafe/care_fe#8267",
+      "link": "https://github.com/coronasafe/care_fe/pull/8267#pullrequestreview-2225416193",
+      "text": "Cypress: fix incorrect patient category select's id"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8266",
+      "time": "2024-08-07T14:13:43.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8266#issuecomment-2273580844",
+      "text": "Most of the ABDM errors are made human-readable in the plugs, some of it is already been tested. And also implementing v3 APIs should improve it a lot as ABDM error messages have improved a lot."
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#8158",
+      "time": "2024-08-07T07:28:11.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8158",
+      "text": "Show 'No Data of Entered' Instead Zero Values where data Entry is not Done"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8248",
+      "time": "2024-08-07T07:28:10.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8248",
+      "text": "Show weight and height as unspecified rather than 0",
+      "turnaround_time": 211917
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#8187",
+      "time": "2024-08-07T07:27:59.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8187",
+      "text": "Modify Transfer patient pop-up behavior"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8245",
+      "time": "2024-08-07T07:27:58.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8245",
+      "text": "Fixed: Transfer patient pop-up behavior",
+      "turnaround_time": 238533
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-07T07:27:49.000Z",
+      "title": "coronasafe/care_fe#8245",
+      "link": "https://github.com/coronasafe/care_fe/pull/8245#pullrequestreview-2222960390",
+      "text": "Fixed: Transfer patient pop-up behavior"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#8239",
+      "time": "2024-08-07T07:27:36.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8239",
+      "text": "Misalignment of placeholder text inside date component in the add user page"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8240",
+      "time": "2024-08-07T07:27:35.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8240",
+      "text": "Fixed: Misalignment of placeholder text inside date component in the …",
+      "turnaround_time": 474733
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-07T07:27:25.000Z",
+      "title": "coronasafe/care_fe#8240",
+      "link": "https://github.com/coronasafe/care_fe/pull/8240#pullrequestreview-2222958099",
+      "text": "Fixed: Misalignment of placeholder text inside date component in the …"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#8221",
+      "time": "2024-08-07T07:27:10.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8221",
+      "text": "Increase the width of the log update form"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care#2342",
@@ -37120,9 +37208,20 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/8270",
+      "title": "Added sorting for events",
+      "stale_for": 0,
+      "labels": [
+        "urgent",
+        "P1",
+        "changes required",
+        "reviewed"
+      ]
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/8260",
       "title": "Migrate to Headless UI v2",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "urgent",
         "test failed"
@@ -37131,47 +37230,48 @@
     {
       "link": "https://github.com/coronasafe/docs/pull/34",
       "title": "[CEP-7]  Proposal for Scheduling in Care",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2313",
       "title": "Convert ABDM into Plug - Part 2/2",
-      "stale_for": 16,
+      "stale_for": 17,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2312",
       "title": "Abdm Plug",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8178",
       "title": "Hcx communication",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "urgent",
         "test failed",
+        "merge conflict",
         "reviewed"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8177",
       "title": "Enable hcx",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2222",
       "title": "limit user details based on user type",
-      "stale_for": 63,
+      "stale_for": 64,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7817",
       "title": "Frontend Adjustments for ABDM Plug Conversion",
-      "stale_for": 23,
+      "stale_for": 24,
       "labels": [
         "needs review",
         "tested",
@@ -37182,7 +37282,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2161",
       "title": "Convert ABDM into Plug - Part 1/2",
-      "stale_for": 30,
+      "stale_for": 31,
       "labels": [
         "ABDM"
       ]
@@ -37190,19 +37290,19 @@
     {
       "link": "https://github.com/coronasafe/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 93,
+      "stale_for": 94,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 116,
+      "stale_for": 117,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/1229",
       "title": "Hcx Refactors",
-      "stale_for": 142,
+      "stale_for": 143,
       "labels": [
         "waiting-for-review"
       ]
@@ -37210,31 +37310,31 @@
     {
       "link": "https://github.com/coronasafe/care_fe_hcx/pull/3",
       "title": "Hcx/eligibility check workflow",
-      "stale_for": 255,
+      "stale_for": 256,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 964,
+      "stale_for": 965,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 970,
+      "stale_for": 971,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 971,
+      "stale_for": 972,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/life/pull/306",
       "title": "filtered duplicate tweets",
-      "stale_for": 1166,
+      "stale_for": 1167,
       "labels": []
     }
   ],

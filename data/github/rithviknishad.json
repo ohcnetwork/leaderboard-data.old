@@ -1,6 +1,41 @@
 {
-  "last_updated": "2024-08-06T18:13:23.000Z",
+  "last_updated": "2024-08-07T14:12:43.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8267",
+      "time": "2024-08-07T14:12:43.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8267",
+      "text": "Cypress: fix incorrect patient category select's id"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8259",
+      "time": "2024-08-07T13:15:47.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8259#issuecomment-2273449978",
+      "text": "@gigincg I've updated with all those just before your comment. Could you re-check.\r\n\r\nTaken inspiration from: https://docs.google.com/document/d/1mF9GDLx-3wgf-ayvcAXPy428lVaZbvO8T8y_LD50nXA/edit"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-07T12:19:41.000Z",
+      "title": "coronasafe/leaderboard#481",
+      "link": "https://github.com/coronasafe/leaderboard/pull/481#pullrequestreview-2224646219",
+      "text": "Added Twitter Link "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8119",
+      "time": "2024-08-07T10:31:15.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8119#issuecomment-2273150480",
+      "text": "All of the above mentioned bugs fixed; except 1 remaining that is to implement the critical care detail view page (1). \r\n\r\ncc: @nihal467 "
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#8265",
+      "time": "2024-08-07T10:05:30.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8265",
+      "text": "Neurological Tables having incorrect vertical heights for table values causing it to have extra whitespace at the bottom"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-08-06T18:13:23.000Z",
@@ -51349,11 +51384,11 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/8259",
-      "title": "Adds support for printing 🖨️ prescriptions 💊",
+      "link": "https://github.com/coronasafe/care_fe/pull/8274",
+      "title": "🛠️ Fixes issue with treating physician field being disabled when a search text entered yields no results; 🛠️ Migrate `UserAutocompleteFormField` to use `useQuery`",
       "stale_for": 0,
       "labels": [
-        "urgent",
+        "needs review",
         "test failed",
         "P1"
       ]
@@ -51370,25 +51405,25 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2320",
       "title": "Update pre-commit config",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2289",
       "title": "Allows creation of duplicate symptoms if cure date is present",
-      "stale_for": 25,
+      "stale_for": 26,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2247",
       "title": "remove deprecated fields that has been migrated to new models (Diagnosis and Prescriptions)",
-      "stale_for": 27,
+      "stale_for": 28,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 2,
+      "stale_for": 4,
       "labels": [
         "P2"
       ]
