@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-08-05T17:52:16.000Z",
+  "last_updated": "2024-08-08T13:02:50.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8198",
+      "time": "2024-08-08T13:02:50.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8198#issuecomment-2275771470",
+      "text": "@nihal467 \r\n\r\nOne more thing, the `README.md` does not specify the credentials to login as a State Admin. Shouldn't it be in the `README.md`?"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8198",
+      "time": "2024-08-08T12:56:05.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8198#issuecomment-2275757103",
+      "text": "@nihal467 \r\n\r\nFor the State Admin, the `Advanced Filters` in the `Discharged Patients` list has the following extra filters:\r\n\r\nIn the `Patient Detail based` section:\r\n  1. `Admitted To (Bed Types)`\r\n  2. `Review Missed`\r\n\r\nIn the `Geography based` section:\r\n  1. `Facility`\r\n  2. `Facility Type`\r\n  \r\nOther than these two parts, all the filters are same for the State Admin and other users.\r\n\r\nI think the `Geography based` extra filters don't need to be removed so that the State Admin can filter the patients according to a specific facility. Right?\r\nNow what about the `Patient Detail based` extra filters?"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8209",
+      "time": "2024-08-08T11:17:04.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8209#issuecomment-2275570019",
+      "text": "@nihal467 \r\nI don't see any weight and height page here. Can you guide me where exactly is the issue?\r\n![image](https://github.com/user-attachments/assets/0361e6b5-ea45-4fb5-b4d1-31d5724af0fc)"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care_fe#8256",
@@ -92,6 +113,15 @@
       "text": "I want to clarify a few things regarding this issue.\r\n\r\n1. This is information about types and number of beds in a location: \r\n![main](https://github.com/user-attachments/assets/62eb72c9-8c7c-4702-b1a6-c4cae7560240)\r\n\r\nDo you want the above information to be shown on the outlined FacilityCard on this page?\r\n![WhatsApp Image 2024-07-15 at 1 25 28 AM](https://github.com/user-attachments/assets/998fe92b-9dcf-466e-91fc-ce1cc8b0dbf8)\r\n\r\n2. Do you have any design preferences? Because accommodating all the information into the small FacilityCard will change the design alot!"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/8284",
+      "title": "Adds units for width and height for Pressure Sore",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

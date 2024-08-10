@@ -1,6 +1,87 @@
 {
-  "last_updated": "2024-08-07T14:12:43.000Z",
+  "last_updated": "2024-08-08T18:27:42.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#485",
+      "time": "2024-08-08T18:27:42.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/485#issuecomment-2276418989",
+      "text": "Also, ensure you have pushed formatted code. Prettier check failed in build step:\r\n\r\n<img width=\"1392\" alt=\"image\" src=\"https://github.com/user-attachments/assets/95bb0b72-0878-4733-bc32-f9b655ed8673\">\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-08T18:26:52.000Z",
+      "title": "coronasafe/leaderboard#485",
+      "link": "https://github.com/coronasafe/leaderboard/pull/485#pullrequestreview-2228580432",
+      "text": "Updated Twitter icon to X logo"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-08T14:23:08.000Z",
+      "title": "coronasafe/care#2223",
+      "link": "https://github.com/coronasafe/care/pull/2223#pullrequestreview-2228043549",
+      "text": "migrating feature field  to array field "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-08T14:00:05.000Z",
+      "title": "coronasafe/care#2348",
+      "link": "https://github.com/coronasafe/care/pull/2348#pullrequestreview-2227979787",
+      "text": "fix attribute error on null values in field serialization"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8259",
+      "time": "2024-08-08T10:50:28.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8259",
+      "text": "Adds support for printing 🖨️ prescriptions 💊",
+      "collaborated_with": [
+        "rithviknishad",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8274",
+      "time": "2024-08-08T10:19:21.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8274",
+      "text": "Migrate `UserAutocompleteFormFIeld` to useQuery"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8259",
+      "time": "2024-08-08T10:00:33.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8259#issuecomment-2275432010",
+      "text": "Unrelated https://coronasafe-network.sentry.io/issues/5690167888/?project=5182842&query=is%3Aunresolved+issue.priority%3A%5Bhigh%2C+medium%5D&referrer=issue-stream&statsPeriod=90d&stream_index=1"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-08T09:22:58.000Z",
+      "title": "coronasafe/care_fe#8271",
+      "link": "https://github.com/coronasafe/care_fe/pull/8271#pullrequestreview-2227325692",
+      "text": "Fixes: #8194 Remove the badge for facility specific discharge patient list page"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#481",
+      "time": "2024-08-08T08:57:24.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/481#issuecomment-2275304715",
+      "text": "Closing as duplicated of #482"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/leaderboard#483",
+      "time": "2024-08-08T08:56:43.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/issues/483",
+      "text": "Inconsistent Icon in Discussion Section"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#483",
+      "time": "2024-08-08T08:56:38.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/issues/483#issuecomment-2275303263",
+      "text": "@Indrajeety993648 this is the expected icon as it matches the button's style. This is the same icon that's used in projects section and good first issues sections too. So it is not inconsistent.\r\n\r\nFeel free to re-open the issue if there are any other related issue."
+    },
     {
       "type": "pr_opened",
       "title": "coronasafe/care_fe#8267",
@@ -51384,19 +51465,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/8274",
-      "title": "🛠️ Fixes issue with treating physician field being disabled when a search text entered yields no results; 🛠️ Migrate `UserAutocompleteFormField` to use `useQuery`",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "test failed",
-        "P1"
-      ]
-    },
-    {
       "link": "https://github.com/coronasafe/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "work-in-progress",
         "Camera Integration"
@@ -51405,19 +51476,19 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2320",
       "title": "Update pre-commit config",
-      "stale_for": 10,
+      "stale_for": 11,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2289",
       "title": "Allows creation of duplicate symptoms if cure date is present",
-      "stale_for": 26,
+      "stale_for": 27,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2247",
       "title": "remove deprecated fields that has been migrated to new models (Diagnosis and Prescriptions)",
-      "stale_for": 28,
+      "stale_for": 29,
       "labels": []
     },
     {
