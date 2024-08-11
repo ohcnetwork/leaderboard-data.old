@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-07-23T15:10:30+00:00",
+  "last_updated": "2024-08-09T14:04:26.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2190",
+      "time": "2024-08-09T14:04:26.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2190#issuecomment-2278025242",
+      "text": "@nihal467 can you run the tests once again \r\n\r\nCC: @rithviknishad "
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care#2190",
@@ -3066,7 +3073,7 @@
       "title": "coronasafe/care_fe#6495",
       "time": "2023-10-26T17:15:51.000Z",
       "link": "https://github.com/coronasafe/care_fe/pull/6495#issuecomment-1781524430",
-      "text": ">  The navigate should work, why is it navigating to\u00a0`/`\u00a0or going into the refresh loop?\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/98876115/49b0eef7-e99c-4c66-923e-7f80274167f1)\r\n![image](https://github.com/coronasafe/care_fe/assets/98876115/37f3c77f-22b6-4859-8689-c6d5bb23ea9b)\r\n\r\nThe issue arises from the `isAuthenticated` function continuing to return `true`, even when the token is incorrect. Furthermore, I can keep the browsing history intact until the session expiration page, but when I attempt to navigate to the login page, the entire history is wiped clean.\r\n\r\nAs a solution, I reached out to @rithviknishad , who suggested revisiting the query parameter approach. Now, the recommendation is to check if the origin of the redirect URL matches the origin of care.\r\n\r\n@Ashesh3 , I'm currently implementing the query parameter approach. "
+      "text": ">  The navigate should work, why is it navigating to `/` or going into the refresh loop?\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/98876115/49b0eef7-e99c-4c66-923e-7f80274167f1)\r\n![image](https://github.com/coronasafe/care_fe/assets/98876115/37f3c77f-22b6-4859-8689-c6d5bb23ea9b)\r\n\r\nThe issue arises from the `isAuthenticated` function continuing to return `true`, even when the token is incorrect. Furthermore, I can keep the browsing history intact until the session expiration page, but when I attempt to navigate to the login page, the entire history is wiped clean.\r\n\r\nAs a solution, I reached out to @rithviknishad , who suggested revisiting the query parameter approach. Now, the recommendation is to check if the origin of the redirect URL matches the origin of care.\r\n\r\n@Ashesh3 , I'm currently implementing the query parameter approach. "
     },
     {
       "type": "comment_created",
@@ -3209,13 +3216,13 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2190",
       "title": "Add new medical history options ",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7852",
       "title": "Expanding medical history [ Comorbidities ]",
-      "stale_for": 18,
+      "stale_for": 36,
       "labels": [
         "needs review",
         "tested",
