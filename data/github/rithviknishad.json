@@ -1,6 +1,84 @@
 {
-  "last_updated": "2024-08-10T12:24:29.000Z",
+  "last_updated": "2024-08-11T17:31:14.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#488",
+      "time": "2024-08-11T17:31:14.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/issues/488#issuecomment-2282832857",
+      "text": "@HUN-sp \r\n\r\n1. Both Fine-grained tokens and Tokens (classic) are valid GitHub PAT tokens.\r\n2. You can interchange Fine-grained tokens and classic tokens for leaderboard builds as the permission scopes required for leaderboard are available on both.\r\n3. I just generated a fine-grained token and successfully ran a build, and it works fine! No limitations on using fine-grained tokens directly, nor any code change required.\r\n\r\n![image](https://github.com/user-attachments/assets/d1bf9185-ae62-4368-aa05-51e839bb5a03)\r\n\r\n\r\nClosing this issue as not a valid request. Feel free to reopen if you meant something else.\r\n"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/leaderboard#488",
+      "time": "2024-08-11T17:31:14.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/issues/488",
+      "text": "Recommend using Fine-grained Personal Access Tokens (Beta) for better security"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/leaderboard#480",
+      "time": "2024-08-11T17:22:26.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/issues/480",
+      "text": "Add Twitter to Connect "
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/leaderboard#491",
+      "time": "2024-08-11T17:22:25.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/491",
+      "text": "Adds support for X logo in org. socials and hide undefined social URLs",
+      "turnaround_time": 344
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-11T17:22:14.000Z",
+      "title": "coronasafe/leaderboard#491",
+      "link": "https://github.com/coronasafe/leaderboard/pull/491#pullrequestreview-2231860815",
+      "text": "Adds support for X logo in org. socials and hide undefined social URLs"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/leaderboard#491",
+      "time": "2024-08-11T17:16:42.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/491",
+      "text": "Adds support for X logo in org. socials and hide undefined social URLs"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-11T16:58:33.000Z",
+      "title": "coronasafe/care#2332",
+      "link": "https://github.com/coronasafe/care/pull/2332#pullrequestreview-2231857320",
+      "text": "Add option to filter users with no home facility"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#427",
+      "time": "2024-08-11T16:57:01.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/427#issuecomment-2282824235",
+      "text": "@dgparmar14 any updates on this?"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/leaderboard#470",
+      "time": "2024-08-11T16:56:22.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/470#issuecomment-2282824087",
+      "text": "Closing as inactive. Feel free to re-open."
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/leaderboard#480",
+      "time": "2024-08-11T16:55:57.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/issues/480",
+      "text": "Add Twitter to Connect "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-11T11:47:01.000Z",
+      "title": "coronasafe/leaderboard#490",
+      "link": "https://github.com/coronasafe/leaderboard/pull/490#pullrequestreview-2231798989",
+      "text": "added Twitter to connect "
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-08-10T12:24:29.000Z",
@@ -51708,9 +51786,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care/pull/2350",
+      "title": "Allow ICD11 diagnoses for chapters that were previously disabled",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "work-in-progress",
         "Camera Integration"
@@ -51719,25 +51803,25 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2320",
       "title": "Update pre-commit config",
-      "stale_for": 13,
+      "stale_for": 14,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2289",
       "title": "Allows creation of duplicate symptoms if cure date is present",
-      "stale_for": 29,
+      "stale_for": 30,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2247",
       "title": "remove deprecated fields that has been migrated to new models (Diagnosis and Prescriptions)",
-      "stale_for": 31,
+      "stale_for": 32,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": [
         "P2"
       ]
