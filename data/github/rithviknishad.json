@@ -1,6 +1,139 @@
 {
-  "last_updated": "2024-08-12T16:37:49.000Z",
+  "last_updated": "2024-08-14T16:39:21.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8328",
+      "time": "2024-08-14T16:39:21.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8328#issuecomment-2289277767",
+      "text": "Let me know if you'll be updating the backend or facing any difficulties in it."
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8328",
+      "time": "2024-08-14T16:37:32.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8328#issuecomment-2289271758",
+      "text": "@aSriram199 existing data would need migration for the spelling correction \n\nhttps://deploy-preview-8328--care-egov-staging.netlify.app/facility/0c95c7f0-e1d2-4aff-83fa-933cef60d3a8/patient/7a3e40fb-da2a-42cc-b424-621273e3b197/consultation/b70e90f0-f43a-4b46-9f06-18bddb24f44e/daily_rounds/50ae957d-9f7b-4bda-8589-81d819729700"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8305",
+      "time": "2024-08-14T16:32:24.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8305#issuecomment-2289254650",
+      "text": "@aSriram199 does existing data (records created before this PR) show the new corrected spelling in view log update details page / edit log update page?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-14T16:29:42.000Z",
+      "title": "coronasafe/care_fe#8328",
+      "link": "https://github.com/coronasafe/care_fe/pull/8328#pullrequestreview-2238672451",
+      "text": "Add Abdominal Drain and Change Rules to Ryles on Ouptput DropDown"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8305",
+      "time": "2024-08-14T16:05:32.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8305#issuecomment-2289204928",
+      "text": "https://github.com/coronasafe/care_fe/blob/develop/src%2FComponents%2FLogUpdate%2FSections%2FIOBalance.tsx#L9"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#8327",
+      "time": "2024-08-14T15:12:45.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8327",
+      "text": "Replace usage of axios in Scribe"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-14T14:39:46.000Z",
+      "title": "coronasafe/care_fe#8326",
+      "link": "https://github.com/coronasafe/care_fe/pull/8326#pullrequestreview-2238395328",
+      "text": "Cleanup unused files"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-14T12:24:26.000Z",
+      "title": "coronasafe/care#2359",
+      "link": "https://github.com/coronasafe/care/pull/2359#pullrequestreview-2238008384",
+      "text": "fix s3 client error on gcp"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8275",
+      "time": "2024-08-14T11:37:06.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8275#issuecomment-2288512790",
+      "text": "@kushalbhana No, scaling the contents of the PrintPreview contents manually using tailwindcss modifiers could be difficult to maintain. Instead you could use the `scale-*` tailwind class (or CSS equivalent) at the `section-to-print` of the reusable generic PrintPreview component instead.\r\n\r\nI've opened a separate issue for this with a more detailed description here: https://github.com/coronasafe/care_fe/issues/8323\r\n\r\nFeel free to take that up\r\n\r\ncc: @kushalbhana @Fredrick2503 "
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#8323",
+      "time": "2024-08-14T11:35:00.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8323",
+      "text": "Support for zooming in and out for `PrintPreview` component"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-14T11:05:59.000Z",
+      "title": "coronasafe/care_fe#8320",
+      "link": "https://github.com/coronasafe/care_fe/pull/8320#pullrequestreview-2237839595",
+      "text": "Camera Feed: Persist last accessed position or preset"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-14T11:04:31.000Z",
+      "title": "coronasafe/care_fe#8320",
+      "link": "https://github.com/coronasafe/care_fe/pull/8320#pullrequestreview-2237836963",
+      "text": "Camera Feed: Persist last accessed position or preset"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8320",
+      "time": "2024-08-14T09:54:51.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8320",
+      "text": "Camera Feed: Persist last accessed position or preset"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8318",
+      "time": "2024-08-14T08:18:02.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8318",
+      "text": "Remove unused dependencies"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8317",
+      "time": "2024-08-14T08:01:43.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8317",
+      "text": "Skip commenting on stale issues and avoid auto-closing stale PRs"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8316",
+      "time": "2024-08-14T07:57:34.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8316",
+      "text": "Migrate rescript components to typescript; uninstall ReScript (and other unused packages)"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8315",
+      "time": "2024-08-14T07:23:13.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8315",
+      "text": "Revert \"Remove unused dependencies\""
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8313",
+      "time": "2024-08-14T06:23:13.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8313#issuecomment-2287947268",
+      "text": "Bundle size:\r\n\r\nBefore:\r\n\r\n<img width=\"711\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5112f8f5-da6e-4e37-8065-daec5c7cc4b4\">\r\n\r\n\r\nAfter:\r\n\r\n<img width=\"1053\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ea9c17f6-af66-4d79-ad69-094a57f6d19c\">\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8313",
+      "time": "2024-08-14T06:18:20.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8313",
+      "text": "Remove unused dependencies"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care_fe#8294",
@@ -51858,52 +51991,65 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2356",
       "title": "Rename field `ventilator_fi02` to `ventilator_fio2`",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2350",
       "title": "Allow ICD11 diagnoses for chapters that were previously disabled",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 3,
+      "stale_for": 1,
       "labels": [
         "work-in-progress",
+        "merge conflict",
         "Camera Integration"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2320",
       "title": "Update pre-commit config",
-      "stale_for": 15,
+      "stale_for": 17,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2289",
       "title": "Allows creation of duplicate symptoms if cure date is present",
-      "stale_for": 31,
+      "stale_for": 33,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2247",
       "title": "remove deprecated fields that has been migrated to new models (Diagnosis and Prescriptions)",
-      "stale_for": 33,
+      "stale_for": 35,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": [
         "P2"
       ]
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8298",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/8316"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8297",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/8316"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8287",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/8320"
+    },
     {
       "issue_link": "https://github.com/coronasafe/care_fe/issues/8127",
       "pr_link": "https://github.com/coronasafe/care_fe/pull/8128"
@@ -51927,6 +52073,10 @@
     {
       "issue_link": "https://github.com/coronasafe/care_fe/issues/7878",
       "pr_link": "https://github.com/coronasafe/care_fe/pull/7879"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/7855",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/8316"
     },
     {
       "issue_link": "https://github.com/coronasafe/leaderboard/issues/455",
@@ -51971,18 +52121,6 @@
     {
       "issue_link": "https://github.com/coronasafe/care_fe/issues/7506",
       "pr_link": "https://github.com/coronasafe/care_fe/pull/7508"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7482",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7469"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7468",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7469"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7466",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7472"
     }
   ]
 }

@@ -1,6 +1,55 @@
 {
-  "last_updated": "2024-08-12T16:38:28.000Z",
+  "last_updated": "2024-08-14T16:01:49.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-14T16:01:49.000Z",
+      "title": "coronasafe/care#2357",
+      "link": "https://github.com/coronasafe/care/pull/2357#pullrequestreview-2238615740",
+      "text": "Updated License"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8326",
+      "time": "2024-08-14T14:37:20.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8326",
+      "text": "Cleanup unused files"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-14T14:08:51.000Z",
+      "title": "coronasafe/care#2356",
+      "link": "https://github.com/coronasafe/care/pull/2356#pullrequestreview-2238305197",
+      "text": "Rename field `ventilator_fi02` to `ventilator_fio2`"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2359",
+      "time": "2024-08-14T12:09:23.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2359",
+      "text": "fix s3 client error on gcp"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#8324",
+      "time": "2024-08-14T11:46:16.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8324",
+      "text": "Add validation for max dosage in PRN prescription"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8310",
+      "time": "2024-08-14T08:09:12.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8310#issuecomment-2288111967",
+      "text": "> The env that points to the backend is named `CARE_API` in vite. Can we make it similar to it?\r\n> \r\n> Ref: [`develop`/vite.config.mts#L86](https://github.com/coronasafe/care_fe/blob/develop/vite.config.mts?rgh-link-date=2024-08-14T04%3A05%3A55Z#L86)\r\n\r\nsounds good\r\n\r\ncc: @swarnendu19 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-14T08:08:42.000Z",
+      "title": "coronasafe/care_fe#8310",
+      "link": "https://github.com/coronasafe/care_fe/pull/8310#pullrequestreview-2237450120",
+      "text": "Allow the prod nginx.conf to proxy backend if the URL is present in env #8288"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care#2351",
@@ -15729,45 +15778,51 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/8326",
+      "title": "Cleanup unused files",
+      "stale_for": 1,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/docs/pull/33",
       "title": "[CEP-6] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 12,
+      "stale_for": 14,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2299",
       "title": "Fix race condition in consultation creation",
-      "stale_for": 27,
+      "stale_for": 29,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2287",
       "title": "Update dependencies",
-      "stale_for": 33,
+      "stale_for": 35,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2217",
       "title": "remove deprecated symptoms fields",
-      "stale_for": 72,
+      "stale_for": 74,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_scribe/pull/9",
       "title": "Use translation API to generate text for the prompt",
-      "stale_for": 76,
+      "stale_for": 78,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/citizen/pull/44",
       "title": "Quick changes to get the app running again",
-      "stale_for": 149,
+      "stale_for": 151,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 261,
+      "stale_for": 1,
       "labels": [
         "blocked",
         "changes required",
@@ -15778,13 +15833,13 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 90,
+      "stale_for": 92,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/medibase/pull/7",
       "title": "Update dependencies",
-      "stale_for": 390,
+      "stale_for": 392,
       "labels": []
     }
   ],
