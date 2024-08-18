@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-07-23T10:54:07+00:00",
+  "last_updated": "2024-08-16T18:24:10.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2361",
+      "time": "2024-08-16T18:24:10.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2361",
+      "text": "added a request time logging middleware"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#2132",
+      "time": "2024-08-16T07:02:48.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2132#issuecomment-2292941609",
+      "text": "1. As per the format shared by aparna, the admitted-to field should only show all the types of beds the patient was admitted to during the consultation period, not just the last admitted-to bed name and type. for example in the above screenshot case, it will be \" admitted to : ICU, Bed with Oxygen Support \"\r\n> Fixed it and also added a template tag to format the text in more readable form\r\n\r\n2. Dummy bed 6 is a bed with oxygen support, but in the discharge summary, it's been mentioned as a regular bed, make sure bed types are properly fetched.\r\n> Fixed \r\n\r\n3. As per the PR description and the format shared by aparna, the date of admission field was planned to be removed, but in the discharge summary, this field still exists DraKen0009 was it intentionally kept, or was it a mistake?\r\n> It's intentional, asked to keep it. Have updated the PR description accordingly\r\n\r\n4. As per the shared format, the duration of admission should be just the number of days only, so remove the time-related details from the field.\r\n> Updated to show only days if duration is `>24 hours` else it'll show time in hours instead of 0 days\r\n\r\n5. When the weight and height are not available, just show N/A, without the units\r\n> Fixed \r\n\r\n6. According to the format provided, we should only display symptoms present at the time of admission. However, in the screenshot mentioned, the first two symptoms were added during the consultation creation, and the remaining three were added while creating a log update. Therefore, instead of showing just the two symptoms, the discharge summary displays all five symptoms. Please confirm whether this was intentional with sainak & aparna.\r\n> Updated it. Now only the symptoms with onset date before admission date will be visible in the list\r\n\r\n7.  As per the shared format, it was expected to be the last item after the discharge details, but the discharge summary format, you kept it on top of the discharge details , was it intentional ?\r\n> Fixed it's kept it below the `Discharge Summary` and above `Annexure(files details)`\r\n\r\n8. As per the new format, you forgot to rename prescription medication to Medication administered\r\n> Fixed \r\n\r\n9.  as per the format rename from discharge prescription medication to discharge prescription\r\n> Fixed\r\n\r\n10.  the treating physician name and discharge prescription table have space between them, as per the shared format, so keep them\r\n> Added a line space above `Treating Physician`\r\n\r\n@nihal467  @sainak "
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#8182",
@@ -809,7 +823,7 @@
       "title": "coronasafe/care#1906",
       "time": "2024-02-22T11:36:57.000Z",
       "link": "https://github.com/coronasafe/care/pull/1906",
-      "text": "added constraints to patient consultation for storing unique patient_\u2026"
+      "text": "added constraints to patient consultation for storing unique patient_…"
     },
     {
       "type": "comment_created",
@@ -828,15 +842,21 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care/pull/2361",
+      "title": "added a request time logging middleware",
+      "stale_for": 1,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/docs/pull/28",
       "title": "Documentation for GSoC Project : Exploring Alternatives for PDF generations",
-      "stale_for": 22,
+      "stale_for": 9,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2223",
       "title": "migrating feature field  to array field ",
-      "stale_for": 3,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -848,7 +868,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1994",
       "title": "updated bed types",
-      "stale_for": 92,
+      "stale_for": 117,
       "labels": [
         "ops-review-pending"
       ]
@@ -856,7 +876,7 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1941",
       "title": "Loading medibase and icd11 static json and migrations",
-      "stale_for": 64,
+      "stale_for": 89,
       "labels": [
         "waiting-for-review"
       ]
