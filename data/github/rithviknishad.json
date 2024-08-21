@@ -1,6 +1,33 @@
 {
-  "last_updated": "2024-08-15T14:59:48.000Z",
+  "last_updated": "2024-08-19T18:48:20.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8304",
+      "time": "2024-08-19T18:48:20.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8304#issuecomment-2297218252",
+      "text": "Yup, create a PR 🚀"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#8358",
+      "time": "2024-08-19T17:51:50.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8358",
+      "text": "Use staging backend for staging cypress tests"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8348",
+      "time": "2024-08-19T17:29:06.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8348",
+      "text": "Production release 24.34.0",
+      "collaborated_with": [
+        "rithviknishad",
+        "gigincg",
+        "khavinshankar",
+        "shivankacker"
+      ]
+    },
     {
       "type": "pr_merged",
       "title": "coronasafe/leaderboard#493",
@@ -52032,49 +52059,88 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/8372",
+      "title": "Remove unintended duplicate request in Consultation Create",
+      "stale_for": 0,
+      "labels": [
+        "needs testing"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2366",
+      "title": "Correct I/O Balance output choice spelling mistake for Ryles Tube Aspiration",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/8363",
+      "title": "Navigate to session expired page instead of showing notification",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/8362",
+      "title": "Use staging backend for cypress tests if PR base branch is staging",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "tested"
+      ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care_fe/pull/8339",
+      "title": "Remove unused components and packages",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "tested"
+      ]
+    },
+    {
       "link": "https://github.com/coronasafe/care/pull/2356",
       "title": "Rename field `ventilator_fi02` to `ventilator_fio2`",
-      "stale_for": 2,
+      "stale_for": 6,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2350",
       "title": "Allow ICD11 diagnoses for chapters that were previously disabled",
-      "stale_for": 3,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "work-in-progress",
-        "merge conflict",
-        "Camera Integration"
+        "work-in-progress"
       ]
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2320",
       "title": "Update pre-commit config",
-      "stale_for": 18,
+      "stale_for": 22,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2289",
       "title": "Allows creation of duplicate symptoms if cure date is present",
-      "stale_for": 34,
+      "stale_for": 38,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2247",
       "title": "remove deprecated fields that has been migrated to new models (Diagnosis and Prescriptions)",
-      "stale_for": 36,
+      "stale_for": 40,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 11,
+      "stale_for": 0,
       "labels": [
         "P2"
       ]
