@@ -3,177 +3,172 @@
   "activity": [
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2024-02-02T04:55:34.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1922818940",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1922818940",
       "text": "The bug also happens on the live version of care. https://care.ohc.network hence wasn't introduced by this pr.\r\n\r\n@nihal467 @rithviknishad "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2024-01-23T08:49:07.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1905578260",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1905578260",
       "text": "@rithviknishad @nihal467 @Ashesh3 The issue being session expired page navigates to \"/\" and then since the session has expired it loads the session expired page again anyway which again navigates to \"/\", If the token is invalid i don't understand the need for  checking the IsAuthenthicated and returning a navigate."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2024-01-19T13:21:35.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1900417872",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1900417872",
       "text": "```js\r\nexport default function SessionExpired() {\r\n  const { signOut, user } = useAuthContext();\r\n  const isAuthenticated = Boolean(user);\r\n  const navigate = useNavigate();\r\n  const { t } = useTranslation();\r\n\r\n  useEffect(() => {\r\n    Notification.closeAllNotifications();\r\n  }, []);\r\n\r\n  if (isAuthenticated) {\r\n    navigate(\"/\");\r\n  }\r\n  ```\r\n\r\nThe bug seems to be due to the navigate(\"/\") and i cannot understand why we need it? If the session has expired do we not wish to log the user out on the same page and show session expired with a return to login? \r\n "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2024-01-13T07:13:39.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1890354031",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1890354031",
       "text": "@rithviknishad The tests should work now."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2024-01-12T06:14:42.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1888494639",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1888494639",
       "text": "Done! used the `devdistrictadmin` login instead."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2024-01-12T06:08:35.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1888489999",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1888489999",
       "text": "Yep that too works."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2024-01-12T06:01:47.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1888483982",
-      "text": "Okay, found it! The staffdev login isn't available in the [dummy data](https://github.com/coronasafe/care/blob/master/data/dummy/users.json) that's loaded to the backend. Also there is just a devstaff2 username in the dummy data, no devstaff / devstaff1? The password on there is encrypted so do we proceed by adding a devstaff to the dummy data? or is the login info for devstaff2 noted somewhere?"
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1888483982",
+      "text": "Okay, found it! The staffdev login isn't available in the [dummy data](https://github.com/ohcnetwork/care/blob/master/data/dummy/users.json) that's loaded to the backend. Also there is just a devstaff2 username in the dummy data, no devstaff / devstaff1? The password on there is encrypted so do we proceed by adding a devstaff to the dummy data? or is the login info for devstaff2 noted somewhere?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2024-01-11T20:08:27.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1887885806",
-      "text": "I don't understand why the tests are failing with a POST 401 on github actions \r\n\r\n![redirect -- Check if login redirects to the right url (failed) (attempt 2)](https://github.com/coronasafe/care_fe/assets/76207818/f37e879f-c0a6-41f6-9925-fbd1da104130)\r\n\r\nThe same tests pass on local \r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/76207818/71150ca6-39b7-4742-aeb0-b203a0f7eb8e)\r\n"
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1887885806",
+      "text": "I don't understand why the tests are failing with a POST 401 on github actions \r\n\r\n![redirect -- Check if login redirects to the right url (failed) (attempt 2)](https://github.com/ohcnetwork/care_fe/assets/76207818/f37e879f-c0a6-41f6-9925-fbd1da104130)\r\n\r\nThe same tests pass on local \r\n\r\n![image](https://github.com/ohcnetwork/care_fe/assets/76207818/71150ca6-39b7-4742-aeb0-b203a0f7eb8e)\r\n"
     },
     {
       "type": "pr_reviewed",
       "time": "2024-01-11T19:33:57.000Z",
-      "title": "coronasafe/care_fe#6911",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#pullrequestreview-1816435246",
+      "title": "ohcnetwork/care_fe#6911",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#pullrequestreview-1816435246",
       "text": "Fixes redirect on login (#6900)"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2023-12-27T06:16:04.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1869986212",
-      "text": "> @Om-Thorat\r\n> \r\n> Didn't this one line change ([#6911 (comment)](https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1868988181)) alone solve the original issue? Was there some other issues?\r\n\r\nI did change the line to that but there had to be the reserved URLs change because of that rest much isn't changed."
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1869986212",
+      "text": "> @Om-Thorat\r\n> \r\n> Didn't this one line change ([#6911 (comment)](https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1868988181)) alone solve the original issue? Was there some other issues?\r\n\r\nI did change the line to that but there had to be the reserved URLs change because of that rest much isn't changed."
     },
     {
       "type": "pr_reviewed",
       "time": "2023-12-27T06:11:28.000Z",
-      "title": "coronasafe/care_fe#6911",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#pullrequestreview-1796794602",
+      "title": "ohcnetwork/care_fe#6911",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#pullrequestreview-1796794602",
       "text": "Fixes redirect on login (#6900)"
     },
     {
       "type": "pr_reviewed",
       "time": "2023-12-27T06:09:16.000Z",
-      "title": "coronasafe/care_fe#6911",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#pullrequestreview-1796793282",
+      "title": "ohcnetwork/care_fe#6911",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#pullrequestreview-1796793282",
       "text": "Fixes redirect on login (#6900)"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2023-12-26T09:28:45.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1869402860",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1869402860",
       "text": "@rithviknishad This new function works with both the redirect param and the direct urls , When an invalid redirect param is provided with a valid base url, The app chooses to discard the param and simply navigate to the valid base url Instead. The session expired redirects to the redirect param if available.\r\n\r\nIt seems like there should be a test for the redirect param as well?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2023-12-26T08:01:00.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1869346102",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1869346102",
       "text": "Sorry for the oversight before added a check to ensure that the redirect param redirects to a site that has the same origin as the current site, Not using this could have let malformed urls to be able to redirect to any sites they please ,potentially malicious."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2023-12-25T14:16:40.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1869003456",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1869003456",
       "text": "> You could do the following:\r\n> \r\n>     1. If a redirect query param is present, use that. (Same as original implementation).\r\n> \r\n>     2. If redirect query param is not present, simply call the `signIn` method from `useAuth` when the login button is clicked without doing a navigate. (Since it's very likely that the we need to land in the current route itself, just that we need to cause a re-render the AuthProvider component.\r\n\r\n\r\nas required clicking on the button signs out and redirects to the page which then loads a login screen since the user is signed out, In the other case that a query param isn't present the url will just be `/session-expired` which should redirect to ` /`?  "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2023-12-25T14:02:50.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1868998334",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1868998334",
       "text": "> So that means, the only code change required to fix this would be:\r\n\r\nThe new redirector function doesn't check for a redirect param anymore so, There'll be that to fix as well"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2023-12-25T13:13:34.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1868980508",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1868980508",
       "text": "> Now that you've removed the support for `redirect` param completely, the \"Session Expired\" workflow wouldn't work this way right, since that still relies on the `redirect` param on the login page route?\r\n\r\nHmm, How do we plan on dealing with that? Should we just redirect them to the same page and bring up the login screen?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2023-12-25T13:00:52.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#issuecomment-1868975268",
-      "text": "not sure why run failed since it passed on local, looking into it.\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/76207818/b05218d1-6380-441a-a043-354ced5b9671)\r\n"
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#issuecomment-1868975268",
+      "text": "not sure why run failed since it passed on local, looking into it.\r\n\r\n![image](https://github.com/ohcnetwork/care_fe/assets/76207818/b05218d1-6380-441a-a043-354ced5b9671)\r\n"
     },
     {
       "type": "pr_reviewed",
       "time": "2023-12-25T12:51:11.000Z",
-      "title": "coronasafe/care_fe#6911",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911#pullrequestreview-1795880208",
+      "title": "ohcnetwork/care_fe#6911",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911#pullrequestreview-1795880208",
       "text": "Fixes redirect on login (#6900)"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#6911",
+      "title": "ohcnetwork/care_fe#6911",
       "time": "2023-12-25T12:17:46.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6911",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911",
       "text": "Fixes redirect on login (#6900)"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6900",
+      "title": "ohcnetwork/care_fe#6900",
       "time": "2023-12-25T11:44:43.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6900#issuecomment-1868945881",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6900#issuecomment-1868945881",
       "text": "Great! I'll get to it"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6900",
+      "title": "ohcnetwork/care_fe#6900",
       "time": "2023-12-25T11:15:10.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6900#issuecomment-1868934714",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6900#issuecomment-1868934714",
       "text": "@rithviknishad  This is a code design decision seems like the component expects an extra ?redirect= param at the end of string to redirect to, This isn't needed since the login page is shown on the same url that the user intends to go to. One way would be to redirect to the login page with a redirect param or another easier way might be to just use current url and just redirect to that after login."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6900",
+      "title": "ohcnetwork/care_fe#6900",
       "time": "2023-12-25T11:02:38.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6900#issuecomment-1868929531",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6900#issuecomment-1868929531",
       "text": "@rithviknishad Can you assign this to me?\r\n\r\n```tsx\r\nconst getRedirectURL = () => {\r\n  return new URLSearchParams(window.location.search).get(\"redirect\");\r\n};\r\n```\r\n\r\nThe problem is probably the getRedirectURL function which always returns null"
     }
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/6911",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6911",
       "title": "Fixes redirect on login (#6900)",
       "stale_for": 0,
-      "labels": [
-        "test failed",
-        "changes required",
-        "stale",
-        "cypress passed"
-      ]
+      "labels": ["test failed", "changes required", "stale", "cypress passed"]
     }
   ],
   "authored_issue_and_pr": []

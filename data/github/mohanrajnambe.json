@@ -3,9 +3,9 @@
   "activity": [
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#7577",
+      "title": "ohcnetwork/care_fe#7577",
       "time": "2024-04-08T17:56:00+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7577",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7577",
       "text": "Production release v24.15.0 | April week 2",
       "collaborated_with": [
         "soumya-maheshwari",
@@ -21,9 +21,9 @@
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#7529",
+      "title": "ohcnetwork/care_fe#7529",
       "time": "2024-04-03T13:18:35+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7529",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7529",
       "text": "Staging Release for v24.15.0",
       "collaborated_with": [
         "soumya-maheshwari",
@@ -36,31 +36,31 @@
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#7359",
+      "title": "ohcnetwork/care_fe#7359",
       "time": "2024-04-02T13:45:09+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7359",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7359",
       "text": "Handle no option available case when local body returns empty response ",
       "turnaround_time": 8079
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7359",
+      "title": "ohcnetwork/care_fe#7359",
       "time": "2024-03-30T18:07:34+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7359#issuecomment-2028402433",
-      "text": "@rithviknishad \r\nI have merged develop into this issue branch. But still the merge-conflicts stays in this PR whereas when I compare it states that it can be merged\r\n![image](https://github.com/coronasafe/care_fe/assets/55721773/7392bb0a-b44f-4158-8b35-c2a6ad21b09a)\r\n\r\nAny thoughts?"
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7359#issuecomment-2028402433",
+      "text": "@rithviknishad \r\nI have merged develop into this issue branch. But still the merge-conflicts stays in this PR whereas when I compare it states that it can be merged\r\n![image](https://github.com/ohcnetwork/care_fe/assets/55721773/7392bb0a-b44f-4158-8b35-c2a6ad21b09a)\r\n\r\nAny thoughts?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7359",
+      "title": "ohcnetwork/care_fe#7359",
       "time": "2024-03-30T18:04:44+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7359#issuecomment-2028397515",
-      "text": "![image](https://github.com/coronasafe/care_fe/assets/55721773/b11da347-8f01-4bdb-b239-16e9aafedbe9)\r\nWhen we have options loaded for State select, is displays the provided placeholder. \r\nWhen the State select is not chosen, other dependent District select is disabled with No options placeholder\r\n\r\n@rithviknishad "
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7359#issuecomment-2028397515",
+      "text": "![image](https://github.com/ohcnetwork/care_fe/assets/55721773/b11da347-8f01-4bdb-b239-16e9aafedbe9)\r\nWhen we have options loaded for State select, is displays the provided placeholder. \r\nWhen the State select is not chosen, other dependent District select is disabled with No options placeholder\r\n\r\n@rithviknishad "
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#7432",
+      "title": "ohcnetwork/care_fe#7432",
       "time": "2024-03-18T16:56:10+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7432",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7432",
       "text": "Production release v24.12.0 | March week 3",
       "collaborated_with": [
         "Dareenfadel",
@@ -74,23 +74,23 @@
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7359",
+      "title": "ohcnetwork/care_fe#7359",
       "time": "2024-03-15T15:19:42+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7359#issuecomment-1999892518",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7359#issuecomment-1999892518",
       "text": "I understand that we are trying to handle it in the root. \r\n\r\nValidating the options.length for placeholder text will lead to display 'No options available' instead of  'Choose of an option' at the first render.\r\n\r\nHere we bring data based on some other action. (for eg. based on what city is selected)\r\n\r\nIf we rely on options.length in the selectMenu itself, we loose the 'choose an option' placeholder initially and tend to display the 'no option available'. This is not the right way. Either we should handle it at where we use the component\r\nor \r\nAnother approach to handle is to move away from showing it in placeholder and displaying an option when the selectmenu is clicked as 'no option available'(disabled thereby cannot select this as well)\r\n\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7359",
+      "title": "ohcnetwork/care_fe#7359",
       "time": "2024-03-14T17:26:34+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7359#issuecomment-1997973017",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7359#issuecomment-1997973017",
       "text": "> Wouldn't this be better if we moved this logic to the Select Menu component itself so it'd be applicable in all use cases?\r\n\r\nSince the logic of either disabling or the placeholder text 'No options available' relies on the length of the option, taking that into selectmenu component is not viable unless we bring in a new prop to configure that again. So,  'options.length' is a good to have in the component which is utilising the SelectFormField(SelectMenuV2) "
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#7406",
+      "title": "ohcnetwork/care_fe#7406",
       "time": "2024-03-13T08:22:46+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7406",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7406",
       "text": "Staging release v24.12.0-beta",
       "collaborated_with": [
         "Ashesh3",
@@ -103,95 +103,95 @@
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#7303",
+      "title": "ohcnetwork/care_fe#7303",
       "time": "2024-03-12T11:49:57+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7303",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7303",
       "text": "Issue: 7132 - Disallow Add Consultation updates for active consultations without bed assigned",
       "turnaround_time": 5809
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7359",
+      "title": "ohcnetwork/care_fe#7359",
       "time": "2024-03-08T09:51:45+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7359#issuecomment-1985383902",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7359#issuecomment-1985383902",
       "text": "That is a holistic approach. Let me update the PR accordingly!"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#7359",
+      "title": "ohcnetwork/care_fe#7359",
       "time": "2024-03-08T06:53:17+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7359",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7359",
       "text": "Handle no option available case when local body returns empty response "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7355",
+      "title": "ohcnetwork/care_fe#7355",
       "time": "2024-03-07T15:55:32+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7355#issuecomment-1983823000",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7355#issuecomment-1983823000",
       "text": "No, the form will not be submitted.  The logical validation is present.\r\nWhat I am mentioning here is the UI ambiguity on the dropdown which is not handling the 'no options' scenario"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7355",
+      "title": "ohcnetwork/care_fe#7355",
       "time": "2024-03-07T15:44:27+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7355#issuecomment-1983797844",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7355#issuecomment-1983797844",
       "text": "@rithviknishad @aparnacoronasafe \r\nI would like to propose two solutions for this\r\nSolution 1: disable the select when the result option array is empty and show the placeholder of 'No option available'. Also, handle the option length logic in the select component. so that Listbox.Options will not be rendered if empty array is passed for options. \r\nSolution 2: In the SelectMenuV2 component, do a check for the options array length and render the ListBox.Options with passed values when it is not empty and show 'No option found' disabled option in the ListBox when it is empty. \r\n\r\nLet me know your thoughts on this."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7355",
+      "title": "ohcnetwork/care_fe#7355",
       "time": "2024-03-07T12:33:19+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7355#issuecomment-1983415626",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7355#issuecomment-1983415626",
       "text": "Yes, it is. Looks like there exists some districts without local bodies where the no option case is not handled in the dropdown "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7355",
+      "title": "ohcnetwork/care_fe#7355",
       "time": "2024-03-07T06:06:49+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7355#issuecomment-1982495300",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7355#issuecomment-1982495300",
       "text": "@rithviknishad Can you please assign this to me? Also, please let me know your thoughts on the issue "
     },
     {
       "type": "issue_opened",
-      "title": "coronasafe/care_fe#7355",
+      "title": "ohcnetwork/care_fe#7355",
       "time": "2024-03-07T06:01:50+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7355",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7355",
       "text": "Dropdown collapse when no data for local body"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7303",
+      "title": "ohcnetwork/care_fe#7303",
       "time": "2024-03-07T05:40:36+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7303#issuecomment-1982418876",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7303#issuecomment-1982418876",
       "text": "@nihal467 \r\n the add consultation update button is still not working after assigning a bed - bug is fixed and working as expected. Please review and test once again.\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7303",
+      "title": "ohcnetwork/care_fe#7303",
       "time": "2024-02-28T14:35:51.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/7303#issuecomment-1969121394",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7303#issuecomment-1969121394",
       "text": "@rithviknishad Please let me know if anything else needs to be updated on this PR"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7132",
+      "title": "ohcnetwork/care_fe#7132",
       "time": "2024-02-28T10:15:55.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7132#issuecomment-1968659670",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7132#issuecomment-1968659670",
       "text": "@rithviknishad I have created a PR on this issue #7303. Please review it!"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#7303",
+      "title": "ohcnetwork/care_fe#7303",
       "time": "2024-02-28T10:13:09.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/7303",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7303",
       "text": "Issue: 7132 - Disallow Add Consultation updates for active consultations without bed assigned"
     }
   ],
   "open_prs": [],
   "authored_issue_and_pr": [
     {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7355",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7359"
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7355",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7359"
     }
   ]
 }

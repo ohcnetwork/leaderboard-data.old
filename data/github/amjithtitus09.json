@@ -3,83 +3,75 @@
   "activity": [
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2362",
+      "title": "ohcnetwork/care#2362",
       "time": "2024-08-19T17:29:35.000Z",
-      "link": "https://github.com/coronasafe/care/pull/2362",
+      "link": "https://github.com/ohcnetwork/care/pull/2362",
       "text": "Production release 24.34.0",
-      "collaborated_with": [
-        "amjithtitus09",
-        "gigincg",
-        "nihal467",
-        "o",
-        "A"
-      ]
+      "collaborated_with": ["amjithtitus09", "gigincg", "nihal467", "o", "A"]
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2344",
+      "title": "ohcnetwork/care#2344",
       "time": "2024-08-08T14:26:16.000Z",
-      "link": "https://github.com/coronasafe/care/pull/2344#issuecomment-2275968785",
+      "link": "https://github.com/ohcnetwork/care/pull/2344#issuecomment-2275968785",
       "text": "@rithviknishad Marked as Ready for review"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#2344",
+      "title": "ohcnetwork/care#2344",
       "time": "2024-08-07T13:38:22.000Z",
-      "link": "https://github.com/coronasafe/care/pull/2344",
+      "link": "https://github.com/ohcnetwork/care/pull/2344",
       "text": "Explicity mention Public Read ACL for Facility Image S3 Uploads"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2335",
+      "title": "ohcnetwork/care#2335",
       "time": "2024-08-07T08:29:23.000Z",
-      "link": "https://github.com/coronasafe/care/issues/2335#issuecomment-2272916610",
+      "link": "https://github.com/ohcnetwork/care/issues/2335#issuecomment-2272916610",
       "text": "I would like to work on this issue"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1937",
+      "title": "ohcnetwork/care#1937",
       "time": "2024-06-03T08:05:31+00:00",
-      "link": "https://github.com/coronasafe/care/issues/1937#issuecomment-2144536227",
+      "link": "https://github.com/ohcnetwork/care/issues/1937#issuecomment-2144536227",
       "text": "@sainak Please share your feedback for the below approach\r\n### Implementation Plan\r\n\r\nTo make the storage provider configuration more flexible and support multiple types (AWS S3, Azure Blob Storage, Local Storage), this would be my approach:\r\n### 1. Define Abstract Base Class for Storage Providers\r\n\r\nCreate an abstract base class BaseStorageProvider that will define the common interface for all storage providers, ensuring consistency.\r\n### 2. Implement Concrete Storage Provider Classes\r\n\r\nImplement concrete storage provider classes for AWS S3, Azure Blob Storage, and Local Storage, each inheriting from the BaseStorageProvider class.\r\n### 3. Centralize Configuration Management\r\n\r\nUpdate the config.py to handle configuration for all supported storage providers and bucket types (e.g., Patient, Facility). This will include settings for AWS S3, Azure Blob Storage, and Local Storage.\r\n### 4. Create Utility Functions for Storage Provider Initialization\r\n\r\nCreate utility functions in storage_utils.py to initialize and return the appropriate storage provider based on the configuration.\r\n### 5. Integrate MIME Type Checks\r\n\r\nCentralize MIME type checks in a utility module mime_type_utils.py to avoid duplication and ensure consistency across different storage providers.\r\n\r\n**base_storage_provider.py**\r\n```\r\nclass BaseStorageProvider(ABC):\r\n\r\n    @abstractmethod\r\n    def get_signed_upload_url(self, filename: str, mime_type: str) -> str:\r\n        pass\r\n\r\n    @abstractmethod\r\n    def get_signed_download_url(self, filename: str) -> str:\r\n        pass\r\n\r\n    @abstractmethod\r\n    def upload_file(self, file: bytes, filename: str, mime_type: str):\r\n        pass\r\n\r\n    @abstractmethod\r\n    def download_file(self, filename: str) -> bytes:\r\n        pass\r\n```\r\n\r\n**config.py**\r\n```\r\n...\r\ndef get_facility_bucket_config(external: bool) -> tuple[ClientConfig, BucketName]:\r\n    if settings.CS_PROVIDER == CSProvider.AWS:\r\n        return {\r\n            \"region_name\": settings.FACILITY_S3_REGION,\r\n            \"aws_access_key_id\": settings.FACILITY_S3_KEY,\r\n            \"aws_secret_access_key\": settings.FACILITY_S3_SECRET,\r\n            \"endpoint_url\": settings.FACILITY_S3_BUCKET_EXTERNAL_ENDPOINT if external else settings.FACILITY_S3_BUCKET_ENDPOINT,\r\n        }, settings.FACILITY_S3_BUCKET\r\n    elif settings.CS_PROVIDER == CSProvider.AZURE:\r\n        return {\r\n            \"connection_string\": settings.FACILITY_AZURE_CONNECTION_STRING,\r\n        }, settings.FACILITY_AZURE_CONTAINER\r\n    elif settings.CS_PROVIDER == CSProvider.LOCAL:\r\n        return {}, settings.FACILITY_LOCAL_DIR\r\n    raise ValueError(\"Unsupported Cloud Service Provider\")\r\n...\r\n```\r\n\r\n**storage_utils.py**\r\n```\r\ndef get_storage_provider(bucket_type=BucketType.PATIENT):\r\n    config, bucket_name = get_client_config(bucket_type, True)\r\n    if settings.CS_PROVIDER == CSProvider.AWS:\r\n        return S3StorageProvider(bucket_name, config)\r\n    elif settings.CS_PROVIDER == CSProvider.AZURE:\r\n        return AzureBlobStorageProvider(bucket_name, config)\r\n    elif settings.CS_PROVIDER == CSProvider.LOCAL:\r\n        return LocalStorageProvider(bucket_name, config)\r\n    else:\r\n        raise ValueError(\"Unsupported storage provider\")\r\n```\r\n\r\n**mime_type_utils.py**\r\n```\r\ndef is_allowed_mime_type(mime_type: str) -> bool:\r\n    return mime_type in settings.ALLOWED_MIME_TYPES\r\n\r\ndef check_mime_type(mime_type: str):\r\n    if not is_allowed_mime_type(mime_type):\r\n        raise ValueError(f\"MIME type {mime_type} not allowed\")\r\n```"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/leaderboard-data#41",
+      "title": "ohcnetwork/leaderboard-data#41",
       "time": "2024-05-22T10:05:38+00:00",
-      "link": "https://github.com/coronasafe/leaderboard-data/pull/41",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/41",
       "text": "Update amjithtitus09.md",
       "turnaround_time": 5640
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/leaderboard-data#41",
+      "title": "ohcnetwork/leaderboard-data#41",
       "time": "2024-05-22T10:05:38+00:00",
-      "link": "https://github.com/coronasafe/leaderboard-data/pull/41",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/41",
       "text": "Update amjithtitus09.md",
-      "collaborated_with": [
-        "rithviknishad"
-      ]
+      "collaborated_with": ["rithviknishad"]
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1937",
+      "title": "ohcnetwork/care#1937",
       "time": "2024-05-21T12:28:31+00:00",
-      "link": "https://github.com/coronasafe/care/issues/1937#issuecomment-2122524381",
+      "link": "https://github.com/ohcnetwork/care/issues/1937#issuecomment-2122524381",
       "text": "@sainak Can I take up this issue using the last given approach?"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/leaderboard-data#41",
+      "title": "ohcnetwork/leaderboard-data#41",
       "time": "2024-05-21T08:31:38+00:00",
-      "link": "https://github.com/coronasafe/leaderboard-data/pull/41",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/41",
       "text": "Update amjithtitus09.md"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#1842",
+      "title": "ohcnetwork/care#1842",
       "time": "2024-01-22T14:43:47.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1842",
+      "link": "https://github.com/ohcnetwork/care/pull/1842",
       "text": "Production Release | January Week 4",
       "collaborated_with": [
         "khavinshankar",
@@ -91,55 +83,53 @@
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care#1809",
+      "title": "ohcnetwork/care#1809",
       "time": "2024-01-18T04:58:11.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1809",
+      "link": "https://github.com/ohcnetwork/care/pull/1809",
       "text": "Add env variables to toggle summarization tasks",
       "turnaround_time": 61665
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#1809",
+      "title": "ohcnetwork/care#1809",
       "time": "2024-01-18T04:58:11.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1809",
+      "link": "https://github.com/ohcnetwork/care/pull/1809",
       "text": "Add env variables to toggle summarization tasks",
-      "collaborated_with": [
-        "sainak"
-      ]
+      "collaborated_with": ["sainak"]
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1809",
+      "title": "ohcnetwork/care#1809",
       "time": "2024-01-06T12:56:25.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1809#issuecomment-1879674546",
+      "link": "https://github.com/ohcnetwork/care/pull/1809#issuecomment-1879674546",
       "text": "@sainak Made the changes and added Docs"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1800",
+      "title": "ohcnetwork/care#1800",
       "time": "2024-01-06T10:53:22.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1800#issuecomment-1879636152",
+      "link": "https://github.com/ohcnetwork/care/issues/1800#issuecomment-1879636152",
       "text": "@sainak Could you please share the link of the doc to be updated?"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1809",
+      "title": "ohcnetwork/care#1809",
       "time": "2024-01-06T10:51:38.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1809",
+      "link": "https://github.com/ohcnetwork/care/pull/1809",
       "text": "Summarization Tasks Disable - Added env variables"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1800",
+      "title": "ohcnetwork/care#1800",
       "time": "2024-01-05T11:37:56.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1800#issuecomment-1878532221",
+      "link": "https://github.com/ohcnetwork/care/issues/1800#issuecomment-1878532221",
       "text": "Hey @sainak can you assign me this issue?"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care#2344",
+      "title": "ohcnetwork/care#2344",
       "time": "2024-08-12T05:43:47Z",
-      "link": "https://github.com/coronasafe/care/pull/2344",
+      "link": "https://github.com/ohcnetwork/care/pull/2344",
       "text": "Explicity mention Public Read ACL for Facility Image S3 Uploads"
     }
   ],

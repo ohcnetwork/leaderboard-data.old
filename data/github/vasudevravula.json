@@ -3,92 +3,92 @@
   "activity": [
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1763",
+      "title": "ohcnetwork/care#1763",
       "time": "2023-12-16T04:35:15.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1763#issuecomment-1858716347",
+      "link": "https://github.com/ohcnetwork/care/pull/1763#issuecomment-1858716347",
       "text": "@rithviknishad Thanks for the detailed explanation of the issue. I'm checking to make the changes, can you please assign the API and UI issues to me when you get a chance?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1763",
+      "title": "ohcnetwork/care#1763",
       "time": "2023-12-13T04:58:55.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1763#issuecomment-1853270873",
+      "link": "https://github.com/ohcnetwork/care/pull/1763#issuecomment-1853270873",
       "text": "@rithviknishad can you check now? Thank you"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1763",
+      "title": "ohcnetwork/care#1763",
       "time": "2023-12-11T13:37:23.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1763#issuecomment-1850095484",
+      "link": "https://github.com/ohcnetwork/care/pull/1763#issuecomment-1850095484",
       "text": "@rithviknishad @vigneshhari can you check this PR when you get a chance. Thank you."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1721",
+      "title": "ohcnetwork/care#1721",
       "time": "2023-12-10T04:24:50.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1721#issuecomment-1848854529",
-      "text": "@rithviknishad created this PR, can you please take a look [1763](https://github.com/coronasafe/care/pull/1763)\r\n"
+      "link": "https://github.com/ohcnetwork/care/issues/1721#issuecomment-1848854529",
+      "text": "@rithviknishad created this PR, can you please take a look [1763](https://github.com/ohcnetwork/care/pull/1763)\r\n"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1763",
+      "title": "ohcnetwork/care#1763",
       "time": "2023-12-10T04:23:40.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1763",
+      "link": "https://github.com/ohcnetwork/care/pull/1763",
       "text": "Add min_quntity to facilityinventorysummary and add migration"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1721",
+      "title": "ohcnetwork/care#1721",
       "time": "2023-12-10T01:24:05.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1721#issuecomment-1848811790",
+      "link": "https://github.com/ohcnetwork/care/issues/1721#issuecomment-1848811790",
       "text": "@rithviknishad I got this working, I had to change the localstack and fidelius images to arm images"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1721",
+      "title": "ohcnetwork/care#1721",
       "time": "2023-12-07T12:07:37.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1721#issuecomment-1845227703",
+      "link": "https://github.com/ohcnetwork/care/issues/1721#issuecomment-1845227703",
       "text": "@rithviknishad yeah, I did this and before posting here"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1721",
+      "title": "ohcnetwork/care#1721",
       "time": "2023-12-06T05:25:45.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1721#issuecomment-1842110150",
-      "text": "> What's the command you've used to compose this up? (Refer: https://github.com/coronasafe/care?tab=readme-ov-file#compose)\n\nI've used make up"
+      "link": "https://github.com/ohcnetwork/care/issues/1721#issuecomment-1842110150",
+      "text": "> What's the command you've used to compose this up? (Refer: https://github.com/ohcnetwork/care?tab=readme-ov-file#compose)\n\nI've used make up"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1721",
+      "title": "ohcnetwork/care#1721",
       "time": "2023-12-06T03:59:21.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1721#issuecomment-1842045533",
+      "link": "https://github.com/ohcnetwork/care/issues/1721#issuecomment-1842045533",
       "text": "@rithviknishad I see this error when I do docker compose and unable to run the app locally, can you help me with this?\r\n\r\n[+] Building 0.0s (0/0)                                                                                  docker:default\r\n[+] Running 7/6\r\n ✔ Network care                 Created                                                                            0.1s\r\n ✔ Container care-fidelius-1    Created                                                                            0.1s\r\n ✔ Container care-redis-1       Created                                                                            0.1s\r\n ✔ Container care-localstack-1  Created                                                                            0.2s\r\n ✔ Container care-db-1          Created                                                                            0.1s\r\n ✔ Container care-backend-1     Created                                                                            0.2s\r\n ✔ Container care-celery-1      Created                                                                            0.1s\r\nAttaching to care-backend-1, care-celery-1, care-db-1, care-fidelius-1, care-localstack-1, care-redis-1\r\ncare-redis-1       | 1:C 06 Dec 2023 03:53:38.917 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.\r\ncare-redis-1       | 1:C 06 Dec 2023 03:53:38.918 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo\r\ncare-redis-1       | 1:C 06 Dec 2023 03:53:38.918 * Redis version=7.2.3, bits=64, commit=00000000, modified=0, pid=1, just started\r\ncare-redis-1       | 1:C 06 Dec 2023 03:53:38.918 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf\r\ncare-redis-1       | 1:M 06 Dec 2023 03:53:38.918 * monotonic clock: POSIX clock_gettime\r\ncare-redis-1       | 1:M 06 Dec 2023 03:53:38.919 * Running mode=standalone, port=6379.\r\ncare-redis-1       | 1:M 06 Dec 2023 03:53:38.919 * Server initialized\r\ncare-redis-1       | 1:M 06 Dec 2023 03:53:38.919 * Loading RDB produced by version 7.2.3\r\ncare-redis-1       | 1:M 06 Dec 2023 03:53:38.919 * RDB age 89 seconds\r\ncare-redis-1       | 1:M 06 Dec 2023 03:53:38.919 * RDB memory usage when created 0.83 Mb\r\ncare-redis-1       | 1:M 06 Dec 2023 03:53:38.919 * Done loading RDB, keys loaded: 0, keys expired: 0.\r\ncare-redis-1       | 1:M 06 Dec 2023 03:53:38.919 * DB loaded from disk: 0.000 seconds\r\ncare-redis-1       | 1:M 06 Dec 2023 03:53:38.919 * Ready to accept connections tcp\r\ncare-db-1          |\r\ncare-db-1          | PostgreSQL Database directory appears to contain a database; Skipping initialization\r\ncare-db-1          |\r\ncare-db-1          | 2023-12-06 03:53:39.952 UTC [1] LOG:  starting PostgreSQL 16.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 12.2.1_git20220924-r10) 12.2.1 20220924, 64-bit\r\ncare-db-1          | 2023-12-06 03:53:39.953 UTC [1] LOG:  listening on IPv4 address \"0.0.0.0\", port 5432\r\ncare-db-1          | 2023-12-06 03:53:39.953 UTC [1] LOG:  listening on IPv6 address \"::\", port 5432\r\ncare-db-1          | 2023-12-06 03:53:40.016 UTC [1] LOG:  listening on Unix socket \"/var/run/postgresql/.s.PGSQL.5432\"\r\ncare-db-1          | 2023-12-06 03:53:40.086 UTC [24] LOG:  database system was shut down at 2023-12-06 03:52:09 UTC\r\ncare-db-1          | 2023-12-06 03:53:40.116 UTC [1] LOG:  database system is ready to accept connections\r\ncare-localstack-1  | ERROR: 'rm -rf \"/tmp/localstack\"': exit code 1; output: b\"rm: cannot remove '/tmp/localstack': Device or resource busy\\n\"\r\ncare-localstack-1  | Traceback (most recent call last):\r\ncare-localstack-1  |   File \"<frozen runpy>\", line 198, in _run_module_as_main\r\ncare-localstack-1  |   File \"<frozen runpy>\", line 88, in _run_code\r\ncare-localstack-1  |   File \"/opt/code/localstack/localstack/runtime/main.py\", line 28, in <module>\r\ncare-localstack-1  |     main()\r\ncare-localstack-1  |   File \"/opt/code/localstack/localstack/runtime/main.py\", line 20, in main\r\ncare-localstack-1  |     infra.start_infra(asynchronous=False)\r\ncare-localstack-1  |   File \"/opt/code/localstack/localstack/services/infra.py\", line 235, in start_infra\r\ncare-localstack-1  |     files.rm_rf(config.dirs.tmp)\r\ncare-localstack-1  |   File \"/opt/code/localstack/localstack/utils/files.py\", line 214, in rm_rf\r\ncare-localstack-1  |     shutil.rmtree(path)\r\ncare-localstack-1  |   File \"/usr/local/lib/python3.11/shutil.py\", line 738, in rmtree\r\ncare-localstack-1  |     onerror(os.rmdir, path, sys.exc_info())\r\ncare-localstack-1  |   File \"/usr/local/lib/python3.11/shutil.py\", line 736, in rmtree\r\ncare-localstack-1  |     os.rmdir(path, dir_fd=dir_fd)\r\ncare-localstack-1  | OSError: [Errno 16] Device or resource busy: '/tmp/localstack'\r\n: invalid option namescripts/start-dev.sh: line 2: set: pipefail\r\ncare-backend-1 exited with code 2\r\ncare-localstack-1 exited with code 1\r\ncare-celery-1      | scripts/celery-dev.sh: line 2: $'\\r': command not found\r\ncare-fidelius-1    |\r\ncare-fidelius-1    |   .   ____          _            __ _ _\r\ncare-fidelius-1    |  /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\r\ncare-fidelius-1    | ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\\r\ncare-fidelius-1    |  \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )\r\ncare-fidelius-1    |   '  |____| .__|_| |_|_| |_\\__, | / / / /\r\ncare-fidelius-1    |  =========|_|==============|___/=/_/_/_/\r\ncare-fidelius-1    |  :: Spring Boot ::                (v2.4.3)\r\ncare-fidelius-1    |\r\ncare-celery-1      | usage: watchmedo [-h] [--version]\r\ncare-celery-1      |                  {tricks-from,tricks,tricks-generate-yaml,generate-tricks-yaml,log,shell-command,auto-restart}\r\ncare-celery-1      |                  ...\r\ncare-celery-1      | watchmedo: error: argument top_command: invalid choice: '\\r' (choose from 'tricks-from', 'tricks', 'tricks-generate-yaml', 'generate-tricks-yaml', 'log', 'shell-command', 'auto-restart')\r\ncare-celery-1      | scripts/celery-dev.sh: line 4: auto-restart: command not found\r\ncare-fidelius-1    | 2023-12-06 03:53:42.543  INFO 1 --- [           main] i.p.fidelius.FideliusApplication         : Starting FideliusApplication using Java 11.0.19 on e0f189000321 with PID 1 (/app/spring-boot-application.jar started by root in /)\r\ncare-fidelius-1    | 2023-12-06 03:53:42.553  INFO 1 --- [           main] i.p.fidelius.FideliusApplication         : No active profile set, falling back to default profiles: default\r\ncare-celery-1      | Usage: celery worker [OPTIONS]\r\ncare-celery-1      | Try 'celery worker --help' for help.\r\ncare-celery-1      |\r\ncare-celery-1      | Error: Invalid value for '-l' / '--loglevel': 'INFO\\r' is not one of 'DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL', 'FATAL'.\r\ncare-celery-1 exited with code 2\r\ncare-fidelius-1    | 2023-12-06 03:53:44.302  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)\r\ncare-fidelius-1    | 2023-12-06 03:53:44.329  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\r\ncare-fidelius-1    | 2023-12-06 03:53:44.330  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]\r\ncare-fidelius-1    | 2023-12-06 03:53:44.446  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext\r\ncare-fidelius-1    | 2023-12-06 03:53:44.446  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1675 ms\r\ncare-fidelius-1    | 2023-12-06 03:53:44.769  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'\r\ncare-fidelius-1    | 2023-12-06 03:53:45.034  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''\r\ncare-fidelius-1    | 2023-12-06 03:53:45.053  INFO 1 --- [           main] i.p.fidelius.FideliusApplication         : Started FideliusApplication in 3.846 seconds (JVM running for 5.471)\r\ncare-fidelius-1    | 2023-12-06 03:57:56.987  INFO 1 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6612",
+      "title": "ohcnetwork/care_fe#6612",
       "time": "2023-11-17T18:53:18.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6612#issuecomment-1816928958",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6612#issuecomment-1816928958",
       "text": "Can you assign this to me, I can start working on this"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6612",
+      "title": "ohcnetwork/care_fe#6612",
       "time": "2023-11-17T04:43:09.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6612#issuecomment-1815740293",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6612#issuecomment-1815740293",
       "text": "let me know if you are okay with adding this min_quantity call during the page load, I can add this"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6612",
+      "title": "ohcnetwork/care_fe#6612",
       "time": "2023-11-17T04:39:26.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6612#issuecomment-1815737963",
-      "text": "Hi @nihal467 @rithviknishad \r\nLooked into this a bit, we need to do a getMinInventory call that is being done when the Minimum Quantity Required button is clicked to add this new column.\r\n\r\nAlso, there are two min_quantity fields in the payload, that is not so intutitve, one I assume is a default value and the other is the value set\r\n![image](https://github.com/coronasafe/care_fe/assets/34686116/696c6ea8-eac5-402a-abb4-e74bf71ed39c)\r\n\r\n\r\n"
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6612#issuecomment-1815737963",
+      "text": "Hi @nihal467 @rithviknishad \r\nLooked into this a bit, we need to do a getMinInventory call that is being done when the Minimum Quantity Required button is clicked to add this new column.\r\n\r\nAlso, there are two min_quantity fields in the payload, that is not so intutitve, one I assume is a default value and the other is the value set\r\n![image](https://github.com/ohcnetwork/care_fe/assets/34686116/696c6ea8-eac5-402a-abb4-e74bf71ed39c)\r\n\r\n\r\n"
     }
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care/pull/1763",
+      "link": "https://github.com/ohcnetwork/care/pull/1763",
       "title": "Add min_quntity to facilityinventorysummary and add migration",
       "stale_for": 0,
       "labels": []

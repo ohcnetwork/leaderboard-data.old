@@ -3,57 +3,57 @@
   "activity": [
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2035",
+      "title": "ohcnetwork/care#2035",
       "time": "2024-04-26T12:53:30+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2035#issuecomment-2079333843",
+      "link": "https://github.com/ohcnetwork/care/pull/2035#issuecomment-2079333843",
       "text": "Hi, @vigneshhari @sainak I tried to read the DRF docs for serializers and ORM, tried various solutions, and finally was able to do it for `bed_count`, but I got stuck again when did the same for `patient_count` because the query started to give incorrect results when I annotated the `patientregistration` table too.\r\n\r\nORM started to join the bed table with `patientregistration` and fetch extra results\r\nmaybe we can achieve this by using raw SQL query \r\n\r\n\r\n```\r\n    queryset = (\r\n        ResourceRequest.objects.all()\r\n        .select_related(\r\n            \"origin_facility\",\r\n            \"origin_facility__ward\",\r\n            \"origin_facility__local_body\",\r\n            \"origin_facility__district\",\r\n            \"origin_facility__state\",\r\n            \"approving_facility\",\r\n            \"approving_facility__ward\",\r\n            \"approving_facility__local_body\",\r\n            \"approving_facility__district\",\r\n            \"approving_facility__state\",\r\n            \"assigned_facility\",\r\n            \"assigned_facility__ward\",\r\n            \"assigned_facility__local_body\",\r\n            \"assigned_facility__district\",\r\n            \"assigned_facility__state\",\r\n            \"assigned_to\",\r\n            \"created_by\",\r\n            \"last_edited_by\",\r\n        )\r\n        .annotate(\r\n            origin_facility_bed_count=Count(\"origin_facility__bed\"),\r\n            approving_facility_bed_count=Count(\"approving_facility__bed\"),\r\n            assigned_facility_bed_count=Count(\"assigned_facility__bed\"),\r\n        )\r\n        .annotate(\r\n            origin_facility_patient_count=Count(\"origin_facility__patientregistration\"),\r\n            approving_facility_patient_count=Count(\r\n                \"approving_facility__patientregistration\"\r\n            ),\r\n            assigned_facility_patient_count=Count(\r\n                \"assigned_facility__patientregistration\"\r\n            ),\r\n        )\r\n    )\r\n```"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1336",
+      "title": "ohcnetwork/care#1336",
       "time": "2024-03-29T18:31:19+00:00",
-      "link": "https://github.com/coronasafe/care/issues/1336#issuecomment-2027582752",
-      "text": "Hi @sainak @rithviknishad I have raised a pull request at https://github.com/coronasafe/care/pull/2035 "
+      "link": "https://github.com/ohcnetwork/care/issues/1336#issuecomment-2027582752",
+      "text": "Hi @sainak @rithviknishad I have raised a pull request at https://github.com/ohcnetwork/care/pull/2035 "
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#2035",
+      "title": "ohcnetwork/care#2035",
       "time": "2024-03-29T18:30:12+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2035",
+      "link": "https://github.com/ohcnetwork/care/pull/2035",
       "text": "fix N+1 queries in /api/v1/resource/"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1336",
+      "title": "ohcnetwork/care#1336",
       "time": "2024-03-27T12:06:44+00:00",
-      "link": "https://github.com/coronasafe/care/issues/1336#issuecomment-2022609493",
+      "link": "https://github.com/ohcnetwork/care/issues/1336#issuecomment-2022609493",
       "text": "I found the view `ResourceRequestViewSet`, working on it."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1336",
+      "title": "ohcnetwork/care#1336",
       "time": "2024-03-20T18:39:57+00:00",
-      "link": "https://github.com/coronasafe/care/issues/1336#issuecomment-2010340238",
+      "link": "https://github.com/ohcnetwork/care/issues/1336#issuecomment-2010340238",
       "text": "> Parent Span | django.view - resource-request-list\r\n\r\nI could not find this Django view in the current version of `develop` branch. It has been some time since this issue was raised and I think the view class name changed in the meantime. Can you help me finding the view and the query which we need to optimise @sainak @rithviknishad "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#812",
+      "title": "ohcnetwork/care#812",
       "time": "2024-03-20T13:00:39+00:00",
-      "link": "https://github.com/coronasafe/care/issues/812#issuecomment-2009514287",
+      "link": "https://github.com/ohcnetwork/care/issues/812#issuecomment-2009514287",
       "text": "Hello,\r\n\r\nI'm Aditya Suthar, a third-year Computer Science student at Engineering College Bikaner. I'm eager to contribute to your project through the Google Summer of Code program. With experience in Python and Django, I'm keen to apply my skills to this issue."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1336",
+      "title": "ohcnetwork/care#1336",
       "time": "2024-03-20T12:42:35+00:00",
-      "link": "https://github.com/coronasafe/care/issues/1336#issuecomment-2009478795",
+      "link": "https://github.com/ohcnetwork/care/issues/1336#issuecomment-2009478795",
       "text": "Hi @sainak can I work on this issue\r\n"
     }
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care/pull/2035",
+      "link": "https://github.com/ohcnetwork/care/pull/2035",
       "title": "fix N+1 queries in /api/v1/resource/",
       "stale_for": 0,
       "labels": []

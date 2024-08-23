@@ -7,7 +7,7 @@ on:
 
 jobs:
   run-scraper:
-    uses: coronasafe/leaderboard/.github/workflows/scraper.yaml@main
+    uses: ohcnetwork/leaderboard/.github/workflows/scraper.yaml@main
     if: github.ref == 'refs/heads/main'
     permissions:
       issues: read

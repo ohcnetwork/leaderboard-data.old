@@ -3,23 +3,23 @@
   "activity": [
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7316",
+      "title": "ohcnetwork/care_fe#7316",
       "time": "2024-03-15T11:32:39+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7316#issuecomment-1999467337",
-      "text": "I have made all the possibilities of the header in the design \r\n\r\n<img width=\"830\" alt=\"Screenshot 2024-03-15 at 5 00 08 PM\" src=\"https://github.com/coronasafe/care_fe/assets/98007961/7bb72c6d-8308-4d88-ac29-83587329c962\">\r\n\r\n\r\nHey @rithviknishad @sainak @nihal467  look into the design and if it is correct , then I would to like to work on the issue, could you please assign it to me\r\n"
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7316#issuecomment-1999467337",
+      "text": "I have made all the possibilities of the header in the design \r\n\r\n<img width=\"830\" alt=\"Screenshot 2024-03-15 at 5 00 08 PM\" src=\"https://github.com/ohcnetwork/care_fe/assets/98007961/7bb72c6d-8308-4d88-ac29-83587329c962\">\r\n\r\n\r\nHey @rithviknishad @sainak @nihal467  look into the design and if it is correct , then I would to like to work on the issue, could you please assign it to me\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7316",
+      "title": "ohcnetwork/care_fe#7316",
       "time": "2024-03-14T12:25:34+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7316#issuecomment-1997332424",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7316#issuecomment-1997332424",
       "text": "@rithviknishad  i would use labels instead of icons, or we could even use the tip to tell about the tool over hovering it.\r\nAlso we need a responsive mobile UI , I think it would be best if we could align all the features of top row of the design I provided into hamburger menu and rest could be adjusted\r\n"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#1962",
+      "title": "ohcnetwork/care#1962",
       "time": "2024-03-11T17:33:29+00:00",
-      "link": "https://github.com/coronasafe/care/pull/1962",
+      "link": "https://github.com/ohcnetwork/care/pull/1962",
       "text": "Production release v24.11.0",
       "collaborated_with": [
         "DraKen0009",
@@ -33,9 +33,9 @@
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#7387",
+      "title": "ohcnetwork/care_fe#7387",
       "time": "2024-03-11T17:32:11+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7387",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7387",
       "text": "Production release v24.11.0",
       "collaborated_with": [
         "AnkurPrabhu",
@@ -48,9 +48,9 @@
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#7386",
+      "title": "ohcnetwork/care_fe#7386",
       "time": "2024-03-11T17:30:39+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7386",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7386",
       "text": "Staging release v24.11.0-beta",
       "collaborated_with": [
         "AnkurPrabhu",
@@ -62,9 +62,9 @@
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#7385",
+      "title": "ohcnetwork/care_fe#7385",
       "time": "2024-03-11T17:22:59+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7385",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7385",
       "text": "Staging release v24.11.0-beta",
       "collaborated_with": [
         "AnkurPrabhu",
@@ -76,179 +76,174 @@
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7316",
+      "title": "ohcnetwork/care_fe#7316",
       "time": "2024-03-07T19:57:14+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7316#issuecomment-1984322875",
-      "text": "@sainak @rithviknishad , i have built a mockup considering all the above conditions\r\n \r\n<img width=\"831\" alt=\"Screenshot 2024-03-08 at 1 11 10 AM\" src=\"https://github.com/coronasafe/care_fe/assets/98007961/b53dc94e-49db-486a-8b06-068a576adfff\">\r\n\r\nFrom the above images of headers we currently have, I found some points :-\r\n1. There are some fields which are common on every header like export/import , filters , a search field, section name, counts\r\n2. Some CTA are present on some headers, these are different for different sections .\r\n3. Some pages contain some switches for parsing different data.\r\n4. Some pages contain more than one search fields.\r\n\r\nThe mockup solves all these problems, as:\r\n1. The fixed fields are kept constant at one corner .\r\n2. These CTA can be added according to our needs and are optional, can handle more buttons too in grid system\r\n3. We can fix a switch on the topmost side of header which is optional\r\n4. I have provided a dropdown in search field, where one can select the search prop to be search and add more such search fields.\r\n\r\nin technical aspect\r\nLets create a header component capable of all these features, it would have props which would control all these fractures like:\r\n\r\n<Header title=\"Facilities\" count=\"3000\" searchFields=[] ctaArray=[{name,onClickFunction}]/>\r\n\r\ncc: @nihal467 @Ashesh3 \r\n"
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7316#issuecomment-1984322875",
+      "text": "@sainak @rithviknishad , i have built a mockup considering all the above conditions\r\n \r\n<img width=\"831\" alt=\"Screenshot 2024-03-08 at 1 11 10 AM\" src=\"https://github.com/ohcnetwork/care_fe/assets/98007961/b53dc94e-49db-486a-8b06-068a576adfff\">\r\n\r\nFrom the above images of headers we currently have, I found some points :-\r\n1. There are some fields which are common on every header like export/import , filters , a search field, section name, counts\r\n2. Some CTA are present on some headers, these are different for different sections .\r\n3. Some pages contain some switches for parsing different data.\r\n4. Some pages contain more than one search fields.\r\n\r\nThe mockup solves all these problems, as:\r\n1. The fixed fields are kept constant at one corner .\r\n2. These CTA can be added according to our needs and are optional, can handle more buttons too in grid system\r\n3. We can fix a switch on the topmost side of header which is optional\r\n4. I have provided a dropdown in search field, where one can select the search prop to be search and add more such search fields.\r\n\r\nin technical aspect\r\nLets create a header component capable of all these features, it would have props which would control all these fractures like:\r\n\r\n<Header title=\"Facilities\" count=\"3000\" searchFields=[] ctaArray=[{name,onClickFunction}]/>\r\n\r\ncc: @nihal467 @Ashesh3 \r\n"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#7314",
+      "title": "ohcnetwork/care_fe#7314",
       "time": "2024-03-07T01:37:13+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7314",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7314",
       "text": "Fix: Improving Facility type options",
       "turnaround_time": 84932
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#7314",
+      "title": "ohcnetwork/care_fe#7314",
       "time": "2024-03-07T01:37:13+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7314",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7314",
       "text": "Fix: Improving Facility type options",
-      "collaborated_with": [
-        "Ashesh3",
-        "nihal467"
-      ]
+      "collaborated_with": ["Ashesh3", "nihal467"]
     },
     {
       "type": "issue_closed",
-      "title": "coronasafe/care#1931",
+      "title": "ohcnetwork/care#1931",
       "time": "2024-03-04T16:32:18.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1931",
+      "link": "https://github.com/ohcnetwork/care/issues/1931",
       "text": "Migration of new facility types"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care#1936",
+      "title": "ohcnetwork/care#1936",
       "time": "2024-03-04T13:40:28.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1936",
+      "link": "https://github.com/ohcnetwork/care/pull/1936",
       "text": "Fix:Migration of new facility types",
       "turnaround_time": 27859
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#1936",
+      "title": "ohcnetwork/care#1936",
       "time": "2024-03-04T13:40:28.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1936",
+      "link": "https://github.com/ohcnetwork/care/pull/1936",
       "text": "Fix:Migration of new facility types",
-      "collaborated_with": [
-        "sainak"
-      ]
+      "collaborated_with": ["sainak"]
     },
     {
       "type": "pr_reviewed",
       "time": "2024-03-02T07:07:40.000Z",
-      "title": "coronasafe/care#1932",
-      "link": "https://github.com/coronasafe/care/pull/1932#pullrequestreview-1912593240",
+      "title": "ohcnetwork/care#1932",
+      "link": "https://github.com/ohcnetwork/care/pull/1932#pullrequestreview-1912593240",
       "text": "Fix:Migration of new facility types"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1936",
+      "title": "ohcnetwork/care#1936",
       "time": "2024-03-02T05:58:06.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1936#issuecomment-1974331275",
+      "link": "https://github.com/ohcnetwork/care/pull/1936#issuecomment-1974331275",
       "text": "@sainak i have make the custom migration changes can you check\r\n"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1936",
+      "title": "ohcnetwork/care#1936",
       "time": "2024-03-02T05:56:09.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1936",
+      "link": "https://github.com/ohcnetwork/care/pull/1936",
       "text": "Fix:Migration of new facility types"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7316",
+      "title": "ohcnetwork/care_fe#7316",
       "time": "2024-03-01T14:07:57.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7316#issuecomment-1973269829",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7316#issuecomment-1973269829",
       "text": "Hi, @sainak can I work on the issue, I would create a new general header component that would fit most of the types shown, for any extra case we can create a separate functional component  in the same component file"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7319",
+      "title": "ohcnetwork/care_fe#7319",
       "time": "2024-03-01T14:02:32.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7319#issuecomment-1973260864",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7319#issuecomment-1973260864",
       "text": "Hi, can i work on the issue\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7101",
+      "title": "ohcnetwork/care_fe#7101",
       "time": "2024-03-01T08:33:24.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7101#issuecomment-1972744137",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7101#issuecomment-1972744137",
       "text": "Hey @Sunilsubba , can you tell me if I'm correct or not, If the user is a StateAdmin then it may add patients of any district in the state, whereas if it is a district admin then the patient allowed should be of same district, and the rest other cases would throw an error.\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7101",
+      "title": "ohcnetwork/care_fe#7101",
       "time": "2024-03-01T08:28:48.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7101#issuecomment-1972737265",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7101#issuecomment-1972737265",
       "text": "Hey, @jainvedant392 are you working on the issue, or can I proceed with it.\r\n\r\n\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7314",
+      "title": "ohcnetwork/care_fe#7314",
       "time": "2024-02-29T13:16:10.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/7314#issuecomment-1971117308",
-      "text": "Hi, I have already raised a backend pull request https://github.com/coronasafe/care/pull/1932"
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7314#issuecomment-1971117308",
+      "text": "Hi, I have already raised a backend pull request https://github.com/ohcnetwork/care/pull/1932"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1931",
+      "title": "ohcnetwork/care#1931",
       "time": "2024-02-29T13:10:41.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1931#issuecomment-1971108248",
+      "link": "https://github.com/ohcnetwork/care/issues/1931#issuecomment-1971108248",
       "text": "Hi, this is the backend changed required for the fix of an issue raised in the frontend repo of CARE. I have already merged opened a PR"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1932",
+      "title": "ohcnetwork/care#1932",
       "time": "2024-02-29T13:08:32.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1932",
+      "link": "https://github.com/ohcnetwork/care/pull/1932",
       "text": "Fix:Migration of new facility types"
     },
     {
       "type": "issue_opened",
-      "title": "coronasafe/care#1931",
+      "title": "ohcnetwork/care#1931",
       "time": "2024-02-29T13:01:46.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1931",
+      "link": "https://github.com/ohcnetwork/care/issues/1931",
       "text": "Migration of new facility types"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#7314",
+      "title": "ohcnetwork/care_fe#7314",
       "time": "2024-02-29T12:48:49.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/7314",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7314",
       "text": "Fix: Improving Facility type options"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7295",
+      "title": "ohcnetwork/care_fe#7295",
       "time": "2024-02-29T09:38:50.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7295#issuecomment-1970756167",
-      "text": "Hi @aeswibon i have done changes in the frontend and its working fine, for the backend migrations I have made changes in facility.py model you can see in the figure, is it ok, how can I make migrations out of these changes. \r\n\r\n<img width=\"954\" alt=\"Screenshot 2024-02-29 at 3 05 53 PM\" src=\"https://github.com/coronasafe/care_fe/assets/98007961/28fb6ffa-344a-4ba6-82dd-ed73eea1dc9f\">\r\n<img width=\"1141\" alt=\"Screenshot 2024-02-29 at 3 06 30 PM\" src=\"https://github.com/coronasafe/care_fe/assets/98007961/0ccc7546-9cfb-446d-ab0f-d21449320fa3\">\r\n"
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7295#issuecomment-1970756167",
+      "text": "Hi @aeswibon i have done changes in the frontend and its working fine, for the backend migrations I have made changes in facility.py model you can see in the figure, is it ok, how can I make migrations out of these changes. \r\n\r\n<img width=\"954\" alt=\"Screenshot 2024-02-29 at 3 05 53 PM\" src=\"https://github.com/ohcnetwork/care_fe/assets/98007961/28fb6ffa-344a-4ba6-82dd-ed73eea1dc9f\">\r\n<img width=\"1141\" alt=\"Screenshot 2024-02-29 at 3 06 30 PM\" src=\"https://github.com/ohcnetwork/care_fe/assets/98007961/0ccc7546-9cfb-446d-ab0f-d21449320fa3\">\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7277",
+      "title": "ohcnetwork/care_fe#7277",
       "time": "2024-02-28T10:27:41.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7277#issuecomment-1968680571",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7277#issuecomment-1968680571",
       "text": "Hey, it seems a very nice idea, we can add a feature like spotlight search offered by ios , where we can type various tags and as one presses enter that particular tag would be selected, or even we can provide some custom inputs in the spotlight like \r\nfield:value pair tags,\r\n\r\nfor example  tags could be like:\r\n1. Search for : facilities / patients / assets\r\n2. location : Delhi/city"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7295",
+      "title": "ohcnetwork/care_fe#7295",
       "time": "2024-02-28T10:18:08.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7295#issuecomment-1968663586",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7295#issuecomment-1968663586",
       "text": "Hi @sainak @aeswibon i want to work on the issue, if its free as the frontend part is very easy and its done should I create a pull request. For the already created data we need to change it from backend for permanent resolution should I create a pull request on backend repo."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7289",
+      "title": "ohcnetwork/care_fe#7289",
       "time": "2024-02-28T10:00:58.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7289#issuecomment-1968630321",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7289#issuecomment-1968630321",
       "text": "@sainak thanks for helping, I got your point. I am currently facing an issue in the issue, if we want to differentiate between the tabs which on the basis of data if they contain or not then we may have to fetch all their corresponding data at once when the page loads, because the tabs are requesting for data when they are active.\r\n\r\nCan you tell me is it the way to solve the issue or there is some other method too for it?\r\n\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7289",
+      "title": "ohcnetwork/care_fe#7289",
       "time": "2024-02-27T16:10:51.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7289#issuecomment-1966912839",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7289#issuecomment-1966912839",
       "text": "Or we can mark a new tag on the tabs \r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7289",
+      "title": "ohcnetwork/care_fe#7289",
       "time": "2024-02-27T16:07:42.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7289#issuecomment-1966906189",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7289#issuecomment-1966906189",
       "text": "Hi @aparnacoronasafe , i have a suggestion regarding the issue, you idea of fading the tabs with no patients is good but how would the user come to know about this feature until informed, instead the tabs already show occupancy and if there are no patients then occupancy is by default zero and hence I think we can give all these 0 occupancy tags a separate color or add certain fields in filters tags.\r\n\r\n"
     }
   ],

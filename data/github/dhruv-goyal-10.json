@@ -3,100 +3,100 @@
   "activity": [
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#2283",
+      "title": "ohcnetwork/care#2283",
       "time": "2024-06-29T09:02:23+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2283",
+      "link": "https://github.com/ohcnetwork/care/pull/2283",
       "text": "feat: added additional shortcuts to the makefile"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2260",
+      "title": "ohcnetwork/care#2260",
       "time": "2024-06-28T07:18:24+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2260#issuecomment-2196295807",
+      "link": "https://github.com/ohcnetwork/care/pull/2260#issuecomment-2196295807",
       "text": "@sainak Have a look at the PR now..."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2208",
+      "title": "ohcnetwork/care#2208",
       "time": "2024-06-28T07:03:06+00:00",
-      "link": "https://github.com/coronasafe/care/issues/2208#issuecomment-2196273883",
+      "link": "https://github.com/ohcnetwork/care/issues/2208#issuecomment-2196273883",
       "text": "@skks1212 Yep, you can assign me this issue."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2208",
+      "title": "ohcnetwork/care#2208",
       "time": "2024-06-24T19:15:07+00:00",
-      "link": "https://github.com/coronasafe/care/issues/2208#issuecomment-2187239166",
+      "link": "https://github.com/ohcnetwork/care/issues/2208#issuecomment-2187239166",
       "text": "@skks1212 Yep, it will be passed down if the entire command is passed as string.\r\n\r\nIn your case, `make \"migrate facility 0001\"` will work same as running `python manage.py migrate facility 0001`."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2268",
+      "title": "ohcnetwork/care#2268",
       "time": "2024-06-17T14:37:11+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2268#issuecomment-2173595584",
+      "link": "https://github.com/ohcnetwork/care/pull/2268#issuecomment-2173595584",
       "text": "@sainak Can you have a look at this PR?"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#2268",
+      "title": "ohcnetwork/care#2268",
       "time": "2024-06-17T14:35:42+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2268",
+      "link": "https://github.com/ohcnetwork/care/pull/2268",
       "text": "Set default permission class to IsAuthenticated & made required changes"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2260",
+      "title": "ohcnetwork/care#2260",
       "time": "2024-06-17T07:01:34+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2260#issuecomment-2172449992",
+      "link": "https://github.com/ohcnetwork/care/pull/2260#issuecomment-2172449992",
       "text": "@sainak @gigincg I have added the test case for the same."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2260",
+      "title": "ohcnetwork/care#2260",
       "time": "2024-06-13T19:37:00+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2260#issuecomment-2166629917",
+      "link": "https://github.com/ohcnetwork/care/pull/2260#issuecomment-2166629917",
       "text": "@gigincg Can you have a look at the PR?\r\n\r\nThanks"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#2260",
+      "title": "ohcnetwork/care#2260",
       "time": "2024-06-10T17:18:41+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2260",
+      "link": "https://github.com/ohcnetwork/care/pull/2260",
       "text": "Fixed N+1 query occurrence in the /api/v1/facility/"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2238",
+      "title": "ohcnetwork/care#2238",
       "time": "2024-06-09T11:15:11+00:00",
-      "link": "https://github.com/coronasafe/care/issues/2238#issuecomment-2156448793",
+      "link": "https://github.com/ohcnetwork/care/issues/2238#issuecomment-2156448793",
       "text": "@sainak Can you assign this issue to me?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2241",
+      "title": "ohcnetwork/care#2241",
       "time": "2024-06-09T11:10:30+00:00",
-      "link": "https://github.com/coronasafe/care/issues/2241#issuecomment-2156447062",
+      "link": "https://github.com/ohcnetwork/care/issues/2241#issuecomment-2156447062",
       "text": "@sainak A new middleware is required or can we just append the response time to the existing `AuditLogMiddleware`?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2208",
+      "title": "ohcnetwork/care#2208",
       "time": "2024-06-09T10:59:14+00:00",
-      "link": "https://github.com/coronasafe/care/issues/2208#issuecomment-2156442845",
+      "link": "https://github.com/ohcnetwork/care/issues/2208#issuecomment-2156442845",
       "text": "@skks1212 I think so the following code, covers the changes you suggested.\r\n\r\nCommands like **migrate, shell_plus & dbshell** are covered under wildcard command.\r\n**reset_test_db** is covered separately.\r\n\r\n```\r\n# Reset the test database and apply migrations\r\nreset_test_db:\r\n\tdocker compose exec backend bash -c \"python manage.py reset_db --noinput\"\r\n\tdocker compose exec backend bash -c \"python manage.py migrate\"\r\n\r\n# Wildcard command to run any Django management command\r\n%:\r\n\tdocker compose exec backend bash -c \"python manage.py $*\"\r\n```"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2085",
+      "title": "ohcnetwork/care#2085",
       "time": "2024-06-09T10:32:00+00:00",
-      "link": "https://github.com/coronasafe/care/issues/2085#issuecomment-2156433916",
+      "link": "https://github.com/ohcnetwork/care/issues/2085#issuecomment-2156433916",
       "text": "@sainak What behaviour do we want to implement on User object creation?\r\n\r\nInitially SET updated_by to null\r\nor \r\nInitially SET updated_by equal to created_by"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#1962",
+      "title": "ohcnetwork/care#1962",
       "time": "2024-03-11T17:33:29+00:00",
-      "link": "https://github.com/coronasafe/care/pull/1962",
+      "link": "https://github.com/ohcnetwork/care/pull/1962",
       "text": "Production release v24.11.0",
       "collaborated_with": [
         "DraKen0009",
@@ -110,136 +110,134 @@
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care#1908",
+      "title": "ohcnetwork/care#1908",
       "time": "2024-03-04T13:25:19.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1908",
+      "link": "https://github.com/ohcnetwork/care/pull/1908",
       "text": "Fixed N+1 queries issue in /api/v1/bed/",
       "turnaround_time": 47673
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#1908",
+      "title": "ohcnetwork/care#1908",
       "time": "2024-03-04T13:25:19.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1908",
+      "link": "https://github.com/ohcnetwork/care/pull/1908",
       "text": "Fixed N+1 queries issue in /api/v1/bed/",
-      "collaborated_with": [
-        "sainak"
-      ]
+      "collaborated_with": ["sainak"]
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1909",
+      "title": "ohcnetwork/care#1909",
       "time": "2024-03-01T14:20:52.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1909#issuecomment-1973290377",
+      "link": "https://github.com/ohcnetwork/care/pull/1909#issuecomment-1973290377",
       "text": "@sainak But since **Bed** is the related object, how can we annotate the property of Bed while fetching the objects of **ConsultationBed**.\r\nBecause, as per my knowledge, we can only annotate the property of the objects present in the queryset and not of the related object, present in the queryset."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1908",
+      "title": "ohcnetwork/care#1908",
       "time": "2024-02-29T02:12:50.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1908#issuecomment-1970272008",
+      "link": "https://github.com/ohcnetwork/care/pull/1908#issuecomment-1970272008",
       "text": "@sainak I have added the test case for this as suggested by you, Please have a look now!"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1909",
+      "title": "ohcnetwork/care#1909",
       "time": "2024-02-26T20:10:39.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1909#issuecomment-1965164606",
+      "link": "https://github.com/ohcnetwork/care/pull/1909#issuecomment-1965164606",
       "text": "@sainak In this particular case, although commenting out is_property field of Bed Model will not affect the results of **ConsultationBedSerializer**, as we are going to handle the is_occupied property of Bed in this serializer.\r\n\r\nBut in other serializers like **AssetBedSerializer, PatientAssetBedSerializer**, which are also using **BedSerializer**, since we are not handling the is_occupied property of Bed in these serializers, so it will always correspond to the False (the default value).\r\n\r\nWhat are your thoughts?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1908",
+      "title": "ohcnetwork/care#1908",
       "time": "2024-02-26T19:37:54.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1908#issuecomment-1965105277",
+      "link": "https://github.com/ohcnetwork/care/pull/1908#issuecomment-1965105277",
       "text": "@sainak Made the changes as suggested by you.\r\nAlso, thanks for an insightful discussion."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1908",
+      "title": "ohcnetwork/care#1908",
       "time": "2024-02-26T18:59:10.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1908#issuecomment-1964907225",
+      "link": "https://github.com/ohcnetwork/care/pull/1908#issuecomment-1964907225",
       "text": "@sainak I later realised this, commenting out the is_occupied property will although not affect the results in case of list method, but it will affect the result in case of retrieve method (fetching a particular object using id), coz we aren't annotating is_occupied property in that case and it will always corresponds to False (the default value).\r\nIsn't it?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1908",
+      "title": "ohcnetwork/care#1908",
       "time": "2024-02-26T17:07:36.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1908#issuecomment-1964666744",
+      "link": "https://github.com/ohcnetwork/care/pull/1908#issuecomment-1964666744",
       "text": "Hey @sainak! I have done changes suggested by you. Can you please have a look at my PR now?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1908",
+      "title": "ohcnetwork/care#1908",
       "time": "2024-02-26T14:14:38.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1908#issuecomment-1964245710",
+      "link": "https://github.com/ohcnetwork/care/pull/1908#issuecomment-1964245710",
       "text": "@sainak @rithviknishad @vigneshhari I have completed the changes as suggested by @sainak. Can you review my PR now?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1336",
+      "title": "ohcnetwork/care#1336",
       "time": "2024-02-23T18:16:47.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1336#issuecomment-1961785592",
+      "link": "https://github.com/ohcnetwork/care/issues/1336#issuecomment-1961785592",
       "text": "@sainak @rithviknishad @vigneshhari Can you please assign this issue to me?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1909",
+      "title": "ohcnetwork/care#1909",
       "time": "2024-02-23T10:24:29.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1909#issuecomment-1961072549",
+      "link": "https://github.com/ohcnetwork/care/pull/1909#issuecomment-1961072549",
       "text": "@sainak @rithviknishad @vigneshhari Can you please review this PR?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1908",
+      "title": "ohcnetwork/care#1908",
       "time": "2024-02-23T10:24:22.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1908#issuecomment-1961072406",
+      "link": "https://github.com/ohcnetwork/care/pull/1908#issuecomment-1961072406",
       "text": "@sainak @rithviknishad @vigneshhari Can you please review this PR?"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1909",
+      "title": "ohcnetwork/care#1909",
       "time": "2024-02-23T03:36:19.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1909",
+      "link": "https://github.com/ohcnetwork/care/pull/1909",
       "text": "Fixed N+1 queries issue in /api/v1/consultationbed/"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1339",
+      "title": "ohcnetwork/care#1339",
       "time": "2024-02-23T02:01:45.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1339#issuecomment-1960635266",
+      "link": "https://github.com/ohcnetwork/care/issues/1339#issuecomment-1960635266",
       "text": "@sainak @vigneshhari @nikhilagastya I want to work on this issue.\r\nCan you please assign this issue to me?\r\n"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1908",
+      "title": "ohcnetwork/care#1908",
       "time": "2024-02-23T00:10:46.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1908",
+      "link": "https://github.com/ohcnetwork/care/pull/1908",
       "text": "Fixed N+1 queries issue in /api/v1/bed/"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1335",
+      "title": "ohcnetwork/care#1335",
       "time": "2024-02-22T20:24:04.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1335#issuecomment-1960248371",
+      "link": "https://github.com/ohcnetwork/care/issues/1335#issuecomment-1960248371",
       "text": "@sainak I would like to work on this issue. Can you please assign this to me?\r\n\r\nThanks!"
     }
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care/pull/2283",
+      "link": "https://github.com/ohcnetwork/care/pull/2283",
       "title": "feat: added additional shortcuts to the makefile",
       "stale_for": 0,
       "labels": []
     },
     {
-      "link": "https://github.com/coronasafe/care/pull/2268",
+      "link": "https://github.com/ohcnetwork/care/pull/2268",
       "title": "Set default permission class to IsAuthenticated & made required changes",
       "stale_for": 12,
       "labels": []
     },
     {
-      "link": "https://github.com/coronasafe/care/pull/2260",
+      "link": "https://github.com/ohcnetwork/care/pull/2260",
       "title": "Fixed N+1 query occurrence in the /api/v1/facility/",
       "stale_for": 0,
       "labels": []

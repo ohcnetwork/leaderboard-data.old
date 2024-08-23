@@ -3,44 +3,44 @@
   "activity": [
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7459",
+      "title": "ohcnetwork/care_fe#7459",
       "time": "2024-03-24T18:14:37+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7459#issuecomment-2016891597",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7459#issuecomment-2016891597",
       "text": "Hello @Pranshu1902 , I suggest that instead of adding a feature of marking the notification as unread, I think we should add a feature of star marking a notification or pinning that notification. In this way users can differentiate between important and unimportant notifications."
     },
     {
       "type": "issue_opened",
-      "title": "coronasafe/care_fe#7433",
+      "title": "ohcnetwork/care_fe#7433",
       "time": "2024-03-18T15:57:39+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7433",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7433",
       "text": "Overflow of the text in the UI button Advanced Filters"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7427",
+      "title": "ohcnetwork/care_fe#7427",
       "time": "2024-03-16T17:56:25+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7427#issuecomment-2002064599",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7427#issuecomment-2002064599",
       "text": "Can you please assign this issue to me?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1977",
+      "title": "ohcnetwork/care#1977",
       "time": "2024-03-15T22:10:39+00:00",
-      "link": "https://github.com/coronasafe/care/issues/1977#issuecomment-2000570469",
+      "link": "https://github.com/ohcnetwork/care/issues/1977#issuecomment-2000570469",
       "text": "Hello @nihal467 ,\r\n\r\nI am Rajesh Kumar Singh an undergraduate engineering student, with strong passion in full-stack development. I have read the problem statement and I am really interested to contribute to this project.\r\n\r\nI have read the project features to be implemented and I think my skills be really helpful for the project, as it's requirements align with my past experience, I have worked with developing chat bots before, I have developed a chat bot my self in a hackathon hosted my Morgan Stanley, I built it in a react native application. Additionally I have built telegram bots using Aiogram in python. I think my skills will be really helpful for the project.\r\n\r\n**Overview**:\r\nThe project involves building a wrapper for the CARE platform to facilitate interaction via instant messaging (IM) bots, with a focus on improving user experience. Additionally, a WhatsApp bot will be developed to serve both patients and hospital staff, providing functionalities such as fetching patient records, medications, procedures, schedules, asset status, and inventory data.\r\n\r\nRoadmap:\r\n1) Wrapper Development: Create IM wrapper API for CARE platform.\r\n2) WhatsApp Bot Development: Build bot for patient and staff interaction with help of **TWILIO**.\r\n3) Privacy Measures: Implement data protection measures.\r\n4) Testing and Deployment: Test, deploy, and monitor."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7425",
+      "title": "ohcnetwork/care_fe#7425",
       "time": "2024-03-15T21:58:25+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7425#issuecomment-2000531775",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7425#issuecomment-2000531775",
       "text": "Hello @nihal467 and @rithviknishad ,\r\nI am Rajesh Kumar Singh an undergraduate engineering student, with strong passion in full-stack development. I have read the problem statement and I am really interested to contribute to this project.\r\n\r\nI am read the project features to be implemented and I think my skills be really helpful for the project, as it's requirements align with my past experience, I have worked with AWS S3 before and I have used it with MERN stack, but I have figured out how I will implement it with React(typescript) and Django.\r\n\r\n**Overview**:\r\nThe project aims to integrate the OHIF Viewer for DICOM image viewing into the CARE platform and develop a robust S3-based file management system for DICOM files. This will enhance the platform's capabilities for managing medical imaging data, improving patient care and workflow efficiency. The primary features include DICOM Viewer Integration, S3-Based DICOM File Management, Sample DICOM File Procurement, and Integration with Patient Files/File Upload.\r\n\r\n**Roadmap**:\r\n1) OHIF Viewer Integration: Evaluate and integrate OHIF Viewer into CARE platform.\r\n2) S3-Based File Management: Develop secure and scalable system for DICOM file storage on S3.\r\n3) Sample DICOM Files: Procure diverse set of sample DICOM files for testing.\r\n4) Integration with Patient Files: Seamlessly integrate DICOM file handling into patient records and upload system.\r\n5) Testing and Quality Assurance: Conduct thorough testing and gather feedback for refinement."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6715",
+      "title": "ohcnetwork/care_fe#6715",
       "time": "2024-03-15T21:50:56+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/6715#issuecomment-2000509223",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6715#issuecomment-2000509223",
       "text": "Hello @nihal467 and @rithviknishad ,\r\nI am Rajesh Kumar Singh an undergraduate engineering student, with strong passion in full-stack development. I have read the problem statement and I am really interested to contribute to this project.\r\n\r\nI am read the project features to be implemented and I think my skills be really helpful for the project, as it's requirements align with my past experience, I have worked with 2 factor authentication before as well, in MERN stack. And I have figured out the how I will implement it in Django as well.\r\n\r\nFeatures to be Implemented:\r\n1) 2 Factor Authentication: The login page of the care frontend will be modified to direct user's to a new page, where they will be required to fill the OTP that will be sent to them via email, and the OTP will be a time-base OTP, which will expire after certain time.\r\n2) Backend Integration: Library like pyotp will be used to generate time-based to otp and it will integerated in backend of the care i.e care_fe\r\n3) User Enrollment for 2FA: Users will be able to enroll in 2FA through their account settings. During enrollment, the 2FA method will be verified, and a unique secret key will be generated for the user, which can then be added to their preferred authentication app. Users will have the flexibility to add or remove 2FA from their profile settings at any time.\r\n4) Secuiry Measures: Rate Limiting will be implemented on the 2 factor authentication system."
     }
   ],
