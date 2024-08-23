@@ -1,6 +1,268 @@
 {
-  "last_updated": "2024-08-19T18:48:20.000Z",
+  "last_updated": "2024-08-22T17:30:02.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2389",
+      "time": "2024-08-22T17:30:02.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2389",
+      "text": "Merge Develop to Staging 24.35.0",
+      "collaborated_with": [
+        "rithviknishad",
+        "AryanChoudhary-07",
+        "sainak",
+        "vigneshhari",
+        "DraKen0009",
+        "o",
+        "i",
+        "4",
+        "shivankacker"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8404",
+      "time": "2024-08-22T17:29:31.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8404",
+      "text": "Merge Develop to Staging 24.35.0",
+      "collaborated_with": [
+        "rithviknishad",
+        "SagarSharma2809",
+        "o",
+        "i",
+        "A",
+        "gigincg",
+        "khavinshankar",
+        "thevishvammoliya",
+        "Nithin9585",
+        "7",
+        "h"
+      ]
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/leaderboard-data#60",
+      "time": "2024-08-22T17:16:22.000Z",
+      "link": "https://github.com/coronasafe/leaderboard-data/pull/60",
+      "text": "Adds data that was missed by scraper in last few days"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8381",
+      "time": "2024-08-22T16:53:39.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8381",
+      "text": " Hide N/A and null values in event log #8376",
+      "collaborated_with": [
+        "Nithin9585",
+        "nihal467",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/leaderboard#506",
+      "time": "2024-08-22T16:32:52.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/506",
+      "text": "Scraper: Fixes incorrect default date range"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/leaderboard#505",
+      "time": "2024-08-22T16:32:30.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/issues/505",
+      "text": "Scraper not scraping data"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8400",
+      "time": "2024-08-22T16:29:19.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8400",
+      "text": "Fix Scroll Issue with Pressure Sores Popup",
+      "collaborated_with": [
+        "gigincg",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T16:13:44.000Z",
+      "title": "coronasafe/care_fe#8402",
+      "link": "https://github.com/coronasafe/care_fe/pull/8402#pullrequestreview-2255087271",
+      "text": "Enable Facility Cover Image Uploads on Mobile Screens"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/leaderboard#504",
+      "time": "2024-08-22T15:58:24.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/504",
+      "text": "Update .env; Refactor to OHC",
+      "turnaround_time": 3049
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T15:57:49.000Z",
+      "title": "coronasafe/leaderboard#504",
+      "link": "https://github.com/coronasafe/leaderboard/pull/504#pullrequestreview-2255048911",
+      "text": "Update .env; Refactor to OHC"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#8403",
+      "time": "2024-08-22T14:49:34.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8403",
+      "text": "Show alert/popup/warning notification when opening Care on older/unsupported browsers"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8402",
+      "time": "2024-08-22T14:40:58.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8402#issuecomment-2304847197",
+      "text": "> @rithviknishad Can you confirm that removing the imageKey wouldn't cause any issues\r\n\r\n@gigincg `?imageKey` was originally intended to force refresh the image as the signed URL for a facility wouldn't change for changes made to the image."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T14:39:42.000Z",
+      "title": "coronasafe/care_fe#8402",
+      "link": "https://github.com/coronasafe/care_fe/pull/8402#pullrequestreview-2254717856",
+      "text": "Optimize Facility Cover Image Uploads for auto-refresh"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T14:36:46.000Z",
+      "title": "coronasafe/care_fe#8402",
+      "link": "https://github.com/coronasafe/care_fe/pull/8402#pullrequestreview-2254717856",
+      "text": "Optimize Facility Cover Image Uploads for auto-refresh"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8397",
+      "time": "2024-08-22T14:29:40.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8397#issuecomment-2304821445",
+      "text": "@aparnacoronasafe We decided to restrict the range to a more restrictive value than allowing 0 to 250. Can we get a more acceptable / useful range?\r\n\r\ncc: @gigincg "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8398",
+      "time": "2024-08-22T14:28:16.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8398#issuecomment-2304818027",
+      "text": "Closing as the ranges would be updated to a more restrictive value instead"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T14:09:18.000Z",
+      "title": "coronasafe/care_fe#8400",
+      "link": "https://github.com/coronasafe/care_fe/pull/8400#pullrequestreview-2254642065",
+      "text": "Fix Scroll Issue with Pressure Sores Popup"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T13:36:44.000Z",
+      "title": "coronasafe/care_fe#8260",
+      "link": "https://github.com/coronasafe/care_fe/pull/8260#pullrequestreview-2254550611",
+      "text": "Migrate to Headless UI v2"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T12:52:35.000Z",
+      "title": "coronasafe/care_fe#8400",
+      "link": "https://github.com/coronasafe/care_fe/pull/8400#pullrequestreview-2254418842",
+      "text": "Fix Scroll Issue with Pressure Sores Popup"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T12:51:43.000Z",
+      "title": "coronasafe/care_fe#8400",
+      "link": "https://github.com/coronasafe/care_fe/pull/8400#pullrequestreview-2254418842",
+      "text": "Fix Scroll Issue with Pressure Sores Popup"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T12:47:29.000Z",
+      "title": "coronasafe/care_fe#8400",
+      "link": "https://github.com/coronasafe/care_fe/pull/8400#pullrequestreview-2254418842",
+      "text": "Fix Scroll Issue with Pressure Sores Popup"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T12:46:47.000Z",
+      "title": "coronasafe/care_fe#8400",
+      "link": "https://github.com/coronasafe/care_fe/pull/8400#pullrequestreview-2254418842",
+      "text": "Fix Scroll Issue with Pressure Sores Popup"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T12:46:41.000Z",
+      "title": "coronasafe/care_fe#8400",
+      "link": "https://github.com/coronasafe/care_fe/pull/8400#pullrequestreview-2254418842",
+      "text": "Fix Scroll Issue with Pressure Sores Popup"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2387",
+      "time": "2024-08-22T12:16:18.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2387",
+      "text": "Improved asset bed relations for camera preset"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8286",
+      "time": "2024-08-22T11:54:17.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8286#issuecomment-2304483126",
+      "text": "The \"sort by\" and \"filter\" is NOT a tab right? Can we keep it outside the tab switch? "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T11:26:59.000Z",
+      "title": "coronasafe/care_fe#8394",
+      "link": "https://github.com/coronasafe/care_fe/pull/8394#pullrequestreview-2254252582",
+      "text": " Improve validation check for phone number in patient list page #8189"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8398",
+      "time": "2024-08-22T11:10:35.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8398",
+      "text": "Update range of diastolic BP field in detailed log update"
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#8397",
+      "time": "2024-08-22T11:07:56.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8397",
+      "text": "Update range of diastolic blood pressure in detailed log update"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T10:43:05.000Z",
+      "title": "coronasafe/care_fe#8396",
+      "link": "https://github.com/coronasafe/care_fe/pull/8396#pullrequestreview-2254169894",
+      "text": "Improve Notes TextArea; Improve i18n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T10:17:02.000Z",
+      "title": "coronasafe/care_fe#8395",
+      "link": "https://github.com/coronasafe/care_fe/pull/8395#pullrequestreview-2254109453",
+      "text": "Update react-pdf; pdfjs worker; Fixes for i18n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care#2386",
+      "time": "2024-08-22T10:10:15.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2386",
+      "text": "Update JSON Schema validations for I/O Balance fields"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8268",
+      "time": "2024-08-22T09:57:47.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8268",
+      "text": "Corrected Spelling mistake of daily rounds fields: ventilator_fi02 to ventilator_fio2 in Frontend #8241",
+      "collaborated_with": [
+        "SagarSharma2809",
+        "rithviknishad"
+      ]
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#8304",
@@ -52493,12 +52755,24 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/8372",
-      "title": "Remove unintended duplicate request in Consultation Create",
+      "link": "https://github.com/coronasafe/care/pull/2387",
+      "title": "Improved asset bed relations for camera preset",
       "stale_for": 0,
       "labels": [
-        "needs testing"
+        "In progress"
       ]
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2386",
+      "title": "Update JSON schema validations of Daily Round fields ",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/care/pull/2382",
+      "title": "Fixes check for no treating physician and not mandate for Domicialiary Care",
+      "stale_for": 0,
+      "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2366",
@@ -52509,66 +52783,24 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8363",
       "title": "Navigate to session expired page instead of showing notification",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "changes required"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/8362",
-      "title": "Use staging backend for cypress tests if PR base branch is staging",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/8339",
-      "title": "Remove unused components and packages",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care/pull/2356",
-      "title": "Rename field `ventilator_fi02` to `ventilator_fio2`",
-      "stale_for": 6,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/coronasafe/care/pull/2350",
-      "title": "Allow ICD11 diagnoses for chapters that were previously disabled",
       "stale_for": 1,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": [
         "work-in-progress"
       ]
     },
     {
-      "link": "https://github.com/coronasafe/care/pull/2320",
-      "title": "Update pre-commit config",
-      "stale_for": 22,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/coronasafe/care/pull/2289",
-      "title": "Allows creation of duplicate symptoms if cure date is present",
-      "stale_for": 38,
-      "labels": []
-    },
-    {
       "link": "https://github.com/coronasafe/care/pull/2247",
       "title": "remove deprecated fields that has been migrated to new models (Diagnosis and Prescriptions)",
-      "stale_for": 40,
+      "stale_for": 42,
       "labels": []
     },
     {
@@ -52582,6 +52814,22 @@
   ],
   "authored_issue_and_pr": [
     {
+      "issue_link": "https://github.com/coronasafe/leaderboard/issues/505",
+      "pr_link": "https://github.com/coronasafe/leaderboard/pull/506"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/leaderboard/issues/505",
+      "pr_link": "https://github.com/coronasafe/leaderboard-data/pull/60"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8358",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/8362"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8338",
+      "pr_link": "https://github.com/coronasafe/care/pull/2350"
+    },
+    {
       "issue_link": "https://github.com/coronasafe/care_fe/issues/8298",
       "pr_link": "https://github.com/coronasafe/care_fe/pull/8316"
     },
@@ -52592,6 +52840,10 @@
     {
       "issue_link": "https://github.com/coronasafe/care_fe/issues/8287",
       "pr_link": "https://github.com/coronasafe/care_fe/pull/8320"
+    },
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8241",
+      "pr_link": "https://github.com/coronasafe/care/pull/2356"
     },
     {
       "issue_link": "https://github.com/coronasafe/care_fe/issues/8127",
@@ -52656,14 +52908,6 @@
     {
       "issue_link": "https://github.com/coronasafe/care_fe/issues/7567",
       "pr_link": "https://github.com/coronasafe/care_fe/pull/7839"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7527",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7528"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7506",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7508"
     }
   ]
 }

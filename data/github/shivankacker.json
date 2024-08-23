@@ -1,6 +1,52 @@
 {
-  "last_updated": "2024-08-19T17:29:06.000Z",
+  "last_updated": "2024-08-22T17:30:02.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2389",
+      "time": "2024-08-22T17:30:02.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2389",
+      "text": "Merge Develop to Staging 24.35.0",
+      "collaborated_with": [
+        "rithviknishad",
+        "AryanChoudhary-07",
+        "sainak",
+        "vigneshhari",
+        "DraKen0009",
+        "o",
+        "i",
+        "4",
+        "shivankacker"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8329",
+      "time": "2024-08-22T15:04:28.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8329#issuecomment-2304908869",
+      "text": "@nihal467 internationalisation done\r\n\r\ncc. @gigincg @khavinshankar "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T12:59:18.000Z",
+      "title": "coronasafe/care_fe#8398",
+      "link": "https://github.com/coronasafe/care_fe/pull/8398#pullrequestreview-2254449919",
+      "text": "Update range of diastolic BP field in detailed log update"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T12:50:21.000Z",
+      "title": "coronasafe/care#2382",
+      "link": "https://github.com/coronasafe/care/pull/2382#pullrequestreview-2254427932",
+      "text": "Fixes check for no treating physician and not mandate for Domicialiary Care"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T12:45:26.000Z",
+      "title": "coronasafe/care#2366",
+      "link": "https://github.com/coronasafe/care/pull/2366#pullrequestreview-2254416620",
+      "text": "Correct I/O Balance output choice spelling mistake for Ryles Tube Aspiration"
+    },
     {
       "type": "pr_collaborated",
       "title": "coronasafe/care_fe#8348",
@@ -10148,7 +10194,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8379",
       "title": "Switched to uploadFile from axios in scribe",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review"
@@ -10165,32 +10211,15 @@
       "title": "Add suggestion chips instead of autofilling diagnosis",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/8352",
-      "title": "Show \"Save and Continue\" for Progress Notes and Doctors Log",
-      "stale_for": 0,
-      "labels": [
-        "tested",
-        "reviewed"
-      ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care_fe/pull/8350",
-      "title": "Fixed rounds type changing for Scribe",
-      "stale_for": 0,
-      "labels": [
         "needs review",
-        "tested"
+        "changes required",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/coronasafe/docs/pull/36",
       "title": "Scribe updates",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": []
     },
     {
@@ -10198,14 +10227,16 @@
       "title": "Refactored FileUpload component",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "tested",
+        "changes required",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/coronasafe/landing/pull/9",
       "title": "Added more supporters and bug fixes",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": []
     },
     {
@@ -10214,44 +10245,37 @@
       "stale_for": 0,
       "labels": [
         "needs review",
-        "tested",
-        "waiting for backend"
+        "tested"
       ]
-    },
-    {
-      "link": "https://github.com/coronasafe/care/pull/2332",
-      "title": "Add option to filter users with no home facility",
-      "stale_for": 7,
-      "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2309",
       "title": "Show error if doctor is not linked to the consultation facility",
-      "stale_for": 7,
+      "stale_for": 9,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2302",
       "title": "Added new skills",
-      "stale_for": 33,
+      "stale_for": 35,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/ayushma/pull/519",
-      "title": "Switch to Milvus, Added GPT-4 support",
+      "title": "Production Release: Switch to Milvus, Added GPT-4 support",
       "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2298",
       "title": "Added actively dying patient category",
-      "stale_for": 27,
+      "stale_for": 29,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7970",
       "title": "Added patient category descriptions for ICU bed patients",
-      "stale_for": 6,
+      "stale_for": 8,
       "labels": [
         "needs review",
         "tested",
@@ -10262,7 +10286,7 @@
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7933",
       "title": "Reenabled discharge patient admitted to filter",
-      "stale_for": 6,
+      "stale_for": 8,
       "labels": [
         "needs review",
         "tested",
@@ -10272,19 +10296,19 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2204",
       "title": "Adds functionality for `last_consultation_admitted_bed_type_list` in discharge patient filters",
-      "stale_for": 21,
+      "stale_for": 23,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/docs/pull/26",
       "title": "New Consent Restructure Proposal",
-      "stale_for": 83,
+      "stale_for": 85,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/7772",
       "title": "Added facility hubs",
-      "stale_for": 6,
+      "stale_for": 8,
       "labels": [
         "hold",
         "needs review",
@@ -10295,13 +10319,17 @@
     {
       "link": "https://github.com/coronasafe/care/pull/2135",
       "title": "Added Facility Hubs",
-      "stale_for": 38,
+      "stale_for": 40,
       "labels": [
         "blocked"
       ]
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/coronasafe/care_fe/issues/8351",
+      "pr_link": "https://github.com/coronasafe/care_fe/pull/8352"
+    },
     {
       "issue_link": "https://github.com/coronasafe/care_fe/issues/8173",
       "pr_link": "https://github.com/coronasafe/care_fe/pull/8174"

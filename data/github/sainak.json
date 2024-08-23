@@ -1,6 +1,73 @@
 {
-  "last_updated": "2024-08-19T17:33:01.000Z",
+  "last_updated": "2024-08-22T17:47:20.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8405",
+      "time": "2024-08-22T17:47:20.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8405",
+      "text": "Fix pdf previews"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2389",
+      "time": "2024-08-22T17:30:02.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2389",
+      "text": "Merge Develop to Staging 24.35.0",
+      "collaborated_with": [
+        "rithviknishad",
+        "AryanChoudhary-07",
+        "sainak",
+        "vigneshhari",
+        "DraKen0009",
+        "o",
+        "i",
+        "4",
+        "shivankacker"
+      ]
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care#2388",
+      "time": "2024-08-22T14:24:56.000Z",
+      "link": "https://github.com/coronasafe/care/issues/2388",
+      "text": "Add support for i18l for error responses from the backend"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T13:57:19.000Z",
+      "title": "coronasafe/teleicu_middleware_backend#1",
+      "link": "https://github.com/coronasafe/teleicu_middleware_backend/pull/1#pullrequestreview-2254607712",
+      "text": "Middleware Initial code"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T11:04:37.000Z",
+      "title": "coronasafe/care#2384",
+      "link": "https://github.com/coronasafe/care/pull/2384#pullrequestreview-2254210291",
+      "text": "Added required validation for Max dosage."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T11:04:37.000Z",
+      "title": "coronasafe/care#2384",
+      "link": "https://github.com/coronasafe/care/pull/2384#pullrequestreview-2254210291",
+      "text": "Added required validation for Max dosage."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T10:56:03.000Z",
+      "title": "coronasafe/care#2382",
+      "link": "https://github.com/coronasafe/care/pull/2382#pullrequestreview-2254194238",
+      "text": "Fixes check for no treating physician and not mandate for Domicialiary Care"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T10:54:10.000Z",
+      "title": "coronasafe/care#2366",
+      "link": "https://github.com/coronasafe/care/pull/2366#pullrequestreview-2254190839",
+      "text": "Correct I/O Balance output choice spelling mistake for Ryles Tube Aspiration"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-08-19T17:33:01.000Z",
@@ -15995,51 +16062,63 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/coronasafe/care_fe/pull/8405",
+      "title": "Fix pdf previews",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/coronasafe/teleicu_middleware/pull/141",
+      "title": "Cleanup unused routes and convert auth response to string",
+      "stale_for": 1,
+      "labels": []
+    },
+    {
       "link": "https://github.com/coronasafe/care/pull/2372",
       "title": "fix creating notifications if shifting_approving_facility is not available",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/8326",
       "title": "Cleanup unused files",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/docs/pull/33",
       "title": "[CEP-6] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 19,
+      "stale_for": 21,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2287",
       "title": "Update dependencies",
-      "stale_for": 40,
+      "stale_for": 42,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care/pull/2217",
       "title": "remove deprecated symptoms fields",
-      "stale_for": 79,
+      "stale_for": 81,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_scribe/pull/9",
       "title": "Use translation API to generate text for the prompt",
-      "stale_for": 83,
+      "stale_for": 85,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/citizen/pull/44",
       "title": "Quick changes to get the app running again",
-      "stale_for": 156,
+      "stale_for": 158,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 6,
+      "stale_for": 8,
       "labels": [
         "blocked",
         "changes required",
@@ -16050,13 +16129,13 @@
     {
       "link": "https://github.com/coronasafe/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 97,
+      "stale_for": 99,
       "labels": []
     },
     {
       "link": "https://github.com/coronasafe/medibase/pull/7",
       "title": "Update dependencies",
-      "stale_for": 397,
+      "stale_for": 399,
       "labels": []
     }
   ],
@@ -16124,14 +16203,6 @@
     {
       "issue_link": "https://github.com/coronasafe/care/issues/1627",
       "pr_link": "https://github.com/coronasafe/care/pull/1628"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care/issues/1610",
-      "pr_link": "https://github.com/coronasafe/care/pull/1611"
-    },
-    {
-      "issue_link": "https://github.com/coronasafe/care/issues/1594",
-      "pr_link": "https://github.com/coronasafe/care/pull/1591"
     }
   ]
 }

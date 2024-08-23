@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-08-19T20:17:35.000Z",
+  "last_updated": "2024-08-22T12:24:52.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8286",
+      "time": "2024-08-22T12:24:52.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8286#issuecomment-2304541053",
+      "text": "> The \"sort by\" and \"filter\" is NOT a tab right? Can we keep it outside the tab switch?\r\n\r\nhttps://github.com/user-attachments/assets/9a32ff26-1b2f-42e5-a1ed-f6ff424a4851\r\n\r\nThere is some inconsistency in the appearance of filter buttons. How do we make it better ? any inputs @rithviknishad \r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8286",
+      "time": "2024-08-22T11:51:35.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8286#issuecomment-2304478177",
+      "text": "\r\nhttps://github.com/user-attachments/assets/42e51659-108f-4f5f-81bb-ce4e391b7ce5\r\n\r\nI have brought them to single row by creating filter ui elements in the parent component (removed the logic related to them in child components where they were present initially) and passed the corresponding query values of both filter ui as props to components which render the result obtained from filtering. Adjusted the grid to 3 columns. Please let me know if this is what you wanted ? and happy to modify if anything @rithviknishad "
+    },
     {
       "type": "comment_created",
       "title": "coronasafe/care_fe#8304",
@@ -102,19 +116,21 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/8368",
-      "title": "Made General Instructions field in Consultation Form non mandatory",
+      "link": "https://github.com/coronasafe/care_fe/pull/8391",
+      "title": "Make Treating Doctor Field Optional for Domiciliary Care Patients",
       "stale_for": 0,
       "labels": [
-        "needs testing"
+        "tested",
+        "waiting for backend"
       ]
     },
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/8360",
-      "title": "Make Treating Doctor Field Optional for Domiciliary Care Patients #8304",
+      "link": "https://github.com/coronasafe/care_fe/pull/8390",
+      "title": "Added Diagnosis at Discharge field when patient is discharged",
       "stale_for": 0,
       "labels": [
-        "needs testing"
+        "needs testing",
+        "needs review"
       ]
     }
   ],

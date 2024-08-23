@@ -1,6 +1,200 @@
 {
-  "last_updated": "2024-08-19T17:29:35.000Z",
+  "last_updated": "2024-08-22T17:35:52.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/leaderboard-data#60",
+      "time": "2024-08-22T17:35:52.000Z",
+      "link": "https://github.com/coronasafe/leaderboard-data/pull/60",
+      "text": "Adds data that was missed by scraper in last few days",
+      "turnaround_time": 1171
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care#2389",
+      "time": "2024-08-22T17:30:02.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2389",
+      "text": "Merge Develop to Staging 24.35.0",
+      "turnaround_time": 7729
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8404",
+      "time": "2024-08-22T17:29:31.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8404",
+      "text": "Merge Develop to Staging 24.35.0",
+      "turnaround_time": 7619
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8404",
+      "time": "2024-08-22T17:29:31.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8404",
+      "text": "Merge Develop to Staging 24.35.0",
+      "collaborated_with": [
+        "rithviknishad",
+        "SagarSharma2809",
+        "o",
+        "i",
+        "A",
+        "gigincg",
+        "khavinshankar",
+        "thevishvammoliya",
+        "Nithin9585",
+        "7",
+        "h"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8402",
+      "time": "2024-08-22T17:06:21.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8402",
+      "text": "Enable Facility Cover Image Uploads on Mobile Screens",
+      "collaborated_with": [
+        "gigincg",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#8347",
+      "time": "2024-08-22T16:58:26.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8347",
+      "text": "PDF Preview is not working in file upload component"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8395",
+      "time": "2024-08-22T16:58:26.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8395",
+      "text": "Update react-pdf; pdfjs worker; Fixes for i18n",
+      "turnaround_time": 24232
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8260",
+      "time": "2024-08-22T16:46:37.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8260",
+      "text": "Migrate to Headless UI v2",
+      "turnaround_time": 1436772
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-22T16:33:15.000Z",
+      "title": "coronasafe/care_fe#8402",
+      "link": "https://github.com/coronasafe/care_fe/pull/8402#pullrequestreview-2255134218",
+      "text": "Enable Facility Cover Image Uploads on Mobile Screens"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care_fe#8400",
+      "time": "2024-08-22T16:29:19.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8400",
+      "text": "Fix Scroll Issue with Pressure Sores Popup",
+      "collaborated_with": [
+        "gigincg",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8397",
+      "time": "2024-08-22T15:31:30.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8397#issuecomment-2305035505",
+      "text": "@aparnacoronasafe Can we do\n\nSystolic pressure between 50 and 250 mmHg.\nDiastolic pressure between 20 and 180 mmHg.\nAlso, ensure that systolic pressure is always greater than diastolic pressure before submission."
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/leaderboard#504",
+      "time": "2024-08-22T15:07:36.000Z",
+      "link": "https://github.com/coronasafe/leaderboard/pull/504",
+      "text": "Update .env; Refactor to OHC"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8402",
+      "time": "2024-08-22T14:30:20.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8402",
+      "text": "Optimize Facility Cover Image Uploads for auto-refresh"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8400",
+      "time": "2024-08-22T13:52:35.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8400#issuecomment-2304732104",
+      "text": "@rithviknishad Thanks for the review, redid the calculations a bit, I think it should be fine now! Do check it out once more"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#5088",
+      "time": "2024-08-22T12:45:19.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/5088#issuecomment-2304581839",
+      "text": "@stokedowl The PR from @sghosh28 was not salveageable due to a recent refactor from Rescript to Typescript for the applicable files. I made a PR to fix the issue. I'm not an expert at Positioning, so I would appreciate a review.\r\n\r\nIf you can think of a better solution please do let us know & Feel free to take up any other issues as well.\r\n\r\nYou can also join in on our slack community at https://slack.ohc.network/ Where you can reach the team for any questions/discussions. "
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8400",
+      "time": "2024-08-22T12:42:23.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8400",
+      "text": "Fix Scroll Issue with Pressure Sores Popup"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#6169",
+      "time": "2024-08-22T12:36:58.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/6169#issuecomment-2304565108",
+      "text": "Closing the issue, since the PressureSore component has been rebuilt in TypeScript, making this PR unsalvageable"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#5088",
+      "time": "2024-08-22T11:12:54.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/5088#issuecomment-2304405704",
+      "text": "@stokedowl This is still an issue, @sghosh28 had attempted to fix the issue, but it seems to have been a little buggy. You could try salvaging the PR or you could make a new PR."
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care#1014",
+      "time": "2024-08-22T11:04:23.000Z",
+      "link": "https://github.com/coronasafe/care/issues/1014",
+      "text": "OCR for ABG Readings"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8166",
+      "time": "2024-08-22T11:02:50.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8166#issuecomment-2304386326",
+      "text": "Adding as a Task under #7511"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#8166",
+      "time": "2024-08-22T11:02:49.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8166",
+      "text": "Enforce unique names for a Bed/Preset, Across Cameras"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8302",
+      "time": "2024-08-22T10:40:20.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8302#issuecomment-2304341182",
+      "text": "@ayushpatil2122 Please add an explanation on how you'll be implementing a solution"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8396",
+      "time": "2024-08-22T10:35:10.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8396",
+      "text": "Improve Notes TextArea; Improve i18n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8395",
+      "time": "2024-08-22T10:14:34.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8395",
+      "text": "Update react-pdf; pdfjs worker; Fixes for i18n"
+    },
     {
       "type": "pr_merged",
       "title": "coronasafe/care#2362",
