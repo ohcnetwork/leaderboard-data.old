@@ -3,135 +3,129 @@
   "activity": [
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#8286",
+      "title": "ohcnetwork/care_fe#8286",
       "time": "2024-08-22T12:24:52.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/8286#issuecomment-2304541053",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8286#issuecomment-2304541053",
       "text": "> The \"sort by\" and \"filter\" is NOT a tab right? Can we keep it outside the tab switch?\r\n\r\nhttps://github.com/user-attachments/assets/9a32ff26-1b2f-42e5-a1ed-f6ff424a4851\r\n\r\nThere is some inconsistency in the appearance of filter buttons. How do we make it better ? any inputs @rithviknishad \r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#8286",
+      "title": "ohcnetwork/care_fe#8286",
       "time": "2024-08-22T11:51:35.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/8286#issuecomment-2304478177",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8286#issuecomment-2304478177",
       "text": "\r\nhttps://github.com/user-attachments/assets/42e51659-108f-4f5f-81bb-ce4e391b7ce5\r\n\r\nI have brought them to single row by creating filter ui elements in the parent component (removed the logic related to them in child components where they were present initially) and passed the corresponding query values of both filter ui as props to components which render the result obtained from filtering. Adjusted the grid to 3 columns. Please let me know if this is what you wanted ? and happy to modify if anything @rithviknishad "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#8304",
+      "title": "ohcnetwork/care_fe#8304",
       "time": "2024-08-19T20:17:35.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/8304#issuecomment-2297374737",
-      "text": "> Yup, create a PR 🚀\r\n\r\nHere's the pr https://github.com/coronasafe/care_fe/pull/8360 @rithviknishad "
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8304#issuecomment-2297374737",
+      "text": "> Yup, create a PR 🚀\r\n\r\nHere's the pr https://github.com/ohcnetwork/care_fe/pull/8360 @rithviknishad "
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#8360",
+      "title": "ohcnetwork/care_fe#8360",
       "time": "2024-08-19T20:12:12.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8360",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8360",
       "text": "Fixed #8304"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#8359",
+      "title": "ohcnetwork/care_fe#8359",
       "time": "2024-08-19T20:08:54.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8359",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8359",
       "text": "Fixed #8304"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7849",
+      "title": "ohcnetwork/care_fe#7849",
       "time": "2024-08-05T08:33:22.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7849#issuecomment-2268484836",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7849#issuecomment-2268484836",
       "text": "> @JOSHIK27 Will you be able to work on this? #7840 Has been merged.\r\n\r\nYes I can"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7849",
+      "title": "ohcnetwork/care_fe#7849",
       "time": "2024-08-05T08:33:05.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7849#issuecomment-2268484363",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7849#issuecomment-2268484363",
       "text": "Yes I can."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7849",
+      "title": "ohcnetwork/care_fe#7849",
       "time": "2024-05-22T21:55:33+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7849#issuecomment-2125835843",
-      "text": "@rithviknishad I am getting conflicts when rebasing my branch with develop branch (when worked with #7840 as base branch).  I will open pr once [conflict](https://github.com/coronasafe/care_fe/pull/7840#issuecomment-2124389044) is resolved. \r\n"
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7849#issuecomment-2125835843",
+      "text": "@rithviknishad I am getting conflicts when rebasing my branch with develop branch (when worked with #7840 as base branch).  I will open pr once [conflict](https://github.com/ohcnetwork/care_fe/pull/7840#issuecomment-2124389044) is resolved. \r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7849",
+      "title": "ohcnetwork/care_fe#7849",
       "time": "2024-05-22T00:30:07+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7849#issuecomment-2123641455",
-      "text": "\r\nhttps://github.com/coronasafe/care_fe/assets/96165631/f76387d3-645f-4316-bb55-9a9593b3547e\r\n\r\n@nihal467 The requested feature can be achieved by adding a prop to the combo box headless UI component (Latest). For that, we will have to install this [updated](https://github.com/tailwindlabs/headlessui/discussions/1236#discussioncomment-7375206) headless UI package. I have added a demo. Please let me know if this solution is ok, happy to open PR.\r\n"
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7849#issuecomment-2123641455",
+      "text": "\r\nhttps://github.com/ohcnetwork/care_fe/assets/96165631/f76387d3-645f-4316-bb55-9a9593b3547e\r\n\r\n@nihal467 The requested feature can be achieved by adding a prop to the combo box headless UI component (Latest). For that, we will have to install this [updated](https://github.com/tailwindlabs/headlessui/discussions/1236#discussioncomment-7375206) headless UI package. I have added a demo. Please let me know if this solution is ok, happy to open PR.\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7849",
+      "title": "ohcnetwork/care_fe#7849",
       "time": "2024-05-21T22:48:05+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7849#issuecomment-2123556008",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7849#issuecomment-2123556008",
       "text": "I would like to take up this issue. Can you assign me @rithviknishad "
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#8368",
+      "title": "ohcnetwork/care_fe#8368",
       "time": "2024-08-20T13:35:45Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8368",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8368",
       "text": "Made General Instructions field in Consultation Form non mandatory"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#8368",
+      "title": "ohcnetwork/care_fe#8368",
       "time": "2024-08-21T12:33:29Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8368",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8368",
       "text": "Made General Instructions field in Consultation Form non mandatory"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#8384",
+      "title": "ohcnetwork/care_fe#8384",
       "time": "2024-08-21T08:40:45Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8384",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8384",
       "text": "Fixed word splitting issue"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#8384",
+      "title": "ohcnetwork/care_fe#8384",
       "time": "2024-08-21T12:15:11Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8384",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8384",
       "text": "Fixed word splitting issue"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#8390",
+      "title": "ohcnetwork/care_fe#8390",
       "time": "2024-08-22T07:27:32Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8390",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8390",
       "text": "Added Diagnosis at Discharge field when patient is discharged"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#8391",
+      "title": "ohcnetwork/care_fe#8391",
       "time": "2024-08-22T08:02:25Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8391",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8391",
       "text": "Make Treating Doctor Field Optional for Domiciliary Care Patients"
     }
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/8391",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8391",
       "title": "Make Treating Doctor Field Optional for Domiciliary Care Patients",
       "stale_for": 0,
-      "labels": [
-        "tested",
-        "waiting for backend"
-      ]
+      "labels": ["tested", "waiting for backend"]
     },
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/8390",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8390",
       "title": "Added Diagnosis at Discharge field when patient is discharged",
       "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
+      "labels": ["needs testing", "needs review"]
     }
   ],
   "authored_issue_and_pr": []

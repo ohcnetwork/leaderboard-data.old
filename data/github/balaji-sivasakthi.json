@@ -3,161 +3,161 @@
   "activity": [
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1947",
+      "title": "ohcnetwork/care#1947",
       "time": "2024-03-05T17:39:19.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1947#issuecomment-1979300789",
+      "link": "https://github.com/ohcnetwork/care/pull/1947#issuecomment-1979300789",
       "text": "@sainak https://github.com/balaji-sivasakthi/care/actions/runs/8160557773"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1950",
+      "title": "ohcnetwork/care#1950",
       "time": "2024-03-05T17:11:03.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1950",
+      "link": "https://github.com/ohcnetwork/care/pull/1950",
       "text": "Check parallel"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1947",
+      "title": "ohcnetwork/care#1947",
       "time": "2024-03-05T15:23:22.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1947#issuecomment-1979023358",
+      "link": "https://github.com/ohcnetwork/care/pull/1947#issuecomment-1979023358",
       "text": "@sainak Is this expected? https://github.com/balaji-sivasakthi/care/actions/runs/8158452073/job/22300432336"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1947",
+      "title": "ohcnetwork/care#1947",
       "time": "2024-03-05T13:11:14.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1947#issuecomment-1978747612",
+      "link": "https://github.com/ohcnetwork/care/pull/1947#issuecomment-1978747612",
       "text": "@sainak How do I check my forked repository? Does it require any settings?"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1947",
+      "title": "ohcnetwork/care#1947",
       "time": "2024-03-05T12:58:31.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1947",
+      "link": "https://github.com/ohcnetwork/care/pull/1947",
       "text": "build: enable parallel Docker builds for multiple platforms"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1803",
+      "title": "ohcnetwork/care#1803",
       "time": "2024-03-05T12:00:15.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1803#issuecomment-1978600982",
+      "link": "https://github.com/ohcnetwork/care/issues/1803#issuecomment-1978600982",
       "text": "@sainak Got it! Thank you."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/docs#9",
+      "title": "ohcnetwork/docs#9",
       "time": "2024-03-05T10:32:30.000Z",
-      "link": "https://github.com/coronasafe/docs/issues/9#issuecomment-1978446831",
+      "link": "https://github.com/ohcnetwork/docs/issues/9#issuecomment-1978446831",
       "text": "React Native?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1937",
+      "title": "ohcnetwork/care#1937",
       "time": "2024-03-05T04:25:27.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1937#issuecomment-1977945043",
+      "link": "https://github.com/ohcnetwork/care/issues/1937#issuecomment-1977945043",
       "text": "To decouple the storage provider from specific use cases like patient and facility, we can introduce more flexibility by allowing the specification of bucket types and access controls through parameters. We'll utilize enums for access control and provide the bucket name as a parameter.\r\n\r\n```py\r\n\r\nclass ClientConfig(TypedDict):\r\n    region_name: str\r\n    aws_access_key_id: str\r\n    aws_secret_access_key: str\r\n    endpoint_url: str\r\n\r\nclass CSProvider(enum.Enum):\r\n    AWS = \"AWS\"\r\n    GCP = \"GCP\"\r\n    AZURE = 'AZURE'\r\n    DOCKER = \"DOCKER\"  # localstack in docker\r\n    LOCAL = \"LOCAL\"  # localstack on host\r\n\r\nclass AccessControl(enum.Enum):\r\n    PUBLIC = \"PUBLIC\"\r\n    PRIVATE = \"PRIVATE\"\r\n\r\nclass BucketType(enum.Enum):\r\n    PATIENT = \"PATIENT\"\r\n    FACILITY = \"FACILITY\"\r\n```\r\nThen we will create a factory method for storages based on the `CSProvider` enum, and also initialise the clientConfig and bucket name for getting the signed url\r\n\r\nI will add a class method named from_provider inside the ConfigurableStorageProvider class. This method acts as a factory method to create instances of ConfigurableStorageProvider based on the specified CSProvider. When calling the from_provider method, you provide the desired CSProvider, account_url, and credential. It internally creates a ClientConfig object and initialises the ConfigurableStorageProvider instance accordingly. This approach makes it easier to instantiate the ConfigurableStorageProvider class by encapsulating the logic of creating the ClientConfig object based on the specified provider\r\n\r\n##  LLD\r\n\r\n```py\r\ndef __init__(self, provider: CSProvider, client_config: ClientConfig):\r\n```\r\n```py\r\ndef from_provider(cls, provider: CSProvider, account_url: str, credential: str) -> 'ConfigurableStorageProvider':\r\n```\r\n```py\r\ndef get_signed_url(self, bucket_name: BucketName, object_key: str, expiration: int, access_control: AccessControl) -> str:\r\n```\r\n```py\r\ndef check_mime_type(self, file_path: str, expected_mime_type: str) -> bool:\r\n```\r\n\r\ncc @sainak @rash-27 "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6989",
+      "title": "ohcnetwork/care_fe#6989",
       "time": "2024-03-04T20:20:13.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6989#issuecomment-1977386673",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6989#issuecomment-1977386673",
       "text": "i will work this issue."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7280",
+      "title": "ohcnetwork/care_fe#7280",
       "time": "2024-03-04T20:15:14.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/7280#issuecomment-1977379392",
-      "text": "Okay, I'll wait for this PR, https://github.com/coronasafe/care/pull/1763, to merge."
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7280#issuecomment-1977379392",
+      "text": "Okay, I'll wait for this PR, https://github.com/ohcnetwork/care/pull/1763, to merge."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1803",
+      "title": "ohcnetwork/care#1803",
       "time": "2024-03-04T20:05:54.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1803#issuecomment-1977365789",
+      "link": "https://github.com/ohcnetwork/care/issues/1803#issuecomment-1977365789",
       "text": "@sainak, does the Makefile help spin up the container? If so, why would we need to run arm and x86 builds? Could you explain in more detail where we should use it?"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/leaderboard-data#23",
+      "title": "ohcnetwork/leaderboard-data#23",
       "time": "2024-03-03T21:08:39.000Z",
-      "link": "https://github.com/coronasafe/leaderboard-data/pull/23",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/23",
       "text": "Update balaji-sivasakthi.md"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7102",
+      "title": "ohcnetwork/care_fe#7102",
       "time": "2024-03-03T18:12:30.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7102#issuecomment-1975249437",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7102#issuecomment-1975249437",
       "text": "Has anyone checked with a different account? I believe the account listed below may be broken in terms of roles.\r\n\r\n```\r\nUsername: district_lab123\r\nPassword: Lilo@123\r\n```\r\n\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1937",
+      "title": "ohcnetwork/care#1937",
       "time": "2024-03-03T18:05:13.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1937#issuecomment-1975247287",
+      "link": "https://github.com/ohcnetwork/care/issues/1937#issuecomment-1975247287",
       "text": "@sainak Thank you"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1937",
+      "title": "ohcnetwork/care#1937",
       "time": "2024-03-03T08:02:58.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1937#issuecomment-1975079498",
+      "link": "https://github.com/ohcnetwork/care/issues/1937#issuecomment-1975079498",
       "text": "@sainak  Will you provide test secrets and credentials to work on this issue?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7280",
+      "title": "ohcnetwork/care_fe#7280",
       "time": "2024-02-28T14:22:17.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/7280#issuecomment-1969089746",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7280#issuecomment-1969089746",
       "text": "@nihal467 ?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7102",
+      "title": "ohcnetwork/care_fe#7102",
       "time": "2024-02-27T12:41:08.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7102#issuecomment-1966459978",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7102#issuecomment-1966459978",
       "text": "> Have you set the Authorization headers when making the request?\r\n\r\nI'm not sure, this is the stuff  I cached from the browser."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7102",
+      "title": "ohcnetwork/care_fe#7102",
       "time": "2024-02-26T20:14:53.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/7102#issuecomment-1965170915",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7102#issuecomment-1965170915",
       "text": "@rithviknishad Could you explain to me why this issue is throwing a 403 error?\r\n```\r\nGET /api/v1/facility/42d0dbbd-e3e1-4d64-88ff-f606b90975b0/asset_location/6ee4cae3-f9e3-40d4-9b47-337ac8052f76/\r\nHTTP 403 Forbidden\r\nAllow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS\r\nContent-Type: application/json\r\nVary: Accept\r\n\r\n{\r\n    \"detail\": \"Authentication credentials were not provided.\"\r\n}\r\n```"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#7280",
+      "title": "ohcnetwork/care_fe#7280",
       "time": "2024-02-26T19:45:18.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/7280",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7280",
       "text": "feat: added minimum quantity in inventory list"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6612",
+      "title": "ohcnetwork/care_fe#6612",
       "time": "2024-02-26T19:40:39.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6612#issuecomment-1965113511",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6612#issuecomment-1965113511",
       "text": "@nihal467 I would like to work on this issue."
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/leaderboard-data#23",
+      "title": "ohcnetwork/leaderboard-data#23",
       "time": "2024-03-04T05:13:57Z",
-      "link": "https://github.com/coronasafe/leaderboard-data/pull/23",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/23",
       "text": "Update balaji-sivasakthi.md"
     }
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care/pull/1947",
+      "link": "https://github.com/ohcnetwork/care/pull/1947",
       "title": "build: enable parallel Docker builds for multiple platforms",
       "stale_for": 0,
       "labels": []
     },
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/7280",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7280",
       "title": "feat: added minimum quantity in inventory list",
       "stale_for": 1,
       "labels": []

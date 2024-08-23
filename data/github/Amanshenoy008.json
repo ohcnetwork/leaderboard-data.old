@@ -3,30 +3,30 @@
   "activity": [
     {
       "type": "comment_created",
-      "title": "coronasafe/teleicu_middleware#74",
+      "title": "ohcnetwork/teleicu_middleware#74",
       "time": "2023-07-14T12:05:18.000Z",
-      "link": "https://github.com/coronasafe/teleicu_middleware/pull/74#issuecomment-1635767187",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/74#issuecomment-1635767187",
       "text": " @sainak  So, I updated the npm scripts and for dockers file should I change the workdir to /usr/dist/app"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/teleicu_middleware#74",
+      "title": "ohcnetwork/teleicu_middleware#74",
       "time": "2023-07-07T13:32:18.000Z",
-      "link": "https://github.com/coronasafe/teleicu_middleware/pull/74#issuecomment-1625422225",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/74#issuecomment-1625422225",
       "text": "yup , deleted yarn.lock"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/teleicu_middleware#74",
+      "title": "ohcnetwork/teleicu_middleware#74",
       "time": "2023-07-05T10:32:36.000Z",
-      "link": "https://github.com/coronasafe/teleicu_middleware/pull/74",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/74",
       "text": "Configured Typescript compiler (C4gt)"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#5588",
+      "title": "ohcnetwork/care_fe#5588",
       "time": "2023-06-02T16:49:15.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5588",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5588",
       "text": "Production Release; June Week 1",
       "collaborated_with": [
         "Bhavik-ag",
@@ -44,125 +44,121 @@
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/teleicu_middleware#69",
+      "title": "ohcnetwork/teleicu_middleware#69",
       "time": "2023-05-31T13:32:12.000Z",
-      "link": "https://github.com/coronasafe/teleicu_middleware/pull/69",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/69",
       "text": "add validation rule"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/teleicu_middleware#67",
+      "title": "ohcnetwork/teleicu_middleware#67",
       "time": "2023-05-30T13:47:21.000Z",
-      "link": "https://github.com/coronasafe/teleicu_middleware/issues/67#issuecomment-1568467566",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/issues/67#issuecomment-1568467566",
       "text": "So , I'm not that good in nodejs and I added this validation rules in the  ./observationValidator.js\r\n``` \r\nconst getObservationsValidators = (path = \"\") => [\r\n\r\n  //  other validation rules  ...\r\n\r\n  body(`wavevalue`)\r\n    .optional()\r\n    .isNumeric()\r\n    .withMessage(\"value must be number.\")\r\n    .custom((value, { req }) => {\r\n      const lowLimit = req.body[`${path}low-limit`];\r\n      const highLimit = req.body[`${path}high-limit`];\r\n      if (lowLimit && highLimit) {\r\n        if (value < lowLimit || value > highLimit) {\r\n          throw new Error(`value must be between ${lowLimit} and ${highLimit}.`);\r\n        }\r\n      }\r\n      return true;\r\n    }),\r\n];\r\n```"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/teleicu_middleware#67",
+      "title": "ohcnetwork/teleicu_middleware#67",
       "time": "2023-05-30T12:00:12.000Z",
-      "link": "https://github.com/coronasafe/teleicu_middleware/issues/67#issuecomment-1568309649",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/issues/67#issuecomment-1568309649",
       "text": "can I work on this issue\r\n"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#5555",
+      "title": "ohcnetwork/care_fe#5555",
       "time": "2023-05-30T11:55:05.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5555",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5555",
       "text": "fix cursor"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#5555",
+      "title": "ohcnetwork/care_fe#5555",
       "time": "2023-05-30T11:55:05.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5555",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5555",
       "text": "fix cursor",
-      "collaborated_with": [
-        "khavinshankar"
-      ]
+      "collaborated_with": ["khavinshankar"]
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#5556",
+      "title": "ohcnetwork/care_fe#5556",
       "time": "2023-05-30T11:18:58.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5556",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5556",
       "text": "Delete reactmui components"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#5556",
+      "title": "ohcnetwork/care_fe#5556",
       "time": "2023-05-30T11:18:58.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5556",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5556",
       "text": "Delete reactmui components",
-      "collaborated_with": [
-        "khavinshankar"
-      ]
+      "collaborated_with": ["khavinshankar"]
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5555",
+      "title": "ohcnetwork/care_fe#5555",
       "time": "2023-05-29T05:43:02.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5555#issuecomment-1566582249",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5555#issuecomment-1566582249",
       "text": "yes, changed it"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#5556",
+      "title": "ohcnetwork/care_fe#5556",
       "time": "2023-05-28T19:11:14.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5556",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5556",
       "text": "Delete reactmui components"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#5555",
+      "title": "ohcnetwork/care_fe#5555",
       "time": "2023-05-28T19:07:17.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5555",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5555",
       "text": "fix cursor"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5554",
+      "title": "ohcnetwork/care_fe#5554",
       "time": "2023-05-28T18:40:44.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5554#issuecomment-1566225579",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5554#issuecomment-1566225579",
       "text": "I kinda messed up a bit , I'll open a fresh pr"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#4213",
+      "title": "ohcnetwork/care_fe#4213",
       "time": "2023-05-28T17:32:28.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/4213#issuecomment-1566208083",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/4213#issuecomment-1566208083",
       "text": "can I take this issue\r\n"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#5554",
+      "title": "ohcnetwork/care_fe#5554",
       "time": "2023-05-28T13:56:43.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5554",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5554",
       "text": "Removed reactmui-components"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#4947",
+      "title": "ohcnetwork/care_fe#4947",
       "time": "2023-05-28T12:39:04.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/4947#issuecomment-1566124492",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/4947#issuecomment-1566124492",
       "text": "where can i find the consultation card component in the website"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#4947",
+      "title": "ohcnetwork/care_fe#4947",
       "time": "2023-05-28T12:22:15.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/4947#issuecomment-1566119668",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/4947#issuecomment-1566119668",
       "text": "Can I take this issue\r\n"
     }
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/teleicu_middleware/pull/74",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/74",
       "title": "Configured Typescript compiler (C4gt)",
       "stale_for": 0,
       "labels": []
     },
     {
-      "link": "https://github.com/coronasafe/teleicu_middleware/pull/69",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/69",
       "title": "add validation rule",
       "stale_for": 44,
       "labels": []

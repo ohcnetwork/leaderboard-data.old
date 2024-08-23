@@ -3,9 +3,9 @@
   "activity": [
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#7680",
+      "title": "ohcnetwork/care_fe#7680",
       "time": "2024-04-22T09:09:42+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7680",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7680",
       "text": "Production release v24.17.0 | April week 3",
       "collaborated_with": [
         "khavinshankar",
@@ -24,46 +24,40 @@
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#7591",
+      "title": "ohcnetwork/care_fe#7591",
       "time": "2024-04-12T10:04:02+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7591",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7591",
       "text": "Merging Develop to Staging v24.16.0",
-      "collaborated_with": [
-        "AshrafMd-1",
-        "rithviknishad"
-      ]
+      "collaborated_with": ["AshrafMd-1", "rithviknishad"]
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#7404",
+      "title": "ohcnetwork/care_fe#7404",
       "time": "2024-04-09T09:17:19+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7404",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7404",
       "text": "fix: Removed unnecessary rendering of microphone permission warning info.",
       "turnaround_time": 80185
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#7404",
+      "title": "ohcnetwork/care_fe#7404",
       "time": "2024-04-09T09:17:19+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7404",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7404",
       "text": "fix: Removed unnecessary rendering of microphone permission warning info.",
-      "collaborated_with": [
-        "rithviknishad",
-        "nihal467"
-      ]
+      "collaborated_with": ["rithviknishad", "nihal467"]
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7404",
+      "title": "ohcnetwork/care_fe#7404",
       "time": "2024-03-27T07:49:25+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7404#issuecomment-2022143955",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7404#issuecomment-2022143955",
       "text": "@nihal467 , I tried using the query now instead of getUserMedia to avoid the permission popup. Please verify if it works fine now.\r\n\r\nThe following are the behaviors now:\r\n\r\n1. If mic permission is not there or blocked, the span will be visible to allow mic permission.\r\n2. In case permission is not there and only when the user clicks on 'Start Record', the popup will appear asking for mic permission.\r\n3. In case permission is blocked, the popup won't appear, and the span warning plus a toast message will be displayed.\r\n4. If mic permission is allowed, there won't be such a span warning.\""
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#7478",
+      "title": "ohcnetwork/care_fe#7478",
       "time": "2024-03-26T17:18:04+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7478",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7478",
       "text": "Production release v24.13.0",
       "collaborated_with": [
         "rithviknishad",
@@ -81,30 +75,30 @@
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7404",
+      "title": "ohcnetwork/care_fe#7404",
       "time": "2024-03-20T16:30:47+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7404#issuecomment-2009998988",
-      "text": "Have a look now @rithviknishad @gigincg @Ashesh3 @nihal467 \r\nExactly as per the behavior mentioned.\r\n\r\nhttps://github.com/coronasafe/care_fe/assets/78961432/c48dcfb4-ee01-46ef-9e6d-d9ba3ac17e0f\r\n\r\n\r\n\r\n\r\n\r\n"
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7404#issuecomment-2009998988",
+      "text": "Have a look now @rithviknishad @gigincg @Ashesh3 @nihal467 \r\nExactly as per the behavior mentioned.\r\n\r\nhttps://github.com/ohcnetwork/care_fe/assets/78961432/c48dcfb4-ee01-46ef-9e6d-d9ba3ac17e0f\r\n\r\n\r\n\r\n\r\n\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7404",
+      "title": "ohcnetwork/care_fe#7404",
       "time": "2024-03-20T16:24:09+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7404#issuecomment-2009983829",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7404#issuecomment-2009983829",
       "text": "Okay, Got it, currently the span warning is not getting rendered if mic permission is not there and is rendering after clicking the button. \r\n\r\nLet me make another commit to fix it."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7404",
+      "title": "ohcnetwork/care_fe#7404",
       "time": "2024-03-20T15:40:22+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7404#issuecomment-2009876274",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7404#issuecomment-2009876274",
       "text": "> @Spiral-Memory @nihal467 @rithviknishad\r\n> \r\n> Following is the expected Behaviour:\r\n> \r\n> Warning as span :\r\n> \r\n> * Shown when Permission is not granted\r\n> * Hidden when Permission is already granted\r\n> \r\n> Warning as notification:\r\n> \r\n> * Shown when Permission is not granted & User clicks on `Record` button\r\n\r\nYep! This is exactly what's happening after this PR? Is there any unexpected behavior? Please let me know. I will fix it "
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#7441",
+      "title": "ohcnetwork/care_fe#7441",
       "time": "2024-03-20T08:30:00+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7441",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7441",
       "text": "Staging release for v24.13.0",
       "collaborated_with": [
         "manasvi-gaur",
@@ -121,109 +115,107 @@
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7404",
+      "title": "ohcnetwork/care_fe#7404",
       "time": "2024-03-19T14:03:02+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7404#issuecomment-2007267094",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7404#issuecomment-2007267094",
       "text": "> Hey @Spiral-Memory \n> \n> Let us just confirm that doing this is okay as IIRC this was kept intentionally, don't remember the reason.\n\nSure @rithviknishad !"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7404",
+      "title": "ohcnetwork/care_fe#7404",
       "time": "2024-03-19T13:41:22+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7404#issuecomment-2007211251",
-      "text": "> ![image](https://github.com/coronasafe/care_fe/assets/57055998/9c4c89d2-2801-4edf-a314-901fe6ca9202)\n> \n\nCould you please explain a little, like what's the problem ? \n\nWhen permission is not there.. that warming will be shown otherwise it's not. Please refer to the video on how i intended it to be. \n\nIf you require any change, please let me know !"
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7404#issuecomment-2007211251",
+      "text": "> ![image](https://github.com/ohcnetwork/care_fe/assets/57055998/9c4c89d2-2801-4edf-a314-901fe6ca9202)\n> \n\nCould you please explain a little, like what's the problem ? \n\nWhen permission is not there.. that warming will be shown otherwise it's not. Please refer to the video on how i intended it to be. \n\nIf you require any change, please let me know !"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#7408",
+      "title": "ohcnetwork/care_fe#7408",
       "time": "2024-03-19T11:34:04+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7408",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7408",
       "text": "fix: added validation for doctor experience input.",
       "turnaround_time": 2118
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#7408",
+      "title": "ohcnetwork/care_fe#7408",
       "time": "2024-03-19T11:34:04+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7408",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7408",
       "text": "fix: added validation for doctor experience input.",
-      "collaborated_with": [
-        "nihal467"
-      ]
+      "collaborated_with": ["nihal467"]
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7408",
+      "title": "ohcnetwork/care_fe#7408",
       "time": "2024-03-17T19:54:56+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7408#issuecomment-2002597888",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7408#issuecomment-2002597888",
       "text": "Thank you so much for approving the changes. Sorry if I'm asking something irrelevant; I'm new to this repository. May I know how long testing usually takes? @Ashesh3  @rithviknishad "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7404",
+      "title": "ohcnetwork/care_fe#7404",
       "time": "2024-03-17T19:53:11+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7404#issuecomment-2002597302",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7404#issuecomment-2002597302",
       "text": "Hey @rithviknishad Could you please look into this once ? "
     },
     {
       "type": "pr_reviewed",
       "time": "2024-03-13T13:00:32+00:00",
-      "title": "coronasafe/care_fe#7408",
-      "link": "https://github.com/coronasafe/care_fe/pull/7408#pullrequestreview-1934118418",
+      "title": "ohcnetwork/care_fe#7408",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7408#pullrequestreview-1934118418",
       "text": "fix: added validation for doctor experience input."
     },
     {
       "type": "pr_reviewed",
       "time": "2024-03-13T12:55:16+00:00",
-      "title": "coronasafe/care_fe#7408",
-      "link": "https://github.com/coronasafe/care_fe/pull/7408#pullrequestreview-1934106252",
+      "title": "ohcnetwork/care_fe#7408",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7408#pullrequestreview-1934106252",
       "text": "fix: added validation for doctor experience input."
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#7408",
+      "title": "ohcnetwork/care_fe#7408",
       "time": "2024-03-13T08:43:07+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7408",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7408",
       "text": "fix: added validation for doctor experience input."
     },
     {
       "type": "issue_opened",
-      "title": "coronasafe/care_fe#7407",
+      "title": "ohcnetwork/care_fe#7407",
       "time": "2024-03-13T08:39:29+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7407",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7407",
       "text": "[BUG] No validation when doctor experience input is less than 0."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7404",
+      "title": "ohcnetwork/care_fe#7404",
       "time": "2024-03-13T07:55:19+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7404#issuecomment-1993758440",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7404#issuecomment-1993758440",
       "text": "@rithviknishad , please take a look at this PR. In the CodeClimate test, it is showing that a type definition should be included, but the file I changed is a JavaScript file. If I add a type definition, it will likely result in an error. Kindly review this PR, investigate this issue, and let me know. Thanks."
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#7404",
+      "title": "ohcnetwork/care_fe#7404",
       "time": "2024-03-13T07:17:09+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7404",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7404",
       "text": "fixed unnecessary placement of mic permission info"
     },
     {
       "type": "issue_opened",
-      "title": "coronasafe/care_fe#7403",
+      "title": "ohcnetwork/care_fe#7403",
       "time": "2024-03-13T07:07:06+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7403",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7403",
       "text": "[BUG]: Unnecessary rendering Mic Permission warning even if mic permission is enabled"
     }
   ],
   "open_prs": [],
   "authored_issue_and_pr": [
     {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7407",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7408"
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7407",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7408"
     },
     {
-      "issue_link": "https://github.com/coronasafe/care_fe/issues/7403",
-      "pr_link": "https://github.com/coronasafe/care_fe/pull/7404"
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7403",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7404"
     }
   ]
 }

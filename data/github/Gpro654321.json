@@ -3,30 +3,30 @@
   "activity": [
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1388",
+      "title": "ohcnetwork/care#1388",
       "time": "2024-03-26T07:46:26+00:00",
-      "link": "https://github.com/coronasafe/care/issues/1388#issuecomment-2019609086",
+      "link": "https://github.com/ohcnetwork/care/issues/1388#issuecomment-2019609086",
       "text": "Hi,\r\nI am new to open source contributions, But have made small django pet projects. \r\nCan I work on adding tests ? Could you please guide on the way?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#664",
+      "title": "ohcnetwork/care#664",
       "time": "2024-03-22T06:02:57+00:00",
-      "link": "https://github.com/coronasafe/care/issues/664#issuecomment-2014417059",
+      "link": "https://github.com/ohcnetwork/care/issues/664#issuecomment-2014417059",
       "text": "> > After a bit of reading, I sort of understand the issue and have even worked out what needs to be implemented. But I have the following roadblocks in my way, I request you to help me clear them..\r\n> \r\n> Hey ping me on slack i am in the ohc slack group we can get your local setup done\r\n\r\n@AnkurPrabhu\r\nHi, Thanks. Could I have your slack handle or can you join this slack channel [here](https://join.slack.com/t/care-2tn4248/shared_invite/zt-2f8x3mbvq-Lz4w7Y4rnqPbpFYl1PGSSw). "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#664",
+      "title": "ohcnetwork/care#664",
       "time": "2024-03-21T15:09:10+00:00",
-      "link": "https://github.com/coronasafe/care/issues/664#issuecomment-2012559992",
-      "text": "@sainak \r\n**Thanks, got the containers running.** \r\n\r\nAfter a bit of reading, I sort of understand the issue and have even worked out what needs to be implemented. But I have the following roadblocks in my way, I request you to help me clear them..\r\n\r\n**1. No links seen in homepage for me to navigate the site**\r\nBut when i navigate to `http://localhost:9000`, I see a page as in the attachment below\r\n![care_homepage](https://github.com/coronasafe/care/assets/124547211/fa8872f4-d285-4bd9-8f09-da1f09eb337d)\r\n, **like I do not see any links anywhere for me to navigate**\r\n\r\n**2. username password combo provided in the documentation not working** \r\nAlso I navigated to `http://localhost:9000/admin` tried using the [username:password] combo of [devdistrictadmin:Coronasafe@123], but thats not working, I tried searching it [here](https://github.com/coronasafe/care/blob/develop/data/dummy/users.json) too but didn't help.\r\n\r\n"
+      "link": "https://github.com/ohcnetwork/care/issues/664#issuecomment-2012559992",
+      "text": "@sainak \r\n**Thanks, got the containers running.** \r\n\r\nAfter a bit of reading, I sort of understand the issue and have even worked out what needs to be implemented. But I have the following roadblocks in my way, I request you to help me clear them..\r\n\r\n**1. No links seen in homepage for me to navigate the site**\r\nBut when i navigate to `http://localhost:9000`, I see a page as in the attachment below\r\n![care_homepage](https://github.com/ohcnetwork/care/assets/124547211/fa8872f4-d285-4bd9-8f09-da1f09eb337d)\r\n, **like I do not see any links anywhere for me to navigate**\r\n\r\n**2. username password combo provided in the documentation not working** \r\nAlso I navigated to `http://localhost:9000/admin` tried using the [username:password] combo of [devdistrictadmin:Coronasafe@123], but thats not working, I tried searching it [here](https://github.com/ohcnetwork/care/blob/develop/data/dummy/users.json) too but didn't help.\r\n\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#664",
+      "title": "ohcnetwork/care#664",
       "time": "2024-03-20T17:24:40+00:00",
-      "link": "https://github.com/coronasafe/care/issues/664#issuecomment-2010157780",
+      "link": "https://github.com/ohcnetwork/care/issues/664#issuecomment-2010157780",
       "text": "@sainak \r\nI would like to contribute to this repo. But When I tried setting up the local development containers using docker (as per instructions [here](https://care-be-docs.coronasafe.network/local-setup/configuration.html#)) , \r\nWhen I ran `make up` I got the following error, \r\n`docker compose -f docker-compose.yaml -f 'docker-compose.local.yaml' up -d --wait\r\nunknown shorthand flag: 'f' in -f\r\nSee 'docker --help'.\r\n`\r\nI had used docker-compose, django in my pet projects. \r\n**I am a complete begineer to open source. Could you please help me get the containers up and running..?**"
     }
   ],

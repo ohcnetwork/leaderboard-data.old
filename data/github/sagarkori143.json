@@ -3,313 +3,311 @@
   "activity": [
     {
       "type": "comment_created",
-      "title": "coronasafe/leaderboard#189",
+      "title": "ohcnetwork/leaderboard#189",
       "time": "2024-01-08T14:52:41.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/issues/189#issuecomment-1881161627",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/189#issuecomment-1881161627",
       "text": "@sriharsh05 Yeah. You can take it. "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6945",
+      "title": "ohcnetwork/care_fe#6945",
       "time": "2024-01-05T13:42:22.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6945#issuecomment-1878678574",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6945#issuecomment-1878678574",
       "text": "@rithviknishad How can I make changes in API response for patient details."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6945",
+      "title": "ohcnetwork/care_fe#6945",
       "time": "2024-01-05T07:57:24.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6945#issuecomment-1878268674",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6945#issuecomment-1878268674",
       "text": "@rithviknishad can you please explain a bit about what and where I will be in need to implement the changes in backend."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6854",
+      "title": "ohcnetwork/care_fe#6854",
       "time": "2024-01-04T04:20:08.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6854#issuecomment-1876289782",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6854#issuecomment-1876289782",
       "text": "Hey @rithviknishad  please reopen this issue. I was in bad health conditions so couldn't give it time again. I am looking forward to work on this and raise a pr again"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6962",
+      "title": "ohcnetwork/care_fe#6962",
       "time": "2024-01-02T06:22:10.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6962#issuecomment-1873655830",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6962#issuecomment-1873655830",
       "text": "@nihal467 \r\nThere is already an open issue #6824 where Enter button is being implemented to be used for submit purpose."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6945",
+      "title": "ohcnetwork/care_fe#6945",
       "time": "2023-12-30T12:17:30.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6945#issuecomment-1872517201",
-      "text": "Also @rithviknishad  @aparnacoronasafe  @nihal467 \r\nI have created the required Occupation field and I inspected results in console and ensured that the occupation data is going through handleSubmit process but this data is not being saved into the database because when I again go to edit patient details the occupation field there is empty. Here is what I have done:\r\n1) Defined OCCUPATION_TYPES in Constants.tsx\r\n![image](https://github.com/coronasafe/care_fe/assets/129517558/e694b1e6-528b-4d09-bc6f-6bcc98f7883b)\r\n\r\n\r\n\r\n2) Defined occupation modal as strings in models.tsx\r\n![image](https://github.com/coronasafe/care_fe/assets/129517558/e053774b-416c-4c22-827d-49b0593e0f30)\r\n\r\n\r\n3) Added occupation input field in patientRegister.tsx\r\n![image](https://github.com/coronasafe/care_fe/assets/129517558/c55c546e-d59a-45bb-a587-952a9aecab82)\r\n\r\n\r\n4) Added to Abha linking \r\n![image](https://github.com/coronasafe/care_fe/assets/129517558/9e303b75-bbe0-4cba-b9f5-120663eccfc8)\r\n\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/129517558/d09f5e3a-e4e2-40a4-a8df-76b818c3942d)\r\n\r\n\r\n5) Added to data schema in handleSubmit:\r\n![image](https://github.com/coronasafe/care_fe/assets/129517558/db9da4d1-2069-4b0d-96c8-5c9852063b88)\r\n\r\n\r\n6) Defined in fetchExtResultData in patientReg.tsx itself:\r\n![image](https://github.com/coronasafe/care_fe/assets/129517558/252e8c47-f59c-4c4a-bb3a-4ebe089f98df)\r\n\r\n\r\nPlease have a look and let me know where I'm missing out which is resulting in data not being saved to database."
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6945#issuecomment-1872517201",
+      "text": "Also @rithviknishad  @aparnacoronasafe  @nihal467 \r\nI have created the required Occupation field and I inspected results in console and ensured that the occupation data is going through handleSubmit process but this data is not being saved into the database because when I again go to edit patient details the occupation field there is empty. Here is what I have done:\r\n1) Defined OCCUPATION_TYPES in Constants.tsx\r\n![image](https://github.com/ohcnetwork/care_fe/assets/129517558/e694b1e6-528b-4d09-bc6f-6bcc98f7883b)\r\n\r\n\r\n\r\n2) Defined occupation modal as strings in models.tsx\r\n![image](https://github.com/ohcnetwork/care_fe/assets/129517558/e053774b-416c-4c22-827d-49b0593e0f30)\r\n\r\n\r\n3) Added occupation input field in patientRegister.tsx\r\n![image](https://github.com/ohcnetwork/care_fe/assets/129517558/c55c546e-d59a-45bb-a587-952a9aecab82)\r\n\r\n\r\n4) Added to Abha linking \r\n![image](https://github.com/ohcnetwork/care_fe/assets/129517558/9e303b75-bbe0-4cba-b9f5-120663eccfc8)\r\n\r\n\r\n![image](https://github.com/ohcnetwork/care_fe/assets/129517558/d09f5e3a-e4e2-40a4-a8df-76b818c3942d)\r\n\r\n\r\n5) Added to data schema in handleSubmit:\r\n![image](https://github.com/ohcnetwork/care_fe/assets/129517558/db9da4d1-2069-4b0d-96c8-5c9852063b88)\r\n\r\n\r\n6) Defined in fetchExtResultData in patientReg.tsx itself:\r\n![image](https://github.com/ohcnetwork/care_fe/assets/129517558/252e8c47-f59c-4c4a-bb3a-4ebe089f98df)\r\n\r\n\r\nPlease have a look and let me know where I'm missing out which is resulting in data not being saved to database."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/leaderboard#194",
+      "title": "ohcnetwork/leaderboard#194",
       "time": "2023-12-30T04:49:21.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/pull/194#issuecomment-1872451732",
-      "text": "Okay let me just check on it once again but I thought that the deployment has failed just like it happened to me while running the localhost:\r\n![Screenshot 2023-12-29 100128](https://github.com/coronasafe/leaderboard/assets/129517558/a39605e0-608e-4f15-a19e-bfeb9f111974)\r\n\r\nI'm looking for changes again.\r\n"
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/194#issuecomment-1872451732",
+      "text": "Okay let me just check on it once again but I thought that the deployment has failed just like it happened to me while running the localhost:\r\n![Screenshot 2023-12-29 100128](https://github.com/ohcnetwork/leaderboard/assets/129517558/a39605e0-608e-4f15-a19e-bfeb9f111974)\r\n\r\nI'm looking for changes again.\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6945",
+      "title": "ohcnetwork/care_fe#6945",
       "time": "2023-12-29T13:40:28.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6945#issuecomment-1872097436",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6945#issuecomment-1872097436",
       "text": "Should this field also be marked as mandatory?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6945",
+      "title": "ohcnetwork/care_fe#6945",
       "time": "2023-12-29T13:35:02.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6945#issuecomment-1872093641",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6945#issuecomment-1872093641",
       "text": "I would like to take this one!"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/leaderboard#194",
+      "title": "ohcnetwork/leaderboard#194",
       "time": "2023-12-29T04:25:39.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/pull/194#issuecomment-1871719163",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/194#issuecomment-1871719163",
       "text": "I have done nothing with the data and contributors file (actually there were files and not folders with these names ). I did that in another branch and tested my changes and now I have made the required changes in a new branch without doing any ./load-fixtures.sh operation. Is it okay to move ahead without those files "
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/leaderboard#194",
+      "title": "ohcnetwork/leaderboard#194",
       "time": "2023-12-29T04:21:26.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/pull/194",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/194",
       "text": "fix: shortened the contributors list by filtering contributors according to their activity in that particular week."
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/leaderboard#193",
+      "title": "ohcnetwork/leaderboard#193",
       "time": "2023-12-28T18:08:12.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/pull/193",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/193",
       "text": "fix: shortened the contributors list by filtering contributors according to their activity in that particular week."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/leaderboard#171",
+      "title": "ohcnetwork/leaderboard#171",
       "time": "2023-12-28T11:40:13.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/issues/171#issuecomment-1871086334",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/171#issuecomment-1871086334",
       "text": "@rithviknishad Please let me know about this. I want to make it by tonight. Thanks"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/leaderboard#171",
+      "title": "ohcnetwork/leaderboard#171",
       "time": "2023-12-28T05:45:35.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/issues/171#issuecomment-1870844878",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/171#issuecomment-1870844878",
       "text": "@AshrafMd-1 @rithviknishad  Thanks for helping me in setting up the local dev environment.\r\nI have made changes to truncate the contributors list. But If were are filtering out on the basis of zero points then still there are a lot of people in the list because they have atleast 10 points they got for commenting. Either we should exclude on basis of points>15 else if eod_update, issue_opened, pr -(collaborated merged, opened, reviewed ) everything is zero. Pls give review regarding this and I will be raising the PR soon..."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6917",
+      "title": "ohcnetwork/care_fe#6917",
       "time": "2023-12-27T10:16:24.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6917#issuecomment-1870157881",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6917#issuecomment-1870157881",
       "text": "@nihal467 Please help regarding these doubts."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/leaderboard#171",
+      "title": "ohcnetwork/leaderboard#171",
       "time": "2023-12-27T03:25:34.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/issues/171#issuecomment-1869912879",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/171#issuecomment-1869912879",
       "text": "@AshrafMd-1 I genuinely want to work on this issue but I'm having problem in setting up the local dev environment. Could you help me with fixtures.sh problem?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6917",
+      "title": "ohcnetwork/care_fe#6917",
       "time": "2023-12-26T13:42:38.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6917#issuecomment-1869555729",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6917#issuecomment-1869555729",
       "text": "@nihal467  Also few more doubts:\r\nAfter copying the data from last log update:\r\na) If user click on any input field but don't change the value.\r\nb) When user change the input field value but the undo all changes.\r\n\r\nThe data is now verified in both the cases and should not contain any warning right?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6917",
+      "title": "ohcnetwork/care_fe#6917",
       "time": "2023-12-26T13:32:29.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6917#issuecomment-1869550068",
-      "text": "Okay @nihal467 \r\n![image](https://github.com/coronasafe/care_fe/assets/129517558/544b0b71-ee10-45af-9e9d-4e84f2f603a0)\r\n\r\nAfter copying values from the last log :\r\n![image](https://github.com/coronasafe/care_fe/assets/129517558/745a46ad-e1ec-422d-8dc6-4774863e9c69)\r\n\r\n\r\nIf I am on the right track, I want to know exactly where should I place the warning indicator? Inside the value field or next to the label text.  \r\nWhat exactly the warning indicator should look like:\r\n1) A svg logo with a tool-tip on hovering OR\r\n2) A clear warning text written OR\r\n3) svg logo and warning text\r\n\r\n\r\n"
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6917#issuecomment-1869550068",
+      "text": "Okay @nihal467 \r\n![image](https://github.com/ohcnetwork/care_fe/assets/129517558/544b0b71-ee10-45af-9e9d-4e84f2f603a0)\r\n\r\nAfter copying values from the last log :\r\n![image](https://github.com/ohcnetwork/care_fe/assets/129517558/745a46ad-e1ec-422d-8dc6-4774863e9c69)\r\n\r\n\r\nIf I am on the right track, I want to know exactly where should I place the warning indicator? Inside the value field or next to the label text.  \r\nWhat exactly the warning indicator should look like:\r\n1) A svg logo with a tool-tip on hovering OR\r\n2) A clear warning text written OR\r\n3) svg logo and warning text\r\n\r\n\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6917",
+      "title": "ohcnetwork/care_fe#6917",
       "time": "2023-12-26T12:49:31.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6917#issuecomment-1869524980",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6917#issuecomment-1869524980",
       "text": "@nihal467  Could you please help me reproducing the page shown in above image."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6917",
+      "title": "ohcnetwork/care_fe#6917",
       "time": "2023-12-26T06:04:46.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6917#issuecomment-1869283413",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6917#issuecomment-1869283413",
       "text": "I'm interested to work on this issue. Can you assign this to me? "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/leaderboard#189",
+      "title": "ohcnetwork/leaderboard#189",
       "time": "2023-12-21T09:35:32.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/issues/189#issuecomment-1865941862",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/189#issuecomment-1865941862",
       "text": "@rithviknishad Is it about the labels like \"in last 7 days\" or \"pull requests\" ?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6877",
+      "title": "ohcnetwork/care_fe#6877",
       "time": "2023-12-19T16:30:07.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6877#issuecomment-1863095461",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6877#issuecomment-1863095461",
       "text": "Can you please assign this issue to me?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6854",
+      "title": "ohcnetwork/care_fe#6854",
       "time": "2023-12-19T16:23:22.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6854#issuecomment-1863082365",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6854#issuecomment-1863082365",
       "text": "@nihal467 A friendly reminder. Please let me know if I can move ahead with this solution and commit the changes."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/leaderboard#171",
+      "title": "ohcnetwork/leaderboard#171",
       "time": "2023-12-19T16:21:23.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/issues/171#issuecomment-1863078901",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/171#issuecomment-1863078901",
       "text": "@rithviknishad It's a friendly reminder. Please suggest me a way so that I could set up the local development environment and start working on issues."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/leaderboard#171",
+      "title": "ohcnetwork/leaderboard#171",
       "time": "2023-12-19T16:19:43.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/issues/171#issuecomment-1863076086",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/171#issuecomment-1863076086",
       "text": "@rithviknishad  Friendly reminder."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/leaderboard#171",
+      "title": "ohcnetwork/leaderboard#171",
       "time": "2023-12-16T14:58:45.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/issues/171#issuecomment-1858837713",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/171#issuecomment-1858837713",
       "text": "@rithviknishad What else can I do now? "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6854",
+      "title": "ohcnetwork/care_fe#6854",
       "time": "2023-12-16T14:20:05.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6854#issuecomment-1858829909",
-      "text": "@nihal467 Is it OK if I do overflow hidden for these boxes content as I have seen the same thing on some other pages too.\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/129517558/3a6b3481-1a5d-459a-ba3c-4ec82cc59e75)\r\n"
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6854#issuecomment-1858829909",
+      "text": "@nihal467 Is it OK if I do overflow hidden for these boxes content as I have seen the same thing on some other pages too.\r\n\r\n![image](https://github.com/ohcnetwork/care_fe/assets/129517558/3a6b3481-1a5d-459a-ba3c-4ec82cc59e75)\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/leaderboard#171",
+      "title": "ohcnetwork/leaderboard#171",
       "time": "2023-12-16T08:00:09.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/issues/171#issuecomment-1858754688",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/171#issuecomment-1858754688",
       "text": "Sorry, I currently don't have WSL/Linux set up."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/leaderboard#171",
+      "title": "ohcnetwork/leaderboard#171",
       "time": "2023-12-15T17:26:36.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/issues/171#issuecomment-1858231038",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/171#issuecomment-1858231038",
       "text": "NO.. here is nothing like data/data-repo\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/leaderboard#171",
+      "title": "ohcnetwork/leaderboard#171",
       "time": "2023-12-15T17:20:44.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/issues/171#issuecomment-1858224032",
-      "text": "Still getting the same error on webpage and this on terminal:\r\n![image](https://github.com/coronasafe/leaderboard/assets/129517558/0bb49189-4776-4ea0-8242-010aed4b89f8)\r\n\r\n"
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/171#issuecomment-1858224032",
+      "text": "Still getting the same error on webpage and this on terminal:\r\n![image](https://github.com/ohcnetwork/leaderboard/assets/129517558/0bb49189-4776-4ea0-8242-010aed4b89f8)\r\n\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/leaderboard#171",
+      "title": "ohcnetwork/leaderboard#171",
       "time": "2023-12-15T17:13:36.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/issues/171#issuecomment-1858215271",
-      "text": "@rithviknishad I'm having trouble in setting up the development environment. Getting this error after running npm run dev command.\r\n\r\n![image](https://github.com/coronasafe/leaderboard/assets/129517558/4ce61fe2-3334-4033-ab73-81e671fcae09)\r\n"
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/171#issuecomment-1858215271",
+      "text": "@rithviknishad I'm having trouble in setting up the development environment. Getting this error after running npm run dev command.\r\n\r\n![image](https://github.com/ohcnetwork/leaderboard/assets/129517558/4ce61fe2-3334-4033-ab73-81e671fcae09)\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/leaderboard#171",
+      "title": "ohcnetwork/leaderboard#171",
       "time": "2023-12-15T09:13:51.000Z",
-      "link": "https://github.com/coronasafe/leaderboard/issues/171#issuecomment-1857535833",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/171#issuecomment-1857535833",
       "text": "@rithviknishad Can you please assign it to me?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6854",
+      "title": "ohcnetwork/care_fe#6854",
       "time": "2023-12-14T14:15:00.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6854#issuecomment-1855930941",
-      "text": "@rithviknishad \r\nIf I'm operating a device having this much width:\r\n\r\n![image](https://github.com/coronasafe/care_fe/assets/129517558/c9897b35-7c3b-41a1-b7ec-a8a29fddac80)\r\n\r\nYou can see that the slideover is covering whole screen. If I increase the width of slideover then the user have to slide left and to see see the slideover content completely. Is it ok doing so?\r\n"
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6854#issuecomment-1855930941",
+      "text": "@rithviknishad \r\nIf I'm operating a device having this much width:\r\n\r\n![image](https://github.com/ohcnetwork/care_fe/assets/129517558/c9897b35-7c3b-41a1-b7ec-a8a29fddac80)\r\n\r\nYou can see that the slideover is covering whole screen. If I increase the width of slideover then the user have to slide left and to see see the slideover content completely. Is it ok doing so?\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6854",
+      "title": "ohcnetwork/care_fe#6854",
       "time": "2023-12-14T12:18:06.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6854#issuecomment-1855745293",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6854#issuecomment-1855745293",
       "text": "@rithviknishad Sure, Thanks!"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6854",
+      "title": "ohcnetwork/care_fe#6854",
       "time": "2023-12-14T11:45:23.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6854#issuecomment-1855698086",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6854#issuecomment-1855698086",
       "text": "@nihal467 What I'm supposed to do now? Should I decrease the width of administration section to some more extent as the prescription card can't be altered being a reusable component? Please give some clarification about it."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6854",
+      "title": "ohcnetwork/care_fe#6854",
       "time": "2023-12-13T04:45:20.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6854#issuecomment-1853262289",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6854#issuecomment-1853262289",
       "text": "@rithviknishad Please review. "
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#6854",
+      "title": "ohcnetwork/care_fe#6854",
       "time": "2023-12-12T14:53:47.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6854",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6854",
       "text": "Solved the responsiveness issue of Administer medicine Slide-Over"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6784",
+      "title": "ohcnetwork/care_fe#6784",
       "time": "2023-12-06T11:39:30.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6784#issuecomment-1842702066",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6784#issuecomment-1842702066",
       "text": "@rithviknishad Understood the instructions and I will proceed further more carefully. "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6784",
+      "title": "ohcnetwork/care_fe#6784",
       "time": "2023-12-04T04:54:13.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6784#issuecomment-1837840755",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6784#issuecomment-1837840755",
       "text": "@rithviknishad Please review it."
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#6784",
+      "title": "ohcnetwork/care_fe#6784",
       "time": "2023-12-03T20:10:51.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6784",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6784",
       "text": "Modified Administer medicine card to make it responsive"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6768",
+      "title": "ohcnetwork/care_fe#6768",
       "time": "2023-12-03T03:34:21.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6768#issuecomment-1837328336",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6768#issuecomment-1837328336",
       "text": "I want to work on this issue. Please assign it to me."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6776",
+      "title": "ohcnetwork/care_fe#6776",
       "time": "2023-12-02T13:17:45.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6776#issuecomment-1837147007",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6776#issuecomment-1837147007",
       "text": "Hello @AshrafMd-1, I'm interested in working on this issue. If you're not currently handling it, could you please let me get assigned to this issue? Thank you!"
     }
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/leaderboard/pull/194",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/194",
       "title": "fix: shortened the contributors list by filtering contributors according to their activity in that particular week.",
       "stale_for": 9,
       "labels": []
     },
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/6854",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6854",
       "title": "Solved the responsiveness issue of Administer medicine Slide-Over",
       "stale_for": 3,
-      "labels": [
-        "test failed"
-      ]
+      "labels": ["test failed"]
     }
   ],
   "authored_issue_and_pr": []

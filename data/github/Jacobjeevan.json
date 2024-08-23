@@ -3,9 +3,9 @@
   "activity": [
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#8256",
+      "title": "ohcnetwork/care_fe#8256",
       "time": "2024-08-05T17:52:16.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8256",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8256",
       "text": "Production release v24.32.0",
       "collaborated_with": [
         "rithviknishad",
@@ -22,9 +22,9 @@
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#8238",
+      "title": "ohcnetwork/care_fe#8238",
       "time": "2024-08-01T09:01:11.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8238",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8238",
       "text": "Merge Develop to Staging v24.32.0",
       "collaborated_with": [
         "rithviknishad",
@@ -40,69 +40,66 @@
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#7914",
+      "title": "ohcnetwork/care_fe#7914",
       "time": "2024-08-01T05:46:50.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/7914",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7914",
       "text": "Consultation Form Enhancement: No home facility docs",
-      "collaborated_with": [
-        "Jacobjeevan",
-        "rithviknishad"
-      ]
+      "collaborated_with": ["Jacobjeevan", "rithviknishad"]
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7914",
+      "title": "ohcnetwork/care_fe#7914",
       "time": "2024-06-05T08:15:01+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7914#issuecomment-2149171295",
-      "text": "@khavinshankar Sure, I haven't had much success with triggering/displaying the drop down results. My approach has been to call fetchOptions under onClick (which I added as prop added to UserAutocompleteFormField.Autocomplete and called under Combobox.Input).\r\n\r\n<img width=\"514\" alt=\"image\" src=\"https://github.com/coronasafe/care_fe/assets/40040905/95dab763-6bbf-4bbe-b7de-b77e8a232111\">\r\n\r\n<img width=\"514\" alt=\"image\" src=\"https://github.com/coronasafe/care_fe/assets/40040905/e8387817-d79b-4015-a208-b17d7378b745\">\r\n\r\nAlternatively, I have been able to prefetch results using useQuery in UserAutocompleteFormField, although I'm unsure on how to attach that to options and trigger the dropdown."
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7914#issuecomment-2149171295",
+      "text": "@khavinshankar Sure, I haven't had much success with triggering/displaying the drop down results. My approach has been to call fetchOptions under onClick (which I added as prop added to UserAutocompleteFormField.Autocomplete and called under Combobox.Input).\r\n\r\n<img width=\"514\" alt=\"image\" src=\"https://github.com/ohcnetwork/care_fe/assets/40040905/95dab763-6bbf-4bbe-b7de-b77e8a232111\">\r\n\r\n<img width=\"514\" alt=\"image\" src=\"https://github.com/ohcnetwork/care_fe/assets/40040905/e8387817-d79b-4015-a208-b17d7378b745\">\r\n\r\nAlternatively, I have been able to prefetch results using useQuery in UserAutocompleteFormField, although I'm unsure on how to attach that to options and trigger the dropdown."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7914",
+      "title": "ohcnetwork/care_fe#7914",
       "time": "2024-06-03T04:29:45+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7914#issuecomment-2144256029",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7914#issuecomment-2144256029",
       "text": "> > ```\r\n> > * [ ]  As per the issue, when we click on the component, it should pre-fetch the data, not just when we start typing in the component.\r\n> > ```\r\n> \r\n> I've been able to use useQuery to prefetch the data, however I haven't had much success in displaying the results as a dropdown (trying to tie to onClick event in Autocomplete component). Any pointers on how to achieve that?\r\n> \r\n> Alternatively I could use the prefetched data and just disable the component and display placeholder text, as you had originally envisioned (and remove the notifications as well).\r\n\r\n@nihal467 Pinging for followup, thanks."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7914",
+      "title": "ohcnetwork/care_fe#7914",
       "time": "2024-05-29T10:15:06+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7914#issuecomment-2137056931",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7914#issuecomment-2137056931",
       "text": "\r\n>     * [ ]  As per the issue, when we click on the component, it should pre-fetch the data, not just when we start typing in the component.\r\n\r\nI've been able to use useQuery to prefetch the data, however I haven't had much success in displaying the results as a dropdown (trying to tie to onClick event in Autocomplete component). Any pointers on how to achieve that?\r\n\r\nAlternatively I could use the prefetched data and just disable the component and display placeholder text, as you had originally envisioned (and remove the notifications as well).\r\n\r\n"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#7914",
+      "title": "ohcnetwork/care_fe#7914",
       "time": "2024-05-27T14:31:58+00:00",
-      "link": "https://github.com/coronasafe/care_fe/pull/7914",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7914",
       "text": "Consultation Form Enhancement: No home facility docs"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7854",
+      "title": "ohcnetwork/care_fe#7854",
       "time": "2024-05-27T09:17:16+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7854#issuecomment-2133038794",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7854#issuecomment-2133038794",
       "text": "> > A simpler solution would be to show a notification when there are no home facility doctors available when the prefetch request completes. And maybe also modify the dropdown text to the following:\r\n> \r\n> To clarify, do you mean use the notification function with similar/same message in addition to changing the text under the drop down? Or just the latter?\r\n\r\n@rithviknishad Sorry about the ping, wanted some clarification."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7854",
+      "title": "ohcnetwork/care_fe#7854",
       "time": "2024-05-23T10:13:53+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7854#issuecomment-2126736338",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7854#issuecomment-2126736338",
       "text": "> A simpler solution would be to show a notification when there are no home facility doctors available when the prefetch request completes. And maybe also modify the dropdown text to the following:\r\n\r\nTo clarify, do you mean use the notification function with similar/same message in addition to changing the text under the drop down? Or just the latter?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#7854",
+      "title": "ohcnetwork/care_fe#7854",
       "time": "2024-05-23T06:38:17+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/7854#issuecomment-2126342275",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7854#issuecomment-2126342275",
       "text": "Mind assigning the issue to me? @nihal467 Thanks!\r\n\r\nOn an added note, some of the consultations are assigned to Dr. KUM sample user - so deselecting that would disable the field immediately since the user isn't a home facility doc. Would that be an issue?"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#7914",
+      "title": "ohcnetwork/care_fe#7914",
       "time": "2024-08-01T05:46:49Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/7914",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7914",
       "text": "Consultation Form Enhancement: No home facility docs"
     }
   ],

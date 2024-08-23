@@ -1,387 +1,385 @@
 {
-    "2024-02-14 00:00:00": [
+  "2024-02-14 00:00:00": [
+    {
+      "client_msg_id": "b2df5598-ca94-4995-ad9a-df0a8e9ded47",
+      "type": "message",
+      "text": "EOD 13 Feb:\n\u2022 Raised Issues on Metabase Manager repo to make ease of navigation and documentation changes.",
+      "user": "U065F462NF2",
+      "ts": "1707905626.898309",
+      "blocks": [
         {
-            "client_msg_id": "b2df5598-ca94-4995-ad9a-df0a8e9ded47",
-            "type": "message",
-            "text": "EOD 13 Feb:\n\u2022 Raised Issues on Metabase Manager repo to make ease of navigation and documentation changes.",
-            "user": "U065F462NF2",
-            "ts": "1707905626.898309",
-            "blocks": [
+          "type": "rich_text",
+          "block_id": "reiIA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
                 {
-                    "type": "rich_text",
-                    "block_id": "reiIA",
-                    "elements": [
-                        {
-                            "type": "rich_text_section",
-                            "elements": [
-                                {
-                                    "type": "text",
-                                    "text": "EOD 13 Feb:\n"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "rich_text_list",
-                            "elements": [
-                                {
-                                    "type": "rich_text_section",
-                                    "elements": [
-                                        {
-                                            "type": "text",
-                                            "text": "Raised Issues on Metabase Manager repo to make ease of navigation and documentation changes."
-                                        }
-                                    ]
-                                }
-                            ],
-                            "style": "bullet",
-                            "indent": 0,
-                            "border": 0
-                        }
-                    ]
+                  "type": "text",
+                  "text": "EOD 13 Feb:\n"
                 }
-            ],
-            "team": "TC99SV7B6"
-        }
-    ],
-    "2024-02-15 00:00:00": [
-        {
-            "client_msg_id": "43ef91da-e35d-4801-a434-c945ccc34894",
-            "type": "message",
-            "text": "EOD 15 Feb\nAttempted to implement sort feature for Status in Metabase Manager\n(from issue <https://github.com/coronasafe/metabase_manager/issues/9>)",
-            "user": "U065F462NF2",
-            "ts": "1708024235.767269",
-            "blocks": [
-                {
-                    "type": "rich_text",
-                    "block_id": "HQ6Fn",
-                    "elements": [
-                        {
-                            "type": "rich_text_section",
-                            "elements": [
-                                {
-                                    "type": "text",
-                                    "text": "EOD 15 Feb\nAttempted to implement sort feature for Status in Metabase Manager\n(from issue "
-                                },
-                                {
-                                    "type": "link",
-                                    "url": "https://github.com/coronasafe/metabase_manager/issues/9"
-                                },
-                                {
-                                    "type": "text",
-                                    "text": ")"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "team": "TC99SV7B6",
-            "attachments": [
-                {
-                    "id": 1,
-                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
-                    "ts": 1707795483,
-                    "color": "36a64f",
-                    "bot_id": "B01V56NBBNC",
-                    "app_unfurl_url": "https://github.com/coronasafe/metabase_manager/issues/9",
-                    "is_app_unfurl": true,
-                    "app_id": "A01BP7R4KNY",
-                    "fallback": "#9 Navigation Limitations for Card Selection",
-                    "text": "Currently, there's no way to group the cards that are being synced across subcollection/instances/name/sync status. This makes navigating the long list of cards from the whole collection that is being synced difficult to navigate through in situations where only certain cards need syncing.\n\nI propose that we add a feature that allows us to group the cards based on sync status, alphabetical order of their name, which sub collection they belong to and finally the instance of the dashboard they belong to. Furthermore, I'd like to add a collapsing/expanding feature to the cards that are being grouped in such a way.",
-                    "title": "#9 Navigation Limitations for Card Selection",
-                    "title_link": "https://github.com/coronasafe/metabase_manager/issues/9",
-                    "footer": "<https://github.com/coronasafe/metabase_manager|coronasafe/metabase_manager>",
-                    "mrkdwn_in": [
-                        "text"
-                    ]
-                }
-            ]
-        }
-    ],
-    "2024-02-19 00:00:00": [
-        {
-            "client_msg_id": "852d3d0b-dd9e-4251-839d-5bf2acd73fc7",
-            "type": "message",
-            "text": "EOD Feb 19\nAdded collapsible sections for cards grouped by sub-collections for Metabase Manager",
-            "user": "U065F462NF2",
-            "ts": "1708365204.450029",
-            "blocks": [
-                {
-                    "type": "rich_text",
-                    "block_id": "QTLwG",
-                    "elements": [
-                        {
-                            "type": "rich_text_section",
-                            "elements": [
-                                {
-                                    "type": "text",
-                                    "text": "EOD Feb 19\nAdded collapsible sections for cards grouped by sub-collections for Metabase Manager"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "team": "TC99SV7B6"
-        }
-    ],
-    "2024-02-22 00:00:00": [
-        {
-            "client_msg_id": "07f2455e-c839-4fe9-b30d-026f516c0458",
-            "type": "message",
-            "text": "EOD 20 Feb :\nSet up a record of all the variables available in CARE for ICMR proposal\n\nEOD 21 Feb :\nSet up a metabase query to get daily reports on patients registered and consultations filed in Karnataka",
-            "user": "U065F462NF2",
-            "ts": "1708577773.319049",
-            "blocks": [
-                {
-                    "type": "rich_text",
-                    "block_id": "5sDIg",
-                    "elements": [
-                        {
-                            "type": "rich_text_section",
-                            "elements": [
-                                {
-                                    "type": "text",
-                                    "text": "EOD 20 Feb :\nSet up a record of all the variables available in CARE for ICMR proposal\n\nEOD 21 Feb :\nSet up a metabase query to get daily reports on patients registered and consultations filed in Karnataka"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "team": "TC99SV7B6"
-        }
-    ],
-    "2024-02-27 00:00:00": [
-        {
-            "user": "U065F462NF2",
-            "type": "message",
-            "ts": "1709056890.730889",
-            "client_msg_id": "1aeba54d-c3f1-4560-bd3f-d4ad8b3cfc3f",
-            "text": "EOD 27 Feb:\nConsolidated all features from Issue 9 (<https://github.com/coronasafe/metabase_manager/issues/9>) and set up a pull request for the same.",
-            "team": "TC99SV7B6",
-            "blocks": [
-                {
-                    "type": "rich_text",
-                    "block_id": "DnkbZ",
-                    "elements": [
-                        {
-                            "type": "rich_text_section",
-                            "elements": [
-                                {
-                                    "type": "text",
-                                    "text": "EOD 27 Feb:\nConsolidated all features from Issue 9 ("
-                                },
-                                {
-                                    "type": "link",
-                                    "url": "https://github.com/coronasafe/metabase_manager/issues/9"
-                                },
-                                {
-                                    "type": "text",
-                                    "text": ") and set up a pull request for the same."
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "2024-02-29 00:00:00": [
-        {
-            "user": "U065F462NF2",
-            "type": "message",
-            "ts": "1709216936.039829",
-            "client_msg_id": "9a17c0c9-51f5-48bb-88ac-9d582f193dab",
-            "text": "EOD Feb 28:\nAttempted to consolidate the sorting function for the status column for metabase manager.\nEOD Feb 29:\nCompleted integrating the feature into the main branch. Have updated the pull request to inform the same.\nUpdated a Care Providers Metric query in metabase across all instances.",
-            "team": "TC99SV7B6",
-            "blocks": [
-                {
-                    "type": "rich_text",
-                    "block_id": "ihfsn",
-                    "elements": [
-                        {
-                            "type": "rich_text_section",
-                            "elements": [
-                                {
-                                    "type": "text",
-                                    "text": "EOD Feb 28:\nAttempted to consolidate the sorting function for the status column for metabase manager.\nEOD Feb 29:\nCompleted integrating the feature into the main branch. Have updated the pull request to inform the same.\nUpdated a Care Providers Metric query in metabase across all instances."
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "2024-03-06 00:00:00": [
-        {
-            "user": "U065F462NF2",
-            "type": "message",
-            "ts": "1709731060.288609",
-            "client_msg_id": "c6d2ce5c-11bd-4a77-9210-34acb9304668",
-            "text": "EOD March 4\n\u2022 Continued working on the log for metabase manager synchronization.\n\u2022 Addressed the issues in the change requests for the dashboard. ",
-            "team": "TC99SV7B6",
-            "blocks": [
-                {
-                    "type": "rich_text",
-                    "block_id": "k0vjh",
-                    "elements": [
-                        {
-                            "type": "rich_text_section",
-                            "elements": [
-                                {
-                                    "type": "text",
-                                    "text": "EOD March 4\n"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "rich_text_list",
-                            "elements": [
-                                {
-                                    "type": "rich_text_section",
-                                    "elements": [
-                                        {
-                                            "type": "text",
-                                            "text": "Continued working on the log for metabase manager synchronization."
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "rich_text_section",
-                                    "elements": [
-                                        {
-                                            "type": "text",
-                                            "text": "Addressed the issues in the change requests for the dashboard. "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "style": "bullet",
-                            "indent": 0,
-                            "border": 0
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "user": "U065F462NF2",
-            "type": "message",
-            "ts": "1709730810.748629",
-            "edited": {
-                "user": "U065F462NF2",
-                "ts": "1709730894.000000"
+              ]
             },
-            "client_msg_id": "e35db8d1-61ff-4477-8118-852a03e01a10",
-            "text": "EOD March 1:\n\u2022 Started working on introducing a log for the synchronization process on metabase manager in accordance with Issue 8\n\u2022 Over the weekend, changed the logo size for 10BedIcu on dashboard across all instances.\n\u2022 Attempted to solve change requests for dashboard",
-            "team": "TC99SV7B6",
-            "blocks": [
+            {
+              "type": "rich_text_list",
+              "elements": [
                 {
-                    "type": "rich_text",
-                    "block_id": "tby+o",
-                    "elements": [
-                        {
-                            "type": "rich_text_section",
-                            "elements": [
-                                {
-                                    "type": "text",
-                                    "text": "EOD March 1:\n"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "rich_text_list",
-                            "elements": [
-                                {
-                                    "type": "rich_text_section",
-                                    "elements": [
-                                        {
-                                            "type": "text",
-                                            "text": "Started working on introducing a log for the synchronization process on metabase manager in accordance with Issue 8"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "rich_text_section",
-                                    "elements": [
-                                        {
-                                            "type": "text",
-                                            "text": "Over the weekend, changed the logo size for 10BedIcu on dashboard across all instances."
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "rich_text_section",
-                                    "elements": [
-                                        {
-                                            "type": "text",
-                                            "text": "Attempted to solve change requests for dashboard"
-                                        }
-                                    ]
-                                }
-                            ],
-                            "style": "bullet",
-                            "indent": 0,
-                            "border": 0
-                        }
-                    ]
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Raised Issues on Metabase Manager repo to make ease of navigation and documentation changes."
+                    }
+                  ]
                 }
-            ]
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            }
+          ]
         }
-    ],
-    "2024-03-13 00:00:00": [
+      ],
+      "team": "TC99SV7B6"
+    }
+  ],
+  "2024-02-15 00:00:00": [
+    {
+      "client_msg_id": "43ef91da-e35d-4801-a434-c945ccc34894",
+      "type": "message",
+      "text": "EOD 15 Feb\nAttempted to implement sort feature for Status in Metabase Manager\n(from issue <https://github.com/ohcnetwork/metabase_manager/issues/9>)",
+      "user": "U065F462NF2",
+      "ts": "1708024235.767269",
+      "blocks": [
         {
-            "user": "U065F462NF2",
-            "type": "message",
-            "ts": "1710357100.432649",
-            "client_msg_id": "bd140ce9-6c18-4020-ad71-b111bb799281",
-            "text": "EOD 14 Mar\n\u2022 Added more metadata to the sync log for metabase manager (Issue 8) \n\u2022 Created a schema for a sync log table and added helper functions to interact with the database.  ",
-            "team": "TC99SV7B6",
-            "blocks": [
+          "type": "rich_text",
+          "block_id": "HQ6Fn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
                 {
-                    "type": "rich_text",
-                    "block_id": "wbnP1",
-                    "elements": [
-                        {
-                            "type": "rich_text_section",
-                            "elements": [
-                                {
-                                    "type": "text",
-                                    "text": "EOD 14 Mar\n"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "rich_text_list",
-                            "elements": [
-                                {
-                                    "type": "rich_text_section",
-                                    "elements": [
-                                        {
-                                            "type": "text",
-                                            "text": "Added more metadata to the sync log for metabase manager (Issue 8) "
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "rich_text_section",
-                                    "elements": [
-                                        {
-                                            "type": "text",
-                                            "text": "Created a schema for a sync log table and added helper functions to interact with the database.  "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "style": "bullet",
-                            "indent": 0,
-                            "border": 0
-                        }
-                    ]
+                  "type": "text",
+                  "text": "EOD 15 Feb\nAttempted to implement sort feature for Status in Metabase Manager\n(from issue "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/ohcnetwork/metabase_manager/issues/9"
+                },
+                {
+                  "type": "text",
+                  "text": ")"
                 }
-            ]
+              ]
+            }
+          ]
         }
-    ]
+      ],
+      "team": "TC99SV7B6",
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1707795483,
+          "color": "36a64f",
+          "bot_id": "B01V56NBBNC",
+          "app_unfurl_url": "https://github.com/ohcnetwork/metabase_manager/issues/9",
+          "is_app_unfurl": true,
+          "app_id": "A01BP7R4KNY",
+          "fallback": "#9 Navigation Limitations for Card Selection",
+          "text": "Currently, there's no way to group the cards that are being synced across subcollection/instances/name/sync status. This makes navigating the long list of cards from the whole collection that is being synced difficult to navigate through in situations where only certain cards need syncing.\n\nI propose that we add a feature that allows us to group the cards based on sync status, alphabetical order of their name, which sub collection they belong to and finally the instance of the dashboard they belong to. Furthermore, I'd like to add a collapsing/expanding feature to the cards that are being grouped in such a way.",
+          "title": "#9 Navigation Limitations for Card Selection",
+          "title_link": "https://github.com/ohcnetwork/metabase_manager/issues/9",
+          "footer": "<https://github.com/ohcnetwork/metabase_manager|ohcnetwork/metabase_manager>",
+          "mrkdwn_in": ["text"]
+        }
+      ]
+    }
+  ],
+  "2024-02-19 00:00:00": [
+    {
+      "client_msg_id": "852d3d0b-dd9e-4251-839d-5bf2acd73fc7",
+      "type": "message",
+      "text": "EOD Feb 19\nAdded collapsible sections for cards grouped by sub-collections for Metabase Manager",
+      "user": "U065F462NF2",
+      "ts": "1708365204.450029",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "QTLwG",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "EOD Feb 19\nAdded collapsible sections for cards grouped by sub-collections for Metabase Manager"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "TC99SV7B6"
+    }
+  ],
+  "2024-02-22 00:00:00": [
+    {
+      "client_msg_id": "07f2455e-c839-4fe9-b30d-026f516c0458",
+      "type": "message",
+      "text": "EOD 20 Feb :\nSet up a record of all the variables available in CARE for ICMR proposal\n\nEOD 21 Feb :\nSet up a metabase query to get daily reports on patients registered and consultations filed in Karnataka",
+      "user": "U065F462NF2",
+      "ts": "1708577773.319049",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5sDIg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "EOD 20 Feb :\nSet up a record of all the variables available in CARE for ICMR proposal\n\nEOD 21 Feb :\nSet up a metabase query to get daily reports on patients registered and consultations filed in Karnataka"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "team": "TC99SV7B6"
+    }
+  ],
+  "2024-02-27 00:00:00": [
+    {
+      "user": "U065F462NF2",
+      "type": "message",
+      "ts": "1709056890.730889",
+      "client_msg_id": "1aeba54d-c3f1-4560-bd3f-d4ad8b3cfc3f",
+      "text": "EOD 27 Feb:\nConsolidated all features from Issue 9 (<https://github.com/ohcnetwork/metabase_manager/issues/9>) and set up a pull request for the same.",
+      "team": "TC99SV7B6",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "DnkbZ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "EOD 27 Feb:\nConsolidated all features from Issue 9 ("
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/ohcnetwork/metabase_manager/issues/9"
+                },
+                {
+                  "type": "text",
+                  "text": ") and set up a pull request for the same."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "2024-02-29 00:00:00": [
+    {
+      "user": "U065F462NF2",
+      "type": "message",
+      "ts": "1709216936.039829",
+      "client_msg_id": "9a17c0c9-51f5-48bb-88ac-9d582f193dab",
+      "text": "EOD Feb 28:\nAttempted to consolidate the sorting function for the status column for metabase manager.\nEOD Feb 29:\nCompleted integrating the feature into the main branch. Have updated the pull request to inform the same.\nUpdated a Care Providers Metric query in metabase across all instances.",
+      "team": "TC99SV7B6",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ihfsn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "EOD Feb 28:\nAttempted to consolidate the sorting function for the status column for metabase manager.\nEOD Feb 29:\nCompleted integrating the feature into the main branch. Have updated the pull request to inform the same.\nUpdated a Care Providers Metric query in metabase across all instances."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "2024-03-06 00:00:00": [
+    {
+      "user": "U065F462NF2",
+      "type": "message",
+      "ts": "1709731060.288609",
+      "client_msg_id": "c6d2ce5c-11bd-4a77-9210-34acb9304668",
+      "text": "EOD March 4\n\u2022 Continued working on the log for metabase manager synchronization.\n\u2022 Addressed the issues in the change requests for the dashboard. ",
+      "team": "TC99SV7B6",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "k0vjh",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "EOD March 4\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Continued working on the log for metabase manager synchronization."
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Addressed the issues in the change requests for the dashboard. "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U065F462NF2",
+      "type": "message",
+      "ts": "1709730810.748629",
+      "edited": {
+        "user": "U065F462NF2",
+        "ts": "1709730894.000000"
+      },
+      "client_msg_id": "e35db8d1-61ff-4477-8118-852a03e01a10",
+      "text": "EOD March 1:\n\u2022 Started working on introducing a log for the synchronization process on metabase manager in accordance with Issue 8\n\u2022 Over the weekend, changed the logo size for 10BedIcu on dashboard across all instances.\n\u2022 Attempted to solve change requests for dashboard",
+      "team": "TC99SV7B6",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "tby+o",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "EOD March 1:\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Started working on introducing a log for the synchronization process on metabase manager in accordance with Issue 8"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Over the weekend, changed the logo size for 10BedIcu on dashboard across all instances."
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Attempted to solve change requests for dashboard"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "2024-03-13 00:00:00": [
+    {
+      "user": "U065F462NF2",
+      "type": "message",
+      "ts": "1710357100.432649",
+      "client_msg_id": "bd140ce9-6c18-4020-ad71-b111bb799281",
+      "text": "EOD 14 Mar\n\u2022 Added more metadata to the sync log for metabase manager (Issue 8) \n\u2022 Created a schema for a sync log table and added helper functions to interact with the database.  ",
+      "team": "TC99SV7B6",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "wbnP1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "EOD 14 Mar\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Added more metadata to the sync log for metabase manager (Issue 8) "
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Created a schema for a sync log table and added helper functions to interact with the database.  "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

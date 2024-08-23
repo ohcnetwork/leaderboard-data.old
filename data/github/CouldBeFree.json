@@ -3,9 +3,9 @@
   "activity": [
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#5343",
+      "title": "ohcnetwork/care_fe#5343",
       "time": "2023-04-14T18:10:29.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5343",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5343",
       "text": "Production Release; Apr Week 3",
       "collaborated_with": [
         "bodhish",
@@ -22,44 +22,44 @@
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5232",
+      "title": "ohcnetwork/care_fe#5232",
       "time": "2023-04-06T15:47:13.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/5232#issuecomment-1499276726",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/5232#issuecomment-1499276726",
       "text": "How to get permission, to be able to push my branch with fix and create pl?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5232",
+      "title": "ohcnetwork/care_fe#5232",
       "time": "2023-04-06T09:35:44.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/5232#issuecomment-1498767983",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/5232#issuecomment-1498767983",
       "text": "I will implement such logic.\r\nThank you for the updates.\r\n@rithviknishad "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5232",
+      "title": "ohcnetwork/care_fe#5232",
       "time": "2023-04-05T18:19:16.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/5232#issuecomment-1497922200",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/5232#issuecomment-1497922200",
       "text": "I investigated the issue, so when the token expires, the user is logged out and redirected to the page /session-expired.\r\nSo in this case all works correctly.\r\nThe issue occurs for logged-in users if manually enter /session-expired in the URL.\r\nUsers see a 404 page because in the router configuration for logged-in users, there is no such route (session-expired)\r\nSo possible solution is to not allow logged-in users to enter this route, it should be allowed only for non-logged users.\r\nI need your approval @rithviknishad "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5232",
+      "title": "ohcnetwork/care_fe#5232",
       "time": "2023-04-05T17:36:05.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/5232#issuecomment-1497871800",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/5232#issuecomment-1497871800",
       "text": "I am working on this issue"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#5264",
+      "title": "ohcnetwork/care_fe#5264",
       "time": "2023-04-07T07:03:01Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5264",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5264",
       "text": "Fix for the session expired page"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#5264",
+      "title": "ohcnetwork/care_fe#5264",
       "time": "2023-04-11T10:57:58Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5264",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5264",
       "text": "Fix for the session expired page"
     }
   ],

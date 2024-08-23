@@ -3,9 +3,9 @@
   "activity": [
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#6068",
+      "title": "ohcnetwork/care_fe#6068",
       "time": "2023-08-12T10:10:42.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6068",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6068",
       "text": "Production Release; Aug Week 3",
       "collaborated_with": [
         "Ashesh3",
@@ -18,238 +18,229 @@
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#5730",
+      "title": "ohcnetwork/care_fe#5730",
       "time": "2023-08-10T15:17:48.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5730",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5730",
       "text": "added referred to facility field in discharge form"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#5730",
+      "title": "ohcnetwork/care_fe#5730",
       "time": "2023-08-10T15:17:48.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5730",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5730",
       "text": "added referred to facility field in discharge form",
-      "collaborated_with": [
-        "Ashesh3",
-        "nihal467"
-      ]
+      "collaborated_with": ["Ashesh3", "nihal467"]
     },
     {
       "type": "pr_reviewed",
       "time": "2023-08-09T08:30:06.000Z",
-      "title": "coronasafe/care_fe#5730",
-      "link": "https://github.com/coronasafe/care_fe/pull/5730#pullrequestreview-1569027591",
+      "title": "ohcnetwork/care_fe#5730",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5730#pullrequestreview-1569027591",
       "text": "added referred to facility field in discharge form"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5730",
+      "title": "ohcnetwork/care_fe#5730",
       "time": "2023-08-08T11:39:28.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5730#issuecomment-1669451311",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5730#issuecomment-1669451311",
       "text": "> @sachdevavaibhav can you fix the merge conflict and get it ready for testing, we need to get it merge ASAP\r\n\r\nsolved merge conflict. Though I have one question why are we using moment.js and day.js both. Don't they serve the same purpose. I have kept the code coming from develop which is using dayjs.\r\n\r\n@nihal467 @Ashesh3 "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5730",
+      "title": "ohcnetwork/care_fe#5730",
       "time": "2023-08-03T03:47:39.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5730#issuecomment-1663249774",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5730#issuecomment-1663249774",
       "text": "> @sachdevavaibhav what is the status on this PR\r\n\r\nsolved merge conflict. pushed necessary changes. Kindly review it.\r\n\r\n@Ashesh3 "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5730",
+      "title": "ohcnetwork/care_fe#5730",
       "time": "2023-07-21T06:46:10.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5730#issuecomment-1645064549",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5730#issuecomment-1645064549",
       "text": "@rithviknishad Changes are merged in the backend. You may merge this as well."
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care#1430",
+      "title": "ohcnetwork/care#1430",
       "time": "2023-07-21T04:09:00.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1430",
+      "link": "https://github.com/ohcnetwork/care/pull/1430",
       "text": "added referred_to_external field PatientConsultationDischargeSerializer"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#1430",
+      "title": "ohcnetwork/care#1430",
       "time": "2023-07-21T04:09:00.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1430",
+      "link": "https://github.com/ohcnetwork/care/pull/1430",
       "text": "added referred_to_external field PatientConsultationDischargeSerializer",
-      "collaborated_with": [
-        "vigneshhari",
-        "sainak"
-      ]
+      "collaborated_with": ["vigneshhari", "sainak"]
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1430",
+      "title": "ohcnetwork/care#1430",
       "time": "2023-07-10T06:09:48.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1430#issuecomment-1628301526",
+      "link": "https://github.com/ohcnetwork/care/pull/1430#issuecomment-1628301526",
       "text": "> > > @sainak I have a couple of questions:\r\n> > > \r\n> > > * referred_to_external should accept only strings/null values right? And not integer etc.\r\n> > \r\n> > \r\n> > Yes\r\n> > > * Should I create separate branch for tests or push them here only?\r\n> > \r\n> > \r\n> > You can include them in this pr\r\n> \r\n> @sainak I have written a few test and found that its also accepting integers (may be its converting it to string values). Kindly review the test and should I also add some validation to the input?\r\n\r\n@sainak "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1430",
+      "title": "ohcnetwork/care#1430",
       "time": "2023-07-07T11:46:23.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1430#issuecomment-1625292647",
+      "link": "https://github.com/ohcnetwork/care/pull/1430#issuecomment-1625292647",
       "text": "> > @sainak I have a couple of questions:\r\n> > \r\n> > * referred_to_external should accept only strings/null values right? And not integer etc.\r\n> \r\n> Yes\r\n> \r\n> > * Should I create separate branch for tests or push them here only?\r\n> \r\n> You can include them in this pr\r\n\r\n@sainak I have written a few test and found that its also accepting integers (may be its converting it to string values). Kindly review the test and should I also add some validation to the input?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1430",
+      "title": "ohcnetwork/care#1430",
       "time": "2023-07-06T18:36:05.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1430#issuecomment-1624144636",
+      "link": "https://github.com/ohcnetwork/care/pull/1430#issuecomment-1624144636",
       "text": "> > @sachdevavaibhav can you add some tests to validate whether this field is accepting correct inputs\r\n> \r\n> ya sure!\r\n\r\n@sainak I have a couple of questions:\r\n- referred_to_external should accept only strings/null values right? And not integer etc.\r\n- Should I create separate branch for tests or push them here only?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1430",
+      "title": "ohcnetwork/care#1430",
       "time": "2023-07-05T08:30:07.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1430#issuecomment-1621284494",
+      "link": "https://github.com/ohcnetwork/care/pull/1430#issuecomment-1621284494",
       "text": "> @sachdevavaibhav can you add some tests to validate whether this field is accepting correct inputs\r\n\r\nya sure!"
     },
     {
       "type": "pr_reviewed",
       "time": "2023-07-05T08:13:50.000Z",
-      "title": "coronasafe/care#1430",
-      "link": "https://github.com/coronasafe/care/pull/1430#pullrequestreview-1513935120",
+      "title": "ohcnetwork/care#1430",
+      "link": "https://github.com/ohcnetwork/care/pull/1430#pullrequestreview-1513935120",
       "text": "added referred_to_external field PatientConsultationDischargeSerializer"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1430",
+      "title": "ohcnetwork/care#1430",
       "time": "2023-07-04T17:35:52.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1430#issuecomment-1620571256",
+      "link": "https://github.com/ohcnetwork/care/pull/1430#issuecomment-1620571256",
       "text": "@rithviknishad Done with formatting."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5730",
+      "title": "ohcnetwork/care_fe#5730",
       "time": "2023-07-04T16:14:55.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5730#issuecomment-1620501263",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5730#issuecomment-1620501263",
       "text": "> @sachdevavaibhav yes! Go ahead!\r\n\r\nDone! Kindly review it."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1430",
+      "title": "ohcnetwork/care#1430",
       "time": "2023-07-04T16:12:42.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1430#issuecomment-1620498998",
+      "link": "https://github.com/ohcnetwork/care/pull/1430#issuecomment-1620498998",
       "text": "@rithviknishad Kindly review it."
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1430",
+      "title": "ohcnetwork/care#1430",
       "time": "2023-07-04T16:11:58.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1430",
+      "link": "https://github.com/ohcnetwork/care/pull/1430",
       "text": "added referred_to_external field PatientConsultationDischargeSerializer"
     },
     {
       "type": "issue_opened",
-      "title": "coronasafe/care#1429",
+      "title": "ohcnetwork/care#1429",
       "time": "2023-07-04T15:44:24.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1429",
+      "link": "https://github.com/ohcnetwork/care/issues/1429",
       "text": "PatientConsultationDischargeSerializer is not having referred_to_external field."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5730",
+      "title": "ohcnetwork/care_fe#5730",
       "time": "2023-07-04T10:28:08.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5730#issuecomment-1619982541",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5730#issuecomment-1619982541",
       "text": "@rithviknishad \r\nShould I create issue and link a PR for the backend?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5730",
+      "title": "ohcnetwork/care_fe#5730",
       "time": "2023-07-01T18:06:45.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5730#issuecomment-1616024879",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5730#issuecomment-1616024879",
       "text": "@rithviknishad \r\nUpon my analysis I found the value is not being stored in the database. Its storing a null value for it.\r\nI found this by setting up care backend locally. It is storing other fields like discharge_reason etc correctly but storing null for referred_to_external."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5730",
+      "title": "ohcnetwork/care_fe#5730",
       "time": "2023-06-24T17:15:03.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5730#issuecomment-1605655544",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5730#issuecomment-1605655544",
       "text": "@rithviknishad @nihal467 "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5730",
+      "title": "ohcnetwork/care_fe#5730",
       "time": "2023-06-20T09:34:22.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5730#issuecomment-1598442215",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5730#issuecomment-1598442215",
       "text": "@rithviknishad Kindly review it. The field can search from the options but it is not able to add values which are not present. Please suggest how can I solve it?"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#5730",
+      "title": "ohcnetwork/care_fe#5730",
       "time": "2023-06-20T09:31:37.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5730",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5730",
       "text": "added referred to facility field in discharge form"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5407",
+      "title": "ohcnetwork/care_fe#5407",
       "time": "2023-06-17T09:03:24.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/5407#issuecomment-1595679850",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/5407#issuecomment-1595679850",
       "text": "okay\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5407",
+      "title": "ohcnetwork/care_fe#5407",
       "time": "2023-06-17T09:00:41.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/5407#issuecomment-1595679306",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/5407#issuecomment-1595679306",
       "text": "@rithviknishad Is there any defined component for this issue already. We need a select menu with free text. Should I make modifications with `SelectMenuV2`?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5407",
+      "title": "ohcnetwork/care_fe#5407",
       "time": "2023-06-09T16:07:51.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/5407#issuecomment-1584823195",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/5407#issuecomment-1584823195",
       "text": "@rithviknishad If no one is working on it you can assign it to me.\r\n\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5633",
+      "title": "ohcnetwork/care_fe#5633",
       "time": "2023-06-09T16:03:57.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/5633#issuecomment-1584818181",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/5633#issuecomment-1584818181",
       "text": "@rithviknishad I can work on it."
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#5570",
+      "title": "ohcnetwork/care_fe#5570",
       "time": "2023-06-07T10:01:08.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5570",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5570",
       "text": "replaced MUI dialog and related components with DialogModal"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#5570",
+      "title": "ohcnetwork/care_fe#5570",
       "time": "2023-06-07T10:01:08.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5570",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5570",
       "text": "replaced MUI dialog and related components with DialogModal",
-      "collaborated_with": [
-        "khavinshankar",
-        "nihal467"
-      ]
+      "collaborated_with": ["khavinshankar", "nihal467"]
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#4941",
+      "title": "ohcnetwork/care_fe#4941",
       "time": "2023-06-04T14:42:16.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/4941#issuecomment-1575594749",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/4941#issuecomment-1575594749",
       "text": "@print-Sathvik Thanks\r\n\r\n\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#4941",
+      "title": "ohcnetwork/care_fe#4941",
       "time": "2023-06-03T12:15:19.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/4941#issuecomment-1574904707",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/4941#issuecomment-1574904707",
       "text": "@rithviknishad Can I work on this issue? If yes, kindly assign it to me.\r\n"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#5588",
+      "title": "ohcnetwork/care_fe#5588",
       "time": "2023-06-02T16:49:15.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5588",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5588",
       "text": "Production Release; June Week 1",
       "collaborated_with": [
         "Bhavik-ag",
@@ -267,275 +258,271 @@
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#5553",
+      "title": "ohcnetwork/care_fe#5553",
       "time": "2023-05-31T07:27:05.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5553",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5553",
       "text": "Sachdevavaibhav/issue#4945"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#5553",
+      "title": "ohcnetwork/care_fe#5553",
       "time": "2023-05-31T07:27:05.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5553",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5553",
       "text": "Sachdevavaibhav/issue#4945",
-      "collaborated_with": [
-        "khavinshankar"
-      ]
+      "collaborated_with": ["khavinshankar"]
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5570",
+      "title": "ohcnetwork/care_fe#5570",
       "time": "2023-05-30T16:49:59.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5570#issuecomment-1568759108",
-      "text": "![Screenshot 2023-05-30 221859](https://github.com/coronasafe/care_fe/assets/72242181/b57ad3d6-bf4d-48c0-b637-08db061421ae)\r\n\r\n@rithviknishad Kindly review the changes."
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5570#issuecomment-1568759108",
+      "text": "![Screenshot 2023-05-30 221859](https://github.com/ohcnetwork/care_fe/assets/72242181/b57ad3d6-bf4d-48c0-b637-08db061421ae)\r\n\r\n@rithviknishad Kindly review the changes."
     },
     {
       "type": "pr_reviewed",
       "time": "2023-05-30T16:44:41.000Z",
-      "title": "coronasafe/care_fe#5570",
-      "link": "https://github.com/coronasafe/care_fe/pull/5570#pullrequestreview-1451387834",
+      "title": "ohcnetwork/care_fe#5570",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5570#pullrequestreview-1451387834",
       "text": "replaced MUI dialog and related components with DialogModal"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5553",
+      "title": "ohcnetwork/care_fe#5553",
       "time": "2023-05-30T16:33:53.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5553#issuecomment-1568739779",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5553#issuecomment-1568739779",
       "text": "@nihal467 Solved the merge conflict. Kindly review it."
     },
     {
       "type": "pr_reviewed",
       "time": "2023-05-30T15:54:47.000Z",
-      "title": "coronasafe/care_fe#5570",
-      "link": "https://github.com/coronasafe/care_fe/pull/5570#pullrequestreview-1451294672",
+      "title": "ohcnetwork/care_fe#5570",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5570#pullrequestreview-1451294672",
       "text": "replaced MUI dialog and related components with DialogModal"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5553",
+      "title": "ohcnetwork/care_fe#5553",
       "time": "2023-05-30T15:45:01.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5553#issuecomment-1568668119",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5553#issuecomment-1568668119",
       "text": "@nihal467 Ya sure!"
     },
     {
       "type": "pr_reviewed",
       "time": "2023-05-30T14:18:06.000Z",
-      "title": "coronasafe/care_fe#5570",
-      "link": "https://github.com/coronasafe/care_fe/pull/5570#pullrequestreview-1451081256",
+      "title": "ohcnetwork/care_fe#5570",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5570#pullrequestreview-1451081256",
       "text": "replaced MUI dialog and related components with DialogModal"
     },
     {
       "type": "pr_reviewed",
       "time": "2023-05-30T13:48:30.000Z",
-      "title": "coronasafe/care_fe#5570",
-      "link": "https://github.com/coronasafe/care_fe/pull/5570#pullrequestreview-1451008536",
+      "title": "ohcnetwork/care_fe#5570",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5570#pullrequestreview-1451008536",
       "text": "replaced MUI dialog and related components with DialogModal"
     },
     {
       "type": "pr_reviewed",
       "time": "2023-05-30T13:45:48.000Z",
-      "title": "coronasafe/care_fe#5570",
-      "link": "https://github.com/coronasafe/care_fe/pull/5570#pullrequestreview-1451000558",
+      "title": "ohcnetwork/care_fe#5570",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5570#pullrequestreview-1451000558",
       "text": "replaced MUI dialog and related components with DialogModal"
     },
     {
       "type": "pr_reviewed",
       "time": "2023-05-30T13:45:19.000Z",
-      "title": "coronasafe/care_fe#5570",
-      "link": "https://github.com/coronasafe/care_fe/pull/5570#pullrequestreview-1450999162",
+      "title": "ohcnetwork/care_fe#5570",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5570#pullrequestreview-1450999162",
       "text": "replaced MUI dialog and related components with DialogModal"
     },
     {
       "type": "pr_reviewed",
       "time": "2023-05-30T13:43:58.000Z",
-      "title": "coronasafe/care_fe#5570",
-      "link": "https://github.com/coronasafe/care_fe/pull/5570#pullrequestreview-1450995153",
+      "title": "ohcnetwork/care_fe#5570",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5570#pullrequestreview-1450995153",
       "text": "replaced MUI dialog and related components with DialogModal"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#4946",
+      "title": "ohcnetwork/care_fe#4946",
       "time": "2023-05-30T13:32:28.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/4946#issuecomment-1568444552",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/4946#issuecomment-1568444552",
       "text": "@rithviknishad Kindly review the PR.\r\n"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#5570",
+      "title": "ohcnetwork/care_fe#5570",
       "time": "2023-05-30T13:31:08.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5570",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5570",
       "text": "replaced MUI dialog and related components with DialogModal"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#5534",
+      "title": "ohcnetwork/care_fe#5534",
       "time": "2023-05-30T11:17:33.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5534",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5534",
       "text": "fixed auto collapse the DateFormField after user clicks on a date"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#5534",
+      "title": "ohcnetwork/care_fe#5534",
       "time": "2023-05-30T11:17:33.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5534",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5534",
       "text": "fixed auto collapse the DateFormField after user clicks on a date",
-      "collaborated_with": [
-        "khavinshankar"
-      ]
+      "collaborated_with": ["khavinshankar"]
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#4946",
+      "title": "ohcnetwork/care_fe#4946",
       "time": "2023-05-29T03:05:06.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/4946#issuecomment-1566432047",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/4946#issuecomment-1566432047",
       "text": "@rithviknishad I can work on this issue. Kindly assign it to me.\r\n"
     },
     {
       "type": "pr_reviewed",
       "time": "2023-05-28T17:46:29.000Z",
-      "title": "coronasafe/care_fe#5553",
-      "link": "https://github.com/coronasafe/care_fe/pull/5553#pullrequestreview-1448345370",
+      "title": "ohcnetwork/care_fe#5553",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5553#pullrequestreview-1448345370",
       "text": "Sachdevavaibhav/issue#4945"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5553",
+      "title": "ohcnetwork/care_fe#5553",
       "time": "2023-05-28T16:04:51.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5553#issuecomment-1566184979",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5553#issuecomment-1566184979",
       "text": "@rithviknishad I have made the changes. Kindly review it.\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#4945",
+      "title": "ohcnetwork/care_fe#4945",
       "time": "2023-05-28T10:53:33.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/4945#issuecomment-1566084556",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/4945#issuecomment-1566084556",
       "text": "@rithviknishad Please review the PR #5553 "
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#5553",
+      "title": "ohcnetwork/care_fe#5553",
       "time": "2023-05-28T10:52:11.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5553",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5553",
       "text": "Sachdevavaibhav/issue#4945"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5551",
+      "title": "ohcnetwork/care_fe#5551",
       "time": "2023-05-28T10:45:56.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5551#issuecomment-1566081834",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5551#issuecomment-1566081834",
       "text": "@rithviknishad \r\nI have reverted changes in the previous branch and force pushed it (since I merged develop into it). Closing this PR and creating new one."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5551",
+      "title": "ohcnetwork/care_fe#5551",
       "time": "2023-05-28T08:36:39.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5551#issuecomment-1566002388",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5551#issuecomment-1566002388",
       "text": "@rithviknishad \nYes, I didn't checkout to develop. I pulled develop into the previous branch and then created a new branch. Sorry for the mess.\n\nAny suggestions on how I can fix it?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5551",
+      "title": "ohcnetwork/care_fe#5551",
       "time": "2023-05-27T21:09:53.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5551#issuecomment-1565684600",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5551#issuecomment-1565684600",
       "text": "@rithviknishad Could you please check if I am moving in the right direction?\r\n\r\nAlso did I mess up with the branches?"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#5551",
+      "title": "ohcnetwork/care_fe#5551",
       "time": "2023-05-27T20:52:38.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5551",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5551",
       "text": "Sachdevavaibhav/#4945"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#4945",
+      "title": "ohcnetwork/care_fe#4945",
       "time": "2023-05-27T15:54:28.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/4945#issuecomment-1565542948",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/4945#issuecomment-1565542948",
       "text": "@rithviknishad Sure! I am working on it.\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#4945",
+      "title": "ohcnetwork/care_fe#4945",
       "time": "2023-05-27T15:48:56.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/4945#issuecomment-1565536681",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/4945#issuecomment-1565536681",
       "text": "@khavinshankar It looks like this issue has already been fixed PR #5062. I suggest you to close this and the other issues solved by the mentioned PR."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#4945",
+      "title": "ohcnetwork/care_fe#4945",
       "time": "2023-05-26T20:35:37.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/4945#issuecomment-1564917482",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/4945#issuecomment-1564917482",
       "text": "I can work on this issue. Please assign it to me."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5534",
+      "title": "ohcnetwork/care_fe#5534",
       "time": "2023-05-26T09:14:51.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5534#issuecomment-1564077123",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5534#issuecomment-1564077123",
       "text": "@rithviknishad Thankyou for the information. Will look into solving other issues."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5534",
+      "title": "ohcnetwork/care_fe#5534",
       "time": "2023-05-26T08:38:40.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5534#issuecomment-1564020439",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5534#issuecomment-1564020439",
       "text": "@rithviknishad Could you please guide me how can I contribute to testing?"
     },
     {
       "type": "pr_reviewed",
       "time": "2023-05-26T08:23:56.000Z",
-      "title": "coronasafe/care_fe#5534",
-      "link": "https://github.com/coronasafe/care_fe/pull/5534#pullrequestreview-1445582799",
+      "title": "ohcnetwork/care_fe#5534",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5534#pullrequestreview-1445582799",
       "text": "fixed auto collapse the DateFormField after user clicks on a date"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5280",
+      "title": "ohcnetwork/care_fe#5280",
       "time": "2023-05-26T07:50:32.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/5280#issuecomment-1563959106",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/5280#issuecomment-1563959106",
       "text": "@rithviknishad I have created a PR. Kindly review it."
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#5534",
+      "title": "ohcnetwork/care_fe#5534",
       "time": "2023-05-26T07:47:07.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/5534",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/5534",
       "text": "fixed auto collapse the DateFormField after user clicks on a date"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5530",
+      "title": "ohcnetwork/care_fe#5530",
       "time": "2023-05-25T22:35:57.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/5530#issuecomment-1563593184",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/5530#issuecomment-1563593184",
       "text": "Can I take up this issue?"
     },
     {
       "type": "issue_opened",
-      "title": "coronasafe/care_fe#5530",
+      "title": "ohcnetwork/care_fe#5530",
       "time": "2023-05-25T22:35:06.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/5530",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/5530",
       "text": "Staging API auth credential mentioned in readme not working "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5280",
+      "title": "ohcnetwork/care_fe#5280",
       "time": "2023-05-25T22:15:13.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/5280#issuecomment-1563574680",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/5280#issuecomment-1563574680",
       "text": "@rithviknishad \r\nThis can be fixed using the close prop given by headless UI. Can I take up this issue?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#5280",
+      "title": "ohcnetwork/care_fe#5280",
       "time": "2023-05-25T22:11:16.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/5280#issuecomment-1563567868",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/5280#issuecomment-1563567868",
       "text": "@rithviknishad \r\nThis can be solved using the close prop given by headless UI. Could you please assign me this issue?"
     }
   ],
   "open_prs": [],
   "authored_issue_and_pr": [
     {
-      "issue_link": "https://github.com/coronasafe/care/issues/1429",
-      "pr_link": "https://github.com/coronasafe/care/pull/1430"
+      "issue_link": "https://github.com/ohcnetwork/care/issues/1429",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/1430"
     }
   ]
 }

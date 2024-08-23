@@ -3,9 +3,9 @@
   "activity": [
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#6796",
+      "title": "ohcnetwork/care_fe#6796",
       "time": "2023-12-05T07:56:29.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6796",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6796",
       "text": "Production Release | Dec Week 1",
       "collaborated_with": [
         "nihal467",
@@ -20,16 +20,16 @@
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#6688",
+      "title": "ohcnetwork/care_fe#6688",
       "time": "2023-11-29T04:54:21.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6688",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6688",
       "text": "hide location filter if facility is not selected"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#6739",
+      "title": "ohcnetwork/care_fe#6739",
       "time": "2023-11-28T04:25:07.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6739",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6739",
       "text": "Production Release Nov Week 4",
       "collaborated_with": [
         "suprabathk",
@@ -51,102 +51,100 @@
     {
       "type": "pr_reviewed",
       "time": "2023-11-22T05:02:21.000Z",
-      "title": "coronasafe/care_fe#6688",
-      "link": "https://github.com/coronasafe/care_fe/pull/6688#pullrequestreview-1743571601",
+      "title": "ohcnetwork/care_fe#6688",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6688#pullrequestreview-1743571601",
       "text": "hide location filter if facility is not selected"
     },
     {
       "type": "pr_reviewed",
       "time": "2023-11-22T04:39:15.000Z",
-      "title": "coronasafe/care_fe#6688",
-      "link": "https://github.com/coronasafe/care_fe/pull/6688#pullrequestreview-1743555628",
+      "title": "ohcnetwork/care_fe#6688",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6688#pullrequestreview-1743555628",
       "text": "hide location filter if facility is not selected"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#6688",
+      "title": "ohcnetwork/care_fe#6688",
       "time": "2023-11-22T04:12:07.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6688",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6688",
       "text": "hide location filter if facility is not selected"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#6663",
+      "title": "ohcnetwork/care_fe#6663",
       "time": "2023-11-22T03:35:47.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6663",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6663",
       "text": "show delete user button only for stateAdmin"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#6663",
+      "title": "ohcnetwork/care_fe#6663",
       "time": "2023-11-22T03:35:47.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6663",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6663",
       "text": "show delete user button only for stateAdmin",
-      "collaborated_with": [
-        "nihal467"
-      ]
+      "collaborated_with": ["nihal467"]
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6684",
+      "title": "ohcnetwork/care_fe#6684",
       "time": "2023-11-21T21:08:08.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6684#issuecomment-1821681798",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6684#issuecomment-1821681798",
       "text": "Is this up for grabs? How should the UI look?"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#6682",
+      "title": "ohcnetwork/care_fe#6682",
       "time": "2023-11-21T10:10:18.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6682",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6682",
       "text": "Hide location filter unless facility is selected"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6665",
+      "title": "ohcnetwork/care_fe#6665",
       "time": "2023-11-18T09:54:48.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6665#issuecomment-1817463174",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6665#issuecomment-1817463174",
       "text": "This is a bigger problem at its core with how route protection and login is being handled and just replacing `window.location.href =` with `navigate()` is not going to solve these issues. \r\n\r\nFor ex. when I am logged out and I navigate to `/shifting/board`, instead of being redirected to `/login` I stay on `/shifting/board` and in those cases, after logging in, it does `window.location.href = window.location.pathname.toString()`, using `navigate` here won't do anything because the path does not change, you have to reload the whole page. Same goes for any other url."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6665",
+      "title": "ohcnetwork/care_fe#6665",
       "time": "2023-11-18T09:40:06.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6665#issuecomment-1817458427",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6665#issuecomment-1817458427",
       "text": "Any reason this project is using [raviger](https://github.com/kyeotic/raviger) which barely anyone has ever heard of and has not been updated since 2022 instead of using the industry standard [React Router](https://github.com/remix-run/react-router)?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6503",
+      "title": "ohcnetwork/care_fe#6503",
       "time": "2023-11-17T16:36:46.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6503#issuecomment-1816739173",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6503#issuecomment-1816739173",
       "text": "I can pick this up if still required"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6608",
+      "title": "ohcnetwork/care_fe#6608",
       "time": "2023-11-17T16:33:21.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6608#issuecomment-1816734216",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6608#issuecomment-1816734216",
       "text": "@rithviknishad is this under the same category? Only state admin should see this button?"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#6663",
+      "title": "ohcnetwork/care_fe#6663",
       "time": "2023-11-17T16:10:33.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/6663",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/6663",
       "text": "show delete user button only for stateAdmin"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6660",
+      "title": "ohcnetwork/care_fe#6660",
       "time": "2023-11-17T15:49:18.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6660#issuecomment-1816668248",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6660#issuecomment-1816668248",
       "text": "cool, I can take this up. Can you assign it to me? @rithviknishad \r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#6660",
+      "title": "ohcnetwork/care_fe#6660",
       "time": "2023-11-17T15:06:48.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/6660#issuecomment-1816593105",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6660#issuecomment-1816593105",
       "text": "This is the function that controls the visibility of the delete button\r\n```typescript\r\n const showDelete = (user: any) => {\r\n    const STATE_ADMIN_LEVEL = USER_TYPES.indexOf(\"StateAdmin\");\r\n    const STATE_READ_ONLY_ADMIN_LEVEL =\r\n      USER_TYPES.indexOf(\"StateReadOnlyAdmin\");\r\n    const DISTRICT_ADMIN_LEVEL = USER_TYPES.indexOf(\"DistrictAdmin\");\r\n    const level = USER_TYPES.indexOf(user.user_type);\r\n    const currentUserLevel = USER_TYPES.indexOf(authUser.user_type);\r\n    if (user.is_superuser) return true;\r\n\r\n    if (currentUserLevel >= STATE_ADMIN_LEVEL)\r\n      return user.state_object?.id === authUser.state;\r\n    if (\r\n      currentUserLevel < STATE_READ_ONLY_ADMIN_LEVEL &&\r\n      currentUserLevel >= DISTRICT_ADMIN_LEVEL &&\r\n      currentUserLevel > level\r\n    )\r\n      return facilityData?.district_object_id === authUser.district;\r\n    return false;\r\n  };\r\n ```\r\n \r\nReproducing the issue, I can see that the delete button is visible because the 3rd `if` condition is evaluating to `true` which because `currentUserLevel > level` which implies that the `authUser` should be able to delete `user` and they also belong to the same `district`. Which makes me think something is wrong on the backend here? Since the logic for showing the button seems to be right. How can I find out why exactly the backend API is failing?"
     }
   ],

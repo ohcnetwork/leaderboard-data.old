@@ -3,9 +3,9 @@
   "activity": [
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2038",
+      "title": "ohcnetwork/care#2038",
       "time": "2024-04-01T17:04:28+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2038",
+      "link": "https://github.com/ohcnetwork/care/pull/2038",
       "text": "Production release v24.14.0 | April week 1",
       "collaborated_with": [
         "GokulramGHV",
@@ -25,9 +25,9 @@
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2025",
+      "title": "ohcnetwork/care#2025",
       "time": "2024-03-28T05:10:48+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2025",
+      "link": "https://github.com/ohcnetwork/care/pull/2025",
       "text": "Staging release for v24.14.0 ",
       "collaborated_with": [
         "Omkar76",
@@ -45,9 +45,9 @@
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#1993",
+      "title": "ohcnetwork/care#1993",
       "time": "2024-03-20T08:29:47+00:00",
-      "link": "https://github.com/coronasafe/care/pull/1993",
+      "link": "https://github.com/ohcnetwork/care/pull/1993",
       "text": "Staging release for v24.13.0",
       "collaborated_with": [
         "aeswibon",
@@ -62,41 +62,39 @@
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care#1978",
+      "title": "ohcnetwork/care#1978",
       "time": "2024-03-20T06:28:33+00:00",
-      "link": "https://github.com/coronasafe/care/pull/1978",
+      "link": "https://github.com/ohcnetwork/care/pull/1978",
       "text": "Duplicated .pdf in the discharge summary file names",
       "turnaround_time": 38111
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#1978",
+      "title": "ohcnetwork/care#1978",
       "time": "2024-03-20T06:28:33+00:00",
-      "link": "https://github.com/coronasafe/care/pull/1978",
+      "link": "https://github.com/ohcnetwork/care/pull/1978",
       "text": "Duplicated .pdf in the discharge summary file names",
-      "collaborated_with": [
-        "sainak"
-      ]
+      "collaborated_with": ["sainak"]
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1978",
+      "title": "ohcnetwork/care#1978",
       "time": "2024-03-16T19:53:23+00:00",
-      "link": "https://github.com/coronasafe/care/pull/1978",
+      "link": "https://github.com/ohcnetwork/care/pull/1978",
       "text": "Duplicated .pdf in the discharge summary file names"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1961",
+      "title": "ohcnetwork/care#1961",
       "time": "2024-03-14T23:15:53+00:00",
-      "link": "https://github.com/coronasafe/care/issues/1961#issuecomment-1998629959",
-      "text": "It looks like it might have been introduced by the recent pull request: https://github.com/coronasafe/care_fe/pull/7305.\r\n\r\nThe `renderFileUpload` method [new includes](https://github.com/coronasafe/care_fe/blob/f39ce8344e7087cfe3288fcabc761cd671221df0/src/Components/Patient/FileUpload.tsx#L579-L580) the following:\r\n\r\n```tsx\r\n  <span className=\"font-semibold leading-relaxed\">\r\n    File Name:{\" \"}\r\n  </span>{\" \"}\r\n  {item.name}\r\n  {item.extension}\r\n```\r\n\r\nbut previously it was:\r\n\r\n```tsx\r\n <div>\r\n  <span className=\"font-semibold leading-relaxed\">\r\n    File Name:{\" \"}\r\n  </span>{\" \"}\r\n  {item.name}\r\n</div>\r\n```\r\n\r\n\r\nbut name as stored in `FileUpload.name` already has `.pdf` extension, added in:\r\n\r\nhttps://github.com/coronasafe/care/blob/8616f5c956f0ee8f252ea5f0581bb1fd2dff986f/care/facility/utils/reports/discharge_summary.py#L180-L185\r\n\r\nWould it be better to change it on back-end or frond-end? My thinking is that it may be better fixing it on front-end, as on back-end it was working okay, it communicates with S3 so I'm not sure what implication would be for changing file name pattern. Front-end uses files taken from S3 and the code adding second \".pdf\" extension is a new addition so changing it should not cause much issues for the whole system.\r\n\r\nI saw that there were no tests for this part of code. Would you accept a pull request adding a test? I may have time over the weekend to add it."
+      "link": "https://github.com/ohcnetwork/care/issues/1961#issuecomment-1998629959",
+      "text": "It looks like it might have been introduced by the recent pull request: https://github.com/ohcnetwork/care_fe/pull/7305.\r\n\r\nThe `renderFileUpload` method [new includes](https://github.com/ohcnetwork/care_fe/blob/f39ce8344e7087cfe3288fcabc761cd671221df0/src/Components/Patient/FileUpload.tsx#L579-L580) the following:\r\n\r\n```tsx\r\n  <span className=\"font-semibold leading-relaxed\">\r\n    File Name:{\" \"}\r\n  </span>{\" \"}\r\n  {item.name}\r\n  {item.extension}\r\n```\r\n\r\nbut previously it was:\r\n\r\n```tsx\r\n <div>\r\n  <span className=\"font-semibold leading-relaxed\">\r\n    File Name:{\" \"}\r\n  </span>{\" \"}\r\n  {item.name}\r\n</div>\r\n```\r\n\r\n\r\nbut name as stored in `FileUpload.name` already has `.pdf` extension, added in:\r\n\r\nhttps://github.com/ohcnetwork/care/blob/8616f5c956f0ee8f252ea5f0581bb1fd2dff986f/care/facility/utils/reports/discharge_summary.py#L180-L185\r\n\r\nWould it be better to change it on back-end or frond-end? My thinking is that it may be better fixing it on front-end, as on back-end it was working okay, it communicates with S3 so I'm not sure what implication would be for changing file name pattern. Front-end uses files taken from S3 and the code adding second \".pdf\" extension is a new addition so changing it should not cause much issues for the whole system.\r\n\r\nI saw that there were no tests for this part of code. Would you accept a pull request adding a test? I may have time over the weekend to add it."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1961",
+      "title": "ohcnetwork/care#1961",
       "time": "2024-03-11T19:54:49+00:00",
-      "link": "https://github.com/coronasafe/care/issues/1961#issuecomment-1989317501",
+      "link": "https://github.com/ohcnetwork/care/issues/1961#issuecomment-1989317501",
       "text": "I would like to try and resolve this issue."
     }
   ],

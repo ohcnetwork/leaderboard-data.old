@@ -3,37 +3,37 @@
   "activity": [
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#8284",
+      "title": "ohcnetwork/care_fe#8284",
       "time": "2024-08-09T12:45:32.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8284",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8284",
       "text": "Adds units for width and height for Pressure Sore"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#8198",
+      "title": "ohcnetwork/care_fe#8198",
       "time": "2024-08-08T13:02:50.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/8198#issuecomment-2275771470",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8198#issuecomment-2275771470",
       "text": "@nihal467 \r\n\r\nOne more thing, the `README.md` does not specify the credentials to login as a State Admin. Shouldn't it be in the `README.md`?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#8198",
+      "title": "ohcnetwork/care_fe#8198",
       "time": "2024-08-08T12:56:05.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/8198#issuecomment-2275757103",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8198#issuecomment-2275757103",
       "text": "@nihal467 \r\n\r\nFor the State Admin, the `Advanced Filters` in the `Discharged Patients` list has the following extra filters:\r\n\r\nIn the `Patient Detail based` section:\r\n  1. `Admitted To (Bed Types)`\r\n  2. `Review Missed`\r\n\r\nIn the `Geography based` section:\r\n  1. `Facility`\r\n  2. `Facility Type`\r\n  \r\nOther than these two parts, all the filters are same for the State Admin and other users.\r\n\r\nI think the `Geography based` extra filters don't need to be removed so that the State Admin can filter the patients according to a specific facility. Right?\r\nNow what about the `Patient Detail based` extra filters?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#8209",
+      "title": "ohcnetwork/care_fe#8209",
       "time": "2024-08-08T11:17:04.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/8209#issuecomment-2275570019",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8209#issuecomment-2275570019",
       "text": "@nihal467 \r\nI don't see any weight and height page here. Can you guide me where exactly is the issue?\r\n![image](https://github.com/user-attachments/assets/0361e6b5-ea45-4fb5-b4d1-31d5724af0fc)"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#8256",
+      "title": "ohcnetwork/care_fe#8256",
       "time": "2024-08-05T17:52:16.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8256",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8256",
       "text": "Production release v24.32.0",
       "collaborated_with": [
         "rithviknishad",
@@ -50,9 +50,9 @@
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#8238",
+      "title": "ohcnetwork/care_fe#8238",
       "time": "2024-08-01T09:01:11.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8238",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8238",
       "text": "Merge Develop to Staging v24.32.0",
       "collaborated_with": [
         "rithviknishad",
@@ -68,80 +68,75 @@
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care_fe#8216",
+      "title": "ohcnetwork/care_fe#8216",
       "time": "2024-07-31T04:22:28.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8216",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8216",
       "text": "Changes 'CONSULTATION NOTES' to 'GENERAL INSTRUCTIONS (ADVICE)'",
-      "collaborated_with": [
-        "ahmedobaid23",
-        "rithviknishad"
-      ]
+      "collaborated_with": ["ahmedobaid23", "rithviknishad"]
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#8233",
+      "title": "ohcnetwork/care_fe#8233",
       "time": "2024-07-30T12:02:15.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8233",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8233",
       "text": "Adds prompt for ICD11 search field #8232"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#8216",
+      "title": "ohcnetwork/care_fe#8216",
       "time": "2024-07-29T10:29:44.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8216#issuecomment-2255567994",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8216#issuecomment-2255567994",
       "text": "@rithviknishad Yes, I am working on it\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#8216",
+      "title": "ohcnetwork/care_fe#8216",
       "time": "2024-07-26T10:30:38.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8216#issuecomment-2252466206",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8216#issuecomment-2252466206",
       "text": "@rithviknishad \r\n\r\nThanks for reviewing my PR.\r\n\r\nI will create a new file named `ConsultationFormTranslation.json`. For now, I will only map `consultation_notes` to its relevant display text. In the future, if the display text of other keys needs to changed, they will be added and mapped to their corresponding display texts in this file. Sounds good?"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care_fe#8216",
+      "title": "ohcnetwork/care_fe#8216",
       "time": "2024-07-25T19:01:37.000Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8216",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8216",
       "text": "Changes 'CONSULTATION NOTES' to 'GENERAL INSTRUCTIONS (ADVICE)'"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#8213",
+      "title": "ohcnetwork/care_fe#8213",
       "time": "2024-07-25T17:30:09.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/8213#issuecomment-2251039855",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8213#issuecomment-2251039855",
       "text": "I would like to work on this issue"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#8131",
+      "title": "ohcnetwork/care_fe#8131",
       "time": "2024-07-14T20:28:26+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/8131#issuecomment-2227474545",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8131#issuecomment-2227474545",
       "text": "I want to clarify a few things regarding this issue.\r\n\r\n1. This is information about types and number of beds in a location: \r\n![main](https://github.com/user-attachments/assets/62eb72c9-8c7c-4702-b1a6-c4cae7560240)\r\n\r\nDo you want the above information to be shown on the outlined FacilityCard on this page?\r\n![WhatsApp Image 2024-07-15 at 1 25 28 AM](https://github.com/user-attachments/assets/998fe92b-9dcf-466e-91fc-ce1cc8b0dbf8)\r\n\r\n2. Do you have any design preferences? Because accommodating all the information into the small FacilityCard will change the design alot!"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#8216",
+      "title": "ohcnetwork/care_fe#8216",
       "time": "2024-07-31T04:22:27Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8216",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8216",
       "text": "Changes 'CONSULTATION NOTES' to 'GENERAL INSTRUCTIONS (ADVICE)'"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care_fe#8233",
+      "title": "ohcnetwork/care_fe#8233",
       "time": "2024-07-31T04:24:32Z",
-      "link": "https://github.com/coronasafe/care_fe/pull/8233",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8233",
       "text": "Adds prompt for ICD11 search field #8232"
     }
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care_fe/pull/8284",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8284",
       "title": "Adds units for width and height for Pressure Sore",
       "stale_for": 1,
-      "labels": [
-        "changes required"
-      ]
+      "labels": ["changes required"]
     }
   ],
   "authored_issue_and_pr": []

@@ -3,9 +3,9 @@
   "activity": [
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2389",
+      "title": "ohcnetwork/care#2389",
       "time": "2024-08-22T17:30:02.000Z",
-      "link": "https://github.com/coronasafe/care/pull/2389",
+      "link": "https://github.com/ohcnetwork/care/pull/2389",
       "text": "Merge Develop to Staging 24.35.0",
       "collaborated_with": [
         "rithviknishad",
@@ -21,37 +21,37 @@
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#2361",
+      "title": "ohcnetwork/care#2361",
       "time": "2024-08-16T18:24:10.000Z",
-      "link": "https://github.com/coronasafe/care/pull/2361",
+      "link": "https://github.com/ohcnetwork/care/pull/2361",
       "text": "added a request time logging middleware"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2132",
+      "title": "ohcnetwork/care#2132",
       "time": "2024-08-16T07:02:48.000Z",
-      "link": "https://github.com/coronasafe/care/pull/2132#issuecomment-2292941609",
+      "link": "https://github.com/ohcnetwork/care/pull/2132#issuecomment-2292941609",
       "text": "1. As per the format shared by aparna, the admitted-to field should only show all the types of beds the patient was admitted to during the consultation period, not just the last admitted-to bed name and type. for example in the above screenshot case, it will be \" admitted to : ICU, Bed with Oxygen Support \"\r\n> Fixed it and also added a template tag to format the text in more readable form\r\n\r\n2. Dummy bed 6 is a bed with oxygen support, but in the discharge summary, it's been mentioned as a regular bed, make sure bed types are properly fetched.\r\n> Fixed \r\n\r\n3. As per the PR description and the format shared by aparna, the date of admission field was planned to be removed, but in the discharge summary, this field still exists DraKen0009 was it intentionally kept, or was it a mistake?\r\n> It's intentional, asked to keep it. Have updated the PR description accordingly\r\n\r\n4. As per the shared format, the duration of admission should be just the number of days only, so remove the time-related details from the field.\r\n> Updated to show only days if duration is `>24 hours` else it'll show time in hours instead of 0 days\r\n\r\n5. When the weight and height are not available, just show N/A, without the units\r\n> Fixed \r\n\r\n6. According to the format provided, we should only display symptoms present at the time of admission. However, in the screenshot mentioned, the first two symptoms were added during the consultation creation, and the remaining three were added while creating a log update. Therefore, instead of showing just the two symptoms, the discharge summary displays all five symptoms. Please confirm whether this was intentional with sainak & aparna.\r\n> Updated it. Now only the symptoms with onset date before admission date will be visible in the list\r\n\r\n7.  As per the shared format, it was expected to be the last item after the discharge details, but the discharge summary format, you kept it on top of the discharge details , was it intentional ?\r\n> Fixed it's kept it below the `Discharge Summary` and above `Annexure(files details)`\r\n\r\n8. As per the new format, you forgot to rename prescription medication to Medication administered\r\n> Fixed \r\n\r\n9.  as per the format rename from discharge prescription medication to discharge prescription\r\n> Fixed\r\n\r\n10.  the treating physician name and discharge prescription table have space between them, as per the shared format, so keep them\r\n> Added a line space above `Treating Physician`\r\n\r\n@nihal467  @sainak "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#8182",
+      "title": "ohcnetwork/care_fe#8182",
       "time": "2024-07-23T10:54:07+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/8182#issuecomment-2244891758",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8182#issuecomment-2244891758",
       "text": "Got it."
     },
     {
       "type": "issue_closed",
-      "title": "coronasafe/care_fe#8182",
+      "title": "ohcnetwork/care_fe#8182",
       "time": "2024-07-23T10:54:06+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/8182",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8182",
       "text": "In patient detail , when going to investigation tab it's starts to show a blank  screen"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2314",
+      "title": "ohcnetwork/care#2314",
       "time": "2024-07-22T16:38:24+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2314",
+      "link": "https://github.com/ohcnetwork/care/pull/2314",
       "text": "Production release v24.30.0",
       "collaborated_with": [
         "sainak",
@@ -64,23 +64,23 @@
     },
     {
       "type": "issue_opened",
-      "title": "coronasafe/care_fe#8182",
+      "title": "ohcnetwork/care_fe#8182",
       "time": "2024-07-21T09:09:07+00:00",
-      "link": "https://github.com/coronasafe/care_fe/issues/8182",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8182",
       "text": "In patient detail , when going to investigation tab it's starts to show a blank  screen"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2223",
+      "title": "ohcnetwork/care#2223",
       "time": "2024-07-20T08:21:59+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2223#issuecomment-2241042447",
+      "link": "https://github.com/ohcnetwork/care/pull/2223#issuecomment-2241042447",
       "text": "@rithviknishad @sainak  I've fixed the errors , updated the migration file name and dependencies , also fixed the static dummy data from facility.json"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2308",
+      "title": "ohcnetwork/care#2308",
       "time": "2024-07-17T17:01:57+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2308",
+      "link": "https://github.com/ohcnetwork/care/pull/2308",
       "text": "Merge Develop to Staging v24.30.0",
       "collaborated_with": [
         "skks1212",
@@ -93,48 +93,46 @@
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2223",
+      "title": "ohcnetwork/care#2223",
       "time": "2024-07-13T17:17:32+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2223#issuecomment-2227000661",
+      "link": "https://github.com/ohcnetwork/care/pull/2223#issuecomment-2227000661",
       "text": "updated. Should be fine now.\r\n"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care#2104",
+      "title": "ohcnetwork/care#2104",
       "time": "2024-07-12T14:44:51+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2104",
+      "link": "https://github.com/ohcnetwork/care/pull/2104",
       "text": "added tests for beds endpoints",
       "turnaround_time": 78208
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2104",
+      "title": "ohcnetwork/care#2104",
       "time": "2024-07-12T14:44:51+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2104",
+      "link": "https://github.com/ohcnetwork/care/pull/2104",
       "text": "added tests for beds endpoints",
-      "collaborated_with": [
-        "sainak"
-      ]
+      "collaborated_with": ["sainak"]
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2223",
+      "title": "ohcnetwork/care#2223",
       "time": "2024-07-12T08:49:24+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2223#issuecomment-2225118180",
+      "link": "https://github.com/ohcnetwork/care/pull/2223#issuecomment-2225118180",
       "text": "@sainak  @rithviknishad  made the changes , can you please run the workflows to check if everything's alright?\r\n"
     },
     {
       "type": "pr_reviewed",
       "time": "2024-07-09T15:02:25+00:00",
-      "title": "coronasafe/care#2132",
-      "link": "https://github.com/coronasafe/care/pull/2132#pullrequestreview-2166590532",
+      "title": "ohcnetwork/care#2132",
+      "link": "https://github.com/ohcnetwork/care/pull/2132#pullrequestreview-2166590532",
       "text": "PDF Generation Alternative - GSoC"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2258",
+      "title": "ohcnetwork/care#2258",
       "time": "2024-06-10T17:05:53+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2258",
+      "link": "https://github.com/ohcnetwork/care/pull/2258",
       "text": "Production release v24.24.0",
       "collaborated_with": [
         "jasonmokk",
@@ -147,30 +145,30 @@
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2104",
+      "title": "ohcnetwork/care#2104",
       "time": "2024-06-07T14:14:50+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2104#issuecomment-2154937540",
+      "link": "https://github.com/ohcnetwork/care/pull/2104#issuecomment-2154937540",
       "text": "@skks1212  fixed it.  Can you please run the workflows again."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2104",
+      "title": "ohcnetwork/care#2104",
       "time": "2024-06-07T08:13:45+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2104#issuecomment-2154325982",
+      "link": "https://github.com/ohcnetwork/care/pull/2104#issuecomment-2154325982",
       "text": "@sainak Fixed the conflicts, please check once "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2223",
+      "title": "ohcnetwork/care#2223",
       "time": "2024-06-06T19:31:51+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2223#issuecomment-2153264182",
+      "link": "https://github.com/ohcnetwork/care/pull/2223#issuecomment-2153264182",
       "text": "@sainak  made all the required changes, please take a look\r\n"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2246",
+      "title": "ohcnetwork/care#2246",
       "time": "2024-06-06T09:16:55+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2246",
+      "link": "https://github.com/ohcnetwork/care/pull/2246",
       "text": "Merge Develop to Staging v24.24.0",
       "collaborated_with": [
         "jasonmokk",
@@ -182,98 +180,96 @@
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/docs#28",
+      "title": "ohcnetwork/docs#28",
       "time": "2024-06-04T06:44:34+00:00",
-      "link": "https://github.com/coronasafe/docs/pull/28",
+      "link": "https://github.com/ohcnetwork/docs/pull/28",
       "text": "Documentation for GSoC Project : Exploring Alternatives for PDF generations"
     },
     {
       "type": "pr_reviewed",
       "time": "2024-06-03T18:17:06+00:00",
-      "title": "coronasafe/care#2223",
-      "link": "https://github.com/coronasafe/care/pull/2223#pullrequestreview-2094565417",
+      "title": "ohcnetwork/care#2223",
+      "link": "https://github.com/ohcnetwork/care/pull/2223#pullrequestreview-2094565417",
       "text": "migrating feature field  to array field "
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care#2221",
+      "title": "ohcnetwork/care#2221",
       "time": "2024-06-03T06:47:26+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2221",
+      "link": "https://github.com/ohcnetwork/care/pull/2221",
       "text": "fixed data seeding issue",
       "turnaround_time": 36859
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2221",
+      "title": "ohcnetwork/care#2221",
       "time": "2024-06-03T06:47:26+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2221",
+      "link": "https://github.com/ohcnetwork/care/pull/2221",
       "text": "fixed data seeding issue",
-      "collaborated_with": [
-        "vigneshhari"
-      ]
+      "collaborated_with": ["vigneshhari"]
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#2223",
+      "title": "ohcnetwork/care#2223",
       "time": "2024-06-03T06:40:42+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2223",
+      "link": "https://github.com/ohcnetwork/care/pull/2223",
       "text": "migrating feature field  to array field "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2215",
+      "title": "ohcnetwork/care#2215",
       "time": "2024-06-03T06:32:28+00:00",
-      "link": "https://github.com/coronasafe/care/issues/2215#issuecomment-2144381403",
+      "link": "https://github.com/ohcnetwork/care/issues/2215#issuecomment-2144381403",
       "text": "@sainak  I'll like to work on this issue\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2188",
+      "title": "ohcnetwork/care#2188",
       "time": "2024-06-02T21:44:09+00:00",
-      "link": "https://github.com/coronasafe/care/issues/2188#issuecomment-2144030971",
+      "link": "https://github.com/ohcnetwork/care/issues/2188#issuecomment-2144030971",
       "text": "@rithviknishad  can you assign this to me.\r\n"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#2221",
+      "title": "ohcnetwork/care#2221",
       "time": "2024-06-02T20:33:08+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2221",
+      "link": "https://github.com/ohcnetwork/care/pull/2221",
       "text": "fixed data seeding issue"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/leaderboard-data#43",
+      "title": "ohcnetwork/leaderboard-data#43",
       "time": "2024-05-22T14:25:14+00:00",
-      "link": "https://github.com/coronasafe/leaderboard-data/pull/43",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/43",
       "text": "Update DraKen0009.md",
       "turnaround_time": 10860
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/leaderboard-data#43",
+      "title": "ohcnetwork/leaderboard-data#43",
       "time": "2024-05-22T11:24:14+00:00",
-      "link": "https://github.com/coronasafe/leaderboard-data/pull/43",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/43",
       "text": "Update DraKen0009.md"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2184",
+      "title": "ohcnetwork/care#2184",
       "time": "2024-05-21T13:37:18+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2184#issuecomment-2122658900",
+      "link": "https://github.com/ohcnetwork/care/pull/2184#issuecomment-2122658900",
       "text": "@jasonmokk  also run `make test` command once and see if test cases are passing or not , if not then fix those "
     },
     {
       "type": "pr_reviewed",
       "time": "2024-05-21T10:08:27+00:00",
-      "title": "coronasafe/care#2184",
-      "link": "https://github.com/coronasafe/care/pull/2184#pullrequestreview-2068159327",
+      "title": "ohcnetwork/care#2184",
+      "link": "https://github.com/ohcnetwork/care/pull/2184#pullrequestreview-2068159327",
       "text": "Remove `PatientTeleConsultation` model"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2179",
+      "title": "ohcnetwork/care#2179",
       "time": "2024-05-20T16:47:17+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2179",
+      "link": "https://github.com/ohcnetwork/care/pull/2179",
       "text": "Production release v24.21.0",
       "collaborated_with": [
         "skks1212",
@@ -289,9 +285,9 @@
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2172",
+      "title": "ohcnetwork/care#2172",
       "time": "2024-05-16T16:25:40+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2172",
+      "link": "https://github.com/ohcnetwork/care/pull/2172",
       "text": "Develop to Staging",
       "collaborated_with": [
         "vigneshhari",
@@ -307,16 +303,16 @@
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2104",
+      "title": "ohcnetwork/care#2104",
       "time": "2024-05-15T10:56:54+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2104#issuecomment-2112197239",
+      "link": "https://github.com/ohcnetwork/care/pull/2104#issuecomment-2112197239",
       "text": "@rithviknishad  updated the PR. Can you please run the workflows once"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2168",
+      "title": "ohcnetwork/care#2168",
       "time": "2024-05-15T08:23:02+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2168",
+      "link": "https://github.com/ohcnetwork/care/pull/2168",
       "text": "Merge Develop to Staging v24.21.0",
       "collaborated_with": [
         "sainak",
@@ -332,41 +328,39 @@
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care#1912",
+      "title": "ohcnetwork/care#1912",
       "time": "2024-05-15T06:57:21+00:00",
-      "link": "https://github.com/coronasafe/care/pull/1912",
+      "link": "https://github.com/ohcnetwork/care/pull/1912",
       "text": "converted investigation and investigation group data into JSON",
       "turnaround_time": 32834
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#1912",
+      "title": "ohcnetwork/care#1912",
       "time": "2024-05-15T06:57:21+00:00",
-      "link": "https://github.com/coronasafe/care/pull/1912",
+      "link": "https://github.com/ohcnetwork/care/pull/1912",
       "text": "converted investigation and investigation group data into JSON",
-      "collaborated_with": [
-        "sainak"
-      ]
+      "collaborated_with": ["sainak"]
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2104",
+      "title": "ohcnetwork/care#2104",
       "time": "2024-05-14T15:41:08+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2104#issuecomment-2110561578",
+      "link": "https://github.com/ohcnetwork/care/pull/2104#issuecomment-2110561578",
       "text": "Yep. I'll update the PR by tonight or tomorrow afternoon."
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#2132",
+      "title": "ohcnetwork/care#2132",
       "time": "2024-05-07T04:13:25+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2132",
+      "link": "https://github.com/ohcnetwork/care/pull/2132",
       "text": "PDF Generation Alternative - GSoC"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2123",
+      "title": "ohcnetwork/care#2123",
       "time": "2024-04-30T05:41:55+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2123",
+      "link": "https://github.com/ohcnetwork/care/pull/2123",
       "text": "Production Release v24.18.0",
       "collaborated_with": [
         "gigincg",
@@ -381,9 +375,9 @@
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2115",
+      "title": "ohcnetwork/care#2115",
       "time": "2024-04-24T14:29:45+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2115",
+      "link": "https://github.com/ohcnetwork/care/pull/2115",
       "text": "Merge develop to staging v24.18.0",
       "collaborated_with": [
         "GokulramGHV",
@@ -397,48 +391,41 @@
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care#2029",
+      "title": "ohcnetwork/care#2029",
       "time": "2024-04-22T18:53:38+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2029",
+      "link": "https://github.com/ohcnetwork/care/pull/2029",
       "text": "Fix ward filters and add tests for places APIs",
       "turnaround_time": 38127
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2029",
+      "title": "ohcnetwork/care#2029",
       "time": "2024-04-22T18:53:38+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2029",
+      "link": "https://github.com/ohcnetwork/care/pull/2029",
       "text": "Fix ward filters and add tests for places APIs",
-      "collaborated_with": [
-        "vigneshhari",
-        "sainak"
-      ]
+      "collaborated_with": ["vigneshhari", "sainak"]
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care#2056",
+      "title": "ohcnetwork/care#2056",
       "time": "2024-04-22T18:49:31+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2056",
+      "link": "https://github.com/ohcnetwork/care/pull/2056",
       "text": "test for Ambulance  module",
       "turnaround_time": 32016
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2056",
+      "title": "ohcnetwork/care#2056",
       "time": "2024-04-22T18:49:31+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2056",
+      "link": "https://github.com/ohcnetwork/care/pull/2056",
       "text": "test for Ambulance  module",
-      "collaborated_with": [
-        "vigneshhari",
-        "rithviknishad",
-        "sainak"
-      ]
+      "collaborated_with": ["vigneshhari", "rithviknishad", "sainak"]
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2108",
+      "title": "ohcnetwork/care#2108",
       "time": "2024-04-22T09:09:31+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2108",
+      "link": "https://github.com/ohcnetwork/care/pull/2108",
       "text": "Production release v24.17.0 | April week 3",
       "collaborated_with": [
         "gigincg",
@@ -450,172 +437,166 @@
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#2104",
+      "title": "ohcnetwork/care#2104",
       "time": "2024-04-20T17:01:22+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2104",
+      "link": "https://github.com/ohcnetwork/care/pull/2104",
       "text": "added tests for beds endpoints"
     },
     {
       "type": "issue_opened",
-      "title": "coronasafe/care#2103",
+      "title": "ohcnetwork/care#2103",
       "time": "2024-04-20T17:00:11+00:00",
-      "link": "https://github.com/coronasafe/care/issues/2103",
+      "link": "https://github.com/ohcnetwork/care/issues/2103",
       "text": "Test cases for Beds module"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2091",
+      "title": "ohcnetwork/care#2091",
       "time": "2024-04-16T09:03:14+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2091",
+      "link": "https://github.com/ohcnetwork/care/pull/2091",
       "text": "Merge Develop to Staging 24.16.1",
-      "collaborated_with": [
-        "vigneshhari",
-        "sainak",
-        "Ashesh3"
-      ]
+      "collaborated_with": ["vigneshhari", "sainak", "Ashesh3"]
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care#2034",
+      "title": "ohcnetwork/care#2034",
       "time": "2024-04-12T19:02:38+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2034",
+      "link": "https://github.com/ohcnetwork/care/pull/2034",
       "text": "test for various endpoints in the external_result module",
       "turnaround_time": 49606
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#2034",
+      "title": "ohcnetwork/care#2034",
       "time": "2024-04-12T19:02:38+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2034",
+      "link": "https://github.com/ohcnetwork/care/pull/2034",
       "text": "test for various endpoints in the external_result module",
-      "collaborated_with": [
-        "sainak"
-      ]
+      "collaborated_with": ["sainak"]
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#2066",
+      "title": "ohcnetwork/care#2066",
       "time": "2024-04-09T06:07:45+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2066",
+      "link": "https://github.com/ohcnetwork/care/pull/2066",
       "text": "improving tests for patient transfer"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2063",
+      "title": "ohcnetwork/care#2063",
       "time": "2024-04-08T17:21:02+00:00",
-      "link": "https://github.com/coronasafe/care/issues/2063#issuecomment-2043279422",
+      "link": "https://github.com/ohcnetwork/care/issues/2063#issuecomment-2043279422",
       "text": "@rithviknishad  I will like to work on this issue\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2056",
+      "title": "ohcnetwork/care#2056",
       "time": "2024-04-06T10:00:23+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2056#issuecomment-2041036131",
+      "link": "https://github.com/ohcnetwork/care/pull/2056#issuecomment-2041036131",
       "text": "@aeswibon  Can you check this PR once, I've followed what you've done in your closed PR with very minor changes. \r\nPlease let me know of anything that can be improved or fix."
     },
     {
       "type": "issue_opened",
-      "title": "coronasafe/care#2057",
+      "title": "ohcnetwork/care#2057",
       "time": "2024-04-06T09:56:56+00:00",
-      "link": "https://github.com/coronasafe/care/issues/2057",
+      "link": "https://github.com/ohcnetwork/care/issues/2057",
       "text": "Test cases for ambulance module"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#2056",
+      "title": "ohcnetwork/care#2056",
       "time": "2024-04-06T09:55:55+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2056",
+      "link": "https://github.com/ohcnetwork/care/pull/2056",
       "text": "test for Ambulance  module"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1379",
+      "title": "ohcnetwork/care#1379",
       "time": "2024-04-05T09:23:10+00:00",
-      "link": "https://github.com/coronasafe/care/issues/1379#issuecomment-2039311748",
+      "link": "https://github.com/ohcnetwork/care/issues/1379#issuecomment-2039311748",
       "text": "@aeswibon in the closed PR, you were updating serializers and viewsets , will that be required ?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1379",
+      "title": "ohcnetwork/care#1379",
       "time": "2024-04-05T05:24:57+00:00",
-      "link": "https://github.com/coronasafe/care/issues/1379#issuecomment-2038967844",
+      "link": "https://github.com/ohcnetwork/care/issues/1379#issuecomment-2038967844",
       "text": "@aeswibon  are you currently working on this issue ? If not, then I can take it up"
     },
     {
       "type": "issue_opened",
-      "title": "coronasafe/care#2047",
+      "title": "ohcnetwork/care#2047",
       "time": "2024-04-03T11:38:50+00:00",
-      "link": "https://github.com/coronasafe/care/issues/2047",
+      "link": "https://github.com/ohcnetwork/care/issues/2047",
       "text": "Error when filtering wards with state or statename"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#2034",
+      "title": "ohcnetwork/care#2034",
       "time": "2024-04-02T09:23:31+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2034#issuecomment-2031500099",
+      "link": "https://github.com/ohcnetwork/care/pull/2034#issuecomment-2031500099",
       "text": "@sainak  Updated. Please have a look"
     },
     {
       "type": "pr_reviewed",
       "time": "2024-03-30T08:53:26+00:00",
-      "title": "coronasafe/care#2034",
-      "link": "https://github.com/coronasafe/care/pull/2034#pullrequestreview-1969868377",
+      "title": "ohcnetwork/care#2034",
+      "link": "https://github.com/ohcnetwork/care/pull/2034#pullrequestreview-1969868377",
       "text": "test for various endpoints in the external_result module"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#2034",
+      "title": "ohcnetwork/care#2034",
       "time": "2024-03-29T05:15:52+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2034",
+      "link": "https://github.com/ohcnetwork/care/pull/2034",
       "text": "test for various endpoints in the external_result module"
     },
     {
       "type": "issue_opened",
-      "title": "coronasafe/care#2033",
+      "title": "ohcnetwork/care#2033",
       "time": "2024-03-29T05:13:59+00:00",
-      "link": "https://github.com/coronasafe/care/issues/2033",
+      "link": "https://github.com/ohcnetwork/care/issues/2033",
       "text": "Adds test for various endpoints in the external_result module"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#2029",
+      "title": "ohcnetwork/care#2029",
       "time": "2024-03-28T08:18:12+00:00",
-      "link": "https://github.com/coronasafe/care/pull/2029",
+      "link": "https://github.com/ohcnetwork/care/pull/2029",
       "text": "tests for places api"
     },
     {
       "type": "issue_opened",
-      "title": "coronasafe/care#2028",
+      "title": "ohcnetwork/care#2028",
       "time": "2024-03-28T08:16:49+00:00",
-      "link": "https://github.com/coronasafe/care/issues/2028",
+      "link": "https://github.com/ohcnetwork/care/issues/2028",
       "text": "Adds test for various endpoints in the ward, local_body, district, and state module"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1994",
+      "title": "ohcnetwork/care#1994",
       "time": "2024-03-20T13:59:17+00:00",
-      "link": "https://github.com/coronasafe/care/pull/1994",
+      "link": "https://github.com/ohcnetwork/care/pull/1994",
       "text": "updated bed types"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1930",
+      "title": "ohcnetwork/care#1930",
       "time": "2024-03-15T07:35:33+00:00",
-      "link": "https://github.com/coronasafe/care/issues/1930#issuecomment-1999090179",
+      "link": "https://github.com/ohcnetwork/care/issues/1930#issuecomment-1999090179",
       "text": "```\r\nBASE_ROOM_TYPES = [\r\n    (1, \"General Bed\"),\r\n    (10, \"ICU\"),\r\n    # (20, \"Ventilator\"), => ICU\r\n    # (30, \"Covid Beds\"), => Isolation beds\r\n    # (100, \"Covid Ventilators\"), => Isolation beds\r\n    # (110, \"Covid ICU\"), => Isolation beds\r\n    # (120, \"Covid Oxygen beds\"), => Isolation beds\r\n    (150, \"Oxygen beds\"),\r\n    (4, \"Isolation beds\"),\r\n    (5, \"Others\")\r\n]\r\n\r\nROOM_TYPES = [\r\n    (0, \"Total\"),\r\n    # (2, \"Hostel\"), => Other\r\n    # (3, \"Single Room with Attached Bathroom\"), => other\r\n    (40, \"KASP Beds\"),\r\n    (50, \"KASP ICU beds\"),\r\n    (60, \"KASP Oxygen beds\"),\r\n    # (70, \"KASP Ventilator beds\"), => KASP ICU beds\r\n]\r\n```\r\n@sainak  is it the correct order of shifting the data?\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1930",
+      "title": "ohcnetwork/care#1930",
       "time": "2024-03-14T15:00:14+00:00",
-      "link": "https://github.com/coronasafe/care/issues/1930#issuecomment-1997661417",
+      "link": "https://github.com/ohcnetwork/care/issues/1930#issuecomment-1997661417",
       "text": "@arnit-coder I can help with this issue if you are busy"
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#1962",
+      "title": "ohcnetwork/care#1962",
       "time": "2024-03-11T17:33:29+00:00",
-      "link": "https://github.com/coronasafe/care/pull/1962",
+      "link": "https://github.com/ohcnetwork/care/pull/1962",
       "text": "Production release v24.11.0",
       "collaborated_with": [
         "SinghYuvraj0506",
@@ -629,298 +610,292 @@
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1955",
+      "title": "ohcnetwork/care#1955",
       "time": "2024-03-07T20:15:32+00:00",
-      "link": "https://github.com/coronasafe/care/pull/1955",
+      "link": "https://github.com/ohcnetwork/care/pull/1955",
       "text": "Converting all tuples to choice classes"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1948",
+      "title": "ohcnetwork/care#1948",
       "time": "2024-03-06T05:57:55+00:00",
-      "link": "https://github.com/coronasafe/care/issues/1948#issuecomment-1980139420",
+      "link": "https://github.com/ohcnetwork/care/issues/1948#issuecomment-1980139420",
       "text": "@itxsoumya  I've already started working on this and partly done as well. Could you please find any other open issue to work on? Thanks"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1948",
+      "title": "ohcnetwork/care#1948",
       "time": "2024-03-05T19:01:22.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1948#issuecomment-1979447004",
+      "link": "https://github.com/ohcnetwork/care/issues/1948#issuecomment-1979447004",
       "text": "I would like to work on this issue."
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/leaderboard-data#24",
+      "title": "ohcnetwork/leaderboard-data#24",
       "time": "2024-03-05T13:09:23.000Z",
-      "link": "https://github.com/coronasafe/leaderboard-data/pull/24",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/24",
       "text": "Update DraKen0009.md",
       "turnaround_time": 72286
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1927",
+      "title": "ohcnetwork/care#1927",
       "time": "2024-03-04T21:24:14.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1927#issuecomment-1977483323",
+      "link": "https://github.com/ohcnetwork/care/pull/1927#issuecomment-1977483323",
       "text": "contd. #1941 "
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1941",
+      "title": "ohcnetwork/care#1941",
       "time": "2024-03-04T21:19:06.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1941",
+      "link": "https://github.com/ohcnetwork/care/pull/1941",
       "text": "Loading medibase and icd11 static json and migrations"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/leaderboard-data#24",
+      "title": "ohcnetwork/leaderboard-data#24",
       "time": "2024-03-04T17:04:39.000Z",
-      "link": "https://github.com/coronasafe/leaderboard-data/pull/24",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/24",
       "text": "Update DraKen0009.md"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care#1917",
+      "title": "ohcnetwork/care#1917",
       "time": "2024-03-04T13:39:38.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1917",
+      "link": "https://github.com/ohcnetwork/care/pull/1917",
       "text": "added contraints in consultations and custom migrations",
       "turnaround_time": 62805
     },
     {
       "type": "pr_collaborated",
-      "title": "coronasafe/care#1917",
+      "title": "ohcnetwork/care#1917",
       "time": "2024-03-04T13:39:38.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1917",
+      "link": "https://github.com/ohcnetwork/care/pull/1917",
       "text": "added contraints in consultations and custom migrations",
-      "collaborated_with": [
-        "sainak"
-      ]
+      "collaborated_with": ["sainak"]
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care#1910",
+      "title": "ohcnetwork/care#1910",
       "time": "2024-03-04T13:27:19.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1910",
+      "link": "https://github.com/ohcnetwork/care/pull/1910",
       "text": "Added dummy data for shifting and Resource",
       "turnaround_time": 19776
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1889",
+      "title": "ohcnetwork/care#1889",
       "time": "2024-03-02T17:15:11.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1889#issuecomment-1974855551",
+      "link": "https://github.com/ohcnetwork/care/issues/1889#issuecomment-1974855551",
       "text": "@AnkurPrabhu  I've raised a PR and it also got approved. So this issue is solved. \r\n\r\nPlease pick another issue from issues tab"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1927",
+      "title": "ohcnetwork/care#1927",
       "time": "2024-02-29T10:41:22.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1927#issuecomment-1970861078",
+      "link": "https://github.com/ohcnetwork/care/pull/1927#issuecomment-1970861078",
       "text": "- made some changes to load_icd11_diagnose_data file.\r\n- updated migrations field for removing external_id before populating data"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1917",
+      "title": "ohcnetwork/care#1917",
       "time": "2024-02-28T22:01:43.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1917#issuecomment-1969993351",
+      "link": "https://github.com/ohcnetwork/care/pull/1917#issuecomment-1969993351",
       "text": "updated the dummy data as it was not following the constraints. And the load_dummy_data command wasn't working"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1927",
+      "title": "ohcnetwork/care#1927",
       "time": "2024-02-28T21:10:15.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1927#issuecomment-1969921833",
+      "link": "https://github.com/ohcnetwork/care/pull/1927#issuecomment-1969921833",
       "text": "please let me know if i missed any use of external_id in reference to `MedibaseMedicine` model"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1927",
+      "title": "ohcnetwork/care#1927",
       "time": "2024-02-28T20:54:11.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1927",
+      "link": "https://github.com/ohcnetwork/care/pull/1927",
       "text": "Loading medibase and icd11 static json"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1917",
+      "title": "ohcnetwork/care#1917",
       "time": "2024-02-28T17:21:12.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1917#issuecomment-1969477576",
-      "text": "Here are the screenshots -\r\n- When trying to create consultation with same patient_no within facility\r\n\r\n![Screenshot from 2024-02-28 16-32-20](https://github.com/coronasafe/care/assets/115104695/ea3082cb-919a-4c87-b92c-cfcca1dc79bc)\r\n\r\n- When trying to create consultation with same patient_no in different facility\r\n![Screenshot from 2024-02-28 16-32-36](https://github.com/coronasafe/care/assets/115104695/d8cfaf05-1686-43fc-8332-7f874ff774b5)\r\n![Screenshot from 2024-02-28 16-32-43](https://github.com/coronasafe/care/assets/115104695/74a309ec-c012-485b-b85a-a121f5cd78f0)\r\n"
+      "link": "https://github.com/ohcnetwork/care/pull/1917#issuecomment-1969477576",
+      "text": "Here are the screenshots -\r\n- When trying to create consultation with same patient_no within facility\r\n\r\n![Screenshot from 2024-02-28 16-32-20](https://github.com/ohcnetwork/care/assets/115104695/ea3082cb-919a-4c87-b92c-cfcca1dc79bc)\r\n\r\n- When trying to create consultation with same patient_no in different facility\r\n![Screenshot from 2024-02-28 16-32-36](https://github.com/ohcnetwork/care/assets/115104695/d8cfaf05-1686-43fc-8332-7f874ff774b5)\r\n![Screenshot from 2024-02-28 16-32-43](https://github.com/ohcnetwork/care/assets/115104695/74a309ec-c012-485b-b85a-a121f5cd78f0)\r\n"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1917",
+      "title": "ohcnetwork/care#1917",
       "time": "2024-02-26T20:12:54.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1917",
+      "link": "https://github.com/ohcnetwork/care/pull/1917",
       "text": "added contraints in consultations and custom migrations"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1912",
+      "title": "ohcnetwork/care#1912",
       "time": "2024-02-26T12:01:04.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1912#issuecomment-1963982477",
+      "link": "https://github.com/ohcnetwork/care/pull/1912#issuecomment-1963982477",
       "text": "135-145 ( what i have currently noticed)\r\n\r\n- like in line 135 \r\nMin should be 11 and max should be 18\r\nBut given 0 and 25\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1912",
+      "title": "ohcnetwork/care#1912",
       "time": "2024-02-26T11:27:28.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1912#issuecomment-1963918794",
-      "text": "Also the data at the bottom of the table is not accurate (min, max values)\r\n![image](https://github.com/coronasafe/care/assets/115104695/125c32e3-e4c6-47ad-bd67-f8b4bcf948b3)\r\n\r\nI can update them accordingly and update the json file with it."
+      "link": "https://github.com/ohcnetwork/care/pull/1912#issuecomment-1963918794",
+      "text": "Also the data at the bottom of the table is not accurate (min, max values)\r\n![image](https://github.com/ohcnetwork/care/assets/115104695/125c32e3-e4c6-47ad-bd67-f8b4bcf948b3)\r\n\r\nI can update them accordingly and update the json file with it."
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1912",
+      "title": "ohcnetwork/care#1912",
       "time": "2024-02-26T11:20:54.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1912#issuecomment-1963903706",
-      "text": "@sainak  do we need to update the data according to comment before ?\r\n![image](https://github.com/coronasafe/care/assets/115104695/26250113-f289-4e35-a3c6-20bc06e2c651)\r\n\r\nUpdated to - \r\n![image](https://github.com/coronasafe/care/assets/115104695/e6f0ce4e-d190-42de-baf4-78e041474cca)\r\n"
+      "link": "https://github.com/ohcnetwork/care/pull/1912#issuecomment-1963903706",
+      "text": "@sainak  do we need to update the data according to comment before ?\r\n![image](https://github.com/ohcnetwork/care/assets/115104695/26250113-f289-4e35-a3c6-20bc06e2c651)\r\n\r\nUpdated to - \r\n![image](https://github.com/ohcnetwork/care/assets/115104695/e6f0ce4e-d190-42de-baf4-78e041474cca)\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1912",
+      "title": "ohcnetwork/care#1912",
       "time": "2024-02-25T09:44:52.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1912#issuecomment-1962874751",
+      "link": "https://github.com/ohcnetwork/care/pull/1912#issuecomment-1962874751",
       "text": "@rithviknishad  made the required changes , please have a look "
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1912",
+      "title": "ohcnetwork/care#1912",
       "time": "2024-02-24T21:50:08.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1912",
+      "link": "https://github.com/ohcnetwork/care/pull/1912",
       "text": "converted investigation and investigation group data into JSON"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1541",
+      "title": "ohcnetwork/care#1541",
       "time": "2024-02-24T20:05:54.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1541#issuecomment-1962684746",
+      "link": "https://github.com/ohcnetwork/care/issues/1541#issuecomment-1962684746",
       "text": "@sainak  I would like to work on this issue.\r\n"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1817",
+      "title": "ohcnetwork/care#1817",
       "time": "2024-02-24T08:31:03.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1817#issuecomment-1962298046",
+      "link": "https://github.com/ohcnetwork/care/issues/1817#issuecomment-1962298046",
       "text": "@sainak I would like to work on this issue , please assign it to me"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1889",
+      "title": "ohcnetwork/care#1889",
       "time": "2024-02-23T08:01:05.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1889#issuecomment-1960879504",
+      "link": "https://github.com/ohcnetwork/care/issues/1889#issuecomment-1960879504",
       "text": "@Omkar76  Thanks for help"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1910",
+      "title": "ohcnetwork/care#1910",
       "time": "2024-02-23T07:59:33.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1910#issuecomment-1960878634",
-      "text": "after loading the dummy data in db -\r\n\r\n![image](https://github.com/coronasafe/care/assets/115104695/9bbd37c2-cc58-4fe9-a767-6a7428eb2f28)\r\n![image](https://github.com/coronasafe/care/assets/115104695/b39c98c5-0459-4fa0-ab75-8a6fdc3d3ceb)\r\n\r\n"
+      "link": "https://github.com/ohcnetwork/care/pull/1910#issuecomment-1960878634",
+      "text": "after loading the dummy data in db -\r\n\r\n![image](https://github.com/ohcnetwork/care/assets/115104695/9bbd37c2-cc58-4fe9-a767-6a7428eb2f28)\r\n![image](https://github.com/ohcnetwork/care/assets/115104695/b39c98c5-0459-4fa0-ab75-8a6fdc3d3ceb)\r\n\r\n"
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1910",
+      "title": "ohcnetwork/care#1910",
       "time": "2024-02-23T07:57:42.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1910",
+      "link": "https://github.com/ohcnetwork/care/pull/1910",
       "text": "Added dummy data for shifting and Resource"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1806",
+      "title": "ohcnetwork/care#1806",
       "time": "2024-02-22T15:05:28.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1806#issuecomment-1959643037",
+      "link": "https://github.com/ohcnetwork/care/issues/1806#issuecomment-1959643037",
       "text": "@Omkar76  If you aren't currently working on this issue , can I work on it? "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1906",
+      "title": "ohcnetwork/care#1906",
       "time": "2024-02-22T11:39:10.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1906#issuecomment-1959272636",
+      "link": "https://github.com/ohcnetwork/care/pull/1906#issuecomment-1959272636",
       "text": "This is my first PR in the organisation, any advice and help will be greatly appreciated "
     },
     {
       "type": "pr_opened",
-      "title": "coronasafe/care#1906",
+      "title": "ohcnetwork/care#1906",
       "time": "2024-02-22T11:36:57.000Z",
-      "link": "https://github.com/coronasafe/care/pull/1906",
+      "link": "https://github.com/ohcnetwork/care/pull/1906",
       "text": "added constraints to patient consultation for storing unique patient_…"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1805",
+      "title": "ohcnetwork/care#1805",
       "time": "2024-02-22T06:06:04.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1805#issuecomment-1958765908",
+      "link": "https://github.com/ohcnetwork/care/issues/1805#issuecomment-1958765908",
       "text": "@sainak , I would like to work on this issue , can you help me with some details about this issue \r\n- which endpoint need to be updated/changed ?\r\n- what is the expected output?"
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1889",
+      "title": "ohcnetwork/care#1889",
       "time": "2024-02-22T03:53:13.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1889#issuecomment-1958608549",
-      "text": "I'm trying to reproduce the issue , but i guess this is already resolved as I can see dummy data already populated in the shifting and resource tabs \r\n- I've populated the dummy data using make command\r\n![image](https://github.com/coronasafe/care/assets/115104695/672f9b25-90b2-42bf-95d0-8dfa910e3aa7)\r\n\r\nlet me know if I'm doing something wrong or unable to understand the issue"
+      "link": "https://github.com/ohcnetwork/care/issues/1889#issuecomment-1958608549",
+      "text": "I'm trying to reproduce the issue , but i guess this is already resolved as I can see dummy data already populated in the shifting and resource tabs \r\n- I've populated the dummy data using make command\r\n![image](https://github.com/ohcnetwork/care/assets/115104695/672f9b25-90b2-42bf-95d0-8dfa910e3aa7)\r\n\r\nlet me know if I'm doing something wrong or unable to understand the issue"
     },
     {
       "type": "pr_merged",
-      "title": "coronasafe/care#2223",
+      "title": "ohcnetwork/care#2223",
       "time": "2024-08-21T18:07:12Z",
-      "link": "https://github.com/coronasafe/care/pull/2223",
+      "link": "https://github.com/ohcnetwork/care/pull/2223",
       "text": "migrating feature field  to array field "
     }
   ],
   "open_prs": [
     {
-      "link": "https://github.com/coronasafe/care/pull/2361",
+      "link": "https://github.com/ohcnetwork/care/pull/2361",
       "title": "added a request time logging middleware",
       "stale_for": 3,
       "labels": []
     },
     {
-      "link": "https://github.com/coronasafe/docs/pull/28",
+      "link": "https://github.com/ohcnetwork/docs/pull/28",
       "title": "Documentation for GSoC Project : Exploring Alternatives for PDF generations",
       "stale_for": 14,
       "labels": []
     },
     {
-      "link": "https://github.com/coronasafe/care/pull/2132",
+      "link": "https://github.com/ohcnetwork/care/pull/2132",
       "title": "PDF Generation Alternative - GSoC",
       "stale_for": 2,
       "labels": []
     },
     {
-      "link": "https://github.com/coronasafe/care/pull/1994",
+      "link": "https://github.com/ohcnetwork/care/pull/1994",
       "title": "updated bed types",
       "stale_for": 122,
-      "labels": [
-        "ops-review-pending"
-      ]
+      "labels": ["ops-review-pending"]
     },
     {
-      "link": "https://github.com/coronasafe/care/pull/1941",
+      "link": "https://github.com/ohcnetwork/care/pull/1941",
       "title": "Loading medibase and icd11 static json and migrations",
       "stale_for": 94,
-      "labels": [
-        "waiting-for-review"
-      ]
+      "labels": ["waiting-for-review"]
     }
   ],
   "authored_issue_and_pr": [
     {
-      "issue_link": "https://github.com/coronasafe/care/issues/2103",
-      "pr_link": "https://github.com/coronasafe/care/pull/2104"
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2103",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2104"
     },
     {
-      "issue_link": "https://github.com/coronasafe/care/issues/2057",
-      "pr_link": "https://github.com/coronasafe/care/pull/2056"
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2057",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2056"
     },
     {
-      "issue_link": "https://github.com/coronasafe/care/issues/2047",
-      "pr_link": "https://github.com/coronasafe/care/pull/2029"
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2047",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2029"
     },
     {
-      "issue_link": "https://github.com/coronasafe/care/issues/2033",
-      "pr_link": "https://github.com/coronasafe/care/pull/2034"
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2033",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2034"
     },
     {
-      "issue_link": "https://github.com/coronasafe/care/issues/2028",
-      "pr_link": "https://github.com/coronasafe/care/pull/2029"
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2028",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2029"
     }
   ]
 }

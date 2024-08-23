@@ -3,16 +3,16 @@
   "activity": [
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1337",
+      "title": "ohcnetwork/care#1337",
       "time": "2024-02-25T16:35:37.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1337#issuecomment-1962993526",
-      "text": "Hey @sainak @rithviknishad,\r\n\r\nI believe the primary issue with the hcx_policy query comes from [https://github.com/coronasafe/care/blob/411e89c63c7daa4b13cc76a1754debec9c19bea7/care/facility/api/serializers/patient.py#L93](url)\r\n\r\n```python\r\n    def get_has_eligible_policy(self, patient):\r\n        eligible_policies = Policy.objects.filter(\r\n            (Q(error_text=\"\") | Q(error_text=None)),\r\n            outcome=\"complete\",\r\n            patient=patient.id,\r\n        )\r\n        return bool(len(eligible_policies))\r\n```\r\n\r\n in the patient serializer. \r\n\r\nTo address this, we can utilize prefetch_related and then filter the patient object with the necessary policy set. Additionally, I suggest replacing len with count, as both accomplish the same task. "
+      "link": "https://github.com/ohcnetwork/care/issues/1337#issuecomment-1962993526",
+      "text": "Hey @sainak @rithviknishad,\r\n\r\nI believe the primary issue with the hcx_policy query comes from [https://github.com/ohcnetwork/care/blob/411e89c63c7daa4b13cc76a1754debec9c19bea7/care/facility/api/serializers/patient.py#L93](url)\r\n\r\n```python\r\n    def get_has_eligible_policy(self, patient):\r\n        eligible_policies = Policy.objects.filter(\r\n            (Q(error_text=\"\") | Q(error_text=None)),\r\n            outcome=\"complete\",\r\n            patient=patient.id,\r\n        )\r\n        return bool(len(eligible_policies))\r\n```\r\n\r\n in the patient serializer. \r\n\r\nTo address this, we can utilize prefetch_related and then filter the patient object with the necessary policy set. Additionally, I suggest replacing len with count, as both accomplish the same task. "
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care#1337",
+      "title": "ohcnetwork/care#1337",
       "time": "2024-02-23T14:10:18.000Z",
-      "link": "https://github.com/coronasafe/care/issues/1337#issuecomment-1961393984",
+      "link": "https://github.com/ohcnetwork/care/issues/1337#issuecomment-1961393984",
       "text": "@sainak @rithviknishad  I want to work on this issue.\r\nCan you please assign this issue to me?\r\n"
     }
   ],

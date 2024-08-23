@@ -15,6 +15,6 @@ By consolidating information about contributions, such as code commits, issue di
 
 - **Configuration Files**: Customize the appearance of the leaderboard using the `config` directory, which includes images and a theme CSS file.
 
-For detailed instructions on accessing and utilizing the leaderboard data, please refer to the [Leaderboard Repository](https://github.com/coronasafe/leaderboard) itself.
+For detailed instructions on accessing and utilizing the leaderboard data, please refer to the [Leaderboard Repository](https://github.com/ohcnetwork/leaderboard) itself.
 
-Additionally, you can find a template repository for organizing organizational data at [Leaderboard Org Data Template Repository](https://github.com/coronasafe/leaderboard-org-data-template/).
+Additionally, you can find a template repository for organizing organizational data at [Leaderboard Org Data Template Repository](https://github.com/ohcnetwork/leaderboard-org-data-template/).
