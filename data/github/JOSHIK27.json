@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-08-22T12:24:52.000Z",
+  "last_updated": "2024-08-23T08:49:40.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8414",
+      "time": "2024-08-23T08:49:40.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8414#issuecomment-2306613931",
+      "text": "> That was easy 😄\r\n> \r\n> Cypress tests are failing. You might want to fix them.\r\n\r\nyeah. looking into it"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7849",
+      "time": "2024-08-23T08:24:47.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/7849#issuecomment-2306567595",
+      "text": "Here's the pr @nihal467 #8414 "
+    },
+    {
+      "type": "pr_opened",
+      "title": "coronasafe/care_fe#8414",
+      "time": "2024-08-23T08:22:59.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8414",
+      "text": "Made AutocompleteFormField open immediately on focus"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8286",
@@ -116,16 +137,31 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8414",
+      "title": "Made AutocompleteFormField open immediately on focus",
+      "stale_for": 0,
+      "labels": [
+        "changes required",
+        "cypress failed"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8391",
       "title": "Make Treating Doctor Field Optional for Domiciliary Care Patients",
-      "stale_for": 0,
-      "labels": ["tested", "waiting for backend"]
+      "stale_for": 1,
+      "labels": [
+        "tested",
+        "waiting for backend"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8390",
       "title": "Added Diagnosis at Discharge field when patient is discharged",
-      "stale_for": 0,
-      "labels": ["needs testing", "needs review"]
+      "stale_for": 1,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     }
   ],
   "authored_issue_and_pr": []

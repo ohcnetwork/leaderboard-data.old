@@ -1,6 +1,24 @@
 {
-  "last_updated": "2024-08-22T17:30:02.000Z",
+  "last_updated": "2024-08-23T11:38:52.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-23T11:38:52.000Z",
+      "title": "coronasafe/care#2361",
+      "link": "https://github.com/coronasafe/care/pull/2361#pullrequestreview-2257027551",
+      "text": "added a request time logging middleware"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "coronasafe/care#2132",
+      "time": "2024-08-23T11:09:56.000Z",
+      "link": "https://github.com/coronasafe/care/pull/2132",
+      "text": "PDF Generation Alternative - GSoC",
+      "collaborated_with": [
+        "DraKen0009",
+        "sainak"
+      ]
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care#2389",
@@ -112,7 +130,9 @@
       "time": "2024-07-12T14:44:51+00:00",
       "link": "https://github.com/ohcnetwork/care/pull/2104",
       "text": "added tests for beds endpoints",
-      "collaborated_with": ["sainak"]
+      "collaborated_with": [
+        "sainak"
+      ]
     },
     {
       "type": "comment_created",
@@ -206,7 +226,9 @@
       "time": "2024-06-03T06:47:26+00:00",
       "link": "https://github.com/ohcnetwork/care/pull/2221",
       "text": "fixed data seeding issue",
-      "collaborated_with": ["vigneshhari"]
+      "collaborated_with": [
+        "vigneshhari"
+      ]
     },
     {
       "type": "pr_opened",
@@ -340,7 +362,9 @@
       "time": "2024-05-15T06:57:21+00:00",
       "link": "https://github.com/ohcnetwork/care/pull/1912",
       "text": "converted investigation and investigation group data into JSON",
-      "collaborated_with": ["sainak"]
+      "collaborated_with": [
+        "sainak"
+      ]
     },
     {
       "type": "comment_created",
@@ -403,7 +427,10 @@
       "time": "2024-04-22T18:53:38+00:00",
       "link": "https://github.com/ohcnetwork/care/pull/2029",
       "text": "Fix ward filters and add tests for places APIs",
-      "collaborated_with": ["vigneshhari", "sainak"]
+      "collaborated_with": [
+        "vigneshhari",
+        "sainak"
+      ]
     },
     {
       "type": "pr_merged",
@@ -419,7 +446,11 @@
       "time": "2024-04-22T18:49:31+00:00",
       "link": "https://github.com/ohcnetwork/care/pull/2056",
       "text": "test for Ambulance  module",
-      "collaborated_with": ["vigneshhari", "rithviknishad", "sainak"]
+      "collaborated_with": [
+        "vigneshhari",
+        "rithviknishad",
+        "sainak"
+      ]
     },
     {
       "type": "pr_collaborated",
@@ -455,7 +486,11 @@
       "time": "2024-04-16T09:03:14+00:00",
       "link": "https://github.com/ohcnetwork/care/pull/2091",
       "text": "Merge Develop to Staging 24.16.1",
-      "collaborated_with": ["vigneshhari", "sainak", "Ashesh3"]
+      "collaborated_with": [
+        "vigneshhari",
+        "sainak",
+        "Ashesh3"
+      ]
     },
     {
       "type": "pr_merged",
@@ -471,7 +506,9 @@
       "time": "2024-04-12T19:02:38+00:00",
       "link": "https://github.com/ohcnetwork/care/pull/2034",
       "text": "test for various endpoints in the external_result module",
-      "collaborated_with": ["sainak"]
+      "collaborated_with": [
+        "sainak"
+      ]
     },
     {
       "type": "pr_opened",
@@ -672,7 +709,9 @@
       "time": "2024-03-04T13:39:38.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1917",
       "text": "added contraints in consultations and custom migrations",
-      "collaborated_with": ["sainak"]
+      "collaborated_with": [
+        "sainak"
+      ]
     },
     {
       "type": "pr_merged",
@@ -848,32 +887,30 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2361",
       "title": "added a request time logging middleware",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/28",
       "title": "Documentation for GSoC Project : Exploring Alternatives for PDF generations",
-      "stale_for": 14,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2132",
-      "title": "PDF Generation Alternative - GSoC",
-      "stale_for": 2,
+      "stale_for": 15,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/1994",
       "title": "updated bed types",
-      "stale_for": 122,
-      "labels": ["ops-review-pending"]
+      "stale_for": 123,
+      "labels": [
+        "ops-review-pending"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/1941",
       "title": "Loading medibase and icd11 static json and migrations",
-      "stale_for": 94,
-      "labels": ["waiting-for-review"]
+      "stale_for": 95,
+      "labels": [
+        "waiting-for-review"
+      ]
     }
   ],
   "authored_issue_and_pr": [

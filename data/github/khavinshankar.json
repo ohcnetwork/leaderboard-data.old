@@ -1,6 +1,100 @@
 {
-  "last_updated": "2024-08-22T17:29:31.000Z",
+  "last_updated": "2024-08-23T09:55:20.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8326",
+      "time": "2024-08-23T09:55:20.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8326",
+      "text": "Cleanup unused files",
+      "turnaround_time": 760681
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-23T09:55:07.000Z",
+      "title": "coronasafe/care_fe#8326",
+      "link": "https://github.com/coronasafe/care_fe/pull/8326#pullrequestreview-2256847202",
+      "text": "Cleanup unused files"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care#1229",
+      "time": "2024-08-23T07:49:24.000Z",
+      "link": "https://github.com/coronasafe/care/pull/1229#issuecomment-2306501255",
+      "text": "Closing this PR as this will be added as a part of HCX Plug PR"
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#8407",
+      "time": "2024-08-23T07:41:00.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8407",
+      "text": "Remove the unwanted printing of flow rate in critical care preview"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8408",
+      "time": "2024-08-23T07:40:59.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8408",
+      "text": "Removed unwanted printing of flow rate in preview",
+      "turnaround_time": 35462
+    },
+    {
+      "type": "issue_closed",
+      "title": "coronasafe/care_fe#7887",
+      "time": "2024-08-23T07:40:06.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/7887",
+      "text": "Migrate FileUpload page to useFileUpload and useFileManager hooks"
+    },
+    {
+      "type": "pr_merged",
+      "title": "coronasafe/care_fe#8329",
+      "time": "2024-08-23T07:40:05.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8329",
+      "text": "Refactored FileUpload component",
+      "turnaround_time": 746214
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-23T07:30:08.000Z",
+      "title": "coronasafe/care_fe#8329",
+      "link": "https://github.com/coronasafe/care_fe/pull/8329#pullrequestreview-2256557958",
+      "text": "Refactored FileUpload component"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-23T07:25:56.000Z",
+      "title": "coronasafe/care_fe#8408",
+      "link": "https://github.com/coronasafe/care_fe/pull/8408#pullrequestreview-2256550202",
+      "text": "Removed unwanted printing of flow rate in preview"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8178",
+      "time": "2024-08-23T06:50:59.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8178#issuecomment-2306412694",
+      "text": "The above mentioned issues will be tackled in a separate PR and will be monitored in a new issue #8413 "
+    },
+    {
+      "type": "issue_opened",
+      "title": "coronasafe/care_fe#8413",
+      "time": "2024-08-23T06:35:01.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8413",
+      "text": "Improve mobile responsiveness and i18n for HCX components"
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8177",
+      "time": "2024-08-23T06:23:44.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/8177#issuecomment-2306376586",
+      "text": "Closing this in favor of #8178 "
+    },
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#7817",
+      "time": "2024-08-23T06:22:06.000Z",
+      "link": "https://github.com/coronasafe/care_fe/pull/7817#issuecomment-2306374741",
+      "text": "Closing this PR in favor of #8340 "
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8404",
@@ -50,7 +144,10 @@
       "time": "2024-08-22T17:06:21.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8402",
       "text": "Enable Facility Cover Image Uploads on Mobile Screens",
-      "collaborated_with": ["gigincg", "khavinshankar"]
+      "collaborated_with": [
+        "gigincg",
+        "khavinshankar"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -96,13 +193,6 @@
       "text": "Neurological Tables having incorrect vertical heights for table values causing it to have extra whitespace at the bottom"
     },
     {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#8265",
-      "time": "2024-08-22T16:47:55.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/8265",
-      "text": "Neurological Tables having incorrect vertical heights for table values causing it to have extra whitespace at the bottom"
-    },
-    {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#8386",
       "time": "2024-08-22T16:47:54.000Z",
@@ -123,7 +213,10 @@
       "time": "2024-08-22T16:46:37.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8260",
       "text": "Migrate to Headless UI v2",
-      "collaborated_with": ["khavinshankar", "nihal467"]
+      "collaborated_with": [
+        "khavinshankar",
+        "nihal467"
+      ]
     },
     {
       "type": "issue_closed",
@@ -519,7 +612,10 @@
       "time": "2024-08-09T05:19:09.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8270",
       "text": "Added sorting for events",
-      "collaborated_with": ["khavinshankar", "nihal467"]
+      "collaborated_with": [
+        "khavinshankar",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -673,7 +769,10 @@
       "time": "2024-08-06T16:02:22.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/2342",
       "text": "Production release v24.32.1",
-      "collaborated_with": ["khavinshankar", "gigincg"]
+      "collaborated_with": [
+        "khavinshankar",
+        "gigincg"
+      ]
     },
     {
       "type": "pr_opened",
@@ -764,7 +863,11 @@
       "time": "2024-08-01T08:58:34.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7588",
       "text": "Fix Incorrect error message for invalid QR code ",
-      "collaborated_with": ["AnkurPrabhu", "nihal467", "khavinshankar"]
+      "collaborated_with": [
+        "AnkurPrabhu",
+        "nihal467",
+        "khavinshankar"
+      ]
     },
     {
       "type": "issue_closed",
@@ -819,13 +922,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-07-31T14:20:43.000Z",
-      "title": "ohcnetwork/care_fe#7914",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7914#pullrequestreview-2210325096",
-      "text": "Consultation Form Enhancement: No home facility docs"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2024-07-31T13:57:34.000Z",
       "title": "ohcnetwork/care_fe#7588",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7588#pullrequestreview-2210253124",
@@ -859,13 +955,6 @@
       "title": "ohcnetwork/care_fe#8233",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8233#pullrequestreview-2209134152",
       "text": "Adds prompt for ICD11 search field #8232"
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#8220",
-      "time": "2024-07-31T04:23:24.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/8220",
-      "text": "Date component in the symptoms module is not responsive"
     },
     {
       "type": "issue_closed",
@@ -917,7 +1006,12 @@
       "time": "2024-07-22T16:39:00+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8196",
       "text": "Production release v24.30.0",
-      "collaborated_with": ["skks1212", "gigincg", "nihal467", "rithviknishad"]
+      "collaborated_with": [
+        "skks1212",
+        "gigincg",
+        "nihal467",
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_collaborated",
@@ -940,13 +1034,6 @@
       "title": "ohcnetwork/care_fe#8191",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8191#pullrequestreview-2191259408",
       "text": "merge develop to staging | v24.30.0 | Minor Fix"
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#8181",
-      "time": "2024-07-22T10:50:22+00:00",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/8181",
-      "text": "Reposition the error message for phone number field"
     },
     {
       "type": "issue_closed",
@@ -1011,7 +1098,11 @@
       "time": "2024-07-17T17:01:31+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8171",
       "text": "Merge Develop to Staging v24.30.0",
-      "collaborated_with": ["rithviknishad", "skks1212", "nihal467"]
+      "collaborated_with": [
+        "rithviknishad",
+        "skks1212",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_merged",
@@ -1027,7 +1118,10 @@
       "time": "2024-07-17T17:01:11+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8123",
       "text": "Block expired patients from being transfered",
-      "collaborated_with": ["rithviknishad", "nihal467"]
+      "collaborated_with": [
+        "rithviknishad",
+        "nihal467"
+      ]
     },
     {
       "type": "issue_closed",
@@ -1063,13 +1157,6 @@
       "title": "ohcnetwork/care_fe#8159",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8159#pullrequestreview-2180147426",
       "text": "Fixed the Death Report icon inconsistency in the patient details page"
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#8091",
-      "time": "2024-07-16T12:52:31+00:00",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/8091",
-      "text": "Allow Configuration of Meta Description and update the default"
     },
     {
       "type": "issue_closed",
@@ -1135,7 +1222,9 @@
       "time": "2024-07-13T14:05:10+00:00",
       "link": "https://github.com/ohcnetwork/care/pull/2293",
       "text": "Block expired patients from being transfered",
-      "collaborated_with": ["nihal467"]
+      "collaborated_with": [
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -1250,13 +1339,6 @@
       "text": "Phone number field: Adds helper icon to improve how supported phone number types are shown"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2024-07-09T17:31:03+00:00",
-      "title": "ohcnetwork/care_fe#8126",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8126#pullrequestreview-2166972240",
-      "text": "Phone number field: Adds helper icon to improve how supported phone number types are shown"
-    },
-    {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#7762",
       "time": "2024-07-09T17:25:33+00:00",
@@ -1353,7 +1435,9 @@
       "time": "2024-07-08T16:49:28+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8129",
       "text": "Production release v24.28.0",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -1396,7 +1480,9 @@
       "time": "2024-07-04T09:32:00+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8111",
       "text": "Merge Develop to Staging 24.28.0",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -1411,13 +1497,6 @@
       "title": "ohcnetwork/care_fe#8110",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8110#pullrequestreview-2158331822",
       "text": "Fixes vertical alignment of patients age in patients list page"
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#7856",
-      "time": "2024-07-02T12:51:23+00:00",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/7856",
-      "text": "Avail the Provision to Edit Camera Preset Name once Added"
     },
     {
       "type": "issue_closed",
@@ -1453,7 +1532,12 @@
       "time": "2024-07-01T17:38:30+00:00",
       "link": "https://github.com/ohcnetwork/care/pull/2284",
       "text": "Production Release v24.27.0",
-      "collaborated_with": ["sainak", "gigincg", "vigneshhari", "Ashesh3"]
+      "collaborated_with": [
+        "sainak",
+        "gigincg",
+        "vigneshhari",
+        "Ashesh3"
+      ]
     },
     {
       "type": "pr_collaborated",
@@ -1502,7 +1586,11 @@
       "time": "2024-06-27T07:20:35+00:00",
       "link": "https://github.com/ohcnetwork/care/pull/2281",
       "text": "Merge Develop To Staging v24.27.0",
-      "collaborated_with": ["sainak", "Ashesh3", "vigneshhari"]
+      "collaborated_with": [
+        "sainak",
+        "Ashesh3",
+        "vigneshhari"
+      ]
     },
     {
       "type": "pr_collaborated",
@@ -1510,7 +1598,10 @@
       "time": "2024-06-27T07:20:10+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8087",
       "text": "Merge Develop to Staging v24.27.0",
-      "collaborated_with": ["Aryanshu919", "Ashesh3"]
+      "collaborated_with": [
+        "Aryanshu919",
+        "Ashesh3"
+      ]
     },
     {
       "type": "issue_closed",
@@ -1525,7 +1616,10 @@
       "time": "2024-06-26T14:16:16+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7697",
       "text": "Rework Shifting Process for \"Complete\" stage",
-      "collaborated_with": ["nihal467", "Ashesh3"]
+      "collaborated_with": [
+        "nihal467",
+        "Ashesh3"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -1557,31 +1651,10 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-06-26T12:53:25+00:00",
-      "title": "ohcnetwork/care_fe#7609",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7609#pullrequestreview-2141715865",
-      "text": "Fix Notifications for Facility Cover Image Deletion "
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2024-06-26T12:47:16+00:00",
       "title": "ohcnetwork/care_fe#7995",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7995#pullrequestreview-2141664280",
       "text": "New profile picture feature "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-06-26T12:47:16+00:00",
-      "title": "ohcnetwork/care_fe#7995",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7995#pullrequestreview-2141664280",
-      "text": "New profile picture feature "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-06-25T04:43:37+00:00",
-      "title": "ohcnetwork/care_fe#8070",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8070#pullrequestreview-2137304588",
-      "text": "Rich text editor component"
     },
     {
       "type": "pr_reviewed",
@@ -1596,7 +1669,11 @@
       "time": "2024-06-24T18:18:19+00:00",
       "link": "https://github.com/ohcnetwork/care/pull/2114",
       "text": "Prevent destination facility from marking shift as complete",
-      "collaborated_with": ["sainak", "Ashesh3", "vigneshhari"]
+      "collaborated_with": [
+        "sainak",
+        "Ashesh3",
+        "vigneshhari"
+      ]
     },
     {
       "type": "pr_collaborated",
@@ -1604,7 +1681,9 @@
       "time": "2024-06-24T16:52:18+00:00",
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/138",
       "text": "Production release",
-      "collaborated_with": ["sainak"]
+      "collaborated_with": [
+        "sainak"
+      ]
     },
     {
       "type": "pr_collaborated",
@@ -1612,7 +1691,9 @@
       "time": "2024-06-24T16:37:19+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8078",
       "text": "Production release v24.26.0",
-      "collaborated_with": ["nihal467"]
+      "collaborated_with": [
+        "nihal467"
+      ]
     },
     {
       "type": "pr_collaborated",
@@ -1620,7 +1701,9 @@
       "time": "2024-06-21T06:40:00+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8074",
       "text": "Merge Develop to Staging v24.26.0",
-      "collaborated_with": ["nihal467"]
+      "collaborated_with": [
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -1808,13 +1891,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-06-18T16:29:21+00:00",
-      "title": "ohcnetwork/care_fe#8034",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8034#pullrequestreview-2126002281",
-      "text": "modify loader flag for patients count"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2024-06-18T16:28:36+00:00",
       "title": "ohcnetwork/care_fe#8034",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8034#pullrequestreview-2126001024",
@@ -1854,13 +1930,6 @@
       "title": "ohcnetwork/care_fe#8039",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8039#pullrequestreview-2125724832",
       "text": "Changed Doctors Log to progress notes"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-06-18T13:19:57+00:00",
-      "title": "ohcnetwork/care_fe#8035",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8035#pullrequestreview-2125470786",
-      "text": "Vaccination Details frontend"
     },
     {
       "type": "pr_reviewed",
@@ -1992,7 +2061,9 @@
       "time": "2024-06-14T12:01:15+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8021",
       "text": "Fix array search compatibility in RangeAutocompleteFormField",
-      "collaborated_with": ["bodhish"]
+      "collaborated_with": [
+        "bodhish"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -2049,7 +2120,10 @@
       "time": "2024-06-14T11:40:11+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7988",
       "text": "Doctor's Log Update- Progress Note and other improvements",
-      "collaborated_with": ["nihal467", "rithviknishad"]
+      "collaborated_with": [
+        "nihal467",
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -2176,7 +2250,7 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-06-07T06:49:22+00:00",
+      "time": "2024-06-06T14:09:28+00:00",
       "title": "ohcnetwork/care_fe#7946",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7946#pullrequestreview-2102097675",
       "text": "Restructured Consent Records"
@@ -2201,20 +2275,6 @@
       "title": "ohcnetwork/care_fe#7989",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7989#pullrequestreview-2103764032",
       "text": "Show link asset popup only for IV and NIV resp. support types"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-06-06T14:09:28+00:00",
-      "title": "ohcnetwork/care_fe#7946",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7946#pullrequestreview-2102097675",
-      "text": "Restructured Consent Records"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-06-06T14:09:28+00:00",
-      "title": "ohcnetwork/care_fe#7946",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7946#pullrequestreview-2102097675",
-      "text": "Restructured Consent Records"
     },
     {
       "type": "pr_reviewed",
@@ -2243,13 +2303,6 @@
       "time": "2024-06-06T09:07:21+00:00",
       "title": "ohcnetwork/care_fe#7946",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7946#pullrequestreview-2101337400",
-      "text": "Restructured Consent Records"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-06-06T07:23:00+00:00",
-      "title": "ohcnetwork/care_fe#7946",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7946#pullrequestreview-2100981916",
       "text": "Restructured Consent Records"
     },
     {
@@ -2380,13 +2433,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-06-05T06:21:14+00:00",
-      "title": "ohcnetwork/care_fe#7957",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7957#pullrequestreview-2098137925",
-      "text": "Fix error message when session expires "
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2024-06-05T06:17:38+00:00",
       "title": "ohcnetwork/care_fe#7957",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7957#pullrequestreview-2098131600",
@@ -2427,7 +2473,9 @@
       "time": "2024-06-03T16:04:50+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7966",
       "text": "Merge Develop to Staging v24.23.1",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -2500,7 +2548,9 @@
       "time": "2024-05-31T12:47:32+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7955",
       "text": "Merge Develop to Staging v24.23.0",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -2512,7 +2562,7 @@
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#7950",
-      "time": "2024-05-31T12:39:46+00:00",
+      "time": "2024-05-31T12:33:19+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/issues/7950",
       "text": "Reordering- doctor's log update"
     },
@@ -2529,13 +2579,6 @@
       "time": "2024-05-31T12:33:19+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/issues/7951",
       "text": "Replace the Perinatal status to bottom of the page"
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#7950",
-      "time": "2024-05-31T12:33:19+00:00",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/7950",
-      "text": "Reordering- doctor's log update"
     },
     {
       "type": "pr_reviewed",
@@ -2605,13 +2648,6 @@
       "time": "2024-05-30T09:31:00+00:00",
       "title": "ohcnetwork/care_fe#7940",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7940#pullrequestreview-2087763878",
-      "text": "Disable switching to \"Refer to another facility\"/\"Declare Death\" in Decision after consultation in edit consultation form"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-05-30T09:27:51+00:00",
-      "title": "ohcnetwork/care_fe#7940",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7940#pullrequestreview-2087757235",
       "text": "Disable switching to \"Refer to another facility\"/\"Declare Death\" in Decision after consultation in edit consultation form"
     },
     {
@@ -2704,7 +2740,9 @@
       "time": "2024-05-28T11:31:56+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7839",
       "text": "Adds support for Doctors Log Update round type (v1)",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -2733,7 +2771,9 @@
       "time": "2024-05-28T11:23:01+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7874",
       "text": "Adds support for specifying onset and cure date in Encounter Symptoms",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -2804,13 +2844,6 @@
       "title": "ohcnetwork/care_fe#7928",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7928#pullrequestreview-2082404889",
       "text": "fixes presets overflow issue in live monitoring"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-05-28T06:08:55+00:00",
-      "title": "ohcnetwork/care_fe#7830",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7830#pullrequestreview-2081828493",
-      "text": "fixes: Oversized cover image in facility page"
     },
     {
       "type": "pr_reviewed",
@@ -2961,13 +2994,6 @@
       "time": "2024-05-27T16:42:36+00:00",
       "title": "ohcnetwork/care_fe#7915",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7915#pullrequestreview-2081265325",
-      "text": "Improve camera preset selection UI in camera feed"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-05-27T16:31:10+00:00",
-      "title": "ohcnetwork/care_fe#7915",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7915#pullrequestreview-2081249709",
       "text": "Improve camera preset selection UI in camera feed"
     },
     {
@@ -3253,7 +3279,10 @@
       "time": "2024-05-22T08:32:18+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7875",
       "text": "Show standardized labels for patient categorization",
-      "collaborated_with": ["gigincg", "rithviknishad"]
+      "collaborated_with": [
+        "gigincg",
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_merged",
@@ -3309,21 +3338,21 @@
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#7760",
-      "time": "2024-05-22T04:35:37+00:00",
+      "time": "2024-05-15T06:56:09+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/issues/7760",
       "text": "Advance filter for Discharge patients "
     },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#7737",
-      "time": "2024-05-22T04:35:37+00:00",
+      "time": "2024-05-15T06:56:08+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/issues/7737",
       "text": "Discharge patient list"
     },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#7570",
-      "time": "2024-05-22T04:35:37+00:00",
+      "time": "2024-05-15T06:56:08+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/issues/7570",
       "text": "Total Discharge patients Number to be made Visible for all user type"
     },
@@ -3362,7 +3391,9 @@
       "time": "2024-05-21T13:28:35+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7870",
       "text": "Remove unwanted covid fields",
-      "collaborated_with": ["nihal467"]
+      "collaborated_with": [
+        "nihal467"
+      ]
     },
     {
       "type": "comment_created",
@@ -3491,7 +3522,9 @@
       "time": "2024-05-20T14:44:26+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7862",
       "text": "Merge Develop to Staging v24.21.0 | ABDM Enhancement",
-      "collaborated_with": ["nihal467"]
+      "collaborated_with": [
+        "nihal467"
+      ]
     },
     {
       "type": "pr_merged",
@@ -3507,7 +3540,10 @@
       "time": "2024-05-20T14:37:42+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7861",
       "text": "Abdm improvements",
-      "collaborated_with": ["Khavin Shankar", "nihal467"]
+      "collaborated_with": [
+        "Khavin Shankar",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_opened",
@@ -3531,19 +3567,14 @@
       "text": "EOD Reminders: Adds support for retries"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2024-05-18T14:30:17+00:00",
-      "title": "ohcnetwork/leaderboard#456",
-      "link": "https://github.com/ohcnetwork/leaderboard/pull/456#pullrequestreview-2064768696",
-      "text": "EOD Reminders: Adds support for retries"
-    },
-    {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#7848",
       "time": "2024-05-17T16:00:15+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7848",
       "text": "Merge Develop to Staging v 24.21.0",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -3566,7 +3597,9 @@
       "time": "2024-05-17T15:02:51+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7845",
       "text": "Abdm m3 improvements",
-      "collaborated_with": ["gigincg"]
+      "collaborated_with": [
+        "gigincg"
+      ]
     },
     {
       "type": "issue_closed",
@@ -3610,7 +3643,10 @@
       "time": "2024-05-17T13:11:37+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7844",
       "text": "Merge develop to staging v24.21.0 | Events related Changes",
-      "collaborated_with": ["nihal467", "rithviknishad"]
+      "collaborated_with": [
+        "nihal467",
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -3797,28 +3833,11 @@
       "time": "2024-05-15T07:02:22+00:00",
       "link": "https://github.com/ohcnetwork/care/pull/1742",
       "text": "Display users list based on user access limitation",
-      "collaborated_with": ["vigneshhari", "GokulramGHV", "sainak"]
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#7760",
-      "time": "2024-05-15T06:56:09+00:00",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/7760",
-      "text": "Advance filter for Discharge patients "
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#7570",
-      "time": "2024-05-15T06:56:08+00:00",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/7570",
-      "text": "Total Discharge patients Number to be made Visible for all user type"
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#7737",
-      "time": "2024-05-15T06:56:08+00:00",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/7737",
-      "text": "Discharge patient list"
+      "collaborated_with": [
+        "vigneshhari",
+        "GokulramGHV",
+        "sainak"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -3861,7 +3880,9 @@
       "time": "2024-05-14T23:15:44+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7808",
       "text": "Fixed alignment in users page",
-      "collaborated_with": ["skks1212"]
+      "collaborated_with": [
+        "skks1212"
+      ]
     },
     {
       "type": "issue_closed",
@@ -3890,7 +3911,10 @@
       "time": "2024-05-14T23:10:19+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7639",
       "text": "[FIXED] Improved the change password handling in profile edit page",
-      "collaborated_with": ["rithviknishad", "r-nikhilkumar"]
+      "collaborated_with": [
+        "rithviknishad",
+        "r-nikhilkumar"
+      ]
     },
     {
       "type": "issue_closed",
@@ -3919,14 +3943,9 @@
       "time": "2024-05-14T23:03:04+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7773",
       "text": "Capitalized patient names",
-      "collaborated_with": ["skks1212"]
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-05-14T23:01:56+00:00",
-      "title": "ohcnetwork/care_fe#7808",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7808#pullrequestreview-2056614580",
-      "text": "Fixed alignment in users page"
+      "collaborated_with": [
+        "skks1212"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -3934,13 +3953,6 @@
       "title": "ohcnetwork/care_fe#7808",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7808#pullrequestreview-2056614580",
       "text": "Fixed alignment in users page"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-05-14T22:57:23+00:00",
-      "title": "ohcnetwork/care_fe#7639",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7639#pullrequestreview-2056611292",
-      "text": "[FIXED] Improved the change password handling in profile edit page"
     },
     {
       "type": "pr_reviewed",
@@ -4035,13 +4047,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-05-14T15:13:15+00:00",
-      "title": "ohcnetwork/care#2104",
-      "link": "https://github.com/ohcnetwork/care/pull/2104#pullrequestreview-2055709200",
-      "text": "added tests for beds endpoints"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2024-05-14T15:13:14+00:00",
       "title": "ohcnetwork/care#2104",
       "link": "https://github.com/ohcnetwork/care/pull/2104#pullrequestreview-2055709200",
@@ -4082,7 +4087,9 @@
       "time": "2024-05-14T09:52:20+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7193",
       "text": "ABDM M3",
-      "collaborated_with": ["nihal467"]
+      "collaborated_with": [
+        "nihal467"
+      ]
     },
     {
       "type": "pr_collaborated",
@@ -4124,7 +4131,9 @@
       "time": "2024-05-13T12:08:03+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7800",
       "text": "Add id for cypress prescription row",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "issue_closed",
@@ -4227,7 +4236,11 @@
       "time": "2024-05-09T07:07:53+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7380",
       "text": "Updated Preview UIs and Changes to Painscale",
-      "collaborated_with": ["nihal467", "rithviknishad", "skks1212"]
+      "collaborated_with": [
+        "nihal467",
+        "rithviknishad",
+        "skks1212"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -4249,13 +4262,6 @@
       "title": "ohcnetwork/care_fe#7715",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7715#pullrequestreview-2047270423",
       "text": "Changed WhatsApp message: doctor connect "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-05-09T06:37:23+00:00",
-      "title": "ohcnetwork/care_fe#7380",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7380#pullrequestreview-2047247830",
-      "text": "Updated Preview UIs and Changes to Painscale"
     },
     {
       "type": "pr_reviewed",
@@ -4305,13 +4311,6 @@
       "title": "ohcnetwork/care_fe#7749",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7749#pullrequestreview-2045018657",
       "text": "Increase no. of users shown in the User Autocomplete Input"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-05-08T08:39:09+00:00",
-      "title": "ohcnetwork/care_fe#7696",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7696#pullrequestreview-2045016955",
-      "text": "Adding proper error message for Camera config page"
     },
     {
       "type": "pr_reviewed",
@@ -4434,19 +4433,16 @@
       "text": "Toggle to be made available to Enter Emergency Contact No. From Phone Number"
     },
     {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#7610",
-      "time": "2024-05-07T09:22:23+00:00",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/7610",
-      "text": "Toggle to be made available to Enter Emergency Contact No. From Phone Number"
-    },
-    {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#7644",
       "time": "2024-05-07T09:22:22+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7644",
       "text": "Fixed #7610 Toggle  Emergency Contact No. From Phone Number",
-      "collaborated_with": ["nihal467", "manasvi-gaur", "rithviknishad"]
+      "collaborated_with": [
+        "nihal467",
+        "manasvi-gaur",
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -4454,13 +4450,6 @@
       "title": "ohcnetwork/care_fe#7644",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7644#pullrequestreview-2042569145",
       "text": "Fixed #7610 Toggle  Emergency Contact No. From Phone Number"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-05-07T09:20:40+00:00",
-      "title": "ohcnetwork/care_fe#7639",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7639#pullrequestreview-2042565480",
-      "text": "[FIXED] Improved the change password handling in profile edit page"
     },
     {
       "type": "pr_reviewed",
@@ -4510,7 +4499,10 @@
       "time": "2024-05-07T09:05:04+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7488",
       "text": "Add \"needs testing\" label if contributor comments \"ready for testing\" ",
-      "collaborated_with": ["nihal467", "saloni0419"]
+      "collaborated_with": [
+        "nihal467",
+        "saloni0419"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -4673,13 +4665,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-04-30T05:58:38+00:00",
-      "title": "ohcnetwork/care_fe#7323",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7323#pullrequestreview-2030267118",
-      "text": "#7308 fix : use \"hidden\" css property to toggle b/w Login & Forgot Password"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2024-04-30T05:58:37+00:00",
       "title": "ohcnetwork/care_fe#7323",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7323#pullrequestreview-2030267118",
@@ -4743,24 +4728,10 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-04-30T05:46:44+00:00",
-      "title": "ohcnetwork/care_fe#7735",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7735#pullrequestreview-2030254161",
-      "text": "Adds IP Days chip for admission encounters"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2024-04-29T08:11:49+00:00",
       "title": "ohcnetwork/care_fe#7731",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7731#pullrequestreview-2027812928",
       "text": "Update README to specify to use local backend for cypress tests"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-04-28T02:42:57+00:00",
-      "title": "ohcnetwork/care_fe#7726",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7726#pullrequestreview-2026872479",
-      "text": "Fix QR code error notification"
     },
     {
       "type": "pr_reviewed",
@@ -4810,13 +4781,6 @@
       "title": "ohcnetwork/care_fe#7709",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7709#pullrequestreview-2024872306",
       "text": "Enhancements to Doctor Connect Slideover"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-04-26T10:56:20+00:00",
-      "title": "ohcnetwork/care_fe#7717",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7717#pullrequestreview-2024774874",
-      "text": "Correct spelling for comment on PR close on stale"
     },
     {
       "type": "pr_reviewed",
@@ -4895,7 +4859,9 @@
       "time": "2024-04-24T12:42:41+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7564",
       "text": "TEMP: disable eslint in code climate",
-      "collaborated_with": ["nihal467"]
+      "collaborated_with": [
+        "nihal467"
+      ]
     },
     {
       "type": "issue_closed",
@@ -5008,7 +4974,10 @@
       "time": "2024-04-24T07:16:56+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7315",
       "text": "Rearranged facility home layout",
-      "collaborated_with": ["nihal467", "kshitijv256"]
+      "collaborated_with": [
+        "nihal467",
+        "kshitijv256"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -5205,7 +5174,9 @@
       "time": "2024-04-21T16:41:55+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7677",
       "text": "Merge develop to staging v24.16.0",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -5343,7 +5314,9 @@
       "time": "2024-04-19T13:11:15+00:00",
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/123",
       "text": "handle axios errors when status >= 400",
-      "collaborated_with": ["sainak"]
+      "collaborated_with": [
+        "sainak"
+      ]
     },
     {
       "type": "pr_opened",
@@ -5432,13 +5405,6 @@
       "text": "Fix: unusual behaviour when removing selected Options"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2024-04-17T10:04:48+00:00",
-      "title": "ohcnetwork/care_fe#7556",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7556#pullrequestreview-2005633044",
-      "text": "Fix: unusual behaviour when removing selected Options"
-    },
-    {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#7534",
       "time": "2024-04-17T09:58:16+00:00",
@@ -5475,13 +5441,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-04-17T09:56:06+00:00",
-      "title": "ohcnetwork/care_fe#7488",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7488#pullrequestreview-2005578779",
-      "text": "Add \"needs testing\" label if contributor comments \"ready for testing\" "
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2024-04-17T09:51:03+00:00",
       "title": "ohcnetwork/care_fe#7488",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7488#pullrequestreview-2005570985",
@@ -5507,20 +5466,6 @@
       "title": "ohcnetwork/care_fe#7315",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7315#pullrequestreview-2005566011",
       "text": "Rearranged facility home layout"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-04-17T09:49:31+00:00",
-      "title": "ohcnetwork/care_fe#7315",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7315#pullrequestreview-2005566011",
-      "text": "Rearranged facility home layout"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-04-17T09:45:57+00:00",
-      "title": "ohcnetwork/care_fe#7273",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7273#pullrequestreview-2005559677",
-      "text": "Fix : Minimum value in forms should be greater than 0"
     },
     {
       "type": "pr_reviewed",
@@ -5570,7 +5515,10 @@
       "time": "2024-04-17T09:38:39+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7568",
       "text": "Fix Domiciliary Care discrepancy. ",
-      "collaborated_with": ["AshrafMd-1", "nihal467"]
+      "collaborated_with": [
+        "AshrafMd-1",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -5649,7 +5597,9 @@
       "time": "2024-04-15T15:33:28+00:00",
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/121",
       "text": "OCR V2",
-      "collaborated_with": ["sainak"]
+      "collaborated_with": [
+        "sainak"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -5784,7 +5734,12 @@
       "time": "2024-04-08T17:56:09+00:00",
       "link": "https://github.com/ohcnetwork/care/pull/2065",
       "text": "Production release v24.15.0 | April week 2",
-      "collaborated_with": ["rithviknishad", "sainak", "gigincg", "Pranshu1902"]
+      "collaborated_with": [
+        "rithviknishad",
+        "sainak",
+        "gigincg",
+        "Pranshu1902"
+      ]
     },
     {
       "type": "pr_merged",
@@ -5939,7 +5894,10 @@
       "time": "2024-04-04T16:44:28+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7540",
       "text": "Merge Develop into Staging",
-      "collaborated_with": ["gigincg", "rithviknishad"]
+      "collaborated_with": [
+        "gigincg",
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -5961,15 +5919,16 @@
       "time": "2024-04-03T16:46:10+00:00",
       "link": "https://github.com/ohcnetwork/care/pull/2050",
       "text": "Staging release 2 for v24.15.0",
-      "collaborated_with": ["sainak"]
+      "collaborated_with": [
+        "sainak"
+      ]
     },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#7526",
-      "time": "2024-04-03T16:19:10+00:00",
+      "time": "2024-04-03T16:19:09Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7526",
-      "text": "Added github workflow for automated release",
-      "turnaround_time": 43526
+      "text": "Added github workflow for automated release"
     },
     {
       "type": "pr_collaborated",
@@ -5977,15 +5936,16 @@
       "time": "2024-04-03T16:19:10+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7526",
       "text": "Added github workflow for automated release",
-      "collaborated_with": ["gigincg"]
+      "collaborated_with": [
+        "gigincg"
+      ]
     },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care#2045",
-      "time": "2024-04-03T14:17:49+00:00",
+      "time": "2024-04-03T14:17:48Z",
       "link": "https://github.com/ohcnetwork/care/pull/2045",
-      "text": "Added github workflow for automated release",
-      "turnaround_time": 36087
+      "text": "Added github workflow for automated release"
     },
     {
       "type": "pr_collaborated",
@@ -5993,35 +5953,35 @@
       "time": "2024-04-03T14:17:49+00:00",
       "link": "https://github.com/ohcnetwork/care/pull/2045",
       "text": "Added github workflow for automated release",
-      "collaborated_with": ["gigincg"]
+      "collaborated_with": [
+        "gigincg"
+      ]
     },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#7529",
-      "time": "2024-04-03T13:18:35+00:00",
+      "time": "2024-04-03T13:18:34Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7529",
-      "text": "Staging Release for v24.15.0",
-      "turnaround_time": 9241
+      "text": "Staging Release for v24.15.0"
     },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care#2046",
-      "time": "2024-04-03T13:18:29+00:00",
+      "time": "2024-04-03T13:18:28Z",
       "link": "https://github.com/ohcnetwork/care/pull/2046",
-      "text": "Staging Release for v24.15.0",
-      "turnaround_time": 9187
+      "text": "Staging Release for v24.15.0"
     },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2046",
-      "time": "2024-04-03T10:45:23+00:00",
+      "time": "2024-04-03T10:45:21Z",
       "link": "https://github.com/ohcnetwork/care/pull/2046",
       "text": "Staging Release for v24.15.0"
     },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#7529",
-      "time": "2024-04-03T10:44:35+00:00",
+      "time": "2024-04-03T10:44:33Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7529",
       "text": "Staging Release for v24.15.0"
     },
@@ -6070,14 +6030,14 @@
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2045",
-      "time": "2024-04-03T04:16:23+00:00",
+      "time": "2024-04-03T04:16:21Z",
       "link": "https://github.com/ohcnetwork/care/pull/2045",
       "text": "Added github workflow for automated release"
     },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#7526",
-      "time": "2024-04-03T04:13:44+00:00",
+      "time": "2024-04-03T04:13:43Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7526",
       "text": "Added github workflow for automated release"
     },
@@ -6140,13 +6100,6 @@
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#7473",
-      "time": "2024-04-02T13:43:58+00:00",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/7473",
-      "text": "\"Undefined\" is not a valid UUID : response while updating patient notes."
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#7473",
       "time": "2024-04-02T13:43:57+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/issues/7473",
       "text": "\"Undefined\" is not a valid UUID : response while updating patient notes."
@@ -6177,13 +6130,6 @@
       "time": "2024-04-02T04:57:50+00:00",
       "title": "ohcnetwork/care_fe#7508",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7508#pullrequestreview-1972617372",
-      "text": "Upgrade to node v20"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-04-02T04:50:48+00:00",
-      "title": "ohcnetwork/care_fe#7508",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7508#pullrequestreview-1972610823",
       "text": "Upgrade to node v20"
     },
     {
@@ -6240,7 +6186,9 @@
       "time": "2024-03-28T16:56:32+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7489",
       "text": "Hotfix: Staging Release for v24.14.0",
-      "collaborated_with": ["skks1212"]
+      "collaborated_with": [
+        "skks1212"
+      ]
     },
     {
       "type": "pr_merged",
@@ -6263,7 +6211,10 @@
       "time": "2024-03-28T16:45:20+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7461",
       "text": "Added consent form to patient consultation",
-      "collaborated_with": ["skks1212", "nihal467"]
+      "collaborated_with": [
+        "skks1212",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_opened",
@@ -6345,7 +6296,10 @@
       "time": "2024-03-27T15:43:15+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7136",
       "text": "Extend Update Log to bottom of the screen",
-      "collaborated_with": ["thedevildude", "nihal467"]
+      "collaborated_with": [
+        "thedevildude",
+        "nihal467"
+      ]
     },
     {
       "type": "issue_closed",
@@ -6451,7 +6405,10 @@
       "time": "2024-03-26T18:26:24+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7322",
       "text": "Replace age field with DOB while Updating User",
-      "collaborated_with": ["nihal467", "rash-27"]
+      "collaborated_with": [
+        "nihal467",
+        "rash-27"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -6914,13 +6871,6 @@
       "text": "Log update vital feature remodified "
     },
     {
-      "type": "pr_reviewed",
-      "time": "2024-03-07T07:12:36+00:00",
-      "title": "ohcnetwork/care_fe#7348",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7348#pullrequestreview-1921611127",
-      "text": "Log update vital feature remodified "
-    },
-    {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#7295",
       "time": "2024-03-07T01:37:14+00:00",
@@ -7025,7 +6975,10 @@
       "time": "2024-03-05T16:55:40.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7287",
       "text": "feat:Inline view of selected options of Multiselect",
-      "collaborated_with": ["creator79", "nihal467"]
+      "collaborated_with": [
+        "creator79",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -7257,7 +7210,9 @@
       "time": "2024-02-27T11:04:04.000Z",
       "link": "https://github.com/ohcnetwork/leaderboard/pull/261",
       "text": "Adds workflow to trigger Slack EOD Updates Bot",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -7359,7 +7314,11 @@
       "time": "2024-02-19T14:40:54.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6990",
       "text": "Events UI",
-      "collaborated_with": ["sainak", "rithviknishad", "nihal467"]
+      "collaborated_with": [
+        "sainak",
+        "rithviknishad",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -7396,7 +7355,10 @@
       "time": "2024-02-15T16:30:57.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7147",
       "text": "Minor ui spacing fix",
-      "collaborated_with": ["gigincg", "nihal467"]
+      "collaborated_with": [
+        "gigincg",
+        "nihal467"
+      ]
     },
     {
       "type": "issue_closed",
@@ -8109,7 +8071,9 @@
       "time": "2024-01-25T14:28:24.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7105",
       "text": "Update Content-Security-Policy script-src directive to allow 'blob' as a source",
-      "collaborated_with": ["Ashesh3"]
+      "collaborated_with": [
+        "Ashesh3"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -8543,7 +8507,10 @@
       "time": "2024-01-17T16:53:18.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7044",
       "text": "Whitelist file types in file upload",
-      "collaborated_with": ["nihal467", "gigincg"]
+      "collaborated_with": [
+        "nihal467",
+        "gigincg"
+      ]
     },
     {
       "type": "issue_closed",
@@ -8608,7 +8575,9 @@
       "time": "2024-01-17T10:15:14.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1824",
       "text": "Added whitelist of file types in file upload",
-      "collaborated_with": ["vigneshhari"]
+      "collaborated_with": [
+        "vigneshhari"
+      ]
     },
     {
       "type": "comment_created",
@@ -8879,7 +8848,7 @@
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#6984",
-      "time": "2024-01-06T14:55:14.000Z",
+      "time": "2024-01-06T13:52:32.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/6984",
       "text": "BP chart is showing -1 value in the patient consultation page"
     },
@@ -8889,13 +8858,6 @@
       "title": "ohcnetwork/care_fe#6987",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6987#pullrequestreview-1807483061",
       "text": "Blood Pressure: Temp. fix to treat negative values as undefined"
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#6984",
-      "time": "2024-01-06T13:52:32.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/6984",
-      "text": "BP chart is showing -1 value in the patient consultation page"
     },
     {
       "type": "pr_reviewed",
@@ -8910,7 +8872,9 @@
       "time": "2024-01-04T15:55:59.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6973",
       "text": "Make daily round responsive on smaller screens",
-      "collaborated_with": ["Ashesh3"]
+      "collaborated_with": [
+        "Ashesh3"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -8954,7 +8918,9 @@
       "time": "2024-01-04T14:02:09.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1807",
       "text": "added error handling for get_hip_id_by_health_id",
-      "collaborated_with": ["sainak"]
+      "collaborated_with": [
+        "sainak"
+      ]
     },
     {
       "type": "comment_created",
@@ -9064,7 +9030,11 @@
       "time": "2024-01-03T14:29:50.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1801",
       "text": "Production Release January Week 1",
-      "collaborated_with": ["Ashesh3", "gigincg", "sainak"]
+      "collaborated_with": [
+        "Ashesh3",
+        "gigincg",
+        "sainak"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -9122,7 +9092,9 @@
       "time": "2023-12-29T14:02:39.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1793",
       "text": "Updated the bridge service registration endpoint",
-      "collaborated_with": ["sainak"]
+      "collaborated_with": [
+        "sainak"
+      ]
     },
     {
       "type": "pr_opened",
@@ -9179,7 +9151,9 @@
       "time": "2023-12-28T08:36:22.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6934",
       "text": "Fix latitude and longitude handling in FacilityCreate component",
-      "collaborated_with": ["Ashesh3"]
+      "collaborated_with": [
+        "Ashesh3"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -9201,7 +9175,10 @@
       "time": "2023-12-28T08:31:13.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6909",
       "text": "Migrate Bed Management to `useQuery` and move pagination state to query params",
-      "collaborated_with": ["nihal467", "rithviknishad"]
+      "collaborated_with": [
+        "nihal467",
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -9356,7 +9333,9 @@
       "time": "2023-12-27T09:08:54.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6929",
       "text": "Production Release | Hotfix",
-      "collaborated_with": ["gigincg"]
+      "collaborated_with": [
+        "gigincg"
+      ]
     },
     {
       "type": "pr_merged",
@@ -10105,7 +10084,9 @@
       "time": "2023-12-11T06:26:07.000Z",
       "link": "https://github.com/ohcnetwork/leaderboard/pull/145",
       "text": "Add \"Whats Happening\" section",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_merged",
@@ -11326,7 +11307,7 @@
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#6378",
-      "time": "2023-11-09T12:27:06.000Z",
+      "time": "2023-10-20T01:03:21.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/6378",
       "text": "Remaining Cypress Test related to User Management"
     },
@@ -11983,13 +11964,6 @@
       "text": "Fix loadash-es import"
     },
     {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#6378",
-      "time": "2023-10-20T01:03:21.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/6378",
-      "text": "Remaining Cypress Test related to User Management"
-    },
-    {
       "type": "pr_reviewed",
       "time": "2023-10-20T01:03:13.000Z",
       "title": "ohcnetwork/care_fe#6478",
@@ -12023,7 +11997,9 @@
       "time": "2023-10-19T09:29:09.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6470",
       "text": "Fixed typo in pathParams of ConfigureHealthFacility and replaced useDispatch in ConfigureFacility",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -12080,7 +12056,9 @@
       "time": "2023-10-18T10:29:30.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6344",
       "text": "Replaced useDispatch with useQuery and request.",
-      "collaborated_with": ["shyamprakash123"]
+      "collaborated_with": [
+        "shyamprakash123"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -12458,14 +12436,14 @@
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#6177",
-      "time": "2023-10-05T07:22:10.000Z",
+      "time": "2023-09-21T05:54:24.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/6177",
-      "text": "Prescription : Freeze columns"
+      "text": "Prescription : Flip the dates & Freeze columns"
     },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#6151",
-      "time": "2023-10-05T07:22:09.000Z",
+      "time": "2023-09-21T05:54:24.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/6151",
       "text": "Prescriptions Table: Shrink discontinued medicine to one row"
     },
@@ -12517,7 +12495,9 @@
       "time": "2023-10-04T14:28:48.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6356",
       "text": "Add show unread notifications filter button",
-      "collaborated_with": ["Pranshu1902"]
+      "collaborated_with": [
+        "Pranshu1902"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -12532,7 +12512,10 @@
       "time": "2023-10-04T13:20:09.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6338",
       "text": "Assets date picker",
-      "collaborated_with": ["suprabathk", "nihal467"]
+      "collaborated_with": [
+        "suprabathk",
+        "nihal467"
+      ]
     },
     {
       "type": "issue_closed",
@@ -12990,20 +12973,6 @@
       "text": "Fix action field in consultation form"
     },
     {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#6177",
-      "time": "2023-09-21T05:54:24.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/6177",
-      "text": "Prescription : Flip the dates & Freeze columns"
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#6151",
-      "time": "2023-09-21T05:54:24.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/6151",
-      "text": "Prescriptions Table: Shrink discontinued medicine to one row"
-    },
-    {
       "type": "pr_reviewed",
       "time": "2023-09-21T05:54:10.000Z",
       "title": "ohcnetwork/care_fe#6282",
@@ -13203,7 +13172,10 @@
       "time": "2023-09-15T12:30:34.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6286",
       "text": "Cam reset",
-      "collaborated_with": ["nihal467", "gigincg"]
+      "collaborated_with": [
+        "nihal467",
+        "gigincg"
+      ]
     },
     {
       "type": "issue_closed",
@@ -13260,7 +13232,9 @@
       "time": "2023-09-14T05:34:17.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6273",
       "text": "Cypress parallel",
-      "collaborated_with": ["nihal467"]
+      "collaborated_with": [
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -13282,7 +13256,10 @@
       "time": "2023-09-14T03:14:16.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6269",
       "text": "Implements `useQuery` & `request` data fetching utilities (used in Location Management page)",
-      "collaborated_with": ["rithviknishad", "nihal467"]
+      "collaborated_with": [
+        "rithviknishad",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -13629,7 +13606,7 @@
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#5835",
-      "time": "2023-09-07T12:13:48.000Z",
+      "time": "2023-07-12T08:19:27.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/5835",
       "text": "Add cypress test for assets.cy.ts"
     },
@@ -13751,7 +13728,10 @@
       "time": "2023-09-06T03:10:04.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6206",
       "text": "Medicine Administrations: Adds `administered_date` input",
-      "collaborated_with": ["nihal467", "rithviknishad"]
+      "collaborated_with": [
+        "nihal467",
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -13794,7 +13774,10 @@
       "time": "2023-09-05T15:31:00.000Z",
       "link": "https://github.com/ohcnetwork/ayushma/pull/194",
       "text": "Added feedback ",
-      "collaborated_with": ["skks1212", "Ashesh3"]
+      "collaborated_with": [
+        "skks1212",
+        "Ashesh3"
+      ]
     },
     {
       "type": "issue_closed",
@@ -13837,7 +13820,9 @@
       "time": "2023-09-05T14:36:18.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6215",
       "text": "Remove extra space on Add Triage form",
-      "collaborated_with": ["Pranshu1902"]
+      "collaborated_with": [
+        "Pranshu1902"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -13908,7 +13893,9 @@
       "time": "2023-09-05T03:53:49.000Z",
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/87",
       "text": "Production Release",
-      "collaborated_with": ["mathew-alex"]
+      "collaborated_with": [
+        "mathew-alex"
+      ]
     },
     {
       "type": "pr_merged",
@@ -14147,7 +14134,10 @@
       "time": "2023-08-28T04:30:38.000Z",
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/85",
       "text": "Production Release",
-      "collaborated_with": ["ishanExtreme", "mathew-alex"]
+      "collaborated_with": [
+        "ishanExtreme",
+        "mathew-alex"
+      ]
     },
     {
       "type": "pr_collaborated",
@@ -14262,7 +14252,9 @@
       "time": "2023-08-25T10:12:01.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1550",
       "text": "Added support to map care facilities with abdm health facility",
-      "collaborated_with": ["vigneshhari"]
+      "collaborated_with": [
+        "vigneshhari"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -14291,7 +14283,9 @@
       "time": "2023-08-24T14:02:36.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6128",
       "text": "cypress maintenance fix",
-      "collaborated_with": ["nihal467"]
+      "collaborated_with": [
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -14460,7 +14454,11 @@
       "time": "2023-08-21T18:29:26.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1538",
       "text": "Production Release; Hotfix",
-      "collaborated_with": ["gigincg", "mathew-alex", "sainak"]
+      "collaborated_with": [
+        "gigincg",
+        "mathew-alex",
+        "sainak"
+      ]
     },
     {
       "type": "issue_closed",
@@ -14503,7 +14501,10 @@
       "time": "2023-08-21T10:48:09.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1446",
       "text": "Fix issues with HCX",
-      "collaborated_with": ["mathew-alex", "gigincg"]
+      "collaborated_with": [
+        "mathew-alex",
+        "gigincg"
+      ]
     },
     {
       "type": "issue_opened",
@@ -14582,7 +14583,9 @@
       "time": "2023-08-16T12:00:25.000Z",
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/73",
       "text": "Dump observations into S3 bucket",
-      "collaborated_with": ["ishanExtreme"]
+      "collaborated_with": [
+        "ishanExtreme"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -14625,7 +14628,9 @@
       "time": "2023-08-16T09:15:22.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/6064",
       "text": "Removes usages of `useSelector` and replace it with `useConfig` and `useAuthUser` instead.",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -14753,7 +14758,11 @@
       "time": "2023-08-12T10:10:35.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1523",
       "text": "Production Release; Aug Week 3",
-      "collaborated_with": ["Ashesh3", "vigneshhari", "rithviknishad"]
+      "collaborated_with": [
+        "Ashesh3",
+        "vigneshhari",
+        "rithviknishad"
+      ]
     },
     {
       "type": "issue_closed",
@@ -15143,7 +15152,10 @@
       "time": "2023-08-02T11:02:13.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5601",
       "text": "index field added as key to remove warnings",
-      "collaborated_with": ["nihal467", "mecskyverse"]
+      "collaborated_with": [
+        "nihal467",
+        "mecskyverse"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -15318,7 +15330,7 @@
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#5912",
-      "time": "2023-07-28T16:26:29.000Z",
+      "time": "2023-07-28T09:54:47.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/5912",
       "text": "Discharge summary is not generated properly in production"
     },
@@ -15370,13 +15382,6 @@
       "title": "ohcnetwork/care_fe#5947",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5947#pullrequestreview-1551760808",
       "text": "Make patient category required in shifting"
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#5912",
-      "time": "2023-07-28T09:54:47.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/5912",
-      "text": "Discharge summary is not generated properly in production"
     },
     {
       "type": "pr_reviewed",
@@ -15614,7 +15619,10 @@
       "time": "2023-07-22T21:32:15.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1472",
       "text": "Production Release; July Week 4",
-      "collaborated_with": ["gigincg", "vigneshhari"]
+      "collaborated_with": [
+        "gigincg",
+        "vigneshhari"
+      ]
     },
     {
       "type": "pr_collaborated",
@@ -15622,7 +15630,10 @@
       "time": "2023-07-22T21:32:03.000Z",
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/77",
       "text": "Production Release",
-      "collaborated_with": ["mathew-alex", "ishanExtreme"]
+      "collaborated_with": [
+        "mathew-alex",
+        "ishanExtreme"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -15686,7 +15697,10 @@
       "time": "2023-07-21T16:28:25.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5798",
       "text": "Abdm",
-      "collaborated_with": ["rithviknishad", "vigneshhari"]
+      "collaborated_with": [
+        "rithviknishad",
+        "vigneshhari"
+      ]
     },
     {
       "type": "pr_merged",
@@ -15701,7 +15715,10 @@
       "time": "2023-07-21T15:19:45.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1244",
       "text": "Abdm M2",
-      "collaborated_with": ["gigincg", "vigneshhari"]
+      "collaborated_with": [
+        "gigincg",
+        "vigneshhari"
+      ]
     },
     {
       "type": "pr_merged",
@@ -15716,7 +15733,10 @@
       "time": "2023-07-21T15:19:41.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1457",
       "text": "Abdm",
-      "collaborated_with": ["gigincg", "vigneshhari"]
+      "collaborated_with": [
+        "gigincg",
+        "vigneshhari"
+      ]
     },
     {
       "type": "issue_closed",
@@ -15994,13 +16014,6 @@
       "text": "Adds regex validation for `PhoneNumberFormField` same as in backend and validate `onBlur` instead of `onSubmit`"
     },
     {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#5835",
-      "time": "2023-07-12T08:19:27.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/5835",
-      "text": "Add cypress test for assets.cy.ts"
-    },
-    {
       "type": "pr_reviewed",
       "time": "2023-07-12T08:18:45.000Z",
       "title": "ohcnetwork/care_fe#5841",
@@ -16167,7 +16180,9 @@
       "time": "2023-07-05T07:49:56.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5793",
       "text": "Tailwind `src/Components/Patient/PatientRegister.tsx`",
-      "collaborated_with": ["Ashesh3"]
+      "collaborated_with": [
+        "Ashesh3"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -16458,7 +16473,10 @@
       "time": "2023-06-30T11:15:20.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5719",
       "text": "Replaced material ui in FacilityCreate.tsx",
-      "collaborated_with": ["print-Sathvik", "nihal467"]
+      "collaborated_with": [
+        "print-Sathvik",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -16494,7 +16512,9 @@
       "time": "2023-06-30T11:05:10.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5716",
       "text": "Tailwind src/Components/Facility/Investigations/Reports/*",
-      "collaborated_with": ["nihal467"]
+      "collaborated_with": [
+        "nihal467"
+      ]
     },
     {
       "type": "issue_closed",
@@ -16707,7 +16727,9 @@
       "time": "2023-06-22T11:12:45.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5750",
       "text": "Restores `asset_class` disable edit logic",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -16904,7 +16926,11 @@
       "time": "2023-06-21T06:46:39.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5572",
       "text": "Replace Material UI components in src/Components/Shifting/ListFilter.tsx. Fixes  #4996",
-      "collaborated_with": ["rithviknishad", "JahnabDutta", "nihal467"]
+      "collaborated_with": [
+        "rithviknishad",
+        "JahnabDutta",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -16926,13 +16952,6 @@
       "title": "ohcnetwork/care_fe#5650",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5650#pullrequestreview-1489875057",
       "text": "Tailwinds `FacilityHome.tsx`"
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#4984",
-      "time": "2023-06-21T06:42:07.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/4984",
-      "text": "Replace Material UI components in `src/Components/Patient/SampleTest.tsx`:"
     },
     {
       "type": "issue_closed",
@@ -16961,7 +16980,9 @@
       "time": "2023-06-20T11:49:24.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1390",
       "text": "Updated encryptionPrivateKeyURL in hcx",
-      "collaborated_with": ["vigneshhari"]
+      "collaborated_with": [
+        "vigneshhari"
+      ]
     },
     {
       "type": "comment_created",
@@ -17064,7 +17085,9 @@
       "time": "2023-06-17T03:34:31.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1381",
       "text": "Production Release; June Week 3",
-      "collaborated_with": ["mathew-alex"]
+      "collaborated_with": [
+        "mathew-alex"
+      ]
     },
     {
       "type": "issue_closed",
@@ -17149,7 +17172,9 @@
       "time": "2023-06-15T20:30:46.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1346",
       "text": "Hcx communications",
-      "collaborated_with": ["mathew-alex"]
+      "collaborated_with": [
+        "mathew-alex"
+      ]
     },
     {
       "type": "pr_opened",
@@ -17227,7 +17252,10 @@
       "time": "2023-06-13T10:08:20.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5632",
       "text": "Added cypress test for asset creation",
-      "collaborated_with": ["ShivamJhaa", "nihal467"]
+      "collaborated_with": [
+        "ShivamJhaa",
+        "nihal467"
+      ]
     },
     {
       "type": "issue_closed",
@@ -17242,7 +17270,10 @@
       "time": "2023-06-13T10:07:57.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5543",
       "text": "Changed UI for Live/Discharged Tabs in Patients Page",
-      "collaborated_with": ["GokulramGHV", "nihal467"]
+      "collaborated_with": [
+        "GokulramGHV",
+        "nihal467"
+      ]
     },
     {
       "type": "issue_closed",
@@ -17313,7 +17344,9 @@
       "time": "2023-06-13T09:43:17.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5652",
       "text": "Added `cypress passed` label",
-      "collaborated_with": ["nihal467"]
+      "collaborated_with": [
+        "nihal467"
+      ]
     },
     {
       "type": "comment_created",
@@ -17444,13 +17477,6 @@
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#5003",
-      "time": "2023-06-12T12:21:52.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/5003",
-      "text": "Replace Material UI components in `src/Components/Users/UnlinkSkillDialog.tsx`:"
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#5003",
       "time": "2023-06-12T12:21:51.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/5003",
       "text": "Replace Material UI components in `src/Components/Users/UnlinkSkillDialog.tsx`:"
@@ -17545,7 +17571,10 @@
       "time": "2023-06-07T11:38:30.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5593",
       "text": "Replaced Material UI and legacy form fields in external result update page",
-      "collaborated_with": ["nihal467", "print-Sathvik"]
+      "collaborated_with": [
+        "nihal467",
+        "print-Sathvik"
+      ]
     },
     {
       "type": "issue_closed",
@@ -17658,7 +17687,10 @@
       "time": "2023-06-07T10:03:36.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5574",
       "text": "Displayed current facility, location in asset filter in Assets page",
-      "collaborated_with": ["nihal467", "print-Sathvik"]
+      "collaborated_with": [
+        "nihal467",
+        "print-Sathvik"
+      ]
     },
     {
       "type": "pr_collaborated",
@@ -17666,7 +17698,10 @@
       "time": "2023-06-07T10:01:08.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5570",
       "text": "replaced MUI dialog and related components with DialogModal",
-      "collaborated_with": ["nihal467", "sachdevavaibhav"]
+      "collaborated_with": [
+        "nihal467",
+        "sachdevavaibhav"
+      ]
     },
     {
       "type": "issue_closed",
@@ -17709,7 +17744,9 @@
       "time": "2023-06-04T14:54:32.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5549",
       "text": "Added cypress test for new patient creation",
-      "collaborated_with": ["ShivamJhaa"]
+      "collaborated_with": [
+        "ShivamJhaa"
+      ]
     },
     {
       "type": "issue_closed",
@@ -17786,7 +17823,9 @@
       "time": "2023-05-31T13:29:48.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5519",
       "text": "Fixed moving checkbox background",
-      "collaborated_with": ["nihal467"]
+      "collaborated_with": [
+        "nihal467"
+      ]
     },
     {
       "type": "pr_opened",
@@ -17829,7 +17868,9 @@
       "time": "2023-05-31T07:27:05.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5553",
       "text": "Sachdevavaibhav/issue#4945",
-      "collaborated_with": ["sachdevavaibhav"]
+      "collaborated_with": [
+        "sachdevavaibhav"
+      ]
     },
     {
       "type": "issue_closed",
@@ -17872,7 +17913,9 @@
       "time": "2023-05-30T11:55:05.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5555",
       "text": "fix cursor",
-      "collaborated_with": ["Amanshenoy008"]
+      "collaborated_with": [
+        "Amanshenoy008"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -17901,7 +17944,10 @@
       "time": "2023-05-30T11:19:33.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5558",
       "text": "Removed MUI Components from AddLocationCard",
-      "collaborated_with": ["divyanshkhetan", "nihal467"]
+      "collaborated_with": [
+        "divyanshkhetan",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -17923,7 +17969,9 @@
       "time": "2023-05-30T11:18:58.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5556",
       "text": "Delete reactmui components",
-      "collaborated_with": ["Amanshenoy008"]
+      "collaborated_with": [
+        "Amanshenoy008"
+      ]
     },
     {
       "type": "issue_closed",
@@ -17945,7 +17993,11 @@
       "time": "2023-05-30T11:18:25.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5552",
       "text": "Adds Illustration when no notices available + Replaced Material UI components in NoticeBoard page",
-      "collaborated_with": ["rithviknishad", "nikhilagastya", "nihal467"]
+      "collaborated_with": [
+        "rithviknishad",
+        "nikhilagastya",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -17967,7 +18019,9 @@
       "time": "2023-05-30T11:17:33.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5534",
       "text": "fixed auto collapse the DateFormField after user clicks on a date",
-      "collaborated_with": ["sachdevavaibhav"]
+      "collaborated_with": [
+        "sachdevavaibhav"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -17989,7 +18043,9 @@
       "time": "2023-05-30T11:16:20.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5538",
       "text": "Replace Material UI components in src/Components/ExternalResult/ResultList.tsx: Fixes #4940",
-      "collaborated_with": ["JahnabDutta"]
+      "collaborated_with": [
+        "JahnabDutta"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -18011,7 +18067,10 @@
       "time": "2023-05-30T11:12:51.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5528",
       "text": "Keep search text",
-      "collaborated_with": ["rithviknishad", "MayaSatishRao"]
+      "collaborated_with": [
+        "rithviknishad",
+        "MayaSatishRao"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -18033,7 +18092,10 @@
       "time": "2023-05-30T11:12:04.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5526",
       "text": "Fixed bed type chip allignment in bed select dropdown",
-      "collaborated_with": ["EshaBachuwar", "nihal467"]
+      "collaborated_with": [
+        "EshaBachuwar",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -18055,7 +18117,11 @@
       "time": "2023-05-30T11:11:13.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5525",
       "text": "changed the file name of exported file",
-      "collaborated_with": ["rithviknishad", "nihal467", "MayaSatishRao"]
+      "collaborated_with": [
+        "rithviknishad",
+        "nihal467",
+        "MayaSatishRao"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -18077,7 +18143,10 @@
       "time": "2023-05-30T11:10:38.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5547",
       "text": "Notification message",
-      "collaborated_with": ["nihal467", "MayaSatishRao"]
+      "collaborated_with": [
+        "nihal467",
+        "MayaSatishRao"
+      ]
     },
     {
       "type": "issue_closed",
@@ -18092,7 +18161,10 @@
       "time": "2023-05-30T11:10:15.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5514",
       "text": "Fix: Disable delete bed button if bed is occupied",
-      "collaborated_with": ["Bhavik-ag", "nihal467"]
+      "collaborated_with": [
+        "Bhavik-ag",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -18780,7 +18852,10 @@
       "time": "2023-04-26T14:37:06.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5406",
       "text": "Kanban flow",
-      "collaborated_with": ["gigincg", "nihal467"]
+      "collaborated_with": [
+        "gigincg",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_merged",
@@ -18795,7 +18870,10 @@
       "time": "2023-04-26T14:22:02.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5404",
       "text": "Mark patient as expired only after discharge in shifting",
-      "collaborated_with": ["gigincg", "nihal467"]
+      "collaborated_with": [
+        "gigincg",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -18980,7 +19058,12 @@
       "time": "2023-04-23T18:56:36.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1267",
       "text": "Production Release; Apr Week 4",
-      "collaborated_with": ["rithviknishad", "sainak", "Ashesh3", "vigneshhari"]
+      "collaborated_with": [
+        "rithviknishad",
+        "sainak",
+        "Ashesh3",
+        "vigneshhari"
+      ]
     },
     {
       "type": "pr_merged",
@@ -19009,7 +19092,9 @@
       "time": "2023-04-23T08:49:38.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5323",
       "text": "UI changes to shifting form",
-      "collaborated_with": ["Ashesh3"]
+      "collaborated_with": [
+        "Ashesh3"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -19052,7 +19137,9 @@
       "time": "2023-04-21T14:56:00.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5369",
       "text": "Frontend changes for peacetime shifting",
-      "collaborated_with": ["gigincg"]
+      "collaborated_with": [
+        "gigincg"
+      ]
     },
     {
       "type": "pr_merged",
@@ -19067,7 +19154,10 @@
       "time": "2023-04-21T14:54:55.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5349",
       "text": "Fix 2260",
-      "collaborated_with": ["nihal467", "skks1212"]
+      "collaborated_with": [
+        "nihal467",
+        "skks1212"
+      ]
     },
     {
       "type": "comment_created",
@@ -19556,7 +19646,10 @@
       "time": "2023-04-06T04:10:16.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5233",
       "text": "Refactor 'Description Advice' in ConsultationDetails component",
-      "collaborated_with": ["Ashesh3", "nihal467"]
+      "collaborated_with": [
+        "Ashesh3",
+        "nihal467"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -19662,7 +19755,10 @@
       "time": "2023-04-05T04:20:21.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5164",
       "text": "fix: icon for respiratory support",
-      "collaborated_with": ["cp-Coder", "nihal467"]
+      "collaborated_with": [
+        "cp-Coder",
+        "nihal467"
+      ]
     },
     {
       "type": "comment_created",
@@ -19719,13 +19815,6 @@
       "title": "ohcnetwork/care_fe#5200",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5200#pullrequestreview-1372123617",
       "text": "Fixed Page redirection malfunction issue in the facility cns page"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2023-04-05T04:10:30.000Z",
-      "title": "ohcnetwork/care_fe#5164",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/5164#pullrequestreview-1372122124",
-      "text": "fix: icon for respiratory support"
     },
     {
       "type": "pr_reviewed",
@@ -20354,7 +20443,12 @@
       "time": "2023-03-17T20:05:13.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1220",
       "text": "Production Release; Mar Week 3",
-      "collaborated_with": ["gigincg", "cp-Coder", "mathew-alex", "Ashesh3"]
+      "collaborated_with": [
+        "gigincg",
+        "cp-Coder",
+        "mathew-alex",
+        "Ashesh3"
+      ]
     },
     {
       "type": "pr_merged",
@@ -20390,7 +20484,10 @@
       "time": "2023-03-17T14:43:28.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5108",
       "text": "HCX Integration - Claims Disabled",
-      "collaborated_with": ["mathew-alex", "rithviknishad"]
+      "collaborated_with": [
+        "mathew-alex",
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_merged",
@@ -20405,7 +20502,9 @@
       "time": "2023-03-17T14:42:03.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1219",
       "text": "HCX Integration",
-      "collaborated_with": ["mathew-alex"]
+      "collaborated_with": [
+        "mathew-alex"
+      ]
     },
     {
       "type": "pr_merged",
@@ -20553,7 +20652,9 @@
       "time": "2023-03-14T05:06:31.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/5089",
       "text": "Added red border on select input fields and removed MUI",
-      "collaborated_with": ["Pranshu1902"]
+      "collaborated_with": [
+        "Pranshu1902"
+      ]
     },
     {
       "type": "issue_closed",
@@ -20827,7 +20928,10 @@
       "time": "2023-03-10T21:41:24.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1214",
       "text": "Production Release; Mar Week 2",
-      "collaborated_with": ["GokulramGHV", "Ashesh3"]
+      "collaborated_with": [
+        "GokulramGHV",
+        "Ashesh3"
+      ]
     },
     {
       "type": "issue_closed",
@@ -21525,7 +21629,11 @@
       "time": "2023-02-23T18:20:33.000Z",
       "link": "https://github.com/ohcnetwork/care_hcx/pull/3",
       "text": "Hcx",
-      "collaborated_with": ["rithviknishad", "mathew-alex", "gigincg"]
+      "collaborated_with": [
+        "rithviknishad",
+        "mathew-alex",
+        "gigincg"
+      ]
     },
     {
       "type": "pr_opened",
@@ -21547,7 +21655,9 @@
       "time": "2023-02-23T18:17:13.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1201",
       "text": "Hcx",
-      "collaborated_with": ["mathew-alex"]
+      "collaborated_with": [
+        "mathew-alex"
+      ]
     },
     {
       "type": "pr_opened",
@@ -21816,7 +21926,9 @@
       "time": "2023-02-15T07:40:46.000Z",
       "link": "https://github.com/ohcnetwork/10bedicu/pull/62",
       "text": "Fix Duplicate YouTube Video Placement and Add Support for Multiple Links",
-      "collaborated_with": ["Ashesh3"]
+      "collaborated_with": [
+        "Ashesh3"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -21943,7 +22055,9 @@
       "time": "2023-02-14T05:46:02.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4432",
       "text": "Added a feature take cover Image photos directly from Care",
-      "collaborated_with": ["patelaryan7751"]
+      "collaborated_with": [
+        "patelaryan7751"
+      ]
     },
     {
       "type": "issue_closed",
@@ -22119,7 +22233,9 @@
       "time": "2023-02-08T13:31:50.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4738",
       "text": "Added Total Doctors Count card on Facility home page",
-      "collaborated_with": ["Pranshu1902"]
+      "collaborated_with": [
+        "Pranshu1902"
+      ]
     },
     {
       "type": "issue_closed",
@@ -22495,7 +22611,9 @@
       "time": "2023-02-03T15:50:59.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4691",
       "text": "Localizations for texts in Hub",
-      "collaborated_with": ["Ashesh3"]
+      "collaborated_with": [
+        "Ashesh3"
+      ]
     },
     {
       "type": "issue_closed",
@@ -22524,7 +22642,9 @@
       "time": "2023-02-03T15:08:22.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4689",
       "text": "Localizations for texts in ErrorPages",
-      "collaborated_with": ["Ashesh3"]
+      "collaborated_with": [
+        "Ashesh3"
+      ]
     },
     {
       "type": "issue_closed",
@@ -22567,7 +22687,9 @@
       "time": "2023-02-03T15:01:02.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4595",
       "text": "feat: skills in profile section",
-      "collaborated_with": ["Pragati1610"]
+      "collaborated_with": [
+        "Pragati1610"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -22596,7 +22718,9 @@
       "time": "2023-02-03T09:32:56.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4455",
       "text": "feat: create, retrieve and delete skills of users from users tab",
-      "collaborated_with": ["Pragati1610"]
+      "collaborated_with": [
+        "Pragati1610"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -22825,7 +22949,7 @@
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#4728",
-      "time": "2023-02-03T03:02:37.000Z",
+      "time": "2023-02-03T03:02:33.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/4728",
       "text": "ValidationError: Unable to assign bed"
     },
@@ -22835,13 +22959,6 @@
       "time": "2023-02-03T03:02:36.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/4721",
       "text": "Date Picker in Assign bed dialog is getting clipped"
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#4728",
-      "time": "2023-02-03T03:02:33.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/4728",
-      "text": "ValidationError: Unable to assign bed"
     },
     {
       "type": "pr_reviewed",
@@ -23667,7 +23784,7 @@
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#4494",
-      "time": "2023-01-10T13:18:38.000Z",
+      "time": "2023-01-06T04:52:27.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/4494",
       "text": "Medical History (Comorbidities)"
     },
@@ -23775,7 +23892,9 @@
       "time": "2023-01-10T07:20:35.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4547",
       "text": "Fixed Query Params bug",
-      "collaborated_with": ["skks1212"]
+      "collaborated_with": [
+        "skks1212"
+      ]
     },
     {
       "type": "comment_created",
@@ -23862,7 +23981,9 @@
       "time": "2023-01-07T07:28:54.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4532",
       "text": "Fix Patient List Breadcrumbs",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -23950,13 +24071,6 @@
     },
     {
       "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#4494",
-      "time": "2023-01-06T04:52:27.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/4494",
-      "text": "Medical History (Comorbidities)"
-    },
-    {
-      "type": "issue_closed",
       "title": "ohcnetwork/care_fe#4493",
       "time": "2023-01-06T04:52:27.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/4493",
@@ -23982,7 +24096,10 @@
       "time": "2023-01-06T04:48:25.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4159",
       "text": "Switched to CARE UI components in facility tiles",
-      "collaborated_with": ["rithviknishad", "skks1212"]
+      "collaborated_with": [
+        "rithviknishad",
+        "skks1212"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -24305,7 +24422,9 @@
       "time": "2023-01-04T12:04:07.000Z",
       "link": "https://github.com/ohcnetwork/care_dashboard/pull/74",
       "text": "Production Release; ",
-      "collaborated_with": ["mathew-alex"]
+      "collaborated_with": [
+        "mathew-alex"
+      ]
     },
     {
       "type": "comment_created",
@@ -24424,13 +24543,6 @@
       "title": "ohcnetwork/care_dashboard#61",
       "time": "2023-01-02T10:25:31.000Z",
       "link": "https://github.com/ohcnetwork/care_dashboard/pull/61",
-      "text": "Show all facilities"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2023-01-02T06:40:59.000Z",
-      "title": "ohcnetwork/care_dashboard#61",
-      "link": "https://github.com/ohcnetwork/care_dashboard/pull/61#pullrequestreview-1233523700",
       "text": "Show all facilities"
     },
     {
@@ -24648,13 +24760,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2022-12-28T05:05:19.000Z",
-      "title": "ohcnetwork/care_fe#4304",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/4304#pullrequestreview-1231219727",
-      "text": "Delete asset button"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2022-12-28T05:05:18.000Z",
       "title": "ohcnetwork/care_fe#4304",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4304#pullrequestreview-1231219727",
@@ -24828,7 +24933,11 @@
       "time": "2022-12-25T23:23:06.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1137",
       "text": "Production Release; Dec Week 4",
-      "collaborated_with": ["rithviknishad", "vigneshhari", "Pranshu1902"]
+      "collaborated_with": [
+        "rithviknishad",
+        "vigneshhari",
+        "Pranshu1902"
+      ]
     },
     {
       "type": "comment_created",
@@ -24941,7 +25050,9 @@
       "time": "2022-12-23T06:42:43.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4307",
       "text": "Bump tailwindcss:3.2.4",
-      "collaborated_with": ["Ashesh3"]
+      "collaborated_with": [
+        "Ashesh3"
+      ]
     },
     {
       "type": "comment_created",
@@ -24977,7 +25088,9 @@
       "time": "2022-12-23T06:20:42.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1127",
       "text": "Used facility.middleware_address for asset.meta.middleware_hostname in AssetIntgration",
-      "collaborated_with": ["vigneshhari"]
+      "collaborated_with": [
+        "vigneshhari"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -25153,13 +25266,6 @@
       "title": "ohcnetwork/care_fe#4337",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4337#pullrequestreview-1227595123",
       "text": "Fix (Advanced Filters): made all filter sidebars collapse on clearing filters"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2022-12-22T12:28:52.000Z",
-      "title": "ohcnetwork/care_fe#4377",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/4377#pullrequestreview-1227587760",
-      "text": "Fix (Sidebar): made the sidebar collapse on clicking active links"
     },
     {
       "type": "pr_reviewed",
@@ -25487,7 +25593,9 @@
       "time": "2022-12-18T08:08:58.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4294",
       "text": "Added 11 digit restriction for toll free numbers",
-      "collaborated_with": ["skks1212"]
+      "collaborated_with": [
+        "skks1212"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -25558,7 +25666,9 @@
       "time": "2022-12-17T12:54:11.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4118",
       "text": "fix: Placeholder and autofill credentials overlap in chrome",
-      "collaborated_with": ["Pragati1610"]
+      "collaborated_with": [
+        "Pragati1610"
+      ]
     },
     {
       "type": "issue_closed",
@@ -25587,7 +25697,9 @@
       "time": "2022-12-17T11:23:11.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4295",
       "text": "Made verified by field in consultation required",
-      "collaborated_with": ["skks1212"]
+      "collaborated_with": [
+        "skks1212"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -25784,7 +25896,11 @@
       "time": "2022-12-13T02:26:04.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/4286",
       "text": "Production Release; Dec Week 2",
-      "collaborated_with": ["gigincg", "rithviknishad", "Ashesh3"]
+      "collaborated_with": [
+        "gigincg",
+        "rithviknishad",
+        "Ashesh3"
+      ]
     },
     {
       "type": "pr_merged",
@@ -25893,7 +26009,9 @@
       "time": "2022-12-07T13:16:05.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/3963",
       "text": "feat: added admitted bed type filter",
-      "collaborated_with": ["cp-Coder"]
+      "collaborated_with": [
+        "cp-Coder"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -26579,7 +26697,12 @@
       "time": "2022-11-27T18:34:39.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/1110",
       "text": "Production Release; Nov Week 4",
-      "collaborated_with": ["mathew-alex", "cp-Coder", "gigincg", "vigneshhari"]
+      "collaborated_with": [
+        "mathew-alex",
+        "cp-Coder",
+        "gigincg",
+        "vigneshhari"
+      ]
     },
     {
       "type": "pr_opened",
@@ -26975,13 +27098,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2022-11-17T05:20:38.000Z",
-      "title": "ohcnetwork/care_fe#3819",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3819#pullrequestreview-1183647862",
-      "text": "Redesigned Facility Home Page"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2022-11-17T05:20:37.000Z",
       "title": "ohcnetwork/care_fe#3819",
       "link": "https://github.com/ohcnetwork/care_fe/pull/3819#pullrequestreview-1183647862",
@@ -27000,7 +27116,9 @@
       "time": "2022-11-17T04:26:44.000Z",
       "link": "https://github.com/ohcnetwork/care_dashboard/pull/62",
       "text": "Production Release; Added pipelines for multi env deploy",
-      "collaborated_with": ["mathew-alex"]
+      "collaborated_with": [
+        "mathew-alex"
+      ]
     },
     {
       "type": "pr_merged",
@@ -27015,7 +27133,9 @@
       "time": "2022-11-17T04:21:56.000Z",
       "link": "https://github.com/ohcnetwork/care_dashboard/pull/60",
       "text": "Simplified env for deployment",
-      "collaborated_with": ["mathew-alex"]
+      "collaborated_with": [
+        "mathew-alex"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -27191,7 +27311,9 @@
       "time": "2022-11-16T10:02:32.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/3919",
       "text": "Added addtional labels to stale bot",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_opened",
@@ -27390,7 +27512,9 @@
       "time": "2022-11-09T15:43:04.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/3897",
       "text": "Added Home Facility name beside doctors name while assigning doctor in Consutation Page",
-      "collaborated_with": ["patelaryan7751"]
+      "collaborated_with": [
+        "patelaryan7751"
+      ]
     },
     {
       "type": "issue_closed",
@@ -28039,7 +28163,9 @@
       "time": "2022-10-29T15:30:38.000Z",
       "link": "https://github.com/ohcnetwork/care_dashboard/pull/58",
       "text": "Production Release; dynamic api url",
-      "collaborated_with": ["mathew-alex"]
+      "collaborated_with": [
+        "mathew-alex"
+      ]
     },
     {
       "type": "pr_merged",
@@ -28173,13 +28299,6 @@
       "time": "2022-10-26T13:21:15.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/3801#issuecomment-1292026452",
       "text": "@rithviknishad can you check out the vercel error\r\n"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2022-10-26T12:01:44.000Z",
-      "title": "ohcnetwork/care_fe#3700",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3700#pullrequestreview-1156372695",
-      "text": "Removed unnecessary imports and added checkUsername route for User Creation page "
     },
     {
       "type": "pr_reviewed",
@@ -28334,7 +28453,9 @@
       "time": "2022-10-26T06:06:45.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/3528",
       "text": "feat. facility cover image upload",
-      "collaborated_with": ["rithviknishad"]
+      "collaborated_with": [
+        "rithviknishad"
+      ]
     },
     {
       "type": "issue_closed",
@@ -28553,7 +28674,9 @@
       "time": "2022-10-21T16:14:24.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/3584",
       "text": "Patient Review feature fixes",
-      "collaborated_with": ["Ashesh3"]
+      "collaborated_with": [
+        "Ashesh3"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -28740,7 +28863,7 @@
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#3251",
-      "time": "2022-10-19T04:05:39.000Z",
+      "time": "2022-10-13T05:55:14.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/3251",
       "text": "Update Facility Page : Malfunction"
     },
@@ -28820,7 +28943,9 @@
       "time": "2022-10-17T02:52:28.000Z",
       "link": "https://github.com/ohcnetwork/leaderboard/pull/89",
       "text": "Added badge glow and sparkle.",
-      "collaborated_with": ["skks1212"]
+      "collaborated_with": [
+        "skks1212"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -28896,7 +29021,9 @@
       "time": "2022-10-13T06:21:41.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/3741",
       "text": "Fix patient category selection",
-      "collaborated_with": ["Ashesh3"]
+      "collaborated_with": [
+        "Ashesh3"
+      ]
     },
     {
       "type": "issue_closed",
@@ -28904,13 +29031,6 @@
       "time": "2022-10-13T06:21:42.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/3729",
       "text": "Patient Category Filters for \"Comfort Care\" and \"Slightly Abnormal\" not working."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2022-10-13T06:02:19.000Z",
-      "title": "ohcnetwork/care_fe#3741",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3741#pullrequestreview-1140107958",
-      "text": "Fix patient category selection"
     },
     {
       "type": "pr_reviewed",
@@ -28932,13 +29052,6 @@
       "title": "ohcnetwork/care_fe#3733",
       "link": "https://github.com/ohcnetwork/care_fe/pull/3733#pullrequestreview-1140103824",
       "text": "Fixed: Minor UI change in the asset page"
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#3251",
-      "time": "2022-10-13T05:55:14.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/3251",
-      "text": "Update Facility Page : Malfunction"
     },
     {
       "type": "pr_reviewed",
@@ -29023,7 +29136,9 @@
       "time": "2022-10-12T10:10:37.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/3687",
       "text": "Uniform date/time format across CARE",
-      "collaborated_with": ["GokulramGHV"]
+      "collaborated_with": [
+        "GokulramGHV"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -29185,7 +29300,9 @@
       "time": "2022-10-11T06:48:04.000Z",
       "link": "https://github.com/ohcnetwork/care_dashboard/pull/34",
       "text": "Fixed search issue and pagination issue",
-      "collaborated_with": ["developedBySJ"]
+      "collaborated_with": [
+        "developedBySJ"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -29256,105 +29373,6 @@
       "time": "2022-10-09T20:16:06.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/3736",
       "text": "Production Release; Oct Week 2",
-      "collaborated_with": ["patelaryan7751"]
-    },
-    {
-      "type": "pr_collaborated",
-      "title": "ohcnetwork/care_fe#3736",
-      "time": "2022-10-09T20:16:06.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3736",
-      "text": "Production Release; Oct Week 2",
-      "collaborated_with": ["rithviknishad", "patelaryan7751"]
-    },
-    {
-      "type": "pr_collaborated",
-      "title": "ohcnetwork/care_fe#3736",
-      "time": "2022-10-09T20:16:06.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3736",
-      "text": "Production Release; Oct Week 2",
-      "collaborated_with": ["rithviknishad", "GokulramGHV", "patelaryan7751"]
-    },
-    {
-      "type": "pr_collaborated",
-      "title": "ohcnetwork/care_fe#3736",
-      "time": "2022-10-09T20:16:06.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3736",
-      "text": "Production Release; Oct Week 2",
-      "collaborated_with": [
-        "Ashesh3",
-        "rithviknishad",
-        "GokulramGHV",
-        "patelaryan7751"
-      ]
-    },
-    {
-      "type": "pr_collaborated",
-      "title": "ohcnetwork/care_fe#3736",
-      "time": "2022-10-09T20:16:06.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3736",
-      "text": "Production Release; Oct Week 2",
-      "collaborated_with": [
-        "Ashesh3",
-        "rithviknishad",
-        "Pranshu1902",
-        "GokulramGHV",
-        "patelaryan7751"
-      ]
-    },
-    {
-      "type": "pr_collaborated",
-      "title": "ohcnetwork/care_fe#3736",
-      "time": "2022-10-09T20:16:06.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3736",
-      "text": "Production Release; Oct Week 2",
-      "collaborated_with": [
-        "Pragati1610",
-        "Ashesh3",
-        "rithviknishad",
-        "Pranshu1902",
-        "GokulramGHV",
-        "patelaryan7751"
-      ]
-    },
-    {
-      "type": "pr_collaborated",
-      "title": "ohcnetwork/care_fe#3736",
-      "time": "2022-10-09T20:16:06.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3736",
-      "text": "Production Release; Oct Week 2",
-      "collaborated_with": [
-        "cp-Coder",
-        "rithviknishad",
-        "Pranshu1902",
-        "GokulramGHV",
-        "Pragati1610",
-        "patelaryan7751",
-        "Ashesh3"
-      ]
-    },
-    {
-      "type": "pr_collaborated",
-      "title": "ohcnetwork/care_fe#3736",
-      "time": "2022-10-09T20:16:06.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3736",
-      "text": "Production Release; Oct Week 2",
-      "collaborated_with": [
-        "cp-Coder",
-        "rithviknishad",
-        "Pranshu1902",
-        "GokulramGHV",
-        "Pragati1610",
-        "skks1212",
-        "patelaryan7751",
-        "Ashesh3"
-      ]
-    },
-    {
-      "type": "pr_collaborated",
-      "title": "ohcnetwork/care_fe#3736",
-      "time": "2022-10-09T20:16:06.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3736",
-      "text": "Production Release; Oct Week 2",
       "collaborated_with": [
         "cp-Coder",
         "rithviknishad",
@@ -29387,7 +29405,9 @@
       "time": "2022-10-03T04:50:18.000Z",
       "link": "https://github.com/ohcnetwork/care_dashboard/pull/24",
       "text": "Add Patient Page",
-      "collaborated_with": ["developedBySJ"]
+      "collaborated_with": [
+        "developedBySJ"
+      ]
     },
     {
       "type": "pr_merged",
@@ -29395,33 +29415,6 @@
       "time": "2022-10-03T04:16:56.000Z",
       "link": "https://github.com/ohcnetwork/care_dashboard/pull/23",
       "text": "Added logic for burn rate"
-    },
-    {
-      "type": "pr_collaborated",
-      "title": "ohcnetwork/care_fe#3689",
-      "time": "2022-10-02T16:29:09.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3689",
-      "text": "Production Release; Oct Week 1",
-      "collaborated_with": [
-        "mathew-alex",
-        "Ashesh3",
-        "rithviknishad",
-        "skks1212"
-      ]
-    },
-    {
-      "type": "pr_collaborated",
-      "title": "ohcnetwork/care_fe#3689",
-      "time": "2022-10-02T16:29:09.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3689",
-      "text": "Production Release; Oct Week 1",
-      "collaborated_with": [
-        "mathew-alex",
-        "Ashesh3",
-        "patelaryan7751",
-        "rithviknishad",
-        "skks1212"
-      ]
     },
     {
       "type": "pr_collaborated",
@@ -29640,13 +29633,6 @@
       "time": "2022-08-19T01:56:39.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/3288#issuecomment-1220153616",
       "text": "@developedBySJ can you please rereview this one?"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2022-08-19T01:55:05.000Z",
-      "title": "ohcnetwork/care_fe#3288",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3288#pullrequestreview-1078181455",
-      "text": "Added prn prescription"
     },
     {
       "type": "pr_reviewed",
@@ -30102,13 +30088,6 @@
       "title": "ohcnetwork/care_fe#3278",
       "link": "https://github.com/ohcnetwork/care_fe/pull/3278#pullrequestreview-1065186691",
       "text": "Enhanced UI of profile page"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2022-08-08T13:20:50.000Z",
-      "title": "ohcnetwork/care_fe#3290",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3290#pullrequestreview-1065169312",
-      "text": "Disable volunteer button when patient is discharged"
     },
     {
       "type": "pr_reviewed",
@@ -31649,13 +31628,6 @@
       "title": "ohcnetwork/care_fe#3024",
       "link": "https://github.com/ohcnetwork/care_fe/pull/3024#pullrequestreview-1035242241",
       "text": "Fixed styling issue in inventory page"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2022-07-12T05:46:35.000Z",
-      "title": "ohcnetwork/care_fe#3026",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/3026#pullrequestreview-1035241023",
-      "text": "Added pointer cursor to inventory list item and changed name to inventory manager"
     },
     {
       "type": "pr_reviewed",
@@ -33200,7 +33172,7 @@
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#2509",
-      "time": "2022-06-23T08:02:34.000Z",
+      "time": "2022-06-02T11:22:40.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/2509",
       "text": "Improve facility page for read-only users"
     },
@@ -33850,13 +33822,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2022-06-03T05:42:56.000Z",
-      "title": "ohcnetwork/care_fe#2398",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/2398#pullrequestreview-994459797",
-      "text": "Renamed button from 'Add COVID Suspect/Patient' to 'Add Patient'"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2022-06-03T05:42:18.000Z",
       "title": "ohcnetwork/care_fe#2398",
       "link": "https://github.com/ohcnetwork/care_fe/pull/2398#pullrequestreview-994459797",
@@ -34050,13 +34015,6 @@
       "time": "2022-06-02T11:24:02.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/2435",
       "text": "Revamp User Management UI"
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#2509",
-      "time": "2022-06-02T11:22:40.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/2509",
-      "text": "Improve facility page for read-only users"
     },
     {
       "type": "pr_reviewed",
@@ -36727,34 +36685,6 @@
     },
     {
       "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#7526",
-      "time": "2024-04-03T04:13:43Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7526",
-      "text": "Added github workflow for automated release"
-    },
-    {
-      "type": "pr_merged",
-      "title": "ohcnetwork/care_fe#7526",
-      "time": "2024-04-03T16:19:09Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7526",
-      "text": "Added github workflow for automated release"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#7529",
-      "time": "2024-04-03T10:44:33Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7529",
-      "text": "Staging Release for v24.15.0"
-    },
-    {
-      "type": "pr_merged",
-      "title": "ohcnetwork/care_fe#7529",
-      "time": "2024-04-03T13:18:34Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7529",
-      "text": "Staging Release for v24.15.0"
-    },
-    {
-      "type": "pr_opened",
       "title": "ohcnetwork/leaderboard#84",
       "time": "2022-09-25T03:13:43Z",
       "link": "https://github.com/ohcnetwork/leaderboard/pull/84",
@@ -36892,34 +36822,6 @@
       "time": "2024-02-26T12:02:24Z",
       "link": "https://github.com/ohcnetwork/care/pull/1916",
       "text": "Production Release | February Week 4 2024"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care#2045",
-      "time": "2024-04-03T04:16:21Z",
-      "link": "https://github.com/ohcnetwork/care/pull/2045",
-      "text": "Added github workflow for automated release"
-    },
-    {
-      "type": "pr_merged",
-      "title": "ohcnetwork/care#2045",
-      "time": "2024-04-03T14:17:48Z",
-      "link": "https://github.com/ohcnetwork/care/pull/2045",
-      "text": "Added github workflow for automated release"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care#2046",
-      "time": "2024-04-03T10:45:21Z",
-      "link": "https://github.com/ohcnetwork/care/pull/2046",
-      "text": "Staging Release for v24.15.0"
-    },
-    {
-      "type": "pr_merged",
-      "title": "ohcnetwork/care#2046",
-      "time": "2024-04-03T13:18:28Z",
-      "link": "https://github.com/ohcnetwork/care/pull/2046",
-      "text": "Staging Release for v24.15.0"
     },
     {
       "type": "pr_opened",
@@ -37396,108 +37298,101 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/8340",
       "title": "Abdm V3 Plug Support",
       "stale_for": 0,
-      "labels": ["test failed"]
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8295",
       "title": "Improve Treament Summary Report",
       "stale_for": 0,
-      "labels": ["merge conflict", "stale"]
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/34",
       "title": "[CEP-7]  Proposal for Scheduling in Care",
-      "stale_for": 17,
+      "stale_for": 18,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2313",
-      "title": "Convert ABDM into Plug - Part 2/2",
-      "stale_for": 1,
+      "title": "Convert ABDM into Plug - Part 2/3",
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2312",
-      "title": "Abdm Plug",
-      "stale_for": 1,
+      "title": "Convert ABDM into Plug - Part 3/3",
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8178",
       "title": "Hcx communication",
-      "stale_for": 8,
-      "labels": ["urgent", "test failed", "merge conflict", "reviewed"]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8177",
-      "title": "Enable hcx",
-      "stale_for": 7,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "urgent",
+        "needs testing",
+        "reviewed"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2222",
       "title": "limit user details based on user type",
-      "stale_for": 78,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7817",
-      "title": "Frontend Adjustments for ABDM Plug Conversion",
-      "stale_for": 3,
-      "labels": ["needs review", "tested", "waiting for backend"]
+      "stale_for": 0,
+      "labels": [
+        "waiting-for-review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2161",
-      "title": "Convert ABDM into Plug - Part 1/2",
-      "stale_for": 1,
-      "labels": ["ABDM"]
+      "title": "Convert ABDM into Plug - Part 1/3",
+      "stale_for": 0,
+      "labels": [
+        "ABDM"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 108,
+      "stale_for": 109,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 131,
+      "stale_for": 132,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/1229",
-      "title": "Hcx Refactors",
-      "stale_for": 157,
-      "labels": ["waiting-for-review"]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe_hcx/pull/3",
       "title": "Hcx/eligibility check workflow",
-      "stale_for": 270,
+      "stale_for": 271,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 979,
+      "stale_for": 980,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 985,
+      "stale_for": 986,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 986,
+      "stale_for": 987,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/life/pull/306",
       "title": "filtered duplicate tweets",
-      "stale_for": 1181,
+      "stale_for": 1182,
       "labels": []
     }
   ],
@@ -37545,10 +37440,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/5699",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/5700"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/5518",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/5519"
     }
   ]
 }

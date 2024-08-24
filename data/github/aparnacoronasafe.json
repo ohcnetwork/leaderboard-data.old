@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-08-22T13:19:57.000Z",
+  "last_updated": "2024-08-23T12:00:21.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "coronasafe/care_fe#8397",
+      "time": "2024-08-23T12:00:21.000Z",
+      "link": "https://github.com/coronasafe/care_fe/issues/8397#issuecomment-2306945743",
+      "text": "We can add validation to make sure that systolic pressure is always greater than diastolic pressure\r\n\r\nHowever, Systolic BP can go below 50 in heart attack patients nearing death and other extreme cases. so it is not wise to only allow values above 50. Same with diastolic BP.\r\n\r\nI believe we need to increase the higher ceiling of both systolic and diastolic BP. \r\nA published in 1995 has recorded a maximum blood pressure of 370/360 mmHg.\r\nI recommend we allow values between 0 to 400 for both systolic and diastobil BP\r\n\r\n"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#8080",
@@ -28,34 +35,6 @@
       "time": "2024-08-12T06:28:31.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/3480#issuecomment-2283195719",
       "text": "@nihal467 @gigincg \r\n\r\nThis is not done yet. Reopening the issue"
-    },
-    {
-      "type": "issue_opened",
-      "title": "ohcnetwork/care_fe#8213",
-      "time": "2024-07-24T14:29:07.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/8213",
-      "text": "Events module: Advise"
-    },
-    {
-      "type": "issue_opened",
-      "title": "ohcnetwork/care_fe#8212",
-      "time": "2024-07-24T14:22:58.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/8212",
-      "text": "Events Module: Diagnosis"
-    },
-    {
-      "type": "issue_opened",
-      "title": "ohcnetwork/care_fe#8209",
-      "time": "2024-07-24T09:59:30.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/8209",
-      "text": "Pressure sore : width and height units are missing"
-    },
-    {
-      "type": "issue_opened",
-      "title": "ohcnetwork/care_fe#8208",
-      "time": "2024-07-24T09:45:01.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/8208",
-      "text": "Pain scale- log update"
     },
     {
       "type": "issue_opened",
