@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-08-22T17:29:31.000Z",
+  "last_updated": "2024-08-24T15:44:12.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-24T15:44:12.000Z",
+      "title": "ohcnetwork/care_fe#8394",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8394#pullrequestreview-2258769904",
+      "text": " Improve validation check for phone number in patient list page #8189"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8416",
+      "time": "2024-08-24T13:45:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8416",
+      "text": "Fix TypeError: s.map is not a function in InvestigationBuilder component"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8008",
+      "time": "2024-08-24T13:41:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8008#issuecomment-2308399605",
+      "text": "hi @rithviknishad ,can you  please assign  this issue to me!."
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8404",
@@ -27,7 +48,11 @@
       "time": "2024-08-22T16:53:39.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8381",
       "text": " Hide N/A and null values in event log #8376",
-      "collaborated_with": ["Nithin9585", "nihal467", "rithviknishad"]
+      "collaborated_with": [
+        "Nithin9585",
+        "nihal467",
+        "rithviknishad"
+      ]
     },
     {
       "type": "comment_created",
@@ -46,7 +71,7 @@
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#8394",
-      "time": "2024-08-22T09:54:39.000Z",
+      "time": "2024-08-22T09:54:38Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8394",
       "text": " Improve validation check for phone number in patient list page #8189"
     },
@@ -70,27 +95,31 @@
       "time": "2024-08-22T16:53:38Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8381",
       "text": " Hide N/A and null values in event log #8376"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#8394",
-      "time": "2024-08-22T09:54:38Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8394",
-      "text": " Improve validation check for phone number in patient list page #8189"
     }
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8416",
+      "title": "Fix TypeError: s.map is not a function in InvestigationBuilder component",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8394",
       "title": " Improve validation check for phone number in patient list page #8189",
       "stale_for": 0,
-      "labels": ["changes required"]
+      "labels": [
+        "changes required"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8378",
       "title": " Adds validation for max dosage in PRN prescription #8324",
-      "stale_for": 1,
-      "labels": ["tested", "changes required"]
+      "stale_for": 0,
+      "labels": [
+        "tested",
+        "changes required"
+      ]
     }
   ],
   "authored_issue_and_pr": []

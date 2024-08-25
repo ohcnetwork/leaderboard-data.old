@@ -1,6 +1,43 @@
 {
-  "last_updated": "2024-08-23T15:06:30.000Z",
+  "last_updated": "2024-08-24T15:22:45.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-24T15:22:45.000Z",
+      "title": "ohcnetwork/care#2386",
+      "link": "https://github.com/ohcnetwork/care/pull/2386#pullrequestreview-2258761159",
+      "text": "Update JSON schema validations of Daily Round fields "
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care#2247",
+      "time": "2024-08-24T15:05:19.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2247",
+      "text": "remove deprecated fields that has been migrated to new models (Diagnosis, Symptoms and Prescriptions)",
+      "collaborated_with": [
+        "sainak",
+        "rithviknishad",
+        "vigneshhari"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care#2393",
+      "time": "2024-08-24T08:58:04.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2393",
+      "text": "fix docker builds",
+      "collaborated_with": [
+        "sainak",
+        "vigneshhari"
+      ]
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/teleicu_middleware#142",
+      "time": "2024-08-24T02:31:32.000Z",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/142",
+      "text": "Cleanup unused routes and convert auth response to string"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/docs#39",
@@ -15646,39 +15683,27 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/142",
+      "title": "Cleanup unused routes and convert auth response to string",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/docs/pull/39",
       "title": "Replace coronasafe references",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2394",
-      "title": "Replace coronasafe references",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2393",
-      "title": "fix docker builds",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-6] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 22,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_scribe/pull/9",
-      "title": "Use translation API to generate text for the prompt",
-      "stale_for": 86,
+      "stale_for": 23,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": [
         "blocked",
         "changes required",
@@ -15689,7 +15714,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 100,
+      "stale_for": 101,
       "labels": []
     }
   ],
