@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-08-24T11:33:34.000Z",
+  "last_updated": "2024-08-25T18:22:44.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7458",
+      "time": "2024-08-25T18:22:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7458#issuecomment-2308949525",
+      "text": "@gigincg\r\n\r\n![image](https://github.com/user-attachments/assets/2057e712-3479-4a01-b18d-11bbfa3a0442)\r\nIssue 1 : The new mechanism checks for the file type before making an API call.\r\n\r\nIssue 2: Masking a non valid file as a valid file works, but do we need to implement a check for this? I don't know if it is really required.\r\n\r\nIssue 3: The new component does not have this issue."
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8247",
+      "time": "2024-08-25T14:57:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8247",
+      "text": "Add option to filter users by no home facility",
+      "collaborated_with": [
+        "shivankacker",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#7970",
+      "time": "2024-08-25T14:44:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7970",
+      "text": "Added patient category descriptions for ICU bed patients",
+      "collaborated_with": [
+        "shivankacker",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care#2309",
+      "time": "2024-08-25T07:28:51.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2309",
+      "text": "Show error if doctor is not linked to the consultation facility",
+      "collaborated_with": [
+        "shivankacker",
+        "o",
+        "A",
+        "vigneshhari"
+      ]
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/landing#9",
@@ -10013,7 +10055,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8379",
       "title": "Switched to uploadFile from axios in scribe",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "needs testing",
         "needs review"
@@ -10022,13 +10064,13 @@
     {
       "link": "https://github.com/ohcnetwork/ayushma_fe/pull/200",
       "title": "Production merge",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8369",
       "title": "Add suggestion chips instead of autofilling diagnosis",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs testing",
         "needs review"
@@ -10037,50 +10079,25 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/36",
       "title": "Scribe updates",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/landing/pull/9",
       "title": "Added more supporters and bug fixes",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8247",
-      "title": "Add option to filter users by no home facility",
       "stale_for": 1,
-      "labels": [
-        "needs review",
-        "tested"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2309",
-      "title": "Show error if doctor is not linked to the consultation facility",
-      "stale_for": 11,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/ayushma/pull/519",
       "title": "Production Release: Switch to Milvus, Added GPT-4 support",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7970",
-      "title": "Added patient category descriptions for ICU bed patients",
-      "stale_for": 1,
-      "labels": [
-        "needs review",
-        "tested",
-        "waiting for backend"
-      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/7933",
       "title": "Reenabled discharge patient admitted to filter",
-      "stale_for": 10,
+      "stale_for": 11,
       "labels": [
         "needs review",
         "tested",
@@ -10090,19 +10107,19 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2204",
       "title": "Adds functionality for `last_consultation_admitted_bed_type_list` in discharge patient filters",
-      "stale_for": 25,
+      "stale_for": 26,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "New Consent Restructure Proposal",
-      "stale_for": 87,
+      "stale_for": 88,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/7772",
       "title": "Added facility hubs",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "hold",
         "needs review",
