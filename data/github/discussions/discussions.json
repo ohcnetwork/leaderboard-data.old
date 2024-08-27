@@ -158,5 +158,37 @@
     },
     "participants": [],
     "repository": "care_fe"
+  },
+  {
+    "source": "github",
+    "title": "v24.35.0",
+    "text": "## What's Changed\r\n* Use staging backend for cypress tests if PR base branch is staging by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8362\r\n* Show \"Save and Continue\" for Progress Notes and Doctors Log by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8352\r\n* Fixed rounds type changing for Scribe by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8350\r\n* Modified the fine text in Patient transfer pop-up to match with recent change by @nihal467 in https://github.com/ohcnetwork/care_fe/pull/8344\r\n* Remove unused components and packages by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8339\r\n* Fix Facility Notice functionality by @aSriram199 in https://github.com/ohcnetwork/care_fe/pull/8337\r\n* Modified Cypress test to include bed number selection in consultation test by @nihal467 in https://github.com/ohcnetwork/care_fe/pull/8383\r\n* Fixed word splitting issue by @JOSHIK27 in https://github.com/ohcnetwork/care_fe/pull/8384\r\n* Made General Instructions field in Consultation Form non mandatory by @JOSHIK27 in https://github.com/ohcnetwork/care_fe/pull/8368\r\n* Fixes neurological tab from crashing in older browsers by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8392\r\n* Corrected Spelling mistake of daily rounds fields: ventilator_fi02 to ventilator_fio2 in Frontend #8241 by @SagarSharma2809 in https://github.com/ohcnetwork/care_fe/pull/8268\r\n* Fixes neurological tab from crashing in older browsers by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8393\r\n* Fix Scroll Issue with Pressure Sores Popup by @gigincg in https://github.com/ohcnetwork/care_fe/pull/8400\r\n* Migrate to Headless UI v2 by @khavinshankar in https://github.com/ohcnetwork/care_fe/pull/8260\r\n* Fixes: Issue #8265 Neurological Tables having incorrect vertical heights... by @thevishvammoliya in https://github.com/ohcnetwork/care_fe/pull/8386\r\n* Hide N/A and null values in event log #8376 by @Nithin9585 in https://github.com/ohcnetwork/care_fe/pull/8381\r\n* Update react-pdf; pdfjs worker; Fixes for i18n by @gigincg in https://github.com/ohcnetwork/care_fe/pull/8395\r\n* Enable Facility Cover Image Uploads on Mobile Screens by @gigincg in https://github.com/ohcnetwork/care_fe/pull/8402\r\n* Improve Notes TextArea; Improve i18n by @gigincg in https://github.com/ohcnetwork/care_fe/pull/8396\r\n\r\n## New Contributors\r\n* @SagarSharma2809 made their first contribution in https://github.com/ohcnetwork/care_fe/pull/8268\r\n* @Nithin9585 made their first contribution in https://github.com/ohcnetwork/care_fe/pull/8381\r\n\r\n**Full Changelog**: https://github.com/ohcnetwork/care_fe/compare/v24.34.0...v24.35.0\n\n<hr /><em>This discussion was created from the release <a href='https://github.com/ohcnetwork/care_fe/releases/tag/v24.35.0'>v24.35.0</a>.</em>",
+    "author": "sainak",
+    "link": "https://github.com/orgs/ohcnetwork/discussions/8429",
+    "isAnswered": null,
+    "time": "2024-08-26T17:56:42Z",
+    "updateTime": "2024-08-26T17:56:44Z",
+    "category": {
+      "name": "Announcements",
+      "emoji": "📣"
+    },
+    "participants": [],
+    "repository": "care_fe"
+  },
+  {
+    "source": "github",
+    "title": "v24.35.0",
+    "text": "## What's Changed\r\n* fix s3 client error on gcp by @sainak in https://github.com/ohcnetwork/care/pull/2359\r\n* Fix race condition in consultation creation by @sainak in https://github.com/ohcnetwork/care/pull/2299\r\n* Allows creation of duplicate symptoms if cure date is present by @rithviknishad in https://github.com/ohcnetwork/care/pull/2289\r\n* fix consultation create with bed by @sainak in https://github.com/ohcnetwork/care/pull/2375\r\n* Use new serializer for assets by @sainak in https://github.com/ohcnetwork/care/pull/2380\r\n* Update pre-commit config by @rithviknishad in https://github.com/ohcnetwork/care/pull/2320\r\n* Updated License by @AryanChoudharyy in https://github.com/ohcnetwork/care/pull/2357\r\n* migrating feature field  to array field  by @DraKen0009 in https://github.com/ohcnetwork/care/pull/2223\r\n* Add option to filter users with no home facility by @shivankacker in https://github.com/ohcnetwork/care/pull/2332\r\n* Rename field `ventilator_fi02` to `ventilator_fio2` by @rithviknishad in https://github.com/ohcnetwork/care/pull/2356\r\n* Allow ICD11 diagnoses for chapters that were previously disabled by @rithviknishad in https://github.com/ohcnetwork/care/pull/2350\r\n* Merge migrations by @rithviknishad in https://github.com/ohcnetwork/care/pull/2385\r\n\r\n## New Contributors\r\n* @AryanChoudharyy made their first contribution in https://github.com/ohcnetwork/care/pull/2357\r\n\r\n**Full Changelog**: https://github.com/ohcnetwork/care/compare/v24.34.0...v24.35.0\n\n<hr /><em>This discussion was created from the release <a href='https://github.com/ohcnetwork/care/releases/tag/v24.35.0'>v24.35.0</a>.</em>",
+    "author": "sainak",
+    "link": "https://github.com/ohcnetwork/care/discussions/2402",
+    "isAnswered": null,
+    "time": "2024-08-26T16:12:40Z",
+    "updateTime": "2024-08-26T16:12:42Z",
+    "category": {
+      "name": "Announcements",
+      "emoji": "📣"
+    },
+    "participants": [],
+    "repository": "care"
   }
 ]

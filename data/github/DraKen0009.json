@@ -1,6 +1,57 @@
 {
-  "last_updated": "2024-08-25T10:36:59.000Z",
+  "last_updated": "2024-08-26T16:09:40.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care#2401",
+      "time": "2024-08-26T16:09:40.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2401",
+      "text": "Production release v24.35.0",
+      "collaborated_with": [
+        "rithviknishad",
+        "AryanChoudhary-07",
+        "sainak",
+        "vigneshhari",
+        "DraKen0009",
+        "o",
+        "i",
+        "4",
+        "shivankacker",
+        "gigincg"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-26T11:29:02.000Z",
+      "title": "ohcnetwork/care#2397",
+      "link": "https://github.com/ohcnetwork/care/pull/2397#pullrequestreview-2260453902",
+      "text": " archived spo2 field to archived_spo2"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/docs#44",
+      "time": "2024-08-26T11:21:21.000Z",
+      "link": "https://github.com/ohcnetwork/docs/pull/44",
+      "text": "Update 0008-pdf-generation.md"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/docs#41",
+      "time": "2024-08-26T07:11:21.000Z",
+      "link": "https://github.com/ohcnetwork/docs/pull/41",
+      "text": "[CEP-8] Improving PDF Generation in Care",
+      "collaborated_with": [
+        "DraKen0009",
+        "vigneshhari"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2397",
+      "time": "2024-08-26T07:09:51.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2397#issuecomment-2309495302",
+      "text": "@rithviknishad  Fixed the migrations issue. Please check "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care#2334",
@@ -906,6 +957,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/docs/pull/44",
+      "title": "Update 0008-pdf-generation.md",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2397",
       "title": " archived spo2 field to archived_spo2",
       "stale_for": 0,
@@ -914,19 +971,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2361",
       "title": "added a request time logging middleware",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/docs/pull/28",
-      "title": "Documentation for GSoC Project : Exploring Alternatives for PDF generations",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/1994",
       "title": "updated bed types",
-      "stale_for": 125,
+      "stale_for": 126,
       "labels": [
         "ops-review-pending"
       ]
@@ -934,7 +985,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/1941",
       "title": "Loading medibase and icd11 static json and migrations",
-      "stale_for": 97,
+      "stale_for": 98,
       "labels": [
         "waiting-for-review"
       ]
