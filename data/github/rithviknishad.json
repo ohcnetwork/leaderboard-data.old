@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-08-26T16:09:40.000Z",
+  "last_updated": "2024-08-27T12:09:19.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#510",
+      "time": "2024-08-27T12:09:19.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/510#issuecomment-2312389364",
+      "text": "@vishakh-abhayan Is this still an issue?\r\n\r\nThis was attempted to be resolved in https://github.com/ohcnetwork/leaderboard/pull/493\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8397",
+      "time": "2024-08-27T09:25:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8397#issuecomment-2312010832",
+      "text": "@vigneshhari \r\n\r\nWanted to confirm if it'd be okay to store BP in the JSON column in the following way:\r\n\r\n```py\r\n# Indicates BP was not measured by the client.\r\nbp = None\r\n\r\n# Indicates both sys. and dia. are \"Non-recordable\"\r\nbp = { \r\n  \"systolic\": None,\r\n  \"diastolic\": None,\r\n}\r\n\r\n# Indicates sys was measured with a value and dia was \"Non-recordable\"\r\nbp = { \r\n  \"systolic\": 100,\r\n  \"diastolic\": None,\r\n}\r\n```\r\n\r\ncc: @sainak \r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8397",
+      "time": "2024-08-27T09:18:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8397#issuecomment-2311996284",
+      "text": "@aparnacoronasafe \r\n\r\nDr. @athulmanuel had mentioned the acceptable values for an EMR would be 30-300 mmHg for both systolic and diastolic and had also said that there would be scenarios where systolic or diastolic would be \"non-recordable\" and hence need the option to specify such instances explicitly.\r\n\r\n"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care#2401",
@@ -50142,6 +50163,160 @@
       "text": "Update shivank's profile"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8424",
+      "title": "Update Blood Pressure range; Skip sending mean pressure to backend",
+      "stale_for": 1,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8411",
+      "title": "Fixes unknown option for heartbeat rhythm; adds i18n to vitals section",
+      "stale_for": 4,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2387",
+      "title": "Improved asset bed relations for camera preset",
+      "stale_for": 5,
+      "labels": [
+        "In progress"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2386",
+      "title": "Update JSON schema validations of Daily Round fields ",
+      "stale_for": 0,
+      "labels": [
+        "In progress"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8363",
+      "title": "Navigate to session expired page instead of showing notification",
+      "stale_for": 6,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8253",
+      "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
+      "stale_for": 7,
+      "labels": [
+        "work-in-progress"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2133",
+      "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
+      "stale_for": 1,
+      "labels": [
+        "P2"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/507",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/508"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/505",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/506"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/505",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard-data/pull/60"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8358",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8362"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8338",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2350"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8298",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8316"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8297",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8316"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8287",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8320"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8241",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2356"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8127",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8128"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8121",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8124"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8120",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8125"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/461",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/462"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8085",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8118"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7878",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7879"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7855",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8316"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/455",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/456"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2163",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7752"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7778",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7797"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7712",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7839"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7711",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7752"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7711",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2127"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7693",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2112"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7692",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7694"
+    }
+  ]
 }

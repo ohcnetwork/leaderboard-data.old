@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-08-26T13:22:55.000Z",
+  "last_updated": "2024-08-27T14:53:42.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8397",
+      "time": "2024-08-27T14:53:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8397#issuecomment-2312792288",
+      "text": "We need to keep the range of values more liberal. We can't look at the majority use case and choose to not acknowledge the edge cases. \r\n\r\nWe must keep the range more open.\r\n\r\nThe issue here is the UI component - slider. Athul doc is worried that if the allowed range is too wide, the slider becomes extended where the usable (commonly used) range will be a small section within the slider.\r\n\r\nSo my recommendation is:\r\n\r\n- [ ] We keep the allowed range of input relaxed\r\n- [ ] Reimagine input modality. slider is not very usable. Scroll or any other modality may be considered\r\n- [ ] Athul doc also recommended to add fields for \"modality of measuring BP\" and if, IVBP, then \"site of measurement\"- filing this as separate issue.\r\n\r\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8430",
+      "time": "2024-08-27T07:19:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8430",
+      "text": "Header and footer spacing in summaries"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7772",
+      "time": "2024-08-27T07:10:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7772#issuecomment-2311738267",
+      "text": "> @aparnacoronasafe what is the functional requirement here?\r\n> \r\n> I understand how the linking can be helpful but what will be the feature it powers?\r\n\r\n@bodhish \r\n\r\nGoing ahead I think having these linkages would help streamline user management. Staff at the hubs will be identified in diff departments. The relevant departments must have the right access to the patients in the spokes. This flow will be streamlined once we capture the hub-spoke linkage on CARE accurately. \r\n\r\nThis is the reason we are capturing the hub-spoke relation in the first place. It would be ineffective if we assume that there is always 1 hub for every spoke. \r\n\r\n\r\n"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#8425",
