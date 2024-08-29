@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-08-27T07:51:07.000Z",
+  "last_updated": "2024-08-28T14:16:26.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-28T14:16:26.000Z",
+      "title": "ohcnetwork/care#2361",
+      "link": "https://github.com/ohcnetwork/care/pull/2361#pullrequestreview-2266424642",
+      "text": "added a request time logging middleware"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8437",
+      "time": "2024-08-28T12:45:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8437",
+      "text": "Replace hls player with mss on safari"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-28T09:09:51.000Z",
+      "title": "ohcnetwork/care_deploy_configs#22",
+      "link": "https://github.com/ohcnetwork/care_deploy_configs/pull/22#pullrequestreview-2265650002",
+      "text": "Update CSN references to OHCN"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-08-27T07:51:07.000Z",
@@ -15812,21 +15833,27 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8437",
+      "title": "Replace hls player with mss on safari",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/142",
       "title": "Cleanup unused routes and convert auth response to string",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 13,
+      "stale_for": 14,
       "labels": [
         "blocked",
         "changes required",
@@ -15837,7 +15864,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 104,
+      "stale_for": 105,
       "labels": []
     }
   ],
