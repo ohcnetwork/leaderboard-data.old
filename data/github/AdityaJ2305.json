@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-08-28T10:16:24.000Z",
+  "last_updated": "2024-08-29T05:25:15.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8436",
+      "time": "2024-08-29T05:25:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8436#issuecomment-2316741202",
+      "text": "Hey @khavinshankar as I have gone through BedSelect component in BedSelect.tsx. I noticed it is return empty array for the data we are fetching from backend and I am logging the raw data fetched not any filtered condition applied  so probably it is a backend issue only . Here are screenshots :\r\n\r\n<img width=\"896\" alt=\"Screenshot 2024-08-29 at 10 50 08 AM\" src=\"https://github.com/user-attachments/assets/56c7371e-a9dd-4858-8bf5-af8e707db799\">\r\n\r\n<img width=\"1440\" alt=\"Screenshot 2024-08-29 at 10 50 26 AM\" src=\"https://github.com/user-attachments/assets/c832c3bf-6e26-47e5-b6ce-6d2654c232db\">\r\n"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-08-28T10:16:24.000Z",
@@ -114,6 +121,15 @@
       "text": "Hey @rithviknishad, can you assign this issue to me?"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8417",
+      "title": "Added: Warning for unsupported browsers",
+      "stale_for": 1,
+      "labels": [
+        "Deploy-Failed"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

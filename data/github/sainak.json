@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-08-28T14:16:26.000Z",
+  "last_updated": "2024-08-29T19:34:19.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2412",
+      "time": "2024-08-29T19:34:19.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2412",
+      "text": "fix string representation of prescription and mar"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2411",
+      "time": "2024-08-29T18:42:16.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2411",
+      "text": "add new asset actions and clenup asset_monitor task"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8310",
+      "time": "2024-08-29T13:04:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8310#issuecomment-2317603672",
+      "text": "@swarnendu19 are you working on this?"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-08-28T14:16:26.000Z",
@@ -15833,27 +15854,41 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8437",
-      "title": "Replace hls player with mss on safari",
+      "link": "https://github.com/ohcnetwork/care/pull/2412",
+      "title": "fix string representation of prescription and mar",
       "stale_for": 0,
       "labels": []
     },
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2411",
+      "title": "add new asset actions and clenup asset_monitor task",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8437",
+      "title": "Replace hls player with mss on safari",
+      "stale_for": 0,
+      "labels": [
+        "needs testing"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/142",
       "title": "Cleanup unused routes and convert auth response to string",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 14,
+      "stale_for": 15,
       "labels": [
         "blocked",
         "changes required",
@@ -15864,7 +15899,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 105,
+      "stale_for": 106,
       "labels": []
     }
   ],

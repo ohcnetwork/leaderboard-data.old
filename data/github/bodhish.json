@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-08-27T07:17:46.000Z",
+  "last_updated": "2024-08-29T14:11:30.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8440",
+      "time": "2024-08-29T14:11:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8440#issuecomment-2317792163",
+      "text": "I'm not sure where we have kept the end, but let's keep it at a unified place.\n\nAlso set a sensible default, if the env is not present, the default should be taken "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-29T13:59:13.000Z",
+      "title": "ohcnetwork/care_fe#8440",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8440#pullrequestreview-2268863493",
+      "text": "Adds support for \"Still watching\" prompt to prevent users from idling when watching stream"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2409",
+      "time": "2024-08-29T05:49:57.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2409#issuecomment-2316765847",
+      "text": "@rithviknishad 👆note"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2409",
+      "time": "2024-08-29T05:49:17.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2409#issuecomment-2316765120",
+      "text": "It's intentional; As per OWASP we should do that.\n\n```\nReturn a consistent message for both existent and non-existent accounts.\n\n```\n\nhttps://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#7772",
@@ -3362,8 +3390,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8418",
       "title": "Switch to Nextjs",
-      "stale_for": 2,
-      "labels": []
+      "stale_for": 1,
+      "labels": [
+        "merge conflict"
+      ]
     }
   ],
   "authored_issue_and_pr": [
