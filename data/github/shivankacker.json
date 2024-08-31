@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-08-29T13:47:22.000Z",
+  "last_updated": "2024-08-30T23:58:58.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8425",
+      "time": "2024-08-30T23:58:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8425#issuecomment-2322610883",
+      "text": "@AdityaJ2305 are you logging in using the devdistrictadmin user?\r\n\r\n```\r\nusername: devdistrictadmin\r\npass: Coronasafe@123\r\n```"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-30T23:46:39.000Z",
+      "title": "ohcnetwork/care_fe#8440",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8440#pullrequestreview-2273669674",
+      "text": "Adds support for \"Still watching\" prompt to prevent users from idling when watching stream"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-30T23:40:18.000Z",
+      "title": "ohcnetwork/care_fe#8446",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8446#pullrequestreview-2273662043",
+      "text": "remove fireRequestV2"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8448",
+      "time": "2024-08-30T23:38:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8448",
+      "text": "Fixed icd11 diagnosis multiselect field making unnecessary requests"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8447",
+      "time": "2024-08-30T18:13:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8447",
+      "text": "Opening Advanced Filters on patients page calls the ICD 11 endpoint multiple times"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7772",
+      "time": "2024-08-30T01:03:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7772#issuecomment-2319596420",
+      "text": "@bodhish @aparnacoronasafe should I go ahead with implementing this or is there a blocker?"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-08-29T13:47:22.000Z",
@@ -10101,9 +10143,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8448",
+      "title": "Fixed icd11 diagnosis multiselect field making unnecessary requests",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8419",
       "title": "Fix allowed extensions not working for file input",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "needs testing",
         "needs review"
@@ -10112,7 +10163,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8379",
       "title": "Switched to uploadFile from axios in scribe",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": [
         "needs testing",
         "needs review"
@@ -10121,13 +10172,13 @@
     {
       "link": "https://github.com/ohcnetwork/ayushma_fe/pull/200",
       "title": "Production merge",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8369",
       "title": "Add suggestion chips instead of autofilling diagnosis",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": [
         "needs testing",
         "needs review"
@@ -10136,19 +10187,19 @@
     {
       "link": "https://github.com/ohcnetwork/landing/pull/9",
       "title": "Added more supporters and bug fixes",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/ayushma/pull/519",
       "title": "Production Release: Switch to Milvus, Added GPT-4 support",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/7933",
       "title": "Reenabled discharge patient admitted to filter",
-      "stale_for": 15,
+      "stale_for": 16,
       "labels": [
         "needs review",
         "tested",
@@ -10158,13 +10209,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2204",
       "title": "Adds functionality for `last_consultation_admitted_bed_type_list` in discharge patient filters",
-      "stale_for": 30,
+      "stale_for": 31,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
@@ -10180,7 +10231,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2135",
       "title": "Added Facility Hubs",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     }
   ],

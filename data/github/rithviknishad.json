@@ -1,6 +1,90 @@
 {
-  "last_updated": "2024-08-29T17:46:37.000Z",
+  "last_updated": "2024-08-30T18:14:50.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8447",
+      "time": "2024-08-30T18:14:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8447#issuecomment-2322094800",
+      "text": "Let's also add min char query like we added for Add ICD 11 diagnosis in https://github.com/ohcnetwork/care_fe/pull/8233 and disable `prefetch` there too."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-30T16:30:32.000Z",
+      "title": "ohcnetwork/care_fe#8446",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8446#pullrequestreview-2273006123",
+      "text": "remove fireRequestV2"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-30T15:37:39.000Z",
+      "title": "ohcnetwork/care_fe#8445",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8445#pullrequestreview-2272798655",
+      "text": "Remove proxy and clean up config"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8397",
+      "time": "2024-08-30T14:18:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8397#issuecomment-2321412376",
+      "text": "As discussed, we'll allow 30-270 mmHg (or a more frequently used range) through the slider, however, to input values beyond the range, we'll allow 0-400 mmHg through the numeric input field, and will add descriptive text to indicate \"too low\" or \"too high\" beside in the component.\r\n\r\nAlso would be adding a checkbox for marking either being \"Non-recordable\"\r\n\r\ncc: @aparnacoronasafe "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8444",
+      "time": "2024-08-30T10:41:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8444",
+      "text": "Switch to camelCase for properties in `config.json`"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_deploy_configs#23",
+      "time": "2024-08-30T10:35:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_deploy_configs/pull/23",
+      "text": "Schema: adds `still_watching` config"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8442",
+      "time": "2024-08-30T09:01:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8442#issuecomment-2320562573",
+      "text": "Closing as duplicate of #8443"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-30T09:00:56.000Z",
+      "title": "ohcnetwork/care_fe#8443",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8443#pullrequestreview-2271661533",
+      "text": "Issue 8422"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-30T07:28:02.000Z",
+      "title": "ohcnetwork/care_fe#8437",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8437#pullrequestreview-2271427822",
+      "text": "Replace hls player with mss on safari"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8442",
+      "time": "2024-08-30T06:54:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8442#issuecomment-2320259224",
+      "text": "@Adiflickzzz Please follow contributing guidelines. https://github.com/ohcnetwork/care_fe#contributing-to-care\r\n\r\n- [ ] Needs proper title for the PR\r\n- [ ] Link the issue with a closing keyword in the PR's main comment"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-30T06:52:48.000Z",
+      "title": "ohcnetwork/care_fe#8442",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8442#pullrequestreview-2271347365",
+      "text": "Fixes issue #8366"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-30T04:20:18.000Z",
+      "title": "ohcnetwork/care#2412",
+      "link": "https://github.com/ohcnetwork/care/pull/2412#pullrequestreview-2271122602",
+      "text": "fix string representation of prescription and mar"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard#424",
@@ -50351,6 +50435,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_deploy_configs/pull/23",
+      "title": "Schema: adds `still_watching` config",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2410",
       "title": "Switch investigation default from `dict` to `list` and remove deprecated `prescriptions`",
       "stale_for": 0,
@@ -50360,18 +50450,21 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/8440",
       "title": "Adds support for \"Still watching\" prompt to prevent users from idling when watching stream",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_deploy_configs/pull/22",
       "title": "Update CSN references to OHCN",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8424",
       "title": "Update Blood Pressure range; Skip sending mean pressure to backend",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "merge conflict"
       ]
@@ -50379,7 +50472,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8411",
       "title": "Fixes unknown option for heartbeat rhythm; adds i18n to vitals section",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": [
         "needs testing",
         "needs review"
@@ -50388,7 +50481,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2387",
       "title": "Improved asset bed relations for camera preset",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": [
         "In progress"
       ]
@@ -50396,7 +50489,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2386",
       "title": "Update JSON schema validations of Daily Round fields ",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "In progress"
       ]
@@ -50404,7 +50497,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8363",
       "title": "Navigate to session expired page instead of showing notification",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": [
         "needs testing",
         "needs review"
@@ -50413,7 +50506,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": [
         "work-in-progress"
       ]
@@ -50421,7 +50514,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "P2"
       ]

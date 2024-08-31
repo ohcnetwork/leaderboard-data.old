@@ -1,6 +1,73 @@
 {
-  "last_updated": "2024-08-29T19:34:19.000Z",
+  "last_updated": "2024-08-30T16:03:51.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8446",
+      "time": "2024-08-30T16:03:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8446",
+      "text": "remove fireRequestV2"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2415",
+      "time": "2024-08-30T13:18:33.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2415",
+      "text": "allow cors on localhost dev deployment"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2414",
+      "time": "2024-08-30T11:15:26.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2414",
+      "text": "disable default jwks for production deployments"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-30T10:59:35.000Z",
+      "title": "ohcnetwork/care_deploy_configs#23",
+      "link": "https://github.com/ohcnetwork/care_deploy_configs/pull/23#pullrequestreview-2271942560",
+      "text": "Schema: adds `still_watching` config"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-30T10:59:27.000Z",
+      "title": "ohcnetwork/care_fe#8440",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8440#pullrequestreview-2271942315",
+      "text": "Adds support for \"Still watching\" prompt to prevent users from idling when watching stream"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2413",
+      "time": "2024-08-30T10:08:14.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2413",
+      "text": "use static jwk instead of auto generating on aws"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-30T09:30:27.000Z",
+      "title": "ohcnetwork/care#2410",
+      "link": "https://github.com/ohcnetwork/care/pull/2410#pullrequestreview-2271737629",
+      "text": "Switch investigation default from `dict` to `list` and remove deprecated `prescriptions`"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-30T08:08:02.000Z",
+      "title": "ohcnetwork/teleicu_middleware_backend#1",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware_backend/pull/1#pullrequestreview-2271401348",
+      "text": "Middleware Initial code"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care#2411",
+      "time": "2024-08-30T07:13:11.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2411",
+      "text": "add new asset actions and clenup asset_monitor task",
+      "collaborated_with": [
+        "sainak",
+        "vigneshhari"
+      ]
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2412",
@@ -15854,14 +15921,22 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2412",
-      "title": "fix string representation of prescription and mar",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8446",
+      "title": "remove fireRequestV2",
+      "stale_for": 0,
+      "labels": [
+        "good to merge"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2414",
+      "title": "disable default jwks for production deployments",
       "stale_for": 0,
       "labels": []
     },
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2411",
-      "title": "add new asset actions and clenup asset_monitor task",
+      "link": "https://github.com/ohcnetwork/care/pull/2412",
+      "title": "fix string representation of prescription and mar",
       "stale_for": 0,
       "labels": []
     },
@@ -15874,21 +15949,15 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/142",
-      "title": "Cleanup unused routes and convert auth response to string",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 15,
+      "stale_for": 16,
       "labels": [
         "blocked",
         "changes required",
@@ -15899,7 +15968,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 106,
+      "stale_for": 107,
       "labels": []
     }
   ],

@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-08-29T05:25:15.000Z",
+  "last_updated": "2024-08-30T16:16:36.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8417",
+      "time": "2024-08-30T16:16:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8417#issuecomment-2321827699",
+      "text": "@rithviknishad  Is there any changes to be made ? "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8403",
+      "time": "2024-08-30T16:13:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8403#issuecomment-2321818069",
+      "text": "> > <img alt=\"Screenshot 2024-08-24 at 10 02 31 PM\" width=\"1440\" src=\"https://private-user-images.githubusercontent.com/148325158/361156107-db0ad841-85df-4ff2-927d-bca1f68fc9d1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjUwMzQ1MzUsIm5iZiI6MTcyNTAzNDIzNSwicGF0aCI6Ii8xNDgzMjUxNTgvMzYxMTU2MTA3LWRiMGFkODQxLTg1ZGYtNGZmMi05MjdkLWJjYTFmNjhmYzlkMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgzMFQxNjEwMzVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jNDI0Y2IzMTc0ZTNkZDk0YTA4MjI2N2RkMDViZmEwYzEzZDM1YWY2NjU5ZjExNTUzNzdjYzUxZDY5OWYzOWE3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Ue_sSLXb2xv4tsaGH2FY7k3MARnWl47Y0Zuw_bk1ewc\">\r\n> > Is the CSS for the `BrowserWarning` component okay, or should I adjust it?\r\n> > and Can I put this browserWarning comp in the ErrorPages folder in the component ?\r\n> \r\n> In which browser did you face this issue can u plz say me ..\r\n\r\nYou can change the default browser for testing in the inspect so it will behave like that only . I had changed to opera mini which is unsupported as per browserlist in package.json "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8436",
@@ -125,7 +139,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8417",
       "title": "Added: Warning for unsupported browsers",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "Deploy-Failed"
       ]
