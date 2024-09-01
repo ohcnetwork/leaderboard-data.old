@@ -1,6 +1,97 @@
 {
-  "last_updated": "2024-08-30T18:14:50.000Z",
+  "last_updated": "2024-08-31T16:21:28.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8452",
+      "time": "2024-08-31T16:21:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8452",
+      "text": "Removes Storybook"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8445",
+      "time": "2024-08-31T09:54:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8445#issuecomment-2322847120",
+      "text": "> Should we switch to camelCase?\r\n\r\n@bodhish Raised a PR for the same with base branch as this PR's branch: https://github.com/ohcnetwork/care_fe/pull/8450"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8441",
+      "time": "2024-08-31T09:47:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8441#issuecomment-2322845661",
+      "text": "You can see them in this route:\r\n\r\nhttps://care.ohc.network/facility/0c95c7f0-e1d2-4aff-83fa-933cef60d3a8/patient/7e8fc20f-02da-47f7-8c33-f2d8c7e52dd8/consultation/edfe0bd6-0f50-4a4c-8cd0-2d4ad0e9cea1/investigation/e4759286-99a8-41a6-bc79-8628478b61d0\r\n\r\n```\r\nuser: devdistrictadmin\r\npass: Coronasafe@123\r\n```"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-31T09:46:29.000Z",
+      "title": "ohcnetwork/care_fe#8441",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8441#pullrequestreview-2273798251",
+      "text": "Updated TreatmentSummary component by integrating it with PrintPreview Component #8430"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8450",
+      "time": "2024-08-31T06:48:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8450",
+      "text": "Refactor care config to use camel case and remove `useConfig` hook"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-31T03:17:13.000Z",
+      "title": "ohcnetwork/care_fe#8441",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8441#pullrequestreview-2273734807",
+      "text": "Updated TreatmentSummary component by integrating it with PrintPreview Component #8430"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8194",
+      "time": "2024-08-31T03:10:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8194#issuecomment-2322745635",
+      "text": "Closing as a more accurately described issue has been created #8449"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8194",
+      "time": "2024-08-31T03:10:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8194",
+      "text": "Remove the badge for facility specific discharge patient list page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8271",
+      "time": "2024-08-31T03:09:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8271#issuecomment-2322745537",
+      "text": "Closing as invalid and no activity. A fresh issue has been opened up with clearer details: #8449"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8250",
+      "time": "2024-08-31T03:07:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8250#issuecomment-2322745027",
+      "text": "@smritidoneria Closing this PR as changes in this are invalid and to the associated issue and due to no activity. Feel free to re-open the PR."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-31T02:58:46.000Z",
+      "title": "ohcnetwork/care_fe#8440",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8440#pullrequestreview-2273729669",
+      "text": "Adds support for \"Still watching\" prompt to prevent users from idling when watching stream"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-31T02:21:34.000Z",
+      "title": "ohcnetwork/care_fe#8448",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8448#pullrequestreview-2273725564",
+      "text": "Fixed icd11 diagnosis multiselect field making unnecessary requests"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-31T02:19:58.000Z",
+      "title": "ohcnetwork/care_fe#8448",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8448#pullrequestreview-2273725420",
+      "text": "Fixed icd11 diagnosis multiselect field making unnecessary requests"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8447",
@@ -50435,15 +50526,29 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8452",
+      "title": "Removes Storybook",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8450",
+      "title": "Refactor care config to use camelCase variables and remove `useConfig` hook",
+      "stale_for": 0,
+      "labels": [
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_deploy_configs/pull/23",
       "title": "Schema: adds `still_watching` config",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2410",
       "title": "Switch investigation default from `dict` to `list` and remove deprecated `prescriptions`",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -50458,13 +50563,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_deploy_configs/pull/22",
       "title": "Update CSN references to OHCN",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8424",
       "title": "Update Blood Pressure range; Skip sending mean pressure to backend",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "merge conflict"
       ]
@@ -50472,7 +50577,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8411",
       "title": "Fixes unknown option for heartbeat rhythm; adds i18n to vitals section",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": [
         "needs testing",
         "needs review"
@@ -50481,7 +50586,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2387",
       "title": "Improved asset bed relations for camera preset",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": [
         "In progress"
       ]
@@ -50489,7 +50594,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2386",
       "title": "Update JSON schema validations of Daily Round fields ",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "In progress"
       ]
@@ -50497,7 +50602,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8363",
       "title": "Navigate to session expired page instead of showing notification",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": [
         "needs testing",
         "needs review"
@@ -50506,7 +50611,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 10,
+      "stale_for": 11,
       "labels": [
         "work-in-progress"
       ]
@@ -50514,7 +50619,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": [
         "P2"
       ]

@@ -1,6 +1,41 @@
 {
-  "last_updated": "2024-08-30T23:58:58.000Z",
+  "last_updated": "2024-08-31T22:27:33.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7843",
+      "time": "2024-08-31T22:27:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7843#issuecomment-2323059401",
+      "text": "@nihal467 seems like the issue was resolved with the recent file upload component redo. Closing as completed. Please reopen if you encounter the issue again."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#7843",
+      "time": "2024-08-31T22:27:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7843",
+      "text": "File is not getting reset after upload"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7942",
+      "time": "2024-08-31T22:24:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7942#issuecomment-2323058882",
+      "text": "@aparnacoronasafe in our current system, files that are uploaded from device will be auto filled with the name. The user can change the file name before they upload it. Camera captures and audio captures need to be named manually.\r\n\r\n![image](https://github.com/user-attachments/assets/10fe566a-88a3-4981-a5ec-2d75c997fe86)\r\n\r\nDo you want me to remove the autofill for the name when uploaded from device?\r\n\r\ncc. @gigincg "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-08-31T16:37:40.000Z",
+      "title": "ohcnetwork/care_fe#8452",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8452#pullrequestreview-2273978784",
+      "text": "Removes Storybook"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8449",
+      "time": "2024-08-31T00:05:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8449",
+      "text": "Do not show clear all filters button if there is no filter applied in Discharge patients page"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8425",
@@ -10141,136 +10176,6 @@
       "text": "Fixes issues with local development"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8448",
-      "title": "Fixed icd11 diagnosis multiselect field making unnecessary requests",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8419",
-      "title": "Fix allowed extensions not working for file input",
-      "stale_for": 4,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8379",
-      "title": "Switched to uploadFile from axios in scribe",
-      "stale_for": 9,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/ayushma_fe/pull/200",
-      "title": "Production merge",
-      "stale_for": 8,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8369",
-      "title": "Add suggestion chips instead of autofilling diagnosis",
-      "stale_for": 7,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/landing/pull/9",
-      "title": "Added more supporters and bug fixes",
-      "stale_for": 6,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/ayushma/pull/519",
-      "title": "Production Release: Switch to Milvus, Added GPT-4 support",
-      "stale_for": 8,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7933",
-      "title": "Reenabled discharge patient admitted to filter",
-      "stale_for": 16,
-      "labels": [
-        "needs review",
-        "tested",
-        "waiting for backend"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2204",
-      "title": "Adds functionality for `last_consultation_admitted_bed_type_list` in discharge patient filters",
-      "stale_for": 31,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/docs/pull/26",
-      "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 4,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7772",
-      "title": "Added facility hubs",
-      "stale_for": 0,
-      "labels": [
-        "hold",
-        "needs review",
-        "waiting for backend"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2135",
-      "title": "Added Facility Hubs",
-      "stale_for": 5,
-      "labels": []
-    }
-  ],
-  "authored_issue_and_pr": [
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8351",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8352"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8173",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8174"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7993",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8003"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7887",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8329"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7807",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7808"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care/issues/2142",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/2146"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/446",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/448"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/442",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/443"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care/issues/2004",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/2006"
-    }
-  ]
+  "open_prs": [],
+  "authored_issue_and_pr": []
 }
