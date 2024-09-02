@@ -1,6 +1,31 @@
 {
-  "last_updated": "2024-08-31T16:21:28.000Z",
+  "last_updated": "2024-09-01T07:29:39.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8450",
+      "time": "2024-09-01T07:29:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8450",
+      "text": "Refactor care config to use camelCase variables and remove `useConfig` hook",
+      "collaborated_with": [
+        "sainak",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-01T05:05:37.000Z",
+      "title": "ohcnetwork/care_fe#8441",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8441#pullrequestreview-2274206874",
+      "text": "Updated TreatmentSummary component by integrating it with PrintPreview Component #8430"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-01T05:03:16.000Z",
+      "title": "ohcnetwork/care_fe#8441",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8441#pullrequestreview-2274206653",
+      "text": "Updated TreatmentSummary component by integrating it with PrintPreview Component #8430"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#8452",
@@ -50529,32 +50554,26 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/8452",
       "title": "Removes Storybook",
       "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8450",
-      "title": "Refactor care config to use camelCase variables and remove `useConfig` hook",
-      "stale_for": 0,
       "labels": [
-        "needs review"
+        "good to merge"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_deploy_configs/pull/23",
       "title": "Schema: adds `still_watching` config",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2410",
       "title": "Switch investigation default from `dict` to `list` and remove deprecated `prescriptions`",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8440",
       "title": "Adds support for \"Still watching\" prompt to prevent users from idling when watching stream",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review"
@@ -50563,13 +50582,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_deploy_configs/pull/22",
       "title": "Update CSN references to OHCN",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8424",
       "title": "Update Blood Pressure range; Skip sending mean pressure to backend",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "merge conflict"
       ]
@@ -50577,7 +50596,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8411",
       "title": "Fixes unknown option for heartbeat rhythm; adds i18n to vitals section",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": [
         "needs testing",
         "needs review"
@@ -50586,7 +50605,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2387",
       "title": "Improved asset bed relations for camera preset",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": [
         "In progress"
       ]
@@ -50594,7 +50613,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2386",
       "title": "Update JSON schema validations of Daily Round fields ",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": [
         "In progress"
       ]
@@ -50602,7 +50621,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8363",
       "title": "Navigate to session expired page instead of showing notification",
-      "stale_for": 10,
+      "stale_for": 11,
       "labels": [
         "needs testing",
         "needs review"
@@ -50611,7 +50630,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 11,
+      "stale_for": 12,
       "labels": [
         "work-in-progress"
       ]
@@ -50619,7 +50638,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": [
         "P2"
       ]
