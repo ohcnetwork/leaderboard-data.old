@@ -1,6 +1,212 @@
 {
-  "last_updated": "2024-08-26T16:09:37.000Z",
+  "last_updated": "2024-09-02T18:29:17.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2135",
+      "time": "2024-09-02T18:29:17.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2135#issuecomment-2325184810",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7772",
+      "time": "2024-09-02T18:29:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7772#issuecomment-2325184670",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2410",
+      "time": "2024-09-02T17:49:23.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2410#issuecomment-2325149704",
+      "text": "> @nihal467 could you share more details on what the error is? Unable to replicate.\r\n\r\nthe PR is working well, it just the investigation loading command for docker is not working, but loaded them using some alternative way aakash suggested and the PR is good to be merged"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8440",
+      "time": "2024-09-02T17:39:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8440#issuecomment-2325141228",
+      "text": "@rithviknishad the camera authentication frontend PR is buggy so keep this PR on hold since the camera feed is not working in develop"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8416",
+      "time": "2024-09-02T17:36:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8416#issuecomment-2325139194",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2410",
+      "time": "2024-09-02T17:36:27.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2410#issuecomment-2325139012",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2410",
+      "time": "2024-09-02T17:13:01.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2410#issuecomment-2325118493",
+      "text": "@sainak @vigneshhari the \" docker compose exec backend bash -c \"python manage.py populate_investigations\" \" is not working"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8458",
+      "time": "2024-09-02T16:58:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8458#issuecomment-2325104841",
+      "text": "Functionality looks good, fix the cypress failure"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2222",
+      "time": "2024-09-02T16:58:17.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2222#issuecomment-2325104482",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8390",
+      "time": "2024-09-02T16:41:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8390#issuecomment-2325087403",
+      "text": "@JOSHIK27 \r\n\r\n![image](https://github.com/user-attachments/assets/84932b44-229a-4623-a931-0d506ea8e66c)\r\n\r\n- [ ] When we open an active consultation page, it is throwing not found an error with 404\r\n- [ ] the cypress was failing as well, i re-run it once again, fix it\r\n\r\nCC: @rithviknishad "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8437",
+      "time": "2024-09-02T15:00:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8437#issuecomment-2324939843",
+      "text": "@sainak \r\n![image](https://github.com/user-attachments/assets/4f5195ac-cb5e-424d-b805-81ceb7bbb65b)\r\n\r\n- [ ] feed is not working on safari nor on chrome in iphone"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8363",
+      "time": "2024-09-02T14:39:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8363#issuecomment-2324901447",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8456",
+      "time": "2024-09-02T14:26:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8456#issuecomment-2324877900",
+      "text": "LGTM cypress is expected to be working upon merging backend"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8456",
+      "time": "2024-09-02T14:10:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8456#issuecomment-2324846556",
+      "text": "@khavinshankar \r\n![image](https://github.com/user-attachments/assets/84443bf0-61b9-42a4-9100-a038b0c65740)\r\n\r\n- [ ] rename oxygen bed to Oxygen supported bed"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2417",
+      "time": "2024-09-02T14:08:18.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2417#issuecomment-2324843044",
+      "text": "@khavinshankar \r\n![image](https://github.com/user-attachments/assets/84443bf0-61b9-42a4-9100-a038b0c65740)\r\n\r\n- [ ] rename oxygen bed to Oxygen supported bed"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8295",
+      "time": "2024-09-02T13:51:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8295#issuecomment-2324810381",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8432",
+      "time": "2024-09-02T13:25:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8432#issuecomment-2324758884",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8295",
+      "time": "2024-09-02T13:12:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8295#issuecomment-2324732995",
+      "text": "@khavinshankar \r\n\r\n![image](https://github.com/user-attachments/assets/cd80b4fd-4022-49dd-8a91-0f541bcd313d)\r\n\r\n- [ ] mention the principal diagnosis was unconfirmed, confirmed, etc... as a badge in the report"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8419",
+      "time": "2024-09-02T12:28:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8419",
+      "text": "Fix allowed extensions not working for file input",
+      "collaborated_with": [
+        "shivankacker",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8459",
+      "time": "2024-09-02T12:07:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8459",
+      "text": "Refactoring the cypress workflow"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7772",
+      "time": "2024-09-02T11:11:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7772#issuecomment-2324467986",
+      "text": "@shivankacker \r\n\r\n![image](https://github.com/user-attachments/assets/e6df65ea-47ba-45e1-a169-7b39cd8a6613)\r\n\r\n- [ ] the component is not properly mobile responsive, users are not able to see the input characters in the mobile view\r\n- [ ] add a proper description for the issue, what are the options we are adding, currently i can view only regular and Tele ICU , is that the only option were expected to be added ? add more description on the issue as well as in the PR for review purpose\r\n\r\n![image](https://github.com/user-attachments/assets/cb906b5e-dd4b-4764-a6cf-de1ffc5f0e61)\r\n\r\n\r\n> @skks1212 ![image](https://private-user-images.githubusercontent.com/57055998/330560679-b13bf282-4b0a-49fb-8f13-36c07ec39941.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjUyNzUwNjIsIm5iZiI6MTcyNTI3NDc2MiwicGF0aCI6Ii81NzA1NTk5OC8zMzA1NjA2NzktYjEzYmYyODItNGIwYS00OWZiLThmMTMtMzZjMDdlYzM5OTQxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTAyVDEwNTkyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlYzcxOWIyYzVkOWI2NGU4MjllMWYwMjVkNzc2ZDllYzk3YmJhNDExOGU1NThkOTc0ZTExZTU5MTE3Y2VkM2MmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.DUzEsIbI_Y3VuN2_eypeD86MpXV2rEVc2yPwiOZe6g0)\r\n> \r\n> * [ ]  currently, it is a click and select dropdown, change it the component, where users can type and select from the dropdown the respective facility\r\n> * [ ]  currently, it is not reflected anywhere in the facility details page, we should be reflecting the data somewhere in the details page : take an opinion from @aparnacoronasafe for the UI approval\r\n\r\n- [ ] As mentioned in the Previous comment, we are not at all showing anywhere in the dashboard, how many spokes are linked to a facility , we need a location in the facility details page, where we show these details , can you check with @aparnacoronasafe once on this\r\n\r\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8457",
+      "time": "2024-09-02T10:57:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8457",
+      "text": "Heartbeat description is missing in events log"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8411",
+      "time": "2024-09-02T10:54:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8411#issuecomment-2324434712",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8369",
+      "time": "2024-09-02T10:15:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8369#issuecomment-2324360203",
+      "text": "![image](https://github.com/user-attachments/assets/1479d1a7-e6a0-464d-8234-72c5ef90cba8)\r\n![image](https://github.com/user-attachments/assets/95260fab-8340-44b3-b67b-363fd3897091)\r\n\r\n- [ ] when we click on the suggestion chip of scribe, it entirely refresh the page, and all the scribe related data is vanished\r\n- [ ] modify the PR and issue description, mentioning is the chip clickable or not and what all other functionality are added / removed in the PR\r\n\r\nCC: @gigincg "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8379",
+      "time": "2024-09-02T09:59:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8379#issuecomment-2324326029",
+      "text": "![image](https://github.com/user-attachments/assets/150c2c4d-6b68-4411-94f4-4923e98846db)\r\n\r\nLooks good to me"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8378",
+      "time": "2024-09-02T09:50:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8378",
+      "text": " Adds validation for max dosage in PRN prescription #8324",
+      "collaborated_with": [
+        "Nithin9585",
+        "nihal467",
+        "rithviknishad",
+        "bodhish"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8419",
+      "time": "2024-09-02T09:32:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8419#issuecomment-2324272309",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8448",
+      "time": "2024-09-02T09:05:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8448#issuecomment-2324211269",
+      "text": "LGTM"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8426",
@@ -41525,7 +41731,14 @@
       "text": "Production Release 23.34.1"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8459",
+      "title": "Refactoring the cypress workflow",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8407",

@@ -1,6 +1,84 @@
 {
-  "last_updated": "2024-08-31T22:27:33.000Z",
+  "last_updated": "2024-09-02T17:06:47.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8465",
+      "time": "2024-09-02T17:06:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8465#issuecomment-2325112742",
+      "text": "Oof I see, closing"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8465",
+      "time": "2024-09-02T16:46:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8465",
+      "text": "Fixed vite config not reading env file"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8464",
+      "time": "2024-09-02T16:01:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8464",
+      "text": "Removes auto fill for uploaded file name"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8462",
+      "time": "2024-09-02T15:51:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8462",
+      "text": "Fixed User page Spacing and added translations"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8461",
+      "time": "2024-09-02T14:09:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8461",
+      "text": "Added translations for home page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7772",
+      "time": "2024-09-02T13:10:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7772#issuecomment-2324727451",
+      "text": "@nihal467 I have fixed the responsiveness issue and displayed the spoke relationship on the facility home page after consulting Aparna. \r\nShe says that a spoke can be a hub to other spokes."
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8448",
+      "time": "2024-09-02T12:29:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8448",
+      "text": "Fixed icd11 diagnosis multiselect field making unnecessary requests",
+      "collaborated_with": [
+        "shivankacker",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8419",
+      "time": "2024-09-02T12:28:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8419",
+      "text": "Fix allowed extensions not working for file input",
+      "collaborated_with": [
+        "shivankacker",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8369",
+      "time": "2024-09-02T12:27:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8369#issuecomment-2324639546",
+      "text": "@nihal467 updated, the buttons should be clickable and autofill the diagnosis dropdown"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8377",
+      "time": "2024-09-02T05:58:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8377#issuecomment-2323874656",
+      "text": "@Nithin9585 assigned this to you"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#7843",
@@ -10176,6 +10254,142 @@
       "text": "Fixes issues with local development"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8464",
+      "title": "Removes auto fill for uploaded file name",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8462",
+      "title": "Fixed User page Spacing and added translations",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "translations"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8461",
+      "title": "Added translations for home page",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "translations"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/ayushma_fe/pull/200",
+      "title": "Production merge",
+      "stale_for": 11,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8369",
+      "title": "Add suggestion chips instead of autofilling diagnosis",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/landing/pull/9",
+      "title": "Added more supporters and bug fixes",
+      "stale_for": 9,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/ayushma/pull/519",
+      "title": "Production Release: Switch to Milvus, Added GPT-4 support",
+      "stale_for": 11,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7933",
+      "title": "Reenabled discharge patient admitted to filter",
+      "stale_for": 19,
+      "labels": [
+        "needs review",
+        "tested",
+        "waiting for backend"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2204",
+      "title": "Adds functionality for `last_consultation_admitted_bed_type_list` in discharge patient filters",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/26",
+      "title": "[CEP-X] Consent Restructure Proposal",
+      "stale_for": 7,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7772",
+      "title": "Added facility hubs",
+      "stale_for": 0,
+      "labels": [
+        "tested",
+        "waiting for backend",
+        "reviewed"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2135",
+      "title": "Added Facility Hubs",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8447",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8448"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8351",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8352"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8173",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8174"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7993",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8003"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7887",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8329"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7807",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7808"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2142",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2146"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/446",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/448"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/442",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/443"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2004",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2006"
+    }
+  ]
 }

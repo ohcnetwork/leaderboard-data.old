@@ -1,6 +1,278 @@
 {
-  "last_updated": "2024-09-01T10:59:58.000Z",
+  "last_updated": "2024-09-02T14:07:00.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8406",
+      "time": "2024-09-02T14:07:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8406",
+      "text": "Handle the Unknown option for rhythm in detailed update"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8411",
+      "time": "2024-09-02T14:06:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8411",
+      "text": "Fixes unknown option for heartbeat rhythm; adds i18n to vitals section",
+      "turnaround_time": 898392
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-02T13:43:14.000Z",
+      "title": "ohcnetwork/care_fe#8411",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8411#pullrequestreview-2275701704",
+      "text": "Fixes unknown option for heartbeat rhythm; adds i18n to vitals section"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8410",
+      "time": "2024-09-02T13:41:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8410",
+      "text": "Improve the multi-select component behavior in v2 headless UI"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8432",
+      "time": "2024-09-02T13:41:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8432",
+      "text": "Enable interaction with other components when a dropdown is open",
+      "turnaround_time": 451888
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-02T12:31:15.000Z",
+      "title": "ohcnetwork/care_fe#8411",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8411#pullrequestreview-2275534597",
+      "text": "Fixes unknown option for heartbeat rhythm; adds i18n to vitals section"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8327",
+      "time": "2024-09-02T12:30:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8327",
+      "text": "Replace usage of axios in Scribe"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8379",
+      "time": "2024-09-02T12:30:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8379",
+      "text": "Switched to uploadFile from axios in scribe",
+      "turnaround_time": 1088758
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-02T12:30:06.000Z",
+      "title": "ohcnetwork/care_fe#8379",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8379#pullrequestreview-2275530251",
+      "text": "Switched to uploadFile from axios in scribe"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8447",
+      "time": "2024-09-02T12:29:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8447",
+      "text": "Opening Advanced Filters on patients page calls the ICD 11 endpoint multiple times"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8448",
+      "time": "2024-09-02T12:29:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8448",
+      "text": "Fixed icd11 diagnosis multiselect field making unnecessary requests",
+      "turnaround_time": 219036
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-02T12:28:56.000Z",
+      "title": "ohcnetwork/care_fe#8448",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8448#pullrequestreview-2275526514",
+      "text": "Fixed icd11 diagnosis multiselect field making unnecessary requests"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#7458",
+      "time": "2024-09-02T12:28:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7458",
+      "text": "Multiple issues with validateFileUpload function in src/patient/fileUpload.ts"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8419",
+      "time": "2024-09-02T12:28:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8419",
+      "text": "Fix allowed extensions not working for file input",
+      "turnaround_time": 630286
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-02T12:27:04.000Z",
+      "title": "ohcnetwork/care_fe#8419",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8419#pullrequestreview-2275521011",
+      "text": "Fix allowed extensions not working for file input"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8460",
+      "time": "2024-09-02T12:09:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8460",
+      "text": "Refactor cypress action; separate setup and run"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8458",
+      "time": "2024-09-02T12:00:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8458",
+      "text": "Hide sensitive user data for non admin users"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8295",
+      "time": "2024-09-02T10:52:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8295#issuecomment-2324432272",
+      "text": "@samholics fixed the above issue, can you please check again\r\n\r\ncc: @nihal467 "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8456",
+      "time": "2024-09-02T10:40:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8456",
+      "text": "Cleanup bed types"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2417",
+      "time": "2024-09-02T10:39:51.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2417",
+      "text": "Removed redundant room types in FacilityCapacity"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-02T09:49:41.000Z",
+      "title": "ohcnetwork/care_fe#8378",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8378#pullrequestreview-2250636627",
+      "text": " Adds validation for max dosage in PRN prescription #8324"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8453",
+      "time": "2024-09-02T07:06:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8453",
+      "text": "Fixes PR template tags",
+      "turnaround_time": 11096
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-02T07:06:00.000Z",
+      "title": "ohcnetwork/care_fe#8453",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8453#pullrequestreview-2274833060",
+      "text": "Fixes PR template tags"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_abdm#10",
+      "time": "2024-09-02T06:41:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/10",
+      "text": "Send OTP to the Patient while Discovery Flow"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_abdm#9",
+      "time": "2024-09-02T06:40:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/9",
+      "text": "Implement Scan and Pull"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_abdm#8",
+      "time": "2024-09-02T06:38:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/8",
+      "text": "Implement Scan and Share"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_abdm#7",
+      "time": "2024-09-02T06:31:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/7",
+      "text": "Refresh Patient's X-Token Regularly"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_abdm#6",
+      "time": "2024-09-02T06:28:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/6",
+      "text": "Cleanup Health Information Regularly"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_abdm#5",
+      "time": "2024-09-02T06:25:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/5",
+      "text": "Add a prefix for care context id while linking care contexts"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_abdm#4",
+      "time": "2024-09-02T06:14:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/4",
+      "text": "Track ABDM Transactions"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_abdm#3",
+      "time": "2024-09-02T06:10:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/3",
+      "text": "Health Professional Registry Integration"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_abdm#2",
+      "time": "2024-09-02T06:06:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/2",
+      "text": "Create multiple care context for a single consultation in care"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_abdm#1",
+      "time": "2024-09-02T04:57:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/1",
+      "text": "Send notification to patient through ABDM when thier patient records are edited"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#895",
+      "time": "2024-09-02T04:55:45.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/895#issuecomment-2323813141",
+      "text": "Resolved"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#895",
+      "time": "2024-09-02T04:55:44.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/895",
+      "text": "ABDM Integration"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#1815",
+      "time": "2024-09-02T04:55:13.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1815#issuecomment-2323812693",
+      "text": "Resolved in #1821"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1815",
+      "time": "2024-09-02T04:55:13.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1815",
+      "text": "ABDM: Log the errors instead of sending them as a response"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#6050",
+      "time": "2024-09-02T04:49:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6050#issuecomment-2323807896",
+      "text": "Blocking this issue as not relevant as we are migrating to NextJS"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-09-01T10:59:58.000Z",
@@ -37420,25 +37692,52 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8432",
-      "title": "Enable interaction with other components when a dropdown is open",
-      "stale_for": 3,
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8460",
+      "title": "Refactor cypress action; separate setup and run",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8458",
+      "title": "Hide sensitive user data for non admin users",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "changes required",
+        "cypress failed"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8456",
+      "title": "Cleanup bed types",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "tested",
+        "waiting for backend"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2417",
+      "title": "Removed redundant room types in FacilityCapacity",
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8420",
       "title": "HCX Plug",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review",
-        "waiting for backend"
+        "waiting for backend",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2399",
       "title": "HCX Plug",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     },
     {
@@ -37447,40 +37746,42 @@
       "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review"
+        "needs review",
+        "waiting for backend",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8295",
       "title": "Improve Treament Summary Report",
-      "stale_for": 9,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "tested"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/34",
       "title": "[CEP-7]  Proposal for Scheduling in Care",
-      "stale_for": 27,
+      "stale_for": 28,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2313",
       "title": "Convert ABDM into Plug - Part 2/3",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2312",
       "title": "Convert ABDM into Plug - Part 3/3",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8178",
       "title": "Hcx communication",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": [
         "urgent",
         "needs testing",
@@ -37490,7 +37791,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2222",
       "title": "limit user details based on user type",
-      "stale_for": 9,
+      "stale_for": 0,
       "labels": [
         "waiting-for-review"
       ]
@@ -37498,7 +37799,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2161",
       "title": "Convert ABDM into Plug - Part 1/3",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": [
         "ABDM"
       ]
@@ -37506,37 +37807,37 @@
     {
       "link": "https://github.com/ohcnetwork/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 118,
+      "stale_for": 119,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 141,
+      "stale_for": 142,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 989,
+      "stale_for": 990,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 995,
+      "stale_for": 996,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 996,
+      "stale_for": 997,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/life/pull/306",
       "title": "filtered duplicate tweets",
-      "stale_for": 1191,
+      "stale_for": 1192,
       "labels": []
     }
   ],

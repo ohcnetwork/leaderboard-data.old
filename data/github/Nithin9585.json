@@ -1,6 +1,19 @@
 {
-  "last_updated": "2024-08-26T16:09:37.000Z",
+  "last_updated": "2024-09-02T09:50:19.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8378",
+      "time": "2024-09-02T09:50:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8378",
+      "text": " Adds validation for max dosage in PRN prescription #8324",
+      "collaborated_with": [
+        "Nithin9585",
+        "nihal467",
+        "rithviknishad",
+        "bodhish"
+      ]
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8426",
@@ -129,24 +142,19 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8416",
-      "title": "Fix TypeError: s.map is not a function in InvestigationBuilder component",
-      "stale_for": 2,
-      "labels": []
+      "title": "Removed hacks for loading investigations in Consultation Form, updated type definitions",
+      "stale_for": 0,
+      "labels": [
+        "tested",
+        "waiting for backend",
+        "reviewed"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8394",
       "title": " Improve validation check for phone number in patient list page #8189",
       "stale_for": 0,
       "labels": [
-        "changes required"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8378",
-      "title": " Adds validation for max dosage in PRN prescription #8324",
-      "stale_for": 2,
-      "labels": [
-        "tested",
         "changes required"
       ]
     }
