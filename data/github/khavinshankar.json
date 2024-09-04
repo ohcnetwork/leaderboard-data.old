@@ -1,6 +1,156 @@
 {
-  "last_updated": "2024-09-02T14:07:00.000Z",
+  "last_updated": "2024-09-03T18:58:33.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8445",
+      "time": "2024-09-03T18:58:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8445",
+      "text": "Remove proxy and clean up config",
+      "turnaround_time": 358763
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T18:55:09.000Z",
+      "title": "ohcnetwork/care_fe#8445",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8445#pullrequestreview-2278229456",
+      "text": "Remove proxy and clean up config"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8342",
+      "time": "2024-09-03T18:46:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8342",
+      "text": "Instead of autofilling on scribe, show the top search results for dropdown selections as chips"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8369",
+      "time": "2024-09-03T18:46:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8369",
+      "text": "Add suggestion chips instead of autofilling diagnosis",
+      "turnaround_time": 1217125
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T18:46:17.000Z",
+      "title": "ohcnetwork/care_fe#8369",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8369#pullrequestreview-2278207955",
+      "text": "Add suggestion chips instead of autofilling diagnosis"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T14:42:32.000Z",
+      "title": "ohcnetwork/care_fe#8445",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8445#pullrequestreview-2277586749",
+      "text": "Remove proxy and clean up config"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8340",
+      "time": "2024-09-03T13:39:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8340#issuecomment-2326557472",
+      "text": "> @khavinshankar along with other support, do add the scan and pull feature of ABDM, approving this PR, as the data been fetched successfully from ABDM\r\n\r\nSure, the **Scan and Pull** and the **Scan and Share** are tracked in these issues.\r\n- https://github.com/ohcnetwork/care_abdm/issues/9\r\n- https://github.com/ohcnetwork/care_abdm/issues/8"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8340",
+      "time": "2024-09-03T13:23:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8340#issuecomment-2326517797",
+      "text": "@nihal467 \r\n\r\n> * Aadhar virtual ID,  Abha number & ID based linking in patient registration is not supported\r\n\r\nAadhar virtual ID support is dropped in V3 APIs, and the Abha Number and Abha Address support feature is done from our end, there is some API support issue in ABDM side which will be followed up in a new PR, so that this PR is not blocked.\r\n\r\n> * once the data has been fetched from ABDM, do share the link\r\n\r\nhttps://deploy-preview-8340--care-net.netlify.app/abdm/health-information/b1c93afd-7ac0-4e1f-8dc2-7c0b8171d1b2\r\n\r\n![image](https://github.com/user-attachments/assets/40313286-c239-45a6-8d9e-59de78a08ccb)\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T10:16:47.000Z",
+      "title": "ohcnetwork/care_fe#8440",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8440#pullrequestreview-2277009550",
+      "text": "Adds support for \"Still watching\" prompt to prevent users from idling when watching stream"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8462",
+      "time": "2024-09-03T09:54:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8462",
+      "text": "Fixed User page Spacing and added translations",
+      "turnaround_time": 64809
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8462",
+      "time": "2024-09-03T09:54:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8462",
+      "text": "Fixed User page Spacing and added translations",
+      "collaborated_with": [
+        "shivankacker",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T09:53:30.000Z",
+      "title": "ohcnetwork/care_fe#8369",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8369#pullrequestreview-2276956088",
+      "text": "Add suggestion chips instead of autofilling diagnosis"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T09:39:42.000Z",
+      "title": "ohcnetwork/care_fe#8462",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8462#pullrequestreview-2276925096",
+      "text": "Fixed User page Spacing and added translations"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8461",
+      "time": "2024-09-03T09:38:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8461",
+      "text": "Added translations for home page",
+      "turnaround_time": 68931
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T09:38:08.000Z",
+      "title": "ohcnetwork/care_fe#8461",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8461#pullrequestreview-2276921969",
+      "text": "Added translations for home page"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#7942",
+      "time": "2024-09-03T09:35:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7942",
+      "text": "Enable relevant Dropdowns to select File Names"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8464",
+      "time": "2024-09-03T09:35:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8464",
+      "text": "Removes auto fill for uploaded file name",
+      "turnaround_time": 63181
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T09:34:51.000Z",
+      "title": "ohcnetwork/care_fe#8464",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8464#pullrequestreview-2276914750",
+      "text": "Removes auto fill for uploaded file name"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8363",
+      "time": "2024-09-03T09:33:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8363",
+      "text": "Navigate to session expired page instead of showing notification",
+      "turnaround_time": 1205315
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T09:33:22.000Z",
+      "title": "ohcnetwork/care_fe#8363",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8363#pullrequestreview-2276911526",
+      "text": "Navigate to session expired page instead of showing notification"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#8406",
@@ -37695,7 +37845,9 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/8460",
       "title": "Refactor cypress action; separate setup and run",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "merge conflict"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8458",
@@ -37704,6 +37856,7 @@
       "labels": [
         "needs review",
         "changes required",
+        "merge conflict",
         "cypress failed"
       ]
     },
@@ -37714,19 +37867,20 @@
       "labels": [
         "needs review",
         "tested",
-        "waiting for backend"
+        "waiting for backend",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2417",
       "title": "Removed redundant room types in FacilityCapacity",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8420",
       "title": "HCX Plug",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review",
@@ -37737,7 +37891,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2399",
       "title": "HCX Plug",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     },
     {
@@ -37745,46 +37899,38 @@
       "title": "Abdm V3 Plug Support",
       "stale_for": 0,
       "labels": [
-        "needs testing",
         "needs review",
+        "tested",
         "waiting for backend",
         "merge conflict"
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8295",
-      "title": "Improve Treament Summary Report",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/docs/pull/34",
       "title": "[CEP-7]  Proposal for Scheduling in Care",
-      "stale_for": 28,
+      "stale_for": 29,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2313",
       "title": "Convert ABDM into Plug - Part 2/3",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2312",
       "title": "Convert ABDM into Plug - Part 3/3",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8178",
       "title": "Hcx communication",
-      "stale_for": 10,
+      "stale_for": 0,
       "labels": [
         "urgent",
         "needs testing",
+        "merge conflict",
         "reviewed"
       ]
     },
@@ -37799,7 +37945,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2161",
       "title": "Convert ABDM into Plug - Part 1/3",
-      "stale_for": 6,
+      "stale_for": 0,
       "labels": [
         "ABDM"
       ]
@@ -37807,37 +37953,37 @@
     {
       "link": "https://github.com/ohcnetwork/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 119,
+      "stale_for": 120,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 142,
+      "stale_for": 143,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 990,
+      "stale_for": 991,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 996,
+      "stale_for": 997,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 997,
+      "stale_for": 998,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/life/pull/306",
       "title": "filtered duplicate tweets",
-      "stale_for": 1192,
+      "stale_for": 1193,
       "labels": []
     }
   ],

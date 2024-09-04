@@ -1,6 +1,103 @@
 {
-  "last_updated": "2024-09-02T12:21:19.000Z",
+  "last_updated": "2024-09-03T19:26:45.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T19:26:45.000Z",
+      "title": "ohcnetwork/care_fe#8440",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8440#pullrequestreview-2278297858",
+      "text": "Adds support for \"Still watching\" prompt to prevent users from idling when watching stream"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8445",
+      "time": "2024-09-03T18:58:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8445",
+      "text": "Remove proxy and clean up config",
+      "collaborated_with": [
+        "bodhish",
+        "sainak",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8460",
+      "time": "2024-09-03T18:04:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8460#issuecomment-2327123371",
+      "text": "@khavinshankar any idea why the tests are timing out?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T18:03:40.000Z",
+      "title": "ohcnetwork/care_fe#8460",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8460#pullrequestreview-2278121210",
+      "text": "Refactor cypress action; separate setup and run"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T18:02:03.000Z",
+      "title": "ohcnetwork/care_fe#8445",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8445#pullrequestreview-2278115200",
+      "text": "Remove proxy and clean up config"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T17:59:30.000Z",
+      "title": "ohcnetwork/care_fe#8445",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8445#pullrequestreview-2278113514",
+      "text": "Remove proxy and clean up config"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T17:59:07.000Z",
+      "title": "ohcnetwork/care_fe#8445",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8445#pullrequestreview-2278112696",
+      "text": "Remove proxy and clean up config"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8445",
+      "time": "2024-09-03T17:52:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8445#issuecomment-2327104312",
+      "text": "> * [ ]  Add i18n for kasp string if it differs for each language\r\n\r\n@khavinshankar The KASP string is a tricky variable, this was added for the covid times, it more like a state run insurance provider, since we have a better way to capture insurance now, we would phase out the KASP variable. So lets not support internationalisation for that for now. "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T17:49:43.000Z",
+      "title": "ohcnetwork/care_fe#8445",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8445#pullrequestreview-2278095113",
+      "text": "Remove proxy and clean up config"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T17:49:07.000Z",
+      "title": "ohcnetwork/care_fe#8445",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8445#pullrequestreview-2278094015",
+      "text": "Remove proxy and clean up config"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8060",
+      "time": "2024-09-03T05:39:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8060",
+      "text": "Improving \"Treatment summary\""
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8295",
+      "time": "2024-09-03T05:39:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8295",
+      "text": "Improve Treament Summary Report",
+      "turnaround_time": 1868358
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T05:39:50.000Z",
+      "title": "ohcnetwork/care_fe#8295",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8295#pullrequestreview-2276444351",
+      "text": "Improve Treament Summary Report"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8388",
@@ -3488,15 +3585,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8445",
-      "title": "Remove proxy and clean up config",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8418",
       "title": "Switch to Nextjs",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": [
         "merge conflict"
       ]

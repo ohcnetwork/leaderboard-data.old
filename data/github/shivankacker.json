@@ -1,6 +1,80 @@
 {
-  "last_updated": "2024-09-02T17:06:47.000Z",
+  "last_updated": "2024-09-03T16:40:45.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T16:40:45.000Z",
+      "title": "ohcnetwork/care_fe#8369",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8369#pullrequestreview-2277964333",
+      "text": "Add suggestion chips instead of autofilling diagnosis"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T16:22:51.000Z",
+      "title": "ohcnetwork/care_fe#8369",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8369#pullrequestreview-2277921967",
+      "text": "Add suggestion chips instead of autofilling diagnosis"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-03T14:21:23.000Z",
+      "title": "ohcnetwork/care_fe#8440",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8440#pullrequestreview-2277603639",
+      "text": "Adds support for \"Still watching\" prompt to prevent users from idling when watching stream"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8469",
+      "time": "2024-09-03T11:17:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8469",
+      "text": "Made Scribe be aware of existing data"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_scribe#12",
+      "time": "2024-09-03T11:10:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
+      "text": "Added scribe context"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8462",
+      "time": "2024-09-03T09:54:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8462",
+      "text": "Fixed User page Spacing and added translations",
+      "collaborated_with": [
+        "shivankacker",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8461",
+      "time": "2024-09-03T09:38:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8461",
+      "text": "Added translations for home page",
+      "collaborated_with": [
+        "shivankacker",
+        "nihal467",
+        "o",
+        "i",
+        "A"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8369",
+      "time": "2024-09-03T08:15:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8369#issuecomment-2325880425",
+      "text": "@nihal467 understood, reverted the change"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8369",
+      "time": "2024-09-03T07:54:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8369#issuecomment-2325840063",
+      "text": "@nihal467 The bug with chip click has been fixed. \r\n\r\nI did not hide already entered diagnoses as the Diagnosis dropdown also does not hide it, and it will throw the \"Diagnosis already entered error\" as well. Anyways I have hid it with the latest commit. But this might be a little confusing for a user who previously marked the diagnosis as entered in error and wishes to add it again. (Just an edge case) "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8465",
@@ -10256,65 +10330,42 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8464",
-      "title": "Removes auto fill for uploaded file name",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8469",
+      "title": "Made Scribe be aware of existing data",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "waiting for more data",
+        "merge conflict"
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8462",
-      "title": "Fixed User page Spacing and added translations",
+      "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
+      "title": "Added scribe context",
       "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review",
-        "translations"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8461",
-      "title": "Added translations for home page",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review",
-        "translations"
-      ]
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/ayushma_fe/pull/200",
       "title": "Production merge",
-      "stale_for": 11,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8369",
-      "title": "Add suggestion chips instead of autofilling diagnosis",
       "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/landing/pull/9",
       "title": "Added more supporters and bug fixes",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/ayushma/pull/519",
       "title": "Production Release: Switch to Milvus, Added GPT-4 support",
-      "stale_for": 11,
+      "stale_for": 12,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/7933",
       "title": "Reenabled discharge patient admitted to filter",
-      "stale_for": 19,
+      "stale_for": 20,
       "labels": [
         "needs review",
         "tested",
@@ -10324,13 +10375,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2204",
       "title": "Adds functionality for `last_consultation_admitted_bed_type_list` in discharge patient filters",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": []
     },
     {
@@ -10340,13 +10391,14 @@
       "labels": [
         "tested",
         "waiting for backend",
+        "merge conflict",
         "reviewed"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2135",
       "title": "Added Facility Hubs",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],
@@ -10358,6 +10410,10 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8351",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8352"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8342",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8369"
     },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8173",
