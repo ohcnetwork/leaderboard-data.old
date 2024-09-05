@@ -1,6 +1,176 @@
 {
-  "last_updated": "2024-09-03T18:58:33.000Z",
+  "last_updated": "2024-09-04T16:05:33.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2424",
+      "time": "2024-09-04T16:05:33.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2424",
+      "text": "allow hostnames to be configured as regex for cors headers"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-04T15:14:25.000Z",
+      "title": "ohcnetwork/leaderboard#512",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/512#pullrequestreview-2280537528",
+      "text": "Fixes #503; Correct event owner for `pr_merged` events"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care#2423",
+      "time": "2024-09-04T14:10:51.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2423",
+      "text": "Update the unique bed name constraint to ignore deleted beds"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-04T12:43:08.000Z",
+      "title": "ohcnetwork/care_fe#8445",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8445#pullrequestreview-2280062077",
+      "text": "Remove proxy and clean up config"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8472",
+      "time": "2024-09-04T11:59:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8472#issuecomment-2328774681",
+      "text": "Resolved by building images at deploy time"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8472",
+      "time": "2024-09-04T11:59:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8472",
+      "text": "Staging deployment is failing to connect with the backend"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8473",
+      "time": "2024-09-04T11:58:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8473",
+      "text": "Environment variables are not working in docker deployments"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8473",
+      "time": "2024-09-04T11:58:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8473#issuecomment-2328770553",
+      "text": ">Do we need docker images going forward? Can't we build and serve ?\r\n\r\nI switched to building images specific to deployments.\r\nbut as @vigneshhari pointed out, we can serve the static files from s3"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8474",
+      "time": "2024-09-04T09:16:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8474#issuecomment-2328340419",
+      "text": "https://github.com/ohcnetwork/care_fe/pull/8437"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8474",
+      "time": "2024-09-04T09:16:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8474",
+      "text": "Replace hls player with mss on safari"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8472",
+      "time": "2024-09-04T09:09:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8472#issuecomment-2328323822",
+      "text": "blocked by https://github.com/ohcnetwork/care_fe/issues/8473"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8473",
+      "time": "2024-09-04T09:09:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8473#issuecomment-2328323251",
+      "text": "cc: @bodhish @gigincg "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8473",
+      "time": "2024-09-04T09:08:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8473",
+      "text": "Environment variables are not working in docker deployments"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8472",
+      "time": "2024-09-04T09:05:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8472",
+      "text": "Staging deployment is failing to connect with the backend"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8471",
+      "time": "2024-09-04T09:04:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8471",
+      "text": "Use a common bucket on DigitalOcean"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8471",
+      "time": "2024-09-04T09:04:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8471",
+      "text": "Use a common bucket on DigitalOcean"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2214",
+      "time": "2024-09-04T08:50:42.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2214#issuecomment-2328283244",
+      "text": "resolved in https://github.com/ohcnetwork/care/pull/2247"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2214",
+      "time": "2024-09-04T08:50:41.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2214",
+      "text": "Remove `deprecated_symptoms`"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8468",
+      "time": "2024-09-04T05:52:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8468",
+      "text": "Merge Develop To Staging v24.36.0",
+      "collaborated_with": [
+        "sainak",
+        "sunny-thakurwar",
+        "o",
+        "i",
+        "A",
+        "rithviknishad",
+        "shivankacker",
+        "nihal467",
+        "aSriram199",
+        "JOSHIK27",
+        "h",
+        "Nithin9585",
+        "khavinshankar",
+        "bodhish"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care#2420",
+      "time": "2024-09-04T05:51:45.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2420",
+      "text": "Merge Develop To Staging v24.36.0",
+      "collaborated_with": [
+        "vigneshhari",
+        "sainak",
+        "o",
+        "i",
+        "4",
+        "shivankacker",
+        "U",
+        "DraKen0009",
+        "A",
+        "rithviknishad",
+        "7",
+        "dhruv-goyal-10"
+      ]
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8445",
@@ -16058,21 +16228,27 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2424",
+      "title": "allow hostnames to be configured as regex for cors headers",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2414",
       "title": "disable default jwks for production deployments",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2412",
       "title": "fix string representation of prescription and mar",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8437",
       "title": "Replace hls player with mss on safari",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "test failed"
       ]
@@ -16080,13 +16256,13 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 20,
+      "stale_for": 21,
       "labels": [
         "blocked",
         "changes required",
@@ -16097,7 +16273,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 111,
+      "stale_for": 112,
       "labels": []
     }
   ],
@@ -16153,18 +16329,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care/issues/1681",
       "pr_link": "https://github.com/ohcnetwork/care/pull/1682"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care/issues/1658",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/1788"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care/issues/1645",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/1646"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care/issues/1627",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/1628"
     }
   ]
 }
