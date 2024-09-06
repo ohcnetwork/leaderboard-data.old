@@ -1,6 +1,135 @@
 {
-  "last_updated": "2024-09-04T18:12:59.000Z",
+  "last_updated": "2024-09-05T17:54:38.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7656",
+      "time": "2024-09-05T17:54:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7656#issuecomment-2332324716",
+      "text": "Closing as duplicate of #8492\r\n\r\ncc: @aparnacoronasafe "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#7656",
+      "time": "2024-09-05T17:54:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7656",
+      "text": "Attribution to Doctor- when nurse edits prescription"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care#2426",
+      "time": "2024-09-05T17:51:50.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2426",
+      "text": "Add field `prescribed_by_doctor` for Prescriptions"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-05T15:59:49.000Z",
+      "title": "ohcnetwork/care_fe#8477",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8477#pullrequestreview-2283499011",
+      "text": "Procedures: consultation #8366"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8494",
+      "time": "2024-09-05T14:16:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8494",
+      "text": "Merge Develop to Staging v24.36.0",
+      "collaborated_with": [
+        "nihal467",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8493",
+      "time": "2024-09-05T13:52:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8493",
+      "text": "Removes symptoms onset date range filter from patient filters",
+      "turnaround_time": 2688
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8493",
+      "time": "2024-09-05T13:07:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8493",
+      "text": "Removes symptoms onset date range filter from patient filters"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8481",
+      "time": "2024-09-05T12:28:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8481",
+      "text": "Fixed the add location button positioning in desktop view",
+      "collaborated_with": [
+        "nihal467",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8490",
+      "time": "2024-09-05T12:21:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8490",
+      "text": "Fixes state admin unable to to switch back to live patients tab from discharged tab",
+      "turnaround_time": 13930
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8490",
+      "time": "2024-09-05T08:29:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8490",
+      "text": "Fixes state admin unable to to switch back to live patients tab from discharged tab"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-05T06:48:23.000Z",
+      "title": "ohcnetwork/care_fe#8441",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8441#pullrequestreview-2281996923",
+      "text": "Updated TreatmentSummary component by integrating it with PrintPreview Component #8430"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8480",
+      "time": "2024-09-05T06:35:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8480#issuecomment-2330713632",
+      "text": "@Jacobjeevan \r\n\r\nLet's clear the browser cache using vary header method mentioned in this https://www.fastly.com/blog/clearing-cache-browser. We can perform the cache invalidation once the cover image upload has been completed. This would ensure the latest image is rendered.\r\n\r\ncc: @sainak \r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8436",
+      "time": "2024-09-05T06:32:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8436#issuecomment-2330708699",
+      "text": "@Sulochan-khadka @AdityaJ2305 this was due to a race condition that was reproducible in an older version. However likely that the duplicate ConsultationBed records that were created on those days were not cleared.\r\n\r\n@khavinshankar we can close this issue right?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8336",
+      "time": "2024-09-05T04:56:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8336#issuecomment-2330596588",
+      "text": "Closing due to inactivity and completed in #8487"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8323",
+      "time": "2024-09-05T04:55:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8323#issuecomment-2330595927",
+      "text": "@ayushpatil2122 Unassigning due to inactivity"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8487",
+      "time": "2024-09-05T04:55:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8487",
+      "text": "Adds support for 🔍 Zoom In & Out for 🖨️ Print Preview component"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-05T03:54:00.000Z",
+      "title": "ohcnetwork/care_fe#8441",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8441#pullrequestreview-2281796371",
+      "text": "Updated TreatmentSummary component by integrating it with PrintPreview Component #8430"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-09-04T18:12:59.000Z",
@@ -50963,23 +51092,33 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8487",
+      "title": "Adds support for 🔍 Zoom In & Out for 🖨️ Print Preview component",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2410",
       "title": "Switch investigation default from `dict` to `list` and remove deprecated `prescriptions`",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8424",
       "title": "Update Blood Pressure range; Skip sending mean pressure to backend",
-      "stale_for": 7,
+      "stale_for": 0,
       "labels": [
-        "merge conflict"
+        "merge conflict",
+        "stale"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2387",
       "title": "Improved asset bed relations for camera preset",
-      "stale_for": 13,
+      "stale_for": 14,
       "labels": [
         "In progress"
       ]
@@ -50987,7 +51126,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2386",
       "title": "Update JSON schema validations of Daily Round fields ",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": [
         "In progress"
       ]
@@ -50995,7 +51134,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 15,
+      "stale_for": 16,
       "labels": [
         "work-in-progress"
       ]
@@ -51003,7 +51142,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": [
         "P2"
       ]

@@ -1,6 +1,29 @@
 {
-  "last_updated": "2024-09-04T16:05:33.000Z",
+  "last_updated": "2024-09-05T10:27:44.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2425",
+      "time": "2024-09-05T10:27:44.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2425",
+      "text": "fix cors regex pattern",
+      "turnaround_time": 1318
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2425",
+      "time": "2024-09-05T10:05:47.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2425",
+      "text": "fix cors regex pattern"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2424",
+      "time": "2024-09-05T08:44:36.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2424",
+      "text": "allow hostnames to be configured as regex for cors headers",
+      "turnaround_time": 59793
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2424",
@@ -16228,27 +16251,21 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2424",
-      "title": "allow hostnames to be configured as regex for cors headers",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care/pull/2414",
       "title": "disable default jwks for production deployments",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2412",
       "title": "fix string representation of prescription and mar",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8437",
       "title": "Replace hls player with mss on safari",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "test failed"
       ]
@@ -16256,13 +16273,13 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 21,
+      "stale_for": 22,
       "labels": [
         "blocked",
         "changes required",
@@ -16273,7 +16290,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 112,
+      "stale_for": 113,
       "labels": []
     }
   ],

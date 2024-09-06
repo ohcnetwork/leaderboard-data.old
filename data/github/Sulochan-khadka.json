@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-09-04T18:09:31.000Z",
+  "last_updated": "2024-09-05T15:03:37.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-05T15:03:37.000Z",
+      "title": "ohcnetwork/care_fe#8477",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8477#pullrequestreview-2283352210",
+      "text": "Procedures: consultation #8366"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8436",
+      "time": "2024-09-05T05:59:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8436#issuecomment-2330666127",
+      "text": "Steps to reproduce and the expected behaviour would really help in understanding the issue better.\n\nKindly mention if possible."
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-09-04T18:09:31.000Z",
@@ -1187,12 +1201,15 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/8477",
       "title": "Procedures: consultation #8366",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8466",
       "title": "Remove clear all filters when no filters are applied.",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing"
       ]
