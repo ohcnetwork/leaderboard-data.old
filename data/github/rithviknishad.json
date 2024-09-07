@@ -1,6 +1,125 @@
 {
-  "last_updated": "2024-09-05T17:54:38.000Z",
+  "last_updated": "2024-09-06T18:27:19.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8441",
+      "time": "2024-09-06T18:27:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8441#issuecomment-2334603280",
+      "text": "@Zeshanxviii lint checks are failing. could you resolve them. ensure pre-commit hook is working locally and prettier code formatter is used."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-06T18:23:19.000Z",
+      "title": "ohcnetwork/care_fe#8441",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8441#pullrequestreview-2286919819",
+      "text": "Updated TreatmentSummary component by integrating it with PrintPreview Component #8430"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard#513",
+      "time": "2024-09-06T16:47:32.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/513",
+      "text": "support for edge runtime (cloudflare compatability)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-06T15:28:43.000Z",
+      "title": "ohcnetwork/care_fe#8441",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8441#pullrequestreview-2286560537",
+      "text": "Updated TreatmentSummary component by integrating it with PrintPreview Component #8430"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-06T15:27:52.000Z",
+      "title": "ohcnetwork/care_fe#8441",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8441#pullrequestreview-2286559261",
+      "text": "Updated TreatmentSummary component by integrating it with PrintPreview Component #8430"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8498",
+      "time": "2024-09-06T13:39:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8498",
+      "text": "Added support to have optionally restrictive range for RangeFormField's slider"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-06T10:12:34.000Z",
+      "title": "ohcnetwork/care#2427",
+      "link": "https://github.com/ohcnetwork/care/pull/2427#pullrequestreview-2285811664",
+      "text": "update cors whitelist for dev aws deploys"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2428",
+      "time": "2024-09-06T10:11:53.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2428#issuecomment-2333730844",
+      "text": "Closing as duplicate of #2427 "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2428",
+      "time": "2024-09-06T10:11:03.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2428",
+      "text": "Update CORS allowed origin regexes to new netlify URL"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8496",
+      "time": "2024-09-06T10:03:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8496",
+      "text": "Fixes PDF Viewer clipping out in different display zoom settings"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8480",
+      "time": "2024-09-06T08:57:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8480#issuecomment-2333577785",
+      "text": "Read: https://www.fastly.com/blog/clearing-cache-browser"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8480",
+      "time": "2024-09-06T08:57:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8480#issuecomment-2333577250",
+      "text": "No, you just need to simply send a fetch request to the signed URL of the image with that vary header, so that browser would invalidate it's cache. Therefore leading to the image component to render the new image as the new image is fetched instead of the old cached one.\r\n\r\nNothing to do with calling any APIs. \r\n\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-06T07:05:05.000Z",
+      "title": "ohcnetwork/care_fe#8477",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8477#pullrequestreview-2285113978",
+      "text": "Procedures: consultation #8366"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/ayushma_fe#185",
+      "time": "2024-09-06T06:46:44.000Z",
+      "link": "https://github.com/ohcnetwork/ayushma_fe/issues/185#issuecomment-2333361257",
+      "text": "@shivankacker "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8480",
+      "time": "2024-09-06T06:12:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8480#issuecomment-2333319184",
+      "text": "The additional headers on request options however is useful. Can be done in a separate issue/PR."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8480",
+      "time": "2024-09-06T06:11:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8480#issuecomment-2333318106",
+      "text": "you'll have to use fetch directly to achieve this since the image url is not a defined api route right? useQuery/request requires an API route to be defined, and the image url is not an API route."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-06T04:23:17.000Z",
+      "title": "ohcnetwork/care_fe#8441",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8441#pullrequestreview-2284672701",
+      "text": "Updated TreatmentSummary component by integrating it with PrintPreview Component #8430"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#7656",
@@ -51092,9 +51211,33 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/513",
+      "title": "support for edge runtime (cloudflare compatability)",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8498",
+      "title": "Support for specifying blood pressure as \"non measurable\" and skip sending mean arterial pressure",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8496",
+      "title": "Fixes PDF Viewer clipping out in different display zoom settings",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "reviewed"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8487",
       "title": "Adds support for 🔍 Zoom In & Out for 🖨️ Print Preview component",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review"
@@ -51103,22 +51246,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2410",
       "title": "Switch investigation default from `dict` to `list` and remove deprecated `prescriptions`",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8424",
-      "title": "Update Blood Pressure range; Skip sending mean pressure to backend",
-      "stale_for": 0,
-      "labels": [
-        "merge conflict",
-        "stale"
-      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2387",
       "title": "Improved asset bed relations for camera preset",
-      "stale_for": 14,
+      "stale_for": 15,
       "labels": [
         "In progress"
       ]
@@ -51126,15 +51260,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2386",
       "title": "Update JSON schema validations of Daily Round fields ",
-      "stale_for": 9,
-      "labels": [
-        "In progress"
-      ]
+      "stale_for": 0,
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 16,
+      "stale_for": 17,
       "labels": [
         "work-in-progress"
       ]
@@ -51142,7 +51274,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 10,
+      "stale_for": 11,
       "labels": [
         "P2"
       ]

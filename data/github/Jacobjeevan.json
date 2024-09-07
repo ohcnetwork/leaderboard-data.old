@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-09-05T07:15:17.000Z",
+  "last_updated": "2024-09-06T08:34:27.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8480",
+      "time": "2024-09-06T08:34:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8480#issuecomment-2333535476",
+      "text": "> you'll have to use fetch directly to achieve this since the image url is not a defined api route right? useQuery/request requires an API route to be defined, and the image url is not an API route.\r\n\r\n@rithviknishad Oh, I meant moving out the facilityData useQuery to a fetch req (since cover image url is part of that object). Hmm, as for fetching the image url directly, that would require modifications on the backend, right?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8480",
+      "time": "2024-09-06T04:29:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8480#issuecomment-2333212010",
+      "text": "@rithviknishad Hmm, since useQuery doesn't support a header parameter, I'd either need to replace it with a fetch outside or modify RequestOptions interface and request function to support header property (preferring the former since it touches less code). Does that sound right, or is there an alternative option?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8489",

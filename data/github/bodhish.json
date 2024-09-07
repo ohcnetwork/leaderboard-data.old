@@ -1,6 +1,83 @@
 {
-  "last_updated": "2024-09-04T14:29:39.000Z",
+  "last_updated": "2024-09-06T16:03:00.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8425",
+      "time": "2024-09-06T16:03:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8425#issuecomment-2334374209",
+      "text": "Can you define the logo dimensions and colour etc? \n\nAdditional context: I don't think we will run multiple hospitals in 1 instance other than for 10bedICU; \n\nDo we have a requirement from a facility for this? If not, lets part this for a while"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8498",
+      "time": "2024-09-06T14:53:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8498#issuecomment-2334238801",
+      "text": "@rithviknishad the ux assumes that not measurable is a very common scenario; do we need it? How valuable is not measurable information? Can't that be part of the notes?\n\nCC: @gigincg @aparnacoronasafe "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7798",
+      "time": "2024-09-06T13:43:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7798#issuecomment-2334091336",
+      "text": "I am strongly against adding more of these ids, a facility level unique ID has absolutely no value when you have a patient identifier 🤷🏻, these are mostly remanence from a non tech era. \n\nAlso this assumes care is used in parallel with another HMIS system, we should work towards a future where its just care and prioritise features for it. \n\nIdeally I will let users print a QR/barcode; at every location we will have a scanner that directly scans these so that user doesn't have to search. \n\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/docs#48",
+      "time": "2024-09-06T12:55:31.000Z",
+      "link": "https://github.com/ohcnetwork/docs/issues/48",
+      "text": "Document deploy process for Care in Digital Ocean App platform"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7798",
+      "time": "2024-09-06T12:50:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7798#issuecomment-2333982892",
+      "text": "@rithviknishad @gigincg @aparnacoronasafe \r\nInstead of us storing these ID, can't the hospital store our ID into the system? \r\n\r\nI think we should re-think storing these numbers in the system going forward. \r\n\r\n- Going forward OP number will be unique per doctor per day. \r\n- IP number will be auto incremented per facility where the facility can pick a starting point. \r\n\r\nI am leaning towards allowing users to print and store a barcode for each patient file, this will let them easily find out the patient in the system."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8106",
+      "time": "2024-09-06T09:36:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8106#issuecomment-2333666854",
+      "text": "@yadev64 if you are working on it, don't pick the solution listed. Feel free to ideate. \r\nI am not sure if its the right way to list users also. This can be a good time to build a better UI/UX"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8116",
+      "time": "2024-09-06T09:33:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8116#issuecomment-2333660401",
+      "text": "@gigincg @aparnacoronasafe\r\n\r\nHow important is this now? I am quite convinced that our UI/UX for prescription is quite broken so can this be done as part of a refactor? "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8366",
+      "time": "2024-09-06T09:11:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8366#issuecomment-2333615339",
+      "text": "@aparnacoronasafe please address the questions on this issue ☝️ "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8425",
+      "time": "2024-09-06T09:04:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8425#issuecomment-2333599041",
+      "text": "Does all hospitals have a logo @aparnacoronasafe?\r\n\r\nI would say use the logo configured in the instance. (State logo) and add just the name and address of the facility.\r\n\r\nHere are few examples from Ehealth. \r\n\r\n\r\n### Prescription\r\n<img width=\"929\" alt=\"image\" src=\"https://github.com/user-attachments/assets/31e008ef-26a5-48e5-97e4-0032b95a9ad7\">\r\n\r\n### Lab report\r\n<img width=\"948\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c3ab5bd9-68ff-4a00-9455-0409d6d85a27\">\r\n\r\n### Token\r\n<img width=\"1001\" alt=\"image\" src=\"https://github.com/user-attachments/assets/34f37eb6-da77-433d-9523-06054c92083d\">\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8492",
+      "time": "2024-09-06T06:44:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8492#issuecomment-2333357803",
+      "text": "@rithviknishad @aparnacoronasafe @gigincg Lets hold this issue and figure out a UX flow before implementing it. \r\nThis should ideally address the following. \r\n- In case of an OP consult the doctor that the nurse is working with should be smart filled initially\r\n- In case of IP the treating doctor should be the default choice \r\n- In case if its a referral, that doctor should come in as default choice  \r\n\r\nIts easy add this but I would want us to think of ways with which the problem could be addressed before jumping right into a solution. "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8492",
+      "time": "2024-09-06T06:44:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8492",
+      "text": "Prescription: By \"Nurse\" user type- attribution to doctor"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-09-04T14:29:39.000Z",
@@ -3624,9 +3701,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8418",
       "title": "Switch to Nextjs",
-      "stale_for": 7,
+      "stale_for": 1,
       "labels": [
-        "merge conflict"
+        "merge conflict",
+        "stale"
       ]
     }
   ],

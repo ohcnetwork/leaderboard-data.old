@@ -1,6 +1,41 @@
 {
-  "last_updated": "2024-09-05T10:27:21.000Z",
+  "last_updated": "2024-09-06T12:56:38.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7798",
+      "time": "2024-09-06T12:56:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7798#issuecomment-2333993531",
+      "text": "@bodhish I think it's a good idea to support using either the auto-generated or hospital reference as IP/OP Number. Same applies to MRD Number. \r\n\r\nThere is the question of whether we should support MRD Number is also a question. If we want to support Hospital Level Patient IDs (Including Patient ID Card Printing). We should have support for MRD Number. "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7943",
+      "time": "2024-09-06T12:53:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7943#issuecomment-2333987217",
+      "text": "Marking as \"Remove as Entered in error\" Is not viewable in the Diagnosis View:\r\n![image](https://github.com/user-attachments/assets/0cfec514-52ed-42ec-b572-10756c22d765)\r\n\r\nEdit View:\r\n![image](https://github.com/user-attachments/assets/36b69b98-5570-4f27-9907-b31b4c64f525)\r\n\r\nShowing an \"Edited\" or some other label when there is a Deleted/Currently Hidden Diagnosis seems like a good feature to have. \r\n\r\ncc: @aparnacoronasafe \r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7876",
+      "time": "2024-09-06T12:34:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7876#issuecomment-2333955564",
+      "text": "@vigneshhari This will be covered the Health Details APIs right?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/docs#27",
+      "time": "2024-09-06T12:34:04.000Z",
+      "link": "https://github.com/ohcnetwork/docs/pull/27#issuecomment-2333955408",
+      "text": "@vigneshhari This will be covered the Health Details APIs right?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8484",
+      "time": "2024-09-06T12:28:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8484#issuecomment-2333946224",
+      "text": "@tellmeY18 You'll be taking this up right?\r\n"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-09-05T10:27:21.000Z",
@@ -10567,7 +10602,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8463",
       "title": "Minor Improvements to PatientRegistration; Drop External Results",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs review",
         "test failed",

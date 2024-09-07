@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-09-05T10:37:04.000Z",
+  "last_updated": "2024-09-06T16:24:17.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8425",
+      "time": "2024-09-06T16:24:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8425#issuecomment-2334410401",
+      "text": "@bodhish The palliative care deployment for IAPC would also require this feature"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8366",
+      "time": "2024-09-06T16:22:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8366#issuecomment-2334407757",
+      "text": "@aSriram199 great suggestion Srikram!\r\n\r\nThis issue of possible duplicate entries is present for \"Procedure\" and \"investigations\" in the form. \r\n\r\nThe better solution to this would be to show list all upcoming planned procedures/investigations for the patient along with details (like time etc). And if the user recommends a  procedures/investigation in the list, show a message saying \"this procedures/investigation is already scheduled for the patient\".\r\nSince this is a separate effort, breaking it into a separate issue #8499 \r\n\r\nPlease feel free to take up the issue @aSriram199 "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8499",
+      "time": "2024-09-06T16:21:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8499",
+      "text": "Procedures/Investigations- list all planned items in form, disallow duplicate entry"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8425",
+      "time": "2024-09-06T15:56:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8425#issuecomment-2334362378",
+      "text": "@bodhish For govt, what you are saying is mostly right. But even their there are exceptions where this doesnt work. Eg: with 10BedICU implementation, all hospitals under health dept. will have the same logo, but the medical colleges may insist on having their own Logo\r\neg: \r\n![Screenshot 2024-09-06 at 9 24 33 PM](https://github.com/user-attachments/assets/280975f5-03b9-4f75-8251-7e150d5c1c2a)\r\n\r\nAlso for adopters in Pvt sector, this will be required at hospital level. For eg IAPC instance, all facilities would want their own Logos. "
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#8492",
