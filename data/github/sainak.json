@@ -1,6 +1,83 @@
 {
-  "last_updated": "2024-09-06T15:02:41.000Z",
+  "last_updated": "2024-09-07T18:18:27.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-07T18:18:27.000Z",
+      "title": "ohcnetwork/care#2434",
+      "link": "https://github.com/ohcnetwork/care/pull/2434#pullrequestreview-2288328193",
+      "text": "added timeout to middleware requests"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-07T18:17:39.000Z",
+      "title": "ohcnetwork/care#2434",
+      "link": "https://github.com/ohcnetwork/care/pull/2434#pullrequestreview-2288328112",
+      "text": "added timeout to middleware requests"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/landing#12",
+      "time": "2024-09-07T14:49:49.000Z",
+      "link": "https://github.com/ohcnetwork/landing/issues/12",
+      "text": "Restart blogs"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/landing#11",
+      "time": "2024-09-07T14:28:12.000Z",
+      "link": "https://github.com/ohcnetwork/landing/issues/11#issuecomment-2335250517",
+      "text": "https://app.netlify.com/sites/landing-ohc"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/landing#11",
+      "time": "2024-09-07T14:28:11.000Z",
+      "link": "https://github.com/ohcnetwork/landing/issues/11",
+      "text": "Move deploys to netlify"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/landing#11",
+      "time": "2024-09-07T14:27:25.000Z",
+      "link": "https://github.com/ohcnetwork/landing/issues/11",
+      "text": "Move deploys to netlify"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/docs#49",
+      "time": "2024-09-07T13:57:56.000Z",
+      "link": "https://github.com/ohcnetwork/docs/issues/49#issuecomment-2335195586",
+      "text": "https://app.netlify.com/sites/docs-ohc"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/docs#49",
+      "time": "2024-09-07T13:57:55.000Z",
+      "link": "https://github.com/ohcnetwork/docs/issues/49",
+      "text": "Move deploys to netlify"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/docs#49",
+      "time": "2024-09-07T13:42:10.000Z",
+      "link": "https://github.com/ohcnetwork/docs/issues/49",
+      "text": "Move deploys to netlify"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2432",
+      "time": "2024-09-07T13:01:47.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2432",
+      "text": "update unique_bed_name_per_location to ignore deleted beds"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2431",
+      "time": "2024-09-07T08:48:59.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2431",
+      "text": "optimize events creation and improve indexes"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care#2427",
@@ -16294,21 +16371,33 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2432",
+      "title": "update unique_bed_name_per_location to ignore deleted beds",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2431",
+      "title": "optimize events creation and improve indexes",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2414",
       "title": "disable default jwks for production deployments",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2412",
       "title": "fix string representation of prescription and mar",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8437",
       "title": "Replace hls player with mss on safari",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "test failed"
       ]
@@ -16316,13 +16405,13 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 11,
+      "stale_for": 12,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 23,
+      "stale_for": 24,
       "labels": [
         "blocked",
         "changes required",
@@ -16333,7 +16422,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 114,
+      "stale_for": 115,
       "labels": []
     }
   ],
@@ -16381,14 +16470,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/teleicu_middleware/issues/111",
       "pr_link": "https://github.com/ohcnetwork/teleicu_middleware/pull/119"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/6500",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/6501"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care/issues/1681",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/1682"
     }
   ]
 }

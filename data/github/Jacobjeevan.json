@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-09-06T08:34:27.000Z",
+  "last_updated": "2024-09-07T13:12:02.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8480",
+      "time": "2024-09-07T13:12:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8480#issuecomment-2335183118",
+      "text": "> No, you just need to simply send a fetch request to the signed URL of the image with that vary header, so that browser would invalidate it's cache. Therefore leading to the image component to render the new image as the new image is fetched instead of the old cached one.\r\n> \r\n> Nothing to do with calling any APIs.\r\n\r\n(1) Couldn't use the fetch + vary method as the HeadersInit type doesn't support it \r\n> Type '{ \"Forced-Revalidate\": number; }' is not assignable to type 'HeadersInit | undefined'.\r\n\r\n(2) Tried fetch + cache:reload instead. Checking the network tab, it does pull the new version of the image, however I had to append timestamp to have it reflect on page (I tried changing image src directly using getElementById, but that didn't reflect on screen). fetchImage is called on save of the Edit Cover Image Modal/Popup.\r\n\r\nIt doesn't seem to update the cache though, since the change doesn't persist across page reload.\r\n\r\n<img width=\"482\" alt=\"image\" src=\"https://github.com/user-attachments/assets/04dc6595-6df7-4d62-a083-88212012887b\">\r\n\r\nhttps://stackoverflow.com/questions/1077041/refresh-image-with-a-new-one-at-the-same-url/22429796#22429796 mentions few other solutions, including just using timestamp on img src directly, however that would mean storing multiple copies of the same image on cache."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8480",
@@ -145,7 +152,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8489",
       "title": "Remove tooltip after Cover Image Load",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],

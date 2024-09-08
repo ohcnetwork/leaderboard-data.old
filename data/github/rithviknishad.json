@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-09-06T18:27:19.000Z",
+  "last_updated": "2024-09-07T18:20:57.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-07T18:20:57.000Z",
+      "title": "ohcnetwork/care#2432",
+      "link": "https://github.com/ohcnetwork/care/pull/2432#pullrequestreview-2288328485",
+      "text": "update unique_bed_name_per_location to ignore deleted beds"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8480",
+      "time": "2024-09-07T18:19:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8480#issuecomment-2336397404",
+      "text": "I don't see any type errors in `Force-Revalidate: random number as string` method.\r\n\r\nNumbers can't be set as header value. However, number as strings can be.\r\n\r\n<img width=\"802\" alt=\"image\" src=\"https://github.com/user-attachments/assets/19886cd1-f4e0-41dd-a961-162c43c9b184\">\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8500",
+      "time": "2024-09-07T12:14:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8500#issuecomment-2335169099",
+      "text": "@shivankacker Saw this late, solved in #8501 "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8501",
+      "time": "2024-09-07T12:08:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8501",
+      "text": "Fixes Autocomplete input erroring when combobox input is cleared"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8441",
@@ -51211,15 +51239,24 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8501",
+      "title": "Fixes Autocomplete input erroring when combobox input is cleared",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/513",
       "title": "support for edge runtime (cloudflare compatability)",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8498",
       "title": "Support for specifying blood pressure as \"non measurable\" and skip sending mean arterial pressure",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review"
@@ -51228,7 +51265,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8496",
       "title": "Fixes PDF Viewer clipping out in different display zoom settings",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "reviewed"
@@ -51237,7 +51274,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8487",
       "title": "Adds support for 🔍 Zoom In & Out for 🖨️ Print Preview component",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs testing",
         "needs review"
@@ -51246,13 +51283,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2410",
       "title": "Switch investigation default from `dict` to `list` and remove deprecated `prescriptions`",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2387",
       "title": "Improved asset bed relations for camera preset",
-      "stale_for": 15,
+      "stale_for": 16,
       "labels": [
         "In progress"
       ]
@@ -51260,13 +51297,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2386",
       "title": "Update JSON schema validations of Daily Round fields ",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 17,
+      "stale_for": 18,
       "labels": [
         "work-in-progress"
       ]
@@ -51274,7 +51311,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 11,
+      "stale_for": 12,
       "labels": [
         "P2"
       ]
