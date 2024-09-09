@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-08-28T03:48:33.000Z",
+  "last_updated": "2024-09-08T19:09:11.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8417",
+      "time": "2024-09-08T19:09:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8417#issuecomment-2336792306",
+      "text": "Can we retry the build in some way?\r\n\r\nWhy does it fail at the whitespace before the regular expression?\r\nIs it some weird character encoding issue or something?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8417",
+      "time": "2024-09-08T18:25:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8417#issuecomment-2336779452",
+      "text": "> Not able to reproduce on my local either. Seems to be happening only in Netlify builds\r\n\r\nCan you try to emulate the netlify build process locally using this [this](https://docs.netlify.com/cli/get-started/#run-builds-locally)\r\n\r\nI don't have access to the site ids for netlify and it ain't letting me run a build locally without linking it"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8417",
+      "time": "2024-09-08T17:58:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8417#issuecomment-2336771060",
+      "text": "@rithviknishad \r\nI'm not able to reproduce the error on my local machine\r\n\r\nHave you been able to reproduce this?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8417",
+      "time": "2024-09-08T17:39:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8417#issuecomment-2336766031",
+      "text": "I'll look into this error\r\nGive me a few mins"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-08-28T03:48:33.000Z",

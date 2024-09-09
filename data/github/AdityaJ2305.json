@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-09-07T17:46:51.000Z",
+  "last_updated": "2024-09-08T18:21:16.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8417",
+      "time": "2024-09-08T18:21:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8417#issuecomment-2336778304",
+      "text": "@rithviknishad \r\n`\"dev\": \"npm run supported-browsers && vite\",`\r\nwe can add this so that on npm run dev it must generate supportedBrowsers.ts file "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8417",
+      "time": "2024-09-08T18:08:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8417#issuecomment-2336774602",
+      "text": "`\"build\": \"npm run generate-build-meta && npm run supported-browsers && npm run build:react\"`\r\nIs this command causing the error ? "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8417",
+      "time": "2024-09-08T13:56:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8417#issuecomment-2336696078",
+      "text": "@rithviknishad  Done. Please review the changes "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8417",
+      "time": "2024-09-08T06:48:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8417#issuecomment-2336569975",
+      "text": "> @AdityaJ2305 can you clear the merge conflict and comment on the PR, if it's ready for review or not\r\n\r\n\r\n\r\n> Can we gitignore the output file (`supportedBrowsers.ts`) and call the script during dev and build instead?\r\n\r\nLike following way:\r\n`\"build\": \"npm run generate-build-meta && npm run supported-browsers && npm run build:react\"`\r\npreviously\r\n`\"build\": \"npm run generate-build-meta && npm run build:react\"`\r\nIs this modification permissible?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8417",
@@ -155,7 +183,9 @@
       "title": "Added: Warning for unsupported browsers",
       "stale_for": 0,
       "labels": [
-        "merge conflict"
+        "needs testing",
+        "needs review",
+        "Deploy-Failed"
       ]
     }
   ],
