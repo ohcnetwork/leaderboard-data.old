@@ -1,6 +1,73 @@
 {
-  "last_updated": "2024-09-08T21:56:05.000Z",
+  "last_updated": "2024-09-09T18:28:14.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8514",
+      "time": "2024-09-09T18:28:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8514",
+      "text": "Production release v24.37.0",
+      "collaborated_with": [
+        "sainak",
+        "sunny-thakurwar",
+        "o",
+        "i",
+        "A",
+        "rithviknishad",
+        "shivankacker",
+        "nihal467",
+        "aSriram199",
+        "JOSHIK27",
+        "h",
+        "Nithin9585",
+        "khavinshankar",
+        "bodhish",
+        "gigincg"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care#2436",
+      "time": "2024-09-09T18:28:01.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2436",
+      "text": "Production release v24.37.0",
+      "collaborated_with": [
+        "vigneshhari",
+        "sainak",
+        "o",
+        "i",
+        "4",
+        "shivankacker",
+        "U",
+        "DraKen0009",
+        "A",
+        "rithviknishad",
+        "7",
+        "dhruv-goyal-10",
+        "gigincg"
+      ]
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8512",
+      "time": "2024-09-09T13:34:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8512",
+      "text": "Enable features from backend feature flags"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8505",
+      "time": "2024-09-09T05:49:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8505",
+      "text": "Use the new feature flag API for scribe"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2429",
+      "time": "2024-09-09T05:38:41.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2429#issuecomment-2337168581",
+      "text": "@vigneshhari this is under progress right? I would like to go ahead with the frontend implementation for this. I am imagining there will be an API exposed that returns whether the particular user is allowed to use a feature or not, which we can use in the frontend to enable/disable features."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#8504",
@@ -10445,24 +10512,32 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8512",
+      "title": "Enable features from backend feature flags",
+      "stale_for": 0,
+      "labels": [
+        "waiting for backend"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8504",
       "title": "Added support for time in dateinput component",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8497",
       "title": "Reorder classnames only on pre-commit",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "tested"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8469",
       "title": "Made Scribe be aware of existing data",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": [
         "waiting for more data",
         "merge conflict"
@@ -10471,31 +10546,31 @@
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
       "title": "Added scribe context",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/ayushma_fe/pull/200",
       "title": "Production merge",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/landing/pull/9",
       "title": "Added more supporters and bug fixes",
-      "stale_for": 15,
+      "stale_for": 16,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/ayushma/pull/519",
       "title": "Production Release: Switch to Milvus, Added GPT-4 support",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/7933",
       "title": "Reenabled discharge patient admitted to filter",
-      "stale_for": 25,
+      "stale_for": 26,
       "labels": [
         "needs review",
         "tested",
@@ -10505,19 +10580,19 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2204",
       "title": "Adds functionality for `last_consultation_admitted_bed_type_list` in discharge patient filters",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 13,
+      "stale_for": 14,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/7772",
       "title": "Added facility hubs",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": [
         "tested",
         "waiting for backend",
@@ -10528,7 +10603,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2135",
       "title": "Added Facility Hubs",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     }
   ],

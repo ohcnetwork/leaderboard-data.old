@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-09-08T19:09:11.000Z",
+  "last_updated": "2024-09-09T14:34:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8417",
+      "time": "2024-09-09T14:34:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8417#issuecomment-2338295015",
+      "text": "> @AdityaJ2305 ![image](https://private-user-images.githubusercontent.com/57055998/365632378-2aea4338-c1a0-4dbd-a475-04f0ec307347.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjU4OTI2NDYsIm5iZiI6MTcyNTg5MjM0NiwicGF0aCI6Ii81NzA1NTk5OC8zNjU2MzIzNzgtMmFlYTQzMzgtYzFhMC00ZGJkLWE0NzUtMDRmMGVjMzA3MzQ3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTA5VDE0MzIyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE4NGE0YTQwZjVkMDIzYmYyYjYxYjk4YzQ1ODdjMmFiYTZiZDBkM2JiYmUwOTQxMDUxYjhkMWRmYWU1OWNiOGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.AqmuOe_3BiD9-UldEnJ4u166QCIIe8FVkNp2ThLCvGo)\r\n> \r\n> in the screenshot above i'm testing with version 80 of google chrome, which will be one of the unsupported browsers, but couldn't see the banner you mention in the screenshot,\r\n> \r\n> can you mention which version of chrome i should be using to see this error banner\r\n\r\nOhh I just noticed in this, you're in the wrong deploy preview, it should be (https://deploy-preview-8417--care-ohc.netlify.app/) but you're testing it on (https://deploy-preview-8437--care-ohc.netlify.app/)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8417",
+      "time": "2024-09-09T12:04:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8417#issuecomment-2337938844",
+      "text": "@nihal467 I even tried using BrowserStack to test the deploy preview on \r\n - Windows 10 Chrome verison 80\r\n - Windows 11 Chrome version 80\r\n\r\nThey seem to be showing the error banner as expected"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8417",
+      "time": "2024-09-09T11:46:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8417#issuecomment-2337896774",
+      "text": "![screenshot-2024-09-09-17-15-37](https://github.com/user-attachments/assets/1a542c58-0ebc-4849-a5d7-054966fdb866)\r\n\r\nOn changing my useragent string to Chrome version 80, I can see the warning as shown here"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8417",

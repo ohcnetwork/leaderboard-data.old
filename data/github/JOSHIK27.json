@@ -1,6 +1,37 @@
 {
-  "last_updated": "2024-09-06T15:22:52.000Z",
+  "last_updated": "2024-09-09T18:28:14.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8514",
+      "time": "2024-09-09T18:28:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8514",
+      "text": "Production release v24.37.0",
+      "collaborated_with": [
+        "sainak",
+        "sunny-thakurwar",
+        "o",
+        "i",
+        "A",
+        "rithviknishad",
+        "shivankacker",
+        "nihal467",
+        "aSriram199",
+        "JOSHIK27",
+        "h",
+        "Nithin9585",
+        "khavinshankar",
+        "bodhish",
+        "gigincg"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8390",
+      "time": "2024-09-09T14:43:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8390#issuecomment-2338322557",
+      "text": "> @JOSHIK27 once the PR is ready for review, drop a comment\r\n\r\nWhen i ran cypress tests by running docker container locally with loaded dummy data on develop branch(as per readme of backend), bunch of tests failed which shouldn't happen. @nihal467 Am i missing something ?\r\n![image](https://github.com/user-attachments/assets/b6d027aa-fdcc-4943-894f-50b2a220ea11)\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8390",
@@ -200,8 +231,8 @@
       "title": "Made AutocompleteFormField open immediately on focus",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "Cypress Test Pending"
+        "needs review",
+        "tested"
       ]
     },
     {

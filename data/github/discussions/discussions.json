@@ -190,5 +190,24 @@
     },
     "participants": [],
     "repository": "care"
+  },
+  {
+    "source": "github",
+    "title": "Should we move over to react-query?",
+    "text": "https://www.npmjs.com/package/@tanstack/react-query\r\n\r\nReact Query is a powerful package for managing APIs with type safety, caching, infinite queries, and inbuilt state management.\r\nIt is almost the standard for managing APIs in react.\r\n\r\n## Why to move\r\n\r\nOne of the main reasons are developer experience, and ease of maintenance. Lets take an example using the current request component in our codebase\r\n\r\n```js\r\n\r\nconst [loading, setLoading] = useState(false)\r\nconst [errors, setErrors] = useState([])\r\nconst [data, setData] = useState();\r\n\r\nconst query = useQuery(\r\n   route,\r\n   ...\r\n)\r\n\r\nuseEffect(() => setData(query.data), [query.data]);\r\n\r\nconst handleUpdate = async () => {\r\n  setLoading(true);\r\n  const req = await request(...., data);\r\n  if (req.ok) {\r\n    notify(\"Ok\")\r\n    query.refetch()\r\n  } else {\r\n    notify(\"Error\")\r\n    setErrors(req.data)\r\n  }\r\n  setLoading(false);\r\n}\r\n\r\n{loading && \"Form is submitting\"}\r\n{errors && \"Form has errors\"}\r\n\r\n... make a form for our data\r\n<button onClick={handleUpdate}>\r\nsave\r\n</button>\r\n```\r\n\r\nThis includes states like loading and error that is very cumbersome to write and maintain.\r\nHere is the same thing with react-query\r\n\r\n```js\r\n\r\nconst [data, setData] = useState();\r\nuseEffect(() => setData(query.data), [query.data]);\r\n\r\nconst query = useQuery({\r\n  queryKey: [\"myquery\", \"type\"],\r\n  queryFn: ...\r\n})\r\n\r\nconst mutation = useMutation({\r\n  mutationFn: () => ....,\r\n  onSuccess: () => query.refetch();\r\n})\r\n\r\n{mutation.isPending && \"Form is submitting\"}\r\n{mutation.errors && \"Form has errors\"}\r\n\r\n...form\r\n\r\n<button onClick={() => mutation.mutate(data)}>\r\nsave\r\n</button>\r\n```\r\n\r\nWay easier to maintain and check for statuses.\r\n\r\nThere are a lot of such usecases that will reduce the complexity of our codebase significantly. The less state management the better.\r\n\r\n## Pros of migrating\r\n\r\n- better DX\r\n- easier for new contributors to understand the codebase as most have prior experience with reactquery\r\n- Typesafe\r\n- we wont have to maintain our own hooks\r\n- easier to make infinite queries\r\n- has inbuilt context, so you can interact with a query from a child component without passing down props.\r\n\r\n## cons\r\n\r\n- Too much refactoring\r\n- another dependency package.\r\n\r\nIn the long run, it makes sense for us to switch over, and gradually deprecate the old hooks.\r\n\r\ncc. @bodhish \r\n\r\n\r\n",
+    "author": "shivankacker",
+    "link": "https://github.com/orgs/ohcnetwork/discussions/8507",
+    "isAnswered": null,
+    "time": "2024-09-09T08:59:00Z",
+    "updateTime": "2024-09-09T10:32:24Z",
+    "category": {
+      "name": "Ideas",
+      "emoji": "💡"
+    },
+    "participants": [
+      "rithviknishad",
+      "rithviknishad"
+    ],
+    "repository": "care_fe"
   }
 ]

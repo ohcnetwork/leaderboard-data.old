@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-09-07T13:12:02.000Z",
+  "last_updated": "2024-09-09T15:49:04.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8480",
+      "time": "2024-09-09T15:49:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8480#issuecomment-2338477504",
+      "text": "> Did you try passing a `key` prop to the img. component?\r\n\r\nNever mind, I cleared my browser cache/restarted the dev server and it's working (persists across page reload). Only other issue is the change not reflecting on FacilityCard (if the user navigates thru back button or breadcrumb menu instead of reloading)."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8480",
+      "time": "2024-09-09T08:39:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8480#issuecomment-2337493701",
+      "text": "> I don't see any type errors in `Force-Revalidate: random number as string` method.\r\n> \r\n> Numbers can't be set as header value. However, number as strings can be.\r\n> <img alt=\"image\" width=\"802\" src=\"https://private-user-images.githubusercontent.com/25143503/365390851-19886cd1-f4e0-41dd-a961-162c43c9b184.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjU4Njk1MjksIm5iZiI6MTcyNTg2OTIyOSwicGF0aCI6Ii8yNTE0MzUwMy8zNjUzOTA4NTEtMTk4ODZjZDEtZjRlMC00MWRkLWE5NjEtMTYyYzQzYzliMTg0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTA5VDA4MDcwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTgzZmY0NzQ3YzI1NTMzZjdiNGZiYzE2Y2UwZTBkYTkwYWIxMGRiOTI2OGU3MzdhNGI1NmZjZjlmYThlMmUxZTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.CImqAlWuuVbyy1iAXdbE_6tKLBYqATfrgURDkHlX8Rs\">\r\n\r\nAh ok, thanks!\r\n\r\nWouldn't this require `Vary: Forced-Revalidate` on S3? Anyways, I tried with `Forced-Revalidate: 1`. But, I'm getting the same result as (2) in my reply above; new image is pulled by the fetch req in the network tab/dev tools, but only reflected on screen if I append a timestamp to the url. Cache doesn't seem to be updated as the change doesn't persist across page reload."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8480",
@@ -152,7 +166,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8489",
       "title": "Remove tooltip after Cover Image Load",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": []
     }
   ],
