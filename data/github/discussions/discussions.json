@@ -199,7 +199,7 @@
     "link": "https://github.com/orgs/ohcnetwork/discussions/8507",
     "isAnswered": null,
     "time": "2024-09-09T08:59:00Z",
-    "updateTime": "2024-09-09T10:32:24Z",
+    "updateTime": "2024-09-10T06:54:19Z",
     "category": {
       "name": "Ideas",
       "emoji": "💡"
@@ -209,5 +209,37 @@
       "rithviknishad"
     ],
     "repository": "care_fe"
+  },
+  {
+    "source": "github",
+    "title": "v24.37.0",
+    "text": "## What's Changed\r\n* Fix pdf previews by @sainak in https://github.com/ohcnetwork/care_fe/pull/8405\r\n* Fix clipping issue login page by @sunny-thakurwar in https://github.com/ohcnetwork/care_fe/pull/7891\r\n* Fixes facility cover image from not reloading after upload by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8412\r\n* Refactored FileUpload component by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8329\r\n* Removed unwanted printing of flow rate in preview by @nihal467 in https://github.com/ohcnetwork/care_fe/pull/8408\r\n* Cleanup unused files by @sainak in https://github.com/ohcnetwork/care_fe/pull/8326\r\n* Add Abdominal Drain and Change Rules to Ryles on Ouptput DropDown by @aSriram199 in https://github.com/ohcnetwork/care_fe/pull/8328\r\n* Make Treating Doctor Field Optional for Domiciliary Care Patients by @JOSHIK27 in https://github.com/ohcnetwork/care_fe/pull/8391\r\n* Added patient category descriptions for ICU bed patients by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/7970\r\n* Add option to filter users by no home facility by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8247\r\n* fix build workflows after the org rename by @sainak in https://github.com/ohcnetwork/care_fe/pull/8431\r\n* Change CSN references to OHCN by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8433\r\n* remove fireRequestV2 by @sainak in https://github.com/ohcnetwork/care_fe/pull/8446\r\n* Fixes PR template tags by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8453\r\n* Removes Storybook by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8452\r\n* Adds validation for max dosage in PRN prescription #8324 by @Nithin9585 in https://github.com/ohcnetwork/care_fe/pull/8378\r\n* Fix allowed extensions not working for file input by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8419\r\n* Fixed icd11 diagnosis multiselect field making unnecessary requests by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8448\r\n* Switched to uploadFile from axios in scribe by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8379\r\n* Enable interaction with other components when a dropdown is open by @khavinshankar in https://github.com/ohcnetwork/care_fe/pull/8432\r\n* Fixes unknown option for heartbeat rhythm; adds i18n to vitals section by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8411\r\n* Improve Treament Summary Report by @khavinshankar in https://github.com/ohcnetwork/care_fe/pull/8295\r\n* Navigate to session expired page instead of showing notification by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8363\r\n* Removes auto fill for uploaded file name by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8464\r\n* Added translations for home page by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8461\r\n* Fixed User page Spacing and added translations by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8462\r\n* Add suggestion chips instead of autofilling diagnosis by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8369\r\n* Remove proxy and clean up config by @bodhish in https://github.com/ohcnetwork/care_fe/pull/8445\r\n* Adds support for \"Still watching\" prompt to prevent users from idling when watching stream by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8440\r\n* Modified Fallback URL for cypress in windows system by @nihal467 in https://github.com/ohcnetwork/care_fe/pull/8476\r\n* New cypress test to verify doctor's log update functionality by @nihal467 in https://github.com/ohcnetwork/care_fe/pull/8479\r\n* Bump cypress version and remove unnecessary imports of \"local-cypress\" by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8485\r\n* Fixes state admin unable to to switch back to live patients tab from discharged tab by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8490\r\n* Fixed the add location button positioning in desktop view by @nihal467 in https://github.com/ohcnetwork/care_fe/pull/8481\r\n* Removes symptoms onset date range filter from patient filters by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8493\r\n\r\n\r\n**Full Changelog**: https://github.com/ohcnetwork/care_fe/compare/v24.35.0...v24.37.0\n\n<hr /><em>This discussion was created from the release <a href='https://github.com/ohcnetwork/care_fe/releases/tag/v24.37.0'>v24.37.0</a>.</em>",
+    "author": "sainak",
+    "link": "https://github.com/orgs/ohcnetwork/discussions/8520",
+    "isAnswered": null,
+    "time": "2024-09-10T19:20:32Z",
+    "updateTime": "2024-09-10T19:20:33Z",
+    "category": {
+      "name": "Announcements",
+      "emoji": "📣"
+    },
+    "participants": [],
+    "repository": "care_fe"
+  },
+  {
+    "source": "github",
+    "title": "v24.37.0",
+    "text": "## What's Changed\r\n* Upgrade Dependencies by @vigneshhari in https://github.com/ohcnetwork/care/pull/2390\r\n* fix creating notifications if shifting_approving_facility is not available by @sainak in https://github.com/ohcnetwork/care/pull/2372\r\n* Added new skills by @shivankacker in https://github.com/ohcnetwork/care/pull/2302\r\n* Add list and detail serializer with tests for shifting module #1549 by @vigneshhari in https://github.com/ohcnetwork/care/pull/2392\r\n* PDF Generation Alternative - GSoC by @DraKen0009 in https://github.com/ohcnetwork/care/pull/2132\r\n* Added actively dying patient category by @shivankacker in https://github.com/ohcnetwork/care/pull/2298\r\n* Replace coronasafe references by @sainak in https://github.com/ohcnetwork/care/pull/2394\r\n* fix docker builds by @sainak in https://github.com/ohcnetwork/care/pull/2393\r\n* remove deprecated fields that has been migrated to new models (Diagnosis, Symptoms and Prescriptions) by @rithviknishad in https://github.com/ohcnetwork/care/pull/2247\r\n* Fixes check for no treating physician and not mandate for Domicialiary Care by @rithviknishad in https://github.com/ohcnetwork/care/pull/2382\r\n* Correct I/O Balance output choice spelling mistake for Ryles Tube Aspiration by @rithviknishad in https://github.com/ohcnetwork/care/pull/2366\r\n* feat: added additional shortcuts to the makefile by @dhruv-goyal-10 in https://github.com/ohcnetwork/care/pull/2283\r\n* Show error if doctor is not linked to the consultation facility by @shivankacker in https://github.com/ohcnetwork/care/pull/2309\r\n* Starting translation support by @vigneshhari in https://github.com/ohcnetwork/care/pull/2398\r\n* fix pdf report generation in prod by @sainak in https://github.com/ohcnetwork/care/pull/2400\r\n* add new asset actions and clenup asset_monitor task by @sainak in https://github.com/ohcnetwork/care/pull/2411\r\n* use static jwk instead of auto generating on aws by @sainak in https://github.com/ohcnetwork/care/pull/2413\r\n* allow cors on localhost dev deployment by @sainak in https://github.com/ohcnetwork/care/pull/2415\r\n\r\n\r\n**Full Changelog**: https://github.com/ohcnetwork/care/compare/v24.35.0...v24.37.0\n\n<hr /><em>This discussion was created from the release <a href='https://github.com/ohcnetwork/care/releases/tag/v24.37.0'>v24.37.0</a>.</em>",
+    "author": "sainak",
+    "link": "https://github.com/ohcnetwork/care/discussions/2443",
+    "isAnswered": null,
+    "time": "2024-09-10T18:16:37Z",
+    "updateTime": "2024-09-10T18:16:39Z",
+    "category": {
+      "name": "Announcements",
+      "emoji": "📣"
+    },
+    "participants": [],
+    "repository": "care"
   }
 ]

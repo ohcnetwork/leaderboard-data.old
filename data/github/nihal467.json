@@ -1,6 +1,172 @@
 {
-  "last_updated": "2024-09-09T18:28:14.000Z",
+  "last_updated": "2024-09-10T16:43:56.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8519",
+      "time": "2024-09-10T16:43:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8519",
+      "text": "Fixed Cypress Flaky test in user advance filter",
+      "turnaround_time": 2560
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8519",
+      "time": "2024-09-10T16:01:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8519",
+      "text": "Fixed Cypress Flaky test in user advance filter"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8518",
+      "time": "2024-09-10T15:35:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8518",
+      "text": "Merge Develop to Staging v24.38.0"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2442",
+      "time": "2024-09-10T15:35:00.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2442",
+      "text": "Merge Develop to Staging v24.38.0"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8517",
+      "time": "2024-09-10T15:28:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8517",
+      "text": "New Cypress Test | Verify the Functionality of Critical Care | ",
+      "turnaround_time": 2107
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8342",
+      "time": "2024-09-10T15:26:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8342",
+      "text": "Instead of autofilling on scribe, show the top search results for dropdown selections as chips"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8342",
+      "time": "2024-09-10T15:25:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8342#issuecomment-2341248489",
+      "text": "closing this issue, as the functionality is working @aparnacoronasafe will be filling separate issue, incase some diagnosis are not been fetched by scribe"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8335",
+      "time": "2024-09-10T15:12:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8335#issuecomment-2341205296",
+      "text": "Steps to Access Facility Middleware Page\r\n\r\n1. Go to the facility tab\r\n2. click on the view facility button on any facility card\r\n3. once you are in the page click on the manage facility button\r\n4. from the dropdown, click the config facility button\r\n5. you will be seeing the below page\r\n\r\n![image](https://github.com/user-attachments/assets/3117f03c-bfce-4f00-a90c-e4bc1fa554c9)\r\n\r\nsteps to access location middleware page\r\n\r\n1. Follow the above step 1-3\r\n2. then from dropdown click the location management button\r\n3. click on the add location button on the top right corner\r\n4. you will be seeing the below page\r\n\r\n![image](https://github.com/user-attachments/assets/56c5a4a2-a0dc-41b2-98ce-33493a018fed)\r\n\r\nsteps to access asset middleware page\r\n\r\n1. follow the top step 1-3\r\n2. then from the dropdown click the view asset button\r\n3. click on any camera asset card ( It will have a camera icon ) , case not available create a new asset\r\n4. now click on the configuration button\r\n5. you will be seeing the below page\r\n\r\n![image](https://github.com/user-attachments/assets/bf630ee3-37df-4a99-8e1d-7ae0c2ea08be)\r\n\r\n- middleware preference for a device is given for the one available on the asset configuration page, if not available there, its be taken from the location management page if not available it is also it been taken from the facility middleware page.\r\n\r\n- the action items are mentioned under the description of solution\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8517",
+      "time": "2024-09-10T14:54:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8517",
+      "text": "New Cypress Test | Verify the Functionality of Critical Care | "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8515",
+      "time": "2024-09-10T13:28:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8515",
+      "text": "Unable to Deploy care_fe in windows local"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8335",
+      "time": "2024-09-10T10:43:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8335#issuecomment-2340311383",
+      "text": "@saikiranpatil are you still interested in working on this issue"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8226",
+      "time": "2024-09-10T10:40:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8226#issuecomment-2340304102",
+      "text": "the problem is resolved, the page loading looks good"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8226",
+      "time": "2024-09-10T10:40:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8226",
+      "text": "Patient list page is taking longer time to load the page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7995",
+      "time": "2024-09-10T09:49:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7995#issuecomment-2340191854",
+      "text": "the PR testing is on hold, as the backend PR is failing test"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2253",
+      "time": "2024-09-10T09:48:01.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2253#issuecomment-2340188567",
+      "text": "@UdaySagar-Git the lint is failing and test is failing can you fix it , so we can review the PR\r\n\r\nCC: @sainak @rithviknishad @khavinshankar can anyone of you look into the issue as well"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8417",
+      "time": "2024-09-10T09:30:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8417#issuecomment-2340148260",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8342",
+      "time": "2024-09-10T08:32:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8342#issuecomment-2340016481",
+      "text": "@aparnacoronasafe \r\n![image](https://github.com/user-attachments/assets/3440a9f6-0e30-4e4f-92bb-797743061336)\r\n\r\nthe suggestion chips are visible, can you hard refresh once and check it in the staging deployment once again ( https://care-staging.ohc.network )"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8487",
+      "time": "2024-09-10T08:21:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8487",
+      "text": "Adds support for 🔍 Zoom In & Out for 🖨️ Print Preview component",
+      "collaborated_with": [
+        "rithviknishad",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8477",
+      "time": "2024-09-10T08:07:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8477",
+      "text": "Procedures: consultation #8366",
+      "collaborated_with": [
+        "Sulochan-khadka",
+        "rithviknishad",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8414",
+      "time": "2024-09-10T08:04:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8414",
+      "text": "Made AutocompleteFormField open immediately on focus",
+      "collaborated_with": [
+        "JOSHIK27",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8466",
+      "time": "2024-09-10T08:04:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8466",
+      "text": "Remove clear all filters when no filters are applied.",
+      "collaborated_with": [
+        "Sulochan-khadka",
+        "nihal467"
+      ]
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8514",
@@ -42366,7 +42532,20 @@
       "text": "Production Release 23.34.1"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8518",
+      "title": "Merge Develop to Staging v24.38.0",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2442",
+      "title": "Merge Develop to Staging v24.38.0",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8478",
@@ -42379,10 +42558,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8382",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8383"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8181",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8191"
     }
   ]
 }

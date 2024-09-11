@@ -1,6 +1,96 @@
 {
-  "last_updated": "2024-09-09T18:28:14.000Z",
+  "last_updated": "2024-09-10T14:48:49.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-10T14:48:49.000Z",
+      "title": "ohcnetwork/care#2313",
+      "link": "https://github.com/ohcnetwork/care/pull/2313#pullrequestreview-2292766740",
+      "text": "Convert ABDM into Plug - Part 2/3"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8488",
+      "time": "2024-09-10T14:29:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8488#issuecomment-2341003048",
+      "text": "@aparnacoronasafe Is \"Bladder Issues\" multi select or single select?"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care#2441",
+      "time": "2024-09-10T13:08:35.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2441",
+      "text": "New round type \"Community Nurse's Log\" and additional fields"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8417",
+      "time": "2024-09-10T11:49:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8417",
+      "text": "Added: Warning for unsupported browsers",
+      "collaborated_with": [
+        "AdityaJ2305",
+        "o",
+        "i",
+        "itsRaCl",
+        "rithviknishad",
+        "sainak"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-10T11:16:02.000Z",
+      "title": "ohcnetwork/care_fe#8497",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8497#pullrequestreview-2292133174",
+      "text": "Reorder classnames only on pre-commit"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8487",
+      "time": "2024-09-10T08:21:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8487",
+      "text": "Adds support for 🔍 Zoom In & Out for 🖨️ Print Preview component",
+      "turnaround_time": 444358
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8487",
+      "time": "2024-09-10T08:21:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8487",
+      "text": "Adds support for 🔍 Zoom In & Out for 🖨️ Print Preview component",
+      "collaborated_with": [
+        "rithviknishad",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8477",
+      "time": "2024-09-10T08:07:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8477",
+      "text": "Procedures: consultation #8366",
+      "collaborated_with": [
+        "Sulochan-khadka",
+        "rithviknishad",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8496",
+      "time": "2024-09-10T08:06:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8496",
+      "text": "Fixes PDF Viewer clipping out in different display zoom settings",
+      "turnaround_time": 338573
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8501",
+      "time": "2024-09-10T08:05:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8501",
+      "text": "Fixes Autocomplete input erroring when combobox input is cleared",
+      "turnaround_time": 244638
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8514",
@@ -51371,56 +51461,30 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8501",
-      "title": "Fixes Autocomplete input erroring when combobox input is cleared",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/513",
       "title": "support for edge runtime (cloudflare compatability)",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8498",
-      "title": "Support for specifying blood pressure as \"non measurable\" and skip sending mean arterial pressure",
+      "title": "Updated blood pressure range",
       "stale_for": 0,
       "labels": [
-        "changes required"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8496",
-      "title": "Fixes PDF Viewer clipping out in different display zoom settings",
-      "stale_for": 0,
-      "labels": [
-        "tested",
-        "reviewed"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8487",
-      "title": "Adds support for 🔍 Zoom In & Out for 🖨️ Print Preview component",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2410",
       "title": "Switch investigation default from `dict` to `list` and remove deprecated `prescriptions`",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2387",
       "title": "Improved asset bed relations for camera preset",
-      "stale_for": 18,
+      "stale_for": 19,
       "labels": [
         "In progress"
       ]
@@ -51428,13 +51492,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2386",
       "title": "Update JSON schema validations of Daily Round fields ",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 20,
+      "stale_for": 21,
       "labels": [
         "work-in-progress"
       ]
@@ -51442,7 +51506,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 14,
+      "stale_for": 15,
       "labels": [
         "P2"
       ]
@@ -51472,6 +51536,10 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8338",
       "pr_link": "https://github.com/ohcnetwork/care/pull/2350"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8323",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8487"
     },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8298",
@@ -51528,18 +51596,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7778",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7797"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7712",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7839"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7711",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7752"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7711",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/2127"
     }
   ]
 }
