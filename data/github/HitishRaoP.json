@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-09-10T06:18:20.000Z",
+  "last_updated": "2024-09-11T12:26:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8457",
+      "time": "2024-09-11T12:26:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8457#issuecomment-2343529668",
+      "text": "@nihal467 when we submit the Log Update Form, it is logged as **rhythm_detail** but when we fetch it from the api to display in the evenlist page it is logged as **rhythm_details** and it is always null. I think this is causing the error.\r\n\r\nDuring Form submission:\r\n![Screenshot 2024-09-11 171726](https://github.com/user-attachments/assets/8cc8cc65-4455-496b-8bc0-73a15ad8418c)\r\n\r\nFetching from api:\r\n![Screenshot 2024-09-11 171751](https://github.com/user-attachments/assets/5d703814-9efe-48aa-bf6d-3641e3cf0a21)\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8157",

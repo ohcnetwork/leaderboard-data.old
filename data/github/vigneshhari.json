@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-09-09T18:28:01.000Z",
+  "last_updated": "2024-09-11T08:24:30.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8388",
+      "time": "2024-09-11T08:24:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8388#issuecomment-2342983861",
+      "text": "We dont really need a separate table for this right now, we can just keep everything in the same table and use the same API for multiple forms. a PATCH request with the same endpoint will only update what is needed. "
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care#2436",
@@ -11773,7 +11780,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/6",
       "title": "[CEP-4] RBAC: initial spec",
-      "stale_for": 14,
+      "stale_for": 16,
       "labels": []
     }
   ],
