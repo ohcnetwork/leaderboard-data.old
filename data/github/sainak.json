@@ -1,6 +1,21 @@
 {
-  "last_updated": "2024-09-11T14:30:46.000Z",
+  "last_updated": "2024-09-12T08:52:30.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-12T08:52:30.000Z",
+      "title": "ohcnetwork/care#2446",
+      "link": "https://github.com/ohcnetwork/care/pull/2446#pullrequestreview-2299647869",
+      "text": "Fixed incoming fhir data parsing"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2444",
+      "time": "2024-09-12T00:35:04.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2444",
+      "text": "Remove multiselectfield references",
+      "turnaround_time": 39409
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-09-11T14:30:46.000Z",
@@ -16583,45 +16598,46 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2432",
       "title": "update unique_bed_name_per_location to ignore deleted beds",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2431",
       "title": "optimize events creation and improve indexes",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2414",
       "title": "disable default jwks for production deployments",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2412",
       "title": "fix string representation of prescription and mar",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8437",
       "title": "Replace hls player with mss on safari",
-      "stale_for": 7,
+      "stale_for": 0,
       "labels": [
-        "test failed"
+        "test failed",
+        "stale"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 16,
+      "stale_for": 17,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/6457",
       "title": "add support for webrtc stream",
-      "stale_for": 28,
+      "stale_for": 29,
       "labels": [
         "blocked",
         "changes required",
@@ -16632,7 +16648,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 119,
+      "stale_for": 120,
       "labels": []
     }
   ],

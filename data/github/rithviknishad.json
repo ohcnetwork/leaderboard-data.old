@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-09-11T15:35:57.000Z",
+  "last_updated": "2024-09-12T07:03:17.000Z",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8529",
+      "time": "2024-09-12T07:03:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8529",
+      "text": "Consistency in label prop name for `RadioFormField`"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8457",
+      "time": "2024-09-12T05:08:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8457#issuecomment-2345284426",
+      "text": "Looks like there's a spelling mistake in the event types. It'll have to be updated here: https://github.com/ohcnetwork/care/blob/develop/care/facility/management/commands/load_event_types.py#L123\r\n\r\ncc: @sainak "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-12T03:43:37.000Z",
+      "title": "ohcnetwork/care_fe#8528",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8528#pullrequestreview-2299155107",
+      "text": "Update documentation  README.md  : Supported -browsers script"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8528",
@@ -51577,13 +51598,13 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/513",
       "title": "support for edge runtime (cloudflare compatability)",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8498",
       "title": "Updated blood pressure range",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs testing",
         "needs review"
@@ -51592,13 +51613,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2410",
       "title": "Switch investigation default from `dict` to `list` and remove deprecated `prescriptions`",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2387",
       "title": "Improved asset bed relations for camera preset",
-      "stale_for": 20,
+      "stale_for": 21,
       "labels": [
         "In progress"
       ]
@@ -51606,13 +51627,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2386",
       "title": "Update JSON schema validations of Daily Round fields ",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 22,
+      "stale_for": 23,
       "labels": [
         "work-in-progress"
       ]
@@ -51620,7 +51641,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 16,
+      "stale_for": 17,
       "labels": [
         "P2"
       ]

@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-09-11T12:45:42.000Z",
+  "last_updated": "2024-09-12T07:15:11.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2446",
+      "time": "2024-09-12T07:15:11.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2446",
+      "text": "Fixed incoming fhir data parsing"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8177",
+      "time": "2024-09-12T06:05:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8177#issuecomment-2345346831",
+      "text": "Temporarily reopening this PR until HCX Plug is merged"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care#2442",
@@ -38176,15 +38190,21 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2446",
+      "title": "Fixed incoming fhir data parsing",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/docs/pull/50",
       "title": "Added ABDM Docs for WASA Testing",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8503",
       "title": "Setup Crowdin",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs review"
       ]
@@ -38192,16 +38212,17 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8460",
       "title": "Refactor cypress action; separate setup and run",
-      "stale_for": 7,
+      "stale_for": 0,
       "labels": [
         "changes required",
-        "merge conflict"
+        "merge conflict",
+        "stale"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8458",
       "title": "Hide sensitive user data for non admin users",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "changes required",
@@ -38213,7 +38234,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8456",
       "title": "Cleanup bed types",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": [
         "needs review",
         "tested",
@@ -38224,13 +38245,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2417",
       "title": "Removed redundant room types in FacilityCapacity",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8420",
       "title": "HCX Plug",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs review",
         "changes required",
@@ -38241,13 +38262,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2399",
       "title": "HCX Plug",
-      "stale_for": 15,
+      "stale_for": 16,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8340",
       "title": "Abdm V3 Plug Support",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "needs review",
         "tested",
@@ -38258,25 +38279,25 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/34",
       "title": "[CEP-7]  Proposal for Scheduling in Care",
-      "stale_for": 37,
+      "stale_for": 38,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2313",
       "title": "Convert ABDM into Plug - Part 2/3",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2312",
       "title": "Convert ABDM into Plug - Part 3/3",
-      "stale_for": 10,
+      "stale_for": 11,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8178",
       "title": "Hcx communication",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "changes required",
         "merge conflict",
@@ -38284,9 +38305,17 @@
       ]
     },
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8177",
+      "title": "Enable hcx",
+      "stale_for": 0,
+      "labels": [
+        "stale"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2222",
       "title": "limit user details based on user type",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": [
         "waiting-for-review"
       ]
@@ -38294,37 +38323,37 @@
     {
       "link": "https://github.com/ohcnetwork/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 128,
+      "stale_for": 129,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 151,
+      "stale_for": 152,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 999,
+      "stale_for": 1000,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 1005,
+      "stale_for": 1006,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 1006,
+      "stale_for": 1007,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/life/pull/306",
       "title": "filtered duplicate tweets",
-      "stale_for": 1201,
+      "stale_for": 1202,
       "labels": []
     }
   ],
