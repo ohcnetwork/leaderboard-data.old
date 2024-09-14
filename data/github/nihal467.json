@@ -1,6 +1,62 @@
 {
-  "last_updated": "2024-09-12T13:07:36.000Z",
+  "last_updated": "2024-09-13T13:22:48.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8533",
+      "time": "2024-09-13T13:22:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8533#issuecomment-2348954305",
+      "text": "@rithviknishad can you approve the netlify deploy"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8522",
+      "time": "2024-09-13T12:56:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8522#issuecomment-2348897053",
+      "text": "Bug\r\n\r\n![image](https://github.com/user-attachments/assets/00ccab41-1e29-4edd-aff9-231c2a8836d8)\r\n\r\n- [ ] the dropdowns are not properly responsive\r\n\r\n\r\nEnhancement\r\n\r\n- [ ] only show oral issue, if the user select nutrition route as oral, otherwise hide it"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8522",
+      "time": "2024-09-13T12:37:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8522#issuecomment-2348855879",
+      "text": "- [ ] creation\r\n- [ ] updation\r\n- [ ] edit\r\n- [ ] view in charts\r\n- [ ] view in details page\r\n- [ ] events log"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8498",
+      "time": "2024-09-13T12:12:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8498#issuecomment-2348809220",
+      "text": "@rithviknishad \r\n![image](https://github.com/user-attachments/assets/01e90549-414f-4600-8b97-5d3c32d4731e)\r\n\r\n- [ ] when you click on the vital section, the entire page crashes"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8441",
+      "time": "2024-09-13T11:38:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8441#issuecomment-2348740223",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8531",
+      "time": "2024-09-13T11:14:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8531#issuecomment-2348685564",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8504",
+      "time": "2024-09-13T09:14:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8504#issuecomment-2348447534",
+      "text": "@shivankacker Bro, create a checklist of all the forms where you're changing the component, and add it to the description. Review the functionality and responsiveness of each form one by one before the next QA review."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8504",
+      "time": "2024-09-13T09:04:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8504#issuecomment-2348426447",
+      "text": "@shivankacker \r\n\r\n![image](https://github.com/user-attachments/assets/5c0fffe9-e18a-4d99-aab4-ddb69e28c4f2)\r\n\r\n- [ ] When you open the date and time component in the patient consultation page, the entire form is scrolled to the right side, making it hard for the user to see what is the field heading since they are left-aligned\r\n- [ ] Once a user clicks on a specific time, then the component should auto-close\r\n\r\n![image](https://github.com/user-attachments/assets/e5fb6deb-064c-4f63-b059-401a763977b8)\r\n\r\n- [ ] the placeholder text { hh: mm a }, what is meant by a in this text?\r\n\r\n![image](https://github.com/user-attachments/assets/9d54879c-1da9-411c-b723-8ce1d5093d6d)\r\n\r\n- [ ] We had an existing behavior where typing \"12092024\" would automatically format the input as 12/09/2024. This behavior was removed in your PR. Please revert the change and retain the auto-formatting in the component.\r\n- [ ] When the user types \"12092024\" and moves out of focus of the element or switches tabs, the entered data resets to the current date and time in the discharge pop-up.\r\n\r\n![image](https://github.com/user-attachments/assets/990589f0-5a95-419a-a403-c5c59965bf4c)\r\n\r\n- [ ] On mobile view, the component is clipping in, making it properly responsive across devices\r\n\r\n![image](https://github.com/user-attachments/assets/888ef44e-0c30-4f32-8d08-6b4dec123045)\r\n\r\n- [ ] Since the auto-formatting is not working, there is no limit in user input\r\n\r\n![image](https://github.com/user-attachments/assets/e2b473dd-24e8-4451-bdb3-1e00c8eee10b)\r\n\r\n- [ ] even if user manually, type all the details by manually formatting, the component still reset to current date and time\r\n\r\nCC: @gigincg "
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#8530",

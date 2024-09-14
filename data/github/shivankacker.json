@@ -1,6 +1,76 @@
 {
-  "last_updated": "2024-09-11T12:45:47.000Z",
+  "last_updated": "2024-09-13T19:37:52.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/ayushma#520",
+      "time": "2024-09-13T19:37:52.000Z",
+      "link": "https://github.com/ohcnetwork/ayushma/issues/520",
+      "text": "Recapcha fails if sent as a retry"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8536",
+      "time": "2024-09-13T19:31:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8536",
+      "text": "Fixed bug with sidebar indicator"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8504",
+      "time": "2024-09-13T17:40:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8504#issuecomment-2349618880",
+      "text": "Also the input will show a red border now if the input format is wrong. Just an add on."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8504",
+      "time": "2024-09-13T17:23:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8504#issuecomment-2349547333",
+      "text": "@nihal467 \r\n- because you did not like the left-right scroll, I changed it to go the next row. Let me know if it doesn't look good.\r\n- changed \"a\" to \"am/pm\"\r\n- fixed the edge case of the overflow. Also verified all the inputs again. Please let me know if I missed out on something.\r\n\r\ncc. @gigincg "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8535",
+      "time": "2024-09-13T16:32:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8535",
+      "text": "Sidebar bug on resize"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8504",
+      "time": "2024-09-13T16:06:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8504#issuecomment-2349297395",
+      "text": "@nihal467 \r\n\r\n1. Will see to the scroll issue. Wasn't happening with my screen size\r\n2. I did not keep the auto closing thing because : It will close if a user will set the time before setting the date or vice-versa which adds makes it a UX issue.\r\n3. \"a\" means AM/PM. If it is not understandable I will change it to \"am/pm\"\r\n> We had an existing behavior where typing \"12092024\" would automatically format the input as 12/09/2024\r\n4. The existing behaviour made it easy to enter the date, but totally hard to update it. The reason it was removed was so that the user does not face this while editing the date:\r\n\r\nhttps://github.com/user-attachments/assets/7313c037-a439-4662-9cf0-5c038ecc50a4\r\n\r\nBecause this behaviour was changed, the tests were also changed.\r\n\r\n5. The input will auto reset if the entered time is not of the desired format.\r\n6. On mobile devices, the component can be scrolled left-right. This is because the date input would become small if i try to change sizes/ do anything else.\r\n7. You did not add space, which made it an invalid format.\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/ayushma_fe#200",
+      "time": "2024-09-13T10:39:39.000Z",
+      "link": "https://github.com/ohcnetwork/ayushma_fe/pull/200#issuecomment-2348625434",
+      "text": "@samholics \r\n\r\n1 - Issue with recaptcha has been solved.\r\n2 - Issue with empty audio is due to whisper hallucinating. Although model hallucinations are hard to prevent, I will cover it up in https://github.com/ohcnetwork/ayushma/issues/521\r\n3 - If the response was correct the first 2 times, an error on the third time would be due to hallucinations in the model. This should be a rare occurrence. If this happens often, we can cover it up later on.\r\n4 - The audio highlights don't match currently. I will check and verify if it is possible to match them.\r\n5 - Likely due to server load at OpenAI's end. I will investigate\r\n6 - What do you suggest for making it more evident?\r\n\r\n@gigincg I think we can merge to production as none of the pointed out issues pertain to the vector db change. They can be taken up later."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/ayushma#521",
+      "time": "2024-09-13T10:27:45.000Z",
+      "link": "https://github.com/ohcnetwork/ayushma/issues/521",
+      "text": "Prevent Ayushma to hallucinate empty audio. Give out an error instead."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/ayushma_fe#202",
+      "time": "2024-09-13T10:23:49.000Z",
+      "link": "https://github.com/ohcnetwork/ayushma_fe/issues/202",
+      "text": "Prevent Ayushma to hallucinate empty audio. Give out an error instead."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2447",
+      "time": "2024-09-13T05:28:12.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2447",
+      "text": "Do not allow future log update taken_at time"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8518",
@@ -10551,9 +10621,24 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8536",
+      "title": "Fixed bug with sidebar indicator",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2447",
+      "title": "Do not allow future log update taken_at time",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8512",
       "title": "Enable features from backend feature flags",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": [
         "waiting for backend"
       ]
@@ -10562,12 +10647,15 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/8504",
       "title": "Added support for time in dateinput component",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8469",
       "title": "Made Scribe be aware of existing data",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": [
         "waiting for more data",
         "merge conflict",
@@ -10577,31 +10665,31 @@
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
       "title": "Added scribe context",
-      "stale_for": 8,
+      "stale_for": 10,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/ayushma_fe/pull/200",
       "title": "Production merge",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/landing/pull/9",
       "title": "Added more supporters and bug fixes",
-      "stale_for": 18,
+      "stale_for": 20,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/ayushma/pull/519",
       "title": "Production Release: Switch to Milvus, Added GPT-4 support",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/7933",
       "title": "Reenabled discharge patient admitted to filter",
-      "stale_for": 28,
+      "stale_for": 30,
       "labels": [
         "needs review",
         "tested",
@@ -10611,30 +10699,29 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2204",
       "title": "Adds functionality for `last_consultation_admitted_bed_type_list` in discharge patient filters",
-      "stale_for": 9,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 16,
+      "stale_for": 18,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/7772",
       "title": "Added facility hubs",
-      "stale_for": 8,
+      "stale_for": 0,
       "labels": [
         "tested",
         "waiting for backend",
-        "merge conflict",
         "reviewed"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2135",
       "title": "Added Facility Hubs",
-      "stale_for": 9,
+      "stale_for": 0,
       "labels": []
     }
   ],

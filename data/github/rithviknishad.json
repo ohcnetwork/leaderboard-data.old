@@ -1,6 +1,55 @@
 {
-  "last_updated": "2024-09-12T07:03:17.000Z",
+  "last_updated": "2024-09-13T15:46:52.000Z",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8534",
+      "time": "2024-09-13T15:46:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8534",
+      "text": "Patient category not shown in log update details page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-13T15:02:32.000Z",
+      "title": "ohcnetwork/care_fe#8533",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8533#pullrequestreview-2303205106",
+      "text": "RadioFormField: changed optionDisplay to optionLabel in RadioFormField"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8511",
+      "time": "2024-09-13T11:26:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8511#issuecomment-2348709222",
+      "text": "@swayam-agrahari \nCurrently it is sorting by the 'name' attribute of the bed object by the backend.\n\nhttps://github.com/ohcnetwork/care/blob/develop/care/facility/api/viewsets/patient.py#L455\n\nhttps://github.com/ohcnetwork/care/blob/develop/care/facility/models/bed.py#L20"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8511",
+      "time": "2024-09-13T11:22:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8511#issuecomment-2348700621",
+      "text": "Hey, sure! Could you specify how this is going to be solved?"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8532",
+      "time": "2024-09-13T08:42:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8532",
+      "text": "Hide sections in log update details page if no data present"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2448",
+      "time": "2024-09-13T07:52:07.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2448",
+      "text": "Adds necessary fields for Community Nurse's log update"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-13T06:56:22.000Z",
+      "title": "ohcnetwork/care_fe#8531",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8531#pullrequestreview-2302117880",
+      "text": "Fixes Facility cover image edit button malfunctioning"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#8529",
@@ -51590,36 +51639,46 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8522",
-      "title": "Adds Community Nurse's Log; improved Nursing Care section UI",
+      "link": "https://github.com/ohcnetwork/care/pull/2448",
+      "title": "Adds necessary fields for Community Nurse's log update",
       "stale_for": 0,
       "labels": []
     },
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8522",
+      "title": "Adds Community Nurse's Log; improved Nursing Care section UI",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "waiting for backend"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/513",
       "title": "support for edge runtime (cloudflare compatability)",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8498",
       "title": "Updated blood pressure range",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "test failed",
+        "waiting for backend"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2410",
       "title": "Switch investigation default from `dict` to `list` and remove deprecated `prescriptions`",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2387",
       "title": "Improved asset bed relations for camera preset",
-      "stale_for": 21,
+      "stale_for": 22,
       "labels": [
         "In progress"
       ]
@@ -51627,13 +51686,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2386",
       "title": "Update JSON schema validations of Daily Round fields ",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 23,
+      "stale_for": 24,
       "labels": [
         "work-in-progress"
       ]
@@ -51641,7 +51700,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 17,
+      "stale_for": 18,
       "labels": [
         "P2"
       ]
