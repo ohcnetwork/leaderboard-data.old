@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-09-13T17:58:41.000Z",
+  "last_updated": "2024-09-14T18:19:26.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8511",
+      "time": "2024-09-14T18:19:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8511#issuecomment-2351091180",
+      "text": "@rithviknishad we could seperate the number from the name while filtering and based on the number and name we could sort the names and return the data, for the beds with same number but different names we could just let the names be sorted by the lexicographical order, while the whole list is first sorted based on bed number"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8511",
+      "time": "2024-09-14T12:53:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8511#issuecomment-2350980572",
+      "text": "@rithviknishad I just checked the `patient.last_consultation?.current_bed?.bed_object` in the frontend is the name over here the same as the `last_consultation__current_bed__bed__name` value?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8533",
