@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-09-17T22:25:34.000Z",
+  "last_updated": "2024-09-18T15:16:59.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8510",
+      "time": "2024-09-18T15:16:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8510#issuecomment-2358759070",
+      "text": "I have a few doubt about the above changes and wanted to confirm before raising the PR.\r\n\r\n1. `include category_id:2` mean that if it was `4` before , now updated category_id will be `4,2` \r\n2. `previously 2` what does this mean? and is the changes for this already made?\r\n3. `not mentioned on Harsh mohan sheet` at row 78, what does that mean ?\r\n\r\n@aparnacoronasafe "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-18T11:45:39.000Z",
+      "title": "ohcnetwork/care#2462",
+      "link": "https://github.com/ohcnetwork/care/pull/2462#pullrequestreview-2312444609",
+      "text": "Convert enum choices to integer choices in Daily Rounds"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2462",
@@ -1071,38 +1085,38 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care/pull/2462",
-      "title": "updated the reference for timeout value in function",
+      "title": "Convert enum choices to integer choices in Daily Rounds",
       "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2434",
       "title": "added timeout to middleware requests",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/44",
       "title": "Update 0008-pdf-generation.md",
-      "stale_for": 22,
+      "stale_for": 23,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2397",
       "title": " archived spo2 field to archived_spo2",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2361",
       "title": "added a request time logging middleware",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/1994",
       "title": "updated bed types",
-      "stale_for": 148,
+      "stale_for": 149,
       "labels": [
         "ops-review-pending"
       ]
@@ -1110,7 +1124,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/1941",
       "title": "Loading medibase and icd11 static json and migrations",
-      "stale_for": 120,
+      "stale_for": 121,
       "labels": [
         "waiting-for-review"
       ]
