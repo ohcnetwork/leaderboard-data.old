@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-09-19T15:08:28.000Z",
+  "last_updated": "2024-09-20T19:49:26.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2474",
+      "time": "2024-09-20T19:49:26.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2474",
+      "text": "Fixes default admin url"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_scribe#13",
+      "time": "2024-09-20T19:27:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_scribe/pull/13",
+      "text": "Added Scribe Feature Flags"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-20T07:41:33.000Z",
+      "title": "ohcnetwork/care#2222",
+      "link": "https://github.com/ohcnetwork/care/pull/2222#pullrequestreview-2317508142",
+      "text": "limit user details based on user type"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#7772",
@@ -10767,9 +10788,21 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2474",
+      "title": "Fixes default admin url",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_scribe/pull/13",
+      "title": "Added Scribe Feature Flags",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8536",
       "title": "Fixed bug with sidebar indicator",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "tested"
@@ -10778,16 +10811,16 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8512",
       "title": "Enable features from backend feature flags",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
-        "waiting for backend",
-        "merge conflict"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8504",
       "title": "Added support for time in dateinput component",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "work-in-progress",
         "merge conflict"
@@ -10796,7 +10829,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8469",
       "title": "Made Scribe be aware of existing data",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "waiting for more data",
         "merge conflict"
@@ -10805,41 +10838,31 @@
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
       "title": "Added scribe context",
-      "stale_for": 16,
+      "stale_for": 17,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/landing/pull/9",
       "title": "Added more supporters and bug fixes",
-      "stale_for": 26,
+      "stale_for": 27,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7933",
-      "title": "Reenabled discharge patient admitted to filter",
-      "stale_for": 36,
-      "labels": [
-        "needs review",
-        "tested",
-        "waiting for backend"
-      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2204",
       "title": "Adds functionality for `last_consultation_admitted_bed_type_list` in discharge patient filters",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 24,
+      "stale_for": 25,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/7772",
       "title": "Added facility hubs",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "tested",
         "waiting for backend",
@@ -10849,7 +10872,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2135",
       "title": "Added Facility Hubs",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": []
     }
   ],

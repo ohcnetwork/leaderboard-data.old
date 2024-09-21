@@ -1,6 +1,85 @@
 {
-  "last_updated": "2024-09-19T16:35:55.000Z",
+  "last_updated": "2024-09-20T14:53:47.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8562",
+      "time": "2024-09-20T14:53:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8562#issuecomment-2363922367",
+      "text": "@Sahil-Sinha-11 This works, however, it'd be appreciated if you could follow the contributing guidelines https://docs.ohc.network/docs/contributing/#how-to-contribute\r\n\r\nThis issue has already been assigned to @DraKen0009 recently."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8286",
+      "time": "2024-09-20T13:33:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8286#issuecomment-2363750112",
+      "text": "Also let the 3-dot button's variant be \"secondary\", also ensure it's square."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8286",
+      "time": "2024-09-20T13:32:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8286#issuecomment-2363748573",
+      "text": "Checkout `SelectMenuFormField`. Lets use Popover for both sort by and filter. The sort by popover can contain SelectMenuFormField as it's child."
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8577",
+      "time": "2024-09-20T11:45:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8577",
+      "text": "Staging Release v24.39.4",
+      "turnaround_time": 52
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8577",
+      "time": "2024-09-20T11:44:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8577",
+      "text": "Staging Release v24.39.4"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8576",
+      "time": "2024-09-20T11:43:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8576",
+      "text": "Rename procedure `Tracheostomy Tube Change` and fix oral issue not getting unselected",
+      "turnaround_time": 6485
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8286",
+      "time": "2024-09-20T08:44:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8286#issuecomment-2363191757",
+      "text": "This seems to be nested popovers which was not what I intended.\r\n\r\nLet's inline the filter contents to the first popover itself.\r\n\r\nAlso could you make the 3-dot menu to use to `<ButtonV2>`? The current button doesn't seem to be clickable.\r\n\r\n<img width=\"602\" alt=\"image\" src=\"https://github.com/user-attachments/assets/64de6bdc-ad2a-4a03-b0ea-b5319a726e7c\">\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8576",
+      "time": "2024-09-20T08:31:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8576",
+      "text": "Update nursing care procedure label for `Tracheostomy Change` to `Tracheostomy Tube Change`"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-20T06:23:47.000Z",
+      "title": "ohcnetwork/care#2386",
+      "link": "https://github.com/ohcnetwork/care/pull/2386#pullrequestreview-2317368359",
+      "text": "Update JSON schema validations of Daily Round fields "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-20T06:19:24.000Z",
+      "title": "ohcnetwork/care#2386",
+      "link": "https://github.com/ohcnetwork/care/pull/2386#pullrequestreview-2317362521",
+      "text": "Update JSON schema validations of Daily Round fields "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-20T01:23:36.000Z",
+      "title": "ohcnetwork/care#2472",
+      "link": "https://github.com/ohcnetwork/care/pull/2472#pullrequestreview-2317023604",
+      "text": "use random uuid suffix in cover image key with size validation"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-09-19T16:35:55.000Z",
@@ -52207,30 +52286,29 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/513",
       "title": "support for edge runtime (cloudflare compatability)",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8498",
-      "title": "Updated blood pressure range",
-      "stale_for": 1,
+      "title": "Updated blood pressure range and remove hyphen for infusion \"nor-adrenaline\"",
+      "stale_for": 0,
       "labels": [
         "needs review",
         "tested",
-        "waiting for backend",
-        "merge conflict"
+        "waiting for backend"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2410",
       "title": "Switch investigation default from `dict` to `list` and remove deprecated `prescriptions`",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2387",
       "title": "Improved asset bed relations for camera preset",
-      "stale_for": 28,
+      "stale_for": 0,
       "labels": [
         "In progress"
       ]
@@ -52244,7 +52322,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8253",
       "title": "Switch to newer camera feed 📷 components in Asset Configure ⚙️ page",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "work-in-progress"
       ]
@@ -52252,7 +52330,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2133",
       "title": "Prescriptions and MAR: Disallow users to perform edits on discharged encounters",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "P2"
       ]

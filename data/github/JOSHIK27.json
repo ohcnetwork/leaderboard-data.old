@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-09-17T18:11:35.000Z",
+  "last_updated": "2024-09-20T08:46:28.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8286",
+      "time": "2024-09-20T08:46:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8286#issuecomment-2363195953",
+      "text": "> This seems to be nested popovers which was not what I intended.\r\n> \r\n> Let's inline the filter contents to the first popover itself.\r\n> \r\n> Also could you make the 3-dot menu to use to `<ButtonV2>`? The current button doesn't seem to be clickable.\r\n> \r\n> <img alt=\"image\" width=\"602\" src=\"https://private-user-images.githubusercontent.com/25143503/369332894-64de6bdc-ad2a-4a03-b0ea-b5319a726e7c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjY4MjIyMjIsIm5iZiI6MTcyNjgyMTkyMiwicGF0aCI6Ii8yNTE0MzUwMy8zNjkzMzI4OTQtNjRkZTZiZGMtYWQyYS00YTAzLWIwZWEtYjUzMTlhNzI2ZTdjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTIwVDA4NDUyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYxMzA1NjVjMTU3ZTA5ZDk1MTkzMjA0NjA3YTJiZWFmOGQ2YTc4MDQ2M2E2ZWM4OTExYzcyNDRlMTFlMjZmOTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.-29nrhAtDaonDtxa2wbiowwiq9foPvESAJSKB2nc46E\">\r\n\r\nSure ill change. "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8286",
+      "time": "2024-09-20T08:36:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8286#issuecomment-2363176737",
+      "text": "> We could use a Popover with 3-dot menu or filters icon for both. And keep the sort by as an option (select menu) in the popover instead.\r\n\r\n\r\nis this how you wanted @rithviknishad ? Let me know if any changes required.\r\n\r\nhttps://github.com/user-attachments/assets/d098d94f-47b3-4176-a166-bb1a0b8dc4b3\r\n\r\n\r\n"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8552",
@@ -285,11 +299,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8390",
       "title": "Added Diagnosis at Discharge field when patient is discharged",
-      "stale_for": 7,
+      "stale_for": 0,
       "labels": [
-        "needs review",
-        "test failed",
-        "merge conflict"
+        "needs testing",
+        "needs review"
       ]
     }
   ],

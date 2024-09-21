@@ -89,7 +89,7 @@
     "url": "https://github.com/ohcnetwork/leaderboard/pull/513",
     "title": "support for edge runtime (cloudflare compatability)",
     "createdAt": "2024-09-09T08:15:06Z",
-    "updatedAt": "2024-09-17T14:06:01Z",
+    "updatedAt": "2024-09-20T15:08:30Z",
     "closedAt": null,
     "sprint": "Sep 2 24",
     "status": "In Progress",
@@ -105,7 +105,7 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8505",
     "title": "Use the new feature flag API for scribe",
     "createdAt": "2024-09-09T05:49:00Z",
-    "updatedAt": "2024-09-18T05:47:24Z",
+    "updatedAt": "2024-09-20T19:41:04Z",
     "closedAt": null,
     "sprint": "Sep 2 24",
     "category": "Frontend",
@@ -154,14 +154,16 @@
     "url": "https://github.com/ohcnetwork/care/issues/1754",
     "title": "Respond with an appropriate error message when the email provider is not configured",
     "createdAt": "2024-09-07T13:10:41Z",
-    "updatedAt": "2024-09-18T10:22:24Z",
+    "updatedAt": "2024-09-20T11:15:32Z",
     "closedAt": null,
     "sprint": "Sep 2 24",
     "category": "Backend",
     "status": "Up Next",
     "storyPoints": 1,
     "author": "sainak",
-    "assignees": []
+    "assignees": [
+      "Sulochan-khadka"
+    ]
   },
   "PVTI_lADOA7JD8804yM4EtO-U": {
     "type": "ISSUE",
@@ -719,7 +721,7 @@
     "url": "https://github.com/ohcnetwork/care_fe/pull/6223",
     "title": "Live Camera Feed Enhancement(Review, QA and testing)",
     "createdAt": "2024-09-03T01:53:04Z",
-    "updatedAt": "2024-09-18T23:55:28Z",
+    "updatedAt": "2024-09-20T15:50:22Z",
     "closedAt": null,
     "sprint": "Sep 2 24",
     "category": "Frontend",
@@ -805,7 +807,7 @@
     "url": "https://github.com/ohcnetwork/care/pull/2135",
     "title": "Added Facility Hubs",
     "createdAt": "2024-09-02T13:14:05Z",
-    "updatedAt": "2024-09-18T05:47:21Z",
+    "updatedAt": "2024-09-20T20:03:10Z",
     "closedAt": null,
     "sprint": "Sep 2 24",
     "category": "Backend",
@@ -821,7 +823,7 @@
     "url": "https://github.com/ohcnetwork/care/pull/2204",
     "title": "Adds functionality for `last_consultation_admitted_bed_type_list` in discharge patient filters",
     "createdAt": "2024-09-02T13:14:04Z",
-    "updatedAt": "2024-09-18T05:47:16Z",
+    "updatedAt": "2024-09-20T20:00:05Z",
     "closedAt": null,
     "sprint": "Sep 2 24",
     "category": "Backend",
@@ -4940,7 +4942,7 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8562",
     "title": "Enhancements to Nursing tab UI",
     "createdAt": "2024-09-18T14:16:22Z",
-    "updatedAt": "2024-09-19T15:00:35Z",
+    "updatedAt": "2024-09-20T15:32:43Z",
     "closedAt": null,
     "sprint": "Sep 2 24",
     "category": "Frontend",
@@ -4949,7 +4951,7 @@
     "priority": "Low",
     "author": "rithviknishad",
     "assignees": [
-      "DraKen0009"
+      "Sahil-Sinha-11"
     ],
     "focus": "Generic"
   },
@@ -5152,5 +5154,38 @@
     "assignees": [
       "rithviknishad"
     ]
+  },
+  "PVTI_lADOA7JD8804yM4EzWPk": {
+    "type": "PULL_REQUEST",
+    "url": "https://github.com/ohcnetwork/care/pull/2474",
+    "title": "Fixes default admin url",
+    "createdAt": "2024-09-20T19:50:10Z",
+    "updatedAt": "2024-09-20T19:56:39Z",
+    "closedAt": null,
+    "sprint": "Sep 2 24",
+    "category": "Backend",
+    "status": "Triage",
+    "storyPoints": 1,
+    "priority": "Low",
+    "author": "shivankacker",
+    "assignees": []
+  },
+  "PVTI_lADOA7JD8804yM4EzF31": {
+    "type": "PULL_REQUEST",
+    "url": "https://github.com/ohcnetwork/care_fe/pull/8576",
+    "title": "Rename procedure `Tracheostomy Tube Change` and fix oral issue not getting unselected",
+    "createdAt": "2024-09-20T09:55:34Z",
+    "updatedAt": "2024-09-20T11:43:45Z",
+    "closedAt": "2024-09-20T11:43:22Z",
+    "sprint": "Sep 2 24",
+    "category": "Frontend",
+    "status": "Done",
+    "storyPoints": 1,
+    "priority": "Medium",
+    "author": "rithviknishad",
+    "assignees": [
+      "rithviknishad"
+    ],
+    "focus": "Generic"
   }
 }
