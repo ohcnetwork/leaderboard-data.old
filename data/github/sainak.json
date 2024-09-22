@@ -1,6 +1,124 @@
 {
-  "last_updated": "2024-09-20T09:49:47.000Z",
+  "last_updated": "2024-09-21T18:31:48.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2478",
+      "time": "2024-09-21T18:31:48.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2478",
+      "text": "Fix UnorderedObjectListWarning in patient search api"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2477",
+      "time": "2024-09-21T18:20:19.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2477",
+      "text": "Avoid printing typst version in tests"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2476",
+      "time": "2024-09-21T18:12:02.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2476",
+      "text": "Fix warnings from drf where min/max values of DecimalField were not instances of Decimal"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8586",
+      "time": "2024-09-21T17:29:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8586",
+      "text": "Remove facility cover image upload tooltip"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8480",
+      "time": "2024-09-21T17:07:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8480#issuecomment-2365255462",
+      "text": "@rithviknishad we still need to remove \r\n\r\nhttps://github.com/ohcnetwork/care_fe/blob/f62ff79d8d17761500c9ec47b17e4428784d0fd4/src/Components/Facility/FacilityHome.tsx#L60\r\n\r\nhttps://github.com/ohcnetwork/care_fe/blob/f62ff79d8d17761500c9ec47b17e4428784d0fd4/src/Components/Facility/FacilityHome.tsx#L132-L138"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8489",
+      "time": "2024-09-21T14:22:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8489#issuecomment-2365206712",
+      "text": "with https://github.com/ohcnetwork/care/pull/2472\r\nwe don't need to cleared the cache anymore"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7661",
+      "time": "2024-09-21T14:21:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7661#issuecomment-2365206268",
+      "text": "resolved in https://github.com/ohcnetwork/care/pull/2472"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#7661",
+      "time": "2024-09-21T14:21:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7661",
+      "text": "Add Proper notification for Oversized cover image in facility page"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2475",
+      "time": "2024-09-21T10:44:09.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2475",
+      "text": "convert image validator aspect ratio to list",
+      "turnaround_time": 3963
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2475",
+      "time": "2024-09-21T09:38:07.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2475",
+      "text": "convert image validator aspect ratio to list"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2472",
+      "time": "2024-09-21T08:42:39.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2472",
+      "text": "use random uuid suffix in cover image key with size validation",
+      "turnaround_time": 132388
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care#2472",
+      "time": "2024-09-21T08:42:39.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2472",
+      "text": "use random uuid suffix in cover image key with size validation",
+      "collaborated_with": [
+        "sainak",
+        "vigneshhari"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-21T04:30:32.000Z",
+      "title": "ohcnetwork/care#2410",
+      "link": "https://github.com/ohcnetwork/care/pull/2410#pullrequestreview-2319648725",
+      "text": "Switch investigation default from `dict` to `list` and remove deprecated `prescriptions`"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-21T03:13:36.000Z",
+      "title": "ohcnetwork/care#2386",
+      "link": "https://github.com/ohcnetwork/care/pull/2386#pullrequestreview-2319640633",
+      "text": "Update JSON schema validations of Daily Round fields "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-21T03:05:15.000Z",
+      "title": "ohcnetwork/care#2474",
+      "link": "https://github.com/ohcnetwork/care/pull/2474#pullrequestreview-2319639631",
+      "text": "Fixes default admin url"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2160",
+      "time": "2024-09-21T02:58:18.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2160#issuecomment-2364961018",
+      "text": "@bodhish this needs a final review from vignesh"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2473",
@@ -17025,43 +17143,68 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2473",
-      "title": "Allow installing plugs from env",
+      "link": "https://github.com/ohcnetwork/care/pull/2478",
+      "title": "Fix UnorderedObjectListWarning in patient search api",
       "stale_for": 0,
       "labels": []
     },
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2472",
-      "title": "use random uuid suffix in cover image key with size validation",
+      "link": "https://github.com/ohcnetwork/care/pull/2477",
+      "title": "Avoid printing typst version in tests",
       "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2476",
+      "title": "Fix warnings from drf where min/max values of DecimalField were not instances of Decimal",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8586",
+      "title": "Remove facility cover image upload tooltip",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2473",
+      "title": "Allow installing plugs from env",
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2431",
       "title": "optimize events creation and improve indexes",
-      "stale_for": 13,
+      "stale_for": 14,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2414",
       "title": "disable default jwks for production deployments",
-      "stale_for": 16,
+      "stale_for": 17,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 25,
+      "stale_for": 26,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/1559",
       "title": "feat: use ruff",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2469",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2472"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care/issues/2423",
       "pr_link": "https://github.com/ohcnetwork/care/pull/2432"
@@ -17105,10 +17248,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/teleicu_middleware/issues/118",
       "pr_link": "https://github.com/ohcnetwork/care/pull/2000"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care/issues/1838",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/2193"
     }
   ]
 }
