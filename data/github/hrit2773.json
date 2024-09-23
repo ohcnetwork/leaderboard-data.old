@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-09-07T16:12:18.000Z",
+  "last_updated": "2024-09-22T18:26:54.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#1996",
+      "time": "2024-09-22T18:26:54.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/1996#issuecomment-2366904915",
+      "text": "> Why is this a background job? cant we just soft delete assets if the facility is archived? we cant add assets to a deleted facility right? @sainak\r\n\r\n@vigneshhari I did that initially but @sainak asked me to run an cron job"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8243",
@@ -1240,39 +1247,25 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8243",
       "title": "Vaccinnation details frontend new",
-      "stale_for": 0,
+      "stale_for": 13,
       "labels": [
-        "needs testing",
         "needs review",
+        "changes required",
         "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/27",
       "title": "[CEP-6] Added Vaccination model migration issue frontend and backend changes",
-      "stale_for": 1,
+      "stale_for": 16,
       "labels": [
         "CEP"
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2167",
-      "title": "Facility Search functionality improvement",
-      "stale_for": 101,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7696",
-      "title": "Adding proper error message for Camera config page",
-      "stale_for": 24,
-      "labels": [
-        "changes required"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care/pull/1996",
       "title": "Soft delete assets from deleted facilities/hospitals",
-      "stale_for": 15,
+      "stale_for": 0,
       "labels": []
     }
   ],
