@@ -9,4 +9,4 @@ joining_date: "11/03/2020"
 role: core
 ---
 
-Gigan to update your bio
+Engineering Lead | Leading Open Source Community at ohc.network | Building CARE (DPG) | Experimenting with Web (Django, React, ReScript, Spring) & GenAI
