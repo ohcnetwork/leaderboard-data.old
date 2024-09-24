@@ -1,6 +1,71 @@
 {
-  "last_updated": "2024-09-22T18:17:30.000Z",
+  "last_updated": "2024-09-23T17:38:59.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/teleicu_middleware#143",
+      "time": "2024-09-23T17:38:59.000Z",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/143",
+      "text": "Production release v24.39.0",
+      "collaborated_with": [
+        "khavinshankar",
+        "sainak",
+        "vigneshhari"
+      ]
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2471",
+      "time": "2024-09-23T15:26:09.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2471",
+      "text": "Allow installing plugs from environment variable"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-23T15:25:41.000Z",
+      "title": "ohcnetwork/care#2473",
+      "link": "https://github.com/ohcnetwork/care/pull/2473#pullrequestreview-2322635196",
+      "text": "Allow installing plugs from env"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2238",
+      "time": "2024-09-23T14:12:35.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2238",
+      "text": "Set default permission class to IsAuthenticated"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-23T14:12:01.000Z",
+      "title": "ohcnetwork/care#2473",
+      "link": "https://github.com/ohcnetwork/care/pull/2473#pullrequestreview-2322383517",
+      "text": "Allow installing plugs from env"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-23T14:07:55.000Z",
+      "title": "ohcnetwork/care#2268",
+      "link": "https://github.com/ohcnetwork/care/pull/2268#pullrequestreview-2322366874",
+      "text": "Set default permission class to IsAuthenticated & made required changes"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care#2487",
+      "time": "2024-09-23T14:06:09.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2487",
+      "text": "disable aspect ratio validation for images",
+      "collaborated_with": [
+        "sainak",
+        "vigneshhari"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-23T08:59:08.000Z",
+      "title": "ohcnetwork/care#2487",
+      "link": "https://github.com/ohcnetwork/care/pull/2487#pullrequestreview-2321540464",
+      "text": "disable aspect ratio validation for images"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-09-22T18:17:30.000Z",
@@ -12265,14 +12330,16 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care/pull/2483",
-      "title": "Fix linting in docs",
+      "title": "Fix all linting issues in care",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "blocked"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/6",
       "title": "[CEP-4] RBAC: initial spec",
-      "stale_for": 27,
+      "stale_for": 0,
       "labels": []
     }
   ],
