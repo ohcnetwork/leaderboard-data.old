@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-09-24T21:17:04.000Z",
+  "last_updated": "2024-09-25T17:22:46.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8629",
+      "time": "2024-09-25T17:22:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8629#issuecomment-2374715510",
+      "text": "> @AdityaJ2305 It seems like you've made some partial changes. When you're clearing the input text, it should not remove the selected values from the dropdown. Instead, it should only clear the input field. This is the desired behavior from the user's perspective. Could you please adjust this accordingly?\r\n\r\n\r\n> @chakribontha, in the screenshot, three facilities are selected: `testing, Thiruvananthapuram`  `Testing Other, Thiruvananthapuram` and `Testing Other12313, Thiruvananthapuram` with “3 selected” shown as text. Clicking the clear icon should only remove the “3 selected” text, not the selected facilities below. If I understand correctly, the clear icon is meant to allow users to reset and choose facilities again. By only clearing the text, this purpose isn’t fully met.\r\n<img width=\"1440\" alt=\"Screenshot 2024-09-25 at 10 39 39 PM\" src=\"https://github.com/user-attachments/assets/8f1f5ed4-74f3-4cf9-8801-280edf0ef5ee\">\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8627",
+      "time": "2024-09-25T14:51:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8627#issuecomment-2374326076",
+      "text": "Hey @nihal467, could you please assign me to this issue? Thanks!"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8629",
+      "time": "2024-09-25T14:22:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8629",
+      "text": "Fix: Clearing Facilities Field Causes White Screen #8610"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8610",
+      "time": "2024-09-25T09:41:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8610#issuecomment-2373583789",
+      "text": "Hey , @nihal467 @chakribontha , Could you assign this issue to me so that I can push the pr ? "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8610",
@@ -286,6 +314,13 @@
       "text": "Hey @rithviknishad, can you assign this issue to me?"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8629",
+      "title": "Fix: Clearing Facilities Field Causes White Screen #8610",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }
