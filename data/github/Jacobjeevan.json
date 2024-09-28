@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-09-26T08:24:42.000Z",
+  "last_updated": "2024-09-27T09:04:16.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8611",
+      "time": "2024-09-27T09:04:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8611#issuecomment-2378805617",
+      "text": "Included in #8612"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8633",
+      "time": "2024-09-27T05:37:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8633#issuecomment-2378437163",
+      "text": "For preventing the requests, we can add a hostname check for this scenario (cameraAsset.hostname corresponds to the ip address field).\r\n\r\n<img width=\"570\" alt=\"image\" src=\"https://github.com/user-attachments/assets/70770b31-0b26-4a69-9754-24f1e4fdeccd\">\r\n\r\nFor (2), the error notification is coming from fireRequest (getStreamToken, calling operateAsset):\r\n\r\n<img width=\"593\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5ee407de-dc79-483b-a058-710cd9c21655\">\r\n\r\nBut for this api call, backend is sending a detail object as data.\r\n\r\n<img width=\"602\" alt=\"image\" src=\"https://github.com/user-attachments/assets/f28e813f-c029-4add-a28f-d3712c014ff0\">\r\n\r\nOn a side note, I was testing with a random IP address (expecting a 500 response), however that doesn't trigger further API calls as error.response is not being returned in fireRequest. Should we not change that?\r\n\r\n<img width=\"578\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ceea61ee-9eff-4b87-bcdc-b6263ece9daa\">\r\n\r\nResp is undefined so it won't called onError function.\r\n\r\n<img width=\"466\" alt=\"image\" src=\"https://github.com/user-attachments/assets/f885cd1f-744b-46e5-b76f-5a8eb9163516\">\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8624",
@@ -294,7 +308,8 @@
       "title": "Added Asset Info Popover to Camera Feed in Consultation Page",
       "stale_for": 0,
       "labels": [
-        "needs testing"
+        "tested",
+        "Cypress Test Pending"
       ]
     }
   ],
