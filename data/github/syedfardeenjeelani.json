@@ -1,6 +1,49 @@
 {
-  "last_updated": "2024-09-28T13:42:42.000Z",
+  "last_updated": "2024-09-29T17:22:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8662",
+      "time": "2024-09-29T17:22:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8662#issuecomment-2381433715",
+      "text": "no problem @shauryag2002 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8662",
+      "time": "2024-09-29T17:06:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8662#issuecomment-2381428971",
+      "text": "@shauryag2002  i would like to try to contribute in this issue can you  assign it to me"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/leaderboard#517",
+      "time": "2024-09-29T16:46:21.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/517",
+      "text": "fix: Show nothing instead of 'Still waiting for this' on people page #498",
+      "turnaround_time": 4863
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#6316",
+      "time": "2024-09-29T15:49:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6316#issuecomment-2381405752",
+      "text": "hi @rithviknishad  i would like to try to  work on this can you please assign this to me "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard#517",
+      "time": "2024-09-29T15:25:18.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/517",
+      "text": "fix: Show nothing instead of 'Still waiting for this' on people page #498"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#498",
+      "time": "2024-09-29T06:09:32.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/498#issuecomment-2381123206",
+      "text": "@rithviknishad  can you please help me set it up locally i have facing many errors the first error was of github pat which i solved from the documentation the next error was\r\n![leaderboardError](https://github.com/user-attachments/assets/b3ee1a44-817b-433b-add2-aa588ca0983e)\r\nand if i follow the steps which are the possible solutions to fix this i get another error saying\r\n\r\n\r\nError: Cannot read properties of undefined (reading 'replace')\r\n\r\nSource\r\ncomponents/gh_events/OpenGraphImage.tsx (9:25) @ replace\r\n\r\n   7 |\r\n   8 | const OpenGraphImage = (props: { url: string; className?: string }) => {\r\n>  9 |   const src = props.url.replace(\r\n     |                         ^\r\n  10 |     \"https://github.com/\",\r\n  11 |     `https://opengraph.githubassets.com/${hashed(props.url)}/`,\r\n  12 |   );\r\n\r\n\r\n\r\n\r\nplease let me know what am i doing wrong"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard#498",
@@ -191,7 +234,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8637",
       "title": "fix: added tooltips for Discussion Notes icons (#8618)",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "tested"
       ]
@@ -199,7 +242,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8630",
       "title": "fix: resolved issue #8583 - Increased width to remove unnecessary scrollbar",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "changes required"
       ]

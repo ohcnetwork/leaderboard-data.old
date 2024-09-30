@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-09-27T11:56:54.000Z",
+  "last_updated": "2024-09-29T12:57:56.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8302",
+      "time": "2024-09-29T12:57:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8302#issuecomment-2381347565",
+      "text": "Hey @aparnacoronasafe @gigincg, could you please assign this issue to me if it's still available?\r\n\r\nI've almost finished the task. The payload now successfully sends the `nurse_qualification` key to the backend, and the qualification field is displaying properly in the user edit view for nurses. Until the backend updates the users list, the nurse qualification is showing as 'unknown,' similar to how it works for doctor qualifications.\r\n\r\nScreenshots for reference:\r\n<img width='403' alt='Screenshot 2024-09-29 at 6:17 PM' src='https://github.com/user-attachments/assets/206ea1ae-6861-4ec1-8c08-118443c87131'>\r\n<img width='363' alt='Screenshot 2024-09-29 at 6:18 PM' src='https://github.com/user-attachments/assets/c34607de-4dcf-4277-a8fc-71a3dd0f5875'>\r\n<img width=\"1102\" alt=\"Screenshot 2024-09-29 at 6 23 39 PM\" src=\"https://github.com/user-attachments/assets/67631e41-0efd-45b9-a02c-bb625589291e\">\r\n"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8651",
@@ -383,7 +390,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8632",
       "title": "fix: add bed notification",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": [
         "hacktoberfest-accepted",
         "tested"
