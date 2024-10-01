@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-09-29T12:57:56.000Z",
+  "last_updated": "2024-09-30T09:41:52.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8302",
+      "time": "2024-09-30T09:41:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8302#issuecomment-2382633882",
+      "text": "I have limited experience with Django and Python, but I’m willing to create the backend PR. Any guidance from the maintainers would be appreciated!"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8302",
+      "time": "2024-09-30T09:21:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8302#issuecomment-2382590485",
+      "text": "Understood! I'll update the frontend as per the issue. For the backend, I'll create a new issue to track the renaming of the field to `qualification` and handle the update accordingly. Let me know if there's anything else I should consider."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8302",
+      "time": "2024-09-30T05:48:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8302#issuecomment-2382166024",
+      "text": "@rithviknishad, I’m not certain if I’m allowed to comment on this, but since we’re already sending `doctor_qualification: undefined` for other user types, it might be better to update it to  `qualification` field instead of creating a new key like `nurse_qualification`. We can set the relevant values for both doctors and nurses while keeping it undefined for other user types. This approach would minimize backend changes.\r\n<img width=\"844\" alt=\"Screenshot 2024-09-30 at 11 08 13 AM\" src=\"https://github.com/user-attachments/assets/3b79ef4d-f188-43c8-bd1c-cdacf15e9653\">\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8302",
@@ -390,7 +411,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8632",
       "title": "fix: add bed notification",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "hacktoberfest-accepted",
         "tested"

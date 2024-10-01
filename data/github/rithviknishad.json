@@ -1,6 +1,206 @@
 {
-  "last_updated": "2024-09-29T16:46:22.000Z",
+  "last_updated": "2024-09-30T17:58:56.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8160",
+      "time": "2024-09-30T17:58:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8160#issuecomment-2383838666",
+      "text": "@noufalrahim feel free to pick up ones other issues assigned to you has PRs raised and approved."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8286",
+      "time": "2024-09-30T14:42:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8286#issuecomment-2383406946",
+      "text": "My bad, it's `SelectFormField` "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8672",
+      "time": "2024-09-30T14:40:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8672#issuecomment-2383402750",
+      "text": "Yes it's okay, just create an issue in backend repo too"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8672",
+      "time": "2024-09-30T14:16:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8672#issuecomment-2383340679",
+      "text": "@syedfardeenjeelani as mentioned, this requires backend validation first followed by FE validation.\r\n\r\nWould you be making the backend PR too? "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-30T14:04:00.000Z",
+      "title": "ohcnetwork/care_fe#8674",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8674#pullrequestreview-2337669757",
+      "text": "Merge Develop to Staging v24.40.0"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-30T14:02:33.000Z",
+      "title": "ohcnetwork/care_fe#8673",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8673#pullrequestreview-2337665822",
+      "text": "Fixed the Patient age formatting in shifting board"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#516",
+      "time": "2024-09-30T13:29:40.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/516#issuecomment-2383199608",
+      "text": "@dharmik3504 feel free to pick up other issues that are not assigned to anybody or ones that are assigned with no activity for more than a week."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8209",
+      "time": "2024-09-30T12:29:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8209#issuecomment-2383052916",
+      "text": "@himanshu-sharmav unassigning due to inactivity. Feel free to assign again and create a draft PR or ask questions if stuck on understanding something."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8131",
+      "time": "2024-09-30T12:28:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8131#issuecomment-2383050662",
+      "text": "@Shelly011s unassigned due to inactivity. Feel free to assign again if available and create a draft PR."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8541",
+      "time": "2024-09-30T12:24:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8541#issuecomment-2383043142",
+      "text": "@mhdsalih2000 unassigned due to inactivity"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8286",
+      "time": "2024-09-30T12:14:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8286#issuecomment-2383020644",
+      "text": "Hey @JOSHIK27 \n\nAny updates on this? Stuck somewhere?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-30T12:13:20.000Z",
+      "title": "ohcnetwork/care_fe#8394",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8394#pullrequestreview-2337325907",
+      "text": " Improve validation check for phone number in patient list page #8189"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8302",
+      "time": "2024-09-30T09:46:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8302#issuecomment-2382644398",
+      "text": "You can start by renaming instances of \"doctor_qualification\" with \"qualification\" in the backend repo (except for the ones that are in the existing migrations). \r\n\r\nAnd then you can run the `makemigrations` command to generate the `RenameField` DB schema migration which django generates for you automatically.\r\n\r\nReferences:\r\n- https://school.ohc.network/targets/19486\r\n- https://docs.djangoproject.com/en/5.1/ref/django-admin/#django-admin-makemigrations"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8302",
+      "time": "2024-09-30T09:24:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8302#issuecomment-2382595357",
+      "text": "Just confirming, would you be creating the backend PR also? "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-30T08:51:45.000Z",
+      "title": "ohcnetwork/care_fe#8671",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8671#pullrequestreview-2336801524",
+      "text": "Merge Develop To Staging v24.40.0 | Patch"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8667",
+      "time": "2024-09-30T08:50:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8667",
+      "text": "Fix: Enable Remove button functionality in Add Insurance section",
+      "collaborated_with": [
+        "chakribontha",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8664",
+      "time": "2024-09-30T08:50:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8664",
+      "text": "Bug: Remove Button Not Functioning in \"Add Insurance\" Section"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-09-30T08:45:36.000Z",
+      "title": "ohcnetwork/care_fe#8667",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8667#pullrequestreview-2336787083",
+      "text": "Fix: Enable Remove button functionality in Add Insurance section"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8302",
+      "time": "2024-09-30T07:44:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8302#issuecomment-2382352148",
+      "text": "Yes, let's proceed with:\r\n\r\n1. Rename the field in the backend to `qualification`\r\n2. Update the FE as per the requirements mentioned in the issue."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8511",
+      "time": "2024-09-30T07:42:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8511",
+      "text": "Patient sorting: Bed 1-N"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8668",
+      "time": "2024-09-30T06:23:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8668",
+      "text": "Migrate `useDispatch` to `request` for exports"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8633",
+      "time": "2024-09-30T05:29:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8633#issuecomment-2382144206",
+      "text": "@Jacobjeevan fixed in #8253 as that switches to using the newer feed component in the configure page which handles errors more appropriately."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8302",
+      "time": "2024-09-30T04:59:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8302#issuecomment-2382082045",
+      "text": "We already have a qualification field named `doctor_qualification`. Should we consider renaming the field to `qualification` instead of using it?\r\n\r\ncc: @gigincg "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8645",
+      "time": "2024-09-30T04:57:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8645#issuecomment-2382074423",
+      "text": "@ayushpatil2122 correction, it's not note, it's indicator. I've updated the issue.\r\n\r\ncc: @nihal467 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8663",
+      "time": "2024-09-30T04:53:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8663#issuecomment-2382055115",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/8662#issuecomment-2382054338"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8662",
+      "time": "2024-09-30T04:52:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8662#issuecomment-2382054338",
+      "text": "Closing as not relevant. Works fine without issues for the longest english dictionary word.\r\n\r\n<img width=\"424\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ec5836d2-dc2c-4810-8281-82991f9c34de\">\r\n"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8662",
+      "time": "2024-09-30T04:52:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8662",
+      "text": "Overflow text, z-index and reply functionality breaking in Notes section."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#498",
+      "time": "2024-09-30T04:01:58.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/498#issuecomment-2381960297",
+      "text": "@syedfardeenjeelani fixed in https://github.com/ohcnetwork/leaderboard/commit/2fac615eb3b332a07621285e8c2cc3be4ea272dd"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/leaderboard#498",
@@ -53450,16 +53650,26 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8668",
+      "title": "Migrate `useDispatch` to `request` for exports",
+      "stale_for": 0,
+      "labels": [
+        "tested"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2387",
       "title": "Improved asset bed relations for camera preset",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8253",
       "title": "📷 Support for linking multiple cameras to a bed",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "test failed"
+      ]
     }
   ],
   "authored_issue_and_pr": [
