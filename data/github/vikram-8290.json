@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-09-30T20:40:44.000Z",
+  "last_updated": "2024-10-01T16:27:35.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T16:27:35.000Z",
+      "title": "ohcnetwork/leaderboard#519",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/519#pullrequestreview-2340870318",
+      "text": "fix: Improve co-author parsing for pr_collaborated events"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#492",
+      "time": "2024-10-01T14:15:26.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/492#issuecomment-2386094921",
+      "text": "I have created a pull request #519  . Please Check and let me Know if i have made some mistake.\r\nThanks "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard#519",
+      "time": "2024-10-01T14:13:10.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/519",
+      "text": "fix: Improve co-author parsing for pr_collaborated events"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#492",
+      "time": "2024-10-01T07:58:49.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/492#issuecomment-2385058125",
+      "text": "Yes, you’re correct that using `matchAll` is a great way to capture all co-authors in the commit message. However, we still need a loop to process each match individually. \r\n\r\nHere’s why the loop is necessary:\r\n\r\n1. **Iterating Through Matches**: `matchAll` returns an iterator of all matches, and we need to loop through these matches to extract and process each co-author’s information.\r\n\r\n2. **Processing Logic**: For each co-author, we need to check for conditions such as whether they are blacklisted or whether their names/emails are in our caches. The loop allows us to implement this logic for every individual match.\r\n\r\nSo, while `matchAll` helps us find all the matches, the loop is essential for handling the processing of each co-author found in the commit message.\r\n\r\nIf you're open to it, I can go ahead and implement this fix!\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#492",
+      "time": "2024-10-01T07:48:24.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/492#issuecomment-2385038192",
+      "text": "Thanks for pointing that out! You're absolutely right—using `matchAll` is a more straightforward and efficient way to handle this. It avoids the need for extra looping, as `matchAll` directly returns an iterator over all matches.\r\n\r\nShould we consider making this change in issue #492? \r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#492",
+      "time": "2024-10-01T07:06:04.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/492#issuecomment-2384961881",
+      "text": "One thing I've identified is that the current implementation only captures a single match for the regex pattern /Co-authored-by: (.+) <(.+)>/, which can be problematic if there are multiple Co-authored-by entries in the commit message. Additionally, any slight variations in the format (like additional spaces or different capitalizations) could result in missed matches.\r\n\r\nProposed Fix:\r\n\r\nAdjust the regular expression or use a more robust method to handle multiple Co-authored-by entries.\r\nImplement a loop to capture all matches in the commit message rather than just the first occurrence.\r\nWould you like me to implement this fix, or do you foresee any other potential issues to consider before moving forward?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard#492",
@@ -9,6 +51,13 @@
       "text": "hii @rithviknishad  i want to work on this issue i have understand that what is wrong with this but not to get that where should i make this chances , is there any documentation so the reference, is there any way you can help with this,\r\nThanks."
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/519",
+      "title": "fix: Improve co-author parsing for pr_collaborated events",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }

@@ -1,6 +1,55 @@
 {
-  "last_updated": "2024-09-30T20:01:10.000Z",
+  "last_updated": "2024-10-01T18:51:31.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8681",
+      "time": "2024-10-01T18:51:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8681#issuecomment-2386728551",
+      "text": "@rithviknishad  I've made some changes based on your feedback, but I'm not sure if I got it right. Could you take a look at my PR when you get a chance and let me know if i am headed in the right direction or not ?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8681",
+      "time": "2024-10-01T14:15:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8681#issuecomment-2386095808",
+      "text": "@rithviknishad  if we do it like this \r\n if (\r\n    !value.policy_id.trim() ||\r\n    !value.subscriber_id.trim() ||\r\n    (enable_hcx && (!value.insurer_id?.trim() || !value.insurer_name?.trim()))\r\n  )\r\n    return t(\"field_required\");\r\n};\r\n\r\n\r\nthen it will also show it right here\r\n![issue](https://github.com/user-attachments/assets/18f3bd0a-5072-4dbc-9614-386f68011b9b)\r\n  so instead should a make a key which  says  \"all_fields_mandatory\": \"All fields are mandatory\"\r\n\r\nor should we handle both cases seprately \r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8685",
+      "time": "2024-10-01T14:09:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8685#issuecomment-2386080903",
+      "text": "@samholics  i would like to work on this issue can you please assign it to me"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8681",
+      "time": "2024-10-01T12:34:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8681#issuecomment-2385660234",
+      "text": "> yes\r\n\r\nThanks I'll do the changes and push "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8681",
+      "time": "2024-10-01T05:59:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8681#issuecomment-2384867727",
+      "text": "> @syedfardeenjeelani is this ready for review?\r\n\r\n we are getting the error from the validator.ts which is something like this\r\nif (\r\n!value.policy_id.trim() ||\r\n!value.subscriber_id.trim() ||\r\n(enable_hcx && (!value.insurer_id?.trim() || !value.insurer_name?.trim()))\r\n)\r\nreturn \"All fields are mandatory\";\r\n\r\nso should i use field_required from the i18n locale here instead of \"All fields are mandatory\""
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8672",
+      "time": "2024-10-01T05:57:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8672#issuecomment-2384866026",
+      "text": "@rithviknishad  we are getting the error from the validator.ts  which is something like this \r\n if (\r\n    !value.policy_id.trim() ||\r\n    !value.subscriber_id.trim() ||\r\n    (enable_hcx && (!value.insurer_id?.trim() || !value.insurer_name?.trim()))\r\n  )\r\n    return \"All fields are mandatory\";\r\n\r\n\r\nso should i use field_required from the i18n locale here instead of  \"All fields are mandatory\""
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8681",
+      "time": "2024-10-01T05:53:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8681",
+      "text": "fix: Added Validation for Insurance input fields in patient registration  issue (#8672)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8672",
@@ -274,18 +323,24 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8681",
+      "title": "fix: Added Validation for Insurance input fields in patient registration  issue (#8672)",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8637",
       "title": "fix: added tooltips for Discussion Notes icons (#8618)",
       "stale_for": 0,
       "labels": [
-        "tested",
-        "merge conflict"
+        "hacktoberfest-accepted",
+        "tested"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8630",
       "title": "fix: resolved issue #8583 - Increased width to remove unnecessary scrollbar",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": [
         "changes required"
       ]

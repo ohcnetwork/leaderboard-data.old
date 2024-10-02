@@ -1,6 +1,90 @@
 {
-  "last_updated": "2024-09-30T04:10:27.000Z",
+  "last_updated": "2024-10-01T09:19:29.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8299",
+      "time": "2024-10-01T09:19:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8299",
+      "text": "Discharge diagnosis"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T09:18:50.000Z",
+      "title": "ohcnetwork/care_fe#8390",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8390#pullrequestreview-2339630581",
+      "text": "Added Diagnosis at Discharge field when patient is discharged"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8480",
+      "time": "2024-10-01T09:18:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8480",
+      "text": "Remove the Tooltip Message After Cover Image Edit"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T09:17:40.000Z",
+      "title": "ohcnetwork/care_fe#8586",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8586#pullrequestreview-2339627860",
+      "text": "Remove facility cover image upload tooltip"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8632",
+      "time": "2024-10-01T09:17:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8632#issuecomment-2385251525",
+      "text": "@AdityaJ2305 can you make the necessary changes"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T09:15:05.000Z",
+      "title": "ohcnetwork/care_fe#8637",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8637#pullrequestreview-2339621961",
+      "text": "fix: added tooltips for Discussion Notes icons (#8618)"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8643",
+      "time": "2024-10-01T09:14:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8643",
+      "text": "Unable to see  full content of notes of prescriptions"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T09:14:18.000Z",
+      "title": "ohcnetwork/care_fe#8647",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8647#pullrequestreview-2339620309",
+      "text": "Remove \"read more\" for prescription notes in detailed view"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8658",
+      "time": "2024-10-01T09:13:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8658",
+      "text": "Infinite Loading State When Notification Permission is Blocked or granted"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T09:13:48.000Z",
+      "title": "ohcnetwork/care_fe#8659",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8659#pullrequestreview-2339619187",
+      "text": "Fix: Infinite Loading State When Notification is blocked or granted"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T09:12:31.000Z",
+      "title": "ohcnetwork/care_fe#8668",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8668#pullrequestreview-2339616291",
+      "text": "Migrate `useDispatch` to `request` for exports"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8683",
+      "time": "2024-10-01T07:05:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8683",
+      "text": "Upgrading Sample Tests & Investigations to Lab Orders for LIMS"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2506",
@@ -39277,7 +39361,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2506",
       "title": "Privacy consultation bed",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -39285,22 +39369,21 @@
       "title": "Added privacy toggle for a consultation bed and lock camera controls when used by a user",
       "stale_for": 0,
       "labels": [
-        "needs testing",
         "needs review",
-        "waiting for backend",
-        "merge conflict"
+        "test failed",
+        "waiting for backend"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8661",
       "title": "Added livekit setup for doctor connect",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/50",
       "title": "Added ABDM Docs for WASA Testing",
-      "stale_for": 20,
+      "stale_for": 21,
       "labels": []
     },
     {
@@ -39310,14 +39393,13 @@
       "labels": [
         "changes required",
         "merge conflict",
-        "stale",
         "Carried over"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8458",
       "title": "Hide sensitive user data for non admin users",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": [
         "needs review",
         "changes required",
@@ -39330,7 +39412,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8340",
       "title": "Abdm V3 Plug Support",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "needs review",
         "tested",
@@ -39341,19 +39423,19 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2313",
       "title": "Convert ABDM into Plug - Part 2/3",
-      "stale_for": 20,
+      "stale_for": 21,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2312",
       "title": "Convert ABDM into Plug - Part 3/3",
-      "stale_for": 29,
+      "stale_for": 30,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2222",
       "title": "limit user details based on user type",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": [
         "changes required"
       ]
@@ -39361,37 +39443,37 @@
     {
       "link": "https://github.com/ohcnetwork/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 147,
+      "stale_for": 148,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 1018,
+      "stale_for": 1019,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 1024,
+      "stale_for": 1025,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 1025,
+      "stale_for": 1026,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/life/pull/306",
       "title": "filtered duplicate tweets",
-      "stale_for": 10,
+      "stale_for": 11,
       "labels": []
     }
   ],

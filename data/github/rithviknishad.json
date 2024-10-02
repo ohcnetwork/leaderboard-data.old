@@ -1,6 +1,237 @@
 {
-  "last_updated": "2024-09-30T17:58:56.000Z",
+  "last_updated": "2024-10-01T16:26:55.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8394",
+      "time": "2024-10-01T16:26:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8394#issuecomment-2386461163",
+      "text": "@nihal467 if that's an issue isn't that issue relevant in all other Phone Number Form Fields too? The code now uses the same validator as the one used in all other phone number fields."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/leaderboard#516",
+      "time": "2024-10-01T16:25:21.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/516",
+      "text": "While hovering over the badges of the contributors the UI is not theme aware."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T16:25:01.000Z",
+      "title": "ohcnetwork/leaderboard#518",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/518#pullrequestreview-2340865462",
+      "text": "Make Contributor Badges Theme Aware"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T16:23:50.000Z",
+      "title": "ohcnetwork/leaderboard#519",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/519#pullrequestreview-2340863087",
+      "text": "fix: Improve co-author parsing for pr_collaborated events"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8681",
+      "time": "2024-10-01T16:22:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8681#issuecomment-2386451724",
+      "text": "Let's keep the error texts same as before itself, just that ensure ALL fields are required validation happens as mentioned in the issue."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8632",
+      "time": "2024-10-01T16:19:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8632#issuecomment-2386447019",
+      "text": "Let's keep the count"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2514",
+      "time": "2024-10-01T16:01:29.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2514",
+      "text": "Rename field `doctor_qualification` to `qualification`",
+      "turnaround_time": 32569
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T12:34:44.000Z",
+      "title": "ohcnetwork/care_fe#8679",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8679#pullrequestreview-2340070664",
+      "text": "Investigations Print Preview Page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8681",
+      "time": "2024-10-01T12:32:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8681#issuecomment-2385655726",
+      "text": "yes"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8390",
+      "time": "2024-10-01T09:19:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8390",
+      "text": "Added Diagnosis at Discharge field when patient is discharged",
+      "collaborated_with": [
+        "JOSHIK27",
+        "o",
+        "i",
+        "rithviknishad",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8647",
+      "time": "2024-10-01T09:14:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8647",
+      "text": "Remove \"read more\" for prescription notes in detailed view",
+      "collaborated_with": [
+        "vishwansh01",
+        "rithviknishad",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#516",
+      "time": "2024-10-01T09:13:20.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/516#issuecomment-2385243177",
+      "text": "loos good to me"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8668",
+      "time": "2024-10-01T09:12:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8668",
+      "text": "Migrate `useDispatch` to `request` for exports",
+      "turnaround_time": 96503
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T09:09:21.000Z",
+      "title": "ohcnetwork/care_fe#8659",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8659#pullrequestreview-2339609122",
+      "text": "Fix: Infinite Loading State When Notification is blocked or granted"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T09:08:17.000Z",
+      "title": "ohcnetwork/care_fe#8512",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8512#pullrequestreview-2339599514",
+      "text": "Enable features from backend feature flags"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#492",
+      "time": "2024-10-01T07:27:02.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/492#issuecomment-2384998168",
+      "text": "The core issue is, it's parsing authors incorrectly as mentioned in https://github.com/ohcnetwork/leaderboard/issues/492#issuecomment-2286338566\r\n\r\nFinding all co-authors, nice find, it can simply be done by using `matchAll` instead of `match` right? Why create a loop and all?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T07:04:11.000Z",
+      "title": "ohcnetwork/care_fe#8682",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8682#pullrequestreview-2339290162",
+      "text": "Temporary PR "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#516",
+      "time": "2024-10-01T07:01:05.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/516#issuecomment-2384953942",
+      "text": "Try white for the creative thinking section to add more contrast with the green text.\r\n\r\nOther than that LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8302",
+      "time": "2024-10-01T06:59:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8302#issuecomment-2384950789",
+      "text": "Here's the backend: https://github.com/ohcnetwork/care/pull/2514"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2514",
+      "time": "2024-10-01T06:58:41.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2514",
+      "text": "Rename field `doctor_qualification` to `qualification`"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#516",
+      "time": "2024-10-01T06:24:09.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/516#issuecomment-2384899154",
+      "text": "Thanks @dharmik3504 ;\r\n\r\nUpdated in: https://github.com/ohcnetwork/leaderboard/commit/f5c735c37e767f2d4c7bf93ea0ff95bd988a11c8"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#516",
+      "time": "2024-10-01T06:19:53.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/516#issuecomment-2384893567",
+      "text": "Try pulling the latest main branch now; fixed in: https://github.com/ohcnetwork/leaderboard/commit/8c3cae9119227bf2c5c9c469d6648ee9067d1947"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#516",
+      "time": "2024-10-01T06:07:03.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/516#issuecomment-2384877226",
+      "text": "Weird, we already have it exported.\r\n\r\n\r\n<img width=\"942\" alt=\"image\" src=\"https://github.com/user-attachments/assets/85b3bce5-a7af-4a4d-b523-9405ae997bdb\">\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8681",
+      "time": "2024-10-01T05:56:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8681#issuecomment-2384864481",
+      "text": "@syedfardeenjeelani is this ready for review?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T05:54:19.000Z",
+      "title": "ohcnetwork/care_fe#8680",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8680#pullrequestreview-2339184588",
+      "text": "Re-build sidebar UI"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T04:48:53.000Z",
+      "title": "ohcnetwork/care_fe#8678",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8678#pullrequestreview-2339106827",
+      "text": "feat:Added units to Length and Width in Pressure Sore (#8209)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8675",
+      "time": "2024-10-01T04:44:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8675#issuecomment-2384776209",
+      "text": "@Shelly011s closing as the changes made in this PR is irrelevant to the linked issue and a more appropriate solution path has been achieved in another PR (#8677).\r\n\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T04:43:13.000Z",
+      "title": "ohcnetwork/care_fe#8677",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8677#pullrequestreview-2339100572",
+      "text": "feat/Added bed number in location card (#8131)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-01T03:57:22.000Z",
+      "title": "ohcnetwork/care_fe#8676",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8676#pullrequestreview-2339063329",
+      "text": "feat: Added Oral as default value for route in Domiciliary Care (#8303)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#492",
+      "time": "2024-10-01T03:54:29.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/492#issuecomment-2384731669",
+      "text": "https://docs.ohc.network/docs/leaderboard/gsoc-2024/refactor-scraper#3-parseeventsts\r\n\r\nhttps://github.com/ohcnetwork/leaderboard/blob/ad4cb04bb06f1d51e952ab99263870dfcf08b30e/scraper/src/github-scraper/parseEvents.ts#L53-L55"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8672",
+      "time": "2024-10-01T03:51:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8672#issuecomment-2384729111",
+      "text": "Use `field_required` from the i18n locale (`useTranslations`) for the required field errors. Also ensure that this error is present only for fields having the prop `required=true` set.\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8160",
@@ -53650,17 +53881,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8668",
-      "title": "Migrate `useDispatch` to `request` for exports",
-      "stale_for": 0,
-      "labels": [
-        "tested"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care/pull/2387",
       "title": "Improved asset bed relations for camera preset",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
