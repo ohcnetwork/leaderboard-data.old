@@ -4853,7 +4853,7 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8541",
     "title": "Facility page view in mobile phones are breaking in some devices",
     "createdAt": "2024-09-17T12:34:34Z",
-    "updatedAt": "2024-10-01T19:06:01Z",
+    "updatedAt": "2024-10-02T20:23:48Z",
     "closedAt": null,
     "sprint": "Oct 1 24",
     "category": "Frontend",
@@ -4861,8 +4861,9 @@
     "storyPoints": 1,
     "priority": "Medium",
     "author": "nihal467",
-    "assignees": [],
-    "focus": "Generic"
+    "assignees": [
+      "Jash2606"
+    ]
   },
   "PVTI_lADOA7JD8804yM4ExXjL": {
     "type": "ISSUE",
@@ -5470,7 +5471,7 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8609",
     "title": "Create a Board View for release",
     "createdAt": "2024-09-24T09:58:50Z",
-    "updatedAt": "2024-10-01T14:24:24Z",
+    "updatedAt": "2024-10-02T18:56:55Z",
     "closedAt": null,
     "sprint": "Oct 1 24",
     "status": "In Progress",
@@ -5784,7 +5785,7 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8621",
     "title": "Community nurse log update- critical are index",
     "createdAt": "2024-09-26T16:41:55Z",
-    "updatedAt": "2024-10-01T18:48:47Z",
+    "updatedAt": "2024-10-02T16:47:44Z",
     "closedAt": null,
     "sprint": "Oct 1 24",
     "category": "Frontend",
@@ -6054,11 +6055,11 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8627",
     "title": "Modify bed creation notification to show proper action related notification",
     "createdAt": "2024-09-26T06:08:49Z",
-    "updatedAt": "2024-10-01T23:39:57Z",
-    "closedAt": null,
+    "updatedAt": "2024-10-02T19:41:15Z",
+    "closedAt": "2024-10-02T19:41:13Z",
     "sprint": "Oct 1 24",
     "category": "Frontend",
-    "status": "Review required",
+    "status": "Done",
     "storyPoints": 1,
     "priority": "Low",
     "author": "nihal467",
@@ -6216,7 +6217,7 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8670",
     "title": "POC: Migrate Cypress to Playwright for Initial Evaluation",
     "createdAt": "2024-09-30T08:10:10Z",
-    "updatedAt": "2024-10-01T13:18:43Z",
+    "updatedAt": "2024-10-02T18:49:22Z",
     "closedAt": null,
     "sprint": "Oct 1 24",
     "category": "Frontend",
@@ -6282,7 +6283,7 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8684",
     "title": "Google Map API is failing in create facility form of deploy preview's",
     "createdAt": "2024-10-01T10:12:39Z",
-    "updatedAt": "2024-10-01T17:43:03Z",
+    "updatedAt": "2024-10-02T18:51:29Z",
     "closedAt": null,
     "status": "Triage",
     "author": "nihal467",
@@ -6335,5 +6336,103 @@
     "assignees": [
       "thecodephilic-guy"
     ]
+  },
+  "PVTI_lADOA7JD8804yM4E4pkO": {
+    "type": "PULL_REQUEST",
+    "url": "https://github.com/ohcnetwork/care_fe/pull/8692",
+    "title": "Allows configuring available languages through env and adds Hindi to CARE",
+    "createdAt": "2024-10-02T19:58:14Z",
+    "updatedAt": "2024-10-02T22:49:35Z",
+    "closedAt": null,
+    "sprint": "Oct 1 24",
+    "category": "Frontend",
+    "status": "Review required",
+    "storyPoints": 1,
+    "priority": "Low",
+    "author": "shivankacker",
+    "assignees": [
+      "shivankacker"
+    ]
+  },
+  "PVTI_lADOA7JD8804yM4E4oHX": {
+    "type": "ISSUE",
+    "url": "https://github.com/ohcnetwork/care_fe/issues/8611",
+    "title": "Change \"Ventilator Spo2\" to \"Spo2\" On Events Module",
+    "createdAt": "2024-10-02T19:00:53Z",
+    "updatedAt": "2024-10-02T19:07:46Z",
+    "closedAt": null,
+    "sprint": "Oct 1 24",
+    "category": "Frontend",
+    "status": "In Progress",
+    "storyPoints": 1,
+    "author": "samholics",
+    "assignees": [
+      "Jacobjeevan"
+    ]
+  },
+  "PVTI_lADOA7JD8804yM4E4oFJ": {
+    "type": "ISSUE",
+    "url": "https://github.com/ohcnetwork/care_fe/issues/8612",
+    "title": "Change the \"Ventilator Interface\" when Respiratory Support Selected as \"Oxygen Support\"",
+    "createdAt": "2024-10-02T18:59:23Z",
+    "updatedAt": "2024-10-02T19:07:02Z",
+    "closedAt": null,
+    "sprint": "Oct 1 24",
+    "category": "Frontend",
+    "status": "In Progress",
+    "storyPoints": 1,
+    "priority": "Low",
+    "author": "samholics",
+    "assignees": [
+      "Jacobjeevan"
+    ]
+  },
+  "PVTI_lADOA7JD8804yM4E4nmV": {
+    "type": "ISSUE",
+    "url": "https://github.com/ohcnetwork/care_fe/issues/8691",
+    "title": "Add a better search UI for patients index page",
+    "createdAt": "2024-10-02T18:38:08Z",
+    "updatedAt": "2024-10-02T18:38:39Z",
+    "closedAt": null,
+    "sprint": "Oct 1 24",
+    "category": "Frontend",
+    "status": "Up Next",
+    "priority": "High",
+    "author": "bodhish",
+    "assignees": [],
+    "focus": "Generic"
+  },
+  "PVTI_lADOA7JD8804yM4E4QpI": {
+    "type": "ISSUE",
+    "url": "https://github.com/ohcnetwork/care_fe/issues/8685",
+    "title": "Add tooltip for Expand,Profile and Logout",
+    "createdAt": "2024-10-02T07:30:35Z",
+    "updatedAt": "2024-10-02T07:32:40Z",
+    "closedAt": null,
+    "sprint": "Oct 1 24",
+    "category": "Frontend",
+    "status": "Up Next",
+    "storyPoints": 1,
+    "author": "samholics",
+    "assignees": [
+      "anandaashish74711"
+    ],
+    "focus": "Generic"
+  },
+  "PVTI_lADOA7JD8804yM4E4N3g": {
+    "type": "PULL_REQUEST",
+    "url": "https://github.com/ohcnetwork/care_fe/pull/8690",
+    "title": "Updated README to include info on translations",
+    "createdAt": "2024-10-02T05:42:45Z",
+    "updatedAt": "2024-10-02T19:13:43Z",
+    "closedAt": "2024-10-02T19:13:30Z",
+    "sprint": "Oct 1 24",
+    "category": "Frontend",
+    "status": "Done",
+    "storyPoints": 1,
+    "priority": "Low",
+    "author": "shivankacker",
+    "assignees": [],
+    "focus": "Generic"
   }
 }
