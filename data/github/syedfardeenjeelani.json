@@ -1,6 +1,45 @@
 {
-  "last_updated": "2024-10-01T18:51:31.000Z",
+  "last_updated": "2024-10-03T14:41:08.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8653",
+      "time": "2024-10-03T14:41:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8653",
+      "text": "Production Release v24.40.0",
+      "collaborated_with": [
+        "rithviknishad",
+        "Nithin9585",
+        "o",
+        "i",
+        "A",
+        "sainak",
+        "khavinshankar",
+        "nihal467",
+        "h",
+        "Jacobjeevan",
+        "7",
+        "shivankacker",
+        "UdaySagar-Git",
+        "vishwansh01",
+        "AdityaJ2305",
+        "syedfardeenjeelani"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8681",
+      "time": "2024-10-03T06:04:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8681#issuecomment-2390592680",
+      "text": "> Only validation logic in this file needs to be modified: https://github.com/ohcnetwork/care_fe/blob/develop/src/Components/HCX/validators.ts\r\n\r\nhey @rithviknishad  should it be something like this \r\nif (!value.policy_id.trim()) {\r\n    return \"some err message\";\r\n  } else if (!value.subscriber_id.trim()) {\r\n    return \"some err message\";\r\n  }\r\n  if (enable_hcx) {\r\n    if (!value.insurer_id?.trim()) {\r\n      return \"some err message\";\r\n    } else if (!value.insurer_name?.trim()) {\r\n      return \"some err message\";\r\n    }\r\n  }  \r\n\r\nalso do we only have to change this particular file and nothing else "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-03T05:10:49.000Z",
+      "title": "ohcnetwork/care_fe#8637",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8637#pullrequestreview-2344661489",
+      "text": "fix: added tooltips for Discussion Notes icons (#8618)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8681",
@@ -333,14 +372,14 @@
       "title": "fix: added tooltips for Discussion Notes icons (#8618)",
       "stale_for": 0,
       "labels": [
-        "hacktoberfest-accepted",
-        "tested"
+        "changes required",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8630",
       "title": "fix: resolved issue #8583 - Increased width to remove unnecessary scrollbar",
-      "stale_for": 5,
+      "stale_for": 7,
       "labels": [
         "changes required"
       ]

@@ -1,6 +1,52 @@
 {
-  "last_updated": "2024-10-01T07:03:15.000Z",
+  "last_updated": "2024-10-03T14:41:08.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8653",
+      "time": "2024-10-03T14:41:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8653",
+      "text": "Production Release v24.40.0",
+      "collaborated_with": [
+        "rithviknishad",
+        "Nithin9585",
+        "o",
+        "i",
+        "A",
+        "sainak",
+        "khavinshankar",
+        "nihal467",
+        "h",
+        "Jacobjeevan",
+        "7",
+        "shivankacker",
+        "UdaySagar-Git",
+        "vishwansh01",
+        "AdityaJ2305",
+        "syedfardeenjeelani"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8612",
+      "time": "2024-10-03T13:27:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8612#issuecomment-2391423057",
+      "text": "\n>     * [ ] Change the Ventilator Spo2 to Spo2\n\nhttps://github.com/ohcnetwork/care/pull/2397 takes care of this 👍 \n\n>     * [ ] Change the Ventilator Oxygen Modality to Oxygen Modality\n>     * [ ] Change the Ventilator Oxygen Modality Oxygen Flow Rate to Oxygen Flow Rate\n\nIncluding these two in https://github.com/ohcnetwork/care_fe/issues/8612 as I need them there as well."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8264",
+      "time": "2024-10-03T11:13:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8264#issuecomment-2391150132",
+      "text": "I've added the vertical line as a marker, though it looks a bit weird when we switch to bar graph.\n\n![Image](https://github.com/user-attachments/assets/12691cee-4b08-4cbe-8b1b-64f64d0889ab)\n\n![Image](https://github.com/user-attachments/assets/32e79465-9cd4-4052-89e5-093cdc29bdab)\n\nOn a side note, if we adding the modality in the graphs themselves, wouldn't it make more sense to add the line markers to the points themselves, than the mid-points 🤔 @nihal467 \n\nFor ex: with the marker line, the image (in the original post) makes it seem like C-PAP started before 2:32 on 19/08/2024.\n\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8679",
+      "time": "2024-10-03T05:22:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8679#issuecomment-2390549214",
+      "text": ">   * [x]  in mobile view, the inputted data in the field is not visible\r\n>   * [x]  reduce the width of the value field in normal view, as its not that much required\r\n>   * [x]  when we save the edited value, the users have been redirected to the consultation dashboard, it shouldn't be the expected behavior, keep the user in the same page itself to view the updated value\r\n\r\n👍  @nihal467 "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8264",
@@ -348,7 +394,7 @@
       "title": "Investigations Print Preview Page",
       "stale_for": 0,
       "labels": [
-        "test failed"
+        "needs testing"
       ]
     }
   ],

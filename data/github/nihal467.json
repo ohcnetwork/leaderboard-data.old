@@ -1,6 +1,154 @@
 {
-  "last_updated": "2024-10-01T13:08:04.000Z",
+  "last_updated": "2024-10-03T14:41:54.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2504",
+      "time": "2024-10-03T14:41:54.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2504",
+      "text": "Production Release v24.40.0",
+      "turnaround_time": 520851
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8653",
+      "time": "2024-10-03T14:41:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8653",
+      "text": "Production Release v24.40.0",
+      "turnaround_time": 520865
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8653",
+      "time": "2024-10-03T14:41:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8653",
+      "text": "Production Release v24.40.0",
+      "collaborated_with": [
+        "rithviknishad",
+        "Nithin9585",
+        "o",
+        "i",
+        "A",
+        "sainak",
+        "khavinshankar",
+        "nihal467",
+        "h",
+        "Jacobjeevan",
+        "7",
+        "shivankacker",
+        "UdaySagar-Git",
+        "vishwansh01",
+        "AdityaJ2305",
+        "syedfardeenjeelani"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8694",
+      "time": "2024-10-03T12:12:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8694",
+      "text": "Fix: Qualification field for nurse user type",
+      "collaborated_with": [
+        "AdityaJ2305",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8264",
+      "time": "2024-10-03T11:38:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8264#issuecomment-2391202736",
+      "text": "> I've added the vertical line as a marker, though it looks a bit weird when we switch to bar graph.\n> \n> ![Image](https://github.com/user-attachments/assets/12691cee-4b08-4cbe-8b1b-64f64d0889ab)\n> \n> ![Image](https://github.com/user-attachments/assets/32e79465-9cd4-4052-89e5-093cdc29bdab)\n> \n> On a side note, if we adding the modality in the graphs themselves, wouldn't it make more sense to add the line markers to the points themselves, than the mid-points 🤔 [<img alt=\"\" width=\"16\" height=\"16\" src=\"https://avatars.githubusercontent.com/u/57055998?s=64&amp;u=0144bda6b4f846b21d53b8ebab7d12af95ac557c&amp;v=4\">@nihal467](https://github.com/nihal467)\n> \n> For ex: with the marker line, the image (in the original post) makes it seem like C-PAP started before 2:32 on 19/08/2024.\n\n@aparnacoronasafe can you comment on this"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8692",
+      "time": "2024-10-03T11:16:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8692#issuecomment-2391157118",
+      "text": "@shivankacker iam seeing commits and conversation going on, is it good for testing"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8679",
+      "time": "2024-10-03T10:30:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8679#issuecomment-2391066347",
+      "text": "![image](https://github.com/user-attachments/assets/961f3f02-48af-41c6-b12f-9f85600293e8)\r\n\r\n@aparnacoronasafe can you look into the new investigation print preview, without requesting @Jacobjeevan added patient admission, IP/OP no, allergies, and bed no to the print preview of the investigation, is it ok to keep it or should we remove them and only keep the patient name and facility name in the investigation print preview"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8016",
+      "time": "2024-10-03T10:01:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8016#issuecomment-2391009296",
+      "text": "@UdaySagar-Git can you do the below-mentioned things for review :\r\n\r\n- [ ] fix the lint and test in the co-related backend PR\r\n- [ ] The doctor notes related cypress test is failing in the frontend, can you attach the screenshot of the test passing in your local"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8688",
+      "time": "2024-10-03T09:51:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8688#issuecomment-2390991390",
+      "text": "@shauryag2002 \r\n![image](https://github.com/user-attachments/assets/6f5826ed-18c5-4d14-8761-d160de0c4eb4)\r\n\r\n- [ ] Remove the notification, when the camera feed is on. Notification is only required when the permission is denied"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8693",
+      "time": "2024-10-03T09:37:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8693#issuecomment-2390962803",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8694",
+      "time": "2024-10-03T09:29:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8694#issuecomment-2390946191",
+      "text": "@AdityaJ2305 can you push the request changes ASAP, since the related backend is merged, the frontend functionality is failing in develop"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8694",
+      "time": "2024-10-03T08:34:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8694#issuecomment-2390834562",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8694",
+      "time": "2024-10-03T07:49:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8694#issuecomment-2390748622",
+      "text": "Testing Note [ In Progress ]\r\n\r\n- [ ] verify reflection in the patient consultation page\r\n- [ ] user skill addition in user tab card\r\n- [ ] edit profile user skills\r\n- [ ] doctor connect slideover "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2518",
+      "time": "2024-10-03T07:39:28.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2518",
+      "text": "Merge Develop To Staging v24.41.0"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8695",
+      "time": "2024-10-03T07:38:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8695",
+      "text": "Merge Develop To Staging v24.41.0"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8670",
+      "time": "2024-10-03T05:02:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8670#issuecomment-2390522798",
+      "text": "> Jest\r\n\r\n- Cypress lacks auto-waiting for delayed API responses; Playwright handles this automatically, reducing flaky tests.\r\n- Cypress 13.0+ discontinued third-party integrations for test coverage report generation \r\n- Cypress runs tests in one browser at a time; Playwright supports in-built multi-browser parallel testing.\r\n- Cypress is slower compared to Playwright.\r\n\r\nNote: I am still working on the POC to understand if it's worth doing the migration\r\n\r\n- Jest isn't ideal for E2E testing and lacks a head UI, making debugging slower with only console logs and breakpoints."
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8512",
+      "time": "2024-10-03T02:46:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8512",
+      "text": "Enable features from backend feature flags",
+      "collaborated_with": [
+        "shivankacker",
+        "khavinshankar",
+        "nihal467"
+      ]
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8394",
@@ -43946,14 +44094,14 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2504",
-      "title": "Production Release v24.40.0",
-      "stale_for": 1,
+      "link": "https://github.com/ohcnetwork/care/pull/2518",
+      "title": "Merge Develop To Staging v24.41.0",
+      "stale_for": 0,
       "labels": []
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8653",
-      "title": "Production Release v24.40.0",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8695",
+      "title": "Merge Develop To Staging v24.41.0",
       "stale_for": 0,
       "labels": []
     }

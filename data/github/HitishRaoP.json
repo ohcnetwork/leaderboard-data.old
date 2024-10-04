@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-10-02T04:02:06.000Z",
+  "last_updated": "2024-10-03T09:18:21.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-03T09:18:21.000Z",
+      "title": "ohcnetwork/care_fe#8689",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8689#pullrequestreview-2345077453",
+      "text": "Reduce the Notification Message display timings"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#8689",
@@ -100,15 +107,6 @@
       "text": "By adding a delay option in the notify configuration, we can control the visibility duration of notifications. This can be set to a reasonable default (e.g., 1000 milliseconds), while still allowing users to adjust it based on their requirements.\r\n\r\nFile : https://github.com/HitishRaoP/care_fe/blob/develop/src/Utils/Notifications.js\r\n\r\nRelevant code:\r\n![Screenshot 2024-09-10 114610](https://github.com/user-attachments/assets/acaa34b9-f758-41e1-9b24-9699d7ca1e12)"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8689",
-      "title": "Reduce the Notification Message display timings",
-      "stale_for": 0,
-      "labels": [
-        "needs testing"
-      ]
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }
