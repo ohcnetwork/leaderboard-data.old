@@ -1,6 +1,35 @@
 {
-  "last_updated": "2024-10-03T09:18:21.000Z",
+  "last_updated": "2024-10-04T10:14:25.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8695",
+      "time": "2024-10-04T10:14:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8695",
+      "text": "Merge Develop To Staging v24.41.0",
+      "collaborated_with": [
+        "Jacobjeevan",
+        "rithviknishad",
+        "shauryag2002",
+        "vishwansh01",
+        "sainak",
+        "JOSHIK27",
+        "o",
+        "i",
+        "shivankacker",
+        "AdityaJ2305",
+        "7",
+        "HitishRaoP",
+        "Jash2606"
+      ]
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8702",
+      "time": "2024-10-04T02:55:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8702",
+      "text": "Death report is missing patient age"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-10-03T09:18:21.000Z",
@@ -107,6 +136,16 @@
       "text": "By adding a delay option in the notify configuration, we can control the visibility duration of notifications. This can be set to a reasonable default (e.g., 1000 milliseconds), while still allowing users to adjust it based on their requirements.\r\n\r\nFile : https://github.com/HitishRaoP/care_fe/blob/develop/src/Utils/Notifications.js\r\n\r\nRelevant code:\r\n![Screenshot 2024-09-10 114610](https://github.com/user-attachments/assets/acaa34b9-f758-41e1-9b24-9699d7ca1e12)"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8702",
+      "title": "Death report is missing patient age",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "tested"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

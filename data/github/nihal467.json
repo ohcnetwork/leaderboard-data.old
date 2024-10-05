@@ -1,6 +1,107 @@
 {
-  "last_updated": "2024-10-03T14:41:54.000Z",
+  "last_updated": "2024-10-04T20:28:13.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8692",
+      "time": "2024-10-04T20:28:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8692#issuecomment-2394519833",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8666",
+      "time": "2024-10-04T19:59:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8666#issuecomment-2394483047",
+      "text": "@khavinshankar as a basic version of privacy control it looks good, file the enhancement as new issue"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8704",
+      "time": "2024-10-04T19:42:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8704#issuecomment-2394459467",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8681",
+      "time": "2024-10-04T19:39:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8681#issuecomment-2394454518",
+      "text": "@rithviknishad can you verify is it ready for testing "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8700",
+      "time": "2024-10-04T19:37:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8700#issuecomment-2394453109",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8679",
+      "time": "2024-10-04T19:29:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8679#issuecomment-2394441775",
+      "text": "@Jacobjeevan that would be good to do it"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8714",
+      "time": "2024-10-04T19:18:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8714",
+      "text": "POC: Compare Playwright with existing cypress test workflow"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8711",
+      "time": "2024-10-04T16:21:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8711",
+      "text": "Merge Develop to Staging | Patch",
+      "turnaround_time": 44
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8711",
+      "time": "2024-10-04T16:20:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8711",
+      "text": "Merge Develop to Staging | Patch"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8710",
+      "time": "2024-10-04T16:18:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8710#issuecomment-2394049741",
+      "text": "LGTM"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2518",
+      "time": "2024-10-04T10:14:50.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2518",
+      "text": "Merge Develop To Staging v24.41.0",
+      "turnaround_time": 95723
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8695",
+      "time": "2024-10-04T10:14:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8695",
+      "text": "Merge Develop To Staging v24.41.0",
+      "turnaround_time": 95753
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8703",
+      "time": "2024-10-04T09:33:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8703#issuecomment-2393278728",
+      "text": "LGTM,"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8680",
+      "time": "2024-10-04T09:22:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8680#issuecomment-2393256989",
+      "text": "![image](https://github.com/user-attachments/assets/fa0fe4e4-4f76-420a-88d8-8eb4fe7347b3)\r\n\r\n- [ ] The page loader is using the old care logo and the new one, so remove the old one \r\n\r\n![image](https://github.com/user-attachments/assets/b62dcbe7-2019-4d8b-a1ea-da01885c7cb7)\r\n\r\n- [ ] Re-positon the loader to be present in the middle of the page, as similar as the current staging\r\n\r\nnote: Behavior can be noticed when we switch between pages using the side-nav, like facility, patient pages\r\n\r\n![image](https://github.com/user-attachments/assets/65ce0793-160b-4ca9-9f1f-8547dccce0fe)\r\n\r\n- [ ] change the favicon of the care to use the new care logo\r\n\r\n![image](https://github.com/user-attachments/assets/53fabbf1-9950-4160-a197-564b7d7681f7)\r\n\r\n- [ ] On mobile view, the CARE new icon size is not consistent compared to other icons, so keep the size consistent\r\n\r\n![image](https://github.com/user-attachments/assets/d6619123-e9f7-49f0-bb72-e5e529c10dd2)\r\n\r\n- [ ] The collapse icon in the mobile responsive view doesn't work when used from the patient consultation page.\r\n\r\n![image](https://github.com/user-attachments/assets/c501055a-c33c-4ef1-aa23-81ce0b0976ed)\r\n\r\n- [ ] The white padding of the facility page card adjusts dynamically with the page zoom. However, it should consistently extend to the bottom of the page. Currently, at 80% zoom, the padding only reaches about 75% of the page height"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care#2504",
@@ -44094,14 +44195,8 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2518",
-      "title": "Merge Develop To Staging v24.41.0",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8695",
-      "title": "Merge Develop To Staging v24.41.0",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8714",
+      "title": "POC: Compare Playwright with existing cypress test workflow",
       "stale_for": 0,
       "labels": []
     }

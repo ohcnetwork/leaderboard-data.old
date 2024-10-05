@@ -1,6 +1,56 @@
 {
-  "last_updated": "2024-10-03T14:41:54.000Z",
+  "last_updated": "2024-10-04T17:51:22.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8713",
+      "time": "2024-10-04T17:51:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8713",
+      "text": "Revamped resource and shifting boards to the KanbanBoard component and removed react-dnd"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8695",
+      "time": "2024-10-04T10:14:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8695",
+      "text": "Merge Develop To Staging v24.41.0",
+      "collaborated_with": [
+        "Jacobjeevan",
+        "rithviknishad",
+        "shauryag2002",
+        "vishwansh01",
+        "sainak",
+        "JOSHIK27",
+        "o",
+        "i",
+        "shivankacker",
+        "AdityaJ2305",
+        "7",
+        "HitishRaoP",
+        "Jash2606"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8692",
+      "time": "2024-10-04T06:37:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8692#issuecomment-2392932004",
+      "text": "@nihal467 this is ready for testing\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-04T06:34:52.000Z",
+      "title": "ohcnetwork/care_fe#8692",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8692#pullrequestreview-2347248148",
+      "text": "Allows configuring available languages through env and adds Hindi to CARE"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8705",
+      "time": "2024-10-04T06:34:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8705",
+      "text": "Find a better way to import translations for each language"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care#2504",
@@ -11166,27 +11216,35 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8713",
+      "title": "Revamped resource and shifting boards to the KanbanBoard component and removed react-dnd",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8692",
       "title": "Allows configuring available languages through env and adds Hindi to CARE",
       "stale_for": 0,
       "labels": [
-        "question",
-        "needs review"
+        "needs review",
+        "tested"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8504",
       "title": "Added support for time in dateinput component",
-      "stale_for": 16,
+      "stale_for": 0,
       "labels": [
-        "work-in-progress",
-        "merge conflict"
+        "work-in-progress"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8469",
       "title": "Made Scribe be aware of existing data",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": [
         "waiting for more data",
         "merge conflict",
@@ -11196,19 +11254,19 @@
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
       "title": "Added scribe context",
-      "stale_for": 30,
+      "stale_for": 31,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/landing/pull/9",
       "title": "Added more supporters and bug fixes",
-      "stale_for": 40,
+      "stale_for": 41,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 38,
+      "stale_for": 39,
       "labels": []
     }
   ],

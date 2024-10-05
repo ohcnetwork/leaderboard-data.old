@@ -1,6 +1,76 @@
 {
-  "last_updated": "2024-10-03T14:41:54.000Z",
+  "last_updated": "2024-10-04T10:14:42.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-04T10:14:42.000Z",
+      "title": "ohcnetwork/care#2518",
+      "link": "https://github.com/ohcnetwork/care/pull/2518#pullrequestreview-2347686251",
+      "text": "Merge Develop To Staging v24.41.0"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-04T10:13:48.000Z",
+      "title": "ohcnetwork/care_fe#8695",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8695#pullrequestreview-2347684701",
+      "text": "Merge Develop To Staging v24.41.0"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-04T09:35:04.000Z",
+      "title": "ohcnetwork/care_fe#8703",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8703#pullrequestreview-2347597698",
+      "text": "Send only known BP attributes"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8666",
+      "time": "2024-10-04T05:25:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8666#issuecomment-2392848795",
+      "text": "@nihal467 I have added a demo video explaining the feature https://drive.google.com/file/d/1hPv1wdme2n87dFL95KwoDwAuOSQPt0pd/view?usp=sharing\r\n\r\n> Even though the camera feed is live, there is a frontend notification thrown mentioning that the camera is locked\r\n\r\nThis is an expected notification but the content was misleading, so I updated the wording.\r\n\r\n> assetbed API is failing and we are not able to create a new camera preset\r\n\r\nI was not able to replicate this, this could have happened due to the backend having migrations from other PRs, please removing the existing database and creating a new one with fresh migrations.\r\n\r\n> Currently, the camera feed component is not showing multiple icons to represent that there are multiple users are viewing the feed\r\n\r\nCan we make this as a new good-first issue, so that the basic version of patient privacy and camera control locking can be merged."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8541",
+      "time": "2024-10-04T03:20:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8541",
+      "text": "Facility page view in mobile phones are breaking in some devices"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8340",
+      "time": "2024-10-04T03:18:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8340#issuecomment-2392716109",
+      "text": "Current Status: We are waiting for ABDM V3 access to our production keys, have sent a recorded demo to the NHA team, waiting for the reply."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_hcx#6",
+      "time": "2024-10-04T03:02:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_hcx/issues/6",
+      "text": "Add payment flow"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_hcx#5",
+      "time": "2024-10-04T03:00:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_hcx/issues/5",
+      "text": "Enable an option to switch b/w NHCX and Open HCX"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_hcx#4",
+      "time": "2024-10-04T02:54:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_hcx/issues/4",
+      "text": "Clean up HCX FHIR data"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_hcx#1",
+      "time": "2024-10-04T02:53:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_hcx/issues/1#issuecomment-2392697695",
+      "text": "@bodhish Currently, a POC is ready but waiting to get access to the demo payer so that we can test the flows."
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care#2504",
@@ -39532,29 +39602,29 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2506",
       "title": "Privacy consultation bed",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8666",
       "title": "Added privacy toggle for a consultation bed and lock camera controls when used by a user",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "needs review",
-        "test failed",
+        "changes required",
         "waiting for backend"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/50",
       "title": "Added ABDM Docs for WASA Testing",
-      "stale_for": 23,
+      "stale_for": 24,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8460",
       "title": "Refactor cypress action; separate setup and run",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "changes required",
         "merge conflict",
@@ -39564,7 +39634,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8458",
       "title": "Hide sensitive user data for non admin users",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": [
         "needs review",
         "changes required",
@@ -39588,19 +39658,19 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2313",
       "title": "Convert ABDM into Plug - Part 2/3",
-      "stale_for": 23,
+      "stale_for": 24,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2312",
       "title": "Convert ABDM into Plug - Part 3/3",
-      "stale_for": 32,
+      "stale_for": 33,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2222",
       "title": "limit user details based on user type",
-      "stale_for": 10,
+      "stale_for": 11,
       "labels": [
         "changes required"
       ]
@@ -39608,37 +39678,37 @@
     {
       "link": "https://github.com/ohcnetwork/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 150,
+      "stale_for": 151,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 1021,
+      "stale_for": 1022,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 1027,
+      "stale_for": 1028,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 1028,
+      "stale_for": 1029,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/life/pull/306",
       "title": "filtered duplicate tweets",
-      "stale_for": 13,
+      "stale_for": 14,
       "labels": []
     }
   ],
