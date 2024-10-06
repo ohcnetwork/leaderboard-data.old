@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-10-01T01:21:51.000Z",
+  "last_updated": "2024-10-05T05:35:28.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8676",
+      "time": "2024-10-05T05:35:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8676#issuecomment-2394936053",
+      "text": "Yes, My bad. I have opened another pr. Can you check it.."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8717",
+      "time": "2024-10-05T05:34:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8717",
+      "text": "feat: added oral as default route for domiciliary care"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8716",
+      "time": "2024-10-05T02:36:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8716",
+      "text": "fix: Removed useQuery from wrapper"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8715",
+      "time": "2024-10-05T01:57:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8715",
+      "text": "Noufalrahim/feat/added units to pressure sore"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8131",
@@ -60,27 +88,26 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8678",
-      "title": "feat:Added units to Length and Width in Pressure Sore (#8209)",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8717",
+      "title": "feat: added oral as default route for domiciliary care",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8716",
+      "title": "fix: Removed useQuery from wrapper",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing"
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8677",
-      "title": "feat/Added bed number in location card (#8131)",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8715",
+      "title": "Noufalrahim/feat/added units to pressure sore",
       "stale_for": 0,
       "labels": [
-        "changes required"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8676",
-      "title": "feat: Added Oral as default value for route in Domiciliary Care (#8303)",
-      "stale_for": 0,
-      "labels": [
-        "changes required"
+        "needs testing",
+        "hacktoberfest-accepted"
       ]
     }
   ],
