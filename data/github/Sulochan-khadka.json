@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-09-20T06:35:10.000Z",
+  "last_updated": "2024-10-06T15:35:03.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8027",
+      "time": "2024-10-06T15:35:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8027#issuecomment-2395481250",
+      "text": "I am unable to reproduce the error. Am i doing something wrong? @rithviknishad @nihal467 \nhttps://github.com/user-attachments/assets/9bee7eba-269b-4a7e-b2b7-c399beb9a5a2\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8727",
+      "time": "2024-10-06T14:44:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8727",
+      "text": "Issues/8029/modify nurse access to consultation page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8029",
+      "time": "2024-10-06T14:25:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8029#issuecomment-2395459692",
+      "text": "> Given the access control is already working fine, just disabling the button based on the conditions should solve this\n\nWhat about the \"View/Upload Consultation Files\" button? Should that button also be disabled for staff? It seems fine in the dev env though. Where is the issue?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8645",
+      "time": "2024-10-06T10:38:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8645#issuecomment-2395386986",
+      "text": "I think we can have a scrollable area for indicator, which wont ruin the UI. Also the user can scroll for complete info if needed. Because if we implement the solution formerly stated , the the duration part comes in the scroll which does not seem good.\n\nThis is the issue i am talking about:\n![Image](https://github.com/user-attachments/assets/8aafc236-fc63-475c-acf8-ecb82fed2750)\n\nThe solution i am proposing:\n![Image](https://github.com/user-attachments/assets/6350aedc-af87-49e5-b6ed-28ffcd114a9a)\n\nObviously we can style as required.\n\nLet me know your reviews @rithviknishad @nihal467 \n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8726",
+      "time": "2024-10-06T08:21:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8726#issuecomment-2395345212",
+      "text": "New to this kind of Issues, so kindly let me know if there's something needed, or if there are mistakes."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8726",
+      "time": "2024-10-06T08:20:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8726",
+      "text": "Enhancements to care config #8470"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care#1754",
@@ -1286,7 +1328,20 @@
       "text": "Hey where do I store the uploaded image ? in S3? Kindly do specify... Working on it."
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8727",
+      "title": "Issues/8029/modify nurse access to consultation page",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8726",
+      "title": "Enhancements to care config #8470",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7501",

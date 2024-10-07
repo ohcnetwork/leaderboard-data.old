@@ -1,6 +1,41 @@
 {
-  "last_updated": "2024-10-04T20:28:13.000Z",
+  "last_updated": "2024-10-06T17:18:12.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8670",
+      "time": "2024-10-06T17:18:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8670#issuecomment-2395514300",
+      "text": "Closing the POC of Playwright migration because of the following reasons:\n\n- Flaky tests are still occurring even after using the await functionality.\n- We cannot freeze a particular step in the test video replay to understand which APIs were called during a specific action.\n- Migrating all the files, even with a specifically configured chatbot, can be energy- and time-consuming, which doesn’t provide real value as debugging the code might take time.\n- For integrating BrowserStack and commenting on each URL PR preview, we need to run separate GitHub actions and maintain all configurations ourselves, whereas Cypress offers single-click cloud integration, which is easier."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8670",
+      "time": "2024-10-06T17:18:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8670",
+      "text": "POC: Migrate Cypress to Playwright for Initial Evaluation"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8714",
+      "time": "2024-10-06T17:12:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8714#issuecomment-2395512614",
+      "text": "Closing the POC of Playwright migration because of the following reasons:\r\n\r\n- Flaky tests are still occurring even after having the await functionality\r\n- Migrating all the files even with a specifically configured chatbot can be energy and time-confusing, which doesn't give real value as debugging the code might take time\r\n- for integrating BrowserStack, and commenting on each URL PR preview, we need to run separate GitHub actions plus maintain all configurations ourselves whereas Cypress is a single-click cloud integration which is easier."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2190",
+      "time": "2024-10-06T16:26:25.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2190#issuecomment-2395497948",
+      "text": "https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1728116762128059?thread_ts=1728075807.176319&cid=C06KGMUAB0V\r\n\r\nClosing this PR as the entire medical history will be re-built after verifying proper standards and included in the health details API."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7852",
+      "time": "2024-10-06T16:26:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/7852#issuecomment-2395497869",
+      "text": "https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1728116762128059?thread_ts=1728075807.176319&cid=C06KGMUAB0V\r\n\r\nClosing this PR as the entire medical history will be re-built after verifying proper standards and included in the health details API."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8692",
@@ -44193,14 +44228,7 @@
       "text": "Production Release 23.34.1"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8714",
-      "title": "POC: Compare Playwright with existing cypress test workflow",
-      "stale_for": 0,
-      "labels": []
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8590",
@@ -44225,10 +44253,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8407",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8408"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8382",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8383"
     }
   ]
 }

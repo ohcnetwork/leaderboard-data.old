@@ -5289,7 +5289,7 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8581",
     "title": "Restrict Scribe from filling fields not present in the selected log update",
     "createdAt": "2024-09-21T09:52:17Z",
-    "updatedAt": "2024-09-30T12:31:44Z",
+    "updatedAt": "2024-10-06T04:18:38Z",
     "closedAt": null,
     "sprint": "Oct 1 24",
     "category": "Frontend",
@@ -5471,16 +5471,12 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8609",
     "title": "Create a Board View for release",
     "createdAt": "2024-09-24T09:58:50Z",
-    "updatedAt": "2024-10-02T18:56:55Z",
+    "updatedAt": "2024-10-06T16:18:33Z",
     "closedAt": null,
-    "sprint": "Oct 1 24",
-    "status": "In Progress",
+    "status": "Wishlist",
     "priority": "Medium",
     "author": "nihal467",
-    "assignees": [
-      "nihal467",
-      "tellmeY18"
-    ]
+    "assignees": []
   },
   "PVTI_lADOA7JD8804yM4E0ejA": {
     "type": "ISSUE",
@@ -5831,7 +5827,7 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8645",
     "title": "Dosage heading is misaligned in the prescription module",
     "createdAt": "2024-09-26T14:45:23Z",
-    "updatedAt": "2024-10-05T15:44:25Z",
+    "updatedAt": "2024-10-06T10:38:04Z",
     "closedAt": null,
     "sprint": "Oct 1 24",
     "status": "Up Next",
@@ -5846,7 +5842,7 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8644",
     "title": "Switch Blood Pressure and temperature dropdown to use TextFormField with type=\"number\" instead of a dropdown",
     "createdAt": "2024-09-26T14:36:52Z",
-    "updatedAt": "2024-10-05T20:06:58Z",
+    "updatedAt": "2024-10-06T07:57:55Z",
     "closedAt": null,
     "sprint": "Oct 1 24",
     "status": "Up Next",
@@ -6156,7 +6152,7 @@
     "url": "https://github.com/ohcnetwork/care/issues/2507",
     "title": "Add Validation for Insurance input fields in patient registration form",
     "createdAt": "2024-09-30T15:16:27Z",
-    "updatedAt": "2024-10-01T15:33:53Z",
+    "updatedAt": "2024-10-06T08:24:23Z",
     "closedAt": null,
     "sprint": "Oct 1 24",
     "category": "Backend",
@@ -6218,11 +6214,12 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8670",
     "title": "POC: Migrate Cypress to Playwright for Initial Evaluation",
     "createdAt": "2024-09-30T08:10:10Z",
-    "updatedAt": "2024-10-02T18:49:22Z",
-    "closedAt": null,
+    "updatedAt": "2024-10-06T17:24:25Z",
+    "closedAt": "2024-10-06T17:18:11Z",
     "sprint": "Oct 1 24",
     "category": "Frontend",
-    "status": "In Progress",
+    "status": "Done",
+    "storyPoints": 2,
     "author": "nihal467",
     "assignees": [
       "nihal467"
@@ -6347,7 +6344,7 @@
     "url": "https://github.com/ohcnetwork/care_fe/pull/8692",
     "title": "Allows configuring available languages through env and adds Hindi to CARE",
     "createdAt": "2024-10-02T19:58:14Z",
-    "updatedAt": "2024-10-05T09:36:47Z",
+    "updatedAt": "2024-10-06T16:19:42Z",
     "closedAt": null,
     "sprint": "Oct 1 24",
     "category": "Frontend",
@@ -6503,6 +6500,55 @@
     "author": "rithviknishad",
     "assignees": [
       "rithviknishad"
+    ]
+  },
+  "PVTI_lADOA7JD8804yM4E6Gk0": {
+    "type": "PULL_REQUEST",
+    "url": "https://github.com/ohcnetwork/care/pull/2520",
+    "title": "Sending hub and spoke data in facility serializer",
+    "createdAt": "2024-10-06T22:54:20Z",
+    "updatedAt": "2024-10-06T23:00:58Z",
+    "closedAt": null,
+    "sprint": "Oct 1 24",
+    "category": "Backend",
+    "status": "Review required",
+    "storyPoints": 1,
+    "priority": "Medium",
+    "author": "shivankacker",
+    "assignees": [
+      "shivankacker"
+    ]
+  },
+  "PVTI_lADOA7JD8804yM4E6FYd": {
+    "type": "ISSUE",
+    "url": "https://github.com/ohcnetwork/care_fe/issues/8719",
+    "title": "Add Badges for Hub Hospital and Spoke hospital.",
+    "createdAt": "2024-10-06T20:30:54Z",
+    "updatedAt": "2024-10-06T22:55:42Z",
+    "closedAt": null,
+    "sprint": "Oct 1 24",
+    "category": "Frontend",
+    "status": "Review required",
+    "priority": "Medium",
+    "author": "samholics",
+    "assignees": [
+      "shivankacker"
+    ],
+    "focus": "Generic"
+  },
+  "PVTI_lADOA7JD8804yM4E6DvI": {
+    "type": "PULL_REQUEST",
+    "url": "https://github.com/ohcnetwork/care_fe/pull/8680",
+    "title": "Re-build sidebar UI",
+    "createdAt": "2024-10-06T17:22:41Z",
+    "updatedAt": "2024-10-06T21:45:23Z",
+    "closedAt": null,
+    "sprint": "Oct 1 24",
+    "category": "Frontend",
+    "status": "In Progress",
+    "author": "bodhish",
+    "assignees": [
+      "nihal467"
     ]
   }
 }
