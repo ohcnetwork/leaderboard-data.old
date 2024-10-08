@@ -1,6 +1,50 @@
 {
-  "last_updated": "2024-10-04T10:14:25.000Z",
+  "last_updated": "2024-10-07T17:30:04.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8734",
+      "time": "2024-10-07T17:30:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8734",
+      "text": "Production release v24.41.0; October week 1",
+      "collaborated_with": [
+        "Jacobjeevan",
+        "rithviknishad",
+        "shauryag2002",
+        "vishwansh01",
+        "sainak",
+        "JOSHIK27",
+        "o",
+        "i",
+        "shivankacker",
+        "AdityaJ2305",
+        "7",
+        "HitishRaoP",
+        "Jash2606",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8730",
+      "time": "2024-10-07T09:55:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8730#issuecomment-2396458885",
+      "text": "@khavinshankar Reran the failing one and it's passing 👍 \r\n\r\nNote: Noticed the same test failing in https://github.com/ohcnetwork/care_fe/actions/runs/11208536036/job/31152363494, but worked later.\r\n\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8730",
+      "time": "2024-10-07T04:49:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8730",
+      "text": "Hide Spokes on Facility Create Page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8679",
+      "time": "2024-10-07T04:27:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8679#issuecomment-2395868365",
+      "text": "> @Jacobjeevan yes we can do it and once the PR is ready, let me know\r\n\r\nReady 👍 "
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8695",
@@ -426,12 +470,12 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8704",
-      "title": "Manage Prescriptions Page: Moving Print Button Inside",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8730",
+      "title": "Hide Spokes on Facility Create Page",
       "stale_for": 0,
       "labels": [
-        "needs review",
-        "tested"
+        "needs testing",
+        "cypress passed"
       ]
     },
     {
@@ -439,7 +483,8 @@
       "title": "Investigations Print Preview Page",
       "stale_for": 0,
       "labels": [
-        "work-in-progress"
+        "needs testing",
+        "needs review"
       ]
     }
   ],

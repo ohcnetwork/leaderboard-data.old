@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-10-06T15:35:03.000Z",
+  "last_updated": "2024-10-07T14:25:42.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8726",
+      "time": "2024-10-07T14:25:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8726#issuecomment-2397085450",
+      "text": "> @Sulochan-khadka can you please fix the failing cypress tests\r\n\r\ni have fixed all cypress tests but dont know why one is failing. May you help!"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8027",
@@ -1333,13 +1340,18 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/8727",
       "title": "Issues/8029/modify nurse access to consultation page",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8726",
       "title": "Enhancements to care config #8470",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "cypress failed"
+      ]
     }
   ],
   "authored_issue_and_pr": [
