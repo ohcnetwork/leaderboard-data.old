@@ -1,6 +1,55 @@
 {
-  "last_updated": "2024-10-07T17:51:32.000Z",
+  "last_updated": "2024-10-08T14:04:40.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-08T14:04:40.000Z",
+      "title": "ohcnetwork/care#2387",
+      "link": "https://github.com/ohcnetwork/care/pull/2387#pullrequestreview-2354617089",
+      "text": "Improved asset bed relations for camera preset"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-08T09:36:25.000Z",
+      "title": "ohcnetwork/care#2387",
+      "link": "https://github.com/ohcnetwork/care/pull/2387#pullrequestreview-2353958675",
+      "text": "Improved asset bed relations for camera preset"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care#2528",
+      "time": "2024-10-08T09:09:08.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2528",
+      "text": "Update `delete_old_notifications` task to allow configurable time period with default of 30 days"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-08T08:32:45.000Z",
+      "title": "ohcnetwork/care#2387",
+      "link": "https://github.com/ohcnetwork/care/pull/2387#pullrequestreview-2353749337",
+      "text": "Improved asset bed relations for camera preset"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/teleicu_middleware#120",
+      "time": "2024-10-08T05:59:20.000Z",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/issues/120#issuecomment-2398918622",
+      "text": "you can look for issues in care or care_fe repo"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/teleicu_middleware#120",
+      "time": "2024-10-08T05:54:08.000Z",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/issues/120#issuecomment-2398912695",
+      "text": "hey @siddhesh0705 this issue is completed, feel free to take up other issues."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/teleicu_middleware#120",
+      "time": "2024-10-08T05:54:07.000Z",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/issues/120",
+      "text": "Rewriting Middleware Server in Django"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care#2522",
@@ -18108,9 +18157,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2529",
+      "title": "disable filtering inactive users by default",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/147",
       "title": "fix daily rounds with empty bp values",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -18118,13 +18173,14 @@
       "title": "Allow users to set profile pictures",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "changes required",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2431",
       "title": "optimize events creation and improve indexes",
-      "stale_for": 14,
+      "stale_for": 15,
       "labels": [
         "blocked"
       ]
@@ -18132,7 +18188,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Changes Requested"
       ]

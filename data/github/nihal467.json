@@ -1,6 +1,123 @@
 {
-  "last_updated": "2024-10-06T17:18:12.000Z",
+  "last_updated": "2024-10-08T16:06:41.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8253",
+      "time": "2024-10-08T16:06:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8253#issuecomment-2400255544",
+      "text": "Enhancement\r\n\r\n![image](https://github.com/user-attachments/assets/c8a1c2da-9cfd-4890-9309-b2e5948e5de6)\r\n\r\n- [ ] keep the feed monitor and the right side card height consistent"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8728",
+      "time": "2024-10-08T15:22:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8728#issuecomment-2400154393",
+      "text": "@AdityaJ2305 the cypress is failing in your PR , fix that as well"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8713",
+      "time": "2024-10-08T15:20:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8713#issuecomment-2400151291",
+      "text": "@shivankacker can you clear the merge conflict"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8715",
+      "time": "2024-10-08T15:16:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8715#issuecomment-2400141521",
+      "text": "@noufalrahim can you push the changes requested by @bodhish "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8679",
+      "time": "2024-10-08T15:11:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8679#issuecomment-2400128959",
+      "text": "![image](https://github.com/user-attachments/assets/4a5fc76b-e37a-4dc9-8295-1923b6f40b42)\r\n\r\n@Jacobjeevan the mobile responsive bug is back, in mobile, if you type three-digit, you are not able to view it together"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8702",
+      "time": "2024-10-08T15:04:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8702#issuecomment-2400108183",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8727",
+      "time": "2024-10-08T14:57:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8727#issuecomment-2400090761",
+      "text": "![image](https://github.com/user-attachments/assets/8c31deb7-bea9-4608-b104-da1a43a239aa)\r\n\r\n- [ ] buttons are disabled for the consultation card to which the users have access to, which is not the expected behavior, they should be allowed to access it, check the comment and issues once again @Sulochan-khadka "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8730",
+      "time": "2024-10-08T13:29:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8730#issuecomment-2399855009",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8721",
+      "time": "2024-10-08T13:12:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8721#issuecomment-2399810750",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8716",
+      "time": "2024-10-08T13:05:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8716#issuecomment-2399794856",
+      "text": "LGTM, "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8131",
+      "time": "2024-10-08T13:05:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8131#issuecomment-2399794613",
+      "text": "@aparnacoronasafe currently we will be only showing total number of bed in the entire location, if you still want the requirement of no of bed under each bed type in each location, feel free to reopen this issue post the linked PR is merged"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8738",
+      "time": "2024-10-08T10:36:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8738#issuecomment-2399483449",
+      "text": "Conclusion:\r\nDue to GitHub Actions' sequential job structure, the current remaining approach would be is to run the setup in one runner, expose the services via Cloudflare/ngrok, and have another runner connect and run parallel Cypress tests.\r\n\r\nSummary of Approaches We Tried:\r\n\r\nInitial Approach (All Tests in One Runner): Tried running backend, frontend, and Cypress tests in a single runner, but the Cypress test action download everything again\r\n\r\nTwo-Job Approach (Split Setup and Tests): Separated the setup and Cypress test jobs, but GitHub Actions' sequential processing meant the Cypress tests couldn't start until the setup was fully done.\r\n\r\nBackground Setup in One Job: Tried running backend and frontend in the background while starting Cypress tests in parallel, but since GitHub Actions run sequentially, the 6 parallel node for Cypress tests wouldn't start together while the backend is running.\r\n\r\nExposing Backend/Frontend (Cloudflare/ngrok): Finally, I used a separate runner for setup, exposing backend/frontend services via Cloudflare/ngrok, so Cypress tests could run in parallel without reinitializing the services."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8738",
+      "time": "2024-10-08T06:50:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8738",
+      "text": "Removed Cypress cloud parallelization from cloud to preserve resource "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8027",
+      "time": "2024-10-08T05:49:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8027#issuecomment-2398907712",
+      "text": "@Sulochan-khadka i have modified the issue, you need to make sure that, the doctor id you are using have some skills linked to the users\n\nsteps to add skills to the user:\n\n1. go to the user tab\n2. search for the user id\n3. click on linked skills buttons\n4. add any random skills\n\npost that try the steps you done , you should be able to replicate the bug"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/docs#23",
+      "time": "2024-10-08T05:39:58.000Z",
+      "link": "https://github.com/ohcnetwork/docs/pull/23#issuecomment-2398885127",
+      "text": "@bodhish The feature is not live on the platforms yet; only a demo was completed during an EOD call a while back."
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8680",
+      "time": "2024-10-08T04:42:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8680",
+      "text": "Re-build sidebar UI",
+      "collaborated_with": [
+        "bodhish",
+        "gigincg",
+        "nihal467"
+      ]
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8670",
@@ -44237,6 +44354,10 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8547",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8614"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8546",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8745"
     },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8544",

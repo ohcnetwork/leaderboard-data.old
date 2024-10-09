@@ -1,6 +1,55 @@
 {
-  "last_updated": "2024-10-07T17:30:04.000Z",
+  "last_updated": "2024-10-08T09:58:38.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8740",
+      "time": "2024-10-08T09:58:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8740#issuecomment-2399404537",
+      "text": "@AdityaJ2305 assigned"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8740",
+      "time": "2024-10-08T09:57:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8740",
+      "text": "Signout button icon is misaligned"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-08T09:35:36.000Z",
+      "title": "ohcnetwork/landing#15",
+      "link": "https://github.com/ohcnetwork/landing/pull/15#pullrequestreview-2353956777",
+      "text": "[bug-fix] Now community link dropdown does not flys-off"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/landing#15",
+      "time": "2024-10-08T09:34:25.000Z",
+      "link": "https://github.com/ohcnetwork/landing/pull/15#issuecomment-2399349635",
+      "text": "@thecodephilic-guy The issue was that the user should not have to move in a straight line to make sure the panel does not close. However moving away from the panel/button for a long time should technically close it. But it does make the issue kind of complex to deal with, which is why it was abstracted out to a separate issue from a parent issue.\r\nI think it is probably best not to delve into such complexity at this time for a small change, so the current solution you have presented works great. Looks good to me. Thank you for contributing!"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8713",
+      "time": "2024-10-08T05:12:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8713#issuecomment-2398853933",
+      "text": "@bodhish yup the KanbanBoard component is made to be reused in the future. It is easy to configure and supports infinite scroll."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8469",
+      "time": "2024-10-08T05:10:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8469#issuecomment-2398852526",
+      "text": "@bodhish working on this currently"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8504",
+      "time": "2024-10-08T05:10:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8504#issuecomment-2398852176",
+      "text": "@bodhish still working on this, waiting to complete other priority issues. Will be covered by this sprint."
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8734",
@@ -11269,7 +11318,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2520",
       "title": "Sending hub and spoke data in facility serializer",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "question"
       ]
@@ -11277,9 +11326,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8729",
       "title": "Added badges for hubs and spoke facilities",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "question"
+        "question",
+        "merge conflict"
       ]
     },
     {
@@ -11287,8 +11337,9 @@
       "title": "Revamped resource and shifting boards to the KanbanBoard component and removed react-dnd",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "changes required",
+        "merge conflict"
       ]
     },
     {
@@ -11296,7 +11347,8 @@
       "title": "Added support for time in dateinput component",
       "stale_for": 0,
       "labels": [
-        "work-in-progress"
+        "work-in-progress",
+        "merge conflict"
       ]
     },
     {
@@ -11305,26 +11357,25 @@
       "stale_for": 0,
       "labels": [
         "waiting for more data",
-        "merge conflict",
-        "stale"
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
       "title": "Added scribe context",
-      "stale_for": 34,
+      "stale_for": 35,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/landing/pull/9",
       "title": "Added more supporters and bug fixes",
-      "stale_for": 44,
+      "stale_for": 45,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Changes Requested"
       ]
