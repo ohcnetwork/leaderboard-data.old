@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-10-05T19:52:58.000Z",
+  "last_updated": "2024-10-09T03:57:15.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8724",
+      "time": "2024-10-09T03:57:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8724#issuecomment-2401227429",
+      "text": "@bodhish  I understand the sensitivity of data in healthcare systems. \r\n\r\nGiven this context, I propose the following approach:\r\n\r\n1. For the edit functionality:\r\n   - I'll open an issue in the backend repo to add a route for updating comments.\r\n   - Once that's implemented, we can add the edit feature to the frontend.\r\n\r\n2. For the delete functionality:\r\n   - Instead of deleting comments, we could implement a \"soft delete\" where comments are marked as retracted but still visible in the system.\r\n\r\nThis approach maintains data integrity while still giving users some control over their comments.\r\nShould i proceed with implementing the edit functionality and a modified version of the delete functionality?"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#8724",
@@ -21,7 +28,9 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/8724",
       "title": "Feat: Allow Users to Edit and Delete Their Own Comments in shifting a…",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "blocked"
+      ]
     }
   ],
   "authored_issue_and_pr": []

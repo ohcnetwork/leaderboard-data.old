@@ -1,6 +1,35 @@
 {
-  "last_updated": "2024-10-08T09:05:37.000Z",
+  "last_updated": "2024-10-09T11:38:54.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8262",
+      "time": "2024-10-09T11:38:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8262#issuecomment-2402079603",
+      "text": "@samholics This only applies to IP number/on Admission, and not to OP number, right?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8264",
+      "time": "2024-10-09T07:15:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8264#issuecomment-2401522822",
+      "text": "I tried switching to Mark Area, which works for line charts but doesn't render correctly for bar charts; it seems to combine consecutive modes/modalities. I've attached the Mark Line ones below for reference.\n\n### Mark Area\n\n[<img src=\"https://github.com/user-attachments/assets/3d423210-97df-4a38-ad2b-41fee581876d\" width=\"400\" />](https://github.com/user-attachments/assets/3d423210-97df-4a38-ad2b-41fee581876d)\n\n[<img src=\"https://github.com/user-attachments/assets/9ac0c24f-57db-487d-8352-d4f38d10be3e\" width=\"400\" />](https://github.com/user-attachments/assets/9ac0c24f-57db-487d-8352-d4f38d10be3e)\n\n[<img src=\"https://github.com/user-attachments/assets/8708d792-791a-4a97-a77d-49231e87d209\" width=\"400\" />](https://github.com/user-attachments/assets/8708d792-791a-4a97-a77d-49231e87d209)\n\n[<img src=\"https://github.com/user-attachments/assets/a9e7b447-1e68-49e5-a727-b59afef20877\" width=\"400\" />](https://github.com/user-attachments/assets/a9e7b447-1e68-49e5-a727-b59afef20877)\n\n### Mark Line\n\n[<img src=\"https://github.com/user-attachments/assets/8cde3452-8cf1-4e62-9a87-62b5b5db2e09\" width=\"400\" />](https://github.com/user-attachments/assets/8cde3452-8cf1-4e62-9a87-62b5b5db2e09)\n\n[<img src=\"https://github.com/user-attachments/assets/fce37c4b-19c0-466e-b667-cc758e368a44\" width=\"400\" />](https://github.com/user-attachments/assets/fce37c4b-19c0-466e-b667-cc758e368a44)\n\n@aparnacoronasafe Well, we could use the markArea feature and instead disable the switching to bar charts feature for these graphs, depends on how important/useful they are."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8679",
+      "time": "2024-10-09T04:52:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8679#issuecomment-2401312276",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/374617735-4a5fc76b-e37a-4dc9-8295-1923b6f40b42.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjg0NDY4NDksIm5iZiI6MTcyODQ0NjU0OSwicGF0aCI6Ii81NzA1NTk5OC8zNzQ2MTc3MzUtNGE1ZmM3NmItZTM3YS00ZGM5LTgyOTUtMTkyM2I2ZjQwYjQyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDA5VDA0MDIyOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRjY2RiNzNkZTYwMDc2ZjE2NGU0YWVhYWU5MTUxNmI1N2VmZjRmZjI5ODUyNjFjZjIzMGM5ZTcwNzBmMjY5M2EmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.0meT7kOLcw2bJbITxg1ySo6PQKNG_ZViR7FWGg47Vw4)\r\n> \r\n> @Jacobjeevan the mobile responsive bug is back, in mobile, if you type three-digit, you are not able to view it together\r\n\r\nWeird, I checked firefox and safari and it's fine for me 🤔 . But, I've adjusted the widths, take a look and see if the issue persists. \r\n\r\n<img width=\"571\" alt=\"image\" src=\"https://github.com/user-attachments/assets/448930d1-33f7-475a-9a2a-58004c1f3f57\">\r\n"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8730",
+      "time": "2024-10-09T00:48:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8730",
+      "text": "Hide Spokes on Facility Create Page",
+      "turnaround_time": 158341
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8264",
@@ -482,7 +511,8 @@
       "stale_for": 0,
       "labels": [
         "needs review",
-        "changes required"
+        "changes required",
+        "merge conflict"
       ]
     }
   ],
