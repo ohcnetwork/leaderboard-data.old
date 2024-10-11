@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-10-09T10:34:14.000Z",
+  "last_updated": "2024-10-10T10:22:36.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8757",
+      "time": "2024-10-10T10:22:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8757",
+      "text": "Fixed the update details button width in resource details page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8744",
+      "time": "2024-10-10T09:54:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8744#issuecomment-2404631493",
+      "text": "@NikhilGolla72 run the cypress locally and check the issue, use the command \"npx cypress open\" and check whether its passing in your local to not"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8744",
+      "time": "2024-10-10T09:42:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8744#issuecomment-2404605978",
+      "text": "@NikhilGolla72 can you share the screenshot of the cypress dashboard  , to know what is exactly "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8727",
+      "time": "2024-10-10T09:40:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8727#issuecomment-2404601586",
+      "text": "- [ ] Any non-admin users, should be able to access only the consultation card from facility there are linked, if the patient has any consultation history from facility where they are not linked, then the button on that particular card should be disabled\r\n\r\nstep 1: Admit Patient A to Facility A, then discharge them from Facility A. Repeat this process for Facility B and Facility C.\r\nStep 2: After these admissions and discharges, Patient A will have a consultation history from Facilities A, B, and C.\r\nStep 3: Log in with a nurse's user ID that is linked only to Facilities A and B.\r\nStep 4: Now re-admit Patient A to one of the facilities (either A or B) where the nurse is linked.\r\nStep 5: Access Patient A’s consultation history. In the consultation cards, the consultation button for Facility C should be disabled, as the nurse is not linked to Facility C.\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8744",
+      "time": "2024-10-10T08:56:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8744#issuecomment-2404504733",
+      "text": "@NikhilGolla72 Sorry for the inconvenience, bro, but make sure you link an issue to your PR so that, during the review, we can see which issue you're trying to address. The PR heading is not clearly communicating what the PR is about. Could you make the following changes: :\r\n\r\n1. Mention the issue in the PR and give it a proper heading based on the PR.\r\n2. From the issue and the slack thread, I'm getting the understanding that you need to make it an optional fourth step after the staff capacity. However, what you’ve done is added a checkbox in the staff capacity step, which isn’t ideal because the cover image is not part of staff capacity. So, keeping it as a fourth step would be better."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8253",
+      "time": "2024-10-10T08:23:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8253#issuecomment-2404430666",
+      "text": "![image](https://github.com/user-attachments/assets/f4f0c1b6-6a06-4a02-8e10-4528b76856b1)\r\n\r\n- [ ] preset saving in the patient consultation page is not working"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8688",
@@ -44358,9 +44400,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8757",
+      "title": "Fixed the update details button width in resource details page",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "tested"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8750",
       "title": "New Cypress Test | Patient Details Advance Filters",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],

@@ -5289,15 +5289,17 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8581",
     "title": "Restrict Scribe from filling fields not present in the selected log update",
     "createdAt": "2024-09-21T09:52:17Z",
-    "updatedAt": "2024-10-06T04:18:38Z",
+    "updatedAt": "2024-10-10T10:26:00Z",
     "closedAt": null,
     "sprint": "Oct 1 24",
     "category": "Frontend",
-    "status": "Up Next",
+    "status": "In Progress",
     "storyPoints": 1,
     "priority": "Medium",
     "author": "nihal467",
-    "assignees": []
+    "assignees": [
+      "Jacobjeevan"
+    ]
   },
   "PVTI_lADOA7JD8804yM4EzcxO": {
     "type": "ISSUE",
@@ -5969,11 +5971,11 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8624",
     "title": "Facility Spoke linking option is not visible in create facility form",
     "createdAt": "2024-09-26T06:58:06Z",
-    "updatedAt": "2024-10-08T02:31:46Z",
-    "closedAt": null,
+    "updatedAt": "2024-10-10T11:57:26Z",
+    "closedAt": "2024-10-10T06:56:33Z",
     "sprint": "Oct 1 24",
     "category": "Frontend",
-    "status": "Review required",
+    "status": "Done",
     "storyPoints": 1,
     "priority": "Medium",
     "author": "nihal467",
@@ -6201,7 +6203,7 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8669",
     "title": "Add a cypress test for verify doctor connect functionality",
     "createdAt": "2024-09-30T08:12:08Z",
-    "updatedAt": "2024-09-30T09:14:42Z",
+    "updatedAt": "2024-10-10T19:05:03Z",
     "closedAt": null,
     "sprint": "Oct 1 24",
     "category": "Frontend",
@@ -6617,13 +6619,15 @@
     "url": "https://github.com/ohcnetwork/care_fe/pull/8737",
     "title": "Remove External Results; Remove unused references in Patient Registration Cypress Test",
     "createdAt": "2024-10-08T14:09:08Z",
-    "updatedAt": "2024-10-08T18:33:35Z",
+    "updatedAt": "2024-10-10T11:39:26Z",
     "closedAt": "2024-10-08T08:01:53Z",
     "sprint": "Oct 1 24",
     "category": "Frontend",
     "status": "Done",
+    "storyPoints": 3,
     "author": "rithviknishad",
     "assignees": [
+      "gigincg",
       "rithviknishad"
     ]
   },
@@ -6648,15 +6652,78 @@
     "url": "https://github.com/ohcnetwork/care_fe/pull/8741",
     "title": "Patient Registration Form: Move restore draft button beside generate/link abha number",
     "createdAt": "2024-10-08T12:30:22Z",
-    "updatedAt": "2024-10-09T00:47:50Z",
-    "closedAt": null,
+    "updatedAt": "2024-10-10T08:47:26Z",
+    "closedAt": "2024-10-10T08:47:13Z",
     "sprint": "Oct 1 24",
-    "status": "Review required",
+    "status": "Done",
     "storyPoints": 2,
     "priority": "Medium",
     "author": "rithviknishad",
     "assignees": [
       "rithviknishad"
+    ],
+    "focus": "Generic"
+  },
+  "PVTI_lADOA7JD8804yM4E8SCb": {
+    "type": "ISSUE",
+    "url": "https://github.com/ohcnetwork/care_fe/issues/8687",
+    "title": "Implement Camera Permission Handling and User Media Notifications indication",
+    "createdAt": "2024-10-10T11:58:23Z",
+    "updatedAt": "2024-10-10T11:59:02Z",
+    "closedAt": "2024-10-09T10:34:14Z",
+    "sprint": "Oct 1 24",
+    "category": "Frontend",
+    "status": "Done",
+    "author": "shauryag2002",
+    "assignees": [
+      "shauryag2002"
+    ]
+  },
+  "PVTI_lADOA7JD8804yM4E8SBe": {
+    "type": "ISSUE",
+    "url": "https://github.com/ohcnetwork/care_fe/issues/8720",
+    "title": "Error Messages Persist in UserAdd Component When Typing or Selecting Items",
+    "createdAt": "2024-10-10T11:57:46Z",
+    "updatedAt": "2024-10-10T11:58:11Z",
+    "closedAt": "2024-10-09T10:16:44Z",
+    "sprint": "Oct 1 24",
+    "category": "Frontend",
+    "status": "Done",
+    "author": "shauryag2002",
+    "assignees": [
+      "shauryag2002"
+    ]
+  },
+  "PVTI_lADOA7JD8804yM4E8O6T": {
+    "type": "PULL_REQUEST",
+    "url": "https://github.com/ohcnetwork/care_fe/pull/8757",
+    "title": "Fixed the update details button width in resource details page",
+    "createdAt": "2024-10-10T10:22:41Z",
+    "updatedAt": "2024-10-10T10:30:52Z",
+    "closedAt": null,
+    "sprint": "Oct 1 24",
+    "category": "Frontend",
+    "status": "Review required",
+    "priority": "Low",
+    "author": "nihal467",
+    "assignees": [
+      "nihal467"
+    ]
+  },
+  "PVTI_lADOA7JD8804yM4E8Gs1": {
+    "type": "ISSUE",
+    "url": "https://github.com/ohcnetwork/care_fe/issues/8752",
+    "title": "Discharged page jumps to page 1",
+    "createdAt": "2024-10-10T06:33:48Z",
+    "updatedAt": "2024-10-10T21:49:38Z",
+    "closedAt": null,
+    "sprint": "Oct 1 24",
+    "category": "Frontend",
+    "status": "Up Next",
+    "priority": "Medium",
+    "author": "Sulochan-khadka",
+    "assignees": [
+      "Sulochan-khadka"
     ],
     "focus": "Generic"
   }
