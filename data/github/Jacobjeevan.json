@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-10-10T07:59:19.000Z",
+  "last_updated": "2024-10-11T10:19:35.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8264",
+      "time": "2024-10-11T10:19:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8264#issuecomment-2407101641",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) i think mark area looks better.\n> \n> Let's retain the bar graph option as well?\n> \n> Also could you add (IV/NIV/O2) also against the ventilator mode/oxygen modality mentioned?\n\n@aparnacoronasafe Sure, we can add those.\n\nWe can keep the bar graphs, however there's some inconsistency in how it depicts the data for markArea🤔 \n\nFor example: In the line chart, NP starts at 2:45PM (which is correct), but switching to bar chart, NP shows up later (I've highlighted 2:45PM on the bar chart below). Not only that, but the distinctions between NP/SFM/HFNC isn't as clear.\n\n[<img src=\"https://github.com/user-attachments/assets/5cb75c19-6cf4-4ddf-854d-f7a0d53849b4\" width=\"400\" />](https://github.com/user-attachments/assets/5cb75c19-6cf4-4ddf-854d-f7a0d53849b4)\n\n[<img src=\"https://github.com/user-attachments/assets/94ce7324-9df0-488b-aaf0-df350f1a0a4e\" width=\"400\" />](https://github.com/user-attachments/assets/94ce7324-9df0-488b-aaf0-df350f1a0a4e)\n\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2530",
+      "time": "2024-10-11T05:51:58.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2530",
+      "text": "Added validation to prevent duplicate IP numbers in same facility"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#8756",
@@ -530,16 +544,18 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/8756",
       "title": "Discharged patients for stateAdmin facility page: consistent sort and advanced filters",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8679",
       "title": "Investigations Print Preview Page",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "needs review",
-        "changes required",
-        "merge conflict"
+        "needs testing",
+        "needs review"
       ]
     }
   ],

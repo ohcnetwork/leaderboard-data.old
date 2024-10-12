@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-10-10T06:03:16.000Z",
+  "last_updated": "2024-10-11T08:05:51.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8758",
+      "time": "2024-10-11T08:05:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8758#issuecomment-2406828740",
+      "text": "> This is not the right way to achieve it. `Pagination` component is a generic component and shouldn't rely on the URL's search param `page` for the state and logic. A dashboard like UI (such as consultation dashboard), may have multiple pagination components present in a single view. And these page states would be managed internally and not on the search params.\r\n\r\nI definitely know that this is not the best approach one can have. But the pagination in the discharged section is not handled neatly.\r\nPagination in Live Patients is handled through \"Pagination\" from \"filters\" which uses \"PaginationComponent\" whereas in Discharged Patients , it is handled through \"PaginatedList\" which uses \"Paginator\" which uses \"Pagination\" different from the former mentioned.\r\n\r\nTherefore, i saw that this works fine. Therefore pushed it. \r\n\r\nKindly suggest me an alternative way to solve this."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8752",
@@ -1347,21 +1354,26 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/8758",
       "title": "Fixes:abruptly-discharged-page-jumping-to-page1",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "question"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8751",
       "title": "Dosage heading is misaligned in the prescription module #8645",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8727",
       "title": "Issues/8029/modify nurse access to consultation page",
       "stale_for": 0,
       "labels": [
-        "needs review",
-        "test failed"
+        "needs testing",
+        "needs review"
       ]
     }
   ],
