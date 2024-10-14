@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-10-05T21:34:14.000Z",
+  "last_updated": "2024-10-13T14:11:50.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8016",
+      "time": "2024-10-13T14:11:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8016#issuecomment-2408995645",
+      "text": "> - [ ]  the editor will be used by non-tech savy people, for them, when we click bold, rather than \"*\" , its better to make the text bold itself\r\n> - [ ]  when the word is getting bold, keep the related icon, as well as in primary colour to show its active\r\n\r\nThere is a preview section (clicking on it shows how the markdown will appear in the UI). However, if we want a full-fledged live markdown editor, we need to rely on an external package. Achieving this natively would make the code unmaintainable, especially since the [execCommand()](https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommand) method, previously used for this, has been deprecated and there is no straightforward alternative.\r\n\r\nHere is an implementation of a rich text editor using different libraries: https://github.com/UdaySagar-Git/Text-Editor (Lexical is missing). Please let me know if you're okay with adding a package, and I will make a follow-up PR for this. However, I think relying on plain markdown is also a valid approach (this is how WhatsApp handles it, and users are very familiar with that atleast for just bold and italic).\r\n\r\n<img width=\"162\" alt=\"image\" src=\"https://github.com/user-attachments/assets/62f14abf-aee6-40b5-aba9-8d6cc8f0ca01\">\r\n\r\n\r\n- [x]  the thread view and default view is the doctor notes dedicated page view is breaking UI\r\n- [x]  the tooltip of attachment is clipping in the normal full view\r\n- [x]  when drag select multi line para and try to apply order list, it is being only applied to the first line of the para\r\n- [x]  add a validation to the hyperlinking related to fields in the pop-up since its accepting empty input"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8016",
@@ -1980,7 +1987,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2295",
       "title": "GSoC - Doctor Notes Enhancement ",
-      "stale_for": 0,
+      "stale_for": 8,
       "labels": [
         "In progress"
       ]
@@ -1988,7 +1995,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2291",
       "title": "Adds support for retrieving file uploads in doctor notes",
-      "stale_for": 4,
+      "stale_for": 12,
       "labels": [
         "changes required"
       ]
@@ -1998,8 +2005,7 @@
       "title": "GSoC - Doctor Notes Enhancement ",
       "stale_for": 0,
       "labels": [
-        "changes required",
-        "work-in-progress"
+        "changes required"
       ]
     }
   ],

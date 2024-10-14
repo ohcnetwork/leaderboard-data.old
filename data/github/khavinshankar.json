@@ -1,6 +1,62 @@
 {
-  "last_updated": "2024-10-10T11:19:15.000Z",
+  "last_updated": "2024-10-13T03:36:16.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-13T03:36:16.000Z",
+      "title": "ohcnetwork/teleicu_middleware#147",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/147#pullrequestreview-2364795081",
+      "text": "fix daily rounds with empty bp values"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8303",
+      "time": "2024-10-13T00:24:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8303",
+      "text": "Default route for medication should be 'Oral' on Domiciliary Care"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8209",
+      "time": "2024-10-13T00:23:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8209",
+      "text": "Pressure sore : width and height units are missing"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-13T00:23:22.000Z",
+      "title": "ohcnetwork/care_fe#8754",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8754#pullrequestreview-2364736539",
+      "text": "Added ORAL as default for all route"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-13T00:23:06.000Z",
+      "title": "ohcnetwork/care_fe#8755",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8755#pullrequestreview-2364736517",
+      "text": "Added units for pressure-sore"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8636",
+      "time": "2024-10-13T00:08:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8636",
+      "text": "Fix shifting and resource board scroll and drag"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8584",
+      "time": "2024-10-13T00:08:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8584",
+      "text": "Replace React-DND"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-13T00:07:58.000Z",
+      "title": "ohcnetwork/care_fe#8713",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8713#pullrequestreview-2364735234",
+      "text": "Revamped resource and shifting boards to the KanbanBoard component and removed react-dnd"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-10-10T11:19:15.000Z",
@@ -39814,7 +39870,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2506",
       "title": "Privacy consultation bed",
-      "stale_for": 0,
+      "stale_for": 3,
       "labels": [
         "peer-reviewed"
       ]
@@ -39822,23 +39878,24 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8666",
       "title": "Added privacy toggle for a consultation bed and lock camera controls when used by a user",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "tested",
-        "waiting for backend"
+        "waiting for backend",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/50",
       "title": "Added ABDM Docs for WASA Testing",
-      "stale_for": 3,
+      "stale_for": 6,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8460",
       "title": "Refactor cypress action; separate setup and run",
-      "stale_for": 2,
+      "stale_for": 5,
       "labels": [
         "changes required",
         "merge conflict",
@@ -39848,7 +39905,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8458",
       "title": "Hide sensitive user data for non admin users",
-      "stale_for": 2,
+      "stale_for": 5,
       "labels": [
         "needs review",
         "changes required",
@@ -39860,30 +39917,29 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8340",
       "title": "Abdm V3 Plug Support",
-      "stale_for": 6,
+      "stale_for": 0,
       "labels": [
         "needs review",
         "tested",
-        "waiting for backend",
-        "merge conflict"
+        "waiting for backend"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2313",
       "title": "Convert ABDM into Plug - Part 2/3",
-      "stale_for": 30,
+      "stale_for": 33,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2312",
       "title": "Convert ABDM into Plug - Part 3/3",
-      "stale_for": 39,
+      "stale_for": 42,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2222",
       "title": "limit user details based on user type",
-      "stale_for": 17,
+      "stale_for": 20,
       "labels": [
         "changes required"
       ]
@@ -39891,37 +39947,37 @@
     {
       "link": "https://github.com/ohcnetwork/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 157,
+      "stale_for": 160,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 0,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 1028,
+      "stale_for": 1031,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 1034,
+      "stale_for": 1037,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 1035,
+      "stale_for": 1038,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/life/pull/306",
       "title": "filtered duplicate tweets",
-      "stale_for": 20,
+      "stale_for": 23,
       "labels": []
     }
   ],
