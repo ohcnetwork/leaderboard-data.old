@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-10-11T08:05:51.000Z",
+  "last_updated": "2024-10-14T20:30:03.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8727",
+      "time": "2024-10-14T20:30:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8727#issuecomment-2412198307",
+      "text": "> @Sulochan-khadka ![image](https://private-user-images.githubusercontent.com/57055998/376163318-0c0b9c2e-d764-4622-a684-134b1f34e152.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjg5Mzc3NTgsIm5iZiI6MTcyODkzNzQ1OCwicGF0aCI6Ii81NzA1NTk5OC8zNzYxNjMzMTgtMGMwYjljMmUtZDc2NC00NjIyLWE2ODQtMTM0YjFmMzRlMTUyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE0VDIwMjQxOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTgxMWVkYTUwMzNkMjgyNDUwOThhMGU5M2FhNTU4YzhjZjhiYjczN2JiNDJkNDQ2YzIzODJjZmNhZWVkYTBmZDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.K_2Jn262q-DTrFrWU3FjQjVzSg74cHFOB28G0GhzdK4)\r\n> \r\n> * [ ]  Now, the district admin itself is blocked from accessing the button in consultation card, before requesting another review, make sure admins (district and state admin) have no restriction at all and non-admins (doctor, nurse, all other users) have restrictions are per issue\r\n\r\nI do not know how is that happening, because it is working fine in dev env. Also the logic seems pretty convincing that the consultation facilities are checked whether it matches with the allowed facilities of the user.\r\n\r\n<img width=\"1435\" alt=\"Screenshot 2024-10-15 at 1 54 11 AM\" src=\"https://github.com/user-attachments/assets/1fb75fc5-1c4d-4b12-b5c5-664e6bf32952\">\r\n\r\nAlso \"View / Upload Consultation Files\" should also have same added condition right? That if the user is not allowed a facility, it should not be able to interact with the consultation records. Right?!"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-14T20:14:54.000Z",
+      "title": "ohcnetwork/care_fe#8751",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8751#pullrequestreview-2367516998",
+      "text": "Dosage heading is misaligned in the prescription module #8645"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#1754",
+      "time": "2024-10-14T12:59:38.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1754#issuecomment-2411166516",
+      "text": "Sure ... Go ahead @DraKen0009 ... Am working on some other issues ..."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8758",
+      "time": "2024-10-14T03:35:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8758#issuecomment-2409878595",
+      "text": "> @Sulochan-khadka Can't we follow the same implementation as in Live Patients?\r\n\r\nI thought the same initially, but do not know why it was not done before. I also wanted to know the significance of Paginated List component . @rithviknishad , it would be great if you explain a bit about this...."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8758",
@@ -1355,7 +1383,7 @@
       "title": "Fixes:abruptly-discharged-page-jumping-to-page1",
       "stale_for": 0,
       "labels": [
-        "question"
+        "changes required"
       ]
     },
     {
@@ -1363,8 +1391,8 @@
       "title": "Dosage heading is misaligned in the prescription module #8645",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "changes required"
       ]
     },
     {
@@ -1372,8 +1400,8 @@
       "title": "Issues/8029/modify nurse access to consultation page",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "test failed"
       ]
     }
   ],

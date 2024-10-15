@@ -1,6 +1,77 @@
 {
-  "last_updated": "2024-10-13T17:18:52.000Z",
+  "last_updated": "2024-10-14T17:01:50.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8786",
+      "time": "2024-10-14T17:01:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8786",
+      "text": "Production Release October Week 2; v24.42.0",
+      "collaborated_with": [
+        "Jacobjeevan",
+        "shivankacker",
+        "bodhish",
+        "o",
+        "7",
+        "i",
+        "A",
+        "rithviknishad",
+        "nihal467",
+        "shauryag2002",
+        "noufalrahim",
+        "h",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8782",
+      "time": "2024-10-14T10:38:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8782",
+      "text": "Updated UI for facility cards and avatar component"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-14T09:11:10.000Z",
+      "title": "ohcnetwork/care_fe#8777",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8777#pullrequestreview-2365876337",
+      "text": "fix: prevent recursive redirect between session expired and root"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8778",
+      "time": "2024-10-14T09:01:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8778",
+      "text": "Removed unused packages"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8774",
+      "time": "2024-10-14T05:40:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8774#issuecomment-2409988935",
+      "text": "@shauryag2002 issue will be fixed in https://github.com/ohcnetwork/care_fe/pull/8504\r\nThanks for taking the time out to contribute!\r\n\r\ncc. @rithviknishad "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8772",
+      "time": "2024-10-14T05:40:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8772#issuecomment-2409987879",
+      "text": "@shauryag2002 we are updating the date picker component in https://github.com/ohcnetwork/care_fe/pull/8504 \nThis issue will be covered by that PR. Thanks for taking the time out to contribute!"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8772",
+      "time": "2024-10-14T05:40:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8772",
+      "text": "Date Picker Does Not Display Correctly on Mobile Devices"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8773",
+      "time": "2024-10-14T05:21:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8773#issuecomment-2409970213",
+      "text": "@shauryag2002 I will be taking this up"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#8773",
@@ -11359,15 +11430,34 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8782",
+      "title": "Updated UI for facility cards and avatar component",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8778",
+      "title": "Removed unused packages",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "tested"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2520",
       "title": "Adds route to fetch facility hubs",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8729",
       "title": "Added listing of Hub Facilities in Facility Home",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs review",
         "tested",
@@ -11377,16 +11467,16 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8504",
       "title": "Added support for time in dateinput component",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "test failed"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8469",
       "title": "Made Scribe be aware of existing data",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "waiting for more data",
         "merge conflict"
@@ -11395,19 +11485,19 @@
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
       "title": "Added scribe context",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/landing/pull/9",
       "title": "Added more supporters and bug fixes",
-      "stale_for": 50,
+      "stale_for": 51,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": [
         "Changes Requested"
       ]

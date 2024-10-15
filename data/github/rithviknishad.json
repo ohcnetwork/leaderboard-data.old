@@ -1,6 +1,119 @@
 {
-  "last_updated": "2024-10-13T11:04:35.000Z",
+  "last_updated": "2024-10-14T17:41:35.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-14T17:41:35.000Z",
+      "title": "ohcnetwork/care_fe#8728",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8728#pullrequestreview-2367269672",
+      "text": "Fixing: Switch Blood Pressure and temperature dropdown to use TextFormField with type=\"number\" instead of a dropdown #8644"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-14T17:35:38.000Z",
+      "title": "ohcnetwork/care_fe#8776",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8776#pullrequestreview-2367258230",
+      "text": "Log Update: disallow decimals for certain fields"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-14T17:32:41.000Z",
+      "title": "ohcnetwork/care_fe#8728",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8728#pullrequestreview-2367253196",
+      "text": "Fixing: Switch Blood Pressure and temperature dropdown to use TextFormField with type=\"number\" instead of a dropdown #8644"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8786",
+      "time": "2024-10-14T17:01:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8786",
+      "text": "Production Release October Week 2; v24.42.0",
+      "collaborated_with": [
+        "Jacobjeevan",
+        "shivankacker",
+        "bodhish",
+        "o",
+        "7",
+        "i",
+        "A",
+        "rithviknishad",
+        "nihal467",
+        "shauryag2002",
+        "noufalrahim",
+        "h",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-14T14:18:37.000Z",
+      "title": "ohcnetwork/care_fe#8660",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8660#pullrequestreview-2366795514",
+      "text": "WIP: Care Plugin Support"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8784",
+      "time": "2024-10-14T12:59:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8784",
+      "text": "Fixes multiple tiny issues"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-14T12:11:40.000Z",
+      "title": "ohcnetwork/care_fe#8748",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8748#pullrequestreview-2366432879",
+      "text": "Added 3rd Party Software Licenses Page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-14T10:26:30.000Z",
+      "title": "ohcnetwork/care#2520",
+      "link": "https://github.com/ohcnetwork/care/pull/2520#pullrequestreview-2366091585",
+      "text": "Adds route to fetch facility hubs"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-14T10:04:12.000Z",
+      "title": "ohcnetwork/care#2536",
+      "link": "https://github.com/ohcnetwork/care/pull/2536#pullrequestreview-2366023129",
+      "text": "Modified the dummy data to support new cypress test"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8777",
+      "time": "2024-10-14T08:43:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8777",
+      "text": "fix: prevent recursive redirect between session expired and root"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8774",
+      "time": "2024-10-14T05:35:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8774#issuecomment-2409982976",
+      "text": "@shauryag2002 can you ensure if the issue has been fixed in https://github.com/ohcnetwork/care_fe/pull/8504? If so, you can close this PR.\r\n\r\ncc: @shivankacker "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-14T04:36:11.000Z",
+      "title": "ohcnetwork/care_fe#8774",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8774#pullrequestreview-2365279849",
+      "text": "Fix: Date Picker Does Not Display Correctly on Mobile Devices"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-14T04:34:53.000Z",
+      "title": "ohcnetwork/care_fe#8728",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8728#pullrequestreview-2365276796",
+      "text": "Fixing: Switch Blood Pressure and temperature dropdown to use TextFormField with type=\"number\" instead of a dropdown #8644"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8758",
+      "time": "2024-10-14T04:10:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8758#issuecomment-2409906008",
+      "text": "@Sulochan-khadka The live patients page (`ManagePatients.tsx` was built long ago in the early days) and newer components such as `PaginatedList` were not present during those days. However, the discharged patients page was built fairly recently when `PaginatedList` was available for use. Hence the `ManagePatients.tsx` was never migrated to use the `PaginatedList` component, simply because it was not a priority and worked fine without it too.\r\n\r\n`PaginatedList` component is useful when you want to list items from a query that returns a paginated response, this component will render the `Pagination` component along with the children and also handles the page state management internally. It simply reduces the amount of code required to get some of the common things such as these done."
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-10-13T11:04:35.000Z",
@@ -54575,9 +54688,26 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8784",
+      "title": "Fixes multiple tiny issues",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8777",
+      "title": "fix: prevent recursive redirect between session expired and root",
+      "stale_for": 0,
+      "labels": [
+        "tested"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8731",
       "title": "Uninstall react-redux",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": [
         "needs testing",
         "waiting for related PR",
@@ -54588,13 +54718,15 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2387",
       "title": "Improved asset bed relations for camera preset",
-      "stale_for": 2,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "Carried over"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8253",
       "title": "📷 Support for linking multiple cameras to a bed",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs review",
         "tested"

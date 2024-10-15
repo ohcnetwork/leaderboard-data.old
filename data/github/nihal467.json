@@ -1,6 +1,225 @@
 {
-  "last_updated": "2024-10-11T11:59:54.000Z",
+  "last_updated": "2024-10-14T20:40:24.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8788",
+      "time": "2024-10-14T20:40:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8788",
+      "text": "Downgraded Cypress to 14.0 and Removed @types/cypress "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8771",
+      "time": "2024-10-14T19:54:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8771#issuecomment-2412093224",
+      "text": "@shauryag2002 \r\n\r\n![image](https://github.com/user-attachments/assets/fa054973-b0ed-43ae-a3a4-2599b46d2465)\r\n\r\n- [ ] currently we are having two loader in the notification, remove one among the two loader for the infinite loading"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8777",
+      "time": "2024-10-14T19:50:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8777#issuecomment-2412086973",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8460",
+      "time": "2024-10-14T19:39:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8460#issuecomment-2412071027",
+      "text": "@khavinshankar https://github.com/ohcnetwork/care_fe/pull/8738#issuecomment-2399483449 , I have tried a lot of approaches to resolve the issue, seem like there are limitation for GitHub action, feel free to other alternative otherwise close the PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8781",
+      "time": "2024-10-14T19:35:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8781#issuecomment-2412065172",
+      "text": "@Jacobjeevan is the PR ready for testing "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8776",
+      "time": "2024-10-14T19:34:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8776#issuecomment-2412063885",
+      "text": "@rithviknishad @Jacobjeevan once the PR is read for review, post a comment or change the label to need testing"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8784",
+      "time": "2024-10-14T19:32:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8784#issuecomment-2412061301",
+      "text": "@rithviknishad can you fix the minor bugs mentioned above, rest of them looks good"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8784",
+      "time": "2024-10-14T19:31:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8784#issuecomment-2412059799",
+      "text": "\r\n![image](https://github.com/user-attachments/assets/005219f4-6dba-4235-85d1-c1947ba627be)\r\n\r\n- [ ] the text badge overlaps with patient card details in mobile view when there is no bed assigned to the patient\r\n\r\n![image](https://github.com/user-attachments/assets/5338ba4e-43f6-4db2-bab8-620550d1f6f3)\r\n![image](https://github.com/user-attachments/assets/669ab530-842d-4554-a7bc-0a8e1b5964ba)\r\n\r\n- [ ] in the mobile view, when there is no facility cover image, its still showing the old icon\r\n\r\n![image](https://github.com/user-attachments/assets/8fe5cde2-3a8e-47bb-80fb-53093e2e0684)\r\n\r\n- [ ] the collapse icon is not working in the mobile view\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8748",
+      "time": "2024-10-14T19:08:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8748#issuecomment-2412025189",
+      "text": "![image](https://github.com/user-attachments/assets/2af59478-a46e-4b3d-8d88-6952bd4f135c)\r\n\r\n![image](https://github.com/user-attachments/assets/31c315ff-4b2a-4efc-a91f-d3a8d8cb6d50)\r\n\r\n@rithviknishad shall we change 3rd to Third, along with adding \" | \" for separation, would that look better in the UI?\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8782",
+      "time": "2024-10-14T19:02:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8782#issuecomment-2412016539",
+      "text": "![image](https://github.com/user-attachments/assets/cc1bbca0-e5ca-4f9b-a99b-d411f37643cf)\r\n\r\nIn the updated UI, when the bed capacity exceeds the limit, the text turns into a red badge, which I feel may not look good. I suggest that when the facility is over bed capacity, the text should be made bold and the danger color applied, which might resemble the style shown in the screenshot below.\r\n\r\n![image](https://github.com/user-attachments/assets/be8fba18-b8cb-43ad-a5f5-c3e8ec58a604)\r\n\r\n@shivankacker can you ask around the team for a opinion and let me know, which will the updated UI"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8778",
+      "time": "2024-10-14T18:45:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8778#issuecomment-2411991330",
+      "text": "since the build is completed , cypress passed and random test LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8504",
+      "time": "2024-10-14T17:58:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8504#issuecomment-2411911591",
+      "text": "![image](https://github.com/user-attachments/assets/6c170d02-ed2b-4f17-8d24-f505d054953d)\r\n\r\n- [ ] the component is in 12 hours clock by default, even though the system clock is in 24 hours"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8786",
+      "time": "2024-10-14T17:01:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8786",
+      "text": "Production Release October Week 2; v24.42.0",
+      "collaborated_with": [
+        "Jacobjeevan",
+        "shivankacker",
+        "bodhish",
+        "o",
+        "7",
+        "i",
+        "A",
+        "rithviknishad",
+        "nihal467",
+        "shauryag2002",
+        "noufalrahim",
+        "h",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8785",
+      "time": "2024-10-14T14:29:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8785",
+      "text": "Individual Process wise Filtered Shifting CSV Generation is not working properly"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8660",
+      "time": "2024-10-14T13:47:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8660#issuecomment-2411325402",
+      "text": "![image](https://github.com/user-attachments/assets/c611a7ab-b7ef-4ec1-86cc-60948c7dd345)\r\n![image](https://github.com/user-attachments/assets/a69f8ebe-f8d4-418a-864a-1b0027c04cb4)\r\n\r\n- [ ] The individual CSV export for each process, such as \"Destination Approved,\" \"Completed,\" etc., in the Shifting Board is not functioning as expected. All exports are displaying the same cumulative data for all shifts, without applying the necessary filtering for each specific step.\r\n"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8198",
+      "time": "2024-10-14T11:11:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8198",
+      "text": "Make the discharge patient list to have consistent sort by and advance filters"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8198",
+      "time": "2024-10-14T11:11:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8198#issuecomment-2410891912",
+      "text": "closing this issue as they are not relevant anymore"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8756",
+      "time": "2024-10-14T11:09:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8756#issuecomment-2410888053",
+      "text": "Since the PR is not addressing the issue and as discussed in the EOD call, we are moving out state-admin specific activities, so reworking on the entire PR seems like a waste of effort, we can close the PR and related issue."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8756",
+      "time": "2024-10-14T11:02:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8756#issuecomment-2410870461",
+      "text": "@Jacobjeevan as per the issues, sort by and advance filter options you see in the facility-specific discharge patient page, the same only should be visible, when a state admin, switch to the discharge patient list\r\n\r\n![image](https://github.com/user-attachments/assets/aa6b2670-4b08-4562-ae2d-782419f1c52d)\r\n\r\n\r\nnote: Only state admin accounts can view the entire discharge patient list across the state using this view,"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8722",
+      "time": "2024-10-14T10:52:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8722#issuecomment-2410849805",
+      "text": "@chakribontha \r\n![image](https://github.com/user-attachments/assets/7498cfde-8b4a-4fde-8b40-eebc51229afc)\r\n\r\n- [ ] in the resource page, the text in the comments are properly utilising the right area"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8660",
+      "time": "2024-10-14T10:43:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8660#issuecomment-2410821094",
+      "text": "![image](https://github.com/user-attachments/assets/3290339f-8a80-4b6b-8b3b-5135578ea655)\r\n\r\n@gigincg Since you're using the Digital Ocean backend, the deploy preview is stuck in an indefinite loading state because a CORS error is being thrown by the getCurrentUser API"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2536",
+      "time": "2024-10-14T10:04:24.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2536",
+      "text": "Modified the dummy data to support new cypress test",
+      "turnaround_time": -39661
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8679",
+      "time": "2024-10-14T09:53:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8679#issuecomment-2410650646",
+      "text": "![image](https://github.com/user-attachments/assets/cead0802-1ee5-46a6-a2f0-8d062f0c4112)\r\n\r\n@Jacobjeevan the persist in Chrome brpwser, responsive view of iPhone 14 pro, can you look it"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2536",
+      "time": "2024-10-14T09:38:08.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2536",
+      "text": "Modified the dummy data to support new cypress test"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8637",
+      "time": "2024-10-14T09:03:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8637#issuecomment-2410517664",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8727",
+      "time": "2024-10-14T08:32:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8727#issuecomment-2410433758",
+      "text": "@Sulochan-khadka \r\n![image](https://github.com/user-attachments/assets/0c0b9c2e-d764-4622-a684-134b1f34e152)\r\n\r\n- [ ] Now, the district admin itself is blocked from accessing the button in consultation card, before requesting another review, make sure admins (district and state admin) have no restriction at all and non-admins (doctor, nurse, all other users) have restrictions are per issue"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8669",
+      "time": "2024-10-14T07:20:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8669#issuecomment-2410244578",
+      "text": "@Aswinr24 sorry, iam already working on it, feel free to take up any open issue"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8744",
+      "time": "2024-10-14T05:49:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8744#issuecomment-2409997874",
+      "text": "Nikhil from the screenshot, you are not doing the configuration backend properly\r\n\r\nNote: Care_fe is under https://github.com/ohcnetwork/care_fe and care backend is under https://github.com/ohcnetwork/care\r\n\r\nsteps to run the docker : \r\n\r\n1. Clone the backend repo: https://github.com/ohcnetwork/care (backend)\r\n2. now since you are using the docker app, open the vs code and you are in the correct branch\r\n3. type `docker compose -f docker-compose.yaml -f docker-compose.local.yaml up -d` in your vs code panel\r\n4. now open the docker app and check all the containers are running\r\n5. now open the celery container and view the log, verify all the migration is completed\r\n6. open the localhost:9000 and you will be able to view a similar page as below: \r\n![image](https://github.com/user-attachments/assets/b8966840-bc6b-4f71-8751-c8816e058314)\r\n\r\n7. once the entire backend is up, run the command in vs code for loading the dummy data `docker exec care-backend-1 python manage.py load_dummy_data` \r\n\r\nOnce all the steps are followed properly, your backend is fully up.\r\n\r\nConnect the frontend to the backend:\r\n\r\n- in the frontend , open the .env file and replace the REACT_CARE_API_URL=https://careapi.ohc.network to REACT_CARE_API_URL=http://localhost:9000"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8775",
+      "time": "2024-10-14T05:32:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8775",
+      "text": "Add cypress workflow for HCX workflow"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#8766",
@@ -44454,14 +44673,7 @@
       "text": "Production Release 23.34.1"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8750",
-      "title": "New Cypress Test | Patient Details Advance Filters",
-      "stale_for": 0,
-      "labels": []
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8590",
@@ -44476,6 +44688,10 @@
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8745"
     },
     {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8545",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8750"
+    },
+    {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8544",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8613"
     },
@@ -44486,10 +44702,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8478",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8476"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8407",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8408"
     }
   ]
 }
