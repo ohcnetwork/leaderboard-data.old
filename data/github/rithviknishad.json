@@ -1,6 +1,83 @@
 {
-  "last_updated": "2024-10-14T17:41:35.000Z",
+  "last_updated": "2024-10-15T15:22:09.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-15T15:22:09.000Z",
+      "title": "ohcnetwork/care_fe#8728",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8728#pullrequestreview-2369750081",
+      "text": "Fixing: Switch Blood Pressure and temperature dropdown to use TextFormField with type=\"number\" instead of a dropdown #8644"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-15T15:12:53.000Z",
+      "title": "ohcnetwork/care_fe#8796",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8796#pullrequestreview-2369707557",
+      "text": "fixes:\"Created-at\" section peeping out of \"Doctor's discussion\""
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-15T15:09:40.000Z",
+      "title": "ohcnetwork/care_fe#8728",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8728#pullrequestreview-2369689955",
+      "text": "Fixing: Switch Blood Pressure and temperature dropdown to use TextFormField with type=\"number\" instead of a dropdown #8644"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-15T15:06:29.000Z",
+      "title": "ohcnetwork/care_fe#8797",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8797#pullrequestreview-2369677991",
+      "text": "Increase width of medical history details text area for mobile view in patient registration form #8763"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-15T15:05:29.000Z",
+      "title": "ohcnetwork/care#2387",
+      "link": "https://github.com/ohcnetwork/care/pull/2387#pullrequestreview-2369674003",
+      "text": "Improved asset bed relations for camera preset"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-15T15:04:35.000Z",
+      "title": "ohcnetwork/care#2387",
+      "link": "https://github.com/ohcnetwork/care/pull/2387#pullrequestreview-2369671328",
+      "text": "Improved asset bed relations for camera preset"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-15T15:02:53.000Z",
+      "title": "ohcnetwork/care#2387",
+      "link": "https://github.com/ohcnetwork/care/pull/2387#pullrequestreview-2369666543",
+      "text": "Improved asset bed relations for camera preset"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-15T14:28:13.000Z",
+      "title": "ohcnetwork/care_fe#8728",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8728#pullrequestreview-2369551899",
+      "text": "Fixing: Switch Blood Pressure and temperature dropdown to use TextFormField with type=\"number\" instead of a dropdown #8644"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-15T14:23:13.000Z",
+      "title": "ohcnetwork/care_fe#8728",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8728#pullrequestreview-2369533994",
+      "text": "Fixing: Switch Blood Pressure and temperature dropdown to use TextFormField with type=\"number\" instead of a dropdown #8644"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-15T14:17:52.000Z",
+      "title": "ohcnetwork/care_fe#8608",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8608#pullrequestreview-2369513285",
+      "text": "made a reusable component for table in routine and nursing care procedures"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-15T14:16:28.000Z",
+      "title": "ohcnetwork/care_fe#8608",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8608#pullrequestreview-2335355460",
+      "text": "made a reusable component for table in routine and nursing care procedures"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-10-14T17:41:35.000Z",
@@ -54692,25 +54769,16 @@
       "title": "Fixes multiple tiny issues",
       "stale_for": 0,
       "labels": [
-        "needs review",
-        "changes required"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8777",
-      "title": "fix: prevent recursive redirect between session expired and root",
-      "stale_for": 0,
-      "labels": [
-        "tested"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8731",
-      "title": "Uninstall react-redux",
-      "stale_for": 6,
+      "title": "Uninstall react-redux and axios",
+      "stale_for": 0,
       "labels": [
         "needs testing",
-        "waiting for related PR",
         "merge conflict",
         "cypress passed"
       ]
@@ -54726,10 +54794,11 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8253",
       "title": "📷 Support for linking multiple cameras to a bed",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "needs review",
-        "tested"
+        "tested",
+        "waiting for backend"
       ]
     }
   ],

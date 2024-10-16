@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-10-14T21:21:56.000Z",
+  "last_updated": "2024-10-15T18:06:44.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8759",
+      "time": "2024-10-15T18:06:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8759#issuecomment-2414685625",
+      "text": "@nihal467 \n\nFirst of all, these are the breadcrumbs:\n\n![Image](https://github.com/user-attachments/assets/d44acf4f-4906-44f2-8efb-db0d421ad577)\n\nand these are the URIs linked to each of the breadcrumb:\n\n![Image](https://github.com/user-attachments/assets/6666d339-aaf4-408b-a138-0514746520c2)\n\nAs you can see, no matter which page you are on, whenever you click on `Consultation` from the breadcrumbs, you will always be redirected to `Create Consultation` page because the URI linked to `Consultation` corresponds to that page in the routing. However if you click on `Admitted on 03:54 PM; 10/12/2023` (which is unclickable from the `Patient Consent Records` page), you will be redirected to the consultation of the patient because of its URI.\n\nSimilar is the case for when you click on `Patient` from the breadcrumbs, you will be redirected to `Create Patient` page because the URI linked to `Patient` corresponds to that page in the routing. But when you click on the name of the patient (`Anjali Krishnan` in this case), you will be redirected to her page.\n\nSo suggest me a solution?\n\nThe solution I have in my mind is to remove `Admitted on 03:54 PM; 10/12/2023` because it makes no sense to be in the breadcrumb and make its URI as `Consultation`'s URI"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8759",

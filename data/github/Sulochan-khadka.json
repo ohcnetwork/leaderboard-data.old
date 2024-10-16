@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-10-14T20:30:03.000Z",
+  "last_updated": "2024-10-15T14:44:04.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8796",
+      "time": "2024-10-15T14:44:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8796",
+      "text": "fixes:\"Created-at\" section peeping out of \"Doctor's discussion\""
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8795",
+      "time": "2024-10-15T14:40:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8795",
+      "text": "\"Created-at\" section peeping out of \"Doctor's discussion\""
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8727",
@@ -1379,11 +1393,11 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8758",
-      "title": "Fixes:abruptly-discharged-page-jumping-to-page1",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8796",
+      "title": "fixes:\"Created-at\" section peeping out of \"Doctor's discussion\"",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing"
       ]
     },
     {
@@ -1391,8 +1405,8 @@
       "title": "Dosage heading is misaligned in the prescription module #8645",
       "stale_for": 0,
       "labels": [
-        "needs review",
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     },
     {
@@ -1400,6 +1414,7 @@
       "title": "Issues/8029/modify nurse access to consultation page",
       "stale_for": 0,
       "labels": [
+        "question",
         "needs review",
         "test failed"
       ]
