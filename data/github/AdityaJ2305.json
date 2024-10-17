@@ -1,6 +1,62 @@
 {
-  "last_updated": "2024-10-15T15:21:37.000Z",
+  "last_updated": "2024-10-16T13:13:42.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8799",
+      "time": "2024-10-16T13:13:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8799",
+      "text": "Merge Develop To Staging - October Week 3 Release (v24.43.0)",
+      "collaborated_with": [
+        "nihal467",
+        "shivankacker",
+        "noufalrahim",
+        "rithviknishad",
+        "HitishRaoP",
+        "o",
+        "7",
+        "gigincg",
+        "h",
+        "A",
+        "vinutv",
+        "AdityaJ2305",
+        "Jacobjeevan",
+        "shauryag2002"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8728",
+      "time": "2024-10-16T12:09:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8728",
+      "text": "Fixing: Switch Blood Pressure and temperature dropdown to use TextFormField with type=\"number\" instead of a dropdown #8644",
+      "turnaround_time": 839476
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8728",
+      "time": "2024-10-16T12:09:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8728",
+      "text": "Fixing: Switch Blood Pressure and temperature dropdown to use TextFormField with type=\"number\" instead of a dropdown #8644",
+      "collaborated_with": [
+        "AdityaJ2305",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8681",
+      "time": "2024-10-16T12:09:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8681#issuecomment-2416635988",
+      "text": "Hey @syedfardeenjeelani , Please check by adding this line `errors[\"insurance_details\"] = insuranceDetailsError;` in `validateForm` func in `PatientRegister.tsx`"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8728",
+      "time": "2024-10-16T10:43:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8728#issuecomment-2416431895",
+      "text": "@nihal Some checks are failing after merging develop branch "
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-10-15T15:21:37.000Z",
@@ -692,15 +748,6 @@
       "text": "Hey @rithviknishad, can you assign this issue to me?"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8728",
-      "title": "Fixing: Switch Blood Pressure and temperature dropdown to use TextFormField with type=\"number\" instead of a dropdown #8644",
-      "stale_for": 0,
-      "labels": [
-        "needs testing"
-      ]
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }

@@ -1,13 +1,86 @@
 {
-  "last_updated": "2023-08-23T17:59:11.000Z",
+  "last_updated": "2024-10-16T13:13:42.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8799",
+      "time": "2024-10-16T13:13:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8799",
+      "text": "Merge Develop To Staging - October Week 3 Release (v24.43.0)",
+      "collaborated_with": [
+        "nihal467",
+        "shivankacker",
+        "noufalrahim",
+        "rithviknishad",
+        "HitishRaoP",
+        "o",
+        "7",
+        "gigincg",
+        "h",
+        "A",
+        "vinutv",
+        "AdityaJ2305",
+        "Jacobjeevan",
+        "shauryag2002"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8789",
+      "time": "2024-10-16T11:22:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8789",
+      "text": "Update styling for the side nav",
+      "turnaround_time": 131998
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8789",
+      "time": "2024-10-16T11:22:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8789",
+      "text": "Update styling for the side nav",
+      "collaborated_with": [
+        "vinutv",
+        "nihal467",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8789",
+      "time": "2024-10-16T11:10:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8789#issuecomment-2416491396",
+      "text": "> * [ ]  Currently, when the user clicks to open the profile dropdown and then attempts to access the \"Asset\" tab, the dropdown closes on the initial click, and the \"Asset\" tab only opens after a subsequent click. The expected behavior is that upon clicking the \"Asset\" tab, the profile dropdown should automatically close, and the \"Asset\" tab should open in a single action.\r\n\r\n@nihal467 \r\nYes, The ideal interaction behaviour is for the new link to open even when the dropdown is still active. \r\nCould we address this as a separate issue?\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-16T09:31:03.000Z",
+      "title": "ohcnetwork/care_fe#8789",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8789#pullrequestreview-2371813702",
+      "text": "Update styling for the side nav"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-16T09:30:46.000Z",
+      "title": "ohcnetwork/care_fe#8789",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8789#pullrequestreview-2371812530",
+      "text": "Update styling for the side nav"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8789",
+      "time": "2024-10-16T08:28:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8789#issuecomment-2416085970",
+      "text": "> _Bug_\r\n> \r\n> ![image](https://private-user-images.githubusercontent.com/57055998/376951285-e91cd645-c852-43f5-bfbf-424ecfe850f1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkwNjYyNTYsIm5iZiI6MTcyOTA2NTk1NiwicGF0aCI6Ii81NzA1NTk5OC8zNzY5NTEyODUtZTkxY2Q2NDUtYzg1Mi00M2Y1LWJmYmYtNDI0ZWNmZTg1MGYxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE2VDA4MDU1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTgzYTgxZDhhOWNmYzU0ZjAwZDFiMTk2YTRhYTlhMmMwMDcxYWRjZmNmMzgzZjExZjY1NGYxZjU3ODZiMThiNzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Bznn2flKING0X4JJTb6WbQac2r5qN-etLdISzCfImQo)\r\n> \r\n> * [ ]  when user names are long, the text is overflowing and collapse icon is clipping-n in the sidebar\r\n\r\n@nihal467  Implemented truncation for the username. [82966c3](https://github.com/ohcnetwork/care_fe/pull/8789/commits/82966c3f7a6420723cf4e48ba18895a5e1fda29a)"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/ayushma_fe#88",
       "time": "2023-08-23T17:59:11.000Z",
       "link": "https://github.com/ohcnetwork/ayushma_fe/pull/88",
       "text": "Improvements to styling",
-      "collaborated_with": ["bodhish"]
+      "collaborated_with": [
+        "bodhish"
+      ]
     },
     {
       "type": "pr_merged",
