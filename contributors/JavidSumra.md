@@ -1,12 +1,12 @@
 ---
-name: JavidSumra
-title: Contributor
+name: Javid
+title: Intern
 github: JavidSumra
-twitter: ""
-linkedin: ""
-slack: ""
-joining_date: ""
-role : contributor
+twitter: JavidSumra
+linkedin: JavidSumra
+slack: U07RV1ENQCC
+joining_date: "15/10/2024"
+role: intern
 ---
 
 Still waiting for this
