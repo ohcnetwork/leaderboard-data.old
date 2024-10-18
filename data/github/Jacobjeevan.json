@@ -1,6 +1,55 @@
 {
-  "last_updated": "2024-10-16T13:13:42.000Z",
+  "last_updated": "2024-10-17T13:12:54.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8581",
+      "time": "2024-10-17T13:12:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8581",
+      "text": "Restrict Scribe from filling fields not present in the selected log update"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8581",
+      "time": "2024-10-17T13:12:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8581#issuecomment-2419512745",
+      "text": "Taken care of in #8134  "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8781",
+      "time": "2024-10-17T13:01:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8781#issuecomment-2419487292",
+      "text": "@aparnacoronasafe Do we need any additional changes here? As mentioned above, going with markLine graph as they are accurate when switching to bar graphs."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2545",
+      "time": "2024-10-17T12:51:14.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2545",
+      "text": "Asset location route: modifications for CNS"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8812",
+      "time": "2024-10-17T07:52:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8812#issuecomment-2418818861",
+      "text": "So we do need to make an extra change, consider the following scenario:\r\n\r\n- There are two locations (one with monitors with patients, one for monitors without).\r\n\r\n<img width=\"680\" alt=\"image\" src=\"https://github.com/user-attachments/assets/1e93e792-e2d2-4883-9e20-cba9621c25cb\">\r\n\r\n- When checkbox is unchecked, only one option shows up (\"Dummy Locations\"), which results in Filter by Location being disabled (as per the issue #8162).\r\n\r\n<img width=\"680\" alt=\"image\" src=\"https://github.com/user-attachments/assets/2536fe77-02d7-4565-8a9e-269b8028dd59\">\r\n\r\nNow, consider following behavior.\r\n\r\n(1) User selects \"Include monitors without patients\"\r\n(2) Filters for location (which is only available under monitors without patients)\r\n(3) User unchecks monitors without patients\r\n\r\nAt present, the filter form selection stays the same (resulting in No vitals screen which is not accurate), so we need to reset the filter whenever user marks/unmarks the checkbox.\r\n\r\n@rithviknishad I'm wondering if there's a way to do that without touching LocationSelect?"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8812",
+      "time": "2024-10-17T07:44:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8812",
+      "text": "CNS: filter by locations changes"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8646",
+      "time": "2024-10-17T04:27:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8646#issuecomment-2418472041",
+      "text": "> Hii @rithviknishad.Can I work on this issue or is it being worked by anyone else?\n\n@PAVAN507-STAR As Rithvik suggested above, I'd wait for PRs to be created first, once the CEP proposal is created and approved 👍 "
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8799",
@@ -630,11 +679,25 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2545",
+      "title": "Asset location route: modifications for CNS",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8812",
+      "title": "CNS: filter by locations changes",
+      "stale_for": 0,
+      "labels": [
+        "question"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8790",
       "title": "Shifting csv generation fix",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "needs review"
+        "needs testing"
       ]
     },
     {
@@ -649,7 +712,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8776",
       "title": "Log Update: disallow decimals for certain fields",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review"
       ]

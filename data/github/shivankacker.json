@@ -1,6 +1,21 @@
 {
-  "last_updated": "2024-10-16T13:13:42.000Z",
+  "last_updated": "2024-10-17T10:06:15.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8782",
+      "time": "2024-10-17T10:06:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8782",
+      "text": "Updated UI for facility cards and avatar component",
+      "turnaround_time": 257287
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8504",
+      "time": "2024-10-17T07:27:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8504#issuecomment-2418772324",
+      "text": "@nihal467\r\n- fixed the size bug\r\n- Updated placeholder\r\n\r\nThe text is in 24 hour format so that the user can just input numbers and does not have to input AM/PM through the keyboard. Also reduces the code complexity. We can take it up later if any issue arises from the field."
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8799",
@@ -11529,30 +11544,18 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8782",
-      "title": "Updated UI for facility cards and avatar component",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review",
-        "Deploy-Failed",
-        "merge conflict"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8504",
       "title": "Added support for time in dateinput component",
       "stale_for": 0,
       "labels": [
-        "needs review",
-        "test failed",
-        "merge conflict"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8469",
       "title": "Made Scribe be aware of existing data",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "waiting for more data",
         "merge conflict"
@@ -11561,19 +11564,19 @@
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
       "title": "Added scribe context",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/landing/pull/9",
       "title": "Added more supporters and bug fixes",
-      "stale_for": 53,
+      "stale_for": 54,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": [
         "Changes Requested"
       ]

@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-10-14T16:08:06.000Z",
+  "last_updated": "2024-10-17T12:22:17.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8817",
+      "time": "2024-10-17T12:22:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8817#issuecomment-2419394879",
+      "text": "@rithviknishad @nihal467 the cross button is implemented such that it opens the dropdown on click , do you want to remove this?\r\n\r\ncurrent:\r\n\r\nhttps://github.com/user-attachments/assets/879bbbb4-1026-4bb1-9701-6da932d378ca\r\n\r\n\r\ni have implemented the changes which will not open the dropdown on click of cross button, should i push?\r\n\r\nhttps://github.com/user-attachments/assets/5fc69f78-dc60-4dfb-ad79-3a423c6c740c\r\n\r\n\r\n\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8817",
+      "time": "2024-10-17T11:03:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8817",
+      "text": "Fix#8815/fix clear button aligned arrow"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8815",
+      "time": "2024-10-17T09:21:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8815#issuecomment-2419013132",
+      "text": "please assign me @nihal467 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8811",
+      "time": "2024-10-17T07:20:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8811#issuecomment-2418757797",
+      "text": "this issue is with username \"**dev-districtadmin**\", which contains 17 characters , and Validator is configured to accept usernames with a length between 4 and 16 characters, inclusive. Update works well with other username\n\n- username: dev-districtadmin\n- password: Coronasafe@123\n- role: District Admin\n\ni guess username was created before adding validator "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8762",
@@ -135,6 +163,15 @@
       "text": "fix #8220 made date component responsive"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8817",
+      "title": "Fix#8815/fix clear button aligned arrow",
+      "stale_for": 0,
+      "labels": [
+        "needs testing"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

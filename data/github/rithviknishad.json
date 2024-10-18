@@ -1,6 +1,105 @@
 {
-  "last_updated": "2024-10-16T13:13:42.000Z",
+  "last_updated": "2024-10-17T10:07:45.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8813",
+      "time": "2024-10-17T10:07:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8813",
+      "text": "Sort only `en` locale file in the sort-locale script; Update docker and CI to use `npm run install-all`",
+      "turnaround_time": 7509
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-17T08:21:17.000Z",
+      "title": "ohcnetwork/care_fe#8807",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8807#pullrequestreview-2374504401",
+      "text": "Fixed Misaligned text when there's no data"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8813",
+      "time": "2024-10-17T08:02:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8813",
+      "text": "Sort only en locale file in the sort-locale script"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-17T07:41:19.000Z",
+      "title": "ohcnetwork/care_fe#8809",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8809#pullrequestreview-2374412578",
+      "text": "Add field validation to resolve the Update Profile Issue"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-17T06:56:10.000Z",
+      "title": "ohcnetwork/care_fe#8809",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8809#pullrequestreview-2374319125",
+      "text": "Add field validation to resolve the Update Profile Issue"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-17T06:51:41.000Z",
+      "title": "ohcnetwork/care_fe#8807",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8807#pullrequestreview-2374309227",
+      "text": "Fixed Misaligned text when there's no data"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8810",
+      "time": "2024-10-17T06:01:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8810#issuecomment-2418574708",
+      "text": "Should we consider renaming the clear button to something more appropriate instead? @bodhish "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8810",
+      "time": "2024-10-17T05:59:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8810#issuecomment-2418568897",
+      "text": "As a user, I'd expect the behaviour to be \"reset everything to original state\" in mind, and hence that'd include the sort filter too.\n\nJust checked with github issues too 😄 \nClearing the filters also removes the applied sort ordering too.\n\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-17T04:32:39.000Z",
+      "title": "ohcnetwork/care_fe#8809",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8809#pullrequestreview-2374121270",
+      "text": "Add field validation to resolve the Update Profile Issue"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-17T04:26:29.000Z",
+      "title": "ohcnetwork/care_fe#8807",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8807#pullrequestreview-2374115363",
+      "text": "Fixed Misaligned text when there's no data"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-17T04:24:31.000Z",
+      "title": "ohcnetwork/care_fe#8807",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8807#pullrequestreview-2374113802",
+      "text": "Fixed Misaligned text when there's no data"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-17T04:23:12.000Z",
+      "title": "ohcnetwork/care_fe#8807",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8807#pullrequestreview-2374112744",
+      "text": "Fixed Misaligned text when there's no data"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8681",
+      "time": "2024-10-17T04:21:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8681#issuecomment-2418467345",
+      "text": "ensure the en.json file has keys sorted. pre-commit should do it for you if setup properly."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8681",
+      "time": "2024-10-17T04:21:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8681#issuecomment-2418466901",
+      "text": "@syedfardeenjeelani could you resolve the merge conflicts?"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8799",
@@ -54948,13 +55047,13 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/522",
       "title": "Extract contributors joining date grouped by month",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8731",
       "title": "Uninstall react-redux and axios",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs testing",
         "merge conflict",
@@ -54972,7 +55071,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8253",
       "title": "📷 Support for linking multiple cameras to a bed",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "tested",
