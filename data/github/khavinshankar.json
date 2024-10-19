@@ -1,6 +1,32 @@
 {
-  "last_updated": "2024-10-17T10:07:33.000Z",
+  "last_updated": "2024-10-18T10:30:19.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8822",
+      "time": "2024-10-18T10:30:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8822",
+      "text": "Incorrect Routing to Facilities on Cancel Action in Update Patient Details Form"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-18T10:29:57.000Z",
+      "title": "ohcnetwork/care_fe#8823",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8823#pullrequestreview-2377716938",
+      "text": "Corrected redirection of cancel button"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/docs#55",
+      "time": "2024-10-18T07:35:49.000Z",
+      "link": "https://github.com/ohcnetwork/docs/pull/55",
+      "text": "[CEP-10] Upgrading Sample Tests & Investigations to Lab Orders for LIMS",
+      "collaborated_with": [
+        "gigincg",
+        "bodhish",
+        "khavinshankar"
+      ]
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-10-17T10:07:33.000Z",
@@ -40090,9 +40116,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2548",
+      "title": "Fixed prod deploy: install libgmp-dev in prod",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2506",
       "title": "Privacy consultation bed",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "peer-reviewed"
       ]
@@ -40100,7 +40132,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8666",
       "title": "Added privacy toggle for a consultation bed and lock camera controls when used by a user",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs review",
         "tested",
@@ -40111,13 +40143,13 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/50",
       "title": "Added ABDM Docs for WASA Testing",
-      "stale_for": 10,
+      "stale_for": 11,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8460",
       "title": "Refactor cypress action; separate setup and run",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
         "changes required",
         "merge conflict",
@@ -40127,7 +40159,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8458",
       "title": "Hide sensitive user data for non admin users",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs review",
         "changes required",
@@ -40140,60 +40172,47 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8340",
       "title": "Abdm V3 Plug Support",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "needs review",
         "tested",
-        "waiting for backend",
-        "merge conflict"
+        "waiting for backend"
       ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2313",
-      "title": "Convert ABDM into Plug - Part 2/3",
-      "stale_for": 37,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2312",
-      "title": "Convert ABDM into Plug - Part 3/3",
-      "stale_for": 46,
-      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 164,
+      "stale_for": 165,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 1035,
+      "stale_for": 1036,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 1041,
+      "stale_for": 1042,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 1042,
+      "stale_for": 1043,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/life/pull/306",
       "title": "filtered duplicate tweets",
-      "stale_for": 27,
+      "stale_for": 28,
       "labels": []
     }
   ],
@@ -40209,6 +40228,14 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8046",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8270"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/docs/issues/22",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2312"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/docs/issues/22",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2313"
     },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7563",
