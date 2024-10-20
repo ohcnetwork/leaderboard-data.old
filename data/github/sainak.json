@@ -1,6 +1,31 @@
 {
-  "last_updated": "2024-10-18T08:14:31.000Z",
+  "last_updated": "2024-10-19T06:18:47.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-19T06:18:47.000Z",
+      "title": "ohcnetwork/care#2547",
+      "link": "https://github.com/ohcnetwork/care/pull/2547#pullrequestreview-2379241652",
+      "text": "Added a settings variable to allow configurable time periods for notification deletion"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-19T06:15:25.000Z",
+      "title": "ohcnetwork/care#2548",
+      "link": "https://github.com/ohcnetwork/care/pull/2548#pullrequestreview-2379241285",
+      "text": "Fixed prod deploy: install libgmp-dev in prod"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care#2546",
+      "time": "2024-10-19T01:22:09.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2546",
+      "text": "Removed abdm config from docker env",
+      "collaborated_with": [
+        "khavinshankar",
+        "sainak"
+      ]
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8606",
@@ -18346,7 +18371,7 @@
     {
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/147",
       "title": "fix daily rounds with empty bp values",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     },
     {
@@ -18355,14 +18380,13 @@
       "stale_for": 0,
       "labels": [
         "changes required",
-        "merge conflict",
-        "stale"
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2431",
       "title": "optimize events creation and improve indexes",
-      "stale_for": 25,
+      "stale_for": 26,
       "labels": [
         "blocked"
       ]
@@ -18370,7 +18394,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 11,
+      "stale_for": 12,
       "labels": [
         "Changes Requested"
       ]
