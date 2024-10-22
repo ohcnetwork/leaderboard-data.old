@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-10-15T14:44:04.000Z",
+  "last_updated": "2024-10-21T11:17:59.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8751",
+      "time": "2024-10-21T11:17:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8751#issuecomment-2426384623",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/377033004-d047747a-4071-471f-a665-eac0d0ac9296.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk1MDk0NDIsIm5iZiI6MTcyOTUwOTE0MiwicGF0aCI6Ii81NzA1NTk5OC8zNzcwMzMwMDQtZDA0Nzc0N2EtNDA3MS00NzFmLWE2NjUtZWFjMGQwYWM5Mjk2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDIxVDExMTIyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNkNzNhOWMwMDgwOTBlYTViN2YyZmQ5ZDNiNjQyN2U1Y2QyOGUyOTBlZTI0NTIzNzI1ZDY1MzJmMTdkYmMwNDYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.NW-C_QpmB2G3HZdQQ4Q87-h8x2msE3o6fb7DeCVyk6g)\r\n> \r\n> * [ ]  keep everything in the center , in your current solution heading , excess indicator medicine and medicine with limited indicator, all are in multiple alignment\r\n\r\n@nihal467 the parts medicine and dosage are not separate table columns but a single div with \"justify-between\" . Do you want me to change them to separate table columns?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8727",
+      "time": "2024-10-21T11:09:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8727#issuecomment-2426360983",
+      "text": "@bodhish so my logic is fine right? Also  if the user is not allowed a facility, it should not be able to interact with the consultation records. Right?! \r\n\r\nAlso i have changed the PR title. I hope this solves the objectives"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8796",
+      "time": "2024-10-21T10:55:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8796#issuecomment-2426329079",
+      "text": "@nihal467 @bodhish Apologies for the inconvenience caused. Actually i only explored the bug in patient's notes and not in discussion notes. Therefore, was a bit confused. Have solved both the bugs...\r\n\r\nPatent's notes:\r\n \r\n<img width=\"988\" alt=\"Screenshot 2024-10-21 at 4 23 56 PM\" src=\"https://github.com/user-attachments/assets/ad6c65f7-6366-4df7-aabf-bae65fcca3c0\">\r\n\r\nDiscussion notes:\r\n\r\n<img width=\"988\" alt=\"Screenshot 2024-10-21 at 4 25 34 PM\" src=\"https://github.com/user-attachments/assets/d5e9a2e9-db41-4f69-9513-357825315449\">\r\n"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#8796",
@@ -1397,7 +1418,7 @@
       "title": "fixes:\"Created-at\" section peeping out of \"Doctor's discussion\"",
       "stale_for": 0,
       "labels": [
-        "needs testing"
+        "test failed"
       ]
     },
     {
@@ -1405,13 +1426,13 @@
       "title": "Dosage heading is misaligned in the prescription module #8645",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "changes required"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8727",
-      "title": "Issues/8029/modify nurse access to consultation page",
+      "title": "Fixes:Gives access of consultation details to users for only allowed facilities.",
       "stale_for": 0,
       "labels": [
         "question",

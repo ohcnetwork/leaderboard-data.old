@@ -1,6 +1,14 @@
 {
-  "last_updated": "2024-10-03T12:34:54.000Z",
+  "last_updated": "2024-10-21T15:52:47.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2541",
+      "time": "2024-10-21T15:52:47.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2541",
+      "text": "Bump newrelic from 10.0.0 to 10.1.0",
+      "turnaround_time": 523541
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#8537",
@@ -100,62 +108,108 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2517",
+      "link": "https://github.com/ohcnetwork/care/pull/2556",
       "title": "Bump the boto group across 1 directory with 2 updates",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "dependencies",
         "python"
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2511",
-      "title": "Bump newrelic from 9.13.0 to 10.0.0",
+      "link": "https://github.com/ohcnetwork/care/pull/2555",
+      "title": "Bump newrelic from 10.1.0 to 10.2.0",
+      "stale_for": 0,
+      "labels": [
+        "dependencies",
+        "python"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8841",
+      "title": "Bump i18next from 23.16.0 to 23.16.2",
+      "stale_for": 0,
+      "labels": [
+        "dependencies",
+        "npm"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/67",
+      "title": "Bump cookie and express",
+      "stale_for": 2,
+      "labels": [
+        "dependencies"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2540",
+      "title": "Bump pre-commit from 3.8.0 to 4.0.1",
+      "stale_for": 0,
+      "labels": [
+        "dependencies",
+        "python"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2538",
+      "title": "Bump python from 3.12-slim-bookworm to 3.13-slim-bookworm in /docker",
       "stale_for": 2,
       "labels": [
         "dependencies",
+        "docker"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/63",
+      "title": "Bump dompurify from 3.1.1 to 3.1.7",
+      "stale_for": 10,
+      "labels": [
+        "dependencies"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/teleicu_middleware_backend/pull/7",
+      "title": "Bump django from 5.0.7 to 5.0.9",
+      "stale_for": 13,
+      "labels": [
+        "dependencies"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2526",
+      "title": "Bump redis from 5.0.8 to 5.1.1",
+      "stale_for": 0,
+      "labels": [
+        "dependencies",
         "python"
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/docs/pull/52",
-      "title": "Bump express from 4.19.2 to 4.21.0",
-      "stale_for": 12,
+      "link": "https://github.com/ohcnetwork/care/pull/2524",
+      "title": "Bump pycryptodome from 3.20.0 to 3.21.0",
+      "stale_for": 0,
       "labels": [
-        "dependencies"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/docs/pull/51",
-      "title": "Bump dompurify from 3.1.1 to 3.1.6",
-      "stale_for": 17,
-      "labels": [
-        "dependencies"
+        "dependencies",
+        "python"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8526",
       "title": "Bump qrcode.react from 3.1.0 to 4.0.1",
-      "stale_for": 14,
+      "stale_for": 0,
       "labels": [
         "dependencies",
         "Deploy-Failed",
+        "merge conflict",
         "stale",
         "npm"
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/teleicu_middleware_backend/pull/5",
-      "title": "Bump django from 5.0.7 to 5.0.8",
-      "stale_for": 31,
-      "labels": [
-        "dependencies"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/teleicu_middleware_backend/pull/4",
       "title": "Bump certifi from 2024.2.2 to 2024.7.4",
-      "stale_for": 31,
+      "stale_for": 49,
       "labels": [
         "dependencies"
       ]
@@ -163,7 +217,7 @@
     {
       "link": "https://github.com/ohcnetwork/teleicu_middleware_backend/pull/3",
       "title": "Bump requests from 2.31.0 to 2.32.2",
-      "stale_for": 31,
+      "stale_for": 49,
       "labels": [
         "dependencies"
       ]
@@ -171,7 +225,7 @@
     {
       "link": "https://github.com/ohcnetwork/teleicu_middleware_backend/pull/2",
       "title": "Bump urllib3 from 2.2.1 to 2.2.2",
-      "stale_for": 31,
+      "stale_for": 49,
       "labels": [
         "dependencies"
       ]
@@ -179,7 +233,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/47",
       "title": "Bump webpack from 5.91.0 to 5.94.0",
-      "stale_for": 33,
+      "stale_for": 51,
       "labels": [
         "dependencies"
       ]
@@ -187,7 +241,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/43",
       "title": "Bump micromatch from 4.0.5 to 4.0.8",
-      "stale_for": 38,
+      "stale_for": 56,
       "labels": [
         "dependencies"
       ]
@@ -195,7 +249,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/42",
       "title": "Bump braces from 3.0.2 to 3.0.3",
-      "stale_for": 38,
+      "stale_for": 56,
       "labels": [
         "dependencies"
       ]
@@ -203,7 +257,7 @@
     {
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/136",
       "title": "Bump ws from 7.5.9 to 7.5.10",
-      "stale_for": 104,
+      "stale_for": 122,
       "labels": [
         "dependencies"
       ]
@@ -211,7 +265,7 @@
     {
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/135",
       "title": "Bump braces from 3.0.2 to 3.0.3",
-      "stale_for": 112,
+      "stale_for": 130,
       "labels": [
         "dependencies"
       ]
@@ -219,7 +273,7 @@
     {
       "link": "https://github.com/ohcnetwork/devops-docs/pull/3",
       "title": "Bump express from 4.18.2 to 4.19.2",
-      "stale_for": 128,
+      "stale_for": 146,
       "labels": [
         "dependencies"
       ]
@@ -227,7 +281,7 @@
     {
       "link": "https://github.com/ohcnetwork/devops-docs/pull/1",
       "title": "Bump webpack-dev-middleware from 5.3.3 to 5.3.4",
-      "stale_for": 128,
+      "stale_for": 146,
       "labels": [
         "dependencies"
       ]
@@ -235,7 +289,7 @@
     {
       "link": "https://github.com/ohcnetwork/devops-docs/pull/2",
       "title": "Bump follow-redirects from 1.15.5 to 1.15.6",
-      "stale_for": 128,
+      "stale_for": 146,
       "labels": [
         "dependencies"
       ]
@@ -243,24 +297,15 @@
     {
       "link": "https://github.com/ohcnetwork/5ParaReader/pull/8",
       "title": "build(deps): bump requests from 2.31.0 to 2.32.0",
-      "stale_for": 135,
+      "stale_for": 153,
       "labels": [
         "dependencies"
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7823",
-      "title": "Bump react-redux from 8.1.3 to 9.1.2",
-      "stale_for": 12,
-      "labels": [
-        "dependencies",
-        "npm"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/5ParaReader/pull/7",
       "title": "build(deps): bump jinja2 from 3.1.3 to 3.1.4",
-      "stale_for": 150,
+      "stale_for": 168,
       "labels": [
         "dependencies"
       ]
@@ -268,7 +313,7 @@
     {
       "link": "https://github.com/ohcnetwork/5ParaReader/pull/6",
       "title": "build(deps): bump tqdm from 4.66.2 to 4.66.3",
-      "stale_for": 153,
+      "stale_for": 171,
       "labels": [
         "dependencies"
       ]
@@ -276,7 +321,7 @@
     {
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/129",
       "title": "Bump ejs from 3.1.8 to 3.1.10",
-      "stale_for": 122,
+      "stale_for": 140,
       "labels": [
         "dependencies"
       ]
@@ -284,7 +329,7 @@
     {
       "link": "https://github.com/ohcnetwork/discharge_summary/pull/3",
       "title": "Bump wheel from 0.33.6 to 0.38.1",
-      "stale_for": 155,
+      "stale_for": 173,
       "labels": [
         "dependencies"
       ]
@@ -292,7 +337,7 @@
     {
       "link": "https://github.com/ohcnetwork/discharge_summary/pull/2",
       "title": "Bump pip from 19.2.3 to 23.3",
-      "stale_for": 155,
+      "stale_for": 173,
       "labels": [
         "dependencies"
       ]
@@ -300,7 +345,7 @@
     {
       "link": "https://github.com/ohcnetwork/discharge_summary/pull/1",
       "title": "Bump black from 21.7b0 to 24.3.0",
-      "stale_for": 155,
+      "stale_for": 173,
       "labels": [
         "dependencies"
       ]
@@ -308,42 +353,7 @@
     {
       "link": "https://github.com/ohcnetwork/ayushma/pull/516",
       "title": "Bump pinecone-client from 2.2.4 to 4.0.0",
-      "stale_for": 155,
-      "labels": [
-        "dependencies",
-        "python"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/ayushma/pull/515",
-      "title": "Bump langchain from 0.0.352 to 0.1.17",
-      "stale_for": 155,
-      "labels": [
-        "dependencies",
-        "python"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/ayushma/pull/514",
-      "title": "Bump black from 24.1.1 to 24.4.2",
-      "stale_for": 160,
-      "labels": [
-        "dependencies",
-        "python"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/5ParaReader/pull/5",
-      "title": "build(deps): bump aiohttp from 3.9.3 to 3.9.4",
-      "stale_for": 168,
-      "labels": [
-        "dependencies"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/ayushma/pull/509",
-      "title": "Bump aiohttp from 3.9.3 to 3.9.4",
-      "stale_for": 168,
+      "stale_for": 173,
       "labels": [
         "dependencies",
         "python"

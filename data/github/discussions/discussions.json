@@ -385,5 +385,37 @@
     },
     "participants": [],
     "repository": "care_fe"
+  },
+  {
+    "source": "github",
+    "title": "October Week 3 Release",
+    "text": "## What's Changed\r\n* Fixed the update details button width in resource details page by @nihal467 in https://github.com/ohcnetwork/care_fe/pull/8757\r\n* Fixed the type issue in the cypress test file by @nihal467 in https://github.com/ohcnetwork/care_fe/pull/8766\r\n* New Cypress Test | Patient Details Advance Filters by @nihal467 in https://github.com/ohcnetwork/care_fe/pull/8750\r\n* Revamped resource and shifting boards to the KanbanBoard component and removed react-dnd by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8713\r\n* Added units for pressure-sore by @noufalrahim in https://github.com/ohcnetwork/care_fe/pull/8755\r\n* Added ORAL as default for all route by @noufalrahim in https://github.com/ohcnetwork/care_fe/pull/8754\r\n* Downgraded Cypress to 13.14.2 and Removed @types/cypress  by @nihal467 in https://github.com/ohcnetwork/care_fe/pull/8788\r\n* New Cypress Test to verify functionality of Doctor Connect by @nihal467 in https://github.com/ohcnetwork/care_fe/pull/8791\r\n* Removed unused packages by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8778\r\n* fix: prevent recursive redirect between session expired and root by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8777\r\n* Death report is missing patient age by @HitishRaoP in https://github.com/ohcnetwork/care_fe/pull/8702\r\n* Fixes multiple tiny issues by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8784\r\n* WIP: Care Plugin Support by @gigincg in https://github.com/ohcnetwork/care_fe/pull/8660\r\n* Updated README: updated CARE logo by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8801\r\n* Update styling for the side nav by @vinutv in https://github.com/ohcnetwork/care_fe/pull/8789\r\n* Fixing: Switch Blood Pressure and temperature dropdown to use TextFormField with type=\"number\" instead of a dropdown #8644 by @AdityaJ2305 in https://github.com/ohcnetwork/care_fe/pull/8728\r\n* Map preview on mobile fix by @Jacobjeevan in https://github.com/ohcnetwork/care_fe/pull/8793\r\n* Added Infinite Scrolling and Previous Item Persistence in Notifications by @shauryag2002 in https://github.com/ohcnetwork/care_fe/pull/8771\r\n* Removed Background Colour of the Favicon  by @nihal467 in https://github.com/ohcnetwork/care_fe/pull/8803\r\n* Investigations Print Preview Page by @Jacobjeevan in https://github.com/ohcnetwork/care_fe/pull/8679\r\n* Added listing of Hub Facilities in Facility Home by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8729\r\n* Adds support for sorting locale file keys in pre-commit by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8806\r\n* Updated UI for facility cards and avatar component by @shivankacker in https://github.com/ohcnetwork/care_fe/pull/8782\r\n* Sort only `en` locale file in the sort-locale script; Update docker and CI to use `npm run install-all` by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8813\r\n* Corrected redirection of cancel button by @Rishith25 in https://github.com/ohcnetwork/care_fe/pull/8823\r\n* 📷 Support for linking multiple cameras to a bed by @rithviknishad in https://github.com/ohcnetwork/care_fe/pull/8253\r\n* fix: close profile dropdown on first click when navigating by @JavidSumra in https://github.com/ohcnetwork/care_fe/pull/8824\r\n* Shifting csv generation fix by @Jacobjeevan in https://github.com/ohcnetwork/care_fe/pull/8790\r\n* Abdm V3 Plug Support by @khavinshankar in https://github.com/ohcnetwork/care_fe/pull/8340\r\n* Disable abha number linking when health facility id is not present by @khavinshankar in https://github.com/ohcnetwork/care_fe/pull/8850\r\n\r\n## New Contributors\r\n* @Rishith25 made their first contribution in https://github.com/ohcnetwork/care_fe/pull/8823\r\n* @JavidSumra made their first contribution in https://github.com/ohcnetwork/care_fe/pull/8824\r\n\r\n**Full Changelog**: https://github.com/ohcnetwork/care_fe/compare/v24.42.0...v24.43.0\n\n<hr /><em>This discussion was created from the release <a href='https://github.com/ohcnetwork/care_fe/releases/tag/v24.43.0'>October Week 2 Release</a>.</em>",
+    "author": "sainak",
+    "link": "https://github.com/orgs/ohcnetwork/discussions/8857",
+    "isAnswered": null,
+    "time": "2024-10-21T16:59:33Z",
+    "updateTime": "2024-10-21T17:00:13Z",
+    "category": {
+      "name": "Announcements",
+      "emoji": "📣"
+    },
+    "participants": [],
+    "repository": "care_fe"
+  },
+  {
+    "source": "github",
+    "title": "October Week 3 Release",
+    "text": "## What's Changed\r\n* ADDITIONAL_PLUGS build arg by @dauntlessnomad in https://github.com/ohcnetwork/care/pull/2535\r\n* Modified the dummy data to support new cypress test by @nihal467 in https://github.com/ohcnetwork/care/pull/2536\r\n* load additional plugs on manager startup by @sainak in https://github.com/ohcnetwork/care/pull/2537\r\n* Adds route to fetch facility hubs by @shivankacker in https://github.com/ohcnetwork/care/pull/2520\r\n* disable filtering inactive users by default by @sainak in https://github.com/ohcnetwork/care/pull/2529\r\n* disable codecov annotations by @sainak in https://github.com/ohcnetwork/care/pull/2542\r\n* Improved asset bed relations for camera preset by @rithviknishad in https://github.com/ohcnetwork/care/pull/2387\r\n* Convert ABDM into Plug - Part 2/3 by @khavinshankar in https://github.com/ohcnetwork/care/pull/2313\r\n* Convert ABDM into Plug - Part 3/3 by @khavinshankar in https://github.com/ohcnetwork/care/pull/2312\r\n* Removed abdm config from docker env by @khavinshankar in https://github.com/ohcnetwork/care/pull/2546\r\n* Fixed prod deploy: install libgmp-dev in prod by @khavinshankar in https://github.com/ohcnetwork/care/pull/2548\r\n\r\n\r\n**Full Changelog**: https://github.com/ohcnetwork/care/compare/v24.41.0...v24.43.0\n\n<hr /><em>This discussion was created from the release <a href='https://github.com/ohcnetwork/care/releases/tag/v24.43.0'>October Week 3 Release</a>.</em>",
+    "author": "sainak",
+    "link": "https://github.com/ohcnetwork/care/discussions/2553",
+    "isAnswered": null,
+    "time": "2024-10-21T17:01:26Z",
+    "updateTime": "2024-10-21T17:01:27Z",
+    "category": {
+      "name": "Announcements",
+      "emoji": "📣"
+    },
+    "participants": [],
+    "repository": "care"
   }
 ]

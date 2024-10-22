@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-10-18T11:47:21.000Z",
+  "last_updated": "2024-10-21T10:59:58.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8846",
+      "time": "2024-10-21T10:59:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8846",
+      "text": "Add More Bed Types Modal Stuck on Loading"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8846",
+      "time": "2024-10-21T10:54:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8846",
+      "text": "Add More Bed Types Modal Stuck on Loading"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8827",
+      "time": "2024-10-21T10:03:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8827#issuecomment-2426212634",
+      "text": "hey @rithviknishad ,\r\nThanks for pointing that out! the ButtonV2 component already handles the necessary styles when it's disabled\r\nI’ll update the code accordingly to rely on the built-in styles from ButtonV2. Thanks for your guidance!\r\n![image](https://github.com/user-attachments/assets/19734872-ae99-4ea1-b6a3-99f2c342f17a)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8827",
+      "time": "2024-10-21T09:43:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8827#issuecomment-2426160299",
+      "text": "hey @rithviknishad ,\r\nI see your point about simplifying the classes since the button is disabled when totalBeds is null. However, I think keeping the conditional classes for opacity is helpful for providing visual feedback. It allows users to see that the button is inactive (with reduced opacity) when there are no beds available, enhancing usability.\r\n\r\nBut I'm open to further discussion if you think a simpler approach would be better. Let me know your thoughts!\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8827",
+      "time": "2024-10-21T09:14:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8827#issuecomment-2426084354",
+      "text": "Hey @rithviknishad ,\r\n I’ve updated the code to disable the button only when totalBeds is null or undefined, \r\n.Please check it out!\r\n\r\n![image](https://github.com/user-attachments/assets/d138975a-b7b2-48f2-8bfb-ae739858b3f8)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8827",
+      "time": "2024-10-21T06:22:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8827#issuecomment-2425691669",
+      "text": "Hey @bodhish ,\r\nCould you please take a look at this asset?\r\n\r\nhttps://github.com/user-attachments/assets/6a0c73e1-d770-4611-866b-67cbd0cdedb3\r\n \r\nLet me know if it can be modified or improved. Thanks!\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8814",
@@ -57,15 +99,7 @@
       "title": " Fixes greyed out 'Active Manage Bed' button in Location Management Page #8814",
       "stale_for": 0,
       "labels": [
-        "question",
-        "needs testing"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8797",
-      "title": "Increase width of medical history details text area for mobile view in patient registration form #8763",
-      "stale_for": 0,
-      "labels": [
+        "needs review",
         "tested"
       ]
     }
