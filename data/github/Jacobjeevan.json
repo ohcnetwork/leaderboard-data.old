@@ -1,6 +1,52 @@
 {
-  "last_updated": "2024-10-21T16:55:40.000Z",
+  "last_updated": "2024-10-22T11:57:33.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8867",
+      "time": "2024-10-22T11:57:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8867#issuecomment-2429082631",
+      "text": "(1) Is an easy fix.\n(2) Collapse on multi-select isn't usual/expected behavior; we could make it single select, however that would require a bit more rework. We are going to redesign symptoms anyways, so could do it then."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8776",
+      "time": "2024-10-22T08:57:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8776#issuecomment-2428682767",
+      "text": "> @Jacobjeevan\r\n> \r\n>     * [ ]  we should allow PCO2 to have decimal values per the issue. Following the standard, allow up to two decimal points for the PCO2. Please make the changes in this PR and update the backend accordingly to support it.\r\n\r\nHmm, Sam already filed an issue for this and looks like someone is working on it 🤔 #8858  What do you think? Let me handle it, or should I just make the modification in this PR itself?"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8864",
+      "time": "2024-10-22T06:57:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8864",
+      "text": "Redundant API calls in Vitals tab"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8781",
+      "time": "2024-10-22T04:31:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8781#issuecomment-2428214685",
+      "text": "\r\n>     * [ ]  Rename INVASIVE to INVASIVE VENTILATOR and Non-INVASIVE to NON-INVASIVE VENTILATOR on Respiratory support type\r\n>       invasive or non-invasive alone doesn't make sense when its captioned under Respiratory Support type.\r\n\r\n👍 \r\n\r\n<img width=\"424\" alt=\"image\" src=\"https://github.com/user-attachments/assets/91ee959d-0e6f-4e0c-862d-c2eadec9cce8\">\r\n"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8722",
+      "time": "2024-10-22T02:02:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8722",
+      "text": "Fix comment overflow and ensure content fits within div",
+      "collaborated_with": [
+        "chakribontha",
+        "Jacobjeevan",
+        "shivankacker",
+        "bodhish",
+        "o",
+        "7",
+        "i",
+        "A",
+        "rithviknishad"
+      ]
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8854",
@@ -796,8 +842,8 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8852",
-      "title": "Ventilator mode/Oxygen modality data as exclusive of each other",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8864",
+      "title": "Redundant API calls in Vitals tab",
       "stale_for": 0,
       "labels": [
         "needs testing",
@@ -805,8 +851,8 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8839",
-      "title": "Bed management UI enhancement",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8852",
+      "title": "Ventilator mode/Oxygen modality data as exclusive of each other",
       "stale_for": 0,
       "labels": [
         "needs testing"
@@ -815,13 +861,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2545",
       "title": "Asset location route: modifications for CNS",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8812",
       "title": "CNS: filter by locations changes",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "tested",
         "waiting for backend",
@@ -842,8 +888,7 @@
       "title": "Log Update: disallow decimals for certain fields",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "changes required"
       ]
     }
   ],

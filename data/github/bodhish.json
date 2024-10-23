@@ -1,6 +1,171 @@
 {
-  "last_updated": "2024-10-21T08:16:57.000Z",
+  "last_updated": "2024-10-22T12:56:18.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-22T12:56:18.000Z",
+      "title": "ohcnetwork/docs#68",
+      "link": "https://github.com/ohcnetwork/docs/pull/68#pullrequestreview-2385121046",
+      "text": "Development docs: Data fetching in CARE"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-22T10:13:06.000Z",
+      "title": "ohcnetwork/leaderboard-data#65",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/65#pullrequestreview-2384717996",
+      "text": "Update noufalrahim.md"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8863",
+      "time": "2024-10-22T09:46:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8863#issuecomment-2428808076",
+      "text": "Is the app running on full screen? "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8865",
+      "time": "2024-10-22T09:14:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8865#issuecomment-2428731905",
+      "text": "@samholics please do mention the source of these issues from next time. \n\nExample \n\nReported by Athul Dr via Aparna "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8863",
+      "time": "2024-10-22T09:13:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8863#issuecomment-2428728242",
+      "text": "Can you share a screen recording? "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8868",
+      "time": "2024-10-22T08:13:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8868#issuecomment-2428570581",
+      "text": "Nice work @nihal467 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8863",
+      "time": "2024-10-22T06:42:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8863#issuecomment-2428384730",
+      "text": "@nithish1018 which screen size are you finding the UI failing?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/landing#9",
+      "time": "2024-10-22T05:39:53.000Z",
+      "link": "https://github.com/ohcnetwork/landing/pull/9#issuecomment-2428304076",
+      "text": "@shivankacker whats the status here?\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-22T05:25:39.000Z",
+      "title": "ohcnetwork/care_fe#8862",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8862#pullrequestreview-2383953007",
+      "text": "Switch to using OHC domain for plausible"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8860",
+      "time": "2024-10-22T05:04:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8860#issuecomment-2428263460",
+      "text": "on the video you shared I can see that we are missing a `>` after the `...`\r\n<img width=\"326\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4b4398bb-28f7-46d1-8268-57d6e3e27196\">\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8847",
+      "time": "2024-10-22T03:31:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8847#issuecomment-2428137266",
+      "text": "@aravindm4 lets just add the tag, lets not make the removal automatic. \n\n```yml\nname: Notify Core Team on Non-Core Questions\n\non:\n  issue_comment:\n    types: [created]\n\njobs:\n  notify_core_team:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Check if commenter is non-core member\n        uses: actions/github-script@v6\n        with:\n          github-token: ${{ secrets.GITHUB_TOKEN }}\n          script: |\n            const coreMembers = ['coreMember1', 'coreMember2']; // Define core members\n            const commenter = context.payload.comment.user.login;\n            if (!coreMembers.includes(commenter)) {\n              return commenter; // Proceed if not core member\n            }\n\n      - name: Check if comment is a question\n        id: check_question\n        run: |\n          echo \"${{ github.event.comment.body }}\" | grep -Eq \"(\\?|what|how|why|when|who)\"\n        \n      - name: Notify core team\n        if: ${{ steps.check_question.outcome == 'success' }}\n        run: |\n          curl -X POST -H 'Content-type: application/json' --data '{\"text\":\"A non-core member posted a question: https://github.com/${{ github.repository }}/issues/${{ github.event.issue.number }}\"}' ${{ secrets.SLACK_WEBHOOK }}\n\n      - name: Add question label (optional)\n        if: ${{ steps.check_question.outcome == 'success' }}\n        uses: actions/github-script@v6\n        with:\n          github-token: ${{ secrets.GITHUB_TOKEN }}\n          script: |\n            await github.issues.addLabels({\n              owner: context.repo.owner,\n              repo: context.repo.repo,\n              issue_number: context.payload.issue.number,\n              labels: ['question'],\n            });\n\n```\n\nSomething like this with options for questions and core configurable via actions env "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8858",
+      "time": "2024-10-22T03:22:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8858#issuecomment-2428129750",
+      "text": "@abhip161 I think you can combine #8859 also into a single PR; "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-22T03:15:48.000Z",
+      "title": "ohcnetwork/care_fe#8825",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8825#pullrequestreview-2383668458",
+      "text": "Modified the UI of events log and switch tab"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-22T03:06:55.000Z",
+      "title": "ohcnetwork/care_fe#8860",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8860#pullrequestreview-2383661714",
+      "text": "Fixed shifting details page responsiveness and add shadcn Breadcrump"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-22T02:40:28.000Z",
+      "title": "ohcnetwork/care_fe#8606",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8606#pullrequestreview-2383639880",
+      "text": "Allow users to set profile pictures"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8833",
+      "time": "2024-10-22T02:26:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8833#issuecomment-2428080067",
+      "text": "You need to push the commits to your fork; "
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8722",
+      "time": "2024-10-22T02:02:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8722",
+      "text": "Fix comment overflow and ensure content fits within div",
+      "collaborated_with": [
+        "chakribontha",
+        "Jacobjeevan",
+        "shivankacker",
+        "bodhish",
+        "o",
+        "7",
+        "i",
+        "A",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-22T01:36:03.000Z",
+      "title": "ohcnetwork/care_fe#8827",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8827#pullrequestreview-2383579143",
+      "text": " Fixes greyed out 'Active Manage Bed' button in Location Management Page #8814"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8672",
+      "time": "2024-10-22T01:29:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8672",
+      "text": "Add Validation for Insurance input fields in patient registration form"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8618",
+      "time": "2024-10-22T01:28:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8618",
+      "text": "Add tooltip for Discussion Notes Icons"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-22T01:28:29.000Z",
+      "title": "ohcnetwork/care_fe#8837",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8837#pullrequestreview-2383574163",
+      "text": "fix: added tooltip for Discussion Notes Icons #8618"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-22T01:25:47.000Z",
+      "title": "ohcnetwork/care_fe#8856",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8856#pullrequestreview-2383567223",
+      "text": "Enhancement of patient details page"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-10-21T08:16:57.000Z",
@@ -4977,7 +5142,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2465",
       "title": "New Crowdin updates",
-      "stale_for": 32,
+      "stale_for": 33,
       "labels": [
         "blocked"
       ]
