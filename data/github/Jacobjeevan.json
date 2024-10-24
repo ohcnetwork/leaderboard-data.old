@@ -1,6 +1,30 @@
 {
-  "last_updated": "2024-10-22T11:57:33.000Z",
+  "last_updated": "2024-10-23T22:41:24.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8812",
+      "time": "2024-10-23T22:41:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8812",
+      "text": "CNS: filter by locations changes",
+      "turnaround_time": 572233
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8864",
+      "time": "2024-10-23T22:19:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8864",
+      "text": "Redundant API calls in Vitals tab",
+      "turnaround_time": 141719
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8852",
+      "time": "2024-10-23T22:15:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8852",
+      "text": "Ventilator mode/Oxygen modality data as exclusive of each other",
+      "turnaround_time": 203205
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8867",
@@ -842,45 +866,18 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8864",
-      "title": "Redundant API calls in Vitals tab",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8852",
-      "title": "Ventilator mode/Oxygen modality data as exclusive of each other",
-      "stale_for": 0,
-      "labels": [
-        "needs testing"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care/pull/2545",
       "title": "Asset location route: modifications for CNS",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8812",
-      "title": "CNS: filter by locations changes",
-      "stale_for": 1,
-      "labels": [
-        "tested",
-        "waiting for backend",
-        "reviewed"
-      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8781",
       "title": "Ventilator mode/oxygen modality data on consultation page",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "changes required",
+        "merge conflict"
       ]
     },
     {
@@ -888,9 +885,15 @@
       "title": "Log Update: disallow decimals for certain fields",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     }
   ],
-  "authored_issue_and_pr": []
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8845",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8852"
+    }
+  ]
 }

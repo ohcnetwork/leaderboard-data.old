@@ -1,6 +1,97 @@
 {
-  "last_updated": "2024-10-22T12:56:18.000Z",
+  "last_updated": "2024-10-23T22:44:04.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-23T22:44:04.000Z",
+      "title": "ohcnetwork/care_fe#8809",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8809#pullrequestreview-2390794208",
+      "text": "Add field validation to resolve the Update Profile Issue"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8162",
+      "time": "2024-10-23T22:41:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8162",
+      "text": "In CNS page: filter by location- hide locations with no Monitors"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-23T22:38:51.000Z",
+      "title": "ohcnetwork/care_fe#8827",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8827#pullrequestreview-2390789028",
+      "text": " Fixes greyed out 'Active Manage Bed' button in Location Management Page #8814"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8834",
+      "time": "2024-10-23T22:33:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8834#issuecomment-2433593583",
+      "text": "> > > > Also did you break the mobile input its showing IN instead of the country logo 🤔\r\n> > > \r\n> > > \r\n> > > No,I checked , it was previously like that.\r\n> > \r\n> > \r\n> > No, It was showing the flag, check the screenshot from vinu on the same thread;\r\n> > <img alt=\"Screenshot 2024-10-21 at 2 15 39 PM\" width=\"269\" src=\"https://private-user-images.githubusercontent.com/16238306/378343319-f8bd74a8-a811-402f-a10c-969a14e69a78.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3MTA5OTEsIm5iZiI6MTcyOTcxMDY5MSwicGF0aCI6Ii8xNjIzODMwNi8zNzgzNDMzMTktZjhiZDc0YTgtYTgxMS00MDJmLWExMGMtOTY5YTE0ZTY5YTc4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDIzVDE5MTEzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEyMDNkNDhmZWRjOTU0MTY5ZGZmZWY3NTFiZjI0NmZhMmVhOTA2MjI2M2NiY2MxZDU5ZGQ3NThhYzAzZWU3YzcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._N18u0pepNf19UTcAA3ztUqTIW8uOwFG2jVYyymFpv8\">\r\n> \r\n> Okay, I will fix that. Actually, I merged your /filter-component branch, which I think caused this\r\n\r\n@i0am0arunava Its working on the branch!, I just checked now. \r\n\r\n<img width=\"1103\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a5dc5b83-7944-4183-a3f1-2b822e5dcd69\">\r\n\r\n🤔 🤔 🤔 🤔 🤔 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-23T22:30:09.000Z",
+      "title": "ohcnetwork/care_fe#8860",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8860#pullrequestreview-2390761695",
+      "text": "Fixed shifting details page responsiveness and add shadcn Breadcrump"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8861",
+      "time": "2024-10-23T22:19:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8861",
+      "text": "Redudant API Requests being made in the Vitals Tab"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8845",
+      "time": "2024-10-23T22:15:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8845",
+      "text": "Ventilator mode/Oxygen modality data not treated as exclusive when passing to BE"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8895",
+      "time": "2024-10-23T22:14:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8895#issuecomment-2433566237",
+      "text": "@NitinPSingh The merge checklist in the PR should be added back and completed. "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8882",
+      "time": "2024-10-23T22:10:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8882#issuecomment-2433561257",
+      "text": "If we are making this change, I would really make it a list ie like a table; than have a grid; \r\n\r\n<img width=\"1381\" alt=\"image\" src=\"https://github.com/user-attachments/assets/071a4df7-d31e-4099-8b08-42d78e1dce7e\">\r\n\r\nCC @nihal467 @gigincg @rithviknishad "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8897",
+      "time": "2024-10-23T21:38:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8897#issuecomment-2433512381",
+      "text": "I think we should add a spec for this change."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-23T21:32:15.000Z",
+      "title": "ohcnetwork/care_fe#8903",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8903#pullrequestreview-2390688029",
+      "text": "Added avatars to userlist and userAutoComplete"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-23T21:28:49.000Z",
+      "title": "ohcnetwork/care_fe#8889",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8889#pullrequestreview-2390682229",
+      "text": "added non-core-qn workflow"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8834",
+      "time": "2024-10-23T19:09:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8834#issuecomment-2433223166",
+      "text": "> > Also did you break the mobile input its showing IN instead of the country logo 🤔\n> \n> \n> \n> No,I checked , it was previously like that.\n\nNo, I was showing the flag, check the screenshot from vinu on the same thread; \n\n<img width=\"269\" alt=\"Screenshot 2024-10-21 at 2 15 39 PM\" src=\"https://github.com/user-attachments/assets/f8bd74a8-a811-402f-a10c-969a14e69a78\">"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-10-22T12:56:18.000Z",
@@ -5142,7 +5233,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2465",
       "title": "New Crowdin updates",
-      "stale_for": 33,
+      "stale_for": 34,
       "labels": [
         "blocked"
       ]

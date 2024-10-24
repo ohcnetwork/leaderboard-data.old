@@ -1,6 +1,56 @@
 {
-  "last_updated": "2024-10-22T13:57:41.000Z",
+  "last_updated": "2024-10-23T16:15:59.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8903",
+      "time": "2024-10-23T16:15:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8903#issuecomment-2432763369",
+      "text": "seems to be a flaky test; fixed in https://github.com/ohcnetwork/care_fe/pull/8891\r\n\r\ncc: @nihal467 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-23T16:15:02.000Z",
+      "title": "ohcnetwork/care_fe#8903",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8903#pullrequestreview-2389346233",
+      "text": "Added avatars to userlist and userAutoComplete"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-23T15:19:05.000Z",
+      "title": "ohcnetwork/care_fe#8903",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8903#pullrequestreview-2389168808",
+      "text": "Added avatars to userlist and userAutoComplete"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8880",
+      "time": "2024-10-23T15:16:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8880",
+      "text": "Add Improvement to Reason Field in Resource details page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-23T15:14:43.000Z",
+      "title": "ohcnetwork/care_fe#8904",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8904#pullrequestreview-2389156018",
+      "text": "fixed-text-overflow #8880"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8905",
+      "time": "2024-10-23T14:59:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8905",
+      "text": "Adds support for cypress parallel"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2559",
+      "time": "2024-10-23T14:32:22.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2559",
+      "text": "fixes validation preventing linking multiple cameras to a bed",
+      "turnaround_time": 80836
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-10-22T13:57:41.000Z",
@@ -55639,27 +55689,31 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2559",
-      "title": "fixes validation preventing linking multiple cameras to a bed",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8905",
+      "title": "Adds support for cypress-parallel",
       "stale_for": 0,
       "labels": []
     },
     {
-      "link": "https://github.com/ohcnetwork/docs/pull/68",
-      "title": "Development docs: Data fetching in CARE",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8894",
+      "title": "enable livekit plugin and fix docker builds",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "work-in-progress"
+      ]
     },
     {
-      "link": "https://github.com/ohcnetwork/10bedicu/pull/86",
-      "title": "update scraper ci: untrack venv; cache `.venv`",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8891",
+      "title": "Adds support for `useMutation` hook",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "tested"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/522",
       "title": "Extract contributors joining date grouped by month",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     }
   ],
@@ -55729,6 +55783,10 @@
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8487"
     },
     {
+      "issue_link": "https://github.com/ohcnetwork/docs/issues/35",
+      "pr_link": "https://github.com/ohcnetwork/docs/pull/68"
+    },
+    {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8298",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8316"
     },
@@ -55739,10 +55797,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8287",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8320"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8241",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/2356"
     }
   ]
 }
