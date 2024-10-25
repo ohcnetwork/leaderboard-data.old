@@ -1,6 +1,107 @@
 {
-  "last_updated": "2024-10-22T08:40:35.000Z",
+  "last_updated": "2024-10-24T14:16:03.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T14:16:03.000Z",
+      "title": "ohcnetwork/care_fe#8881",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8881#pullrequestreview-2392751616",
+      "text": "Prevent infinite load when avatar upload fails"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T14:11:16.000Z",
+      "title": "ohcnetwork/care_fe#8917",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8917#pullrequestreview-2392729276",
+      "text": "Fixes security issue with Avatar Edit Modal"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T10:42:17.000Z",
+      "title": "ohcnetwork/care_fe#8016",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8016#pullrequestreview-2392083707",
+      "text": "GSoC - Doctor Notes Enhancement "
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8909",
+      "time": "2024-10-24T07:44:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8909",
+      "text": "Staging Release - October Week 4 Release (v24.44.0)",
+      "turnaround_time": 18476
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8909",
+      "time": "2024-10-24T07:44:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8909",
+      "text": "Staging Release - October Week 4 Release (v24.44.0)",
+      "collaborated_with": [
+        "abhip161",
+        "tellmeY18",
+        "rithviknishad",
+        "Nithin9585",
+        "nihal467",
+        "syedfardeenjeelani",
+        "nithish1018",
+        "chakribontha",
+        "sainak",
+        "Rishith25",
+        "Mahendar0701",
+        "Jacobjeevan",
+        "JavidSumra",
+        "gigincg",
+        "o",
+        "i",
+        "A",
+        "Keerthilochankumar",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2561",
+      "time": "2024-10-24T07:41:54.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2561",
+      "text": "Staging Release - October Week 3 Release (v24.44.0)",
+      "turnaround_time": 1899
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2561",
+      "time": "2024-10-24T07:10:16.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2561",
+      "text": "Staging Release - October Week 3 Release (v24.44.0)"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8908",
+      "time": "2024-10-24T02:40:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8908",
+      "text": "Disable abha number linking when health facility id is not present",
+      "turnaround_time": 1577
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8909",
+      "time": "2024-10-24T02:36:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8909",
+      "text": "Staging Release - October Week 3 Release Patch (v24.44.0)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T02:17:44.000Z",
+      "title": "ohcnetwork/care_fe#8891",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8891#pullrequestreview-2391067566",
+      "text": "Adds support for `useMutation` hook"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8908",
+      "time": "2024-10-24T02:14:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8908",
+      "text": "Disable abha number linking when health facility id is not present"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#8844",
@@ -40514,23 +40615,23 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8866",
       "title": "Added support for enabling boundaries for assetbed cameras",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
-        "needs testing",
         "needs review",
-        "Deploy-Failed"
+        "work-in-progress",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2557",
       "title": "Added support for enabling boundaries for assetbed cameras",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2506",
       "title": "Privacy consultation bed",
-      "stale_for": 7,
+      "stale_for": 9,
       "labels": [
         "peer-reviewed"
       ]
@@ -40538,7 +40639,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8666",
       "title": "Added privacy toggle for a consultation bed and lock camera controls when used by a user",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": [
         "needs review",
         "tested",
@@ -40549,13 +40650,13 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/50",
       "title": "Added ABDM Docs for WASA Testing",
-      "stale_for": 15,
+      "stale_for": 17,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8460",
       "title": "Refactor cypress action; separate setup and run",
-      "stale_for": 4,
+      "stale_for": 6,
       "labels": [
         "changes required",
         "merge conflict",
@@ -40565,7 +40666,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8458",
       "title": "Hide sensitive user data for non admin users",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": [
         "needs review",
         "changes required",
@@ -40578,31 +40679,31 @@
     {
       "link": "https://github.com/ohcnetwork/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 169,
+      "stale_for": 171,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 12,
+      "stale_for": 14,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 1040,
+      "stale_for": 1042,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 1046,
+      "stale_for": 1048,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 1047,
+      "stale_for": 1049,
       "labels": []
     }
   ],

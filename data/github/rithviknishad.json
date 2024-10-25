@@ -1,6 +1,325 @@
 {
-  "last_updated": "2024-10-23T16:15:59.000Z",
+  "last_updated": "2024-10-24T16:01:21.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T16:01:21.000Z",
+      "title": "ohcnetwork/care#2563",
+      "link": "https://github.com/ohcnetwork/care/pull/2563#pullrequestreview-2393130355",
+      "text": "Merge Develop To Staging v24.44.0 | Patch"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8918",
+      "time": "2024-10-24T15:36:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8918#issuecomment-2435628214",
+      "text": "let's switch those to use the Form component instead"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T15:33:44.000Z",
+      "title": "ohcnetwork/care_fe#8907",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8907#pullrequestreview-2393062152",
+      "text": "Added SpO2 field in community log update for nurses"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8920",
+      "time": "2024-10-24T15:31:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8920",
+      "text": "Merge Develop To Staging v24.44.0 | Patch",
+      "collaborated_with": [
+        "tellmeY18",
+        "o",
+        "i",
+        "A",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T15:31:06.000Z",
+      "title": "ohcnetwork/care_fe#8920",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8920#pullrequestreview-2393055703",
+      "text": "Merge Develop To Staging v24.44.0 | Patch"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8917",
+      "time": "2024-10-24T15:26:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8917",
+      "text": "Fixes security issue with Avatar Edit Modal",
+      "turnaround_time": 16535
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8918",
+      "time": "2024-10-24T11:51:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8918#issuecomment-2435064279",
+      "text": "Let's have this feature in the [`Form`](https://github.com/ohcnetwork/care_fe/blob/develop/src/components/Form/Form.tsx#L28) component itself instead.\n\nThis way all usages of the `Form` component would get this feature enabled in one go. \n\nWe could upgrade the `Form` component to have a `isDirty` state. And in the `onChange` we could set `isDirty` to true. And the submit button managed by the `Form` component could be disabled based on this `isDirty` state."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8917",
+      "time": "2024-10-24T10:50:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8917",
+      "text": "Fixes security issue with Avatar Edit Modal"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8907",
+      "time": "2024-10-24T10:42:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8907#issuecomment-2434924417",
+      "text": "@noufalrahim make changes in the same branch"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8916",
+      "time": "2024-10-24T10:42:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8916#issuecomment-2434923858",
+      "text": "Closing as duplicate of #8907 \r\n\r\ncc: @bodhish "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T07:52:40.000Z",
+      "title": "ohcnetwork/care_fe#8834",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8834#pullrequestreview-2391614592",
+      "text": "Fixed Add a better search UI for patients index page #8691"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8910",
+      "time": "2024-10-24T07:48:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8910",
+      "text": "enable livekit plugin; fixed dockerfile",
+      "collaborated_with": [
+        "rithviknishad",
+        "tellmeY18"
+      ]
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8909",
+      "time": "2024-10-24T07:44:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8909",
+      "text": "Staging Release - October Week 4 Release (v24.44.0)",
+      "collaborated_with": [
+        "abhip161",
+        "tellmeY18",
+        "rithviknishad",
+        "Nithin9585",
+        "nihal467",
+        "syedfardeenjeelani",
+        "nithish1018",
+        "chakribontha",
+        "sainak",
+        "Rishith25",
+        "Mahendar0701",
+        "Jacobjeevan",
+        "JavidSumra",
+        "gigincg",
+        "o",
+        "i",
+        "A",
+        "Keerthilochankumar",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T07:42:40.000Z",
+      "title": "ohcnetwork/care_fe#8910",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8910#pullrequestreview-2391584908",
+      "text": "enable livekit plugin; fixed dockerfile"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care#2561",
+      "time": "2024-10-24T07:41:54.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2561",
+      "text": "Staging Release - October Week 3 Release (v24.44.0)",
+      "collaborated_with": [
+        "DraKen0009",
+        "o",
+        "i",
+        "4",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T06:32:44.000Z",
+      "title": "ohcnetwork/care_fe#8912",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8912#pullrequestreview-2391426766",
+      "text": "Added UserAvatar in userlist and users page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T06:22:46.000Z",
+      "title": "ohcnetwork/care_fe#8912",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8912#pullrequestreview-2391407996",
+      "text": "Added UserAvatar in userlist and users page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T06:18:59.000Z",
+      "title": "ohcnetwork/care_fe#8911",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8911#pullrequestreview-2391403530",
+      "text": "Added avatar in user list and user suggestions"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8911",
+      "time": "2024-10-24T06:17:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8911#issuecomment-2434391167",
+      "text": "You can push to the same branch btw :) Avoid recreating PRs for every change. This makes it difficult to track existing review changes requested.\r\n\r\n> Follow up of: https://github.com/ohcnetwork/care_fe/pull/8903#issuecomment-2434374591"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8903",
+      "time": "2024-10-24T06:11:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8903#issuecomment-2434384181",
+      "text": "https://docs.ohc.network/docs/contributing/#how-to-resolve-merge-conflicts"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T06:10:29.000Z",
+      "title": "ohcnetwork/care_fe#8911",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8911#pullrequestreview-2391390128",
+      "text": "Added avatar in user list and user suggestions"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T06:09:34.000Z",
+      "title": "ohcnetwork/care_fe#8911",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8911#pullrequestreview-2391386156",
+      "text": "Added avatar in user list and user suggestions"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8903",
+      "time": "2024-10-24T06:05:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8903#issuecomment-2434376656",
+      "text": "Why close and re-create PR?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T06:04:55.000Z",
+      "title": "ohcnetwork/care_fe#8903",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8903#pullrequestreview-2391381949",
+      "text": "Added avatars to userlist and userAutoComplete"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/leaderboard#529",
+      "time": "2024-10-24T05:33:33.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/529",
+      "text": "Leaderboard sort is not working"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/leaderboard#532",
+      "time": "2024-10-24T05:32:50.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/532",
+      "text": "Fix (LeaderBoard) filter points bug fixed",
+      "collaborated_with": [
+        "programmerraja",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T05:32:33.000Z",
+      "title": "ohcnetwork/leaderboard#532",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/532#pullrequestreview-2391326637",
+      "text": "Fix (LeaderBoard) filter points bug fixed"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T04:54:15.000Z",
+      "title": "ohcnetwork/care_fe#8910",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8910#pullrequestreview-2391268786",
+      "text": "fixed dockerfile"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T04:22:36.000Z",
+      "title": "ohcnetwork/leaderboard#532",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/532#pullrequestreview-2391219222",
+      "text": "Fix (LeaderBoard) filter points bug fixed"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T04:12:19.000Z",
+      "title": "ohcnetwork/leaderboard#532",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/532#pullrequestreview-2391204709",
+      "text": "Fix (LeaderBoard) filter points bug fixed"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T04:04:41.000Z",
+      "title": "ohcnetwork/care_fe#8881",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8881#pullrequestreview-2391191496",
+      "text": "Prevent infinite load when avatar upload fails"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/docs#70",
+      "time": "2024-10-24T03:42:41.000Z",
+      "link": "https://github.com/ohcnetwork/docs/pull/70",
+      "text": "Add FAQ on how to resolve merge conflicts",
+      "turnaround_time": 908
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/docs#70",
+      "time": "2024-10-24T03:27:34.000Z",
+      "link": "https://github.com/ohcnetwork/docs/pull/70",
+      "text": "Add FAQ on how to resolve merge conflicts"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T02:35:37.000Z",
+      "title": "ohcnetwork/care_fe#8908",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8908#pullrequestreview-2391087167",
+      "text": "Disable abha number linking when health facility id is not present"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T02:22:48.000Z",
+      "title": "ohcnetwork/care_fe#8908",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8908#pullrequestreview-2391073640",
+      "text": "Disable abha number linking when health facility id is not present"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8891",
+      "time": "2024-10-24T02:18:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8891",
+      "text": "Adds support for `useMutation` hook",
+      "turnaround_time": 72734
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T02:00:26.000Z",
+      "title": "ohcnetwork/care#2554",
+      "link": "https://github.com/ohcnetwork/care/pull/2554#pullrequestreview-2391051998",
+      "text": "Improved GitHub Actions pipeline: parallel ARM and x86 builds"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#531",
+      "time": "2024-10-24T01:59:34.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/531#issuecomment-2434070489",
+      "text": "Are you facing any difficulties running the scraper?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8891",
+      "time": "2024-10-24T01:54:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8891#issuecomment-2434064320",
+      "text": "Tested, working. the cypress fix unrelated to this PR was a flaky test happening. Nihal suggested to remove those lines for now."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8903",
@@ -55692,28 +56011,14 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/8905",
       "title": "Adds support for cypress-parallel",
       "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8894",
-      "title": "enable livekit plugin and fix docker builds",
-      "stale_for": 0,
       "labels": [
-        "work-in-progress"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8891",
-      "title": "Adds support for `useMutation` hook",
-      "stale_for": 0,
-      "labels": [
-        "tested"
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/522",
       "title": "Extract contributors joining date grouped by month",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": []
     }
   ],

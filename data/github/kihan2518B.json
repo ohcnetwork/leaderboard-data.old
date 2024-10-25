@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-10-21T06:10:53.000Z",
+  "last_updated": "2024-10-24T13:16:26.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8918",
+      "time": "2024-10-24T13:16:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8918#issuecomment-2435272059",
+      "text": "I had made necessary changes in the form component.\nbut this is applying to only patient update form as we have use [Form](https://github.com/ohcnetwork/care_fe/blob/develop/src/components/Form/Form.tsx#L28) only in [PatientRegister](https://github.com/ohcnetwork/care_fe/blob/develop/src/components/Patient/PatientRegister.tsx#L936) component.\n\n![Image](https://github.com/user-attachments/assets/264a9efd-18c9-4bc3-94cd-d444a7b545bc)\n\nFor other components like [BedCapacity](https://github.com/ohcnetwork/care_fe/blob/develop/src/components/Facility/BedCapacity.tsx),[StaffCapacity](https://github.com/ohcnetwork/care_fe/blob/develop/src/components/Facility/StaffCapacity.tsx), etc we are not using [Form](https://github.com/ohcnetwork/care_fe/blob/develop/src/components/Form/Form.tsx#L28) component.\n\nSo for that I had a solution by manually adding isDirty state to all component.\n\nsolution:\n![Image](https://github.com/user-attachments/assets/1c929402-6428-4ac7-847e-65a42162284a)\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8918",
+      "time": "2024-10-24T11:56:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8918#issuecomment-2435074576",
+      "text": "yaa sure that would also work.\n@rithviknishad can you assign this issue to me\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8918",
+      "time": "2024-10-24T11:41:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8918#issuecomment-2435042516",
+      "text": "I have got a solution for that \nsolution:\nInitial State Tracking:\n\nCapture the initial values of the form fields when the form is first loaded or reset.\nOn-Change Comparison:\n\nEach time a field is changed, compare the current value with the corresponding initial value for that specific field.\nField-by-Field Tracking:\n\nMaintain a flag (like hasFormChanged) that tracks if any field has been modified compared to its initial value.\nReset Logic:\n\nIf a field is changed back to its initial value, reset its modified state, ensuring hasFormChanged becomes false if all fields return to their original values.\nEfficient Comparison:\n\nCompare individual fields rather than the entire form object (avoiding JSON.stringify), resulting in better performance and accuracy.\nEdge Case Handling:\n\nEnsure that if a field is changed but reverted back to the original value, it doesn't falsely indicate that the form has changed.\n\nCan anyone assign me this issue?"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8918",
+      "time": "2024-10-24T11:39:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8918",
+      "text": "Unnecessary Update Request Triggered Without Changes in Facilities"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#8840",
