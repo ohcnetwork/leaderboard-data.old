@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-10-24T16:19:17.000Z",
+  "last_updated": "2024-10-25T12:52:46.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8834",
+      "time": "2024-10-25T12:52:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8834#issuecomment-2437700016",
+      "text": "> @i0am0arunava\r\n> \r\n> ![image](https://private-user-images.githubusercontent.com/57055998/380162668-fc9228aa-2b13-423e-983d-8f6ac91f9d32.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk4NjA3NjEsIm5iZiI6MTcyOTg2MDQ2MSwicGF0aCI6Ii81NzA1NTk5OC8zODAxNjI2NjgtZmM5MjI4YWEtMmIxMy00MjNlLTk4M2QtOGY2YWM5MWY5ZDMyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDI1VDEyNDc0MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM3NDE4NjEzZGQ3NjJmMzEzNjAzZGU2YzhhOGVmYTIyMGU5NGJlYzUwZDcwNWI0MTdiZTZmYmYwZGZmN2VjNmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.8pUV53ws-yIhKRXTxK7NTyDyjxsn5xSmsE3msnqXeqw)\r\n> \r\n> * [ ]  entire form spacing is effected, with your PR, revert it back\r\n> \r\n> ![image](https://private-user-images.githubusercontent.com/57055998/380163071-ae150186-cc8e-459f-a18e-c1a5ad045c8c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk4NjA3NjEsIm5iZiI6MTcyOTg2MDQ2MSwicGF0aCI6Ii81NzA1NTk5OC8zODAxNjMwNzEtYWUxNTAxODYtY2M4ZS00NTlmLWExOGUtYzFhNWFkMDQ1YzhjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDI1VDEyNDc0MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTllYTU3MDQ0YmUzYjYwMTQwMmU0YmU5OGJjYmZmMjA5MzdmMzUyODRlOWJkZTUyNmYxODlhMjg2NmRiNjkxODYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.3lnY3bNEQLsaXYdoaAX77jfv6c_TUnEzJh5AoQTZATU)\r\n> \r\n> * [ ]  the phone number filter badge is always present in the form\r\n> * [ ]  unable to open new patient registration form through patient tab\r\n> * [ ]  fix all the cypress failure issues\r\n> \r\n> CC: @bodhish @gigincg\r\n\r\n@nihal467 ,from which page you have taken the 'FORM'  screenshot"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8834",
@@ -120,7 +127,8 @@
       "title": "Fixed Add a better search UI for patients index page #8691",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs review",
+        "test failed"
       ]
     }
   ],

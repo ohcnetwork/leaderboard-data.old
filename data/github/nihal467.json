@@ -1,6 +1,63 @@
 {
-  "last_updated": "2024-10-24T16:00:59.000Z",
+  "last_updated": "2024-10-25T13:27:17.000Z",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8929",
+      "time": "2024-10-25T13:27:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8929",
+      "text": "Replace the usage of clickElementById with proper function name in UserCreation"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8834",
+      "time": "2024-10-25T13:23:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8834#issuecomment-2437771228",
+      "text": "New asset creation form"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8928",
+      "time": "2024-10-25T13:17:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8928",
+      "text": "Fixed the pagination at bed management page",
+      "turnaround_time": 64
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8928",
+      "time": "2024-10-25T12:48:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8928",
+      "text": "Fixed the pagination at bed management page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8834",
+      "time": "2024-10-25T12:38:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8834#issuecomment-2437670768",
+      "text": "@i0am0arunava \r\n\r\n![image](https://github.com/user-attachments/assets/fc9228aa-2b13-423e-983d-8f6ac91f9d32)\r\n\r\n- [ ] entire form spacing is effected, with your PR, revert it back\r\n\r\n![image](https://github.com/user-attachments/assets/ae150186-cc8e-459f-a18e-c1a5ad045c8c)\r\n\r\n- [ ] the phone number filter badge is always present in the form\r\n- [ ] unable to open new patient registration form through patient tab\r\n- [ ] fix all the cypress issues"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8926",
+      "time": "2024-10-25T11:17:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8926",
+      "text": "consultation and sample test history"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8925",
+      "time": "2024-10-25T10:59:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8925",
+      "text": "Replace Hardcoded cy.wait() with cy.intercept in the cypress files"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8914",
+      "time": "2024-10-25T10:44:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8914#issuecomment-2437464621",
+      "text": "@Ayush1404 \n1. verify and creating should be one single test\n2. Patient selection, manage patient, all have reusable function already use them,\n3. edit the existing request and verify the reflection in the details form\n4. input all the fields in the shifting form "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2563",
@@ -45372,7 +45429,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2563",
       "title": "Merge Develop To Staging v24.44.0 | Patch",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],

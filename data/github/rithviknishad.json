@@ -1,6 +1,41 @@
 {
-  "last_updated": "2024-10-24T16:01:21.000Z",
+  "last_updated": "2024-10-25T13:59:55.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/teleicu_middleware_template#1",
+      "time": "2024-10-25T13:59:55.000Z",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware_template/pull/1",
+      "text": "replace `coronasafe` references with `ohcnetwork` in compose"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-25T13:17:22.000Z",
+      "title": "ohcnetwork/care_fe#8928",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8928#pullrequestreview-2395267332",
+      "text": "Fixed the pagination at bed management page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#531",
+      "time": "2024-10-25T05:41:55.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/531#issuecomment-2436890422",
+      "text": "here's the command to run the scraper\n\n```\nGITHUB_TOKEN=$(gh auth token) pnpm dev ohcnetwork ../data-repo/data/github\n```"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-25T04:36:54.000Z",
+      "title": "ohcnetwork/care#2295",
+      "link": "https://github.com/ohcnetwork/care/pull/2295#pullrequestreview-2394145785",
+      "text": "GSoC - Doctor Notes Enhancement "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-25T04:27:19.000Z",
+      "title": "ohcnetwork/care_fe#8921",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8921#pullrequestreview-2394138836",
+      "text": "Adding of clear and cancel button in create preset form"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-10-24T16:01:21.000Z",
@@ -56008,9 +56043,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/teleicu_middleware_template/pull/1",
+      "title": "replace `coronasafe` references with `ohcnetwork` in compose",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8905",
       "title": "Adds support for cypress-parallel",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "merge conflict"
       ]
@@ -56018,7 +56059,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/522",
       "title": "Extract contributors joining date grouped by month",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": []
     }
   ],

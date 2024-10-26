@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-10-24T12:34:49.000Z",
+  "last_updated": "2024-10-25T17:24:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8914",
+      "time": "2024-10-25T17:24:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8914#issuecomment-2438399049",
+      "text": "Hey @nihal467 , i understand the corrections that you suggested , sorry for the inconvinience . Here are the  screenshots of the modified test file and some functions that i have added . It seems pretty modular now , still let me know if anything can be improved \n\n![Image](https://github.com/user-attachments/assets/31e01b72-f714-4884-a12d-6341d32ddf11)\n![Image](https://github.com/user-attachments/assets/563093de-e9ba-423a-bfc5-3705e3dc4e42)\n![Image](https://github.com/user-attachments/assets/767ac15f-d7f1-48ca-a34b-38ecb6dd2fd6)\n\n\ni am confused about the third point that you added \n3. edit the existing request and verify the reflection in the details form\n Which edit option are you takling about here . Are you refering to the update option in the shifting request ? If so it can be accessed in 2 ways  \n   1. visit '/patiens' -> click on the patient card -> manage patient -> Track Shifting -> update \n   2. visit '/shifting/board' -> scroll and click on the shift request card -> update \n\nwhich way  should i write test for ? Thank you for your quick attention ! \n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8914",
+      "time": "2024-10-25T09:31:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8914#issuecomment-2437328106",
+      "text": "Hey @nihal467,  \n\nI have started working on the issue, and I have written the test as below (I am attaching an image of the code I have written so far, which performs the following):  \n\n## 1: Creating a New Shift Request  \n1. Visit the patients tab.  \n2. Intercept the shift request API call.  \n3. Select the patient named \"Dummy Patient 16\".  \n4. Click the \"Manage Patient\" button.  \n5. Select the \"Shift Patient\" option.  \n6. Enter the contact person's name as \"new\".  \n7. Enter the contact person's phone number as \"9465666768\".  \n8. Enter the shift reason as \"emmergency\".  \n9. Submit the shift request form.  \n10. Wait for the shift request API call to complete and verify the status code is 201.  \n\n---\n\n## 2: \n Verifying Shift Request Creation  \n1. Visit the shift board page.  \n2. Verify that \"Dummy Patient 16\" exists on the board.  \n\nI have also attached a video of this test performing successfully.\n\n---\n\nI know this isn’t perfect, but it is a starting point. Without knowing exactly what you expect, I wouldn't know what to modify. Could you let me know if there are any improvements or changes you'd like me to make?  \n\nOne thing to mention is that I have **hardcoded \"Dummy Patient 16\"**. Should I replace that by creating a new patient dynamically for the test, or is it fine to reference an existing one? Your thoughts on this would help guide the next steps.  \n\n![Image](https://github.com/user-attachments/assets/5e0ec099-5dfd-41e9-82c2-b1a0c4bcf2be)\n\nhttps://github.com/user-attachments/assets/d53c6bb2-1427-41f7-b8de-1884c6606c7e\n\n\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8914",

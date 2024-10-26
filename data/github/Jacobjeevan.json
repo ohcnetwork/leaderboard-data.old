@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-10-24T15:57:24.000Z",
+  "last_updated": "2024-10-25T09:00:03.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8781",
+      "time": "2024-10-25T09:00:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8781#issuecomment-2437262994",
+      "text": "To offer an update, while working on Vitals redudant api call issue, I realized we could just use useDailyReports route at top level and pass in the data to both the table and VentilatorPlot (right now, VentilatorPlot uses DailyReportsAnalyse route).\r\n\r\nSo finalizing those changes and testing right now 👍 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8878",
+      "time": "2024-10-25T08:52:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8878#issuecomment-2437247334",
+      "text": "@sainak  I was thinking of using clickable pills for the facilities and skills, though it might not look good when there are lot of linked facilities, like with district admin.\n\n![Image](https://github.com/user-attachments/assets/bf2ae578-2c9f-46b9-9dd7-fc552b9b358e)\n\nMulti-select for the dropdowns\n\n![Image](https://github.com/user-attachments/assets/0dd10d34-3479-45bc-b63f-6b8a15195efc)\n\nClicking on the pill would trigger a popup with manage options; open additional dialog only when replacing existing home facility, like what we have now.\n\n![Image](https://github.com/user-attachments/assets/31db6855-e0c3-49aa-bfde-cb15ccc0536b)\n\n\n\n\n"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care#2545",
@@ -966,7 +980,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8776",
       "title": "Log Update: disallow decimals for certain fields",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs testing",
         "needs review"

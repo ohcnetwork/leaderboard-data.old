@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-10-24T17:19:34.000Z",
+  "last_updated": "2024-10-25T12:34:17.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8925",
+      "time": "2024-10-25T12:34:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8925#issuecomment-2437662559",
+      "text": "Is this the required solution for the above issue\n\nExample:\nBefore:\n```.js\nverifyUploadFilePresence(fileName: string) {\n    cy.wait(2000);\n    cy.get(\"#file-div\").scrollIntoView();\n    cy.verifyContentPresence(\"#file-div\", [fileName]);\n  }\n```\nAfter:\n```.js\nverifyUploadFilePresence(fileName: string) {\n    // Replace cy.wait(2000) with intercepting the file upload API call\n    cy.intercept('POST', '/api/upload-file').as('fileUpload'); \n    cy.wait('@fileUpload'); // Wait for the file upload request to finish\n    \n    cy.get(\"#file-div\").scrollIntoView(); \n    cy.verifyContentPresence(\"#file-div\", [fileName]);\n}\n```\nIf this is correct I would like to work on this"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8921",
+      "time": "2024-10-25T05:37:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8921#issuecomment-2436878943",
+      "text": "How many story points do I get for this issue?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-25T05:27:51.000Z",
+      "title": "ohcnetwork/care_fe#8921",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8921#pullrequestreview-2394202230",
+      "text": "Adding of clear and cancel button in create preset form"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#8921",
