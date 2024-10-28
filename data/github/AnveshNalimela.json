@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-10-25T13:37:48.000Z",
+  "last_updated": "2024-10-27T19:32:10.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8930",
+      "time": "2024-10-27T19:32:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8930#issuecomment-2440147720",
+      "text": "\r\n@nihal467  made the changes accordingly by refering patientDoctorConnect.cy.ts .just have look at latest commit \r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8930",
+      "time": "2024-10-27T19:05:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8930#issuecomment-2440139211",
+      "text": "@nihal467 \r\nhave a look at this \r\n```\r\nclickProfileName() {\r\n    cy.get(\"#user-profile-name\").click();\r\n  }\r\n```\r\nDeclare such indiviual functions in pageobejct of user creation.ts\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8882",
+      "time": "2024-10-27T18:35:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8882#issuecomment-2440130298",
+      "text": "![{5BB5DB58-D088-4200-BF7E-200A5B01FFB2}](https://github.com/user-attachments/assets/e43ea66b-23b8-4873-87a8-4e9317c3b724)\r\nHave a look.\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-27T05:06:39.000Z",
+      "title": "ohcnetwork/care_fe#8930",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8930#pullrequestreview-2397402357",
+      "text": "removed ClickElementById function from UsersCreation.cy.ts"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8929",
@@ -61,13 +89,15 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8930",
-      "title": "removed ClickElementById function from UsersCreation.cy.ts",
+      "title": "Rewriting UsersCreation.cy.ts according to POM approach",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "changes required"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8882",
-      "title": " Alignment of components and Changed GRID layout 3 cols in shifiting",
+      "title": "Redesign UI for List View in Shifting",
       "stale_for": 0,
       "labels": [
         "changes required",

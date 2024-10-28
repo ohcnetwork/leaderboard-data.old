@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-10-24T12:35:14.000Z",
+  "last_updated": "2024-10-27T17:42:38.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8913",
+      "time": "2024-10-27T17:42:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8913#issuecomment-2440113599",
+      "text": "\nHi @nihal467 ,\n\nAll tasks mentioned in the issue have been completed as per the requirements:\n\n- Created a new Cypress test under `patient_spec/PatientVolunteer.cy.ts` to assign a volunteer to an existing live patient.\n- Since there wasn’t an existing class for the **Patient Details** page, I created one `PatientDetails.ts` and added required functions.\n- **Replace Existing Volunteer**: Tested replacing an existing volunteer and verified the updated name appears in the banner.\n- **Remove Volunteer**: Verified that removing the volunteer hides the banner as expected.\n\nAdditionally, I added an `id` to the banner component for easier targeting.\n\nPlease review the changes and let me know if any adjustments are needed.\n\nThanks!\n\n#### Patient Details Class:\n![Image](https://github.com/user-attachments/assets/a4a683fa-39da-401e-91a1-3d74c368c6cf)\n\n#### Test\n![Image](https://github.com/user-attachments/assets/3cb07c01-bf33-4887-a188-4190656a4503)\n\n#### Added id to banner: \n![Image](https://github.com/user-attachments/assets/cc967425-0686-40b4-b005-cfc2d52e22ec)\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8913",

@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-10-25T08:05:36.000Z",
+  "last_updated": "2024-10-27T10:29:46.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8936",
+      "time": "2024-10-27T10:29:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8936",
+      "text": "FiXED: Referral Letter preview UI and responsiveness"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8933",
+      "time": "2024-10-27T00:30:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8933#issuecomment-2439781083",
+      "text": "## Proposed Changes\r\n add responsive shadcn breadcrumbs\r\n\r\n- Fixes #8831 \r\n\r\nCurrent version\r\n![Screenshot 2024-10-27 055208](https://github.com/user-attachments/assets/04d123f1-5b20-4037-a36a-2d97f47b040c)\r\n\r\nLast item broken\r\n\r\n![Screenshot 2024-10-27 055401](https://github.com/user-attachments/assets/24d42762-966d-4995-89ff-241ff850f464)\r\n\r\nNo dropdown here\r\n\r\nUpdated version\r\n\r\n![Screenshot 2024-10-27 055745](https://github.com/user-attachments/assets/bd7fd764-3b87-4d0e-8b09-86007d10c358)\r\nLast item broken issue solved\r\n\r\n![Screenshot 2024-10-27 055906](https://github.com/user-attachments/assets/a68e54a6-ee9b-465d-91f0-686a3c9daaa1)\r\nShadcn Dropdown added\r\n\r\n@ohcnetwork/care-fe-code-reviewers\r\n\r\n## Merge Checklist\r\n\r\n- [ ] Add specs that demonstrate bug / test a new feature.\r\n- [ ] Update [product documentation](https://docs.ohc.network).\r\n- [ ] Ensure that UI text is kept in I18n files.\r\n- [ ] Prep screenshot or demo video for changelog entry, and attach it to issue.\r\n- [ ] Request for Peer Reviews\r\n- [ ] Completion of QA"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8933",
+      "time": "2024-10-27T00:13:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8933#issuecomment-2439776014",
+      "text": " @shivankacker https://github.com/ohcnetwork/care_fe/pull/8833#issuecomment-2425499268"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-10-25T08:05:36.000Z",
@@ -74,20 +95,18 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/67",
-      "title": "Update and rename AnveshNalimela.md to Mohamed_Amaan.md",
-      "stale_for": 3,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8860",
-      "title": "Fixed shifting details page responsiveness and add shadcn Breadcrump",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8933",
+      "title": "responsive: shiftingDetails page and Breadcrumbs added phone and desktop",
       "stale_for": 0,
       "labels": [
-        "changes required",
-        "Deploy-Failed",
-        "merge conflict"
+        "blocked"
       ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/67",
+      "title": "Update and rename AnveshNalimela.md to Mohamed_Amaan.md",
+      "stale_for": 5,
+      "labels": []
     }
   ],
   "authored_issue_and_pr": []

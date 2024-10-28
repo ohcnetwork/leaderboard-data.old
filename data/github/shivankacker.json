@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-10-25T04:41:07.000Z",
+  "last_updated": "2024-10-27T20:54:58.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/landing#17",
+      "time": "2024-10-27T20:54:58.000Z",
+      "link": "https://github.com/ohcnetwork/landing/pull/17",
+      "text": "Added page for CARE"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-27T17:10:38.000Z",
+      "title": "ohcnetwork/care_fe#8930",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8930#pullrequestreview-2397594656",
+      "text": "removed ClickElementById function from UsersCreation.cy.ts"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-27T16:53:10.000Z",
+      "title": "ohcnetwork/care_fe#8938",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8938#pullrequestreview-2397591740",
+      "text": "fix: Update tooltip position and rotation in Discussion Notes panel"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8504",
@@ -11685,32 +11706,49 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/landing/pull/17",
+      "title": "Added page for CARE",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8934",
+      "title": "Updated UI for list view for Resources and Shifting",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8504",
       "title": "Added support for time in dateinput component",
       "stale_for": 0,
       "labels": [
         "needs review",
-        "tested"
+        "tested",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8469",
       "title": "Migrated Scribe to a CARE App + Context",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "work-in-progress"
+        "work-in-progress",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
       "title": "Added scribe context",
-      "stale_for": 13,
+      "stale_for": 15,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 18,
+      "stale_for": 20,
       "labels": [
         "Changes Requested"
       ]
