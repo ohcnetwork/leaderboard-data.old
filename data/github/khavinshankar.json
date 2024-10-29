@@ -1,6 +1,126 @@
 {
-  "last_updated": "2024-10-24T14:16:03.000Z",
+  "last_updated": "2024-10-28T17:30:44.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8950",
+      "time": "2024-10-28T17:30:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8950",
+      "text": "Production Release 24.44.0",
+      "collaborated_with": [
+        "abhip161",
+        "tellmeY18",
+        "rithviknishad",
+        "Nithin9585",
+        "nihal467",
+        "syedfardeenjeelani",
+        "nithish1018",
+        "chakribontha",
+        "sainak",
+        "Rishith25",
+        "Mahendar0701",
+        "Jacobjeevan",
+        "JavidSumra",
+        "gigincg",
+        "o",
+        "i",
+        "A",
+        "Keerthilochankumar",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8943",
+      "time": "2024-10-28T13:00:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8943#issuecomment-2441525870",
+      "text": "@nihal467 fixed the styling issues, it was caused because tailwind classes in plugs were not recognized (i.e., any new tailwind class used in the plug will not work)\r\n\r\n![image](https://github.com/user-attachments/assets/1733f295-d254-4ffd-8373-1858cd07ee28)\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-28T12:55:17.000Z",
+      "title": "ohcnetwork/care#2563",
+      "link": "https://github.com/ohcnetwork/care/pull/2563#pullrequestreview-2398996809",
+      "text": "Merge Develop To Staging v24.44.0 | Patch"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-28T12:36:17.000Z",
+      "title": "ohcnetwork/care_fe#8947",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8947#pullrequestreview-2398954211",
+      "text": "Fix avatars with initials in webkit"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-28T12:32:36.000Z",
+      "title": "ohcnetwork/care_fe#8947",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8947#pullrequestreview-2398945917",
+      "text": "Fix avatars with initials in webkit"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8948",
+      "time": "2024-10-28T12:29:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8948",
+      "text": "Show avatar in autocomplete conditionally",
+      "turnaround_time": -44378
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8948",
+      "time": "2024-10-28T12:10:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8948",
+      "text": "Show avatar in autocomplete conditionally"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-28T08:04:57.000Z",
+      "title": "ohcnetwork/care#2506",
+      "link": "https://github.com/ohcnetwork/care/pull/2506#pullrequestreview-2398207777",
+      "text": "Privacy consultation bed"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8943",
+      "time": "2024-10-28T07:02:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8943",
+      "text": "HCX Plug"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8942",
+      "time": "2024-10-28T06:50:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8942",
+      "text": "Seperate HCX into plug in frontend"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8941",
+      "time": "2024-10-28T06:49:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8941",
+      "text": "Seperate ABDM into plug in frontend"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8848",
+      "time": "2024-10-28T06:47:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8848",
+      "text": "Create consultation API is throwing 500 when HF ID is missing for the facility"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-28T06:37:09.000Z",
+      "title": "ohcnetwork/care_abdm#18",
+      "link": "https://github.com/ohcnetwork/care_abdm/pull/18#pullrequestreview-2398068933",
+      "text": "add pycryptodome dependency"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-28T06:36:19.000Z",
+      "title": "ohcnetwork/care_hcx#7",
+      "link": "https://github.com/ohcnetwork/care_hcx/pull/7#pullrequestreview-2398067895",
+      "text": "add jwcrypto as a required dependency"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-10-24T14:16:03.000Z",
@@ -40613,9 +40733,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8943",
+      "title": "HCX Plug",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "reviewed"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8866",
       "title": "Added support for enabling boundaries for assetbed cameras",
-      "stale_for": 1,
+      "stale_for": 5,
       "labels": [
         "needs review",
         "work-in-progress",
@@ -40625,13 +40754,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2557",
       "title": "Added support for enabling boundaries for assetbed cameras",
-      "stale_for": 2,
+      "stale_for": 6,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2506",
       "title": "Privacy consultation bed",
-      "stale_for": 9,
+      "stale_for": 0,
       "labels": [
         "peer-reviewed"
       ]
@@ -40639,7 +40768,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8666",
       "title": "Added privacy toggle for a consultation bed and lock camera controls when used by a user",
-      "stale_for": 3,
+      "stale_for": 7,
       "labels": [
         "needs review",
         "tested",
@@ -40650,60 +40779,48 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/50",
       "title": "Added ABDM Docs for WASA Testing",
-      "stale_for": 17,
+      "stale_for": 21,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8460",
       "title": "Refactor cypress action; separate setup and run",
-      "stale_for": 6,
-      "labels": [
-        "changes required",
-        "merge conflict",
-        "Carried over"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8458",
-      "title": "Hide sensitive user data for non admin users",
       "stale_for": 2,
       "labels": [
-        "needs review",
         "changes required",
-        "Deploy-Failed",
         "merge conflict",
-        "cypress failed",
+        "stale",
         "Carried over"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 171,
+      "stale_for": 175,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 14,
+      "stale_for": 18,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 1042,
+      "stale_for": 1046,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 1048,
+      "stale_for": 1052,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 1049,
+      "stale_for": 1053,
       "labels": []
     }
   ],

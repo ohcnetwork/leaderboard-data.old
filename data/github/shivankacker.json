@@ -1,6 +1,49 @@
 {
-  "last_updated": "2024-10-27T20:54:58.000Z",
+  "last_updated": "2024-10-28T07:47:55.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-28T07:47:55.000Z",
+      "title": "ohcnetwork/care_fe#8934",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8934#pullrequestreview-2398176789",
+      "text": "Updated UI for list view for Resources and Shifting"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8504",
+      "time": "2024-10-28T07:30:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8504#issuecomment-2440749121",
+      "text": "![image](https://github.com/user-attachments/assets/c7cd8d08-380f-449c-b2e3-2677f7617f48)\r\n"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8504",
+      "time": "2024-10-28T07:26:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8504",
+      "text": "Added support for time in dateinput component",
+      "turnaround_time": 4267834
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8934",
+      "time": "2024-10-28T05:27:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8934#issuecomment-2440584247",
+      "text": "@bodhish Didn't notice the Table UI PR before. The other PR will not interfere much. This PR adds a lot of changes for the structure of files and models. We can merge either of the PRs first but I think the Table UI one has some changes to do and has merge conflicts to resolve. We can merge this so the new file structure and models get reflected."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-28T05:21:49.000Z",
+      "title": "ohcnetwork/care_fe#8882",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8882#pullrequestreview-2397950849",
+      "text": "Redesign UI for List View in Shifting"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8504",
+      "time": "2024-10-28T05:10:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8504#issuecomment-2440567563",
+      "text": "@bodhish can you merge before another merge conflict happens 🥲"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/landing#17",
@@ -11708,7 +11751,7 @@
     {
       "link": "https://github.com/ohcnetwork/landing/pull/17",
       "title": "Added page for CARE",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -11716,18 +11759,8 @@
       "title": "Updated UI for list view for Resources and Shifting",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8504",
-      "title": "Added support for time in dateinput component",
-      "stale_for": 0,
-      "labels": [
         "needs review",
-        "tested",
-        "merge conflict"
+        "tested"
       ]
     },
     {
@@ -11735,20 +11768,19 @@
       "title": "Migrated Scribe to a CARE App + Context",
       "stale_for": 0,
       "labels": [
-        "work-in-progress",
-        "merge conflict"
+        "work-in-progress"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
       "title": "Added scribe context",
-      "stale_for": 15,
+      "stale_for": 16,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 20,
+      "stale_for": 21,
       "labels": [
         "Changes Requested"
       ]

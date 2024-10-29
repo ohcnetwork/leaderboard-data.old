@@ -1,6 +1,78 @@
 {
-  "last_updated": "2024-10-24T07:44:42.000Z",
+  "last_updated": "2024-10-28T17:30:44.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8950",
+      "time": "2024-10-28T17:30:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8950",
+      "text": "Production Release 24.44.0",
+      "collaborated_with": [
+        "abhip161",
+        "tellmeY18",
+        "rithviknishad",
+        "Nithin9585",
+        "nihal467",
+        "syedfardeenjeelani",
+        "nithish1018",
+        "chakribontha",
+        "sainak",
+        "Rishith25",
+        "Mahendar0701",
+        "Jacobjeevan",
+        "JavidSumra",
+        "gigincg",
+        "o",
+        "i",
+        "A",
+        "Keerthilochankumar",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_scribe#16",
+      "time": "2024-10-28T15:01:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_scribe/pull/16",
+      "text": "Update config variables to follow standard naming scheme"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8947",
+      "time": "2024-10-28T12:04:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8947",
+      "text": "Fix avatars with initials in webkit"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_abdm#18",
+      "time": "2024-10-28T06:37:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/pull/18",
+      "text": "add pycryptodome dependency",
+      "turnaround_time": 66
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_hcx#7",
+      "time": "2024-10-28T06:36:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_hcx/pull/7",
+      "text": "add jwcrypto as a required dependency",
+      "turnaround_time": 15
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_hcx#7",
+      "time": "2024-10-28T06:35:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_hcx/pull/7",
+      "text": "add jwcrypto as a required dependency"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/docs#72",
+      "time": "2024-10-28T04:37:10.000Z",
+      "link": "https://github.com/ohcnetwork/docs/pull/72",
+      "text": "[CEP-9] Add implementation details to Pharmacy Management"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8909",
@@ -18526,27 +18598,42 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2560",
-      "title": "Update dependencies",
-      "stale_for": 2,
+      "link": "https://github.com/ohcnetwork/care_scribe/pull/16",
+      "title": "Update config variables to follow standard naming scheme",
+      "stale_for": 0,
       "labels": []
     },
     {
-      "link": "https://github.com/ohcnetwork/care_abdm/pull/18",
-      "title": "add pycryptodome dependency",
-      "stale_for": 2,
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8947",
+      "title": "Fix avatars with initials in webkit",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "reviewed"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/72",
+      "title": "[CEP-9] Add implementation details to Pharmacy Management",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2560",
+      "title": "Update dependencies",
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/147",
       "title": "fix daily rounds with empty bp values",
-      "stale_for": 3,
+      "stale_for": 7,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2431",
       "title": "optimize events creation and improve indexes",
-      "stale_for": 31,
+      "stale_for": 35,
       "labels": [
         "blocked"
       ]
@@ -18554,7 +18641,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 17,
+      "stale_for": 21,
       "labels": [
         "Changes Requested"
       ]
