@@ -10,9 +10,9 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-10-25T07:19:02.000Z",
+      "time": "2024-07-12T16:26:54+00:00",
       "title": "ohcnetwork/care#2295",
-      "link": "https://github.com/ohcnetwork/care/pull/2295#pullrequestreview-2394415858",
+      "link": "https://github.com/ohcnetwork/care/pull/2295#pullrequestreview-2175294919",
       "text": "GSoC - Doctor Notes Enhancement "
     },
     {
@@ -233,20 +233,6 @@
       "text": "markdown editor pending \r\n- preselect/deselect options before we start typing\r\n- after clearing a word the next words to be plain text instead of previous styles\r\n\r\nBugs in functionality\r\n-----\r\n- [ ] when you select a text and apply a preference , then remove a preference, and then again give a preference, the selected text will go out of focus (a video of indicating the issue would be helpful)\r\n- [ x]  when i select a text preference for example Bold, then start typing text, the text preference is not applied to the text (checking this as duplicate- issue 1)\r\n- [ x]  when i apply a text preference for a specific text and after applying, continue typing, the text preference is been applied to the new text as well (thats the expected behaviour - ref : slack editor)\r\n- [ x]  when i apply italics and go to next row of the text, now type to un-select italic, it wont allow  (checking this as duplicate- issue 1)\r\n- [ x]  edit and reply buttons are not visible in mobile view\r\n- [ ]  user tagging will fail if we mention more than 1 character in yours name for example @d if we type it will show the users list but we continue to type @de the list of users wont be visible at all\r\n- [ x]  when we download the uploaded file , formatting is wrong for example in place of audio.mp3 they are saving as audio.mp3.mp3\r\n\r\n \r\nBug in Design\r\n\r\n- [ ] the tagged user text is clickable in a existing note, but when we go and click over it, it's not having any redirection or pop-up or anything relevant ( on last test there was a pop-up showing user name and details currently seem like it is removed) ---yes removed temporaryly to do that from backend\r\n- [x ]  the edit and reply button are only visible when we move the cursor near to the place marked as 2 in the above screenshot\r\n- [ x]  the edit and reply icon is overlapping with notes in mobile view\r\n- [ x]  when we upload a profile image, it is still fully reloading the entire page"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2024-07-12T16:40:23+00:00",
-      "title": "ohcnetwork/care#2295",
-      "link": "https://github.com/ohcnetwork/care/pull/2295#pullrequestreview-2175315649",
-      "text": "GSoC - Doctor Notes Enhancement "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-07-12T16:26:54+00:00",
-      "title": "ohcnetwork/care#2295",
-      "link": "https://github.com/ohcnetwork/care/pull/2295#pullrequestreview-2175294919",
-      "text": "GSoC - Doctor Notes Enhancement "
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8016",
       "time": "2024-07-12T15:03:13+00:00",
@@ -276,9 +262,9 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-07-10T19:14:44+00:00",
+      "time": "2024-07-09T07:01:23+00:00",
       "title": "ohcnetwork/care_fe#8016",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8016#pullrequestreview-2170018349",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8016#pullrequestreview-2165238857",
       "text": "GSoC - Doctor Notes Enhancement "
     },
     {
@@ -311,9 +297,9 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-07-09T10:56:37+00:00",
+      "time": "2024-07-08T09:41:55+00:00",
       "title": "ohcnetwork/care#2253",
-      "link": "https://github.com/ohcnetwork/care/pull/2253#pullrequestreview-2165961652",
+      "link": "https://github.com/ohcnetwork/care/pull/2253#pullrequestreview-2162806657",
       "text": "New profile picture feature"
     },
     {
@@ -324,53 +310,11 @@
       "text": "GSoC - Doctor Notes Enhancement "
     },
     {
-      "type": "pr_reviewed",
-      "time": "2024-07-09T07:02:14+00:00",
-      "title": "ohcnetwork/care_fe#8016",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8016#pullrequestreview-2165240924",
-      "text": "GSoC - Doctor Notes Enhancement "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-07-09T07:01:57+00:00",
-      "title": "ohcnetwork/care_fe#8016",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8016#pullrequestreview-2165240250",
-      "text": "GSoC - Doctor Notes Enhancement "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-07-09T07:01:51+00:00",
-      "title": "ohcnetwork/care_fe#8016",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8016#pullrequestreview-2165240013",
-      "text": "GSoC - Doctor Notes Enhancement "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-07-09T07:01:41+00:00",
-      "title": "ohcnetwork/care_fe#8016",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8016#pullrequestreview-2165239619",
-      "text": "GSoC - Doctor Notes Enhancement "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-07-09T07:01:23+00:00",
-      "title": "ohcnetwork/care_fe#8016",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8016#pullrequestreview-2165238857",
-      "text": "GSoC - Doctor Notes Enhancement "
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#7995",
       "time": "2024-07-08T09:44:59+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7995#issuecomment-2213545208",
       "text": "@nihal467 waiting for someone's reply"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-07-08T09:41:55+00:00",
-      "title": "ohcnetwork/care#2253",
-      "link": "https://github.com/ohcnetwork/care/pull/2253#pullrequestreview-2162806657",
-      "text": "New profile picture feature"
     },
     {
       "type": "pr_opened",
@@ -437,52 +381,10 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-06-27T15:58:12+00:00",
-      "title": "ohcnetwork/care_fe#7995",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/7995#pullrequestreview-2145845372",
-      "text": "New profile picture feature "
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2024-06-27T15:57:58+00:00",
       "title": "ohcnetwork/care_fe#7995",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7995#pullrequestreview-2145844496",
       "text": "New profile picture feature "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-06-25T05:56:44+00:00",
-      "title": "ohcnetwork/care_fe#8070",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8070#pullrequestreview-2137400191",
-      "text": "Rich text editor component"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-06-25T05:56:24+00:00",
-      "title": "ohcnetwork/care_fe#8070",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8070#pullrequestreview-2137399649",
-      "text": "Rich text editor component"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-06-25T05:54:01+00:00",
-      "title": "ohcnetwork/care_fe#8070",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8070#pullrequestreview-2137395599",
-      "text": "Rich text editor component"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-06-25T05:53:14+00:00",
-      "title": "ohcnetwork/care_fe#8070",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8070#pullrequestreview-2137394375",
-      "text": "Rich text editor component"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-06-25T05:52:45+00:00",
-      "title": "ohcnetwork/care_fe#8070",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8070#pullrequestreview-2137393662",
-      "text": "Rich text editor component"
     },
     {
       "type": "pr_reviewed",
@@ -978,23 +880,9 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-04-05T12:47:43+00:00",
+      "time": "2024-03-25T11:06:02+00:00",
       "title": "ohcnetwork/care#1964",
-      "link": "https://github.com/ohcnetwork/care/pull/1964#pullrequestreview-1983081116",
-      "text": "Adds bulk import support for assets"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-04-05T12:15:21+00:00",
-      "title": "ohcnetwork/care#1964",
-      "link": "https://github.com/ohcnetwork/care/pull/1964#pullrequestreview-1983005809",
-      "text": "Adds bulk import support for assets"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-04-04T15:02:09+00:00",
-      "title": "ohcnetwork/care#1964",
-      "link": "https://github.com/ohcnetwork/care/pull/1964#pullrequestreview-1980201745",
+      "link": "https://github.com/ohcnetwork/care/pull/1964#pullrequestreview-1957443953",
       "text": "Adds bulk import support for assets"
     },
     {
@@ -1010,13 +898,6 @@
       "time": "2024-03-26T18:23:46+00:00",
       "link": "https://github.com/ohcnetwork/care_fe/pull/7367#issuecomment-2021177509",
       "text": "@nihal467 cypress failures are not due to this pr\r\nthey are occurring in  user_creation.cy.ts "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-03-25T11:06:02+00:00",
-      "title": "ohcnetwork/care#1964",
-      "link": "https://github.com/ohcnetwork/care/pull/1964#pullrequestreview-1957443953",
-      "text": "Adds bulk import support for assets"
     },
     {
       "type": "comment_created",
@@ -1619,13 +1500,6 @@
       "time": "2024-03-01T10:13:46.000Z",
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/19",
       "text": "updated readme"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-03-01T09:22:12.000Z",
-      "title": "ohcnetwork/leaderboard#280",
-      "link": "https://github.com/ohcnetwork/leaderboard/pull/280#pullrequestreview-1910674327",
-      "text": "update user role field to be single role "
     },
     {
       "type": "pr_reviewed",
