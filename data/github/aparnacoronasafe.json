@@ -430,9 +430,9 @@
     },
     {
       "type": "comment_created",
-      "title": "coronasafe/care_fe#8397",
+      "title": "ohcnetwork/care_fe#8397",
       "time": "2024-08-23T12:00:21.000Z",
-      "link": "https://github.com/coronasafe/care_fe/issues/8397#issuecomment-2306945743",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8397#issuecomment-2306945743",
       "text": "We can add validation to make sure that systolic pressure is always greater than diastolic pressure\r\n\r\nHowever, Systolic BP can go below 50 in heart attack patients nearing death and other extreme cases. so it is not wise to only allow values above 50. Same with diastolic BP.\r\n\r\nI believe we need to increase the higher ceiling of both systolic and diastolic BP. \r\nA published in 1995 has recorded a maximum blood pressure of 370/360 mmHg.\r\nI recommend we allow values between 0 to 400 for both systolic and diastobil BP\r\n\r\n"
     },
     {
