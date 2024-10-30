@@ -1,12 +1,10 @@
 ---
 name: Jacob John Jeevan
-title: Contributor
+title: Software Engineer
 github: Jacobjeevan
 twitter: ""
-linkedin: ""
-slack: ""
-joining_date: ""
-role : contributor
+linkedin: "jeevanjacobjohn"
+slack: "U07NXCASM89"
+joining_date: "23/10/2024"
+role : core
 ---
-
-Still waiting for this
