@@ -6820,7 +6820,7 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8768",
     "title": "Create cypress test for patient investigation workflow in the consultation page",
     "createdAt": "2024-10-12T02:15:32Z",
-    "updatedAt": "2024-10-28T07:10:11Z",
+    "updatedAt": "2024-10-29T04:19:15Z",
     "closedAt": null,
     "sprint": "Nov 1 24",
     "category": "Frontend",
@@ -7709,8 +7709,8 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8869",
     "title": "Show user avatar in User Autocomplete and User list page",
     "createdAt": "2024-10-22T08:41:38Z",
-    "updatedAt": "2024-10-28T07:52:06Z",
-    "closedAt": "2024-10-28T07:50:41Z",
+    "updatedAt": "2024-10-30T01:09:59Z",
+    "closedAt": null,
     "sprint": "Oct 2 24",
     "category": "Frontend",
     "status": "Done",
@@ -7718,7 +7718,7 @@
     "priority": "Medium",
     "author": "rithviknishad",
     "assignees": [
-      "noufalrahim"
+      "Jacobjeevan"
     ]
   },
   "PVTI_lADOA7JD8804yM4FBkJl": {
@@ -8108,7 +8108,7 @@
     "url": "https://github.com/ohcnetwork/care_fe/pull/8947",
     "title": "Fix avatars with initials in webkit",
     "createdAt": "2024-10-28T12:06:04Z",
-    "updatedAt": "2024-10-28T17:49:32Z",
+    "updatedAt": "2024-10-29T19:19:06Z",
     "closedAt": null,
     "sprint": "Nov 1 24",
     "category": "Frontend",
@@ -8124,22 +8124,20 @@
     "url": "https://github.com/ohcnetwork/care_fe/issues/8946",
     "title": "Infinite load issue when trying to add more beds in facility when all bed types are already selected",
     "createdAt": "2024-10-28T11:53:31Z",
-    "updatedAt": "2024-10-28T18:08:31Z",
+    "updatedAt": "2024-10-29T17:05:50Z",
     "closedAt": null,
     "sprint": "Nov 1 24",
     "category": "Frontend",
     "status": "Triage",
     "author": "nithish1018",
-    "assignees": [
-      "nithish1018"
-    ]
+    "assignees": []
   },
   "PVTI_lADOA7JD8804yM4FEUeZ": {
     "type": "ISSUE",
     "url": "https://github.com/ohcnetwork/care_fe/issues/8944",
     "title": "Staff type selection and Disply is not working properly",
     "createdAt": "2024-10-28T10:04:50Z",
-    "updatedAt": "2024-10-28T13:47:48Z",
+    "updatedAt": "2024-10-29T06:34:59Z",
     "closedAt": null,
     "sprint": "Nov 1 24",
     "category": "Frontend",
@@ -8304,6 +8302,85 @@
     "author": "rithviknishad",
     "assignees": [
       "DraKen0009"
+    ]
+  },
+  "PVTI_lADOA7JD8804yM4FFPYI": {
+    "type": "ISSUE",
+    "url": "https://github.com/ohcnetwork/care_fe/issues/7787",
+    "title": "Lengthy asset name is not properly handled in asset list page",
+    "createdAt": "2024-10-29T18:04:01Z",
+    "updatedAt": "2024-10-29T18:28:33Z",
+    "closedAt": null,
+    "category": "Frontend",
+    "status": "Up Next",
+    "storyPoints": 1,
+    "priority": "Low",
+    "author": "nihal467",
+    "assignees": [
+      "SwanandBhuskute"
+    ]
+  },
+  "PVTI_lADOA7JD8804yM4FFHBN": {
+    "type": "PULL_REQUEST",
+    "url": "https://github.com/ohcnetwork/care_fe/pull/8962",
+    "title": "update lodash imports to be tree shakable",
+    "createdAt": "2024-10-29T14:20:52Z",
+    "updatedAt": "2024-10-29T14:28:24Z",
+    "closedAt": null,
+    "sprint": "Nov 1 24",
+    "category": "Backend",
+    "status": "Review required",
+    "storyPoints": 1,
+    "author": "sainak",
+    "assignees": []
+  },
+  "PVTI_lADOA7JD8804yM4FE_yV": {
+    "type": "ISSUE",
+    "url": "https://github.com/ohcnetwork/care/issues/2573",
+    "title": "Add basic models and service for Schedules",
+    "createdAt": "2024-10-29T11:01:33Z",
+    "updatedAt": "2024-10-29T11:02:39Z",
+    "closedAt": null,
+    "sprint": "Nov 1 24",
+    "status": "In Progress",
+    "storyPoints": 5,
+    "author": "anroopak",
+    "assignees": [
+      "anroopak"
+    ],
+    "focus": "HMIS"
+  },
+  "PVTI_lADOA7JD8804yM4FE55N": {
+    "type": "ISSUE",
+    "url": "https://github.com/ohcnetwork/care_fe/issues/8957",
+    "title": "Remove Avatars from Autocomplete Field Options",
+    "createdAt": "2024-10-29T08:26:36Z",
+    "updatedAt": "2024-10-30T00:06:43Z",
+    "closedAt": "2024-10-30T00:06:17Z",
+    "category": "Frontend",
+    "status": "Done",
+    "storyPoints": 1,
+    "priority": "Medium",
+    "author": "shivankacker",
+    "assignees": [
+      "AdityaJ2305"
+    ]
+  },
+  "PVTI_lADOA7JD8804yM4FE5S_": {
+    "type": "ISSUE",
+    "url": "https://github.com/ohcnetwork/care_fe/issues/8958",
+    "title": "Text Area Not Visible When 'Other Type' is Selected in Sample Test Type",
+    "createdAt": "2024-10-29T08:08:03Z",
+    "updatedAt": "2024-10-29T09:05:08Z",
+    "closedAt": null,
+    "sprint": "Nov 1 24",
+    "category": "Frontend",
+    "status": "Review required",
+    "storyPoints": 1,
+    "priority": "Low",
+    "author": "JavidSumra",
+    "assignees": [
+      "JavidSumra"
     ]
   }
 }
