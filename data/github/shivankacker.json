@@ -1,6 +1,21 @@
 {
-  "last_updated": "2024-10-29T08:44:51.000Z",
+  "last_updated": "2024-10-30T07:36:13.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-28T05:21:49.000Z",
+      "title": "ohcnetwork/care_fe#8882",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8882#pullrequestreview-2397950849",
+      "text": "Redesign UI for List View in Shifting"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8934",
+      "time": "2024-10-30T07:33:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8934",
+      "text": "Updated UI for list view for Resources and Shifting",
+      "turnaround_time": 302223
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#8961",
@@ -43,13 +58,6 @@
       "time": "2024-10-28T05:27:09.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8934#issuecomment-2440584247",
       "text": "@bodhish Didn't notice the Table UI PR before. The other PR will not interfere much. This PR adds a lot of changes for the structure of files and models. We can merge either of the PRs first but I think the Table UI one has some changes to do and has merge conflicts to resolve. We can merge this so the new file structure and models get reflected."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-10-28T05:21:49.000Z",
-      "title": "ohcnetwork/care_fe#8882",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8882#pullrequestreview-2397950849",
-      "text": "Redesign UI for List View in Shifting"
     },
     {
       "type": "comment_created",
@@ -11514,22 +11522,13 @@
     {
       "link": "https://github.com/ohcnetwork/landing/pull/17",
       "title": "Added page for CARE",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8934",
-      "title": "Updated UI for list view for Resources and Shifting",
-      "stale_for": 1,
-      "labels": [
-        "needs review",
-        "tested"
-      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8469",
       "title": "Migrated Scribe to a CARE App + Context",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "work-in-progress",
         "merge conflict"
@@ -11538,19 +11537,23 @@
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
       "title": "Added scribe context",
-      "stale_for": 17,
+      "stale_for": 18,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 22,
+      "stale_for": 23,
       "labels": [
         "Changes Requested"
       ]
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8732",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8934"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8636",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8713"
@@ -11614,10 +11617,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/442",
       "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/443"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care/issues/2004",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/2006"
     }
   ]
 }

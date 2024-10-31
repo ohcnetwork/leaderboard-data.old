@@ -1,12 +1,69 @@
 {
-  "last_updated": "2024-10-29T14:39:58.000Z",
+  "last_updated": "2024-10-30T09:00:32.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care#2574",
+      "time": "2024-10-30T09:00:32.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2574",
+      "text": "Add Plug Config API",
+      "collaborated_with": [
+        "vigneshhari",
+        "sainak"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8947",
+      "time": "2024-10-30T08:54:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8947",
+      "text": "Fix avatars with initials in webkit",
+      "turnaround_time": 161292
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-30T07:10:56.000Z",
+      "title": "ohcnetwork/care#2574",
+      "link": "https://github.com/ohcnetwork/care/pull/2574#pullrequestreview-2403826409",
+      "text": "Add Plug Config API"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2560",
+      "time": "2024-10-30T06:50:59.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2560",
+      "text": "Update dependencies",
+      "turnaround_time": 659463
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8962",
+      "time": "2024-10-30T04:23:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8962",
+      "text": "update lodash imports to be tree shakable",
+      "turnaround_time": 50761
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-10-29T14:28:20.000Z",
       "title": "ohcnetwork/care#2572",
       "link": "https://github.com/ohcnetwork/care/pull/2572#pullrequestreview-2402083920",
       "text": "Flushed care_static_data prefixed redis keys"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8964",
+      "time": "2024-10-30T04:06:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8964",
+      "text": "Merge Develop To Staging v24.45.0",
+      "turnaround_time": 20
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8964",
+      "time": "2024-10-30T04:06:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8964",
+      "text": "Merge Develop To Staging v24.45.0"
     },
     {
       "type": "pr_opened",
@@ -16288,50 +16345,27 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8962",
-      "title": "update lodash imports to be tree shakable",
-      "stale_for": 0,
-      "labels": [
-        "needs review"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/16",
       "title": "Update config variables to follow standard naming scheme",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8947",
-      "title": "Fix avatars with initials in webkit",
-      "stale_for": 0,
-      "labels": [
-        "tested",
-        "reviewed"
-      ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/72",
       "title": "[CEP-9] Add implementation details to Pharmacy Management",
-      "stale_for": 1,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2560",
-      "title": "Update dependencies",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/147",
       "title": "fix daily rounds with empty bp values",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2431",
       "title": "optimize events creation and improve indexes",
-      "stale_for": 36,
+      "stale_for": 37,
       "labels": [
         "blocked"
       ]
@@ -16339,7 +16373,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 22,
+      "stale_for": 23,
       "labels": [
         "Changes Requested"
       ]

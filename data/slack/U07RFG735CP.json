@@ -24,52 +24,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "user": "U07RFG735CP",
-            "type": "message",
-            "ts": "1730142989.107119",
-            "edited": {
-                "user": "U07RFG735CP",
-                "ts": "1730143002.000000"
-            },
-            "client_msg_id": "9b8a1c0e-5e7c-4345-86a1-5c17ecc3b95e",
-            "text": "28 Oct 2024\nDone:fixing test cases 8691\nNext:\n\u2022 will start work on Duplicate review events captured #464 ",
-            "team": "TC99SV7B6",
-            "blocks": [
-                {
-                    "type": "rich_text",
-                    "block_id": "h4HFm",
-                    "elements": [
-                        {
-                            "type": "rich_text_section",
-                            "elements": [
-                                {
-                                    "type": "text",
-                                    "text": "28 Oct 2024\nDone:fixing test cases 8691\nNext:\n"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "rich_text_list",
-                            "elements": [
-                                {
-                                    "type": "rich_text_section",
-                                    "elements": [
-                                        {
-                                            "type": "text",
-                                            "text": "will start work on Duplicate review events captured #464 "
-                                        }
-                                    ]
-                                }
-                            ],
-                            "style": "bullet",
-                            "indent": 0,
-                            "border": 0
-                        }
-                    ]
-                }
-            ]
         }
     ],
     "2024-10-27 00:00:00": [
@@ -577,6 +531,90 @@
             "inviter": "U02D0NA6RHR",
             "type": "message",
             "ts": "1729139666.253869"
+        }
+    ],
+    "2024-10-30 00:00:00": [
+        {
+            "user": "U07RFG735CP",
+            "type": "message",
+            "ts": "1730315808.592769",
+            "client_msg_id": "e7e1d0d2-9aa7-4722-b6b7-65b104fe5d82",
+            "text": "30 Oct 2024\nDone:fixing test cases 8691\nNext:\n\u2022 will start on this <https://github.com/ohcnetwork/care_fe/issues/6503>\n",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1698330840,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/issues/6503",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#6503 Show more monitors in CNS on very large displays",
+                    "text": "*Describe the bug*  \nWhen CNS is opened in large 4K displays, 75% of the screen space is wasted.\n\n*To Reproduce*  \nSteps to reproduce the behavior:\n\n1. Visit <https://care.ohc.network/facility/0c95c7f0-e1d2-4aff-83fa-933cef60d3a8/cns|https://care.ohc.network/facility/0c95c7f0-e1d2-4aff-83fa-933cef60d3a8/cns> on a 4K display\n\n*Expected behavior*  \nOn large displays, render more vitals monitors into view per page.\n\n*Screenshots*\n\n<https://private-user-images.githubusercontent.com/25143503/278376732-98f9e3f9-7e20-42ce-a095-5abe841e88c6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzAzMTYxMDksIm5iZiI6MTczMDMxNTgwOSwicGF0aCI6Ii8yNTE0MzUwMy8yNzgzNzY3MzItOThmOWUzZjktN2UyMC00MmNlLWEwOTUtNWFiZTg0MWU4OGM2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDMwVDE5MTY0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJkZjg5ZmIxZTliYjNhOTE1NTIzZGY1YmFmZGFmMzM5OWU0OTllOGUyYjE3NDUyN2M4ZDgzMmJmNjk3Y2M3MmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.vG25IhtYbmICDBMuFx1FyGUuQO7IalzC1RBoF4pWTtQ|image>",
+                    "title": "#6503 Show more monitors in CNS on very large displays",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/issues/6503",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "<https://github.com/i0am0arunava|@i0am0arunava>",
+                            "title": "Assignees",
+                            "short": true
+                        },
+                        {
+                            "value": "wishlist",
+                            "title": "Labels",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "OT7TW",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "30 Oct 2024\nDone:fixing test cases 8691\nNext:\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "will start on this "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/issues/6503"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
