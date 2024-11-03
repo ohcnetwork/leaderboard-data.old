@@ -1,6 +1,35 @@
 {
-  "last_updated": "2024-10-21T11:17:59.000Z",
+  "last_updated": "2024-11-02T08:20:29.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-14T20:14:54.000Z",
+      "title": "ohcnetwork/care_fe#8751",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8751#pullrequestreview-2367516998",
+      "text": "Dosage heading is misaligned in the prescription module #8645"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8727",
+      "time": "2024-11-02T07:51:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8727#issuecomment-2452910937",
+      "text": "@nihal467 @bodhish @rithviknishad is the proposed solution appropriate? Let me know, so that i can solve the merge conflicts."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8751",
+      "time": "2024-11-02T07:47:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8751#issuecomment-2452910119",
+      "text": "@nihal467 @rithviknishad Let me know if anything else is required."
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8796",
+      "time": "2024-11-02T07:45:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8796",
+      "text": "fixes \"Created-at\" section peeping out of \"Doctor's discussion\"",
+      "turnaround_time": 1530075
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8751",
@@ -42,13 +71,6 @@
       "time": "2024-10-14T20:30:03.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8727#issuecomment-2412198307",
       "text": "> @Sulochan-khadka ![image](https://private-user-images.githubusercontent.com/57055998/376163318-0c0b9c2e-d764-4622-a684-134b1f34e152.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjg5Mzc3NTgsIm5iZiI6MTcyODkzNzQ1OCwicGF0aCI6Ii81NzA1NTk5OC8zNzYxNjMzMTgtMGMwYjljMmUtZDc2NC00NjIyLWE2ODQtMTM0YjFmMzRlMTUyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE0VDIwMjQxOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTgxMWVkYTUwMzNkMjgyNDUwOThhMGU5M2FhNTU4YzhjZjhiYjczN2JiNDJkNDQ2YzIzODJjZmNhZWVkYTBmZDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.K_2Jn262q-DTrFrWU3FjQjVzSg74cHFOB28G0GhzdK4)\r\n> \r\n> * [ ]  Now, the district admin itself is blocked from accessing the button in consultation card, before requesting another review, make sure admins (district and state admin) have no restriction at all and non-admins (doctor, nurse, all other users) have restrictions are per issue\r\n\r\nI do not know how is that happening, because it is working fine in dev env. Also the logic seems pretty convincing that the consultation facilities are checked whether it matches with the allowed facilities of the user.\r\n\r\n<img width=\"1435\" alt=\"Screenshot 2024-10-15 at 1 54 11 AM\" src=\"https://github.com/user-attachments/assets/1fb75fc5-1c4d-4b12-b5c5-664e6bf32952\">\r\n\r\nAlso \"View / Upload Consultation Files\" should also have same added condition right? That if the user is not allowed a facility, it should not be able to interact with the consultation records. Right?!"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-10-14T20:14:54.000Z",
-      "title": "ohcnetwork/care_fe#8751",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8751#pullrequestreview-2367516998",
-      "text": "Dosage heading is misaligned in the prescription module #8645"
     },
     {
       "type": "comment_created",
@@ -1365,20 +1387,11 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8796",
-      "title": "fixes:\"Created-at\" section peeping out of \"Doctor's discussion\"",
-      "stale_for": 0,
-      "labels": [
-        "test failed"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8751",
       "title": "Dosage heading is misaligned in the prescription module #8645",
       "stale_for": 0,
       "labels": [
-        "needs review",
-        "changes required"
+        "needs testing"
       ]
     },
     {
@@ -1388,11 +1401,17 @@
       "labels": [
         "question",
         "needs review",
-        "test failed"
+        "test failed",
+        "merge conflict",
+        "stale"
       ]
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8795",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8796"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7501",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7502"

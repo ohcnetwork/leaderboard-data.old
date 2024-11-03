@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-10-30T09:00:32.000Z",
+  "last_updated": "2024-11-02T06:14:21.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2249",
+      "time": "2024-11-02T06:14:21.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2249",
+      "text": "Flush Redis before loading static data"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2572",
+      "time": "2024-11-02T06:14:04.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2572#issuecomment-2452887645",
+      "text": "If the data load fails, we will end up with no data in the system, this is a flaw. An ideal implementation would only delete stale items maintaining the existing data somehow.\r\nWe will ignore this flaw for now because we are redesigning the coding system entirely."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-29T14:26:19.000Z",
+      "title": "ohcnetwork/care#2572",
+      "link": "https://github.com/ohcnetwork/care/pull/2572#pullrequestreview-2402078968",
+      "text": "Flushed care_static_data prefixed redis keys"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care#2574",
@@ -26,13 +47,6 @@
       "title": "ohcnetwork/care#2560",
       "link": "https://github.com/ohcnetwork/care/pull/2560#pullrequestreview-2403775901",
       "text": "Update dependencies"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-10-29T14:26:19.000Z",
-      "title": "ohcnetwork/care#2572",
-      "link": "https://github.com/ohcnetwork/care/pull/2572#pullrequestreview-2402078968",
-      "text": "Flushed care_static_data prefixed redis keys"
     },
     {
       "type": "pr_reviewed",
@@ -11657,13 +11671,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2549",
       "title": "Re-Architecture Changes",
-      "stale_for": 11,
+      "stale_for": 14,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/6",
       "title": "[CEP-4] RBAC: initial spec",
-      "stale_for": 27,
+      "stale_for": 30,
       "labels": []
     }
   ],
