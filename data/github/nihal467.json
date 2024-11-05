@@ -1,6 +1,132 @@
 {
-  "last_updated": "2024-11-03T19:28:15.000Z",
+  "last_updated": "2024-11-04T19:36:39.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8996",
+      "time": "2024-11-04T19:36:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8996",
+      "text": "Fixed delete button size in asset details & consent record pages"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8954",
+      "time": "2024-11-04T19:10:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8954#issuecomment-2455497037",
+      "text": "![image](https://github.com/user-attachments/assets/4932b090-9efe-49d9-8fb7-e16af1a7e075)\r\n\r\n- [ ] the close and print buttons in the mobile responsive view is not properly aligned"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8963",
+      "time": "2024-11-04T18:57:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8963#issuecomment-2455472966",
+      "text": "@Rishith25 The cy.wait command was initially added in the test to prevent flakiness. The issue was created to replace hardcorded wait with cy.intercept, ensuring that tests dynamically wait for the necessary API to load and verify that the page is fully loaded before executing the next step in the test."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-04T18:46:09.000Z",
+      "title": "ohcnetwork/care_fe#8963",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8963#pullrequestreview-2413859411",
+      "text": "Cypress tests replace cy.wait with cy.intercept or dynamic waits"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8967",
+      "time": "2024-11-04T18:43:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8967#issuecomment-2455447586",
+      "text": "![image](https://github.com/user-attachments/assets/eae1cc8d-6513-46a7-a0c5-3253fae3c8cc)\r\n\r\nthe avatar is not available in the users dropdown"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_abdm#20",
+      "time": "2024-11-04T17:43:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/20#issuecomment-2455333209",
+      "text": "https://coronasafe-network.sentry.io/issues/6042079575/?project=5182842&query=is%3Aunresolved%20issue.priority%3A%5Bhigh%2C%20medium%5D&referrer=issue-stream&sort=date&statsPeriod=24h&stream_index=0"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_abdm#20",
+      "time": "2024-11-04T17:42:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/20",
+      "text": "ABDM API's are not working across CARE"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8991",
+      "time": "2024-11-04T17:24:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8991",
+      "text": "November First Week [24.45.0] Production Release ",
+      "turnaround_time": 32360
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2577",
+      "time": "2024-11-04T17:24:00.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2577",
+      "text": "November First Week [24.45.0] Production Release ",
+      "turnaround_time": 32332
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8994",
+      "time": "2024-11-04T17:03:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8994",
+      "text": "Improve the Date and Time component in the CARE"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8993",
+      "time": "2024-11-04T13:27:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8993",
+      "text": "Add CSV Export support for Facility Specific Discharge Page"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#8992",
+      "time": "2024-11-04T10:15:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8992",
+      "text": "Hide the pagination component in the facility staff capacity section if there is only one page."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8991",
+      "time": "2024-11-04T08:25:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8991",
+      "text": "November First Week [24.45.0] Production Release "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2577",
+      "time": "2024-11-04T08:25:08.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2577",
+      "text": "November First Week [24.45.0] Production Release "
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8987",
+      "time": "2024-11-04T06:52:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8987",
+      "text": "Reduce the cypress GitHub runner utilization to 4",
+      "turnaround_time": 31622
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8987",
+      "time": "2024-11-04T06:52:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8987",
+      "text": "Reduce the cypress GitHub runner utilization to 4",
+      "collaborated_with": [
+        "nihal467",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8989",
+      "time": "2024-11-04T06:00:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8989",
+      "text": "Fixed Cypress Parallel"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#8987",
@@ -45667,8 +45793,14 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8987",
-      "title": "Reduce the cypress GitHub runner utilization to 4",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8996",
+      "title": "Fixed delete button size in asset details & consent record pages",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8989",
+      "title": "Fixed Cypress Parallel",
       "stale_for": 0,
       "labels": []
     }
@@ -45681,14 +45813,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8590",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8598"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8547",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8614"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8546",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8745"
     }
   ]
 }

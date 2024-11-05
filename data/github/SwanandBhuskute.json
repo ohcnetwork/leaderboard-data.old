@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-11-01T17:14:24.000Z",
+  "last_updated": "2024-11-04T19:10:54.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8994",
+      "time": "2024-11-04T19:10:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8994#issuecomment-2455498272",
+      "text": "I would like to work on this @nihal467 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8972",
+      "time": "2024-11-04T18:45:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8972#issuecomment-2455451960",
+      "text": "> > so I should do changes in CAREUI.css file?\r\n> \r\n> No why? Just use those classes like how it's used in other places to show tooltips.\r\n\r\n\r\n\r\nUsing tooltip and tooltip-top classes\r\nthe hover doesn't position that good \r\n![image](https://github.com/user-attachments/assets/594116bc-4963-4ea9-a60a-11f9b39956c8)\r\n\r\nso using tailwind only, to achieve same effect as earlier without extra style attribute inside <span>\r\n![Screenshot 2024-11-04 195446](https://github.com/user-attachments/assets/54592274-9d14-4ebd-aae5-9eff4278b603)\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8972",
+      "time": "2024-11-04T15:14:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8972#issuecomment-2454979301",
+      "text": "> Member\r\n> ###\r\n\r\nso I should do changes in CAREUI.css file?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8972",
+      "time": "2024-11-04T14:29:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8972#issuecomment-2454866303",
+      "text": "> @SwanandBhuskute Can you add links to example assets where the feature can be seen in action? Also attach Before and After Screenshots\r\n\r\nhttps://care.ohc.network/assets\r\nthe feature can be seen into action on this route\r\ncurrently this is how it works on localhost\r\n\r\nBefore hovering:\r\n![image](https://github.com/user-attachments/assets/d96b3af2-d781-4dc2-ae29-e325ab7e4a16)\r\n\r\nAfter hovering\r\n![image](https://github.com/user-attachments/assets/1586034d-cf99-4dd5-8713-77a8302b9b85)\r\n\r\n\r\noptional working video\r\n\r\nhttps://github.com/user-attachments/assets/491afe27-de5e-42ba-8840-e5a3331311ee\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8289",
@@ -55,16 +83,18 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8972",
       "title": "displaying full names on hover for long names only",
-      "stale_for": 2,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8940",
       "title": "checks for username and username in card overflow fix",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "tested"
       ]
     }
   ],

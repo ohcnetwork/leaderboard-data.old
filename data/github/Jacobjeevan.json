@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-11-01T09:44:08.000Z",
+  "last_updated": "2024-11-04T17:08:32.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T01:46:52.000Z",
+      "title": "ohcnetwork/care_fe#8907",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8907#pullrequestreview-2391037470",
+      "text": "Added SpO2 field in community log update for nurses"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8988",
+      "time": "2024-11-04T14:53:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8988#issuecomment-2454925273",
+      "text": "In this case, expected behavior should be different:\n\n`PatientRegisterAuth` in `PatientRegister.tsx` determines the permissions of the page, so for roles like Doctors, the button should only be visible accordingly."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8983",
+      "time": "2024-11-04T05:37:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8983#issuecomment-2453861590",
+      "text": "So, we are doing a redesign for the users and user management page #8878. I'd wait for that to be completed first (could probably just reuse that page with minor tweaks once that's done)."
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-11-01T09:44:08.000Z",
@@ -224,13 +245,6 @@
       "link": "https://github.com/ohcnetwork/care/pull/2545",
       "text": "Asset location route: modifications for CNS",
       "turnaround_time": 615971
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-10-24T01:46:52.000Z",
-      "title": "ohcnetwork/care_fe#8907",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8907#pullrequestreview-2391037470",
-      "text": "Added SpO2 field in community log update for nurses"
     },
     {
       "type": "pr_collaborated",
@@ -1162,16 +1176,16 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/69",
       "title": "Update Jacobjeevan.md",
-      "stale_for": 2,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8967",
       "title": "Avatar in UserAutoComplete",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "test failed"
       ]
     },
     {

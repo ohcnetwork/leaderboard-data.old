@@ -1,6 +1,55 @@
 {
-  "last_updated": "2024-11-02T06:14:21.000Z",
+  "last_updated": "2024-11-04T13:10:15.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-04T10:11:17.000Z",
+      "title": "ohcnetwork/care#2494",
+      "link": "https://github.com/ohcnetwork/care/pull/2494#pullrequestreview-2412649285",
+      "text": "Clean up asset classes"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-04T10:02:35.000Z",
+      "title": "ohcnetwork/care#2500",
+      "link": "https://github.com/ohcnetwork/care/pull/2500#pullrequestreview-2412614521",
+      "text": "updated populate fixing-investigation command"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-04T09:43:45.000Z",
+      "title": "ohcnetwork/care#2532",
+      "link": "https://github.com/ohcnetwork/care/pull/2532#pullrequestreview-2412596232",
+      "text": "added test cases for asset bed"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-04T09:42:04.000Z",
+      "title": "ohcnetwork/care#2564",
+      "link": "https://github.com/ohcnetwork/care/pull/2564#pullrequestreview-2412592677",
+      "text": "added tests for patient transfer"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#1803",
+      "time": "2024-11-04T09:40:43.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1803#issuecomment-2454225469",
+      "text": "buildkit already does some parallelization during builds, so the benefits of matrix builds are negligible in the case of just 2 platforms."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1803",
+      "time": "2024-11-04T09:40:42.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1803",
+      "text": "Make arm and x86 builds run parallelly"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2554",
+      "time": "2024-11-04T09:39:58.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2554#issuecomment-2454223959",
+      "text": "@Alokih thanks for the pr however this is not the correct way to publish multiplatform images, and from my research I found that toolkit already does some parallelization during builds, so the benefits of matrix builds are negligible in the case of just 2 platforms."
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care#2572",
@@ -16381,31 +16430,25 @@
     {
       "link": "https://github.com/ohcnetwork/care_livekit_fe/pull/2",
       "title": "make DoctorLiveConnect lazy load",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/16",
       "title": "Update config variables to follow standard naming scheme",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/72",
       "title": "[CEP-9] Add implementation details to Pharmacy Management",
-      "stale_for": 5,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/147",
-      "title": "fix daily rounds with empty bp values",
-      "stale_for": 12,
+      "stale_for": 7,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2431",
       "title": "optimize events creation and improve indexes",
-      "stale_for": 40,
+      "stale_for": 42,
       "labels": [
         "blocked"
       ]
@@ -16413,7 +16456,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 26,
+      "stale_for": 28,
       "labels": [
         "Changes Requested"
       ]
@@ -16450,10 +16493,6 @@
     },
     {
       "issue_link": "https://github.com/ohcnetwork/care/issues/2216",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/2444"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care/issues/2213",
       "pr_link": "https://github.com/ohcnetwork/care/pull/2444"
     }
   ]
