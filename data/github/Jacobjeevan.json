@@ -1,6 +1,42 @@
 {
-  "last_updated": "2024-11-04T17:08:32.000Z",
+  "last_updated": "2024-11-05T13:16:19.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9001",
+      "time": "2024-11-05T13:16:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9001#issuecomment-2457149244",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) Could you confirm and assign accordingly if it's being done along with [#8878](https://github.com/ohcnetwork/care_fe/issues/8878)\n\n@rithviknishad I wasn't planning on editing this page, but since we are using most of the same fields in single user detail/management page, it just makes sense to reuse those components here 🤔 "
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2581",
+      "time": "2024-11-05T08:09:55.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2581",
+      "text": "Added profile pic url to UserBaseMinimumSerializer",
+      "turnaround_time": 8180
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2581",
+      "time": "2024-11-05T06:07:03.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2581#issuecomment-2456310655",
+      "text": "I'll get the test fixed 👍 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8967",
+      "time": "2024-11-05T06:00:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8967#issuecomment-2456302795",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/382880340-eae1cc8d-6513-46a7-a0c5-3253fae3c8cc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzA3ODU0MDYsIm5iZiI6MTczMDc4NTEwNiwicGF0aCI6Ii81NzA1NTk5OC8zODI4ODAzNDAtZWFlMWNjOGQtNjUxMy00NmE3LWEwYzUtMzI1M2ZhZTNjOGNjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTA1VDA1MzgyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA1MDVkZDI4MTM3MjgwMTcyMDFjNjJhNDIwZDg5N2YxMTQ0NDk5YmE5OTU3MWFlNWVkZGVmOGUwOWZkMThiMzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.9w-15XJtykjIvFsjg8k_8xi0b7UvbCJuiHwcSlElSQU)\r\n> \r\n> @Jacobjeevan the avatar is not available in the users dropdown\r\n\r\nOpened a PR on [Backend](https://github.com/ohcnetwork/care/pull/2581) 👍  Right now, it only works onQuery (provided user has an avatar)."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2581",
+      "time": "2024-11-05T05:53:35.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2581",
+      "text": "Added profile pic url to UserBaseMinimumSerializer"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-10-24T01:46:52.000Z",
@@ -1176,7 +1212,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/69",
       "title": "Update Jacobjeevan.md",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     },
     {
@@ -1184,8 +1220,7 @@
       "title": "Avatar in UserAutoComplete",
       "stale_for": 0,
       "labels": [
-        "needs review",
-        "test failed"
+        "needs testing"
       ]
     },
     {

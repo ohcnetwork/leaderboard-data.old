@@ -1,6 +1,63 @@
 {
-  "last_updated": "2024-11-04T19:36:39.000Z",
+  "last_updated": "2024-11-05T10:49:02.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8996",
+      "time": "2024-11-05T10:49:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8996",
+      "text": "Fixed delete button size in asset details & consent record pages",
+      "turnaround_time": 3064
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8834",
+      "time": "2024-11-05T09:35:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8834#issuecomment-2456678697",
+      "text": "*Test in progress*\r\n\r\n*Functionality Bug*\r\n\r\n![image](https://github.com/user-attachments/assets/1eded962-86be-419a-8012-855bd63419f3)\r\n\r\n- [ ] The platform currently filters results with every user input, which feels unusual; it would be more effective if it used debouncing to improve performance.\r\n\r\n*Minor Bug*\r\n\r\n![image](https://github.com/user-attachments/assets/fb14ad9c-de06-4a0e-a38f-eb2584a2b6b9)\r\n\r\n- [ ] the \" l-search-alt \" icon which was present inside all search box in the platform is missing, revert that unwanted change\r\n\r\n![image](https://github.com/user-attachments/assets/ec4b0359-1941-42dc-a116-e3343a4b081b)\r\n\r\n- [ ] the badges are overlapping with the search input component in mobile view\r\n\r\n![image](https://github.com/user-attachments/assets/447e5305-d8ce-4b4b-b19c-bb7416fa2e35)\r\n\r\n- [ ] keep the button which highlight the support of esc button to erase input as per our current UI"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8960",
+      "time": "2024-11-05T08:30:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8960#issuecomment-2456535048",
+      "text": "@JavidSumra \r\n![image](https://github.com/user-attachments/assets/8aff2715-4fba-4e4d-9c6f-69a008ecc324)\r\n\r\nIn the Sample Test History section on the Patient Details page, the \"Other Type\" sample request is currently displaying the Sample Test Type Details description under the Sample Test heading. Please update it to display \"Other Type\" instead."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8882",
+      "time": "2024-11-05T08:10:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8882#issuecomment-2456497110",
+      "text": "![image](https://github.com/user-attachments/assets/8d0150d5-d9fe-4042-acd7-0300ed0c3962)\r\n\r\n- [ ] On the mobile view, the heading is kept differently, which is kind of different, i think we can hide them in mobile view\r\n\r\n![image](https://github.com/user-attachments/assets/c2f4f3bd-2ccd-4910-9e02-84318045288f)\r\n\r\n- [ ] the list is not properly responsive, in iPad pro, the multiple things are overlapping with each other\r\n\r\n![image](https://github.com/user-attachments/assets/2da741ff-31d8-416b-a727-ca2e895019b0)\r\n\r\n- [ ] keep the heading left aligned as per design,"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8979",
+      "time": "2024-11-05T06:52:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8979#issuecomment-2456374927",
+      "text": "@sainak once you make the PR is ready for re-review, change the label once again"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8977",
+      "time": "2024-11-05T06:50:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8977#issuecomment-2456372849",
+      "text": "@JavidSumra \r\n\r\n- in general, use already existing helper function in commands.ts file and already declared reusable function\r\n- for any form submission or new page load, add cy. intercept to make sure the API responds properly and the page is fully loaded before your next line of test is executed\r\n- never use classes if there is a possibility we can add id to the elements\r\n- always do a manual test of the workflow you are planning to write test and plan properly before start coding"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-05T06:21:50.000Z",
+      "title": "ohcnetwork/care_fe#8977",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8977#pullrequestreview-2414716560",
+      "text": "Add Cypress Test Suite for Sample Test Request Workflow"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8979",
+      "time": "2024-11-05T06:12:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8979#issuecomment-2456318150",
+      "text": "![image](https://github.com/user-attachments/assets/5e8ed65a-1121-41d5-987a-c892d3785a6d)\r\n\r\n- [ ] When the chart component in any section of the patient consultation page is opened for the first time, the entire page reloads. Once it's cached, it operates smoothly in subsequent uses.\r\n\r\nTo replicate, perform a hard refresh on the patient consultation page, click on the \"Vital\" section, and then begin selecting other sections.\r\n\r\n@sainak  is this behavior expected in your recent changes?\r\n\r\nCC: @rithviknishad "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#8996",
@@ -45793,8 +45850,20 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8996",
-      "title": "Fixed delete button size in asset details & consent record pages",
+      "link": "https://github.com/ohcnetwork/care/pull/2584",
+      "title": "Merge Develop To Staging [ November'24 Second Week ]",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9008",
+      "title": "Merge Develop To Staging [ November'24 Second Week ]",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9007",
+      "title": "New Cypress Test for HCX Workflow in the platform",
       "stale_for": 0,
       "labels": []
     },

@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-11-04T14:23:50.000Z",
+  "last_updated": "2024-11-05T12:10:40.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9000",
+      "time": "2024-11-05T12:10:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9000",
+      "text": "Add function to authorize user to register patient"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8977",
+      "time": "2024-11-05T11:17:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8977#issuecomment-2456902183",
+      "text": "Hey @nihal467 can you please verify requested changes\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8960",
+      "time": "2024-11-05T02:45:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8960#issuecomment-2456112138",
+      "text": "Hey @nihal467 I'm not adding textbox it's already present but with the wrong condition for rendering."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard#536",
@@ -395,11 +416,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9000",
+      "title": "Add function to authorize user to register patient",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8977",
       "title": "Add Cypress Test Suite for Sample Test Request Workflow",
       "stale_for": 0,
       "labels": [
-        "needs testing"
+        "test failed",
+        "changes required"
       ]
     },
     {
@@ -407,8 +435,7 @@
       "title": "Fix Conditional Rendering of TextAreaFormField for Sample Test Type",
       "stale_for": 0,
       "labels": [
-        "question",
-        "needs testing"
+        "changes required"
       ]
     }
   ],

@@ -1,19 +1,40 @@
 {
-  "last_updated": "2024-11-04T13:10:15.000Z",
+  "last_updated": "2024-11-05T13:26:39.000Z",
   "activity": [
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-04T10:11:17.000Z",
-      "title": "ohcnetwork/care#2494",
-      "link": "https://github.com/ohcnetwork/care/pull/2494#pullrequestreview-2412649285",
-      "text": "Clean up asset classes"
-    },
     {
       "type": "pr_reviewed",
       "time": "2024-11-04T10:02:35.000Z",
       "title": "ohcnetwork/care#2500",
       "link": "https://github.com/ohcnetwork/care/pull/2500#pullrequestreview-2412614521",
       "text": "updated populate fixing-investigation command"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-14T10:21:44.000Z",
+      "title": "ohcnetwork/care#2531",
+      "link": "https://github.com/ohcnetwork/care/pull/2531#pullrequestreview-2366047563",
+      "text": "feat: Added validation for max dosage and corresponding test cases #2383"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8979",
+      "time": "2024-11-05T06:22:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8979#issuecomment-2456330347",
+      "text": "I'll improve the suspense fallback"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-05T06:22:35.000Z",
+      "title": "ohcnetwork/care#2581",
+      "link": "https://github.com/ohcnetwork/care/pull/2581#pullrequestreview-2414717503",
+      "text": "Added profile pic url to UserBaseMinimumSerializer"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-04T10:11:17.000Z",
+      "title": "ohcnetwork/care#2494",
+      "link": "https://github.com/ohcnetwork/care/pull/2494#pullrequestreview-2412649285",
+      "text": "Clean up asset classes"
     },
     {
       "type": "pr_reviewed",
@@ -494,13 +515,6 @@
       "time": "2024-10-14T13:31:38.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/2537",
       "text": "load additional plugs on manager startup"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-10-14T10:21:44.000Z",
-      "title": "ohcnetwork/care#2531",
-      "link": "https://github.com/ohcnetwork/care/pull/2531#pullrequestreview-2366047563",
-      "text": "feat: Added validation for max dosage and corresponding test cases #2383"
     },
     {
       "type": "pr_reviewed",
@@ -16419,6 +16433,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2582",
+      "title": "Update queryset references in views to avoid cached results",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8979",
       "title": "Improve code splitting",
       "stale_for": 0,
@@ -16430,25 +16450,25 @@
     {
       "link": "https://github.com/ohcnetwork/care_livekit_fe/pull/2",
       "title": "make DoctorLiveConnect lazy load",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/16",
       "title": "Update config variables to follow standard naming scheme",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/72",
       "title": "[CEP-9] Add implementation details to Pharmacy Management",
-      "stale_for": 7,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2431",
       "title": "optimize events creation and improve indexes",
-      "stale_for": 42,
+      "stale_for": 43,
       "labels": [
         "blocked"
       ]
@@ -16456,7 +16476,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 28,
+      "stale_for": 29,
       "labels": [
         "Changes Requested"
       ]
