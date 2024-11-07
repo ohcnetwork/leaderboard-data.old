@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-11-04T14:58:27.000Z",
+  "last_updated": "2024-11-06T19:38:27.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9018",
+      "time": "2024-11-06T19:38:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9018#issuecomment-2460620005",
+      "text": "@sainak sir, do I need to just change the path to this `loadPath: \"/public/locale/{{lng}}.json\"`,"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8470",
+      "time": "2024-11-06T18:37:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8470#issuecomment-2460509319",
+      "text": "@Jacobjeevan sir, I have created a PR can you review it once , I have just added validation for only 5 env , should I add more ?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9032",
+      "time": "2024-11-06T18:37:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9032#issuecomment-2460508364",
+      "text": "@Jacobjeevan sir, I have created a PR can you review it once , I have just added validation for only 5 env , should I add more ?"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9032",
+      "time": "2024-11-06T18:14:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9032",
+      "text": "Enhanced care config to validate env during build process"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care#1948",
@@ -95,9 +123,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9032",
+      "title": "Enhanced care config to validate env during build process",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2578",
       "title": "refactor ambulance, asset, bed part tuples to choice classes",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],

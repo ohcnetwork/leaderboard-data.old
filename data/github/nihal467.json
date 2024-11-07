@@ -1,6 +1,49 @@
 {
-  "last_updated": "2024-11-05T10:49:02.000Z",
+  "last_updated": "2024-11-06T17:16:46.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8469",
+      "time": "2024-11-06T17:16:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8469#issuecomment-2460352284",
+      "text": "@shivankacker can you clear the merge conflict, to get it ready for review"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8882",
+      "time": "2024-11-06T17:16:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8882#issuecomment-2460350993",
+      "text": "@AnveshNalimela can you clear all the merge conflict to get it ready for review"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8967",
+      "time": "2024-11-06T17:15:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8967#issuecomment-2460349201",
+      "text": "@Jacobjeevan PR looks good to me, can you clear the conflicts"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9023",
+      "time": "2024-11-06T14:27:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9023",
+      "text": "Fixed the Typo Issue in the district admin cypress function",
+      "turnaround_time": 4406
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8972",
+      "time": "2024-11-06T14:07:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8972#issuecomment-2459849335",
+      "text": "LGTM"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-05T06:21:50.000Z",
+      "title": "ohcnetwork/care_fe#8977",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8977#pullrequestreview-2414716560",
+      "text": "Add Cypress Test Suite for Sample Test Request Workflow"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#8996",
@@ -43,13 +86,6 @@
       "time": "2024-11-05T06:50:43.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8977#issuecomment-2456372849",
       "text": "@JavidSumra \r\n\r\n- in general, use already existing helper function in commands.ts file and already declared reusable function\r\n- for any form submission or new page load, add cy. intercept to make sure the API responds properly and the page is fully loaded before your next line of test is executed\r\n- never use classes if there is a possibility we can add id to the elements\r\n- always do a manual test of the workflow you are planning to write test and plan properly before start coding"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-05T06:21:50.000Z",
-      "title": "ohcnetwork/care_fe#8977",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8977#pullrequestreview-2414716560",
-      "text": "Add Cypress Test Suite for Sample Test Request Workflow"
     },
     {
       "type": "comment_created",
@@ -45850,14 +45886,8 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2584",
-      "title": "Merge Develop To Staging [ November'24 Second Week ]",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9008",
-      "title": "Merge Develop To Staging [ November'24 Second Week ]",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9034",
+      "title": "New Cypress Test | Create Investigation Log Update ",
       "stale_for": 0,
       "labels": []
     },
@@ -45865,13 +45895,17 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9007",
       "title": "New Cypress Test for HCX Workflow in the platform",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "merge conflict"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8989",
-      "title": "Fixed Cypress Parallel",
+      "title": "Cache Backend & Frontend for Parallel Cypress Jobs",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "merge conflict"
+      ]
     }
   ],
   "authored_issue_and_pr": [

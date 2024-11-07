@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-04T11:15:17.000Z",
+  "last_updated": "2024-11-06T14:54:27.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9004",
+      "time": "2024-11-06T14:54:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9004#issuecomment-2459967281",
+      "text": "Hi @nihal467 \r\nI did recheck the fix for 15 entries exactly, Pagination component is not visible in this case as expected, can you please recheck again, I used this facility test-august-secondweek\r\nattaching screenshot for reference\r\n![image](https://github.com/user-attachments/assets/3ca92315-fc48-44e5-9c3e-7c2ab86b5c9d)\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8992",
@@ -38,6 +45,17 @@
       "text": "Hi @rithviknishad, \nI found solution to this issue, can raise PR in under 10 minutes for this issue, please assign the issue to me\n\nRegards"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9004",
+      "title": "Conditionaly renders pagination component if number of entries is more than results per page",
+      "stale_for": 0,
+      "labels": [
+        "test failed",
+        "changes required",
+        "Deploy-Failed"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

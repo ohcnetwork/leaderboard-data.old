@@ -1,6 +1,28 @@
 {
-  "last_updated": "2024-11-05T12:10:40.000Z",
+  "last_updated": "2024-11-06T15:15:20.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9014",
+      "time": "2024-11-06T15:15:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9014#issuecomment-2460033530",
+      "text": "Hey @nihal467 can you please assign 2 story points for this."
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9014",
+      "time": "2024-11-06T14:34:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9014",
+      "text": "Fix same-day discharge date selection in DateInputV2 component",
+      "turnaround_time": 19253
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9024",
+      "time": "2024-11-06T13:21:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9024",
+      "text": "Refactor Cypress Auth Test to POM and Improve Test Stability "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9000",
@@ -416,16 +438,25 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9024",
+      "title": "Refactor Cypress Auth Test to POM and Improve Test Stability ",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9000",
       "title": "Add function to authorize user to register patient",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "changes required"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8977",
       "title": "Add Cypress Test Suite for Sample Test Request Workflow",
       "stale_for": 0,
       "labels": [
+        "needs review",
         "test failed",
         "changes required"
       ]
@@ -435,7 +466,8 @@
       "title": "Fix Conditional Rendering of TextAreaFormField for Sample Test Type",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "changes required",
+        "merge conflict"
       ]
     }
   ],

@@ -1,6 +1,55 @@
 {
-  "last_updated": "2024-11-05T06:23:40.000Z",
+  "last_updated": "2024-11-06T15:20:33.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8469",
+      "time": "2024-11-06T15:20:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8469#issuecomment-2460049375",
+      "text": "Will merge conflicts once PR is tested and approved"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-06T15:17:16.000Z",
+      "title": "ohcnetwork/care_fe#9025",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9025#pullrequestreview-2418630549",
+      "text": "fixes auto needs testing label"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-06T15:16:56.000Z",
+      "title": "ohcnetwork/care_fe#9031",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9031#pullrequestreview-2418627890",
+      "text": "Fixed: Show more monitors in CNS on very large displays #6503"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-06T15:15:36.000Z",
+      "title": "ohcnetwork/care_fe#9026",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9026#pullrequestreview-2418620261",
+      "text": "partially revert c9343d5 to fix investigation issues"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-06T15:15:28.000Z",
+      "title": "ohcnetwork/care_fe#9029",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9029#pullrequestreview-2418619482",
+      "text": "[production-patch] Fix investigations crashes"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-01T10:27:03.000Z",
+      "title": "ohcnetwork/care_fe#8781",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8781#pullrequestreview-2409842617",
+      "text": "Ventilator mode/oxygen modality data on consultation page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-06T14:10:29.000Z",
+      "title": "ohcnetwork/care_fe#9014",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9014#pullrequestreview-2418384597",
+      "text": "Fix same-day discharge date selection in DateInputV2 component"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#8998",
@@ -35,13 +84,6 @@
       "time": "2024-11-01T12:08:13.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/8978",
       "text": "Replace unnecessary range auto complete form fields in Daily Rounds with integer fields"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-01T10:27:03.000Z",
-      "title": "ohcnetwork/care_fe#8781",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8781#pullrequestreview-2409842617",
-      "text": "Ventilator mode/oxygen modality data on consultation page"
     },
     {
       "type": "pr_merged",
@@ -11542,7 +11584,7 @@
     {
       "link": "https://github.com/ohcnetwork/landing/pull/17",
       "title": "Added page for CARE",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": []
     },
     {
@@ -11550,19 +11592,21 @@
       "title": "Migrated Scribe to a CARE App + Context",
       "stale_for": 0,
       "labels": [
-        "work-in-progress"
+        "needs testing",
+        "needs review",
+        "Deploy-Failed"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
       "title": "Added scribe context",
-      "stale_for": 24,
+      "stale_for": 25,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 29,
+      "stale_for": 30,
       "labels": [
         "Changes Requested"
       ]
