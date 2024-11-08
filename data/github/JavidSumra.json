@@ -1,6 +1,62 @@
 {
-  "last_updated": "2024-11-06T15:15:20.000Z",
+  "last_updated": "2024-11-07T14:31:27.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9045",
+      "time": "2024-11-07T14:31:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9045#issuecomment-2462384830",
+      "text": "Ok sorry I'll check it again."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9045",
+      "time": "2024-11-07T14:03:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9045#issuecomment-2462319769",
+      "text": "Yup but it's passing on the local environment can you please provide images of that if possible @nihal467 "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9045",
+      "time": "2024-11-07T12:44:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9045",
+      "text": "Add Cypress Test Suite for Facility Notice Board Functionality Verification"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9011",
+      "time": "2024-11-07T12:02:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9011#issuecomment-2462061592",
+      "text": "Hey @nihal467 can you please assign 2 Story Point for this?\ncc @rithviknishad "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9014",
+      "time": "2024-11-07T08:51:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9014#issuecomment-2461654614",
+      "text": "Hey @nihal467 can you please assign 2 story points for this?\ncc @rithviknishad "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9041",
+      "time": "2024-11-07T07:03:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9041#issuecomment-2461469461",
+      "text": "Hey @nihal467 can you please guide about the folder structure for this test suit?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9024",
+      "time": "2024-11-07T06:31:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9024#issuecomment-2461430339",
+      "text": "Hey @nihal467 can you please review this PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9041",
+      "time": "2024-11-07T06:28:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9041#issuecomment-2461426514",
+      "text": "Hey @nihal467 I would like to work on this issue can you please assign this issue to me"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9014",
@@ -438,17 +494,28 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9045",
+      "title": "Add Cypress Test Suite for Facility Notice Board Functionality Verification",
+      "stale_for": 0,
+      "labels": [
+        "Deploy-Failed"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9024",
       "title": "Refactor Cypress Auth Test to POM and Improve Test Stability ",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "Deploy-Failed"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9000",
       "title": "Add function to authorize user to register patient",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "changes required",
+        "Deploy-Failed"
       ]
     },
     {
@@ -458,7 +525,8 @@
       "labels": [
         "needs review",
         "test failed",
-        "changes required"
+        "changes required",
+        "Deploy-Failed"
       ]
     },
     {
@@ -467,6 +535,7 @@
       "stale_for": 0,
       "labels": [
         "changes required",
+        "Deploy-Failed",
         "merge conflict"
       ]
     }

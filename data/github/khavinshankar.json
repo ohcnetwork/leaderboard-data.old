@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-04T14:42:30.000Z",
+  "last_updated": "2024-11-07T01:48:02.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9036",
+      "time": "2024-11-07T01:48:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9036",
+      "text": "Added consultation context and moved abdm manage patients into plug"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_abdm#19",
@@ -39503,9 +39510,25 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_abdm/pull/21",
+      "title": "Switch to v3 cert url in abdm authentication",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9036",
+      "title": "ABDM Plug FE",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "Deploy-Failed"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8866",
       "title": "Added support for enabling boundaries for assetbed cameras",
-      "stale_for": 12,
+      "stale_for": 15,
       "labels": [
         "needs review",
         "work-in-progress",
@@ -39515,13 +39538,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2557",
       "title": "Added support for enabling boundaries for assetbed cameras",
-      "stale_for": 13,
+      "stale_for": 16,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2506",
       "title": "Privacy consultation bed",
-      "stale_for": 7,
+      "stale_for": 10,
       "labels": [
         "peer-reviewed"
       ]
@@ -39529,7 +39552,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8666",
       "title": "Added privacy toggle for a consultation bed and lock camera controls when used by a user",
-      "stale_for": 14,
+      "stale_for": 17,
       "labels": [
         "needs review",
         "tested",
@@ -39540,48 +39563,37 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/50",
       "title": "Added ABDM Docs for WASA Testing",
-      "stale_for": 28,
+      "stale_for": 31,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8460",
-      "title": "Refactor cypress action; separate setup and run",
-      "stale_for": 1,
-      "labels": [
-        "changes required",
-        "merge conflict",
-        "stale",
-        "Carried over"
-      ]
     },
     {
       "link": "https://github.com/ohcnetwork/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 182,
+      "stale_for": 185,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 25,
+      "stale_for": 28,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 1053,
+      "stale_for": 1056,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 1059,
+      "stale_for": 1062,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 1060,
+      "stale_for": 1063,
       "labels": []
     }
   ],
