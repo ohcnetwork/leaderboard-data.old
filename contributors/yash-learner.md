@@ -1,12 +1,14 @@
 ---
 name: Yaswanth Kumar Bethu
-title: Contributor
+title: FullStack Developer
 github: yash-learner
 twitter: ""
-linkedin: ""
-slack: ""
-joining_date: ""
+linkedin: "yaswanth17"
+slack: "D056H37T866"
+joining_date: "06/11/24"
 role : contributor
 ---
 
-Still waiting for this
+Hello 👋
+
+I am a _FullStack Developer_ at [Pupilfirst](https://github.com/pupilfirst). For past few years, I built the things for improving the _class room_ education in India, collaborating with developers across the world. I enjoy( 💗 ) contributing to _Open Source_ projects especially, that are built using [Ruby on Rails](https://github.com/rails) 🚀
