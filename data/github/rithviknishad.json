@@ -1,6 +1,73 @@
 {
-  "last_updated": "2024-11-07T13:44:28.000Z",
+  "last_updated": "2024-11-09T10:11:28.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-09T06:21:17.000Z",
+      "title": "ohcnetwork/care_fe#9013",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9013#pullrequestreview-2425231243",
+      "text": "Fixed:Show more monitors in CNS on very large displays #6503"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9013",
+      "time": "2024-11-09T09:51:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9013#issuecomment-2466151445",
+      "text": "use standard modifiers instead of arbitrary values. they are sufficient."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9013",
+      "time": "2024-11-09T09:00:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9013#issuecomment-2466136210",
+      "text": "1. You'll have to add `@container` class to the parent element (eg: https://github.com/ohcnetwork/care_fe/blob/develop/src/components/Facility/LocationManagement.tsx#L111)\r\n2. And then you'll have to adjust the grid's elements classes to use the container query modifiers (eg: https://github.com/ohcnetwork/care_fe/blob/develop/src/components/Facility/LocationManagement.tsx#L119)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9013",
+      "time": "2024-11-09T08:09:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9013#issuecomment-2466112422",
+      "text": "We can use container queries without modifying the tailwind config instead.\r\n\r\nRefer: https://github.com/tailwindlabs/tailwindcss-container-queries#named-containers\r\n\r\nWe already have this configured in care. Let's use that instead"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9070",
+      "time": "2024-11-09T05:43:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9070",
+      "text": "fix locale sort's path and fix format script to sort cypress dir",
+      "collaborated_with": [
+        "JavidSumra",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-09T05:35:36.000Z",
+      "title": "ohcnetwork/care_fe#9070",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9070#pullrequestreview-2425225991",
+      "text": "Update Locale Path"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8869",
+      "time": "2024-10-28T07:50:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8869",
+      "text": "Show user avatar in User Autocomplete and User list page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-05T06:26:35.000Z",
+      "title": "ohcnetwork/care_fe#8967",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8967#pullrequestreview-2414722717",
+      "text": "Avatar in UserAutoComplete"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8967",
+      "time": "2024-11-09T05:32:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8967#issuecomment-2466061190",
+      "text": "@bodhish It looks like pre-commit is sorting imports from `cypress/*` too, after the recent change in adding support for sorting imports. Merging this should solve it for other PRs too having the same issue. "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9011",
@@ -203,13 +270,6 @@
       "title": "ohcnetwork/care_fe#8972",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8972#pullrequestreview-2413325614",
       "text": "displaying full names on hover for long names only"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-05T06:26:35.000Z",
-      "title": "ohcnetwork/care_fe#8967",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8967#pullrequestreview-2414722717",
-      "text": "Avatar in UserAutoComplete"
     },
     {
       "type": "pr_reviewed",
@@ -616,13 +676,6 @@
       "title": "ohcnetwork/care_fe#8948",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8948#pullrequestreview-2398938128",
       "text": "Show avatar in autocomplete conditionally"
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#8869",
-      "time": "2024-10-28T07:50:42.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/8869",
-      "text": "Show user avatar in User Autocomplete and User list page"
     },
     {
       "type": "pr_collaborated",
@@ -48592,13 +48645,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9025",
       "title": "fixes auto needs testing label",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/522",
       "title": "Extract contributors joining date grouped by month",
-      "stale_for": 22,
+      "stale_for": 24,
       "labels": []
     }
   ],
@@ -48670,10 +48723,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/docs/issues/35",
       "pr_link": "https://github.com/ohcnetwork/docs/pull/68"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8298",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8316"
     }
   ]
 }

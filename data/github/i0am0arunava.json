@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-11-07T13:37:16.000Z",
+  "last_updated": "2024-11-09T09:55:11.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9013",
+      "time": "2024-11-09T09:55:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9013#issuecomment-2466152450",
+      "text": "> use standard modifiers instead of arbitrary values. they are sufficient.\r\n\r\nMeans @6xl @7xl right?but that's not also working \r\nI checked it also"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9013",
+      "time": "2024-11-09T09:41:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9013#issuecomment-2466148372",
+      "text": "> 1. You'll have to add `@container` class to the parent element (eg: https://github.com/ohcnetwork/care_fe/blob/develop/src/components/Facility/LocationManagement.tsx#L111)\r\n> 2. And then you'll have to adjust the grid's elements classes to use the container query modifiers (eg: https://github.com/ohcnetwork/care_fe/blob/develop/src/components/Facility/LocationManagement.tsx#L119)\r\n\r\nnot working \r\n![Screenshot 2024-11-09 151032](https://github.com/user-attachments/assets/52e47c10-512e-4718-bb36-f6aecf166c5e)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9013",
+      "time": "2024-11-09T08:43:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9013#issuecomment-2466121608",
+      "text": "> We can use container queries without modifying the tailwind config instead.\r\n> \r\n> Refer: https://github.com/tailwindlabs/tailwindcss-container-queries#named-containers\r\n> \r\n> We already have this configured in care. Let's use that instead\r\n\r\n@rithviknishad I read the readme\r\nand added as mentioned but not working \r\nCan you please help?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9013",
+      "time": "2024-11-09T08:11:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9013#issuecomment-2466113025",
+      "text": "> We can use container queries without modifying the tailwind config instead.\r\n> \r\n> Refer: https://github.com/tailwindlabs/tailwindcss-container-queries#named-containers\r\n> \r\n> We already have this configured in care. Let's use that instead\r\n\r\nokay"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9013",
+      "time": "2024-11-09T07:55:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9013#issuecomment-2466108384",
+      "text": "> > can you check why facility list page is broken only in this PR\r\n> > <img alt=\"image\" width=\"1822\" src=\"https://private-user-images.githubusercontent.com/25143503/384584665-1b9aa6e6-39e2-48da-abd1-117e658ebf6d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzExMzY4MzgsIm5iZiI6MTczMTEzNjUzOCwicGF0aCI6Ii8yNTE0MzUwMy8zODQ1ODQ2NjUtMWI5YWE2ZTYtMzllMi00OGRhLWFiZDEtMTE3ZTY1OGViZjZkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTA5VDA3MTUzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ4YTI5ZGNlNDA5YzhhN2EzOWQwOGNjZTY0NjEwNTUxOGE5NjZjODBhMTVkODZkOWQ0Yjg2Zjg5NThmNmY0ZTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.1Vk4MlbbcomN_OgJKe5tWKYdkdXkabFF84QwxxTX-SM\">\r\n> \r\n> yeh found it ,due to adding screen: in tailwind config\r\nUsing pixels instead of rem in the Tailwind config is reverting the UI of facility to its previous state."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9013",
+      "time": "2024-11-09T07:17:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9013#issuecomment-2466091558",
+      "text": "> can you check why facility list page is broken only in this PR\r\n> \r\n> <img alt=\"image\" width=\"1822\" src=\"https://private-user-images.githubusercontent.com/25143503/384584665-1b9aa6e6-39e2-48da-abd1-117e658ebf6d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzExMzY4MzgsIm5iZiI6MTczMTEzNjUzOCwicGF0aCI6Ii8yNTE0MzUwMy8zODQ1ODQ2NjUtMWI5YWE2ZTYtMzllMi00OGRhLWFiZDEtMTE3ZTY1OGViZjZkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTA5VDA3MTUzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ4YTI5ZGNlNDA5YzhhN2EzOWQwOGNjZTY0NjEwNTUxOGE5NjZjODBhMTVkODZkOWQ0Yjg2Zjg5NThmNmY0ZTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.1Vk4MlbbcomN_OgJKe5tWKYdkdXkabFF84QwxxTX-SM\">\r\n\r\nyeh find it ,due to adding screen: in tailwind config"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9013",
@@ -253,13 +295,14 @@
       "title": "Fixed:Show more monitors in CNS on very large displays #6503",
       "stale_for": 0,
       "labels": [
-        "Deploy-Failed"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8834",
       "title": "Fixed Add a better search UI for patients index page #8691",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": [
         "test failed",
         "changes required",

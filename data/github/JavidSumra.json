@@ -1,6 +1,60 @@
 {
-  "last_updated": "2024-11-07T14:31:27.000Z",
+  "last_updated": "2024-11-09T09:14:49.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9000",
+      "time": "2024-11-09T09:14:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9000#issuecomment-2466140604",
+      "text": "Hey, @nihal467 requested changes are done can you please review this PR?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8977",
+      "time": "2024-11-09T09:07:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8977#issuecomment-2466138603",
+      "text": "Hey @nihal467 can you please tell me which changes are remaining?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8977",
+      "time": "2024-11-09T08:58:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8977#issuecomment-2466135778",
+      "text": "I'll work on that by eod"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9070",
+      "time": "2024-11-09T05:43:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9070",
+      "text": "fix locale sort's path and fix format script to sort cypress dir",
+      "turnaround_time": 480
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9070",
+      "time": "2024-11-09T05:43:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9070",
+      "text": "fix locale sort's path and fix format script to sort cypress dir",
+      "collaborated_with": [
+        "JavidSumra",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9070",
+      "time": "2024-11-09T04:27:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9070#issuecomment-2466040740",
+      "text": "Hey @rithviknishad can you please review the changes?"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9070",
+      "time": "2024-11-09T04:25:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9070",
+      "text": "Update Locale Path"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9045",
@@ -494,28 +548,31 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9062",
+      "title": "Update Resource Forms to Enhance Validation",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9045",
       "title": "Add Cypress Test Suite for Facility Notice Board Functionality Verification",
       "stale_for": 0,
       "labels": [
-        "Deploy-Failed"
+        "needs testing"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9024",
       "title": "Refactor Cypress Auth Test to POM and Improve Test Stability ",
       "stale_for": 0,
-      "labels": [
-        "Deploy-Failed"
-      ]
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9000",
       "title": "Add function to authorize user to register patient",
       "stale_for": 0,
       "labels": [
-        "changes required",
-        "Deploy-Failed"
+        "changes required"
       ]
     },
     {
@@ -525,18 +582,16 @@
       "labels": [
         "needs review",
         "test failed",
-        "changes required",
-        "Deploy-Failed"
+        "changes required"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8960",
       "title": "Fix Conditional Rendering of TextAreaFormField for Sample Test Type",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
-        "changes required",
-        "Deploy-Failed",
-        "merge conflict"
+        "needs review",
+        "tested"
       ]
     }
   ],

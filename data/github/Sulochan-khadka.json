@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-02T08:20:29.000Z",
+  "last_updated": "2024-11-09T00:04:15.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8751",
+      "time": "2024-11-09T00:04:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8751#issuecomment-2465920373",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/382913178-e9222c13-c0b4-4455-b0e5-ea8658bf15af.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzExMDgyNzksIm5iZiI6MTczMTEwNzk3OSwicGF0aCI6Ii81NzA1NTk5OC8zODI5MTMxNzgtZTkyMjJjMTMtYzBiNC00NDU1LWIwZTUtZWE4NjU4YmYxNWFmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTA4VDIzMTkzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc3YWI2Y2I2MjE4NGI5OGRhMzBlNDc4NTA2YmM4NmQ0ZmNmMTNhNTA2ZGM5MjZlNDdlNmQ3NmU0MWY0ZTU4ZTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.BdKsjPTtsvmLER0hzOH4ssoOnwHjcMGs-Qcjji_5uic) ![image](https://private-user-images.githubusercontent.com/57055998/382913359-40d9e255-2993-405c-b2a1-ed749d9a2b51.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzExMDgyNzksIm5iZiI6MTczMTEwNzk3OSwicGF0aCI6Ii81NzA1NTk5OC8zODI5MTMzNTktNDBkOWUyNTUtMjk5My00MDVjLWIyYTEtZWQ3NDlkOWEyYjUxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTA4VDIzMTkzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY5MTQyM2IxY2QzYTc2YjhhM2JkMTgzYmM5Y2JkZmYxMGI2NjFiMWFiOGMzZWIyYjcwM2IzODg1NWRkOWU1YWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.axqoIthxLD0Pa7QwguJLDSgcfaNOKNq_mDUUU5pb3UA)\r\n> \r\n> @Sulochan-khadka\r\n> \r\n> * [ ]  In mobile view, the indicator and dosage should be displayed below the medicine and other details, as seen on current develop. This behavior is breaking in your PR, so please ensure it remains consistent.\r\n\r\nmade the necessary changes. The result is:\r\n\r\n<img width=\"362\" alt=\"Screenshot 2024-11-09 at 5 34 03 AM\" src=\"https://github.com/user-attachments/assets/a9105cec-6e2a-4111-9d39-82aeddbd3265\">\r\n"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-10-14T20:14:54.000Z",
@@ -1389,21 +1396,22 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8751",
       "title": "Dosage heading is misaligned in the prescription module #8645",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
-        "needs testing"
+        "test failed",
+        "changes required"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8727",
       "title": "Fixes:Gives access of consultation details to users for only allowed facilities.",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "question",
+        "needs testing",
         "needs review",
         "test failed",
-        "merge conflict",
-        "stale"
+        "merge conflict"
       ]
     }
   ],
