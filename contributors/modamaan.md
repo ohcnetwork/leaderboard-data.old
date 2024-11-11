@@ -1,11 +1,11 @@
 ---
 name: Mohamed amaan
-title: Contributor
+title: contributor
 github: modamaan
-twitter: ""
-linkedin: ""
-slack: ""
-joining_date: ""
+twitter: @mohamed_am39510
+linkedin: mohamedamaan319
+slack: "U07ASE8UG05"
+joining_date: "22/10/2024"
 role : contributor
 ---
 
