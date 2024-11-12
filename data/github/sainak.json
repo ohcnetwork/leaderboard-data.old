@@ -1,6 +1,28 @@
 {
-  "last_updated": "2024-11-10T11:55:00.000Z",
+  "last_updated": "2024-11-11T16:13:41.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9085",
+      "time": "2024-11-11T16:13:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9085",
+      "text": "Revert \"[production-patch] Fix investigations crashes and same day discharge\"",
+      "turnaround_time": 33
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9085",
+      "time": "2024-11-11T16:13:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9085",
+      "text": "Revert \"[production-patch] Fix investigations crashes and same day discharge\""
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8608",
+      "time": "2024-11-11T11:30:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8608#issuecomment-2467949767",
+      "text": "@Sahil-Sinha-11 you can reopen the pr and revert changes to the workflows folder, I had to close it because github was not allowing me to push to it"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2593",
@@ -16485,39 +16507,45 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9079",
+      "title": "Enhancements to the nursing care procedures and routines tables",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2593",
       "title": "Remove event handlers",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_livekit_fe/pull/3",
       "title": "Update imports",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_livekit_fe/pull/2",
       "title": "make DoctorLiveConnect lazy load",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/16",
       "title": "Update config variables to follow standard naming scheme",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/72",
       "title": "[CEP-9] Add implementation details to Pharmacy Management",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2431",
       "title": "optimize events creation and improve indexes",
-      "stale_for": 48,
+      "stale_for": 49,
       "labels": [
         "blocked"
       ]
@@ -16525,7 +16553,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 34,
+      "stale_for": 35,
       "labels": [
         "Changes Requested"
       ]

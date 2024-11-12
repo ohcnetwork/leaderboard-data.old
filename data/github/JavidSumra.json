@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-11-10T06:35:22.000Z",
+  "last_updated": "2024-11-11T14:32:41.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9009",
+      "time": "2024-11-11T14:32:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9009#issuecomment-2468319770",
+      "text": "The issue is no longer persisting."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9009",
+      "time": "2024-11-11T14:32:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9009",
+      "text": "Infinite Loading on 'Get Tests' Button in Patient Investigation Report"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9045",
@@ -579,12 +593,14 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9062",
       "title": "Update Resource Forms to Enhance Validation",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "test failed"
+      ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9045",
-      "title": "Add Cypress Test Suite for Facility Notice Board Functionality Verification",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9024",
+      "title": "Refactor Cypress Auth Test to POM and Improve Test Stability ",
       "stale_for": 0,
       "labels": [
         "needs review",
@@ -592,15 +608,9 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9024",
-      "title": "Refactor Cypress Auth Test to POM and Improve Test Stability ",
-      "stale_for": 1,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9000",
       "title": "Add function to authorize user to register patient",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "changes required"
       ]
@@ -612,7 +622,6 @@
       "labels": [
         "needs review",
         "test failed",
-        "changes required",
         "Deploy-Failed",
         "merge conflict"
       ]

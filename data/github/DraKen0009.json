@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-11-10T06:22:01.000Z",
+  "last_updated": "2024-11-11T14:41:49.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2591",
+      "time": "2024-11-11T14:41:49.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2591#issuecomment-2468340679",
+      "text": "I think we should add some proper validations instead of using regex pattern bcz \n1. Stricter regex fails for some valid numbers\n2. Simpler regex validates the invalid numbers\n\ncc: @sainak "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2588",
+      "time": "2024-11-11T14:37:25.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2588#issuecomment-2468330727",
+      "text": "> test cases depends on https://github.com/ohcnetwork/care/issues/2591\r\n\r\nRemoving the phone number validations from backend since we have a check for it in frontend"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care#2592",
@@ -1461,43 +1475,43 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2585",
       "title": "Creating crud endpoint for user and facility flag",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2566",
       "title": "improved get icd11 diagnoses functions",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2564",
       "title": "added tests for patient transfer",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2532",
       "title": "added test cases for asset bed",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2500",
       "title": "updated populate fixing-investigation command",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2494",
       "title": "Clean up asset classes",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/1994",
       "title": "updated bed types",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": [
         "ops-review-pending"
       ]

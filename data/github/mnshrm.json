@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-07T14:41:15.000Z",
+  "last_updated": "2024-11-11T12:55:51.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9004",
+      "time": "2024-11-11T12:55:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9004#issuecomment-2468116222",
+      "text": "Hi @samholics,\r\n- Issue of correct pagination component rendering when entries present are equal to the limit, has been resolved.\r\n- As for scroll issue, doing any changes to scroll implementation will affect other pages where pagination component is used, fix for this might work on facility page but will hamper user experience on other pages such as assets page, because user will not be taken to the top of the page when page is changed.\r\n- As for showing the total staff capacity on each page, for this we need to do changes in backend, as we set this value directly from the response received."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8992",
@@ -52,17 +59,6 @@
       "text": "Hi @rithviknishad, \nI found solution to this issue, can raise PR in under 10 minutes for this issue, please assign the issue to me\n\nRegards"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9004",
-      "title": "Conditionaly renders pagination component if number of entries is more than results per page",
-      "stale_for": 0,
-      "labels": [
-        "test failed",
-        "changes required",
-        "Deploy-Failed"
-      ]
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }
