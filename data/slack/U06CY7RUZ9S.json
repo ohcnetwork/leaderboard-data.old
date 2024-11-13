@@ -1496,5 +1496,176 @@
                 }
             ]
         }
+    ],
+    "2024-11-12 00:00:00": [
+        {
+            "user": "U06CY7RUZ9S",
+            "type": "message",
+            "ts": "1731441855.152489",
+            "client_msg_id": "8cdaa9f1-247d-490e-9b93-e3090dd087de",
+            "text": "12 November 2024\n\n\u2022 Setup Non-Core member Question workflow <https://github.com/ohcnetwork/care_fe/pull/8889|#8889>\n\u2022 Tested out deploying <https://github.com/ohcnetwork/landing|OHC Landing>  to test cloudflare account. \n\u2022 Resolved Arike downtime and prepared an estimate for upgrading ec2 to next tier.\n\u2022 finished working on a working draft of terraform script to deploy care on digitalocean app platform\nNext\n\u2022 clean up the terraform setup \n\u2022 update the docs.\n\u2022 finish deploying the OHC Landing page",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1729660343,
+                    "color": "6f42c1",
+                    "bot_id": "B01V56NBBNC",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/8889",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#8889 added non-core-qn workflow",
+                    "title": "#8889 added non-core-qn workflow",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/8889",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "color": "24292f",
+                    "bot_id": "B01V56NBBNC",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/landing",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "ohcnetwork/landing",
+                    "title": "ohcnetwork/landing",
+                    "fields": [
+                        {
+                            "value": "<https://ohc.network>",
+                            "title": "Website",
+                            "short": true
+                        },
+                        {
+                            "value": "1",
+                            "title": "Stars",
+                            "short": true
+                        }
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "XHvKk",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "12 November 2024\n\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Setup Non-Core member Question workflow "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/8889",
+                                            "text": "#8889",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tested out deploying "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/landing",
+                                            "text": "OHC Landing"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "  to test cloudflare account. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Resolved Arike downtime and prepared an estimate for upgrading ec2 to next tier."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "finished working on a working draft of terraform script to deploy care on digitalocean app platform"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\nNext\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "clean up the terraform setup "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "update the docs."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "finish deploying the OHC Landing page"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

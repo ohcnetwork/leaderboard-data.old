@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-11T20:11:01.000Z",
+  "last_updated": "2024-11-12T21:19:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9089",
+      "time": "2024-11-12T21:19:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9089#issuecomment-2471605958",
+      "text": "> Things to check:\r\n\r\n- [ ] Changes related to events and daily_rounds is left out as events will be deprecated\r\n- [ ] Changing description of notification requires backend change - Need to check whether a backend PR is required as changing the message would be simple but changing constants `PATIENT_CONSULTATION_UPDATE_CREATED` to `PATIENT_LOG_UPDATE_CREATED` requires a migration and also we may revamp this DailyRounds table to something else future based on FHIR."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9089",

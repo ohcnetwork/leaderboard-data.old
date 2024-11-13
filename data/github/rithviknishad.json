@@ -1,12 +1,66 @@
 {
-  "last_updated": "2024-11-11T15:26:45.000Z",
+  "last_updated": "2024-11-12T17:01:20.000Z",
   "activity": [
     {
       "type": "pr_reviewed",
-      "time": "2024-11-11T15:23:06.000Z",
-      "title": "ohcnetwork/care_fe#9004",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9004#pullrequestreview-2427568974",
-      "text": "Conditionaly renders pagination component if number of entries is more than results per page"
+      "time": "2024-10-24T15:33:44.000Z",
+      "title": "ohcnetwork/care_fe#8907",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8907#pullrequestreview-2393062152",
+      "text": "Added SpO2 field in community log update for nurses"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-12T16:38:22.000Z",
+      "title": "ohcnetwork/care_fe#8889",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8889#pullrequestreview-2430136882",
+      "text": "added non-core-qn workflow"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8762",
+      "time": "2024-11-12T14:45:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8762",
+      "text": "Reposition the page loader in main homepages to be placed in the center"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8976",
+      "time": "2024-11-12T14:45:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8976",
+      "text": "Center align `Loading` component based on remaining screen height",
+      "collaborated_with": [
+        "Suhail2701",
+        "sainak",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9076",
+      "time": "2024-11-12T10:51:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9076#issuecomment-2470209214",
+      "text": "> For doctors, could we add a direct 'Schedule' link in the sidebar that redirects them to the Availability tab in their user profile? \r\n\r\nYes, we can do that."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9051",
+      "time": "2024-11-12T03:59:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9051",
+      "text": "Upgrade qrcode.react to v4"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8762",
+      "time": "2024-11-12T02:46:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8762#issuecomment-2469481098",
+      "text": "@SwanandBhuskute there is already a PR linked to this #8976"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9084",
+      "time": "2024-11-12T02:45:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9084#issuecomment-2469480496",
+      "text": "Closing as duplicate of #8976"
     },
     {
       "type": "pr_reviewed",
@@ -14,6 +68,34 @@
       "title": "ohcnetwork/care_fe#8976",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8976#pullrequestreview-2411235810",
       "text": "Issues/8762/reposition loader"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9055",
+      "time": "2024-11-12T02:13:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9055#issuecomment-2469451259",
+      "text": "As discussed, the \"Add consultation\" button has no use based on the following:\n\nWhen a patient is registered to a facility, and a consultation has yet to be created, the \"Create Consultation\" banner present in \"no consultation filed\" is sufficient. \nFor re-admission purposes, there exists a workflow to properly validate a patient through the Add Patient Details form itself by matching the phone number and date of birth. Hence this \"Add Consultation\" button serves no use.\n\nSo we can remove \"Add Consultation\" button to avoid confusion.\n\ncc: @nihal467 \n\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-12T01:56:43.000Z",
+      "title": "ohcnetwork/care_fe#9072",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9072#pullrequestreview-2428430757",
+      "text": "Fix: Improved Warranty Card UI for responsiveness and multi-language …"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8992",
+      "time": "2024-11-12T01:02:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8992",
+      "text": "Hide the pagination component in the facility staff capacity section if there is only one page."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-11T15:23:06.000Z",
+      "title": "ohcnetwork/care_fe#9004",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9004#pullrequestreview-2427568974",
+      "text": "Conditionaly renders pagination component if number of entries is more than results per page"
     },
     {
       "type": "comment_created",
@@ -976,13 +1058,6 @@
       "time": "2024-10-24T15:36:30.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/8918#issuecomment-2435628214",
       "text": "let's switch those to use the Form component instead"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-10-24T15:33:44.000Z",
-      "title": "ohcnetwork/care_fe#8907",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8907#pullrequestreview-2393062152",
-      "text": "Added SpO2 field in community log update for nurses"
     },
     {
       "type": "pr_collaborated",
@@ -48805,7 +48880,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/522",
       "title": "Extract contributors joining date grouped by month",
-      "stale_for": 26,
+      "stale_for": 27,
       "labels": []
     }
   ],

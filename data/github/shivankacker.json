@@ -1,13 +1,33 @@
 {
-  "last_updated": "2024-11-11T18:00:41.000Z",
+  "last_updated": "2024-11-12T14:19:23.000Z",
   "activity": [
     {
-      "type": "pr_merged",
-      "title": "ohcnetwork/landing#17",
-      "time": "2024-11-11T18:00:41.000Z",
-      "link": "https://github.com/ohcnetwork/landing/pull/17",
-      "text": "Added page for CARE",
-      "turnaround_time": 1285544
+      "type": "comment_created",
+      "title": "ohcnetwork/landing#21",
+      "time": "2024-11-12T14:19:23.000Z",
+      "link": "https://github.com/ohcnetwork/landing/pull/21#issuecomment-2470662034",
+      "text": "@thecodephilic-guy probably because `path` gets resolved before the elements get painted due to longer latency... just a guess. You can debug by faking your network latency from the browser debug tools"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/landing#20",
+      "time": "2024-11-12T05:28:56.000Z",
+      "link": "https://github.com/ohcnetwork/landing/issues/20",
+      "text": "Contact link does not work properly in the footer"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-12T05:13:59.000Z",
+      "title": "ohcnetwork/care_fe#8976",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8976#pullrequestreview-2428589818",
+      "text": "Center align `Loading` component based on remaining screen height"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-12T05:07:46.000Z",
+      "title": "ohcnetwork/landing#19",
+      "link": "https://github.com/ohcnetwork/landing/pull/19#pullrequestreview-2428584063",
+      "text": "Fixed GitHub caseing"
     },
     {
       "type": "pr_reviewed",
@@ -15,6 +35,14 @@
       "title": "ohcnetwork/landing#18",
       "link": "https://github.com/ohcnetwork/landing/pull/18#pullrequestreview-2427421718",
       "text": "Refractored the footer"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/landing#17",
+      "time": "2024-11-11T18:00:41.000Z",
+      "link": "https://github.com/ohcnetwork/landing/pull/17",
+      "text": "Added page for CARE",
+      "turnaround_time": 1285544
     },
     {
       "type": "pr_merged",
@@ -11636,7 +11664,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8469",
       "title": "Migrated Scribe to a CARE App + Context",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review",
@@ -11646,13 +11674,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
       "title": "Added scribe context",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 35,
+      "stale_for": 36,
       "labels": [
         "Changes Requested"
       ]

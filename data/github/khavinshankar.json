@@ -1,6 +1,95 @@
 {
-  "last_updated": "2024-11-07T01:48:02.000Z",
+  "last_updated": "2024-11-12T08:36:26.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8941",
+      "time": "2024-11-12T08:36:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8941",
+      "text": "Seperate ABDM into plug in frontend"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9036",
+      "time": "2024-11-12T08:36:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9036",
+      "text": "ABDM Plug FE",
+      "turnaround_time": 456503
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9093",
+      "time": "2024-11-12T08:33:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9093",
+      "text": "Show human readable diagnosis in abdm fetched health information"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-12T08:32:34.000Z",
+      "title": "ohcnetwork/care_fe#9092",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9092#pullrequestreview-2428881110",
+      "text": "Fixed Flaky Test in User skill management"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-12T08:14:03.000Z",
+      "title": "ohcnetwork/care_fe#9091",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9091#pullrequestreview-2428842080",
+      "text": "Fixed the flaky investigation cypress test"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9015",
+      "time": "2024-11-12T07:47:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9015",
+      "text": "Refactor the Existing Cypress Auth Test"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-12T07:44:06.000Z",
+      "title": "ohcnetwork/care_fe#9024",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9024#pullrequestreview-2428785825",
+      "text": "Refactor Cypress Auth Test to POM and Improve Test Stability "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_abdm#16",
+      "time": "2024-11-12T00:30:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/16",
+      "text": "Clean up error messages"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8775",
+      "time": "2024-11-12T00:17:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8775",
+      "text": "Add cypress test for HCX workflow"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9007",
+      "time": "2024-11-12T00:17:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9007",
+      "text": "New Cypress Test for HCX Workflow in the platform",
+      "collaborated_with": [
+        "nihal467",
+        "khavinshankar"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-12T00:16:57.000Z",
+      "title": "ohcnetwork/care_fe#9007",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9007#pullrequestreview-2428355036",
+      "text": "New Cypress Test for HCX Workflow in the platform"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9021",
+      "time": "2024-11-12T00:15:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9021",
+      "text": "Notification Subscription Error Handling and Unsubscribe Message Mismatch"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9036",
@@ -39510,25 +39599,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_abdm/pull/21",
-      "title": "Switch to v3 cert url in abdm authentication",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9036",
-      "title": "ABDM Plug FE",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review",
-        "Deploy-Failed"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8866",
       "title": "Added support for enabling boundaries for assetbed cameras",
-      "stale_for": 15,
+      "stale_for": 20,
       "labels": [
         "needs review",
         "work-in-progress",
@@ -39538,13 +39611,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2557",
       "title": "Added support for enabling boundaries for assetbed cameras",
-      "stale_for": 16,
+      "stale_for": 21,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2506",
       "title": "Privacy consultation bed",
-      "stale_for": 10,
+      "stale_for": 15,
       "labels": [
         "peer-reviewed"
       ]
@@ -39552,7 +39625,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8666",
       "title": "Added privacy toggle for a consultation bed and lock camera controls when used by a user",
-      "stale_for": 17,
+      "stale_for": 22,
       "labels": [
         "needs review",
         "tested",
@@ -39563,41 +39636,45 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/50",
       "title": "Added ABDM Docs for WASA Testing",
-      "stale_for": 31,
+      "stale_for": 36,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 185,
+      "stale_for": 190,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/20",
       "title": "Added ABDM-CARE Integration Docs",
-      "stale_for": 28,
+      "stale_for": 33,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 1056,
+      "stale_for": 1061,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 1062,
+      "stale_for": 1067,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 1063,
+      "stale_for": 1068,
       "labels": []
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8941",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9036"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_abdm/issues/14",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8340"
