@@ -1,0 +1,203 @@
+{
+    "2024-11-13 00:00:00": [
+        {
+            "user": "U07NXCASM89",
+            "type": "message",
+            "ts": "1731539903.923049",
+            "client_msg_id": "e0740ce3-e7ee-4818-85b5-cbb86014c1be",
+            "text": "13th November\nDone\n\u2022 Modified/added frontend test logic to account for changes in user management (as well as checking user details page)\n\u2022 Implemented some suggestions made by RabbitAi\nNext\n\u2022 Some of the tests aren't working in docker (fine on local), debug them.\n\u2022 BE test coverage for user management (carried over)\n\u2022 Pickup a new issue if available\n    \u25e6 There's a few issues I'd like to create based on user management changes, so I might do that and assign to myself if no issues are available (ex: changing the existing profile page to use newly added components).",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "tR1AO",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "13th November\nDone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Modified/added frontend test logic to account for changes in user management (as well as checking user details page)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Implemented some suggestions made by RabbitAi"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Some of the tests aren't working in docker (fine on local), debug them."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "BE test coverage for user management (carried over)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Pickup a new issue if available"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "There's a few issues I'd like to create based on user management changes, so I might do that and assign to myself if no issues are available (ex: changing the existing profile page to use newly added components)."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U07NXCASM89",
+            "type": "message",
+            "ts": "1731487561.335969",
+            "client_msg_id": "97c272ce-0086-45cb-934d-60dea63f8e4e",
+            "text": "12th November\n\u2022 Made changes suggested by RabbitAi for User details/user management components\n    \u25e6 Added minor fixes from further testing (also adjusted permissions for actions based on current perms)\n    \u25e6 Switched the component (used for user details page) to using form component",
+            "team": "TC99SV7B6",
+            "thread_ts": "1731487561.335969",
+            "reply_count": 2,
+            "reply_users_count": 2,
+            "latest_reply": "1731490217.178429",
+            "reply_users": [
+                "UC99MFPU1",
+                "U07NXCASM89"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "ek0hT",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "12th November\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Made changes suggested by RabbitAi for User details/user management components"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added minor fixes from further testing (also adjusted permissions for actions based on current perms)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Switched the component (used for user details page) to using form component"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}

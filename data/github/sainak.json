@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-11-12T14:45:12.000Z",
+  "last_updated": "2024-11-13T13:27:59.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2596",
+      "time": "2024-11-13T13:27:59.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2596",
+      "text": "Update dependencies with security fixes"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-13T11:44:49.000Z",
+      "title": "ohcnetwork/care_fe#9100",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9100#pullrequestreview-2432854328",
+      "text": "Fix bug with recursion"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#1411",
+      "time": "2024-11-13T09:59:07.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1411#issuecomment-2473043340",
+      "text": "@areebahmeddd refer to these docs https://devcenter.heroku.com/articles/deploying-python"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2431",
+      "time": "2024-11-13T09:57:14.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2431#issuecomment-2473038731",
+      "text": "https://github.com/ohcnetwork/care/pull/2593"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-13T09:56:46.000Z",
+      "title": "ohcnetwork/care#2595",
+      "link": "https://github.com/ohcnetwork/care/pull/2595#pullrequestreview-2432504249",
+      "text": "Modified User Route for User Management Redesign"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-14T10:40:34.000Z",
+      "title": "ohcnetwork/care#2534",
+      "link": "https://github.com/ohcnetwork/care/pull/2534#pullrequestreview-2366087048",
+      "text": "Docker backup"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#8976",
@@ -424,13 +466,6 @@
       "title": "ohcnetwork/teleicu_middleware#147",
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/147#pullrequestreview-2382150184",
       "text": "fix daily rounds with empty bp values"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-10-14T10:40:34.000Z",
-      "title": "ohcnetwork/care#2534",
-      "link": "https://github.com/ohcnetwork/care/pull/2534#pullrequestreview-2366087048",
-      "text": "Docker backup"
     },
     {
       "type": "pr_reviewed",
@@ -16519,53 +16554,54 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2596",
+      "title": "Update dependencies with security fixes",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9079",
       "title": "Enhancements to the nursing care procedures and routines tables",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2593",
       "title": "Remove event handlers",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_livekit_fe/pull/3",
       "title": "Update imports",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_livekit_fe/pull/2",
       "title": "make DoctorLiveConnect lazy load",
-      "stale_for": 11,
+      "stale_for": 12,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/16",
       "title": "Update config variables to follow standard naming scheme",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/72",
       "title": "[CEP-9] Add implementation details to Pharmacy Management",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2431",
-      "title": "optimize events creation and improve indexes",
-      "stale_for": 50,
-      "labels": [
-        "blocked"
-      ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 36,
+      "stale_for": 37,
       "labels": [
         "Changes Requested"
       ]

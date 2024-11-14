@@ -26083,5 +26083,289 @@
             "type": "message",
             "ts": "1729913103.048649"
         }
+    ],
+    "2024-11-14 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1731546110.526799",
+            "client_msg_id": "7ade0e95-bbed-4a36-aa40-427a1d76f5e6",
+            "text": "13th November 2024\n\u2022 Worked on integrating scheduling FE with APIs\n\u2022 Fixed a profile in leaderboard causing deployments to fail\n\u2022 Reviewed some PRs\nUp Next\n\u2022 Finish integrating scheduling template and exception APIs\n\u2022 Move UI to user profile as per updated design\n\u2022 Build calendar component ",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "bWIvu",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "13th November 2024\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Worked on integrating scheduling FE with APIs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed a profile in leaderboard causing deployments to fail"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed some PRs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\nUp Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Finish integrating scheduling template and exception APIs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Move UI to user profile as per updated design"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Build calendar component "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "2024-11-13 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1731487685.792139",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1731488146.000000"
+            },
+            "client_msg_id": "29a6f5b1-61a5-4fb9-b351-adfb151d9776",
+            "text": "*12 Nov 2024*\n\n*Done*\n\u2022 Replaced form elements with shadcn components instead of Care\u2019s components.\n\u2022 Attempted building a time-picker since shadcn didn\u2019t have one. Discarded as \u201ctoo hard to maintain\u201d and since anyways shadcn\u2019s `<Input type=\"time\" />` looked good enough for now.\n\u2022 Partially worked on integrating schedule creation with backend APIs.\n\u2022 Had a sync with <@U0576PEACG0> to clarify some things related to daily rounds round type preview and forms.\n\u2022 Tried to debug issue with date picker acting weird in discharge modal\n*Next*\n\u2022 Continue integrating schedule creation with Backend APIs.\n\u2022 Update UI as per updated design.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "u6qte",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "12 Nov 2024",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Done",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Replaced form elements with shadcn components instead of Care\u2019s components."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Attempted building a time-picker since shadcn didn\u2019t have one. Discarded as \u201ctoo hard to maintain\u201d and since anyways shadcn\u2019s "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "<Input type=\"time\" />",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " looked good enough for now."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Partially worked on integrating schedule creation with backend APIs."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Had a sync with "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U0576PEACG0"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " to clarify some things related to daily rounds round type preview and forms."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tried to debug issue with date picker acting weird in discharge modal"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Continue integrating schedule creation with Backend APIs."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Update UI as per updated design."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }

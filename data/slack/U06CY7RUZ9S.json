@@ -1505,47 +1505,6 @@
             "client_msg_id": "8cdaa9f1-247d-490e-9b93-e3090dd087de",
             "text": "12 November 2024\n\n\u2022 Setup Non-Core member Question workflow <https://github.com/ohcnetwork/care_fe/pull/8889|#8889>\n\u2022 Tested out deploying <https://github.com/ohcnetwork/landing|OHC Landing>  to test cloudflare account. \n\u2022 Resolved Arike downtime and prepared an estimate for upgrading ec2 to next tier.\n\u2022 finished working on a working draft of terraform script to deploy care on digitalocean app platform\nNext\n\u2022 clean up the terraform setup \n\u2022 update the docs.\n\u2022 finish deploying the OHC Landing page",
             "team": "TC99SV7B6",
-            "attachments": [
-                {
-                    "id": 1,
-                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
-                    "ts": 1729660343,
-                    "color": "6f42c1",
-                    "bot_id": "B01V56NBBNC",
-                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/8889",
-                    "is_app_unfurl": true,
-                    "app_id": "A01BP7R4KNY",
-                    "fallback": "#8889 added non-core-qn workflow",
-                    "title": "#8889 added non-core-qn workflow",
-                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/8889",
-                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
-                    "mrkdwn_in": [
-                        "text"
-                    ]
-                },
-                {
-                    "id": 2,
-                    "color": "24292f",
-                    "bot_id": "B01V56NBBNC",
-                    "app_unfurl_url": "https://github.com/ohcnetwork/landing",
-                    "is_app_unfurl": true,
-                    "app_id": "A01BP7R4KNY",
-                    "fallback": "ohcnetwork/landing",
-                    "title": "ohcnetwork/landing",
-                    "fields": [
-                        {
-                            "value": "<https://ohc.network>",
-                            "title": "Website",
-                            "short": true
-                        },
-                        {
-                            "value": "1",
-                            "title": "Stars",
-                            "short": true
-                        }
-                    ]
-                }
-            ],
             "blocks": [
                 {
                     "type": "rich_text",
@@ -1655,6 +1614,87 @@
                                         {
                                             "type": "text",
                                             "text": "finish deploying the OHC Landing page"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    "2024-11-13 00:00:00": [
+        {
+            "user": "U06CY7RUZ9S",
+            "type": "message",
+            "ts": "1731519737.369929",
+            "client_msg_id": "f13dc6c0-224a-43db-b7f9-37af96864d6d",
+            "text": "13 Nov 2024\n\u2022 did cleanup on the DO-Terraform script and pushed to gh-repo\n\u2022 enabled scribe and abdm plugs in staging fe. \n\u2022 Deployed OHC Landing to test domain ",
+            "team": "TC99SV7B6",
+            "thread_ts": "1731519737.369929",
+            "reply_count": 2,
+            "reply_users_count": 2,
+            "latest_reply": "1731522488.029659",
+            "reply_users": [
+                "UC99MFPU1",
+                "U06CY7RUZ9S"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "eh1tp",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "13 Nov 2024\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "did cleanup on the DO-Terraform script and pushed to gh-repo"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "enabled scribe and abdm plugs in staging fe. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Deployed OHC Landing to test domain "
                                         }
                                     ]
                                 }

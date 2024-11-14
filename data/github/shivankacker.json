@@ -1,6 +1,86 @@
 {
-  "last_updated": "2024-11-12T14:19:23.000Z",
+  "last_updated": "2024-11-13T16:53:42.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-13T14:21:05.000Z",
+      "title": "ohcnetwork/care_fe#9095",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9095#pullrequestreview-2433393017",
+      "text": "\"Remove \"Add Consultation\" if patient is inactive\" #9055"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_scribe_fe#1",
+      "time": "2024-11-13T14:23:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_scribe_fe/issues/1",
+      "text": "Enhancements"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8705",
+      "time": "2024-11-13T14:15:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8705#issuecomment-2473744453",
+      "text": "Closing this as we have switched to using single language files"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8705",
+      "time": "2024-11-13T14:15:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8705",
+      "text": "Find a better way to import translations for each language"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9100",
+      "time": "2024-11-13T12:10:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9100",
+      "text": "Fix bug with recursion",
+      "turnaround_time": 2203
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9100",
+      "time": "2024-11-13T11:31:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9100",
+      "text": "Fix bug with recursion"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8469",
+      "time": "2024-11-13T10:30:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8469",
+      "text": "Migrated Scribe to a CARE App + Context",
+      "turnaround_time": 6126782
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_scribe#12",
+      "time": "2024-11-13T10:05:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
+      "text": "Added scribe context",
+      "turnaround_time": 6130480
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9099",
+      "time": "2024-11-13T09:56:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9099",
+      "text": "Consultation Page has infinite use effect recursions"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8469",
+      "time": "2024-11-13T08:05:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8469#issuecomment-2472750787",
+      "text": "@nihal467 enhancements can be taken up later, they will also be dependent on the plugin. I have added an ignore rule for oral issue."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9048",
+      "time": "2024-11-13T06:14:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9048#issuecomment-2472516364",
+      "text": "@Srayash can you share a video of what is going wrong? You were saying there are a lot of refreshes."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/landing#21",
@@ -11662,25 +11742,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8469",
-      "title": "Migrated Scribe to a CARE App + Context",
-      "stale_for": 1,
-      "labels": [
-        "needs testing",
-        "needs review",
-        "merge conflict"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_scribe/pull/12",
-      "title": "Added scribe context",
-      "stale_for": 5,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 36,
+      "stale_for": 37,
       "labels": [
         "Changes Requested"
       ]
@@ -11688,8 +11752,24 @@
   ],
   "authored_issue_and_pr": [
     {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9099",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9100"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8978",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8469"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8821",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8469"
+    },
+    {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8732",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8934"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8705",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8692"
     },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8636",
@@ -11732,6 +11812,10 @@
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8174"
     },
     {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8134",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8469"
+    },
+    {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7993",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8003"
     },
@@ -11742,22 +11826,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7807",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7808"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care/issues/2142",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/2146"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/447",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/448"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/446",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/448"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/442",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/443"
     }
   ]
 }

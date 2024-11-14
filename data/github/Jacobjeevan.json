@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-11-12T11:54:53.000Z",
+  "last_updated": "2024-11-13T13:46:17.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9095",
+      "time": "2024-11-13T13:46:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9095#issuecomment-2473667827",
+      "text": "> another approach can be creating a separate variable isAddConsultationVisible which returns a bool value based on whether the patient is active or not and then using that instead of isPatientEligibleForNewConsultation.\r\n\r\n🤔   `is_active` is being used right now, I'm not sure how this would differ."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-24T01:46:52.000Z",
+      "title": "ohcnetwork/care_fe#8907",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8907#pullrequestreview-2391037470",
+      "text": "Added SpO2 field in community log update for nurses"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9072",
@@ -28,13 +42,6 @@
       "time": "2024-11-11T19:43:00.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9072#issuecomment-2468904487",
       "text": "@AlgoFoe  Can you get the unnecessary file inclusions (like tsconfig.json as well as package.json) removed from the PR? Git checkout command should be useful."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-10-24T01:46:52.000Z",
-      "title": "ohcnetwork/care_fe#8907",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8907#pullrequestreview-2391037470",
-      "text": "Added SpO2 field in community log update for nurses"
     },
     {
       "type": "pr_opened",

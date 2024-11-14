@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-11-12T18:28:33.000Z",
+  "last_updated": "2024-11-13T14:23:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9095",
+      "time": "2024-11-13T14:23:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9095#issuecomment-2473766214",
+      "text": "> > another approach can be creating a separate variable isAddConsultationVisible which returns a bool value based on whether the patient is active or not and then using that instead of isPatientEligibleForNewConsultation.\r\n> \r\n> 🤔 `is_active` is being used right now, I'm not sure how this would differ.\r\n\r\nprevious changes altered the function, there were some additional checks that were removed.\r\n\r\nOriginal Function:\r\nhttps://github.com/ohcnetwork/care_fe/blob/7acc8be985fb1e5d294d267ec9284b07e1a4bef5/src/components/Patient/PatientHome.tsx#L245-L251"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9095",
+      "time": "2024-11-13T08:48:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9095#issuecomment-2472867598",
+      "text": "another approach can be creating a separate variable isAddConsultationVisible which returns a bool value based on whether the patient is active or not and then using that instead of isPatientEligibleForNewConsultation."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9095",
+      "time": "2024-11-13T08:33:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9095#issuecomment-2472832548",
+      "text": "Ready for Review @rithviknishad @shivankacker "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9048",
@@ -42,18 +63,21 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9095",
       "title": "\"Remove \"Add Consultation\" if patient is inactive\" #9055",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/542",
       "title": "\"Enhancement: Add new function to fetch discussions.\" #467",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/541",
       "title": "\"fix: improve regex\" #492",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     }
   ],

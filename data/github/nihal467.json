@@ -1,6 +1,112 @@
 {
-  "last_updated": "2024-11-12T14:12:10.000Z",
+  "last_updated": "2024-11-13T17:46:39.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9103",
+      "time": "2024-11-13T17:46:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9103",
+      "text": "Merge Develop To staging v24.47.0"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9101",
+      "time": "2024-11-13T17:45:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9101#issuecomment-2474322801",
+      "text": "issue seems to be resolved"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9101",
+      "time": "2024-11-13T17:45:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9101",
+      "text": "Min,Max condition in discharge from care pop-up is not allowing user to swap calendar months"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9101",
+      "time": "2024-11-13T14:07:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9101#issuecomment-2473722143",
+      "text": "@AdityaJ2305 seem like your develop is out of sync, check in care.ohc.network"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9064",
+      "time": "2024-11-13T12:12:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9064#issuecomment-2473439109",
+      "text": "@Rishith25 hoding this PR test , a related issue need to be solved and merge before we test this : https://github.com/ohcnetwork/care_fe/issues/9101"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9101",
+      "time": "2024-11-13T12:05:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9101",
+      "text": "Min,Max condition in discharge from care pop-up is not allowing user to swap calendar months"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8727",
+      "time": "2024-11-13T11:26:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8727#issuecomment-2473296835",
+      "text": "\r\n> > In that case should we over engineer? The page would render the empty message right 🤔\r\n> \r\n> Yes, rather than disabling the button, we can simply throw an error on the frontend stating, \"You don't have access to this file,\" replacing the current behavior of redirecting restricted users to a 404 page.\r\n> \r\n> CC: @Sulochan-khadka\r\n\r\n@bodhish is this approach ok ?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9013",
+      "time": "2024-11-13T11:24:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9013#issuecomment-2473293072",
+      "text": "![image](https://github.com/user-attachments/assets/6d9343f0-0844-48e4-8119-968fe6337521)\r\n![image](https://github.com/user-attachments/assets/85d3d3c5-76b5-4db6-9e08-2a4fe5264a24)\r\n\r\n- [ ] whenever i click on the setting button in the cns page, it going to a loading state before showing the dropdown, fix it\r\n"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9087",
+      "time": "2024-11-13T11:24:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9087",
+      "text": "Merge Develop To Staging November Third Week",
+      "turnaround_time": 148993
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9032",
+      "time": "2024-11-13T10:52:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9032#issuecomment-2473181064",
+      "text": "build, cypress and random check looks good, pushing it for code review"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8469",
+      "time": "2024-11-13T09:08:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8469#issuecomment-2472912596",
+      "text": "conditional approved it"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8727",
+      "time": "2024-11-13T08:33:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8727#issuecomment-2472832743",
+      "text": "> In that case should we over engineer? The page would render the empty message right 🤔\r\n\r\nYes, rather than disabling the button, we can simply throw an error on the frontend stating, \"You don't have access to this file,\" replacing the current behavior of redirecting restricted users to a 404 page."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8727",
+      "time": "2024-11-13T08:26:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8727#issuecomment-2472809670",
+      "text": "@bodhish \r\n\r\n> Does our backend send data for these requests / pages?\r\n\r\nbackend will not the data if the user doesn't have access to the consultation record"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8727",
+      "time": "2024-11-13T08:15:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8727#issuecomment-2472783334",
+      "text": "![image](https://github.com/user-attachments/assets/43657341-3f7e-48e3-9e2d-5c964d63672d)\r\n![image](https://github.com/user-attachments/assets/1347e2f4-8fb0-4d93-9eb0-8039f717d85e)\r\n\r\n@bodhish Currently, admins can access all routes of the disabled button in the patient details page from the patient consultation page, but this approach isn’t ideal for effectively restricting access. Many users with district admin roles rely on this access to manage certain data.\r\n\r\nThe main issue we’re aiming to resolve is to ensure that non-admin users cannot access consultation files of a facility that isn’t linked to their user ID. If a non-admin user who is not linked to a facility tries to access facility data, either by clicking on a patient card to view consultations from the patient list page or by using the \"View Consultation\" button on the patient details page, an error message—such as \"You don't have access to this file\"—should be displayed instead of redirecting them to a 404 page.\r\n\r\nCould you review his deploy preview along with my comment, and then provide a response?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8469",
+      "time": "2024-11-13T07:48:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8469#issuecomment-2472719383",
+      "text": "Enhancement\r\n\r\n![image](https://github.com/user-attachments/assets/77aea9a8-38fe-42b8-bc0a-e1d1dd8ac41e)\r\n\r\n- [ ] the users never knew that its a clickable tooltip\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8976",
@@ -46186,15 +46292,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9087",
-      "title": "Merge Develop To Staging November Third Week",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8989",
       "title": "Cache Backend & Frontend for Parallel Cypress Jobs",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "merge conflict",
         "Carried over"
@@ -46202,6 +46302,10 @@
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9104",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9105"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8775",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9007"
