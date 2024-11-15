@@ -1,12 +1,20 @@
 {
-  "last_updated": "2024-11-13T15:08:18.000Z",
+  "last_updated": "2024-11-14T14:23:35.000Z",
   "activity": [
     {
-      "type": "issue_opened",
-      "title": "ohcnetwork/leaderboard#543",
-      "time": "2024-11-13T15:08:18.000Z",
-      "link": "https://github.com/ohcnetwork/leaderboard/issues/543",
-      "text": "Support for generating AI based summaries for repository activities in the past week"
+      "type": "pr_reviewed",
+      "time": "2024-11-14T14:23:34.000Z",
+      "title": "ohcnetwork/care_fe#9116",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9116#pullrequestreview-2436214349",
+      "text": "removed lodash imports and dependencies and wrote js equivalents"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/leaderboard#544",
+      "time": "2024-11-14T13:55:31.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/544",
+      "text": "Add Statistics Summary Cards to Leaderboard",
+      "turnaround_time": 11189
     },
     {
       "type": "pr_reviewed",
@@ -14,6 +22,48 @@
       "title": "ohcnetwork/care_fe#9089",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9089#pullrequestreview-2433385664",
       "text": "Fix wrong terminology used in place of Log Update"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard#544",
+      "time": "2024-11-14T10:48:22.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/544",
+      "text": "Adds support for showing summary in leaderboard"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9039",
+      "time": "2024-11-14T07:13:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9039#issuecomment-2475584018",
+      "text": "https://github.com/ohcnetwork/care_fe/blob/develop/package.json#L36\n\nYou might want to try building and running instead."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#6006",
+      "time": "2024-11-14T07:09:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6006#issuecomment-2475578343",
+      "text": "Yup!\n\nFor casing changes specifically, I'd suggest refactoring the usages to use [tailwind's text transform classes](https://tailwindcss.com/docs/text-transform) instead of JS wherever possible."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9089",
+      "time": "2024-11-14T04:05:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9089#issuecomment-2475369263",
+      "text": "@yash-learner yes let's do that too"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-14T02:33:48.000Z",
+      "title": "ohcnetwork/care_fe#9095",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9095#pullrequestreview-2434925750",
+      "text": "Remove redundant \"Add Consultation\" button"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/leaderboard#543",
+      "time": "2024-11-13T15:08:18.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/543",
+      "text": "Support for generating AI based summaries for repository activities in the past week"
     },
     {
       "type": "pr_reviewed",
@@ -48927,16 +48977,15 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9076",
       "title": "[draft] Scheduling",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "work-in-progress",
-        "merge conflict"
+        "work-in-progress"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/522",
       "title": "Extract contributors joining date grouped by month",
-      "stale_for": 28,
+      "stale_for": 29,
       "labels": []
     }
   ],

@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-11-13T14:23:05.000Z",
+  "last_updated": "2024-11-14T14:30:32.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9095",
+      "time": "2024-11-14T14:30:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9095#issuecomment-2476501442",
+      "text": "> LGTM, tests are failing, do have a look\r\n\r\nThe failing test wasn't related to my PR, although it has been resolved now. "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9111",
+      "time": "2024-11-14T03:39:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9111",
+      "text": "\"disable \"Save Button\" if no file is selected.\" #9110"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9110",
+      "time": "2024-11-14T02:47:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9110#issuecomment-2475301433",
+      "text": "Can I work on this?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9095",
@@ -60,24 +81,32 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9095",
-      "title": "\"Remove \"Add Consultation\" if patient is inactive\" #9055",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9111",
+      "title": "\"disable \"Save Button\" if no file is selected.\" #9110",
       "stale_for": 0,
       "labels": [
-        "question",
-        "needs-triage"
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9095",
+      "title": "Remove redundant \"Add Consultation\" button",
+      "stale_for": 0,
+      "labels": [
+        "needs testing"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/542",
       "title": "\"Enhancement: Add new function to fetch discussions.\" #467",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/541",
       "title": "\"fix: improve regex\" #492",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     }
   ],

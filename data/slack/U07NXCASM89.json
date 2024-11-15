@@ -110,6 +110,15 @@
                         }
                     ]
                 }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
             ]
         },
         {
@@ -196,6 +205,115 @@
                         "UC99MFPU1"
                     ],
                     "count": 1
+                }
+            ]
+        }
+    ],
+    "2024-11-14 00:00:00": [
+        {
+            "user": "U07NXCASM89",
+            "type": "message",
+            "ts": "1731608117.010069",
+            "edited": {
+                "user": "U07NXCASM89",
+                "ts": "1731608160.000000"
+            },
+            "client_msg_id": "f5e35f55-cc29-4cf3-84d0-7fa76f38e40d",
+            "text": "14th November\nDone\n\u2022 Minor changes for FE tests for user management\n\u2022 Added additional backend tests for user management related changes (improved test coverage)\n\u2022 Started working on facility bed badge tests\nNext\n\u2022 Complete the facility bed badge tests\n    \u25e6 I might tweak some of the existing patient creation helper methods to create a reusable patient creation method; looking to create multiple patients for one facility for this test. Let me know if you have any comments/suggestions.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "/fN0E",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "14th November\nDone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Minor changes for FE tests for user management"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added additional backend tests for user management related changes (improved test coverage)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Started working on facility bed badge tests"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete the facility bed badge tests"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "I might tweak some of the existing patient creation helper methods to create a reusable patient creation method; looking to create multiple patients for one facility for this test. Let me know if you have any comments/suggestions."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        }
+                    ]
                 }
             ]
         }
