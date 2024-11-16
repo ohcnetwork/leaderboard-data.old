@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-11-14T14:59:21.000Z",
+  "last_updated": "2024-11-15T05:06:46.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9123",
+      "time": "2024-11-15T05:06:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9123",
+      "text": "Fix: Bed capacity pop up errors"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9121",
+      "time": "2024-11-15T04:02:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9121#issuecomment-2477907326",
+      "text": "Hey @nihal Let me check If I can solve this issue "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9118",
+      "time": "2024-11-15T03:45:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9118#issuecomment-2477894063",
+      "text": "> Why was things changed for `resp` field? Changes only need to be there for SpO2 field right?\r\n\r\nmy bad,  fixed it "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9118",
@@ -832,11 +853,23 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9133",
+      "title": "Fix: Year Of Birth Field Validation Condition in Patient transfer form",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9123",
+      "title": "Fix: Bed capacity pop up errors",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9118",
       "title": "Adjusted SpO2 thresholds and labels in DailyRounds component to match medical standards",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing"
       ]
     },
     {
@@ -844,9 +877,8 @@
       "title": "Fix: TypeError in notification list",
       "stale_for": 0,
       "labels": [
-        "question",
-        "blocked",
-        "needs-triage"
+        "needs testing",
+        "needs review"
       ]
     }
   ],

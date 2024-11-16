@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-14T07:32:00.000Z",
+  "last_updated": "2024-11-15T06:05:15.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9125",
+      "time": "2024-11-15T06:05:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9125",
+      "text": "Login page input fields UI update"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9112",
@@ -333,9 +340,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9125",
+      "title": "Login page input fields UI update",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9064",
       "title": "Disallow picking out of range month or year in date input dropdown",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs testing",
         "needs review"
@@ -344,7 +357,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9020",
       "title": "Added skeleton loader during advanced filters",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": [
         "changes required"
       ]
@@ -352,7 +365,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8963",
       "title": "Cypress tests replace cy.wait with cy.intercept or dynamic waits",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": [
         "test failed",
         "changes required",

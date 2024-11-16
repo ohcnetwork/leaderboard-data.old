@@ -315,6 +315,98 @@
                         }
                     ]
                 }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    "2024-11-15 00:00:00": [
+        {
+            "user": "U07NXCASM89",
+            "type": "message",
+            "ts": "1731706166.552969",
+            "edited": {
+                "user": "U07NXCASM89",
+                "ts": "1731706198.000000"
+            },
+            "client_msg_id": "02ab2fe0-4adb-47c1-b5b2-d8fd6241539e",
+            "text": "15th November\nDone\n\u2022 Facility bed badge tests (doing some additional testing as I had tweaked few of the other tests in the process in order to create a patient + consultation + location + bed within the test case).\nNext\n\u2022 Ventilator table/graph bug (case when user selects NIV/IV or Oxygen but doesn't select a corresponding modality/mode). This is part of Monday release so taking care of it right away (not a big change as I'm just skipping rendering rn for those rows).\n\u2022 Review PRs/Pickup new issue",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "BDE8H",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "15th November\nDone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Facility bed badge tests (doing some additional testing as I had tweaked few of the other tests in the process in order to create a patient + consultation + location + bed within the test case)."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Ventilator table/graph bug (case when user selects NIV/IV or Oxygen but doesn't select a corresponding modality/mode). This is part of Monday release so taking care of it right away (not a big change as I'm just skipping rendering rn for those rows)."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Review PRs/Pickup new issue"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
             ]
         }
     ]
