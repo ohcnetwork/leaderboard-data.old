@@ -977,5 +977,166 @@
                 }
             ]
         }
+    ],
+    "2024-11-16 00:00:00": [
+        {
+            "user": "U07RFG735CP",
+            "type": "message",
+            "ts": "1731778486.703909",
+            "client_msg_id": "7d3b8fd0-7945-41b9-994b-550c170e66b2",
+            "text": "16 Nov 2024\nDone\n\u2022 Worked on issue #8691\n\u2022 fixed some responsiveness issue in serchbymultiplefield component\nNext\n\u2022 Looking for new issues\n",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "J74Xh",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "16 Nov 2024\nDone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Worked on issue #8691"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fixed some responsiveness issue in serchbymultiplefield component"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Looking for new issues"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U07RFG735CP",
+            "type": "message",
+            "ts": "1731734364.508909",
+            "edited": {
+                "user": "U07RFG735CP",
+                "ts": "1731734478.000000"
+            },
+            "client_msg_id": "ba175578-2137-491d-b94e-a466e9d83714",
+            "text": "15 th November\nDone\nworking on issue <https://github.com/ohcnetwork/care_fe/pull/8834>\nNext\nlooking for new issue\n(Sorry for being late in giving the end-of-day report)",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1729402782,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/8834",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#8834 Fixed Add a better search UI for patients index page #8691",
+                    "text": "*Proposed Changes*\n\n\u2022 Fixes <https://github.com/ohcnetwork/care_fe/issues/8691|#issue_number>\n\n@ohcnetwork/care-fe-code-reviewers\n\n*Merge Checklist*\n\n\u2022 Add specs that demonstrate bug / test a new feature.\n\u2022 Update <https://docs.ohc.network|product documentation>.\n\u2022 Ensure that UI text is kept in I18n files.\n\u2022 Prep screenshot or demo video for changelog entry, and attach it to issue.\n\u2022 Request for Peer Reviews\n\u2022 Completion of QA\n\n*Summary by CodeRabbit*\n\n*Release Notes*\n\n\u2022 *New Features*  \n   \u2022 Introduced a `SearchByMultipleFields` component for enhanced search functionality across various fields.  \n   \u2022 Added new UI components for dialogs, commands, and popovers, improving user interaction and accessibility.  \n   \u2022 Updated localization files to improve terminology and add new search options in English and Marathi.\n\u2022 *Bug Fixes*  \n   \u2022 Improved the interaction flow for patient name input in the patient management interface.\n\u2022 *Chores*  \n   \u2022 Updated dependencies to enhance UI component functionality.\n\u2022 *Documentation*  \n   \u2022 Enhanced translations for user interface elements in Marathi.",
+                    "title": "#8834 Fixed Add a better search UI for patients index page #8691",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/8834",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "test failed, changes required, merge conflict, stale",
+                            "title": "Labels",
+                            "short": true
+                        },
+                        {
+                            "value": "39",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "4pRFH",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "15 th November\nDone\nworking on issue "
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https://github.com/ohcnetwork/care_fe/pull/8834"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\nNext\nlooking for new issue\n(Sorry for being late in giving the end-of-day report)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }

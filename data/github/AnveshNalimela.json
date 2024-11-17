@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-11-15T06:10:04.000Z",
+  "last_updated": "2024-11-16T16:33:39.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9142",
+      "time": "2024-11-16T16:33:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9142",
+      "text": "Added the CSV Export button In Discharged Patients"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2601",
+      "time": "2024-11-16T15:12:44.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2601",
+      "text": "Added CSV support To API "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9096",
+      "time": "2024-11-16T08:54:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9096#issuecomment-2480483884",
+      "text": "@rithviknishad All the test are succesfull Could You trigger the merge"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9096",
+      "time": "2024-11-16T08:53:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9096#issuecomment-2480483705",
+      "text": "@nihal467  Could you test and merge these PR..?\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9096",
@@ -256,6 +284,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9142",
+      "title": "Added the CSV Export button In Discharged Patients",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2601",
+      "title": "Added CSV support To API listFacilityDischargedPatients",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9096",
       "title": "Design of List View layout  in Resource Page",
       "stale_for": 0,
@@ -272,6 +312,8 @@
       "title": "Rewriting UsersCreation.cy.ts according to POM approach",
       "stale_for": 0,
       "labels": [
+        "needs testing",
+        "needs review",
         "test failed",
         "changes required"
       ]
