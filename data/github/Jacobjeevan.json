@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-15T12:43:46.000Z",
+  "last_updated": "2024-11-17T11:27:29.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9145",
+      "time": "2024-11-17T11:27:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9145",
+      "text": "Facility bed capacity verification test"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9124",
@@ -1378,6 +1385,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9145",
+      "title": "Facility bed capacity verification test",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9139",
       "title": "Respiratory support table/graph: render no data points with no mode/modality",
       "stale_for": 0,
@@ -1389,7 +1402,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2595",
       "title": "Modified User Route for User Management Redesign",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": []
     },
     {
@@ -1398,7 +1411,8 @@
       "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review"
+        "needs review",
+        "waiting for backend"
       ]
     }
   ],
