@@ -418,5 +418,114 @@
                 }
             ]
         }
+    ],
+    "2024-11-18 00:00:00": [
+        {
+            "user": "U07NXCASM89",
+            "type": "message",
+            "ts": "1731955181.798709",
+            "edited": {
+                "user": "U07NXCASM89",
+                "ts": "1731955246.000000"
+            },
+            "client_msg_id": "5b65ef3d-eeb1-4f10-be1a-3c33934ecca6",
+            "text": "18th November\nDone\nNothing major for the day.\n\u2022 Modified user details page to support a \"view\" option\n    \u25e6 New component to show user details to users who wouldn't have edit permissions otherwise\n    \u25e6 Reuses the same component to toggle between view/edit for users who would have edit permissions\nNext\n\u2022 Maybe some additional styling changes (and modify the password change form) to fit with the new view option\n\u2022 Pickup a new issue ",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "ZRCWh",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "18th November\nDone\nNothing major for the day.\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Modified user details page to support a \"view\" option"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "New component to show user details to users who wouldn't have edit permissions otherwise"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reuses the same component to toggle between view/edit for users who would have edit permissions"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Maybe some additional styling changes (and modify the password change form) to fit with the new view option"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Pickup a new issue "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

@@ -1,6 +1,28 @@
 {
-  "last_updated": "2024-11-17T11:27:29.000Z",
+  "last_updated": "2024-11-18T15:15:07.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-18T10:38:20.000Z",
+      "title": "ohcnetwork/care_fe#8935",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8935#pullrequestreview-2442235030",
+      "text": "Fix: TypeError in notification list"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9153",
+      "time": "2024-11-18T14:55:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9153#issuecomment-2483289270",
+      "text": "Well, before user clicks upload, they can just click on the file name again to select a different file, though it's better to have a clear button there 🤔 \n\nOn a side note, I wonder if said clear button should also allow to clear after the file is uploaded/before submit is clicked (in which case, we might have to deal with archiving or deleting the file) @rithviknishad "
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9139",
+      "time": "2024-11-18T11:06:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9139",
+      "text": "Respiratory support table/graph: render no data points with no mode/modality",
+      "turnaround_time": 218749
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9145",
@@ -1388,21 +1410,14 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9145",
       "title": "Facility bed capacity verification test",
       "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9139",
-      "title": "Respiratory support table/graph: render no data points with no mode/modality",
-      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2595",
       "title": "Modified User Route for User Management Redesign",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": []
     },
     {
@@ -1412,7 +1427,8 @@
       "labels": [
         "needs testing",
         "needs review",
-        "waiting for backend"
+        "waiting for backend",
+        "merge conflict"
       ]
     }
   ],
