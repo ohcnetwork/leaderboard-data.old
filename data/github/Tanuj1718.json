@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-18T12:22:49.000Z",
+  "last_updated": "2024-11-19T12:09:27.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9152",
+      "time": "2024-11-19T12:09:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9152#issuecomment-2485541765",
+      "text": "> @Tanuj1718 have we also accounted for characters like underscores, dots and commas ?\r\n\r\nYes we have checked. We only allow characters and spaces in Name."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9152",
@@ -51,15 +58,11 @@
       "text": "Sign up page for authenticate a new user"
     }
   ],
-  "open_prs": [
+  "open_prs": [],
+  "authored_issue_and_pr": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9152",
-      "title": "fix: Resolve creation of patient name despite having numeric values",
-      "stale_for": 0,
-      "labels": [
-        "needs testing"
-      ]
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9143",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9152"
     }
-  ],
-  "authored_issue_and_pr": []
+  ]
 }

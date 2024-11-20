@@ -1,6 +1,33 @@
 {
-  "last_updated": "2024-11-18T12:51:08.000Z",
+  "last_updated": "2024-11-19T10:25:30.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9032",
+      "time": "2024-11-19T10:25:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9032",
+      "text": "Enhanced care config to validate env during build process",
+      "turnaround_time": 1095081
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9119",
+      "time": "2024-11-19T06:56:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9119",
+      "text": "Tests to verify error handling and access restrictions during Facility Creation",
+      "turnaround_time": 390857
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9119",
+      "time": "2024-11-19T06:56:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9119",
+      "text": "Tests to verify error handling and access restrictions during Facility Creation",
+      "collaborated_with": [
+        "Alokih",
+        "nihal467"
+      ]
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9066",
@@ -179,32 +206,14 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9119",
-      "title": "Tests to verify error handling and access restrictions during Facility Creation",
-      "stale_for": 0,
-      "labels": [
-        "tested",
-        "reviewed"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9066",
       "title": "Refactor Facility Export & Add New Sidebar collapse & expand Test",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "question",
         "test failed",
         "changes required",
         "needs-triage"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9032",
-      "title": "Enhanced care config to validate env during build process",
-      "stale_for": 2,
-      "labels": [
-        "needs review",
-        "tested"
       ]
     }
   ],

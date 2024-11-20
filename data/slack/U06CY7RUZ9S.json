@@ -2118,6 +2118,147 @@
                         }
                     ]
                 }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    "2024-11-19 00:00:00": [
+        {
+            "user": "U06CY7RUZ9S",
+            "type": "message",
+            "ts": "1732046468.839629",
+            "client_msg_id": "4e0e9769-c0e8-4156-bfac-defef86cd680",
+            "text": "19th November\n\u2022 restructured DO terraform scripts to modules.\n\u2022 Updated cloud Costing Sheet. \n\u2022 Resized ohifviewer VM to smaller one to reduce cost. \n\u2022 Played around with <https://instatus.com/|instatus> for uptime monitoring. \nnext\n\u2022 Test and verify working of modules in terraform \n\u2022 complete cloud costing sheet and perform measures to reduce cloud cost. ",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "image_url": "https://instatus.com/og.png?1",
+                    "image_width": 2400,
+                    "image_height": 1360,
+                    "image_bytes": 289000,
+                    "from_url": "https://instatus.com/",
+                    "service_icon": "https://instatus.com/favicon.ico",
+                    "id": 1,
+                    "original_url": "https://instatus.com/",
+                    "fallback": "Instatus - Get a quick &amp; beautiful status page!",
+                    "text": "Get a beautiful status page that's free forever on Instatus.",
+                    "title": "Instatus - Get a quick &amp; beautiful status page!",
+                    "title_link": "https://instatus.com/",
+                    "service_name": "instatus.com"
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "2j/Ww",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "19th November\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "restructured DO terraform scripts to modules."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Updated cloud Costing Sheet. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Resized ohifviewer VM to smaller one to reduce cost. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Played around with "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://instatus.com/",
+                                            "text": "instatus"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " for uptime monitoring. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Test and verify working of modules in terraform "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "complete cloud costing sheet and perform measures to reduce cloud cost. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
             ]
         }
     ]

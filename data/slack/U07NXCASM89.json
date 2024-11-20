@@ -525,6 +525,180 @@
                         }
                     ]
                 }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    "2024-11-19 00:00:00": [
+        {
+            "user": "U07NXCASM89",
+            "type": "message",
+            "ts": "1732049364.057839",
+            "client_msg_id": "243b13cb-90c2-43b4-82e8-673684b96714",
+            "text": "19th November\nDone\n\u2022 Additional changes to user details view based on design feedback\n    \u25e6 Made view/edit option toggle-able\n    \u25e6 Separated out the edit parts into three different sections (each with it's own view/edit option toggle)\n        \u25aa\ufe0e Modified UserAddEdit form to support the changes\n\u2022 Started moving rest of profile section components into User detail page (eventually delete the profile component)\n    \u25e6 Language is done.\n    \u25e6 There's a PR open for software update (related to notification placement), so will wait on that.\nNext\n\u2022 I've picked up a new issue relating to bed preset reset error, so probably work on that\n\u2022 Modify the user details tests to work with the new UI.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "RFILY",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "19th November\nDone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Additional changes to user details view based on design feedback"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Made view/edit option toggle-able"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Separated out the edit parts into three different sections (each with it's own view/edit option toggle)"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Modified UserAddEdit form to support the changes"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 2,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Started moving rest of profile section components into User detail page (eventually delete the profile component)"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Language is done."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "There's a PR open for software update (related to notification placement), so will wait on that."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "I've picked up a new issue relating to bed preset reset error, so probably work on that"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Modify the user details tests to work with the new UI."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
             ]
         }
     ]

@@ -1,6 +1,145 @@
 {
-  "last_updated": "2024-11-18T13:51:06.000Z",
+  "last_updated": "2024-11-19T14:39:45.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9134",
+      "time": "2024-11-19T14:39:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9134#issuecomment-2485901427",
+      "text": "We should consider making each test atomic i.e., 1 test shouldn't influence the other, as this is making debugging and developing harder. We should clean up after or during each test and create the necessary resources before or during the test. There is no need to refactor anything for now, maybe we should enforce this for newer tests.\r\n\r\n@nihal467 thoughts?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/docs#50",
+      "time": "2024-11-19T14:21:29.000Z",
+      "link": "https://github.com/ohcnetwork/docs/pull/50#issuecomment-2485853536",
+      "text": "Closing this PR, will add this doc along with the ABDM docs"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9131",
+      "time": "2024-11-19T10:28:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9131",
+      "text": "Added a missing translation",
+      "turnaround_time": 328469
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8865",
+      "time": "2024-11-19T10:26:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8865",
+      "text": "Add Spo2 on vitals section of Community Nurse log update"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8907",
+      "time": "2024-11-19T10:26:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8907",
+      "text": "Added SpO2 field in community log update for nurses",
+      "collaborated_with": [
+        "noufalrahim",
+        "Jacobjeevan",
+        "JavidSumra",
+        "rithviknishad",
+        "khavinshankar",
+        "tellmeY18",
+        "o",
+        "i",
+        "A",
+        "Noufal Rahim"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-19T10:26:13.000Z",
+      "title": "ohcnetwork/care_fe#8907",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8907#pullrequestreview-2445003585",
+      "text": "Added SpO2 field in community log update for nurses"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8470",
+      "time": "2024-11-19T10:25:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8470",
+      "text": "Enhancements to care config"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9032",
+      "time": "2024-11-19T06:59:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9032#issuecomment-2484846008",
+      "text": "@rithviknishad @Jacobjeevan can u please review this PR"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-19T06:58:30.000Z",
+      "title": "ohcnetwork/care_fe#9032",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9032#pullrequestreview-2444430146",
+      "text": "Enhanced care config to validate env during build process"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9121",
+      "time": "2024-11-19T06:57:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9121",
+      "text": "Modify the bed capacity pop-up when the dropdown options are going to exhaust"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9112",
+      "time": "2024-11-19T06:56:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9112",
+      "text": "UI enhancements to the login page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-19T06:56:41.000Z",
+      "title": "ohcnetwork/care_fe#9125",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9125#pullrequestreview-2444427381",
+      "text": "Login page input fields UI update"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9108",
+      "time": "2024-11-19T06:56:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9108",
+      "text": "Add Cypress Test to Verify Error Message During New Facility Creation based on user restriction"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-19T06:55:41.000Z",
+      "title": "ohcnetwork/care_fe#9119",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9119#pullrequestreview-2444426031",
+      "text": "Tests to verify error handling and access restrictions during Facility Creation"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-19T06:54:49.000Z",
+      "title": "ohcnetwork/care_fe#9123",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9123#pullrequestreview-2444424752",
+      "text": "Fix: Bed capacity pop up errors"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9155",
+      "time": "2024-11-19T00:56:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9155",
+      "text": "Fix the flaky test in HCX and User Manage page in forked PR's"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8926",
+      "time": "2024-11-19T00:56:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8926",
+      "text": "Create a cypress test to request a Sample Test and verify its reflection"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-19T00:55:55.000Z",
+      "title": "ohcnetwork/care_fe#8977",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8977#pullrequestreview-2444075502",
+      "text": "Add Cypress Test Suite for Sample Test Request Workflow"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-11-18T13:51:06.000Z",
@@ -39748,18 +39887,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9131",
-      "title": "Added a missing translation",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8866",
       "title": "Added support for enabling boundaries for assetbed cameras",
-      "stale_for": 26,
+      "stale_for": 27,
       "labels": [
         "needs review",
         "work-in-progress",
@@ -39769,13 +39899,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2557",
       "title": "Added support for enabling boundaries for assetbed cameras",
-      "stale_for": 27,
+      "stale_for": 28,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2506",
       "title": "Privacy consultation bed",
-      "stale_for": 21,
+      "stale_for": 22,
       "labels": [
         "peer-reviewed"
       ]
@@ -39783,7 +39913,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8666",
       "title": "Added privacy toggle for a consultation bed and lock camera controls when used by a user",
-      "stale_for": 28,
+      "stale_for": 29,
       "labels": [
         "needs review",
         "tested",
@@ -39792,33 +39922,27 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/docs/pull/50",
-      "title": "Added ABDM Docs for WASA Testing",
-      "stale_for": 42,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 196,
+      "stale_for": 197,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 1067,
+      "stale_for": 1068,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 1073,
+      "stale_for": 1074,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 1074,
+      "stale_for": 1075,
       "labels": []
     }
   ],

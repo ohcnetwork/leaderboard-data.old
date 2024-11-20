@@ -1,6 +1,60 @@
 {
-  "last_updated": "2024-11-18T15:15:07.000Z",
+  "last_updated": "2024-11-19T13:33:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9156",
+      "time": "2024-11-19T13:33:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9156#issuecomment-2485726848",
+      "text": "> the header is not responsive the export button is missing in medium divices . and the red button and the green outline button is collapsed. \n\nHmm, export button is visible for different widths on my end, but maybe a browser specific issue.\n\n> like this the website is not perfectly responsive i want fix this issues\n\nWell, this is a general statement, I was asking what specifically you have come across other than the ones mentioned above (also because we want to keep the scope small enough).\n\n"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#8907",
+      "time": "2024-11-19T10:26:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8907",
+      "text": "Added SpO2 field in community log update for nurses",
+      "collaborated_with": [
+        "noufalrahim",
+        "Jacobjeevan",
+        "JavidSumra",
+        "rithviknishad",
+        "khavinshankar",
+        "tellmeY18",
+        "o",
+        "i",
+        "A",
+        "Noufal Rahim"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9144",
+      "time": "2024-11-19T08:49:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9144#issuecomment-2485063456",
+      "text": "(1) Should be able to select multiple investigations\n(2) Pass the data to backend only if investigation is still selected"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9156",
+      "time": "2024-11-19T08:42:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9156#issuecomment-2485048404",
+      "text": "For the first two screenshots, I'm not seeing the issue there 🤔 \n\nCan you specify what other issues you have come across?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-07T04:54:49.000Z",
+      "title": "ohcnetwork/care_fe#9032",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9032#pullrequestreview-2419947350",
+      "text": "Enhanced care config to validate env during build process"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-19T04:35:07.000Z",
+      "title": "ohcnetwork/care_fe#9133",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9133#pullrequestreview-2444263120",
+      "text": "Fix: Year Of Birth Field Validation Condition in Patient transfer form"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-11-18T10:38:20.000Z",
@@ -169,13 +223,6 @@
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/69",
       "text": "Update Jacobjeevan.md",
       "turnaround_time": 838991
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-07T04:54:49.000Z",
-      "title": "ohcnetwork/care_fe#9032",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9032#pullrequestreview-2419947350",
-      "text": "Enhanced care config to validate env during build process"
     },
     {
       "type": "comment_created",
@@ -1410,14 +1457,12 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9145",
       "title": "Facility bed capacity verification test",
       "stale_for": 0,
-      "labels": [
-        "merge conflict"
-      ]
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2595",
       "title": "Modified User Route for User Management Redesign",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -1427,8 +1472,7 @@
       "labels": [
         "needs testing",
         "needs review",
-        "waiting for backend",
-        "merge conflict"
+        "waiting for backend"
       ]
     }
   ],
