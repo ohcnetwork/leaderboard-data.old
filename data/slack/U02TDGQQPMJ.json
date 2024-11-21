@@ -26871,5 +26871,345 @@
                 }
             ]
         }
+    ],
+    "2024-11-20 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1732124657.690969",
+            "client_msg_id": "b5eb7730-25cd-4693-8120-2403a3aec2ca",
+            "text": "*20 November*\n\u2022 Synced with <@U02D0NA6RHR> on clearing some doubts regd. filtering issue/pr\u2019s using github\u2019s queries\n\u2022 Synced with <@U06L50QL1AQ> to review changes made so far on Camera as Plug Integration and created a repo for him to push the plug.\n\u2022 Cleaned up some things on an OSS contributors PR regd. caching activity filters in leaderboard and merged it.\n\u2022 Synced with <@UC9Q25R1P> for changes req. for availability and exceptions (add \u201cclosed\u201d slot type; missing reason column; incorrect structure for exception range)\n\u2022 Made the necessary FE changes as per :point_up:; waiting for API changes to come through. 90% done with availability and exceptions.\n\u2022 Fixed a P1 issue causing develop deployments to fail due to incorrect validation of plausible site domain env.\n*Up next*\n\u2022 Work on refactoring leaderboard scraper\n\u2022 Integrate scheduling calendar\u2019s popover with data from API.\n\u2022 Work on Appointments UI components.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "pJWBm",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "20 November",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Synced with "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U02D0NA6RHR"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on clearing some doubts regd. filtering issue/pr\u2019s using github\u2019s queries"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Synced with "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U06L50QL1AQ"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " to review changes made so far on Camera as Plug Integration and created a repo for him to push the plug."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Cleaned up some things on an OSS contributors PR regd. caching activity filters in leaderboard and merged it."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Synced with "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "UC9Q25R1P"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " for changes req. for availability and exceptions (add \u201cclosed\u201d slot type; missing reason column; incorrect structure for exception range)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Made the necessary FE changes as per "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "point_up",
+                                            "unicode": "261d-fe0f"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "; waiting for API changes to come through. 90% done with availability and exceptions."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed a P1 issue causing develop deployments to fail due to incorrect validation of plausible site domain env."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Up next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Work on refactoring leaderboard scraper"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Integrate scheduling calendar\u2019s popover with data from API."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Work on Appointments UI components."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1732079058.356049",
+            "client_msg_id": "c0fb3680-db45-45ab-b440-8e822082d064",
+            "text": "*19 November*\n\u2022 Reviewed interns contributions and submitted feedback for monthly review to <@U02D0NA6RHR> \n\u2022 Scheduling: Switching calendar month too fast was causing aborted requests to incorrectly set the response state. And some other minor fixes.\n\u2022 Integrating exception APIs.\n*Next*\n\u2022 Complete exception api integration after clearing some doubts with <@UC9Q25R1P> \n\u2022 Start working on Appointments UI components.\n\u2022 Work on refactoring leaderboard scraper.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "AhqN0",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "19 November",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed interns contributions and submitted feedback for monthly review to "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U02D0NA6RHR"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Scheduling: Switching calendar month too fast was causing aborted requests to incorrectly set the response state. And some other minor fixes."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Integrating exception APIs."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete exception api integration after clearing some doubts with "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "UC9Q25R1P"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Start working on Appointments UI components."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Work on refactoring leaderboard scraper."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }

@@ -2052,5 +2052,171 @@
                 }
             ]
         }
+    ],
+    "2024-11-21 00:00:00": [
+        {
+            "user": "U01JB8L8P7Y",
+            "type": "message",
+            "ts": "1732153871.828409",
+            "client_msg_id": "dc496b55-8e02-4c60-9914-5c916f5a3a07",
+            "text": "*20th November*\n\n*Done*\n\u2022 Synced with Vinu on changes to the flow and went through Vinu's current design\n\u2022 Had an intro call with Yaswanth\n\u2022 Explored <https://github.com/ohcnetwork/care/pull/2549|emr app> in care backend (Tried replicating AllergyIntolerance for ServiceRequest)\n\u2022 Reviewed and merged tested PRs in care_fe\n*Next*\n\u2022 Continue adding labs related FHIR resources and Valueset\n",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1729351326,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care/pull/2549",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#2549 Re-Architecture Changes",
+                    "text": "\u2022 TBD",
+                    "title": "#2549 Re-Architecture Changes",
+                    "title_link": "https://github.com/ohcnetwork/care/pull/2549",
+                    "footer": "<https://github.com/ohcnetwork/care|ohcnetwork/care>",
+                    "fields": [
+                        {
+                            "value": "2",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "pErQl",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "20th November",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Done",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Synced with Vinu on changes to the flow and went through Vinu's current design"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Had an intro call with Yaswanth"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Explored "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2549",
+                                            "text": "emr app"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " in care backend (Tried replicating AllergyIntolerance for ServiceRequest)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed and merged tested PRs in care_fe"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Continue adding labs related FHIR resources and Valueset"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

@@ -1,6 +1,41 @@
 {
-  "last_updated": "2024-11-19T13:33:01.000Z",
+  "last_updated": "2024-11-20T13:16:53.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9044",
+      "time": "2024-11-20T13:16:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9044#issuecomment-2488559199",
+      "text": "@abhip161 Any updates on this?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9161",
+      "time": "2024-11-20T13:14:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9161#issuecomment-2488553527",
+      "text": "> Also follow the PR format what we have (refer to other PRs). Edit the title to be readable as well.\r\n\r\nAlso this ☝️  @gurramkarthiknetha "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-20T05:13:59.000Z",
+      "title": "ohcnetwork/care_fe#9161",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9161#pullrequestreview-2447419215",
+      "text": "issue #9156 fixed"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2588",
+      "time": "2024-11-20T13:05:17.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2588#issuecomment-2488534540",
+      "text": "> > test cases depends on #2591\r\n> \r\n> Removing the phone number validations from backend since we have a check for it in frontend\r\n\r\nDoesn't look like FE validation is working for all cases (which we should adjust), but might as well keep BE validation, no? Checkout [9010](https://github.com/ohcnetwork/care_fe/issues/9010)."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9161",
+      "time": "2024-11-20T05:14:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9161#issuecomment-2487469832",
+      "text": "Also follow the PR format what we have (refer to other PRs here). Edit the title to be readable as well."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9156",
@@ -1462,7 +1497,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2595",
       "title": "Modified User Route for User Management Redesign",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
@@ -1470,8 +1505,6 @@
       "title": "User Management Redesign and User Details Page",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review",
         "waiting for backend"
       ]
     }

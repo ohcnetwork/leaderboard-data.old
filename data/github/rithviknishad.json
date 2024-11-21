@@ -1,6 +1,152 @@
 {
-  "last_updated": "2024-11-19T15:30:33.000Z",
+  "last_updated": "2024-11-20T13:48:34.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-20T13:48:34.000Z",
+      "title": "ohcnetwork/care_fe#9162",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9162#pullrequestreview-2448674915",
+      "text": "Merge Develop To Staging v24.48.0"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9168",
+      "time": "2024-11-20T13:46:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9168",
+      "text": "fix plausible site domain env validation",
+      "turnaround_time": 584
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9168",
+      "time": "2024-11-20T13:36:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9168",
+      "text": "fix plausible site domain env validation"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-20T13:20:54.000Z",
+      "title": "ohcnetwork/care#2606",
+      "link": "https://github.com/ohcnetwork/care/pull/2606#pullrequestreview-2448601982",
+      "text": "Merge Develop To Staging v24.48.0"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9106",
+      "time": "2024-11-20T13:17:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9106",
+      "text": "Move Pagination Components in the facility homepage to a helper function"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-20T13:17:06.000Z",
+      "title": "ohcnetwork/care_fe#9163",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9163#pullrequestreview-2448593707",
+      "text": "Refactored the pagination component in cypress"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-20T12:10:09.000Z",
+      "title": "ohcnetwork/care#2609",
+      "link": "https://github.com/ohcnetwork/care/pull/2609#pullrequestreview-2448447813",
+      "text": "Modified Missed Patient Name in dummy data"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/landing#25",
+      "time": "2024-11-20T12:03:59.000Z",
+      "link": "https://github.com/ohcnetwork/landing/pull/25",
+      "text": "Removed Github Constellation link",
+      "collaborated_with": [
+        "nithish1018",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#546",
+      "time": "2024-11-20T10:51:39.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/546#issuecomment-2488248421",
+      "text": "Hey @PAVAN507-STAR \r\n\r\nAlthough your PR does achieve the functionallity almost right without using Jotai, using Jotai (as hinted in issue) was a much more cleaner approach as you wouldn't have to manually write useEffects to handle initial state and call localStorage methods to read or write to it. With `useAtom` you could simply use it like a `useState` and the state be synced with local storage by Jotai.\r\n\r\n"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8988",
+      "time": "2024-11-20T10:04:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8988",
+      "text": "Infinite Rendering and Redirection to 'not-found' Page When Adding Patient from Non-Home Facility"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9000",
+      "time": "2024-11-20T10:04:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9000",
+      "text": "Add function to authorize user to register patient",
+      "collaborated_with": [
+        "JavidSumra",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-20T10:04:01.000Z",
+      "title": "ohcnetwork/care#2608",
+      "link": "https://github.com/ohcnetwork/care/pull/2608#pullrequestreview-2448137533",
+      "text": "Modified the Patient and users names in dummy data"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-20T05:06:05.000Z",
+      "title": "ohcnetwork/landing#25",
+      "link": "https://github.com/ohcnetwork/landing/pull/25#pullrequestreview-2447412211",
+      "text": "Removed Github Constellation link"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-20T07:56:41.000Z",
+      "title": "ohcnetwork/care_fe#9000",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9000#pullrequestreview-2447770296",
+      "text": "Add function to authorize user to register patient"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#546",
+      "time": "2024-11-20T06:53:08.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/546#issuecomment-2487641410",
+      "text": "Closing as completed in #547"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/leaderboard#545",
+      "time": "2024-11-20T06:51:24.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/545",
+      "text": "Improving profile activity filters (cache in local storage)"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/leaderboard#547",
+      "time": "2024-11-20T06:51:23.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/547",
+      "text": "Caching profile activity filters using `atomWithStorage`",
+      "collaborated_with": [
+        "pooranjoyb",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-20T06:38:30.000Z",
+      "title": "ohcnetwork/leaderboard#547",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/547#pullrequestreview-2447559325",
+      "text": "Caching profile activity filters using `atomWithStorage`"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-05T03:37:09.000Z",
+      "title": "ohcnetwork/care#2566",
+      "link": "https://github.com/ohcnetwork/care/pull/2566#pullrequestreview-2414560610",
+      "text": "improved get icd11 diagnoses functions"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-11-19T15:30:33.000Z",
@@ -821,13 +967,6 @@
       "title": "ohcnetwork/care#2532",
       "link": "https://github.com/ohcnetwork/care/pull/2532#pullrequestreview-2385299455",
       "text": "added test cases for asset bed"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-05T03:37:09.000Z",
-      "title": "ohcnetwork/care#2566",
-      "link": "https://github.com/ohcnetwork/care/pull/2566#pullrequestreview-2414560610",
-      "text": "improved get icd11 diagnoses functions"
     },
     {
       "type": "pr_reviewed",
@@ -49140,7 +49279,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9076",
       "title": "[draft] Scheduling",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "work-in-progress",
         "Deploy-Failed",
@@ -49150,7 +49289,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/522",
       "title": "Extract contributors joining date grouped by month",
-      "stale_for": 34,
+      "stale_for": 35,
       "labels": []
     }
   ],
@@ -49214,14 +49353,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8338",
       "pr_link": "https://github.com/ohcnetwork/care/pull/2350"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8323",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8487"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/docs/issues/35",
-      "pr_link": "https://github.com/ohcnetwork/docs/pull/68"
     }
   ]
 }

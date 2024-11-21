@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-11-19T14:36:28.000Z",
+  "last_updated": "2024-11-20T11:58:43.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#546",
+      "time": "2024-11-20T11:58:43.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/546#issuecomment-2488396956",
+      "text": "> Hey @PAVAN507-STAR\r\n> \r\n> Although your PR does achieve the functionallity almost right without using Jotai, using Jotai (as hinted in issue) was a much more cleaner approach as you wouldn't have to manually write useEffects to handle initial state and call localStorage methods to read or write to it. With `useAtom` you could simply use it like a `useState` and the state be synced with local storage by Jotai.\r\n\r\nOkay cool,will improve in further contributions.I asked for assign in couple of issues .can u check and tell if it's possible for u to assign me those issues?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#546",
+      "time": "2024-11-20T10:09:17.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/546#issuecomment-2488149788",
+      "text": "> Closing as completed in #547\n\n@rithviknishad sir,considering i raised the pr first,may i know where i went wrong with the pr?asking just to improve myself."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard#545",
@@ -72,13 +86,6 @@
       "text": "@Jacobjeevan  Yeah sure.Is there anything i can contribute/help with the CEP?"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/leaderboard/pull/546",
-      "title": "Fix:Store filters state in localStorage",
-      "stale_for": 0,
-      "labels": []
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }
