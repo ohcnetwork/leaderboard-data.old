@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-20T11:58:43.000Z",
+  "last_updated": "2024-11-21T09:15:48.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9122",
+      "time": "2024-11-21T09:15:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9122#issuecomment-2490470246",
+      "text": "> > [@Jacobjeevan](https://github.com/Jacobjeevan) [@nihal467](https://github.com/nihal467) I found the issue of total count on card ,the problem is the logic only counts from data fetched from current page .Need a bit of help ,I have a doubt/confusion on how to approach ,so should i fetch the entire data of all pages at once i.e change limit and offset?Or do i have to write an api for that or is there any other way ?\n> > ![Image](https://github.com/user-attachments/assets/3fa61f92-0889-433d-b94b-fb4528d21acd)\n> > ![Image](https://github.com/user-attachments/assets/28c10f9e-719d-4eba-8ff1-60d583ac8ef2)\n> \n> Hmm 🤔 Easiest way would probably be to tweak the api rather than fetching all the results; that would affect pagination unless you want to call the api twice.\n> \n> In this case, modifying HospitalDoctorViewSet to return the total along with the results should work.\n\nWill give it a try and let u know if it works.Thanks for the help sir."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard#546",

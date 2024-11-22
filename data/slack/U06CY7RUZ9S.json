@@ -2279,6 +2279,17 @@
             "client_msg_id": "c5011ef3-f33c-4b4d-ac40-cefcb54ef4e6",
             "text": "20th November\n\u2022 Debugged care_scribe issue with arike deployment.\n\u2022 created usage / cloud cost sheet for new state.\nNext\n\u2022 Verify care_scribe is working as expected\n",
             "team": "TC99SV7B6",
+            "thread_ts": "1732134314.049429",
+            "reply_count": 14,
+            "reply_users_count": 3,
+            "latest_reply": "1732213898.361689",
+            "reply_users": [
+                "UC99MFPU1",
+                "U06CY7RUZ9S",
+                "UV5PPBE2D"
+            ],
+            "is_locked": false,
+            "subscribed": false,
             "blocks": [
                 {
                     "type": "rich_text",
@@ -2348,6 +2359,112 @@
                         {
                             "type": "rich_text_section",
                             "elements": []
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    "2024-11-21 00:00:00": [
+        {
+            "user": "U06CY7RUZ9S",
+            "type": "message",
+            "ts": "1732214078.572919",
+            "client_msg_id": "ff19e0bc-b147-4ece-8f10-fe1fa178c6a9",
+            "text": "21st November 2024\n\u2022 fixed version mismatch error for care_scribe in arike\n\u2022 finished drafting the cloud cost sheet AWS | GCP | DigitalOcean \n\u2022 switched terraform setup from modules to folder based structure \n\u2022 implemented storage spaces based remote state for terraform\nUp Next:\n\u2022 test and push final changes to the digitalOcean terraform script",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "vLr0a",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "21st November 2024\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fixed version mismatch error for care_scribe in arike"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "finished drafting the cloud cost sheet AWS | GCP | DigitalOcean "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "switched terraform setup from modules to folder based structure "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "implemented storage spaces based remote state for terraform"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Up Next:\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "test and push final changes to the digitalOcean terraform script"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
                         }
                     ]
                 }

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-15T13:09:22.000Z",
+  "last_updated": "2024-11-21T06:32:33.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8956",
+      "time": "2024-11-21T06:32:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#issuecomment-2490184384",
+      "text": "![image](https://github.com/user-attachments/assets/c0984b1c-f877-4903-b777-5c0dbcfd4152)\r\nTest (FacilityCreation.ts)[https://github.com/ohcnetwork/care_fe/blob/develop/cypress/pageobject/Facility/FacilityCreation.ts]\r\n\r\nAs per our new feature we are disabling buttons with empty fields, so I can't find any solution to pass this test without changing it.\r\n@rithviknishad \r\nCan you help me?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9094",
@@ -132,7 +139,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9094",
       "title": "Add 'Update Details' Button in Community Nurse Log Update Details Page",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "changes required"
       ]
@@ -140,10 +147,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8956",
       "title": "Prevent Unnecessary Update Request in Facilities Section",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
+        "question",
         "needs review",
-        "test failed"
+        "test failed",
+        "merge conflict",
+        "needs-triage"
       ]
     }
   ],
