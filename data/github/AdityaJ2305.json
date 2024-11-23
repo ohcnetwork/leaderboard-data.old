@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-11-21T07:08:54.000Z",
+  "last_updated": "2024-11-22T07:37:20.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9182",
+      "time": "2024-11-22T07:37:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9182",
+      "text": "Fix: Spo2 twice occuring and wrong thresholds "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9181",
+      "time": "2024-11-22T07:25:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9181",
+      "text": "Duplicate and Incorrect SpO2 Field Behaviour in Log Update Form"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9118",
@@ -932,6 +946,17 @@
       "text": "fix: add bed notification"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9182",
+      "title": "Fix: Spo2 twice rendering and wrong thresholds ",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "P1"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

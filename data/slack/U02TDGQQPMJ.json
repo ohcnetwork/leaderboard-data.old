@@ -27212,5 +27212,380 @@
                 }
             ]
         }
+    ],
+    "2024-11-22 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1732277454.531389",
+            "client_msg_id": "4c4b4252-d2f9-4eac-b103-51da584b6cca",
+            "text": "*November 22*\n\u2022 Attempted to improve cypress workflow by\n    \u25e6 by caching backend images and DB volume based on backend\u2019s sha (so that we can skip running migrations and load-dummy-data on every cypress run)\n    \u25e6 latest attempt: <https://github.com/ohcnetwork/care_fe/actions/runs/11971366104?pr=9185>; still things to be fixed\u2026\n\u2022 Synced with <@U022THM4U2U> on the same :point_up: \n\u2022 Attempted to fix issues with github scraper, turns out issues with events API delay; draft: <https://github.com/ohcnetwork/leaderboard/pull/549>\nHeading to Guruvayoor in a while for the weekend\u2026 mostly won\u2019t be available for today\u2019s EOD sync call.\n\n*Up Next*\n\u2022 Scheduling: Debug checkbox parent div causing crash issue\n\u2022 Complete writing script to generate summary data based on cross-referenced issue/pr story points.\n\u2022 Complete cleaning up leaderboard scraper.\n\u2022 Work on appointments UI components.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "0ZpeJ",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "November 22",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Attempted to improve cypress workflow by"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "by caching backend images and DB volume based on backend\u2019s sha (so that we can skip running migrations and load-dummy-data on every cypress run)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "latest attempt: "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/actions/runs/11971366104?pr=9185"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "; still things to be fixed\u2026"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Synced with "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U022THM4U2U"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on the same "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "point_up",
+                                            "unicode": "261d-fe0f"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Attempted to fix issues with github scraper, turns out issues with events API delay; draft: "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/leaderboard/pull/549"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\nHeading to Guruvayoor in a while for the weekend\u2026 mostly won\u2019t be available for today\u2019s EOD sync call.\n\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Up Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Scheduling: Debug checkbox parent div causing crash issue"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete writing script to generate summary data based on cross-referenced issue/pr story points."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete cleaning up leaderboard scraper."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Work on appointments UI components."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "pray::skin-tone-4",
+                    "users": [
+                        "UC8TSEGCQ"
+                    ],
+                    "count": 1
+                },
+                {
+                    "name": "pray::skin-tone-5",
+                    "users": [
+                        "U06CY7RUZ9S"
+                    ],
+                    "count": 1
+                },
+                {
+                    "name": "pray",
+                    "users": [
+                        "U0576PEACG0",
+                        "U01JB8L8P7Y"
+                    ],
+                    "count": 2
+                },
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1732249272.731649",
+            "client_msg_id": "c7f6f5e9-7bd6-4bfc-8b2a-0e86ce005788",
+            "text": "*21 November*\n\u2022 Couple of cleanups in Scheduling Exceptions, and fixed tiny issues kept as todo for later. 1 more issue pending (still trying to figure out why page crashes when clicking on checkbox\u2019s parent div).\n\u2022 Worked on cleaning up leaderboard scraper.\n\u2022 Synced with <@U0576PEACG0> to clear some doubts regd. facility users.\n*Up Next*\n\u2022 Debug that checkbox crashing issue.\n\u2022 Complete writing script to generate summary data based on cross-referenced issue/pr story points.\n\u2022 Complete cleaning up leaderboard scraper.\n\u2022 Work on appointments UI components.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "kq65a",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "21 November",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Couple of cleanups in Scheduling Exceptions, and fixed tiny issues kept as todo for later. 1 more issue pending (still trying to figure out why page crashes when clicking on checkbox\u2019s parent div)."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Worked on cleaning up leaderboard scraper."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Synced with "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U0576PEACG0"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " to clear some doubts regd. facility users."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Up Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Debug that checkbox crashing issue."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete writing script to generate summary data based on cross-referenced issue/pr story points."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete cleaning up leaderboard scraper."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Work on appointments UI components."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }

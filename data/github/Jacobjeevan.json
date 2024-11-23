@@ -1,6 +1,62 @@
 {
-  "last_updated": "2024-11-21T10:57:50.000Z",
+  "last_updated": "2024-11-22T10:07:55.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-22T10:07:55.000Z",
+      "title": "ohcnetwork/care_fe#9180",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9180#pullrequestreview-2454040234",
+      "text": "Fix Camera Capture on Retake and Close"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9186",
+      "time": "2024-11-22T10:00:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9186",
+      "text": "Camera Preset Not Resetting on Re-selection Bug"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-22T09:58:44.000Z",
+      "title": "ohcnetwork/care_fe#9182",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9182#pullrequestreview-2454020884",
+      "text": "Fix: Spo2 twice rendering and wrong thresholds "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9058",
+      "time": "2024-11-22T06:56:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9058#issuecomment-2492995972",
+      "text": "> Hey Team Can you please assign this issue to me?\n\nGo ahead and add this in the PR you just raised #9180 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-22T06:51:00.000Z",
+      "title": "ohcnetwork/care_fe#9116",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9116#pullrequestreview-2453448385",
+      "text": "removed lodash imports and dependencies and wrote js equivalents"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9118",
+      "time": "2024-11-22T06:35:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9118#issuecomment-2492971499",
+      "text": "> Hey @rithviknishad, I noticed the spo2 field component now appears twice, but previously it was just one instance. The other instance seems to have been added by another [PR](https://github.com/ohcnetwork/care_fe/pull/8907#issuecomment-2482840851) Should I raise a new PR tagging the same issue number to address this?\r\n> \r\n> cc: @Jacobjeevan\r\n\r\nGo ahead and raise an issue. Remove the Textformfield and ensure thresholds labels in RangeAutocompleteFormField match the latest changes."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9039",
+      "time": "2024-11-22T05:09:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9039#issuecomment-2492886631",
+      "text": "@ANIR1604 Since you deleted the branch, are you still working on this? \n\nIf so, you would need to continue on the same branch."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-20T05:13:59.000Z",
+      "title": "ohcnetwork/care_fe#9161",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9161#pullrequestreview-2447419215",
+      "text": "issue #9156 fixed"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9174",
@@ -49,13 +105,6 @@
       "time": "2024-11-20T13:14:28.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9161#issuecomment-2488553527",
       "text": "> Also follow the PR format what we have (refer to other PRs). Edit the title to be readable as well.\r\n\r\nAlso this ☝️  @gurramkarthiknetha "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-20T05:13:59.000Z",
-      "title": "ohcnetwork/care_fe#9161",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9161#pullrequestreview-2447419215",
-      "text": "issue #9156 fixed"
     },
     {
       "type": "comment_created",
@@ -1524,6 +1573,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9186",
+      "title": "Camera Preset Not Resetting on Re-selection Bug",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9145",
       "title": "Facility bed capacity verification test",
       "stale_for": 0,
@@ -1535,14 +1593,16 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2595",
       "title": "Modified User Route for User Management Redesign",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9080",
       "title": "User Management Redesign and User Details Page",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
+        "needs testing",
+        "needs review",
         "waiting for backend"
       ]
     }

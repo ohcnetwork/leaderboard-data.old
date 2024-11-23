@@ -2481,6 +2481,16 @@
             "client_msg_id": "fec20cb8-731b-4c3b-b357-0de758583205",
             "text": "18th November\n\u2022 Refactored the CSV export logic and converted it to a mixin class\n\u2022 Investigate the issue with slow api response in DigitalOcean deployment because of argon password hasher\n19th November\n\u2022 Made flow diagrams and added more pages for store and Inventory management\n\u2022 Made sentry and plausible integrations on the frontend optional, so they are not bundled during build if not enabled\n\u2022 Searched for other places to make optimizations on the frontend\n20th November\n\u2022 Worked on flow diagram for medicine dispensing in pharmacy and added details on partial dispensing\n21st November\n\u2022 Created a new production branch on scribe backend and cleaned up the dangling branches and pr pr on care_scribe\n\u2022 Fixed a bug that broke asset actions which prevented video streams from loading\n\u2022 Started working on billing pages in pharmacy\n",
             "team": "TC99SV7B6",
+            "thread_ts": "1732206352.103609",
+            "reply_count": 2,
+            "reply_users_count": 2,
+            "latest_reply": "1732283749.140969",
+            "reply_users": [
+                "UC99MFPU1",
+                "U02TB8XHZD1"
+            ],
+            "is_locked": false,
+            "subscribed": false,
             "blocks": [
                 {
                     "type": "rich_text",
@@ -2627,6 +2637,63 @@
                                         {
                                             "type": "text",
                                             "text": "Started working on billing pages in pharmacy"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "2024-11-22 00:00:00": [
+        {
+            "user": "U02TB8XHZD1",
+            "type": "message",
+            "ts": "1732291686.513749",
+            "client_msg_id": "82130a1c-0a70-4635-b78c-84e40fb09c51",
+            "text": "22nd November\n\u2022 worked on getting cypress-parallel to run on github actions\n\u2022 added mochawesome reporter for cypress runs\n",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "vRe6n",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "22nd November\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "worked on getting cypress-parallel to run on github actions"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "added mochawesome reporter for cypress runs"
                                         }
                                     ]
                                 }
