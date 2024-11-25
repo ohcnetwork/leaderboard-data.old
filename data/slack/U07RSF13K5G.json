@@ -1938,5 +1938,120 @@
                 }
             ]
         }
+    ],
+    "2024-11-24 00:00:00": [
+        {
+            "user": "U07RSF13K5G",
+            "type": "message",
+            "ts": "1732464939.772369",
+            "edited": {
+                "user": "U07RSF13K5G",
+                "ts": "1732465043.000000"
+            },
+            "client_msg_id": "2391d339-a3ec-403a-9c13-48bdb031aaf7",
+            "text": "23 Nov 2024\nDone\n\u2022 Updated the <https://github.com/ohcnetwork/care_fe/pull/9020|PR #9020> \nNext\n\u2022 Have to complete the PRs 9064 and 8963",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1730892997,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/9020",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#9020 Added skeleton loader during advanced filters",
+                    "text": "*Proposed Changes*\n\n\u2022 Fixes <https://github.com/ohcnetwork/care_fe/issues/8030|#8030>\n\u2022 Added a loading state for the patient count to prevent showing 0 before the data is fully loaded.\n\u2022 Improved conditional rendering to display a skeleton loader or loading state during data fetch.\n\n@ohcnetwork/care-fe-code-reviewers\n\n*Merge Checklist*\n\n\u2022 Add specs that demonstrate bug / test a new feature.\n\u2022 Update <https://docs.ohc.network|product documentation>.\n\u2022 Ensure that UI text is kept in I18n files.\n\u2022 Prep screenshot or demo video for changelog entry, and attach it to issue.\n\u2022 Request for Peer Reviews\n\u2022 Completion of QA\n\n*Summary by CodeRabbit*\n\n\u2022 *New Features*  \n   \u2022 Enhanced loading state handling across various components by allowing count properties to be `null` when data is not available.  \n   \u2022 Improved error handling for phone number inputs in patient management.\n\u2022 *Bug Fixes*  \n   \u2022 Refined logic for displaying counts in `CountBlock` to prevent invalid counts during loading states.  \n   \u2022 Updated validation for working hours input in user management.\n\u2022 *Documentation*  \n   \u2022 Improved clarity in user notifications and error messages across components.",
+                    "title": "#9020 Added skeleton loader during advanced filters",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/9020",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "question, changes required",
+                            "title": "Labels",
+                            "short": true
+                        },
+                        {
+                            "value": "6",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "hiX0w",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "23 Nov 2024\nDone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Updated the "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9020",
+                                            "text": "PR #9020"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Have to complete the PRs 9064 and 8963"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

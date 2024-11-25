@@ -1,6 +1,41 @@
 {
-  "last_updated": "2024-11-12T11:02:11.000Z",
+  "last_updated": "2024-11-24T15:38:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9189",
+      "time": "2024-11-24T15:38:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9189#issuecomment-2496067801",
+      "text": "> There's a PR open ([#8956](https://github.com/ohcnetwork/care_fe/pull/8956)) that modified Form component to have a dirty state, so that would take care of the original issue, once we switch this page to use form component.\n\nI'm sorry, didn't knew about that since i am new to open source.\ntalking about issue, i have solved the problem but by not using Form component, but to follow the best practices, I would implement wrapping the assetCreate form with Form Component."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9144",
+      "time": "2024-11-24T12:57:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9144#issuecomment-2495986279",
+      "text": "> (1) Should be able to select multiple investigations (2) Pass the data to backend only if investigation is still selected\n\nwhen user selects one investigation group like 'Biochemistry Test', it shows all tests under 'Biochemistry Test', next if user selects 'FBS' which comes under 'Biochemistry Test', what should be the expected behavior, only one 'FBS' should be shown or all the tests of 'Biochemistry Test' should be shown, since user has selected 'Biochemistry Test' before.\n@Jacobjeevan "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9192",
+      "time": "2024-11-24T06:03:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9192",
+      "text": "💊Fix unnecessary API Calls on updating an existing asset (#9189)"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9191",
+      "time": "2024-11-24T05:51:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9191",
+      "text": "💊 Fix unnecessary API calls on updating an existing asset (#9198)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9189",
+      "time": "2024-11-24T05:44:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9189#issuecomment-2495826173",
+      "text": "Hi @Jacobjeevan , I would like to work on this issue."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/life#109",
@@ -9,6 +44,13 @@
       "text": "can i take up Odia (od).\n"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9192",
+      "title": "💊Fix unnecessary API Calls on updating an existing asset (#9189)",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }
