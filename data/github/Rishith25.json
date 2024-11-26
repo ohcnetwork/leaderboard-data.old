@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-11-23T16:18:57.000Z",
+  "last_updated": "2024-11-25T13:05:59.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8963",
+      "time": "2024-11-25T13:05:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8963#issuecomment-2497974270",
+      "text": "I am working on it"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9201",
+      "time": "2024-11-25T11:42:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9201",
+      "text": "Disallowing out of date range"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9064",
+      "time": "2024-11-25T11:33:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9064#issuecomment-2497761979",
+      "text": "I want to close this PR because some conflicts have been araised.\r\nI will immediately open a new PR. related to this issue."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9020",
@@ -366,18 +387,15 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9064",
-      "title": "Disallow picking out of range month or year in date input dropdown",
-      "stale_for": 5,
-      "labels": [
-        "test failed",
-        "changes required"
-      ]
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9201",
+      "title": "Disallowing out of date range",
+      "stale_for": 0,
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9020",
       "title": "Added skeleton loader during advanced filters",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": [
         "question",
         "changes required"
@@ -386,7 +404,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8963",
       "title": "Cypress tests replace cy.wait with cy.intercept or dynamic waits",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "test failed",
         "changes required",

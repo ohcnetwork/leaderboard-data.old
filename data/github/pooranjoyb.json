@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-22T04:41:02.000Z",
+  "last_updated": "2024-11-25T15:26:51.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#543",
+      "time": "2024-11-25T15:26:51.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/543#issuecomment-2498328144",
+      "text": "Hey @rithviknishad I thought for a while and I'm here with 2 ideas, lemme pitch 'em for you : \n\n#### 1. Redirection to a new page/route ➡  /summary\n- So as you mentioned we need to summarize the opened issues and merged PRs, we can achieve them using [Gemini 1.5 Flash](https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-flash)\n- As we already have the data from the api, we can just use regex to filter out the necessary PRs and Issues (say most recent ones - 10 issues/PRs)\n- Further the filtered array of Issues and PRs (if possible with their descriptions - advanced), we hit the Gemini API\n-  Then this fetched responses  can be used to render them in the UI. (Of course we'll also have to format it)\n\n_This **Click here** link will take us to new route_\n![Image](https://github.com/user-attachments/assets/f0c432ab-95a5-4dfb-acec-87d2a544e75c)\n\n\n#### It may look something like this.\n⚠ To maintain the consistency I refactored the Discussions UI for this Summary Page.\n\n![Image](https://github.com/user-attachments/assets/2697283d-27bf-4682-aba8-b6d6143d9f60)\n\n_Icons can vary depending on Issues/PRs etc._\n\n#### 2. Not using a separate page\n-  According to what you mentioned, we can also replace the content in the _**Home Page**_ and then populate it with the summaries. \n- This is because we ultimately get the same thing in the Feed also, so we can also show this entire summary thing in the Home Page and the **_More_** button of course takes us to the Feed.\n\n![Image](https://github.com/user-attachments/assets/cb511b9d-3dd1-416b-9025-c62c123b9eb3)\n\n![Image](https://github.com/user-attachments/assets/10028393-3fbc-490a-957f-d2340fced4c3)\n\nWell, this is what I thought of doing, do lemme know your thoughts on this! <3 \nHere is the Figma link for your reference. \n\nhttps://www.figma.com/design/YZyB51kDMXmQa0HPLsQi8d/draft-design-idea-leaderboard-ohn?node-id=0-1&node-type=canvas&t=cd23EytisLd4a6Mk-0\n\n@rithviknishad "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9171",

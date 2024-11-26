@@ -1,6 +1,55 @@
 {
-  "last_updated": "2024-11-24T15:19:55.000Z",
+  "last_updated": "2024-11-25T17:58:26.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9200",
+      "time": "2024-11-25T17:58:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9200#issuecomment-2498686965",
+      "text": "> @Jacobjeevan Should I reopen the pull request once again since, the it is showing as closed\r\n\r\nYea"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9200",
+      "time": "2024-11-25T17:35:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9200#issuecomment-2498638663",
+      "text": "@rayyjeb Ensure that other changes are in staging though."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-25T17:27:13.000Z",
+      "title": "ohcnetwork/care_fe#9192",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9192#pullrequestreview-2459026447",
+      "text": "💊Fix unnecessary API Calls on updating an existing asset (#9189)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-25T17:15:41.000Z",
+      "title": "ohcnetwork/care_fe#9200",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9200#pullrequestreview-2459044848",
+      "text": "Fixed Breadcrumb to Display Detailed Name Instead of ID"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-25T16:53:04.000Z",
+      "title": "ohcnetwork/care_fe#9205",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9205#pullrequestreview-2458994954",
+      "text": "Fix: Display Care Loading Icon Instead of \"No Assets Found\" on Asset Tab Revisit on advanced filter"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8956",
+      "time": "2024-11-25T14:17:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#issuecomment-2498141543",
+      "text": "> @Jacobjeevan User do have option to add facility without bed and staff, by clicking cancel button in the consecutive form. Still If you ask me to add prop \"allowEmpty\" to change disablity of button, I can do it.\r\n\r\nAh true, then it's fine. Adjust the test as necessary."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9189",
+      "time": "2024-11-25T11:55:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9189#issuecomment-2497812076",
+      "text": "> Hi [@Jacobjeevan](https://github.com/Jacobjeevan) , I have completed wrapping the form inside `AssetCreate` Page with `Form` component, making customary changes in validators, submit handlers etc.. to fit for `Form` component, the UI is also working fine Can I make a pull request now for review?\n\nYea, but make sure you are changing the existing PR request rather than opening a new one."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9189",
@@ -1596,16 +1645,15 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9186",
       "title": "Camera Preset Not Resetting on Re-selection Bug",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "test failed"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9145",
       "title": "Facility bed capacity verification test",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs testing",
         "needs review"
@@ -1614,13 +1662,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2595",
       "title": "Modified User Route for User Management Redesign",
-      "stale_for": 6,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9080",
       "title": "User Management Redesign and User Details Page",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review",
