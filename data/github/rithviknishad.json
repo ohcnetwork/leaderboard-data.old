@@ -1,6 +1,108 @@
 {
-  "last_updated": "2024-11-25T14:10:31.000Z",
+  "last_updated": "2024-11-26T14:36:17.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_camera_asset#1",
+      "time": "2024-11-26T14:36:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_camera_asset/issues/1",
+      "text": "Changes required based on review"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_camera_asset#2",
+      "time": "2024-11-26T14:36:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_camera_asset/pull/2",
+      "text": "Improvements to Camera Integration Plug",
+      "turnaround_time": 13405
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-26T14:25:31.000Z",
+      "title": "ohcnetwork/care_fe#9205",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9205#pullrequestreview-2461697505",
+      "text": "Fix: Display Care Loading Icon Instead of \"No Assets Found\" on Asset Tab Revisit on advanced filter"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-26T11:31:36.000Z",
+      "title": "ohcnetwork/care_fe#9209",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9209#pullrequestreview-2461191057",
+      "text": "Updates api routes for camera plugin integrations"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_camera_asset#2",
+      "time": "2024-11-26T10:52:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_camera_asset/pull/2",
+      "text": "PositionPreset copy with external id instead of id"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_camera_asset#1",
+      "time": "2024-11-26T10:49:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_camera_asset/issues/1",
+      "text": "Changes required based on review"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-25T11:35:43.000Z",
+      "title": "ohcnetwork/care#2610",
+      "link": "https://github.com/ohcnetwork/care/pull/2610#pullrequestreview-2458178503",
+      "text": "Removing everything related to camera for plugin"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-26T09:17:53.000Z",
+      "title": "ohcnetwork/care_fe#9218",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9218#pullrequestreview-2460865841",
+      "text": "Modified the Address Variable to use real data in cypress test"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9217",
+      "time": "2024-11-26T07:17:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9217#issuecomment-2499845754",
+      "text": "Possibly would be fixed along with #9116"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9214",
+      "time": "2024-11-26T06:11:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9214",
+      "text": "Production Release v24.48.1 | Hotfix (Address and Name validation)",
+      "turnaround_time": 203
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9214",
+      "time": "2024-11-26T06:07:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9214",
+      "text": "Production Release v24.48.1 | Hotfix (Address and Name validation)"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9213",
+      "time": "2024-11-26T06:06:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9213",
+      "text": "Staging Release v24.48.1 | Hotfix (Address and Name validation)",
+      "turnaround_time": 175
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9213",
+      "time": "2024-11-26T06:03:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9213",
+      "text": "Staging Release v24.48.1 | Hotfix (Address and Name validation)"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9177",
+      "time": "2024-11-26T05:36:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9177",
+      "text": "Remove special character validations for names (patients and users)",
+      "turnaround_time": -1264
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-11-25T14:10:31.000Z",
@@ -21,13 +123,6 @@
       "title": "ohcnetwork/care#2616",
       "link": "https://github.com/ohcnetwork/care/pull/2616#pullrequestreview-2458385557",
       "text": "Add workflow steps to upload dummy db artifact for tests"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-25T11:35:43.000Z",
-      "title": "ohcnetwork/care#2610",
-      "link": "https://github.com/ohcnetwork/care/pull/2610#pullrequestreview-2458178503",
-      "text": "Removing everything related to camera for plugin"
     },
     {
       "type": "comment_created",
@@ -49349,22 +49444,13 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/549",
       "title": "gh scraper: improve logging and scrape everything",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9177",
-      "title": "Remove special character validations for names (patients and users)",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested"
-      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9076",
       "title": "[draft] Scheduling",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "work-in-progress",
         "Deploy-Failed",
@@ -49374,11 +49460,15 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/522",
       "title": "Extract contributors joining date grouped by month",
-      "stale_for": 40,
+      "stale_for": 41,
       "labels": []
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_camera_asset/issues/1",
+      "pr_link": "https://github.com/ohcnetwork/care_camera_asset/pull/2"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/525",
       "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/524"
@@ -49434,10 +49524,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8358",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8362"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8338",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/2350"
     }
   ]
 }

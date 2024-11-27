@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-11-25T19:26:44.000Z",
+  "last_updated": "2024-11-26T16:10:41.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2585",
+      "time": "2024-11-26T16:10:41.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2585#issuecomment-2501271340",
+      "text": "@aravindm4  made the changes for the endpoint , please take a look"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-26T13:53:54.000Z",
+      "title": "ohcnetwork/care_camera_asset#2",
+      "link": "https://github.com/ohcnetwork/care_camera_asset/pull/2#pullrequestreview-2461611105",
+      "text": "Improvements to Camera Integration Plug"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_camera_asset#2",
+      "time": "2024-11-26T13:51:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_camera_asset/pull/2#issuecomment-2500859394",
+      "text": "since update,destroy,retrieve and patch are also specific to asset_bed , It will be good to have the assetbed specific decorator over retrieve(), create(), update(), partial_update(), and destroy() as well\r\n\r\nwe can simply call the super method inside them like - \r\n ```py\r\n def destroy(self, request, *args, **kwargs):\r\n    return super().destroy(request, *args, **kwargs)"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9209",
@@ -1538,7 +1559,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9137",
       "title": "Added Unit testing and api mocking libraries ",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": [
         "merge conflict"
       ]
@@ -1552,13 +1573,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2566",
       "title": "improved get icd11 diagnoses functions",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2500",
       "title": "updated populate fixing-investigation command",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Carried over"
       ]
@@ -1566,7 +1587,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/1994",
       "title": "updated bed types",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "ops-review-pending"
       ]

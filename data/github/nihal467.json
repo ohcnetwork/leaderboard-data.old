@@ -1,6 +1,49 @@
 {
-  "last_updated": "2024-11-25T20:44:32.000Z",
+  "last_updated": "2024-11-26T13:12:23.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9035",
+      "time": "2024-11-26T13:12:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9035#issuecomment-2500768716",
+      "text": "@Ayush1404 clear the merge conflict"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9035",
+      "time": "2024-11-26T13:05:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9035#issuecomment-2500754214",
+      "text": "@coderabbitai full review"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9134",
+      "time": "2024-11-26T12:58:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9134#issuecomment-2500739674",
+      "text": "@rohitlingarker look into the code rabbit review, \r\n\r\n- As per issue, the API verification is not done once the file upload is completed [Also it was flag by the AI review]\r\n\r\n![image](https://github.com/user-attachments/assets/7cd310d7-485c-4e67-8cd8-4f8d7e901d8e)\r\n![image](https://github.com/user-attachments/assets/962dbbcf-1901-4c91-bfc1-fca850476f28)\r\n\r\n- Remove the manually hardcoded password usage in the test file. Using the existing login function, try to implement a solution where the password is dynamically allocated. The screenshot is a solution provided by ChatGPT to handle this kind of situation, though I wouldn't say it's well optimized. Think of a better solution that can scale and avoid hardcoded values."
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9218",
+      "time": "2024-11-26T09:18:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9218",
+      "text": "Modified the Address Variable to use real data in cypress test",
+      "turnaround_time": 5494
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9218",
+      "time": "2024-11-26T07:46:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9218",
+      "text": "modified the address const value to use real data"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9217",
+      "time": "2024-11-26T07:10:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9217",
+      "text": "Disable Auto-Capitilasation Package in the patient registration form from removing special character"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8956",
