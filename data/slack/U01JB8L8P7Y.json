@@ -2745,5 +2745,179 @@
                 }
             ]
         }
+    ],
+    "2024-11-27 00:00:00": [
+        {
+            "user": "U01JB8L8P7Y",
+            "type": "message",
+            "ts": "1732677667.564929",
+            "client_msg_id": "88be6069-6046-4d63-9ae6-79f17ebc657f",
+            "text": "*26th November*\n\u2022 Completed the labs flow till creating the specimen (have used <http://fhir.loinc.org|fhir.loinc.org> terminology server directly)\n\u2022 Tried to create value set in snowstorm (was stuck here for a while, now created the value set but having issues with the metadata which is needed for creating specimen)\n\u2022 Reviewed and merged few small PRs in care_fe\n\u2022 Had a long call with Yaswanth discussing the split up, and progress.\n*Next*\n\u2022 Have a call with Vignesh to discuss the metadata issue related to valueset\n\u2022 Replace the usage of <http://fhir.loinc.org|fhir.loinc.org> with default snowstorm server \n\u2022 Review and merge remaining tested PRs\n",
+            "team": "TC99SV7B6",
+            "thread_ts": "1732677667.564929",
+            "reply_count": 2,
+            "reply_users_count": 2,
+            "latest_reply": "1732754854.906729",
+            "reply_users": [
+                "UC99MFPU1",
+                "U01JB8L8P7Y"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "7y0OR",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "26th November",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Completed the labs flow till creating the specimen (have used "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "http://fhir.loinc.org",
+                                            "text": "fhir.loinc.org"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " terminology server directly)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tried to create value set in snowstorm (was stuck here for a while, now created the value set but having issues with the metadata which is needed for creating specimen)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed and merged few small PRs in care_fe"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Had a long call with Yaswanth discussing the split up, and progress."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Have a call with Vignesh to discuss the metadata issue related to valueset"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Replace the usage of "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "http://fhir.loinc.org",
+                                            "text": "fhir.loinc.org"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " with default snowstorm server "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Review and merge remaining tested PRs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-26T07:45:23.000Z",
+  "last_updated": "2024-11-27T08:42:34.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9205",
+      "time": "2024-11-27T08:42:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9205#issuecomment-2503258037",
+      "text": "> This issue doesn't seem to be happening for tabs other than Assets tab. Most of the other tabs are having the similar implementation. I'd recommend actually debugging why that \"no assets found\" is coming in the first place as how it's mentioned in the issue.\r\n\r\nYes, The issue is not occurring in other tabs; it is only happening on the Assets page. I have checked the code for the other tabs, and they have a similar implementation. However, in `AssetsList.tsx`, we are not using destructuring to assign `data `in `useQuery`. In contrast, in the other pages, `data ` is being destructured, and the loading logic is also implemented using `data?.count`.\r\n\r\nSo, I have updated the `AssetsList.tsx` loading logic to match the implementation of the other tabs.\r\n> \r\n> Using timer to solve this is more of a hack that hides the root cause of the issue and is not the right solution.\r\n> \r\nI have removed it\r\n> Ideally the `loading` state provided by the `useQuery` should be enough to show the Loading state and if not loading, `data.results.length` being 0 would convey if it's actually empty assets for the applied filters.\r\n\r\nOn page revisit, the data is initially undefined, which is why the issue is occurring. This condition was not properly handled \r\n along with the loading state in the if statement in `AssetsList.tsx`, like it was done in other tabs.\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9205",
@@ -277,17 +284,7 @@
       "text": "Displaying camera feed without preset in Patient consultation page#8901"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9205",
-      "title": "Fix: Display Care Loading Icon Instead of \"No Assets Found\" on Asset Tab Revisit on advanced filter",
-      "stale_for": 0,
-      "labels": [
-        "invalid",
-        "changes required"
-      ]
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9021",

@@ -1135,6 +1135,15 @@
             "client_msg_id": "b7f04bfd-cc68-4e85-9f25-b4b441d07c31",
             "text": "26th November\nDone\n\u2022 Mostly reviewed PRs\n\u2022 Started creating a basic outline/relations for Pharmacy items\n\u2022 Reviewing existing PRs\n    \u25e6 merge conflicts and manual test failure (preset reset bug)\nNext\n\u2022 Continue with Pharmacy review",
             "team": "TC99SV7B6",
+            "thread_ts": "1732649564.359429",
+            "reply_count": 1,
+            "reply_users_count": 1,
+            "latest_reply": "1732726288.752019",
+            "reply_users": [
+                "UC99MFPU1"
+            ],
+            "is_locked": false,
+            "subscribed": false,
             "blocks": [
                 {
                     "type": "rich_text",
@@ -1219,6 +1228,117 @@
                                         {
                                             "type": "text",
                                             "text": "Continue with Pharmacy review"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    "2024-11-27 00:00:00": [
+        {
+            "user": "U07NXCASM89",
+            "type": "message",
+            "ts": "1732737711.507999",
+            "edited": {
+                "user": "U07NXCASM89",
+                "ts": "1732737756.000000"
+            },
+            "client_msg_id": "63da0c00-26d1-4d16-b5ed-40340e91a224",
+            "text": "November 27th\nDone\n\u2022 Reviewed contributor/intern PRs\n\u2022 User management FE changes based on test feedback\n\u2022 Minor bug investigations (FacilityUserViewSet using deleted flag instead of is_active, mismatch of data b/w listAssetBedPresets and listBedPresets; started BE issue).\nOngoing/Next\n\u2022 Get user management BE merged :crossed_fingers::skin-tone-5: ",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "hWYAQ",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "November 27th\nDone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed contributor/intern PRs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "User management FE changes based on test feedback"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Minor bug investigations (FacilityUserViewSet using deleted flag instead of is_active, mismatch of data b/w listAssetBedPresets and listBedPresets; started BE issue)."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Ongoing/Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Get user management BE merged "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "crossed_fingers",
+                                            "unicode": "1f91e-1f3fe",
+                                            "skin_tone": 5
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
                                         }
                                     ]
                                 }

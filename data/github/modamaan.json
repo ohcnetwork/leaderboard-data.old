@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-11-24T06:59:26.000Z",
+  "last_updated": "2024-11-27T10:43:35.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8954",
+      "time": "2024-11-27T10:43:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8954#issuecomment-2503537093",
+      "text": "The problem is that we need both the print button and the close button in a single div to manage responsiveness. However, the print button is inside the PrintPreview component, while the close button is outside the component."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8954",
+      "time": "2024-11-27T10:38:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8954#issuecomment-2503525817",
+      "text": "Create a new ReferralLetterPreview component that wraps PrintPreview, shall i do it like this"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8954",
@@ -247,15 +261,13 @@
       "title": "Updated Test Details page form UI",
       "stale_for": 0,
       "labels": [
-        "work-in-progress",
-        "Deploy-Failed",
-        "merge conflict"
+        "work-in-progress"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9074",
       "title": "Consultation update page form UI updated",
-      "stale_for": 0,
+      "stale_for": 3,
       "labels": [
         "needs review",
         "work-in-progress",
@@ -267,6 +279,7 @@
       "title": "Referral letter preview desktop",
       "stale_for": 0,
       "labels": [
+        "needs review",
         "changes required",
         "merge conflict"
       ]

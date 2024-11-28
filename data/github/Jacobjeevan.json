@@ -1,12 +1,89 @@
 {
-  "last_updated": "2024-11-26T17:18:44.000Z",
+  "last_updated": "2024-11-27T17:05:39.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9224",
+      "time": "2024-11-27T17:05:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9224#issuecomment-2504382286",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) I have a doubt regarding this issue. Is this issue present in the GitHub repository of 'care_fe'?\n\nYes, it's one of the github workflows (thank-you.yml).\n\nPlease note that issue had already been assigned in case you are interested in working on it."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9192",
+      "time": "2024-11-27T16:16:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9192#issuecomment-2504278631",
+      "text": "Depends on #8956. Merge only after that PR is merged."
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-11-25T17:27:13.000Z",
       "title": "ohcnetwork/care_fe#9192",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9192#pullrequestreview-2459026447",
       "text": "💊Fix unnecessary API Calls on updating an existing asset (#9189)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9186",
+      "time": "2024-11-27T14:54:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9186#issuecomment-2504082767",
+      "text": "> > ![image](https://private-user-images.githubusercontent.com/57055998/389680852-72788cec-e0ab-475a-875e-a41d0caade30.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI2MDE0NzMsIm5iZiI6MTczMjYwMTE3MywicGF0aCI6Ii81NzA1NTk5OC8zODk2ODA4NTItNzI3ODhjZWMtZTBhYi00NzVhLTg3NWUtYTQxZDBjYWFkZTMwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTI2VDA2MDYxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFhZDZjZDljZGVkMTMzNDhhNGViNDcyN2MzY2UwZjRhNGFiYWRlM2YwMWMwMmNkODI2ZWQyOTg2Y2U1Mzg4OTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.BtZtgJnL3bzNqBZue187IzaT9mk6oB5_6X4ofxPJon8) ![image](https://private-user-images.githubusercontent.com/57055998/389681149-f3051ac1-9bd3-4192-b12f-93459c8b2c9f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI2MDE0NzMsIm5iZiI6MTczMjYwMTE3MywicGF0aCI6Ii81NzA1NTk5OC8zODk2ODExNDktZjMwNTFhYzEtOWJkMy00MTkyLWIxMmYtOTM0NTljOGIyYzlmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTI2VDA2MDYxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYwYmYxM2M5MjU1ZDY5NWIyZWRiMDcyYTkyODA1NDNlZTBjNjM3OTM5NGY0NzE4OTQ5ZmQ4MzAwNzMwZGYzZDYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.VzXfi-4VFiB_DSIyFLIZwKlPSyEt4YVUGbHnfr7m9YI)\r\n> > ```\r\n> > * [ ]  Now, when we try to modify the preset on the patient consultation page, its cut the feed in the page, as shown in the screenshot\r\n> > ```\r\n> \r\n> @nihal467 Try testing with presets present in the configuration page (in the drop down in the feed page); those should be working. You will notice that those presets (Bed 6, switches etc) don't show up on the configuration page (talking to Rithvik about what's happening here).\r\n\r\nOpened issue on BE for this: https://github.com/ohcnetwork/care/issues/2619"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9058",
+      "time": "2024-11-27T14:47:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9058#issuecomment-2504065668",
+      "text": "> [@nihal467](https://github.com/nihal467) [@Jacobjeevan](https://github.com/Jacobjeevan) If this issue is not yet resolved, can i work on it ?\n\nIt's resolved in a recent PR 👍 \n\n![Image](https://github.com/user-attachments/assets/28630c42-e90d-4007-a7e0-1e15c2ff5142)\n"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9058",
+      "time": "2024-11-27T14:47:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9058",
+      "text": "Release the Mic in file upload component after the use"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-27T14:37:52.000Z",
+      "title": "ohcnetwork/care_fe#9223",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9223#pullrequestreview-2465217557",
+      "text": "Add gitattributes to enforce proper line endings"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9080",
+      "time": "2024-11-27T14:26:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9080#issuecomment-2504017551",
+      "text": "> **Test Report**\r\n> \r\n> **Functionality Bug**\r\n* [x]  When you search for a username, the input field disappears. It only reappears after clearing the badge. Please revert this to the original behavior where the search field remains visible at all times.\r\n* [x]  Similar issue noticeable for advanced filter as well\r\n* [x]  Disable the \"Add Facility\" button for non-admin users on their own pages.\r\n* [x]  Allow non-admin users to unlink their home facility and any facility in their access.\r\n* [x]   The avatar on the user profile page and the profile icon are different. Please make them consistent.\r\n* [x]  Reset the component's state after the password has been successfully changed.\r\n\r\n> **Question For Clarity**\r\n>     * [ ]  Only the account owner should be able to edit their own user information. However, with your current PR, an admin can edit other users' profiles. Is this the intended behavior?\r\n\r\nYep, that's the intention. \r\n\r\n>     * [ ]  The new profile view details page and the personal profile page display nearly identical data. Could we consider combining them into a single page for simplicity and consistency? [Discuss with the core team].\r\n\r\nYep, we are merging those (removing current profile page), I was waiting on it since there was an intern PR open updating elements in Profile page. We can open an issue that interns can take up once this is merged\r\n\r\n* [x]  Ensure the first column remains fixed in the mobile view for the user list. This will improve accessibility and ease of navigation.\r\n\r\n>     * [ ]  Add a \"Last Modified\" column in the user view page to display the date and time when the profile was last updated. Additionally, consider implementing an alert system to notify users to reverify their profile details after a period of 6 months or 1 year. This will help ensure that user information remains up-to-date. [Discussion required with core team before proceeding]\r\n\r\n🤔  Yea could do for enhancement.\r\n\r\nHere are the tests passing locally:\r\n\r\n<img width=\"605\" alt=\"image\" src=\"https://github.com/user-attachments/assets/3592e7fd-be89-48b9-b934-fb059f4eecda\">\r\n\r\nDetails on the error (screenshot below). I sometimes encounter this when testing after resetting the db; bypass it by manually logging in the cypress window.\r\n\r\n![image](https://github.com/user-attachments/assets/a897b218-2cbd-48cd-b59a-f7a687029d19)\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-26T09:45:32.000Z",
+      "title": "ohcnetwork/care_fe#9196",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9196#pullrequestreview-2460871637",
+      "text": "Implemented Next and Previous button for files preview"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-27T12:09:11.000Z",
+      "title": "ohcnetwork/care_fe#9209",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9209#pullrequestreview-2464837306",
+      "text": "Updates api routes for camera plugin integrations"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-25T16:53:04.000Z",
+      "title": "ohcnetwork/care_fe#9205",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9205#pullrequestreview-2458994954",
+      "text": "Fix: Display Care Loading Icon Instead of \"No Assets Found\" on Asset Tab Revisit on advanced filter"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-27T10:05:03.000Z",
+      "title": "ohcnetwork/care_fe#9221",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9221#pullrequestreview-2464557105",
+      "text": "Fix duplicated content in patient consultation"
     },
     {
       "type": "pr_reviewed",
@@ -42,13 +119,6 @@
       "time": "2024-11-26T14:22:18.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9142#issuecomment-2500933482",
       "text": "@AnveshNalimela Any updates here?"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-26T09:45:32.000Z",
-      "title": "ohcnetwork/care_fe#9196",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9196#pullrequestreview-2460871637",
-      "text": "Implemented Next and Previous button for files preview"
     },
     {
       "type": "comment_created",
@@ -112,13 +182,6 @@
       "title": "ohcnetwork/care_fe#9200",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9200#pullrequestreview-2459044848",
       "text": "Fixed Breadcrumb to Display Detailed Name Instead of ID"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-25T16:53:04.000Z",
-      "title": "ohcnetwork/care_fe#9205",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9205#pullrequestreview-2458994954",
-      "text": "Fix: Display Care Loading Icon Instead of \"No Assets Found\" on Asset Tab Revisit on advanced filter"
     },
     {
       "type": "comment_created",
@@ -1717,7 +1780,7 @@
       "title": "Camera Preset Not Resetting on Re-selection Bug",
       "stale_for": 0,
       "labels": [
-        "test failed"
+        "needs testing"
       ]
     },
     {
@@ -1725,14 +1788,14 @@
       "title": "Facility bed capacity verification test",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "test failed",
+        "changes required"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2595",
       "title": "Modified User Route for User Management Redesign",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": []
     },
     {
@@ -1740,10 +1803,9 @@
       "title": "User Management Redesign and User Details Page",
       "stale_for": 0,
       "labels": [
-        "needs testing",
         "needs review",
-        "waiting for backend",
-        "merge conflict"
+        "tested",
+        "waiting for backend"
       ]
     }
   ],
