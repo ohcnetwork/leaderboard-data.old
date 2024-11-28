@@ -2919,5 +2919,142 @@
                 }
             ]
         }
+    ],
+    "2024-11-28 00:00:00": [
+        {
+            "user": "U01JB8L8P7Y",
+            "type": "message",
+            "ts": "1732768736.682509",
+            "client_msg_id": "99d0fa45-f7ac-4007-8f06-0927f6a83316",
+            "text": "*27th November _(lazy day)_*\n\u2022 Replaced direct api calls to <http://fhir.loinc.org|fhir.loinc.org> and used CareValueset\n\u2022 Rest of the day was unproductive, tried fixing metadata issue in local snowstorm but later used <http://165.22.211.144/fhir> which was configured correctly.\n*Next*\n\u2022 Look into filtering LOINC valueset by parameters.\n\u2022 Sync with Yaswanth on frontend.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "NN3oZ",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "27th November ",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "(lazy day)",
+                                    "style": {
+                                        "bold": true,
+                                        "italic": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Replaced direct api calls to "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "http://fhir.loinc.org",
+                                            "text": "fhir.loinc.org"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " and used CareValueset"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Rest of the day was unproductive, tried fixing metadata issue in local snowstorm but later used "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "http://165.22.211.144/fhir"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " which was configured correctly."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Look into filtering LOINC valueset by parameters."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Sync with Yaswanth on frontend."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1",
+                        "U0576PEACG0"
+                    ],
+                    "count": 2
+                }
+            ]
+        }
     ]
 }
