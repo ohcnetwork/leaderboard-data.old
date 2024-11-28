@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-27T14:13:06.000Z",
+  "last_updated": "2024-11-28T07:21:05.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9228",
+      "time": "2024-11-28T07:21:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9228",
+      "text": "Fix Duplicate ping author"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9224",
@@ -798,13 +805,41 @@
       "time": "2024-10-26T09:56:00Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8931",
       "text": "Fix Export Button Overflow"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9014",
+      "time": "2024-11-06T09:13:09Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9014",
+      "text": "Fix same-day discharge date selection in DateInputV2 component"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9045",
+      "time": "2024-11-11T07:16:39Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9045",
+      "text": "Add Cypress Test Suite for Facility Notice Board Functionality Verification"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9062",
+      "time": "2024-11-08T14:52:21Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9062",
+      "text": "Update Resource Forms to Enhance Validation"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9228",
+      "time": "2024-11-28T10:41:16Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9228",
+      "text": "Fixes PR thank you msg. from potentially tagging the PR author twice"
     }
   ],
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9190",
       "title": "Fix Inifinite Load issue in notes",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "tested",
         "changes required"
@@ -815,10 +850,8 @@
       "title": "Update Resource Forms to Enhance Validation",
       "stale_for": 0,
       "labels": [
-        "question",
-        "needs review",
-        "test failed",
-        "needs-triage"
+        "needs testing",
+        "needs review"
       ]
     }
   ],
