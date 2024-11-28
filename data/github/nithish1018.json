@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-27T14:26:46.000Z",
+  "last_updated": "2024-11-28T04:14:19.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9157",
+      "time": "2024-11-28T04:14:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9157#issuecomment-2505229358",
+      "text": "> @nithish1018 The design looks inconsistent compared to our file upload component in the screenshot below. Please implement a similar design for consistency.\r\n> \r\n> ![image](https://private-user-images.githubusercontent.com/57055998/390595098-9d969df7-468b-4187-a433-46a2adb2c0d4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI3Njc1MTAsIm5iZiI6MTczMjc2NzIxMCwicGF0aCI6Ii81NzA1NTk5OC8zOTA1OTUwOTgtOWQ5NjlkZjctNDY4Yi00MTg3LWE0MzMtNDZhMmFkYjJjMGQ0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTI4VDA0MTMzMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI2NTk2ZmNjZGFmNmE2NTg2OTA2ZjVjZmMyMzVkYTRkYTAyNWVkMmIxMmJmYjQ1MWUyNWUyZTEwZTBlMTY2MWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.s3qk_IM8TgVjJjENXp9zZCx61kHzC8R2l14RSa5B3LE)\r\n\r\nI made the requested changes, please review it"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/landing#30",
@@ -585,6 +592,55 @@
       "time": "2024-10-23T12:39:46Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8899",
       "text": "Fixed resource and shifting tabs"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8899",
+      "time": "2024-10-30T11:18:31Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8899",
+      "text": "Fixed resource and shifting tabs"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8968",
+      "time": "2024-10-30T12:02:43Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8968",
+      "text": "Fixed Discussion notes overflow and minor improvements"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9006",
+      "time": "2024-11-05T18:18:21Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9006",
+      "text": "Added dynamic lock icon and strong types"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9047",
+      "time": "2024-11-07T16:24:43Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9047",
+      "text": "fixes dropdown click events issue"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9047",
+      "time": "2024-11-12T00:14:14Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9047",
+      "text": "fixes dropdown click events issue"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9054",
+      "time": "2024-11-08T07:12:09Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9054",
+      "text": "Upgraded qrcode.react to latest version"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9059",
+      "time": "2024-11-08T10:35:54Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9059",
+      "text": "Fixed search icon and removed delete option"
     }
   ],
   "open_prs": [
@@ -599,8 +655,10 @@
       "title": "Added Clear Image functionality",
       "stale_for": 0,
       "labels": [
+        "question",
         "test failed",
-        "changes required"
+        "changes required",
+        "needs-triage"
       ]
     }
   ],

@@ -404,6 +404,27 @@
       "time": "2024-10-16T04:04:27.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/8798",
       "text": "Margin required between tabs in sidebar"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#8921",
+      "time": "2024-11-05T00:44:36Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8921",
+      "text": "Adding of clear and cancel button in create preset form"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9020",
+      "time": "2024-11-06T11:36:37Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9020",
+      "text": "Added skeleton loader during advanced filters"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9064",
+      "time": "2024-11-08T15:55:14Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9064",
+      "text": "Disallow picking out of range month or year in date input dropdown"
     }
   ],
   "open_prs": [
@@ -420,12 +441,14 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9201",
       "title": "Disallowing out of date range",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "changes required"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8963",
       "title": "Cypress tests replace cy.wait with cy.intercept or dynamic waits",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "test failed",
         "changes required",

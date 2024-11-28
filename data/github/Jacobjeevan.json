@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-27T17:05:39.000Z",
+  "last_updated": "2024-11-28T08:34:00.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-28T08:34:00.000Z",
+      "title": "ohcnetwork/care_fe#9228",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9228#pullrequestreview-2467127925",
+      "text": "Fix Duplicate ping author"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9224",
@@ -1772,6 +1779,34 @@
       "time": "2024-10-22T16:09:54Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8839",
       "text": "Bed management UI enhancement"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#8967",
+      "time": "2024-10-30T11:22:57Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8967",
+      "text": "Avatar in UserAutoComplete"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9080",
+      "time": "2024-11-11T10:54:34Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9080",
+      "text": "User Management Redesign and User Details Page"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9139",
+      "time": "2024-11-15T22:20:19Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9139",
+      "text": "Respiratory support table/graph: render no data points with no mode/modality"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard-data#69",
+      "time": "2024-10-30T11:55:37Z",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/69",
+      "text": "Update Jacobjeevan.md"
     }
   ],
   "open_prs": [
@@ -1788,8 +1823,8 @@
       "title": "Facility bed capacity verification test",
       "stale_for": 0,
       "labels": [
-        "test failed",
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     },
     {
