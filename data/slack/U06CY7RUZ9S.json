@@ -3044,5 +3044,130 @@
                 }
             ]
         }
+    ],
+    "2024-11-28 00:00:00": [
+        {
+            "user": "U06CY7RUZ9S",
+            "type": "message",
+            "ts": "1732820684.347619",
+            "client_msg_id": "cb559744-500e-4a68-8827-d0348f7aecee",
+            "text": "29 November 2024\n\u2022 Pushed the restructured terraform script with folder structure that can deploy components individually. \n\u2022 Drafted <https://github.com/ohcnetwork/care_fe/pull/9237|#9237> to fix build failure in DigitalOcean app platform. \nNext\n\u2022 New state SDC call with sdc rep\n\u2022 review and cleanup Terraform script. ",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1732820471,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/9237",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#9237 Downgrading Node version from 20.11.0 to 22.5.1 for DigitalOcean",
+                    "text": "*Proposed Changes*\n\nThe DigitalOcean buildpack supports the following Node.js runtime versions for Ubuntu 22.04:  \n\u2022 4.x - 19.x  \n\u2022 20.0.0 - 20.9.0  \n\u2022 21.0.0 - 21.7.3  \n\u2022 22.0.0 - 22.5.1\n\nNode.js v20.11.0 builds fail during deployment. Downgrading to v22.5.1 resolves the issue.\n\n<https://github.com/orgs/ohcnetwork/teams/care-fe-code-reviewers|@ohcnetwork/care-fe-code-reviewers>\n\n*Merge Checklist*\n\n\u2022 Add specs that demonstrate bug / test a new feature.\n\u2022 Update <https://docs.ohc.network|product documentation>.\n\u2022 Ensure that UI text is kept in I18n files.\n\u2022 Prep screenshot or demo video for changelog entry, and attach it to issue.\n\u2022 Request for Peer Reviews\n\u2022 Completion of QA\n\n*Summary by CodeRabbit*\n\n\u2022 *New Features*  \n   \u2022 Expanded compatibility by lowering the minimum required Node.js version, allowing users with older versions (>=22.5.1) to run the project successfully.",
+                    "title": "#9237 Downgrading Node version from 20.11.0 to 22.5.1 for DigitalOcean",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/9237",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "2",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "bJHUJ",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "29 November 2024\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Pushed the restructured terraform script with folder structure that can deploy components individually. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Drafted "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9237",
+                                            "text": "#9237",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " to fix build failure in DigitalOcean app platform. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "New state SDC call with sdc rep"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "review and cleanup Terraform script. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

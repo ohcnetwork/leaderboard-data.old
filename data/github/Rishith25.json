@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-11-27T15:56:13.000Z",
+  "last_updated": "2024-11-28T17:28:26.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9235",
+      "time": "2024-11-28T17:28:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235",
+      "text": "Occupancy bed tooltip fully visible in mobile view"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9230",
+      "time": "2024-11-28T12:02:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9230#issuecomment-2505957840",
+      "text": "@nihal467 I would like to work on this issue"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9226",
@@ -427,6 +441,48 @@
       "text": "Disallow picking out of range month or year in date input dropdown"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235",
+      "title": "Occupancy bed tooltip fully visible in mobile view",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9226",
+      "title": "Fix: Reflect Updated Service Notes Immediately in Asset Details without page reload",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9201",
+      "title": "Disallowing out of date range",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8963",
+      "title": "Cypress tests replace cy.wait with cy.intercept or dynamic waits",
+      "stale_for": 1,
+      "labels": [
+        "test failed",
+        "changes required",
+        "merge conflict"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8822",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8823"
+    }
+  ]
 }

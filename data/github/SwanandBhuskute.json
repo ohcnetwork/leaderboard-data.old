@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-11-14T11:54:40.000Z",
+  "last_updated": "2024-11-28T17:59:09.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9233",
+      "time": "2024-11-28T17:59:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9233#issuecomment-2506598207",
+      "text": "@nihal467 @rithviknishad \nI think this is the error\n\nIf the location of the asset has bed in them\nthen an additional query of ?bed=..... is added in the current url (after clicking on Configure, what we see that page) even if no bed if link \n\nbut if the asset facility doesn't have any bed in them, then the url is normal like /facility/sdu-sf-dsf-fdf/assets/dsf-sdfds-0dsf0/configure\n\nso \nif url - facility/abc-xyz-pqr/assets/abc-112-sdf-prd/configure , \"Back\" works fine\nif url - facility/abc-xyz-pqr/assets/abc-112-sdf-prd/configure?bed=tru-23-dsf-3e4 , \"Back\" not working"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9233",
+      "time": "2024-11-28T14:06:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9233#issuecomment-2506206003",
+      "text": "I would like to work on this @nihal467 "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9116",
@@ -311,7 +325,9 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9116",
       "title": "removed lodash imports and dependencies and wrote js equivalents",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "changes required"
+      ]
     }
   ],
   "authored_issue_and_pr": [

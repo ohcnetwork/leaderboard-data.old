@@ -1190,5 +1190,73 @@
                 }
             ]
         }
+    ],
+    "2024-11-28 00:00:00": [
+        {
+            "user": "U07ASE8UG05",
+            "type": "message",
+            "ts": "1732822880.819519",
+            "client_msg_id": "c4550c96-9a5a-4fac-8a4f-239782d64458",
+            "text": "28 Nov 2024\nDone\n <https://github.com/ohcnetwork/care_fe/pull/8954|PR#8954> ready for review \nWorking on PR#9138\n Slow progression due to exam",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1730128788,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/8954",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#8954 Referral letter preview desktop",
+                    "text": "*Proposed Changes*\n\nReferral letter preview desktop and responsive\n\n\u2022 Fixes <https://github.com/ohcnetwork/care_fe/issues/8884|#8884>\n\nBefore  \n<https://private-user-images.githubusercontent.com/121436543/378989733-79a4d8a5-b615-491b-99a3-a36770f3d90f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI4MjMxODIsIm5iZiI6MTczMjgyMjg4MiwicGF0aCI6Ii8xMjE0MzY1NDMvMzc4OTg5NzMzLTc5YTRkOGE1LWI2MTUtNDkxYi05OWEzLWEzNjc3MGYzZDkwZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMTI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTEyOFQxOTQxMjJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01NDQ5ODYyMWI1OTcwYmRmZDAwNGJhZTA2ZjA3YWYyZGU2MTkyODc1MGNjYWRiZDg1NmRiMzYyYWJlYWVkZGIxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.0M_xHW_tL-xlJhIbW1kqDTUUlxN4PuztE7ccZ-7UHIk|Image>\n\nAfter  \n<https://private-user-images.githubusercontent.com/121436543/380936542-da74e5a5-b6c4-466b-8167-b497a7a8d771.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI4MjMxODIsIm5iZiI6MTczMjgyMjg4MiwicGF0aCI6Ii8xMjE0MzY1NDMvMzgwOTM2NTQyLWRhNzRlNWE1LWI2YzQtNDY2Yi04MTY3LWI0OTdhN2E4ZDc3MS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMTI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTEyOFQxOTQxMjJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZGExZTU0ZmJlOTU5MTE5Y2M3Y2M5YTQ1ZWVhYjNjYTIzOGQzOWM0NTJiNGI5YTRlNDk4OWQzNmIzMzA0YWMyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.qgCJ5yEW2PZXxV4HeqtRmBq0O8-zwZKcuAlj2mzHvNc|Screenshot 2024-10-29 064626>\n\n@ohcnetwork/care-fe-code-reviewers\n\n*Merge Checklist*\n\n\u2022 Add specs that demonstrate bug / test a new feature.\n\u2022 Update <https://docs.ohc.network|product documentation>.\n\u2022 Ensure that UI text is kept in I18n files.\n\u2022 Prep screenshot or demo video for changelog entry, and attach it to issue.\n\u2022 Request for Peer Reviews\n\u2022 Completion of QA\n\n*Summary by CodeRabbit*\n\n*Release Notes*\n\n\u2022 *New Features*  \n   \u2022 Enhanced print functionality for referral letters with improved layout and visual appeal.  \n   \u2022 Introduced a new UI card system, including components for headers, titles, descriptions, content, and footers.\n\u2022 *Improvements*  \n   \u2022 QR code rendering updated for better presentation.  \n   \u2022 Patient information now displayed in a structured grid layout.\n\u2022 *User Interface*  \n   \u2022 Minor adjustments to print mode toggle and button layout for improved usability.",
+                    "title": "#8954 Referral letter preview desktop",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/8954",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "needs testing, needs review",
+                            "title": "Labels",
+                            "short": true
+                        },
+                        {
+                            "value": "24",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "km+Br",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "28 Nov 2024\nDone\n "
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https://github.com/ohcnetwork/care_fe/pull/8954",
+                                    "text": "PR#8954"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " ready for review \nWorking on PR#9138\n Slow progression due to exam"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

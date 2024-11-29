@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-11-25T17:24:59.000Z",
+  "last_updated": "2024-11-28T17:59:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8956",
+      "time": "2024-11-28T17:59:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#issuecomment-2506598093",
+      "text": "![image](https://github.com/user-attachments/assets/e24a23f4-edd1-409c-a9a0-ec4f36b7b566)\r\nWe need to update this test as we are using #save-and-exit button as update button in staff capacity."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8956",
+      "time": "2024-11-28T17:40:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#issuecomment-2506577850",
+      "text": "![image](https://github.com/user-attachments/assets/ebb6e71a-a4c1-47e1-adae-e0695e06beac)\r\nThis type of tests fails are often hapening with me but when I check in local server it works fine."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8956",
+      "time": "2024-11-28T13:05:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#issuecomment-2506079896",
+      "text": "![image](https://github.com/user-attachments/assets/f1db6e95-6196-4f3b-ba18-af9c0a0422c0)\r\n![image](https://github.com/user-attachments/assets/ff746ec8-5348-46a7-87fc-44c0a4175a30)\r\n\r\n\r\nHere we have #insurer_name and #insurer_id but tests are expecting only #insurer\r\n![image](https://github.com/user-attachments/assets/378c98b0-193e-4f99-bd71-53cdfe30a75f)\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8956",
@@ -162,17 +183,19 @@
       "title": "Add 'Update Details' Button in Community Nurse Log Update Details Page",
       "stale_for": 0,
       "labels": [
-        "test failed"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8956",
-      "title": "Prevent Unnecessary Update Request in Facilities Section",
+      "title": "Prevent Unnecessary Update Request in all usages of Form components and Facilities Section",
       "stale_for": 0,
       "labels": [
-        "test failed",
-        "changes required",
-        "work-in-progress"
+        "question",
+        "needs testing",
+        "needs review",
+        "needs-triage"
       ]
     }
   ],
