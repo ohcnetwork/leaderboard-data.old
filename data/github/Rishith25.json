@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-11-29T04:07:09.000Z",
+  "last_updated": "2024-11-29T12:56:32.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9235",
+      "time": "2024-11-29T12:56:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235#issuecomment-2507769231",
+      "text": "> Could you push the changes so that we can take a look at it?\r\n\r\nCould you please look into the changes"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9235",
+      "time": "2024-11-29T12:37:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235#issuecomment-2507737297",
+      "text": "> Let's switch to newer approach of showing tooltip using shadcn's tooltip component: https://github.com/ohcnetwork/care_fe/blob/develop/src/components/ui/tooltip.tsx\r\n\r\nThis shadcn tooltip component working well in desktop, but it is not working on mobile view how should I proceed?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9201",
+      "time": "2024-11-29T11:02:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9201#issuecomment-2507579469",
+      "text": "@Jacobjeevan  I have done the changes and  also suggested changes from coderabbitai"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9244",
@@ -450,6 +471,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2624",
+      "title": "Added Emergency Number UserBaseMinimumSerializer",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9235",
       "title": "Occupancy bed tooltip fully visible in mobile view",
       "stale_for": 0,
@@ -460,7 +487,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9226",
       "title": "Fix: Reflect Updated Service Notes Immediately in Asset Details without page reload",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review"

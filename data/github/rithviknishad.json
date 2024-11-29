@@ -1,6 +1,108 @@
 {
-  "last_updated": "2024-11-29T06:18:03.000Z",
+  "last_updated": "2024-11-29T13:13:29.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-14T14:23:34.000Z",
+      "title": "ohcnetwork/care_fe#9116",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9116#pullrequestreview-2436214349",
+      "text": "removed lodash imports and dependencies and wrote js equivalents"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9235",
+      "time": "2024-11-29T13:10:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235#issuecomment-2507793165",
+      "text": "I don't see any issues in this. What's the issue?"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9233",
+      "time": "2024-11-29T12:57:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9233",
+      "text": "Back Button is not working proper in the camera configuration page"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9246",
+      "time": "2024-11-29T12:57:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9246",
+      "text": "fixing back button for camera asset",
+      "collaborated_with": [
+        "SwanandBhuskute",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-29T12:56:45.000Z",
+      "title": "ohcnetwork/care_fe#9246",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9246#pullrequestreview-2469867772",
+      "text": "fixing back button for camera asset"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9235",
+      "time": "2024-11-29T12:41:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235#issuecomment-2507742498",
+      "text": "Could you push the changes so that we can take a look at it?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9116",
+      "time": "2024-11-29T12:38:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9116#issuecomment-2507738720",
+      "text": "Other than these, LGTM."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9249",
+      "time": "2024-11-29T12:23:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9249#issuecomment-2507714368",
+      "text": "This is intended, as it shows a preview of the discharge summary before discharging. \nBut maybe I guess the right label here would be \"Preview Discharge Summary\" instead when encounter is still live.\n\ncc: @bodhish "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-29T03:50:09.000Z",
+      "title": "ohcnetwork/care_fe#9245",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9245#pullrequestreview-2469040265",
+      "text": "Fixes invisible Edit button on immunisation section #9243"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/landing#26",
+      "time": "2024-11-29T11:13:59.000Z",
+      "link": "https://github.com/ohcnetwork/landing/issues/26",
+      "text": "Text in 'Committed to Openness' Section is Hard to Read Due to Low Contrast"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-29T11:13:10.000Z",
+      "title": "ohcnetwork/landing#30",
+      "link": "https://github.com/ohcnetwork/landing/pull/30#pullrequestreview-2469684266",
+      "text": "Fixed Openness section view in light/dark mode"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9240",
+      "time": "2024-11-29T11:09:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9240#issuecomment-2507591734",
+      "text": "This is not the shadcn's button. Shadcn's button is present here: https://github.com/ohcnetwork/care_fe/blob/develop/src/components/ui/button.tsx\r\n\r\nAnyways, #9245 has fixed it in all places. Hence closing this PR in favour of that."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-27T12:47:25.000Z",
+      "title": "ohcnetwork/care_fe#9094",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9094#pullrequestreview-2464926205",
+      "text": "Add 'Update Details' Button in Community Nurse Log Update Details Page"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9241",
+      "time": "2024-11-29T06:28:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9241",
+      "text": "Change Date of Birth to Year of Birth on Patient Details Page when DOB is Missing"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-11-29T02:30:24.000Z",
@@ -21,13 +123,6 @@
       "time": "2024-11-29T05:32:02.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9200#issuecomment-2507118133",
       "text": "@rayyjeb It's queued for testing. Nihal would do QA and mark it as tested. Once that's done, we are good to merge it."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-29T03:50:09.000Z",
-      "title": "ohcnetwork/care_fe#9245",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9245#pullrequestreview-2469040265",
-      "text": "Fixes invisible Edit button on immunisation section #9243"
     },
     {
       "type": "issue_closed",
@@ -197,13 +292,6 @@
       "title": "ohcnetwork/care_fe#9200",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9200#pullrequestreview-2467242420",
       "text": "Fixed Breadcrumb to Display Detailed Name Instead of ID"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-27T12:47:25.000Z",
-      "title": "ohcnetwork/care_fe#9094",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9094#pullrequestreview-2464926205",
-      "text": "Add 'Update Details' Button in Community Nurse Log Update Details Page"
     },
     {
       "type": "pr_reviewed",
@@ -869,13 +957,6 @@
       "title": "ohcnetwork/care_fe#9089",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9089#pullrequestreview-2433385664",
       "text": "Fix wrong terminology used in place of Log Update"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-14T14:23:34.000Z",
-      "title": "ohcnetwork/care_fe#9116",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9116#pullrequestreview-2436214349",
-      "text": "removed lodash imports and dependencies and wrote js equivalents"
     },
     {
       "type": "pr_merged",
@@ -49846,11 +49927,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9076",
       "title": "[draft] Scheduling",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": [
         "work-in-progress",
-        "Deploy-Failed",
-        "merge conflict"
+        "Deploy-Failed"
       ]
     },
     {
