@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-28T17:59:01.000Z",
+  "last_updated": "2024-11-28T18:54:37.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8956",
+      "time": "2024-11-28T18:54:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#issuecomment-2506651735",
+      "text": "![image](https://github.com/user-attachments/assets/6a9c193c-0ee7-4ffa-8868-ebd61ded87a5)\r\n\r\nSubmit button is disabled as of our new feature, but by adding insurance details isDirty is not updating as it(insurance details) is not part of init state.\r\nwe have a different state to handle insurance details."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8956",
@@ -177,27 +184,6 @@
       "text": "Username Validation Warning Prevents Profile Update"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9094",
-      "title": "Add 'Update Details' Button in Community Nurse Log Update Details Page",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8956",
-      "title": "Prevent Unnecessary Update Request in all usages of Form components and Facilities Section",
-      "stale_for": 0,
-      "labels": [
-        "question",
-        "needs testing",
-        "needs review",
-        "needs-triage"
-      ]
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }

@@ -1,6 +1,89 @@
 {
-  "last_updated": "2024-11-28T18:08:17.000Z",
+  "last_updated": "2024-11-29T06:18:03.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-29T02:30:24.000Z",
+      "title": "ohcnetwork/care_fe#9242",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9242#pullrequestreview-2468982970",
+      "text": "Fix: Date of Birth to Year of Birth on Patient Details Page when DOB is Missing"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-29T06:11:11.000Z",
+      "title": "ohcnetwork/care_fe#9192",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9192#pullrequestreview-2469151888",
+      "text": "💊Fix unnecessary API Calls on updating an existing asset (#9189)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9200",
+      "time": "2024-11-29T05:32:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9200#issuecomment-2507118133",
+      "text": "@rayyjeb It's queued for testing. Nihal would do QA and mark it as tested. Once that's done, we are good to merge it."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-29T03:50:09.000Z",
+      "title": "ohcnetwork/care_fe#9245",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9245#pullrequestreview-2469040265",
+      "text": "Fixes invisible Edit button on immunisation section #9243"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8321",
+      "time": "2024-11-29T05:05:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8321",
+      "text": "Add Next and Previous Scroll button for files preview"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9196",
+      "time": "2024-11-29T05:05:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9196",
+      "text": "Implemented Next and Previous button for files preview",
+      "collaborated_with": [
+        "sarvesh-official",
+        "o",
+        "3",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-29T02:55:52.000Z",
+      "title": "ohcnetwork/care_fe#9142",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9142#pullrequestreview-2468998342",
+      "text": "Added the CSV Export button In Discharged Patients"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-29T02:41:30.000Z",
+      "title": "ohcnetwork/care_fe#9237",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9237#pullrequestreview-2468991690",
+      "text": "Downgrading Node version from 22.11.0 to 22.5.1 for DigitalOcean"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9233",
+      "time": "2024-11-29T02:39:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9233#issuecomment-2506992676",
+      "text": "Let's remove that useEffect hook (line 96 to 100) altogether. And modify the `selectedAssetBed` to first check from query param and if query param not present, fallback to using the `firstBedId` without needing to set the query. "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-29T02:33:40.000Z",
+      "title": "ohcnetwork/care_fe#9240",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9240#pullrequestreview-2468985597",
+      "text": "Fix: Edit button greyed out"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-29T02:25:19.000Z",
+      "title": "ohcnetwork/care_fe#9235",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235#pullrequestreview-2468978937",
+      "text": "Occupancy bed tooltip fully visible in mobile view"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9236",
@@ -49763,7 +49846,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9076",
       "title": "[draft] Scheduling",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "work-in-progress",
         "Deploy-Failed",
@@ -49773,7 +49856,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/522",
       "title": "Extract contributors joining date grouped by month",
-      "stale_for": 43,
+      "stale_for": 44,
       "labels": []
     }
   ],

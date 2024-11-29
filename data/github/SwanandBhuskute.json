@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-28T17:59:09.000Z",
+  "last_updated": "2024-11-28T19:50:57.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9233",
+      "time": "2024-11-28T19:50:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9233#issuecomment-2506699229",
+      "text": "This is the error @rithviknishad @nihal467 \n\nThe history is like this\n[\n    \"/facility/0c95c7f0-e1d2-4aff-83fa-933cef60d3a8/assets/5b089eb8-0b23-4d47-ae86-337a3902672e/configure?bed=f3323a4f-dae4-4c8a-a3fa-ac980d4adf34\",\n    \"/facility/0c95c7f0-e1d2-4aff-83fa-933cef60d3a8/assets/5b089eb8-0b23-4d47-ae86-337a3902672e/configure\",\n    \"/facility/0c95c7f0-e1d2-4aff-83fa-933cef60d3a8/assets/5b089eb8-0b23-4d47-ae86-337a3902672e\",\n    \"/assets\",\n    \"/facility\"\n]\n\nso , when we go on /configure\nwe immediately fetch the first bed linked and attach it in the url and thus the history gets updated\n\nthen when I click back\nI do go to /configure again, but as we are by default fetching first bed, again the url gets updated and so is history\n\nso you can see\nwe are stuck in this infinite jumps of \nhistory[0] - /configure?bed=\nand\nhistory[1] - /configure\n\nso i think we need to handle this useEffect hook\n\n![Image](https://github.com/user-attachments/assets/477c8a00-1893-406d-94ad-9368b24ab87f)\n\nmaybe we can just not change the url on initial render , keep it /configure?\nit makes sense too"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9233",

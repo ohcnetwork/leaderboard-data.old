@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-28T14:56:21.000Z",
+  "last_updated": "2024-11-28T19:43:32.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2591",
+      "time": "2024-11-28T19:43:32.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2591#issuecomment-2506693215",
+      "text": "I've been checking out the issue and thinking about potential approaches to this issue. How do you feel about this approach on a high level?:\n\nUse a carrier lookup service to check whether the phone number is assigned to an active carrier. The overhead would be paying for a monthly service though. There are free tiers, but we would easily go over the monthly limit.\n\n\n\nWe could also try OTP, but I think we would run into issues if a medical staff is entering in someone's phone number instead of the person themselves."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care#2591",

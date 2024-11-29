@@ -1851,5 +1851,104 @@
                 }
             ]
         }
+    ],
+    "2024-11-29 00:00:00": [
+        {
+            "user": "U06L50QL1AQ",
+            "type": "message",
+            "ts": "1732867933.342809",
+            "client_msg_id": "e53756c0-c994-442b-b6c5-a62353943e02",
+            "text": "28 Nov\n\u2022 Made changes to Docker file to fix the issue of installing plugins locally, had a short call with Khavin on it \n\u2022 Found some minor bug with asset serializer in camera preset branch, fixed that.\n\u2022 Most of the day then went debugging things for local testing and trying to include plugins tests to run with the core app but unable to do so.\nNext \n\u2022 Raise the PR with all the fixes for api routes for plugin.\n\u2022 Complete the gh action with cookie cutter boiler plate ",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "553OH",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "28 Nov\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Made changes to Docker file to fix the issue of installing plugins locally, had a short call with Khavin on it "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Found some minor bug with asset serializer in camera preset branch, fixed that."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Most of the day then went debugging things for local testing and trying to include plugins tests to run with the core app but unable to do so."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next \n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Raise the PR with all the fixes for api routes for plugin."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete the gh action with cookie cutter boiler plate "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

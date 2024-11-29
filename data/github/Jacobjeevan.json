@@ -1,6 +1,55 @@
 {
-  "last_updated": "2024-11-28T11:36:12.000Z",
+  "last_updated": "2024-11-29T05:35:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9192",
+      "time": "2024-11-29T05:35:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9192#issuecomment-2507120640",
+      "text": "> > Depends on #8956. Merge only after that PR is merged.\r\n> \r\n> @Jacobjeevan sir, can you please review the final changes?\r\n\r\nNothing else apart from translations for now 👍 \r\n\r\nAlso, don't need to refer to anyone here as sir/madam. Just refer to us by our names."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-25T17:27:13.000Z",
+      "title": "ohcnetwork/care_fe#9192",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9192#pullrequestreview-2459026447",
+      "text": "💊Fix unnecessary API Calls on updating an existing asset (#9189)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9200",
+      "time": "2024-11-29T05:29:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9200#issuecomment-2507115726",
+      "text": "> @rithviknishad Could you please review the PR again? If there's anything, Do let me know\r\n\r\nHe already approved it 🤔  and there hasn't been any changes since approval."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-29T00:11:38.000Z",
+      "title": "ohcnetwork/care_fe#9235",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235#pullrequestreview-2468891978",
+      "text": "Occupancy bed tooltip fully visible in mobile view"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9238",
+      "time": "2024-11-29T00:06:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9238#issuecomment-2506868772",
+      "text": "Check and implement the Coderabbit suggestions that are worth doing."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-29T00:00:23.000Z",
+      "title": "ohcnetwork/care_fe#9242",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9242#pullrequestreview-2468887622",
+      "text": "Fix: Date of Birth to Year of Birth on Patient Details Page when DOB is Missing"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-28T21:46:15.000Z",
+      "title": "ohcnetwork/care_fe#9240",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9240#pullrequestreview-2468835468",
+      "text": "Fix: Edit button greyed out"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9080",
@@ -14,13 +63,6 @@
       "time": "2024-11-28T11:21:12.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9167#issuecomment-2505882005",
       "text": "@sidpg123 PatientHome just changed, so take a look (solve the merge conflicts and rerun the tests locally)."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-25T17:27:13.000Z",
-      "title": "ohcnetwork/care_fe#9192",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9192#pullrequestreview-2459026447",
-      "text": "💊Fix unnecessary API Calls on updating an existing asset (#9189)"
     },
     {
       "type": "pr_reviewed",
@@ -1844,6 +1886,45 @@
       "text": "Update Jacobjeevan.md"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9186",
+      "title": "Camera Preset Not Resetting on Re-selection Bug",
+      "stale_for": 1,
+      "labels": [
+        "needs testing"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9145",
+      "title": "Facility bed capacity verification test",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2595",
+      "title": "Modified User Route for User Management Redesign",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9080",
+      "title": "User Management Redesign and User Details Page",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "tested",
+        "waiting for backend"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8845",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8852"
+    }
+  ]
 }
