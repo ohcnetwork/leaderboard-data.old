@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-11-29T12:57:33.000Z",
+  "last_updated": "2024-11-29T14:17:28.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9116",
+      "time": "2024-11-29T14:17:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9116#issuecomment-2507908171",
+      "text": "> map it through translations instead\r\n\r\ncan you hint how to do this\r\nI am not able to debug after constants.tsx"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9116",
+      "time": "2024-11-29T13:47:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9116#issuecomment-2507855434",
+      "text": "One thing @rithviknishad \r\ni need to use startCase and camelCase in SampleDetails.tsx line 273 for {flow.status}\r\nbecause in constansts.tsx , the SAMPLE_FLOW_RULES are saved in \r\n- ABC_EFG_TH\r\n- ABCDEF\r\nformat\r\n\r\nso need to use startcase and camel case\r\n\r\nas in cypress test 4\r\n\"Request Submitted\" text is expected , but capitalize doesn't work correctly for it\r\nit keeps it \"REQUEST_SUBMITTED\"\r\n "
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#9246",
@@ -380,8 +394,7 @@
       "title": "removed lodash imports and dependencies and wrote js equivalents",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "work-in-progress"
       ]
     }
   ],

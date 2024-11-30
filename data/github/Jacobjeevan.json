@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-29T11:45:40.000Z",
+  "last_updated": "2024-11-29T13:51:54.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-22T06:51:00.000Z",
+      "title": "ohcnetwork/care_fe#9116",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9116#pullrequestreview-2453448385",
+      "text": "removed lodash imports and dependencies and wrote js equivalents"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-11-29T10:07:02.000Z",
@@ -343,13 +350,6 @@
       "time": "2024-11-22T06:56:29.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/9058#issuecomment-2492995972",
       "text": "> Hey Team Can you please assign this issue to me?\n\nGo ahead and add this in the PR you just raised #9180 "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-22T06:51:00.000Z",
-      "title": "ohcnetwork/care_fe#9116",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9116#pullrequestreview-2453448385",
-      "text": "removed lodash imports and dependencies and wrote js equivalents"
     },
     {
       "type": "comment_created",
@@ -1911,15 +1911,16 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9186",
       "title": "Camera Preset Not Resetting on Re-selection Bug",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "needs testing"
+        "needs review",
+        "tested"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9145",
       "title": "Facility bed capacity verification test",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"
@@ -1928,17 +1929,18 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2595",
       "title": "Modified User Route for User Management Redesign",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9080",
       "title": "User Management Redesign and User Details Page",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "needs review",
         "tested",
-        "waiting for backend"
+        "waiting for backend",
+        "merge conflict"
       ]
     }
   ],
