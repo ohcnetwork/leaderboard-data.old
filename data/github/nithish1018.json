@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-29T11:13:58.000Z",
+  "last_updated": "2024-11-30T02:20:55.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9157",
+      "time": "2024-11-30T02:20:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9157#issuecomment-2508791974",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/391199401-fe793ad5-aaf2-4519-b6d4-5cbb5db18405.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI5MzI5NjYsIm5iZiI6MTczMjkzMjY2NiwicGF0aCI6Ii81NzA1NTk5OC8zOTExOTk0MDEtZmU3OTNhZDUtYWFmMi00NTE5LWI2ZDQtNWNiYjVkYjE4NDA1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTMwVDAyMTEwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI3MWJmNWI1MDM1Y2NlNzI4Njg0MWQ0OTYwMjVlMWRmNWFiYzNkMzVlNTQzYWRiMTg2YjhmZThjNWFiZGNiMTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.tCLvnNu8Rrus_qck1hVS50VY7FmFc1nx4c5OL15tYug)\r\n> \r\n> * [ ]  Only keep the discard button at the bottom and remove the other button next to the file name to maintain consistency with the existing file upload.\r\n> \r\n> @nithish1018 make sure to do a basic QA before requesting a review\r\n\r\nActually the existing File Upload has that extra option to clear image , so I've added that here aswell.\r\n\r\n![image](https://github.com/user-attachments/assets/fb79e1ca-2bd0-4256-9e30-18c5d0165e1d)\r\n\r\nNow I've updated the PR as per your suggestions, please review it\r\n"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/landing#30",
@@ -651,6 +658,63 @@
       "text": "Fixed search icon and removed delete option"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9157",
+      "title": "Added Clear Image functionality",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "test failed",
+        "changes required",
+        "needs-triage"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9174",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9172"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9170",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9172"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9129",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9130"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9057",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9059"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9005",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9006"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8997",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8999"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8980",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9059"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8932",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8939"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8877",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8881"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8863",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8899"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8805",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8807"
+    }
+  ]
 }

@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-11-29T14:17:28.000Z",
+  "last_updated": "2024-11-30T07:37:09.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9116",
+      "time": "2024-11-30T07:37:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9116#issuecomment-2508872450",
+      "text": "@rithviknishad @nihal467 fixed all tests"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9116",
+      "time": "2024-11-30T05:59:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9116#issuecomment-2508846325",
+      "text": "> Do not add translations for other languages. Read: https://github.com/ohcnetwork/care_fe?tab=readme-ov-file#translations\r\n\r\noh sry, @rithviknishad "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9217",
+      "time": "2024-11-30T05:23:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9217#issuecomment-2508838013",
+      "text": "@nihal467 can you check PR #9116 , in that now we are accepting any name entered, just with autoCapitalize: \"words\"\nthis will close this issue\nI made multiple names, they are all accepting 'as it is' as our requirement"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9116",
@@ -394,7 +415,8 @@
       "title": "removed lodash imports and dependencies and wrote js equivalents",
       "stale_for": 0,
       "labels": [
-        "work-in-progress"
+        "needs testing",
+        "needs review"
       ]
     }
   ],
