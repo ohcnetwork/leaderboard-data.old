@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-29T19:13:35.000Z",
+  "last_updated": "2024-12-01T01:24:40.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2085",
+      "time": "2024-12-01T01:24:40.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2085#issuecomment-2509511643",
+      "text": "I've been looking through these files...\n- [models.py](https://github.com/ohcnetwork/care/blob/develop/care/users/models.py) \n- [user.py](https://github.com/ohcnetwork/care/blob/develop/care/users/api/serializers/user.py)\n@sainak and @rithviknishad , my general approach is to add the 2 fields in both files. Then make the migrations and the migrations file, so that application logic and ORM are in sync with db. Also, should updating these fields every time someone modifies a user be in the PR as well? Right now, it seems we're just adding in 2 fields. Let me know your thoughts :)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care#2085",
