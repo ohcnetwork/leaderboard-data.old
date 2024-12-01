@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-11-30T04:48:40.000Z",
+  "last_updated": "2024-12-01T08:51:23.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-01T08:51:23.000Z",
+      "title": "ohcnetwork/care_fe#9247",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9247#pullrequestreview-2471340532",
+      "text": "Bug-Fix: Patient's Age parsing discrepancy during XLS export in Sample Management System"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-01T08:03:42.000Z",
+      "title": "ohcnetwork/care_fe#9258",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9258#pullrequestreview-2471331211",
+      "text": "Cypress Test for language selection and link redirection #9238"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-10-29T05:33:21.000Z",
+      "title": "ohcnetwork/care_fe#8956",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#pullrequestreview-2400726668",
+      "text": "Prevent Unnecessary Update Request in Facilities Section"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-28T10:43:52.000Z",
+      "title": "ohcnetwork/care_fe#9226",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9226#pullrequestreview-2467656068",
+      "text": "Fix: Reflect Updated Service Notes Immediately in Asset Details without page reload"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9122",
+      "time": "2024-12-01T06:22:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9122#issuecomment-2509594644",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) Hii sir.I'm learning django rn so it make take 2-4 days for me to fix this issue.Hope it's fine.\n\n@PAVAN507-STAR any updates here?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-01T06:14:34.000Z",
+      "title": "ohcnetwork/care_fe#9138",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9138#pullrequestreview-2471316912",
+      "text": "Updated Test Details page form UI"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-11-22T06:51:00.000Z",
@@ -105,13 +147,6 @@
       "title": "ohcnetwork/care_fe#9201",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9201#pullrequestreview-2467702662",
       "text": "Disallowing out of date range"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-28T10:43:52.000Z",
-      "title": "ohcnetwork/care_fe#9226",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9226#pullrequestreview-2467656068",
-      "text": "Fix: Reflect Updated Service Notes Immediately in Asset Details without page reload"
     },
     {
       "type": "comment_created",
@@ -789,13 +824,6 @@
         "Jacobjeevan",
         "nihal467"
       ]
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-10-29T05:33:21.000Z",
-      "title": "ohcnetwork/care_fe#8956",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#pullrequestreview-2400726668",
-      "text": "Prevent Unnecessary Update Request in Facilities Section"
     },
     {
       "type": "pr_merged",
@@ -1907,6 +1935,47 @@
       "text": "Update Jacobjeevan.md"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9186",
+      "title": "Camera Preset Not Resetting on Re-selection Bug",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "tested"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9145",
+      "title": "Facility bed capacity verification test",
+      "stale_for": 1,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2595",
+      "title": "Modified User Route for User Management Redesign",
+      "stale_for": 2,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9080",
+      "title": "User Management Redesign and User Details Page",
+      "stale_for": 1,
+      "labels": [
+        "needs review",
+        "tested",
+        "waiting for backend",
+        "merge conflict"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8845",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8852"
+    }
+  ]
 }
