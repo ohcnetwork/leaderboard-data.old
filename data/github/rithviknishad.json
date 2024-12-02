@@ -1,6 +1,35 @@
 {
-  "last_updated": "2024-12-01T06:51:48.000Z",
+  "last_updated": "2024-12-02T08:52:46.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9135",
+      "time": "2024-12-02T08:52:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9135",
+      "text": "Camera Preset Not Resetting to Defined Position on Re-selection"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-30T04:20:07.000Z",
+      "title": "ohcnetwork/care_fe#9186",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9186#pullrequestreview-2470706369",
+      "text": "Camera Preset Not Resetting on Re-selection Bug"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2625",
+      "time": "2024-12-02T08:47:59.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2625",
+      "text": "Enforce `/scripts` directory uses LF line endings on all systems",
+      "turnaround_time": 158316
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-02T07:39:50.000Z",
+      "title": "ohcnetwork/care_fe#9247",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9247#pullrequestreview-2471940822",
+      "text": "Bug-Fix: Patient's Age parsing discrepancy during XLS export in Sample Management System"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#9225",
@@ -127,13 +156,6 @@
       "time": "2024-11-30T04:21:36.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9094#issuecomment-2508823008",
       "text": "@nihal467 we are switching to newer components (shadcn buttons) in newer implementations right. "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-30T04:20:07.000Z",
-      "title": "ohcnetwork/care_fe#9186",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9186#pullrequestreview-2470706369",
-      "text": "Camera Preset Not Resetting on Re-selection Bug"
     },
     {
       "type": "issue_closed",
@@ -50080,25 +50102,18 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2625",
-      "title": "Enforce `/scripts` directory uses LF line endings on all systems",
-      "stale_for": 1,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9076",
       "title": "[draft] Scheduling",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "work-in-progress",
-        "Deploy-Failed",
-        "merge conflict"
+        "Deploy-Failed"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/522",
       "title": "Extract contributors joining date grouped by month",
-      "stale_for": 46,
+      "stale_for": 47,
       "labels": []
     }
   ],
