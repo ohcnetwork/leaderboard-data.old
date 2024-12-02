@@ -1,6 +1,55 @@
 {
-  "last_updated": "2024-12-02T08:52:45.000Z",
+  "last_updated": "2024-12-02T14:03:43.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8956",
+      "time": "2024-12-02T14:03:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#issuecomment-2511631977",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/145173622/391562200-10709caa-2381-4301-b941-b9f8ba026707.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMxNDcyMzEsIm5iZiI6MTczMzE0NjkzMSwicGF0aCI6Ii8xNDUxNzM2MjIvMzkxNTYyMjAwLTEwNzA5Y2FhLTIzODEtNDMwMS1iOTQxLWI5ZjhiYTAyNjcwNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIwMlQxMzQyMTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03NjJkZjM1NmVhNjJmZGQxMTMxMDg0MGI5OWE2ZWRiOWRmOWIzNGE4Y2Q1NDJjYjBmODEyMWI5MDdhMjc5NzkwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.R7AYyZH-oMdBfMgLWBFyZB8yy8QBrqpEKY2j5WE1tMU) these tests are failing due to existing data. I passed all tests by just manually deleting a single location data ![image](https://private-user-images.githubusercontent.com/145173622/391564277-f0c2f992-f87b-4a28-af6e-c46ede3e8c42.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMxNDcyMzEsIm5iZiI6MTczMzE0NjkzMSwicGF0aCI6Ii8xNDUxNzM2MjIvMzkxNTY0Mjc3LWYwYzJmOTkyLWY4N2ItNGEyOC1hZjZlLWM0NmVkZTNlOGM0Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIwMlQxMzQyMTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZjdlMjRmNGNmYzJkMmUwNWZkOGY2ZTJkNjQwZGMzYWY1ZDE0OGZlNWMyMGZhYzY2MGYxNTZjZGI4NjI5ZWIyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.HeNa3Btm7HsfSIhq3B0_dWDupSuFIKdO6xszulbQuhw) @Jacobjeevan\r\n\r\nMake sure to [reset](https://github.com/ohcnetwork/care/blob/develop/Makefile) the db and load dummy data when you are running tests locally, otherwise it wouldn't be reflective of test environment.\r\n\r\nI'll take a look later."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9269",
+      "time": "2024-12-02T13:11:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9269#issuecomment-2511504723",
+      "text": "@Rishith25 you already have a few on your plate, let's get those merged 👍  assigning to Mahendar."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9271",
+      "time": "2024-12-02T13:01:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9271#issuecomment-2511481988",
+      "text": "Uses getFacilityUsers route which doesn't include is_active filter when fetching users (we need to modify this anyways as same route is being used in facility/users). Transferring to backend."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8956",
+      "time": "2024-12-02T12:42:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#issuecomment-2511440145",
+      "text": "@kihan2518B Check tests"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-01T06:14:34.000Z",
+      "title": "ohcnetwork/care_fe#9138",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9138#pullrequestreview-2471316912",
+      "text": "Updated Test Details page form UI"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-02T12:07:11.000Z",
+      "title": "ohcnetwork/care_fe#9254",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9254#pullrequestreview-2472521683",
+      "text": "Tooltip added for treating docter skills in Patient details page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9254",
+      "time": "2024-12-02T12:06:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9254#issuecomment-2511359978",
+      "text": "> @rithviknishad are there any changes required for this PR?\r\n\r\nJust needs testing 👍 "
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#9186",
@@ -43,13 +92,6 @@
       "title": "ohcnetwork/care_fe#9264",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9264#pullrequestreview-2471607320",
       "text": "Fix: [Clear Button is active when no input is selected in Dropdown]"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-01T06:14:34.000Z",
-      "title": "ohcnetwork/care_fe#9138",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9138#pullrequestreview-2471316912",
-      "text": "Updated Test Details page form UI"
     },
     {
       "type": "comment_created",
@@ -2012,7 +2054,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2595",
       "title": "Modified User Route for User Management Redesign",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": []
     },
     {
