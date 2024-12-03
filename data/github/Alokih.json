@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-02T06:06:20.000Z",
+  "last_updated": "2024-12-02T15:25:10.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9066",
+      "time": "2024-12-02T15:25:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9066#issuecomment-2511837691",
+      "text": "@nihal467 issue is in facility export test but that only I am unable to understand why it is failing in CI/CD because locally everything is passing succesfully \r\nCan I just close this PR & create a new PR & see if it works ?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9066",
@@ -246,6 +253,18 @@
       "text": "Tests to verify error handling and access restrictions during Facility Creation"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9066",
+      "title": "Refactor Facility Export & Add New Sidebar collapse & expand Test",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "test failed",
+        "changes required",
+        "needs-triage"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

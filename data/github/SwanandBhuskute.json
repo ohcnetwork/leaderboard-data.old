@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-30T07:37:09.000Z",
+  "last_updated": "2024-12-02T18:03:33.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9116",
+      "time": "2024-12-02T18:03:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9116#issuecomment-2512310170",
+      "text": "@rithviknishad just want to ask\r\nin Notifications.js , we are facing some backend problem \r\nso i used only that part of startCase that removes symbols (except - _) \r\nand rest in SampleDetails.tsx , i chained both separated functions\r\n1. cleanString - removes symbols except - _\r\n2. capitalizeWords - acts as capitalize in tailwind ( if you want , we can remove this and use plain capitalize from tailwind) (i kept it just to keep track of startCase function)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9116",
@@ -409,6 +416,21 @@
       "text": "displaying full names on hover for long names only"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9116",
+      "title": "removed lodash imports and dependencies and wrote js equivalents",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8883",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8940"
+    }
+  ]
 }
