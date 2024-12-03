@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-12-02T15:01:47.000Z",
+  "last_updated": "2024-12-03T06:15:12.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-03T06:15:12.000Z",
+      "title": "ohcnetwork/care#2629",
+      "link": "https://github.com/ohcnetwork/care/pull/2629#pullrequestreview-2474677983",
+      "text": "chore: Add total doctors count to hospital doctor list response"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-02T07:39:50.000Z",
+      "title": "ohcnetwork/care_fe#9247",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9247#pullrequestreview-2471940822",
+      "text": "Bug-Fix: Patient's Age parsing discrepancy during XLS export in Sample Management System"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-03T03:11:46.000Z",
+      "title": "ohcnetwork/care_fe#9268",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9268#pullrequestreview-2474462478",
+      "text": "Fixed scroll issue in shifting in facilities."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-03T02:59:03.000Z",
+      "title": "ohcnetwork/care_fe#9259",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9259#pullrequestreview-2474433719",
+      "text": "Issues/8607/review missed"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/leaderboard#550",
@@ -42,13 +70,6 @@
       "time": "2024-12-02T09:56:45.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9267#issuecomment-2511068634",
       "text": "Also [useDebounce](https://github.com/ohcnetwork/care_fe/pull/9116/files#diff-cda4ca785473197ac020d50f1efbbecd157cb01dc09e86d93bac11be09bf54fa) hook is being implemented by @SwanandBhuskute which can be reused here instead of implementing it."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-02T07:39:50.000Z",
-      "title": "ohcnetwork/care_fe#9247",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9247#pullrequestreview-2471940822",
-      "text": "Bug-Fix: Patient's Age parsing discrepancy during XLS export in Sample Management System"
     },
     {
       "type": "issue_closed",
@@ -50130,9 +50151,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/551",
+      "title": "Update project board script to treat contributors as first class citizens of the cache",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9076",
       "title": "[draft] Scheduling",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "work-in-progress",
         "Deploy-Failed"
@@ -50141,7 +50168,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/522",
       "title": "Extract contributors joining date grouped by month",
-      "stale_for": 47,
+      "stale_for": 48,
       "labels": []
     }
   ],

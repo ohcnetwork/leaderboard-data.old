@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-12-01T01:24:40.000Z",
+  "last_updated": "2024-12-03T04:13:40.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2632",
+      "time": "2024-12-03T04:13:40.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2632#issuecomment-2513509546",
+      "text": "I still need to...\r\n- Update ``modified_date`` field in model and add any necessary serializer validation\r\n- Add ``updated_by`` field in the model and add necessary serializer validation\r\n- Update documents to reflect my changes\r\n- Update ``test_api.py`` file to test with both new fields"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2632",
+      "time": "2024-12-03T04:11:23.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2632",
+      "text": "Added a modified_date"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care#2085",
@@ -140,6 +154,13 @@
       "text": "Flushed care_static_data prefixed redis keys"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2632",
+      "title": "Added a modified_date",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }
