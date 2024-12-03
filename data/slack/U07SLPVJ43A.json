@@ -2243,33 +2243,6 @@
             "client_msg_id": "5d38710a-0527-495d-82df-1db9276db06f",
             "text": "2 Dec 2024\n\u2022 following up on issue <https://github.com/ohcnetwork/care_fe/pull/9116|9116>\nnext\n\u2022 look for new issues",
             "team": "TC99SV7B6",
-            "attachments": [
-                {
-                    "id": 1,
-                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
-                    "ts": 1731585279,
-                    "color": "36a64f",
-                    "bot_id": "B01V56NBBNC",
-                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/9116",
-                    "is_app_unfurl": true,
-                    "app_id": "A01BP7R4KNY",
-                    "fallback": "#9116 removed lodash imports and dependencies and wrote js equivalents",
-                    "text": "*Proposed Changes*\n\n\u2022 Fixes <https://github.com/ohcnetwork/care_fe/issues/6006|#6006>\n\u2022 remove lodash import and dependencies\n\u2022 wrote js equivalent code snippets\n\ni was unable to check this code on the frontend , coz i am not getting on which route the output displays  \nkindly help\n\n<https://private-user-images.githubusercontent.com/103440604/386182315-43d8036b-688b-4dac-9da8-646b32ae210e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMyMDkwMzQsIm5iZiI6MTczMzIwODczNCwicGF0aCI6Ii8xMDM0NDA2MDQvMzg2MTgyMzE1LTQzZDgwMzZiLTY4OGItNGRhYy05ZGE4LTY0NmIzMmFlMjEwZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIwM1QwNjUyMTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lYmRlODJlZmJlMDNiMDQ2MDIwZjdmMTIwNDQyODQ2ZWYxMDVkNzk5ZTQ1NDNhMWRhYzZkNTU1ZTE2MGQ4NzZkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.posbXurk7s2S9aXC9RoeWAw0AikaVu7oDBnadjV47Fw|image>  \nthis was generated after build\n\n@ohcnetwork/care-fe-code-reviewers\n\n*Merge Checklist*\n\n\u2022 Add specs that demonstrate bug / test a new feature.\n\u2022 Update <https://docs.ohc.network|product documentation>.\n\u2022 Ensure that UI text is kept in I18n files.\n\u2022 Prep screenshot or demo video for changelog entry, and attach it to issue.\n\u2022 Request for Peer Reviews\n\u2022 Completion of QA\n\n*Summary by CodeRabbit*\n\n*Release Notes*\n\n\u2022 *New Features*  \n   \u2022 Introduced a custom `useDebounce` hook for improved input handling.  \n   \u2022 Added new localization entries for sample test statuses and results.  \n   \u2022 New `autoCapitalize` prop in `TextFormField` for automatic text capitalization.\n\u2022 *Bug Fixes*  \n   \u2022 Enhanced error handling in various components for better user feedback.\n\u2022 *Refactor*  \n   \u2022 Removed lodash dependencies, replacing them with native JavaScript methods and local utility functions for improved performance and maintainability.  \n   \u2022 Streamlined state management and data processing across multiple components, enhancing clarity and control.\n\u2022 *Documentation*  \n   \u2022 Updated localization file to enhance user experience with new sample test-related texts.",
-                    "title": "#9116 removed lodash imports and dependencies and wrote js equivalents",
-                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/9116",
-                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
-                    "fields": [
-                        {
-                            "value": "14",
-                            "title": "Comments",
-                            "short": true
-                        }
-                    ],
-                    "mrkdwn_in": [
-                        "text"
-                    ]
-                }
-            ],
             "blocks": [
                 {
                     "type": "rich_text",

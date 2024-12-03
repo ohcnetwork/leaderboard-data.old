@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-11-29T23:42:21.000Z",
+  "last_updated": "2024-12-03T13:21:33.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9035",
+      "time": "2024-12-03T13:21:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9035#issuecomment-2514544237",
+      "text": "> > @nihal467 I rebased and removed merge conflict , but it is giving some importing errors on the build in PatientHone.tsx . I am not able to understand what happened .\r\n> \r\n> PatientHome just had a layout change, so probably a result of that. If there's import errors, probably an issue in merging 🤔\r\n> \r\n> Can you share screenshot of the errors? @Ayush1404\r\n\r\nYes i will attach some screenshots , it is probably because PatientHome.tsx was completely changed . Should i just make another PR and close this one with the changes , cause as it was completely changed , the button i was adding id to doesn't even exist on that page , i think that will be better . \r\n<img width=\"1512\" alt=\"Screenshot 2024-12-03 at 6 47 25 PM\" src=\"https://github.com/user-attachments/assets/86aa74aa-e219-4685-80e7-5063ebbbb657\">\r\n<img width=\"1512\" alt=\"Screenshot 2024-12-03 at 6 47 34 PM\" src=\"https://github.com/user-attachments/assets/133831d7-e7c4-4b6e-a71a-8f3fb8872925\">\r\n "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9035",
@@ -58,6 +65,16 @@
       "text": "@nihal467 Can I work on this? Please assign it me."
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9035",
+      "title": "added cypress tests for shifting request",
+      "stale_for": 0,
+      "labels": [
+        "changes required",
+        "Deploy-Failed"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }
