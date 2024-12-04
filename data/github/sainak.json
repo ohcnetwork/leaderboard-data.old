@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-12-03T16:46:34.000Z",
+  "last_updated": "2024-12-04T07:35:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9237",
+      "time": "2024-12-04T07:35:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9237#issuecomment-2516413665",
+      "text": "digital ocean is using the latest version of heroku build pack, their documentation is outdated\r\nhere is the log of the most recent build\r\n<img width=\"328\" alt=\"image\" src=\"https://github.com/user-attachments/assets/3ffe12c6-9f58-4ed6-9d76-ca92359f415f\">\r\n\r\nwe should change the `>=22.11.0` to `^22.11.0` so that the pipelines install the correct major version\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9237",
+      "time": "2024-12-04T06:14:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9237#issuecomment-2516290960",
+      "text": "Digital ocean allows using heroku-buildpack-nodejs which supports newer nodejs versions and is more maintained "
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-12-03T16:46:34.000Z",
@@ -16985,13 +16999,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_livekit_fe/pull/3",
       "title": "Update imports",
-      "stale_for": 27,
+      "stale_for": 28,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_livekit_fe/pull/2",
       "title": "make DoctorLiveConnect lazy load",
-      "stale_for": 32,
+      "stale_for": 33,
       "labels": []
     },
     {

@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-12-03T07:32:15.000Z",
+  "last_updated": "2024-12-04T10:14:16.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9272",
+      "time": "2024-12-04T10:14:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9272#issuecomment-2516833796",
+      "text": "Hey @nihal467 is that ok if will redirect user on `Edit Consultation Page` on button click?"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9294",
+      "time": "2024-12-04T09:51:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9294",
+      "text": "Fix Patient Status Condtion"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9289",
+      "time": "2024-12-04T09:20:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9289#issuecomment-2516658216",
+      "text": "Hey @Jacobjeevan, I've looked into the issue, and it seems to be with the backend. When fetching the response for a particular discharged patient, the `is_active` flag is incorrectly set to true. Additionally, there are missing fields value such as `\"new_discharge_reason\"``, `\"discharge_notes\"`, `\"discharge_prescription\"`, and `\"discharge_prn_prescription\"`. To address this, we could pass a parameter in the URL to indicate whether it's the discharged patient page or not."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9289",
+      "time": "2024-12-04T08:28:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9289#issuecomment-2516533800",
+      "text": "Yup I'll do that\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9289",
+      "time": "2024-12-04T08:10:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9289#issuecomment-2516492960",
+      "text": "Can you please assign this issue to me?\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9270",
+      "time": "2024-12-04T07:28:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9270#issuecomment-2516403220",
+      "text": "Hey @shivankacker, it seems that when we update fields like `onsetDate` or `symptom`, the component gets re-rendered. This is expected behavior, so I believe the test suit should be updated to account for this. Would it be okay to adjust the test suit accordingly?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9272",
@@ -879,15 +921,34 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9296",
+      "title": "Add View Consultation Button",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9294",
+      "title": "Fix Patient Status Condtion",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9270",
       "title": "Fixes UI Bug Issue in Symptom Editor",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9190",
       "title": "Fix Inifinite Load issue in notes",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": [
         "tested",
         "changes required"
@@ -896,9 +957,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9062",
       "title": "Update Resource Forms to Enhance Validation",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
-        "test failed"
+        "test failed",
+        "changes required"
       ]
     }
   ],
