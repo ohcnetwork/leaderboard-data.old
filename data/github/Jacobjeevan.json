@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-12-03T10:01:43.000Z",
+  "last_updated": "2024-12-03T17:58:11.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-03T17:58:11.000Z",
+      "title": "ohcnetwork/care_fe#9220",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9220#pullrequestreview-2476434088",
+      "text": "Updated Non-Core Question Workflow"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9035",
+      "time": "2024-12-03T13:50:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9035#issuecomment-2514614351",
+      "text": "> > > @nihal467 I rebased and removed merge conflict , but it is giving some importing errors on the build in PatientHone.tsx . I am not able to understand what happened .\r\n> > \r\n> > \r\n> > PatientHome just had a layout change, so probably a result of that. If there's import errors, probably an issue in merging 🤔\r\n> > Can you share screenshot of the errors? @Ayush1404\r\n> \r\n> Yes i will attach some screenshots , it is probably because PatientHome.tsx was completely changed . Should i just make another PR and close this one with the changes , cause as it was completely changed , the button i was adding id to doesn't even exist on that page , i think that will be better . <img alt=\"Screenshot 2024-12-03 at 6 47 25 PM\" width=\"1512\" src=\"https://private-user-images.githubusercontent.com/59080746/391980645-86aa74aa-e219-4685-80e7-5063ebbbb657.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMyMzQwMDEsIm5iZiI6MTczMzIzMzcwMSwicGF0aCI6Ii81OTA4MDc0Ni8zOTE5ODA2NDUtODZhYTc0YWEtZTIxOS00Njg1LTgwZTctNTA2M2ViYmJiNjU3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjAzVDEzNDgyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBhN2I4NWU0MzJlZjE4N2U1Y2QwMGRkMDE2MWMxNzg0OTk0ODY3NDk2Y2JhZjA5ZWJhODM4YzljYzZmMGYwYmImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.hJNVN09W0k6C25M3AsD_aWIgVK5uUkX97LaKLQ5xFEw\"> <img alt=\"Screenshot 2024-12-03 at 6 47 34 PM\" width=\"1512\" src=\"https://private-user-images.githubusercontent.com/59080746/391980693-133831d7-e7c4-4b6e-a71a-8f3fb8872925.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMyMzQwMDEsIm5iZiI6MTczMzIzMzcwMSwicGF0aCI6Ii81OTA4MDc0Ni8zOTE5ODA2OTMtMTMzODMxZDctZTdjNC00YjZlLWE3MWEtOGYzZmI4ODcyOTI1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjAzVDEzNDgyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFjMGRmM2FmNjk3ZDY5YjhmNDk3YTk2MGRjZDk2YWM4ZDU5NzcwN2FlNzNkYTlmNzQ3MjVlZjlhYTU3MWM2YzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Xp-Xl446UwIeBMyr_QgUO16F-b_MOf9EIWWoGjXwYqg\">\r\n\r\nNo, use this PR; use git to fetch/update the relevant file and adjust the tests accordingly."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9044",
@@ -2102,7 +2116,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9080",
       "title": "User Management Redesign and User Details Page",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "tested",
