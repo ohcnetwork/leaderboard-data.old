@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-02T18:03:33.000Z",
+  "last_updated": "2024-12-04T16:08:04.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9116",
+      "time": "2024-12-04T16:08:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9116#issuecomment-2517888304",
+      "text": "@rithviknishad \r\ni removed capitalizeWords functions from SampleDetails.tsx\r\nbut need to use it in Notifications.js because\r\n\r\neg - for create_diagnoses, we need to convert it to \"Create Diagnoses\"\r\nso we need cleanString to remove _ or any symbol in the key , so it becomes \"create diagnoses\"\r\nthen capitalizeWords for making it \"Create Diagnoses\""
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9116",
@@ -416,6 +423,22 @@
       "text": "displaying full names on hover for long names only"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9116",
+      "title": "removed lodash imports and dependencies and wrote js equivalents",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "Deploy-Failed",
+        "needs-triage"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8883",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8940"
+    }
+  ]
 }

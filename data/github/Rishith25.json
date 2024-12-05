@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-03T06:54:58.000Z",
+  "last_updated": "2024-12-04T14:30:30.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9235",
+      "time": "2024-12-04T14:30:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235#issuecomment-2517605606",
+      "text": "> @Rishith25 do a self review of the changes\r\n\r\n@rithviknishad  In my recent commit I have removed the unused `_open`. \r\nAs Tooltip clicks are not supported in mobile view I have done the changes according to this https://github.com/shadcn-ui/ui/issues/86#issuecomment-2241817826 which you have suggested and used the `onMouseEnter` and `onMouseLeave` in `tooltip.tsx` file and handled click Event in `FacilityCard` for mobile view"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9235",
@@ -569,13 +576,15 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9252",
       "title": "Fix navigation bar highlighting to select only the active section",
-      "stale_for": 3,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "waiting for backend"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2624",
       "title": "Added Emergency Number UserBaseMinimumSerializer",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": []
     },
     {
@@ -583,15 +592,13 @@
       "title": "Occupancy bed tooltip fully visible in mobile view",
       "stale_for": 0,
       "labels": [
-        "question",
-        "changes required",
-        "needs-triage"
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9201",
       "title": "Disallowing out of date range",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "changes required"
       ]
@@ -602,7 +609,8 @@
       "stale_for": 0,
       "labels": [
         "test failed",
-        "changes required"
+        "changes required",
+        "merge conflict"
       ]
     }
   ],

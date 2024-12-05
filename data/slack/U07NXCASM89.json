@@ -1774,5 +1774,191 @@
                 }
             ]
         }
+    ],
+    "2024-12-04 00:00:00": [
+        {
+            "user": "U07NXCASM89",
+            "type": "message",
+            "ts": "1733345283.823259",
+            "client_msg_id": "f69aaef4-f2db-4dca-a39b-705c962404a0",
+            "text": "December 4th\nDone\n\u2022 Investigated live/discharge status for #9289\n    \u25e6 Suggested some changes in the opened PR (ensure that status is dependent on the facility associated with patient; i.e. for a patient readmitted to a different facility, patient page from prior facility should have `discharge` status, while patient page in the new facility should show `live`).\n\u2022 Still on #9044\n    \u25e6 Encountered weird behavior for the secondary unit input, still working on it\n\u2022 Reviewed a couple of PRs\n\u2022 Took care of merge conflicts for existing PRs\n    \u25e6 For user management changes, tests are failing since I had moved validateRule to another file, but adbm plug is still expecting it from UserAdd. I might duplicate the function temporarily (can remove it once user management FE changes are merged and reference in plug is modified).\nNext\n\u2022 #9044",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "4k4Po",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "December 4th\nDone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Investigated live/discharge status for #9289"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Suggested some changes in the opened PR (ensure that status is dependent on the facility associated with patient; i.e. for a patient readmitted to a different facility, patient page from prior facility should have "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "discharge",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " status, while patient page in the new facility should show "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "live",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Still on #9044"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Encountered weird behavior for the secondary unit input, still working on it"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed a couple of PRs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Took care of merge conflicts for existing PRs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "For user management changes, tests are failing since I had moved validateRule to another file, but adbm plug is still expecting it from UserAdd. I might duplicate the function temporarily (can remove it once user management FE changes are merged and reference in plug is modified)."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "#9044"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

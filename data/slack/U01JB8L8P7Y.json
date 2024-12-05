@@ -3358,5 +3358,185 @@
                 }
             ]
         }
+    ],
+    "2024-12-05 00:00:00": [
+        {
+            "user": "U01JB8L8P7Y",
+            "type": "message",
+            "ts": "1733364343.302699",
+            "client_msg_id": "8f878ea5-fd7b-4a69-bcb6-ebee5c919cbd",
+            "text": "*3rd December*\n\u2022 Created DiagnosticReport specs\n\u2022 Synced with Yaswanth on the frontend\n*4th December*\n\u2022 Added Tasks specs and APIs for pathologist review\n\u2022 Fixed runtime errors while auto creating specimens (added checks)\n\u2022 Looked into using procedure-codes valueset in ServiceRequest (still no lead, will get back to it once the poc is done)\n\u2022 Synced with Yaswanth on the frontend\n*Next*\n\u2022 Sync with Yaswanth and get started with frontend wiring\n\u2022 Add APIs based on frontend requirements (currently using update endpoint for all status updates, add specific endpoints if necessary)\n\u2022 Review Uday's new PR (<https://github.com/ohcnetwork/care_fe/pull/9298|Doctor notes enhancement>)",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Hvnnu",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "3rd December",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Created DiagnosticReport specs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Synced with Yaswanth on the frontend"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "4th December",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added Tasks specs and APIs for pathologist review"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed runtime errors while auto creating specimens (added checks)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Looked into using procedure-codes valueset in ServiceRequest (still no lead, will get back to it once the poc is done)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Synced with Yaswanth on the frontend"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Sync with Yaswanth and get started with frontend wiring"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Add APIs based on frontend requirements (currently using update endpoint for all status updates, add specific endpoints if necessary)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Review Uday's new PR ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9298",
+                                            "text": "Doctor notes enhancement"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
