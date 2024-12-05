@@ -1746,5 +1746,136 @@
                 }
             ]
         }
+    ],
+    "2024-12-05 00:00:00": [
+        {
+            "user": "UV5PPBE2D",
+            "type": "message",
+            "ts": "1733376313.319379",
+            "client_msg_id": "2f5bd382-e4c7-418f-9735-75b5f712aadd",
+            "text": "*4th December*\nDone:\n\u2022 Refactored the CareLivekit Plugin to work with MFE targetting ES2022\n\u2022 Broke the CareLivekit Plugin trying to polyfill and avoid top-level await, and broke the working build. Hate myself for not committing the working build\n\u2022 Trying to get the Barcode Printer/Scanner work with <@UC99MFPU1> and <@U02D0NA6RHR> \n\u2022 Sync with Bodhi on Release plans for FHIR Forms Refactor\n*Up Next*\n\u2022 Continue working on the example Plugin",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "sAsuP",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "4th December",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\nDone:\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Refactored the CareLivekit Plugin to work with MFE targetting ES2022"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Broke the CareLivekit Plugin trying to polyfill and avoid top-level await, and broke the working build. Hate myself for not committing the working build"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Trying to get the Barcode Printer/Scanner work with "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "UC99MFPU1"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " and "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U02D0NA6RHR"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Sync with Bodhi on Release plans for FHIR Forms Refactor"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Up Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Continue working on the example Plugin"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

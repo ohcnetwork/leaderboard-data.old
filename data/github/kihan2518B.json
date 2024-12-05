@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-12-04T09:27:23.000Z",
+  "last_updated": "2024-12-04T18:48:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8956",
+      "time": "2024-12-04T18:48:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#issuecomment-2518266373",
+      "text": "`REACT_ENABLE_HCX = true`\r\nHey nihal I had added this in env but still Claims button is not visible in the tests."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8956",
+      "time": "2024-12-04T18:20:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#issuecomment-2518203375",
+      "text": "\r\nIt was removed as the submit button is disabled initially.\r\n`facilityPage.saveAndExitBedCapacityForm();`\r\nthis function  tries to click it but can't, hence tests were  failing"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9094",
@@ -241,14 +255,6 @@
     }
   ],
   "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9094",
-      "title": "Add 'Update Details' Button in Community Nurse Log Update Details Page",
-      "stale_for": 0,
-      "labels": [
-        "tested"
-      ]
-    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8956",
       "title": "Prevent Unnecessary Update Request in all usages of Form components and Facilities Section",

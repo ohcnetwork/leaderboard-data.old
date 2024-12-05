@@ -1,6 +1,111 @@
 {
-  "last_updated": "2024-12-04T15:58:31.000Z",
+  "last_updated": "2024-12-04T20:48:59.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9265",
+      "time": "2024-12-04T20:48:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9265#issuecomment-2518530934",
+      "text": "![image](https://github.com/user-attachments/assets/5d61d821-8f23-4a5e-bf21-958cc2a32f63)\r\n\r\n- [ ] when we edit the transcribe and reprocess it, the new data is not being fetching by replacing the old one"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9281",
+      "time": "2024-12-04T18:30:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9281#issuecomment-2518226167",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8956",
+      "time": "2024-12-04T18:24:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#issuecomment-2518210687",
+      "text": "> It was removed as the submit button is disabled initially. `facilityPage.saveAndExitBedCapacityForm();` this function tries to click it but can't, hence tests were failing\r\n\r\nThere's no need to delete the test. Instead, you can reposition the test steps as follows:\r\n\r\n1. Select the appropriate dropdown options.\r\n2. Skip filling in the \"Total\" and \"Current Count\" fields.\r\n3. Submit the form.\r\n\r\nThis approach will allow you to verify whether the appropriate error message is displayed to users after your PR changes"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9247",
+      "time": "2024-12-04T18:13:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9247#issuecomment-2518189561",
+      "text": "![image](https://github.com/user-attachments/assets/210d75e4-e553-4f53-9483-44044f831fd5)\r\n![image](https://github.com/user-attachments/assets/b47bdcd1-0027-4b34-bf54-676d10c223ce)\r\n\r\n@pooranjoyb when the patient age <1, the patient age should be shown as month and days , as we show in the patient list page, "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9209",
+      "time": "2024-12-04T18:01:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9209#issuecomment-2518164031",
+      "text": "@rithviknishad @DraKen0009 is it ready for review, I am seeing few commits in the backend"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9138",
+      "time": "2024-12-04T17:58:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9138#issuecomment-2518157130",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9190",
+      "time": "2024-12-04T17:55:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9190#issuecomment-2518151055",
+      "text": "@JavidSumra what is the status on this PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9167",
+      "time": "2024-12-04T17:54:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9167#issuecomment-2518149990",
+      "text": "@sidpg123 what is the status on this PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9145",
+      "time": "2024-12-04T17:53:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9145#issuecomment-2518148402",
+      "text": "@Jacobjeevan can you clear the merge conflict"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9134",
+      "time": "2024-12-04T17:52:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9134#issuecomment-2518145914",
+      "text": "@rohitlingarker any update"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9094",
+      "time": "2024-12-04T17:51:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9094#issuecomment-2518143316",
+      "text": "LGTM"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2636",
+      "time": "2024-12-04T17:47:01.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2636",
+      "text": "Merge Develop To Staging v24.50.0"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9299",
+      "time": "2024-12-04T17:46:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9299",
+      "text": "Merge Develop To Staging v24.50.0"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9080",
+      "time": "2024-12-04T17:42:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9080#issuecomment-2518123646",
+      "text": "@Jacobjeevan what is the status on this PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9074",
+      "time": "2024-12-04T17:40:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9074#issuecomment-2518120615",
+      "text": "@modamaan @rithviknishad the log update cypress are failing, fix the test and merge conflict"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9066",
@@ -47769,14 +47874,7 @@
       "text": "Merge Develop To Staging v24.48.0 | Patch"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9301",
-      "title": "Refactored Location Management Cypress Test",
-      "stale_for": 0,
-      "labels": []
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9106",
@@ -47785,6 +47883,10 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9104",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9105"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9041",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9301"
     }
   ]
 }
