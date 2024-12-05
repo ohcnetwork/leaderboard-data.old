@@ -1,12 +1,33 @@
 {
-  "last_updated": "2024-12-04T17:49:44.000Z",
+  "last_updated": "2024-12-05T07:48:00.000Z",
   "activity": [
     {
+      "type": "pr_reviewed",
+      "time": "2024-12-05T07:44:20.000Z",
+      "title": "ohcnetwork/care_fe#9062",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9062#pullrequestreview-2480800388",
+      "text": "Update Resource Forms to Enhance Validation"
+    },
+    {
       "type": "comment_created",
-      "title": "ohcnetwork/care_fe#9080",
-      "time": "2024-12-04T17:49:44.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9080#issuecomment-2518140348",
-      "text": "> @Jacobjeevan what is the status on this PR\r\n\r\nStill waiting on the backend 👍  I'll get the conflicts addressed though."
+      "title": "ohcnetwork/care_fe#9201",
+      "time": "2024-12-05T07:16:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9201#issuecomment-2519430927",
+      "text": "> @Jacobjeevan Can you review the changes\r\n\r\nDo the same for year as well."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9300",
+      "time": "2024-12-05T06:58:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9300#issuecomment-2519397013",
+      "text": "@ayushpatil2122 Please don't open PRs for issues that are already assigned to someone (if there's no activity, request to be assigned first). This issue was blocked 👍 Plus, we don't want to switch from multi-select anyways; we will be rebuilding symptom builder later.\r\n\r\nClosing the PR for now.\r\n\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-05T06:50:13.000Z",
+      "title": "ohcnetwork/care_fe#9296",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9296#pullrequestreview-2480631850",
+      "text": "Add View Consultation Button"
     },
     {
       "type": "pr_reviewed",
@@ -14,6 +35,20 @@
       "title": "ohcnetwork/care_fe#9294",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9294#pullrequestreview-2478719683",
       "text": "Fix Patient Status Condtion"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-05T06:04:01.000Z",
+      "title": "ohcnetwork/care_fe#9190",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9190#pullrequestreview-2480551126",
+      "text": "Adds `useInfiniteQuery` data fetching hook + fixes Inifinite Load issue in notes"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9080",
+      "time": "2024-12-04T17:49:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9080#issuecomment-2518140348",
+      "text": "> @Jacobjeevan what is the status on this PR\r\n\r\nStill waiting on the backend 👍  I'll get the conflicts addressed though."
     },
     {
       "type": "pr_reviewed",
@@ -2174,14 +2209,13 @@
       "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review",
-        "merge conflict"
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2595",
       "title": "Modified User Route for User Management Redesign",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": []
     },
     {
