@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-12-05T17:10:13.000Z",
+  "last_updated": "2024-12-06T06:14:53.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9313",
+      "time": "2024-12-06T06:14:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9313",
+      "text": "PCO2 & PO2 Secondary Unit Support"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-04T08:13:05.000Z",
+      "title": "ohcnetwork/care_fe#9278",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9278#pullrequestreview-2477616263",
+      "text": "Disabled view files and assign volunteer for discharged patients"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9294",
+      "time": "2024-12-06T04:43:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9294#issuecomment-2522114544",
+      "text": "Sync with Nitish on #9278 to create a common utility fn for getting the patient status; import that fn into this file instead."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9264",
@@ -105,13 +126,6 @@
       "time": "2024-12-04T08:19:51.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/9289#issuecomment-2516514175",
       "text": "@JavidSumra Can you open a PR before EOD?"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-04T08:13:05.000Z",
-      "title": "ohcnetwork/care_fe#9278",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9278#pullrequestreview-2477616263",
-      "text": "Disabled view files and assign volunteer for discharged patients"
     },
     {
       "type": "comment_created",
@@ -2225,6 +2239,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2638",
+      "title": "Facility Users filter out deleted users",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2637",
       "title": "Alter Pco2, Po2 and ph fields",
       "stale_for": 0,
@@ -2248,7 +2268,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2595",
       "title": "Modified User Route for User Management Redesign",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
