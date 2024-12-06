@@ -2230,6 +2230,92 @@
         {
             "user": "U06L50QL1AQ",
             "type": "message",
+            "ts": "1733435980.453369",
+            "client_msg_id": "fc173c6d-b921-4e65-bc3a-883ae33a223c",
+            "text": "December 5\nDone -\n\u2022 Fixed tests for camera plugin\n\u2022 Updated the migrations for camera plugin to also copy the created and modified date\n\u2022 Testing gh action to test plugin (still not successfull)\nNext -\n\u2022 Complete the gh action and get it reviewed. ",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "0CBHe",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "December 5\nDone -\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed tests for camera plugin"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Updated the migrations for camera plugin to also copy the created and modified date"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Testing gh action to test plugin (still not successfull)"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next -\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete the gh action and get it reviewed. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U06L50QL1AQ",
+            "type": "message",
             "ts": "1733372828.109689",
             "client_msg_id": "f2e0bc55-4138-4f24-a0fb-e5439612d1eb",
             "text": "4th December \n\nDone \n\u2022 Investigated the migrations issue using the latest pg dump, and was able to run everything without any error.\n\u2022 Worked on gh action to test PRs raised on plugin repo. Tested it a few time but was unable to get success.\nNext - \n\u2022 Update the migration script in camera plugin to also copy the created and modified date.\n\u2022 Raise PR for gh action mentioned above after successful testing.\nMy work speed has decreased, and am unable to give more time bcz of college. Have practical (today), minor project submission ( 6-7) and then end sem starting from 9th. But I'll try to get things assigned to me done and pick some minor issues for the next 2 weeks",
