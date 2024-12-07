@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-12-04T14:30:30.000Z",
+  "last_updated": "2024-12-06T17:03:52.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9235",
+      "time": "2024-12-06T17:03:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235#issuecomment-2523752514",
+      "text": "Hey @rithviknishad, the tooltip is now working fine on both mobile and desktop. I have added a click event in `FacilityCard` for mobile view and removed `onMouseEnter` and `onMouseLeave` as they are not needed. Even without them, the tooltip works perfectly on mobile using the `onClick` event. Could you please review it?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9201",
+      "time": "2024-12-06T16:27:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9201#issuecomment-2523678743",
+      "text": "Hey @Jacobjeevan , I have made changes to the min and max limits. The min and max limits for both year and month are now working fine. I have tested all scenarios, and no unusual behavior has been observed. It is ready for review."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9235",
@@ -574,9 +588,17 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9329",
+      "title": "Fix: Allergies Count in Patient details page",
+      "stale_for": 0,
+      "labels": [
+        "discussion required"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9252",
       "title": "Fix navigation bar highlighting to select only the active section",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": [
         "waiting for backend"
       ]
@@ -584,7 +606,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2624",
       "title": "Added Emergency Number UserBaseMinimumSerializer",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": []
     },
     {
@@ -592,7 +614,9 @@
       "title": "Occupancy bed tooltip fully visible in mobile view",
       "stale_for": 0,
       "labels": [
-        "needs review"
+        "question",
+        "needs review",
+        "needs-triage"
       ]
     },
     {
@@ -609,8 +633,7 @@
       "stale_for": 0,
       "labels": [
         "test failed",
-        "changes required",
-        "merge conflict"
+        "changes required"
       ]
     }
   ],
