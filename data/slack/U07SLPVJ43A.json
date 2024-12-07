@@ -2550,5 +2550,130 @@
                 }
             ]
         }
+    ],
+    "2024-12-06 00:00:00": [
+        {
+            "user": "U07SLPVJ43A",
+            "type": "message",
+            "ts": "1733514692.199749",
+            "client_msg_id": "145df094-455c-43df-bf23-fa992b2f3b6e",
+            "text": "6 Dec 2024\n\u2022 worked on issue <https://github.com/ohcnetwork/care_fe/issues/8028|8028>\nnext\n\u2022 raise PR for 8028\n\u2022 comeplete 8028\n\u2022 look for new issues",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1718475704,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/issues/8028",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#8028 Modify the IP/OP number in the facility specific discharge patient card",
+                    "text": "*Describe the bug*\n\nOn the discharge patient page, we are showing the IP/OP number, but in an edge case, it is failing:\n\n\u2022 Case 1: If a patient is discharged from Facility A with IP number 1/24 and then admitted to Facility B with a new IP number 2/2024, the IP/OP number on the patient card in the facility-specific discharge page of Facility A also gets modified based on the new IP/OP number from Facility B. [this is effecting the search by IP/OP number as well as the card]\n\u2022 Case 2: On the discharge page, we are currently showing IP/OP numbers in the search results based only on the last consultation. If I want to search for the IP/OP number of a patient who has been re-admitted five times in the same facility, only the latest consultation is considered, and older consultations in the same facility are not taken into account.\n\n*To Reproduce*  \nSteps to reproduce the behavior:\n\n1. Go to facility detail page\n2. Click on view discharge patient button\n3. search with the IP no\n4. See error\n\n*Expected behavior*\n\n\u2022 we need to return last consultation for unique patient which matches the given filters\n\n*Screenshots*\n\n<https://private-user-images.githubusercontent.com/57055998/340015116-593bcbc1-e157-479a-86a6-8146398c06c4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzM1MTQ5OTMsIm5iZiI6MTczMzUxNDY5MywicGF0aCI6Ii81NzA1NTk5OC8zNDAwMTUxMTYtNTkzYmNiYzEtZTE1Ny00NzlhLTg2YTYtODE0NjM5OGMwNmM0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjA2VDE5NTEzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU1MjliZDQ4Nzc5NTAyYmJkNDNjYmM1YmQ2ZjJlMTVkMjk0NGFkN2Q3YzFhZDUxNTU1MzliYTcwMzYwNzdhNjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._HvppBAWQEs4keGz41o4EbVVnTjU9MklMAS8JCpaWxg|image>",
+                    "title": "#8028 Modify the IP/OP number in the facility specific discharge patient card",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/issues/8028",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "<https://github.com/SwanandBhuskute|@SwanandBhuskute>",
+                            "title": "Assignees",
+                            "short": true
+                        },
+                        {
+                            "value": "7",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Z5GM2",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "6 Dec 2024\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "worked on issue "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/issues/8028",
+                                            "text": "8028"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "raise PR for 8028"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "comeplete 8028"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "look for new issues"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
