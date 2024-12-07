@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-10-04T13:14:06.000Z",
+  "last_updated": "2024-12-07T10:00:12.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9327",
+      "time": "2024-12-07T10:00:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9327#issuecomment-2525056472",
+      "text": "@modamaan I believe we can't remove the duplicate breadcrumb without adding an additional prop because the Page component is creating both the title and breadcrumb. Since the Page component is used to render both 'Resource Details' and 'Approval Letter', we might need to either add a prop to control this behavior or create an entirely new component specifically for PrintPreview to avoid duplication.\r\n```\r\n<Page\r\n  title={\"Resource details\"}\r\n  crumbsReplacements={{ [props.id]: { name: data.title } }}\r\n  backUrl={\"/resource/board\"}\r\n>\r\n  {isPrintMode ? (\r\n    <div className=\"my-4\">\r\n      <PrintPreview title=\"Approval Letter\">\r\n        {ApprovalLetter(data)}\r\n      </PrintPreview>\r\n    </div>\r\n  ) : (\r\n    // your other component here\r\n  )}\r\n</Page>\r\n```\r\nPlease check this ."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9327",
+      "time": "2024-12-07T09:27:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9327#issuecomment-2525048789",
+      "text": "Without adding the hideControls prop, the breadcrumb navigation bar appears duplicated. If it's fine, we can remove the 'Resource Details' navigation and use the 'PrintPreview' one instead. Let me know your thoughts!"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9324",
+      "time": "2024-12-07T06:19:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9324#issuecomment-2524963360",
+      "text": "Hi @rithviknishad, @modamaan \n\nThanks for your quick feedback!\n\n1. **Duplicate Print Button**: I understand the issue of the duplicate print button due to the existing `PrintPreview` component. To resolve this, I've implemented conditional rendering to hide the redundant print button when the `PrintPreview` component is available.\n\n2. **Button Component**: As requested, I’ve switched to using the primary variant of the `Button` component from the `ui` directory instead of `ButtonV2`.\n\nHere’s the updated outcome:\n\n![Updated Approval Letter Screenshot](https://github.com/user-attachments/assets/00214954-9b2d-4f76-97b5-573a067fba78)\n\nPlease let me know if any further changes are required before new PR.\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9327",
+      "time": "2024-12-07T05:56:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9327#issuecomment-2524954314",
+      "text": "Hi @rithviknishad, \r\n\r\nThanks for your quick feedback!\r\n\r\n1. **Duplicate Print Button**: I understand the issue of the duplicate print button due to the existing `PrintPreview` component. To resolve this, I've implemented conditional rendering to hide the redundant print button when the `PrintPreview` component is available.\r\n\r\n2. **Button Component**: As requested, I’ve switched to using the primary variant of the `Button` component from the `ui` directory instead of `ButtonV2`.\r\n\r\nHere’s the updated outcome:\r\n\r\n![Updated Approval Letter Screenshot](https://github.com/user-attachments/assets/00214954-9b2d-4f76-97b5-573a067fba78)\r\n\r\nPlease let me know if any further changes are required.\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9327",
+      "time": "2024-12-07T04:47:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9327",
+      "text": "FIX : Formatting of Approval Letter #9324 . to the issue"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9324",
+      "time": "2024-12-07T04:29:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9324#issuecomment-2524864952",
+      "text": "@Jacobjeevan, I’d like to work on this issue.\n "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care#2426",
@@ -9,6 +51,15 @@
       "text": "Hey @rithviknishad, I want to work on this issue. Can I add the prescribed_by_doctor attribute to the Prescription model? "
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9327",
+      "title": "FIX : Formatting of Approval Letter ",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

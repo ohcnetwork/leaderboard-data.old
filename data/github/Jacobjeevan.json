@@ -1,12 +1,19 @@
 {
-  "last_updated": "2024-12-06T16:52:58.000Z",
+  "last_updated": "2024-12-07T07:50:11.000Z",
   "activity": [
     {
-      "type": "comment_created",
-      "title": "ohcnetwork/care_fe#9030",
-      "time": "2024-12-06T16:52:58.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/9030#issuecomment-2523728369",
-      "text": "@ayushsaini7717 Issue is already assigned and being worked on. For future reference, make sure to check if there's an open PR and if there's any activity there before requesting for assignment 👍 "
+      "type": "pr_reviewed",
+      "time": "2024-12-04T13:51:41.000Z",
+      "title": "ohcnetwork/care_fe#9294",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9294#pullrequestreview-2478719683",
+      "text": "Fix Patient Status Condtion"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-06T14:31:53.000Z",
+      "title": "ohcnetwork/care_fe#9317",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9317#pullrequestreview-2484966658",
+      "text": "Add tooltip for buttons on Facilty Cards for small viewports"
     },
     {
       "type": "pr_reviewed",
@@ -14,6 +21,20 @@
       "title": "ohcnetwork/care_fe#9264",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9264#pullrequestreview-2471607320",
       "text": "Fix: [Clear Button is active when no input is selected in Dropdown]"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9305",
+      "time": "2024-12-07T07:16:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9305#issuecomment-2524983264",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan)\n> \n> Changes Made\n> \n>     * Once the User clicks the Bookmark icon it turned out to Red\n> \n>     * For persisting the State, used local Storage.\n> \n\n👇 \n\n> That's not a bookmark icon, but rather patient log update icon (speaking of which, we might have to update the icon there 🤔 ).\n> \n> As such, clicking on it should take to patient log update page - consultation/consultation:id/log_updates/log:id/critical_care. You can navigate it to by visiting a patient consultation page (click on any patient with consultation) and checking the log updates tab for events (and click on view details).\n> \n> ![Image](https://github.com/user-attachments/assets/23369583-5631-4537-a723-89094c4ef084)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9030",
+      "time": "2024-12-06T16:52:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9030#issuecomment-2523728369",
+      "text": "@ayushsaini7717 Issue is already assigned and being worked on. For future reference, make sure to check if there's an open PR and if there's any activity there before requesting for assignment 👍 "
     },
     {
       "type": "comment_created",
@@ -35,13 +56,6 @@
       "title": "ohcnetwork/care_fe#9319",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9319#pullrequestreview-2485039997",
       "text": "Reorder Patient Search buttons"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-06T14:31:53.000Z",
-      "title": "ohcnetwork/care_fe#9317",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9317#pullrequestreview-2484966658",
-      "text": "Add tooltip for buttons on Facilty Cards for small viewports"
     },
     {
       "type": "comment_created",
@@ -133,13 +147,6 @@
       "time": "2024-12-05T06:58:13.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9300#issuecomment-2519397013",
       "text": "@ayushpatil2122 Please don't open PRs for issues that are already assigned to someone (if there's no activity, request to be assigned first). This issue was blocked 👍 Plus, we don't want to switch from multi-select anyways; we will be rebuilding symptom builder later.\r\n\r\nClosing the PR for now.\r\n\r\n"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-04T13:51:41.000Z",
-      "title": "ohcnetwork/care_fe#9294",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9294#pullrequestreview-2478719683",
-      "text": "Fix Patient Status Condtion"
     },
     {
       "type": "comment_created",
@@ -2290,7 +2297,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2638",
       "title": "Facility Users filter out deleted users",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -2302,13 +2309,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9313",
       "title": "Pco2 & Po2 Secondary Unit Support",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9145",
       "title": "Facility bed capacity verification test",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review"
@@ -2317,13 +2324,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2595",
       "title": "Modified User Route for User Management Redesign",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9080",
       "title": "User Management Redesign and User Details Page",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "tested",

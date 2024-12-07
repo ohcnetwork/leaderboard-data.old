@@ -28906,6 +28906,252 @@
         {
             "user": "U02TDGQQPMJ",
             "type": "message",
+            "ts": "1733591194.753909",
+            "client_msg_id": "48ba7705-ce91-46c1-8ef4-1d34daea0183",
+            "text": "*December 7th -* _Another day where cursor couldn\u2019t be helpful\u2026_\n\u2022 Synced with <@U01JB8L8P7Y> on understanding some terminologies related to FHIR\n\u2022 Reviewed the cookiecutter template PR and made <https://github.com/ohcnetwork/care-plugin-cookiecutter/pull/2/files/ae14f0a6bb64ca4395b213a3824b4e95b5b810b3..b36c35c048dd3aae78fb07ab76ddc35ae5a53fea|pushed some enhancements>.\n\u2022 Unplanned: Majority of the day went in debugging why leaderboard deployment started failing since 2 days ago due to a type error that came out of nowhere only in CF pages builds.\n    \u25e6 Tried many ways (switching node version, react version, upgrading lockfile from fresh, etc\u2026), unable to reproduce locally.\n    \u25e6 Tried switching to switching to another build command in cf pages configuration, same issue. \n    \u25e6 <https://github.com/ohcnetwork/leaderboard/pull/553|Tried upgrading to nextjs 15>. Builds take too much memory. Receiving SIGKILL threatenings from netlify preview builds\u2026 :confused: \n    \u25e6 <https://github.com/ohcnetwork/leaderboard/commit/40543275566417ab729df952ed72648c2e60c065|Upgrading to React 19> seems to have solved it. Not sure why issue was not replicable with previous version of react locally and happened only on cf pages builds.\n\u2022 Worked on trying to modify request function such that it can be used with react-query\u2019s `queryFn` along with our API routes defined in FE. Ended up realising it\u2019s cleaner to build a separate dedicated one to avoid unnecessary complications in the implementation.\n*Up Next*\n\u2022 Raise PR on react-query using care\u2019s request with few more usages.\n\u2022 Questionnaire: Complete wiring medication request and allergy APIs\n\u2022 Leaderboard: explore a way to scale points based on story points and making points allocation logic more customisable.\n\u2022 Complete Appointments ui and start integrating APIs",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "se8JY",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "December 7th - ",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Another day where cursor couldn\u2019t be helpful\u2026",
+                                    "style": {
+                                        "italic": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Synced with "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U01JB8L8P7Y"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on understanding some terminologies related to FHIR"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed the cookiecutter template PR and made "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care-plugin-cookiecutter/pull/2/files/ae14f0a6bb64ca4395b213a3824b4e95b5b810b3..b36c35c048dd3aae78fb07ab76ddc35ae5a53fea",
+                                            "text": "pushed some enhancements"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Unplanned: Majority of the day went in debugging why leaderboard deployment started failing since 2 days ago due to a type error that came out of nowhere only in CF pages builds."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tried many ways (switching node version, react version, upgrading lockfile from fresh, etc\u2026), unable to reproduce locally."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tried switching to switching to another build command in cf pages configuration, same issue. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/leaderboard/pull/553",
+                                            "text": "Tried upgrading to nextjs 15"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ". Builds take too much memory. Receiving SIGKILL threatenings from netlify preview builds\u2026 "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "confused",
+                                            "unicode": "1f615"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/leaderboard/commit/40543275566417ab729df952ed72648c2e60c065",
+                                            "text": "Upgrading to React 19"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " seems to have solved it. Not sure why issue was not replicable with previous version of react locally and happened only on cf pages builds."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Worked on trying to modify request function such that it can be used with react-query\u2019s "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "queryFn",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " along with our API routes defined in FE. Ended up realising it\u2019s cleaner to build a separate dedicated one to avoid unnecessary complications in the implementation."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Up Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Raise PR on react-query using care\u2019s request with few more usages."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Questionnaire: Complete wiring medication request and allergy APIs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Leaderboard: explore a way to scale points based on story points and making points allocation logic more customisable."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete Appointments ui and start integrating APIs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
             "ts": "1733544336.073399",
             "client_msg_id": "644d1a7e-4ada-4439-b863-694578c3eb9b",
             "text": "*December 6th*\n\u2022 Questionnaire: Wired medication search API, basic shadcn\u2019s combobox for search implemented. Needs improvement.\n\u2022 Explored Medication Requests schema.\n\u2022 Played around integrating react query with Care\u2019s request.\n\u2022 Tested out camera plug with develop db copy.\n\u2022 Watercooler: Unboxing keychron k2 pro.\n*Up Next*\n\u2022 Review cookiecutter template for plugins\n\u2022 Questionnaire: Complete wiring medication request and allergy APIs\n\u2022 Raise a PR on react-query using care\u2019s request with few more usages.\n\u2022 Leaderboard: explore a way to scale points based on story points and making points allocation logic more customisable.\n\u2022 Complete Appointments ui and start integrating APIs\n",
