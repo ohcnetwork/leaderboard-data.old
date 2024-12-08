@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-07T06:49:31.000Z",
+  "last_updated": "2024-12-08T07:37:00.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8963",
+      "time": "2024-12-08T07:37:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8963#issuecomment-2525465825",
+      "text": "Hey @nihal467 \nI replaced all instances of cy.wait() with cy.intercept() and dynamic waits.\n\nHowever, the following issues arise when certain cy.wait() statements are removed:\n\nIn FacilityHomepage.cy.ts, removing cy.wait(2000) at line 177 causes the test case to fail because the logged-in nurse cannot see the notify message on the noticeboard. Additionally, intercepts are already included, so there is no possibility of using additional intercept here.\n\nIn PatientRegistration.tsx, removing cy.wait(3000) at line 158 results in a test case failure, indicating that after selecting the gender as \"Female,\" the \"Is antenatal?\" checkbox is not displayed. No intercept is triggered when the gender selection is clicked.\n\nIn patientFileUpload.ts, removing cy.wait(2000) at line 30 within the verifyUploadFilePresence function causes the \"User-level Based Permission for File Modification\" test case to fail, while other test cases pass. I attempted to include intercepts, but the issue persists at the same point.\n\nCould you please look into this?"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9329",
@@ -607,6 +614,67 @@
       "text": "Disallow picking out of range month or year in date input dropdown"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9329",
+      "title": "Fix: Allergies Count in Patient details page",
+      "stale_for": 1,
+      "labels": [
+        "discussion required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9252",
+      "title": "Fix navigation bar highlighting to select only the active section",
+      "stale_for": 4,
+      "labels": [
+        "waiting for backend"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2624",
+      "title": "Added Emergency Number UserBaseMinimumSerializer",
+      "stale_for": 3,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235",
+      "title": "Occupancy bed tooltip fully visible in mobile view",
+      "stale_for": 1,
+      "labels": [
+        "question",
+        "needs review",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9201",
+      "title": "Disallowing out of date range",
+      "stale_for": 1,
+      "labels": [
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8963",
+      "title": "Cypress tests replace cy.wait with cy.intercept or dynamic waits",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "test failed",
+        "changes required",
+        "needs-triage"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9225",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9226"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8822",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8823"
+    }
+  ]
 }
