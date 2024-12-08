@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-07T12:49:28.000Z",
+  "last_updated": "2024-12-08T14:40:52.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2591",
+      "time": "2024-12-08T14:40:52.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2591#issuecomment-2526108802",
+      "text": "@DraKen0009 the current regex allows invalid numbers like +000000000000 or overly long ones, So Update the validation logic to enforce stricter rules may be a good approach in which numbers should start with '+', then having a valid country code and the last not be all zeroes and have a maximum of 15 digits with more efficient regix pattern."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9244",

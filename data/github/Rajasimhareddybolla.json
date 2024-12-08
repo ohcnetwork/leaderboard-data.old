@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-07T10:00:12.000Z",
+  "last_updated": "2024-12-08T16:54:42.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9327",
+      "time": "2024-12-08T16:54:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9327#issuecomment-2526217247",
+      "text": "@rithviknishad, as you mentioned, I have created a new route for the PrintPreview such that:\r\n\r\nThe back button now navigates to the Resource Details page instead of the Resources List page.\r\nThis ensures that the PrintPreview is in a separate route of its own, aligning with the expected behavior.\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9327",
@@ -51,6 +58,15 @@
       "text": "Hey @rithviknishad, I want to work on this issue. Can I add the prescribed_by_doctor attribute to the Prescription model? "
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9327",
+      "title": "FIX : Formatting of Approval Letter ",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-12-06T11:13:44.000Z",
+  "last_updated": "2024-12-08T11:20:28.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2634",
+      "time": "2024-12-08T11:20:28.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2634#issuecomment-2525657983",
+      "text": "@ANIR1604 Hey, I've attempted this and linked the PR\n\n@vigneshhari Have linked a PR, please review. Would like to add that minIO doesn't seem to support \"public-read\" ACL set during upload, hence 'facility-bucket' is initialized as public.\n\ncc: @gigincg "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2640",
+      "time": "2024-12-08T11:13:46.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2640",
+      "text": "Switch from localstack to minIO"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8235",
@@ -150,6 +164,13 @@
       "text": "Explicity mention Public Read ACL for Facility Image S3 Uploads"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2640",
+      "title": "Switch from localstack to minIO",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }

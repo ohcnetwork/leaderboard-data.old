@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-12-08T06:57:55.000Z",
+  "last_updated": "2024-12-08T14:32:53.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9322",
+      "time": "2024-12-08T14:32:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9322#issuecomment-2526080837",
+      "text": "> It's still there...\r\n> \r\n> Easiest way to revert changes to the original file is to just run the following and committing the changes\r\n> \r\n> ```shell\r\n> wget https://raw.githubusercontent.com/ohcnetwork/care_fe/refs/heads/develop/package-lock.json\r\n> ```\r\n\r\nThank you for the help and sorry for the inconvenience. I have run the above command as you instructed. Since 'wget' is not installed on my MacOS so I have run the below command: \r\n` curl -O https://raw.githubusercontent.com/ohcnetwork/care_fe/refs/heads/develop/package-lock.json `\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9322",
+      "time": "2024-12-08T12:01:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9322#issuecomment-2525682755",
+      "text": "> <img alt=\"image\" width=\"1556\" src=\"https://private-user-images.githubusercontent.com/25143503/393592905-2195f35a-a7a6-4f17-ac01-3b6b6dd73dfb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzM2NTk0NDksIm5iZiI6MTczMzY1OTE0OSwicGF0aCI6Ii8yNTE0MzUwMy8zOTM1OTI5MDUtMjE5NWYzNWEtYTdhNi00ZjE3LWFjMDEtM2I2YjZkZDczZGZiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjA4VDExNTkwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTExNWRkZDY2NjZlZDUwODRjY2JhNDBlNzc3NzFhM2U5Y2EzMWRjMTRiMzA0ZjNjYTZmYjM0NDJkNTllMGQ1ZmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.P2FVuxI-6etp6rO465f3bJoQgOlwlSy6HcglKprgVFA\">\r\n\r\nSorry for this @rithviknishad . I thought there will be no effect of indentation here. Now improved it."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9322",
+      "time": "2024-12-08T10:54:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9322#issuecomment-2525588531",
+      "text": "> Do a self review\r\n\r\nI have completed the self-review of the changes and made sure everything is in order (code style, functionality, version, etc.). Please let me know if you need anything else, or if I should proceed with any further adjustments."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9322",
@@ -183,7 +204,7 @@
     {
       "link": "https://github.com/ohcnetwork/landing/pull/35",
       "title": "enhance: Update font size and height of drop down for mobile view",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
