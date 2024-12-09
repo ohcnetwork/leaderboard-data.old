@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-12-09T07:15:34.000Z",
+  "last_updated": "2024-12-09T14:04:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9270",
+      "time": "2024-12-09T14:04:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9270#issuecomment-2528054555",
+      "text": "Hey @nihal467, I've completed the requested changes, but the test suite is failing due to some issues. I'm discussing this with Shivank to resolve it, so I'll need some additional time to fix it."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9337",
+      "time": "2024-12-09T12:30:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9337",
+      "text": "Fix Infinite render on country code change"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9336",
+      "time": "2024-12-09T12:27:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9336#issuecomment-2527789762",
+      "text": "can you please assign this issue to me?"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9336",
+      "time": "2024-12-09T12:26:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9336",
+      "text": "Infinite Rendering of PhoneNumber Field on Removing Country Code"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/docs#90",
@@ -985,6 +1013,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9337",
+      "title": "Fix Infinite render on country code change",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/docs/pull/90",
       "title": "Documentation for `useInfiniteQuery` Hook",
       "stale_for": 0,
@@ -1002,11 +1039,8 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9270",
       "title": "Fixes UI Bug Issue in Symptom Editor",
-      "stale_for": 3,
-      "labels": [
-        "question",
-        "needs-triage"
-      ]
+      "stale_for": 0,
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9190",
@@ -1022,8 +1056,8 @@
       "title": "Update Resource Forms to Enhance Validation",
       "stale_for": 0,
       "labels": [
-        "test failed",
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     }
   ],

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-09T06:28:03.000Z",
+  "last_updated": "2024-12-09T14:07:51.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9247",
+      "time": "2024-12-09T14:07:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9247#issuecomment-2528062925",
+      "text": "> @nihal467 We can show 0 itself right? Changes in the back-end will be required for this since we are not getting the DOB of the patient in this API.\n\nYes, of course 0 can be done. If you'd ask, I can go with the requested changes."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9247",
@@ -174,6 +181,7 @@
       "title": "Bug-Fix: Patient's Age parsing discrepancy during XLS export in Sample Management System",
       "stale_for": 0,
       "labels": [
+        "question",
         "changes required"
       ]
     }
