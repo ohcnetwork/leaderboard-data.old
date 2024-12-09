@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-12-08T13:04:04.000Z",
+  "last_updated": "2024-12-09T09:06:43.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-02T09:57:51.000Z",
+      "title": "ohcnetwork/care_fe#9267",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9267#pullrequestreview-2472244081",
+      "text": "Resolve infinite scroll issue in Resource page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-09T07:18:03.000Z",
+      "title": "ohcnetwork/docs#90",
+      "link": "https://github.com/ohcnetwork/docs/pull/90#pullrequestreview-2487955087",
+      "text": "Documentation for `useInfiniteQuery` Hook"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9294",
+      "time": "2024-12-09T06:07:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9294#issuecomment-2527021211",
+      "text": "The logic in the patient details page is already right, the changes made in this PR does not need to be consultation specific. Closing as the linked issue itself is not right in the first place and changes made in this PR breaks the already correct logic."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-09T05:40:28.000Z",
+      "title": "ohcnetwork/care_fe#9294",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9294#pullrequestreview-2487785308",
+      "text": "Fix Patient Status Condtion"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9321",
+      "time": "2024-12-09T03:53:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9321",
+      "text": "bug: Wrong link in the login page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-08T06:49:05.000Z",
+      "title": "ohcnetwork/care_fe#9322",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9322#pullrequestreview-2486742682",
+      "text": "fix: Update the wrong URL with correct one"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9322",
@@ -21,13 +63,6 @@
       "time": "2024-12-08T07:49:46.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9322#issuecomment-2525481695",
       "text": "Do a self review"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-08T06:49:05.000Z",
-      "title": "ohcnetwork/care_fe#9322",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9322#pullrequestreview-2486742682",
-      "text": "fix: Update the wrong URL with correct one"
     },
     {
       "type": "comment_created",
@@ -140,13 +175,6 @@
       "time": "2024-12-06T16:26:07.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/9321#issuecomment-2523676675",
       "text": "Thanks for finding that issue out!\n\nHere's the URL: https://www.digitalpublicgoods.net/r/care"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-02T09:57:51.000Z",
-      "title": "ohcnetwork/care_fe#9267",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9267#pullrequestreview-2472244081",
-      "text": "Resolve infinite scroll issue in Resource page"
     },
     {
       "type": "pr_reviewed",
@@ -50707,7 +50735,10 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9331",
       "title": "Fix excessive vertical padding in all pages",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9076",

@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-12-07T04:00:10.000Z",
+  "last_updated": "2024-12-09T07:28:25.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9325",
+      "time": "2024-12-09T07:28:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9325#issuecomment-2527142245",
+      "text": "will look into the possibility once the new restructuring of forms are merged"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9325",
+      "time": "2024-12-09T07:28:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9325",
+      "text": "Create Django API endpoint for database reset and integrate Cypress before hook"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9289",
+      "time": "2024-12-09T06:11:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9289#issuecomment-2527026988",
+      "text": "@samholics The issue arises because the patient is marked as \"live\" on the patient details page due to their admission to another facility. Since you are accessing the page as  admin,  you can view the details. However, ideally, once a patient is discharged, the patient details page should not be accessible to staff members\n\nThis problem occurs because the patient details page is shared across CARE and is not specific to a particular facility.\n\nTo address this, we need to define the ideal behavior. Some potential solutions include:\n\n- Removing the \"live\" status badge from the patient details page.\n- Updating the \"live\" badge to display the name of the current live facility, providing more context.\n\nOr Exploring other approaches to better align the page behavior with the expected workflows after discussing with the users and product teams, meanwhile I am blocking this issue and assigning it to you"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9294",
+      "time": "2024-12-09T05:40:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9294#issuecomment-2526980675",
+      "text": "![image](https://github.com/user-attachments/assets/eaeecf7f-e654-41b7-9a15-9f2c2b607168)\r\n\r\n@JavidSumra when the patient is readmitted to a facility and he/she is yet to be filed a new consultation, the patient is still showing discharged, It shouldn't be the behavior, ideally it should reflect live in the mentioned scenario\r\n\r\nCC: @Jacobjeevan @rithviknishad "
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#9326",
@@ -47948,5 +47976,18 @@
     }
   ],
   "open_prs": [],
-  "authored_issue_and_pr": []
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9106",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9163"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9104",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9105"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9041",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9301"
+    }
+  ]
 }
