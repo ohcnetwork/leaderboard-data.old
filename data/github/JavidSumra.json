@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-12-09T16:47:32.000Z",
+  "last_updated": "2024-12-10T06:46:06.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9270",
+      "time": "2024-12-10T06:46:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9270#issuecomment-2530582276",
+      "text": "Hey @nihal467, the `PatientLogUpdate` test case was failing due to some issues. I added a `cy.wait` before the date selection, and now it's passing. I also tried using the `cy.intercept` method, but it didn't work. Could you please guide me on the next steps?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2647",
+      "time": "2024-12-10T06:24:30.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2647#issuecomment-2530552831",
+      "text": "Hey @nihal467, I will fix the requested changes on [PR #9190](https://github.com/ohcnetwork/care_fe/pull/9190) by @rithviknishad related to this issue."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care#2647",
+      "time": "2024-12-10T06:21:42.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2647",
+      "text": "Service Worker Not Pushing Patient Notes to Frontend in Real-Time"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9109",
@@ -1031,7 +1052,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/90",
       "title": "Documentation for `useInfiniteQuery` Hook",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -1046,14 +1067,18 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9270",
       "title": "Fixes UI Bug Issue in Symptom Editor",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9190",
       "title": "Adds `useInfiniteQuery` data fetching hook + fixes Inifinite Load issue in notes",
       "stale_for": 0,
       "labels": [
-        "test failed"
+        "test failed",
+        "changes required"
       ]
     },
     {
@@ -1061,8 +1086,7 @@
       "title": "Update Resource Forms to Enhance Validation",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "changes required"
       ]
     }
   ],

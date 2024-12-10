@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-12-09T04:46:41.000Z",
+  "last_updated": "2024-12-10T04:11:39.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9343",
+      "time": "2024-12-10T04:11:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9343#issuecomment-2530255055",
+      "text": "Closing as duplicate of #9342 \r\n\r\nPlease update the original PR instead 👍 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-06T14:31:53.000Z",
+      "title": "ohcnetwork/care_fe#9317",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9317#pullrequestreview-2484966658",
+      "text": "Add tooltip for buttons on Facilty Cards for small viewports"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9278",
+      "time": "2024-12-10T04:02:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9278#issuecomment-2530231287",
+      "text": "> Only encounter related pages needs checks like these. In patient profile page we can simply check by `patient.is_active` alone.\r\n\r\nWell, for a patient who's readmitted, is_active check alone won't suffice. For example:\r\n\r\n`Patient A` is discharged from `Facility A` and then readmitted to `Facility B`. If we don't check for facility Id match, a user in Facility A would be able to assign volunteer and view file on the discharged patient."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-04T07:49:25.000Z",
+      "title": "ohcnetwork/care_fe#9259",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9259#pullrequestreview-2477527930",
+      "text": "Issues/8607/review missed"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-05T07:44:20.000Z",
+      "title": "ohcnetwork/care_fe#9062",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9062#pullrequestreview-2480800388",
+      "text": "Update Resource Forms to Enhance Validation"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-28T11:08:10.000Z",
+      "title": "ohcnetwork/care_fe#9201",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9201#pullrequestreview-2467702662",
+      "text": "Disallowing out of date range"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-12-09T04:46:24.000Z",
@@ -35,13 +77,6 @@
       "title": "ohcnetwork/care_fe#9294",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9294#pullrequestreview-2478719683",
       "text": "Fix Patient Status Condtion"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-06T14:31:53.000Z",
-      "title": "ohcnetwork/care_fe#9317",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9317#pullrequestreview-2484966658",
-      "text": "Add tooltip for buttons on Facilty Cards for small viewports"
     },
     {
       "type": "pr_reviewed",
@@ -142,13 +177,6 @@
       "text": "Fixed User Default View in Resource and Shifting"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2024-12-05T07:44:20.000Z",
-      "title": "ohcnetwork/care_fe#9062",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9062#pullrequestreview-2480800388",
-      "text": "Update Resource Forms to Enhance Validation"
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9305",
       "time": "2024-12-05T14:01:27.000Z",
@@ -224,13 +252,6 @@
       "time": "2024-12-04T07:53:16.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9259#issuecomment-2516448648",
       "text": "Also make sure to edit the title to be human friendly 👍 "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-04T07:49:25.000Z",
-      "title": "ohcnetwork/care_fe#9259",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9259#pullrequestreview-2477527930",
-      "text": "Issues/8607/review missed"
     },
     {
       "type": "pr_reviewed",
@@ -526,13 +547,6 @@
       "title": "ohcnetwork/care_fe#9200",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9200#pullrequestreview-2459044848",
       "text": "Fixed Breadcrumb to Display Detailed Name Instead of ID"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-28T11:08:10.000Z",
-      "title": "ohcnetwork/care_fe#9201",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9201#pullrequestreview-2467702662",
-      "text": "Disallowing out of date range"
     },
     {
       "type": "comment_created",
@@ -2325,40 +2339,43 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2641",
       "title": "Daily Rounds External Id in Notification Handler",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2638",
       "title": "Facility Users filter out deleted users",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2637",
       "title": "Alter Pco2, Po2 and ph fields",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9313",
       "title": "Pco2 & Po2 Secondary Unit Support",
       "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9145",
-      "title": "Facility bed capacity verification test",
-      "stale_for": 2,
       "labels": [
         "needs testing",
         "needs review"
       ]
     },
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9145",
+      "title": "Facility bed capacity verification test",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "tested"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2595",
       "title": "Modified User Route for User Management Redesign",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": []
     },
     {
@@ -2368,7 +2385,8 @@
       "labels": [
         "needs review",
         "tested",
-        "waiting for backend"
+        "waiting for backend",
+        "merge conflict"
       ]
     }
   ],
