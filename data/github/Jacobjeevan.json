@@ -1,6 +1,53 @@
 {
-  "last_updated": "2024-12-10T04:11:39.000Z",
+  "last_updated": "2024-12-10T12:56:27.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9351",
+      "time": "2024-12-10T12:56:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9351#issuecomment-2531564174",
+      "text": "Infinite loading doesn't seem to be an issue on the latest for local.\n\n#9264 addresses the clear button issue."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9349",
+      "time": "2024-12-10T12:23:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9349#issuecomment-2531493657",
+      "text": "@rithviknishad At this point, we could create a common banner component that takes (optional) count and search fields params to display CountBlock and SearchByMultipleFields, no?\n\nWe are reusing the same layout for Facilities and Patients (and I'd imagine we want to extend it to Assets, Sample Test, Shifting, Resources and Users)."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9349",
+      "time": "2024-12-10T12:09:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9349#issuecomment-2531460423",
+      "text": "Hmm, switch to using SearchByMultipleFields for Asset Search 🤔  The 3 buttons can go on top, next to import/export."
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2595",
+      "time": "2024-12-10T09:54:51.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2595",
+      "text": "Modified User Route for User Management Redesign",
+      "turnaround_time": 2481441
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care#2595",
+      "time": "2024-12-10T09:54:51.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2595",
+      "text": "Modified User Route for User Management Redesign",
+      "collaborated_with": [
+        "Jacobjeevan",
+        "vigneshhari"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9156",
+      "time": "2024-12-10T09:31:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9156#issuecomment-2530996373",
+      "text": "@gurramkarthiknetha Are you still working on this? You would need to update the original PR."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9343",
@@ -2345,7 +2392,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2638",
       "title": "Facility Users filter out deleted users",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
@@ -2373,20 +2420,11 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2595",
-      "title": "Modified User Route for User Management Redesign",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9080",
       "title": "User Management Redesign and User Details Page",
       "stale_for": 0,
       "labels": [
-        "needs review",
-        "tested",
-        "waiting for backend",
-        "merge conflict"
+        "tested"
       ]
     }
   ],
