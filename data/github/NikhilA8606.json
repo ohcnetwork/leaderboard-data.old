@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-04T12:59:59.000Z",
+  "last_updated": "2024-12-10T23:17:53.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9267",
+      "time": "2024-12-10T23:17:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9267#issuecomment-2533197405",
+      "text": "> Let's switch to using `useInfiniteQuery` hook as implemented in #9190 similar to how `useDebounce` was copied over. Do make sure changes its copied exactly as is to avoid merge conflicts.\r\n\r\nThank you for the suggestion. You're absolutely right that KanbanBoardType<T> is redundant since it's exactly the same as KanbanBoardProps<T>. I'll remove KanbanBoardType<T> and directly reuse KanbanBoardProps<T> to keep the code clean and consistent."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9267",
@@ -29,7 +36,7 @@
       "title": "Resolve infinite scroll issue in Resource page",
       "stale_for": 0,
       "labels": [
-        "waiting for related PR"
+        "changes required"
       ]
     }
   ],

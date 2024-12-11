@@ -29311,5 +29311,190 @@
                 }
             ]
         }
+    ],
+    "2024-12-11 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1733896467.335549",
+            "client_msg_id": "4f7e7089-d7f9-449b-ae7f-8098875e8b97",
+            "text": "*December 10th*\n\u2022 Synced with Vinu on prescriptions design in Questionnaire form\n\u2022 Figured out how structured responses submit works with help from <@UC99MFPU1> \n\u2022 Made medication request submits to work through batch requests and added some basic fields for now. Waiting for a draft design from <@U07NP23BWQH> on this.\n\u2022 Figured out all available valueset system\u2019s present in care with help from <@UC8TSEGCQ> \n\u2022 Made a reusable component `ValueSetSelect` to search any valueset\u2019s provided for a system slug.\n*Up next*\n\u2022 Get Amjith\u2019s tanstack query migration merged.\n\u2022 Update medication requests question once design ready from <@U07NP23BWQH> \n\u2022 Complete Appointments ui and start integrating APIs",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "hEoUU",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "December 10th",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Synced with Vinu on prescriptions design in Questionnaire form"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Figured out how structured responses submit works with help from "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "UC99MFPU1"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Made medication request submits to work through batch requests and added some basic fields for now. Waiting for a draft design from "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U07NP23BWQH"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on this."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Figured out all available valueset system\u2019s present in care with help from "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "UC8TSEGCQ"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Made a reusable component "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "ValueSetSelect",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " to search any valueset\u2019s provided for a system slug."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Up next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Get Amjith\u2019s tanstack query migration merged."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Update medication requests question once design ready from "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U07NP23BWQH"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete Appointments ui and start integrating APIs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

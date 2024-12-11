@@ -2232,5 +2232,193 @@
                 }
             ]
         }
+    ],
+    "2024-12-11 00:00:00": [
+        {
+            "user": "U07NXCASM89",
+            "type": "message",
+            "ts": "1733891927.336919",
+            "edited": {
+                "user": "U07NXCASM89",
+                "ts": "1733892440.000000"
+            },
+            "client_msg_id": "5d3731a9-6992-444f-b6bb-576d3260606f",
+            "text": "10th December\nDone\n\u2022 Finalized changes for Pco/Po2 FE PR: ready for review; implemented code rabbit suggestions as well\n\u2022 Adjusted tests for existing PRs (after merging latest)\n    \u25e6 Modified password perms on user management FE (would only show up for logged in user, earlier it was logged in user + super user)\n\u2022 Reviewed few contributor PRs\n\u2022 Users BE is merged :rocket: \n\u2022 Some more on the shad cn integration for user management FE\nNext\n\u2022 Merge Users FE\n    \u25e6 Remove profile component (redirect to user details page instead) and adjust/remove existing test that use profile component\n\u2022 Nothing much on my plate atm, let me know if you need help with anything :+1::skin-tone-5: ",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "GO6Qf",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "10th December\nDone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Finalized changes for Pco/Po2 FE PR: ready for review; implemented code rabbit suggestions as well"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Adjusted tests for existing PRs (after merging latest)"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Modified password perms on user management FE (would only show up for logged in user, earlier it was logged in user + super user)"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed few contributor PRs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Users BE is merged "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "rocket",
+                                            "unicode": "1f680"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Some more on the shad cn integration for user management FE"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Merge Users FE"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Remove profile component (redirect to user details page instead) and adjust/remove existing test that use profile component"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Nothing much on my plate atm, let me know if you need help with anything "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "thumbsup",
+                                            "unicode": "1f44d-1f3fe",
+                                            "skin_tone": 5
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

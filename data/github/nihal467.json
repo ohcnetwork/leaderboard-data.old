@@ -1,6 +1,83 @@
 {
-  "last_updated": "2024-12-10T16:50:31.000Z",
+  "last_updated": "2024-12-10T23:55:07.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9323",
+      "time": "2024-12-10T23:55:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9323#issuecomment-2533251662",
+      "text": "@noufalrahim https://github.com/ohcnetwork/care_fe/actions/runs/12266788899/job/34225612132?pr=9323 the care_fe deploy is failing, look into it"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9354",
+      "time": "2024-12-10T23:54:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9354#issuecomment-2533250683",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9235",
+      "time": "2024-12-10T23:50:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235#issuecomment-2533244836",
+      "text": "LGTM @Jacobjeevan can you review it"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8956",
+      "time": "2024-12-10T23:46:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#issuecomment-2533235659",
+      "text": "LGTM"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-04T14:54:45.000Z",
+      "title": "ohcnetwork/care_fe#8956",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#pullrequestreview-2478946105",
+      "text": "Prevent Unnecessary Update Request in all usages of Form components and Facilities Section"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9317",
+      "time": "2024-12-10T23:41:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9317#issuecomment-2533229409",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9270",
+      "time": "2024-12-10T23:24:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9270#issuecomment-2533207439",
+      "text": "https://www.loom.com/share/b0d219030c524e4c8ca6a35660191ff4?sid=44912730-a263-4af0-a768-0af799822c5e\r\n\r\n- when the initially the log update page is loaded, the component is auto closed without interaction"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9278",
+      "time": "2024-12-10T22:05:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9278#issuecomment-2533022348",
+      "text": "expected behavior has been modified, closing the PR as it's not solving the core issue"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-10T22:00:36.000Z",
+      "title": "ohcnetwork/care_fe#9167",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9167#pullrequestreview-2493694155",
+      "text": "Added a cypress test to assign a volunteer to a patient"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8963",
+      "time": "2024-12-10T21:45:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8963#issuecomment-2532963169",
+      "text": "> Hey @nihal467 I replaced all instances of cy.wait() with cy.intercept() and dynamic waits.\r\n> \r\n> However, the following issues arise when certain cy.wait() statements are removed:\r\n> \r\n> In FacilityHomepage.cy.ts, removing cy.wait(2000) at line 177 causes the test case to fail because the logged-in nurse cannot see the notify message on the noticeboard. Additionally, intercepts are already included, so there is no possibility of using additional intercept here.\r\n> \r\n> In PatientRegistration.tsx, removing cy.wait(3000) at line 158 results in a test case failure, indicating that after selecting the gender as \"Female,\" the \"Is antenatal?\" checkbox is not displayed. No intercept is triggered when the gender selection is clicked.\r\n> \r\n> In patientFileUpload.ts, removing cy.wait(2000) at line 30 within the verifyUploadFilePresence function causes the \"User-level Based Permission for File Modification\" test case to fail, while other test cases pass. I attempted to include intercepts, but the issue persists at the same point.\r\n> \r\n> Could you please look into this?\r\n\r\nwill look into these, can you clear the requested changes"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-04T18:46:09.000Z",
+      "title": "ohcnetwork/care_fe#8963",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8963#pullrequestreview-2413859411",
+      "text": "Cypress tests replace cy.wait with cy.intercept or dynamic waits"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9247",
@@ -579,13 +656,6 @@
       "time": "2024-12-04T15:38:29.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9062#issuecomment-2517807477",
       "text": "![image](https://github.com/user-attachments/assets/04b2ec39-2b65-4214-8cb5-c98cd7b4d7a8)\r\n\r\n- [ ] When you are creating a new resource request, without even approving a quantity its showing 1"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-04T14:54:45.000Z",
-      "title": "ohcnetwork/care_fe#8956",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#pullrequestreview-2478946105",
-      "text": "Prevent Unnecessary Update Request in all usages of Form components and Facilities Section"
     },
     {
       "type": "comment_created",
@@ -2396,13 +2466,6 @@
       "time": "2024-11-04T18:57:11.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8963#issuecomment-2455472966",
       "text": "@Rishith25 The cy.wait command was initially added in the test to prevent flakiness. The issue was created to replace hardcorded wait with cy.intercept, ensuring that tests dynamically wait for the necessary API to load and verify that the page is fully loaded before executing the next step in the test."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-04T18:46:09.000Z",
-      "title": "ohcnetwork/care_fe#8963",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8963#pullrequestreview-2413859411",
-      "text": "Cypress tests replace cy.wait with cy.intercept or dynamic waits"
     },
     {
       "type": "comment_created",
