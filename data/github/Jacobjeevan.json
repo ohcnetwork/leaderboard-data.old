@@ -1,6 +1,41 @@
 {
-  "last_updated": "2024-12-10T12:56:27.000Z",
+  "last_updated": "2024-12-10T15:39:48.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9352",
+      "time": "2024-12-10T15:39:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9352#issuecomment-2532092663",
+      "text": "@gurramkarthiknetha Bro, this is the 4th one 😅  As I've mentioned before, please update the original PR instead of opening new ones.\r\n\r\n#9161 is the original."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-10T15:36:38.000Z",
+      "title": "ohcnetwork/care_fe#9354",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9354#pullrequestreview-2492729922",
+      "text": "fix infinite loading"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9356",
+      "time": "2024-12-10T15:30:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9356#issuecomment-2532060838",
+      "text": "It's from AutoCompleteAsync; #9351 mentions issue with FacilitySelect, which is due to this.\n\nPR #9354 addresses it 👍 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-29T00:11:38.000Z",
+      "title": "ohcnetwork/care_fe#9235",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235#pullrequestreview-2468891978",
+      "text": "Occupancy bed tooltip fully visible in mobile view"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9351",
+      "time": "2024-12-10T14:31:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9351#issuecomment-2531798854",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) I'm on latest codebase too, but somehow I'm facing that infinite load issue 🤔\n\nMy bad, I hadn't fetched to latest; looks like it's due to changes in AutoCompleteAsync, so @manmeetnagii 's PR addresses the issue."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9351",
@@ -545,13 +580,6 @@
       "time": "2024-11-29T05:29:20.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9200#issuecomment-2507115726",
       "text": "> @rithviknishad Could you please review the PR again? If there's anything, Do let me know\r\n\r\nHe already approved it 🤔  and there hasn't been any changes since approval."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-29T00:11:38.000Z",
-      "title": "ohcnetwork/care_fe#9235",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9235#pullrequestreview-2468891978",
-      "text": "Occupancy bed tooltip fully visible in mobile view"
     },
     {
       "type": "comment_created",
@@ -2407,7 +2435,8 @@
       "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review"
+        "needs review",
+        "waiting for backend"
       ]
     },
     {

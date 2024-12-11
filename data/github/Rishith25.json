@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-12-08T14:11:58.000Z",
+  "last_updated": "2024-12-10T16:48:35.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9252",
+      "time": "2024-12-10T16:48:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9252#issuecomment-2532266498",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/394366077-da49aa40-b2ec-4230-988d-e09ca0096587.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzM4NDkyODYsIm5iZiI6MTczMzg0ODk4NiwicGF0aCI6Ii81NzA1NTk5OC8zOTQzNjYwNzctZGE0OWFhNDAtYjJlYy00MjMwLTk4OGQtZTA5Y2EwMDk2NTg3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjEwVDE2NDMwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVjMDdkNTI3ZWQ3ZTJhZGMwZTVmOWVmZjFiY2EzNjBlYzhlZDY0OTJmNDgxYTU3Yzg3Zjg1MjlmMTA5OTE0YzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.XqfRtNs2zy04_RqeRExxi66sHti4GecNE9Iw8orNjdQ)\r\n> \r\n> the phone number is not being fetched to the frontend even with backend\r\n\r\nI raised a PR in backend so it should be merged to get the patient contact number. \r\nIn frontend we have to use phone_number instead of alt_phone_number So frist the backend need to be merged in order to get the phone_number of the volunteer."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9357",
+      "time": "2024-12-10T16:21:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9357#issuecomment-2532199586",
+      "text": "Currently we have only covid 19 vaccine to display so is it enough. So i should only need to display covid 19 vaccine right?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9357",
+      "time": "2024-12-10T16:20:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9357#issuecomment-2532198611",
+      "text": "I want to work on this Please assign it to me?\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9235",
+      "time": "2024-12-10T15:07:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235#issuecomment-2531947612",
+      "text": "@Jacobjeevan Done the changes of absolute imports of tooltip "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9329",
@@ -623,56 +651,45 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9329",
-      "title": "Fix: Allergies Count in Patient details page",
-      "stale_for": 0,
-      "labels": [
-        "question",
-        "discussion required",
-        "needs-triage"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9252",
       "title": "Fix navigation bar highlighting to select only the active section",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": [
-        "waiting for backend"
+        "test failed",
+        "waiting for backend",
+        "Deploy-Failed"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2624",
       "title": "Added Emergency Number UserBaseMinimumSerializer",
-      "stale_for": 4,
+      "stale_for": 6,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9235",
       "title": "Occupancy bed tooltip fully visible in mobile view",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "question",
         "needs review",
-        "needs-triage"
+        "tested"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9201",
       "title": "Disallowing out of date range",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs review",
+        "tested"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/8963",
       "title": "Cypress tests replace cy.wait with cy.intercept or dynamic waits",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "question",
-        "test failed",
-        "changes required",
-        "needs-triage"
+        "changes required"
       ]
     }
   ],
