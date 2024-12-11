@@ -1,6 +1,97 @@
 {
-  "last_updated": "2024-12-10T14:12:56.000Z",
+  "last_updated": "2024-12-11T10:41:07.000Z",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9374",
+      "time": "2024-12-11T10:41:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9374",
+      "text": "Upgrade Cypress CI's node version"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-11T10:08:21.000Z",
+      "title": "ohcnetwork/care_fe#9370",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9370#pullrequestreview-2495008596",
+      "text": "Bump i18next-browser-languagedetector from 8.0.0 to 8.0.2"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-11T10:07:38.000Z",
+      "title": "ohcnetwork/care_fe#9371",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9371#pullrequestreview-2495006893",
+      "text": "Bump @sentry/browser from 8.42.0 to 8.43.0"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9369",
+      "time": "2024-12-11T08:41:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9369#issuecomment-2535120982",
+      "text": "back should always be visible"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-11T08:32:36.000Z",
+      "title": "ohcnetwork/care_fe#9368",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9368#pullrequestreview-2494771440",
+      "text": "Users Manage Test Fix"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9360",
+      "time": "2024-12-11T06:54:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9360#issuecomment-2533779928",
+      "text": "Looks like there's an issue with refetching when component remounts.\r\n\r\nExample: when we go to asset list page, and open an asset and go back to asset list page using the back button, it shows no assets found."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8998",
+      "time": "2024-12-11T06:19:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8998#issuecomment-2533734852",
+      "text": "@JavidSumra @shivankacker let's skip porting over to model crud editor for now. Since fhir based form fields would end up overwriting these changes anyways."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9356",
+      "time": "2024-12-11T06:14:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9356",
+      "text": "Too many API calls made by Facility Select in Add Patient"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9351",
+      "time": "2024-12-11T06:14:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9351",
+      "text": "Infinite Loading of dropdown and clear icons in Search for Facility dialouge box"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-11T06:14:01.000Z",
+      "title": "ohcnetwork/care_fe#9354",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9354#pullrequestreview-2494412117",
+      "text": "fix infinite loading"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9360",
+      "time": "2024-12-11T05:35:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9360#issuecomment-2533682095",
+      "text": "<img width=\"1673\" alt=\"image\" src=\"https://github.com/user-attachments/assets/579342f9-5019-49aa-a365-3a60cb3ac089\">\r\n\r\nSince we have plugins, this approach isn't backwards compatible. We might have to stick with same file and function name `useQuery` instead of `useTanstackQuery` instead.\r\n\r\nWe just have to be careful when importing in new usages. However, `@deprecated` tag does help there.\r\n\r\n<img width=\"847\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ea57efe2-580d-4028-9cbf-172834cf7caa\">\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9350",
+      "time": "2024-12-11T05:18:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9350#issuecomment-2533661282",
+      "text": "Closing in favour of #9360 \r\n\r\nChanges exclusive in this PR will be made as a follow up PR. \r\n\r\n(i.e. notifications dispatched by request to use shadcn's notifications)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-11T04:22:39.000Z",
+      "title": "ohcnetwork/care_fe#9360",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9360#pullrequestreview-2494266674",
+      "text": "Replace custom useQuery util with TanStack useQuery"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-12-04T10:40:31.000Z",
@@ -50913,6 +51004,78 @@
       "text": "gh scraper: improve logging and scrape everything"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9076",
+      "title": "[draft] Scheduling",
+      "stale_for": 8,
+      "labels": [
+        "work-in-progress",
+        "Deploy-Failed",
+        "merge conflict"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_camera_asset/issues/1",
+      "pr_link": "https://github.com/ohcnetwork/care_camera_asset/pull/2"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard-data/issues/71",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/551"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/525",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/524"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8802",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8806"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8571",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8570"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8571",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2464"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8565",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8566"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8534",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8522"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8532",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8522"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8521",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8522"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2441",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2448"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8467",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8493"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/507",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/508"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/505",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/506"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/505",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard-data/pull/60"
+    }
+  ]
 }

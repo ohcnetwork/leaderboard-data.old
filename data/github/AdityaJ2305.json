@@ -1,6 +1,69 @@
 {
-  "last_updated": "2024-12-10T19:17:07.000Z",
+  "last_updated": "2024-12-11T10:45:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9374",
+      "time": "2024-12-11T10:45:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9374#issuecomment-2535497048",
+      "text": "@rithviknishad , Let me take this issue "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9367",
+      "time": "2024-12-11T10:27:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9367#issuecomment-2535456694",
+      "text": "1. Go to `Users` in sidebar\n2. Clicked on any user \n3. Click on the `Linked Facilities` in tab bar"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9367",
+      "time": "2024-12-11T10:19:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9367#issuecomment-2535438667",
+      "text": "> [@AdityaJ2305](https://github.com/AdityaJ2305) its updated can you see it now?\n\nNope \n![Image](https://github.com/user-attachments/assets/9c69ed43-cdb8-40f9-b1c1-446545c4402e)\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9367",
+      "time": "2024-12-11T10:15:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9367#issuecomment-2535427837",
+      "text": "Hey @Jacobjeevan , we are not getting `address` for already linked facilities of the user\n```\nuserListFacility: {\n    path: \"/api/v1/users/{username}/get_facilities/\",\n    method: \"GET\",\n    TRes: Type<PaginatedResponse<FacilityModel>>(),\n  },\n```"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9367",
+      "time": "2024-12-11T10:13:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9367#issuecomment-2535415007",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) Can you please ellaborate on where can i find the below page that you put up? Because I am not able find the add facility on facilities page.\n> \n> ![](https://private-user-images.githubusercontent.com/14979190/394618396-144561d0-2213-4c23-ac1d-981294b76211.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzM5MTEzODEsIm5iZiI6MTczMzkxMTA4MSwicGF0aCI6Ii8xNDk3OTE5MC8zOTQ2MTgzOTYtMTQ0NTYxZDAtMjIxMy00YzIzLWFjMWQtOTgxMjk0Yjc2MjExLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjExVDA5NTgwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBjYmNkYzlhMDZkZjUxYmE2OTE2YTY0NWY1MjlkYWJhZmY2NjEwOTUyYTQyMzMzZDQ5NTNlNjZkM2IxMDk5YzcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.3BD5M970_YQT8xtcfDwyltMQR5MgawGshtFhqSnbp1k)\n\nImage is not rendered @sanjayh-2022 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9367",
+      "time": "2024-12-11T09:46:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9367#issuecomment-2535337027",
+      "text": "Hey @sanjayh-2022, I’ve solved this issue. Would it be okay if I pushed a PR for it?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9367",
+      "time": "2024-12-11T09:45:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9367#issuecomment-2535336124",
+      "text": "Hey @sanjayh-2022, I’ve solved this issue. Would it be okay if I pushed a PR for it?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9369",
+      "time": "2024-12-11T08:39:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9369#issuecomment-2535095398",
+      "text": "@nihal467 Just a follow up question, do `Home` and `Back` should also be in dropdown just `Nalimela Anvesh` should be visible ? "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/landing#38",
+      "time": "2024-12-11T06:45:59.000Z",
+      "link": "https://github.com/ohcnetwork/landing/pull/38#issuecomment-2533769018",
+      "text": "> @AdityaJ2305 this should bring you to the home page, not the footer.\r\n\r\nOk, so we should remove the contact from header when we are already on home page ? I thought on footer we got GitHub yt slack links to get assistance and as per issue mentioned the bug was with scrolling "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/leaderboard#555",
@@ -1102,6 +1165,14 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9383",
+      "title": "Fix: Added location for linked facility",
+      "stale_for": 0,
+      "labels": [
+        "needs testing"
+      ]
+    },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/555",
       "title": "Fix:  fetch events for bots",
