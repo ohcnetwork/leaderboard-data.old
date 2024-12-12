@@ -1,6 +1,76 @@
 {
-  "last_updated": "2024-12-11T10:41:07.000Z",
+  "last_updated": "2024-12-11T15:55:45.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-11T15:55:45.000Z",
+      "title": "ohcnetwork/care_fe#9384",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9384#pullrequestreview-2496114207",
+      "text": "Fixed the user management page cypress issue"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#7382",
+      "time": "2024-12-11T14:23:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7382#issuecomment-2536141556",
+      "text": "Closing as we are switching to use shadcn's components"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#7382",
+      "time": "2024-12-11T14:23:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/7382",
+      "text": "Inline view of options missing for `AutocompleteMultiSelectFormField`"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9263",
+      "time": "2024-12-11T13:56:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9263",
+      "text": "Clear button is active when no input is selected in dropdown"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-10T03:43:50.000Z",
+      "title": "ohcnetwork/care_fe#9264",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9264#pullrequestreview-2490859527",
+      "text": "Fix: [Clear Button is active when no input is selected in Dropdown]"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-11T12:26:40.000Z",
+      "title": "ohcnetwork/care_fe#9378",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9378#pullrequestreview-2495524865",
+      "text": "Fix phone number field overflow in search component on firefox"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-11T04:22:39.000Z",
+      "title": "ohcnetwork/care_fe#9360",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9360#pullrequestreview-2494266674",
+      "text": "Replace custom useQuery util with TanStack useQuery"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9360",
+      "time": "2024-12-11T12:10:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9360#issuecomment-2535819968",
+      "text": "Opted out of caching between usages of the useQuery that has the same query key. This was causing so many weird state management issues with our existing implementation.\r\n\r\nCache for the same useQuery invocations is still present as per defaults."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9374",
+      "time": "2024-12-11T11:20:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9374",
+      "text": "Upgrade Cypress CI's node version"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-11T11:20:51.000Z",
+      "title": "ohcnetwork/care_fe#9375",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9375#pullrequestreview-2495209702",
+      "text": "Upgrade cypress version"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#9374",
@@ -87,13 +157,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-12-11T04:22:39.000Z",
-      "title": "ohcnetwork/care_fe#9360",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9360#pullrequestreview-2494266674",
-      "text": "Replace custom useQuery util with TanStack useQuery"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2024-12-04T10:40:31.000Z",
       "title": "ohcnetwork/care_fe#9297",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9297#pullrequestreview-2478069568",
@@ -175,13 +238,6 @@
       "title": "ohcnetwork/care_fe#9345",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9345#pullrequestreview-2491001283",
       "text": "Fixed Multi-selection functionality."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-10T03:43:50.000Z",
-      "title": "ohcnetwork/care_fe#9264",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9264#pullrequestreview-2490859527",
-      "text": "Fix: [Clear Button is active when no input is selected in Dropdown]"
     },
     {
       "type": "pr_reviewed",
@@ -51018,6 +51074,10 @@
   ],
   "authored_issue_and_pr": [
     {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/556",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/557"
+    },
+    {
       "issue_link": "https://github.com/ohcnetwork/care_camera_asset/issues/1",
       "pr_link": "https://github.com/ohcnetwork/care_camera_asset/pull/2"
     },
@@ -51068,14 +51128,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/507",
       "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/508"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/505",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/506"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/505",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard-data/pull/60"
     }
   ]
 }

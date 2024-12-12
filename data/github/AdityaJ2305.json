@@ -1,6 +1,35 @@
 {
-  "last_updated": "2024-12-11T10:45:24.000Z",
+  "last_updated": "2024-12-11T14:13:04.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9383",
+      "time": "2024-12-11T14:13:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9383",
+      "text": "Fix: Added location for linked facility"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9367",
+      "time": "2024-12-11T13:11:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9367#issuecomment-2535952916",
+      "text": "> Hey [@Jacobjeevan](https://github.com/Jacobjeevan) , we are not getting `address` for already linked facilities of the user\n> \n> ```\n> userListFacility: {\n>     path: \"/api/v1/users/{username}/get_facilities/\",\n>     method: \"GET\",\n>     TRes: Type<PaginatedResponse<FacilityModel>>(),\n>   },\n> ```\n\nHey @Jacobjeevan, Can you confirm this one "
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9375",
+      "time": "2024-12-11T11:20:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9375",
+      "text": "Upgrade cypress version",
+      "turnaround_time": 1400
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9375",
+      "time": "2024-12-11T10:57:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9375",
+      "text": "Upgrade cypress version"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9374",
@@ -1176,7 +1205,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/555",
       "title": "Fix:  fetch events for bots",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
