@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-10T16:48:35.000Z",
+  "last_updated": "2024-12-12T17:44:42.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9235",
+      "time": "2024-12-12T17:44:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235#issuecomment-2539607332",
+      "text": "Hi @rithviknishad  \r\nAs per your suggestion I tried to include onClick in the TooltipTrigger  of tooltip.tsx and it showed some unexpected behavior and further optimized it by Creating a tooltip component `TooltipComponent` in tooltip.tsx file and this tooltip component can be used directly in the facility card or any other components. So if this is okay I will also update the other components which are using this such as Slidebar.tsx\r\n  \r\n`FacilityCard.tsx`\r\n```.js\r\n<TooltipProvider>\r\n  <TooltipComponent content={t(\"live_patients_total_beds\")}>\r\n    <div\r\n      className={`relative flex items-center gap-1 text-sm ${\r\n        (facility.patient_count || 0) / (facility.bed_count || 0) > 0.85\r\n          ? \"justify-center rounded-md border border-red-600 bg-red-500 p-1 font-bold text-white\"\r\n          : \"text-secondary-700\"\r\n      }`}\r\n    >\r\n      <CareIcon icon=\"l-bed\" />\r\n      <dt>\r\n        {t(\"occupancy\")}: {facility.patient_count} / {facility.bed_count}\r\n      </dt>\r\n    </div>\r\n  </TooltipComponent>\r\n</TooltipProvider>;\r\n\r\n```\r\n\r\n`tooltip.tsx`\r\n```.js\r\nimport * as TooltipPrimitive from \"@radix-ui/react-tooltip\";\r\nimport * as React from \"react\";\r\n\r\nimport { cn } from \"@/lib/utils\";\r\n\r\nconst TooltipProvider = TooltipPrimitive.Provider;\r\n\r\nconst Tooltip = TooltipPrimitive.Root;\r\n\r\nconst TooltipTrigger = TooltipPrimitive.Trigger;\r\n\r\nconst TooltipContent = TooltipPrimitive.Content;\r\n\r\nconst TooltipComponent = React.forwardRef<\r\n  React.ElementRef<typeof TooltipContent>,\r\n  React.ComponentPropsWithoutRef<typeof TooltipPrimitive.Content>\r\n>(({ children, content, sideOffset = 4, className }, ref) => {\r\n  const [open, setOpen] = React.useState(false);\r\n\r\n  return (\r\n    <TooltipProvider>\r\n      <Tooltip open={open} onOpenChange={setOpen} delayDuration={0}>\r\n        <TooltipTrigger asChild onClick={() => setOpen(!open)}>\r\n          {children}\r\n        </TooltipTrigger>\r\n        <TooltipContent\r\n          ref={ref}\r\n          sideOffset={sideOffset}\r\n          className={cn(\r\n            \"z-50 overflow-hidden rounded-md bg-gray-900 px-3 py-1.5 text-xs text-gray-50 animate-in fade-in-0 zoom-in-95 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 dark:bg-gray-50 dark:text-gray-900\",\r\n            className,\r\n          )}\r\n        >\r\n          {content}\r\n        </TooltipContent>\r\n      </Tooltip>\r\n    </TooltipProvider>\r\n  );\r\n});\r\n\r\nexport { TooltipComponent, TooltipTrigger, TooltipContent, TooltipProvider };\r\n```\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9252",
@@ -653,7 +660,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9252",
       "title": "Fix navigation bar highlighting to select only the active section",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": [
         "test failed",
         "waiting for backend",
@@ -663,7 +670,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2624",
       "title": "Added Emergency Number UserBaseMinimumSerializer",
-      "stale_for": 6,
+      "stale_for": 0,
       "labels": []
     },
     {
@@ -671,8 +678,10 @@
       "title": "Occupancy bed tooltip fully visible in mobile view",
       "stale_for": 0,
       "labels": [
-        "needs review",
-        "tested"
+        "question",
+        "changes required",
+        "merge conflict",
+        "needs-triage"
       ]
     },
     {
@@ -680,8 +689,7 @@
       "title": "Disallowing out of date range",
       "stale_for": 0,
       "labels": [
-        "needs review",
-        "tested"
+        "needs review"
       ]
     },
     {
@@ -689,8 +697,7 @@
       "title": "Cypress tests replace cy.wait with cy.intercept or dynamic waits",
       "stale_for": 0,
       "labels": [
-        "changes required",
-        "merge conflict"
+        "changes required"
       ]
     }
   ],

@@ -29638,5 +29638,251 @@
                 }
             ]
         }
+    ],
+    "2024-12-13 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1734061985.458849",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1734062015.000000"
+            },
+            "client_msg_id": "17c62a21-4f65-4445-bc0f-b3496963ba5b",
+            "text": "*Dec 12th*\n\u2022 <https://github.com/ohcnetwork/leaderboard/pull/557|leaderboard#557>: Gracefully handle PR events for deleted PRs / users.\n\u2022 Fixed a minor padding issue reported by Nihal in Sample Details page caused by a recent PR. <https://github.com/ohcnetwork/care_fe/pull/9387|link>.\n\u2022 Followed up on some minor changes for useQuery migration and got it merged. \n\u2022 Resolved conflicts and merged tanstack query support from develop to form fields branch.\n\u2022 Discussions with Amjith on creating util function for TanStack Query query fn. by referencing from official docs. (So that we try to stick with standard practices as much as possible).\n\u2022 Reviewed some PRs. \n    \u25e6 Spent time trying to debug why enter key was causing form cancellations in Form component. (Trying to stick with html best practices, while reviewing <https://github.com/ohcnetwork/care_fe/pull/9396|this PR>, couldn\u2019t find the reason in the end :confused:)\n\u2022 Synced with Roopak on Appointments APIs.\n\u2022 Made little progress on on med. req UI. \n*Up Next*\n\u2022 Complete med req. UI - _been days, won\u2019t be looking at anything else until this is done._\n\u2022 Wire APIs for Appointment creation flow once APIs for that are ready.\n\u2022 Resolve conflicts on Scheduling branch and migrate to using tanstack query.\n\u2022 Wire APIs for Appointments board and list UI once APIs for that are ready.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "iUpVl",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Dec 12th",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/leaderboard/pull/557",
+                                            "text": "leaderboard#557"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ": Gracefully handle PR events for deleted PRs / users."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed a minor padding issue reported by Nihal in Sample Details page caused by a recent PR. "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9387",
+                                            "text": "link"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Followed up on some minor changes for useQuery migration and got it merged. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Resolved conflicts and merged tanstack query support from develop to form fields branch."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Discussions with Amjith on creating util function for TanStack Query query fn. by referencing from official docs. (So that we try to stick with standard practices as much as possible)."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed some PRs. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Spent time trying to debug why enter key was causing form cancellations in Form component. (Trying to stick with html best practices, while reviewing "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9396",
+                                            "text": "this PR"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ", couldn\u2019t find the reason in the end "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "confused",
+                                            "unicode": "1f615"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Synced with Roopak on Appointments APIs."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Made little progress on on med. req UI. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Up Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete med req. UI - "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "been days, won\u2019t be looking at anything else until this is done.",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Wire APIs for Appointment creation flow once APIs for that are ready."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Resolve conflicts on Scheduling branch and migrate to using tanstack query."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Wire APIs for Appointments board and list UI once APIs for that are ready."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
