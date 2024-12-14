@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-09T16:12:00.000Z",
+  "last_updated": "2024-12-13T11:43:23.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8029",
+      "time": "2024-12-13T11:43:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8029#issuecomment-2541263818",
+      "text": "@nihal467 what is the access level of \n\"WardAdmin\" , \"LocalBodyAdmin\" , \"DistrictLabAdmin\" , \"DistrictReadOnlyAdmin\" , \"StateLabAdmin\" , \"StateReadOnlyAdmin\" , \"StateAdmin\" ?\n\nAs per the discussion we had in the previous PR, DistrictAdmin has complete access regardless of the permitted facilities. How about the other Admins stated above?\n\nAlso since the requirement was changed from disabling button to giving error, should the \"Add consultation updates \" remain disabled for discharged patient?\n\nSuggestions for the error message? ![Image](https://github.com/user-attachments/assets/8bd79ffd-8f0d-403f-9821-462927a2a79b)\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#8029",
