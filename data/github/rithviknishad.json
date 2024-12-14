@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-12-13T08:40:19.000Z",
+  "last_updated": "2024-12-13T14:31:30.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-13T14:31:30.000Z",
+      "title": "ohcnetwork/docs#91",
+      "link": "https://github.com/ohcnetwork/docs/pull/91#pullrequestreview-2502433669",
+      "text": "Tanstack useQuery, useMutation docs, deprecated custom useQuery"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9395",
+      "time": "2024-12-13T12:40:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9395",
+      "text": "Util function for cleaner usage of TanStack useQuery",
+      "collaborated_with": [
+        "amjithtitus09",
+        "gigincg",
+        "o",
+        "3",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#555",
+      "time": "2024-12-13T12:36:08.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/555#issuecomment-2541355532",
+      "text": "Looking at this: https://flatgithub.com/ohcnetwork/leaderboard-data?filename=data%2Fgithub%2Fdependabot%5Bbot%5D.json&sha=98a8603b63dd721a726a2e52c14014067c7e1f0e&tab=activity\r\n\r\nLooks like only PR Merged events are there. And I had merged dependabot's PRs that day. So likely some incorrect logic there?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#555",
+      "time": "2024-12-13T12:32:30.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/555#issuecomment-2541349157",
+      "text": "You're right. But from where else it should come? 🤔 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-12T13:38:39.000Z",
+      "title": "ohcnetwork/care_fe#9395",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9395#pullrequestreview-2499643800",
+      "text": "Util function for cleaner usage of TanStack useQuery"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#5141",
@@ -70,13 +112,6 @@
       "title": "ohcnetwork/care_fe#8956",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8956#pullrequestreview-2409705831",
       "text": "Prevent Unnecessary Update Request in Facilities Section"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-12T13:38:39.000Z",
-      "title": "ohcnetwork/care_fe#9395",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9395#pullrequestreview-2499643800",
-      "text": "Util function for cleaner usage of TanStack useQuery"
     },
     {
       "type": "pr_reviewed",
@@ -51423,8 +51458,7 @@
       "stale_for": 0,
       "labels": [
         "work-in-progress",
-        "Deploy-Failed",
-        "merge conflict"
+        "Deploy-Failed"
       ]
     }
   ],

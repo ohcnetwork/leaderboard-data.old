@@ -29884,5 +29884,140 @@
                 }
             ]
         }
+    ],
+    "2024-12-14 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1734147534.748799",
+            "client_msg_id": "b76346ab-f0d1-490e-b15e-9cc6c2d9d104",
+            "text": "*13 Dec*\n\u2022 Tested and wired appointment APIs (available doctors, slots, and create). Create failing due to Slot Not Found from BE.\n\u2022 Changed from Tokens Allowed to slot size in mins + tokens per slot when creating schedule. (Else BE doesn\u2019t create slots)\n\u2022 Cleaned up Amjith\u2019s `query` util. function and merged it.\n\u2022 Made some changes to med req. UI.\n*Up Next*\n\u2022 Merge develop with scheduling and resolve conflicts.\n\u2022 Wire APIs for Appointments board and list UI once APIs for that are ready.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "lO8tY",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "13 Dec",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tested and wired appointment APIs (available doctors, slots, and create). Create failing due to Slot Not Found from BE."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Changed from Tokens Allowed to slot size in mins + tokens per slot when creating schedule. (Else BE doesn\u2019t create slots)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Cleaned up Amjith\u2019s "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "query",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " util. function and merged it."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Made some changes to med req. UI."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Up Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Merge develop with scheduling and resolve conflicts."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Wire APIs for Appointments board and list UI once APIs for that are ready."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

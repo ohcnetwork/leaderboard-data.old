@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-12-13T10:11:49.000Z",
+  "last_updated": "2024-12-13T15:12:44.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/landing#38",
+      "time": "2024-12-13T15:12:44.000Z",
+      "link": "https://github.com/ohcnetwork/landing/pull/38#issuecomment-2541669911",
+      "text": "Is the Netlify preview deployment getting updated or not? 😅"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/landing#38",
+      "time": "2024-12-13T15:10:58.000Z",
+      "link": "https://github.com/ohcnetwork/landing/pull/38#issuecomment-2541666442",
+      "text": "> Please make the requested changes\r\n\r\nIt’s working fine locally 🤔. However, I’ve made changes based on the comment below.\r\n\r\n\r\n\r\n\r\n\r\n> Hey @shivankacker, can we implement scrolling for the home page and direct redirects for the other pages?\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#555",
+      "time": "2024-12-13T12:47:25.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/555#issuecomment-2541392150",
+      "text": " \r\n\r\n> Looking at this: https://flatgithub.com/ohcnetwork/leaderboard-data?filename=data%2Fgithub%2Fdependabot%5Bbot%5D.json&sha=98a8603b63dd721a726a2e52c14014067c7e1f0e&tab=activity\r\n> \r\n> Looks like only PR Merged events are there. And I had merged dependabot's PRs that day. So even though I was the one who merged it, the author of the PR is still dependabot. So likely some incorrect logic there maybe?\r\n> \r\n> The Author of the PR should get the event and not the one who merged it.\r\n> \r\n> https://github.com/ohcnetwork/leaderboard/blob/be46e0b5dd8d35493f4ea59f752ea2240a03ddcb/scraper/src/github-scraper/parseEvents.ts#L204-L211\r\n\r\nLet me check\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9156",
@@ -1336,6 +1357,12 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9415",
+      "title": "Fix: Discharge patient showing live",
+      "stale_for": 0,
+      "labels": []
+    },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/555",
       "title": "Fix:  fetch events for bots",
