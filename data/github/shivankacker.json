@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-15T08:28:53.000Z",
+  "last_updated": "2024-12-15T14:29:47.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9400",
+      "time": "2024-12-15T14:29:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9400#issuecomment-2543895346",
+      "text": "Made all changes, except :\r\n> Add placeholders for all dropdowns as shown in our latest Figma design.\r\nThis will add a lot of translations to manage. The label of the field is sufficient enough i think\r\n> Rename 'Non-binary' to 'Transgender' in the sex field.\r\nI let it be as what it already was (specified in translations)\r\n> The phone number should only accept 10 digits.\r\nWill completely replace with a new phone number field after this PR."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9400",
@@ -12247,7 +12254,10 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9400",
       "title": "New Patient Search and Register UI",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/4",

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-12T17:44:42.000Z",
+  "last_updated": "2024-12-15T14:28:54.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9441",
+      "time": "2024-12-15T14:28:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9441",
+      "text": "Enhancement of Immunisation Records Tab in patient details page"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9235",
@@ -656,6 +663,66 @@
       "text": "Disallow picking out of range month or year in date input dropdown"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9441",
+      "title": "Enhancement of Immunisation Records Tab in patient details page",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9252",
+      "title": "Fix navigation bar highlighting to select only the active section",
+      "stale_for": 5,
+      "labels": [
+        "test failed",
+        "waiting for backend",
+        "Deploy-Failed"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2624",
+      "title": "Added Emergency Number UserBaseMinimumSerializer",
+      "stale_for": 3,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235",
+      "title": "Occupancy bed tooltip fully visible in mobile view",
+      "stale_for": 2,
+      "labels": [
+        "question",
+        "changes required",
+        "merge conflict",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9201",
+      "title": "Disallowing out of date range",
+      "stale_for": 1,
+      "labels": [
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8963",
+      "title": "Cypress tests replace cy.wait with cy.intercept or dynamic waits",
+      "stale_for": 0,
+      "labels": [
+        "changes required",
+        "merge conflict"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9225",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9226"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8822",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8823"
+    }
+  ]
 }
