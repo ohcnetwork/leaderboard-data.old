@@ -30019,5 +30019,142 @@
                 }
             ]
         }
+    ],
+    "2024-12-16 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1734322190.093209",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1734322204.000000"
+            },
+            "client_msg_id": "ed35ae09-7f4a-43cf-8bcb-3e6057932aa1",
+            "text": "*14th and 15th Dec*\n\u2022 Completed scheduling and appointments FE - Thanks to Vignesh for the BE\n\u2022 Resolved conflicts and merged it to DO branch.\n\u2022 Little changes to med req . UI - made search to add kinda thing. Almost done.\n*Up Next*\n\u2022 Gracefully handle users without home facility trying to access scheduling related stuff to avoid surprises.\n\u2022 Completed med. req. question UI.\n\u2022 Skip sending timezone information when communicating with BE and override tz when receiving data from BE on scheduling related functionalities.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Rrg/9",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "14th and 15th Dec",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Completed scheduling and appointments FE - Thanks to Vignesh for the BE"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Resolved conflicts and merged it to DO branch."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Little changes to med req . UI - made search to add kinda thing. Almost done."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Up Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Gracefully handle users without home facility trying to access scheduling related stuff to avoid surprises."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Completed med. req. question UI."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Skip sending timezone information when communicating with BE and override tz when receiving data from BE on scheduling related functionalities."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U02D0NA6RHR"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }

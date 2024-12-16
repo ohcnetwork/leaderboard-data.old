@@ -1,6 +1,104 @@
 {
-  "last_updated": "2024-12-15T21:04:53.000Z",
+  "last_updated": "2024-12-16T08:00:02.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9267",
+      "time": "2024-12-16T08:00:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9267#issuecomment-2544852521",
+      "text": "@NikhilA8606 any update on this issue"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9238",
+      "time": "2024-12-16T07:54:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9238#issuecomment-2544841031",
+      "text": "@Kaushikgtm can you clear the merge conflict"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9235",
+      "time": "2024-12-16T07:53:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235#issuecomment-2544839522",
+      "text": "@Rishith25 clear the merge conflict \r\n\r\nPR looks good for me, @rithviknishad @khavinshankar review it"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9192",
+      "time": "2024-12-16T07:50:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9192#issuecomment-2544833694",
+      "text": "closing this PR due to inactivity"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9167",
+      "time": "2024-12-16T07:47:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9167#issuecomment-2544828747",
+      "text": "@sidpg123 Could you please provide an update on the status of this PR? If there’s no response within the next 48 hours, we will proceed to close it due to inactivity."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9142",
+      "time": "2024-12-16T07:41:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9142#issuecomment-2544817451",
+      "text": "@rithviknishad your review is requested"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9137",
+      "time": "2024-12-16T07:39:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9137#issuecomment-2544815097",
+      "text": "@DraKen0009 closing this PR due to inactivity, feel free to reopen it , if you are still working on it"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8918",
+      "time": "2024-12-16T07:33:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8918#issuecomment-2544805071",
+      "text": "Closing this issue, as the entire section of staff and bed capacity has been removed from the CARE platform"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8918",
+      "time": "2024-12-16T07:33:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8918",
+      "text": "Support for preventing submit button when form content is not changed"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8956",
+      "time": "2024-12-16T07:32:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8956#issuecomment-2544803689",
+      "text": "Closing this PR, as the entire section of staff and bed capacity having been removed from CARE platform recently"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9400",
+      "time": "2024-12-16T07:15:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9400#issuecomment-2544778227",
+      "text": "## Fix the below Issue before requesting another review\r\n\r\n- [ ] Add a validation rule to ensure the phone number field accepts exactly 10 digits. Currently, patients can be created with a 9-digit number. Ensure proper error messages are displayed.\r\n- [ ] Add a mandatory validation for the age field in the patient registration form.\r\n- [ ] Unable to create a new patient / Edit a existing patient by mentioning patient age only\r\n- [ ] When a patient is created with a DOB, and we later visit the patient’s edit page, the DOB field is replaced by the calculated age based on the provided DOB. If we manually switch back to the DOB field, it appears blank.\r\n- [ ] the ration card details are not been stored while creating new patient or updating existing one\r\n- [ ] the occupation details are been stored but when we open the edit registration form page, the field is blank\r\n\r\n## Issue that can be taken in another PR\r\n\r\n- [ ] Add a translation for non-binary sex to transgender in patient registration form\r\n- [ ] Reset the patient search field when the related badge are been removed\r\n- [ ] Add a placeholders for all dropdown as per the figma file\r\n- [ ] The tab switching functionality does not properly use colors, making it difficult for users to identify the currently active tab on the initial load of the 'All Patients' page.\r\n- [ ] Restore Draft feature is missing in the new patient registration form\r\n\r\n## Question\r\n\r\n![image](https://github.com/user-attachments/assets/b58678f5-fdf3-42b7-a29d-766bddb24b51)\r\n\r\n- [ ] When filling out the patient registration form, the patient transfer form pops up for matching phone number. Can't we consider implementing this workflow in the patient search instead? Since we are already searching for all patients with the same number, couldn't the workflow be incorporated there?"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9446",
+      "time": "2024-12-16T04:49:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9446",
+      "text": "Production Release v24.51.0"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2655",
+      "time": "2024-12-16T04:47:51.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2655",
+      "text": "Production Release v24.51.0"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9209",
+      "time": "2024-12-16T04:44:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9209#issuecomment-2544585613",
+      "text": "> Add JWKS_BASE64 in /docker/local.env before building image . Should work that way\r\n> \r\n> Also if possible , please share network tab logs\r\n\r\nIts already added, seem like a middleware issue i guess\r\n\r\n![image](https://github.com/user-attachments/assets/bad6a8c1-5a21-4d35-a9fb-2ca998d6d9f9)\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9209",
@@ -48593,7 +48691,20 @@
       "text": "Merge Develop To Staging v24.48.0 | Patch"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9446",
+      "title": "Production Release v24.51.0",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2655",
+      "title": "Production Release v24.51.0",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9106",

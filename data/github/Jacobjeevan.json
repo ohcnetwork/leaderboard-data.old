@@ -1,6 +1,97 @@
 {
-  "last_updated": "2024-12-15T18:56:25.000Z",
+  "last_updated": "2024-12-16T06:57:15.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9062",
+      "time": "2024-12-16T06:57:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9062#issuecomment-2544750342",
+      "text": "Resources was cleaned up in #9439. Hold this for now (you are free to refer to it and make your changes based on those before encountering any merge conflicts)."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T05:55:33.000Z",
+      "title": "ohcnetwork/care_fe#9270",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9270#pullrequestreview-2505214136",
+      "text": "Fixes UI Bug Issue in Symptom Editor"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T05:45:22.000Z",
+      "title": "ohcnetwork/care_fe#9343",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9343#pullrequestreview-2505201444",
+      "text": "Update the Card Design in Notice Board "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-12T18:52:28.000Z",
+      "title": "ohcnetwork/care_fe#9358",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9358#pullrequestreview-2500526971",
+      "text": "UX Enhancement for Middleware Override Workflow"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T05:35:49.000Z",
+      "title": "ohcnetwork/care_fe#9378",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9378#pullrequestreview-2505189717",
+      "text": "Fix phone number field overflow in search component on firefox"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T05:32:34.000Z",
+      "title": "ohcnetwork/care_fe#9410",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9410#pullrequestreview-2505185808",
+      "text": "Fixes timestamp alignment and adds 'Last Modified' section in patient management #9397"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T05:30:59.000Z",
+      "title": "ohcnetwork/care_fe#9413",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9413#pullrequestreview-2505182193",
+      "text": "FIXED: Implement Dropdown for Hidden Breadcrumb Paths Across the Platform"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9422",
+      "time": "2024-12-16T05:19:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9422#issuecomment-2544620805",
+      "text": "> I don’t think the Cypress tests failed due to the changes in this PR. Could someone confirm?\r\n\r\nyep"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T05:18:53.000Z",
+      "title": "ohcnetwork/care_fe#9422",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9422#pullrequestreview-2505169867",
+      "text": "Fix: Volunteer access to link facility"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T05:15:10.000Z",
+      "title": "ohcnetwork/care_fe#9427",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9427#pullrequestreview-2505165304",
+      "text": "Fix avatar upload stuck state and update header after changing avatar"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T05:13:02.000Z",
+      "title": "ohcnetwork/care_fe#9432",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9432#pullrequestreview-2505163393",
+      "text": "fix: DateInput and Actions button not optimised for mobile viewports "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T05:08:51.000Z",
+      "title": "ohcnetwork/care_fe#9438",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9438#pullrequestreview-2505159226",
+      "text": "fix: added clear search on removing badge and added keyboard shortcuts"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-05T06:04:01.000Z",
+      "title": "ohcnetwork/care_fe#9190",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9190#pullrequestreview-2480551126",
+      "text": "Adds `useInfiniteQuery` data fetching hook + fixes Inifinite Load issue in notes"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#9443",
@@ -101,13 +192,6 @@
       "title": "ohcnetwork/care_fe#9345",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9345#pullrequestreview-2500538988",
       "text": "Fixed Multi-selection functionality."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-12T18:52:28.000Z",
-      "title": "ohcnetwork/care_fe#9358",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9358#pullrequestreview-2500526971",
-      "text": "UX Enhancement for Middleware Override Workflow"
     },
     {
       "type": "pr_reviewed",
@@ -613,13 +697,6 @@
       "time": "2024-12-05T14:01:27.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/9305#issuecomment-2520409812",
       "text": "That's not a bookmark icon, but rather patient log update icon (speaking of which, we might have to update the icon there 🤔 ).\n\nAs such, clicking on it should take to patient log update page - consultation/consultation:id/log_updates/log:id/critical_care. You can navigate it to by visiting a patient consultation page (click on any patient with consultation) and checking the log updates tab for events (and click on view details).\n\n![Image](https://github.com/user-attachments/assets/23369583-5631-4537-a723-89094c4ef084)\n"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-05T06:04:01.000Z",
-      "title": "ohcnetwork/care_fe#9190",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9190#pullrequestreview-2480551126",
-      "text": "Adds `useInfiniteQuery` data fetching hook + fixes Inifinite Load issue in notes"
     },
     {
       "type": "comment_created",
@@ -2742,7 +2819,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9382",
       "title": "User Profile Replacement/Removal",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"
