@@ -30024,6 +30024,160 @@
         {
             "user": "U02TDGQQPMJ",
             "type": "message",
+            "ts": "1734367611.606719",
+            "client_msg_id": "4c8c3dbe-c0c6-4cdb-8858-5c96b844b0c3",
+            "text": "*Dec 16th*\n\u2022 Reviewed some PRs\n\u2022 Gracefully handle users without home facility trying to access scheduling related pieces.\n\u2022 <https://github.com/ohcnetwork/care_fe/pull/9463|care_fe#9463>: Added `mutate` utility fn. for being used with tanstack\u2019s `useMutation`  hook and other abstractions.\n\u2022 <https://github.com/ohcnetwork/docs/pull/93|docs#93>: Docs for the same.\n*Up Next*\n\u2022 Complete med. req. question UI.\n\u2022 Skip sending timezone information when communicating with BE and override tz when receiving data from BE on scheduling related functionalities.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "mp0xS",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Dec 16th",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed some PRs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Gracefully handle users without home facility trying to access scheduling related pieces."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9463",
+                                            "text": "care_fe#9463"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ": Added "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "mutate",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " utility fn. for being used with tanstack\u2019s "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "useMutation",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "  hook and other abstractions."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/docs/pull/93",
+                                            "text": "docs#93"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ": Docs for the same."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Up Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete med. req. question UI."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Skip sending timezone information when communicating with BE and override tz when receiving data from BE on scheduling related functionalities."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
             "ts": "1734322190.093209",
             "edited": {
                 "user": "U02TDGQQPMJ",

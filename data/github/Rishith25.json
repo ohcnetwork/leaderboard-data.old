@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-12-16T07:59:30.000Z",
+  "last_updated": "2024-12-16T12:35:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9441",
+      "time": "2024-12-16T12:35:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9441#issuecomment-2545515104",
+      "text": "Hi @bodhi Currently we have only covid vaccine details.  So, for now i just displayed covid vaccine details in pateint details immunisation tab. \r\n\r\nThis is how its look like now\r\n![image](https://github.com/user-attachments/assets/8e653a30-e0ab-4a50-8d88-8acf5abe6612)\r\n\r\nWill we get immunisation record form as you mentioned earlier that we should have structure form to capture Immunisation records in encounter form.\r\n\r\nis this fine now or should i hold this PR till we get encounter form ready."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9235",
+      "time": "2024-12-16T09:00:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9235#issuecomment-2544986494",
+      "text": "> > @Rishith25 clear the merge conflict\r\n> > PR looks good for me, @rithviknishad @khavinshankar review it\r\n> \r\n> I have changed the tooltip component so could you please confirm is it fine or not.\r\n\r\n@nihal467 @rithviknishad Can you please review it and all the test cases are passing."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9235",
@@ -675,7 +689,10 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9441",
       "title": "Enhancement of Immunisation Records Tab in patient details page",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9252",
@@ -717,8 +734,10 @@
       "title": "Cypress tests replace cy.wait with cy.intercept or dynamic waits",
       "stale_for": 0,
       "labels": [
+        "question",
         "needs testing",
-        "needs review"
+        "needs review",
+        "needs-triage"
       ]
     }
   ],

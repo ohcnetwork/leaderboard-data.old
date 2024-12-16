@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-12-16T08:06:04.000Z",
+  "last_updated": "2024-12-16T13:24:26.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9458",
+      "time": "2024-12-16T13:24:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9458#issuecomment-2545626537",
+      "text": "@srijantrpth I've also updated to include improved type-safety for the useQuery's error type. Pushed it along with this since it was a very minor piece.\r\n\r\ncc: @Jacobjeevan \r\n\r\n### Before\r\n\r\n<img width=\"856\" alt=\"image\" src=\"https://github.com/user-attachments/assets/3c9407bd-6ea4-4150-83e3-32fe4b2d4c44\" />\r\n\r\n\r\n### After\r\n\r\n<img width=\"879\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7f661170-979a-4c04-8cb9-5b9a3dc20ebc\" />\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T13:04:11.000Z",
+      "title": "ohcnetwork/care_fe#9458",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9458#pullrequestreview-2506139008",
+      "text": "Added Custom Headers Logic to Query"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T11:17:02.000Z",
+      "title": "ohcnetwork/care#2656",
+      "link": "https://github.com/ohcnetwork/care/pull/2656#pullrequestreview-2505900161",
+      "text": "Fix test workflow on staging branch"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#565",
+      "time": "2024-12-16T08:57:19.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/565#issuecomment-2544978811",
+      "text": "nice find!"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-15T09:00:59.000Z",
+      "title": "ohcnetwork/care_fe#9377",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9377#pullrequestreview-2504392914",
+      "text": "Patient header UI update in Patient details page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T07:50:46.000Z",
+      "title": "ohcnetwork/care_fe#9358",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9358#pullrequestreview-2505388661",
+      "text": "UX Enhancement for Middleware Override Workflow"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9267",
@@ -28,20 +70,6 @@
       "time": "2024-12-16T07:51:41.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/9189",
       "text": "Unnecessary API Calls in Assets Update Page"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-16T07:50:46.000Z",
-      "title": "ohcnetwork/care_fe#9358",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9358#pullrequestreview-2505388661",
-      "text": "UX Enhancement for Middleware Override Workflow"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-15T09:00:59.000Z",
-      "title": "ohcnetwork/care_fe#9377",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9377#pullrequestreview-2504392914",
-      "text": "Patient header UI update in Patient details page"
     },
     {
       "type": "pr_reviewed",
@@ -51652,7 +51680,22 @@
       "text": "gh scraper: improve logging and scrape everything"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/93",
+      "title": "Update docs on using `useMutation` with `mutate`",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9463",
+      "title": "Adds `useMutation` compatible utility function and other abstractions",
+      "stale_for": 0,
+      "labels": [
+        "needs review"
+      ]
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/556",
