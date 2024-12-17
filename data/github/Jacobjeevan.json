@@ -1,12 +1,19 @@
 {
-  "last_updated": "2024-12-16T14:13:04.000Z",
+  "last_updated": "2024-12-16T21:43:51.000Z",
   "activity": [
     {
       "type": "comment_created",
-      "title": "ohcnetwork/care_fe#9458",
-      "time": "2024-12-16T14:13:04.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9458#issuecomment-2545737269",
-      "text": "> @rithviknishad So should we remove the sanitizeHeaders?\r\n\r\nyep"
+      "title": "ohcnetwork/care_fe#9467",
+      "time": "2024-12-16T21:43:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9467#issuecomment-2546875929",
+      "text": "Check the failing cypress test; should be related to the button changes."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T21:36:04.000Z",
+      "title": "ohcnetwork/care_fe#9463",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9463#pullrequestreview-2507406557",
+      "text": "Adds `useMutation` compatible utility function and other abstractions"
     },
     {
       "type": "pr_reviewed",
@@ -14,6 +21,34 @@
       "title": "ohcnetwork/care_fe#9458",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9458#pullrequestreview-2506245288",
       "text": "Added Custom Headers Logic to Query"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9461",
+      "time": "2024-12-16T21:06:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9461#issuecomment-2546771475",
+      "text": "You can open a single PR for this and #9461."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9462",
+      "time": "2024-12-16T21:05:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9462#issuecomment-2546769505",
+      "text": "Combine with #9461 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9462",
+      "time": "2024-12-16T21:05:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9462",
+      "text": "Add padding for clear visibility of text"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9458",
+      "time": "2024-12-16T14:13:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9458#issuecomment-2545737269",
+      "text": "> @rithviknishad So should we remove the sanitizeHeaders?\r\n\r\nyep"
     },
     {
       "type": "comment_created",
@@ -2849,8 +2884,8 @@
       "title": "User Profile Replacement/Removal",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "changes required",
+        "merge conflict"
       ]
     },
     {
