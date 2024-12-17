@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-16T18:06:39.000Z",
+  "last_updated": "2024-12-17T08:01:03.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9422",
+      "time": "2024-12-17T08:01:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9422#issuecomment-2547738234",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/396324612-286c13e1-f7ba-4d6f-94e2-189d71ca6d25.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ0MjI1MzEsIm5iZiI6MTczNDQyMjIzMSwicGF0aCI6Ii81NzA1NTk5OC8zOTYzMjQ2MTItMjg2YzEzZTEtZjdiYS00ZDZmLTk0ZTItMTg5ZDcxY2E2ZDI1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE3VDA3NTcxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFhNTBlYzVkMDBiMmNmYWYwMDhiNGQyODE3N2QwN2E4MDk2OWVjMmM1ZWM2ZGU4ZGU5OWNkYmUyMTg2ZmIxNWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.aTx0bX8U2FoEgKt7SIELcr55ZxP45Fx9TSNjp6812KA)\r\n> \r\n> * An admin is currently unable to unlink a facility for a volunteer user. The expected behavior is that an admin should have the ability to both link and unlink facilities for volunteer users. However, volunteer users should be restricted from unlinking their assigned facilities themselves.\r\n\r\n@nihal467, Fixed it, but restricted volunteer users from unlinking for all user types. Let me know if any changes are needed."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9466",
@@ -1482,9 +1489,7 @@
       "title": "Fix: Layout update of Asset Page ",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review",
-        "Deploy-Failed"
+        "needs testing"
       ]
     },
     {
@@ -1500,8 +1505,8 @@
       "title": "Fix: Discharge patient showing live",
       "stale_for": 0,
       "labels": [
-        "invalid",
-        "changes required"
+        "needs testing",
+        "reviewed"
       ]
     },
     {
@@ -1513,7 +1518,7 @@
     {
       "link": "https://github.com/ohcnetwork/landing/pull/38",
       "title": "Fix: Contact link does not work properly in the footer",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "changes requested"
       ]
