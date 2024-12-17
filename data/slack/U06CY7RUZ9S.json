@@ -3935,5 +3935,249 @@
                 }
             ]
         }
+    ],
+    "2024-12-16 00:00:00": [
+        {
+            "user": "U06CY7RUZ9S",
+            "type": "message",
+            "ts": "1734383206.754319",
+            "client_msg_id": "d8583591-3ddc-4497-a92c-aa04d2c42fc5",
+            "text": "Dec 13\n\u2022 Drafted Network requirements for spoke hospitals. \n\u2022 Tested out SNS for sending SMS \nDec 15\n\u2022 Tried to enable HCX to DO deployment. \n\u2022 found pydantic version issues with HCX notified <@U01JB8L8P7Y> \nDec 16\n\u2022 Opened Limit increase request for SNS \n\u2022 tried out more ways to debug medispeak in coolify. \n\u2022 performed weekly production release, rescheduled to tomorrow due to NPM server issues. \nNext\n\u2022 Hope NPM issues get resolved and perform weekly prod release\n\u2022 Get SNS ready to go and setup SMS Gateway for DO Deployment\n\u2022 Get <https://github.com/ohcnetwork/care_hcx/pull/8|#8> and <https://github.com/ohcnetwork/care/pull/2652|#2652> merged to enable HCX on DO Deployment. \n",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1734272406,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_hcx/pull/8",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#8 Bumped fhir.resources to 7.1.0 to support pydantic v2",
+                    "title": "#8 Bumped fhir.resources to 7.1.0 to support pydantic v2",
+                    "title_link": "https://github.com/ohcnetwork/care_hcx/pull/8",
+                    "footer": "<https://github.com/ohcnetwork/care_hcx|ohcnetwork/care_hcx>",
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1734272429,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care/pull/2652",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#2652 Bumped fhir.resources to 7.1.0 to support pydantic v2",
+                    "title": "#2652 Bumped fhir.resources to 7.1.0 to support pydantic v2",
+                    "title_link": "https://github.com/ohcnetwork/care/pull/2652",
+                    "footer": "<https://github.com/ohcnetwork/care|ohcnetwork/care>",
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "WF8J1",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Dec 13\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Drafted Network requirements for spoke hospitals. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tested out SNS for sending SMS "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Dec 15\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tried to enable HCX to DO deployment. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "found pydantic version issues with HCX notified "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U01JB8L8P7Y"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Dec 16\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Opened Limit increase request for SNS "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "tried out more ways to debug medispeak in coolify. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "performed weekly production release, rescheduled to tomorrow due to NPM server issues. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Hope NPM issues get resolved and perform weekly prod release"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Get SNS ready to go and setup SMS Gateway for DO Deployment"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Get "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_hcx/pull/8",
+                                            "text": "#8",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " and "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2652",
+                                            "text": "#2652",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " merged to enable HCX on DO Deployment. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

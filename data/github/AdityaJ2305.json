@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-12-16T04:39:46.000Z",
+  "last_updated": "2024-12-16T18:06:39.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9466",
+      "time": "2024-12-16T18:06:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9466#issuecomment-2546305819",
+      "text": "I don’t think the Cypress tests failed due to the changes in this PR. Could someone confirm?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9349",
+      "time": "2024-12-16T18:05:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9349#issuecomment-2546303635",
+      "text": "Hey @Jacobjeevan , I’ve created a pull request for it. Could you assign it to me and review it?"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9466",
+      "time": "2024-12-16T17:17:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9466",
+      "text": "Fix: Layout update of Asset Page "
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/leaderboard#564",
@@ -1457,12 +1478,20 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9466",
+      "title": "Fix: Layout update of Asset Page ",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9422",
       "title": "Fix: Volunteer access to link facility",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "reviewed"
+        "test failed"
       ]
     },
     {
@@ -1477,7 +1506,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/555",
       "title": "Fix:  fetch events for bots",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": []
     },
     {

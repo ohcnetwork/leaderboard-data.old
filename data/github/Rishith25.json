@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-16T12:35:29.000Z",
+  "last_updated": "2024-12-16T14:29:56.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8963",
+      "time": "2024-12-16T14:29:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8963#issuecomment-2545779459",
+      "text": "@nihal467 Can you please help me to get it solved.\r\n\r\nhttps://github.com/ohcnetwork/care_fe/actions/runs/12354446070/job/34475813772?pr=8963\r\n\r\nI did not change anything in the `FacilityCreation.cy.ts`.\r\nThe test cases are always failing even after making required changes."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9441",
@@ -725,8 +732,8 @@
       "title": "Disallowing out of date range",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "tested"
       ]
     },
     {
@@ -734,10 +741,8 @@
       "title": "Cypress tests replace cy.wait with cy.intercept or dynamic waits",
       "stale_for": 0,
       "labels": [
-        "question",
         "needs testing",
-        "needs review",
-        "needs-triage"
+        "needs review"
       ]
     }
   ],
