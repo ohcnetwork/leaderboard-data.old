@@ -4179,5 +4179,144 @@
                 }
             ]
         }
+    ],
+    "2024-12-17 00:00:00": [
+        {
+            "user": "U06CY7RUZ9S",
+            "type": "message",
+            "ts": "1734462716.345449",
+            "client_msg_id": "04693c19-9f57-41de-9745-fc1e1e3d0497",
+            "text": "December 17 2024\n\u2022 Kept checking <https://github.com/npm/cli/issues/7893|#7893> and <https://status.npmjs.org/incidents/bxvmmvlqzfds|Incident Report npmjs> and performed delayed weekly release succesfully \n\u2022 Setup SNS SMS Gateway for DO Deployment and verified working from sandbox.\n\u2022 Followed up on resource quota increase. \nNext\n\u2022 Improve AWS pipeline and gcp staging pipelines. ",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1730751903,
+                    "color": "8250df",
+                    "bot_id": "B01V56NBBNC",
+                    "app_unfurl_url": "https://github.com/npm/cli/issues/7893",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#7893 [BUG] npm fails install of any packages - TAR_BAD_ARCHIVE",
+                    "text": "*Is there an existing issue for this?*\n\n\u2022 I have searched the existing issues\n\n*This issue exists in the latest npm version*\n\n\u2022 I am using the latest npm\n\n*Current Behavior*\n\n`npm` fails to install any packages, downloading any dependency related to `eslint` causes `TAR_BAD_ARCHIVE` error.\n\nHere's what I tried:\n\n\u2022 clean npm caches - doesn't help!\n\u2022 `npm audit verify` , `npm audit fix`, `npm audit fix --force`\n\u2022 delete & reinstall npm (various attempts with various protocols for deletion and installation)\n\u2022 tried to disable `eslint`, but react app creation scripts contain it by default\n\u2022 tried to upgrade `eslint` version, but I get the same `TAR_BAD_ARCHIVE` when `eslint` is being installed\n\nHere are the failed downloads from the logs after running `npm install`, `npm init @eslint/config@latest` or any other package install that has dependencies on `eslint`:\n\n```\n7097 http fetch GET 304 <https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz> 864ms (cache skip)\n7098 warn tar TAR_BAD_ARCHIVE: Unrecognized archive format\n7099 silly tar Error: TAR_BAD_ARCHIVE: Unrecognized archive format\n7099 silly tar     at Unpack.warn (/usr/local/lib/node_modules/npm/node_modules/tar/lib/warn-mixin.js:21:40)\n7099 silly tar     at Unpack.warn (/usr/local/lib/node_modules/npm/node_modules/tar/lib/unpack.js:236:18)\n7099 silly tar     at Unpack.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/tar/lib/parse.js:83:14)\n7099 silly tar     at Unpack.emit (node:events:530:35)\n7099 silly tar     at [emit] (/usr/local/lib/node_modules/npm/node_modules/tar/lib/parse.js:313:12)\n7099 silly tar     at [maybeEnd] (/usr/local/lib/node_modules/npm/node_modules/tar/lib/parse.js:468:17)\n7099 silly tar     at [consumeChunk] (/usr/local/lib/node_modules/npm/node_modules/tar/lib/parse.js:476:21)\n7099 silly tar     at Unpack.write (/usr/local/lib/node_modules/npm/node_modules/tar/lib/parse.js:427:25)\n7099 silly tar     at Unpack.end (/usr/local/lib/node_modules/npm/node_modules/tar/lib/parse.js:548:14)\n7099 silly tar     at Pipe.end (/usr/local/lib/node_modules/npm/node_modules/minipass/dist/commonjs/index.js:116:23) {\n7099 silly tar   recoverable: false,\n7099 silly tar   cwd: '/Users/gevorg.sargsyan/Projects/dev/js/fireship-memento/node_modules/fast-deep-equal',\n7099 silly tar   code: 'TAR_BAD_ARCHIVE',\n7099 silly tar   tarCode: 'TAR_BAD_ARCHIVE'\n7099 silly tar }\n\n```\n\n```\n7146 silly packumentCache corgi:<https://registry.npmjs.org/@svgr%2fwebpack> cache-miss\n7147 http fetch GET 200 <https://registry.npmjs.org/@svgr%2fwebpack> 68ms (cache hit)\n7148 silly packumentCache corgi:<https://registry.npmjs.org/@svgr%2fwebpack> set size:85201 disposed:false\n7149 warn deprecated workbox-core@6.6.1: this package has been deprecated\n7150 warn deprecated workbox-core@6.6.1: this package has been deprecated\n7151 warn deprecated workbox-core@6.6.1: this package has been deprecated\n7152 warn deprecated eslint@8.57.1: This version is no longer supported. Please see <https://eslint.org/version-support> for other options.\n7153 verbose stack Error: TAR_BAD_ARCHIVE: Unrecognized archive format\n7153 verbose stack     at Unpack.warn (/usr/local/lib/node_modules/npm/node_modules/tar/lib/warn-mixin.js:21:40)\n7153 verbose stack     at Unpack.warn (/usr/local/lib/node_modules/npm/node_modules/tar/lib/unpack.js:236:18)\n7153 verbose stack     at Unpack.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/tar/lib/parse.js:83:14)\n7153 verbose stack     at Unpack.emit (node:events:530:35)\n7153 verbose stack     at [emit] (/usr/local/lib/node_modules/npm/node_modules/tar/lib/parse.js:313:12)\n7153 verbose stack     at [maybeEnd] (/usr/local/lib/node_modules/npm/node_modules/tar/lib/parse.js:468:17)\n7153 verbose stack     at [consumeChunk] (/usr/local/lib/node_modules/npm/node_modules/tar/lib/parse.js:476:21)\n7153 verbose stack     at Unpack.write (/usr/local/lib/node_modules/npm/node_modules/tar/lib/parse.js:427:25)\n7153 verbose stack     at Unpack.end (/usr/local/lib/node_modules/npm/node_modules/tar/lib/parse.js:548:14)\n7153 verbose stack     at Pipe.end (/usr/local/lib/node_modules/npm/node_modules/minipass/dist/commonjs/index.js:116:23)\n7154 error code TAR_BAD_ARCHIVE\n7155 error TAR_BAD_ARCHIVE: Unrecognized archive format\n7156 silly unfinished npm timer reify 1730736384828\n7157 silly unfinished npm timer reify:unpack 1730736388377\n7158 silly unfinished npm timer reifyNode:node_modules/fast-deep-equal 1730736388382\n\n```\n\n*Expected Behavior*\n\nThe packages should be installed, and .tgz archives normally downloaded.\n\n*Steps To Reproduce*\n\n_No response_\n\n*Environment*\n\n\u2022 npm: 10.9.0\n\u2022 Node.js: v22.11.0\n\u2022 OS Name: MacOS Sonoma 14.5",
+                    "title": "#7893 [BUG] npm fails install of any packages - TAR_BAD_ARCHIVE",
+                    "title_link": "https://github.com/npm/cli/issues/7893",
+                    "footer": "<https://github.com/npm/cli|npm/cli>",
+                    "fields": [
+                        {
+                            "value": "Bug, Needs Triage",
+                            "title": "Labels",
+                            "short": true
+                        },
+                        {
+                            "value": "48",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "8x3Zv",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "December 17 2024\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Kept checking "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/npm/cli/issues/7893",
+                                            "text": "#7893",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " and "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://status.npmjs.org/incidents/bxvmmvlqzfds",
+                                            "text": "Incident Report npmjs"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " and performed delayed weekly release succesfully "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Setup SNS SMS Gateway for DO Deployment and verified working from sandbox."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Followed up on resource quota increase. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Improve AWS pipeline and gcp staging pipelines. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

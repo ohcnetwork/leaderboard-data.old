@@ -2840,6 +2840,87 @@
         {
             "user": "U07NXCASM89",
             "type": "message",
+            "ts": "1734457121.343119",
+            "edited": {
+                "user": "U07NXCASM89",
+                "ts": "1734457137.000000"
+            },
+            "client_msg_id": "4153e9a8-0663-4b7a-8e8d-c418cbd914ea",
+            "text": "December 17th\nDone\n\u2022 Cleaning up landing flow (switched to using tanstack's useMutate since we added support for custom headers, added translations, removed some of the mockdata and ensured OTP flow was working as intended)\n\u2022 Continued work on patient files FE\nNext\n\u2022 Finish up patient files FE",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "IW7XA",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "December 17th\nDone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Cleaning up landing flow (switched to using tanstack's useMutate since we added support for custom headers, added translations, removed some of the mockdata and ensured OTP flow was working as intended)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Continued work on patient files FE"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Finish up patient files FE"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U07NXCASM89",
+            "type": "message",
             "ts": "1734407436.496669",
             "client_msg_id": "de14d104-d364-4e84-8dc5-36eb1dc26bfd",
             "text": "December 16th\nDone\n\u2022 Few more modifications on the landing flow FE\n\u2022 Reviewed some PRs\nNext\n\u2022 Patient Files FE",
