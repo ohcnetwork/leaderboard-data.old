@@ -1,6 +1,69 @@
 {
-  "last_updated": "2024-12-17T09:32:36.000Z",
+  "last_updated": "2024-12-18T00:32:40.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9471",
+      "time": "2024-12-18T00:32:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9471#issuecomment-2549990325",
+      "text": "# Workflow 9\n\n![Image](https://github.com/user-attachments/assets/2555dbf7-f0b5-40b4-aa9a-3e1ab3a22415)\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9471",
+      "time": "2024-12-18T00:32:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9471#issuecomment-2549989787",
+      "text": "# Workflow 8\n\n![Image](https://github.com/user-attachments/assets/89f3be1f-febe-49b4-a5e6-3a1f2c4d32a8)\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9471",
+      "time": "2024-12-18T00:31:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9471#issuecomment-2549988968",
+      "text": "#Workflow 7\n\n![Image](https://github.com/user-attachments/assets/991e0cbd-faed-45fe-a34b-c24437f9846f)\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9471",
+      "time": "2024-12-18T00:30:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9471#issuecomment-2549987685",
+      "text": "# Workflow 6"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9471",
+      "time": "2024-12-18T00:30:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9471#issuecomment-2549986654",
+      "text": "# Workflow 5\n\n![Image](https://github.com/user-attachments/assets/703d94e9-0af0-4c52-b727-532d76e2201a)\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9471",
+      "time": "2024-12-18T00:29:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9471#issuecomment-2549985845",
+      "text": "# Workflow 4\n\n![Image](https://github.com/user-attachments/assets/761173e2-bab1-4f58-a909-071880733eb3)\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9471",
+      "time": "2024-12-18T00:26:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9471#issuecomment-2549981751",
+      "text": "# Workflow 3\n\n![Image](https://github.com/user-attachments/assets/ddc3196d-ff4b-40a3-aade-e29a24c77f37)\n\n## Bug Report\n\n### Major Issue\n\n### Minor Issue \n\n![Image](https://github.com/user-attachments/assets/6676cfca-b34b-4169-a156-82991e136ad2)\n\n- [ ] Replace the colour of the resource request button to use primary colour to keep it consistent with other button"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9471",
+      "time": "2024-12-17T20:16:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9471#issuecomment-2549526634",
+      "text": "# Workflow - 2\n\n![Image](https://github.com/user-attachments/assets/1cdc4bb9-edaa-4555-acf6-b01663ab596c)\n\n# Bug Report\n\n## Major\n\n\n\n## Minor\n\n\n## Enhancement"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9471",
+      "time": "2024-12-17T20:09:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9471#issuecomment-2549511479",
+      "text": "---\n\n## [Users Login Page](https://care.do.ohc.network/facility/)\n\n![Image](https://github.com/user-attachments/assets/ea3ea4bd-74e0-4397-bad9-d7ffca7b2971)\n\n### Major issue\n\n- [ ] The patient login using the phone number OTP is not being generated to the user\n\nNote: the AWS sandbox services we are using require to register the number with the services first, then only the OTP generation will work in the CARE. For now, we can use the static OTP : 45612\n\n- Login with the static OTP is also not possible\n\n### Minor Issue\n\n- [ ] add the translation to the username and password error message in the staff login\n- [ ] add the translation to the OTP sent successfully notification for the patient login section\n\n![Image](https://github.com/user-attachments/assets/86cdcaff-71ad-40c8-a876-30ce64cc9812)\n\n- [ ] Add proper error message for incorrect OTP-based patient login on the homepage\n\n---\n\n## [Facility Public Page](https://care.do.ohc.network/facilities?state=1&facility_type=840&page=1&limit=14)\n\n![Image](https://github.com/user-attachments/assets/cceaf63f-7c41-4a27-b22d-228d0e1221e9)\n\n### Minor Issue\n\n- [ ] The Facility Type advanced filter on the Facility Public Page is not working because the facility type details are not shown on the card. We can either hide the filter or display the facility type details on the card and fix the related filter functionality. \n\n### Enhancement\n\n- [ ] Add a back button to the facility public page, which users can use to go back to the initial district selection [page](https://care.do.ohc.network/)\n- [ ] Add a login button of the right side top corner, so users can always go to the login page from the public page\n\n---\n\n## [Facility Details Page](https://care.do.ohc.network/facility/0aef5488-ea4d-4280-938a-d6b2fb44df59)\n\n![Image](https://github.com/user-attachments/assets/1de0bb78-9cd9-40f0-ae41-ed2b530e728a)\n\n### Minor Issue\n\n- [ ] Only show the doctor users in the facility detail public page for booking appointments, as they are the only users who will be requiring a appointment book (Product Discussion Required)\n\n### Enhancement\n\n- [ ] Add support to search the doctor's name / Qualification in the facility details page\n\n---\n\n## Booking Appointment\n\n### Major Issue\n\n![Image](https://github.com/user-attachments/assets/bd5e4e26-613e-4dcb-9509-78bb63f54cd3)\n\n- [ ] We can use an invalid OTP such as 00000 to login to the appointment portal and register a patient, even though the frontend throws a 400 error, so handle the situation with proper validation and gracefully\n\n### Minor Issue\n\n![Image](https://github.com/user-attachments/assets/020ff3a4-6fa9-4de8-b3a0-c00e55a9fd9c)\n\n- [ ] Add fine text for age mentioning to the user that, only the year of birth will be saved if they are using the age field\n\n![Image](https://github.com/user-attachments/assets/9d564f5d-6361-48c4-9595-19b0f604edcc)\n\n- [ ] Add support to the current address field allowing users to type address in multiple lines\n\n---\n\n## [User Details Page](https://care.do.ohc.network/users/nibras-doctor/availability)\n\n### Major Issue\n\n![Image](https://github.com/user-attachments/assets/b34ef0cc-508c-4859-ac39-3a0098dfe80d)\n\n- [ ] When we try to create an availability schedule for a user, **without mentioning the weekly schedule**, submitting the form crashes the page. Additionally, each time we open the Availability section on the user's detail page of the same user, the page kept on crashing\n\n![Image](https://github.com/user-attachments/assets/03737a76-dc76-4e56-b141-be84d76c1cc3)\n\n- [ ] When we try to create a schedule exception for a user, its throwing 404 error in the frontend\n\n### Minor Issue\n\n![Image](https://github.com/user-attachments/assets/4c4c0189-5abd-4be4-98b6-8e1953064ba9)\n\n- [ ] Replace the return to care icon with Return to Linked Facilities\n- [ ] Repositon the icon and button of no home facility so, we can avoid unwanted scroller in this page\n\n![Image](https://github.com/user-attachments/assets/803a381d-550b-4eb3-bd36-09670e69f4d5)\n\n- [ ] When there is no exception available for a user, the loader is keep on loading infinitely\n\n![Image](https://github.com/user-attachments/assets/4f02df1a-dac5-4423-a4e0-13214ac2b216)\n\n- [ ] The weekly schedule field in the create schedule template form is not properly responsive\n\n![Image](https://github.com/user-attachments/assets/d779635f-d7e5-4c8b-b295-3f0e36a69882)\n\n- [ ] the info card in the session section of create schedule template is not properly responsive\n\n![Image](https://github.com/user-attachments/assets/81348104-31c2-489d-914a-b04c34e174a3)\n\n- [ ] the return to CARE button in the crashing page is not redirecting properly to the loginpage \n\n### Enhancement\n\n![Image](https://github.com/user-attachments/assets/188d19c0-c3ae-47ce-98ab-ab085fae4182)\n\n- [ ] Add an option to edit the existing schedule template of the user\n\n![Image](https://github.com/user-attachments/assets/babb2266-3cb6-4152-9eb0-3ed3981dd831)\n\n- [ ] Use color coding for the dates to clearly indicate their availability status—such as available, fully booked, nearly full, and unavailable—making it easier to understand availability at a glance without needing to click on each date."
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#9471",
@@ -48933,7 +48996,20 @@
       "text": "Merge Develop To Staging v24.48.0 | Patch"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2659",
+      "title": "Merge Develop To Staging v24.52.0",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9483",
+      "title": "Merge Develop To Staging v24.52.0",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9106",
