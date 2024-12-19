@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-13T14:49:56.000Z",
+  "last_updated": "2024-12-18T18:13:33.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9344",
+      "time": "2024-12-18T18:13:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9344#issuecomment-2551977521",
+      "text": "@nihal467 Just to confirm, what approach should I take here. Am I supposed to make the code changes to fix wherever there are lint fails? Or should I override the lint rules to bypass any of these?\r\n\r\ncc: @sainak "
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/docs#91",
@@ -273,14 +280,20 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9344",
       "title": "Eslint upgrade to v9",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "merge conflict",
+        "needs-triage"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2640",
       "title": "Switch from localstack to minIO",
       "stale_for": 1,
-      "labels": []
+      "labels": [
+        "reviewed"
+      ]
     }
   ],
   "authored_issue_and_pr": []
