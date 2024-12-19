@@ -1,6 +1,6 @@
 ---
 name: Vysakh Premkumar 
-title: DevOps Intern 
+title: DevOps Engineer 
 github: tellmeY18 
 twitter: _y___h_218 
 linkedin: vysakh-premkumar 
