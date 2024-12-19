@@ -2995,5 +2995,127 @@
                 }
             ]
         }
+    ],
+    "2024-12-19 00:00:00": [
+        {
+            "user": "U07NXCASM89",
+            "type": "message",
+            "ts": "1734585903.692939",
+            "client_msg_id": "d9ba49ac-48e8-47a9-a0e2-56227cc66e61",
+            "text": "December 18th\nDone\n\u2022 Refactored the profile removal PR (tests) based on feedback\n\u2022 Opened draft PR for patient files\n    \u25e6 Audio player presented a few issues (esp with fetching track duration). Researching online, people have used all sorts of hacks to get around to it. I tried a few and got one working, but it will has issues with specific tracks for whatever reason. So I gotta diagnose and figure that out.\nNext\n\u2022 Patient files\n    \u25e6 FE: Diagnose the audio player issue\n    \u25e6 BE: New FE designs adds file based filters; we do have file category support in BE; current options are Xray, Audio, Identity Proof and Unspecified (most of the files we have are unspecified as that's the default option for file uploads). On the FE, options are Imaging, Lab Reports, Documents and Audio; could map images/audio based on file extensions, but then lab reports could also be images. I have to confirm with product whether this is required before modifying BE to support the options.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "yxLKB",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "December 18th\nDone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Refactored the profile removal PR (tests) based on feedback"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Opened draft PR for patient files"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Audio player presented a few issues (esp with fetching track duration). Researching online, people have used all sorts of hacks to get around to it. I tried a few and got one working, but it will has issues with specific tracks for whatever reason. So I gotta diagnose and figure that out."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Patient files"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "FE: Diagnose the audio player issue"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "BE: New FE designs adds file based filters; we do have file category support in BE; current options are Xray, Audio, Identity Proof and Unspecified (most of the files we have are unspecified as that's the default option for file uploads). On the FE, options are Imaging, Lab Reports, Documents and Audio; could map images/audio based on file extensions, but then lab reports could also be images. I have to confirm with product whether this is required before modifying BE to support the options."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
