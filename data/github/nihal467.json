@@ -1,6 +1,41 @@
 {
-  "last_updated": "2024-12-18T00:32:40.000Z",
+  "last_updated": "2024-12-18T10:55:07.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2659",
+      "time": "2024-12-18T10:55:07.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2659",
+      "text": "Merge Develop To Staging v24.52.0"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9483",
+      "time": "2024-12-18T10:54:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9483",
+      "text": "Merge Develop To Staging v24.52.0"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9479",
+      "time": "2024-12-18T10:51:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9479#issuecomment-2550998547",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9238",
+      "time": "2024-12-18T10:48:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9238#issuecomment-2550991555",
+      "text": "@Kaushikgtm post the message in care-general channel in slack, to seek help from where you are stuck"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-11-04T18:46:09.000Z",
+      "title": "ohcnetwork/care_fe#8963",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/8963#pullrequestreview-2413859411",
+      "text": "Cypress tests replace cy.wait with cy.intercept or dynamic waits"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9471",
@@ -690,13 +725,6 @@
       "time": "2024-12-10T21:45:13.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/8963#issuecomment-2532963169",
       "text": "> Hey @nihal467 I replaced all instances of cy.wait() with cy.intercept() and dynamic waits.\r\n> \r\n> However, the following issues arise when certain cy.wait() statements are removed:\r\n> \r\n> In FacilityHomepage.cy.ts, removing cy.wait(2000) at line 177 causes the test case to fail because the logged-in nurse cannot see the notify message on the noticeboard. Additionally, intercepts are already included, so there is no possibility of using additional intercept here.\r\n> \r\n> In PatientRegistration.tsx, removing cy.wait(3000) at line 158 results in a test case failure, indicating that after selecting the gender as \"Female,\" the \"Is antenatal?\" checkbox is not displayed. No intercept is triggered when the gender selection is clicked.\r\n> \r\n> In patientFileUpload.ts, removing cy.wait(2000) at line 30 within the verifyUploadFilePresence function causes the \"User-level Based Permission for File Modification\" test case to fail, while other test cases pass. I attempted to include intercepts, but the issue persists at the same point.\r\n> \r\n> Could you please look into this?\r\n\r\nwill look into these, can you clear the requested changes"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-11-04T18:46:09.000Z",
-      "title": "ohcnetwork/care_fe#8963",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/8963#pullrequestreview-2413859411",
-      "text": "Cypress tests replace cy.wait with cy.intercept or dynamic waits"
     },
     {
       "type": "comment_created",
@@ -48997,6 +49025,12 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9492",
+      "title": "Fixed Flaky Test in cypress develop branch",
+      "stale_for": 0,
+      "labels": []
+    },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2659",
       "title": "Merge Develop To Staging v24.52.0",

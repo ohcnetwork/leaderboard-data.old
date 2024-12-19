@@ -1,6 +1,62 @@
 {
-  "last_updated": "2024-12-17T17:33:57.000Z",
+  "last_updated": "2024-12-18T05:41:06.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9480",
+      "time": "2024-12-18T05:41:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9480",
+      "text": "User Files"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-18T05:02:02.000Z",
+      "title": "ohcnetwork/care_fe#9400",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9400#pullrequestreview-2510802917",
+      "text": "New Patient Search and Register UI"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T05:30:59.000Z",
+      "title": "ohcnetwork/care_fe#9413",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9413#pullrequestreview-2505182193",
+      "text": "FIXED: Implement Dropdown for Hidden Breadcrumb Paths Across the Platform"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T05:18:53.000Z",
+      "title": "ohcnetwork/care_fe#9422",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9422#pullrequestreview-2505169867",
+      "text": "Fix: Volunteer access to link facility"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-18T04:46:00.000Z",
+      "title": "ohcnetwork/care_fe#9437",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9437#pullrequestreview-2510786271",
+      "text": "Fix: UI changes in shifting and resources pages"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-18T04:41:38.000Z",
+      "title": "ohcnetwork/care_fe#9449",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9449#pullrequestreview-2510781507",
+      "text": "Add Phone Number Copy Notification"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9475",
+      "time": "2024-12-18T04:38:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9475#issuecomment-2550319503",
+      "text": "> > fix the issue mentioned before requesting review\r\n> \r\n> @rithviknishad I have committed the changes, but due to some errors, the commits are not showing up. I will close this PR and raise a new one with the updated changes.\r\n\r\nTry to salvage this rather than opening a new PR  - since you haven't force pushed yet, you should be able to use git revert to rollback recent changes and then merge once more."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-18T04:34:11.000Z",
+      "title": "ohcnetwork/care_fe#9479",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9479#pullrequestreview-2510773334",
+      "text": "FIXED: The APPROVAL LETTER is not wrapped with the <PrintPreview> component"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9476",
@@ -156,25 +212,11 @@
       "text": "Fixes timestamp alignment and adds 'Last Modified' section in patient management #9397"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2024-12-16T05:30:59.000Z",
-      "title": "ohcnetwork/care_fe#9413",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9413#pullrequestreview-2505182193",
-      "text": "FIXED: Implement Dropdown for Hidden Breadcrumb Paths Across the Platform"
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9422",
       "time": "2024-12-16T05:19:22.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9422#issuecomment-2544620805",
       "text": "> I don’t think the Cypress tests failed due to the changes in this PR. Could someone confirm?\r\n\r\nyep"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-16T05:18:53.000Z",
-      "title": "ohcnetwork/care_fe#9422",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9422#pullrequestreview-2505169867",
-      "text": "Fix: Volunteer access to link facility"
     },
     {
       "type": "pr_reviewed",
@@ -2927,39 +2969,6 @@
       "text": "Update Jacobjeevan.md"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9480",
-      "title": "Patient Files",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9382",
-      "title": "User Profile Replacement/Removal",
-      "stale_for": 0,
-      "labels": [
-        "changes required",
-        "merge conflict"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2641",
-      "title": "Daily Rounds External Id in Notification Handler",
-      "stale_for": 0,
-      "labels": [
-        "reviewed"
-      ]
-    }
-  ],
-  "authored_issue_and_pr": [
-    {
-      "issue_link": "https://github.com/ohcnetwork/care/issues/2619",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9186"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8845",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8852"
-    }
-  ]
+  "open_prs": [],
+  "authored_issue_and_pr": []
 }
