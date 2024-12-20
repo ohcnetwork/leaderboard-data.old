@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-18T11:05:59.000Z",
+  "last_updated": "2024-12-19T17:17:49.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9192",
+      "time": "2024-12-19T17:17:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9192#issuecomment-2555212314",
+      "text": "> Optional but recommended: Since this is doing quite a lot of refactor on pretty much the entire asset form, I'd recommend switching to using shadcn's form components along with other shadcn's input components too.\r\n\r\nThe recommendation is pretty good though!\r\nShould we start working on it? @rithviknishad "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9471",
@@ -314,6 +321,44 @@
       "text": "can i take up Odia (od).\n"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9498",
+      "title": "Refactor all copy operations to use `copyToClipboard` utility",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9317",
+      "title": "Use shadcn Tooltip Components across FacilityCard",
+      "stale_for": 0,
+      "labels": [
+        "needs testing"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9192",
+      "title": "💊Fix unnecessary API Calls on updating an existing asset (#9189)",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "blocked",
+        "Deploy-Failed",
+        "merge conflict",
+        "needs-triage"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9444",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9449"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9316",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9330"
+    }
+  ]
 }
