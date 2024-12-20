@@ -1,6 +1,62 @@
 {
-  "last_updated": "2024-12-20T06:25:16.000Z",
+  "last_updated": "2024-12-20T13:32:19.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2639",
+      "time": "2024-12-20T13:32:19.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2639#issuecomment-2557026577",
+      "text": "@shauryag2002 you can test the workflows on your repo and add links to the test runs"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2639",
+      "time": "2024-12-20T13:23:53.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2639#issuecomment-2557009425",
+      "text": "@shauryag2002 the steps that mount to cache within the docker file are not getting cached can you investigate this\r\n\r\ntest run: https://github.com/ohcnetwork/care/actions/runs/12432166867/job/34711018577?pr=2639\r\n\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-20T13:09:28.000Z",
+      "title": "ohcnetwork/care_fe#9522",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9522#pullrequestreview-2517523150",
+      "text": "refactor: changed npm to sheetjs cdn"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-20T12:15:02.000Z",
+      "title": "ohcnetwork/care_abdm#23",
+      "link": "https://github.com/ohcnetwork/care_abdm/pull/23#pullrequestreview-2517431975",
+      "text": "Bumped fhir.resources to 7.1.0 to support pydantic v2"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9344",
+      "time": "2024-12-20T12:08:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9344#issuecomment-2556878008",
+      "text": "@amjithtitus09 you can try to fix the easily fixable errors, and change the rest to warnings instead of errors temporarily along with creating issues to fix the errors and revert the rule change\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2652",
+      "time": "2024-12-20T09:02:08.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2652#issuecomment-2556564768",
+      "text": "Currently the constraints on the [abdm](https://github.com/ohcnetwork/care_abdm/blob/main/setup.py#L21) plug block us from installing the hcx plugin with the new fhir.resources package\r\n\r\ncc: @khavinshankar "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2652",
+      "time": "2024-12-20T08:50:56.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2652#issuecomment-2556547304",
+      "text": "@vigneshhari your branch already has this change, we should test the changes in hcx plug against dev and then merge this to dev itself"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-20T08:42:13.000Z",
+      "title": "ohcnetwork/care_abdm#22",
+      "link": "https://github.com/ohcnetwork/care_abdm/pull/22#pullrequestreview-2517044904",
+      "text": "Fixes wrong schema for abhanumber as only integer"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care#2640",
@@ -17201,13 +17257,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_livekit_fe/pull/3",
       "title": "Update imports",
-      "stale_for": 43,
+      "stale_for": 44,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_livekit_fe/pull/2",
       "title": "make DoctorLiveConnect lazy load",
-      "stale_for": 48,
+      "stale_for": 49,
       "labels": []
     },
     {
