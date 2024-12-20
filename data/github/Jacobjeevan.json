@@ -1,6 +1,42 @@
 {
-  "last_updated": "2024-12-19T15:19:01.000Z",
+  "last_updated": "2024-12-20T06:27:28.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2641",
+      "time": "2024-12-20T06:27:28.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2641",
+      "text": "Daily Rounds External Id in Notification Handler",
+      "turnaround_time": 958408
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9506",
+      "time": "2024-12-20T06:23:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9506#issuecomment-2556368514",
+      "text": "> > [@Rishith25](https://github.com/Rishith25) which facility and which patient you tested it? Was that patient bed linked with multiple cameras?\n> \n> Recording.2024-12-20.114306.mp4\n\nThat isn't a patient linked with multiple cameras. I don't know if we have such an example on care.ohc.network; you are welcome to check. I'll see if we can add something by the afternoon."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9506",
+      "time": "2024-12-20T06:09:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9506#issuecomment-2556355362",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) [@samholics](https://github.com/samholics) It is working fine in care.ohc.network. For production how could i address Can you please guide me\n\nYou have tested (1) as well?\n\n(2) should be fixed, yes. You don't need to do anything there."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9506",
+      "time": "2024-12-20T05:47:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9506#issuecomment-2556332976",
+      "text": "(2) is fixed by [2650](https://github.com/ohcnetwork/care/pull/2650) on the backend, should go alive in the next release."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-20T04:15:34.000Z",
+      "title": "ohcnetwork/care_fe#9503",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9503#pullrequestreview-2516751432",
+      "text": "Fixed facility selection issue in UserAddEditForm"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-12-19T15:19:01.000Z",
@@ -3046,14 +3082,6 @@
       "labels": [
         "needs testing",
         "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2641",
-      "title": "Daily Rounds External Id in Notification Handler",
-      "stale_for": 1,
-      "labels": [
-        "reviewed"
       ]
     }
   ],

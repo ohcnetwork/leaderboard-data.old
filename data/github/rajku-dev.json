@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-12-19T17:17:49.000Z",
+  "last_updated": "2024-12-20T04:46:49.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9192",
+      "time": "2024-12-20T04:46:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9192#issuecomment-2556277889",
+      "text": "> Yes, go ahead. Use shadcn's form. You can use it's `isDirty` check from useForm to disable the button instead.\r\n\r\n\r\n    \"@radix-ui/react-icons\": \"^1.3.1\",\r\n    \"@radix-ui/react-slot\": \"^1.1.0\",\r\n    \"@radix-ui/react-toast\": \"^1.2.2\",\r\n    \"@radix-ui/react-tooltip\": \"^1.1.3\",\r\n    \r\n there's no shadcn form here , are we supposed to use `react-hook-form` with existing `radix-ui` components\r\n @rithviknishad \r\n "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9498",
+      "time": "2024-12-20T04:35:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9498#issuecomment-2556268709",
+      "text": "> i don't understand what error would come up when copying, the only notification that needs to be there is \"Copied to clipboard\" right?\r\n\r\nthat's a point. \r\nIf any further changes need to be made please let me know"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9498",
+      "time": "2024-12-20T04:28:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9498#issuecomment-2556262796",
+      "text": "@rithviknishad, can we pass the success/error messages to this utility via this component?\r\nThis way, we can handle custom notifications and translations as well."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9192",
@@ -327,7 +348,9 @@
       "title": "Refactor all copy operations to use `copyToClipboard` utility",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "question",
+        "changes required",
+        "needs-triage"
       ]
     },
     {
@@ -346,7 +369,6 @@
         "question",
         "blocked",
         "Deploy-Failed",
-        "merge conflict",
         "needs-triage"
       ]
     }
