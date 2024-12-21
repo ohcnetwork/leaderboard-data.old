@@ -1,6 +1,27 @@
 {
-  "last_updated": "2024-12-20T04:46:49.000Z",
+  "last_updated": "2024-12-21T06:16:45.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9192",
+      "time": "2024-12-21T06:16:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9192#issuecomment-2558017861",
+      "text": "> follow the docs: https://ui.shadcn.com/docs/components/form\r\n\r\nShould we replace all input components, such as DatePicker, Switch, Select, etc., with ShadCN components, as per the documentation?\r\nhttps://ui.shadcn.com/docs/components/form @rithviknishad"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9498",
+      "time": "2024-12-21T02:48:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9498#issuecomment-2557965614",
+      "text": "> forgot to add the `CopyButton` in `DoctorVideoSlideover` , made the changes now\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9498",
+      "time": "2024-12-21T02:47:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9498#issuecomment-2557965248",
+      "text": "forgot to add that in `DoctorVideoSlideover` , made the changes"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9192",
@@ -345,11 +366,10 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9498",
-      "title": "Refactor all copy operations to use `copyToClipboard` utility",
+      "title": "Create reusable `CopyButton` component ",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "changes required"
       ]
     },
     {
