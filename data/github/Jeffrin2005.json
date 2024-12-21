@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-12-20T10:13:05.000Z",
+  "last_updated": "2024-12-21T16:55:28.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9526",
+      "time": "2024-12-21T16:55:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9526",
+      "text": "Fixed : Disable Submit Button "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9475",
+      "time": "2024-12-21T12:57:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9475#issuecomment-2558115274",
+      "text": "@rithviknishad Since I tried to revert the package. json file and re-update it, which led to the deployment failing, I updated it and committed the updated package-lock. from the latest branch. Can you review it?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9475",
+      "time": "2024-12-21T11:29:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9475#issuecomment-2558089559",
+      "text": "@rithviknishad Used \"callApi\" instead of \"request\". Any changes needed ?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9475",
+      "time": "2024-12-21T11:27:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9475#issuecomment-2558089133",
+      "text": "@rithviknishad Used \"callApi\" instead of \"request\". Any changes needed ? "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9475",
@@ -235,17 +263,26 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9526",
+      "title": "Fixed : Disable Submit Button ",
+      "stale_for": 0,
+      "labels": [
+        "Deploy-Failed"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9475",
       "title": "Fixed scroll issue in Shifting and Resource",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9345",
       "title": "Fixed Multi-selection functionality.",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "changes required"
       ]
