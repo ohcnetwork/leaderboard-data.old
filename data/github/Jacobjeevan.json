@@ -1,6 +1,69 @@
 {
-  "last_updated": "2024-12-20T13:55:56.000Z",
+  "last_updated": "2024-12-20T16:46:57.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-20T16:46:57.000Z",
+      "title": "ohcnetwork/care_fe#9434",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9434#pullrequestreview-2517883689",
+      "text": "Enhancement of Shift patient Tab"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9405",
+      "time": "2024-12-20T15:57:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9405#issuecomment-2557270461",
+      "text": "> Could we please connect sometime? I need some help regarding the failing tests, as I think they might not be entirely failing due to the notification issue\r\n\r\nCheck the summary tab and scroll down, there should be screenshots you can refer to. At least some of the tests are related from what I can see, get those working, we can look at the rest after.\r\n\r\nGet local [backend](https://github.com/ohcnetwork/care) ([Docs](https://care-be-docs.ohc.network/local-setup/configuration.html)) working to run and test cypress locally."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9486",
+      "time": "2024-12-20T15:46:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9486#issuecomment-2557253654",
+      "text": "<img width=\"290\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d4911bad-05a6-4781-8963-814692c9b314\" />\r\n\r\n\r\nSeeing all these together 😅 and all the consultations filed ones, I feel these might be a bit too intense. Let's ping @vinutv \r\nand see what he thinks. If we are keeping current styles (below), we can either add or modify the existing variants.\r\n\r\n<img width=\"290\" alt=\"image\" src=\"https://github.com/user-attachments/assets/9eaf8062-f16d-43d1-96d3-b6851408a22e\" />\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-19T15:13:56.000Z",
+      "title": "ohcnetwork/care_fe#9486",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9486#pullrequestreview-2515169868",
+      "text": "Adds support for review missed logic #8607"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9490",
+      "time": "2024-12-20T15:31:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9490#issuecomment-2557227443",
+      "text": "> > ![image](https://private-user-images.githubusercontent.com/25143503/397049159-5f218447-c9ae-420e-a514-ea388e8b5d94.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ1NDQ3NzAsIm5iZiI6MTczNDU0NDQ3MCwicGF0aCI6Ii8yNTE0MzUwMy8zOTcwNDkxNTktNWYyMTg0NDctYzlhZS00MjBlLWE1MTQtZWEzODhlOGI1ZDk0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE4VDE3NTQzMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNjMGFlOWIwMDE5NDBmMmY4ODFkOTg4YzEzMGM1MGY0NDNiZjk0ZDU1ZjZjODNmYzQ2MDNkYjdkMmFlMjQ0MDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.nJD34LHXv9-Jk2ywPUGY-JDhdlCobSFI5OfWW-BeUAQ)\r\n> \r\n> I am not able to see this overflow of text in my device. Can you please tell more?\r\n> <img alt=\"Screenshot 2024-12-18 at 11 28 47 PM\" width=\"1007\" src=\"https://private-user-images.githubusercontent.com/125687187/397052451-27c4ea08-66ae-432f-a7e8-3753a67734ba.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ3MDg4MjUsIm5iZiI6MTczNDcwODUyNSwicGF0aCI6Ii8xMjU2ODcxODcvMzk3MDUyNDUxLTI3YzRlYTA4LTY2YWUtNDMyZi1hN2U4LTM3NTNhNjc3MzRiYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIyMFQxNTI4NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yY2ZlNGUwZGI5OWIyNzljMGMzYzhmMDgyZjg4MjYwNGI3NmExMTkyNDJkYzc2Mzc4NzBjYTljZmRmODUxZGU5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.lhdm9vlUKNJpAZjihcS-Tm7T_PFPJCaPZdNLfFHSvdA\">\r\n\r\nCheck using your browser's device mode and try different viewports (for example: iPad layout horizontal and you will see this)."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-20T15:27:23.000Z",
+      "title": "ohcnetwork/care_fe#9491",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9491#pullrequestreview-2517788470",
+      "text": " FIXED: Warranty Card UI Improve Responsiveness and Text Overflow Handling"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-20T15:26:19.000Z",
+      "title": "ohcnetwork/care_fe#9498",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9498#pullrequestreview-2517786252",
+      "text": "Refactor all copy operations to use `copyToClipboard` utility"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-20T14:47:25.000Z",
+      "title": "ohcnetwork/care_fe#9405",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9405#pullrequestreview-2517712543",
+      "text": "Switch to Sonner for toast notifications"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9405",
+      "time": "2024-12-20T14:18:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9405#issuecomment-2557103617",
+      "text": "> do i still need to fix anything for this pull request?\r\n\r\nJust need to get reviewed and tested 👍  Nothing on your end."
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-12-20T13:55:56.000Z",
@@ -92,13 +155,6 @@
       "time": "2024-12-19T15:18:37.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9467#issuecomment-2554570523",
       "text": "<img width=\"557\" alt=\"image\" src=\"https://github.com/user-attachments/assets/9b4f6fe2-30c6-4279-b4b8-59b88a35a7e5\" />\r\n\r\n\r\nUpdate the screens as well."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-19T15:13:56.000Z",
-      "title": "ohcnetwork/care_fe#9486",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9486#pullrequestreview-2515169868",
-      "text": "Adds support for review missed logic #8607"
     },
     {
       "type": "issue_closed",
