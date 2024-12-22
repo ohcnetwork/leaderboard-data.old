@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-12-20T06:23:04.000Z",
+  "last_updated": "2024-12-21T21:20:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2671",
+      "time": "2024-12-21T21:20:05.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2671#issuecomment-2558243523",
+      "text": "Getting some test failures upon doing `make test`, can anyone help me understand? (tried using llm but no success)\r\n\r\n```\r\ndocker compose exec backend bash -c \"python manage.py test --keepdb --parallel --shuffle\"\r\nUsing shuffle seed: 4296328100 (generated)\r\nFound 427 test(s).\r\nUsing existing test database for alias 'default'...\r\nTraceback (most recent call last):\r\n  File \"/app/manage.py\", line 34, in <module>\r\n    main()\r\n    ~~~~^^\r\n  File \"/app/manage.py\", line 30, in main\r\n    execute_from_command_line(sys.argv)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^\r\n  File \"/.venv/lib/python3.13/site-packages/django/core/management/__init__.py\", line 442, in execute_from_command_line\r\n    utility.execute()\r\n    ~~~~~~~~~~~~~~~^^\r\n  File \"/.venv/lib/python3.13/site-packages/django/core/management/__init__.py\", line 436, in execute\r\n    self.fetch_command(subcommand).run_from_argv(self.argv)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\r\n  File \"/.venv/lib/python3.13/site-packages/django/core/management/commands/test.py\", line 24, in run_from_argv\r\n    super().run_from_argv(argv)\r\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"/.venv/lib/python3.13/site-packages/django/core/management/base.py\", line 413, in run_from_argv\r\n    self.execute(*args, **cmd_options)\r\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/.venv/lib/python3.13/site-packages/django/core/management/base.py\", line 459, in execute\r\n    output = self.handle(*args, **options)\r\n  File \"/.venv/lib/python3.13/site-packages/django/core/management/commands/test.py\", line 63, in handle\r\n    failures = test_runner.run_tests(test_labels)\r\n  File \"/.venv/lib/python3.13/site-packages/django/test/runner.py\", line 1066, in run_tests\r\n    old_config = self.setup_databases(\r\n        aliases=databases,\r\n        serialized_aliases=suite.serialized_aliases,\r\n    )\r\n  File \"/.venv/lib/python3.13/site-packages/django/test/runner.py\", line 964, in setup_databases\r\n    return _setup_databases(\r\n        self.verbosity,\r\n    ...<5 lines>...\r\n        **kwargs,\r\n    )\r\n  File \"/.venv/lib/python3.13/site-packages/django/test/utils.py\", line 206, in setup_databases\r\n    connection.creation.create_test_db(\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\r\n        verbosity=verbosity,\r\n        ^^^^^^^^^^^^^^^^^^^^\r\n    ...<2 lines>...\r\n        serialize=serialize_alias,\r\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n    )\r\n    ^\r\n  File \"/.venv/lib/python3.13/site-packages/django/db/backends/base/creation.py\", line 78, in create_test_db\r\n    call_command(\r\n    ~~~~~~~~~~~~^\r\n        \"migrate\",\r\n        ^^^^^^^^^^\r\n    ...<3 lines>...\r\n        run_syncdb=True,\r\n        ^^^^^^^^^^^^^^^^\r\n    )\r\n    ^\r\n  File \"/.venv/lib/python3.13/site-packages/django/core/management/__init__.py\", line 194, in call_command\r\n    return command.execute(*args, **defaults)\r\n           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\r\n  File \"/.venv/lib/python3.13/site-packages/django/core/management/base.py\", line 459, in execute\r\n    output = self.handle(*args, **options)\r\n  File \"/.venv/lib/python3.13/site-packages/django/core/management/base.py\", line 107, in wrapper\r\n    res = handle_func(*args, **kwargs)\r\n  File \"/.venv/lib/python3.13/site-packages/django/core/management/commands/migrate.py\", line 303, in handle\r\n    pre_migrate_apps = pre_migrate_state.apps\r\n                       ^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/.venv/lib/python3.13/site-packages/django/utils/functional.py\", line 47, in __get__\r\n    res = instance.__dict__[self.name] = self.func(instance)\r\n                                         ~~~~~~~~~^^^^^^^^^^\r\n  File \"/.venv/lib/python3.13/site-packages/django/db/migrations/state.py\", line 565, in apps\r\n    return StateApps(self.real_apps, self.models)\r\n  File \"/.venv/lib/python3.13/site-packages/django/db/migrations/state.py\", line 636, in __init__\r\n    raise ValueError(\"\\n\".join(error.msg for error in errors))\r\nValueError: The field users.User.asset was declared with a lazy reference to 'facility.asset', but app 'facility' isn't installed.\r\nThe field users.User.home_facility was declared with a lazy reference to 'facility.facility', but app 'facility' isn't installed.\r\nmake: *** [Makefile:53: test] Error 1\r\n```"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2671",
+      "time": "2024-12-21T20:50:35.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2671#issuecomment-2558237583",
+      "text": "Performed a full search in the codebase to identify and remove all COVID-specific fields and references using the terms:\r\n\r\ncovid\r\ncovid-19\r\ncovid_19\r\ncovid_id\r\ncovid-id\r\nCOVID_CATEGORY_CHOICES\r\n\r\nThere were some mentions of the word \"corona\" should they be removed as well?"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2671",
+      "time": "2024-12-21T20:42:59.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2671",
+      "text": "Remove COVID-specific fields from Patient model and serializers"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2670",
+      "time": "2024-12-21T20:26:06.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2670#issuecomment-2558231226",
+      "text": "Hi, i would like to work on this :)"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care#2653",
@@ -93,9 +121,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2671",
+      "title": "Remove COVID-specific fields from Patient model and serializers",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2600",
       "title": "feat: Update Heroku deployment for Celery and Redis integration",
-      "stale_for": 29,
+      "stale_for": 31,
       "labels": []
     }
   ],
