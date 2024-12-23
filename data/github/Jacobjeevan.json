@@ -1,12 +1,87 @@
 {
-  "last_updated": "2024-12-21T13:32:14.000Z",
+  "last_updated": "2024-12-23T08:00:12.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9382",
+      "time": "2024-12-23T08:00:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9382",
+      "text": "User Profile Replacement/Removal",
+      "turnaround_time": 1018451
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9382",
+      "time": "2024-12-23T08:00:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9382",
+      "text": "User Profile Replacement/Removal",
+      "collaborated_with": [
+        "Jacobjeevan",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9533",
+      "time": "2024-12-23T05:57:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9533",
+      "text": "Search Field Loses Focus After Typing and Search Operation on User Page."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-23T04:10:57.000Z",
+      "title": "ohcnetwork/care_fe#9490",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9490#pullrequestreview-2519855177",
+      "text": "fix: remove overlapping of text and icons"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-20T15:26:19.000Z",
+      "title": "ohcnetwork/care_fe#9498",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9498#pullrequestreview-2517786252",
+      "text": "Refactor all copy operations to use `copyToClipboard` utility"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-19T15:19:01.000Z",
+      "title": "ohcnetwork/care_fe#9467",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9467#pullrequestreview-2515192605",
+      "text": "FIXED: The assets configuration page lacks mobile responsiveness"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9405",
+      "time": "2024-12-23T03:49:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9405#issuecomment-2558852602",
+      "text": "> > > Could we please connect sometime? I need some help regarding the failing tests, as I think they might not be entirely failing due to the notification issue\r\n> > \r\n> > \r\n> > Click on the test details and check the summary tab and scroll down, there should be screenshots you can refer to. At least some of the tests are related from what I can see, get those working, we can look at the rest after.\r\n> > Get local [backend](https://github.com/ohcnetwork/care) ([Docs](https://care-be-docs.ohc.network/local-setup/configuration.html)) working to run and test cypress locally.\r\n> \r\n> I ran the tests that were failing due to `li[data-sonner-toast] div[data-title]` not being found, locally using `npm run cypress:open`. I have noted the details and would appreciate discussing them at your convenience.\r\n\r\nWhat's your blocker? Change the tests/elements accordingly to get the notifications verified within the tests 🤔 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9532",
+      "time": "2024-12-23T03:46:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9532#issuecomment-2558850224",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) i would like to take it up\n\nUse tooltip (shadcn) for long names."
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-12-20T13:55:56.000Z",
       "title": "ohcnetwork/care_fe#9500",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9500#pullrequestreview-2517604401",
       "text": "Fix: Loses focus on User Search in users tab "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-23T03:05:03.000Z",
+      "title": "ohcnetwork/care_fe#9526",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9526#pullrequestreview-2519818931",
+      "text": "Fixed : Disable Submit Button "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-23T03:00:41.000Z",
+      "title": "ohcnetwork/care_fe#9530",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9530#pullrequestreview-2519812001",
+      "text": "\"Added upload cover image as a step in facility registration process\" Closes #7297"
     },
     {
       "type": "pr_reviewed",
@@ -49,13 +124,6 @@
       "title": "ohcnetwork/care_fe#9491",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9491#pullrequestreview-2517788470",
       "text": " FIXED: Warranty Card UI Improve Responsiveness and Text Overflow Handling"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-20T15:26:19.000Z",
-      "title": "ohcnetwork/care_fe#9498",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9498#pullrequestreview-2517786252",
-      "text": "Refactor all copy operations to use `copyToClipboard` utility"
     },
     {
       "type": "pr_reviewed",
@@ -141,13 +209,6 @@
       "title": "ohcnetwork/care_fe#9503",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9503#pullrequestreview-2516751432",
       "text": "Fixed facility selection issue in UserAddEditForm"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-19T15:19:01.000Z",
-      "title": "ohcnetwork/care_fe#9467",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9467#pullrequestreview-2515192605",
-      "text": "FIXED: The assets configuration page lacks mobile responsiveness"
     },
     {
       "type": "comment_created",
@@ -3166,6 +3227,28 @@
       "text": "Update Jacobjeevan.md"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9480",
+      "title": "Patient Files",
+      "stale_for": 2,
+      "labels": [
+        "merge conflict"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9364",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9382"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2619",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9186"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8845",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8852"
+    }
+  ]
 }

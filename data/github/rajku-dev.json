@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-22T10:22:32.000Z",
+  "last_updated": "2024-12-23T06:12:04.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9498",
+      "time": "2024-12-23T06:12:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9498#issuecomment-2558979548",
+      "text": "> Hmm clicking on the clipboard in DoctorVideoSlideOver also opens up (the dialog for/or) Whatsapp. Right now, we just have that trigger if user clicks anywhere in the card. I would suggest removing that.\r\n> \r\n> And Clipboard isn't disabled on null (check AssetWarrantyCard as an example).\r\n\r\n@Jacobjeevan  i have made the changes as requested\r\n- Removed anchor tag wrapping in DoctorConnectCard.\r\n-  Implemented conditional rendering for CopyButton in AssetWarrantyCard to display only when serial number is available"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9498",
@@ -376,13 +383,15 @@
       "title": "Create reusable `CopyButton` component ",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "question",
+        "changes required",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9317",
       "title": "Use shadcn Tooltip Components across FacilityCard",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "needs testing"
       ]
@@ -390,7 +399,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9192",
       "title": "💊Fix unnecessary API Calls on updating an existing asset (#9189)",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "question",
         "blocked",

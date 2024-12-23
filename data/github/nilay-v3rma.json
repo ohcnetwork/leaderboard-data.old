@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-22T11:12:15.000Z",
+  "last_updated": "2024-12-23T04:43:37.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9405",
+      "time": "2024-12-23T04:43:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9405#issuecomment-2558898390",
+      "text": "> > > > Could we please connect sometime? I need some help regarding the failing tests, as I think they might not be entirely failing due to the notification issue\r\n> > > \r\n> > > \r\n> > > Click on the test details and check the summary tab and scroll down, there should be screenshots you can refer to. At least some of the tests are related from what I can see, get those working, we can look at the rest after.\r\n> > > Get local [backend](https://github.com/ohcnetwork/care) ([Docs](https://care-be-docs.ohc.network/local-setup/configuration.html)) working to run and test cypress locally.\r\n> > \r\n> > \r\n> > I ran the tests that were failing due to `li[data-sonner-toast] div[data-title]` not being found, locally using `npm run cypress:open`. I have noted the details and would appreciate discussing them at your convenience.\r\n> \r\n> What's your blocker? Change the tests/elements accordingly to get the notifications verified within the tests 🤔\r\n\r\nThe notification was visible but was being overlayered by somethings (like form),\r\n![image](https://github.com/user-attachments/assets/e0e227c3-892e-4f92-badf-3443c0472006)\r\n\r\ni think using proper z-index should fix the issue!"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9405",

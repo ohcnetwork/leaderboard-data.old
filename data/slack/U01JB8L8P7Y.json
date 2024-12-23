@@ -4482,5 +4482,204 @@
                 }
             ]
         }
+    ],
+    "2024-12-23 00:00:00": [
+        {
+            "user": "U01JB8L8P7Y",
+            "type": "message",
+            "ts": "1734938172.127639",
+            "client_msg_id": "21ed1ff1-b7a0-43e5-bf1d-b94724981d83",
+            "text": "*17th December* to *22nd December*\n\u2022 Wired form fields and types in care_abdm_fe micro frontend refactor\n\u2022 Experimented with exposing contexts from core to remote apps _(only possible when remote apps are also running as servers instead of being served as static content)_\n\u2022 Tried using rxjs to enable context for micro frontend remote apps _(partially done: poc done, should wire it)_\n\u2022 Had multiple calls with Yaswanth on labs frontend refactor\n\u2022 Had a call with Prafful to delegate camera enhancement PRs\n\u2022 Planned out labs frontend code refactor _(atomic components)_\n\u2022 Had multiple calls with Rithvik to discuss the structure of Questionnaire in the frontend and few backend questions regarding MedicineRequest\n\u2022 Added MedicineStatement specs, model and viewset and related frontend MedicineStatement question.\n\u2022 Had a call with NHCX on demo payor _(demo payor is available, will get started on NHCX Integration after our Release)_\n*Next*\n\u2022 Add MedicineAdministration spec, model, viewset and wire it in the frontend",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "l/IQn",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "17th December",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " to "
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "22nd December",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Wired form fields and types in care_abdm_fe micro frontend refactor"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Experimented with exposing contexts from core to remote apps "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "(only possible when remote apps are also running as servers instead of being served as static content)",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tried using rxjs to enable context for micro frontend remote apps "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "(partially done: poc done, should wire it)",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Had multiple calls with Yaswanth on labs frontend refactor"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Had a call with Prafful to delegate camera enhancement PRs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Planned out labs frontend code refactor "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "(atomic components)",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Had multiple calls with Rithvik to discuss the structure of Questionnaire in the frontend and few backend questions regarding MedicineRequest"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added MedicineStatement specs, model and viewset and related frontend MedicineStatement question."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Had a call with NHCX on demo payor "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "(demo payor is available, will get started on NHCX Integration after our Release)",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Add MedicineAdministration spec, model, viewset and wire it in the frontend"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

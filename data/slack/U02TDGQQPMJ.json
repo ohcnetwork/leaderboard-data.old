@@ -30310,5 +30310,318 @@
                 }
             ]
         }
+    ],
+    "2024-12-23 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1734938651.346009",
+            "client_msg_id": "bb313a88-3bc5-4e17-bcef-8ec1e845eba0",
+            "text": "_Missed EOD\u2019s for past couple of days\u2026_ \n\n*Dec 17th - Dec 22nd*\n\u2022 Had a call with Vignesh to understand how to map max dosage and min time b/w doses in Med. Req. Yet to work on making required changes in BE.\n\u2022 Call with Khavin to explain how Med. Req. worked in questionnaire.\n\u2022 Reviewed PRs\n\u2022 Bunch of enhancements to Scheduling and Appointments\n    \u25e6 Migrated usages of old useQuery to tanstack\u2019s useQuery in all of scheduling and appointments\n    \u25e6 Some cleanups on patient appointments page\n    \u25e6 Fixed the availability stats / heatmap API (type error and an infinite loop edge case when exceptions present)\n    \u25e6 Integrated the heatmap API in appointment create page to show free slots and remaining tokens for each slot\n    \u25e6 Fixed timezone issue with querying availability and slots\n    \u25e6 Fixed a profile_picture_url not serialized in UserSpec.\n    \u25e6 Mask calendar  if practicioner not selected when booking appointment\n    \u25e6 Grouped slots by session\n    \u25e6 Serialize resource in appointments list API (requested by Jacob)\n    \u25e6 Fix \u201cBorn undefined\u201d issue due to accidentally using PatientWriteSpec for TokenReadSpec\n    \u25e6 Started working on Appointments details page\n*Up Next*\n\u2022 Complete appointments details page\n\u2022 Add env toggle to disable querying heatmap API if things didn\u2019t go as planned\n\u2022 Add necessary filters to appointments page\n\u2022 Subtract exceptions in calendar view in user availability\n\u2022 Practicioner select: switch to searchable autocomplete\n\u2022 Write validations\n\u2022 MedicationRequest\n    \u25e6 Add missing medicine field in BE (thanks to khavin for pointing this out)\n    \u25e6 make req. modifications necessary to align with fhir spec in BE.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "TpHHe",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Missed EOD\u2019s for past couple of days\u2026 ",
+                                    "style": {
+                                        "italic": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Dec 17th - Dec 22nd",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Had a call with Vignesh to understand how to map max dosage and min time b/w doses in Med. Req. Yet to work on making required changes in BE."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Call with Khavin to explain how Med. Req. worked in questionnaire."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed PRs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Bunch of enhancements to Scheduling and Appointments"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Migrated usages of old useQuery to tanstack\u2019s useQuery in all of scheduling and appointments"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Some cleanups on patient appointments page"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed the availability stats / heatmap API (type error and an infinite loop edge case when exceptions present)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Integrated the heatmap API in appointment create page to show free slots and remaining tokens for each slot"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed timezone issue with querying availability and slots"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed a profile_picture_url not serialized in UserSpec."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Mask calendar  if practicioner not selected when booking appointment"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Grouped slots by session"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Serialize resource in appointments list API (requested by Jacob)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fix \u201cBorn undefined\u201d issue due to accidentally using PatientWriteSpec for TokenReadSpec"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Started working on Appointments details page"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Up Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete appointments details page"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Add env toggle to disable querying heatmap API if things didn\u2019t go as planned"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Add necessary filters to appointments page"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Subtract exceptions in calendar view in user availability"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Practicioner select: switch to searchable autocomplete"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Write validations"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "MedicationRequest"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Add missing medicine field in BE (thanks to khavin for pointing this out)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "make req. modifications necessary to align with fhir spec in BE."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
