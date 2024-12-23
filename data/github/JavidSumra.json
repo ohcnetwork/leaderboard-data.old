@@ -1,6 +1,28 @@
 {
-  "last_updated": "2024-12-20T06:08:02.000Z",
+  "last_updated": "2024-12-23T12:00:19.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9296",
+      "time": "2024-12-23T12:00:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9296",
+      "text": "Add View Consultation Button",
+      "turnaround_time": 1646488
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9373",
+      "time": "2024-12-23T11:40:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9373#issuecomment-2559532781",
+      "text": "Hey @nihal467, I have a doubt regarding this test suite. Since the upload and edit cover image procedures use the same API call, can we replace the edit procedure test with a test for an invalid image width instead?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9373",
+      "time": "2024-12-23T11:38:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9373#issuecomment-2559528402",
+      "text": "Hey @rithviknishad got some college work so due to that not able to contribute can you please open it again?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard#559",
@@ -1135,25 +1157,18 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9373",
       "title": "Add Test suit for Image Upload Functionality",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": [
-        "merge conflict"
+        "question",
+        "stale",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/90",
       "title": "Documentation for `useInfiniteQuery` Hook",
-      "stale_for": 6,
+      "stale_for": 9,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9296",
-      "title": "Add View Consultation Button",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9190",
@@ -1167,7 +1182,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9062",
       "title": "Update Resource Forms to Enhance Validation",
-      "stale_for": 2,
+      "stale_for": 5,
       "labels": [
         "hold",
         "merge conflict"

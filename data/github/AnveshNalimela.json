@@ -1,6 +1,28 @@
 {
-  "last_updated": "2024-12-22T18:18:38.000Z",
+  "last_updated": "2024-12-23T14:27:50.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9542",
+      "time": "2024-12-23T14:27:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9542",
+      "text": "Issue/#9456/mfa screens"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/leaderboard#571",
+      "time": "2024-12-23T14:19:51.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/571",
+      "text": "Fixed Overlap Footer with most helpful div in Discussions page",
+      "turnaround_time": 241252
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9142",
+      "time": "2024-12-23T10:42:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9142#issuecomment-2559417231",
+      "text": "> > @nihal467 try selecting date range of 7 seven days\r\n> \r\n> check the screenshot\r\n\r\n@nihal The issue is occured due to inconsistent coulumns in data. I fixed that and Whenever there no patients there will error popping up . i changed that error notification to warning"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard#571",
@@ -486,6 +508,48 @@
       "text": "Rewriting UsersCreation.cy.ts according to POM approach"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9542",
+      "title": "Adding mfa screens",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9343",
+      "title": "Update the Card Design in Notice Board ",
+      "stale_for": 0,
+      "labels": [
+        "changes required",
+        "redesign"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9142",
+      "title": "Added the CSV Export button In Discharged Patients",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/568",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/571"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/565",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/566"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9090",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9096"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8826",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8882"
+    }
+  ]
 }

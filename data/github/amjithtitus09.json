@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-12-20T06:25:16.000Z",
+  "last_updated": "2024-12-23T11:50:25.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9344",
+      "time": "2024-12-23T11:50:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9344#issuecomment-2559549493",
+      "text": "Changes moved to https://github.com/ohcnetwork/care_fe/pull/9538"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9538",
+      "time": "2024-12-23T11:49:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9538#issuecomment-2559547624",
+      "text": "@sainak This is the new PR with existing commits. Additionally pushed commits to fix the lint errors. However there are cypress test failures now"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9538",
+      "time": "2024-12-23T10:40:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9538",
+      "text": "Eslint upgrade to v9"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9344",
+      "time": "2024-12-23T10:14:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9344#issuecomment-2559367323",
+      "text": "@sainak I discarded the commits by mistake and the PR got closed. Opening another one with existing commits"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care#2640",
@@ -297,10 +325,13 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9344",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9538",
       "title": "Eslint upgrade to v9",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     }
   ],
   "authored_issue_and_pr": []

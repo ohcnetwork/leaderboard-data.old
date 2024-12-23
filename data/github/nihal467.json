@@ -1,6 +1,117 @@
 {
-  "last_updated": "2024-12-23T08:23:18.000Z",
+  "last_updated": "2024-12-23T14:18:57.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9540",
+      "time": "2024-12-23T14:18:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9540",
+      "text": "Production Release v24.52.0",
+      "turnaround_time": 4163
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2680",
+      "time": "2024-12-23T14:18:45.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2680",
+      "text": "Production Release v24.52.0",
+      "turnaround_time": 4114
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9373",
+      "time": "2024-12-23T13:19:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9373#issuecomment-2559698444",
+      "text": "> Hey @nihal467, I have a doubt regarding this test suite. Since the upload and edit cover image procedures use the same API call, can we replace the edit procedure test with a test for an invalid image width instead?\r\n\r\nYou can do that: verify the error message, replace the existing image with a new one, and complete the test."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2680",
+      "time": "2024-12-23T13:10:12.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2680",
+      "text": "Production Release v24.52.0"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9540",
+      "time": "2024-12-23T13:09:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9540",
+      "text": "Production Release v24.52.0"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9475",
+      "time": "2024-12-23T13:02:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9475#issuecomment-2559670625",
+      "text": "LGTM, @rithviknishad @khavinshankar you can ignore the failure"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9475",
+      "time": "2024-12-23T12:52:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9475#issuecomment-2559654670",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9377",
+      "time": "2024-12-23T12:49:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9377#issuecomment-2559649948",
+      "text": "@Mahendar0701 clear the merge conflict"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9466",
+      "time": "2024-12-23T12:47:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9466#issuecomment-2559647095",
+      "text": "![image](https://github.com/user-attachments/assets/8063cf8d-50a7-4814-a31f-bd7261dc670d)\r\n\r\n- [ ] keep the spacing between the button consistent\r\n- [ ] change the remaining advance filter and export button to use shadcn as well\r\n- [ ] rename advanced filter to filters"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9432",
+      "time": "2024-12-23T12:35:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9432#issuecomment-2559628498",
+      "text": "LGTM"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9317",
+      "time": "2024-12-23T11:08:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9317",
+      "text": "Use shadcn Tooltip Components across FacilityCard",
+      "collaborated_with": [
+        "rajku-dev",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9317",
+      "time": "2024-12-23T11:08:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9317#issuecomment-2559468331",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9296",
+      "time": "2024-12-23T10:53:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9296#issuecomment-2559436952",
+      "text": "LGTM"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9535",
+      "time": "2024-12-23T09:42:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9535",
+      "text": "Merge Develop To Staging v24.53.0 (Don't Merge It) For Cypress Flaky Test Detection only"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9142",
+      "time": "2024-12-23T09:38:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9142#issuecomment-2559306600",
+      "text": "> @nihal467 try selecting date range of 7 seven days\r\n\r\ncheck the screenshot"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9467",
@@ -49124,6 +49235,15 @@
       "text": "Merge Develop To Staging v24.48.0 | Patch"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9535",
+      "title": "Merge Develop To Staging v24.53.0 (Don't Merge It) For Cypress Flaky Test Detection only",
+      "stale_for": 0,
+      "labels": [
+        "blocked"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }
