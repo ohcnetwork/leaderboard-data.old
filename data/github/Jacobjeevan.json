@@ -1,12 +1,61 @@
 {
-  "last_updated": "2024-12-24T07:14:27.000Z",
+  "last_updated": "2024-12-24T14:46:57.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9549",
+      "time": "2024-12-24T14:46:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9549",
+      "text": "Add markdown editor for editing facility description"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9419",
+      "time": "2024-12-24T14:01:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9419#issuecomment-2561160924",
+      "text": "@sainak Resource [model](ttps://github.com/ohcnetwork/care/commit/10aaf748b5afc8e9cbe5e5cd43e177186d4eac5f#diff-ee6c11d8644dcf087b1f2b2caf09148b05a8530c2adc581210c09f021dd9b86c) is adding `others` as the category, while FE is sending `other`.\n\n Of course, could just adjust that on FE side, not sure how important that is (if it's coming from FHIR spec?)."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-24T09:49:14.000Z",
+      "title": "ohcnetwork/care_fe#9142",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9142#pullrequestreview-2521751960",
+      "text": "Added the CSV Export button In Discharged Patients"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-04T08:50:12.000Z",
+      "title": "ohcnetwork/care_fe#9238",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9238#pullrequestreview-2477712867",
+      "text": "Cypress Test for language selection and link redirection"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-17T07:05:43.000Z",
+      "title": "ohcnetwork/care_fe#9466",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9466#pullrequestreview-2508010159",
+      "text": "Fix: Layout update of Asset Page "
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-12-24T07:14:27.000Z",
       "title": "ohcnetwork/care_fe#9541",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9541#pullrequestreview-2521581787",
       "text": "FIXED: Text overflows in the user management card details #9532"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-20T13:55:56.000Z",
+      "title": "ohcnetwork/care_fe#9500",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9500#pullrequestreview-2517604401",
+      "text": "Fix: Loses focus on User Search in users tab "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-16T05:45:22.000Z",
+      "title": "ohcnetwork/care_fe#9343",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9343#pullrequestreview-2505201444",
+      "text": "Update the Card Design in Notice Board "
     },
     {
       "type": "comment_created",
@@ -56,13 +105,6 @@
       "title": "ohcnetwork/care_fe#9547",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9547#pullrequestreview-2521422883",
       "text": "UX Enhancement for Middleware Override Workflow"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-20T13:55:56.000Z",
-      "title": "ohcnetwork/care_fe#9500",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9500#pullrequestreview-2517604401",
-      "text": "Fix: Loses focus on User Search in users tab "
     },
     {
       "type": "pr_reviewed",
@@ -422,13 +464,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-12-17T07:05:43.000Z",
-      "title": "ohcnetwork/care_fe#9466",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9466#pullrequestreview-2508010159",
-      "text": "Fix: Layout update of Asset Page "
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2024-12-16T21:36:04.000Z",
       "title": "ohcnetwork/care_fe#9463",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9463#pullrequestreview-2507406557",
@@ -517,13 +552,6 @@
       "title": "ohcnetwork/care_fe#9270",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9270#pullrequestreview-2505214136",
       "text": "Fixes UI Bug Issue in Symptom Editor"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-16T05:45:22.000Z",
-      "title": "ohcnetwork/care_fe#9343",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9343#pullrequestreview-2505201444",
-      "text": "Update the Card Design in Notice Board "
     },
     {
       "type": "pr_reviewed",
@@ -1193,13 +1221,6 @@
       "time": "2024-12-04T17:49:44.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9080#issuecomment-2518140348",
       "text": "> @Jacobjeevan what is the status on this PR\r\n\r\nStill waiting on the backend 👍  I'll get the conflicts addressed though."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-04T08:50:12.000Z",
-      "title": "ohcnetwork/care_fe#9238",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9238#pullrequestreview-2477712867",
-      "text": "Cypress Test for language selection and link redirection"
     },
     {
       "type": "pr_reviewed",
@@ -3294,7 +3315,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9480",
       "title": "Patient Files",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "hold",
         "merge conflict"

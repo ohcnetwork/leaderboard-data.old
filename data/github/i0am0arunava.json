@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-12-23T14:44:32.000Z",
+  "last_updated": "2024-12-24T15:09:53.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-24T15:09:53.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2561218501",
+      "text": "> leaderboard is fully static site, it can't serve contents based on query params\n\nYou mentioned that static content is being served repeatedly, but the content is only loaded once when I first reload the page. I don't understand how it is being served again and again."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-24T14:48:43.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2561201527",
+      "text": "> you could prevent fetching the same static content somehow\n\n Could you please help me understand when the same static content is being fetched? Fetching is performed during date changes, and at that time we are not receiving the same content, right?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard#573",

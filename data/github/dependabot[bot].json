@@ -1,6 +1,38 @@
 {
-  "last_updated": "2024-12-23T10:29:41.000Z",
+  "last_updated": "2024-12-24T15:25:19.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/landing#39",
+      "time": "2024-12-24T15:25:19.000Z",
+      "link": "https://github.com/ohcnetwork/landing/pull/39",
+      "text": "Bump nanoid from 3.3.7 to 3.3.8",
+      "turnaround_time": 786919
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/landing#41",
+      "time": "2024-12-24T15:25:07.000Z",
+      "link": "https://github.com/ohcnetwork/landing/pull/41",
+      "text": "Bump next from 14.2.10 to 14.2.15",
+      "turnaround_time": 506827
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9554",
+      "time": "2024-12-24T11:35:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9554",
+      "text": "Bump @radix-ui/react-toast from 1.2.2 to 1.2.4",
+      "turnaround_time": 8159
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9555",
+      "time": "2024-12-24T09:41:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9555",
+      "text": "Bump @radix-ui/react-dropdown-menu from 2.1.2 to 2.1.4",
+      "turnaround_time": 1323
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#9536",
@@ -292,9 +324,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2682",
+      "title": "Bump the boto group across 1 directory with 2 updates",
+      "stale_for": 0,
+      "labels": [
+        "dependencies",
+        "python"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2666",
       "title": "Bump django-silk from 5.2.0 to 5.3.2",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "dependencies",
         "python"
@@ -303,7 +344,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2665",
       "title": "Bump ruff from 0.7.3 to 0.8.4",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "dependencies",
         "python"
@@ -312,7 +353,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2664",
       "title": "Bump debugpy from 1.8.8 to 1.8.11",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "dependencies",
         "python"
@@ -321,16 +362,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2663",
       "title": "Bump authlib from 1.3.2 to 1.4.0",
-      "stale_for": 3,
-      "labels": [
-        "dependencies",
-        "python"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2662",
-      "title": "Bump the boto group with 2 updates",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "dependencies",
         "python"
@@ -339,32 +371,16 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9520",
       "title": "Bump i18next from 23.16.4 to 24.2.0",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "dependencies",
         "npm"
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/landing/pull/41",
-      "title": "Bump next from 14.2.10 to 14.2.15",
-      "stale_for": 4,
-      "labels": [
-        "dependencies"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/landing/pull/39",
-      "title": "Bump nanoid from 3.3.7 to 3.3.8",
-      "stale_for": 8,
-      "labels": [
-        "dependencies"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/docs/pull/92",
       "title": "Bump nanoid from 3.3.7 to 3.3.8",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": [
         "dependencies"
       ]
@@ -372,7 +388,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9347",
       "title": "Bump react-dom and @types/react-dom",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "dependencies",
         "Deploy-Failed",
@@ -382,7 +398,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9335",
       "title": "Bump react and @types/react",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": [
         "dependencies",
         "Deploy-Failed",
@@ -393,7 +409,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/87",
       "title": "Bump path-to-regexp and express",
-      "stale_for": 17,
+      "stale_for": 18,
       "labels": [
         "dependencies"
       ]
@@ -401,7 +417,7 @@
     {
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/136",
       "title": "Bump ws from 7.5.9 to 7.5.10",
-      "stale_for": 184,
+      "stale_for": 185,
       "labels": [
         "dependencies"
       ]
@@ -409,7 +425,7 @@
     {
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/135",
       "title": "Bump braces from 3.0.2 to 3.0.3",
-      "stale_for": 193,
+      "stale_for": 194,
       "labels": [
         "dependencies"
       ]
@@ -417,7 +433,7 @@
     {
       "link": "https://github.com/ohcnetwork/devops-docs/pull/3",
       "title": "Bump express from 4.18.2 to 4.19.2",
-      "stale_for": 209,
+      "stale_for": 210,
       "labels": [
         "dependencies"
       ]
@@ -425,7 +441,7 @@
     {
       "link": "https://github.com/ohcnetwork/devops-docs/pull/1",
       "title": "Bump webpack-dev-middleware from 5.3.3 to 5.3.4",
-      "stale_for": 209,
+      "stale_for": 210,
       "labels": [
         "dependencies"
       ]
@@ -433,7 +449,7 @@
     {
       "link": "https://github.com/ohcnetwork/devops-docs/pull/2",
       "title": "Bump follow-redirects from 1.15.5 to 1.15.6",
-      "stale_for": 209,
+      "stale_for": 210,
       "labels": [
         "dependencies"
       ]
@@ -441,7 +457,7 @@
     {
       "link": "https://github.com/ohcnetwork/5ParaReader/pull/8",
       "title": "build(deps): bump requests from 2.31.0 to 2.32.0",
-      "stale_for": 216,
+      "stale_for": 217,
       "labels": [
         "dependencies"
       ]
@@ -449,7 +465,7 @@
     {
       "link": "https://github.com/ohcnetwork/5ParaReader/pull/7",
       "title": "build(deps): bump jinja2 from 3.1.3 to 3.1.4",
-      "stale_for": 230,
+      "stale_for": 231,
       "labels": [
         "dependencies"
       ]
@@ -457,7 +473,7 @@
     {
       "link": "https://github.com/ohcnetwork/5ParaReader/pull/6",
       "title": "build(deps): bump tqdm from 4.66.2 to 4.66.3",
-      "stale_for": 233,
+      "stale_for": 234,
       "labels": [
         "dependencies"
       ]
@@ -465,7 +481,7 @@
     {
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/129",
       "title": "Bump ejs from 3.1.8 to 3.1.10",
-      "stale_for": 203,
+      "stale_for": 204,
       "labels": [
         "dependencies"
       ]
@@ -473,7 +489,7 @@
     {
       "link": "https://github.com/ohcnetwork/discharge_summary/pull/3",
       "title": "Bump wheel from 0.33.6 to 0.38.1",
-      "stale_for": 236,
+      "stale_for": 237,
       "labels": [
         "dependencies"
       ]
@@ -481,7 +497,7 @@
     {
       "link": "https://github.com/ohcnetwork/discharge_summary/pull/2",
       "title": "Bump pip from 19.2.3 to 23.3",
-      "stale_for": 236,
+      "stale_for": 237,
       "labels": [
         "dependencies"
       ]
@@ -489,7 +505,7 @@
     {
       "link": "https://github.com/ohcnetwork/discharge_summary/pull/1",
       "title": "Bump black from 21.7b0 to 24.3.0",
-      "stale_for": 236,
+      "stale_for": 237,
       "labels": [
         "dependencies"
       ]
@@ -497,7 +513,7 @@
     {
       "link": "https://github.com/ohcnetwork/ayushma/pull/516",
       "title": "Bump pinecone-client from 2.2.4 to 4.0.0",
-      "stale_for": 236,
+      "stale_for": 237,
       "labels": [
         "dependencies",
         "python"
@@ -506,7 +522,7 @@
     {
       "link": "https://github.com/ohcnetwork/ayushma/pull/515",
       "title": "Bump langchain from 0.0.352 to 0.1.17",
-      "stale_for": 236,
+      "stale_for": 237,
       "labels": [
         "dependencies",
         "python"
@@ -515,7 +531,7 @@
     {
       "link": "https://github.com/ohcnetwork/ayushma/pull/514",
       "title": "Bump black from 24.1.1 to 24.4.2",
-      "stale_for": 241,
+      "stale_for": 242,
       "labels": [
         "dependencies",
         "python"
@@ -524,7 +540,7 @@
     {
       "link": "https://github.com/ohcnetwork/5ParaReader/pull/5",
       "title": "build(deps): bump aiohttp from 3.9.3 to 3.9.4",
-      "stale_for": 249,
+      "stale_for": 250,
       "labels": [
         "dependencies"
       ]
@@ -532,7 +548,7 @@
     {
       "link": "https://github.com/ohcnetwork/ayushma/pull/509",
       "title": "Bump aiohttp from 3.9.3 to 3.9.4",
-      "stale_for": 249,
+      "stale_for": 250,
       "labels": [
         "dependencies",
         "python"
@@ -541,10 +557,27 @@
     {
       "link": "https://github.com/ohcnetwork/ayushma/pull/508",
       "title": "Bump gunicorn from 21.2.0 to 22.0.0",
-      "stale_for": 250,
+      "stale_for": 251,
       "labels": [
         "dependencies",
         "python"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/ayushma/pull/507",
+      "title": "Bump sqlparse from 0.4.4 to 0.5.0",
+      "stale_for": 252,
+      "labels": [
+        "dependencies",
+        "python"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/122",
+      "title": "Bump axios from 0.26.1 to 0.28.0",
+      "stale_for": 204,
+      "labels": [
+        "dependencies"
       ]
     }
   ],
