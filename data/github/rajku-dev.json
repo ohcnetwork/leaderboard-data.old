@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-23T11:41:30.000Z",
+  "last_updated": "2024-12-23T17:31:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9192",
+      "time": "2024-12-23T17:31:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9192#issuecomment-2560071997",
+      "text": "Changes made in last commits\r\n- Form Validation using Zod, old validator functions (eg. EmailValidator etc) are used to refine validation\r\n- Add dirty state to prevent form submission when there is no change\r\n- Added new shadcn components eg form, Switch, Calendar, Select, Switch, TextArea.\r\n-  Refactor shadcn calendar to remove error\r\n\r\nbut there are changes required in\r\n- Phone Number input field , converting to new PhoneNumberFormField using ShadCN Select (just like Location Select)\r\n- Fix the layout of Calendar \r\n- Improve CSS and styling"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9192",

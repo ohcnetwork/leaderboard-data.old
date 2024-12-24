@@ -1,6 +1,55 @@
 {
-  "last_updated": "2024-12-23T14:19:52.000Z",
+  "last_updated": "2024-12-23T17:09:17.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-23T15:27:49.000Z",
+      "title": "ohcnetwork/care_fe#9541",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9541#pullrequestreview-2520780056",
+      "text": "FIXED: Text overflows in the user management card details #9532"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9532",
+      "time": "2024-12-23T15:28:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9532#issuecomment-2559903022",
+      "text": "@piyushyadav0191 I'd recommend getting the issue assigned before working on issues next time."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9543",
+      "time": "2024-12-23T15:18:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9543#issuecomment-2559888551",
+      "text": "Already solved in form-field-v1 branch\n\n<img width=\"1279\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/198ddb60-7995-4304-bbc0-b42e10d55c9d\" />\n"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9543",
+      "time": "2024-12-23T15:17:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9543",
+      "text": "Inconsistent action buttons styling in patient details page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-23T15:16:52.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2559886933",
+      "text": "you could prevent fetching the same static content somehow"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-23T15:16:11.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2559885876",
+      "text": "let's not debounce if it's client side filtering. barely any advantages with debouncing with client side filtering."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-23T15:14:00.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2559882181",
+      "text": "we are already client side filtering btw.\n\nwe do not have cloudflare workers enabled.\n\njust that it's simply dispatching requests to cloudflare pages and receiving same response regardless of the query params in the request.\n\n"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/leaderboard#568",
