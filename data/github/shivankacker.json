@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-12-23T15:07:32.000Z",
+  "last_updated": "2024-12-24T08:52:17.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9400",
+      "time": "2024-12-24T08:52:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9400#issuecomment-2560855067",
+      "text": "@nihal467 \r\nChanges made except\r\n\r\n> Add Support for Restore Draft form\r\n\r\nCovered in #9552\r\n\r\n> Add support for ABDM, HCX\r\n\r\nCovered In #9553\r\n> Freeze the sidebar navigation (General Info, Social Profile) when the user scrolls to the bottom of the page.\r\n\r\nCovered In #9552 \r\n\r\n> Add placeholder for dropdown : Blood Group , Pincode & Ration card Category\r\n\r\nDo we really need it? Specifying both a placeholder and label here will not make a lot of sense + it would mean more translations to manage"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9553",
+      "time": "2024-12-24T08:50:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9553",
+      "text": "Add ABDM, HCX support to patient registration form"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9552",
+      "time": "2024-12-24T08:49:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9552",
+      "text": "Enhancements to Patient Registration Form"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9400",
+      "time": "2024-12-24T01:19:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9400#issuecomment-2560505297",
+      "text": "@bodhish \r\n- OP/IP search was made to only work for exact searches. Should that be changed?\r\n<img width=\"852\" alt=\"image\" src=\"https://github.com/user-attachments/assets/56e54e0e-6128-4190-9bdb-5356a3d2bde6\" />\r\n\r\n- Do you mean `/patient/create` instead of `register-patient`?"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#9545",
@@ -12359,7 +12387,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/78",
       "title": "Care plan proposal",
-      "stale_for": 14,
+      "stale_for": 15,
       "labels": []
     },
     {

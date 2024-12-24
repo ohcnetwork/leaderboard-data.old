@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-12-23T14:18:57.000Z",
+  "last_updated": "2024-12-24T07:30:07.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-24T07:30:07.000Z",
+      "title": "ohcnetwork/care_fe#9538",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9538#pullrequestreview-2521597211",
+      "text": "Eslint upgrade to v9"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9538",
+      "time": "2024-12-24T07:27:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9538#issuecomment-2560771223",
+      "text": "![image](https://github.com/user-attachments/assets/b4ba4b31-8169-43a6-a173-c61623b74c4b)\r\n\r\n-  Above is the PR Deploy Preview\r\n\r\n![image](https://github.com/user-attachments/assets/4b5554ce-331c-4c3c-bde6-9fd2fbbf477c)\r\n\r\n- Above is the current staging preview\r\n\r\n@sainak @amjithtitus09 The button, which previously displayed task-specific text, has now been generalized to a simple \"Submit\" button in your PR. This change is causing the tests to fail. Please avoid making unnecessary changes like this in your PR and revert the button text back to its original task-specific form.\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9400",
+      "time": "2024-12-24T04:53:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9400#issuecomment-2560646698",
+      "text": "@shivankacker look into the above comment\r\n\r\nCC: @bodhish "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9400",
+      "time": "2024-12-24T03:25:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9400#issuecomment-2560590517",
+      "text": "# Bug Report [In Progress]\r\n\r\n## Major\r\n\r\n## Minor\r\n\r\n![image](https://github.com/user-attachments/assets/22ff88bf-fd20-4cb5-b928-a4a508c14ef0)\r\n\r\n- [ ] the nav bar in the patient tab is not properly responsive for mobile view"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#9540",
@@ -49235,6 +49263,15 @@
       "text": "Merge Develop To Staging v24.48.0 | Patch"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9535",
+      "title": "Merge Develop To Staging v24.53.0 (Don't Merge It) For Cypress Flaky Test Detection only",
+      "stale_for": 0,
+      "labels": [
+        "blocked"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

@@ -1,6 +1,83 @@
 {
-  "last_updated": "2024-12-23T17:46:05.000Z",
+  "last_updated": "2024-12-24T07:14:27.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-24T07:14:27.000Z",
+      "title": "ohcnetwork/care_fe#9541",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9541#pullrequestreview-2521581787",
+      "text": "FIXED: Text overflows in the user management card details #9532"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9549",
+      "time": "2024-12-24T04:55:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9549#issuecomment-2560647699",
+      "text": "@srijantrpth @rajku-dev Core team only for now for form-field-v1 branch 👍 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#6637",
+      "time": "2024-12-24T04:45:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6637#issuecomment-2560641375",
+      "text": "Closing as this page is reworked."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#6637",
+      "time": "2024-12-24T04:45:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/6637",
+      "text": "Comment Section in the shifting detail page is stretching the page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9405",
+      "time": "2024-12-24T04:25:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9405#issuecomment-2560627855",
+      "text": "> > > > > Could we please connect sometime? I need some help regarding the failing tests, as I think they might not be entirely failing due to the notification issue\r\n> > > > \r\n> > > > \r\n> > > > Click on the test details and check the summary tab and scroll down, there should be screenshots you can refer to. At least some of the tests are related from what I can see, get those working, we can look at the rest after.\r\n> > > > Get local [backend](https://github.com/ohcnetwork/care) ([Docs](https://care-be-docs.ohc.network/local-setup/configuration.html)) working to run and test cypress locally.\r\n> > > \r\n> > > \r\n> > > I ran the tests that were failing due to `li[data-sonner-toast] div[data-title]` not being found, locally using `npm run cypress:open`. I have noted the details and would appreciate discussing them at your convenience.\r\n> > \r\n> > \r\n> > What's your blocker? Change the tests/elements accordingly to get the notifications verified within the tests 🤔\r\n> \r\n> The notification was visible but was being overlayered by somethings (like form), ![image](https://private-user-images.githubusercontent.com/144618541/398053953-e0e227c3-892e-4f92-badf-3443c0472006.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzUwMTM4MjksIm5iZiI6MTczNTAxMzUyOSwicGF0aCI6Ii8xNDQ2MTg1NDEvMzk4MDUzOTUzLWUwZTIyN2MzLTg5MmUtNGY5Mi1iYWRmLTM0NDNjMDQ3MjAwNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIyNFQwNDEyMDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hZDJlNThmZWE1NTdjNWM3OTU0MTdlMTBjMjM3OWZiYWQwY2RmOGU1OTRmZWZlYjlmNGJhNzUyOTQyMmM4NTMxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Xqx_ASY-E6gqEmSMEacjb4jV07CTi7Fy2fTX9RGKTm0)\r\n> \r\n> i think using proper z-index should fix the issue!\r\n\r\nGive it a try and see if it fixes tests in your local."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-20T16:46:57.000Z",
+      "title": "ohcnetwork/care_fe#9434",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9434#pullrequestreview-2517883689",
+      "text": "Enhancement of Shift patient Tab"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9542",
+      "time": "2024-12-24T04:08:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9542#issuecomment-2560617052",
+      "text": "@coderabbitai full review"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-24T03:55:05.000Z",
+      "title": "ohcnetwork/care_fe#9547",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9547#pullrequestreview-2521422883",
+      "text": "UX Enhancement for Middleware Override Workflow"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-20T13:55:56.000Z",
+      "title": "ohcnetwork/care_fe#9500",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9500#pullrequestreview-2517604401",
+      "text": "Fix: Loses focus on User Search in users tab "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-20T15:26:19.000Z",
+      "title": "ohcnetwork/care_fe#9498",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9498#pullrequestreview-2517786252",
+      "text": "Refactor all copy operations to use `copyToClipboard` utility"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-18T13:49:44.000Z",
+      "title": "ohcnetwork/care_fe#9485",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9485#pullrequestreview-2511891824",
+      "text": "Fix : View Retention in Users Tab After Navigation and Logout"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9441",
@@ -14,13 +91,6 @@
       "title": "ohcnetwork/care_fe#9438",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9438#pullrequestreview-2505159226",
       "text": "fix: added clear search on removing badge and added keyboard shortcuts"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-20T16:46:57.000Z",
-      "title": "ohcnetwork/care_fe#9434",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9434#pullrequestreview-2517883689",
-      "text": "Enhancement of Shift patient Tab"
     },
     {
       "type": "comment_created",
@@ -64,13 +134,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2024-12-20T15:26:19.000Z",
-      "title": "ohcnetwork/care_fe#9498",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9498#pullrequestreview-2517786252",
-      "text": "Refactor all copy operations to use `copyToClipboard` utility"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2024-12-19T15:19:01.000Z",
       "title": "ohcnetwork/care_fe#9467",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9467#pullrequestreview-2515192605",
@@ -89,13 +152,6 @@
       "time": "2024-12-23T03:46:38.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/9532#issuecomment-2558850224",
       "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) i would like to take it up\n\nUse tooltip (shadcn) for long names."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-20T13:55:56.000Z",
-      "title": "ohcnetwork/care_fe#9500",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9500#pullrequestreview-2517604401",
-      "text": "Fix: Loses focus on User Search in users tab "
     },
     {
       "type": "pr_reviewed",
@@ -279,13 +335,6 @@
       "time": "2024-12-18T13:59:37.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9485#issuecomment-2551396765",
       "text": "> I'd recommend creating a util. function that handles the logic to create an abstraction between the storage, since we have similar use cases in other places.\r\n\r\nOh true, resources and shifting if I recall."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-18T13:49:44.000Z",
-      "title": "ohcnetwork/care_fe#9485",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9485#pullrequestreview-2511891824",
-      "text": "Fix : View Retention in Users Tab After Navigation and Logout"
     },
     {
       "type": "pr_opened",

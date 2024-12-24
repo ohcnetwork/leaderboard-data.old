@@ -30623,5 +30623,225 @@
                 }
             ]
         }
+    ],
+    "2024-12-24 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1735019034.024909",
+            "client_msg_id": "2808b0ce-108e-43e0-9e3c-8b6fa8008c47",
+            "text": "*23 Dec*\n\u2022 Added NGO and CBO facility types in FE\n\u2022 Added env toggle to disable querying heatmap API\n\u2022 Added slot filter to appointments\n\u2022 Almost done with appointment show page\n\u2022 Reviewed PRs\n\u2022 Fixed an issue with Medication Reqeust\u2019s API Path that was changed, and Site and Encounter required error.\n\u2022 _Unproductive - debugging things with macos surprises_ \n    \u25e6 tried to troubleshoot why cf tunnels, twingate stopped working on mac but works on linux, traceroute unable to reach anything.\n    \u25e6 ended up upgrading to macos sequoia (fixed the above in exchange for: charging stopped working, unable to turn on wifi, doesn\u2019t detect both my monitor and ethernet hub)\n    \u25e6 couple of restarts and tweaking some settings fixed it all in the end. hope there\u2019s no more surprises left.\n*Up next*\n\u2022 Add practicioner and search filter for appointments in BE\n\u2022 Add list view for appointments\n\u2022 Subtract exceptions in calendar view in user availability\n\u2022 Write validations\n\u2022 Med Req: make req. modifications necessary to align with fhir spec in BE.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "VjM5N",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "23 Dec",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added NGO and CBO facility types in FE"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added env toggle to disable querying heatmap API"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added slot filter to appointments"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Almost done with appointment show page"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed PRs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed an issue with Medication Reqeust\u2019s API Path that was changed, and Site and Encounter required error."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Unproductive - debugging things with macos surprises",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "tried to troubleshoot why cf tunnels, twingate stopped working on mac but works on linux, traceroute unable to reach anything."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "ended up upgrading to macos sequoia (fixed the above in exchange for: charging stopped working, unable to turn on wifi, doesn\u2019t detect both my monitor and ethernet hub)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "couple of restarts and tweaking some settings fixed it all in the end. hope there\u2019s no more surprises left."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Up next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Add practicioner and search filter for appointments in BE"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Add list view for appointments"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Subtract exceptions in calendar view in user availability"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Write validations"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Med Req: make req. modifications necessary to align with fhir spec in BE."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
