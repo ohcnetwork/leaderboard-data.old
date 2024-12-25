@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-12-24T04:53:54.000Z",
+  "last_updated": "2024-12-25T05:47:03.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9192",
+      "time": "2024-12-25T05:47:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9192#issuecomment-2561633851",
+      "text": "@rithviknishad are these changes workable?\r\nAsset Form now completely uses shadcn components with a dirty state.\r\nIf you have any suggestions please let me know so that i can work on it further.\r\nThank You."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9498",
+      "time": "2024-12-25T03:52:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9498#issuecomment-2561588669",
+      "text": "> @rajku-dev fix the cypress test related to your PR\r\nHi, @nihal467 \r\nThe cypress software test for login is failing, with [these](https://github.com/ohcnetwork/care_fe?tab=readme-ov-file#-staging-api-credentials) credentials, after connecting the frontend with local backend setup(docker) \r\nREACT_CARE_API_URL=http://127.0.0.1:9000, please help me with this\r\n[docs](https://github.com/ohcnetwork/care#self-hosting)\r\n\r\nhttps://github.com/user-attachments/assets/9da9d6a0-5546-4bcf-8c16-9e342cfae983\r\n\r\n\r\n\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9549",
@@ -437,7 +451,9 @@
       "title": "Create reusable `CopyButton` component ",
       "stale_for": 0,
       "labels": [
-        "needs testing"
+        "question",
+        "changes required",
+        "needs-triage"
       ]
     },
     {
