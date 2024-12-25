@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-23T04:43:37.000Z",
+  "last_updated": "2024-12-24T17:18:51.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9405",
+      "time": "2024-12-24T17:18:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9405#issuecomment-2561302661",
+      "text": "Can anyone please help me implement the closeNotification cypress command? following is what i have found so far:\r\n  📌 sonner documentation:\r\n\r\n[**[Dismissing toasts programmatically](https://sonner.emilkowal.ski/other#dismissing-toasts-programmatically)**](https://sonner.emilkowal.ski/other#dismissing-toasts-programmatically)\r\n\r\nTo remove a toast programmatically use `toast.dismiss(id)`. The `toast()` function return the id of the toast.\r\n\r\n```\r\nconst toastId = toast('Event has been created'); toast.dismiss(toastId);\r\n```\r\n\r\nYou can also dismiss all toasts at once by calling `toast.dismiss()` without an id.\r\n\r\n```\r\ntoast.dismiss();\r\n```\r\n\r\nHowever, I’m unsure how to implement this in Cypress :(\r\n\r\n**📌 Alternative method:** Dismiss by dragging\r\n\r\nclick → hold → drag upwards\r\n\r\ni tried implementing this as follows\r\n\r\n```tsx\r\nCypress.Commands.add(\"closeNotification\", () => {\r\n  cy.get(\"li[data-sonner-toast]\")\r\n    .should(\"exist\")\r\n    .trigger('mousedown', { which: 1, force: true })\r\n    .trigger('mousemove', { clientY: 0, force: true })\r\n    .trigger('mouseup', { force: true });\r\n});\r\n```\r\n\r\nUnfortunately, it doesn’t work as expected. Any suggestions?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9405",
@@ -71,7 +78,10 @@
       "title": "Switch to Sonner for toast notifications",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "question",
+        "changes required",
+        "merge conflict",
+        "needs-triage"
       ]
     }
   ],
