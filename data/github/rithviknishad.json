@@ -1,6 +1,76 @@
 {
-  "last_updated": "2024-12-25T02:55:10.000Z",
+  "last_updated": "2024-12-25T16:29:51.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-25T16:29:51.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573",
+      "text": "Optimize Search Field by Implementing Client-Side Filtering and Debouncing"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-25T16:19:53.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2561942894",
+      "text": "like already said: https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2559886933"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-25T15:17:58.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2561926408",
+      "text": "We don't even need to fetch on keystroke / filter change, since the static site generated already ships all the data for the specified date range, and it's client side filtered."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-25T14:32:19.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2561912771",
+      "text": "are you sure?\n\n<img width=\"1074\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0b1b8392-0724-4b2d-ad77-af33b91c1398\" />\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#576",
+      "time": "2024-12-25T13:04:49.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/576#issuecomment-2561883245",
+      "text": "Also not a fan of the design. Let's not have `@`, seems out of context. Also placing above the name doesn't seem nice."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-25T13:03:36.000Z",
+      "title": "ohcnetwork/leaderboard#576",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/576#pullrequestreview-2522586065",
+      "text": "Add: Identify First-Time PR Contributors for Last Week"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-25T12:53:43.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2561879615",
+      "text": "so you are saying, right now different keystrokes are yielding different contents in each of the responses?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-25T11:14:30.000Z",
+      "title": "ohcnetwork/care_fe#9565",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9565#pullrequestreview-2522550336",
+      "text": "Bump @sentry/browser from 8.45.1 to 8.47.0"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-25T11:13:46.000Z",
+      "title": "ohcnetwork/care_fe#9566",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9566#pullrequestreview-2522550113",
+      "text": "Bump @yudiel/react-qr-scanner from 2.0.8 to 2.1.0"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-25T10:54:37.000Z",
+      "title": "ohcnetwork/care_fe#9567",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9567#pullrequestreview-2522543674",
+      "text": "Fix export button styling on shifting and resource page and facility select modal on patient index"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#9559",

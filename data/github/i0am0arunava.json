@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-12-24T15:09:53.000Z",
+  "last_updated": "2024-12-25T16:26:59.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-25T16:26:59.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2561944487",
+      "text": "\n> like already said: [#573 (comment)](https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2559886933)\n\nFinally, I understand this: we are performing client-side filtering during the search, but still fetching all the content from the server. What if I remove the logic that fetches data from the server during the search?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-25T16:06:44.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2561939452",
+      "text": "> We don't even need to fetch on keystroke / filter change in the first place, since the static site generated already ships all the data for the specified date range, and it's client side filtered.\n\none thing I could not understand \nAs per your statement, there is no need to fetch data from the server every time a user types or changes a filter. Since the static site is pre-generated and includes all the necessary data for a specified date range, filtering can be done directly on the client side without making additional server requests. Why are these network requests being made during each keystroke? Are they unnecessary, and should I remove them?\n![Image](https://github.com/user-attachments/assets/a5076afa-5849-4771-9734-cb96acac0683)\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-25T14:55:13.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2561919565",
+      "text": "> are you sure?\n> \n> <img alt=\"Image\" width=\"1074\" src=\"https://private-user-images.githubusercontent.com/25143503/398581423-0b1b8392-0724-4b2d-ad77-af33b91c1398.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzUxMzg0MjksIm5iZiI6MTczNTEzODEyOSwicGF0aCI6Ii8yNTE0MzUwMy8zOTg1ODE0MjMtMGIxYjgzOTItMDcyNC00YjJkLWFkNzctYWYzM2I5MWMxMzk4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjI1VDE0NDg0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk5YTg0ZmEyY2YwYzkwNzAzMTI1ZjFjZTIxNzYxMWE3NzRkMmY2NDFlZGM2NTgwZTI4MmM2ZTZhOWVhOGU2N2EmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.WQY9AG1Unjf5tE39FTKqOuNaIKIxY8Ha4s0VwLr6kxI\">\n\nNow I understand the issue. In each search, the same size of data is being fetched, but I only need the data based on the search input, so that unnecessary data is not retrieved each time. I failed to understand it because in the UI it was showing different data."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-25T14:36:56.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2561914146",
+      "text": "> are you sure?\n> \n> <img alt=\"Image\" width=\"1074\" src=\"https://private-user-images.githubusercontent.com/25143503/398581423-0b1b8392-0724-4b2d-ad77-af33b91c1398.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzUxMzc2MjUsIm5iZiI6MTczNTEzNzMyNSwicGF0aCI6Ii8yNTE0MzUwMy8zOTg1ODE0MjMtMGIxYjgzOTItMDcyNC00YjJkLWFkNzctYWYzM2I5MWMxMzk4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjI1VDE0MzUyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZiMGRkYzFiZmYzNDgwYWFhMjU1YzUzMzA1ZTlmYTgxMTI4YWQ3MTUyNjI3ODNlZWVjZGQ0ODNmNzc3NTE0YTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.o5XXZz33zLVj2G3xk_h6AE8IPGcy-Iw5VH4GOf8VhqM\">\n\nI think I had some misunderstanding regarding the word 'fetching.' Do you mean fetching from already available static content?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-25T13:41:01.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2561896293",
+      "text": "> so you are saying, right now different keystrokes are yielding different contents in each of the responses?\n\ncontent are same but on each key stroke we are getting different number of contents"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#573",
+      "time": "2024-12-25T12:49:17.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/573#issuecomment-2561878021",
+      "text": "> <img alt=\"Image\" width=\"858\" src=\"https://private-user-images.githubusercontent.com/25143503/398436423-13cc7f1c-63bd-434e-8f88-0ca087d1d25e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzUxMzAyNjQsIm5iZiI6MTczNTEyOTk2NCwicGF0aCI6Ii8yNTE0MzUwMy8zOTg0MzY0MjMtMTNjYzdmMWMtNjNiZC00MzRlLThmODgtMGNhMDg3ZDFkMjVlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjI1VDEyMzI0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg3YzQ5YzllNzRmY2E3ODUyNGE2ZjMxY2IzNWE2YWY3MzA2NGJkNjFkODk3YzVlYTcwMGMyODIwYTA4NzZkNmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.AF6fgOeEiHGPbbnFppyjQ-4vyvRYr6-ZB53rQ76-EFA\">\n\nI menioned that every keystroke triggers a network request, but it is a static site and for serch operation no network calls are fired ,I understand this part .But your suggestion to prevent fetching the same static content during every keystroke for every key value—I cannot understand how different keystrokes would fetch the same content."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard#573",
