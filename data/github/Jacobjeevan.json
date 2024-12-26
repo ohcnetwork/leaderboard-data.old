@@ -1,6 +1,34 @@
 {
-  "last_updated": "2024-12-26T09:08:59.000Z",
+  "last_updated": "2024-12-26T15:34:00.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-20T16:46:57.000Z",
+      "title": "ohcnetwork/care_fe#9434",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9434#pullrequestreview-2517883689",
+      "text": "Enhancement of Shift patient Tab"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8994",
+      "time": "2024-12-26T11:11:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8994#issuecomment-2562471885",
+      "text": "@Sancharisingh Any update on this?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9568",
+      "time": "2024-12-26T11:08:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9568#issuecomment-2562465644",
+      "text": "I don't think this is necessary as the browser itself notifies whether download is triggered or not."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9568",
+      "time": "2024-12-26T11:08:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9568",
+      "text": "Add Confirmation for Exporting"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-12-26T09:08:59.000Z",
@@ -161,13 +189,6 @@
       "time": "2024-12-24T04:25:49.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9405#issuecomment-2560627855",
       "text": "> > > > > Could we please connect sometime? I need some help regarding the failing tests, as I think they might not be entirely failing due to the notification issue\r\n> > > > \r\n> > > > \r\n> > > > Click on the test details and check the summary tab and scroll down, there should be screenshots you can refer to. At least some of the tests are related from what I can see, get those working, we can look at the rest after.\r\n> > > > Get local [backend](https://github.com/ohcnetwork/care) ([Docs](https://care-be-docs.ohc.network/local-setup/configuration.html)) working to run and test cypress locally.\r\n> > > \r\n> > > \r\n> > > I ran the tests that were failing due to `li[data-sonner-toast] div[data-title]` not being found, locally using `npm run cypress:open`. I have noted the details and would appreciate discussing them at your convenience.\r\n> > \r\n> > \r\n> > What's your blocker? Change the tests/elements accordingly to get the notifications verified within the tests 🤔\r\n> \r\n> The notification was visible but was being overlayered by somethings (like form), ![image](https://private-user-images.githubusercontent.com/144618541/398053953-e0e227c3-892e-4f92-badf-3443c0472006.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzUwMTM4MjksIm5iZiI6MTczNTAxMzUyOSwicGF0aCI6Ii8xNDQ2MTg1NDEvMzk4MDUzOTUzLWUwZTIyN2MzLTg5MmUtNGY5Mi1iYWRmLTM0NDNjMDQ3MjAwNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIyNFQwNDEyMDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hZDJlNThmZWE1NTdjNWM3OTU0MTdlMTBjMjM3OWZiYWQwY2RmOGU1OTRmZWZlYjlmNGJhNzUyOTQyMmM4NTMxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Xqx_ASY-E6gqEmSMEacjb4jV07CTi7Fy2fTX9RGKTm0)\r\n> \r\n> i think using proper z-index should fix the issue!\r\n\r\nGive it a try and see if it fixes tests in your local."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-20T16:46:57.000Z",
-      "title": "ohcnetwork/care_fe#9434",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9434#pullrequestreview-2517883689",
-      "text": "Enhancement of Shift patient Tab"
     },
     {
       "type": "comment_created",
@@ -3378,7 +3399,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9480",
       "title": "Patient Files",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "hold",
         "merge conflict"
