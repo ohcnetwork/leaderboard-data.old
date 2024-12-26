@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-25T18:30:46.000Z",
+  "last_updated": "2024-12-26T06:44:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9466",
+      "time": "2024-12-26T06:44:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9466#issuecomment-2562218453",
+      "text": "> > Hey team, all test cases passed after the commit [removed ButtonV2 fully](https://github.com/ohcnetwork/care_fe/pull/9466/commits/a24b580da20d08d6f1bd39d0542b986d0685b965). Following that, only the develop branch was merged, with empty commits added solely to trigger test re-runs.\r\n> \r\n> Just ping the team on slack to rerun the tests next time 😅\r\nActually, Javid once asked the same thing in the Slack channel, and Rithvik mentioned pushing empty commits to re-run test cases. That’s why I have a couple of empty commits, just for triggering the tests again.  😊\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9466",
@@ -1757,12 +1764,14 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9561",
       "title": "Fix: Improper Error handling on shifting patient",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "changes required"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/78",
       "title": "Update AdityaJ2305.md",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     },
     {
@@ -1779,14 +1788,16 @@
       "title": "Fix: Layout update of Asset Page ",
       "stale_for": 0,
       "labels": [
+        "question",
         "needs testing",
-        "needs review"
+        "needs review",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/landing/pull/38",
       "title": "Fix: Contact link does not work properly in the footer",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "changes requested"
       ]

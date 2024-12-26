@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-24T17:57:44.000Z",
+  "last_updated": "2024-12-26T09:03:35.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9485",
+      "time": "2024-12-26T09:03:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9485#issuecomment-2562340831",
+      "text": "> @Mahendar0701 The view preferences should be cleared upon user logout. Currently, there is an issue where User A's preferences are retained and applied to User B, which is not the intended behavior.\r\n\r\n@nihal467 can you once check. I have done the changes"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9485",
@@ -754,6 +761,67 @@
       "text": "Fix Notification Subscription Loading and Messaging Errors"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9557",
+      "title": "Fix: Clear All Filters Badge Visibility in Resource page",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9485",
+      "title": "Fix : View Retention in Users Tab After Navigation and Logout",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9434",
+      "title": "Enhancement of Shift patient Tab",
+      "stale_for": 1,
+      "labels": [
+        "changes required",
+        "Deploy-Failed"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9377",
+      "title": "Patient header UI update in Patient details page",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9312",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9320"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9253",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9254"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9250",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9251"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9021",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9038"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8876",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8879"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8849",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8851"
+    }
+  ]
 }

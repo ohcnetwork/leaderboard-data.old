@@ -1,12 +1,68 @@
 {
-  "last_updated": "2024-12-24T19:16:01.000Z",
+  "last_updated": "2024-12-26T09:08:59.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-26T09:08:59.000Z",
+      "title": "ohcnetwork/care_fe#9574",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9574#pullrequestreview-2522984727",
+      "text": "Always show \"online\" for authenticated user profiles"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9571",
+      "time": "2024-12-26T06:19:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9571#issuecomment-2562202568",
+      "text": "> [@rithviknishad](https://github.com/rithviknishad) [@Jacobjeevan](https://github.com/Jacobjeevan) Can I work on this issue ?\n\nAlready fixed in `form-field-v1` 👍 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9571",
+      "time": "2024-12-26T06:19:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9571",
+      "text": "Misaligned Options in Patient Actions Section"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-05T06:04:01.000Z",
+      "title": "ohcnetwork/care_fe#9190",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9190#pullrequestreview-2480551126",
+      "text": "Adds `useInfiniteQuery` data fetching hook + fixes Inifinite Load issue in notes"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9466",
+      "time": "2024-12-26T05:13:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9466#issuecomment-2562163535",
+      "text": "> Hey team, all test cases passed after the commit [removed ButtonV2 fully](https://github.com/ohcnetwork/care_fe/pull/9466/commits/a24b580da20d08d6f1bd39d0542b986d0685b965). Following that, only the develop branch was merged, with empty commits added solely to trigger test re-runs.\r\n\r\nJust ping on Slack to rerun the tests next time 😅 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-26T05:10:34.000Z",
+      "title": "ohcnetwork/care_fe#9561",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9561#pullrequestreview-2522801024",
+      "text": "Fix: Improper Error handling on shifting patient"
+    },
     {
       "type": "pr_reviewed",
       "time": "2024-12-24T03:55:05.000Z",
       "title": "ohcnetwork/care_fe#9547",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9547#pullrequestreview-2521422883",
       "text": "UX Enhancement for Middleware Override Workflow"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-24T09:49:14.000Z",
+      "title": "ohcnetwork/care_fe#9142",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9142#pullrequestreview-2521751960",
+      "text": "Added the CSV Export button In Discharged Patients"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-26T03:37:36.000Z",
+      "title": "ohcnetwork/care_fe#9557",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9557#pullrequestreview-2522760313",
+      "text": "Fix: Clear All Filters Badge Visibility in Resource page"
     },
     {
       "type": "comment_created",
@@ -42,13 +98,6 @@
       "time": "2024-12-24T14:01:02.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/9419#issuecomment-2561160924",
       "text": "@sainak Resource [model](ttps://github.com/ohcnetwork/care/commit/10aaf748b5afc8e9cbe5e5cd43e177186d4eac5f#diff-ee6c11d8644dcf087b1f2b2caf09148b05a8530c2adc581210c09f021dd9b86c) is adding `others` as the category, while FE is sending `other`.\n\n Of course, could just adjust that on FE side, not sure how important that is (if it's coming from FHIR spec?)."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-24T09:49:14.000Z",
-      "title": "ohcnetwork/care_fe#9142",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9142#pullrequestreview-2521751960",
-      "text": "Added the CSV Export button In Discharged Patients"
     },
     {
       "type": "pr_reviewed",
@@ -615,13 +664,6 @@
       "title": "ohcnetwork/care_fe#9432",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9432#pullrequestreview-2505163393",
       "text": "fix: DateInput and Actions button not optimised for mobile viewports "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-05T06:04:01.000Z",
-      "title": "ohcnetwork/care_fe#9190",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9190#pullrequestreview-2480551126",
-      "text": "Adds `useInfiniteQuery` data fetching hook + fixes Inifinite Load issue in notes"
     },
     {
       "type": "issue_closed",
@@ -3332,6 +3374,29 @@
       "text": "Update Jacobjeevan.md"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9480",
+      "title": "Patient Files",
+      "stale_for": 2,
+      "labels": [
+        "hold",
+        "merge conflict"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9364",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9382"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2619",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9186"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8845",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8852"
+    }
+  ]
 }
