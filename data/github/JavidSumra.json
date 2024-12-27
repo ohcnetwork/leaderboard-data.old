@@ -1,6 +1,41 @@
 {
-  "last_updated": "2024-12-25T11:41:04.000Z",
+  "last_updated": "2024-12-27T08:21:42.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9588",
+      "time": "2024-12-27T08:21:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9588",
+      "text": "Add Test Suit for Sidebar Icon and Text Visibility"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9043",
+      "time": "2024-12-27T05:48:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9043#issuecomment-2563346202",
+      "text": "@nihal467 I think now there is no need of task-2 right?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9586",
+      "time": "2024-12-27T05:32:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9586#issuecomment-2563336256",
+      "text": "Hey @Jacobjeevan can you please assign this issue to me?\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9586",
+      "time": "2024-12-27T05:31:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9586",
+      "text": "CSS Misalignment for Authorized Buttons in Patient Details"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#576",
+      "time": "2024-12-27T03:40:26.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/576#issuecomment-2563281065",
+      "text": "> instead of directly keeping the logic here, let's add it to the contributor object itself. so that this value `isNewContributor` could be reused everywhere else when needed.\r\n\r\nShall I add this logic in [getContributorBySlug](https://github.com/ohcnetwork/leaderboard/blob/bb09761f9b5f90809907256cceca76661fadb093/lib/api.ts#L92) function?"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/leaderboard#576",
@@ -1161,6 +1196,86 @@
       "text": "Update Resource Forms to Enhance Validation"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9588",
+      "title": "Add Test Suit for Sidebar Icon and Text Visibility",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/576",
+      "title": "Add: Identify First-Time PR Contributors for Last Week",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/559",
+      "title": "Fix Calendar View Issue",
+      "stale_for": 4,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9373",
+      "title": "Add Test suit for Image Upload Functionality",
+      "stale_for": 0,
+      "labels": [
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/90",
+      "title": "Documentation for `useInfiniteQuery` Hook",
+      "stale_for": 13,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9190",
+      "title": "Integrates useInfiniteQuery for data fetching and resolves Infinite Load issue in Notes.",
+      "stale_for": 0,
+      "labels": [
+        "needs testing"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9062",
+      "title": "Update Resource Forms to Enhance Validation",
+      "stale_for": 1,
+      "labels": [
+        "hold",
+        "merge conflict",
+        "stale"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9336",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9337"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9179",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9180"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8988",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9000"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8958",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8960"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8887",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8890"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8843",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8931"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8804",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8809"
+    }
+  ]
 }

@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-12-26T17:43:50.000Z",
+  "last_updated": "2024-12-27T06:28:07.000Z",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9587",
+      "time": "2024-12-27T06:28:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9587",
+      "text": "Restrict Comments: District Admin Only"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9583",
+      "time": "2024-12-27T05:28:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9583#issuecomment-2563334408",
+      "text": "@rithviknishad Updated in Common  DateRangeForm"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9583",
@@ -384,6 +398,7 @@
       "title": "Fixed : Automatic Correction for Invalid End Date Input",
       "stale_for": 0,
       "labels": [
+        "invalid",
         "changes required"
       ]
     },
@@ -393,13 +408,14 @@
       "stale_for": 0,
       "labels": [
         "changes required",
-        "Deploy-Failed"
+        "Deploy-Failed",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9345",
       "title": "Fixed Multi-selection functionality.",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review"
