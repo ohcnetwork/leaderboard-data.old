@@ -3515,5 +3515,119 @@
                 }
             ]
         }
+    ],
+    "2024-12-27 00:00:00": [
+        {
+            "user": "U07NXCASM89",
+            "type": "message",
+            "ts": "1735311350.685169",
+            "client_msg_id": "94e51846-e064-46e9-ad3d-f91dc654de97",
+            "text": "December 27th\n\u2022 Additional tweaks and bug fixes for otp flow\n    \u25e6 Occasionally triggering error boundary for appointment success (it was due to formatTime being called on appointment time slot; got that fixed)\n    \u25e6 WIP: Added a dialog for editing appointments (need to ping Vignesh about adding OTP BE routes for editing existing appointments)\n    \u25e6 Local storage support for patient chooser to retain the choice on page reload\n    \u25e6 Some minor tweaks, renaming (user -&gt; patient for OTP sidebar and contexts).\nNext\n\u2022 Probably more work on the otp flow",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "0Nhmf",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "December 27th\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Additional tweaks and bug fixes for otp flow"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Occasionally triggering error boundary for appointment success (it was due to formatTime being called on appointment time slot; got that fixed)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "WIP: Added a dialog for editing appointments (need to ping Vignesh about adding OTP BE routes for editing existing appointments)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Local storage support for patient chooser to retain the choice on page reload"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Some minor tweaks, renaming (user -> patient for OTP sidebar and contexts)."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Probably more work on the otp flow"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

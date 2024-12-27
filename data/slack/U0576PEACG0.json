@@ -4066,5 +4066,184 @@
                 }
             ]
         }
+    ],
+    "2024-12-27 00:00:00": [
+        {
+            "user": "U0576PEACG0",
+            "type": "message",
+            "ts": "1735303366.326049",
+            "client_msg_id": "6773c612-17c8-432d-b8ae-30a0582b8160",
+            "text": "*December 26*\n\u2022 Made some UI improvements and wiring and updated the `CreateServiceRequest`  component to use the tanstack query and mutation. so spent some time understanding how it works.\n\u2022 For fixing the a review comment `.to_json` merged the based backend branch to labs BE, ended up in some errors, tried fixing them for sometime as I do not complete context as do now, so pinged Khavin to take over.\n\u2022 Spent sometime understanding how pagination works in drf and care.\n*Next*\n\u2022 Sync with Khavin\n\u2022 Write down left out things that need to wired and things which require backend changes.\n\u2022 Merge Bodhi's branch into labs.\n\u2022 Add `CreateServiceRequest`  component into Bodhi's branch.\n\u2022 Update levels order for care course from backend.\n",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "wLYul",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "December 26",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Made some UI improvements and wiring and updated the "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "CreateServiceRequest",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "  component to use the tanstack query and mutation. so spent some time understanding how it works."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "For fixing the a review comment "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ".to_json",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " merged the based backend branch to labs BE, ended up in some errors, tried fixing them for sometime as I do not complete context as do now, so pinged Khavin to take over."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Spent sometime understanding how pagination works in drf and care."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Sync with Khavin"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Write down left out things that need to wired and things which require backend changes."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Merge Bodhi's branch into labs."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Add "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "CreateServiceRequest",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "  component into Bodhi's branch."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Update levels order for care course from backend."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
