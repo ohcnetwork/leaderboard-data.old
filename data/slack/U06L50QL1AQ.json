@@ -3444,9 +3444,9 @@
             "text": "30th December \nDone \n\u2022 Picked up <https://github.com/ohcnetwork/care/issues/664|https://github.com/ohcnetwork/care/issues/664> , planned out the approach and started working on it.\nNext \n\u2022 Complete the above issue",
             "team": "TC99SV7B6",
             "thread_ts": "1735588663.450129",
-            "reply_count": 9,
+            "reply_count": 11,
             "reply_users_count": 3,
-            "latest_reply": "1735590209.807669",
+            "latest_reply": "1735627441.659959",
             "reply_users": [
                 "UC99MFPU1",
                 "UC8TSEGCQ",
@@ -3454,38 +3454,6 @@
             ],
             "is_locked": false,
             "subscribed": false,
-            "attachments": [
-                {
-                    "id": 1,
-                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
-                    "ts": 1642512780,
-                    "color": "36a64f",
-                    "bot_id": "B01V56NBBNC",
-                    "app_unfurl_url": "https://github.com/ohcnetwork/care/issues/664",
-                    "is_app_unfurl": true,
-                    "app_id": "A01BP7R4KNY",
-                    "fallback": "#664 Configurable SMS Providers",
-                    "text": "Currently we only support SNS <https://github.com/coronasafe/care/blob/develop/care/utils/sms/sendSMS.py#L7-L23|https://github.com/coronasafe/care/blob/develop/care/utils/sms/sendSMS.py#L7-L23>  \nIt would be good to have it configurable by the deployments\n\nWe could use <https://github.com/roaldnefs/django-sms|https://github.com/roaldnefs/django-sms> and write our own backends for other sms providers  \nnote, this package will require us to make our own backend for sns as well",
-                    "title": "#664 Configurable SMS Providers",
-                    "title_link": "https://github.com/ohcnetwork/care/issues/664",
-                    "footer": "<https://github.com/ohcnetwork/care|ohcnetwork/care>",
-                    "fields": [
-                        {
-                            "value": "good first issue, P3, hacktoberfest",
-                            "title": "Labels",
-                            "short": true
-                        },
-                        {
-                            "value": "15",
-                            "title": "Comments",
-                            "short": true
-                        }
-                    ],
-                    "mrkdwn_in": [
-                        "text"
-                    ]
-                }
-            ],
             "blocks": [
                 {
                     "type": "rich_text",

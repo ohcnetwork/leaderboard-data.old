@@ -2039,5 +2039,98 @@
                 }
             ]
         }
+    ],
+    "2024-12-31 00:00:00": [
+        {
+            "user": "U07RFG735CP",
+            "type": "message",
+            "ts": "1735615554.827329",
+            "client_msg_id": "114eb24b-a5f4-4f03-a9fd-953d903d16d1",
+            "text": "30 Dec 2024\nDone\nOpened an issue (<https://github.com/ohcnetwork/care_fe/issues/9604|https://github.com/ohcnetwork/care_fe/issues/9604> )\nNext\n   Waiting for someone to assign it to me",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1735447580,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/issues/9604",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#9604 state update issue while uploading or removing the profile avatar",
+                    "text": "*Describe the bug*  \nOn the profile page, when we upload or remove an avatar by clicking the button, the state should update immediately, allowing us to see the result without reloading the page. However, currently, the profile is updated, but we have to manually reload the page to view the changes. This is not the expected behavior.\n\n*To Reproduce*  \nSteps to reproduce the behavior:\n\n1. Go to profile\n2. Click on delete or upload button in change avatar\n3. See , the profile avatar is not updated and I have to reload to get the result\n\n*Expected behavior*  \nAfter uploading or removing the profile avatar, the state should be updated automatically without needing to reload the page.\n\n*Screenshots*\n\nhere I have removed the avatar but still it is showing in the icon and I have to reload the page manually to see the result ,state update issue ...\n\n<https://private-user-images.githubusercontent.com/141677292/399332987-13641ff1-9f83-4acf-88b9-9f7066ac9559.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU2MTU4NTUsIm5iZiI6MTczNTYxNTU1NSwicGF0aCI6Ii8xNDE2NzcyOTIvMzk5MzMyOTg3LTEzNjQxZmYxLTlmODMtNGFjZi04OGI5LTlmNzA2NmFjOTU1OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIzMVQwMzI1NTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MDRmNzA4NzliZjQyMzY2Y2VmMjFhYTZiN2VlNDY4ZWRkMDYyMzI3N2IwMTg3MjY5ZDI0NmRiOTI4MWFkZWNkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.DpG3q9vAKrzhplhbrUmEVOk6qRu3OHC9tAGwySs1j0U|Image>\n\n*Desktop (please complete the following information):*\n\n\u2022 OS: [e.g. iOS]\n\u2022 Browser [e.g. chrome, safari]\n\u2022 Version [latest]",
+                    "title": "#9604 state update issue while uploading or removing the profile avatar",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/issues/9604",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "question, needs-triage",
+                            "title": "Labels",
+                            "short": true
+                        },
+                        {
+                            "value": "3",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "svKMl",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "30 Dec 2024\nDone\nOpened an issue ("
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https://github.com/ohcnetwork/care_fe/issues/9604",
+                                    "text": "https://github.com/ohcnetwork/care_fe/issues/9604"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " )\nNext\n   Waiting for someone to assign it to me"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U07RFG735CP",
+            "type": "message",
+            "ts": "1735615266.806469",
+            "client_msg_id": "b078b9f4-cf1d-4fed-9cea-8930eb2c2939",
+            "text": "29 Dec 2024\nDone\n No work \nNext\n   Looking for new issues",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "HmUZ6",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "29 Dec 2024\nDone\n No work \nNext\n   Looking for new issues"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
