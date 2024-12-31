@@ -1,6 +1,28 @@
 {
-  "last_updated": "2024-12-30T09:10:17.000Z",
+  "last_updated": "2024-12-31T13:59:14.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2694",
+      "time": "2024-12-31T13:59:14.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2694",
+      "text": "Fixed encounter validation in medicine administration spec",
+      "turnaround_time": 6741
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2694",
+      "time": "2024-12-31T12:06:53.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2694",
+      "text": "Fixed encounter validation in medicine administration spec"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9627",
+      "time": "2024-12-31T10:21:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9627",
+      "text": "Cleanup"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care#2683",
@@ -40524,6 +40546,137 @@
       "text": "Switched the abdm gateway endpoints to be consistent across sandbox and production"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9627",
+      "title": "Cleanup",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/3",
+      "title": "Micro frontend refactor",
+      "stale_for": 13,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2652",
+      "title": "Removed fhir.resources and bumped pydantic to v2",
+      "stale_for": 11,
+      "labels": [
+        "waiting-for-review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_hcx/pull/8",
+      "title": "Bumped fhir.resources to 7.1.0 to support pydantic v2",
+      "stale_for": 13,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2642",
+      "title": "Labs",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2557",
+      "title": "Added support for enabling boundaries for assetbed cameras",
+      "stale_for": 36,
+      "labels": [
+        "Hold"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2506",
+      "title": "Privacy consultation bed",
+      "stale_for": 36,
+      "labels": [
+        "Hold",
+        "peer-reviewed"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/zoomdrive/pull/22",
+      "title": "Zoom Drive V2",
+      "stale_for": 239,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/arike/pull/143",
+      "title": "added browser confirmation for uncheduling in Agenda",
+      "stale_for": 1110,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/arike/pull/141",
+      "title": "Added search bar in Patients",
+      "stale_for": 1116,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/arike/pull/140",
+      "title": "Refactored Patients from ruby-html to rescript-react",
+      "stale_for": 1116,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9093",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9036"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8941",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9036"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_abdm/issues/14",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8340"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_abdm/issues/13",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8340"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8553",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8420"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_abdm/issues/9",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8340"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_abdm/issues/8",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8340"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_abdm/issues/6",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8340"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_abdm/issues/5",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8340"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_abdm/issues/4",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8340"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_abdm/issues/2",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8340"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8413",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8420"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/docs/issues/37",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8420"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8046",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8270"
+    }
+  ]
 }
