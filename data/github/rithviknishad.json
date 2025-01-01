@@ -1,6 +1,48 @@
 {
-  "last_updated": "2024-12-31T14:42:20.000Z",
+  "last_updated": "2025-01-01T08:45:47.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-01T08:45:47.000Z",
+      "title": "ohcnetwork/leaderboard#585",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/585#pullrequestreview-2526803243",
+      "text": "Added Functionality to learn more in contributors page (Redirection to GraduteAttribute page)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#592",
+      "time": "2025-01-01T08:34:30.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/592#issuecomment-2566908712",
+      "text": "Late for review, but we are not supposed to git track org. specific things in this repo. Use leaderboard-data repo for OHC org. specific configurations."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-01T08:23:32.000Z",
+      "title": "ohcnetwork/care_fe#9627",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9627#pullrequestreview-2526799149",
+      "text": "Cleanup"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-31T14:08:48.000Z",
+      "title": "ohcnetwork/care_fe#9631",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9631#pullrequestreview-2526499229",
+      "text": "Minor enhancements"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2024-12-25T13:03:36.000Z",
+      "title": "ohcnetwork/leaderboard#576",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/576#pullrequestreview-2522586065",
+      "text": "Add: Identify First-Time PR Contributors for Last Week"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9542",
+      "time": "2025-01-01T05:21:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9542#issuecomment-2566854086",
+      "text": "new PR with develop as base branch, the form-field-v1 branch got merged and deleted."
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#9305",
@@ -77,13 +119,6 @@
       "time": "2024-12-31T14:27:16.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/9604",
       "text": "state update issue while uploading or removing the profile avatar"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-31T14:08:48.000Z",
-      "title": "ohcnetwork/care_fe#9631",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9631#pullrequestreview-2526499229",
-      "text": "Minor enhancements"
     },
     {
       "type": "pr_opened",
@@ -478,13 +513,6 @@
       "time": "2024-12-31T06:42:24.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9434#issuecomment-2566177691",
       "text": "> @Jacobjeevan is shifting removed from care 🤔 ? Becoz all files related to shifting are missing in the form-fields branch .\r\n\r\nyup"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2024-12-25T13:03:36.000Z",
-      "title": "ohcnetwork/leaderboard#576",
-      "link": "https://github.com/ohcnetwork/leaderboard/pull/576#pullrequestreview-2522586065",
-      "text": "Add: Identify First-Time PR Contributors for Last Week"
     },
     {
       "type": "pr_reviewed",
@@ -53770,12 +53798,15 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9632",
       "title": "Fixes deploy: missing plugin map missing import; calendar component; and other minor fixes",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs review",
+        "tested"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2686",
       "title": "Rithviknishad/appointments filters",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],
