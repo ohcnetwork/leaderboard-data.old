@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-29T08:38:23.000Z",
+  "last_updated": "2025-01-01T14:26:02.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/teleicu_middleware#149",
+      "time": "2025-01-01T14:26:02.000Z",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/149#issuecomment-2567029773",
+      "text": "> @NarmalaSk Could you please add a Description to your PR as well as point to the Issue that you're solving here?\r\n\r\n-> This pr regarding to issues automation,\r\n-> Like when a new issue is added in teleicu_middleware repository it is automatically added to the projects board of the repository   \r\n-> referring to this issue https://github.com/ohcnetwork/teleicu_middleware/issues/24\r\n-> To implement this enhancement Need to generate github pat token store its as ADD_TO_PROJECT_PAT in Github Secrets\r\n\r\nSolves : Adding issues manually to project board, Automates this process"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/teleicu_middleware#149",
@@ -41,7 +48,7 @@
     {
       "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/149",
       "title": "Automation of adding issues to project",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": []
     }
   ],
