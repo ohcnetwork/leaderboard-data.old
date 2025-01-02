@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-12-31T13:38:14.000Z",
+  "last_updated": "2025-01-02T08:43:25.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9419",
+      "time": "2025-01-02T08:43:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9419#issuecomment-2567434970",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) This is our custom implementation, I would recommend that we update FE to match the BE and close this issue.\n\nYea ended up doing that; displaying \"Others\" on FE made more sense (but passing other to BE)."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9419",
+      "time": "2025-01-02T08:43:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9419",
+      "text": "Resource Request"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9631",
@@ -3701,12 +3715,15 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9631",
       "title": "Minor enhancements",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9626",
       "title": "OTP flow: switching to schedulable users and user base",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
