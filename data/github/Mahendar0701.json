@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-01-02T16:57:57.000Z",
+  "last_updated": "2025-01-03T08:28:00.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9662",
+      "time": "2025-01-03T08:28:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9662#issuecomment-2568847197",
+      "text": "> edit may work fine, but is it auto-filling when pincode is entered?\r\n\r\nNope , i will fix that too 👍 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9662",
+      "time": "2025-01-03T06:44:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9662#issuecomment-2568760106",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/399878736-97760b48-41a3-4464-9a4d-534da703c51c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU4ODY4NTEsIm5iZiI6MTczNTg4NjU1MSwicGF0aCI6Ii81NzA1NTk5OC8zOTk4Nzg3MzYtOTc3NjBiNDgtNDFhMy00NDY0LTlhNGQtNTM0ZGE3MDNjNTFjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTAzVDA2NDIzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNjMzdjZmZmYjJiNWFhYWE1MjM0M2VhZWQ0M2NkMjdiZDk5OWUwNWY5MzAwNzk5MmFkYzAyOTEwYjVjNTZjYjkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.C-T3Zc9VS6JyJi8jzFBwzVoeTkjojbPJ4hvrt34zWXo)\r\n> \r\n> the auto-fill is not working in facility detail page\r\n\r\nThe existing values are populating on facility edit as expected\r\n\r\n![image](https://github.com/user-attachments/assets/23ef93a7-a598-4e99-9d86-6b36f8c2e2f4)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9648",
+      "time": "2025-01-03T04:46:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9648#issuecomment-2568688329",
+      "text": "@bodhish assign this to me , i have fixed this in #9662 "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9662",
@@ -856,14 +877,16 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9662",
-      "title": "Fix : Pincode exception error on facility edit",
+      "title": "Fix : Pincode exception error and auto populate of geo_organization info on facility edit",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "test failed"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/landing/pull/46",
-      "title": "Update Primary features images visibility",
-      "stale_for": 2,
+      "title": "Update Primary feature images visibility",
+      "stale_for": 0,
       "labels": []
     }
   ],

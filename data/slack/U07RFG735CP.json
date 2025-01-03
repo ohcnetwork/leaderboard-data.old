@@ -2186,5 +2186,73 @@
                 }
             ]
         }
+    ],
+    "2025-01-03 00:00:00": [
+        {
+            "user": "U07RFG735CP",
+            "type": "message",
+            "ts": "1735881965.578099",
+            "client_msg_id": "9ec1bff1-6777-4825-a56f-ed11cc765780",
+            "text": "1st JAN 2025\nDone\nWorking on \n<https://github.com/ohcnetwork/care_fe/issues/9660|https://github.com/ohcnetwork/care_fe/issues/9660> ,\nNext\n\n Looking for new issues.",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1735827109,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/issues/9660",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#9660 Add debouncing for all new API's",
+                    "text": "*Describe the bug*  \nDebouncing is not added in organization and facilities search field. On every key stroke network call is made, that's not expected\n\n*To Reproduce*  \nSteps to reproduce the behavior:\n\n1. Go to organization or facility page\n2. open network tab\n3. search anything\n4. notice On every key stroke a network call is made\n\n*Expected behavior*  \nNetwork calls should be debounced so that they are made only after the user has stopped typing for a short period, reducing unnecessary calls and improving performance.\n\n*Screenshots*\n\n*Desktop (please complete the following information):*\n\n\u2022 OS: [e.g. iOS]\n\u2022 Browser [e.g. chrome, safari]\n\u2022 Version [e.g. 22]\n\n*Smartphone (please complete the following information):*\n\n\u2022 Device: [e.g. iPhone6]\n\u2022 OS: [e.g. iOS8.1]\n\u2022 Browser [e.g. stock browser, safari]\n\u2022 Version [e.g. 22]\n\n*Additional context*  \nAdd any other context about the problem here.",
+                    "title": "#9660 Add debouncing for all new API's",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/issues/9660",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "<https://github.com/i0am0arunava|@i0am0arunava>",
+                            "title": "Assignees",
+                            "short": true
+                        },
+                        {
+                            "value": "question, needs-triage",
+                            "title": "Labels",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Jrow9",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "1st JAN 2025\nDone\nWorking on \n"
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https://github.com/ohcnetwork/care_fe/issues/9660",
+                                    "text": "https://github.com/ohcnetwork/care_fe/issues/9660"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " ,\nNext\n\n Looking for new issues."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

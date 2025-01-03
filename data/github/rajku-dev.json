@@ -1,6 +1,83 @@
 {
-  "last_updated": "2025-01-03T00:21:29.000Z",
+  "last_updated": "2025-01-03T08:35:14.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9689",
+      "time": "2025-01-03T08:35:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9689",
+      "text": "Pincode \"Expected string, received number\" error"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9689",
+      "time": "2025-01-03T08:15:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9689#issuecomment-2568833599",
+      "text": "@rithviknishad I would like to work on this."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9689",
+      "time": "2025-01-03T08:14:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9689",
+      "text": "Pincode \"Expected string, received number\" error"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9679",
+      "time": "2025-01-03T06:39:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9679#issuecomment-2568756411",
+      "text": "`questionnaire` and `responses` field are also empty for `Medicine Request`,  while it is consistent for `Recommend Discharge` type of questionnaire so toggle is working fine for it.\n\n![Image](https://github.com/user-attachments/assets/9cead88e-8851-40ac-9961-b1011f25be08)\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9679",
+      "time": "2025-01-03T05:45:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9679#issuecomment-2568720383",
+      "text": "The `created_date` field is apparently missing from backend response\nThe issue arises because dayjs(date) function interprets it as the current date and time by default in `formatDateTime`\n\n<img src=https://github.com/user-attachments/assets/6ba06098-c752-4a8c-baa4-612a56de88df width=500/>\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#598",
+      "time": "2025-01-03T05:35:11.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/598#issuecomment-2568714496",
+      "text": "https://contributors.ohc.network/contributors/rithviknishad?between=2024-11-28...2024-11-28\nThe issue was automatically closed under a merge commit\n\n> [@rajku-dev](https://github.com/rajku-dev) is the \"issue closed\" event present?\n\n"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/leaderboard#596",
+      "time": "2025-01-03T04:11:23.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/596",
+      "text": "Conditional commit rendering"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9679",
+      "time": "2025-01-03T03:24:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9679#issuecomment-2568648425",
+      "text": "@bodhish If valid, then I would like to work on this issue."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9679",
+      "time": "2025-01-03T03:23:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9679",
+      "text": "View/Hide Toggle doesn't work as expected"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9678",
+      "time": "2025-01-03T03:21:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9678#issuecomment-2568646456",
+      "text": "@bodhish If this is not the expected behavior then i would like to fix this."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9678",
+      "time": "2025-01-03T03:20:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9678",
+      "text": "Current Time for Medicine Request"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard#373",

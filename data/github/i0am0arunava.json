@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-02T14:56:38.000Z",
+  "last_updated": "2025-01-03T07:01:49.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9660",
+      "time": "2025-01-03T07:01:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9660#issuecomment-2568772075",
+      "text": "> > For each route explain why we need debouncing\n> \n> No need to add denouncing for all new APIs, I want to add denouncing for the two Organization searchfield and facility search field , because On every key stroke network call is made, that's not expected so Network calls should be debounced so that they are made only after the user has stopped typing for a short period, reducing unnecessary calls and improving performance.I mentioned above ,for 6 and 10 denouncing will be added\n\n@bodhish ,can I start now"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9660",
+      "time": "2025-01-03T05:20:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9660#issuecomment-2568707053",
+      "text": "> For each route explain why we need debouncing\n\nNo need to add denouncing for all new APIs, I want to add denouncing for the two \nOrganization searchfield and facility search field , because On every key stroke network call is made, that's not expected so Network calls should be debounced so that they are made only after the user has stopped typing for a short period, reducing unnecessary calls and improving performance.I mentioned above ,for 6 and 11 denouncing will be added "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9660",
