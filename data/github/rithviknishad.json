@@ -1,6 +1,196 @@
 {
-  "last_updated": "2025-01-03T08:36:41.000Z",
+  "last_updated": "2025-01-03T15:46:28.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9641",
+      "time": "2025-01-03T15:46:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9641#issuecomment-2569442542",
+      "text": "see existing usages of `useKeyboardShortcut`\n\nhttps://github.com/ohcnetwork/care_fe/blob/b36f39fea38d18425dcad74a8d43b29ae8eee1a7/src/CAREUI/interactive/KeyboardShortcut.tsx#L16"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9710",
+      "time": "2025-01-03T15:37:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9710#issuecomment-2569422640",
+      "text": "use the one in the \"Schedule Appointment\".\n\nAlso do ensure we have icons too for all those shown ☝ \n\nAlso replace \"ALL\" usages of `ButtonV2` in the codebase with shadcn's `Button`."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9709",
+      "time": "2025-01-03T15:13:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9709",
+      "text": "Sidebar Navigation Highlighting Issue"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9688",
+      "time": "2025-01-03T15:08:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9688",
+      "text": "Create and modify date in encounter page not showing"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9696",
+      "time": "2025-01-03T15:08:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9696",
+      "text": "Fix: Display Modify date and i18n Localization in Patient Encounter Page",
+      "collaborated_with": [
+        "Rishith25",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-03T12:18:52.000Z",
+      "title": "ohcnetwork/care_fe#9696",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9696#pullrequestreview-2528993211",
+      "text": "Fix:Created and Modified dates in patient encounter page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-03T15:05:41.000Z",
+      "title": "ohcnetwork/care_fe#9708",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9708#pullrequestreview-2529232033",
+      "text": "Fix: Switch to shadcn form in userResetPassword "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-03T14:55:06.000Z",
+      "title": "ohcnetwork/care_fe#9707",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9707#pullrequestreview-2529218178",
+      "text": "Fix: Forgot password error should be handled properly "
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9706",
+      "time": "2025-01-03T14:53:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9706",
+      "text": "Toast Notifications: Handle pydantic spec errors",
+      "turnaround_time": 361
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9706",
+      "time": "2025-01-03T14:47:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9706",
+      "text": "Toast Notifications: Handle pydantic spec errors"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9686",
+      "time": "2025-01-03T14:45:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9686#issuecomment-2569340736",
+      "text": "Unassigning due to not following as per docs already mentioned twice."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9704",
+      "time": "2025-01-03T14:44:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9704#issuecomment-2569339259",
+      "text": "https://github.com/ohcnetwork/care_fe/pull/9700#issuecomment-2569166154"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-03T14:43:30.000Z",
+      "title": "ohcnetwork/care_fe#9704",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9704#pullrequestreview-2529199990",
+      "text": "Issues/#9686/forgot password error handling"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9696",
+      "time": "2025-01-03T13:59:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9696#issuecomment-2569261921",
+      "text": "update the PR title accordingly btw"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9701",
+      "time": "2025-01-03T13:52:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9701#issuecomment-2569252673",
+      "text": "We already have `useKeyboardShortcuts` from a package. let's not reinvent the wheel"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9693",
+      "time": "2025-01-03T13:46:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9693",
+      "text": "Rename resources to users; disable heatmap",
+      "turnaround_time": 11433
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9702",
+      "time": "2025-01-03T13:37:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9702",
+      "text": "Remove `InputWithError` and `InputErrors` component in favour of shadcn's components being used directly"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2702",
+      "time": "2025-01-03T13:31:24.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2702",
+      "text": "fix token booking read spec",
+      "turnaround_time": 48
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2702",
+      "time": "2025-01-03T13:30:36.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2702",
+      "text": "fix token booking read spec"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2701",
+      "time": "2025-01-03T13:18:19.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2701",
+      "text": "Scheduling Validations",
+      "turnaround_time": 9740
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9660",
+      "time": "2025-01-03T12:54:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9660#issuecomment-2569180572",
+      "text": "there are more things that needs to be debounced. please find more usages and list them."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-03T12:12:46.000Z",
+      "title": "ohcnetwork/care_fe#9697",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9697#pullrequestreview-2528988708",
+      "text": "Added new test to search for patient"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-03T12:11:57.000Z",
+      "title": "ohcnetwork/care_fe#9698",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9698#pullrequestreview-2528987804",
+      "text": "Avoid unnessary file download during preview"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9692",
+      "time": "2025-01-03T12:06:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9692#issuecomment-2569124286",
+      "text": "Instead of scroll, can we truncate the text instead?\r\n\r\nThe full text can be shown as a tooltip instead."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9693",
+      "time": "2025-01-03T10:36:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9693",
+      "text": "Scheduling changes as per BE"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2701",
+      "time": "2025-01-03T10:35:59.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2701",
+      "text": "Scheduling Validations"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-03T07:42:27.000Z",
@@ -54219,12 +54409,16 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9684",
-      "title": "remove unused code",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9713",
+      "title": "enable heatmap and fix appointments column size",
       "stale_for": 0,
-      "labels": [
-        "needs review"
-      ]
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2703",
+      "title": "fixes heatmap API edge case",
+      "stale_for": 0,
+      "labels": []
     }
   ],
   "authored_issue_and_pr": [
@@ -54270,10 +54464,6 @@
     },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8534",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8522"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8532",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8522"
     }
   ]
