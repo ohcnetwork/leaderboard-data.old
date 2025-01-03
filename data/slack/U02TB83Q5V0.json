@@ -3337,5 +3337,147 @@
                 }
             ]
         }
+    ],
+    "2025-01-02 00:00:00": [
+        {
+            "user": "U02TB83Q5V0",
+            "type": "message",
+            "ts": "1735851540.341039",
+            "client_msg_id": "0bf92d77-9e50-4ca2-9697-8e1aa46489a9",
+            "text": "2nd Jan and before\n\u2022 Refactored Scribe to be an MFE\n\u2022 Struggled a lot with figuring out the best way to handle structured inputs on Scribe\n\u2022 Pushed out a version with prompts on care_fe for demo sake\n\u2022 Synced up with Gigin to help setup\n\u2022 Updated to not pass any prompts on care_fe and changed the entire logic of handling structured inputs\n\u2022 Made a short PR on Scribe BE that supports overriding the default prompts for easy experimentation\n\u2022 Pushed the version where structured inputs work without DOM value injections\nNext\n\u2022 Extensively test if anything breaks\n\u2022 Get all Scribe PRs merged",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "e+G8f",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "2nd Jan and before\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Refactored Scribe to be an MFE"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Struggled a lot with figuring out the best way to handle structured inputs on Scribe"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Pushed out a version with prompts on care_fe for demo sake"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Synced up with Gigin to help setup"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Updated to not pass any prompts on care_fe and changed the entire logic of handling structured inputs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Made a short PR on Scribe BE that supports overriding the default prompts for easy experimentation"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Pushed the version where structured inputs work without DOM value injections"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Extensively test if anything breaks"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Get all Scribe PRs merged"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U0576PEACG0"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }
