@@ -3702,5 +3702,114 @@
                 }
             ]
         }
+    ],
+    "2025-01-04 00:00:00": [
+        {
+            "user": "U06L50QL1AQ",
+            "type": "message",
+            "ts": "1735989123.407309",
+            "client_msg_id": "86912aa7-cc9a-4a65-92ba-c1c65e63844b",
+            "text": "3rd Jan 2024\n\u2022 Fixed my sms PR as per the comments\n\u2022 Synced with Yaswanth regarding the MFA issue.\nNext\n\u2022 raise a PR for - <https://github.com/ohcnetwork/care/issues/2699>\n\u2022 Go through the EMR implementation docs.\n\u2022 Understand the new pydantic way of handling things in Django (never saw pydantic used with django like this , so learning something new :marioluigidancing: )",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "blBAT",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "3rd Jan 2024\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed my sms PR as per the comments"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Synced with Yaswanth regarding the MFA issue."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "raise a PR for - "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/issues/2699"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Go through the EMR implementation docs."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Understand the new pydantic way of handling things in Django (never saw pydantic used with django like this , so learning something new "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "marioluigidancing"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " )"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
