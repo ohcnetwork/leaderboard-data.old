@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-12-31T13:59:14.000Z",
+  "last_updated": "2025-01-04T01:53:09.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9627",
+      "time": "2025-01-04T01:53:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9627#issuecomment-2569997852",
+      "text": "@bodhish not sure if this is relevant anymore, just confirming\r\n\r\n1. Is this our preferred UI for medication request\r\n<img width=\"1185\" alt=\"image\" src=\"https://github.com/user-attachments/assets/84ebfa40-e27c-46e2-9ee5-5ee8c3d40448\" />\r\n\r\n2. Also for questions, which type of view is the preferred, table-like or card-like (this PR converts table-like views to card-like ones)\r\n<img width=\"749\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5db234ef-92f5-4c22-9a83-7b7025380658\" />\r\n<img width=\"467\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a97eb693-3b9e-4d10-b69b-cf3affe99f02\" />\r\n\r\n"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care#2694",
@@ -40551,18 +40558,20 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9627",
       "title": "Cleanup",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "merge conflict"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/3",
       "title": "Micro frontend refactor",
-      "stale_for": 14,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2652",
       "title": "Removed fhir.resources and bumped pydantic to v2",
-      "stale_for": 12,
+      "stale_for": 14,
       "labels": [
         "waiting-for-review"
       ]
@@ -40570,19 +40579,19 @@
     {
       "link": "https://github.com/ohcnetwork/care_hcx/pull/8",
       "title": "Bumped fhir.resources to 7.1.0 to support pydantic v2",
-      "stale_for": 14,
+      "stale_for": 16,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2642",
       "title": "Labs",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2557",
       "title": "Added support for enabling boundaries for assetbed cameras",
-      "stale_for": 37,
+      "stale_for": 39,
       "labels": [
         "Hold"
       ]
@@ -40590,7 +40599,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2506",
       "title": "Privacy consultation bed",
-      "stale_for": 37,
+      "stale_for": 39,
       "labels": [
         "Hold",
         "peer-reviewed"
@@ -40599,25 +40608,25 @@
     {
       "link": "https://github.com/ohcnetwork/zoomdrive/pull/22",
       "title": "Zoom Drive V2",
-      "stale_for": 240,
+      "stale_for": 242,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 1111,
+      "stale_for": 1113,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 1117,
+      "stale_for": 1119,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 1118,
+      "stale_for": 1120,
       "labels": []
     }
   ],

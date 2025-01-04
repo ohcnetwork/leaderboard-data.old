@@ -1,6 +1,21 @@
 {
-  "last_updated": "2025-01-03T14:51:25.000Z",
+  "last_updated": "2025-01-03T20:46:41.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9707",
+      "time": "2025-01-03T20:46:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9707",
+      "text": "Fix: Forgot password error should be handled properly ",
+      "turnaround_time": 21359
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9707",
+      "time": "2025-01-03T16:20:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9707#issuecomment-2569489566",
+      "text": "> Although this works, we are moving towards migrating to useQuery/useMutation from tanstack query.\r\n> \r\n> See docs: https://docs.ohc.network/docs/care/development/data-fetching-in-care/\r\n> \r\n> Do make changes as mentioned in the docs.\r\n> \r\n> It should automatically handle the notifications for you (for http errors). Success would still need to be manually handled though.\r\n\r\nokay @rithviknishad on it"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9707",
@@ -214,13 +229,6 @@
       "text": "@rithviknishad I guess I can help you with this! Can I work on this?\n"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9707",
-      "title": "Fix: Forgot password error should be handled properly ",
-      "stale_for": 0,
-      "labels": []
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }
