@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-03T15:09:13.000Z",
+  "last_updated": "2025-01-04T07:04:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9660",
+      "time": "2025-01-04T07:04:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9660#issuecomment-2570421395",
+      "text": "> > there are more things that needs to be debounced. please find more usages and list them.\n> \n> [@rithviknishad](https://github.com/rithviknishad) [@bodhish](https://github.com/bodhish), I found these three cases where debouncing is needed, particularly in the search bar component on each keystroke. If you know of any other APIs that need debouncing, please help\n> \n> 1. https://care-api.do.ohc.network/api/v1/organization/?parent= &offset= &limit=\n> 2. https://care-api.do.ohc.network/api/v1/facility/?page= &limit= &offset= &geo_organization=\n> 3. https://care-api.do.ohc.network/api/v1/facility/fb8044e2-bc37-4402-b044-8e8ef4581135/organizations/?parent=e833aea2-\n>    367f-462c-9170-961ba92cedfc&offset=0&limit=12&name=bb\n\n@rithviknishad can you help ,I found these 3 only ..?"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#9709",

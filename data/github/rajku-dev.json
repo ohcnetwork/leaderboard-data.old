@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-01-03T17:15:50.000Z",
+  "last_updated": "2025-01-04T07:42:55.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#373",
+      "time": "2025-01-04T07:42:55.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/373#issuecomment-2570567524",
+      "text": "> issue is about tracking commits in the flat data repo and not the feed page.\n\nso we need to have this algo in a scraper in github-scraper folder (fetchForkedCommits.ts) and a new ACTIVITY_TYPE \"forked_commits\", with new  `commits : Activity[]` field in `ActivityData` \nchanges will be reflected in .json file of users in data-repo and we can update profile from there on right? \n@rithviknishad "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9732",
+      "time": "2025-01-04T07:11:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9732",
+      "text": "Prevent Unnecessary Network Requests"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9733",
+      "time": "2025-01-04T07:06:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9733#issuecomment-2570430558",
+      "text": "@rithviknishad Can i work in this task."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9733",
+      "time": "2025-01-04T07:06:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9733",
+      "text": "Required Fields Error"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9732",
+      "time": "2025-01-04T06:51:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9732#issuecomment-2570367518",
+      "text": "@rithviknishad I would like to work on fixing this."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9732",
+      "time": "2025-01-04T06:51:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9732",
+      "text": "Prevent Unnecessary Network Requests"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9717",
+      "time": "2025-01-04T03:20:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9717#issuecomment-2570028373",
+      "text": "> this approach doesn't work for multiple reasons\r\n> \r\n> 1. if you go to a specific page directly by pasting it's link in the browser, this shows facility tab regardless of what page it is currently in.\r\n> 2. if you somehow let's say reach facility page through users profile, or patient details or anywhere else, the active tab doesn't automatically change to that.\r\n\r\nso the collision approach was better i guess.. i thought tab should not change once upon inter-navigation"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9717",
+      "time": "2025-01-04T03:07:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9717#issuecomment-2570025146",
+      "text": "@rithviknishad according to me its handling all the edge cases now. Can you please [review](https://deploy-preview-9717--care-ohc.netlify.app/) once?"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9717",
@@ -859,14 +915,7 @@
       "text": "can i take up Odia (od).\n"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9717",
-      "title": "fix multi active nav links",
-      "stale_for": 0,
-      "labels": []
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/593",
