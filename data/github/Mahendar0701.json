@@ -1,6 +1,35 @@
 {
-  "last_updated": "2025-01-04T16:06:24.000Z",
+  "last_updated": "2025-01-05T16:38:27.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9736",
+      "time": "2025-01-05T16:38:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9736",
+      "text": "Replaced ButtonV2's with Button in entire codebase",
+      "turnaround_time": 110703
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9736",
+      "time": "2025-01-05T13:23:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9736#issuecomment-2571625763",
+      "text": "> you missed removing these\r\n> \r\n> <img alt=\"image\" width=\"851\" src=\"https://private-user-images.githubusercontent.com/25143503/400202916-a67dc3c7-bd6b-4454-9e23-22ef089b7843.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYwODM1NTEsIm5iZiI6MTczNjA4MzI1MSwicGF0aCI6Ii8yNTE0MzUwMy80MDAyMDI5MTYtYTY3ZGMzYzctYmQ2Yi00NDU0LTllMjMtMjJlZjA4OWI3ODQzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTA1VDEzMjA1MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYzNDUyODE5ZDMyMGU5OGEwOTgyYWNlOGZlYzk5ZmYyZWFmYmQ5YTBhZDdiNGQwNDY3ZjI2YjQzMTRhOGZlYTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.-yE6rzSPyuv5lI4JlmVhW4x08wS_N2I0RfdIwkb1BBY\">\r\n\r\n@rithviknishad Done"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9736",
+      "time": "2025-01-05T11:42:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9736#issuecomment-2571596168",
+      "text": "> > @rithviknishad I have added `warning ` and `alert ` variant in `button.tsx` as they are being used in 4 files. Should i keep them or remove it from `button.tsx`? if removed should i use className to make variant in corresponding buttons?\r\n> \r\n> yup, that should be fine\r\n\r\nI should keep alert and warning variants in button.tsx right? 👀 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9736",
+      "time": "2025-01-05T10:38:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9736#issuecomment-2571580141",
+      "text": "@rithviknishad   I have added `warning ` and `alert ` variant  in `button.tsx` as they are being use in 4 files. Should i keep them or remove it from `button.tsx`? if removed should i use className to make variant in corresponding buttons?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9744",
@@ -952,6 +981,59 @@
       "text": "Fix Notification Subscription Loading and Messaging Errors"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9662",
+      "title": "Fix : Pincode exception error and auto populate of geo_organization info on facility edit",
+      "stale_for": 0,
+      "labels": [
+        "test failed",
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/landing/pull/46",
+      "title": "Update Primary feature images visibility",
+      "stale_for": 2,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9744",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9746"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9710",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9736"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/586",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/587"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9312",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9320"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9253",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9254"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9250",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9251"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9021",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9038"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8876",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8879"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8849",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8851"
+    }
+  ]
 }
