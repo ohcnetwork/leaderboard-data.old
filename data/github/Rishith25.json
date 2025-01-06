@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-05T19:05:01.000Z",
+  "last_updated": "2025-01-06T12:10:06.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9769",
+      "time": "2025-01-06T12:10:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9769#issuecomment-2572983801",
+      "text": "@rithviknishad \n  ```\ncheckUsername: {\n    path: \"/api/v1/users/{username}/check_availability/\",\n    method: \"GET\",\n    TRes: Type<Record<string, never>>(),\n  },\n```\n\nthis api route is not available in frontend but it is available in backend so shall add in the  `src/Utils/request/api.tsx`"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9735",
+      "time": "2025-01-06T11:39:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9735#issuecomment-2572935428",
+      "text": "@bodhish @rithviknishad Can you please review updated changes"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9769",

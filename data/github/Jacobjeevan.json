@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-01-06T07:46:50.000Z",
+  "last_updated": "2025-01-06T14:52:17.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9787",
+      "time": "2025-01-06T14:52:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9787#issuecomment-2573274136",
+      "text": "> @Jacobjeevan When i checked deploy preview i saw that the File upload Button is missing here...Or is there any other route for file uploading ?? Before: ![Screenshot 2025-01-06 at 8 19 29 PM](https://private-user-images.githubusercontent.com/98073418/400456724-04cfa4e2-a56f-4ae1-8e30-9761f3510324.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYxNzUzNzQsIm5iZiI6MTczNjE3NTA3NCwicGF0aCI6Ii85ODA3MzQxOC80MDA0NTY3MjQtMDRjZmE0ZTItYTU2Zi00YWUxLThlMzAtOTc2MWYzNTEwMzI0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTA2VDE0NTExNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY3ZTQzZjY3YTE0MjIyNmQ2NzQwZjQ2NGNjZjQxNzAwMGQ2MjM2N2YwYjBkZTM3ZTgyMzkyOTg4YTVlZTc5MmImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LWGEiKy79B9UKmdY1RQPzZwRqPy3sbmL-iaWON91nlM)\r\n> \r\n> After:\r\n> \r\n> ![Screenshot 2025-01-06 at 8 17 49 PM](https://private-user-images.githubusercontent.com/98073418/400456226-3be7c99b-7b70-4a48-82f6-6a0223227fd7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYxNzUzNzQsIm5iZiI6MTczNjE3NTA3NCwicGF0aCI6Ii85ODA3MzQxOC80MDA0NTYyMjYtM2JlN2M5OWItN2I3MC00YTQ4LTgyZjYtNmEwMjIzMjI3ZmQ3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTA2VDE0NTExNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY2NWEzZGFjYjgyMjYzYTI5OGI5ZDJiYmFjNzM3Y2M4NTNiYjc1NTZiNTY5YjIyMzYxZDJlMTUyZjVjYWRkM2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.hbgwWaEC9gpZVZOHJnY0S0cUajdu2sZG3wvzVBhSF3k)\r\n\r\nIt's related to perms; Backend would address that later today :) That should take care of it."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9748",
+      "time": "2025-01-06T14:48:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9748#issuecomment-2573265729",
+      "text": "> @Jacobjeevan [#9504 (comment)](https://github.com/ohcnetwork/care_fe/issues/9504#issuecomment-2558375326)\r\n> \r\n> the suggested design and current design looks way different , was it intentionally changed\r\n\r\nYea, it looked too congested with the 3 drop downs. But we should adjust the design somewhat. I'll ping Vinu on Slack."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9791",
+      "time": "2025-01-06T14:35:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9791",
+      "text": "Bug: Patient Registration Form Allows Negative Age Values"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9789",
+      "time": "2025-01-06T11:12:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9789#issuecomment-2572892351",
+      "text": "This is due to organization information not populating on the FE - that will be solved in #9648 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9789",
+      "time": "2025-01-06T11:12:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9789",
+      "text": "Update Facility Button Not working"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9787",
+      "time": "2025-01-06T10:25:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9787",
+      "text": "Patient files"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-06T07:46:50.000Z",
@@ -3952,17 +3994,29 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9787",
+      "title": "Patient files",
+      "stale_for": 0,
+      "labels": [
+        "waiting for backend",
+        "merge conflict"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9748",
       "title": "Public Facilities Filters",
       "stale_for": 0,
       "labels": [
-        "work-in-progress"
+        "needs testing",
+        "needs review",
+        "merge conflict",
+        "Design"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9651",
       "title": "Added scroll to top for questionnaire",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "changes required"
       ]

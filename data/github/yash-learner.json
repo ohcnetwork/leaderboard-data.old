@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-03T15:21:38.000Z",
+  "last_updated": "2025-01-06T09:53:27.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9711",
+      "time": "2025-01-06T09:53:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9711#issuecomment-2572756389",
+      "text": "> not a fan of this approach. how about we stick with how dependent queries are made as per tanstacks docs?\r\n> \r\n> https://tanstack.com/query/latest/docs/framework/react/guides/dependent-queries#usequery-dependent-query\r\n> \r\n> this way we wouldn't need to try catch either and stick with the simplicity.\r\n> \r\n> cc @bodhish\r\n\r\n@rithviknishad \r\n\r\nUpdated it in this https://github.com/ohcnetwork/care_fe/pull/9711/commits/bdd739f85d33c1c948bb4eb9e8583443c8f49835, https://github.com/ohcnetwork/care_fe/pull/9711/commits/6905db313c932aabafc279d554c5f90ccb07571a. Does it look good ?"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9711",
@@ -224,6 +231,37 @@
       "text": "Update yash-learner.md"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9711",
+      "title": "Fix state & district autofill & multiple other small issues in Patient Registration page",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2681",
+      "title": "Serialize ServiceRequest properly to get requester fields",
+      "stale_for": 10,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9260",
+      "title": "Labs",
+      "stale_for": 0,
+      "labels": [
+        "Deploy-Failed",
+        "merge conflict",
+        "stale"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/81",
+      "title": "Add proposal for MFA",
+      "stale_for": 42,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }

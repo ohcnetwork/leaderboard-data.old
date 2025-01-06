@@ -1,12 +1,19 @@
 {
-  "last_updated": "2025-01-06T08:56:40.000Z",
+  "last_updated": "2025-01-06T15:19:42.000Z",
   "activity": [
     {
-      "type": "pr_reviewed",
-      "time": "2025-01-03T15:05:41.000Z",
-      "title": "ohcnetwork/care_fe#9708",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9708#pullrequestreview-2529232033",
-      "text": "Fix: Switch to shadcn form in userResetPassword "
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9769",
+      "time": "2025-01-06T15:19:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9769#issuecomment-2573329432",
+      "text": "add it to `src/types/user/userApi.ts` instead.\n\nWe are on a voyage in defragmenting that large api.tsx file to individual modules for a more maintainable and clean code."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9736",
+      "time": "2025-01-06T15:12:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9736#issuecomment-2573315886",
+      "text": "go ahead and handle notification first 🚀 "
     },
     {
       "type": "pr_reviewed",
@@ -14,6 +21,69 @@
       "title": "ohcnetwork/care_fe#9728",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9728#pullrequestreview-2531508155",
       "text": "Fix Online Status Indicator in Organization Tab"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9798",
+      "time": "2025-01-06T14:59:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9798",
+      "text": "Dropdown not closing on selecting practicioner in Appointments page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9798",
+      "time": "2025-01-06T14:59:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9798#issuecomment-2573289113",
+      "text": "😬 i've already solved it in my (quite big) refactor PR along with the validations, moving the date filters and all."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9790",
+      "time": "2025-01-06T14:46:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9790#issuecomment-2573263283",
+      "text": "Note to myself: prevent token slot creation if it's an Open schedule so that heatmap / get slots for day doesn't report it."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9790",
+      "time": "2025-01-06T14:45:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9790#issuecomment-2573261238",
+      "text": "Assigning it to myself for further debugging. Will free this up for contribution if it's something that can be done in the frontend itself easily."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9790",
+      "time": "2025-01-06T14:42:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9790#issuecomment-2573254452",
+      "text": "Looks like something to do with timezone ig... availability calendar doesn't show schedule on 13th feb.\n\n![Image](https://github.com/user-attachments/assets/ef4603b2-92f7-4ed6-96d2-f8b4a2a6eaca)\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9782",
+      "time": "2025-01-06T09:48:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9782#issuecomment-2572748573",
+      "text": "update the pr's title to something meaningful btw"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-06T09:25:33.000Z",
+      "title": "ohcnetwork/care_fe#9784",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9784#pullrequestreview-2531719857",
+      "text": "Bump @tanstack/react-query from 5.62.11 to 5.62.15"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-06T09:24:28.000Z",
+      "title": "ohcnetwork/care_fe#9785",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9785#pullrequestreview-2531715579",
+      "text": "Bump @tanstack/react-query-devtools from 5.62.11 to 5.62.15"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-03T15:05:41.000Z",
+      "title": "ohcnetwork/care_fe#9708",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9708#pullrequestreview-2529232033",
+      "text": "Fix: Switch to shadcn form in userResetPassword "
     },
     {
       "type": "comment_created",
@@ -54976,7 +55046,20 @@
       "text": "gh scraper: improve logging and scrape everything"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9799",
+      "title": "Refactor Scheduling and Appointments; support for delete schedule, cancel booking, improved date filter in appointments page, etc.",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2711",
+      "title": "Scheduling and Appointments: Validations and other minor fixes",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care/issues/2667",
