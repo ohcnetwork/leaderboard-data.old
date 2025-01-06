@@ -1,6 +1,398 @@
 {
-  "last_updated": "2025-01-05T15:38:30.000Z",
+  "last_updated": "2025-01-05T21:06:07.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2647",
+      "time": "2025-01-05T21:06:07.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2647",
+      "text": "Service Worker Not Pushing Patient Notes to Frontend in Real-Time"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2670",
+      "time": "2025-01-05T21:06:07.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2670",
+      "text": "Remove Covid specific fields from patient"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2598",
+      "time": "2025-01-05T21:06:06.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2598",
+      "text": "Rebuild events with observtions system"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2597",
+      "time": "2025-01-05T21:06:06.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2597",
+      "text": "404 Error For Consultations After a Patient is Discharged From Care"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2573",
+      "time": "2025-01-05T21:06:05.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2573",
+      "text": "Add basic models and service for Schedules"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2499",
+      "time": "2025-01-05T21:06:05.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2499",
+      "text": "Bugs in `populate investigations` command"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2416",
+      "time": "2025-01-05T21:06:05.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2416",
+      "text": "Rethink middleware hostname overrides"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2383",
+      "time": "2025-01-05T21:06:05.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2383",
+      "text": "Add validation for max dosage in PRN prescription "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2369",
+      "time": "2025-01-05T21:06:04.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2369",
+      "text": "Optimize events create operations"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2245",
+      "time": "2025-01-05T21:06:04.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2245",
+      "text": "ICD11: Fallback to DB lookup for unresolved lookups to redis and improving exception handling"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2240",
+      "time": "2025-01-05T21:06:04.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2240",
+      "text": "Investigate values being logged from constraint exceptions"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2239",
+      "time": "2025-01-05T21:06:03.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2239",
+      "text": "Research slow db timeouts reported on sentry"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2166",
+      "time": "2025-01-05T21:06:03.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2166",
+      "text": "Use FK to Skills in HospitalDoctor instead of DOCTOR_TYPES"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2128",
+      "time": "2025-01-05T21:06:03.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2128",
+      "text": "User Type: Data entry Operator"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2085",
+      "time": "2025-01-05T21:06:02.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2085",
+      "text": "Add “modified_date” & “updated_by” to the User table"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2069",
+      "time": "2025-01-05T21:06:02.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2069",
+      "text": "Improve tests for automated daily rounds"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2370",
+      "time": "2025-01-05T21:04:46.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2370",
+      "text": "Multiple beds \"in use\" by same patient"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2333",
+      "time": "2025-01-05T21:04:45.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2333",
+      "text": "N+1 API queries in prescription administration table"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1937",
+      "time": "2025-01-05T21:04:44.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1937",
+      "text": "Configurable storage provider"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2003",
+      "time": "2025-01-05T21:04:45.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2003",
+      "text": "Clear entries from the search index if they are not in db anymore"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1977",
+      "time": "2025-01-05T21:04:45.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1977",
+      "text": "Whatsapp bot for CARE"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1956",
+      "time": "2025-01-05T21:04:44.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1956",
+      "text": "No API Endpoint for Bulk Import of Assets"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1948",
+      "time": "2025-01-05T21:04:44.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1948",
+      "text": "Convert all tuples to choice classes"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1930",
+      "time": "2025-01-05T21:04:43.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1930",
+      "text": "Update bed types"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1889",
+      "time": "2025-01-05T21:04:43.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1889",
+      "text": "Dummy Data for Shifting and Resource"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1840",
+      "time": "2025-01-05T21:04:43.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1840",
+      "text": "Add access control to live feed configs"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1817",
+      "time": "2025-01-05T21:04:42.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1817",
+      "text": "Load medibase and icd11 from static json"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1805",
+      "time": "2025-01-05T21:04:42.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1805",
+      "text": "Optimize summarization endpoints"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1721",
+      "time": "2025-01-05T21:04:42.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1721",
+      "text": "Add Minimum quantity data in the inventory list"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1259",
+      "time": "2025-01-05T21:04:39.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1259",
+      "text": "Optimize bed and patient count calculation"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1697",
+      "time": "2025-01-05T21:04:41.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1697",
+      "text": "Add created_by and updated_by fields to base model"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1540",
+      "time": "2025-01-05T21:04:41.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1540",
+      "text": "File Upload- to be added to discharge summary"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1462",
+      "time": "2025-01-05T21:04:41.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1462",
+      "text": "SoftTimeLimitExceeded: SoftTimeLimitExceeded()"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1411",
+      "time": "2025-01-05T21:04:40.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1411",
+      "text": "Update the heroku deployment config"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1330",
+      "time": "2025-01-05T21:04:40.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1330",
+      "text": "Manually cascade delete M2M models when related model is deleted."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1189",
+      "time": "2025-01-05T21:04:39.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1189",
+      "text": "Optimize the query to fetch the skills associated to a User in `UserAssignedSerializer`"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#968",
+      "time": "2025-01-05T21:04:39.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/968",
+      "text": "Revamp Permissions"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#913",
+      "time": "2025-01-05T21:04:39.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/913",
+      "text": "Add custom filter to filter out patients based on a single query date params"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#903",
+      "time": "2025-01-05T21:04:38.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/903",
+      "text": "Create tests for middleware authentication and patient id endpoint"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#1236",
+      "time": "2025-01-05T21:03:25.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1236",
+      "text": "Support SSO in care "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#863",
+      "time": "2025-01-05T21:03:25.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/863",
+      "text": "Api to change role for the users"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#802",
+      "time": "2025-01-05T21:03:24.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/802",
+      "text": "Inventory management doesn't update minimum count value"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#738",
+      "time": "2025-01-05T21:03:24.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/738",
+      "text": "Create Metrics for Whatsapp Video Utilization"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#713",
+      "time": "2025-01-05T21:03:24.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/713",
+      "text": "Authentication for MSE Server, handled by the Middleware Server"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#709",
+      "time": "2025-01-05T21:03:23.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/709",
+      "text": "Summarize Beds under Facility"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#701",
+      "time": "2025-01-05T21:03:23.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/701",
+      "text": "Hamilton Integration V2"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#696",
+      "time": "2025-01-05T21:03:23.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/696",
+      "text": "Hamilton Integration POC"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#681",
+      "time": "2025-01-05T21:03:22.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/681",
+      "text": "Summary for Live TeleICU Patients"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#676",
+      "time": "2025-01-05T21:03:22.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/676",
+      "text": "asset_transaction Permissions might need tweaking"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#650",
+      "time": "2025-01-05T21:03:22.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/650",
+      "text": "Consultation Update when Filing Consultation"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#375",
+      "time": "2025-01-05T21:03:20.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/375",
+      "text": "Create a user role application. "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#609",
+      "time": "2025-01-05T21:03:22.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/609",
+      "text": "Support Different Deployment Options"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#489",
+      "time": "2025-01-05T21:03:21.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/489",
+      "text": "Simplify Listing APIs"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#396",
+      "time": "2025-01-05T21:03:21.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/396",
+      "text": "'Repeat Test' field in ICMR Form"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#376",
+      "time": "2025-01-05T21:03:21.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/376",
+      "text": "Make all queryset filters OR based"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#284",
+      "time": "2025-01-05T21:03:20.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/284",
+      "text": "Update Covid Suspect / Patient Details page >> Any medical History section >> the values provided as \"Details\" for each item (Diabetes, Heart disease, HyperTension, Kidney disease) are not getting populated in the edit page"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-05T15:38:30.000Z",

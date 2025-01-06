@@ -1,6 +1,90 @@
 {
-  "last_updated": "2025-01-05T17:14:52.000Z",
+  "last_updated": "2025-01-05T18:54:01.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9714",
+      "time": "2025-01-05T18:54:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9714",
+      "text": "Replace loading text with care loading icon"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-05T13:01:56.000Z",
+      "title": "ohcnetwork/care_fe#9723",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9723#pullrequestreview-2530892998",
+      "text": "Care Loading icon in organization and facility users"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9768",
+      "time": "2025-01-05T18:44:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9768#issuecomment-2571716604",
+      "text": "let's keep the implementation idential to the one in appointments, and delete that kanban board"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9768",
+      "time": "2025-01-05T18:26:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9768#issuecomment-2571711835",
+      "text": "solve the changes requested in previous PR here atleast then?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9768",
+      "time": "2025-01-05T18:12:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9768#issuecomment-2571708410",
+      "text": "1. Solve conflicts in old PR itself instead of reopening new PRs. Use it as an opportunity to learn git.\r\n\r\n2. Reviews done in old PR are not made here. It's a pain to reviews when duplicate PRs are opened. Confuses things."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-03T15:05:41.000Z",
+      "title": "ohcnetwork/care_fe#9708",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9708#pullrequestreview-2529232033",
+      "text": "Fix: Switch to shadcn form in userResetPassword "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9708",
+      "time": "2025-01-05T18:04:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9708#issuecomment-2571706194",
+      "text": "it doesn't inform the user what the error is when i click submit.\r\n\r\ndo a self test of all the cases after making the changes and then request for review.\r\n\r\nAlso let's keep it as grid with two columns (in desktop view) itself like how it was before. New and Confirm password can be in second row though however.\r\n\r\n<img width=\"1289\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5afe1e83-bc34-413a-a68b-15e57f2e0606\" />\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9723",
+      "time": "2025-01-05T17:58:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9723#issuecomment-2571704422",
+      "text": "resolve conflicts btw"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-05T16:05:09.000Z",
+      "title": "ohcnetwork/care_fe#9727",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9727#pullrequestreview-2530926820",
+      "text": "Error messages should clearly specify the exact issue encountered during facility cover image uploads"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-02T16:56:44.000Z",
+      "title": "ohcnetwork/care_fe#9662",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9662#pullrequestreview-2527907513",
+      "text": "Fix : Pincode exception error on facility edit"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9751",
+      "time": "2025-01-05T17:20:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9751#issuecomment-2571694639",
+      "text": "yup, no issues, not a priority bug."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9739",
+      "time": "2025-01-05T17:16:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9739#issuecomment-2571693648",
+      "text": "This is still not the right way to do it. Taking it up myself, as I've done this in my upcoming PR."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9751",
@@ -38,13 +122,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2025-01-03T15:05:41.000Z",
-      "title": "ohcnetwork/care_fe#9708",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9708#pullrequestreview-2529232033",
-      "text": "Fix: Switch to shadcn form in userResetPassword "
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2025-01-05T09:04:37.000Z",
       "title": "ohcnetwork/care_fe#9736",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9736#pullrequestreview-2530851220",
@@ -72,25 +149,11 @@
       "text": "i'm working on these parts already, taking it up."
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-01-05T16:05:09.000Z",
-      "title": "ohcnetwork/care_fe#9727",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9727#pullrequestreview-2530926820",
-      "text": "Error messages should clearly specify the exact issue encountered during facility cover image uploads"
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9765",
       "time": "2025-01-05T15:42:32.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9765#issuecomment-2571667261",
       "text": "different solution was already suggested in the issue"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-05T13:01:56.000Z",
-      "title": "ohcnetwork/care_fe#9723",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9723#pullrequestreview-2530892998",
-      "text": "Care Loading icon in organization and facility users"
     },
     {
       "type": "comment_created",
@@ -806,13 +869,6 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9672",
       "text": "Appointments: redirect to patient page post update status to in_consultation",
       "turnaround_time": 576
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-02T16:56:44.000Z",
-      "title": "ohcnetwork/care_fe#9662",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9662#pullrequestreview-2527907513",
-      "text": "Fix : Pincode exception error on facility edit"
     },
     {
       "type": "pr_opened",
