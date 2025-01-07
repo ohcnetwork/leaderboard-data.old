@@ -4895,5 +4895,173 @@
                 }
             ]
         }
+    ],
+    "2025-01-06 00:00:00": [
+        {
+            "user": "U06CY7RUZ9S",
+            "type": "message",
+            "ts": "1736185670.030889",
+            "client_msg_id": "37c077aa-4a02-4884-bd14-45e59e668008",
+            "text": "January 3 2025\n\u2022 Deployed staging.ohc.network in digitalocean + cloudflare pages, \n\u2022 broke and restored terminology server :skull:\n\u2022 Disabled GCS Builds for care-staging and preserved\n\u2022 had discussion with bodhi and gigin to plan staging, develop deployments. \nJanuary 6 2025\n\u2022 Configured Captcha keys for dev/staging deployments. \n\u2022 Did a db reset on staging.ohc.network and deployed the updated staging branch with care scribe. \n\u2022 Drafted and got the pr to disable gcp triggers merged. \nUp next. \n\u2022 Figure out captcha specs and open issue to update if required. \n\u2022 Get AWS dev deployment working. ",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "1lnnp",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "January 3 2025\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Deployed staging.ohc.network in digitalocean + cloudflare pages, "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "broke and restored terminology server "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "skull",
+                                            "unicode": "1f480"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Disabled GCS Builds for care-staging and preserved"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "had discussion with bodhi and gigin to plan staging, develop deployments. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\nJanuary 6 2025\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Configured Captcha keys for dev/staging deployments. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Did a db reset on staging.ohc.network and deployed the updated staging branch with care scribe. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Drafted and got the pr to disable gcp triggers merged. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\nUp next. \n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Figure out captcha specs and open issue to update if required. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Get AWS dev deployment working. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "skull",
+                    "users": [
+                        "UC8TSEGCQ",
+                        "U02TDGQQPMJ"
+                    ],
+                    "count": 2
+                }
+            ]
+        }
     ]
 }

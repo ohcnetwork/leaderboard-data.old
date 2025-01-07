@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-01-04T07:04:29.000Z",
+  "last_updated": "2025-01-06T19:39:42.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9801",
+      "time": "2025-01-06T19:39:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9801#issuecomment-2573788091",
+      "text": "> add translations for all these files.\r\n\r\n@bodhish once told me to make it only for `en.json`. So, should I make changes only in `en.json`?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9801",
+      "time": "2025-01-06T19:37:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9801#issuecomment-2573785322",
+      "text": "> add translations for all these files.\r\n\r\n@bodhish  ,once told me to made it  only for en.json...., so what should I do ,can I change only en.json?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9801",
+      "time": "2025-01-06T19:09:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9801#issuecomment-2573740292",
+      "text": "> most of this isn't needed if you use useDebouncedState for the search's state instead of useState\r\n\r\nis this okay \r\n```\r\n  const [debouncedParams, setDebouncedParams] = useDebouncedState(qParams, 500);\r\n\r\n    useEffect(() => {\r\n      setDebouncedParams(qParams);\r\n    }, [qParams]);\r\n```"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9801",
+      "time": "2025-01-06T18:21:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9801",
+      "text": "Issue/9660/add debouncing for api"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9660",
@@ -609,6 +637,17 @@
       "text": "Fixed:Show more monitors in CNS on very large displays #6503"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9801",
+      "title": "Issue/9660/add debouncing for api",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "changes required",
+        "needs-triage"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }
