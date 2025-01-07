@@ -1,6 +1,122 @@
 {
-  "last_updated": "2025-01-06T18:38:26.000Z",
+  "last_updated": "2025-01-07T08:09:40.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-07T07:28:06.000Z",
+      "title": "ohcnetwork/care_fe#9815",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9815#pullrequestreview-2533555017",
+      "text": "Added scroll and responsiveness to the plots page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-05T06:54:26.000Z",
+      "title": "ohcnetwork/care_fe#9749",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9749#pullrequestreview-2530834408",
+      "text": "Modify `CreateUserForm` and add dirtyState to all react-hook-form"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9816",
+      "time": "2025-01-07T07:26:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9816#issuecomment-2574561840",
+      "text": "LGTM, add i18n for all texts in these files and should be good to merge"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9816",
+      "time": "2025-01-07T07:26:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9816#issuecomment-2574561263",
+      "text": "Yup, just checked the implementation of SearchByMultipleFields. Let's leave that out then."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-06T07:26:03.000Z",
+      "title": "ohcnetwork/care_fe#9728",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9728#pullrequestreview-2531508155",
+      "text": "Fix Online Status Indicator in Organization Tab"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-07T07:21:29.000Z",
+      "title": "ohcnetwork/care_fe#9816",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9816#pullrequestreview-2533543239",
+      "text": "Remove Manual keyboard-shortcut handle"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-03T15:05:41.000Z",
+      "title": "ohcnetwork/care_fe#9708",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9708#pullrequestreview-2529232033",
+      "text": "Fix: Switch to shadcn form in userResetPassword "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9803",
+      "time": "2025-01-07T04:45:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9803",
+      "text": "Allow Instances to Set Default Encounter Type as \"Home Health\" via Care Environment"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9806",
+      "time": "2025-01-07T04:45:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9806",
+      "text": "Fix: Update the value to Home Health in Create Encounter Form",
+      "collaborated_with": [
+        "AdityaJ2305",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-07T04:37:32.000Z",
+      "title": "ohcnetwork/care_fe#9806",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9806#pullrequestreview-2533368473",
+      "text": "Fix: Update the value to Home Health in Create Encounter Form"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9810",
+      "time": "2025-01-07T04:32:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9810",
+      "text": "appointments list: allow filtering by date range instead of a specific date"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9809",
+      "time": "2025-01-07T04:31:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9809",
+      "text": "make slot's date time timezone naive before rendering them"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9801",
+      "time": "2025-01-07T04:15:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9801#issuecomment-2574358797",
+      "text": "> > add translations for all these files.\r\n> \r\n> @bodhish once told me to make it only for `en.json`. So, should I make changes only in `en.json`?\r\n\r\nRefer translation guidelines in README"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9806",
+      "time": "2025-01-07T04:04:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9806#issuecomment-2574350034",
+      "text": "Read the issue fully @AdityaJ2305 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9801",
+      "time": "2025-01-07T04:03:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9801#issuecomment-2574349271",
+      "text": "> > most of this isn't needed if you use useDebouncedState for the search's state instead of useState\r\n> \r\n> is it okay\r\n> \r\n> ```\r\n>   const [debouncedParams, setDebouncedParams] = useDebouncedState(qParams, 500);\r\n> \r\n>     useEffect(() => {\r\n>       setDebouncedParams(qParams);\r\n>     }, [qParams]);\r\n> ```\r\n\r\nNo, see how other debouncing works in care. For example: ValueSetSelect.\r\n\r\nhttps://github.com/ohcnetwork/care_fe/blob/9a839bd7dc5586408a952efc9a1697a4e4d2bad4/src/components/Questionnaire/ValueSetSelect.tsx#L49"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9802",
+      "time": "2025-01-07T03:33:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9802#issuecomment-2574326388",
+      "text": "already solved day before yesterday 😅"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-06T18:35:20.000Z",
@@ -49,13 +165,6 @@
       "time": "2025-01-06T15:12:47.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9736#issuecomment-2573315886",
       "text": "go ahead and handle notification first 🚀 "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-06T07:26:03.000Z",
-      "title": "ohcnetwork/care_fe#9728",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9728#pullrequestreview-2531508155",
-      "text": "Fix Online Status Indicator in Organization Tab"
     },
     {
       "type": "issue_closed",
@@ -112,13 +221,6 @@
       "title": "ohcnetwork/care_fe#9785",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9785#pullrequestreview-2531715579",
       "text": "Bump @tanstack/react-query-devtools from 5.62.11 to 5.62.15"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-03T15:05:41.000Z",
-      "title": "ohcnetwork/care_fe#9708",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9708#pullrequestreview-2529232033",
-      "text": "Fix: Switch to shadcn form in userResetPassword "
     },
     {
       "type": "comment_created",
@@ -399,13 +501,6 @@
       "title": "ohcnetwork/care_fe#9743",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9743#pullrequestreview-2530882327",
       "text": "Enhanced Resource Page"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-05T06:54:26.000Z",
-      "title": "ohcnetwork/care_fe#9749",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9749#pullrequestreview-2530834408",
-      "text": "Modify `CreateUserForm` and add dirtyState to all react-hook-form"
     },
     {
       "type": "issue_closed",
