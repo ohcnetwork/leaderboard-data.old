@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-06T13:31:52.000Z",
+  "last_updated": "2025-01-07T10:40:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9820",
+      "time": "2025-01-07T10:40:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9820#issuecomment-2574955709",
+      "text": "Can i take this up?\nApproach\n- Define a type that matches the structure of our translation files.\n  Create a locales.d.ts file\n- Initialize i18next with Resources\n    Explicitly define the resources in i18n initialization.\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9749",
+      "time": "2025-01-07T08:57:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9749#issuecomment-2574731958",
+      "text": "I've used `mutateAsync` instead of `mutate` + `IFEE` based approach, because it provides a simple promise-based interface that handles nested promises internally, since `callApi` returns a promise which in turn returned by `mutate`, we can simply await that."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9791",
@@ -1027,6 +1041,34 @@
       "text": "can i take up Odia (od).\n"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9749",
+      "title": "Modify `CreateUserForm` and add dirtyState to all react-hook-form",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "changes required",
+        "needs-triage"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/593",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/594"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9444",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9449"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9316",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9330"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9315",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9317"
+    }
+  ]
 }

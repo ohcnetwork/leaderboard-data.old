@@ -1,0 +1,14 @@
+{
+  "last_updated": "2025-01-07T10:34:12.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9820",
+      "time": "2025-01-07T10:34:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9820#issuecomment-2574944025",
+      "text": "Hi @rithviknishad , Do I understand the issue correctly?\n\n\nCurrently, the `t` function accepts any string as a key, which may lead to runtime errors if an invalid key (e.g., due to a typo) is passed. For example:\n```typescript\nt(\"fitlers\"); // Runtime error, no TypeScript warning.\n```\n\nWe aim to make the `t` function type-safe so that only valid keys from the translation JSON files are allowed. This ensures that errors like typos are caught during development and autocomplete\n\nI will write a script that extracts all valid keys from the translation JSON files (e.g., `en.json`) and generates a TypeScript type from the JSON files in [public/locale](https://github.com/ohcnetwork/care_fe/tree/develop/public/locale) \n\nex. from [en.json](https://github.com/ohcnetwork/care_fe/blob/develop/public/locale/en.json) Generate:\n```typescript\nexport type TranslationKeys =\n  | \"404_message\"\n  | \"APPETITE__CANNOT_BE_ASSESSED\"\n  | \"APPETITE__INCREASED\"\n```\n\nNext\n- I will use the generated `TranslationKeys` type to enforce type safety in the `t` function by extending the [i18next.ts](https://github.com/ohcnetwork/care_fe/blob/develop/src/i18n.ts).\n- This ensures only valid keys are accepted by the `t` function.\nAfter the changes, TypeScript will enforce valid keys at compile time:\n```typescript\nt(\"filters\"); // ✅ Valid\nt(\"fitlers\"); // ❌ TypeScript Error\n```\n\nI'd like to work on the issue if the approach seems right or I may correct my approach\n\n"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}
