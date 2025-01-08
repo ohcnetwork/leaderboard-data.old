@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-07T10:40:05.000Z",
+  "last_updated": "2025-01-07T17:48:59.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#373",
+      "time": "2025-01-07T17:48:59.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/373#issuecomment-2575896249",
+      "text": "> why do we need a new activity type called \"forked_commits\"?\n> \n> We should be tracking all types of commits via activity type: \"pushed_commits\" which includes forked or non forked ones\n\nexactly what i was thinking,\n we can have a new `forkedCommits` ACTIVITY_TYPE for `pushEvents` type of `Activity`\ncurrently we are not parsing `pushEvents` in [parseEvents](https://github.com/ohcnetwork/leaderboard/blob/46eda0a118a2f084727bfafb2249c5ade02dd9f3/scraper/src/github-scraper/parseEvents.ts#L149), if we do we'll get `forkedCommits` type of `Activity` for core-team members, because this is what [fetchEvents](https://github.com/ohcnetwork/leaderboard/blob/46eda0a118a2f084727bfafb2249c5ade02dd9f3/scraper/src/github-scraper/fetchEvents.ts#L14s) fetches.\nwe'll write algo for fetching pushEvents from forked repos, and push it in existing `Activity[]` for users and sort them, or do we really need to sort them? may be because that scraper will push on top of existing Activities (Comment, Issue..) from existing scrapers.\n\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9820",
