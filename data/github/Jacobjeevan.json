@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-01-07T18:56:36.000Z",
+  "last_updated": "2025-01-08T09:04:13.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-08T09:04:13.000Z",
+      "title": "ohcnetwork/care_fe#9747",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9747#pullrequestreview-2536566442",
+      "text": " \"🐛 Fix: Ensure weekdays are responsive on medium and small screens \""
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9838",
+      "time": "2025-01-08T06:48:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9838",
+      "text": "Confirm Dialog For Navigation on Edited Encounter Form"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-07T08:47:55.000Z",
+      "title": "ohcnetwork/care_fe#9708",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9708#pullrequestreview-2533710438",
+      "text": "Fix: Switch to shadcn form in userResetPassword "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9833",
+      "time": "2025-01-08T06:17:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9833#issuecomment-2576836952",
+      "text": "> Hey @rithviknishad how to deal with error msg when recieved as object, we cant pass it to toast. Should i loop them? or create a seperate handler for that?\r\n> \r\n> Is there any existing implementation which i can use. Need your guidance\r\n\r\nWhat's the context for this? If it's for error handler for useQuery/useMutate, that's being changed (handlePydanticErrors) in #9708 "
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-07T16:08:32.000Z",
@@ -57,13 +85,6 @@
       "title": "ohcnetwork/care_fe#9728",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9728#pullrequestreview-2533591969",
       "text": "Fix Online Status Indicator in Organization Tab"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-07T08:47:55.000Z",
-      "title": "ohcnetwork/care_fe#9708",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9708#pullrequestreview-2533710438",
-      "text": "Fix: Switch to shadcn form in userResetPassword "
     },
     {
       "type": "pr_reviewed",
@@ -4112,7 +4133,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9651",
       "title": "Added scroll to top for questionnaire",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "changes required"
       ]

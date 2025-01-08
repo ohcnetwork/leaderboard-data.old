@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-07T17:48:59.000Z",
+  "last_updated": "2025-01-08T08:57:07.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard#600",
+      "time": "2025-01-08T08:57:07.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/600",
+      "text": "Fix Auto Width Shrink Issues in `discussions` and `releases` page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#373",
+      "time": "2025-01-08T02:26:52.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/373#issuecomment-2576579330",
+      "text": "> yup, sounds good. and skip sorting. this is just a dump of data. if sorting is needed ever for any situation, it should be happening during the pre-build step when data from json is loaded for building the pages\n\nWe can definitely do that. Could you please assign this issue to me? I’d like to move forward with implementing the discussed approach."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard#373",
@@ -1050,8 +1064,8 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/leaderboard/pull/600",
-      "title": "Fix Auto Width Shrink Issues in `discussions` and `releases` page",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9852",
+      "title": "robustify `UserCreateForm`",
       "stale_for": 0,
       "labels": []
     },
@@ -1060,11 +1074,17 @@
       "title": "Modify `CreateUserForm` and add dirtyState to all react-hook-form",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "changes required",
+        "Deploy-Failed",
+        "merge conflict"
       ]
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/597",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/600"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/593",
       "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/594"

@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-01-07T18:24:05.000Z",
+  "last_updated": "2025-01-08T07:37:52.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-08T07:37:51.000Z",
+      "title": "ohcnetwork/care_fe#9833",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9833#pullrequestreview-2536157899",
+      "text": "Replace notification with toast"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-03T15:05:41.000Z",
+      "title": "ohcnetwork/care_fe#9708",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9708#pullrequestreview-2529232033",
+      "text": "Fix: Switch to shadcn form in userResetPassword "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9833",
+      "time": "2025-01-08T06:23:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9833#issuecomment-2576842993",
+      "text": "@Mahendar0701 There seems to be only 3 places thats using `Notifications.BadRequest` that's passing the object. \r\n\r\nFeel free to get the rest of the things migrated and merged, and we can handle the removal of BadRequest as a follow up PR once that PR is merged too."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9831",
+      "time": "2025-01-08T06:11:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9831#issuecomment-2576829189",
+      "text": "You haven't closed the sidebar @Rustix69 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-05T06:54:26.000Z",
+      "title": "ohcnetwork/care_fe#9749",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9749#pullrequestreview-2530834408",
+      "text": "Modify `CreateUserForm` and add dirtyState to all react-hook-form"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9837",
+      "time": "2025-01-08T03:42:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9837#issuecomment-2576667765",
+      "text": "@abhimanyurajeesh  Three things are there to be replaced, go in this order:\n\n(it'd be easier to replace `request` once old useMutation and useQuery is replaced as they both use it internally)\n\n- https://github.com/ohcnetwork/care_fe/blob/develop/src/Utils/request/useMutation.ts\n- https://github.com/ohcnetwork/care_fe/blob/develop/src/Utils/request/useQuery.ts\n- https://github.com/ohcnetwork/care_fe/blob/develop/src/Utils/request/request.ts\n\nFeel free to make it a part by part PR for this to be easier to review and merge quicker."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9835",
+      "time": "2025-01-08T03:20:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9835#issuecomment-2576635414",
+      "text": "PR's that are using the old deprecated methods, will be closed without review."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9833",
+      "time": "2025-01-08T03:09:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9833#issuecomment-2576622621",
+      "text": "@Mahendar0701 I'd recommend getting this resolved and merged asap since its changing a lot of files and would easily catch merge conflicts"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-06T18:35:20.000Z",
@@ -14,13 +70,6 @@
       "time": "2025-01-07T18:19:59.000Z",
       "link": "https://github.com/ohcnetwork/leaderboard/issues/373#issuecomment-2575953197",
       "text": "yup, sounds good. and skip sorting. this is just a dump of data. if sorting is needed ever for any situation, it should be happening during the pre-build step when data from json is loaded for building the pages"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-05T06:54:26.000Z",
-      "title": "ohcnetwork/care_fe#9749",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9749#pullrequestreview-2530834408",
-      "text": "Modify `CreateUserForm` and add dirtyState to all react-hook-form"
     },
     {
       "type": "comment_created",
@@ -231,13 +280,6 @@
       "title": "ohcnetwork/care_fe#9818",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9818#pullrequestreview-2533769363",
       "text": "Bump i18next from 24.2.0 to 24.2.1"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-03T15:05:41.000Z",
-      "title": "ohcnetwork/care_fe#9708",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9708#pullrequestreview-2529232033",
-      "text": "Fix: Switch to shadcn form in userResetPassword "
     },
     {
       "type": "pr_reviewed",
@@ -55377,9 +55419,7 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9799",
       "title": "Refactor Scheduling and Appointments; support for delete schedule, cancel booking, improved date filter in appointments page, etc.",
       "stale_for": 0,
-      "labels": [
-        "merge conflict"
-      ]
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2711",
