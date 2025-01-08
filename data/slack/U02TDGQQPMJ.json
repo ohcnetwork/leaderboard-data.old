@@ -31675,5 +31675,124 @@
                 }
             ]
         }
+    ],
+    "2025-01-08 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1736312678.717029",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1736312729.000000"
+            },
+            "client_msg_id": "6ae271c7-472c-441a-b7ee-3dbab7a4b5b1",
+            "text": "*Jan 7*\n\u2022 Finally got edit schedule validation logic working in BE. Made CRUD APIs for schedule availabilities along with update validations.\n\u2022 Working on FE bits for the edit schedule (done) and availability (in-progress).\n\u2022 Random fixes and improvements to schedule and appointments in FE\n*Up Next*\n\u2022 Go through otp patient side of things for schedule and appointment related, and get the PR merged.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "KG35c",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Jan 7",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Finally got edit schedule validation logic working in BE. Made CRUD APIs for schedule availabilities along with update validations."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Working on FE bits for the edit schedule (done) and availability (in-progress)."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Random fixes and improvements to schedule and appointments in FE"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Up Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Go through otp patient side of things for schedule and appointment related, and get the PR merged."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "face_holding_back_tears",
+                    "users": [
+                        "UC8TSEGCQ"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }

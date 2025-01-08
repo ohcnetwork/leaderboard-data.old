@@ -4042,5 +4042,111 @@
                 }
             ]
         }
+    ],
+    "2025-01-08 00:00:00": [
+        {
+            "user": "U07NXCASM89",
+            "type": "message",
+            "ts": "1736306849.543799",
+            "client_msg_id": "42d1dd63-ad4a-4a13-a3cb-8ade9c47e79f",
+            "text": "Jan 7\n\u2022 Edit user form (on pause for now since there's a few issues modifying existing create user form)\n\u2022 Test and review contributor PRs\n\u2022 Tweaking questionnaire form (trying to get browser alert + navigation to work after form edit. I got the former working, but latter is still not quite there).\n\u2022 Added BE route for facility user search\nNext\n\u2022 Modify the design of organization filter FE per Vinu's feedback\n\u2022 Clear merge conflicts for existing PRs",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "sqmFL",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Jan 7\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Edit user form (on pause for now since there's a few issues modifying existing create user form)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Test and review contributor PRs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tweaking questionnaire form (trying to get browser alert + navigation to work after form edit. I got the former working, but latter is still not quite there)."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added BE route for facility user search"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Modify the design of organization filter FE per Vinu's feedback"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Clear merge conflicts for existing PRs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
