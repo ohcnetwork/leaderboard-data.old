@@ -1,12 +1,82 @@
 {
-  "last_updated": "2025-01-08T07:37:52.000Z",
+  "last_updated": "2025-01-08T14:39:45.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-08T10:25:27.000Z",
+      "title": "ohcnetwork/care_fe#9840",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9840#pullrequestreview-2536742644",
+      "text": "Replace deprecated data fetching utils. with tanstack's useMutation"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9702",
+      "time": "2025-01-08T14:39:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9702",
+      "text": "Remove `InputWithError` and `InputErrors` component in favour of shadcn's components being used directly"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-08T14:38:06.000Z",
+      "title": "ohcnetwork/care_fe#9847",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9847#pullrequestreview-2537324861",
+      "text": "Fix: Replace InputWithError and InputErrors components with ShadCN’s components directly."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/leaderboard#597",
+      "time": "2025-01-08T14:36:31.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/597",
+      "text": "Early Text Wrapping"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-08T10:39:16.000Z",
+      "title": "ohcnetwork/leaderboard#600",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/600#pullrequestreview-2536793181",
+      "text": "Fix Auto Width Shrink Issues in `discussions` and `releases` page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9817",
+      "time": "2025-01-08T14:34:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9817#issuecomment-2577823943",
+      "text": "Yup, it was updated in BE. Anyhow, like @bodhish already said, do move it to constants anyhow, using snake_case itself as a code quality improvement thing.\n\n![Image](https://github.com/user-attachments/assets/1d5f2d57-4c4b-41ad-830b-374f3d011409)\n\n\nClosing this issue as the bug is solved, however do make the change for the PR."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9817",
+      "time": "2025-01-08T14:34:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9817",
+      "text": "Failed to update encounters on selecting certain diet preference"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-08T07:37:51.000Z",
       "title": "ohcnetwork/care_fe#9833",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9833#pullrequestreview-2536157899",
       "text": "Replace notification with toast"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-08T10:37:02.000Z",
+      "title": "ohcnetwork/care_fe#9750",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9750#pullrequestreview-2536788605",
+      "text": "Fixed : User Search Bar "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9845",
+      "time": "2025-01-08T10:33:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9845#issuecomment-2577337711",
+      "text": "Actually the objective was to keep the filters cached, but \"except the one's in the search field\".\n\ncc: @Jacobjeevan "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9845",
+      "time": "2025-01-08T10:13:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9845",
+      "text": "Search Bar Fails to Reset When Navigating Between Tabs"
     },
     {
       "type": "pr_reviewed",
@@ -55418,12 +55488,6 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9799",
       "title": "Refactor Scheduling and Appointments; support for delete schedule, cancel booking, improved date filter in appointments page, etc.",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2711",
-      "title": "Scheduling and Appointments: Validations and other minor fixes",
       "stale_for": 0,
       "labels": []
     }

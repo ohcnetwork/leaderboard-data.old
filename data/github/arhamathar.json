@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-07T10:23:15.000Z",
+  "last_updated": "2025-01-08T13:55:19.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9817",
+      "time": "2025-01-08T13:55:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9817#issuecomment-2577730672",
+      "text": "Today I re-tested the issue and found that the backend now accepts snake_case (e.g. Input should be 'vegetarian', 'diary_free', 'nut_free', 'gluten_free', 'vegan', 'halal', 'kosher' or 'none'). Previously, it expected kebab-case. It seems this was fixed on the backend side. The Update Encounter is working fine now. @rithviknishad "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9821",
