@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-08T08:14:05.000Z",
+  "last_updated": "2025-01-08T20:14:57.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9782",
+      "time": "2025-01-08T20:14:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9782#issuecomment-2578566489",
+      "text": "> <img alt=\"Screenshot 2025-01-09 at 12 26 12 AM\" width=\"381\" src=\"https://private-user-images.githubusercontent.com/16238306/401286098-90715dbe-bc17-44ba-884c-315a6740090d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYzNjczMDAsIm5iZiI6MTczNjM2NzAwMCwicGF0aCI6Ii8xNjIzODMwNi80MDEyODYwOTgtOTA3MTVkYmUtYmMxNy00NGJhLTg4NGMtMzE1YTY3NDAwOTBkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTA4VDIwMTAwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZmODk0MjUxNWMyZWYwNTk3MjZjMzJhN2Y0ZjkwMjhiNTYzMWM1NzZlMWNmOGYxNTk0MGI3N2NlNzVlYmZiZTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.kcIVhiFcIK99tBe8u71RL1ahWGjUQhBrimDOEh_axsg\">\r\n> Plots tab cards are broken. We can switch to a single-column layout for smaller screens.\r\n\r\nAlready being worked upon in a different [PR](https://github.com/ohcnetwork/care_fe/pull/9815)\r\n\r\n\r\n\r\n> <img alt=\"Screenshot 2025-01-09 at 12 28 25 AM\" width=\"384\" src=\"https://private-user-images.githubusercontent.com/16238306/401285366-f7fc9723-4916-4dc5-acaf-c07841def45d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYzNjczMDAsIm5iZiI6MTczNjM2NzAwMCwicGF0aCI6Ii8xNjIzODMwNi80MDEyODUzNjYtZjdmYzk3MjMtNDkxNi00ZGM1LWFjYWYtYzA3ODQxZGVmNDVkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTA4VDIwMTAwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZlMjM0ZGIzNTQ0OWQ0ZmYxYTY3NThmMmRjMTljMjM1YzEyNDEyNjcxZjU2ZDIzYzU0MjdiODZhYTBhMTllYzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.1_a9Wb4kqAdGdrOGyg2Pao0P1Wnm6APcPpM1MHN340s\">\r\n> The alignment and spacing on the profile card need to be fixed. Consider reducing the avatar size for smaller screens. <img alt=\"Screenshot 2025-01-09 at 12 25 40 AM\" width=\"380\" src=\"https://private-user-images.githubusercontent.com/16238306/401285587-a665d158-c481-402b-bb17-984065f266af.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYzNjczMDAsIm5iZiI6MTczNjM2NzAwMCwicGF0aCI6Ii8xNjIzODMwNi80MDEyODU1ODctYTY2NWQxNTgtYzQ4MS00MDJiLWJiMTctOTg0MDY1ZjI2NmFmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTA4VDIwMTAwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRlNDAyMGI1NmU3MGJjODQ5MDVjYjBhNmY2OWEyMTcwZjk1MDIwNTU1ODIyZTM4NTU5NmYyNTczMTg4MjBiMzQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.RQ0874Fjt_md0hQB6aGQfvQmYBPDCZFVgVKfaE4N7E4\">\r\n\r\nWould definitely consider this.."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9839",
@@ -298,15 +305,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9815",
-      "title": "Added scroll and responsiveness to the plots page",
-      "stale_for": 1,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9782",
       "title": "Fixed the misalignments in the mobile view of /encounter/encounterId/updates page",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "needs review"
       ]

@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-08T14:36:30.000Z",
+  "last_updated": "2025-01-08T16:52:49.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9852",
+      "time": "2025-01-08T16:52:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9852",
+      "text": "robustify `UserCreateForm`"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9749",
+      "time": "2025-01-08T16:12:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9749#issuecomment-2578066969",
+      "text": "Hey @rithviknishad , I am going to make one more PR with the changes we made, things have gone a little dirty here."
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/leaderboard#600",
@@ -1086,10 +1100,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/601",
+      "title": "Add support for tracking commits pushed to branch",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9852",
       "title": "robustify `UserCreateForm`",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "merge conflict"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9749",
@@ -1097,8 +1119,7 @@
       "stale_for": 0,
       "labels": [
         "changes required",
-        "Deploy-Failed",
-        "merge conflict"
+        "Deploy-Failed"
       ]
     }
   ],
