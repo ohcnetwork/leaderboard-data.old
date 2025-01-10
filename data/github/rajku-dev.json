@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-08T16:52:49.000Z",
+  "last_updated": "2025-01-09T08:11:19.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard#601",
+      "time": "2025-01-09T08:11:19.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/601",
+      "text": "Add support for tracking commits pushed to branch"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#373",
+      "time": "2025-01-09T04:59:34.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/373#issuecomment-2579183140",
+      "text": "How to observe the changes made in scrapers in local data-repo?  (.json file of users)\nstumbled upon this [thread](https://rebuildearth.slack.com/archives/C06Q0HUAETE/p1710696732554309) for some guidance, set the `GIT_ACCESS_TOKEN` to `GIT_PAT` in secret,\ngot this [error](https://github.com/rajku-dev/leaderboard-data/actions/runs/12683837905/job/35351548534) while running the `leaderboard-data` workflow manually thorough GitHub interface\n\n"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9852",
@@ -1109,9 +1123,7 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9852",
       "title": "robustify `UserCreateForm`",
       "stale_for": 0,
-      "labels": [
-        "merge conflict"
-      ]
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9749",
