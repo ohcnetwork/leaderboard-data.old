@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-09T08:11:19.000Z",
+  "last_updated": "2025-01-09T16:30:11.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#424",
+      "time": "2025-01-09T16:30:11.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/424#issuecomment-2580743947",
+      "text": "> How are you planning to solve this though? Does GitHub supports this via their API?\n\nHere's my approach for implementing this feature\n- Take inspiration from [Leaderboard](https://github.com/ohcnetwork/leaderboard/blob/ddbdd014c1849908118e8c90df53d305e829ab23/app/leaderboard/%5Bduration%5D/Leaderboard.tsx#L48) page, but UI of search bars will be similar to the one shown in issue description.\n- Take input through [Select](https://github.com/ohcnetwork/leaderboard/blob/ddbdd014c1849908118e8c90df53d305e829ab23/components/Select.tsx#L8) and update the search params using `updateSearchParams` as defined in Leaderboard\n- Fetch all repos of the org(sort by lastUpdatedAt) using GraphQL and set them as options of Select \n- Fetch the events of org using pagination, max we can fetch is 300 from last 90 days max.\n- Filter the events first by `repository(s)` and then by `Event(s)` based on search params\n                  \n@rithviknishad, if this approach looks good, please assign me this issue, I'll proceed with the implementation\n"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/leaderboard#601",
@@ -1114,26 +1121,22 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887",
+      "title": "changes to create user form",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/602",
+      "title": "Add support for tracking commits pushed to branch (Forked)",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/601",
-      "title": "Add support for tracking commits pushed to branch",
+      "title": "Add support for tracking commits pushed to branch (core)",
       "stale_for": 0,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9852",
-      "title": "robustify `UserCreateForm`",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9749",
-      "title": "Modify `CreateUserForm` and add dirtyState to all react-hook-form",
-      "stale_for": 0,
-      "labels": [
-        "changes required",
-        "Deploy-Failed",
-        "merge conflict"
-      ]
     }
   ],
   "authored_issue_and_pr": [

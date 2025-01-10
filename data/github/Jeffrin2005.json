@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-01-08T10:03:35.000Z",
+  "last_updated": "2025-01-09T18:31:38.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9867",
+      "time": "2025-01-09T18:31:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9867#issuecomment-2580996856",
+      "text": "@rithviknishad \r\nWhen we switch from \"Name\" to \"Encounter ID\".\r\nName tab: \"ABC\" → switch to Encounter ID → switch back → **still shows \"ABC\"**   (Remain)\r\nor\r\nName tab: \"ABC\" → switch to Encounter ID → switch back → **empty/blank**  (Disappear)\r\nDo we need to disappear the typed text in \"Name\" . Is this correct ? "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9867",
+      "time": "2025-01-09T18:03:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9867#issuecomment-2580944957",
+      "text": "@rithviknishad The search bar should be cleared, and the details should be shown when we switch and come back to the same tab. In this PR, it is just clearing the search fields. Just for clarification, in the screenshot, 'er' details should be shown when we switch and come back to the same tab, and 'er' in the search bar should also be cleared.\r\n![commit](https://github.com/user-attachments/assets/6c6a012c-2ffd-44b9-90fd-29d01af3b01f)\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9867",
+      "time": "2025-01-09T17:54:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9867",
+      "text": "Fix: Search Bar Reset"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9845",
@@ -594,9 +615,15 @@
       "title": "Fixed : User Search Bar ",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "changes required",
+        "merge conflict"
       ]
     }
   ],
-  "authored_issue_and_pr": []
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9845",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9867"
+    }
+  ]
 }
