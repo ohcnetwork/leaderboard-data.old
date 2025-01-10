@@ -31945,5 +31945,150 @@
                 }
             ]
         }
+    ],
+    "2025-01-10 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1736480127.160019",
+            "client_msg_id": "cefcce97-2a78-4185-bdd0-1c92a7ba181c",
+            "text": "*9 Jan*\n\u2022 Completed all changes related to schedule and appointments. <https://github.com/ohcnetwork/care_fe/pull/9799|#9799>\n\u2022 Started using and getting familiar with PyCharm IDE for backend.\n\u2022 Added support for debounced queries and updated most existing usages that require debouncing. <https://github.com/ohcnetwork/care_fe/pull/9865|#9865>\n\u2022 Updated kerala.care landing page to include cover image and other minor fixes. Started wiring orgs. search.\n*Next*\n\u2022 Complete wiring public org search in kerala.care landing page\n\u2022 Figure out things in BE and serialize available permissions in Patient/Encounter/Questionnaire retrieves.\n\u2022 Tests for schedule and bookings.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Vd3na",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "9 Jan",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Completed all changes related to schedule and appointments. "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9799",
+                                            "text": "#9799",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Started using and getting familiar with PyCharm IDE for backend."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added support for debounced queries and updated most existing usages that require debouncing. "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9865",
+                                            "text": "#9865",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Updated kerala.care landing page to include cover image and other minor fixes. Started wiring orgs. search."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete wiring public org search in kerala.care landing page"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Figure out things in BE and serialize available permissions in Patient/Encounter/Questionnaire retrieves."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tests for schedule and bookings."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

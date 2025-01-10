@@ -1,6 +1,56 @@
 {
-  "last_updated": "2025-01-09T11:13:01.000Z",
+  "last_updated": "2025-01-09T15:34:48.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-05T08:47:08.000Z",
+      "title": "ohcnetwork/care_fe#9755",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9755#pullrequestreview-2530848704",
+      "text": "Update license Component for Github SBOM"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9726",
+      "time": "2025-01-09T15:01:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9726",
+      "text": "User List in Organization Displays Incorrect Online Status for All Users"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2721",
+      "time": "2025-01-09T14:54:10.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2721",
+      "text": "Nullable slot related fields for non-appointment slot types; disallow update for availability",
+      "turnaround_time": -3507
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9641",
+      "time": "2025-01-09T14:51:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9641",
+      "text": "Cleanup Keyboard Shortcut implementation"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9712",
+      "time": "2025-01-09T14:50:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9712#issuecomment-2580466382",
+      "text": "This doesn't look nice on mobile"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9769",
+      "time": "2025-01-09T14:37:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9769",
+      "text": "Add username validation in user creation form"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9747",
+      "time": "2025-01-09T12:42:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9747#issuecomment-2580062827",
+      "text": "Closing this as this has been redesigned in #9799\r\n\r\n<img width=\"911\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4f893a58-184b-4122-ac03-c4162bbe66b0\" />\r\n\r\n<img width=\"911\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d482dd97-dfcb-4f66-a652-363ff880c10b\" />\r\n\r\n<img width=\"384\" alt=\"image\" src=\"https://github.com/user-attachments/assets/da9af770-8fce-44fb-929f-9109d68ccefc\" />\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9859",
@@ -1038,13 +1088,6 @@
       "title": "ohcnetwork/landing#21",
       "link": "https://github.com/ohcnetwork/landing/pull/21#pullrequestreview-2530850133",
       "text": "solved #20 i.e contact link is now working from other than homepage"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-05T08:47:08.000Z",
-      "title": "ohcnetwork/care_fe#9755",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9755#pullrequestreview-2530848704",
-      "text": "Update license Component for Github SBOM"
     },
     {
       "type": "pr_reviewed",
@@ -55596,19 +55639,12 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9865",
-      "title": "Adds `query.debounced` and updated queries that require debouncing",
-      "stale_for": 0,
-      "labels": [
-        "needs review"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9799",
       "title": "Refactor Scheduling and Appointments; support for delete schedule, cancel booking, improved date filter in appointments page, etc.",
       "stale_for": 0,
       "labels": [
-        "needs review"
+        "needs review",
+        "work-in-progress"
       ]
     }
   ],

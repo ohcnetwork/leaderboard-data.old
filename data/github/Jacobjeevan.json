@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-01-09T10:54:50.000Z",
+  "last_updated": "2025-01-09T15:46:55.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-09T04:23:04.000Z",
+      "title": "ohcnetwork/care_fe#9833",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9833#pullrequestreview-2538713993",
+      "text": "Replace notification with toast"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9748",
+      "time": "2025-01-09T12:58:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9748#issuecomment-2580093906",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/401545597-9f2c4521-8b0a-46a9-91ab-798e62d6e02b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY0Mjc3NzksIm5iZiI6MTczNjQyNzQ3OSwicGF0aCI6Ii81NzA1NTk5OC80MDE1NDU1OTctOWYyYzQ1MjEtOGIwYS00NmE5LTkxYWItNzk4ZTYyZDZlMDJiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTA5VDEyNTc1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAyNjEwOTRjNWYxZDlkYjE2YWQwZGNkMTdjZTIyMTdlNDU5ZDc4ZDk5YzkyOWI2YzQxNmFlNDEwOGUzYWQ1YzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.yiSGoCIaOqGCfIera9ZLl6wsRJIur_ipyzWSdxR7d7k)\r\n> \r\n> @Jacobjeevan can you move the clear button to the above row, currently It's occupying an entire row\r\n\r\nAlright 👍  Might need to adjust for iPad layout as well 🤔 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9748",
+      "time": "2025-01-09T11:57:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9748#issuecomment-2579976265",
+      "text": "> @Jacobjeevan I am seeing changes being pushed after it is marked as \"Needs Testing.\" Once the PR is ready, remark it as \"Needs Testing.\r\n\r\nYea, it is ready for testing now 😆 "
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-09T10:54:50.000Z",
@@ -35,13 +56,6 @@
       "time": "2025-01-09T05:02:37.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9712#issuecomment-2579185913",
       "text": "You would need to modify the appointment details page as well.\r\n\r\niPad:\r\n\r\n<img width=\"709\" alt=\"image\" src=\"https://github.com/user-attachments/assets/32c3fd97-658a-486b-aa4b-c274ad473925\" />\r\n\r\n"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-09T04:23:04.000Z",
-      "title": "ohcnetwork/care_fe#9833",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9833#pullrequestreview-2538713993",
-      "text": "Replace notification with toast"
     },
     {
       "type": "pr_reviewed",
@@ -4222,7 +4236,10 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9857",
       "title": "Facility Id in User Profile for Nav User",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9838",
@@ -4237,8 +4254,9 @@
       "title": "Patient files",
       "stale_for": 0,
       "labels": [
-        "changes required",
-        "merge conflict"
+        "needs testing",
+        "needs review",
+        "waiting for backend"
       ]
     },
     {
