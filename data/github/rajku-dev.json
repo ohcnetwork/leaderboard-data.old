@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-01-09T16:30:11.000Z",
+  "last_updated": "2025-01-10T08:48:36.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#373",
+      "time": "2025-01-10T08:48:36.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/373#issuecomment-2582081084",
+      "text": "> > How to test the changes made by adding new scraper in local data repo? (.json file of users) stumbled upon this [thread](https://rebuildearth.slack.com/archives/C06Q0HUAETE/p1711550414812089?thread_ts=1710696732.554309&cid=C06Q0HUAETE) for some guidance, set the `GIT_ACCESS_TOKEN` to `GIT_PAT` in secret, got this [error](https://github.com/rajku-dev/leaderboard-data/actions/runs/12683837905/job/35351548534) while running the [`leaderboard-data`](https://github.com/ohcnetwork/leaderboard-data) workflow manually through GitHub interface Are we even allowed to do that or just write the code?\n> \n> Just saw this. I believe you were able to figure out since you've already made the PR.\n\nnot really, i tried deploying to vercel following the [docs](https://github.com/ohcnetwork/leaderboard-data-test#), but it [failed](https://vercel.com/new/clone?repository-url=https://github.com/coronasafe/leaderboard-org-data-template/tree/main&env=GITHUB_PAT&envDescription=GitHub+Personal+Access+Token+is+required+with+the+following+scopes+repo,+read:org,+read:project,+read:user&envLink=https://github.com/coronasafe/leaderboard-org-data-template/blob/main/README.md&project-name=leaderboard&repository-name=leaderboard-data&demo-title=Open+Healthcare+Network+-+Leaderboard&demo-description=Leaderboard+collects+data+from+GitHub+and+Slack+to+show+off+the+work+of+our+open+source+contributors&demo-url=https://contributors.ohc.network&demo-image=https://github.com/coronasafe/leaderboard/assets/25143503/6352a4cf-4b8b-4f80-b45c-6af323ee502e&root-directory=leaderboard&build-command=pnpm+build&install-command=./pre-deploy.sh+%26%26+pnpm+install&teamSlug=rajs-projects-fd23d08d&deploymentIds=dpl_4yBuQNMGKdpa1zgXpCZc17AbcegF&filter=errors)\ni just need to test the scrapers which i have not figured out how."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9852",
+      "time": "2025-01-10T05:38:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9852#issuecomment-2581818691",
+      "text": "Please review the changes @Jacobjeevan"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#601",
+      "time": "2025-01-10T05:10:06.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/601#issuecomment-2581783804",
+      "text": "> Not a fan of N+1 approach. If this was deployed for a much bigger github org, which has too many forks, fetching commit history of each fork's branches might go off the limits pretty quickly.\r\n> \r\n> Let's do a 2 part PR. Let's first get the org's repo commits tracked first. We can figure out something for the fork's. We only ideally care about commits pushed directly to default branch and commits pushed to PR branches alone.\r\n\r\nhttps://github.com/ohcnetwork/leaderboard/pull/602#issuecomment-2581764151"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#602",
+      "time": "2025-01-10T05:01:15.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/602#issuecomment-2581764151",
+      "text": "For each forked repo -\r\n- First, we can get the commits in the default branch\r\n- Then get all PRs associated with that repo,\r\n- finally, get the commits of pr.merged_at(for closed) prs and open prs\r\n \r\nThis we narrow down our hunt to just the commits that were merged or open in a PR, commits pushed to any branch not were not associated with any PR will be ignored.\r\n\r\nThis can reduce time complexity to some extend, @rithviknishad "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard#602",
+      "time": "2025-01-10T04:33:00.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/602",
+      "text": "Add support for tracking commits pushed to branch (Forked)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard#424",

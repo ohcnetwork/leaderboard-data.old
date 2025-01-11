@@ -1,6 +1,102 @@
 {
-  "last_updated": "2025-01-09T15:46:55.000Z",
+  "last_updated": "2025-01-10T09:56:22.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9862",
+      "time": "2025-01-10T09:56:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9862#issuecomment-2582243795",
+      "text": "(4) is already being handled in #9712"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2724",
+      "time": "2025-01-10T07:33:58.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2724",
+      "text": "Filter for completed uploads only (List)",
+      "turnaround_time": 8520
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9865",
+      "time": "2025-01-10T07:23:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9865",
+      "text": "Adds `query.debounced` and updated queries that require debouncing",
+      "collaborated_with": [
+        "rithviknishad",
+        "Jacobjeevan"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T06:51:18.000Z",
+      "title": "ohcnetwork/care_fe#9814",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9814#pullrequestreview-2541651058",
+      "text": "Implement multiple File uploading"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9782",
+      "time": "2025-01-10T06:37:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9782#issuecomment-2581895037",
+      "text": "<img width=\"420\" alt=\"image\" src=\"https://github.com/user-attachments/assets/1dd5853d-35c8-475f-a66e-39ac9c6e70ec\" />\r\n\r\nYou can adjust this and the next popup's (class history) align property (Popovercontent)."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9867",
+      "time": "2025-01-10T06:24:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9867#issuecomment-2581874453",
+      "text": "> @rithviknishad When we switch from \"Name\" to \"Encounter ID\". Name tab: \"ABC\" → switch to Encounter ID → switch back → **still shows \"ABC\"** (Remain) or Name tab: \"ABC\" → switch to Encounter ID → switch back → **empty/blank** (Disappear) Do we need to disappear the typed text in \"Name\" . Is this correct ?\r\n\r\n#9851 is planning to address this in the SearchByMultipleFields btw.\r\n\r\ncc: @rithviknishad "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T06:15:52.000Z",
+      "title": "ohcnetwork/care_fe#9864",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9864#pullrequestreview-2541622942",
+      "text": "Enhance User List View and Adjust Files Tab Layout"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T06:04:48.000Z",
+      "title": "ohcnetwork/docs#94",
+      "link": "https://github.com/ohcnetwork/docs/pull/94#pullrequestreview-2541611932",
+      "text": "Adds docs on Debounced Queries"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T05:55:38.000Z",
+      "title": "ohcnetwork/care_fe#9768",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9768#pullrequestreview-2541591727",
+      "text": "Enhanced Resource Page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9735",
+      "time": "2025-01-10T05:41:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9735#issuecomment-2581822493",
+      "text": "@Rishith25 What's the update here? As discussed in the call, use dayjs to simplify the logic."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T05:29:36.000Z",
+      "title": "ohcnetwork/care_fe#9865",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9865#pullrequestreview-2541575797",
+      "text": "Adds `query.debounced` and updated queries that require debouncing"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2724",
+      "time": "2025-01-10T05:11:58.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2724",
+      "text": "Filter for completed uploads only (List)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-07T16:08:32.000Z",
+      "title": "ohcnetwork/care_fe#9750",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9750#pullrequestreview-2534730571",
+      "text": "Fixed : User Search Bar "
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-09T04:23:04.000Z",
@@ -77,13 +173,6 @@
       "title": "ohcnetwork/care_fe#9840",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9840#pullrequestreview-2538695188",
       "text": "Replaced deprecated useMutation in questionnaire with tanstack's useMutation"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-07T16:08:32.000Z",
-      "title": "ohcnetwork/care_fe#9750",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9750#pullrequestreview-2534730571",
-      "text": "Fixed : User Search Bar "
     },
     {
       "type": "comment_created",

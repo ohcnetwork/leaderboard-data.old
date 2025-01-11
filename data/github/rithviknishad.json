@@ -1,6 +1,194 @@
 {
-  "last_updated": "2025-01-09T18:33:42.000Z",
+  "last_updated": "2025-01-10T10:08:29.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T10:08:29.000Z",
+      "title": "ohcnetwork/care_fe#9874",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9874#pullrequestreview-2542041510",
+      "text": "Bump @hookform/resolvers from 3.9.1 to 3.10.0"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T10:07:29.000Z",
+      "title": "ohcnetwork/care_fe#9873",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9873#pullrequestreview-2542039493",
+      "text": "Bump @rollup/rollup-linux-x64-gnu from 4.29.1 to 4.30.1"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T10:07:02.000Z",
+      "title": "ohcnetwork/care_fe#9875",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9875#pullrequestreview-2542037676",
+      "text": "Bump browserslist from 4.24.3 to 4.24.4"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#373",
+      "time": "2025-01-10T09:37:54.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/373#issuecomment-2582194648",
+      "text": "you can test the scraper in your local.\n\nfirst you'll need to pre-load any existing data-repo (you can start from scratch too if you want). run this: https://github.com/ohcnetwork/leaderboard/blob/main/package.json#L12\n\n\nsecond, you can `cd` into the scraper directory and run the scraper by running the following command (assuming you have `gh` cli, or else replace with your own personal PAT token. No extra permissions to be configured. Any PAT works.\n\n```\nGITHUB_TOKEN=$(gh auth token) pnpm dev ohcnetwork ../data-repo/data/github\n```\n\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T08:23:04.000Z",
+      "title": "ohcnetwork/care_fe#9848",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9848#pullrequestreview-2541711056",
+      "text": "Medication Request redesign"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9872",
+      "time": "2025-01-10T07:57:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9872",
+      "text": "Check for updates not working"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9865",
+      "time": "2025-01-10T07:23:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9865",
+      "text": "Adds `query.debounced` and updated queries that require debouncing",
+      "turnaround_time": 51493
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9865",
+      "time": "2025-01-10T07:23:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9865",
+      "text": "Adds `query.debounced` and updated queries that require debouncing",
+      "collaborated_with": [
+        "rithviknishad",
+        "Jacobjeevan"
+      ]
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9845",
+      "time": "2025-01-08T10:13:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9845",
+      "text": "Search Bar Fails to Reset When Navigating Between Tabs"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8736",
+      "time": "2025-01-10T07:09:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8736#issuecomment-2581933756",
+      "text": "Checkout this issue btw: https://github.com/ohcnetwork/care_fe/issues/9820"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9777",
+      "time": "2025-01-10T06:38:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9777#issuecomment-2581896122",
+      "text": "We are rapidly changing things in the sidebar at the moment and it's not finalized yet. This issue is not open for contributions until then."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9867",
+      "time": "2025-01-10T06:25:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9867#issuecomment-2581882281",
+      "text": "then this pr can be merged, lgtm"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T06:25:37.000Z",
+      "title": "ohcnetwork/care_fe#9867",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9867#pullrequestreview-2541633262",
+      "text": "Fix: Search Bar Reset"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-08T10:37:02.000Z",
+      "title": "ohcnetwork/care_fe#9750",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9750#pullrequestreview-2536788605",
+      "text": "Fixed : User Search Bar "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#373",
+      "time": "2025-01-10T06:17:47.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/373#issuecomment-2581861922",
+      "text": "> How to test the changes made by adding new scraper in local data repo? (.json file of users) stumbled upon this [thread](https://rebuildearth.slack.com/archives/C06Q0HUAETE/p1711550414812089?thread_ts=1710696732.554309&cid=C06Q0HUAETE) for some guidance, set the `GIT_ACCESS_TOKEN` to `GIT_PAT` in secret, got this [error](https://github.com/rajku-dev/leaderboard-data/actions/runs/12683837905/job/35351548534) while running the [`leaderboard-data`](https://github.com/ohcnetwork/leaderboard-data) workflow manually through GitHub interface Are we even allowed to do that or just write the code?\n\nJust saw this. I believe you were able to figure out since you've already made the PR."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T06:15:58.000Z",
+      "title": "ohcnetwork/leaderboard#601",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/601#pullrequestreview-2541623027",
+      "text": "Add support for tracking commits pushed to branch (core)"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/docs#94",
+      "time": "2025-01-10T06:08:36.000Z",
+      "link": "https://github.com/ohcnetwork/docs/pull/94",
+      "text": "Adds docs on Debounced Queries",
+      "turnaround_time": 380
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/docs#94",
+      "time": "2025-01-10T06:02:16.000Z",
+      "link": "https://github.com/ohcnetwork/docs/pull/94",
+      "text": "Adds docs on Debounced Queries"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T05:07:03.000Z",
+      "title": "ohcnetwork/care_fe#9871",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9871#pullrequestreview-2541556037",
+      "text": "Bump @tanstack/react-query-devtools from 5.62.15 to 5.63.0"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-09T07:48:45.000Z",
+      "title": "ohcnetwork/care_fe#9858",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9858#pullrequestreview-2538950240",
+      "text": "Enhance Patient Search: User-Friendly Error Message and Accessibility Improvements"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T05:00:18.000Z",
+      "title": "ohcnetwork/care_fe#9825",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9825#pullrequestreview-2541549265",
+      "text": "Bump @rollup/rollup-linux-arm64-gnu from 4.29.1 to 4.30.1"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T04:56:39.000Z",
+      "title": "ohcnetwork/care_fe#9844",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9844#pullrequestreview-2541546019",
+      "text": "Bump @tanstack/react-query-devtools from 5.62.15 to 5.62.16"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T04:55:56.000Z",
+      "title": "ohcnetwork/care_fe#9843",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9843#pullrequestreview-2541545449",
+      "text": "Bump @sentry/browser from 8.47.0 to 8.48.0"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9441",
+      "time": "2025-01-10T04:39:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9441#issuecomment-2581728052",
+      "text": "We can re-open this once work is being continued. Closing for now."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-09T11:11:52.000Z",
+      "title": "ohcnetwork/care_fe#9859",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9859#pullrequestreview-2539630251",
+      "text": "diet preference value moved to constants as snake_case"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T04:28:02.000Z",
+      "title": "ohcnetwork/care_fe#9863",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9863#pullrequestreview-2541521974",
+      "text": "Display Descriptive Names in Breadcrumbs Instead of External IDs"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9867",
@@ -87,13 +275,6 @@
       "text": "Do the same for all things present in EncounterQuestion and not just diet preference. Also add i18n translations for all literal strings in the file"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-01-09T11:11:52.000Z",
-      "title": "ohcnetwork/care_fe#9859",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9859#pullrequestreview-2539630251",
-      "text": "diet preference value moved to constants as snake_case"
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9821",
       "time": "2025-01-09T10:46:08.000Z",
@@ -113,13 +294,6 @@
       "title": "ohcnetwork/care_fe#9846",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9846#pullrequestreview-2539182767",
       "text": "Cypress Test for create a new facility in organization"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-09T07:48:45.000Z",
-      "title": "ohcnetwork/care_fe#9858",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9858#pullrequestreview-2538950240",
-      "text": "Enhance Patient Search: User-Friendly Error Message and Accessibility Improvements"
     },
     {
       "type": "pr_reviewed",
@@ -246,25 +420,11 @@
       "text": "Failed to update encounters on selecting certain diet preference"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-01-08T10:37:02.000Z",
-      "title": "ohcnetwork/care_fe#9750",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9750#pullrequestreview-2536788605",
-      "text": "Fixed : User Search Bar "
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9845",
       "time": "2025-01-08T10:33:22.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/9845#issuecomment-2577337711",
       "text": "Actually the objective was to keep the filters cached, but \"except the one's in the search field\".\n\ncc: @Jacobjeevan "
-    },
-    {
-      "type": "issue_closed",
-      "title": "ohcnetwork/care_fe#9845",
-      "time": "2025-01-08T10:13:17.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/issues/9845",
-      "text": "Search Bar Fails to Reset When Navigating Between Tabs"
     },
     {
       "type": "pr_reviewed",
@@ -55658,7 +55818,14 @@
       "text": "gh scraper: improve logging and scrape everything"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9890",
+      "title": "Fixes `AppRoutes` type",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9877",
