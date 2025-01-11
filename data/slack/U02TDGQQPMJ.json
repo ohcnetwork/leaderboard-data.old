@@ -32090,5 +32090,212 @@
                 }
             ]
         }
+    ],
+    "2025-01-11 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1736568587.745199",
+            "client_msg_id": "1be4c655-e7db-4d06-82aa-8d4e33b293aa",
+            "text": "*10th Jan*\n\u2022 Made quite a few changes based on review suggestion on schedule and appointments\n\u2022 Fixed an issue where calling `get_slots_for_day` api would lead to recreating the token slot objects in db due to incorrect timezone when computing slot key <https://github.com/ohcnetwork/care/pull/2725|#2725>\n\u2022 Fixed `AppRoutes` type giving type `never` for path params instead of `string` <https://github.com/ohcnetwork/care_fe/pull/9890|#9890>\n\u2022 Reviewed quite a few PRs\n*Next*\n\u2022 Complete wiring public org search in kerala.care landing page\n\u2022 Clean up types for inferring path params from API routes to skip the missing path param runtime checks.\n\u2022 Tests for schedule and bookings\n\u2022 Upgrade global api error handler to handle all cases better and build a util. function to catch all field errors and set it to react-hook-form\u2019s form state.\n\u2022 Figure out things in BE and serialize available permissions in Patient/Encounter/Questionnaire retrieves.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Ep1RJ",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "10th Jan",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Made quite a few changes based on review suggestion on schedule and appointments"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed an issue where calling "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "get_slots_for_day",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " api would lead to recreating the token slot objects in db due to incorrect timezone when computing slot key "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2725",
+                                            "text": "#2725",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "AppRoutes",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " type giving type "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "never",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " for path params instead of "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "string",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9890",
+                                            "text": "#9890",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed quite a few PRs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete wiring public org search in kerala.care landing page"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Clean up types for inferring path params from API routes to skip the missing path param runtime checks."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tests for schedule and bookings"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Upgrade global api error handler to handle all cases better and build a util. function to catch all field errors and set it to react-hook-form\u2019s form state."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Figure out things in BE and serialize available permissions in Patient/Encounter/Questionnaire retrieves."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

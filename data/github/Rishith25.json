@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-01-10T09:42:08.000Z",
+  "last_updated": "2025-01-10T14:30:38.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9880",
+      "time": "2025-01-10T14:30:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9880#issuecomment-2582841358",
+      "text": "Hi @amjithtitus09  @rithviknishad @Jacobjeevan \r\nCan you please review the PR. Let me know if any changes are required."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9878",
+      "time": "2025-01-10T11:58:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9878#issuecomment-2582540567",
+      "text": "> Hey [@Rishith25](https://github.com/Rishith25) , I don't think this was supposed to be assigned on the basis of who first creates PR. We all actually waiting for final assignment result. I had also started working but would only raise PR if it gets assigned to me 😕\n\nI have asked it in the slack and Gigin told me to raise the PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9878",
+      "time": "2025-01-10T11:53:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9878#issuecomment-2582531472",
+      "text": "@amjithtitus09 I have raised the PR let me know if any changes are required"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9880",
+      "time": "2025-01-10T11:51:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9880",
+      "text": "noUncheckedIndexedAccess in tsconfig"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9878",
+      "time": "2025-01-10T10:49:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9878#issuecomment-2582409139",
+      "text": "@amjithtitus09 \n\n1. I enabled `noUncheckedIndexedAccess` in tsconfig.json fileafter enabling it. It shows the errors found in the following list of files and i have done one change in one of the file before and after\n\n![Image](https://github.com/user-attachments/assets/be0d2056-4190-4b0c-aba2-48d4b4c98232)\n\n\n![Image](https://github.com/user-attachments/assets/4100f3b6-2a28-4a7c-8fd2-dcf1926c6ef4)\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9878",
+      "time": "2025-01-10T10:31:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9878#issuecomment-2582319534",
+      "text": "Hi @amjithtitus09 \nEnabled noUncheckedIndexedAccess in tsconfig.json to enforce stricter checks on indexed access.\n\nChanges:\n\nAdded \"noUncheckedIndexedAccess\": true to compilerOptions.\nUpdated array/object access with null/undefined checks, type assertions, optional chaining, and default values where necessary.\nEstimated resolution time for errors: 2–3 hours (including fixes and testing)."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9862",
@@ -1195,15 +1237,6 @@
       "labels": []
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9864",
-      "title": "Fix spacing in user list, remove scrollbar on large screens, and adjust schedule appointment button",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9735",
       "title": "DOB Values Limit in patient registration form",
       "stale_for": 0,
@@ -1215,6 +1248,10 @@
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9862",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9864"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9769",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9835"

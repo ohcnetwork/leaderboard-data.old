@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-01-10T08:48:36.000Z",
+  "last_updated": "2025-01-10T17:04:11.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9887",
+      "time": "2025-01-10T17:04:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#issuecomment-2583276898",
+      "text": "@Jacobjeevan please review the changes , last pr was closed due to so many merge [conflicts](https://github.com/ohcnetwork/care_fe/commit/86eba9b0860e16a6392eb030fa7fcf36557b2e04) "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9887",
+      "time": "2025-01-10T17:01:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887",
+      "text": "changes to create user form"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9852",
+      "time": "2025-01-10T16:04:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9852#issuecomment-2583078682",
+      "text": "![image](https://github.com/user-attachments/assets/2e0f958a-c2dc-4d63-99df-d8891e4e4796)\r\n@Jacobjeevan "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#373",
+      "time": "2025-01-10T14:22:15.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/373#issuecomment-2582824339",
+      "text": "> you can test the scraper in your local.\n> \n> first you'll need to pre-load any existing data-repo (you can start from scratch too if you want). run this: https://github.com/ohcnetwork/leaderboard/blob/main/package.json#L12\n> \n> second, you can `cd` into the scraper directory and run the scraper by running the following command (assuming you have `gh` cli, or else replace with your own personal PAT token. No extra permissions to be configured. Any PAT works.\n> \n> ```\n> GITHUB_TOKEN=$(gh auth token) pnpm dev ohcnetwork ../data-repo/data/github\n> ```\n\nThank You Sir, now i am able to test the scraper and debug the changes in terminal 🚀"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard#373",
@@ -1156,6 +1184,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/604",
+      "title": "Enable Calendar to Display Data from the Past Three Years",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9887",
       "title": "changes to create user form",
       "stale_for": 0,
@@ -1164,7 +1198,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/602",
       "title": "Add support for tracking commits pushed to branch (Forked)",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {

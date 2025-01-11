@@ -1,0 +1,14 @@
+{
+  "last_updated": "2025-01-10T10:32:58.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9878",
+      "time": "2025-01-10T10:32:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9878#issuecomment-2582323344",
+      "text": "Hey @amjithtitus09 ,\nIn the tsconfig.json file, enable the noUncheckedIndexedAccess option under the compilerOptions.\n\nEnabling this option often leads to errors in the following cases:\n\nArray Access: Accessing an array without null-checking or type guards.\nObject Indexing: Accessing object properties using a key without ensuring the key exists.\nUndefined Handling: Code assuming non-null or non-undefined values from indexing.\n\nApproach to Resolve Errors\n1. Check for Undefined or Add Type Guards:\n         Use optional chaining (?.) or nullish coalescing (??) operators to handle cases where an index might return undefined.\n\n2. Default Values:\n         Provide a default value if an index might be undefined.\n\n3. Unit Tests:\n         Add or update unit tests to ensure edge cases (e.g., accessing empty or undefined indexes) are handled correctly.\n\n\nAll the changes would be done latest before 12 today. Please assign this task to me\n"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}

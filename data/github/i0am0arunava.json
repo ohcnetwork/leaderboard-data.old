@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-06T19:39:42.000Z",
+  "last_updated": "2025-01-10T10:49:13.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9878",
+      "time": "2025-01-10T10:49:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9878#issuecomment-2582407770",
+      "text": "@amjithtitus09 \nProblem:\n1. Array Index Access\nAccessing an array index directly will result in the inferred type being T | undefined, which requires handling undefined.\n2. Object Property Access\nAccessing an object property using a key that might not exist will infer the type as T | undefined, even if the key is not explicitly optional in the object type.\n3. Optional Properties\nIf an object has optional properties, accessing them will require explicitly handling undefined.\n\n4. Dynamic Key Access\nWhen accessing properties of an object dynamically using a string or variable as the key, TypeScript will include undefined in the inferred type if the key might not exist.\n\n5. Iteration with Dynamic Indices\nAccessing elements in an array or object dynamically during loops or conditionally can raise errors if the index or key is not guaranteed to exist.\n6. Destructuring\nDestructuring properties or elements from an array or object will require explicit handling of cases where the property or index might not exist.\n\n\nSolution:\n 1.Handle undefined Cases Explicitly\nWhen accessing arrays or objects, TypeScript will infer the type as including undefined. To resolve this:\n\n- \n- Use nullish coalescing (??) or logical OR (||) to provide default values.\n- Add checks to handle cases where the value might be undefined.\n2.Use Type Narrowing\nUse conditional statements or TypeScript's type narrowing to check for the existence of a value.\n3. Update Types to Reflect Reality\nRefactor your type definitions to include undefined explicitly if the value is genuinely optional. This ensures that TypeScript's strict checks align with your actual data.\n4. Use Safe Iteration\nWhen working with arrays, use Array.prototype.map, filter, or other methods to avoid directly accessing indices.\n5. Leverage Utility Functions\nCreate reusable utility functions to safely access array elements or object properties.\n\nwill fix these all type error by Today (5 to 6 hours)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9801",
@@ -637,15 +644,6 @@
       "text": "Fixed:Show more monitors in CNS on very large displays #6503"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9801",
-      "title": "Issue/9660/add debouncing for api",
-      "stale_for": 0,
-      "labels": [
-        "changes required"
-      ]
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }

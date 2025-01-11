@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-09T06:00:28.000Z",
+  "last_updated": "2025-01-10T10:58:54.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9878",
+      "time": "2025-01-10T10:58:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9878#issuecomment-2582427053",
+      "text": "hi @amjithtitus09 \nEnabling the noUncheckedIndexedAccess option under the compilerOptions. \nthere are around 161 Erros . Mostly of them resloved with small changes like null safety and data type checkings\n\nMost of erros are \n- Undefined values: Many of the errors occur because TypeScript is unable to guarantee that a value is not undefined.\n\n- Type mismatches: Some errors arise from passing a value of type undefined when TypeScript expects a specific type.\n\n- Indexing issues: A few errors stem from trying to access properties on potentially undefined objects or arrays. \n- State updates: There are a few issues related to updating state with potentially undefined values.\n\n- Event handlers and file operations: Errors related to file handling or event handler callbacks may arise when the files or event objects are potentially undefined\n\nThey are slove through following pratices.\n\nUse optional chaining (?.) to safely access properties of potentially undefined objects.\nUse nullish coalescing (??) to provide fallback values when a value is undefined.\nExplicitly check for undefined using conditionals (if statements) before using variables.\nEnsure correct types are passed to functions and state setters by validating the data types.\n\n\nI will Complete the PR By tonight 10 PM "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9855",
@@ -896,75 +903,6 @@
       "text": "Rewriting UsersCreation.cy.ts according to POM approach"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9855",
-      "title": "Replaced Empty Div With Avatar When SideBar is Closed",
-      "stale_for": 0,
-      "labels": [
-        "hold",
-        "discussion required"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9778",
-      "title": "Fix the Facilties tab overflow in Organization Layout",
-      "stale_for": 0,
-      "labels": [
-        "changes required",
-        "merge conflict"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9633",
-      "title": "Adding mfa-screen ",
-      "stale_for": 3,
-      "labels": [
-        "Deploy-Failed",
-        "merge conflict"
-      ]
-    }
-  ],
-  "authored_issue_and_pr": [
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9659",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9666"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/581",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/582"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/579",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/585"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/578",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/580"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/574",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/575"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/568",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/571"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/565",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/566"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9090",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9096"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care/issues/2587",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/2601"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8826",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8882"
-    }
-  ]
+  "open_prs": [],
+  "authored_issue_and_pr": []
 }

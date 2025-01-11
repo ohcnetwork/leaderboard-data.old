@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-01-09T07:10:13.000Z",
+  "last_updated": "2025-01-10T11:27:21.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9879",
+      "time": "2025-01-10T11:27:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9879#issuecomment-2582485673",
+      "text": "Can I work on this @rithviknishad @Jacobjeevan "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9879",
+      "time": "2025-01-10T11:27:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9879",
+      "text": "Unnecessary spacing and overflowing at Appointment detail page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9878",
+      "time": "2025-01-10T11:17:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9878#issuecomment-2582469373",
+      "text": "Enable `noUncheckedIndexedAccess` in `compilerOptions` in tsconfig.json file enables errors while accessing data structures like array or object, the main errors are due to :\n- **Array Access**: Accessing an array without null-checking or type guards.\n- **Object Indexing**: Accessing object properties using a key without ensuring the key exists.\n- **Undefined Handling**: Code assuming non-null or non-undefined values from indexing.\n\nThe following errors can be fixed by using basic `if else` and `optional checking` methods.\nThe changes can be done by today EOD\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9782",
+      "time": "2025-01-10T11:08:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9782#issuecomment-2582452447",
+      "text": "@Jacobjeevan \r\nThe changes are only required for the alignment?\r\n- A little margin at left for 1st popup\r\n- Can change alignment to \"start\" or \"end\", but it doesn't looks good so no change for now \r\n\r\nDoes this works??\r\n\r\n![image](https://github.com/user-attachments/assets/d6a0c7a3-2825-411a-b4f4-f831c30cba27)\r\n![image](https://github.com/user-attachments/assets/2d72552e-bb8e-45d6-ad57-d57bc5cd139e)\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9815",
@@ -317,15 +345,6 @@
       "text": "Hii @gigincg @rithviknishad can you assign the issue to me?\nAs I understood, the issue is regarding autofilling of vitals value, correct me if I'm wrong."
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9782",
-      "title": "Fixed the misalignments in the mobile view of /encounter/encounterId/updates page",
-      "stale_for": 0,
-      "labels": [
-        "needs review"
-      ]
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }
