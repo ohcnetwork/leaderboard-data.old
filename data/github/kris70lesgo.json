@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-01-10T16:46:00.000Z",
+  "last_updated": "2025-01-11T03:18:31.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9820",
+      "time": "2025-01-11T03:18:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9820#issuecomment-2585041844",
+      "text": "Hi @rithviknishad ,\n\nHere’s my proposed approach to address the issue:\n\nObjective\nMake the t function type-safe to catch invalid keys at compile time and enable autocompletion.\n\nSteps\nExtract Keys from Translation Files:\n\nWrite a script to parse all JSON files in public/locales, flatten nested keys, and generate a translationKeys.d.ts file containing a TranslationKeys type.\nExtend i18next:\n\nCreate a declaration file (src/i18n/i18next.d.ts) to extend i18next with TranslationKeys.\nAutomate Key Generation:\n\nAdd a script (generate-keys) to automate the creation of translationKeys.d.ts whenever translation files are updated.\nUpdate Configuration:\n\nUse the generated TranslationKeys in i18next to enforce type safety."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9866",
+      "time": "2025-01-11T03:07:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9866#issuecomment-2585038599",
+      "text": "@maheshxsharmask how to reproduce this behaviour\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9888",
+      "time": "2025-01-10T17:18:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9888#issuecomment-2583300070",
+      "text": "@rithviknishad @Jacobjeevan  I would like to contribute to this issue\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9885",

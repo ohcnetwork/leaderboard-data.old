@@ -1,6 +1,115 @@
 {
-  "last_updated": "2025-01-10T15:58:29.000Z",
+  "last_updated": "2025-01-11T01:23:10.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9708",
+      "time": "2025-01-11T01:23:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9708#issuecomment-2584982077",
+      "text": "for required fields, we reuse \"field_required\" instead of creating very specific translations for each field"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9872",
+      "time": "2025-01-10T19:03:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9872#issuecomment-2583629902",
+      "text": "check the screenshot attached in the issue. issue is about when updates are available, it does nothing."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#603",
+      "time": "2025-01-10T19:01:37.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/603#issuecomment-2583619424",
+      "text": "Too many unrelated files changed. Feel free to re-open once the changes made are clean"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T18:59:33.000Z",
+      "title": "ohcnetwork/care_fe#9892",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9892#pullrequestreview-2543355316",
+      "text": "Refactor: Update feature flag handling and integrate tanstack's useQu…"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-03T15:05:41.000Z",
+      "title": "ohcnetwork/care_fe#9708",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9708#pullrequestreview-2529232033",
+      "text": "Fix: Switch to shadcn form in userResetPassword "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9886",
+      "time": "2025-01-10T18:22:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9886",
+      "text": "Cursor Issue: Pointer Active Throughout Encounter Section"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9891",
+      "time": "2025-01-10T18:22:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9891",
+      "text": " Fix:  hover cursor in encounters",
+      "collaborated_with": [
+        "Jeffrin2005",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T18:08:39.000Z",
+      "title": "ohcnetwork/care_fe#9891",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9891#pullrequestreview-2543153665",
+      "text": " Fix:  hover cursor in encounters"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9888",
+      "time": "2025-01-10T18:08:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9888",
+      "text": "Black Color Text in Encounter Section is Not Readable"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T18:06:50.000Z",
+      "title": "ohcnetwork/care_fe#9889",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9889#pullrequestreview-2543143670",
+      "text": "Enhance visibility for appointment status badges text"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T14:38:37.000Z",
+      "title": "ohcnetwork/care_fe#9880",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9880#pullrequestreview-2542562132",
+      "text": "noUncheckedIndexedAccess in tsconfig"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9890",
+      "time": "2025-01-10T18:00:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9890",
+      "text": "Fixes `AppRoutes` type"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9885",
+      "time": "2025-01-10T17:28:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9885#issuecomment-2583315954",
+      "text": "this is because we didn't load other states in our develop backend."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9885",
+      "time": "2025-01-10T17:27:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9885",
+      "text": "\"State Dropdown Shows Only Kerala, Other States Not Displayed in Resource Request Form\""
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9888",
+      "time": "2025-01-10T17:22:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9888#issuecomment-2583307291",
+      "text": "> also is it possible to have two appointments at the same time for same patient?\n\nnope. backend validations needs to be done to reject patient on same slot.\n\n> is it really a issue? the text is visible in my browser (chrome)\n\nhover over the badge"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-10T15:58:29.000Z",
@@ -21,13 +130,6 @@
       "time": "2025-01-10T14:53:52.000Z",
       "link": "https://github.com/ohcnetwork/leaderboard/issues/373#issuecomment-2582891078",
       "text": "feel free to make a PR to update the README 😄 "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-10T14:38:37.000Z",
-      "title": "ohcnetwork/care_fe#9880",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9880#pullrequestreview-2542562132",
-      "text": "noUncheckedIndexedAccess in tsconfig"
     },
     {
       "type": "pr_reviewed",
@@ -524,13 +626,6 @@
       "time": "2025-01-08T10:33:22.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/9845#issuecomment-2577337711",
       "text": "Actually the objective was to keep the filters cached, but \"except the one's in the search field\".\n\ncc: @Jacobjeevan "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-03T15:05:41.000Z",
-      "title": "ohcnetwork/care_fe#9708",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9708#pullrequestreview-2529232033",
-      "text": "Fix: Switch to shadcn form in userResetPassword "
     },
     {
       "type": "comment_created",
@@ -55918,14 +56013,6 @@
     }
   ],
   "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9895",
-      "title": "Improved types for data fetching related utilities",
-      "stale_for": 0,
-      "labels": [
-        "needs review"
-      ]
-    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9890",
       "title": "Fixes `AppRoutes` type",
