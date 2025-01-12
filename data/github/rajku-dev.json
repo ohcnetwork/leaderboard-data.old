@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-11T08:28:43.000Z",
+  "last_updated": "2025-01-12T06:56:18.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#602",
+      "time": "2025-01-12T06:56:18.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/602#issuecomment-2585613885",
+      "text": "In this approach\r\n1. Fetch all members of organization \r\n2. Fetch all repos of organization \r\n3. Fetch all open PRs of each repository \r\n4. Filter the PRs whose author is not a member & not blacklisted\r\n5. Fetch all commits (excluding merge commit) through REST API\r\n6. Add the user\r\n\r\nI ran the scrapers, and they ran perfectly fine.\r\nI used a combination of GraphQL and REST to optimize the rate limits, i.e., 5000 points/hour for GraphQL and 5000 requests/hour for REST.\r\n\r\n@rithviknishad if these changes are applicable or need any changes please let me know\r\nI will move ahead with implementing the types.\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9898",
@@ -1271,7 +1278,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/604",
       "title": "Enable Calendar to Display Data from the Past Three Years",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -1285,13 +1292,13 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/602",
       "title": "Add support for tracking commits pushed to branch (Forked)",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/601",
       "title": "Add support for tracking commits pushed to branch (core)",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],
