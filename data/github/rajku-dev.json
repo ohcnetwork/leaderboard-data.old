@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-01-12T06:56:18.000Z",
+  "last_updated": "2025-01-12T11:04:37.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9887",
+      "time": "2025-01-12T11:04:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#issuecomment-2585688071",
+      "text": "> do a self test; the button is disabled even after filling all the fields, nor are there any errors shown in the form.\r\n\r\n it was due to `.refine` not running on password `onChange` moved the form setting logic inside existing `useEffect` All edge cases have been handled, please review.\r\n\r\nhttps://github.com/user-attachments/assets/14bd3916-88bf-4ab9-b7d5-9969cf390e58\r\n\r\n\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9887",
+      "time": "2025-01-12T10:56:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#issuecomment-2585685485",
+      "text": "> do a self test; the button is disabled even after filling all the fields, nor are there any errors shown in the form.\r\n> \r\n> ![image](https://private-user-images.githubusercontent.com/25143503/402269343-5f5a2ec4-8ea0-4d21-8763-6fceeadee3f0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY2Nzk1NjEsIm5iZiI6MTczNjY3OTI2MSwicGF0aCI6Ii8yNTE0MzUwMy80MDIyNjkzNDMtNWY1YTJlYzQtOGVhMC00ZDIxLTg3NjMtNmZjZWVhZGVlM2YwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEyVDEwNTQyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUxNWY0M2RkYTMyY2IxNzMyZTQxNTE3OTFmNzU3NzAxMjE2NmNkMDM4ZjIyYTI1NTI4OTNhZGI2ZmQyODk3YTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.70jIRJalBZHyzlpVcfYD5OHRCzc_Isbbe5I9h2iYR4I)\r\n\r\nit was due to `.refine` not running on password `onChange` \r\nmoved the form setting logic inside existing `useEffect\r\n All edge cases have been handled, please review."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9907",
+      "time": "2025-01-12T10:05:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9907#issuecomment-2585669474",
+      "text": "> I think strict checking on frontend and disallowing characters would make it work [@rithviknishad](https://github.com/rithviknishad) can I work on this issue?\n\ncheck the network response, it is related to backend"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard#602",
@@ -1286,7 +1307,7 @@
       "title": "changes to create user form",
       "stale_for": 0,
       "labels": [
-        "invalid"
+        "changes required"
       ]
     },
     {
