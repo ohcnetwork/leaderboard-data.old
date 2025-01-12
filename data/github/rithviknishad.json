@@ -1,6 +1,147 @@
 {
-  "last_updated": "2025-01-11T01:23:10.000Z",
+  "last_updated": "2025-01-11T20:02:55.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9904",
+      "time": "2025-01-11T20:02:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9904",
+      "text": "Incorrect Status Display in Class History Dropdown"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-11T20:02:37.000Z",
+      "title": "ohcnetwork/care_fe#9905",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9905#pullrequestreview-2545139647",
+      "text": "Add \"Planned\" encounter class to localization file"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9898",
+      "time": "2025-01-11T16:24:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9898",
+      "text": "Profile Section showing Bad Request on avatar upload."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9898",
+      "time": "2025-01-11T16:24:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9898#issuecomment-2585323749",
+      "text": "see #9882\n\nit'll be handled by the global error handler"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T14:38:37.000Z",
+      "title": "ohcnetwork/care_fe#9880",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9880#pullrequestreview-2542562132",
+      "text": "noUncheckedIndexedAccess in tsconfig"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9903",
+      "time": "2025-01-11T16:06:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9903#issuecomment-2585316794",
+      "text": "let's not change any of that.\n\ninstead we shouldn't be changing any of the already applied filters (whether default or not) on the second click."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9903",
+      "time": "2025-01-11T15:46:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9903#issuecomment-2585308040",
+      "text": "it works as expected. just that the default filters change on clicking the tab again."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-05T08:47:08.000Z",
+      "title": "ohcnetwork/care_fe#9755",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9755#pullrequestreview-2530848704",
+      "text": "Update license Component for Github SBOM"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-11T14:37:00.000Z",
+      "title": "ohcnetwork/care_fe#9887",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#pullrequestreview-2544854184",
+      "text": "changes to create user form"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9895",
+      "time": "2025-01-11T14:25:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9895",
+      "text": "Improved types for data fetching related utilities",
+      "turnaround_time": 28888
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-11T14:21:20.000Z",
+      "title": "ohcnetwork/care_fe#9902",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9902#pullrequestreview-2544853480",
+      "text": "patient registration and encounter creation"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9859",
+      "time": "2025-01-11T13:43:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9859#issuecomment-2585273747",
+      "text": "Do update the PR title btw"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-09T11:11:52.000Z",
+      "title": "ohcnetwork/care_fe#9859",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9859#pullrequestreview-2539630251",
+      "text": "diet preference value moved to constants as snake_case"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9901",
+      "time": "2025-01-11T13:19:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9901#issuecomment-2585267388",
+      "text": "you can fix in the same PR "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9862",
+      "time": "2025-01-11T06:03:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9862",
+      "text": "Fix extra spacing in user list, remove scrollbar on large screens, and adjust mobile alignment for appointments Token card"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9896",
+      "time": "2025-01-11T06:00:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9896#issuecomment-2585099839",
+      "text": "Let's not build this right now. We may change the default behaviour on visiting the tab for this case to be configurable per instance instead of the last used filter.\n\ncc: @aravindm4 @gigincg "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9896",
+      "time": "2025-01-11T06:00:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9896",
+      "text": "Persist Date Range Across Tabs"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9895",
+      "time": "2025-01-11T05:35:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9895",
+      "text": "Improved types for data fetching related utilities"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-11T05:30:30.000Z",
+      "title": "ohcnetwork/care_fe#9864",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9864#pullrequestreview-2544550406",
+      "text": "Fix spacing in user list, remove scrollbar on large screens, and adjust schedule appointment button"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-11T05:00:18.000Z",
+      "title": "ohcnetwork/care_fe#9894",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9894#pullrequestreview-2544540905",
+      "text": "Restructure the existing cypress"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9708",
@@ -74,13 +215,6 @@
       "title": "ohcnetwork/care_fe#9889",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9889#pullrequestreview-2543143670",
       "text": "Enhance visibility for appointment status badges text"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-10T14:38:37.000Z",
-      "title": "ohcnetwork/care_fe#9880",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9880#pullrequestreview-2542562132",
-      "text": "noUncheckedIndexedAccess in tsconfig"
     },
     {
       "type": "pr_opened",
@@ -378,13 +512,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2025-01-09T11:11:52.000Z",
-      "title": "ohcnetwork/care_fe#9859",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9859#pullrequestreview-2539630251",
-      "text": "diet preference value moved to constants as snake_case"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2025-01-10T04:28:02.000Z",
       "title": "ohcnetwork/care_fe#9863",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9863#pullrequestreview-2541521974",
@@ -417,13 +544,6 @@
       "time": "2025-01-09T17:05:02.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9865",
       "text": "Adds `query.debounced` and updated queries that require debouncing"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-05T08:47:08.000Z",
-      "title": "ohcnetwork/care_fe#9755",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9755#pullrequestreview-2530848704",
-      "text": "Update license Component for Github SBOM"
     },
     {
       "type": "issue_closed",

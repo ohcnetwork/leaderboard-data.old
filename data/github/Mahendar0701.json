@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-10T10:15:01.000Z",
+  "last_updated": "2025-01-11T07:36:38.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9662",
+      "time": "2025-01-11T07:36:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9662#issuecomment-2585133498",
+      "text": "@rithviknishad @Jacobjeevan \r\n\r\nI added edit feature for facility form in organization\r\n\r\nAnd i have a doubt \r\nWhich approach should i use for auto fill of geo_organization info ?\r\nShould i follow the one in https://github.com/ohcnetwork/care_fe/pull/9711 , or is mine fine?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/landing#46",
@@ -1160,18 +1167,21 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9662",
-      "title": "Fix : Switch to using CreateFacilityForm",
+      "title": "Edit feature for facilities in organization | pincode, geo_organization info auto populates",
       "stale_for": 0,
       "labels": [
+        "question",
         "test failed",
         "changes required",
-        "Deploy-Failed"
+        "Deploy-Failed",
+        "merge conflict",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/landing/pull/46",
       "title": "Update Primary feature images visibility",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "changes requested"
       ]
