@@ -1,6 +1,106 @@
 {
-  "last_updated": "2025-01-13T07:07:10.000Z",
+  "last_updated": "2025-01-13T13:48:50.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9727",
+      "time": "2025-01-13T13:48:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9727#issuecomment-2587154071",
+      "text": "![image](https://github.com/user-attachments/assets/6b3e8a04-7e53-42af-a778-0cfb48039e3d)\r\n\r\n- [ ] fix the upload image button width for mobile responsive view in this PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9727",
+      "time": "2025-01-13T13:47:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9727#issuecomment-2587150119",
+      "text": "@modamaan what is the status on this PR, we need to close it ASAP"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9937",
+      "time": "2025-01-13T13:37:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9937",
+      "text": "Add * symbol and max phone number length to Facility Create Form",
+      "turnaround_time": 660
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9937",
+      "time": "2025-01-13T13:26:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9937",
+      "text": "Add * to Facility Create Form"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9887",
+      "time": "2025-01-13T12:59:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#issuecomment-2587041981",
+      "text": "![image](https://github.com/user-attachments/assets/f6cc56e6-a55f-411f-9b0e-ed038c1c1c83)\r\n\r\n- [ ] show proper error message for unique email id error message from backend"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9887",
+      "time": "2025-01-13T12:22:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#issuecomment-2586964197",
+      "text": "@rajku-dev what is the status of this PR, we need to get it wrapped ASAP"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9787",
+      "time": "2025-01-13T11:36:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9787#issuecomment-2586869709",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9748",
+      "time": "2025-01-13T11:31:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9748#issuecomment-2586858093",
+      "text": "![image](https://github.com/user-attachments/assets/43790d6c-4204-4fb7-983b-78cb076517b1)\r\n\r\n- The district filter must be enabled for the facility type filter to work. Currently, when the \"Clear\" button is clicked, the district filter is reset. If the user then interacts with the type filter, it shows no facilities, which feels like a confusing behavior. Consider a better UX approach:\r\n1. After the user clicks \"Clear,\" since the district filter is reset and the entire page relies on the district filter being enabled, display a message prompting the user to select a district.\r\n2. Alternatively, the \"Clear\" button could retain the selected district instead of resetting it.\r\n3. Or explore another approach to make this interaction more intuitive and user-friendly.\r\n\r\n![image](https://github.com/user-attachments/assets/7335ee9e-6bbe-433e-85ad-7777853957d8)\r\n\r\n- [ ] The filtering details are not currently displayed on the card. For instance, in the attached screenshot, it's difficult to identify the facility type, local body, or any other details related to the applied filters. I believe it would make more sense to display these details directly on the card first and then provide the filtering options. This approach would improve clarity and usability."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9854",
+      "time": "2025-01-13T10:23:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9854#issuecomment-2586717713",
+      "text": "LGTM"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9934",
+      "time": "2025-01-13T10:23:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9934",
+      "text": "State, District, related info are not being prefilled in the patient details update page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9854",
+      "time": "2025-01-13T10:21:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9854#issuecomment-2586711808",
+      "text": "LGTM, \r\n![image](https://github.com/user-attachments/assets/f77e47ed-3a95-4166-82be-69187124768b)\r\n\r\nthe update patients page is not pre-filling, patients state,district, etc... from the dropdown"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9857",
+      "time": "2025-01-13T10:01:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9857#issuecomment-2586666753",
+      "text": "LGTM , ignore the unrelated cypress failure"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9854",
+      "time": "2025-01-13T09:41:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9854#issuecomment-2586623565",
+      "text": "\"Use this address for permanent address\" should be by default selected, in the form"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9925",
+      "time": "2025-01-13T09:26:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9925",
+      "text": "Modified the cypress file structure docs",
+      "turnaround_time": 8381
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9925",
@@ -50745,13 +50845,6 @@
       "text": "Merge Develop To Staging v24.48.0 | Patch"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9925",
-      "title": "Modified the cypress file structure docs",
-      "stale_for": 0,
-      "labels": []
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }

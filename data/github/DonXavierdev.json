@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-09T15:12:46.000Z",
+  "last_updated": "2025-01-13T13:46:09.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9814",
+      "time": "2025-01-13T13:46:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9814#issuecomment-2587147501",
+      "text": "Accidently Clicked on re-review.\r\n```\r\n> Should only be adding jspdf 👍\r\n```\r\nCan you please respond to this reply . \r\nAlso Will be adding this ASAP\r\n```\r\n> Hmm, right now it would combine any multi-uploads, let's not do that..instead let's add an option on FE (similar to \"Upload From Device, Open Camera\" etc) to trigger this\r\n```\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9755",
+      "time": "2025-01-13T13:41:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9755#issuecomment-2587136542",
+      "text": "> can we also delete the already checked-in SBOM JSON files?\r\n\r\nThe old SBOM files in components/licenses were removed . I also saw some in the public dir ; pretty sure i didnt add that.Also removed them too lmk if that was necessary in some case."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9863",
@@ -233,7 +247,8 @@
       "title": "Display Descriptive Names in Breadcrumbs Instead of External IDs",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "changes required",
+        "merge conflict"
       ]
     },
     {
@@ -242,7 +257,9 @@
       "stale_for": 0,
       "labels": [
         "changes required",
-        "Deploy-Failed"
+        "Deploy-Failed",
+        "waiting for related PR",
+        "merge conflict"
       ]
     },
     {

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-13T08:49:09.000Z",
+  "last_updated": "2025-01-13T08:59:16.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9921",
+      "time": "2025-01-13T08:59:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9921#issuecomment-2586534731",
+      "text": "> That's not the root issue.\n> \n> The intention of the `csv` query param when calling the backend API is so that backend returns a CSV response instead of JSON.\n> \n> * https://github.com/ohcnetwork/care/blob/develop/care/utils/exports/mixins.py#L8\n> * https://github.com/ohcnetwork/care/blob/develop/care/facility/models/resources.py#L107-L126\n\ngot that!\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9921",
@@ -1392,9 +1399,9 @@
       "title": "changes to create user form",
       "stale_for": 0,
       "labels": [
-        "question",
+        "backlog",
         "changes required",
-        "needs-triage"
+        "merge conflict"
       ]
     },
     {

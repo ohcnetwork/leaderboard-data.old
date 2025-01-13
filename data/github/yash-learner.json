@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-06T09:53:27.000Z",
+  "last_updated": "2025-01-13T11:27:42.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9934",
+      "time": "2025-01-13T11:27:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9934#issuecomment-2586851447",
+      "text": "> [@yash-learner](https://github.com/yash-learner) this is being solved in [#9711](https://github.com/ohcnetwork/care_fe/pull/9711) right?\n\nIt is generally fixing the autofill from pin code. I will look into it and will fix in the same PR. "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9711",
@@ -231,6 +238,31 @@
       "text": "Update yash-learner.md"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9711",
+      "title": "Fix state & district autofill & multiple other small issues in Patient Registration page",
+      "stale_for": 5,
+      "labels": [
+        "changes required",
+        "merge conflict"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9260",
+      "title": "Labs",
+      "stale_for": 0,
+      "labels": [
+        "Deploy-Failed",
+        "merge conflict"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/81",
+      "title": "Add proposal for MFA",
+      "stale_for": 49,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }
