@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-01-12T18:24:14.000Z",
+  "last_updated": "2025-01-13T08:19:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9921",
+      "time": "2025-01-13T08:19:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9921#issuecomment-2586461993",
+      "text": "That's not the root issue.\n\nThe intention of the `csv` query param when calling the backend API is so that backend returns a CSV response instead of JSON.\n\n- https://github.com/ohcnetwork/care/blob/develop/care/utils/exports/mixins.py#L8\n- https://github.com/ohcnetwork/care/blob/develop/care/facility/models/resources.py#L107-L126"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-13T06:58:43.000Z",
+      "title": "ohcnetwork/care_fe#9924",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9924#pullrequestreview-2545848645",
+      "text": "Add a facility card visibility check in facility creation cypress test"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9921",
+      "time": "2025-01-13T06:20:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9921#issuecomment-2586247585",
+      "text": "How are you planning to solve this?\n\nExplain the root cause for this issue"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9920",
+      "time": "2025-01-13T04:56:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9920",
+      "text": "Switch to `@tanstack/react-router`"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9887",
+      "time": "2025-01-13T04:41:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#issuecomment-2586163426",
+      "text": "The real reason why refine doesn't get triggered is, because there are other errors that was raised \"before\" refine was executed, that needs to be solved first.\r\n\r\nCheck what those other errors are. "
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-12T18:24:14.000Z",
@@ -56233,9 +56268,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9920",
+      "title": "Switch to `@tanstack/react-router`",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9890",
       "title": "Fixes `AppRoutes` type",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "needs review"
       ]

@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-01-11T07:01:33.000Z",
+  "last_updated": "2025-01-13T08:36:47.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9927",
+      "time": "2025-01-13T08:36:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9927",
+      "text": "Populate encounter edit options based on questionnaire tags"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-13T06:17:00.000Z",
+      "title": "ohcnetwork/care_fe#9662",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9662#pullrequestreview-2545736415",
+      "text": "Edit feature for facilities in organization | pincode, geo_organization info auto populates"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-13T05:32:21.000Z",
+      "title": "ohcnetwork/care_fe#9884",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9884#pullrequestreview-2545732591",
+      "text": "updated failed preview deploy"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9778",
+      "time": "2025-01-13T05:28:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9778#issuecomment-2586199413",
+      "text": "> Check multiple devices from the device list (browser) 👍\r\n> <img alt=\"image\" width=\"573\" src=\"https://private-user-images.githubusercontent.com/40040905/401506750-2686f235-ad33-40bb-9f27-1010f63f5df2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY3NDYyMDYsIm5iZiI6MTczNjc0NTkwNiwicGF0aCI6Ii80MDA0MDkwNS80MDE1MDY3NTAtMjY4NmYyMzUtYWQzMy00MGJiLTlmMjctMTAxMGY2M2Y1ZGYyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEzVDA1MjUwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUxM2JmMmFlYzlkMjBhYjFlNDVlZGUyYzkwNjM0NTNiYzE4ZGVmMTM0NjkxYmE1OGU3YjE5MDRkYWZjODcwYjkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._i8Oz-Npl1pqpSSYJrYg5Sp6dawPAq5TG7UNiMR7-R8\">\r\n\r\nThe issue is still present btw."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9735",
+      "time": "2025-01-13T05:22:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9735#issuecomment-2586195185",
+      "text": "Switching to react hook forms in #9854. Wait for that to get merged and update as necessary."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9907",
+      "time": "2025-01-13T05:08:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9907#issuecomment-2586184151",
+      "text": "#9854 Will add validation on the FE for characters, as for BE response, I'll check up on that - BE isn't currently open to contributors."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-13T04:46:04.000Z",
+      "title": "ohcnetwork/care_fe#9782",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9782#pullrequestreview-2545701170",
+      "text": "Fixed the misalignments in the mobile view of /encounter/encounterId/updates page"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-11T06:59:48.000Z",
@@ -4343,9 +4392,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9927",
+      "title": "Populate encounter edit options based on questionnaire tags",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9857",
       "title": "Facility Id in User Profile for Nav User",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"
@@ -4354,7 +4412,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9838",
       "title": "Confirm Dialog For Navigation on Edited Questionnaire Form",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": [
         "test failed",
         "merge conflict"
@@ -4366,8 +4424,7 @@
       "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review",
-        "merge conflict"
+        "needs review"
       ]
     },
     {
@@ -4376,14 +4433,13 @@
       "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review",
-        "merge conflict"
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9651",
       "title": "Added scroll to top for questionnaire",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "changes required",
         "merge conflict"

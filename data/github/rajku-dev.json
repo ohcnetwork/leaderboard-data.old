@@ -1,6 +1,76 @@
 {
-  "last_updated": "2025-01-12T17:15:44.000Z",
+  "last_updated": "2025-01-13T08:49:09.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9921",
+      "time": "2025-01-13T08:49:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9921#issuecomment-2586515576",
+      "text": "> That's not the root issue.\n> \n> The intention of the `csv` query param when calling the backend API is so that backend returns a CSV response instead of JSON.\n> \n> * https://github.com/ohcnetwork/care/blob/develop/care/utils/exports/mixins.py#L8\n> * https://github.com/ohcnetwork/care/blob/develop/care/facility/models/resources.py#L107-L126\n\nthat really connected the dots, thanks."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9928",
+      "time": "2025-01-13T08:41:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9928",
+      "text": "Remove duplicate age"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9921",
+      "time": "2025-01-13T08:08:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9921#issuecomment-2586444155",
+      "text": "> How are you planning to solve this?\n> \n> Explain the root cause for this issue\n\nThe root cause of this problem is that `parse` function is not passed to the `ExportButton` in `ResouceBoard`\n\n![Image](https://github.com/user-attachments/assets/6f54189d-8746-4a71-ae20-e9718e4dc381)\n\n![Image](https://github.com/user-attachments/assets/2f3ee937-9165-4877-bb72-269720a747ca)\nThis function is used to parse the data into csv format\nI've solved this problem and here is the final result\n\n![Image](https://github.com/user-attachments/assets/4088d814-e3e0-4b9d-817c-647178b0b8e2)\n\n![Image](https://github.com/user-attachments/assets/699a81f1-956a-4567-a759-45a7b4dc46ef)\n\nCan you please assign me this issue, so that i can go ahead with the implementation?\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9922",
+      "time": "2025-01-13T05:41:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9922#issuecomment-2586210440",
+      "text": "I would like to fix this issue."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9922",
+      "time": "2025-01-13T05:40:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9922",
+      "text": "Incorrect Patient Age displayed on Appointment page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9921",
+      "time": "2025-01-13T05:25:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9921#issuecomment-2586197682",
+      "text": "Can i work on this issue?"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9921",
+      "time": "2025-01-13T05:25:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9921",
+      "text": "Resource csv showing `[object Object]` error"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9918",
+      "time": "2025-01-13T05:16:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9918#issuecomment-2586190353",
+      "text": "Partial Duplicate of #9842 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9887",
+      "time": "2025-01-13T05:13:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#issuecomment-2586187697",
+      "text": "> The real reason why refine doesn't get triggered is, because there are other errors that was raised \"before\" refine was executed, that needs to be solved first in order for refine to be executed.\r\n> \r\n> Check what those other errors are.\r\n\r\ni found that .refine will trigger only when full data is passed to it (when trying to submit), \r\ni also tried to console log it was not logging any password mismatch errors\r\n![image](https://github.com/user-attachments/assets/ecb76e20-2ebf-4f8a-b438-952fe49b9124)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9887",
+      "time": "2025-01-13T04:37:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#issuecomment-2586160731",
+      "text": "> > refine would get triggered when form is attempted to submit right ? \n> \n> @rajku-dev, I think you missed this line from rithvik's comment \n The problem is, password has mismatch error that makes the submit button disable, but not showing under input field\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9887",
@@ -1304,9 +1374,17 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9928",
+      "title": "Remove duplicate age",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/604",
       "title": "Enable Calendar to Display Data from the Past Three Years",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
@@ -1314,7 +1392,9 @@
       "title": "changes to create user form",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "question",
+        "changes required",
+        "needs-triage"
       ]
     },
     {
@@ -1326,7 +1406,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/601",
       "title": "Add support for tracking commits pushed to branch (core)",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     }
   ],
