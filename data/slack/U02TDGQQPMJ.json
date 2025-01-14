@@ -32466,5 +32466,190 @@
                 }
             ]
         }
+    ],
+    "2025-01-14 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1736828809.523759",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1736829249.000000"
+            },
+            "client_msg_id": "45e148d2-1504-4873-a7cc-4a25d1477ac4",
+            "text": "*Jan 13th*\n\u2022 Changed appointments date filters and made defaults configurable (<https://github.com/ohcnetwork/care_fe/pull/9933|#9933>)\n\u2022 Wrote few tests for scheduling and availability exception viewsets\n\u2022 Partially done with reschedule API\n*Next*\n\u2022 Schedule & Booking: Add missing edge cases (block booking on past, and many more)\n\u2022 Write more tests (<https://github.com/ohcnetwork/care/pull/2731|#2731>) and stabilize schedule & booking\n\u2022 Complete wiring public org search in kerala.care landing page\n\u2022 Progress on switching to tanstack router.\n\u2022 Upgrade global api error handler to handle all cases better and build a util. function to catch all field errors and set it to react-hook-form\u2019s form state.\n\u2022 Figure out things in BE and serialize available permissions in Patient/Encounter/Questionnaire retrieves.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "iNqfF",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Jan 13th",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Changed appointments date filters and made defaults configurable ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9933",
+                                            "text": "#9933",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Wrote few tests for scheduling and availability exception viewsets"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Partially done with reschedule API"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Schedule & Booking: Add missing edge cases (block booking on past, and many more)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Write more tests ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2731",
+                                            "text": "#2731",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ") and stabilize schedule & booking"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete wiring public org search in kerala.care landing page"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Progress on switching to tanstack router."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Upgrade global api error handler to handle all cases better and build a util. function to catch all field errors and set it to react-hook-form\u2019s form state."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Figure out things in BE and serialize available permissions in Patient/Encounter/Questionnaire retrieves."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U06L50QL1AQ",
+                        "U07NXCASM89"
+                    ],
+                    "count": 2
+                }
+            ]
+        }
     ]
 }
