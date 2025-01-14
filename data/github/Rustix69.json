@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-01-13T22:58:23.000Z",
+  "last_updated": "2025-01-14T06:58:27.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9936",
+      "time": "2025-01-14T06:58:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9936#issuecomment-2589167244",
+      "text": "@rithviknishad Sorry for the misconvinience actually I was working but before pushing the final code I undrafted it. I had solved this.\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9942",
+      "time": "2025-01-14T06:56:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9942",
+      "text": "Fix : DOM Nesting in BreadCrumbs.tsx"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9941",
+      "time": "2025-01-14T06:24:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9941#issuecomment-2589128902",
+      "text": "> mark it as draft until changes are completed\r\n\r\n@rithviknishad The Code is running quite good.  I had pushed the PR you may check it.\r\n\r\nThe error was due to : \r\n- The renderCrumb function was returning an ( li ) element.\r\n- This function was being called within another ( li ) in the main render function.\r\n- The BreadcrumbItem component likely renders as an ( li ) creating nested ( li ) elements.\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9936",
+      "time": "2025-01-14T06:20:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9936#issuecomment-2589123515",
+      "text": "> [@VAIBHAVSING](https://github.com/VAIBHAVSING) run the dev server locally and see\n\nPlz review the PR if we are ok to go with the changes ."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9941",
+      "time": "2025-01-14T06:17:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9941",
+      "text": "Fix : DOM nesting Warning in BreadCrumbs.tsx"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9940",
+      "time": "2025-01-14T05:45:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9940#issuecomment-2589049722",
+      "text": "> 1. this is something that needs to solved in https://github.com/ohcnetwork/care_fe/blob/develop/src/components/Common/Breadcrumbs.tsx and not by modifying shadcn's component\r\n> 2. get issues assigned before working on them\r\n\r\nCan I work on this issue then ?\r\n"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9940",
