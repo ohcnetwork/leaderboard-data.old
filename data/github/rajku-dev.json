@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-01-13T08:59:16.000Z",
+  "last_updated": "2025-01-13T19:04:55.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9928",
+      "time": "2025-01-13T19:04:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9928#issuecomment-2587967066",
+      "text": "> code is not readable. use ternary operator instead\r\n\r\nwill take care of that,\r\nAlso i think \r\n<img src=https://github.com/user-attachments/assets/b2805994-8f04-4906-88f1-1776f1e96e8a width=400/>\r\nwe are keeping both fields(`year_of_birth` and `date_of_birth`) optional in type\r\nthough we know at least one of the fields will definitely be present\r\nin this case we should use discriminated union\r\n<img src=https://github.com/user-attachments/assets/96584201-4c56-44cd-88a5-f11f4a965f36 width=400/>"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9887",
+      "time": "2025-01-13T18:21:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#issuecomment-2587880789",
+      "text": "> @rajku-dev what is the status of this PR, we need to get it wrapped ASAP\r\n\r\nmost of the things are already done."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9887",
+      "time": "2025-01-13T18:18:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#issuecomment-2587874927",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/402547315-f6cc56e6-a55f-411f-9b0e-ed038c1c1c83.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY3OTE0MjMsIm5iZiI6MTczNjc5MTEyMywicGF0aCI6Ii81NzA1NTk5OC80MDI1NDczMTUtZjZjYzU2ZTYtYTU1Zi00MTFmLTliMGUtZWQwMzhjMWMxYzgzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEzVDE3NTg0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU1OWUzYjhiNDMyOTgyZjViNjhiYmM3MmU0MTFiZmZmNjJiOThjZTg3OWVkN2EwZjZhZGFhNjU2YzlhM2YzZGMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._xBF_7AWUS_XTWUrPIzDAXZ9CmmnnIjQw59FGq9sRN0)\r\n> \r\n> * [ ]  show proper error message for unique email id error message from backend\r\n\r\nIt is already showing the backend error, Could you please confirm if there's any specific issue?\r\n![image](https://github.com/user-attachments/assets/19a7a16c-d72c-4743-bddb-6dd5a06b429c)\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9921",
@@ -1399,9 +1420,11 @@
       "title": "changes to create user form",
       "stale_for": 0,
       "labels": [
+        "question",
         "backlog",
         "changes required",
-        "merge conflict"
+        "merge conflict",
+        "needs-triage"
       ]
     },
     {

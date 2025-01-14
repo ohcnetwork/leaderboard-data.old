@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-01-13T13:59:54.000Z",
+  "last_updated": "2025-01-13T18:05:56.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9903",
+      "time": "2025-01-13T18:05:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9903#issuecomment-2587833859",
+      "text": "this would be solved along with tanstack router migration as it's easier to achieve the desired solution using that"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-13T18:01:03.000Z",
+      "title": "ohcnetwork/care_fe#9928",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9928#pullrequestreview-2547388251",
+      "text": "Remove duplicate age"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9890",
+      "time": "2025-01-13T17:52:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9890#issuecomment-2587791267",
+      "text": "Closing in favour of #9920"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2731",
+      "time": "2025-01-13T17:20:09.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2731",
+      "text": "Schedule and Availability Exceptions ViewSet Tests"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9834",
+      "time": "2025-01-13T16:54:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9834",
+      "text": "Profile Bug Possibly Connected/Related to Schedules (Availability)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T15:58:29.000Z",
+      "title": "ohcnetwork/care_fe#9857",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9857#pullrequestreview-2542805316",
+      "text": "Facility Id in User Profile for Nav User"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9776",
+      "time": "2025-01-13T16:50:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9776",
+      "text": "Patient Files"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-13T14:39:14.000Z",
+      "title": "ohcnetwork/care_fe#9787",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9787#pullrequestreview-2546819328",
+      "text": "Patient files"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9755",
@@ -472,13 +528,6 @@
       "time": "2025-01-10T17:22:40.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/9888#issuecomment-2583307291",
       "text": "> also is it possible to have two appointments at the same time for same patient?\n\nnope. backend validations needs to be done to reject patient on same slot.\n\n> is it really a issue? the text is visible in my browser (chrome)\n\nhover over the badge"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-10T15:58:29.000Z",
-      "title": "ohcnetwork/care_fe#9857",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9857#pullrequestreview-2542805316",
-      "text": "Facility Id in User Profile for Nav User"
     },
     {
       "type": "pr_reviewed",
@@ -56356,19 +56405,16 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2731",
+      "title": "Schedule and Availability Exceptions ViewSet Tests",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9920",
       "title": "Switch to `@tanstack/react-router`",
       "stale_for": 0,
       "labels": [
-        "merge conflict"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9890",
-      "title": "Fixes `AppRoutes` type",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
         "merge conflict"
       ]
     }
