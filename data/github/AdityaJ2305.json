@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-14T12:55:39.000Z",
+  "last_updated": "2025-01-14T18:18:38.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9954",
+      "time": "2025-01-14T18:18:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9954#issuecomment-2590776123",
+      "text": "> src/components/Facility/FacilityUsers.tsx (1)\r\n>33-128: Consider extracting skeleton components for better reusability.\r\n>The skeleton implementations are well-structured and provide a good loading experience. However, these large components could be moved to separate files for better maintainability and reuse.\r\n>Consider moving these to src/components/Skeletons/UserSkeletons.tsx:\r\n```\r\n// src/components/Skeletons/UserSkeletons.tsx\r\nexport const UserListSkeleton = () => {\r\n // Current UserListSkeleton implementation\r\n};\r\nexport const UserCardSkeleton = () => {\r\n // Current UserCardSkeleton implementation\r\n};\r\n```\r\n Hey Team, I’m in favour of this suggestion. Let me know what you think."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/landing#50",
@@ -2481,11 +2488,21 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9982",
+      "title": "Move all the Skeletons to seperate file ",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9954",
       "title": "Updated the User Management Design",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     },
     {

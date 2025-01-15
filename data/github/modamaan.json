@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-14T14:32:53.000Z",
+  "last_updated": "2025-01-14T19:09:10.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9727",
+      "time": "2025-01-14T19:09:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9727#issuecomment-2590903058",
+      "text": "Images taken from camera directly should be allowed to upload the image (currently its not working)\r\n![Screenshot 2025-01-15 003217](https://github.com/user-attachments/assets/47e4b0b6-fd47-4a92-a762-dc651591f412)\r\n\r\nWe need to modify the backend code, update the error handling (e.g., pixel size errors) for mobile devices"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9727",
@@ -802,14 +809,6 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9870",
-      "title": "Enabled auto-switch feature for DOB input on the Patient Registration page",
-      "stale_for": 0,
-      "labels": [
-        "changes required"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9727",
       "title": "Error messages should clearly specify the exact issue encountered during facility cover image uploads",
       "stale_for": 0,
@@ -820,6 +819,10 @@
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9869",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9870"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/561",
       "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/562"

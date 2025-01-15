@@ -1,6 +1,109 @@
 {
-  "last_updated": "2025-01-14T14:45:28.000Z",
+  "last_updated": "2025-01-14T19:13:38.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9965",
+      "time": "2025-01-14T19:13:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9965",
+      "text": "questionnaire_tag api is throwing 404 in the frontend"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9973",
+      "time": "2025-01-14T19:13:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9973",
+      "text": "Add silent for useQuery in useQuestionnaireOptions",
+      "collaborated_with": [
+        "Jacobjeevan",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-14T18:58:53.000Z",
+      "title": "ohcnetwork/care_fe#9973",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9973#pullrequestreview-2550778567",
+      "text": "Add silent for useQuery in useQuestionnaireOptions"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9972",
+      "time": "2025-01-14T18:28:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9972",
+      "text": "Add retries for fetching SBOM data"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9971",
+      "time": "2025-01-14T17:55:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9971#issuecomment-2590721413",
+      "text": "Already solved in #9768"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T18:59:33.000Z",
+      "title": "ohcnetwork/care_fe#9892",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9892#pullrequestreview-2543355316",
+      "text": "Refactor: Update feature flag handling and integrate tanstack's useQu…"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9970",
+      "time": "2025-01-14T17:29:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9970",
+      "text": "Fix infinite loop issue due to incorrect dependencies in SearchByMultipleFields",
+      "turnaround_time": 138
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9970",
+      "time": "2025-01-14T17:27:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9970",
+      "text": "Fix infinite loop issue due to incorrect dependencies in SearchByMultipleFields"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9966",
+      "time": "2025-01-14T16:51:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9966#issuecomment-2590542981",
+      "text": "Error handling in certain situations was pending, and also updating existing other usages where input type=\"tel\" directly was used instead of PhoneInput"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9966",
+      "time": "2025-01-14T16:46:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9966#issuecomment-2590522784",
+      "text": "@manmeetnagii most of heavy lifting was done in https://github.com/ohcnetwork/care_fe/tree/rithviknishad/feat/switch-to-libphonenumberjs branch. You may use this as your base branch"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9969",
+      "time": "2025-01-14T16:39:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9969",
+      "text": "Switch to `libphonenumber-js`;"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-14T15:45:20.000Z",
+      "title": "ohcnetwork/care_fe#9967",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9967#pullrequestreview-2550159694",
+      "text": "Add pagination and search to OrganizationUsers"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-14T15:41:13.000Z",
+      "title": "ohcnetwork/care#2739",
+      "link": "https://github.com/ohcnetwork/care/pull/2739#pullrequestreview-2550146931",
+      "text": "Enable search for OrganizationUsers"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#9966",
+      "time": "2025-01-14T15:29:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9966",
+      "text": "Switch to `libphonenumber-js` in favour of custom phone number validators"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/landing#45",
@@ -91,13 +194,6 @@
       "time": "2025-01-14T09:17:21.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/9946",
       "text": "Organisation Page nav bar tab icon and text are overflowing"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-10T18:59:33.000Z",
-      "title": "ohcnetwork/care_fe#9892",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9892#pullrequestreview-2543355316",
-      "text": "Refactor: Update feature flag handling and integrate tanstack's useQu…"
     },
     {
       "type": "pr_reviewed",
@@ -56616,8 +56712,8 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9972",
-      "title": "Add retries for fetching SBOM data",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9977",
+      "title": "User Availabilities Exception related fixes",
       "stale_for": 0,
       "labels": [
         "needs review"

@@ -213,5 +213,171 @@
                 }
             ]
         }
+    ],
+    "2025-01-15 00:00:00": [
+        {
+            "user": "U086E5U2CSJ",
+            "type": "message",
+            "ts": "1736923216.890989",
+            "client_msg_id": "6599e3e9-e5ff-493c-a1c6-6a5ccea7c3cf",
+            "text": "*Jan 14th*\n\u2022 Replace deprecated data fetching utilities with Tanstack's useQuery in PlugConfig and FeatureFlags. (<https://github.com/ohcnetwork/care_fe/pull/9892|#9892> Testing is pending)\n\u2022 UI Update Suggestions: Appointment Page (Date Picker Filter) and other  (<https://github.com/ohcnetwork/care_fe/pull/9958|#9958>)\nNext\n\u2022 Replace deprecated data fetching utilities with Tanstack's useQuery in Questionnaire\n\u2022 Resolve pending changes for sidebar auto-hide functionality.\n\u2022 Fix any changes/Suggestions ",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1736533729,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/9892",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#9892 Removed unused feature flag handling and migrated to TanStack's query",
+                    "title": "#9892 Removed unused feature flag handling and migrated to TanStack's query",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/9892",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>"
+                },
+                {
+                    "id": 2,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1736858735,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/9958",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#9958 Fix: UI Update Suggestions: Appointment Page (Date Picker Filter)",
+                    "title": "#9958 Fix: UI Update Suggestions: Appointment Page (Date Picker Filter)",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/9958",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>"
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "gbzay",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Jan 14th",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Replace deprecated data fetching utilities with Tanstack's useQuery in PlugConfig and FeatureFlags. ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9892",
+                                            "text": "#9892",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " Testing is pending)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "UI Update Suggestions: Appointment Page (Date Picker Filter) and other  ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9958",
+                                            "text": "#9958",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\nNext\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Replace deprecated data fetching utilities with Tanstack's useQuery in Questionnaire"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Resolve pending changes for sidebar auto-hide functionality."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fix any changes/Suggestions "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U02TDGQQPMJ",
+                        "U0576PEACG0"
+                    ],
+                    "count": 2
+                }
+            ]
+        }
     ]
 }

@@ -32645,9 +32645,282 @@
                     "name": "rocket",
                     "users": [
                         "U06L50QL1AQ",
-                        "U07NXCASM89"
+                        "U07NXCASM89",
+                        "U02D0NA6RHR"
+                    ],
+                    "count": 3
+                }
+            ]
+        }
+    ],
+    "2025-01-15 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1736916057.385109",
+            "client_msg_id": "f4065290-52ac-432c-9475-0def12c4234b",
+            "text": "*Jan 14th*\n\u2022 Reschedule API (done twice, accidentally ran `git reset` when finalising, thinking i was in bruno api\u2019s dir, but realised was in care be dir after running it :melting_face:) <https://github.com/ohcnetwork/care/pull/2738|#2738>\n\u2022 FE changes for the same (for users flow), and disabled selection of slots in the past <https://github.com/ohcnetwork/care_fe/pull/9956|#9956>\n\u2022 Fixed an infinite loop issue edge case with SearchByMultipleFields <https://github.com/ohcnetwork/care_fe/pull/9970|#9970>\n\u2022 Attempted switch to libphonenumber-js in FE <https://github.com/ohcnetwork/care_fe/pull/9969|#9969>\n\u2022 Cleaned up contributor\u2019s SBOM from GH API PR <https://github.com/ohcnetwork/care_fe/pull/9755/commits/17b4385ce0e01d2151a0c3341dd2aa822b823325|17b4385>\n\u2022 Added retries to generate-sbom-data script <https://github.com/ohcnetwork/care_fe/pull/9972|#9972>\n\u2022 Worked on tests for schedule and booking, along with improving validations.\n*Next*\n\u2022 Fixed FE issue reported by Nihal for palliative care release on exception button and calendar view\n\u2022 Write more tests (<https://github.com/ohcnetwork/care/pull/2731|#2731>) and stabilize schedule &amp; booking\n\u2022 Complete wiring public org search in kerala.care landing page\n\u2022 Progress on switching to tanstack router.\n\u2022 Upgrade global api error handler to handle all cases better and build a util. function to catch all field errors and set it to react-hook-form\u2019s form state.\n\u2022 Figure out things in BE and serialize available permissions in Patient/Encounter/Questionnaire retrieves.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "PgC+7",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Jan 14th",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reschedule API (done twice, accidentally ran "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "git reset",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " when finalising, thinking i was in bruno api\u2019s dir, but realised was in care be dir after running it "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "melting_face",
+                                            "unicode": "1fae0"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ") "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2738",
+                                            "text": "#2738",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "FE changes for the same (for users flow), and disabled selection of slots in the past "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9956",
+                                            "text": "#9956",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed an infinite loop issue edge case with SearchByMultipleFields "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9970",
+                                            "text": "#9970",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Attempted switch to libphonenumber-js in FE "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9969",
+                                            "text": "#9969",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Cleaned up contributor\u2019s SBOM from GH API PR "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9755/commits/17b4385ce0e01d2151a0c3341dd2aa822b823325",
+                                            "text": "17b4385"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added retries to generate-sbom-data script "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9972",
+                                            "text": "#9972",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Worked on tests for schedule and booking, along with improving validations."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed FE issue reported by Nihal for palliative care release on exception button and calendar view"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Write more tests ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2731",
+                                            "text": "#2731",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ") and stabilize schedule & booking"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Complete wiring public org search in kerala.care landing page"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Progress on switching to tanstack router."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Upgrade global api error handler to handle all cases better and build a util. function to catch all field errors and set it to react-hook-form\u2019s form state."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Figure out things in BE and serialize available permissions in Patient/Encounter/Questionnaire retrieves."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "smiling_face_with_tear",
+                    "users": [
+                        "U06L50QL1AQ",
+                        "UC8TSEGCQ"
                     ],
                     "count": 2
+                },
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U06L50QL1AQ",
+                        "U02D0NA6RHR",
+                        "U07NXCASM89",
+                        "U0576PEACG0"
+                    ],
+                    "count": 4
                 }
             ]
         }
