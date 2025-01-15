@@ -1,6 +1,6 @@
 ---
 name: Abhimanyu Rajeesh
-title: Intern
+title: Junior Full Stack Developer Intern
 github: abhimanyurajeesh
 twitter: ""
 linkedin: abhimanyurajeesh
