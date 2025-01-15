@@ -6,7 +6,7 @@ twitter: ""
 linkedin: abhimanyurajeesh
 slack: U086E5U2CSJ
 joining_date: "26/12/2024"
-role : Junior Full Stack Developer Intern
+role : intern
 ---
 
 **Software Developer . Graphic Designer . Photographer**
