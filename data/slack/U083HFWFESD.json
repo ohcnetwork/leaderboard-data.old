@@ -3,6 +3,117 @@
         {
             "user": "U083HFWFESD",
             "type": "message",
+            "ts": "1736961030.620449",
+            "edited": {
+                "user": "U083HFWFESD",
+                "ts": "1736961074.000000"
+            },
+            "client_msg_id": "8cf979ad-c314-439c-80e8-365bcc1446fe",
+            "text": "15 Jan 2025\n Done\n\u2022 Appointment detail flicker problem resolved and PR successfully merged <https://github.com/ohcnetwork/care_fe/pull/9987|#9987>\nNext\n\u2022 Looking for new issues",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1736936001,
+                    "color": "6f42c1",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/9987",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#9987 Appointment detail flicker problem resolved",
+                    "text": "*Appointment page flicker issue*\n\n\u2022 Added new file called AppointmentDialog.tsx\n\u2022 Added the AppointmentDialog component to new file\n\n@ohcnetwork/care-fe-code-reviewers\n\n*Merge Checklist*\n\n\u2022 Add specs that demonstrate bug / test a new feature.\n\u2022 Update <https://docs.ohc.network|product documentation>.\n\u2022 Ensure that UI text is kept in I18n files.\n\u2022 Prep screenshot or demo video for changelog entry, and attach it to issue.\n\u2022 Request for Peer Reviews\n\u2022 Completion of QA\n\n*Summary by CodeRabbit*\n\n\u2022 *New Features*  \n   \u2022 Added a new `AppointmentDialog` component for managing patient appointment details  \n   \u2022 Implemented functionality to view and potentially cancel appointments  \n   \u2022 Integrated internationalization support for appointment-related interactions\n\u2022 *Improvements*  \n   \u2022 Enhanced patient appointment management with a structured dialog interface",
+                    "title": "#9987 Appointment detail flicker problem resolved",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/9987",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "3",
+                            "title": "Comments",
+                            "short": true
+                        },
+                        {
+                            "value": "<https://github.com/NikhilA8606|@NikhilA8606>",
+                            "title": "Assignees",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "34fkA",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "15 Jan 2025\n Done\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Appointment detail flicker problem resolved and PR successfully merged "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9987",
+                                            "text": "#9987",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Looking for new issues"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U083HFWFESD",
+            "type": "message",
             "ts": "1736918641.095239",
             "client_msg_id": "13cd38fd-214c-40f6-ae8e-6882e0f82109",
             "text": "14th Jan 2025\nTasks Accomplished:\n\u2022 Set up and accessed a Linux development environment.\n\u2022 Investigated and identified the cause of the cancel button re-rendering issue in Appointment Details.\nNext Steps:\n\u2022 Complete and test the fix.",
@@ -87,9 +198,10 @@
                 {
                     "name": "rocket",
                     "users": [
-                        "U02TDGQQPMJ"
+                        "U02TDGQQPMJ",
+                        "U0576PEACG0"
                     ],
-                    "count": 1
+                    "count": 2
                 }
             ]
         }

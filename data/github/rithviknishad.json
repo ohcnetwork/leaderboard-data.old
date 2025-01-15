@@ -1,6 +1,84 @@
 {
-  "last_updated": "2025-01-14T19:13:38.000Z",
+  "last_updated": "2025-01-15T03:57:04.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#250",
+      "time": "2025-01-15T03:57:04.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/250#issuecomment-2591592765",
+      "text": "yup, we can def. have this, but more importantly we need aggregate activity trendline graph too like shown on github."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9887",
+      "time": "2025-01-15T03:56:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#issuecomment-2591591832",
+      "text": "@rajku-dev request for review only once previous reviews has been resolved"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-11T14:37:00.000Z",
+      "title": "ohcnetwork/care_fe#9887",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#pullrequestreview-2544854184",
+      "text": "changes to create user form"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9972",
+      "time": "2025-01-15T03:36:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9972",
+      "text": "Add retries for fetching SBOM data",
+      "turnaround_time": 32829
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9869",
+      "time": "2025-01-15T03:18:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9869",
+      "text": "Enable auto-switch feature for DOB input on the Patient Registration page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-12T18:24:14.000Z",
+      "title": "ohcnetwork/care_fe#9870",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9870#pullrequestreview-2545487622",
+      "text": "Enabled auto-switch feature for DOB input on the Patient Registration page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#607",
+      "time": "2025-01-15T03:16:09.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/607#issuecomment-2591554365",
+      "text": "This looks nice!"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/leaderboard#606",
+      "time": "2025-01-15T03:15:53.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/606",
+      "text": "Fix `contributers` spelling and stat display"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-15T03:15:46.000Z",
+      "title": "ohcnetwork/leaderboard#607",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/607#pullrequestreview-2551475822",
+      "text": "Display Stats For Top Contributors and Fix Typo"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-15T03:06:02.000Z",
+      "title": "ohcnetwork/care_fe#9958",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9958#pullrequestreview-2551468400",
+      "text": "Fix: UI Update Suggestions: Appointment Page (Date Picker Filter) "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9966",
+      "time": "2025-01-15T01:41:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9966#issuecomment-2591457633",
+      "text": "sure! "
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#9965",
@@ -173,13 +251,6 @@
       "time": "2025-01-14T10:25:37.000Z",
       "link": "https://github.com/ohcnetwork/care/pull/2738",
       "text": "Add Reschedule API and serialize Facility in TokenBooking"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-11T14:37:00.000Z",
-      "title": "ohcnetwork/care_fe#9887",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#pullrequestreview-2544854184",
-      "text": "changes to create user form"
     },
     {
       "type": "comment_created",
@@ -514,13 +585,6 @@
       "time": "2025-01-13T04:41:04.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9887#issuecomment-2586163426",
       "text": "The real reason why refine doesn't get triggered is, because there are other errors that was raised \"before\" refine was executed, that needs to be solved first.\r\n\r\nCheck what those other errors are. "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-12T18:24:14.000Z",
-      "title": "ohcnetwork/care_fe#9870",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9870#pullrequestreview-2545487622",
-      "text": "Enabled auto-switch feature for DOB input on the Patient Registration page"
     },
     {
       "type": "pr_reviewed",
@@ -56712,11 +56776,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9990",
+      "title": "public appointment: hide reschedule button",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9977",
       "title": "User Availabilities Exception related fixes",
       "stale_for": 0,
       "labels": [
-        "needs review"
+        "needs review",
+        "tested"
       ]
     },
     {
@@ -56724,7 +56795,8 @@
       "title": "Support for rescheduling appointment",
       "stale_for": 0,
       "labels": [
-        "needs testing"
+        "needs testing",
+        "merge conflict"
       ]
     },
     {
