@@ -1,6 +1,60 @@
 {
-  "last_updated": "2025-01-14T08:36:13.000Z",
+  "last_updated": "2025-01-14T13:53:09.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-13T06:17:00.000Z",
+      "title": "ohcnetwork/care_fe#9662",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9662#pullrequestreview-2545736415",
+      "text": "Edit feature for facilities in organization | pincode, geo_organization info auto populates"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9944",
+      "time": "2025-01-14T12:59:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9944",
+      "text": "Minor enhancement: restrict lsgd filter to 2 levels",
+      "turnaround_time": 15781
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9858",
+      "time": "2025-01-14T12:44:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9858",
+      "text": "Enhance Patient Search: User-Friendly Error Message and Accessibility Improvements",
+      "collaborated_with": [
+        "JavidSumra",
+        "Jacobjeevan"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9750",
+      "time": "2025-01-14T11:37:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9750#issuecomment-2589687466",
+      "text": "> @Jacobjeevan Do i need to raise a new PR because Aditya resolved in redesign of User Management System ? , [#9741 (comment)](https://github.com/ohcnetwork/care_fe/issues/9741#event-15920915645)\r\n\r\nNah you don't need to 👍 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9953",
+      "time": "2025-01-14T10:26:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9953#issuecomment-2589544300",
+      "text": "> Already informed rithvik in slack dm 😅\n\nRegardless get it assigned first 👍 \n\nAnd the design is from before all the recent changes. Just upgrade the elements to shadcn 👍  Don't add additional elements (those were removed with recent changes)."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9954",
+      "time": "2025-01-14T10:22:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9954#issuecomment-2589535465",
+      "text": "User search is already assigned to a different contributor, kindly refrain from taking up other issues without getting them assigned first 😅 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9750",
+      "time": "2025-01-14T10:21:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9750#issuecomment-2589532503",
+      "text": "> @rithviknishad @Jacobjeevan Can I create a new PR that includes only the FacilityUsers.tsx file with the debounce implementation? I had removed the package-lock.json file, but it seems to be persisting. how to delete package-lock.json permanently?\r\n\r\nSure, I'd suggest limiting the usage of force push in the future, and look into commands like git reset and checkout for updating from index (and removing changes already pushed to an earlier commit)."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9944",
@@ -129,13 +183,6 @@
       "title": "ohcnetwork/care_fe#9750",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9750#pullrequestreview-2534730571",
       "text": "Fixed : User Search Bar "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-13T06:17:00.000Z",
-      "title": "ohcnetwork/care_fe#9662",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9662#pullrequestreview-2545736415",
-      "text": "Edit feature for facilities in organization | pincode, geo_organization info auto populates"
     },
     {
       "type": "pr_opened",

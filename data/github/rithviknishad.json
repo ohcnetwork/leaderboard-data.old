@@ -1,6 +1,97 @@
 {
-  "last_updated": "2025-01-14T08:02:53.000Z",
+  "last_updated": "2025-01-14T14:45:28.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/landing#45",
+      "time": "2025-01-14T14:45:28.000Z",
+      "link": "https://github.com/ohcnetwork/landing/issues/45",
+      "text": "Primary Features images not fully visible"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-14T14:44:04.000Z",
+      "title": "ohcnetwork/landing#46",
+      "link": "https://github.com/ohcnetwork/landing/pull/46#pullrequestreview-2549933565",
+      "text": "Update Primary feature images visibility"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-14T14:24:40.000Z",
+      "title": "ohcnetwork/care_fe#9963",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9963#pullrequestreview-2549872027",
+      "text": "Fixed Per Page card limit in Encounter list, organisation (Facility, Patients )"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9960",
+      "time": "2025-01-14T13:24:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9960#issuecomment-2589902730",
+      "text": "cool"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9960",
+      "time": "2025-01-14T13:01:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9960#issuecomment-2589855212",
+      "text": "how r u planning to solve this?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-14T12:39:29.000Z",
+      "title": "ohcnetwork/care_fe#9954",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9954#pullrequestreview-2549590833",
+      "text": "Updated the User Management Design"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9936",
+      "time": "2025-01-14T11:34:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9936#issuecomment-2589681169",
+      "text": "let's close issue only once the linked pr is merged"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#9956",
+      "time": "2025-01-14T11:03:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9956",
+      "text": "Support for rescheduling appointment"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-14T09:40:02.000Z",
+      "title": "ohcnetwork/care_fe#9952",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9952#pullrequestreview-2549228232",
+      "text": "Add max phone number length to user creation form"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2738",
+      "time": "2025-01-14T10:25:37.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2738",
+      "text": "Add Reschedule API and serialize Facility in TokenBooking"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-11T14:37:00.000Z",
+      "title": "ohcnetwork/care_fe#9887",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#pullrequestreview-2544854184",
+      "text": "changes to create user form"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9952",
+      "time": "2025-01-14T09:42:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9952#issuecomment-2589449851",
+      "text": "@nihal467 there are places where `type=\"tel\"` is also missing, let's add those as well"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9946",
+      "time": "2025-01-14T09:17:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9946",
+      "text": "Organisation Page nav bar tab icon and text are overflowing"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-10T18:59:33.000Z",
@@ -475,13 +566,6 @@
       "time": "2025-01-11T15:46:33.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/9903#issuecomment-2585308040",
       "text": "it works as expected. just that the default filters change on clicking the tab again."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-11T14:37:00.000Z",
-      "title": "ohcnetwork/care_fe#9887",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9887#pullrequestreview-2544854184",
-      "text": "changes to create user form"
     },
     {
       "type": "pr_merged",
@@ -56532,10 +56616,20 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9972",
+      "title": "Add retries for fetching SBOM data",
+      "stale_for": 0,
+      "labels": [
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9956",
       "title": "Support for rescheduling appointment",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2738",
@@ -56552,7 +56646,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9920",
       "title": "Switch to `@tanstack/react-router`",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "merge conflict"
       ]
