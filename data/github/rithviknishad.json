@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-15T17:26:57.000Z",
+  "last_updated": "2025-01-15T18:44:00.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-04T02:22:50.000Z",
+      "title": "ohcnetwork/care_fe#9711",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9711#pullrequestreview-2529872865",
+      "text": "Fix state & district autofill & multiple other small issues in Patient Registration page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-02T16:56:44.000Z",
+      "title": "ohcnetwork/care_fe#9662",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9662#pullrequestreview-2527907513",
+      "text": "Fix : Pincode exception error on facility edit"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#10001",
@@ -2108,13 +2122,6 @@
       "text": "Error messages should clearly specify the exact issue encountered during facility cover image uploads"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-01-02T16:56:44.000Z",
-      "title": "ohcnetwork/care_fe#9662",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9662#pullrequestreview-2527907513",
-      "text": "Fix : Pincode exception error on facility edit"
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9751",
       "time": "2025-01-05T17:20:32.000Z",
@@ -2401,13 +2408,6 @@
       "title": "ohcnetwork/care_fe#9717",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9717#pullrequestreview-2529879590",
       "text": "fix multi active nav links"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-04T02:22:50.000Z",
-      "title": "ohcnetwork/care_fe#9711",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9711#pullrequestreview-2529872865",
-      "text": "Fix state & district autofill & multiple other small issues in Patient Registration page"
     },
     {
       "type": "comment_created",
@@ -56891,7 +56891,10 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9990",
       "title": "public appointment: hide reschedule button",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9956",
@@ -56899,19 +56902,14 @@
       "stale_for": 0,
       "labels": [
         "needs testing",
+        "waiting for backend",
         "merge conflict"
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2738",
-      "title": "Add Reschedule API and serialize Facility in TokenBooking",
-      "stale_for": 1,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care/pull/2731",
       "title": "Tests for Schedule & Booking related ViewSets",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": []
     },
     {
