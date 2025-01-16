@@ -2967,5 +2967,74 @@
                 }
             ]
         }
+    ],
+    "2025-01-16 00:00:00": [
+        {
+            "user": "U07RFG735CP",
+            "type": "message",
+            "ts": "1737006654.101269",
+            "client_msg_id": "d10e806e-5c74-4f35-8021-d111c37b579b",
+            "text": "15 Jan 2025\nRaised issue <https://github.com/ohcnetwork/care_fe/issues/9985|https://github.com/ohcnetwork/care_fe/issues/9985>\nNext\nLooking for new issues",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1736933125,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/issues/9985",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#9985 Unnecessary Re-render on Country Code Change",
+                    "text": "*Describe the bug*  \nThe patient phone number field component experiences unnecessary re-rendering when the country code is changed. This affects the performance and user experience.\n\n*To Reproduce*  \nSteps to reproduce the behavior:\n\n1. Go to dashboard -> choose any organisation\n2. Choose patient ph number search field\n3. Change country code\n4. Notice re rendering\n\n*Expected behavior*  \nChanging the country code should not trigger unnecessary re-renders of the component.\n\n*Screenshots*  \nIf applicable, add screenshots to help explain your problem.\n\n*Desktop (please complete the following information):*\n\n\u2022 OS: [e.g. iOS]\n\u2022 Browser [e.g. chrome, safari]\n\u2022 Version [e.g. 22]\n\n*Smartphone (please complete the following information):*\n\n\u2022 Device: [e.g. iPhone6]\n\u2022 OS: [e.g. iOS8.1]\n\u2022 Browser [e.g. stock browser, safari]\n\u2022 Version [e.g. 22]\n\n*Additional context*  \nAdd any other context about the problem here.",
+                    "title": "#9985 Unnecessary Re-render on Country Code Change",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/issues/9985",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "work-in-progress",
+                            "title": "Labels",
+                            "short": true
+                        },
+                        {
+                            "value": "1",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "EwUgP",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "15 Jan 2025\nRaised issue "
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https://github.com/ohcnetwork/care_fe/issues/9985",
+                                    "text": "https://github.com/ohcnetwork/care_fe/issues/9985"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\nNext\nLooking for new issues"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

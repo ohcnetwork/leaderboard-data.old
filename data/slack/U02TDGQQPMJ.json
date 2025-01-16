@@ -32924,5 +32924,173 @@
                 }
             ]
         }
+    ],
+    "2025-01-16 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1737000749.804939",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1737000828.000000"
+            },
+            "client_msg_id": "9c9a4cb8-e684-4ab6-b59a-6dfc9047d5cc",
+            "text": "*Jan 15th*\n\u2022 updated images and fixed few minor things in kerala.care landing page\n\u2022 wrote a script to generate org. json cache shard by parent id from org\u2019s sql dump and wired org. search in landing page. <https://github.com/keralacare/landing/pull/11|#11>\n\u2022 fixed issues reported by Nihal related to schedule availability exceptions and other enhancements. <https://github.com/ohcnetwork/care_fe/pull/9977|#9977>\n\u2022 reviewed prs\n*Next*\n\u2022 progress on tests for scheduling and booking (<https://github.com/ohcnetwork/care/pull/2731|#2731>)\n\u2022 progress on switching to tanstack router.\n\u2022 upgrade global api error handler to handle all cases better and build a util. function to catch all field errors and set it to react-hook-form\u2019s form state.\n\u2022 permissions based rendering for patient/encounter/questionnaire retrieves.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "iN7pZ",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Jan 15th",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "updated images and fixed few minor things in kerala.care landing page"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "wrote a script to generate org. json cache shard by parent id from org\u2019s sql dump and wired org. search in landing page. "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/keralacare/landing/pull/11",
+                                            "text": "#11",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fixed issues reported by Nihal related to schedule availability exceptions and other enhancements. "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9977",
+                                            "text": "#9977",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "reviewed prs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "progress on tests for scheduling and booking ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2731",
+                                            "text": "#2731",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "progress on switching to tanstack router."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "upgrade global api error handler to handle all cases better and build a util. function to catch all field errors and set it to react-hook-form\u2019s form state."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "permissions based rendering for patient/encounter/questionnaire retrieves."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
