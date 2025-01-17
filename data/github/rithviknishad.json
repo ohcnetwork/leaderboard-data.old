@@ -1,12 +1,89 @@
 {
-  "last_updated": "2025-01-15T18:44:00.000Z",
+  "last_updated": "2025-01-17T08:24:53.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-17T07:25:44.000Z",
+      "title": "ohcnetwork/care_fe#9996",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9996#pullrequestreview-2558130974",
+      "text": "Dual Valueset for Medication Request Instructions"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9978",
+      "time": "2025-01-17T06:56:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9978",
+      "text": "Scribe icon are overlapping with form button and fields"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-17T06:56:20.000Z",
+      "title": "ohcnetwork/care_fe#9988",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9988#pullrequestreview-2558101826",
+      "text": "Added height to scribe button placeholder"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-17T06:48:13.000Z",
+      "title": "ohcnetwork/care_fe#10025",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10025#pullrequestreview-2558091829",
+      "text": "Fix: Care crash page redirection"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10024",
+      "time": "2025-01-17T06:40:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10024#issuecomment-2597541914",
+      "text": "does redirection work?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-17T06:28:54.000Z",
+      "title": "ohcnetwork/care_fe#10014",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10014#pullrequestreview-2558069006",
+      "text": "Set the primary background color on the weekday when selected"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10024",
+      "time": "2025-01-17T06:21:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10024#issuecomment-2597521074",
+      "text": "let's not redirect to the base url; instead redirect to 1 history behind;"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-17T05:56:11.000Z",
+      "title": "ohcnetwork/care_fe#10021",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10021#pullrequestreview-2558032431",
+      "text": "FIX: Facility Issues: Cover Not Functioning Properly and Minor Suggestions for the Facility Page"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9934",
+      "time": "2025-01-17T06:13:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9934",
+      "text": "State, District, related info are not being prefilled in the patient details update page"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9668",
+      "time": "2025-01-17T06:13:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9668",
+      "text": "Entering pincode does not auto fill state"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-04T02:22:50.000Z",
       "title": "ohcnetwork/care_fe#9711",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9711#pullrequestreview-2529872865",
       "text": "Fix state & district autofill & multiple other small issues in Patient Registration page"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10020",
+      "time": "2025-01-17T01:44:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10020",
+      "text": "Map Navigation Button for Quick Directions to Facilities"
     },
     {
       "type": "pr_reviewed",
@@ -56892,8 +56969,8 @@
       "title": "public appointment: hide reschedule button",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "tested"
       ]
     },
     {
@@ -56901,9 +56978,7 @@
       "title": "Support for rescheduling appointment",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "waiting for backend",
-        "merge conflict"
+        "test failed"
       ]
     },
     {

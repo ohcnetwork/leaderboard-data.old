@@ -379,5 +379,223 @@
                 }
             ]
         }
+    ],
+    "2025-01-17 00:00:00": [
+        {
+            "user": "U086E5U2CSJ",
+            "type": "message",
+            "ts": "1737094016.558039",
+            "client_msg_id": "8eb1b60b-867a-47b6-8893-416a5cb91f3a",
+            "text": "*Jan 15th*\n\u2022 Replace deprecated data fetching utilities with Tanstack's useQuery in Questionnaire (#9995) (Testing Pending)\n\u2022 Fix: UI Update Suggestions: Appointment Page (Date Picker Filter)  (<https://github.com/ohcnetwork/care_fe/pull/9958|#9958>) (Review Pending)\n\u2022 EOD Meeting\n*Jan 16th*\n\u2022 Facility Issues: Cover Not Functioning Properly and Minor Suggestions for the Facility Page (<https://github.com/ohcnetwork/care_fe/issues/10018|#10018>) \n\u2022 Refactor query keys in Questionnaire components for consistency\n*Next*\n\u2022 Get pending PR merged (After any changes required)\n\u2022 Refactor resource, user, file upload and migrated to TanStack's query \n\u2022 look for Issues/fixes\n",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1736858735,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/9958",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#9958 Fix: UI Update Suggestions: Appointment Page (Date Picker Filter)",
+                    "title": "#9958 Fix: UI Update Suggestions: Appointment Page (Date Picker Filter)",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/9958",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>"
+                },
+                {
+                    "id": 2,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1737042714,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/issues/10018",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#10018 Facility Issues: Cover Not Functioning Properly and Minor Suggestions for the Facility Page",
+                    "title": "#10018 Facility Issues: Cover Not Functioning Properly and Minor Suggestions for the Facility Page",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/issues/10018",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>"
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "abIdA",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Jan 15th",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Replace deprecated data fetching utilities with Tanstack's useQuery in Questionnaire (#9995) (Testing Pending)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fix: UI Update Suggestions: Appointment Page (Date Picker Filter)  ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9958",
+                                            "text": "#9958",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ") (Review Pending)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "EOD Meeting"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Jan 16th",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Facility Issues: Cover Not Functioning Properly and Minor Suggestions for the Facility Page ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/issues/10018",
+                                            "text": "#10018",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ") "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Refactor query keys in Questionnaire components for consistency"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Get pending PR merged (After any changes required)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Refactor resource, user, file upload and migrated to TanStack's query "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "look for Issues/fixes"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
