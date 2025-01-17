@@ -33097,6 +33097,123 @@
         {
             "user": "U02TDGQQPMJ",
             "type": "message",
+            "ts": "1737133260.854539",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1737133310.000000"
+            },
+            "client_msg_id": "bfe83802-f9f4-484e-85b3-3b4bcb50128a",
+            "text": "*Jan 17th*\n\u2022 train to kochi\n\u2022 tests for scheduling. ~94%\n\u2022 updated get_slots_for_day api to account for availability exceptions\n\u2022 debugging things\n*Next*\n\u2022 100% coverage on scheduling and fixes for 2 failing tests (63 passing on the bright side).",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "+vj3m",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Jan 17th",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "train to kochi"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "tests for scheduling. ~94%"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "updated get_slots_for_day api to account for availability exceptions"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "debugging things"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "100% coverage on scheduling and fixes for 2 failing tests (63 passing on the bright side)."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
             "ts": "1737076939.351109",
             "client_msg_id": "cb2d55d2-444d-4ced-b8ee-b072b7cda545",
             "text": "Jan 16th\n\u2022 writing tests for scheduling... &gt;89% coverage so far.\n\u2022 fixed few minor bugs caught along the way...\nNext\n\u2022 fix get_slots_for_day API not accounting for Availability Exception.\n\u2022 100% coverage on scheduling.",

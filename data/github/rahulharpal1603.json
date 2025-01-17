@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-15T20:51:36.000Z",
+  "last_updated": "2025-01-17T11:35:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10003",
+      "time": "2025-01-17T11:35:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10003#issuecomment-2598169545",
+      "text": "> I could be wrong, but from product perspective, I don't see any use case for adding this here. Authenticated users would definitely be inside the facility itself right? This would've added value if it was in the public page where patients get to see the facility details.\r\n> \r\n> cc: @bodhish / @gigincg\r\n\r\nI thought from the perspective of the district admin, where he/she can see details about various facilities. In the facilities page for the admin, many facilities were listed instead of only one. "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10003",
@@ -36,8 +43,10 @@
       "title": "Feat/google maps link",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "question",
+        "tested",
+        "discussion required",
+        "needs-triage"
       ]
     }
   ],
