@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-17T14:29:46.000Z",
+  "last_updated": "2025-01-18T09:37:47.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9814",
+      "time": "2025-01-18T09:37:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9814#issuecomment-2599648101",
+      "text": "@Jacobjeevan I've implemented the changes, but I'm still experiencing an issue where I need to click twice on either the 'Combine PDF' or 'Upload File' options. Could you please confirm if this issue is occurring on your side as well?\r\n\r\nIf it’s not an isolated issue and is happening globally, it might be related to how useState is being used inside the onSelect handler. I haven't been able to pinpoint the exact cause yet. It would be greatly appreciated if you could share any insights on how to fix this, as I plan to address it as soon as possible."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10030",
@@ -306,16 +313,21 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10015",
       "title": "Show Readable Names in Breadcrumbs Instead of Using External Identifiers",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9814",
       "title": "Implement multiple File uploading",
       "stale_for": 0,
       "labels": [
+        "question",
         "changes required",
-        "Deploy-Failed"
+        "Deploy-Failed",
+        "needs-triage"
       ]
     }
   ],
