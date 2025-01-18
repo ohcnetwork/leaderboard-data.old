@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-01-17T06:15:43.000Z",
+  "last_updated": "2025-01-18T05:34:32.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#170",
+      "time": "2025-01-18T05:34:32.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/170#issuecomment-2599551761",
+      "text": "Hi @rithviknishad , I am showing my interest to solve this issue. Please assign me this issue\nApproach\nFor Task 1 : Update scraper to capture linked issues of PRs\n  - We can modify [fetchMergeEvents](https://github.com/ohcnetwork/leaderboard/blob/c525e38dbccbd75ce49fc9c6f307108d7fc184bc/scraper/src/github-scraper/fetchUserData.ts) to fetch [assigned](https://docs.github.com/en/rest/using-the-rest-api/issue-event-types?apiVersion=2022-11-28#assigned) timeline event.\n- using this, we'll have new fields issue_assign_date, pr_create_date, and pr_merge_date along with existing issue_link and pr_link\nFor Task 2 : show Gantt chart\n- we can use this data to show gantt chart using libraries like dhtmlx, syncfusion etc (decide later)\n\n\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10035",
+      "time": "2025-01-18T01:44:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10035",
+      "text": "Issue/9888/hover black"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10033",
+      "time": "2025-01-18T01:43:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10033#issuecomment-2599459719",
+      "text": "Similar changes were made in #9889. To ensure consistency in the UI, I'll take this up. 👍\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10033",
+      "time": "2025-01-18T01:23:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10033#issuecomment-2599449710",
+      "text": "@modamaan go with the changes as done in #9889\nThis will keep consistency in UI"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/leaderboard#608",
@@ -1593,6 +1621,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10035",
+      "title": "Add hover state to `ResourceRequests` state badges",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/608",
       "title": "Add support for `pullHistoricalGitHubActivites` to fetch discussions",
       "stale_for": 0,
@@ -1610,7 +1644,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/604",
       "title": "Enable Calendar to Display Data from the Past Three Years",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
@@ -1625,13 +1659,13 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/602",
       "title": "Add support for tracking commits pushed to branch (Forked)",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/601",
       "title": "Add support for tracking commits pushed to branch (core)",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     }
   ],

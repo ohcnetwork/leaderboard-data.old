@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-16T17:53:32.000Z",
+  "last_updated": "2025-01-18T07:07:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10019",
+      "time": "2025-01-18T07:07:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10019#issuecomment-2599586595",
+      "text": ">  Ensure proper handling of pincode autofill behavior. When a user inputs a pincode that corresponds to a region outside the autofilled district (e.g., a non-Ernakulam district pincode while on the Aluva organization page), display a prompt confirming the change. The prompt should ask the user if they want to proceed with updating the State and District fields to reflect the new pincode (e.g., new State: Kerala, new District: Ernakulam).\r\n\r\n@nihal , @rithviknishad I think this feature may not be needed because:\r\n\r\n- Allowing users to enter a mismatched pincode for a specific geography (e.g., Aluva) may lead to incorrect records.. It's better to ensure the pincode matches the organization’s location.\r\n- If a user enters the different pincode, clearing the field already restores the correct autofill values, making additional prompts unnecessary.\r\n- Facilities should remain tied to their correct geography to avoid confusion or incorrect records.\r\n\r\n\r\nCorrect me if i am wrong, i will take your input and will do suggested changes "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10039",
+      "time": "2025-01-18T05:21:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10039",
+      "text": "Fix : View(list/card/board) retention for encounters/resource/users pages"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10019",
@@ -1254,19 +1268,25 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10039",
+      "title": "Fix : View(list/card/board) retention for encounters/resource/users pages",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10019",
       "title": "Enhancement : Geographic Details Auto-fill in Facility Creation Form",
       "stale_for": 0,
-      "labels": [
-        "question",
-        "needs-triage"
-      ]
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10002",
       "title": "Fix : Filter badges visibility in resource page on selecting same date",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     }
   ],
   "authored_issue_and_pr": [
