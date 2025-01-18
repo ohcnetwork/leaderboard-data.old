@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-17T06:13:14.000Z",
+  "last_updated": "2025-01-17T19:29:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2748",
+      "time": "2025-01-17T19:29:01.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2748#issuecomment-2599052891",
+      "text": "@vigneshhari @khavinshankar \r\n\r\nBy any chance does the following code cause `N+1` queries ?, care/emr/resources/diagnostic_report/spec.py\r\n\r\n```py\r\n        if obj.based_on:\r\n            mapping[\"based_on\"] = ServiceRequestRetrieveSpec.serialize(\r\n                obj.based_on\r\n            ).to_json()\r\n        if obj.subject:\r\n            mapping[\"subject\"] = PatientRetrieveSpec.serialize(obj.subject).to_json()\r\n        if obj.specimen.exists():\r\n            mapping[\"specimen\"] = [\r\n                SpecimenRetrieveSpec.serialize(specimen).to_json()\r\n                for specimen in obj.specimen.all()\r\n            ]\r\n ```"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2748",
+      "time": "2025-01-17T19:27:03.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2748",
+      "text": "Add specimen serialization to diagnostic report list spec"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#9711",
@@ -268,6 +282,12 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2748",
+      "title": "Add specimen serialization to diagnostic report list spec",
+      "stale_for": 0,
+      "labels": []
+    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9260",
       "title": "Labs",
