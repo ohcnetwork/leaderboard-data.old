@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-01-19T01:44:12.000Z",
+  "last_updated": "2025-01-19T08:13:06.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10052",
+      "time": "2025-01-19T08:13:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10052",
+      "text": "Fix: Auto label failed preview deploys"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10051",
+      "time": "2025-01-19T08:06:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10051#issuecomment-2600749463",
+      "text": "I added the label on purpose by commenting \"Deploy Preview failed\" "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10051",
+      "time": "2025-01-19T08:04:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10051#issuecomment-2600748671",
+      "text": "Deploy Preview ready"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10051",
+      "time": "2025-01-19T08:04:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10051#issuecomment-2600748570",
+      "text": "Deploy Preview failed"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10051",
+      "time": "2025-01-19T08:03:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10051",
+      "text": "Fix: Auto label failed preview deploys"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10050",
+      "time": "2025-01-19T08:02:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10050#issuecomment-2600748211",
+      "text": "I have solved this bug, would like to be assigned this issue."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10050",
+      "time": "2025-01-19T08:02:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10050",
+      "text": "`github-actions` not removing `Deploy-Failed` label"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10047",
+      "time": "2025-01-19T05:29:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10047#issuecomment-2600602150",
+      "text": "Deploy Preview ready"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10047",
@@ -1656,10 +1712,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10052",
+      "title": "Fix: Auto label failed preview deploys",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10047",
       "title": "Fix FileUploadDialog overflow | Use ShadCN component",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "Deploy-Failed"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10035",
@@ -1685,7 +1749,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/604",
       "title": "Enable Calendar to Display Data from the Past Three Years",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
@@ -1700,13 +1764,13 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/602",
       "title": "Add support for tracking commits pushed to branch (Forked)",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/601",
       "title": "Add support for tracking commits pushed to branch (core)",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     }
   ],
