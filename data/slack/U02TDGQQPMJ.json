@@ -33316,13 +33316,17 @@
             "user": "U02TDGQQPMJ",
             "type": "message",
             "ts": "1737220529.273589",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1737220852.000000"
+            },
             "client_msg_id": "5081576a-7f96-4243-9d96-a6c8e767f337",
-            "text": "*Jan 18th*\n\u2022 100% tests coverage on all scheduling and booking related APIs :slightly_smiling_face: \n\u2022 more weirder bugs caught along the way. fixed them all.\n",
+            "text": "*Jan 18th*\n\u2022 100% tests coverage on all scheduling and booking related APIs :slightly_smiling_face: <https://github.com/ohcnetwork/care/pull/2731|#2731>\n\u2022 more weirder bugs caught along the way. fixed them all.",
             "team": "TC99SV7B6",
             "blocks": [
                 {
                     "type": "rich_text",
-                    "block_id": "jQBnd",
+                    "block_id": "lC5Jb",
                     "elements": [
                         {
                             "type": "rich_text_section",
@@ -33358,6 +33362,12 @@
                                         {
                                             "type": "text",
                                             "text": " "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2731",
+                                            "text": "#2731",
+                                            "unsafe": true
                                         }
                                     ]
                                 },
@@ -33374,12 +33384,25 @@
                             "style": "bullet",
                             "indent": 0,
                             "border": 0
-                        },
-                        {
-                            "type": "rich_text_section",
-                            "elements": []
                         }
                     ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U06L50QL1AQ",
+                        "U082V68AJ10"
+                    ],
+                    "count": 2
+                },
+                {
+                    "name": "raised_hands",
+                    "users": [
+                        "U06L50QL1AQ"
+                    ],
+                    "count": 1
                 }
             ]
         }

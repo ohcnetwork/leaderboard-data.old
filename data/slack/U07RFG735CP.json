@@ -3088,5 +3088,74 @@
                 }
             ]
         }
+    ],
+    "2025-01-18 00:00:00": [
+        {
+            "user": "U07RFG735CP",
+            "type": "message",
+            "ts": "1737224024.020559",
+            "client_msg_id": "801b31b5-9733-4f7c-a58e-9f8bed1340ce",
+            "text": "18 Jan 2025\nCreated an issue <https://github.com/ohcnetwork/care_fe/issues/10036|https://github.com/ohcnetwork/care_fe/issues/10036>\nNext\nLooking for new issue",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1737167828,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/issues/10036",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#10036 Text Overflow in Search Results Causes UI Distortion",
+                    "text": "*Describe the bug*  \nWhen a user searches with a very long input, the text in the search results is not handled properly, causing it to overflow outside the designated container. This results in breaking the UI layout, as shown in the attached screenshot\n\n*To Reproduce*  \nSteps to reproduce the behavior:\n\n1. Open the application and navigate to the search functionality.\n2. Enter a long string in the search bar (e.g., \"Thummmmmmmmmjjkkkkkkkkkjjjkkkkkkrfrrrtttt\").\n3. Observe the overflow issue in the search results or UI elements related to the input.\n\n*Expected behavior*  \nLong text should not overflow the container.  \n*Screenshots*  \n<https://rebuildearth.slack.com/files/U07RFG735CP/F088Z0FC9EJ/screenshot_20250117_210035_chrome.jpg|https://rebuildearth.slack.com/files/U07RFG735CP/F088Z0FC9EJ/screenshot_20250117_210035_chrome.jpg>\n\n*Desktop (please complete the following information):*\n\n\u2022 OS: [e.g. iOS]\n\u2022 Browser [e.g. chrome, safari]\n\u2022 Version [e.g. 22]\n\n*Smartphone (please complete the following information):*\n\n\u2022 Device: [e.g. iPhone6]\n\u2022 OS: [e.g. iOS8.1]\n\u2022 Browser [e.g. stock browser, safari]\n\u2022 Version [e.g. 22]\n\n*Additional context*  \nAdd any other context about the problem here.",
+                    "title": "#10036 Text Overflow in Search Results Causes UI Distortion",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/issues/10036",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "<https://github.com/i0am0arunava|@i0am0arunava>",
+                            "title": "Assignees",
+                            "short": true
+                        },
+                        {
+                            "value": "question, needs-triage",
+                            "title": "Labels",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "+piyF",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "18 Jan 2025\nCreated an issue "
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https://github.com/ohcnetwork/care_fe/issues/10036",
+                                    "text": "https://github.com/ohcnetwork/care_fe/issues/10036"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\nNext\nLooking for new issue"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
