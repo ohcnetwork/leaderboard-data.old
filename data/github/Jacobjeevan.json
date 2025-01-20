@@ -1,6 +1,118 @@
 {
-  "last_updated": "2025-01-19T15:51:05.000Z",
+  "last_updated": "2025-01-20T09:14:58.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T05:55:38.000Z",
+      "title": "ohcnetwork/care_fe#9768",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9768#pullrequestreview-2541591727",
+      "text": "Enhanced Resource Page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-20T09:06:24.000Z",
+      "title": "ohcnetwork/care_fe#10039",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10039#pullrequestreview-2561762217",
+      "text": "Fix : View(list/card/board) retention for encounters/resource/users pages"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9817",
+      "time": "2025-01-20T08:56:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9817",
+      "text": "Failed to update encounters on selecting certain diet preference"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9814",
+      "time": "2025-01-20T08:39:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9814#issuecomment-2601758688",
+      "text": "> @Jacobjeevan I've implemented the changes, but I'm still experiencing an issue where I need to click twice on either the 'Combine PDF' or 'Upload File' options. Could you please confirm if this issue is occurring on your side as well?\r\n> \r\n> If it’s not an isolated issue and is happening globally, it might be related to how useState is being used inside the onSelect handler. I haven't been able to pinpoint the exact cause yet. It would be greatly appreciated if you could share any insights on how to fix this, as I plan to address it as soon as possible.\r\n\r\nI think the issue is due to to component lifecycle and how it handles hook recreation - when isPdf changed, hook is recreated, but the component is also re-rendered (I'm assuming there's some issue with event handling/file input going on at this stage).\r\n\r\nA cleaner approach would be to create a checkbox option within the existing dialog box and then pass it as a variable to fileupload.handleFileUpload, while maintaining the state only within FileUploadDialog component."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-20T04:47:42.000Z",
+      "title": "ohcnetwork/care_fe#10056",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10056#pullrequestreview-2561323342",
+      "text": "Fix: Minor UI changes "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-20T04:36:57.000Z",
+      "title": "ohcnetwork/care_fe#10034",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10034#pullrequestreview-2561308434",
+      "text": "Resolve Button Hover Color Problem in Requests Table Status Field"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10033",
+      "time": "2025-01-20T04:29:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10033#issuecomment-2601304664",
+      "text": "@modamaan Please get the issue assigned first before opening a PR.\n\n@rajku-dev Same as above, but since a PR was already open anyways, don't open another one 😅 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10035",
+      "time": "2025-01-20T04:27:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10035#issuecomment-2601303431",
+      "text": "Duplicate of #10034 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10037",
+      "time": "2025-01-20T04:22:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10037#issuecomment-2601299099",
+      "text": "@manmeetnagii Please get the issue assigned first before opening a PR 👍 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-20T04:21:34.000Z",
+      "title": "ohcnetwork/care_fe#10038",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10038#pullrequestreview-2561286970",
+      "text": "Fixed alignment of components in mobile view"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10046",
+      "time": "2025-01-20T04:15:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10046#issuecomment-2601293011",
+      "text": "@rajku-dev Please get the issue assigned first before opening a PR 👍 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10047",
+      "time": "2025-01-20T04:13:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10047#issuecomment-2601290951",
+      "text": "This doesn't really solve the issue if file name is long 🤔 \r\n\r\n<img width=\"961\" alt=\"image\" src=\"https://github.com/user-attachments/assets/3bfb9b06-2201-4dd2-9763-4d1725a5b327\" />\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10052",
+      "time": "2025-01-20T04:07:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10052#issuecomment-2601285846",
+      "text": "#9884 is updating the script entirely 👍 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10050",
+      "time": "2025-01-20T04:06:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10050#issuecomment-2601285317",
+      "text": "#9884 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10050",
+      "time": "2025-01-20T04:06:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10050",
+      "text": "`github-actions` not removing `Deploy-Failed` label"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10053",
+      "time": "2025-01-20T04:03:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10053#issuecomment-2601282824",
+      "text": "@AdityaJ2305 Please get the issue assigned first before opening a PR 👍 "
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#10043",
@@ -77,13 +189,6 @@
       "title": "ohcnetwork/care_fe#10017",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10017#pullrequestreview-2558774193",
       "text": "Minor Changes In Encounter Page"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-10T05:55:38.000Z",
-      "title": "ohcnetwork/care_fe#9768",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9768#pullrequestreview-2541591727",
-      "text": "Enhanced Resource Page"
     },
     {
       "type": "pr_reviewed",
@@ -4798,7 +4903,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10027",
       "title": "Edit User Details",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"

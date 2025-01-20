@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-15T15:06:03.000Z",
+  "last_updated": "2025-01-20T05:48:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9797",
+      "time": "2025-01-20T05:48:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9797#issuecomment-2601423820",
+      "text": "Closing as we ditched Structured Response View"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#9996",
@@ -557,18 +564,10 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9996",
-      "title": "Dual Valueset for Medication Request Instructions",
+      "title": "MultiValueSetField for Medication Request Instructions",
       "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9797",
-      "title": "Structured Response View Cleanup",
-      "stale_for": 1,
       "labels": [
-        "Deploy-Failed",
-        "merge conflict",
-        "stale"
+        "needs testing"
       ]
     }
   ],

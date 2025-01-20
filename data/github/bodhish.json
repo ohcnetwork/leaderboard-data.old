@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-01-17T08:59:50.000Z",
+  "last_updated": "2025-01-20T08:02:08.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-20T08:02:08.000Z",
+      "title": "ohcnetwork/care_fe#10015",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10015#pullrequestreview-2561596921",
+      "text": "Show Readable Names in Breadcrumbs Instead of Using External Identifiers"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10003",
+      "time": "2025-01-20T06:22:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10003#issuecomment-2601464936",
+      "text": "I think should be part of the public page where users can use the maps to navigate to the location, don't think its required in the internal facility side. \r\n\r\nAlso Care is a DPG, lets not hardode `https://www.google.com/maps/search/?api`, we should show the link only if the url is set on the env. (by default we could keep it enabled)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-20T06:05:29.000Z",
+      "title": "ohcnetwork/docs#78",
+      "link": "https://github.com/ohcnetwork/docs/pull/78#pullrequestreview-2561396625",
+      "text": "Care plan proposal"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9982",
+      "time": "2025-01-20T05:54:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9982#issuecomment-2601430384",
+      "text": "> Let's NOT create a giant file that contains all of the skeletons.\r\n> \r\n> Idea is to move all new pieces to `src/pages` directory. And `src/pages/<module>/components/` directory would contain components associated to that module.\r\n> \r\n> Let's do that\r\n\r\nJust saw this now, I do agree with @rithviknishad, if we make the skeltons generic, we could simply use a single file. \r\n\r\nExample: https://github.com/pupilfirst/pupilfirst/blob/master/app/frontend/shared/components/SkeletonLoading.res\r\nUsage examples: https://github.com/search?q=repo%3Apupilfirst%2Fpupilfirst%20SkeletonLoading.multiple&type=code"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-20T05:50:58.000Z",
+      "title": "ohcnetwork/care_fe#9982",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9982#pullrequestreview-2561384817",
+      "text": "Move all the Skeletons to seperate file "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9725",
+      "time": "2025-01-20T05:41:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9725",
+      "text": "Limit on patient DOB values"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-17T08:59:50.000Z",
@@ -7598,7 +7640,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2465",
       "title": "New Crowdin updates",
-      "stale_for": 3,
+      "stale_for": 5,
       "labels": [
         "blocked"
       ]
