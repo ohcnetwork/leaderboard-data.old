@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-01-20T09:14:58.000Z",
+  "last_updated": "2025-01-20T13:52:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10047",
+      "time": "2025-01-20T13:52:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10047#issuecomment-2602482938",
+      "text": "> > This doesn't really solve the issue if file name is long 🤔\r\n> > <img alt=\"image\" width=\"961\" src=\"https://private-user-images.githubusercontent.com/40040905/404737885-3bfb9b06-2201-4dd2-9763-4d1725a5b327.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzczNjU3OTcsIm5iZiI6MTczNzM2NTQ5NywicGF0aCI6Ii80MDA0MDkwNS80MDQ3Mzc4ODUtM2JmYjliMDYtMjIwMS00ZGQyLTk3NjMtNGQxNzI1YTViMzI3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTIwVDA5MzEzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY2ODJkZDhmZWE3NzZmYTI3NWVkMWVlMWMyMDU2Zjg5OTVkZDNmZWZkYjM0ZjJjNTAwMDE1MDU1NzQ3ZDk0NDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.zL9KTylMEEXkByBw-krEvDZoG0rsasVfeEibGGE7PEo\">\r\n> \r\n> I have fixed this overfitting issue, please check again. can we add file preview feature in it?\r\n\r\nShould add tool tip like elsewhere, when we are using truncate (in most cases).\r\n\r\n@coderabbitai should make this suggestion for future."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10049",
+      "time": "2025-01-20T13:46:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10049#issuecomment-2602471328",
+      "text": "@NikhilA8606 Is this work in progress 🤔  Only seeing DateFormField here. Or are you planning for new PRs for each component?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10057",
+      "time": "2025-01-20T13:44:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10057#issuecomment-2602465041",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/10032#issuecomment-2602071815"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10032",
+      "time": "2025-01-20T10:45:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10032#issuecomment-2602071815",
+      "text": "Hmm, I am not sure this is needed 🤔  But if we are going to do this, we would also need to handle multiple file uploads (stacking them will not look great, probably will have to do something like the existing image viewer after upload, similar to logic in FilePreviewDialog).\n\ncc: @rithviknishad "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-20T10:36:04.000Z",
+      "title": "ohcnetwork/care_fe#10042",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10042#pullrequestreview-2562009158",
+      "text": "Feat: Created shadcn `MultiSelectOption` comp"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-17T11:28:33.000Z",
+      "title": "ohcnetwork/care_fe#10017",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10017#pullrequestreview-2558774193",
+      "text": "Minor Changes In Encounter Page"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-10T05:55:38.000Z",
@@ -182,13 +224,6 @@
       "title": "ohcnetwork/care_fe#10004",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10004#pullrequestreview-2558098960",
       "text": "Show new line in comments"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-17T11:28:33.000Z",
-      "title": "ohcnetwork/care_fe#10017",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10017#pullrequestreview-2558774193",
-      "text": "Minor Changes In Encounter Page"
     },
     {
       "type": "pr_reviewed",
@@ -4912,7 +4947,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9974",
       "title": "OTP appointment reschedule",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": [
         "waiting for related PR",
         "merge conflict"
