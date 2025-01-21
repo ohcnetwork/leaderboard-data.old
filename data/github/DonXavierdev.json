@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-21T07:02:08.000Z",
+  "last_updated": "2025-01-21T10:56:06.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9814",
+      "time": "2025-01-21T10:56:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9814#issuecomment-2604391708",
+      "text": "@Jacobjeevan Thank you for the insights. It works properly now 👍 . I've made the changes. lmk if anything more to do."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10015",
@@ -328,7 +335,10 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/10072",
       "title": "Fix Actions-section responsiveness",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10015",
@@ -336,18 +346,17 @@
       "stale_for": 0,
       "labels": [
         "question",
-        "needs testing",
-        "needs review",
-        "needs-triage"
+        "discussion required",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9814",
       "title": "Implement multiple File uploading",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "changes required",
-        "Deploy-Failed"
+        "needs testing",
+        "needs review"
       ]
     }
   ],

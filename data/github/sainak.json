@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-21T05:56:56.000Z",
+  "last_updated": "2025-01-21T12:25:39.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2746",
+      "time": "2025-01-21T12:25:39.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2746#issuecomment-2604595254",
+      "text": "Hi Kshitij, I went through your changes, I don't think this will make a difference because we are missing cache due to some different reason, and there is a limit on how much data we can push to the registry so using it as a cache will exhaust it quickly, instead of this can you try https://docs.docker.com/build/ci/github-actions/multi-platform/#distribute-build-across-multiple-runners and see if this improves the caching behavior"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2763",
@@ -17861,27 +17868,21 @@
       "labels": []
     },
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2679",
-      "title": "Migrate daily rounds data to observations",
-      "stale_for": 21,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_livekit_fe/pull/3",
       "title": "Update imports",
-      "stale_for": 75,
+      "stale_for": 76,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_livekit_fe/pull/2",
       "title": "make DoctorLiveConnect lazy load",
-      "stale_for": 80,
+      "stale_for": 81,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/16",
       "title": "Update config variables to follow standard naming scheme",
-      "stale_for": 11,
+      "stale_for": 12,
       "labels": []
     },
     {

@@ -1,6 +1,42 @@
 {
-  "last_updated": "2025-01-21T05:00:30.000Z",
+  "last_updated": "2025-01-21T13:01:00.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-21T10:11:48.000Z",
+      "title": "ohcnetwork/care_fe#10085",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10085#pullrequestreview-2564103170",
+      "text": "Update localization keys for photo capture to improve clarity (Follow up PR #10018)"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9956",
+      "time": "2025-01-21T10:48:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9956",
+      "text": "Support for rescheduling appointment",
+      "turnaround_time": 603904
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-21T10:35:45.000Z",
+      "title": "ohcnetwork/care_fe#10086",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10086#pullrequestreview-2564186474",
+      "text": "Fixed __CORE_ENV__ not found issue in preview"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-19T04:28:20.000Z",
+      "title": "ohcnetwork/care_fe#10045",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10045#pullrequestreview-2560843341",
+      "text": "Refactor FileBlock, FIleUpload, UserAvatar,  UserHome and migrated to TanStack's query "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-21T10:09:36.000Z",
+      "title": "ohcnetwork/care_fe#10084",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10084#pullrequestreview-2564096142",
+      "text": "Default EOL to \"LF\" in prettier.json"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#10070",
@@ -328,13 +364,6 @@
       "title": "ohcnetwork/care_fe#10047",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10047#pullrequestreview-2560847062",
       "text": "Fix FileUploadDialog overflow | Use ShadCN component"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-19T04:28:20.000Z",
-      "title": "ohcnetwork/care_fe#10045",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10045#pullrequestreview-2560843341",
-      "text": "Refactor FileBlock, FIleUpload, UserAvatar,  UserHome and migrated to TanStack's query "
     },
     {
       "type": "comment_created",
@@ -57385,19 +57414,12 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9956",
-      "title": "Support for rescheduling appointment",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9920",
       "title": "Switch to `@tanstack/react-router`",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "merge conflict"
+      ]
     }
   ],
   "authored_issue_and_pr": [

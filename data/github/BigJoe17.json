@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-02-22T18:56:27.000Z",
+  "last_updated": "2025-01-21T13:58:07.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9966",
+      "time": "2025-01-21T13:58:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9966#issuecomment-2604810557",
+      "text": "I would love to work on this issue\n "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9966",
+      "time": "2025-01-21T13:57:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9966#issuecomment-2604809056",
+      "text": "> ### Action Items\n> * [ ]  Find references of the deprecated component [`PhoneNumberFormField`](https://github.com/ohcnetwork/care_fe/blob/develop/src/components/Form/FormFields/PhoneNumberFormField.tsx) and replace them with shadcn's `input` with `type=\"tel\"` instead or feel free to explore other alternatives that reuses shadcn's components (such as https://shadcn-phone-input-five.vercel.app)[ ]  Delete custom phone number validator ([link](https://github.com/ohcnetwork/care_fe/blob/develop/src/components/Form/FieldValidators.tsx)) and replace it with [`libphonenumber-js`](https://www.npmjs.com/package/libphonenumber-js) package.[ ]  Any other related cleanups - (such as delete: https://github.com/ohcnetwork/care_fe/blob/develop/src/common/static/countryPhoneAndFlags.json and other unused references)\n\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#7156",

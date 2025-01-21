@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-17T06:56:28.000Z",
+  "last_updated": "2025-01-21T08:59:28.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10083",
+      "time": "2025-01-21T08:59:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10083",
+      "text": "Make ComboboxQuantityInput reactive to parent state change"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#9988",
@@ -12788,23 +12795,30 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/13",
-      "title": "fixed medication request and encounter prompt",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10083",
+      "title": "Make ComboboxQuantityInput reactive to parent state change",
       "stale_for": 0,
       "labels": [
-        "work in progress"
+        "needs testing",
+        "needs review"
       ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/13",
+      "title": "Fixed and reinforced prompts",
+      "stale_for": 0,
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/78",
       "title": "Care plan proposal",
-      "stale_for": 39,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/26",
       "title": "[CEP-X] Consent Restructure Proposal",
-      "stale_for": 102,
+      "stale_for": 105,
       "labels": [
         "Changes Requested"
       ]
