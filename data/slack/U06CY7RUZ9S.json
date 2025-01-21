@@ -5384,6 +5384,119 @@
         {
             "user": "U06CY7RUZ9S",
             "type": "message",
+            "ts": "1737409776.829689",
+            "client_msg_id": "ed7554ee-37a1-47df-8e66-8634a5d5a11d",
+            "text": "Jan 20 2025\n\u2022 Generated the Backup.sql and shared access to test migrations. \n\u2022 Debugged and fixed coolify instancy having troubles. \n\u2022 Updated artifact deletion policies to keep the latest 2 version instead of deletion after timeout.\n\u2022 Performed updates on ssdnodes server. \n\u2022 Disabled Care scribe MFE active in care develop. \nNext.\n\u2022 Secure and cleanup ssdnodes find reason for throttling. ",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "V22jK",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Jan 20 2025\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Generated the Backup.sql and shared access to test migrations. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Debugged and fixed coolify instancy having troubles. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Updated artifact deletion policies to keep the latest 2 version instead of deletion after timeout."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Performed updates on ssdnodes server. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Disabled Care scribe MFE active in care develop. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next.\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Secure and cleanup ssdnodes find reason for throttling. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U02TDGQQPMJ"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "user": "U06CY7RUZ9S",
+            "type": "message",
             "ts": "1737367040.679299",
             "client_msg_id": "1b15fe8b-2876-4c5b-a696-72974867bb3f",
             "text": "Jan 14 2025\n\u2022 Drafted Update for ECS deploy workflow to reuse the existing task definition\nJan 15 2025\n\u2022 Got the ECS Deploy workflow merged\n\u2022 added adminurl for do backend for enabling scribe. \n\u2022 Set the USE_SMS flag to false in develop to enable patient login for the dev instance. \n\u2022 updated logos in kerala gov deployment. \nJan 16 2025\n\u2022 Call with howni to debug jowai mch middleware. frequent issues due to power fluctuations. \n\u2022 Went through the care HMIS demo video and setup appointments in develop for testing. \nJan 17 2025\n\u2022 Redid the ECS workflow PR to add the Image updates for Celery Beat and solved the issues with Taskdefinition.\nNext\n\u2022 test and share the sql RDS 31'st December backup for Migrathon. \n\u2022 verify ECS workflow worked after tests stop failing. ",
@@ -5569,6 +5682,15 @@
                             "border": 0
                         }
                     ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
                 }
             ]
         }

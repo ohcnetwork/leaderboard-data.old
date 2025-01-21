@@ -2960,5 +2960,72 @@
                 }
             ]
         }
+    ],
+    "2025-01-20 00:00:00": [
+        {
+            "user": "U02TB8XHZD1",
+            "type": "message",
+            "ts": "1737395188.781949",
+            "client_msg_id": "456756ce-bf1c-4111-9317-e911e12eca63",
+            "text": "20th Jan\n\u2022 Created migrations for patients and consultations to the new models\n\u2022 Created model/admin for tracking migration of fields that will need manual review after migrations\n",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "MmxCw",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "20th Jan\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Created migrations for patients and consultations to the new models"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Created model/admin for tracking migration of fields that will need manual review after migrations"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "UC99MFPU1",
+                        "U02TDGQQPMJ"
+                    ],
+                    "count": 2
+                }
+            ]
+        }
     ]
 }
