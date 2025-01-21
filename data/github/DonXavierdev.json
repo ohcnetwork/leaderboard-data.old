@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-20T13:47:34.000Z",
+  "last_updated": "2025-01-21T07:02:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10015",
+      "time": "2025-01-21T07:02:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10015#issuecomment-2603809993",
+      "text": "> Not a fan of fetching data just for breadcrumbs :(\r\n\r\nAnother way would be to pass it via props but then still i would have to fetch it at some point right ? @bodhish "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10072",
@@ -328,14 +335,16 @@
       "title": "Show Readable Names in Breadcrumbs Instead of Using External Identifiers",
       "stale_for": 0,
       "labels": [
+        "question",
         "needs testing",
-        "needs review"
+        "needs review",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9814",
       "title": "Implement multiple File uploading",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "changes required",
         "Deploy-Failed"

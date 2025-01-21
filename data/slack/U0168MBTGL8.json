@@ -191,11 +191,12 @@
             "text": "Jan 6th - 17th\n\u2022 Desktop and Mobile Redesign based on Figma for\n    \u25e6 Medication Request UI\n    \u25e6 Medication Statement UI\n    \u25e6 Prescription and Prescription Print Preview Page UI\n\u2022 Allergy Intolerance pre-fill with upsert and some UI changes\n\u2022 MultiValueSet field created for reducing horizontal space usage by clubbing related ValueSet fields\n\u2022 Time spent researching \n    \u25e6 FHIR for request types, examples etc. \n    \u25e6 Snomed to pre-fill Medication Request form fields like strength, unit etc\n\u2022 Created view for Structured Response (which eventually got ditched as we're displaying only non-structured responses now)\n\u2022 Multiple discussions with Vinu regarding designs\nNext:\n\u2022 Structured Pre-fill for Diagnosis and Symptoms\n\u2022 Research using ValueSet expand to receive India Specific Data (similar to Snomed CT Indian version)\n\u2022 Medication Administration UI redesign based on Figma",
             "team": "TC99SV7B6",
             "thread_ts": "1737360753.880039",
-            "reply_count": 1,
-            "reply_users_count": 1,
-            "latest_reply": "1737404845.089539",
+            "reply_count": 4,
+            "reply_users_count": 2,
+            "latest_reply": "1737433010.236409",
             "reply_users": [
-                "UC99MFPU1"
+                "UC99MFPU1",
+                "UC8TSEGCQ"
             ],
             "is_locked": false,
             "subscribed": false,
@@ -403,9 +404,116 @@
                 {
                     "name": "rocket",
                     "users": [
-                        "UC99MFPU1"
+                        "UC99MFPU1",
+                        "U02TDGQQPMJ"
                     ],
-                    "count": 1
+                    "count": 2
+                }
+            ]
+        }
+    ],
+    "2025-01-21 00:00:00": [
+        {
+            "user": "U0168MBTGL8",
+            "type": "message",
+            "ts": "1737448466.609159",
+            "client_msg_id": "6862e873-8a0c-4e09-8ea8-9bb8ff96f894",
+            "text": "Jan 20\n\u2022 Structured pre-fill for Symptom and Diagnosis\n\u2022 Research and explore Snomed CT Indian version and discussion with Bodhi and Vignesh - found an API that returns Indian data but might need further research\nNext:\n\u2022 Participate in migration\n\u2022 Check and complete Structured edit PR\n\u2022 Continue Research on Snomed CT Indian version\n\u2022 Medication Administration UI redesign based on Figma",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "1v//6",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Jan 20\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Structured pre-fill for Symptom and Diagnosis"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Research and explore Snomed CT Indian version and discussion with Bodhi and Vignesh - found an API that returns Indian data but might need further research"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next:\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Participate in migration"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Check and complete Structured edit PR"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Continue Research on Snomed CT Indian version"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Medication Administration UI redesign based on Figma"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
                 }
             ]
         }

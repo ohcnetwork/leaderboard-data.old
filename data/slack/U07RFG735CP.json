@@ -3234,5 +3234,74 @@
                 }
             ]
         }
+    ],
+    "2025-01-21 00:00:00": [
+        {
+            "user": "U07RFG735CP",
+            "type": "message",
+            "ts": "1737445103.153469",
+            "client_msg_id": "a7b18679-42aa-4bd4-b91f-9897e38ff0d4",
+            "text": "20 Jan 2025\nworked on <https://github.com/ohcnetwork/care_fe/pull/10055|https://github.com/ohcnetwork/care_fe/pull/10055>\nNext\nLooking for new issue",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1737303226,
+                    "color": "6f42c1",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/10055",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#10055 Fixed text overflow in search results to prevent UI distortion",
+                    "text": "*Proposed Changes*\n\n\u2022 Fixes <https://github.com/ohcnetwork/care_fe/issues/10036|#10036>\n\n@ohcnetwork/care-fe-code-reviewers\n\n*Merge Checklist*\n\n\u2022 Add specs that demonstrate bug / test a new feature.\n\u2022 Update <https://docs.ohc.network|product documentation>.\n\u2022 Ensure that UI text is kept in I18n files.\n\u2022 Prep screenshot or demo video for changelog entry, and attach it to issue.\n\u2022 Request for Peer Reviews\n\u2022 Completion of QA\n\n*Summary by CodeRabbit*\n\n\u2022 *Style*  \n   \u2022 Enhanced readability of messages when no organizations are found by simplifying the displayed text.  \n   \u2022 Standardized capitalization for the \"No Organizations Found\" message in the locale file.\n\u2022 *Bug Fixes*  \n   \u2022 Removed dynamic search query from \"no organizations found\" messages for clarity.",
+                    "title": "#10055 Fixed text overflow in search results to prevent UI distortion",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/10055",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "changes required",
+                            "title": "Labels",
+                            "short": true
+                        },
+                        {
+                            "value": "6",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "xEavK",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "20 Jan 2025\nworked on "
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https://github.com/ohcnetwork/care_fe/pull/10055",
+                                    "text": "https://github.com/ohcnetwork/care_fe/pull/10055"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\nNext\nLooking for new issue"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
