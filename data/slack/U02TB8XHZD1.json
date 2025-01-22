@@ -3027,5 +3027,62 @@
                 }
             ]
         }
+    ],
+    "2025-01-21 00:00:00": [
+        {
+            "user": "U02TB8XHZD1",
+            "type": "message",
+            "ts": "1737484908.338469",
+            "client_msg_id": "fa4cd0e6-e4a3-4814-bcfd-4356e6553d75",
+            "text": "21st Jan\n\u2022 Refactored the migrations to separate files\n\u2022 Created migrations for patient_meta\n",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "bpxpa",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "21st Jan\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Refactored the migrations to separate files"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Created migrations for patient_meta"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
