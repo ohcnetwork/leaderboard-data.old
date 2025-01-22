@@ -2084,6 +2084,125 @@
         {
             "user": "U082V68AJ10",
             "type": "message",
+            "ts": "1737562402.928209",
+            "client_msg_id": "0396b0a2-d6d0-42d9-9618-89016ed039ae",
+            "text": "22 Jan 2025\nDone\n\u2022 Worked on changes requested in <https://github.com/ohcnetwork/care_fe/pull/9814|PR>\n\u2022 Run tests on Multi-file uploads\nNext\n\u2022 Looking for new issues\n",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1736233032,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/9814",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#9814 Implement multiple File uploading",
+                    "text": "*Proposed Changes*\n\n\u2022 Fixes <https://github.com/ohcnetwork/care_fe/issues/7417|#7417>\n\u2022 Users can select multiple images at once\n\u2022 Use jspdf to merge multiple uploaded images into pdf\n\n@ohcnetwork/care-fe-code-reviewers\n\n*Summary by CodeRabbit*\n\n\u2022 *New Features*  \n   \u2022 Added ability to combine multiple image files into a single PDF during upload.  \n   \u2022 Introduced PDF generation functionality for file uploads.  \n   \u2022 New option \"Combine Files To PDF\" available in the user interface.  \n   \u2022 New messages for file conversion progress and success, along with an error message for PDF generation failures.\n\u2022 *Dependencies*  \n   \u2022 Added `jspdf` library for PDF creation.  \n   \u2022 Downgraded `input-otp` library version.",
+                    "title": "#9814 Implement multiple File uploading",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/9814",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "question, changes required, needs-triage",
+                            "title": "Labels",
+                            "short": true
+                        },
+                        {
+                            "value": "12",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "bClk+",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "22 Jan 2025\nDone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Worked on changes requested in "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9814",
+                                            "text": "PR"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Run tests on Multi-file uploads"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Looking for new issues"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U082V68AJ10",
+            "type": "message",
             "ts": "1737522815.681739",
             "client_msg_id": "a4289953-67e0-40c2-b831-0b80ce2823e6",
             "text": "21st Jan 2025\n*Done*\n\u2022 Doing changes in <https://github.com/ohcnetwork/care_fe/pull/9814|PR>\n\u2022 Enquire about doubts in <https://github.com/ohcnetwork/care_fe/pull/10015|PR>\n*Next*\n\u2022 Work on open PRs\n\u2022 Looking for new issues\n",
@@ -2228,6 +2347,15 @@
                             "elements": []
                         }
                     ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U0576PEACG0"
+                    ],
+                    "count": 1
                 }
             ]
         }

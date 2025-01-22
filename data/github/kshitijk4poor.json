@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-17T11:55:32.000Z",
+  "last_updated": "2025-01-22T08:33:44.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2746",
+      "time": "2025-01-22T08:33:44.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2746#issuecomment-2606594266",
+      "text": "> Hi Kshitij, I went through your changes, I don't think this will make a difference because we are missing cache due to some different reason, and there is a limit on how much data we can push to the registry so using it as a cache will exhaust it quickly, instead of this can you try https://docs.docker.com/build/ci/github-actions/multi-platform/#distribute-build-across-multiple-runners and see if this improves the caching behavior\r\n\r\nHi Aakash, I'm not sure how distributing the build across multiple runners would help with our cache issue. While it would help reduce overall build time, it doesn't directly address the underlying caching. \r\n\r\nGiven the registry storage limits you mentioned, I think we should focus on identifying the root cause of the cache misses first."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2746",
@@ -20,7 +27,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2746",
       "title": "Cached deployment of Docker using github actions",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": []
     }
   ],
