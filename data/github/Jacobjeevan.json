@@ -1,6 +1,83 @@
 {
-  "last_updated": "2025-01-21T12:20:08.000Z",
+  "last_updated": "2025-01-22T03:41:07.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-21T23:28:51.000Z",
+      "title": "ohcnetwork/care_fe#10047",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10047#pullrequestreview-2565892274",
+      "text": "Fix FileUploadDialog overflow | Use ShadCN component"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10041",
+      "time": "2025-01-22T00:45:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10041",
+      "text": "Create `MultiOptionSelect` shadcn component"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T06:51:18.000Z",
+      "title": "ohcnetwork/care_fe#9814",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9814#pullrequestreview-2541651058",
+      "text": "Implement multiple File uploading"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-21T23:18:41.000Z",
+      "title": "ohcnetwork/care_fe#10019",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10019#pullrequestreview-2565877764",
+      "text": "Enhancement : Geographic Details Auto-fill in Facility Creation Form"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10060",
+      "time": "2025-01-21T23:11:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10060#issuecomment-2605928186",
+      "text": "> [@bodhish](https://github.com/bodhish) In the current implementation, we're keeping one flow for everything in the organization selector, especially when there are no sub-organizations. Compared to the previous implementation, we've removed the arrow symbol to keep it common for everything. Previously, there was an edit (pencil) button and arrow symbol, but now it's simplified. Am I good to go with the PR for this?\n> v7.mp4\n\nHmm, shouldn't be able to select multiple siblings like in this video, but rather traverse through any potential children, i.e. once fsf is selected, unless it has children, I shouldn't be having the option to add any more (Unless we are also adding subsequent logic to add multiple orgs at the same time)\n\nApart from that, it should work.\n\ncc: @bodhish "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10074",
+      "time": "2025-01-21T23:04:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10074#issuecomment-2605919125",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) Added few more tasks (3) and (4) once look into it\n\n(3) Alright make the change, but in general avoid suggesting any changes for icons for now because the sidebar items are all in flux.\n(4) is already being handled in #10017.\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10075",
+      "time": "2025-01-21T22:59:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10075#issuecomment-2605912849",
+      "text": "This isn't a major issue at the moment, and the sidebar might be changing. We will finalize and set the icons later."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10075",
+      "time": "2025-01-21T22:59:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10075",
+      "text": "Duplicate Icon in Sidebar"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10022",
+      "time": "2025-01-21T22:52:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10022",
+      "text": "Card/List View Toggle Feature for Organization Page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10088",
+      "time": "2025-01-21T22:50:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10088#issuecomment-2605900356",
+      "text": "This is not an issue because the behavior is to always auto-select into the logged in user (if it's a user eligible for appointments)."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10088",
+      "time": "2025-01-21T22:50:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10088",
+      "text": "Role Defaults to 'District Admin' After Changing Practitioner Selection"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2767",
@@ -267,13 +344,6 @@
       "title": "ohcnetwork/care_fe#10004",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10004#pullrequestreview-2558098960",
       "text": "Show new line in comments"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-10T06:51:18.000Z",
-      "title": "ohcnetwork/care_fe#9814",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9814#pullrequestreview-2541651058",
-      "text": "Implement multiple File uploading"
     },
     {
       "type": "pr_opened",
@@ -4979,28 +5049,33 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10093",
+      "title": "Organization Filter Tweaks",
+      "stale_for": 0,
+      "labels": [
+        "work-in-progress"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10090",
+      "title": "GovtOrganization Selector ",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2767",
       "title": "Alt phone number and qualificationspec",
       "stale_for": 0,
       "labels": []
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10027",
-      "title": "Edit User Details",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9974",
       "title": "OTP appointment reschedule",
-      "stale_for": 6,
-      "labels": [
-        "waiting for related PR",
-        "merge conflict"
-      ]
+      "stale_for": 0,
+      "labels": []
     }
   ],
   "authored_issue_and_pr": [

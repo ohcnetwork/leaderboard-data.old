@@ -1,6 +1,181 @@
 {
-  "last_updated": "2025-01-21T13:01:00.000Z",
+  "last_updated": "2025-01-22T03:22:48.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9633",
+      "time": "2025-01-22T03:22:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9633#issuecomment-2606204198",
+      "text": "we can reopen this once backend is ready"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-19T04:28:20.000Z",
+      "title": "ohcnetwork/care_fe#10045",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10045#pullrequestreview-2560843341",
+      "text": "Refactor FileBlock, FIleUpload, UserAvatar,  UserHome and migrated to TanStack's query "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-20T13:44:06.000Z",
+      "title": "ohcnetwork/care_fe#9982",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9982#pullrequestreview-2562431502",
+      "text": "Move all the Skeletons to seperate file "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9976",
+      "time": "2025-01-22T03:15:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9976",
+      "text": "Resource page has all columns filled by the same medicine"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9971",
+      "time": "2025-01-22T03:15:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9971",
+      "text": "Unnecessary Scrollbar Issue in Resource Section"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9901",
+      "time": "2025-01-22T03:15:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9901",
+      "text": "In-valid count and layout in resource board/list view"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9677",
+      "time": "2025-01-22T03:14:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9677",
+      "text": "Enhancement: Consistent design of Board/List switch button in Resources and Appointment pages"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9768",
+      "time": "2025-01-22T03:14:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9768#issuecomment-2606196266",
+      "text": "Resources pages are going to be rebuilt anyways soon"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10003",
+      "time": "2025-01-22T03:11:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10003#issuecomment-2606193744",
+      "text": "We can check the device and do accordingly"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10079",
+      "time": "2025-01-22T03:09:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10079",
+      "text": "Search input value in Organization Facility tab not clearing on tab switch"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-22T03:09:30.000Z",
+      "title": "ohcnetwork/care_fe#10081",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10081#pullrequestreview-2566097798",
+      "text": "Fix: `Organization` Facility Search Value not clearing on tab switch "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10015",
+      "time": "2025-01-22T03:08:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10015#issuecomment-2606191242",
+      "text": "Let's hold this for now, if we switch to tanstack router, this can be achieved easily with route contexts"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-22T03:05:34.000Z",
+      "title": "ohcnetwork/care_fe#10067",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10067#pullrequestreview-2566094663",
+      "text": "Bump @tanstack/react-query-devtools from 5.64.0 to 5.64.2"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10073",
+      "time": "2025-01-22T03:04:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10073",
+      "text": "Facility data not updating automatically after editing"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-22T03:04:45.000Z",
+      "title": "ohcnetwork/care_fe#10077",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10077#pullrequestreview-2566093281",
+      "text": "Fix: FacilityData not populating on Edit "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-22T03:02:50.000Z",
+      "title": "ohcnetwork/care_fe#10080",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10080#pullrequestreview-2566092005",
+      "text": "Fix: Incorrect Icon in Patient nav bar | Facility switcher hovering and some minor fixes"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10030",
+      "time": "2025-01-22T03:00:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10030",
+      "text": "Actions Section Gets Cut Off at Specific Pixel Widths"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-22T02:59:17.000Z",
+      "title": "ohcnetwork/care_fe#10072",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10072#pullrequestreview-2566086825",
+      "text": "Fix Actions-section responsiveness"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-22T02:58:39.000Z",
+      "title": "ohcnetwork/care_fe#10066",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10066#pullrequestreview-2566086281",
+      "text": "Bump lucide-react from 0.471.1 to 0.473.0"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-22T02:57:54.000Z",
+      "title": "ohcnetwork/care_fe#10083",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10083#pullrequestreview-2566085660",
+      "text": "Make ComboboxQuantityInput reactive to parent state change"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10013",
+      "time": "2025-01-22T02:57:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10013",
+      "text": "Enhancement To Geographic Details Auto-fill in Facility Creation Form"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-20T10:41:20.000Z",
+      "title": "ohcnetwork/care_fe#10019",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10019#pullrequestreview-2562020160",
+      "text": "Enhancement : Geographic Details Auto-fill in Facility Creation Form"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-22T02:50:15.000Z",
+      "title": "ohcnetwork/care_fe#10027",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10027#pullrequestreview-2566075690",
+      "text": "Edit User Details"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10033",
+      "time": "2025-01-22T02:42:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10033",
+      "text": "Fix Button Hover Color Issue on Requests Table Status Field"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-20T05:05:55.000Z",
+      "title": "ohcnetwork/care_fe#10034",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10034#pullrequestreview-2561339893",
+      "text": "Resolve Button Hover Color Problem in Requests Table Status Field"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-21T10:11:48.000Z",
@@ -25,13 +200,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2025-01-19T04:28:20.000Z",
-      "title": "ohcnetwork/care_fe#10045",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10045#pullrequestreview-2560843341",
-      "text": "Refactor FileBlock, FIleUpload, UserAvatar,  UserHome and migrated to TanStack's query "
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2025-01-21T10:09:36.000Z",
       "title": "ohcnetwork/care_fe#10084",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10084#pullrequestreview-2564096142",
@@ -50,13 +218,6 @@
       "title": "ohcnetwork/care_fe#10076",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10076#pullrequestreview-2563480093",
       "text": "use html-to-image instead of html2canvas"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-20T13:44:06.000Z",
-      "title": "ohcnetwork/care_fe#9982",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9982#pullrequestreview-2562431502",
-      "text": "Move all the Skeletons to seperate file "
     },
     {
       "type": "pr_reviewed",
@@ -99,13 +260,6 @@
       "time": "2025-01-20T10:49:12.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/10069",
       "text": "Run `generate-sbom-data` only on production builds instead of post-install"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-20T10:41:20.000Z",
-      "title": "ohcnetwork/care_fe#10019",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10019#pullrequestreview-2562020160",
-      "text": "Enhancement : Geographic Details Auto-fill in Facility Creation Form"
     },
     {
       "type": "pr_reviewed",
@@ -314,13 +468,6 @@
       "title": "ohcnetwork/care_fe#10021",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10021#pullrequestreview-2558032431",
       "text": "FIX: Facility Issues: Cover Not Functioning Properly and Minor Suggestions for the Facility Page"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-20T05:05:55.000Z",
-      "title": "ohcnetwork/care_fe#10034",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10034#pullrequestreview-2561339893",
-      "text": "Resolve Button Hover Color Problem in Requests Table Status Field"
     },
     {
       "type": "pr_reviewed",
