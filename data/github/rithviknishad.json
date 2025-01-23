@@ -1,6 +1,125 @@
 {
-  "last_updated": "2025-01-22T17:41:22.000Z",
+  "last_updated": "2025-01-23T07:25:10.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9989",
+      "time": "2025-01-23T07:25:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9989#issuecomment-2609042200",
+      "text": "only working PRs will/can be reviewed :)"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10078",
+      "time": "2025-01-23T06:30:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10078",
+      "text": "Date and Time box is clipping out on mobile view"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-23T06:26:06.000Z",
+      "title": "ohcnetwork/care_fe#10112",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10112#pullrequestreview-2568970003",
+      "text": "Fix : Date field overflow in exception form in mobile view"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10005",
+      "time": "2025-01-23T03:29:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10005#issuecomment-2608771284",
+      "text": "Story points are not a measure of time, they are measure of effort and complexity involved."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10108",
+      "time": "2025-01-23T03:27:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10108#issuecomment-2608769712",
+      "text": "Anyone could paste in the console and get this. \nIf you have access to the console, you already have access to CARE anyways. I don't see anything vulnerable here.\n\nCan you demo how to inject the script into the site and retrieve the token without using the client's browser?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9880",
+      "time": "2025-01-23T03:20:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9880#issuecomment-2608764074",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/9878#issuecomment-2608763810"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9878",
+      "time": "2025-01-23T03:20:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9878#issuecomment-2608763810",
+      "text": "We are changing the strategy:\n\n**Enable the `no-unchecked-indexed-access` ESLint Rule**\n\nThe `@typescript-eslint/no-unchecked-indexed-access` rule enforces the same behavior as TypeScript’s `noUncheckedIndexedAccess` compiler option. This rule ensures that indexed access to objects or arrays is treated as potentially undefined unless explicitly handled.\n\nInstallation\n```\nnpm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin\n```\n\nConfiguration in the  `.eslintrc` file, enable the rule:\n\n```\n{\n  \"parser\": \"@typescript-eslint/parser\",\n  \"plugins\": [\"@typescript-eslint\"],\n  \"extends\": [\"plugin:@typescript-eslint/recommended\"],\n  \"rules\": {\n    \"@typescript-eslint/no-unchecked-indexed-access\": \"error\"\n  }\n}\n```"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10016",
+      "time": "2025-01-23T03:15:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10016",
+      "text": "Improvements Needed on the Encounter Page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-23T03:15:21.000Z",
+      "title": "ohcnetwork/care_fe#10017",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10017#pullrequestreview-2568770990",
+      "text": "Minor Changes In Encounter Page"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10006",
+      "time": "2025-01-23T03:14:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10006",
+      "text": "View retention in appoinments, resource and users page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-23T03:14:40.000Z",
+      "title": "ohcnetwork/care_fe#10039",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10039#pullrequestreview-2568770501",
+      "text": "Fix : View(list/card/board) retention for encounters/resource/users pages"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10046",
+      "time": "2025-01-23T03:13:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10046",
+      "text": "Form Elements Overflowing in Upload File Dialog"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-19T04:31:15.000Z",
+      "title": "ohcnetwork/care_fe#10047",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10047#pullrequestreview-2560847062",
+      "text": "Fix FileUploadDialog overflow | Use ShadCN component"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-23T03:12:32.000Z",
+      "title": "ohcnetwork/care_fe#10098",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10098#pullrequestreview-2568768909",
+      "text": "Bump react-intersection-observer from 9.15.0 to 9.15.1"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9720",
+      "time": "2025-01-23T03:04:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9720",
+      "text": "Error handling issue during facility cover image uploads"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9727",
+      "time": "2025-01-23T03:04:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9727#issuecomment-2608748999",
+      "text": "Will be done along with #9882"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10109",
+      "time": "2025-01-23T03:03:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10109#issuecomment-2608747695",
+      "text": "How are you planning to solve this?"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-22T17:41:22.000Z",
@@ -572,13 +691,6 @@
       "link": "https://github.com/ohcnetwork/care/pull/2731",
       "text": "Tests for Schedule & Booking related ViewSets",
       "turnaround_time": 480540
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-19T04:31:15.000Z",
-      "title": "ohcnetwork/care_fe#10047",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10047#pullrequestreview-2560847062",
-      "text": "Fix FileUploadDialog overflow | Use ShadCN component"
     },
     {
       "type": "comment_created",
@@ -57631,7 +57743,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9920",
       "title": "Switch to `@tanstack/react-router`",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "merge conflict"
       ]

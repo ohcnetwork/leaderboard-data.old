@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-01-22T21:59:17.000Z",
+  "last_updated": "2025-01-23T08:44:07.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10109",
+      "time": "2025-01-23T08:44:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10109#issuecomment-2609180440",
+      "text": "This is a bit more complicated than just that, some of the tab information is facility specific and shouldn't be displayed to users accessing from org level anyways 🤔  "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10110",
+      "time": "2025-01-23T08:17:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10110#issuecomment-2609127604",
+      "text": "(1) We are warning the user it's an invalid pincode, if they choose to save over that, that's fine.\n(2) User isn't able to submit the form when entering more than 6 digits.\n\nBesides, as of now, it's only validating Indian pin codes, the form won't be restricted to that."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10110",
+      "time": "2025-01-23T08:17:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10110",
+      "text": "Edit allowed after entering invalid pincode in Update Patient Details"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-23T02:54:31.000Z",
+      "title": "ohcnetwork/care_fe#10092",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10092#pullrequestreview-2568751837",
+      "text": "Feat: Display total no. of entities with heading in Organization"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-17T11:28:33.000Z",
+      "title": "ohcnetwork/care_fe#10017",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10017#pullrequestreview-2558774193",
+      "text": "Minor Changes In Encounter Page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-23T02:20:06.000Z",
+      "title": "ohcnetwork/care_fe#10106",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10106#pullrequestreview-2568721764",
+      "text": "Fix the accessibility issue by adding DialogTitle to DialogContent and making the facility title responsive"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-21T23:28:51.000Z",
@@ -252,13 +294,6 @@
       "title": "ohcnetwork/care_fe#10042",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10042#pullrequestreview-2562009158",
       "text": "Feat: Created shadcn `MultiSelectOption` comp"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-17T11:28:33.000Z",
-      "title": "ohcnetwork/care_fe#10017",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10017#pullrequestreview-2558774193",
-      "text": "Minor Changes In Encounter Page"
     },
     {
       "type": "pr_reviewed",
@@ -5146,9 +5181,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10121",
+      "title": "Patient Detail Tabs: Org List Access",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2767",
       "title": "Alt phone number and qualificationspec",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],
