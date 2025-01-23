@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-01-22T11:11:03.000Z",
+  "last_updated": "2025-01-22T16:45:56.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10102",
+      "time": "2025-01-22T16:45:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10102#issuecomment-2607748858",
+      "text": "Hey Team, how to fix lock-file errors \r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10102",
+      "time": "2025-01-22T16:12:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10102",
+      "text": "Upgrade to `Eslint` v9"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10099",
+      "time": "2025-01-22T14:28:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10099#issuecomment-2607397708",
+      "text": "@kevalkanp1011 @Savio629 Already assigned 🙂"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10092",
+      "time": "2025-01-22T11:27:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10092#issuecomment-2606986473",
+      "text": "> Tip\r\n> \r\n> For best results, initiate chat on the files or code changes.\r\n> \r\n> @AdityaJ2305 The nitpick comment suggests improving the pluralization handling in `public/locale/en.json`. Here's how to implement it:\r\n> \r\n> 1. Update the translation keys in `public/locale/en.json`:\r\n> \r\n> ```json\r\n> {\r\n>   \"entity_count_one\": \"{{count}} {{entity}}\",\r\n>   \"entity_count_other\": \"{{count}} {{entityPlural}}\"\r\n> }\r\n> ```\r\n> \r\n> 2. When using the translation, provide both singular and plural forms:\r\n> \r\n> ```ts\r\n> t(\"entity_count\", {\r\n>   count: facilities?.count || 0,\r\n>   entity: \"Facility\",\r\n>   entityPlural: \"Facilities\"\r\n> })\r\n> ```\r\n> \r\n> This approach will handle irregular plurals correctly (like \"person\"/\"people\") instead of just adding 's' to the singular form. Would you like me to help you implement this change across all the files?\r\n> \r\n> 🔗 Analysis chain\r\n> 🏁 Scripts executed\r\n\r\nHey Team, Do we really need to do that ? It just makes it too complex for simple translation"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10092",
+      "time": "2025-01-22T11:24:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10092#issuecomment-2606981427",
+      "text": "> **Actionable comments posted: 0**\r\n> \r\n> 🧹 Nitpick comments (1)\r\n> 📜 Review details\r\n\r\n@coderabbitai, how to implement the nitpick comment "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10099",

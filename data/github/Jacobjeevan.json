@@ -1,6 +1,63 @@
 {
-  "last_updated": "2025-01-22T06:45:43.000Z",
+  "last_updated": "2025-01-22T17:41:42.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10105",
+      "time": "2025-01-22T17:41:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10105",
+      "text": "GovtSelector isLoading Spinner",
+      "turnaround_time": 1636
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10090",
+      "time": "2025-01-22T17:20:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10090#issuecomment-2607827586",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/405664907-1681abfb-4b4d-4d46-9c07-e77c049247ae.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzc1NjY2NDMsIm5iZiI6MTczNzU2NjM0MywicGF0aCI6Ii81NzA1NTk5OC80MDU2NjQ5MDctMTY4MWFiZmItNGI0ZC00ZDQ2LTljMDctZTc3YzA0OTI0N2FlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTIyVDE3MTkwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNmMjUxYzNlNzliYTU0ODM0M2ZkMjFkMzVkYzIzMmI3OTg3YjA4YmIwNTk4NDZkZjMzODY5NWMyOTNlN2YwZTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.B1ieo4J91p5jiU_Y66_Qh8PrRHGZr8snDg__LWw2wN4)\r\n> \r\n> when you type to try aluva in the local body dropdown, its goes into loading state in between, seem like a state management issue, can you look into it\r\n\r\nI had added a spinner, funnily missed testing the search portion after adding the spinner. Anyways, adjusted to display spinner alongside the dropdown, rather than instead of.\r\n\r\n#10105 "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10105",
+      "time": "2025-01-22T17:14:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10105",
+      "text": "GovtSelector isLoading Spinner"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10090",
+      "time": "2025-01-22T14:16:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10090",
+      "text": "GovtOrganization Selector ",
+      "turnaround_time": 35522
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#9974",
+      "time": "2025-01-22T14:11:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9974",
+      "text": "OTP appointment reschedule",
+      "turnaround_time": 39476
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#9974",
+      "time": "2025-01-22T14:11:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9974",
+      "text": "OTP appointment reschedule",
+      "collaborated_with": [
+        "rithviknishad",
+        "Jacobjeevan"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10093",
+      "time": "2025-01-22T14:10:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10093",
+      "text": "Organization Filter Tweaks",
+      "turnaround_time": 26687
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10093",
@@ -5088,15 +5145,6 @@
     }
   ],
   "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10105",
-      "title": "GovtSelector isLoading Spinner",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2767",
       "title": "Alt phone number and qualificationspec",
