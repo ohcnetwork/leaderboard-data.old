@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-22T06:34:58.000Z",
+  "last_updated": "2025-01-23T18:46:22.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9884",
+      "time": "2025-01-23T18:46:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9884#issuecomment-2610718107",
+      "text": "Cypress tests were failing due to deprecated upload-artifact v3 workflow. Updated it\r\n\r\n@nihal467 @bodhish "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10026",
+      "time": "2025-01-23T18:40:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10026#issuecomment-2610674802",
+      "text": "- Resolved the cypress failing by upgrading upload-artifacts to V4 \r\n- Resolved codeQL failing by sticking to x86 ubuntu runner [Reference](https://github.com/github/codeql-action/issues/2700)\r\n\r\n@bodhish "
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care#2768",
@@ -752,15 +766,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10026",
-      "title": "switched to ubuntu-24.04-arm runners",
-      "stale_for": 5,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9884",
       "title": "updated failed preview deploy",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "Deploy-Failed"
       ]
@@ -768,7 +776,7 @@
     {
       "link": "https://github.com/ohcnetwork/devops-docs/pull/4",
       "title": "added gh automations",
-      "stale_for": 155,
+      "stale_for": 156,
       "labels": []
     }
   ],
