@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-23T08:32:47.000Z",
+  "last_updated": "2025-01-23T15:36:18.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10054",
+      "time": "2025-01-23T15:36:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10054#issuecomment-2610137899",
+      "text": "@nihal\r\n- [x] the error message is missing for the username and the password field message is not properly handled\r\n\r\n- [ ]  When the username is not available, displaying 'All set' with green checkmarks doesn't provide a good user experience. I suggest only displaying that statement if the username is available.\r\n - That message is only for username validation result  we can update the typo here like `Your Username is valid` that too specifically for validations checks only nothing related to availability of username \r\n \r\n - [ ] When each check passes the validation, do not make the statement disappear; instead, make the statement green and add a green tick adjacent to it. Implement the behavior for both username and password fields>\r\n - I am not able to reproduce this. Could you give a re-check and let me know the steps  to reproduce the same"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10102",

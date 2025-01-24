@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-01-23T08:17:42.000Z",
+  "last_updated": "2025-01-23T12:41:40.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10104",
+      "time": "2025-01-23T12:41:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10104#issuecomment-2609712619",
+      "text": "![image](https://github.com/user-attachments/assets/aa0edc74-bfe0-4118-9b38-20319c2621b5)\r\n\r\nWhen you click on the dropdown that already has a value selected, the expected behavior is for the dropdown options to be displayed. Instead, the current behavior is that it closes the entire dropdown and reset it to its initial state, as if no value was previously selected."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-23T12:24:46.000Z",
+      "title": "ohcnetwork/care_fe#10054",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10054#pullrequestreview-2569727115",
+      "text": " Add Real-Time Validation for `CreateUserForm` and Standardize UI Across Forms"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10054",
+      "time": "2025-01-23T12:23:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10054#issuecomment-2609675091",
+      "text": "![image](https://github.com/user-attachments/assets/69a039f2-faf3-41b7-9877-3a5516891c08)\r\n\r\n- [ ] the error message is missing for the username and the password field message is not properly handled\r\n\r\n![image](https://github.com/user-attachments/assets/957a3fbc-14c5-41ac-800a-9852ff495456)\r\n\r\n- [ ] When the username is not available, displaying 'All set' with green checkmarks doesn't provide a good user experience. I suggest only displaying that statement if the username is available.\r\n\r\n![image](https://github.com/user-attachments/assets/82b48a0c-aa78-45d8-b16e-6fb93419706f)\r\n\r\n- [ ] When each check passes the validation, do not make the statement disappear; instead, make the statement green and add a green tick adjacent to it. (Both username and password)\r\n\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-23T11:50:46.000Z",
+      "title": "ohcnetwork/care_fe#10038",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10038#pullrequestreview-2569658016",
+      "text": "Fixed alignment of components in mobile view"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10115",
+      "time": "2025-01-23T09:51:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10115#issuecomment-2609354979",
+      "text": "![image](https://github.com/user-attachments/assets/151824f9-73dc-4b59-9f0b-1fb0b4813a1f)\r\n\r\n- [ ] when we remove a already active medicine, the status is not modified in the preview section"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#10113",

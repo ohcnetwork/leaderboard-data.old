@@ -5849,9 +5849,290 @@
                     "name": "rocket",
                     "users": [
                         "U02TDGQQPMJ",
-                        "U0576PEACG0"
+                        "U0576PEACG0",
+                        "UC99MFPU1"
+                    ],
+                    "count": 3
+                }
+            ]
+        }
+    ],
+    "2025-01-23 00:00:00": [
+        {
+            "user": "U06CY7RUZ9S",
+            "type": "message",
+            "ts": "1737660872.161459",
+            "client_msg_id": "a1ef3384-c388-4dac-8431-a74ee8d5857d",
+            "text": "Jan 23 2025\n\u2022 Turned <@U02D0NA6RHR>\u2019s Laptop into a <https://www.cdac.in/index.aspx?id=hi_hs_medinfo_csno_overview|CSNOtk> Server \n\u2022 helped Recover suspended AWS account for instance. \n\u2022 Helped <@U01JB8L8P7Y> with HCX and ABDM \n\u2022 Played badminton with <@UC8TSEGCQ> and <@U01JB8L8P7Y> :rp: :badminton_racquet_and_shuttlecock: \n\u2022 Fixed workflow fails with <https://github.com/ohcnetwork/care_fe/pull/9884|9884> and <https://github.com/ohcnetwork/care_fe/pull/10026|10026> \n\u2022 Performed restoration for suspended Instance.\nNext\n\u2022 Figure out Newrelic and setup comprehensive monitoring for all resources. \n\u2022 Setup CF tunnel for CSNOtk Server for test access. \n\u2022 Resolve SBOM issues.",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "image_url": "https://cdac.in/img/C-DAC.jpg",
+                    "image_width": 1200,
+                    "image_height": 630,
+                    "image_bytes": 269569,
+                    "from_url": "https://www.cdac.in/index.aspx?id=hi_hs_medinfo_csno_overview",
+                    "service_icon": "https://www.cdac.in/favicon.ico",
+                    "id": 1,
+                    "original_url": "https://www.cdac.in/index.aspx?id=hi_hs_medinfo_csno_overview",
+                    "fallback": "C-DAC: C-DAC\u2019s Toolkit For SNOMED CT",
+                    "text": "CSNOtk is specially designed toolkit for easy access and integration of SNOMED CT in health care applications. SNOMED CT is comprehensive clinical healthcare terminology provided by International Health Terminology Standards Development Organisation (IHTSDO)",
+                    "title": "C-DAC\u2019s Toolkit For SNOMED CT",
+                    "title_link": "https://www.cdac.in/index.aspx?id=hi_hs_medinfo_csno_overview",
+                    "service_name": "C-DAC"
+                },
+                {
+                    "id": 2,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1736520387,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/9884",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#9884 updated failed preview deploy",
+                    "title": "#9884 updated failed preview deploy",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/9884",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>"
+                },
+                {
+                    "id": 3,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1737097530,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/10026",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#10026 switched to ubuntu-24.04-arm runners",
+                    "title": "#10026 switched to ubuntu-24.04-arm runners",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/10026",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>"
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "nKUoi",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Jan 23 2025\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Turned "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U02D0NA6RHR"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "\u2019s Laptop into a "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://www.cdac.in/index.aspx?id=hi_hs_medinfo_csno_overview",
+                                            "text": "CSNOtk"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " Server "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "helped Recover suspended AWS account for instance. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Helped "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U01JB8L8P7Y"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " with HCX and ABDM "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Played badminton with "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "UC8TSEGCQ"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " and "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U01JB8L8P7Y"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "rp"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "badminton_racquet_and_shuttlecock",
+                                            "unicode": "1f3f8"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed workflow fails with "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/9884",
+                                            "text": "9884"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " and "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10026",
+                                            "text": "10026"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Performed restoration for suspended Instance."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Figure out Newrelic and setup comprehensive monitoring for all resources. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Setup CF tunnel for CSNOtk Server for test access. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Resolve SBOM issues."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "badminton_racquet_and_shuttlecock",
+                    "users": [
+                        "UC8TSEGCQ",
+                        "U02TDGQQPMJ"
                     ],
                     "count": 2
+                },
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U02TDGQQPMJ"
+                    ],
+                    "count": 1
+                },
+                {
+                    "name": "joy",
+                    "users": [
+                        "U02TDGQQPMJ"
+                    ],
+                    "count": 1
                 }
             ]
         }

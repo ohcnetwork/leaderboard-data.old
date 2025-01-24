@@ -786,9 +786,177 @@
                     "name": "rocket",
                     "users": [
                         "U02TDGQQPMJ",
-                        "U0576PEACG0"
+                        "U0576PEACG0",
+                        "UC99MFPU1"
                     ],
-                    "count": 2
+                    "count": 3
+                }
+            ]
+        }
+    ],
+    "2025-01-23 00:00:00": [
+        {
+            "user": "U083HFWFESD",
+            "type": "message",
+            "ts": "1737657840.041519",
+            "edited": {
+                "user": "U083HFWFESD",
+                "ts": "1737658616.000000"
+            },
+            "client_msg_id": "b68d89ce-98f5-4a1e-845a-c929fbbfc5b1",
+            "text": "Jan 23\nDone\n\u2022 New issue created \"Remove Unwanted Hover Effect After Field Selection<https://github.com/ohcnetwork/care_fe/issues/10118|#10118>\"\n\u2022 Corresponding PR \"Resolved the unwanted hover effect and the text colour remains constant#10120\" got merged\n\u2022 Done all the required changes in the PR<https://github.com/ohcnetwork/care_fe/issues/10048|#10048>\nNext\n\u2022 Replace the depreciated components in Resource pages\n\u2022 Learning Django\n\u2022 Looking for new issues too",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1737627588,
+                    "color": "8250df",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/issues/10118",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#10118 Remove Unwanted Hover Effect After Field Selection",
+                    "title": "#10118 Remove Unwanted Hover Effect After Field Selection",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/issues/10118",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>"
+                },
+                {
+                    "id": 2,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1737268441,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/issues/10048",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#10048 Replacing older UI components with new UI components",
+                    "title": "#10048 Replacing older UI components with new UI components",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/issues/10048",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>"
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Xdr8V",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Jan 23\nDone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "New issue created \"Remove Unwanted Hover Effect After Field Selection"
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/issues/10118",
+                                            "text": "#10118",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "\""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Corresponding PR \"Resolved the unwanted hover effect and the text colour remains constant#10120\" got merged"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Done all the required changes in the PR"
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/issues/10048",
+                                            "text": "#10048",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Replace the depreciated components in Resource pages"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Learning Django"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Looking for new issues too"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U02TDGQQPMJ"
+                    ],
+                    "count": 1
                 }
             ]
         }

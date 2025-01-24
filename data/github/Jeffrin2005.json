@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-22T18:31:05.000Z",
+  "last_updated": "2025-01-23T12:42:07.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10108",
+      "time": "2025-01-23T12:42:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10108#issuecomment-2609713511",
+      "text": "@rithviknishad \n\n\n\nPerson A \n\n1.Logs into the website normally with their username and password\n2.Opens the browser's developer tools (F12)\n3.Types this in the console:\n\n4.const x = localStorage.getItem('care_access_token');\n5.console.log('stolen token is: ', x);\n\nGets a long string of characters starting with 'eyJhbG...'\nSends this string to Person B\n\nPerson B \n1.Opens the same website (but doesn't log (in other browsers or other computer) \n2.Opens developer tools (F12)\n3.Pastes this in the console:\n\nlocalStorage.setItem('care_access_token', 'eyJhbG...'); // Pastes Person A's token\nwindow.location.reload();\n\n Gets access to Person A's account!\n\nThink of it like finding someone's house key and making a copy - Person B now has full access to Person A's account without ever knowing the password. This is why storing tokens in localStorage is dangerous.\n\nFor example:\n\n Imagine an admin who manages logins for all workers in an organization\nWorker A gets logged in by the admin,\nWorker A steals token and shares it with others.\nso, once worker A is logged in, others can access the website even without knowing credentials by sharing the token.\n\n\n\n\n\n\n\n\n"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#10108",

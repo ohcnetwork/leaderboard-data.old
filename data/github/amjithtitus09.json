@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-23T08:19:37.000Z",
+  "last_updated": "2025-01-23T12:24:25.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10115",
+      "time": "2025-01-23T12:24:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10115#issuecomment-2609677666",
+      "text": "@nihal467\r\n1. Medicine Request update seems to be a BE issue. The fix is being pushed. \r\n2. Removing existing items would mark them as 'Entered in error' in BE along with graying out and disabling the row in FE to prevent further changes.\r\n3. The removed rows would now be hidden by default in the Overview section. Clicking the \"view all\" would reveal them grayed out.\r\n4. Fixed the date picker format issue in the form. The format displayed in the Overview is dd/mm/yyyy for me."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10115",
