@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-01-24T10:57:51.000Z",
+  "last_updated": "2025-01-24T14:59:25.000Z",
   "activity": [
     {
       "type": "pr_reviewed",
@@ -7,6 +7,20 @@
       "title": "ohcnetwork/care_fe#10092",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10092#pullrequestreview-2568751837",
       "text": "Feat: Display total no. of entities with heading in Organization"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10143",
+      "time": "2025-01-24T14:33:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10143#issuecomment-2612673916",
+      "text": "This will be solved when #10045 is merged, query invalidation is being called by edit, but query migration PR hasn't been merged yet.\n\ncc: @nihal467 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10143",
+      "time": "2025-01-24T14:33:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10143",
+      "text": "State Management Issue: Profile Updates Are Not Reflecting Without Manual Page Refresh"
     },
     {
       "type": "comment_created",
@@ -5243,6 +5257,12 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10169",
+      "title": "Added required field validation and scroll before submit for questionnaire forms",
+      "stale_for": 0,
+      "labels": []
+    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10121",
       "title": "Patient Detail Tabs: Org List Access",

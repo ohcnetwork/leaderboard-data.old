@@ -33746,5 +33746,168 @@
                 }
             ]
         }
+    ],
+    "2025-01-25 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1737771938.501379",
+            "client_msg_id": "2b7d16a1-dcfe-42c7-a419-eada4a77d80c",
+            "text": "*Jan 23, 24*\n\u2022 Added `requester` to `MedicationRequest` and basic authzn. tests <https://github.com/ohcnetwork/care/pull/2773|#2773>\n\u2022 Done with prescription migrations <https://github.com/ohcnetwork/care/pull/2763/commits/136b5697de62d7addbd3a954ed347b14562ac0c5|136b569>\n\u2022 Updated Medication Statement and Request spec to allow update and added tests, but wasn\u2019t needed. <https://github.com/ohcnetwork/care/pull/2777|#2777>\n\u2022 Figuring out how to go about showing questionnaire submission errors for all structured question submissions.\n\u2022 Reviewed PRs\n*Next*\n\u2022 Errors for Structured Questions",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Pwwus",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Jan 23, 24",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "requester",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " to "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "MedicationRequest",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " and basic authzn. tests "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2773",
+                                            "text": "#2773",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Done with prescription migrations "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2763/commits/136b5697de62d7addbd3a954ed347b14562ac0c5",
+                                            "text": "136b569"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Updated Medication Statement and Request spec to allow update and added tests, but wasn\u2019t needed. "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2777",
+                                            "text": "#2777",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Figuring out how to go about showing questionnaire submission errors for all structured question submissions."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed PRs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Errors for Structured Questions"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
