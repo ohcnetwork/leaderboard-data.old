@@ -3391,5 +3391,68 @@
                 }
             ]
         }
+    ],
+    "2025-01-24 00:00:00": [
+        {
+            "user": "U07RFG735CP",
+            "type": "message",
+            "ts": "1737739534.166379",
+            "client_msg_id": "af783b01-39b1-45a8-939e-bec44a5ba04d",
+            "text": "23 Jan 2025\nRaised Pr with solution <https://github.com/ohcnetwork/care_fe/pull/10136>\nNext\nLooking for new issue",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1737709243,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/10136",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#10136 Fixed issue placeholder text not fully visible",
+                    "text": "*Proposed Changes*\n\n\u2022 Fixes <https://github.com/ohcnetwork/care_fe/issues/10125|#10125>\n\n@ohcnetwork/care-fe-code-reviewers\n\n*Merge Checklist*\n\n\u2022 Add specs that demonstrate bug / test a new feature.\n\u2022 Update <https://docs.ohc.network|product documentation>.\n\u2022 Ensure that UI text is kept in I18n files.\n\u2022 Prep screenshot or demo video for changelog entry, and attach it to issue.\n\u2022 Request for Peer Reviews\n\u2022 Completion of QA\n\n*Summary by CodeRabbit*\n\n\u2022 *Style*  \n   \u2022 Updated input field styling with responsive placeholder text sizing  \n   \u2022 Added padding to input fields for improved visual appearance  \n   \u2022 Enhanced input component's responsive design for smaller screen sizes",
+                    "title": "#10136 Fixed issue placeholder text not fully visible",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/10136",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "3",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "maABY",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "23 Jan 2025\nRaised Pr with solution "
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https://github.com/ohcnetwork/care_fe/pull/10136"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\nNext\nLooking for new issue"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
