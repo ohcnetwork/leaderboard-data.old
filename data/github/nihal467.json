@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-01-24T15:41:55.000Z",
+  "last_updated": "2025-01-25T12:04:00.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10165",
+      "time": "2025-01-25T12:03:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10165",
+      "text": "Care fe ui bug?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10165",
+      "time": "2025-01-25T12:04:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10165#issuecomment-2613943674",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/10176#issuecomment-2613942955\n\ndo check this comment"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10176",
+      "time": "2025-01-25T12:01:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10176#issuecomment-2613942955",
+      "text": "@drmaddy736 you mean to load the organisation and permission first to your local backend to work\n\n./manage.py migrate\n./manage.py load_govt_organization --state kerala --load-districts --load-local-bodies --load-wards\n./manage.py sync_permissions"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10176",
+      "time": "2025-01-25T12:01:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10176",
+      "text": "District and local body data no reflected in care_fe"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10115",
+      "time": "2025-01-25T10:39:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10115#issuecomment-2613921687",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10115",
+      "time": "2025-01-25T08:51:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10115#issuecomment-2613848584",
+      "text": "\r\n![image](https://github.com/user-attachments/assets/30551007-cb9f-40d8-a493-20b771357d63)\r\n\r\n\r\nLGTM, fix the padding issue for the structured question previews"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#10137",
