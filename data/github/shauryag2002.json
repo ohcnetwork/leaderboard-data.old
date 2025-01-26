@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-01-21T14:42:52.000Z",
+  "last_updated": "2025-01-26T11:58:07.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10201",
+      "time": "2025-01-26T11:58:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10201#issuecomment-2614344985",
+      "text": "I want to work on this.\n## Fix Implementation\n```tsx\n// filepath: /src/components/Form/FormFields/PhoneNumberFormField.tsx\nuseEffect(() => {\n  // Case 1: Field is empty or just has \"+\"\n  if (!field.value || field.value === \"+\") {\n    // Reset to India as default\n    setCountry({\n      flag: \"🇮🇳\",\n      name: \"India\",\n      code: \"91\",\n    });\n    // Set default value \"+91\" when field is cleared\n    setValue(\"+91\");\n    return;\n  }\n\n  // Case 2: Toll-free number handling\n  if (field.value.startsWith(\"1800\")) {\n    setCountry({ flag: \"📞\", name: \"Support\", code: \"1800\" });\n    return;\n  }\n\n  // Case 3: Handle other country codes\n  const countryCode = getCountryCode(field.value);\n  if (countryCode && phoneCodes[countryCode]) {\n    setCountry(phoneCodes[countryCode]);\n  }\n}, [field.value, setValue]); // Added setValue to deps array"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10201",
+      "time": "2025-01-26T11:54:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10201",
+      "text": "Phone Number Field Default Value Not Set When Empty"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10200",
+      "time": "2025-01-26T11:22:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10200",
+      "text": "Shaurya/fix notes"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9919",
@@ -594,12 +615,10 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9919",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10200",
       "title": "Fix: UI Issues in Data Fetch Scroll, Text Area Overflow, and User Profile Navigation in notes tab",
       "stale_for": 0,
-      "labels": [
-        "Deploy-Failed"
-      ]
+      "labels": []
     }
   ],
   "authored_issue_and_pr": [

@@ -5634,9 +5634,89 @@
                     "name": "rocket",
                     "users": [
                         "U07RV0JG6MA",
-                        "U02TDGQQPMJ"
+                        "U02TDGQQPMJ",
+                        "UC99MFPU1"
                     ],
-                    "count": 2
+                    "count": 3
+                },
+                {
+                    "name": "fire",
+                    "users": [
+                        "UC99MFPU1"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    "2025-01-26 00:00:00": [
+        {
+            "user": "U07RSF13K5G",
+            "type": "message",
+            "ts": "1737901202.874349",
+            "client_msg_id": "fe492aec-98a4-46ae-96af-b2cb4bda4193",
+            "text": "25 Jan 2025\nDone\n\u2022 Raised a PR for the issue 10145 and waiting for review\nNext\n\u2022 Looking for new issues.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "AxRTP",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "25 Jan 2025\nDone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Raised a PR for the issue 10145 and waiting for review"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Looking for new issues."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        }
+                    ]
                 }
             ]
         }
