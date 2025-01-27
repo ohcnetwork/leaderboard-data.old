@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-01-27T08:56:20.000Z",
+  "last_updated": "2025-01-27T14:29:30.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10214",
+      "time": "2025-01-27T14:29:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10214",
+      "text": "Switch to `PhoneInput`"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-27T11:53:55.000Z",
+      "title": "ohcnetwork/care_fe#10147",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10147#pullrequestreview-2575231767",
+      "text": "changed latitude longitude type to a number in facility create form"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-27T11:52:35.000Z",
+      "title": "ohcnetwork/care_fe#10202",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10202#pullrequestreview-2575217526",
+      "text": "Replaced older components in ResourceUpdateDetails page with Shadcn component"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2783",
+      "time": "2025-01-27T11:28:03.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2783",
+      "text": "Fixes TokenSlots of schedule not getting deleted"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-27T11:01:49.000Z",
+      "title": "ohcnetwork/care_fe#10121",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10121#pullrequestreview-2575127498",
+      "text": "Patient Detail Tabs: Org List Access"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9830",
+      "time": "2025-01-27T11:00:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9830",
+      "text": "Happy Cypress Workflow test for CARE"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-27T10:37:21.000Z",
+      "title": "ohcnetwork/care_fe#10210",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10210#pullrequestreview-2575073529",
+      "text": "New Cypress Test for Creation Of Questionnaire"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-27T10:47:27.000Z",
+      "title": "ohcnetwork/care_fe#10205",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10205#pullrequestreview-2575096546",
+      "text": "Confirm Alert for Patient Registration"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#10206",
@@ -58169,9 +58225,19 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10214",
+      "title": "Switch to `PhoneInput`",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "P1"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9920",
       "title": "Switch to `@tanstack/react-router`",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": [
         "merge conflict"
       ]

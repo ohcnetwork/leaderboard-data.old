@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-01-27T08:30:57.000Z",
+  "last_updated": "2025-01-27T12:49:16.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-27T04:25:06.000Z",
+      "title": "ohcnetwork/care_fe#10198",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10198#pullrequestreview-2574525006",
+      "text": "Fix: Adjust Image Upload Button Width in Edit Cover Photo and Avatar Modal for Mobile View"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9814",
+      "time": "2025-01-27T12:20:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9814#issuecomment-2615612055",
+      "text": "Also you don't need to tag me and request for review. At this point, I'll get email to this thread regardless."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-10T06:51:18.000Z",
+      "title": "ohcnetwork/care_fe#9814",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9814#pullrequestreview-2541651058",
+      "text": "Implement multiple File uploading"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-27T11:53:02.000Z",
+      "title": "ohcnetwork/care_fe#10182",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10182#pullrequestreview-2575229982",
+      "text": "added i18n support for plugins"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10192",
+      "time": "2025-01-27T10:09:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10192#issuecomment-2615330265",
+      "text": "(1) Investigate why the issue is happening first."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10208",
+      "time": "2025-01-27T09:31:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10208#issuecomment-2615245796",
+      "text": "Duplicate of #10149 \n\nBE issue, in this case, @vigneshhari 's PR will address it 👍 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10208",
+      "time": "2025-01-27T09:31:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10208",
+      "text": "Resource requests not related to the patient are displayed in the Requests menu in Patient Details Page"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10205",
@@ -17,24 +66,10 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2025-01-10T06:51:18.000Z",
-      "title": "ohcnetwork/care_fe#9814",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9814#pullrequestreview-2541651058",
-      "text": "Implement multiple File uploading"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2025-01-27T04:30:43.000Z",
       "title": "ohcnetwork/care_fe#10172",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10172#pullrequestreview-2574528098",
       "text": "Fix `PatientUsers` card overflow and Remove-button background"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-27T04:25:06.000Z",
-      "title": "ohcnetwork/care_fe#10198",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10198#pullrequestreview-2574525006",
-      "text": "Fix: Adjust Image Upload Button Width in Edit Cover Photo and Avatar Modal for Mobile View"
     },
     {
       "type": "pr_reviewed",
@@ -5369,14 +5404,14 @@
       "title": "Confirm Alert for Patient Registration",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "tested"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10121",
       "title": "Patient Detail Tabs: Org List Access",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"
@@ -5385,7 +5420,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2767",
       "title": "Alt phone number and qualificationspec",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     }
   ],

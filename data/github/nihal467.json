@@ -1,6 +1,106 @@
 {
-  "last_updated": "2025-01-25T12:04:00.000Z",
+  "last_updated": "2025-01-27T14:24:23.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10166",
+      "time": "2025-01-27T14:24:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10166#issuecomment-2615900794",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10198",
+      "time": "2025-01-27T14:19:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10198#issuecomment-2615889033",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10092",
+      "time": "2025-01-27T14:04:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10092#issuecomment-2615849868",
+      "text": "LGTM"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-23T12:24:46.000Z",
+      "title": "ohcnetwork/care_fe#10054",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10054#pullrequestreview-2569727115",
+      "text": " Add Real-Time Validation for `CreateUserForm` and Standardize UI Across Forms"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10054",
+      "time": "2025-01-27T13:50:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10054#issuecomment-2615816170",
+      "text": "\r\n\r\n> @Nihal\r\n> \r\n> * [x]  the error message is missing for the username and the password field message is not properly handled\r\n> * [ ]   When the username is not available, displaying 'All set' with green checkmarks doesn't provide a good user experience. I suggest only displaying that statement if the username is available.\r\n> * That message is only for username validation result  we can update the typo here like `Your Username is valid` that too specifically for validations checks only nothing related to availability of username\r\n> * [ ]  When each check passes the validation, do not make the statement disappear; instead, make the statement green and add a green tick adjacent to it. Implement the behavior for both username and password fields>\r\n> * I am not able to reproduce this. Could you give a re-check and let me know the steps  to reproduce the same\r\n\r\n\r\n![image](https://github.com/user-attachments/assets/4e5ec53f-6476-47d6-a6dc-32d997dfaa7d)\r\n\r\nhttps://teleicu-staging.ohc.network/users/add\r\n\r\nusername: nihal-district\r\npassword: Test@123\r\n\r\nType the username, in the above URL, you will experience, upon each condition are followed, they are turned green and a green tick is been added"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10211",
+      "time": "2025-01-27T13:04:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10211",
+      "text": "Production Release v25.2.0 ",
+      "turnaround_time": 10112
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-24T14:03:13.000Z",
+      "title": "ohcnetwork/care_fe#10147",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10147#pullrequestreview-2572727441",
+      "text": "changed latitude longitude type to a number in facility create form"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10147",
+      "time": "2025-01-27T11:50:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10147#issuecomment-2615549813",
+      "text": "LGTM"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10212",
+      "time": "2025-01-27T11:39:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10212",
+      "text": "New Cypress Test: Patient registration combinations"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10134",
+      "time": "2025-01-27T11:32:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10134#issuecomment-2615512910",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10205",
+      "time": "2025-01-27T11:08:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10205#issuecomment-2615459780",
+      "text": "![image](https://github.com/user-attachments/assets/612c515d-e852-4000-9168-3df70b0ba01e)\r\n\r\n- [ ] blank form also throws this error, since it is a relevant prefill and expect behavior, LGTM"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10210",
+      "time": "2025-01-27T11:00:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10210",
+      "text": "New Cypress Test for Creation Of Questionnaire",
+      "turnaround_time": 2819
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10211",
+      "time": "2025-01-27T10:15:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10211",
+      "text": "Production Release v25.2.0 "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10210",
+      "time": "2025-01-27T10:13:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10210",
+      "text": "New Cypress Test for Creation Of Questionnaire"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#10165",
@@ -86,13 +186,6 @@
       "time": "2025-01-24T14:34:09.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/10148",
       "text": "Questionnaire Submission in Patient Updates Page is throw 400"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-24T14:03:13.000Z",
-      "title": "ohcnetwork/care_fe#10147",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10147#pullrequestreview-2572727441",
-      "text": "changed latitude longitude type to a number in facility create form"
     },
     {
       "type": "comment_created",
@@ -184,13 +277,6 @@
       "time": "2025-01-23T12:41:40.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10104#issuecomment-2609712619",
       "text": "![image](https://github.com/user-attachments/assets/aa0edc74-bfe0-4118-9b38-20319c2621b5)\r\n\r\nWhen you click on the dropdown that already has a value selected, the expected behavior is for the dropdown options to be displayed. Instead, the current behavior is that it closes the entire dropdown and reset it to its initial state, as if no value was previously selected."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-23T12:24:46.000Z",
-      "title": "ohcnetwork/care_fe#10054",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10054#pullrequestreview-2569727115",
-      "text": " Add Real-Time Validation for `CreateUserForm` and Standardize UI Across Forms"
     },
     {
       "type": "comment_created",

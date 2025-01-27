@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-27T07:03:04.000Z",
+  "last_updated": "2025-01-27T09:41:00.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2780",
+      "time": "2025-01-27T09:41:00.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2780#issuecomment-2615265919",
+      "text": "All application settings/configuration will be stored as environment variables, we do not expect these settings to change once configured. If you require dynamic SMS and email settings, it can be implemented as a plugin. "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2779",
+      "time": "2025-01-27T09:39:29.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2779#issuecomment-2615262618",
+      "text": "The ABDM architecture remains the same, its maintained and built in a separate repo as a plugin, the core care architecture is changing and that might cause some changes in ABDM plugin as well. mostly in hooks that connect ABDM plugin to care. "
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care#2768",
