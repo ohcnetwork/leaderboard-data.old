@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-01-26T20:35:32.000Z",
+  "last_updated": "2025-01-27T07:03:04.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2768",
+      "time": "2025-01-27T07:03:04.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2768",
+      "text": "Care API URL's are getting indexed in Search Engines."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2768",
+      "time": "2025-01-27T07:03:02.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2768#issuecomment-2614980250",
+      "text": "Already done"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2779",
+      "time": "2025-01-27T07:02:35.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2779#issuecomment-2614979648",
+      "text": "We recently had an architecture change in the backend and the ABDM plugins are being rewritten for the same, you can integrate with the old plugin but that would likely change in the next two weeks. \nOnce the changes are done, we will create documentation for the plugin. "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2780",
+      "time": "2025-01-27T06:59:46.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2780#issuecomment-2614975947",
+      "text": "Marketing content will not be maintained in care, a separate plugin can be built for the same outside of care, as care will remain solely as a tool for EMR and HMIS/HIS"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2781",
+      "time": "2025-01-27T06:48:49.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2781#issuecomment-2614962884",
+      "text": "AI based features will not be added into the core functionality of care, they can be created as plugins. Scribe is our version of this, please move this feature into that repo. cc @shivankacker "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2782",
@@ -13020,7 +13055,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/6",
       "title": "[CEP-4] RBAC: initial spec",
-      "stale_for": 115,
+      "stale_for": 116,
       "labels": []
     }
   ],
