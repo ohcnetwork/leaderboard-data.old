@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-27T12:49:16.000Z",
+  "last_updated": "2025-01-27T21:02:52.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-23T23:42:48.000Z",
+      "title": "ohcnetwork/care_fe#10100",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10100#pullrequestreview-2571262868",
+      "text": "Fixed the inconsistent TimeSlot Width in Appointment Page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10172",
+      "time": "2025-01-27T20:47:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10172#issuecomment-2616858555",
+      "text": "> DESKTOP ![image](https://private-user-images.githubusercontent.com/150310085/406801426-3918a23a-fee0-461a-86b4-7f18c90d8622.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzgwMTA5OTEsIm5iZiI6MTczODAxMDY5MSwicGF0aCI6Ii8xNTAzMTAwODUvNDA2ODAxNDI2LTM5MThhMjNhLWZlZTAtNDYxYS04NmI0LTdmMThjOTBkODYyMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEyN1QyMDQ0NTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04NDc0ZmU5Y2U0OTlmMDZjMGI2YTVhOWE5NzRmZGVkODk0MmM0MTQ1MGYxYzRhNGExYTk2NzAwZmM5ZDIzYTRjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.JBxpHb2YnfpUW2D5u5KwuwNu3z1NsjEWzLTSkMOOuDU)\r\n> \r\n> MOBILE ![image](https://private-user-images.githubusercontent.com/150310085/406801433-de1c605f-66fb-4af7-9587-14b35c45cc97.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzgwMTA5OTEsIm5iZiI6MTczODAxMDY5MSwicGF0aCI6Ii8xNTAzMTAwODUvNDA2ODAxNDMzLWRlMWM2MDVmLTY2ZmItNGFmNy05NTg3LTE0YjM1YzQ1Y2M5Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEyN1QyMDQ0NTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yMzM3OTA5MzY2MmJhYTEwNGIxNzFkYTc1MmUxM2I0NWM3MWU0MGZiYTJiZjAzMzBmNWU3YWJkNmI4OWVmYzUyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.wHwwTVE9yLigcs-3CO5QbQXp5T5febczZmgjDjTz7vk) does this look good? @Jacobjeevan\r\n\r\naravindtestnurse is cutoff in the first image, but seems fine otherwise. Commit the changes though, only then can we test and confirm."
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-27T04:25:06.000Z",
@@ -226,13 +240,6 @@
       "title": "ohcnetwork/care_fe#10112",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10112#pullrequestreview-2571274706",
       "text": "Fix : Date field overflow in exception form in mobile view"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-23T23:42:48.000Z",
-      "title": "ohcnetwork/care_fe#10100",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10100#pullrequestreview-2571262868",
-      "text": "Fixed the inconsistent TimeSlot Width in Appointment Page"
     },
     {
       "type": "pr_opened",
@@ -5399,15 +5406,6 @@
     }
   ],
   "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10205",
-      "title": "Confirm Alert for Patient Registration",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested"
-      ]
-    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10121",
       "title": "Patient Detail Tabs: Org List Access",
