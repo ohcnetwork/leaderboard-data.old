@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-01-25T02:50:24.000Z",
+  "last_updated": "2025-01-27T16:35:12.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2784",
+      "time": "2025-01-27T16:35:12.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2784",
+      "text": "Username filter in facility organization"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9866",
+      "time": "2025-01-27T16:25:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9866#issuecomment-2616277337",
+      "text": "@Jacobjeevan due to the merging of PR #9935 , the issue related to creation of resource now solved.\n\nFor further enhancement i want to do the following changes.\n\n- Replace deprecated form components with shadcn ui components\n- Instead of facility ID , facilityname should be visible in breadcrumps\n\n![Image](https://github.com/user-attachments/assets/aa1025ed-9651-4432-a1c5-5620a15cc318)\nExpected\n\n![Image](https://github.com/user-attachments/assets/7065309c-1a3f-4a21-82ac-fc0c976f0105)\n\n- Instead of patient id , we can show patient name and add a link\n- Expected:\n\n![Image](https://github.com/user-attachments/assets/6606df80-d20d-4a96-9c72-3c7d339c9384)"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10218",
+      "time": "2025-01-27T16:25:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10218",
+      "text": "Minor fixes in resource creation form"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10146",
@@ -1562,15 +1583,32 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10166",
-      "title": "Fix: Facility Creation Form: Pincode Autofill Overwrites Pre-filled Geographic Data & Added Similar Approach in User Creation Form",
+      "link": "https://github.com/ohcnetwork/care/pull/2784",
+      "title": "Username filter in facility organization",
       "stale_for": 0,
       "labels": []
     },
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10218",
+      "title": "Minor fixes in resource creation form",
+      "stale_for": 0,
+      "labels": [
+        "Deploy-Failed"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10166",
+      "title": "Fix: Facility Creation Form: Pincode Autofill Overwrites Pre-filled Geographic Data & Added Similar Approach in User Creation Form",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "tested"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10146",
       "title": "Fix: Add fallback url for goback() | OTP field auto focus | Add Search Feature for users",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": [
         "question",
         "needs-triage"
