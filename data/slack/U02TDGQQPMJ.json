@@ -34068,5 +34068,305 @@
                 }
             ]
         }
+    ],
+    "2025-01-28 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1738072756.577189",
+            "client_msg_id": "78535657-d0b5-4cc2-8a4d-affe486bc990",
+            "text": "*28th Jan*\n\n\u2022 Played 3 rounds of UNO at office with <@U02TB8XHZD1> and <@U01JB8L8P7Y> \n\u2022 Done with medicine administrations migrations and few optimisations. <https://github.com/ohcnetwork/care/pull/2763/commits/d43b7ed88c01f30ed404559532afe4adfd250814|d43b7ed>\n\u2022 Followed up on few fixes in Phone Input migration PR and got it merged. <https://github.com/ohcnetwork/care_fe/pull/10214|#10214>\n\u2022 Disabled dependabot in favour of renovate bot in care_fe <https://github.com/ohcnetwork/care_fe/pull/10223|#10223>\n\u2022 Removed \u2018discharge\u2019 option from medication administration category type. <https://github.com/ohcnetwork/care_fe/pull/10232|#10232>\n\u2022 Enhanced practicioner select in book appointments page <https://github.com/ohcnetwork/care_fe/pull/10236|#10236>\n\u2022 Temp. hide slot type selection dropdown until open and closed types are built. <https://github.com/ohcnetwork/care_fe/pull/10238|#10238>\n\u2022 Fix token slots not being deleted when Availability is deleted directly. <https://github.com/ohcnetwork/care/pull/2786|#2786>\n\u2022 Prevent showing patient per slots and time per patient callout if requirements are invalid. <https://github.com/ohcnetwork/care_fe/pull/10242|#10242>\n\u2022 Refactored TokenSlot button to be reusable and fixed alignments <https://github.com/ohcnetwork/care_fe/pull/10244|#10244>\n\u2022 Fixed incorrect count in appointments board columns when search is present <https://github.com/ohcnetwork/care_fe/pull/10247|#10247>\n\u2022 Fixed no-show appointments showing status change selector by removing unintended check for showing a dropdown for status change. <https://github.com/ohcnetwork/care_fe/pull/10248|#10248>\n*Next*\n\u2022 Prevent overlapping availability records from being created for a resource.\n\u2022 Prevent creating appointment availabilities with session duration not a multiple of slot size in minutes",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "rK0GT",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "28th Jan",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Played 3 rounds of UNO at office with "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U02TB8XHZD1"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " and "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U01JB8L8P7Y"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Done with medicine administrations migrations and few optimisations. "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2763/commits/d43b7ed88c01f30ed404559532afe4adfd250814",
+                                            "text": "d43b7ed"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Followed up on few fixes in Phone Input migration PR and got it merged. "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10214",
+                                            "text": "#10214",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Disabled dependabot in favour of renovate bot in care_fe "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10223",
+                                            "text": "#10223",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Removed \u2018discharge\u2019 option from medication administration category type. "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10232",
+                                            "text": "#10232",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Enhanced practicioner select in book appointments page "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10236",
+                                            "text": "#10236",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Temp. hide slot type selection dropdown until open and closed types are built. "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10238",
+                                            "text": "#10238",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fix token slots not being deleted when Availability is deleted directly. "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2786",
+                                            "text": "#2786",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Prevent showing patient per slots and time per patient callout if requirements are invalid. "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10242",
+                                            "text": "#10242",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Refactored TokenSlot button to be reusable and fixed alignments "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10244",
+                                            "text": "#10244",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed incorrect count in appointments board columns when search is present "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10247",
+                                            "text": "#10247",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed no-show appointments showing status change selector by removing unintended check for showing a dropdown for status change. "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10248",
+                                            "text": "#10248",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Prevent overlapping availability records from being created for a resource."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Prevent creating appointment availabilities with session duration not a multiple of slot size in minutes"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U06L50QL1AQ",
+                        "UC8TSEGCQ",
+                        "U0168MBTGL8",
+                        "U02TB83Q5V0",
+                        "U07NXCASM89"
+                    ],
+                    "count": 5
+                },
+                {
+                    "name": "black_joker",
+                    "users": [
+                        "UC8TSEGCQ",
+                        "U02TB83Q5V0",
+                        "U07NGSB2MUP",
+                        "U07NXCASM89"
+                    ],
+                    "count": 4
+                }
+            ]
+        }
     ]
 }
