@@ -1,6 +1,56 @@
 {
-  "last_updated": "2025-01-28T15:42:03.000Z",
+  "last_updated": "2025-01-29T07:48:51.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-29T07:48:51.000Z",
+      "title": "ohcnetwork/care_fe#10230",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10230#pullrequestreview-2580233525",
+      "text": "Fix: Resource Letter printing issue "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10218",
+      "time": "2025-01-29T06:29:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10218#issuecomment-2620818602",
+      "text": "LGTM, but which deprecated components are being replaced 🤔 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-29T06:28:23.000Z",
+      "title": "ohcnetwork/care_fe#10218",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10218#pullrequestreview-2580117399",
+      "text": "Minor fixes in resource creation form"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-28T04:02:16.000Z",
+      "title": "ohcnetwork/care_fe#10104",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10104#pullrequestreview-2577029103",
+      "text": "Fix: Facility Organization Dropdown"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-29T05:14:53.000Z",
+      "title": "ohcnetwork/care_fe#10200",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10200#pullrequestreview-2580009280",
+      "text": "Fix: UI Issues in Data Fetch Scroll, Text Area Overflow, and User Profile Navigation in notes tab"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-29T04:59:38.000Z",
+      "title": "ohcnetwork/care_fe#10217",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10217#pullrequestreview-2579996519",
+      "text": "Fix the multiple Care Icon in smaller Screen for Patient View"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10260",
+      "time": "2025-01-29T00:18:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10260",
+      "text": "Patient Age and Facility Location Edits",
+      "turnaround_time": 30968
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10260",
@@ -43,13 +93,6 @@
       "title": "ohcnetwork/care_fe#10146",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10146#pullrequestreview-2577038789",
       "text": "Fix: Add fallback url for goback() | OTP field auto focus | Add Search Feature for users"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-28T04:02:16.000Z",
-      "title": "ohcnetwork/care_fe#10104",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10104#pullrequestreview-2577029103",
-      "text": "Fix: Facility Organization Dropdown"
     },
     {
       "type": "pr_reviewed",
@@ -5457,18 +5500,23 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10121",
-      "title": "Patient Detail Tabs: Org List Access",
+      "link": "https://github.com/ohcnetwork/care/pull/2792",
+      "title": "Override Dob Or Age for Patients",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10280",
+      "title": "Dob/Age and Lat/Log Override",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "waiting for backend"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2767",
       "title": "Alt phone number and qualificationspec",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     }
   ],
