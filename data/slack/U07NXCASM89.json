@@ -5095,5 +5095,115 @@
                 }
             ]
         }
+    ],
+    "2025-01-29 00:00:00": [
+        {
+            "user": "U07NXCASM89",
+            "type": "message",
+            "ts": "1738121867.569449",
+            "edited": {
+                "user": "U07NXCASM89",
+                "ts": "1738121914.000000"
+            },
+            "client_msg_id": "3424c82a-89a2-4377-ae27-f07e4a30bae2",
+            "text": "Jan 27-28\ndone\n\u2022 reviewed prs\n\u2022 confirm alert for patient registration + minor fix for duplicate patient flow + minor edits to existing prs\n\u2022 patient registration pre-fill age + minor fix for facility form lat/long pre-fill + other minor stuff\ncurrent/next\n\u2022 trying to figure out user permissions (facility org users vs org users)\n\u2022 patient registration and facility form override (clearing out existing lat/long, overriding existing dob with age).",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Yx+N3",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Jan 27-28\ndone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "reviewed prs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "confirm alert for patient registration + minor fix for duplicate patient flow + minor edits to existing prs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "patient registration pre-fill age + minor fix for facility form lat/long pre-fill + other minor stuff"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "current/next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "trying to figure out user permissions (facility org users vs org users)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "patient registration and facility form override (clearing out existing lat/long, overriding existing dob with age)."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U02TDGQQPMJ"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }

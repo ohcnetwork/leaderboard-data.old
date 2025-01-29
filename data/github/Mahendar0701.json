@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-01-28T13:56:18.000Z",
+  "last_updated": "2025-01-28T17:29:01.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10264",
+      "time": "2025-01-28T17:29:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10264",
+      "text": "added translations in encounter page and minor fixes in patient registration form"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10233",
+      "time": "2025-01-28T17:23:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10233#issuecomment-2619625992",
+      "text": "@nihal467 \nAlso handling incorrect height of country button in mobile view\n\nNow :\n\n![Image](https://github.com/user-attachments/assets/68794d95-1140-4143-9aa8-acffd87fa8cb)\n\nExpected:\n\n![Image](https://github.com/user-attachments/assets/f01c0615-b53f-4201-b126-2c52d4d8899e)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10262",
+      "time": "2025-01-28T16:38:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10262#issuecomment-2619516157",
+      "text": "(2) is handled in https://github.com/ohcnetwork/care_fe/issues/10233"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10233",
@@ -1403,7 +1424,8 @@
       "stale_for": 0,
       "labels": [
         "invalid",
-        "changes required"
+        "changes required",
+        "Deploy-Failed"
       ]
     },
     {
@@ -1417,7 +1439,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10213",
       "title": "Cropping uploaded pic in avatar update",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],
