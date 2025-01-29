@@ -1,12 +1,12 @@
 ---
 name: Nikhila C
-title: Contributor
+title: Intern
 github: NikhilA8606
 twitter: ""
 linkedin: ""
-slack: ""
+slack: U083HFWFESD
 joining_date: ""
-role : contributor
+role : intern
 ---
 
 Still waiting for this
