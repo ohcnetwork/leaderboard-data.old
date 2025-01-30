@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-29T06:34:54.000Z",
+  "last_updated": "2025-01-29T14:48:57.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10272",
+      "time": "2025-01-29T14:48:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10272#issuecomment-2621864037",
+      "text": "@rithviknishad @Jacobjeevan can you review this PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2784",
+      "time": "2025-01-29T14:43:33.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2784#issuecomment-2621850234",
+      "text": "@rithviknishad username filtering test cases for other entities are not present in entire codebase. \nShould i need to write test cases for username filtering for facility organization users?? because we dont have test cases for username filtering anywhere\n\nCorrect me if i am wrong and also can you please guide me on how to write test cases in backend if i need to write test cases."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10218",
@@ -1636,7 +1650,10 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/10272",
       "title": "Fix: Pincode autofill in Patient Registration page in public page",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10218",
