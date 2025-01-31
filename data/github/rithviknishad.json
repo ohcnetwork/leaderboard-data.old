@@ -1,6 +1,91 @@
 {
-  "last_updated": "2025-01-30T08:04:59.000Z",
+  "last_updated": "2025-01-30T14:18:35.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10294",
+      "time": "2025-01-30T14:18:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10294",
+      "text": "fix responsiveness of date field and gender in public patient registration form"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10099",
+      "time": "2025-01-30T14:00:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10099#issuecomment-2624596162",
+      "text": "in order to do this, we'll first need to support multiple dosage instruction per patient"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10265",
+      "time": "2025-01-30T13:57:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10265",
+      "text": "Chnages in Comment Section In Resource Request Details Page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10284",
+      "time": "2025-01-30T13:56:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10284#issuecomment-2624586047",
+      "text": "A Terminology Server is a system that provides standardized medical codes (e.g., SNOMED CT, LOINC, ICD-10) to ensure consistency in clinical documentation and interoperability across healthcare systems.\n\nWe do not plan to support adding free-form text for symptoms or medications, as almost everything is covered by SNOMED CT.\n\nHowever, we recognize the need for flexibility, so we will be adding support for custom value sets for symptoms, diagnoses, and other fields in a future version."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10284",
+      "time": "2025-01-30T13:56:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10284",
+      "text": "Symptoms and medicine select drop-down with provision to accept new its"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10292",
+      "time": "2025-01-30T13:04:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10292",
+      "text": "Update theme color; update icons; remove unused assets",
+      "turnaround_time": 292
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10292",
+      "time": "2025-01-30T12:59:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10292",
+      "text": "Update theme color; update icons; remove unused assets"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-30T12:41:25.000Z",
+      "title": "ohcnetwork/care_fe#10287",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10287#pullrequestreview-2583796266",
+      "text": "patient registration in multiple combination"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10272",
+      "time": "2025-01-30T11:32:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10272#issuecomment-2624241627",
+      "text": "https://github.com/ohcnetwork/care_fe/pull/10291"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10291",
+      "time": "2025-01-30T11:30:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10291",
+      "text": "Remove pin-code autofill feature"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10254",
+      "time": "2025-01-30T11:24:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10254#issuecomment-2624225790",
+      "text": "We have decided to remove pincode auto fill as it's not useful"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10254",
+      "time": "2025-01-30T11:24:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10254",
+      "text": "Add autofill feature for states and districts on entering pincode in patient registration form in public page"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2795",
@@ -58814,16 +58899,31 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10336",
+      "title": "Make autocompletes mobile friendly",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10294",
       "title": "fix responsiveness of date field and gender in public patient registration form",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10291",
       "title": "Remove pin-code autofill feature",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2795",
@@ -58835,9 +58935,7 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9920",
       "title": "Switch to `@tanstack/react-router`",
       "stale_for": 0,
-      "labels": [
-        "stale"
-      ]
+      "labels": []
     }
   ],
   "authored_issue_and_pr": [
