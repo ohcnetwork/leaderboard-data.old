@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-01-29T11:29:42.000Z",
+  "last_updated": "2025-01-30T06:53:59.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10220",
+      "time": "2025-01-30T06:53:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10220#issuecomment-2623657635",
+      "text": "> > > Hmm, let's not do this - on first load of any query, the feedback is not immediate (as supposed to with the skeleton loaders) so it looks off.\n> > \n> > for the first load skeleton loaders are displayed as `isLoading` is true, else it is false once data is fetched/refetched. Please check deployed Preview i have handled that case.\n> \n> To clarify; I meant the first time it fetches the data (navigating to 2nd page, for example, fetches the data because the data isn't available in cache). If you go to page 1 and then navigate back to page 2, there's no fetching as data is cached.\n> \n> I've checked the preview - to illustrate my point, check the recording you posted above, when you go from page 1 to 2 the first time, skeleton loader won't be triggered as there's placeholder data (page 1).\n\nbut that's what the issue was about, even when it is fetching the data for first time for page 2, it shows data for page 1 (as placeholder) and no switching between skeletons and pages back and forth\n- show skeletons only when none of the page is fetched\nI thought @rithviknishad got that.\nbut it's okay if that was not the desired UI😊"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10220",
+      "time": "2025-01-30T05:29:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10220#issuecomment-2623553138",
+      "text": "> Hmm, let's not do this - on first load of any query, the feedback is not immediate (as supposed to with the skeleton loaders) so it looks off.\n\nfor the first load skeleton loaders are displayed as `isLoading` is true, else it is false once data is fetched."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10273",
+      "time": "2025-01-30T04:59:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10273#issuecomment-2623522580",
+      "text": "Can we migrate to `useQuery` in PaginatedList.tsx?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10269",

@@ -1,6 +1,21 @@
 {
-  "last_updated": "2025-01-29T11:40:40.000Z",
+  "last_updated": "2025-01-30T09:27:40.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10288",
+      "time": "2025-01-30T09:27:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10288",
+      "text": "Fix: Same value can be selected multiple times in Questions Components "
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10054",
+      "time": "2025-01-30T05:21:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10054",
+      "text": " Add Real-Time Validation for `CreateUserForm` and Standardize UI Across Forms",
+      "turnaround_time": 935934
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#10092",
@@ -3058,11 +3073,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10318",
+      "title": "Fix: View Facility Redirection in public page is broken",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10230",
       "title": "Fix: Resource Letter printing issue ",
       "stale_for": 0,
       "labels": [
-        "changes required",
+        "needs testing",
+        "needs review",
         "Deploy-Failed"
       ]
     }

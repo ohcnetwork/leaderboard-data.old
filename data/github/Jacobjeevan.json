@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-01-29T12:33:58.000Z",
+  "last_updated": "2025-01-30T06:08:57.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10220",
+      "time": "2025-01-30T06:08:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10220#issuecomment-2623597856",
+      "text": "> > Hmm, let's not do this - on first load of any query, the feedback is not immediate (as supposed to with the skeleton loaders) so it looks off.\n> \n> for the first load skeleton loaders are displayed as `isLoading` is true, else it is false once data is fetched/refetched. Please check deployed Preview i have handled that case.\n\nTo clarify; I meant the first time it fetches the data (navigates to 2nd page for example, fetches the data because it's the first time that data would be cached). If you go to page 1 and then navigate back to page 2, there's no fetching as data would be cached.\n\nI've checked the preview - to illustrate my point, check the recording you posted above, when you go from page 1 to 2, skeleton loader won't be triggered as there's placeholder data."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-30T06:03:45.000Z",
+      "title": "ohcnetwork/care_fe#10272",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10272#pullrequestreview-2582984513",
+      "text": "Fix: Pincode autofill in Patient Registration page in public page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-30T05:19:41.000Z",
+      "title": "ohcnetwork/care_fe#10219",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10219#pullrequestreview-2582935671",
+      "text": "Fix : Cancelled requests in appointments page and Remove files button from actions"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10273",
+      "time": "2025-01-30T05:14:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10273#issuecomment-2623536170",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/10220#issuecomment-2623535953"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10220",
+      "time": "2025-01-30T05:13:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10220#issuecomment-2623535953",
+      "text": "Hmm, let's not do this - on first load of any query, the feedback is not immediate (as supposed to with the skeleton loaders) so it looks off. "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10220",
+      "time": "2025-01-30T05:13:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10220",
+      "text": "Optimize Pagination Queries and Avoid Redundant API Calls"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-28T05:28:47.000Z",
+      "title": "ohcnetwork/care_fe#10156",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10156#pullrequestreview-2577100252",
+      "text": "Enhancements to Encounter Discussion/Notes | Fix Translation"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10285",
+      "time": "2025-01-30T04:36:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10285",
+      "text": "Rework Resources Page"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2792",
@@ -93,13 +149,6 @@
       "title": "ohcnetwork/care_fe#10251",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10251#pullrequestreview-2578407715",
       "text": "Disable Unnecessary Browser Pop-up on Patient Registration Form"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-28T05:28:47.000Z",
-      "title": "ohcnetwork/care_fe#10156",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10156#pullrequestreview-2577100252",
-      "text": "Enhancements to Encounter Discussion/Notes | Fix Translation"
     },
     {
       "type": "pr_merged",
@@ -5529,11 +5578,26 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10280",
-      "title": "Dob/Age and Lat/Log Override",
-      "stale_for": 1,
+      "link": "https://github.com/ohcnetwork/care/pull/2799",
+      "title": "Resource requests: added status, cat and title filters",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10308",
+      "title": "Resources redesign",
+      "stale_for": 0,
       "labels": [
         "waiting for backend"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10280",
+      "title": "Dob/Age and Lat/Log Override",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
       ]
     },
     {
