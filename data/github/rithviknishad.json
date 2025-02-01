@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-02-01T02:08:21.000Z",
+  "last_updated": "2025-02-01T04:45:58.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-29T01:47:16.000Z",
+      "title": "ohcnetwork/care_fe#10264",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10264#pullrequestreview-2579763672",
+      "text": "Added translations in encounter page and minor fixes in patient registration form"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#8736",
+      "time": "2025-02-01T04:36:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8736",
+      "text": "Improve Developer Experience for i18n Configuration"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9820",
+      "time": "2025-02-01T04:36:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9820",
+      "text": "Add type safety for i18next's T Function"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9921",
+      "time": "2025-02-01T04:35:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9921",
+      "text": "Resource csv showing `[object Object]` error"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10348",
+      "time": "2025-02-01T04:31:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10348",
+      "text": "Cleanup: Remove unused dependencies and components"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10347",
+      "time": "2025-02-01T04:30:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10347",
+      "text": "Update lint check CI to scan for unused files / dependencies / etc."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-01T04:00:17.000Z",
+      "title": "ohcnetwork/care_fe#10346",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10346#pullrequestreview-2588230567",
+      "text": "Update all dependencies (minor, patch)"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-01-31T17:47:01.000Z",
@@ -387,13 +436,6 @@
       "title": "ohcnetwork/care_fe#10166",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10166#pullrequestreview-2579785096",
       "text": "Fix: Facility Creation Form: Pincode Autofill Overwrites Pre-filled Geographic Data & Added Similar Approach in User Creation Form"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-29T01:47:16.000Z",
-      "title": "ohcnetwork/care_fe#10264",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10264#pullrequestreview-2579763672",
-      "text": "Added translations in encounter page and minor fixes in patient registration form"
     },
     {
       "type": "issue_closed",
@@ -58977,6 +59019,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10348",
+      "title": "Cleanup: Remove unused dependencies and components",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2795",
       "title": "Disallow creating availabilities of duration not multiple of slot size duration; Prevent overlapping availability creation",
       "stale_for": 1,
@@ -58986,7 +59034,9 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/9920",
       "title": "Switch to `@tanstack/react-router`",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "merge conflict"
+      ]
     }
   ],
   "authored_issue_and_pr": [
