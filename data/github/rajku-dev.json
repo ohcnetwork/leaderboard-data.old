@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-30T06:53:59.000Z",
+  "last_updated": "2025-01-31T21:49:00.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10156",
+      "time": "2025-01-31T21:49:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10156#issuecomment-2628457496",
+      "text": "this looks better, trimmed down the ago from relative time\r\n![image](https://github.com/user-attachments/assets/ec26c567-37c0-4686-8d4d-38259432078a)\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10220",
@@ -2217,14 +2224,6 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10326",
-      "title": "Fix Camera Capture and Upload Workflow",
-      "stale_for": 0,
-      "labels": [
-        "changes required"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10172",
       "title": "Fix `PatientUsers` card overflow and Remove-button background",
       "stale_for": 0,
@@ -2238,12 +2237,16 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/10156",
       "title": "Enhancements to Encounter Discussion/Notes | Fix Translation",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review",
+        "merge conflict"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/608",
       "title": "Add support for `pullHistoricalGitHubActivites` to fetch discussions",
-      "stale_for": 13,
+      "stale_for": 14,
       "labels": []
     },
     {
