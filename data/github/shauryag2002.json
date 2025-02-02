@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-26T11:58:07.000Z",
+  "last_updated": "2025-02-01T19:51:27.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard#609",
+      "time": "2025-02-01T19:51:27.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/609",
+      "text": "Added Filter Events In Feed Page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#424",
+      "time": "2025-02-01T19:34:51.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/424#issuecomment-2629083116",
+      "text": "\nHi @rithviknishad,\n\nI've implemented the events feed filter with a focus on client-side filtering. Here's how it works:\n\n## Current Approach\n1. **Data Fetching**\n   - We fetch all events from GitHub's organization events API (`/orgs/{org}/events`)\n   - Repository names are fetched using GitHub's GraphQL API with pagination:\n     ```graphql\n     query paginate($cursor: String, $organization: String!) {\n       organization(login: $organization) {\n         repositories(\n           first: 10,\n           after: $cursor,\n           orderBy: { field: STARGAZERS, direction: DESC }\n         ) {\n           nodes { name }\n           pageInfo {\n             hasNextPage\n             endCursor\n           }\n         }\n       }\n     }\n     ```\n   - The repositories are sorted by stargazers count for relevance\n   - Pagination ensures we get all repositories, not just the first few\n\n2. **Client-Side Filtering**\n   - All filtering happens on the client for better UX and responsiveness\n   - Repository names are cached after fetching for quick filtering\n   - Event types are predefined and filtered in real-time\n\n## Key Features\n1. **Repository Filtering**\n   - Typeahead search for repositories\n   - Multiple repository selection\n   - Shows selected repos as tags with clear options\n   - Keyboard navigation support\n   - Paginated repository fetching for organizations with many repos\n\n2. **Event Type Filtering**\n   - Checkbox-based event type selection\n   - Select/Deselect all option\n   - Preserves filter state during session"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10201",
@@ -615,10 +629,19 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10200",
-      "title": "Fix: UI Issues in Data Fetch Scroll, Text Area Overflow, and User Profile Navigation in notes tab",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/609",
+      "title": "Added Filter Events In Feed Page",
       "stale_for": 0,
       "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10200",
+      "title": "Fix: UI Issues in Data Fetch Scroll, Text Area Overflow, and User Profile Navigation in notes tab",
+      "stale_for": 3,
+      "labels": [
+        "changes required",
+        "merge conflict"
+      ]
     }
   ],
   "authored_issue_and_pr": [
