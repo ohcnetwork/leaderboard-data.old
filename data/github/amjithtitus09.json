@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-01-30T11:10:44.000Z",
+  "last_updated": "2025-02-03T11:30:24.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-03T11:30:24.000Z",
+      "title": "ohcnetwork/care_fe#10348",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10348#pullrequestreview-2589595212",
+      "text": "Cleanup: Remove unused dependencies and components"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10289",
+      "time": "2025-02-03T10:48:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10289#issuecomment-2630593017",
+      "text": "@nihal467 Have added the following.\r\n1. Necessary validations for time\r\n2. Prevent scrolling beyond medicine prescription authored timeslots.\r\n3. Fix for notes update\r\n4. Removed discontinue button if already discontinued\r\n\r\n**Skipped**\r\n1. Medicine Duplication - Will be fixed when support for multiple dosage instructions is added in Medicine Request \r\n2. Mobile UI - Working now, will be enhanced later\r\n3. Options to Collapse - Average max would be around 3 per slot (considering once in 2 hours), so skipping it.\r\n4. Administrations not showing up - Cannot be replicated, please recheck if it exists."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10289",
@@ -681,8 +695,7 @@
       "title": "Medicine administration UI",
       "stale_for": 0,
       "labels": [
-        "test failed",
-        "merge conflict"
+        "changes required"
       ]
     }
   ],

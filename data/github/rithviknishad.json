@@ -1,6 +1,93 @@
 {
-  "last_updated": "2025-02-03T08:31:27.000Z",
+  "last_updated": "2025-02-03T13:57:45.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-01T16:01:29.000Z",
+      "title": "ohcnetwork/care_fe#10350",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10350#pullrequestreview-2588358579",
+      "text": "Migrate `PaginatedList` to useQuery"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10349",
+      "time": "2025-02-03T12:30:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10349#issuecomment-2630815227",
+      "text": "@nihal467 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10351",
+      "time": "2025-02-03T12:09:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10351#issuecomment-2630769337",
+      "text": "@nihal467 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10349",
+      "time": "2025-02-03T12:08:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10349",
+      "text": "Feat: Add E2E tests for Booking Appointments by a patient"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10348",
+      "time": "2025-02-03T12:07:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10348",
+      "text": "Cleanup: Remove unused dependencies and components",
+      "turnaround_time": 200165
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10370",
+      "time": "2025-02-03T11:50:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10370",
+      "text": "Staging Patch: Fix setting time on datetime question causing duplicates",
+      "turnaround_time": 963
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10369",
+      "time": "2025-02-03T11:50:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10369",
+      "text": "Fix DateTimeQuestion response update logic from creating duplicates",
+      "turnaround_time": 1209
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10370",
+      "time": "2025-02-03T11:34:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10370",
+      "text": "Rithviknishad/staging patch/datetime question causing duplicates"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10369",
+      "time": "2025-02-03T11:30:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10369",
+      "text": "Fix DateTimeQuestion response update logic from creating duplicates"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10297",
+      "time": "2025-02-03T11:10:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10297#issuecomment-2630641640",
+      "text": "> Got it! But the concern is regarding completed ones if the green bar only shows on hover, it might not be good. (For live encounters, we could mark them with red for better emphasis, while keeping completed ones consistently green.)\n\nI agree with the issue you've described for hover. But not sure about the colors. @vinutv thoughts?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-03T11:08:19.000Z",
+      "title": "ohcnetwork/care_fe#10366",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10366#pullrequestreview-2589588229",
+      "text": "Fix : User Detail Responsiveness "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-03T09:29:57.000Z",
+      "title": "ohcnetwork/care_fe#10352",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10352#pullrequestreview-2589350073",
+      "text": "Replace Deprecated `request`"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10218",
@@ -35,13 +122,6 @@
       "title": "ohcnetwork/care_fe#10264",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10264#pullrequestreview-2579763672",
       "text": "Added translations in encounter page and minor fixes in patient registration form"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-01T16:01:29.000Z",
-      "title": "ohcnetwork/care_fe#10350",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10350#pullrequestreview-2588358579",
-      "text": "Migrate `PaginatedList` to useQuery"
     },
     {
       "type": "pr_reviewed",
@@ -59090,27 +59170,10 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10348",
-      "title": "Cleanup: Remove unused dependencies and components",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care/pull/2795",
       "title": "Disallow creating availabilities of duration not multiple of slot size duration; Prevent overlapping availability creation",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/9920",
-      "title": "Switch to `@tanstack/react-router`",
-      "stale_for": 2,
-      "labels": [
-        "merge conflict"
-      ]
     }
   ],
   "authored_issue_and_pr": [

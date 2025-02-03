@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-02-02T05:58:51.000Z",
+  "last_updated": "2025-02-03T13:28:58.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10156",
+      "time": "2025-02-03T13:28:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10156#issuecomment-2631010076",
+      "text": "> ![image](https://github.com/user-attachments/assets/fa846697-a122-4c5a-850a-16a053423b2c)\n> \n> - [ ] After 14 messages, the page keeps refreshing when users scroll, preventing them from loading additional content. This issue occurs because infinite scroll is not supported.\n> \n> @rajku-dev try to solve the above issue ASAP, as it already exist in our develop version as well\n\nSure, I have tried solving it, can you check it once more\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10350",
@@ -2263,7 +2270,8 @@
       "title": "Migration to useQuery: Removed `PaginatedList.tsx` and Update Dependent Components",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     },
     {
@@ -2279,14 +2287,13 @@
       "title": "Enhancements to Encounter Discussion/Notes | Fix Translation",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "changes required"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/608",
       "title": "Add support for `pullHistoricalGitHubActivites` to fetch discussions",
-      "stale_for": 16,
+      "stale_for": 17,
       "labels": []
     },
     {
