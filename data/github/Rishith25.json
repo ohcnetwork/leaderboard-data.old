@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-02T16:07:16.000Z",
+  "last_updated": "2025-02-03T08:57:15.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10146",
+      "time": "2025-02-03T08:57:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10146#issuecomment-2630330256",
+      "text": "> @Rishith25 what is the status on this PR\r\n\r\n@nihal467 I have to write test case for this functionality in the backend.\r\nI have requested @rithviknishad to guide me how to write the test cases for username searching as we don't have test cases for that in backend"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10218",
+      "time": "2025-02-03T08:54:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10218#issuecomment-2630324591",
+      "text": "> Made the changes?\r\n\r\n@rithviknishad the changes requested by nihal are done"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10218",
@@ -1671,11 +1685,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10146",
       "title": "Fix: Add fallback url for goback() | OTP field auto focus | Add Search Feature for users",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
+        "question",
         "waiting for backend",
         "Deploy-Failed",
-        "merge conflict"
+        "merge conflict",
+        "needs-triage"
       ]
     }
   ],

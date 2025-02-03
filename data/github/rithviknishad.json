@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-02T16:40:00.000Z",
+  "last_updated": "2025-02-03T08:31:27.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10218",
+      "time": "2025-02-03T08:31:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10218#issuecomment-2630277313",
+      "text": "Made the changes?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-03T06:15:10.000Z",
+      "title": "ohcnetwork/care_fe#10364",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10364#pullrequestreview-2588983547",
+      "text": "Migrated all old components in ResourceDetailsUpdate to ShadCN compon…"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10362",
@@ -59078,8 +59092,11 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10348",
       "title": "Cleanup: Remove unused dependencies and components",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2795",
@@ -59090,7 +59107,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9920",
       "title": "Switch to `@tanstack/react-router`",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "merge conflict"
       ]
