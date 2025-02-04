@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-02-03T13:28:58.000Z",
+  "last_updated": "2025-02-03T23:56:52.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10350",
+      "time": "2025-02-03T23:56:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10350#issuecomment-2632443087",
+      "text": "> The limits on each page seem like random 🤔 Let's use RESULTS_PER_PAGE_LIMIT from constants instead (maybe have EncounterHistory as the exception here).\r\n> \r\n> Otherwise LGTM.\r\n\r\nmade the changes as requested."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10156",
@@ -2270,8 +2277,7 @@
       "title": "Migration to useQuery: Removed `PaginatedList.tsx` and Update Dependent Components",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs testing"
       ]
     },
     {
@@ -2299,19 +2305,19 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/604",
       "title": "Enable Calendar to Display Data from the Past Three Years",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/602",
       "title": "Add support for tracking commits pushed to branch (Forked)",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/601",
       "title": "Add support for tracking commits pushed to branch (core)",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": []
     }
   ],
