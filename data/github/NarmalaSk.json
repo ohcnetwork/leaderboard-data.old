@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-01-04T14:45:00.000Z",
+  "last_updated": "2025-02-03T17:20:00.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/teleicu_middleware#34",
+      "time": "2025-02-03T17:20:00.000Z",
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/issues/34#issuecomment-2631610553",
+      "text": "@sainak for this solution according to the architecture we should mointor nginx reverse proxy at 8080 if the response failed ,then make a ssh tunnel to what rstp web server or sql or vitals\n\nAnd need a bash script or typescript\n\n![Image](https://github.com/user-attachments/assets/54588ee9-089d-48bc-9969-b1fd6505ca0c)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/teleicu_middleware#149",
@@ -58,6 +65,13 @@
       "text": "Issue is open right"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/149",
+      "title": "Automation of adding issues to project",
+      "stale_for": 30,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }

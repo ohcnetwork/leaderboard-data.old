@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-03T14:09:12.000Z",
+  "last_updated": "2025-02-03T18:58:30.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10379",
+      "time": "2025-02-03T18:58:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10379",
+      "text": "fix: improved tablet view responsiveness"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10361",
+      "time": "2025-02-03T15:43:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10361#issuecomment-2631370886",
+      "text": "@rithviknishad I think it is a state management issue as when I am continuously changing values, it is showing anonymous behavior. Sometimes the wrong value is getting replaced by the random values between 1-31 for days and 1-12 for months. There may be some other issue also which I am missing. I am working on it.\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10362",
@@ -472,7 +486,14 @@
       "text": "Sign up page for authenticate a new user"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10379",
+      "title": "fix: improved tablet view responsiveness",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9461",
