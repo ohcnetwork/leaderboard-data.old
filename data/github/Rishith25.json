@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-04T04:02:07.000Z",
+  "last_updated": "2025-02-05T02:15:36.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10146",
+      "time": "2025-02-05T02:15:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10146#issuecomment-2635549314",
+      "text": "> @Rishith25 fix the deploy failure and the cypress tests, lets get the frontend merged, you can do the username filter asynchronously.\r\n\r\nResolved the merge conflicts and deploy is now successful "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10402",
+      "time": "2025-02-05T01:52:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10402",
+      "text": "Fix: Resource filters in mobile view"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10381",
@@ -1703,9 +1717,17 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10402",
+      "title": "Fix: Resource filters in mobile view",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10218",
       "title": "Minor fixes in resource creation form",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "changes required"
       ]
@@ -1717,8 +1739,7 @@
       "labels": [
         "changes required",
         "waiting for backend",
-        "Deploy-Failed",
-        "merge conflict"
+        "Deploy-Failed"
       ]
     }
   ],

@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-02-04T19:51:54.000Z",
+  "last_updated": "2025-02-05T03:51:31.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-04T17:09:27.000Z",
+      "title": "ohcnetwork/care_fe#10283",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10283#pullrequestreview-2593520073",
+      "text": "Add Confirmation Pop-up to Prevent Accidental Exception Deletions"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10400",
+      "time": "2025-02-05T03:43:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10400#issuecomment-2635635770",
+      "text": "@Sourav6971 so the [`QuestionnaireForm`](https://github.com/ohcnetwork/care_fe/blob/develop/src/components/Questionnaire/QuestionnaireForm.tsx) component which you've edited (rendered through [`EncounterQuestionnaire`](https://github.com/ohcnetwork/care_fe/blob/develop/src/components/Patient/EncounterQuestionnaire.tsx)) is a reusable component and is being used in multiple places for slightly different use cases.\r\n\r\nIf you go to the questionnaire form these sources (see screenshot below), we should be able to remove or add questionnaires (questionnaires may or may not contain structured questions in this)\r\n\r\n<img width=\"342\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a7d11b8f-a682-4564-9593-865aea9c1901\" />\r\n\r\n\r\nHowever, if you land to the questionnaire form from one of these edit buttons (see screenshot below; these are always structured questions), we are simply reusing the questionnaire form component to show these, but remove and add option should not be present.\r\n\r\n<img width=\"823\" alt=\"image\" src=\"https://github.com/user-attachments/assets/723621c9-2109-4d96-aa2b-13f8d7ef20ef\" />\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10401",
+      "time": "2025-02-05T03:02:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10401#issuecomment-2635597167",
+      "text": "@rajku-dev can we add a lint rule to error out if there are missing i18n translations? so that the build fails if key is not found."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10395",
+      "time": "2025-02-05T03:00:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10395",
+      "text": "Text Overflow in \"Transfer in Progress\" Status on Medium View"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-05T02:59:25.000Z",
+      "title": "ohcnetwork/care_fe#10399",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10399#pullrequestreview-2594508779",
+      "text": "fix: Overflowing containers of Location Page"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10400",
@@ -21,13 +56,6 @@
       "time": "2025-02-04T18:16:14.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10397",
       "text": "Filter allergies by encounter if encounter is marked as completed"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-04T17:09:27.000Z",
-      "title": "ohcnetwork/care_fe#10283",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10283#pullrequestreview-2593520073",
-      "text": "Add Confirmation Pop-up to Prevent Accidental Exception Deletions"
     },
     {
       "type": "pr_merged",
@@ -59403,7 +59431,9 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/10407",
       "title": "Switch to tailwind v4",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "merge conflict"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10397",
