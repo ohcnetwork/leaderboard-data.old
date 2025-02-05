@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-02-04T10:04:11.000Z",
+  "last_updated": "2025-02-04T15:31:25.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10393",
+      "time": "2025-02-04T15:31:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10393#issuecomment-2634323856",
+      "text": "Taking this since I'm working on cleaning up files anyways."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10380",
+      "time": "2025-02-04T15:20:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10380#issuecomment-2634294669",
+      "text": "<img width=\"904\" alt=\"image\" src=\"https://github.com/user-attachments/assets/39c41acf-490d-4e26-ab89-ca04cf143f77\" />\r\n\r\nAddress: modify to have address, zipcode (format to include zip code as well)\r\nAdjust the casing for the geo org labels so they are capitalized case.\r\n\r\nAdd top padding and maybe adjust the font size for both of the cards (address and geo)."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-29T05:14:53.000Z",
+      "title": "ohcnetwork/care_fe#10200",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10200#pullrequestreview-2580009280",
+      "text": "Fix: UI Issues in Data Fetch Scroll, Text Area Overflow, and User Profile Navigation in notes tab"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-04T13:34:59.000Z",
+      "title": "ohcnetwork/care_fe#10390",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10390#pullrequestreview-2592869119",
+      "text": "Add lint checks to scan for un-imported files and unused packages"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10361",
+      "time": "2025-02-04T12:26:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10361#issuecomment-2633755809",
+      "text": "> > > [@rithviknishad](https://github.com/rithviknishad) I think it is a state management issue as when I am continuously changing values, it is showing anonymous behavior. Sometimes the wrong value is getting replaced by the random values between 1-31 for days and 1-12 for months. There may be some other issue also which I am missing. I am working on it.\n> > \n> > \n> > date-field is expecting user to type in 2 digit values for month (handleMonthChange doesn't change anything if there's only one digit).\n> > To fix this, you can modify the logic in handleMonthChange to pad newMonth before the conditional checks. Also given that form doesn't allow submission when month > 12 (barring the padding issue above), I don't think any additional error handling is needed.\n> > Edit: handleMonthChange is also the reason why you are able to submit the form after going back and entering 122 in the month column (month isn't changed within form value, instead submitted with previous value).\n> > Edit: The auto focus to next cell causes an issue here, hmm let me see.\n> \n> I have also tried onFocus and onInput event handlers to clear the values but it is not working.\n\nYou pad the field with an onBlur handler (below) and remove the focus behavior in handleDayChange and handleMonthChange.\n\n`const handleMonthBlur = () => {\n    if (month.length === 1 && parseInt(month) >= 1 && parseInt(month) <= 9) {\n      const paddedMonth = month.padStart(2, \"0\");\n      setMonth(paddedMonth);\n      if (isValidDate(year, paddedMonth, day) && onChange) {\n        const updatedDate = new Date(\n          parseInt(year),\n          parseInt(paddedMonth) - 1,\n          parseInt(day),\n        );\n        onChange(updatedDate);\n      }\n    }\n  };\n`"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10361",
+      "time": "2025-02-04T11:23:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10361#issuecomment-2633620218",
+      "text": "> [@rithviknishad](https://github.com/rithviknishad) I think it is a state management issue as when I am continuously changing values, it is showing anonymous behavior. Sometimes the wrong value is getting replaced by the random values between 1-31 for days and 1-12 for months. There may be some other issue also which I am missing. I am working on it.\n\ndate-field is expecting user to type in 2 digit values for month (handleMonthChange doesn't change anything if there's only one digit).\n\nTo fix this, you can modify the logic in handleMonthChange to pad newMonth before the conditional checks. Also given that form doesn't allow submission when month > 12 (barring the padding issue above), I don't think any additional error handling is needed."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10385",
@@ -234,13 +276,6 @@
       "title": "ohcnetwork/care_fe#10218",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10218#pullrequestreview-2580117399",
       "text": "Minor fixes in resource creation form"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-29T05:14:53.000Z",
-      "title": "ohcnetwork/care_fe#10200",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10200#pullrequestreview-2580009280",
-      "text": "Fix: UI Issues in Data Fetch Scroll, Text Area Overflow, and User Profile Navigation in notes tab"
     },
     {
       "type": "pr_reviewed",

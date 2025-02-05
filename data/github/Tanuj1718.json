@@ -1,6 +1,42 @@
 {
-  "last_updated": "2025-02-03T18:58:30.000Z",
+  "last_updated": "2025-02-04T13:47:06.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10391",
+      "time": "2025-02-04T13:47:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10391#issuecomment-2634020467",
+      "text": "@rithviknishad @bodhish Please assign it to me."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10391",
+      "time": "2025-02-04T13:46:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10391",
+      "text": "Mobile View UI: Location Page in Facilities need responsiveness"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10361",
+      "time": "2025-02-04T12:18:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10361#issuecomment-2633739341",
+      "text": "> > [@rithviknishad](https://github.com/rithviknishad) I think it is a state management issue as when I am continuously changing values, it is showing anonymous behavior. Sometimes the wrong value is getting replaced by the random values between 1-31 for days and 1-12 for months. There may be some other issue also which I am missing. I am working on it.\n> \n> date-field is expecting user to type in 2 digit values for month (handleMonthChange doesn't change anything if there's only one digit).\n> \n> To fix this, you can modify the logic in handleMonthChange to pad newMonth before the conditional checks. Also given that form doesn't allow submission when month > 12 (barring the padding issue above), I don't think any additional error handling is needed.\n> \n> Edit: handleMonthChange is also the reason why you are able to submit the form after going back and entering 122 in the month column (month isn't changed within form value, instead submitted with previous value).\n> \n> Edit: The auto focus to next cell causes an issue here, hmm let me see.\n\nI have also tried onFocus and onInput event handlers to clear the values but it is not working.\n"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10379",
+      "time": "2025-02-04T11:52:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10379",
+      "text": "fix: improved tablet view responsiveness",
+      "turnaround_time": 60844
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10379",
+      "time": "2025-02-04T11:16:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10379#issuecomment-2633600931",
+      "text": "> missing i18n\r\n\r\nCan you please explain it, I did not get it."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10379",
@@ -486,7 +522,14 @@
       "text": "Sign up page for authenticate a new user"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10399",
+      "title": "fix: Overflowing containers of Location Page",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10362",

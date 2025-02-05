@@ -35119,5 +35119,218 @@
                 }
             ]
         }
+    ],
+    "2025-02-04 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1738693674.749379",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1738694339.000000"
+            },
+            "client_msg_id": "c6594b59-70b7-4db3-8387-57ad5689bbd1",
+            "text": "*Feb 3nd and 4rd*\n\u2022 lazy\u2026\n\u2022 fixed date time question from causing duplicates when changing time (+ patch to staging) <https://github.com/ohcnetwork/care_fe/pull/10369|#10369>, <https://github.com/ohcnetwork/care_fe/pull/10370|#10370>\n\u2022 Removed hard coded date placeholder in encounter thread and some styling improvements (+ patch to staging) <https://github.com/ohcnetwork/care_fe/pull/10383|#10383>, <https://github.com/ohcnetwork/care_fe/pull/10382|#10382>\n\u2022 Added lint checks to scan for unimported files / unused packages <https://github.com/ohcnetwork/care_fe/pull/10390|#10390>\n\u2022 tried playing around with leaderboard\u2019s data by loading it to sqlite to see if things can be improved and optimised.\n\u2022 fixed schedule availability overlap tests <https://github.com/ohcnetwork/care/pull/2795/commits/f14a71af011a8de92d37ad16b0794a7292c4d455|f14a71a>\n\u2022 filter allergies by encounter if encounter is marked as complete <https://github.com/ohcnetwork/care_fe/pull/10397|#10397>\n*Next*\n\u2022 follow up on other assigned issues\n\u2022 experiment on leaderboard with sqlite",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "g0T0H",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Feb 3nd and 4rd",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "lazy\u2026"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fixed date time question from causing duplicates when changing time (+ patch to staging) "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10369",
+                                            "text": "#10369",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ", "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10370",
+                                            "text": "#10370",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Removed hard coded date placeholder in encounter thread and some styling improvements (+ patch to staging) "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10383",
+                                            "text": "#10383",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ", "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10382",
+                                            "text": "#10382",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added lint checks to scan for unimported files / unused packages "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10390",
+                                            "text": "#10390",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "tried playing around with leaderboard\u2019s data by loading it to sqlite to see if things can be improved and optimised."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fixed schedule availability overlap tests "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2795/commits/f14a71af011a8de92d37ad16b0794a7292c4d455",
+                                            "text": "f14a71a"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "filter allergies by encounter if encounter is marked as complete "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10397",
+                                            "text": "#10397",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "follow up on other assigned issues"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "experiment on leaderboard with sqlite"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "fire",
+                    "users": [
+                        "UC8TSEGCQ"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }
