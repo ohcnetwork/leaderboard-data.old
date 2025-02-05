@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-04T15:31:25.000Z",
+  "last_updated": "2025-02-04T17:08:53.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10396",
+      "time": "2025-02-04T17:08:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10396#issuecomment-2634576388",
+      "text": "Let's not do that; it pretty much mimics the card layout which user has access to anyways.\n\nInstead remove `sticky left-0 z-10` and the bg colors for the name header + it's value."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-30T05:19:41.000Z",
+      "title": "ohcnetwork/care_fe#10219",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10219#pullrequestreview-2582935671",
+      "text": "Fix : Cancelled requests in appointments page and Remove files button from actions"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10393",
@@ -84,13 +98,6 @@
       "title": "ohcnetwork/care_fe#10366",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10366#pullrequestreview-2589046510",
       "text": "Fix : User Detail Responsiveness "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-30T05:19:41.000Z",
-      "title": "ohcnetwork/care_fe#10219",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10219#pullrequestreview-2582935671",
-      "text": "Fix : Cancelled requests in appointments page and Remove files button from actions"
     },
     {
       "type": "comment_created",
@@ -5731,7 +5738,8 @@
       "title": "File Archiving, Perms, Card Layout",
       "stale_for": 0,
       "labels": [
-        "work-in-progress"
+        "needs testing",
+        "needs review"
       ]
     },
     {

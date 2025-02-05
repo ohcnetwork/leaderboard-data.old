@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-02-04T11:48:46.000Z",
+  "last_updated": "2025-02-04T19:06:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9814",
+      "time": "2025-02-04T19:06:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9814#issuecomment-2634827415",
+      "text": "@Jacobjeevan Had to remove existing compression to increase image quality. Would like to know your opinion on this.\r\n```\r\n        const options = {\r\n          initialQuality: 0.6, // removed this \r\n          alwaysKeepResolution\r\n           imageCompression(file, options).then((compressedFile: File) => {\r\n```"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#10366",

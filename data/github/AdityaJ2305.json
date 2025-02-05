@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-02-04T11:56:07.000Z",
+  "last_updated": "2025-02-04T18:51:25.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10380",
+      "time": "2025-02-04T18:51:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10380#issuecomment-2634798558",
+      "text": "> - [x] Address: modify to display address + zipcode Adjust the casing for the geo org labels so they are capitalized case.\r\n> - [x] Add top padding and maybe adjust the font size for both of the cards (address and geo).\r\n\r\n> Adjust the casing for the geo org labels so they are capitalized case.\r\n\r\nThe geo org labels are already capitalized like `Ward` `Block Panchayat` `District` etc. Am I misunderstanding it ? 🤔"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10389",
@@ -3246,10 +3253,8 @@
       "title": "Redesign the Facility Details Page ",
       "stale_for": 0,
       "labels": [
-        "question",
         "needs testing",
-        "needs review",
-        "needs-triage"
+        "needs review"
       ]
     },
     {
@@ -3257,7 +3262,7 @@
       "title": "Replace Deprecated `request`",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing"
       ]
     }
   ],
