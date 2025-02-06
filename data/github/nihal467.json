@@ -1,6 +1,77 @@
 {
-  "last_updated": "2025-02-05T10:48:19.000Z",
+  "last_updated": "2025-02-05T14:15:14.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10394",
+      "time": "2025-02-05T14:15:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10394",
+      "text": "New cypress test for assigning a user to patient",
+      "turnaround_time": 32068
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10418",
+      "time": "2025-02-05T13:52:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10418#issuecomment-2636912968",
+      "text": "LGTM, conditional approved it https://github.com/ohcnetwork/care_abdm_fe/pull/6#issuecomment-2636880241"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10421",
+      "time": "2025-02-05T13:43:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10421",
+      "text": "Handling the blinking issue of pages in CARE due to plug components"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_abdm_fe#6",
+      "time": "2025-02-05T13:38:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/6#issuecomment-2636880241",
+      "text": "- [ ] M1 is verified, M2 and M3 wasn't tested as consent manager API's of ABDM are down\r\n- [ ] Success and error toast are required across all actions\r\n- [ ] The Fetch record Pop-up is smaller screen such as iPhone Xs are not properly responsive\r\n- [ ] The UI for ABDM linked and creation gives out a bad UX since you need to scroll to view the consent related to the linking.\r\n\r\nSince its partially functional for now and need to be merged to staging since ABDM is already enabled in the deployment, so conditionally approving it"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10414",
+      "time": "2025-02-05T12:09:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10414",
+      "text": "Upgraded the cypress runner"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10380",
+      "time": "2025-02-05T11:54:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10380#issuecomment-2636523268",
+      "text": "you can look into the rest of the reported issue @AdityaJ2305"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10003",
+      "time": "2025-02-05T11:54:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10003#issuecomment-2636521818",
+      "text": "@rahulharpal1603 what is the status on this PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10380",
+      "time": "2025-02-05T11:45:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10380#issuecomment-2636505052",
+      "text": "![image](https://github.com/user-attachments/assets/78f1105a-2ca2-4a2d-a2fa-a8b03b58f069)\r\n\r\n- [ ] Add support to upload facility profile image\r\n- [ ] Facility Location hyperlink text is missing, even though the lat and long are present for the facility\r\n\r\n![image](https://github.com/user-attachments/assets/3dc37305-4ef4-409c-a3e8-f9f272dad572)\r\n\r\n- [ ] Show the address of the facility as the data present in the address input column of the facility form"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10219",
+      "time": "2025-02-05T11:33:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10219#issuecomment-2636480088",
+      "text": "LGTM "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10156",
+      "time": "2025-02-05T11:20:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10156#issuecomment-2636454518",
+      "text": "![image](https://github.com/user-attachments/assets/826f615a-83d3-41e4-8acc-778d42620e99)\r\n\r\n- [ ] When we have more than 25 messages and scroll to the top, the scroller should automatically adjust to the starting point of the newly loaded messages. This ensures a smooth experience where users can continuously load older messages by scrolling upward. Currently, after loading older messages, the scroller stays fixed at the top, forcing users to scroll down and back up again to load more messages.\r\n\r\nCC: @Jacobjeevan @rithviknishad "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10386",
@@ -52551,8 +52622,8 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10433",
-      "title": "Hide Create Button in questionnaire, as it's not yet wired",
+      "link": "https://github.com/ohcnetwork/care/pull/2814",
+      "title": "Merge Develop To Staging v3.1.0",
       "stale_for": 0,
       "labels": []
     },
