@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-02-05T00:25:39.000Z",
+  "last_updated": "2025-02-05T08:35:50.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10401",
+      "time": "2025-02-05T08:35:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10401#issuecomment-2636070708",
+      "text": "We can definitely track the errors like that but,\n\nthese errors are for the \"hardcoded-strings\"\nit is not including the translation keys that are undefined in en.json\n\nRefer : https://www.npmjs.com/package/eslint-plugin-i18next\n\n\n\nProof :\n\n1. WITHOUT undefined check - only hardcode string errors - count 1429\n![Image](https://github.com/user-attachments/assets/8162edeb-22ab-4244-8ec4-b5dc61f2230e)\n\n2. WITH undefined check - include undefined keys errors - count 1453 (24 extra)\n![Image](https://github.com/user-attachments/assets/9cda434d-01ab-4043-a50e-b072c89deb2b)\n\n\n3. ONLY undefined check - count 24\n![Image](https://github.com/user-attachments/assets/19eaf104-9e18-43ab-be08-7f8bf5db4399)\n\n24 undefined strings output using a script\n\n<img src=https://github.com/user-attachments/assets/65d3ffd8-678a-4812-8bc0-8a706530f0f4 width=400/>\n\nto solve the issue before build we should be doing the third check only right, because first check has no significance because it is also checking for hardcode strings inside className, variant, size, href etc.\n\nso should we use the [no-undefined-translation-keys](https://www.npmjs.com/package/eslint-plugin-i18next-no-undefined-translation-keys) plugin or both? @rithviknishad "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10401",
+      "time": "2025-02-05T06:13:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10401#issuecomment-2635789308",
+      "text": "> [@rajku-dev](https://github.com/rajku-dev) , I think there is already a plugin configured for i18 in eslint config file and missing translation as warning. Could you check with that . I am not 100% sure btw\n\nyeah but i think it doesn't offer that particular check we need?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10401",
+      "time": "2025-02-05T06:07:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10401#issuecomment-2635781886",
+      "text": "> [@rajku-dev](https://github.com/rajku-dev) can we add a lint rule to error out if there are missing i18n translations? so that the build fails if key is not found.\n\ngot it!\ni found a plugin for that\nhttps://www.npmjs.com/package/eslint-plugin-i18next-no-undefined-translation-keys"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10401",
@@ -2348,6 +2369,12 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10434",
+      "title": "Add missing translations in `en.json`",
+      "stale_for": 0,
+      "labels": []
+    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10172",
       "title": "Fix `PatientUsers` card overflow and Remove-button background",

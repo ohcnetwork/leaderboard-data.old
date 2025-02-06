@@ -1,6 +1,97 @@
 {
-  "last_updated": "2025-02-05T03:51:31.000Z",
+  "last_updated": "2025-02-05T09:47:19.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-05T09:34:13.000Z",
+      "title": "ohcnetwork/care_abdm_fe#4",
+      "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/4#pullrequestreview-2595110128",
+      "text": "Silence 404 errors"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10409",
+      "time": "2025-02-05T09:47:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10409",
+      "text": "API Erorr Handler: early exit if error can be silenced"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-05T09:41:51.000Z",
+      "title": "ohcnetwork/care_fe#10398",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10398#pullrequestreview-2595134307",
+      "text": "New List view for locations in the facility settings"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-05T08:21:13.000Z",
+      "title": "ohcnetwork/care_fe#10408",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10408#pullrequestreview-2594934522",
+      "text": "Questionnaire hide tooltip"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10401",
+      "time": "2025-02-05T07:46:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10401#issuecomment-2635980274",
+      "text": "one additional thing pending would be to get incorrect key usages. `t('a_key_that_does_not_exist')` should also throw an error ideally."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10401",
+      "time": "2025-02-05T07:39:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10401#issuecomment-2635954191",
+      "text": "why not? all i had to do was change from warn to error, and it converts those warnings to errors\n\n<img width=\"825\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/2f4f09c0-af38-41f7-8c4d-5054c52c7b39\" />\n\n<img width=\"942\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/f5eb137b-505f-495c-8b9d-76c0b4f02a93\" />"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10407",
+      "time": "2025-02-05T07:19:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10407",
+      "text": "Switch to tailwind v4"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-05T07:06:32.000Z",
+      "title": "ohcnetwork/care_fe#10394",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10394#pullrequestreview-2594797053",
+      "text": "New cypress test for assigning a user to patient"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-03T09:29:57.000Z",
+      "title": "ohcnetwork/care_fe#10352",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10352#pullrequestreview-2589350073",
+      "text": "Replace Deprecated `request`"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10404",
+      "time": "2025-02-05T05:07:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10404",
+      "text": "Recaptcha not being shown even when backend responds with HTTP 429"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10399",
+      "time": "2025-02-05T04:46:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10399#issuecomment-2635693846",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/10391#issuecomment-2635693656"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10391",
+      "time": "2025-02-05T04:46:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10391#issuecomment-2635693656",
+      "text": "This would be redesigned in https://github.com/ohcnetwork/care_fe/issues/10376"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10391",
+      "time": "2025-02-05T04:46:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10391",
+      "text": "Mobile View UI: Location Page in Facilities need responsiveness"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-02-04T17:09:27.000Z",
@@ -76,13 +167,6 @@
         "o",
         "3"
       ]
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-03T09:29:57.000Z",
-      "title": "ohcnetwork/care_fe#10352",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10352#pullrequestreview-2589350073",
-      "text": "Replace Deprecated `request`"
     },
     {
       "type": "issue_closed",
