@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-02-06T19:52:35.000Z",
+  "last_updated": "2025-02-06T21:38:09.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2816",
+      "time": "2025-02-06T21:38:09.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2816#issuecomment-2641108936",
+      "text": "After a long debug\r\n\r\nI couldn't replicate the above error when running `make migrations` inside a docker container, So I thought it may be because of a version mismatch \r\n\r\nlocal python - 3.12.0\r\ndocker - 3.13.1\r\n\r\nSo then I upgraded my local python to 3.13.1 and the above error is gone "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2816",
@@ -343,7 +350,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9260",
       "title": "Labs",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": [
         "Deploy-Failed",
         "merge conflict",
@@ -353,7 +360,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/81",
       "title": "Add proposal for MFA",
-      "stale_for": 73,
+      "stale_for": 74,
       "labels": []
     }
   ],

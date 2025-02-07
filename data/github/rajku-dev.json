@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-02-05T08:35:50.000Z",
+  "last_updated": "2025-02-07T05:30:13.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10468",
+      "time": "2025-02-07T05:30:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10468",
+      "text": "Fix OTP send workflow"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10464",
+      "time": "2025-02-07T04:46:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10464#issuecomment-2641937451",
+      "text": "> 🤔 Don't think this is a problem to be solved - what if otp is sent successfully, but maybe BE fails to respond, or there's a network error etc. We want to display the input regardless.\n\ni tracked this error because of the bug in the code\n\n![Image](https://github.com/user-attachments/assets/945e534e-5e34-4192-be52-ebd3724aa75b)\n\nhere the workflow clearly is awaiting for something which doesn't returns a promise, we are anyways setting it to true inside onSuccess callback.\n\ncc : @rithviknishad \n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10464",
+      "time": "2025-02-07T04:24:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10464#issuecomment-2641917286",
+      "text": "I have fixed this bug already, please assign me so that i can push a PR."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10464",
+      "time": "2025-02-07T04:23:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10464",
+      "text": "OTP dropdown open even before OTP is sent to the registered Phone Number"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10463",
+      "time": "2025-02-07T02:04:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10463",
+      "text": "Add missing i18n translations"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10460",
+      "time": "2025-02-06T21:29:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10460#issuecomment-2641093667",
+      "text": "I would like to work on this issue, i have fixed a few of them\n@Jacobjeevan "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10460",
+      "time": "2025-02-06T21:28:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10460",
+      "text": "Bugs in Allergy and Symptom Creation/Updation"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10401",
@@ -2370,6 +2419,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10463",
+      "title": "Add missing i18n translations",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10172",
       "title": "Fix `PatientUsers` card overflow and Remove-button background",
       "stale_for": 0,
@@ -2388,29 +2443,33 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/608",
       "title": "Add support for `pullHistoricalGitHubActivites` to fetch discussions",
-      "stale_for": 19,
+      "stale_for": 20,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/604",
       "title": "Enable Calendar to Display Data from the Past Three Years",
-      "stale_for": 12,
+      "stale_for": 13,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/602",
       "title": "Add support for tracking commits pushed to branch (Forked)",
-      "stale_for": 12,
+      "stale_for": 13,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/601",
       "title": "Add support for tracking commits pushed to branch (core)",
-      "stale_for": 12,
+      "stale_for": 13,
       "labels": []
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10464",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10468"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10157",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10159"
