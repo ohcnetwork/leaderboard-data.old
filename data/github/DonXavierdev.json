@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-02-06T12:25:01.000Z",
+  "last_updated": "2025-02-07T11:33:55.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10411",
+      "time": "2025-02-07T11:33:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10411#issuecomment-2642682088",
+      "text": "```\r\n                <button onClick={() => toggleRow(org.id)} className=\" mr-1\">\r\n                  {expandedRows[org.id] ? (\r\n                    <CareIcon icon=\"l-angle-down\" className=\"h-5 w-5\" />\r\n                  ) : (\r\n                    <CareIcon icon=\"l-angle-right\" className=\"h-5 w-5\" />\r\n                  )}\r\n                </button>\r\n```\r\nChanging this to shadCN button adds unusual padding,color and size\r\nShould i replace this and fix that or is normal button fine ?"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10481",
+      "time": "2025-02-07T10:22:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10481",
+      "text": "DRAFT : Make Layout for resource section and fix missing Breadcrumb"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10411",
+      "time": "2025-02-07T10:13:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10411#issuecomment-2642501448",
+      "text": "> Hmm, we definitely need to do something for the mobile 🤔\r\n> \r\n😅 I actually wanted the mobile view to look like that . Earlier it had overflows and got clipped too.\r\n"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#10446",
@@ -490,12 +511,20 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10481",
+      "title": "DRAFT : Make Layout for resource section and fix missing Breadcrumb",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10411",
       "title": "Redesign: Departments page root view ",
       "stale_for": 0,
       "labels": [
+        "question",
         "changes required",
-        "merge conflict"
+        "merge conflict",
+        "needs-triage"
       ]
     }
   ],

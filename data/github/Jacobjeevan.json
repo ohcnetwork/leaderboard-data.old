@@ -1,6 +1,76 @@
 {
-  "last_updated": "2025-02-07T05:29:22.000Z",
+  "last_updated": "2025-02-07T10:20:28.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10411",
+      "time": "2025-02-07T10:20:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10411#issuecomment-2642514923",
+      "text": "> > Hmm, we definitely need to do something for the mobile 🤔\r\n> \r\n> 😅 I actually wanted the mobile view to look like that . Earlier it had overflows and got clipped too.\r\n\r\nAlright, Vinu will design a mobile view later, we will focus on getting this merged first."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-07T09:24:38.000Z",
+      "title": "ohcnetwork/care_fe#10411",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10411#pullrequestreview-2601192937",
+      "text": "Redesign: Departments page root view "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-03T05:21:32.000Z",
+      "title": "ohcnetwork/care_fe#10283",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10283#pullrequestreview-2588938992",
+      "text": "Add Confirmation Pop-up to Prevent Accidental Exception Deletions"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-05T11:25:52.000Z",
+      "title": "ohcnetwork/care_fe#10398",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10398#pullrequestreview-2595391374",
+      "text": "New List view for locations in the facility settings"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10466",
+      "time": "2025-02-07T06:15:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10466#issuecomment-2642035044",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) could you share more context of the problem?\n\nAlertDialogAction is used multiple times across the code base, as part of the AlertDialog component.  \n\nHowever, in a few of the instances, styles are manually specified/overridden through tailwind classes.\n\n<img width=\"654\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/2b5ff663-8cad-4b69-b68b-1127a0689bfd\" />\n\nWe want to replace those overrides with buttonVariants instead, called through cn function:\n\n<img width=\"654\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/785af0bf-407b-4182-ad82-2df86d9ff9de\" />\n\nYou can check variants at src/components/ui/button.tsx to check which variant is most applicable (in most cases, it will be destructive, but test and compare with current behavior and new behavior)."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-07T06:08:13.000Z",
+      "title": "ohcnetwork/care_fe#10419",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10419#pullrequestreview-2600876542",
+      "text": "FIXED:- Improve Visibility of Status, Role, and Contact numbers on User Management Page List View for Mobile Screens"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10413",
+      "time": "2025-02-07T05:58:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10413#issuecomment-2642012615",
+      "text": "> Include #10429 as well 👍\r\n\r\nAdd this issue number in the description as well."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-29T06:28:23.000Z",
+      "title": "ohcnetwork/care_fe#10218",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10218#pullrequestreview-2580117399",
+      "text": "Minor fixes in resource creation form"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10380",
+      "time": "2025-02-07T05:50:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10380#issuecomment-2642003224",
+      "text": "> @nihal467 , What's the update for this ?\r\n> \r\n> > @nihal467 For this particular Facility this is what is present for address field <img alt=\"Screenshot 2025-02-05 at 5 30 13 PM\" width=\"367\" src=\"https://private-user-images.githubusercontent.com/148325158/409976009-56e9d927-2194-4aa6-a1b9-0d8bd21cee35.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg4MzAxMzcsIm5iZiI6MTczODgyOTgzNywicGF0aCI6Ii8xNDgzMjUxNTgvNDA5OTc2MDA5LTU2ZTlkOTI3LTIxOTQtNGFhNi1hMWI5LTBkOGJkMjFjZWUzNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIwNlQwODE3MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kZTk4MTEyNzUyN2MzNTE4Y2RlMjhlNTQ4NzNiOGI3MzFmOGJmODU4ZTcyYjE3MTgzZjliOWY3NjRjMDc0NThkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.4x1JpkYAnp3fd5CZCa3ru8aD-5dE4Ht0lfyqsbe3KQM\">\r\n> > \r\n> > * [ ]   Add support to upload facility profile image\r\n> > * this needs backend support\r\n> > \r\n> > cc: @rithviknishad @Jacobjeevan\r\n\r\nYea, we will add BE support; can take it up in a different PR."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-07T05:46:10.000Z",
+      "title": "ohcnetwork/care_fe#10413",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10413#pullrequestreview-2600841660",
+      "text": "fix: Organization Users page needs responsiveness"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#10467",
@@ -105,13 +175,6 @@
       "time": "2025-02-06T13:07:38.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/10449",
       "text": "Archived File Visibility Issue"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-05T11:25:52.000Z",
-      "title": "ohcnetwork/care_fe#10398",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10398#pullrequestreview-2595391374",
-      "text": "New List view for locations in the facility settings"
     },
     {
       "type": "pr_opened",
@@ -317,13 +380,6 @@
       "text": "Try to think ahead 👍  Since you are adjusting this page for responsiveness anyways, check if any other elements need to be adjusted as well.\r\n\r\n<img width=\"580\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d529c6ca-4751-46fc-874a-9d3981d81d7f\" />\r\n"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-02-03T05:21:32.000Z",
-      "title": "ohcnetwork/care_fe#10283",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10283#pullrequestreview-2588938992",
-      "text": "Add Confirmation Pop-up to Prevent Accidental Exception Deletions"
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10172",
       "time": "2025-02-03T04:16:33.000Z",
@@ -444,13 +500,6 @@
       "time": "2025-01-29T06:29:37.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10218#issuecomment-2620818602",
       "text": "LGTM, but which deprecated components are being replaced 🤔 "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-29T06:28:23.000Z",
-      "title": "ohcnetwork/care_fe#10218",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10218#pullrequestreview-2580117399",
-      "text": "Minor fixes in resource creation form"
     },
     {
       "type": "pr_reviewed",
@@ -5890,7 +5939,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10384",
       "title": "File Archiving, Perms, Card Layout",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review"
@@ -5899,7 +5948,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2767",
       "title": "Alt phone number and qualificationspec",
-      "stale_for": 13,
+      "stale_for": 14,
       "labels": []
     }
   ],

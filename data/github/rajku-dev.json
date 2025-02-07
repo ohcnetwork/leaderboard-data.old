@@ -1,6 +1,35 @@
 {
-  "last_updated": "2025-02-07T05:30:13.000Z",
+  "last_updated": "2025-02-07T12:05:40.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10469",
+      "time": "2025-02-07T12:05:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10469#issuecomment-2642743776",
+      "text": "> This is not the right way. Issue was due to nested `useMutation`. Fixed properly in: #10479\r\n\r\nyep, i got the whole point\r\nthe `signIn` function was in itself a mutation fn, but was wrapped with another `useMutation`\r\nalso local onError callback doesn't expectedly overrides the global error handler"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10469",
+      "time": "2025-02-07T06:27:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10469",
+      "text": "Fix double notification issue in Staff Login"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10453",
+      "time": "2025-02-07T06:13:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10453#issuecomment-2642033575",
+      "text": "@rithviknishad I have solved this issue in my local,\nsince this is a `P1` can i push the PR?"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10468",
+      "time": "2025-02-07T05:59:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10468",
+      "text": "Fix OTP send workflow",
+      "turnaround_time": 1729
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10468",
@@ -2443,7 +2472,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/608",
       "title": "Add support for `pullHistoricalGitHubActivites` to fetch discussions",
-      "stale_for": 20,
+      "stale_for": 21,
       "labels": []
     },
     {
