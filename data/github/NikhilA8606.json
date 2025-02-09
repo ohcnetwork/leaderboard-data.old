@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-02-02T21:29:04.000Z",
+  "last_updated": "2025-02-09T06:41:38.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10510",
+      "time": "2025-02-09T06:41:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10510",
+      "text": "Migrated Dialog and ConfirmDialog with shadCN component"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10367",
@@ -364,21 +371,18 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10367",
-      "title": "Replaced the older components with ShadCN components in the ResourceCreate Page",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10510",
+      "title": "Migrated Dialog and ConfirmDialog with shadCN component",
       "stale_for": 0,
-      "labels": [
-        "merge conflict"
-      ]
+      "labels": []
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10364",
-      "title": "Migrated all old components in ResourceDetailsUpdate to ShadCN component",
-      "stale_for": 0,
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10367",
+      "title": "Replaced the older components with ShadCN components in the ResourceCreate Page",
+      "stale_for": 1,
       "labels": [
-        "changes required",
-        "work-in-progress",
-        "merge conflict"
+        "needs testing",
+        "needs review"
       ]
     }
   ],
