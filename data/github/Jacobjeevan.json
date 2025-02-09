@@ -1,6 +1,76 @@
 {
-  "last_updated": "2025-02-09T02:56:44.000Z",
+  "last_updated": "2025-02-09T16:00:41.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10516",
+      "time": "2025-02-09T16:00:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10516",
+      "text": "Three-Dot Menu Options Lead to 'Page Not Found' Error in Encounters Section"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10518",
+      "time": "2025-02-09T15:50:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10518",
+      "text": "User Form: Pass in Org to GovtSelector only if Org is Govt"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10515",
+      "time": "2025-02-09T15:42:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10515#issuecomment-2646363277",
+      "text": "Good catch. It should display the relevant label for govt organization at level 0 (\"State\" since our current deployment is at state level).\n\nAs for assignment, let's get the currently assigned issues resolved first before taking up more."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-01-28T04:12:31.000Z",
+      "title": "ohcnetwork/care_fe#10146",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10146#pullrequestreview-2577038789",
+      "text": "Fix: Add fallback url for goback() | OTP field auto focus | Add Search Feature for users"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10514",
+      "time": "2025-02-09T15:09:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10514#issuecomment-2646349394",
+      "text": "We are not adding file deletion support at present (this would require back-end change regardless).\n\nAs for the latter 🤔  Hmm, I don't think it's necessary - user has access to the filters. Plus #10384 adds different icon + action to archived files. I suppose we can darken the archived text."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10514",
+      "time": "2025-02-09T15:09:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10514",
+      "text": "Missing File Deletion and Poor Archive Indication"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-09T14:56:48.000Z",
+      "title": "ohcnetwork/care_fe#10415",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10415#pullrequestreview-2604283985",
+      "text": "Date handling in DOB section"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10467",
+      "time": "2025-02-09T14:52:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10467#issuecomment-2646342157",
+      "text": "@swarup-j  @Rustix69 Please note that the issue is blocked. Not assigning to anyone at present."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10513",
+      "time": "2025-02-09T14:50:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10513#issuecomment-2646339822",
+      "text": "Refer to #10466 \n\nYou can using variants in AlertDialogAction for the specific behavior."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10466",
+      "time": "2025-02-09T14:48:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10466",
+      "text": "Switch to using cn and variants for AlertDialogAction"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10498",
@@ -140,13 +210,6 @@
       "time": "2025-02-07T04:56:52.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/10464#issuecomment-2641947766",
       "text": "> > 🤔 Don't think this is a problem to be solved - what if otp is sent successfully, but maybe BE fails to respond, or there's a network error etc. We want to display the input regardless.\n> \n> i tracked this error because of the bug in the code\n> \n> ![Image](https://github.com/user-attachments/assets/945e534e-5e34-4192-be52-ebd3724aa75b)\n> \n> here the workflow clearly is awaiting for something which doesn't returns a promise, which opens dropdown immediately, we are anyways setting it to true inside onSuccess callback.\n> \n> cc : [@rithviknishad](https://github.com/rithviknishad)\n\nYou can remove the awaits, as well as the try catch, switch the mutationFn to use mutate instead of request and then set the state and error based on onSuccess and onError 👍 "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-01-28T04:12:31.000Z",
-      "title": "ohcnetwork/care_fe#10146",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10146#pullrequestreview-2577038789",
-      "text": "Fix: Add fallback url for goback() | OTP field auto focus | Add Search Feature for users"
     },
     {
       "type": "comment_created",
@@ -5972,9 +6035,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10518",
+      "title": "User Form: Pass in Org to GovtSelector only if Org is Govt",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10384",
       "title": "File Archiving, Perms, Card Layout",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs testing",
         "needs review"
@@ -5983,7 +6055,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2767",
       "title": "Alt phone number and qualificationspec",
-      "stale_for": 15,
+      "stale_for": 16,
       "labels": []
     }
   ],

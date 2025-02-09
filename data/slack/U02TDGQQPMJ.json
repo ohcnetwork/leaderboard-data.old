@@ -35794,5 +35794,154 @@
                 }
             ]
         }
+    ],
+    "2025-02-09 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1739109397.665259",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1739109434.000000"
+            },
+            "client_msg_id": "1139a963-c7e5-45d9-8086-26a072dd53ef",
+            "text": "*Feb 7, 8, 9*\n\u2022 Fixed login errors being shown twice <https://github.com/ohcnetwork/care_fe/pull/10479|#10479>\n\u2022 Revived my linux; upgrade to ubuntu 25.04; explored and configured tailscale, beszel and few other things to make things easier for remote accessing the machine.\n\u2022 Tried setting up new teleicu middleware, wasn\u2019t easy. Deployed old middleware and mock CNS on my linux for now to get vitals monitor plug development moving.\n\u2022 Rewrote the global error handler again. Lost the previous implementation somewhere. <https://github.com/ohcnetwork/care_fe/pull/10506|#10506>\n\u2022 Setup vitals monitor plug (FE).\n\u2022 Reviewed PRs.\n*Next*\n\u2022 Build vitals monitor and camera plugs.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "6/aX8",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Feb 7, 8, 9",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed login errors being shown twice "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10479",
+                                            "text": "#10479",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Revived my linux; upgrade to ubuntu 25.04; explored and configured tailscale, beszel and few other things to make things easier for remote accessing the machine."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tried setting up new teleicu middleware, wasn\u2019t easy. Deployed old middleware and mock CNS on my linux for now to get vitals monitor plug development moving."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Rewrote the global error handler again. Lost the previous implementation somewhere. "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10506",
+                                            "text": "#10506",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Setup vitals monitor plug (FE)."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed PRs."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Build vitals monitor and camera plugs."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
