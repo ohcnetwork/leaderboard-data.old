@@ -1,6 +1,69 @@
 {
-  "last_updated": "2025-02-09T13:59:58.000Z",
+  "last_updated": "2025-02-10T07:43:07.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9866",
+      "time": "2025-02-10T07:43:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9866",
+      "text": "Minor fixes in resource creation form"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-04T05:08:42.000Z",
+      "title": "ohcnetwork/care_fe#10218",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10218#pullrequestreview-2591750549",
+      "text": "Minor fixes in resource creation form"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-10T07:40:38.000Z",
+      "title": "ohcnetwork/care_fe#10402",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10402#pullrequestreview-2604899311",
+      "text": "Fix: Resource filters in mobile view"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10529",
+      "time": "2025-02-10T06:35:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10529",
+      "text": "Adds support for `usePaginatedQuery`"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10430",
+      "time": "2025-02-10T05:13:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10430",
+      "text": "Exploited XSS Vulnerability in Encounter Comment Section"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-10T05:12:53.000Z",
+      "title": "ohcnetwork/care_fe#10518",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10518#pullrequestreview-2604704261",
+      "text": "User Form: Pass in Org to GovtSelector only if Org is Govt"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10504",
+      "time": "2025-02-10T05:08:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10504#issuecomment-2646932849",
+      "text": "As for the \n\n> Remove button should be disabled when there is only one session, since at least one session is mandatory while creating an appointment.\n\nlet's not remove the button. What if the user wants to clear out the entered session details altogether and re-do from scratch?\n\nWe have front-end validation to prevent submitting with 0 session anyways, so it's fine"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10504",
+      "time": "2025-02-10T05:05:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10504#issuecomment-2646929773",
+      "text": "The multiple duration issue, we might have to rethink how to show it to the users. It's not a backend issue anyways. This is expected. Backend should reject it."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10504",
+      "time": "2025-02-10T05:04:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10504#issuecomment-2646928210",
+      "text": "For the first bug (i.e., slots in past: let's reuse this component instead: https://github.com/ohcnetwork/care_fe/blob/develop/src/pages/Appointments/components/AppointmentSlotPicker.tsx)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10458",
@@ -636,13 +699,6 @@
       "time": "2025-02-04T11:48:46.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/10365",
       "text": "Mobile View UI : User detail responsiveness issue"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-04T05:08:42.000Z",
-      "title": "ohcnetwork/care_fe#10218",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10218#pullrequestreview-2591750549",
-      "text": "Minor fixes in resource creation form"
     },
     {
       "type": "pr_reviewed",
@@ -59902,6 +59958,12 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10529",
+      "title": "Adds support for `usePaginatedQuery`",
+      "stale_for": 0,
+      "labels": []
+    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10506",
       "title": "Improved global error handler; support for registering custom error handlers on component mount",

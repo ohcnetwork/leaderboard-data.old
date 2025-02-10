@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-02-09T20:04:32.000Z",
+  "last_updated": "2025-02-10T04:50:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10521",
+      "time": "2025-02-10T04:50:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10521#issuecomment-2646913556",
+      "text": "As a doctor, my inputs...Patient login may not be required, on premises file storage (a lot of files... daily round notes on papers, lab(mostly they use their own software and provide software copies or printed reports) reports, insurance documents, consent forms, referal letters , also insurance companies need to send original documents for cashless processing so whole file needs to be scanned and stored.Even with paperless administration goal, these papers are going stay there so cloud storage should be optional only as it costs much."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2819",
+      "time": "2025-02-10T04:46:15.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2819#issuecomment-2646909682",
+      "text": "Its similar to on premises deployment proposal. Patient login may not be required, on premises file storage (lot of files... daily round notes on papers, lab(mostly they use their own software) reports, insurance documents, consent forms, referal letters etc as a doctor I can say with Even with paperless administration goal, these papers are going stay there so cloud storage be optional only as it costs much."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2819",
+      "time": "2025-02-10T03:37:10.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2819#issuecomment-2646846116",
+      "text": "Locally deployable with ABDM functionality will require either cloud storage/sync with ABDM apis available for data exchange/appointments with just ABDM functionality app like ABDM Wrapper or local server with persistent good internet connection with SSL termination. But not everybody is going to use ABDM system but just core HMIS functionality for hospital management, so care should work locally with ABDM (certification, compliance, requires software management team)or without it or with SSL or without it or with SMS otp requirements for login or with only admin managed user / password (basic auth) for complete offline use."
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care#2819",

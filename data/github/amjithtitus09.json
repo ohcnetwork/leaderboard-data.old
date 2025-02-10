@@ -1,6 +1,21 @@
 {
-  "last_updated": "2025-02-07T16:13:57.000Z",
+  "last_updated": "2025-02-10T07:00:33.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-10T07:00:33.000Z",
+      "title": "ohcnetwork/care_fe#10529",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10529#pullrequestreview-2604837347",
+      "text": "Adds support for `usePaginatedQuery`"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10488",
+      "time": "2025-02-10T05:57:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10488",
+      "text": "Minor fixes in Encounter overview, Medication, Administration",
+      "turnaround_time": 234354
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10447",
@@ -854,6 +869,16 @@
       "text": "Explicity mention Public Read ACL for Facility Image S3 Uploads"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10447",
+      "title": "Treatment Summary UI",
+      "stale_for": 0,
+      "labels": [
+        "Waiting UI Approval",
+        "needs-triage"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

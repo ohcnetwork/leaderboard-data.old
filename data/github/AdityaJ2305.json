@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-02-09T23:08:41.000Z",
+  "last_updated": "2025-02-10T07:17:15.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10505",
+      "time": "2025-02-10T07:17:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10505#issuecomment-2647129569",
+      "text": "@sanjayh-2022 , You have deleted the lock file. you need to discard the changes of it \r\nrun this `git checkout develop -- package-lock.json `\r\nbut always make sure develop is in sync with upstream"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-02-09T23:08:41.000Z",
@@ -3399,7 +3406,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10380",
       "title": "Redesign the Facility Details Page ",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "needs testing"
       ]
