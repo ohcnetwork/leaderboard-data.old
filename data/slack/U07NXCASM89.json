@@ -5942,5 +5942,118 @@
                 }
             ]
         }
+    ],
+    "2025-02-11 00:00:00": [
+        {
+            "user": "U07NXCASM89",
+            "type": "message",
+            "ts": "1739251254.370799",
+            "client_msg_id": "9295aac9-6097-4454-a3c2-f1b47c6a2fb8",
+            "text": "Feb 10\n\u2022 more permissions\n    \u25e6 discussed with Rithvik as well, adjusted logic to pass in perms object (earlier I was passing in AuthUser object); allows us to pass in object specific perms in the future (specific encounter's permissions, patient's permissions etc).\n\u2022 review + merge a few prs\nnext\n\u2022 there's a few PRs that need to be reviewed - planning to get to those today\n\u2022 continue with perms",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Oiq4Q",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Feb 10\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "more permissions"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "discussed with Rithvik as well, adjusted logic to pass in perms object (earlier I was passing in AuthUser object); allows us to pass in object specific perms in the future (specific encounter's permissions, patient's permissions etc)."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "review + merge a few prs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "there's a few PRs that need to be reviewed - planning to get to those today"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "continue with perms"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

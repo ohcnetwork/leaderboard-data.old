@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-10T15:27:50.000Z",
+  "last_updated": "2025-02-11T00:01:08.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10547",
+      "time": "2025-02-11T00:01:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10547",
+      "text": "Fix User Avatar Delete Workflow"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10401",
+      "time": "2025-02-10T21:00:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10401",
+      "text": "Missing i18n Translation Keys Causing UI Inconsistencies"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#10463",
@@ -2553,9 +2567,13 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10547",
-      "title": "Fix Displaying `Uploading..` and Preview image after User Avatar Delete",
+      "title": "Fix Displaying `Uploading..` | Preview image | Save button active on User/Facility Cover Photo Delete and Update",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "question",
+        "changes required",
+        "needs-triage"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10172",
@@ -2582,19 +2600,19 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/604",
       "title": "Enable Calendar to Display Data from the Past Three Years",
-      "stale_for": 16,
+      "stale_for": 17,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/602",
       "title": "Add support for tracking commits pushed to branch (Forked)",
-      "stale_for": 16,
+      "stale_for": 17,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/601",
       "title": "Add support for tracking commits pushed to branch (core)",
-      "stale_for": 16,
+      "stale_for": 17,
       "labels": []
     }
   ],
