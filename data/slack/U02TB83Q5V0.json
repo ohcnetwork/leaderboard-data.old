@@ -3811,5 +3811,111 @@
                 }
             ]
         }
+    ],
+    "2025-02-11 00:00:00": [
+        {
+            "user": "U02TB83Q5V0",
+            "type": "message",
+            "ts": "1739266255.199279",
+            "client_msg_id": "69ffb5af-8bc8-4da6-90a0-c2c1eef0b501",
+            "text": "10 Feb 2024\n\u2022 Added a confirmation popup before marking an encounter as complete\n\u2022 Explored on sending audio directly to the gpt4 audio preview model, experienced some hiccups. Kept that aside.\n\u2022 Worked on adding OCR support for scribe\n\u2022 Engineering review meeting\nNext\n\u2022 Finish Scribe OCR\n\u2022 Look into workarounds for using json in gpt-4-audio-preview",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "1jNsC",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "10 Feb 2024\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added a confirmation popup before marking an encounter as complete"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Explored on sending audio directly to the gpt4 audio preview model, experienced some hiccups. Kept that aside."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Worked on adding OCR support for scribe"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Engineering review meeting"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Finish Scribe OCR"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Look into workarounds for using json in gpt-4-audio-preview"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-02-11T00:01:08.000Z",
+  "last_updated": "2025-02-11T09:47:42.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10172",
+      "time": "2025-02-11T09:47:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10172#issuecomment-2650292770",
+      "text": "fixed overflow is `AddUserSheet`  and `UserSelector` also."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10551",
+      "time": "2025-02-11T07:39:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10551#issuecomment-2650030048",
+      "text": "I would like to work on this "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10547",
+      "time": "2025-02-11T05:37:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10547#issuecomment-2649840428",
+      "text": "> FacilityHome also uses the `AvatarEditModal`; the handleDelete on facility home would now be broken since it wasn't adjusted right?\r\n> \r\nyep! forgot to check that, \r\n\r\nalso encountered some other related errors\r\n\r\n- `Save` button still active after successful facility cover update\r\n- `Uploading...` not showing when updating the facility cover photo\r\n\r\nFixed them ✅\r\n\r\n"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10547",
@@ -2577,7 +2598,7 @@
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10172",
-      "title": "Fix `PatientUsers` card and Dialog overflow | Change Remove-button background | Modify Translation",
+      "title": "Fix `PatientUsers` card | Dialog | AddUserSheet | UserSelector Overflow | Change Remove-button background | Modify Translation",
       "stale_for": 0,
       "labels": [
         "changes required"
@@ -2594,7 +2615,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/608",
       "title": "Add support for `pullHistoricalGitHubActivites` to fetch discussions",
-      "stale_for": 24,
+      "stale_for": 25,
       "labels": []
     },
     {
