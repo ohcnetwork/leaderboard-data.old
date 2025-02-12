@@ -1,6 +1,35 @@
 {
-  "last_updated": "2025-02-11T08:30:42.000Z",
+  "last_updated": "2025-02-11T13:37:12.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10518",
+      "time": "2025-02-11T13:37:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10518",
+      "text": "User Form: Pass in Org to GovtSelector only if Org is Govt",
+      "turnaround_time": 164792
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10380",
+      "time": "2025-02-11T13:16:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10380#issuecomment-2650803564",
+      "text": "> @Jacobjeevan, I’ve posted a doubt regarding the design [here](https://www.figma.com/design/Z93EYKSa1MdBmXndsMBJSQ?node-id=7718-1627#1127675087): . Let’s wait for input from the design team. Just wanted to keep you posted on this.\r\n> \r\n> The requested changes are done btw 😃\r\n\r\nUse outline_primary. That should do this for this page 👍 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10555",
+      "time": "2025-02-11T11:38:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10555#issuecomment-2650554318",
+      "text": "> > (1) I am not sure I understand the issue - I am able to edit/save patient's age < 9. (2) 👍 (3) Edit forms; form will be dirty, so we do want to show the alert. Currently, it does showup for submit as well, [#10415](https://github.com/ohcnetwork/care_fe/pull/10415) addresses that.\n> \n>     * Try converting 6 to 4 or anything below 9\n> \n>     * We need to show alert only when Edit forms are dirty right, not when user just navigates (to check full details) and comes back without making any changes\n\n- Ah I see.\n- No, current behavior is fine 👍 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10555",
+      "time": "2025-02-11T11:11:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10555#issuecomment-2650489833",
+      "text": "(1) I am not sure I understand the issue - I am able to edit/save patient's age < 9.\n(2) 👍 \n(3) Edit forms; form will be dirty, so we do want to show the alert. Currently, it does showup for submit as well, #10415 addresses that."
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-02-11T08:30:42.000Z",
