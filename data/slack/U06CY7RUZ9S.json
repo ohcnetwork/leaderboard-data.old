@@ -6649,5 +6649,349 @@
                 }
             ]
         }
+    ],
+    "2025-02-12 00:00:00": [
+        {
+            "user": "U06CY7RUZ9S",
+            "type": "message",
+            "ts": "1739347231.646189",
+            "client_msg_id": "9ef83d96-c357-4d60-9d23-48fbc3bacdb6",
+            "text": "Feb 5 2025\n\u2022 Debugged ABDM issues in Staging. \n\u2022 restored staging branch and updated branch protection rules for staging\n\u2022 finalized PY draft \nFeb 6 2025\n\u2022 Deployed Care Cats of Kochi Instance. \n\u2022 Explored options for enforcing security headers.\nFeb 7,8.9 2025\n\u2022 tested out different methods for applying secure headers to cf pages including _headers file and cloudflare worker\n\u2022 Reconfigured and set csp-logger to monitor the csp violations. \n\u2022 Restored Access to coolify and debugged disk write issues. \nFeb 10 2025\n\u2022 reworked security headers with env variables. tested in personal account to get it working.\n\u2022 generated CSP with <https://csper.io/|csper> \n\u2022 Sent PR to enforce security headers defined in env\nFeb 11\n\u2022 Merged the Headers PR <https://github.com/ohcnetwork/care_fe/pull/10535|#10535> to dev and setup the env variables to <https://securityheaders.com/?q=care.ohc.network&amp;followRedirects=on|enforce Headers>. \n\u2022 Migrated kcdh to muhs domain, updated the ecs image-build workflow to support auto rollback. \nNext\n\u2022 Update docs on FE deployment including policy headers and recaptcha\n\u2022 Update cats of kochi logo\n\u2022 fix and verify working of netflify deploy previews in the new custom domain.",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "from_url": "https://csper.io/",
+                    "image_url": "https://assets.csper.io/csper.webp",
+                    "image_width": 900,
+                    "image_height": 758,
+                    "image_bytes": 23014,
+                    "service_icon": "https://csper.io/favicon.ico",
+                    "id": 1,
+                    "original_url": "https://csper.io/",
+                    "fallback": "Csper: Content Security Policy made easy",
+                    "text": "Content-Security-Policy made easy. Csper is a content security policy violation report endpoint. Csper gives website owners insight and recommendations based off the csp policy and reports",
+                    "title": "Content Security Policy made easy",
+                    "title_link": "https://csper.io/",
+                    "service_name": "Csper"
+                },
+                {
+                    "id": 2,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1739176748,
+                    "color": "6f42c1",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/10535",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#10535 Added Scripts to Generate headers for CF Pages",
+                    "text": "The *HEADERS_64* environment variable defines the header policy, which generates a _headers file to enforce security headers during deployment. This variable can be customized in the deployment environment to implement header policies specific to the requirements.\n\n*Summary by CodeRabbit*\n\n\u2022 *New Features*  \n   \u2022 Added a new environment variable `HEADERS` for specifying various security headers.  \n   \u2022 Enhanced the installation process to include automated generation of headers, streamlining deployment without altering existing settings.\n\u2022 *Chores*  \n   \u2022 Updated the postinstall script to include the execution of a new headers generation script.  \n   \u2022 Added a new script to read the `HEADERS` variable and write its contents to a file.  \n   \u2022 Updated `.gitignore` to exclude the generated `_headers` file from version control.",
+                    "title": "#10535 Added Scripts to Generate headers for CF Pages",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/10535",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "3",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "HHLby",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Feb 5 2025\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Debugged ABDM issues in Staging. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "restored staging branch and updated branch protection rules for staging"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "finalized PY draft "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Feb 6 2025\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Deployed Care Cats of Kochi Instance. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Explored options for enforcing security headers."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Feb 7,8.9 2025\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "tested out different methods for applying secure headers to cf pages including _headers file and cloudflare worker"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reconfigured and set csp-logger to monitor the csp violations. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Restored Access to coolify and debugged disk write issues. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Feb 10 2025\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "reworked security headers with env variables. tested in personal account to get it working."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "generated CSP with "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://csper.io/",
+                                            "text": "csper"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Sent PR to enforce security headers defined in env"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Feb 11\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Merged the Headers PR "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10535",
+                                            "text": "#10535",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " to dev and setup the env variables to "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://securityheaders.com/?q=care.ohc.network&followRedirects=on",
+                                            "text": "enforce Headers"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ". "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Migrated kcdh to muhs domain, updated the ecs image-build workflow to support auto rollback. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Update docs on FE deployment including policy headers and recaptcha"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Update cats of kochi logo"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fix and verify working of netflify deploy previews in the new custom domain."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U07UB6TQWRE"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }
