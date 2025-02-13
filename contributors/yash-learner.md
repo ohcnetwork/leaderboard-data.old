@@ -4,7 +4,7 @@ title: FullStack Developer
 github: yash-learner
 twitter: ""
 linkedin: "yaswanth17"
-slack: "D056H37T866"
+slack: "U0576PEACG0"
 joining_date: "06/11/2024"
 role : contributor
 ---
