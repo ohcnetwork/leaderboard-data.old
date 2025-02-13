@@ -1,6 +1,71 @@
 {
-  "last_updated": "2025-02-11T11:48:38.000Z",
+  "last_updated": "2025-02-13T08:06:24.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10581",
+      "time": "2025-02-13T08:06:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10581",
+      "text": "Fix Translations Not Loading for Global Zod Validators Error Messages and Improve Patient Registration Error Messages",
+      "turnaround_time": 21243
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10172",
+      "time": "2025-02-13T06:38:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10172",
+      "text": "Fix `PatientUsers` card | Dialog | AddUserSheet | UserSelector Overflow | Change Remove-button background | Modify Translation",
+      "turnaround_time": 1633545
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10585",
+      "time": "2025-02-13T06:11:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10585#issuecomment-2655628235",
+      "text": "**Approach**\n\nFor different locations within a facility (floors, ward, etc) can have different variety of beds (ICU, Standard etc.)\nIn location form we can add a Input field for user to select the type of bed , and conditional field to select number of beds of selected category (by default add 1 for the type of bed entered)\n\nwe don't require to send the array in network request as it will create memory overhead, we can only send type of bed and number to add,\n\nthen make api call, backend will update database to add new beds\n\n**Example**\nif user selects type of bed - ICU, number - 3\nin backend, if say, 3 beds already exist for ICU, it should push ICU-4, ICU-5, ICU-6 for that location otherwise ICU-1, ICU-2, ICU-3 in database (and update parent organizations also at that time)\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10585",
+      "time": "2025-02-13T05:31:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10585#issuecomment-2655526715",
+      "text": "i would like to work on this."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10580",
+      "time": "2025-02-13T04:04:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10580#issuecomment-2655425212",
+      "text": "No @AdityaJ2305 it was not like that, i thought since this issue was related to just one form field so i did that,\ni created a separate issue now no problem."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10584",
+      "time": "2025-02-13T03:50:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10584#issuecomment-2655412496",
+      "text": "I have solved this issue in #10581 as a part of #10555 "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10584",
+      "time": "2025-02-13T03:50:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10584",
+      "text": "Global Zod Validators Error Messages for Phone Number and Geo-Coordinates are not displaying"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10581",
+      "time": "2025-02-13T02:12:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10581",
+      "text": "Fix Translations Not Loading for Global Zod Validators Error Messages and Patient Registration Age and Y.O.B fields"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10580",
+      "time": "2025-02-13T01:36:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10580#issuecomment-2655234824",
+      "text": "Hi Aditya,\nI have mentioned this issue in #10555 👍"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10555",
@@ -2625,7 +2690,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/608",
       "title": "Add support for `pullHistoricalGitHubActivites` to fetch discussions",
-      "stale_for": 26,
+      "stale_for": 27,
       "labels": []
     },
     {

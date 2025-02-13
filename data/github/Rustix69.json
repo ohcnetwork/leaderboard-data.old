@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-02-11T22:54:00.000Z",
+  "last_updated": "2025-02-13T06:46:30.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10585",
+      "time": "2025-02-13T06:46:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10585#issuecomment-2655677307",
+      "text": "#  **Approach for Dynamic Bed Naming & Optimized API Request**\n\n## **1. User Input Fields in Location Form**\n- **Bed Type Selection:** User can select the type of bed (e.g., ICU, Standard, etc.).\n- **Number of Beds:** A field to specify how many beds to add (defaults to 1 for each type).\n- **Real-Time Preview:** Dynamically generate a preview of bed names based on existing beds (e.g., `ICU-1`, `ICU-2`, `ICU-3`).\n\n## **2. Real-Time Bed Name Preview**\n- Before submitting, users see a preview of the beds that will be created.\n- If **3 ICU beds already exist** (`ICU-1`, `ICU-2`, `ICU-3`), adding 3 more will show:  \n- If no beds exist, the preview will start from `ICU-1`.\n\n## **3. Optimized API Request Structure**\n- **Do not send the entire list of generated bed names** to avoid memory overhead.\n- Only send **bed type** and **count** in the payload.\n- **Example API Payload:**\n```json\n{\n  \"location_id\": \"12345\",\n  \"bed_type\": \"ICU\",\n  \"count\": 3\n}\n```\n\n## **4. Backend Processing & Database Update**\n- Backend fetches the existing beds of the selected type for that location.\n- Determines the next available bed number.\n- Generates and inserts new beds dynamically.\n- Updates the **parent location records** accordingly.\n\n## **5. Validation Rules**\n- Ensure bed numbers are sequential and unique.\n- Restrict the maximum number of beds per location (if applicable).\n- Prevent duplicate names from being created.\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10566",

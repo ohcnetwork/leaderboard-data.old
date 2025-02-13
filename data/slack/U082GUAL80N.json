@@ -625,6 +625,99 @@
         {
             "user": "U082GUAL80N",
             "type": "message",
+            "ts": "1739462111.241959",
+            "client_msg_id": "d558c0db-8f07-4993-ab97-e27ea224c2b0",
+            "text": "*13th FEB*\n\u2022 Worked on requested changes on a UI part, I have set the specific heights but told to solve it without hardcoded height values.\n\u2022 Confirmed an issue/feature from Bodhi, currently searching on organisation users is only on the basis of username. We can implement other parameters like phone number to make searching more efficient. Gone through the Backend repository as Backend can play a role in it. Created a feature request for this but it is assigned to Mahender as I have some open PRs.\nNEXT\n\u2022 Work on pending PRs\n\u2022 Looking for new issues",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "38DzZ",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "13th FEB",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Worked on requested changes on a UI part, I have set the specific heights but told to solve it without hardcoded height values."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Confirmed an issue/feature from Bodhi, currently searching on organisation users is only on the basis of username. We can implement other parameters like phone number to make searching more efficient. Gone through the Backend repository as Backend can play a role in it. Created a feature request for this but it is assigned to Mahender as I have some open PRs."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\nNEXT\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Work on pending PRs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Looking for new issues"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U082GUAL80N",
+            "type": "message",
             "ts": "1739428882.466809",
             "client_msg_id": "ae98139b-2b2d-49f7-ab83-19e151e97e3b",
             "text": "*10th FEB &amp; 11th FEB*\n\u2022 Open an issue which is causing inconsistencies in containers during schedule creation.\n\u2022 Raised a PR which improves the inconsistency or additional flexibility of containers, which improves the UI of Schedule Template.\n\u2022 Gone through the ABDM and Scribe docs\n\u2022 Gone through the backend repository (care)",
@@ -695,6 +788,15 @@
                             "border": 0
                         }
                     ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U02TDGQQPMJ"
+                    ],
+                    "count": 1
                 }
             ]
         }
