@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-02-13T09:33:01.000Z",
+  "last_updated": "2025-02-13T15:58:31.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2831",
+      "time": "2025-02-13T15:58:31.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2831#issuecomment-2657048662",
+      "text": "@rithviknishad @Jacobjeevan can i work on this?"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care#2831",
+      "time": "2025-02-13T15:58:11.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2831",
+      "text": "Add phone_number filter for organization users"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10598",
+      "time": "2025-02-13T15:39:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10598#issuecomment-2656994185",
+      "text": "Need backend support for phonenumber filtering"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10598",
+      "time": "2025-02-13T15:39:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10598",
+      "text": "Add phone number search for organization users"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10587",
@@ -1512,10 +1540,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2833",
+      "title": "Add phone_number filter for OrganizationUser",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10598",
       "title": "Add phone number search for organization users",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "waiting for backend"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10213",
