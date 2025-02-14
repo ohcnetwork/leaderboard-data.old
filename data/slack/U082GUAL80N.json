@@ -811,5 +811,114 @@
                 }
             ]
         }
+    ],
+    "2025-02-14 00:00:00": [
+        {
+            "user": "U082GUAL80N",
+            "type": "message",
+            "ts": "1739542598.889819",
+            "client_msg_id": "fe692196-31f3-4b6d-ba8d-71caea98196e",
+            "text": "*14th FEB*\n\u2022 Opened 2 issues ,  one was that the create button in manage tags sheet in questionnaire was not working, basically it is a scrolling issue which can be solved easily because in Mobile View it is working.\n\u2022 Another issue was that the wrong message is shown during cloning the questionnaire. When we put the same slug , it is not showing proper error message. Although none of them get assigned to me:smiling_face_with_tear:\n\u2022 One was that the generate-headers file does not contain a directory check before write operation. Asked Rithvik about this and he said public dir always exists so does not require.\n\u2022 Done some cleanup in pending PRs\nNEXT\n\u2022 Looking for new issues (also hoping to get assigned )",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "CTseX",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "14th FEB",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Opened 2 issues ,  one was that the create button in manage tags sheet in questionnaire was not working, basically it is a scrolling issue which can be solved easily because in Mobile View it is working."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Another issue was that the wrong message is shown during cloning the questionnaire. When we put the same slug , it is not showing proper error message. Although none of them get assigned to me"
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "smiling_face_with_tear",
+                                            "unicode": "1f972"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "One was that the generate-headers file does not contain a directory check before write operation. Asked Rithvik about this and he said public dir always exists so does not require."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Done some cleanup in pending PRs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "NEXT\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Looking for new issues (also hoping to get assigned )"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
