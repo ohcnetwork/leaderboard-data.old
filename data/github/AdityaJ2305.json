@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-02-14T13:46:20.000Z",
+  "last_updated": "2025-02-14T20:21:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10614",
+      "time": "2025-02-14T20:21:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10614#issuecomment-2660193153",
+      "text": "<img width=\"673\" alt=\"Screenshot 2025-02-15 at 1 45 05 AM\" src=\"https://github.com/user-attachments/assets/3842a99e-551d-4b71-b118-542f1f0d9dcb\" />\r\n\r\nThe issue was caused by the backend returning null for the gender value in some user profiles. This needed to be handled properly."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10614",
+      "time": "2025-02-14T20:19:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10614",
+      "text": "Fix: Handle null gender values in user profiles"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10613",
+      "time": "2025-02-14T19:59:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10613",
+      "text": "Fix: Medicine Section Bugs "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10610",
+      "time": "2025-02-14T19:54:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10610#issuecomment-2660149364",
+      "text": "Checkout this link of screen recording \n\nhttps://drive.google.com/file/d/1E5tuiF4No2wIDrkQJQpq4CsEODQNpm05/view?usp=sharing"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10610",
+      "time": "2025-02-14T19:49:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10610#issuecomment-2660142894",
+      "text": "@amjithtitus09, one more doubt 😅,\n\nCurrently, if all medicines are discontinued, the tab displays “NO Prescription” (Empty State). Is this the expected behavior? I don’t think so.  especially when they are included in Print Prescription and Treatment Summary?\n\nThis seems like a bug.  (Same behavior is observed in Administer Medicine as well.)\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10610",
@@ -3606,6 +3641,18 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10614",
+      "title": "Fix: Handle null gender values in user profiles",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10613",
+      "title": "Fix: Medicine Section Bugs ",
+      "stale_for": 0,
+      "labels": []
+    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10579",
       "title": "Re-design Encounter Card",
