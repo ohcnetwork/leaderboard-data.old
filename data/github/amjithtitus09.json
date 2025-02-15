@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-02-14T13:42:09.000Z",
+  "last_updated": "2025-02-15T11:21:57.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-15T11:21:57.000Z",
+      "title": "ohcnetwork/care_fe#10613",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10613#pullrequestreview-2619384413",
+      "text": "Fix: Medicine Section Bugs "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10610",
+      "time": "2025-02-15T11:18:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10610#issuecomment-2660876255",
+      "text": "> [@amjithtitus09](https://github.com/amjithtitus09), one more doubt 😅,\n> \n> Currently, if all medicines are discontinued, the tab displays “NO Prescription” (Empty State). Is this the expected behavior? I don’t think so. especially when they are included in Print Prescription and Treatment Summary?\n> \n> This seems like a bug. (Same behaviour is in Administer Medicine as well.)\n\n@AdityaJ2305 Just change it to \"No active prescriptions\" and show current \"No Prescription\" when both are empty."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10563",
+      "time": "2025-02-15T10:42:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10563#issuecomment-2660865357",
+      "text": "@AdityaJ2305 Remove the avatar. Bg colours are fine with Allergies but not sure if the border looks good. Can you share a version with the border removed and add black/gray dashed lines between tables. Apply to all tables and share a screenshot."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10610",
@@ -966,7 +987,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10590",
       "title": "Valueset UI",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
