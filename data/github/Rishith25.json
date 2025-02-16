@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-02-15T10:24:10.000Z",
+  "last_updated": "2025-02-16T05:57:16.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10627",
+      "time": "2025-02-16T05:57:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10627#issuecomment-2661264228",
+      "text": "or we can add facilityId in the condition\n\n   {facilityId && hasFacilities && (\n          <FacilitySwitcher\n            facilities={user?.facilities || []}\n            selectedFacility={selectedFacility}\n          />\n        )}"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10627",
+      "time": "2025-02-16T05:23:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10627#issuecomment-2661253166",
+      "text": "selectedFacility state is not clearing on navigating  back . by keeping state with null initially we can resolve this issue\n\n```.tsx\nReact.useEffect(() => {\n    setSelectedFacility(null);\n\n    if (!user?.facilities || facilityId == undefined || !facilitySidebar)\n      return;\n\n    const facility = user.facilities.find((f) => f.id === facilityId);\n    console.log(\"facilityId\", facilityId);\n\n    if (facility) {\n      setSelectedFacility(facility);\n    }\n>   }, [facilityId, user?.facilities,facilitySidebar]);\n```"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10627",
+      "time": "2025-02-16T05:05:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10627#issuecomment-2661248157",
+      "text": "@rithviknishad I would like to work on this"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10623",
@@ -1826,7 +1847,8 @@
       "title": "add fallback url for goBack()",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "hold",
+        "waiting for related PR"
       ]
     }
   ],
