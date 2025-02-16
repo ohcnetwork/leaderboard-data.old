@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-02-16T05:15:14.000Z",
+  "last_updated": "2025-02-16T10:52:13.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10627",
+      "time": "2025-02-16T10:52:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10627#issuecomment-2661374442",
+      "text": "@rithviknishad Could you assign this to me.\nWe need to refresh the state when we go to that page. We can use useEffect hook for that."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10585",
+      "time": "2025-02-16T10:48:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10585#issuecomment-2661373313",
+      "text": "@rithviknishad \n### Approach\nWe can add an option where the user can select the number of beds.\n\nFor example, the user types the name of the location as **bed** and selects 10 beds. After clicking \"Create,\" the API is called, which checks if there are already entries in the database labeled as **bed**.\n\nIf no such entries exist, the beds are created starting from **bed 1** (then **bed 2**, **bed 3**, and so on up to **bed 10**).\nIf entries named **bed** already exist in the database, new entries will be added with numbering starting after the highest existing bed number.\nFor example, if entries up to **bed 5** already exist, the new entries will start from **bed 6** and go up to **bed 15**."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10607",
+      "time": "2025-02-16T09:43:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10607#issuecomment-2661347183",
+      "text": "@tellmeY18 Could you please assign this to me"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10099",

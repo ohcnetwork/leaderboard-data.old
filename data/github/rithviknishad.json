@@ -1,12 +1,68 @@
 {
-  "last_updated": "2025-02-16T09:13:30.000Z",
+  "last_updated": "2025-02-16T17:10:46.000Z",
   "activity": [
     {
       "type": "pr_reviewed",
-      "time": "2025-02-16T09:13:30.000Z",
-      "title": "ohcnetwork/leaderboard-data#85",
-      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/85#pullrequestreview-2619576037",
-      "text": "Update areebahmeddd.md"
+      "time": "2025-02-16T17:10:46.000Z",
+      "title": "ohcnetwork/care_fe#10411",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10411#pullrequestreview-2619676627",
+      "text": "Redesign: Departments page root view "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10634",
+      "time": "2025-02-16T13:51:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10634#issuecomment-2661442072",
+      "text": "@hrit2773 do update the PR's title to be more specific. The PR title would appear in the changelog and this would be very ambiguous."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-16T13:50:31.000Z",
+      "title": "ohcnetwork/care_fe#10634",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10634#pullrequestreview-2619633891",
+      "text": "Fixed avatar bug"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-16T13:43:51.000Z",
+      "title": "ohcnetwork/care_fe#10571",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10571#pullrequestreview-2619632190",
+      "text": "Add Deletion Functionality to Locations"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10632",
+      "time": "2025-02-16T13:21:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10632#issuecomment-2661430908",
+      "text": "I'd highly recommend using standard sizes for testing responsiveness @AdityaJ2305 @Rishith25.\n\nAlso @AdityaJ2305 mentioning mm size doesn't make any sense without the context of your display resolution or DPI settings.\n\nhttps://github.com/user-attachments/assets/9e0ae0e8-6dd5-42ae-b623-082978af04f3"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10520",
+      "time": "2025-02-16T13:15:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10520#issuecomment-2661427744",
+      "text": "You mean \"preview\"? \"preview\" is used as id's for questionnaire preview elements. when it's \"preview\", the query should be disabled."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10631",
+      "time": "2025-02-16T10:32:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10631",
+      "text": "Remove unused configs, request and related utilities, APIs and styles"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-16T09:23:23.000Z",
+      "title": "ohcnetwork/care_fe#10606",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10606#pullrequestreview-2619578211",
+      "text": "fixed search bar and drop-down in questionnar/create page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-13T12:12:01.000Z",
+      "title": "ohcnetwork/care_fe#10591",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10591#pullrequestreview-2614799004",
+      "text": "Added Search By Title and status filters to questionnaires page"
     },
     {
       "type": "pr_reviewed",
@@ -14,6 +70,13 @@
       "title": "ohcnetwork/care_fe#10595",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10595#pullrequestreview-2619575858",
       "text": "fix: add environment check (production, staging, and develop)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-16T09:13:30.000Z",
+      "title": "ohcnetwork/leaderboard-data#85",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/85#pullrequestreview-2619576037",
+      "text": "Update areebahmeddd.md"
     },
     {
       "type": "issue_opened",
@@ -179,13 +242,6 @@
       "time": "2025-02-13T12:18:27.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10589#issuecomment-2656429316",
       "text": "This was purposefully kept not destructive as this button is not the primary focus on these pages.\r\n\r\nThis feels there is extra emphasis on the page."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-13T12:12:01.000Z",
-      "title": "ohcnetwork/care_fe#10591",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10591#pullrequestreview-2614799004",
-      "text": "Added Search By Title and status filters to questionnaires page"
     },
     {
       "type": "pr_reviewed",
@@ -60453,9 +60509,17 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10631",
+      "title": "🧹 Remove unused configs, utilities, APIs, styles + enable React `StrictMode`",
+      "stale_for": 0,
+      "labels": [
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10609",
       "title": "Prevent auto focus issue in Org. Patient Search",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
@@ -60469,7 +60533,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10506",
       "title": "Improved global error handler; support for registering custom error handlers on component mount",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": [
         "merge conflict"
       ]
