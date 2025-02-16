@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-02-15T04:39:02.000Z",
+  "last_updated": "2025-02-15T19:32:11.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10613",
+      "time": "2025-02-15T19:32:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10613#issuecomment-2661058468",
+      "text": "One thing more 😅\r\nI observed in `AdministrationTab.tsx` we are using refetch from UseQuery . Let's not use that instead invalidate query like we are doing all over other places in codebase. LMK ? "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10591",
+      "time": "2025-02-15T19:20:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10591#issuecomment-2661055085",
+      "text": "Bro…, you raised the PR from the develop branch 😱—let’s not do that under any circumstances. Keep your develop branch separate and always in sync with upstream.\r\n\r\ncc: @Jacobjeevan @rithviknishad, what should be the next step? "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-13T10:17:46.000Z",
+      "title": "ohcnetwork/care_fe#10591",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10591#pullrequestreview-2614522915",
+      "text": "Added Search By Title and status filters to questionnaires page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10563",
+      "time": "2025-02-15T18:06:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10563#issuecomment-2661028520",
+      "text": "<img width=\"735\" alt=\"Screenshot 2025-02-15 at 11 35 42 PM\" src=\"https://github.com/user-attachments/assets/e38d1151-525a-43bf-9b8f-47c3c174a810\" />\r\n\r\n@amjithtitus09 , Let's also add status column for medicines. LMK ? "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10563",
+      "time": "2025-02-15T17:53:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10563#issuecomment-2661024244",
+      "text": "<img width=\"790\" alt=\"Screenshot 2025-02-15 at 10 11 31 PM\" src=\"https://github.com/user-attachments/assets/3d48990a-920e-4a6c-9a1b-e1cf8a2eacc2\" />\r\n<img width=\"636\" alt=\"Screenshot 2025-02-15 at 10 48 32 PM\" src=\"https://github.com/user-attachments/assets/3a02aac4-77f2-4c57-80e3-7e8b16a12490\" />\r\n\r\n@amjithtitus09 @bodhish @gigincg \r\n"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#10614",
@@ -71,13 +106,6 @@
       "time": "2025-02-13T12:41:09.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10563#issuecomment-2656483113",
       "text": "@amjithtitus09, everything is done as per my understanding. I just need your confirmation on the previous comment regarding the background color."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-13T10:17:46.000Z",
-      "title": "ohcnetwork/care_fe#10591",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10591#pullrequestreview-2614522915",
-      "text": "Added Search By Title and status filters to questionnaires page"
     },
     {
       "type": "comment_created",
@@ -3653,7 +3681,10 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/10613",
       "title": "Fix: Medicine Section Bugs ",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10579",
