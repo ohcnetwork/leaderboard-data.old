@@ -1,12 +1,12 @@
 ---
 name: Areeb Ahmed
-title: Contributor
+title: DevOps Intern
 github: areebahmeddd
 twitter: ""
-linkedin: ""
-slack: ""
-joining_date: ""
-role : contributor
+linkedin: areebahmeddd
+slack: U07UB6TQWRE
+joining_date: 31/01/2025
+role : intern
 ---
 
-Still waiting for this
+Young professional passionate about building solutions that create meaningful value for people on a large scale
