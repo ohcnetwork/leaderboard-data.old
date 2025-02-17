@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-02-17T07:13:11.000Z",
+  "last_updated": "2025-02-17T11:13:23.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-17T11:13:23.000Z",
+      "title": "ohcnetwork/care_fe#10195",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10195#pullrequestreview-2620754821",
+      "text": "chore(deps): update dependency @trivago/prettier-plugin-sort-imports to v5"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10646",
+      "time": "2025-02-17T10:15:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10646",
+      "text": "Fix autocomplete unable to pre-fill in certain usages; Adds utility fn. to merge autocomplete options; Fixes facility select in resource form edge case"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-17T09:09:28.000Z",
+      "title": "ohcnetwork/care_fe#10640",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10640#pullrequestreview-2620439908",
+      "text": "Fix: Breadcrumb Navigation Fails to Return to Parent in Department/Teams"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-17T08:52:56.000Z",
+      "title": "ohcnetwork/care_fe#10645",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10645#pullrequestreview-2620397077",
+      "text": "Added translation for hcx claims encounter tab"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10634",
+      "time": "2025-02-17T08:27:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10634#issuecomment-2662378094",
+      "text": "Mark it as ready for review once changes are made"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10620",
+      "time": "2025-02-17T08:26:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10620",
+      "text": "Appointments Select Practitioner search UI Bug"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-16T17:41:19.000Z",
+      "title": "ohcnetwork/care_fe#10636",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10636#pullrequestreview-2619682145",
+      "text": "resolved Appointments select practitioner options Bug: popover inconsistent spacing between options within the popover content"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10595",
@@ -78,13 +127,6 @@
       "time": "2025-02-16T17:46:26.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/10626",
       "text": "Allowing user to specify File Category in Patient File Upload"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-16T17:41:19.000Z",
-      "title": "ohcnetwork/care_fe#10636",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10636#pullrequestreview-2619682145",
-      "text": "resolved Appointments select practitioner options Bug: popover inconsistent spacing between options within the popover content"
     },
     {
       "type": "pr_reviewed",
@@ -60583,7 +60625,10 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/10609",
       "title": "Prevent auto focus issue in Org. Patient Search",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10560",
@@ -60596,7 +60641,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10506",
       "title": "Improved global error handler; support for registering custom error handlers on component mount",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": [
         "merge conflict"
       ]

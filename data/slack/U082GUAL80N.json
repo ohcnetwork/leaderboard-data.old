@@ -1036,5 +1036,91 @@
                 }
             ]
         }
+    ],
+    "2025-02-17 00:00:00": [
+        {
+            "user": "U082GUAL80N",
+            "type": "message",
+            "ts": "1739803780.526569",
+            "client_msg_id": "ad3a88ad-c897-4e44-983f-550269cec6db",
+            "text": "*17th FEB*\n\u2022 Worked on the changes request on a PR, improved the type casting of a component. I wrote a custom function for stop the camera. We were using a method which is not there in react webcam package so it was giving error in the console.\n\u2022 Read some docs of react webcam for working on an assigned issue created by Rithvik. The issue was that to add support for switching to preferred camera when multiple cameras are available in system.\nNEXT\n\u2022 Work on assigned issues",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "5EoG7",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "17th FEB",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Worked on the changes request on a PR, improved the type casting of a component. I wrote a custom function for stop the camera. We were using a method which is not there in react webcam package so it was giving error in the console."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Read some docs of react webcam for working on an assigned issue created by Rithvik. The issue was that to add support for switching to preferred camera when multiple cameras are available in system."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\nNEXT\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Work on assigned issues"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

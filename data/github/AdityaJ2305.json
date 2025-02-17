@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-02-17T07:36:51.000Z",
+  "last_updated": "2025-02-17T10:23:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10579",
+      "time": "2025-02-17T10:23:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10579#issuecomment-2662669529",
+      "text": "@Jacobjeevan, done!\r\nAlthough, it was a bit difficult for me to notice the changes when I updated everything at once, so I made the changes step by step to notice them more easily 😅."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10613",
+      "time": "2025-02-17T10:14:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10613#issuecomment-2662647214",
+      "text": "@amjithtitus09, one more thing 😅\r\n\r\nShouldn’t we use a popover to display notes in the medicine section, just like we’re doing for the allergies table and others? If yes, can I push that change to the treatment summary PR since I need isPrintPreview, which I’ve already passed there? 😅"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10579",
+      "time": "2025-02-17T09:50:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10579#issuecomment-2662584385",
+      "text": "@Jacobjeevan, I’m a bit confused about the font size—are you referring to the headings like “Facility” and “Start Date” or the font size of their values? 😅\r\nother than this other changes are done "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/landing#57",
@@ -3747,13 +3768,14 @@
       "title": "Re-design Encounter Card",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10563",
       "title": "Treatment Summary UI Enhancement ",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "question",
         "work-in-progress",
@@ -3765,10 +3787,8 @@
       "title": "Redesign the Facility Details Page ",
       "stale_for": 0,
       "labels": [
-        "question",
         "needs testing",
-        "needs review",
-        "needs-triage"
+        "needs review"
       ]
     }
   ],
