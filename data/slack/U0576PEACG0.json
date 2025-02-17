@@ -6728,5 +6728,215 @@
                 }
             ]
         }
+    ],
+    "2025-02-16 00:00:00": [
+        {
+            "user": "U0576PEACG0",
+            "type": "message",
+            "ts": "1739726934.073379",
+            "edited": {
+                "user": "U0576PEACG0",
+                "ts": "1739727096.000000"
+            },
+            "client_msg_id": "d1432378-919a-4001-a4d2-ac75c180262e",
+            "text": "*Feb 13 - 14*\n\u2022 Spent time understanding the how mailers work in Django - Knowing just enough for current thingy.\n\u2022 Went into some issues with care backend local setup and finally got it working.\n\u2022 Added a mailer to be sent when MFA is enabled.\n\u2022 Reviewed a PR.\n\u2022 Added endpoint for disable and regenerating the backup codes.\n\u2022 Doing a self-review and made some changes and noticed missed adding the endpoint for login using the backup_code and started working on it and some re-thinking for  data structure for storing and retrieving the backup_codes , actually it does not matter much.\n\u2022 Some issue with docker desktop and WSl2 \n\u2022 After reading the common mail from GSoC went through all the project ideas of PF GSOC, added atleast one possible mentor and made some edits.\n\u2022 Noticed my EOD's count not getting synched on leaderboard and checked with Rithvik to get it fixed. \n*Next* \n_Will be working partly on Monday_\n\u2022 Wrap up MFA and request a review.\n\u2022 VTA \n\u2022 Fix review comments on MFA BE and then If Vignesh is happy with flow and code, inform intern working on FE to start wiring and then start writing tests.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "p96QS",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Feb 13 - 14",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Spent time understanding the how mailers work in Django - Knowing just enough for current thingy."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Went into some issues with care backend local setup and finally got it working."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added a mailer to be sent when MFA is enabled."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed a PR."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added endpoint for disable and regenerating the backup codes."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Doing a self-review and made some changes and noticed missed adding the endpoint for login using the backup_code and started working on it and some re-thinking for  data structure for storing and retrieving the backup_codes , actually it does not matter much."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Some issue with docker desktop and WSl2 "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "After reading the common mail from GSoC went through all the project ideas of PF GSOC, added atleast one possible mentor and made some edits."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Noticed my EOD's count not getting synched on leaderboard and checked with Rithvik to get it fixed. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next ",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Will be working partly on Monday",
+                                    "style": {
+                                        "italic": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Wrap up MFA and request a review."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "VTA "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fix review comments on MFA BE and then If Vignesh is happy with flow and code, inform intern working on FE to start wiring and then start writing tests."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U07UB6TQWRE",
+                        "U02TDGQQPMJ"
+                    ],
+                    "count": 2
+                },
+                {
+                    "name": "care",
+                    "users": [
+                        "U02TDGQQPMJ"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }
