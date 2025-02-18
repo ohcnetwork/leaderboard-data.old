@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-17T14:43:57.000Z",
+  "last_updated": "2025-02-17T17:15:53.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10623",
+      "time": "2025-02-17T17:15:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10623#issuecomment-2663704401",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) , is there a discord or slack group of ohc network, if yes then can you tell me where the link to join it is\n\n[slack.ohc.network](https://slack.ohc.network/)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10591",
+      "time": "2025-02-17T16:08:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10591#issuecomment-2663544992",
+      "text": "> > Bro…, you raised the PR from the develop branch 😱—let’s not do that under any circumstances. Keep your develop branch separate and always in sync with upstream.\r\n> > cc: @Jacobjeevan @rithviknishad, what should be the next step?\r\n> \r\n> hey I have many other branches which are already in sync with main one\r\n\r\nTry to follow our guidelines: https://github.com/ohcnetwork/care_fe?tab=readme-ov-file#contributing-to-care\r\n\r\nI'd not recommend using the main branch (`develop` in our case) because there's a chance of history being polluted in the future if you don't carefully manage it.\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10652",
@@ -6622,6 +6636,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2838",
+      "title": "Added permissions to encounter, patient and facility",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10642",
       "title": "Patient Tabs Fixes",
       "stale_for": 0,
@@ -6633,9 +6653,7 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/10526",
       "title": "Perms based Rendering",
       "stale_for": 0,
-      "labels": [
-        "merge conflict"
-      ]
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2767",
