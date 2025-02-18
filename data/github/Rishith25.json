@@ -1,6 +1,42 @@
 {
-  "last_updated": "2025-02-17T14:27:54.000Z",
+  "last_updated": "2025-02-18T05:48:45.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10665",
+      "time": "2025-02-18T05:48:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10665",
+      "text": "Fix: Facility name update in facility switcher"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10664",
+      "time": "2025-02-18T05:25:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10664#issuecomment-2664642307",
+      "text": "@rithviknishad i solved this. Assign this to me, will raise PR"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10664",
+      "time": "2025-02-18T05:24:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10664",
+      "text": "Bug : Facility name is not updating in Facility switcher"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10663",
+      "time": "2025-02-18T05:06:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10663",
+      "text": "Refactor padding in Page component | Resource and Prescription Preview responsiveness"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10633",
+      "time": "2025-02-18T04:14:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10633",
+      "text": "Fix: Facility switcher and Organization switcher edge case handled",
+      "turnaround_time": 145091
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10632",
@@ -1882,16 +1918,16 @@
       "title": "Refactor padding in Page component | Resource and Prescription Preview responsiveness",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10146",
       "title": "add fallback url for goBack()",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "hold",
-        "waiting for related PR"
+        "needs testing"
       ]
     }
   ],
