@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-02-16T08:57:53.000Z",
+  "last_updated": "2025-02-17T12:54:51.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10624",
+      "time": "2025-02-17T12:54:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10624#issuecomment-2663040612",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) currently the backend has a Questionnaie write spec pydantic model which includes the title also but no validation is applied on the title just a title field is there. We just need to add a max characters validation there. I think I can sort it out from the backend. Its a simple one cc [@rithviknishad](https://github.com/rithviknishad) can I send a backend PR resolving this bug.\n\nBro please let me work on this. I want to start something from backend and this is perfect to start.😅"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10630",
@@ -819,7 +826,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10553",
       "title": "fix: Adjust containers flexibility and inconsistency",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "changes required"
       ]
@@ -827,9 +834,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10413",
       "title": "fix: Organization Users page needs responsiveness",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "changes required"
+        "changes required",
+        "merge conflict"
       ]
     }
   ],
