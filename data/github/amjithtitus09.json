@@ -1,6 +1,46 @@
 {
-  "last_updated": "2025-02-18T06:08:00.000Z",
+  "last_updated": "2025-02-18T10:42:54.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10590",
+      "time": "2025-02-18T10:42:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10590",
+      "text": "Valueset UI",
+      "turnaround_time": 440990
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#10590",
+      "time": "2025-02-18T10:42:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10590",
+      "text": "Valueset UI",
+      "collaborated_with": [
+        "gigincg",
+        "amjithtitus09"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10563",
+      "time": "2025-02-18T09:58:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10563#issuecomment-2665139501",
+      "text": "![image](https://github.com/user-attachments/assets/6be2d387-f1f5-45e5-80b0-b003fde34f95)\r\n@AdityaJ2305 Let's try another approach. Create a new generic table that works for all similar to the image. Let's reduce the border thickness and make it gray. The component can take in keys and values in the below format. Column specific styling like labels aren't required.\r\n \r\n \r\n```\r\n<\r\nkey: [{title:,\"allergen\", width: x}, {title: \"status\", width: y}, {title: \"criticality\", width: x}, ...}]\r\nvalues: [{allergen: foo1, status: \"bar1\",...}, {allergen: foo2, status: \"bar2\",...},...]\r\n/>\r\n```\r\n\r\n "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10613",
+      "time": "2025-02-18T07:20:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10613#issuecomment-2664802933",
+      "text": "> > @AdityaJ2305 Let's not add more columns in Medicine request table, it'll get too cramped.\r\n> \r\n> It wouldn't make any additional column ,I am just asking to update the current one to update it to popover notes and long notes are overflow for all the tables in Print @amjithtitus09\r\n\r\nCan you share screenshot of the table you're talking about? @AdityaJ2305 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10613",
+      "time": "2025-02-18T07:12:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10613#issuecomment-2664791739",
+      "text": "@AdityaJ2305 Let's not add more columns in Medicine request table, it'll get too cramped."
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#9724",

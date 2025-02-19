@@ -660,5 +660,21 @@
     },
     "participants": [],
     "repository": "care"
+  },
+  {
+    "source": "github",
+    "title": "v3.0.1",
+    "text": "## What's Changed\r\n\r\n### Features\r\n- Introduced enhanced validations and dynamic UI components for patient registration, encounter overviews, and questionnaires.\r\n- Added location-based functionality for improved search, assignment, and display in patient details and encounters.\r\n- Upgraded user authentication flows with streamlined error management and a dedicated logout API.\r\n- Expanded medication management and file handling with new screens, dialogs, API endpoints, and improved validations.\r\n- Migrated to a modern data fetching strategy using `useQuery` to improve resource updates and performance.\r\n- Integrated new pluggable components to enrich patient demographics and other patient details.\r\n- Improved print preview and responsive layouts across various views.\r\n\r\n### Fixes\r\n- Corrected bugs in patient registration, login flows, and file upload error detection.\r\n- Resolved issues with location search, date handling, and placeholder displays.\r\n- Improved UI responsiveness and consistency in appointment cards, user details, and mobile/tablet views.\r\n- Enhanced error handling across API calls, file conversions, and message displays.\r\n- Replaced deprecated components and streamlined data fetching to address loading and state issues.\r\n\r\n### Chores\r\n- Merged branches, resolved conflicts, and updated internal documentation and environment configurations.\r\n- Updated dependencies and removed unused libraries, components, GitHub workflows, and deprecated utilities.\r\n- Added new lint checks and improved test setups.\r\n- Consolidated translation and localization updates.\r\n\r\n## New Contributors\r\n* @mdimado made their first contribution in https://github.com/ohcnetwork/care_fe/pull/10187\r\n* @Niaal-B made their first contribution in https://github.com/ohcnetwork/care_fe/pull/10378\r\n\r\n## Contributors\r\n@khavinshankar @nihal467 @AdityaJ2305 @rithviknishad @rajku-dev @yash-learner @amjithtitus09 @shivankacker @gigincg @DonXavierdev @Jeffrin2005 @Mahendar0701 @Jacobjeevan @bodhish @modamaan @Tanuj1718 @Niaal-B @mdimado @NikhilA8606\r\n\r\n**Full Changelog**: https://github.com/ohcnetwork/care_fe/compare/v3.0.0...v3.0.1\n\n<hr /><em>This discussion was created from the release <a href='https://github.com/ohcnetwork/care_fe/releases/tag/v3.0.1'>v3.0.1</a>.</em>",
+    "author": "sainak",
+    "link": "https://github.com/orgs/ohcnetwork/discussions/10667",
+    "isAnswered": null,
+    "time": "2025-02-18T07:41:18Z",
+    "updateTime": "2025-02-18T07:41:19Z",
+    "category": {
+      "name": "Announcements",
+      "emoji": "📣"
+    },
+    "participants": [],
+    "repository": "care_fe"
   }
 ]

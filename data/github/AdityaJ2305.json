@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-02-18T05:37:25.000Z",
+  "last_updated": "2025-02-18T09:24:12.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10613",
+      "time": "2025-02-18T09:24:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10613#issuecomment-2665051667",
+      "text": "> One thing more 😅 I observed in `AdministrationTab.tsx` we are using refetch from UseQuery . Let's not use that instead use `invalidate query` like we are doing all over other places in codebase. LMK ?\r\n> \r\n> cc: @rithviknishad @amjithtitus09\r\n\r\nDone ✅ "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10613",
+      "time": "2025-02-18T09:14:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10613#issuecomment-2665029707",
+      "text": "Current:- \r\n<img width=\"1181\" alt=\"Screenshot 2025-02-18 at 2 31 21 PM\" src=\"https://github.com/user-attachments/assets/3ef3cc23-068e-4b09-9fab-7c1abbecf26b\" />\r\n\r\n\r\n\r\nUpdated:- \r\n<img width=\"1181\" alt=\"Screenshot 2025-02-18 at 2 36 03 PM\" src=\"https://github.com/user-attachments/assets/791eb3e5-4fce-42f6-9e83-1833b4a78b6f\" />\r\n\r\n@amjithtitus09 , It was just to make it consistent with other tables we have ......\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10380",
+      "time": "2025-02-18T08:49:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10380#issuecomment-2664968168",
+      "text": "@nihal467 , done with the changes , ready for re-test and re-review"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10624",
+      "time": "2025-02-18T07:20:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10624#issuecomment-2664803279",
+      "text": "Hey @Tanuj1718 , the issue by @DraKen0009 is already assigned to another contributor, please do it confirm with maintainer before raising PR to avoid duplicate efforts \ncc: @Jacobjeevan @rithviknishad "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10613",
+      "time": "2025-02-18T07:15:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10613#issuecomment-2664794900",
+      "text": "> @AdityaJ2305 Let's not add more columns in Medicine request table, it'll get too cramped.\r\n\r\nIt wouldn't make any additional comment I am just asking to update the current one to update it to popover notes and long notes are overflow for all the tables in Print "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10664",
