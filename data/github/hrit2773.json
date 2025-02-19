@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-18T12:13:05.000Z",
+  "last_updated": "2025-02-19T15:01:19.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10684",
+      "time": "2025-02-19T15:01:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10684#issuecomment-2668911339",
+      "text": "@rithviknishad Awesome!! I thought that first that will be better"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10684",
+      "time": "2025-02-19T14:12:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10684#issuecomment-2668776057",
+      "text": "@rithviknishad I have added page:null to every setQueryParams so that the existing filters do not affect the page queryParam as they are always getting reset when a filter is applied. That solves the conflicts I have tested"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10676",
@@ -1693,7 +1707,12 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/10684",
       "title": "Added pagination to Appointments List view",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "invalid",
+        "question",
+        "changes required",
+        "needs-triage"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10676",
@@ -1714,7 +1733,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/100",
       "title": "Added CEP for Patient Tagging system",
-      "stale_for": 14,
+      "stale_for": 15,
       "labels": []
     }
   ],

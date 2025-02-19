@@ -1,6 +1,74 @@
 {
-  "last_updated": "2025-02-18T14:27:11.000Z",
+  "last_updated": "2025-02-19T14:28:41.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10701",
+      "time": "2025-02-19T14:28:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10701#issuecomment-2668819703",
+      "text": "let's do a wrap instead of horizontal scroll"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10684",
+      "time": "2025-02-19T14:27:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10684#issuecomment-2668816968",
+      "text": "let's use both in the same page in the first place. let's drop using useQueryParams if we are using useFilters, and move everything that was handled by useQueryParams to use useFilters.\n\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-19T14:12:07.000Z",
+      "title": "ohcnetwork/care_fe#10703",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10703#pullrequestreview-2626938859",
+      "text": "Questionnaire tags search and popover"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-19T13:01:16.000Z",
+      "title": "ohcnetwork/care_fe#10696",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10696#pullrequestreview-2626721990",
+      "text": "Fix : Search Bar with Drop down selection"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10688",
+      "time": "2025-02-19T12:44:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10688",
+      "text": "Fixes certain users from being unable to view an encounter from organizations patients",
+      "turnaround_time": 13102
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#10688",
+      "time": "2025-02-19T12:44:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10688",
+      "text": "Fixes certain users from being unable to view an encounter from organizations patients",
+      "collaborated_with": [
+        "rithviknishad",
+        "Jacobjeevan"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-04T17:09:27.000Z",
+      "title": "ohcnetwork/care_fe#10283",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10283#pullrequestreview-2593520073",
+      "text": "Add Confirmation Pop-up to Prevent Accidental Exception Deletions"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-18T16:52:12.000Z",
+      "title": "ohcnetwork/care_fe#10642",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10642#pullrequestreview-2624263272",
+      "text": "Patient Tabs Fixes"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-16T17:10:46.000Z",
+      "title": "ohcnetwork/care_fe#10411",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10411#pullrequestreview-2619676627",
+      "text": "Redesign: Departments page root view "
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-02-18T14:27:11.000Z",
@@ -29,13 +97,6 @@
       "title": "ohcnetwork/care_fe#10146",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10146#pullrequestreview-2605299756",
       "text": "Fix: Add fallback url for goback() | OTP field auto focus | Add Search Feature for users"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-04T17:09:27.000Z",
-      "title": "ohcnetwork/care_fe#10283",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10283#pullrequestreview-2593520073",
-      "text": "Add Confirmation Pop-up to Prevent Accidental Exception Deletions"
     },
     {
       "type": "comment_created",
@@ -336,13 +397,6 @@
       "time": "2025-02-16T17:46:26.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/10626",
       "text": "Allowing user to specify File Category in Patient File Upload"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-16T17:10:46.000Z",
-      "title": "ohcnetwork/care_fe#10411",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10411#pullrequestreview-2619676627",
-      "text": "Redesign: Departments page root view "
     },
     {
       "type": "comment_created",
@@ -60803,15 +60857,6 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10688",
-      "title": "Update encounter routes to always be sub-route of patient and update related navigates to include patient ID",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10560",
       "title": "Basic CRUD pages for Devices",
       "stale_for": 1,
@@ -60823,10 +60868,8 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10506",
       "title": "Improved global error handler; support for registering custom error handlers on component mount",
-      "stale_for": 7,
-      "labels": [
-        "merge conflict"
-      ]
+      "stale_for": 0,
+      "labels": []
     }
   ],
   "authored_issue_and_pr": [
@@ -60865,10 +60908,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_camera_asset/issues/1",
       "pr_link": "https://github.com/ohcnetwork/care_camera_asset/pull/2"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard-data/issues/71",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/551"
     }
   ]
 }

@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-16T10:52:13.000Z",
+  "last_updated": "2025-02-19T12:46:51.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10585",
+      "time": "2025-02-19T12:46:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10585#issuecomment-2668555171",
+      "text": "@rithviknishad\n\n### Approach2\nWe can add an option where the user can select the number of beds and then push the beds in an array and use **promise.all()** / **make a recursive function** / **use a loop to send these requests**."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10585",
+      "time": "2025-02-19T12:40:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10585#issuecomment-2668539713",
+      "text": "@rithviknishad Could you assign this issue to me.\n\n### Approach1\nWe can add an option where the user can select the number of beds and then push the stringified details of all the beds in an array then send this array to backend. \n\nFor example, the user types the name of the location as bed and selects 10 beds. After clicking, if the backend supports bulk creation we can just push all the requests in an array, each request with same name prefix and different number (like **bed 1** , **bed 2** ) and then stringify the whole array and then send it to the backend.\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10627",

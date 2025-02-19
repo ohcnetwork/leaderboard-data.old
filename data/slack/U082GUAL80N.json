@@ -1234,9 +1234,127 @@
                 {
                     "name": "rocket",
                     "users": [
-                        "U02TDGQQPMJ"
+                        "U02TDGQQPMJ",
+                        "U0576PEACG0"
                     ],
-                    "count": 1
+                    "count": 2
+                }
+            ]
+        }
+    ],
+    "2025-02-19 00:00:00": [
+        {
+            "user": "U082GUAL80N",
+            "type": "message",
+            "ts": "1739981634.911019",
+            "client_msg_id": "e0c0dad0-0617-41c9-afe8-e42d45674877",
+            "text": "*19th FEB*\n\u2022 Created two issues, one was about the UI inconsistency, which I got assigned and now working on it.\n\u2022 Other was closed because I tested using old data, basically it was related to searching. The phone number was saved without country code and we were not able to search user with that number. Rithvik clarified about it.\n\u2022 Tried to testing the pending issue, but backend is not working.\n\u2022 Updated a pending PR.\nNEXT\n\u2022 Work on assigned issue\n\u2022 Testing for a PR\n",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "IJQGS",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "19th FEB",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Created two issues, one was about the UI inconsistency, which I got assigned and now working on it."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Other was closed because I tested using old data, basically it was related to searching. The phone number was saved without country code and we were not able to search user with that number. Rithvik clarified about it."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tried to testing the pending issue, but backend is not working."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Updated a pending PR."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "NEXT\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Work on assigned issue"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Testing for a PR"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
                 }
             ]
         }

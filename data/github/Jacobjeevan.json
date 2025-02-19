@@ -1,6 +1,87 @@
 {
-  "last_updated": "2025-02-18T15:01:40.000Z",
+  "last_updated": "2025-02-19T15:12:14.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10704",
+      "time": "2025-02-19T15:12:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10704#issuecomment-2668943447",
+      "text": "@Sulochan-khadka Please refrain from opening prs till issue is assigned (to avoid cases like this 👍 )."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10704",
+      "time": "2025-02-19T15:12:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10704",
+      "text": "Paginated Response is not reflected in Users page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10003",
+      "time": "2025-02-19T14:36:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10003#issuecomment-2668840122",
+      "text": "Reopen later if there's activity 👍 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10536",
+      "time": "2025-02-19T13:54:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10536#issuecomment-2668726616",
+      "text": "#10506 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10694",
+      "time": "2025-02-19T13:49:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10694",
+      "text": "Font Inconsistent in Encounters buttons"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10692",
+      "time": "2025-02-19T13:48:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10692",
+      "text": "Direct access to login page for second-time/regular users"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10692",
+      "time": "2025-02-19T13:48:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10692#issuecomment-2668711287",
+      "text": "There's isn't a way to detect this as others mentioned 👍 Well, users could keep the login page bookmarked 😅 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10698",
+      "time": "2025-02-19T13:45:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10698#issuecomment-2668702682",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) just a quick question; Won't adding searchQuery in queryKey do the job? That is ; make a fetch request at every key stroke (dynamically) ?\n\nYou will need to add it to queryParams as well, since that's what's being passed to backend. QueryKey is a unique identifier for the query itself (to invalidate the query in another page for example)."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10703",
+      "time": "2025-02-19T13:38:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10703",
+      "text": "Questionnaire tags search and popover"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#10688",
+      "time": "2025-02-19T12:44:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10688",
+      "text": "Fixes certain users from being unable to view an encounter from organizations patients",
+      "collaborated_with": [
+        "rithviknishad",
+        "Jacobjeevan"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-19T12:39:15.000Z",
+      "title": "ohcnetwork/care_fe#10688",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10688#pullrequestreview-2626669345",
+      "text": "Fixes certain users from being unable to view an encounter from organizations patients"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10553",
@@ -6748,6 +6829,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10703",
+      "title": "Questionnaire tags search and popover",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "P1"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2838",
       "title": "Added permissions to encounter, patient and facility",
       "stale_for": 0,
@@ -6759,19 +6849,22 @@
       "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review"
+        "needs review",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10526",
       "title": "Perms based Rendering",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "merge conflict"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2767",
       "title": "Alt phone number and qualificationspec",
-      "stale_for": 25,
+      "stale_for": 26,
       "labels": []
     }
   ],

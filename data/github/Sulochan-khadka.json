@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-02-17T14:34:19.000Z",
+  "last_updated": "2025-02-19T14:42:55.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10705",
+      "time": "2025-02-19T14:42:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10705",
+      "text": "Fixes:Paginated-response"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10704",
+      "time": "2025-02-19T14:40:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10704",
+      "text": "Paginated Response is not reflected in Users page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10698",
+      "time": "2025-02-19T13:52:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10698#issuecomment-2668720349",
+      "text": "> > [@Jacobjeevan](https://github.com/Jacobjeevan) just a quick question; Won't adding searchQuery in queryKey do the job? That is ; make a fetch request at every key stroke (dynamically) ?\n> \n> You will need to add it to queryParams as well, since that's what's being passed to backend. QueryKey is a unique identifier for the query itself (to invalidate the query in another page for example).\n\ni was figuring out that as well, but you already made PR :)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10698",
+      "time": "2025-02-19T13:28:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10698#issuecomment-2668658650",
+      "text": "@Jacobjeevan just a quick question; Won't adding searchQuery in queryKey do the job? That is ; make a fetch request at every key stroke (dynamically) ?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10699",
+      "time": "2025-02-19T13:11:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10699#issuecomment-2668616081",
+      "text": "@nihal467 @Jacobjeevan can i work on this?"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#10652",
