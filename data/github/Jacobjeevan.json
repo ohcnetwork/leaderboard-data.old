@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-02-19T15:12:14.000Z",
+  "last_updated": "2025-02-19T15:40:25.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10482",
+      "time": "2025-02-19T15:40:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10482#issuecomment-2669024385",
+      "text": "> [@nihal467](https://github.com/nihal467) It’s already been added, so we can close this issue.\n> \n> cc: [@rithviknishad](https://github.com/rithviknishad) [@Jacobjeevan](https://github.com/Jacobjeevan)\n\nThis is for brand new one, preview works for existing questionnaires yes."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10706",
+      "time": "2025-02-19T15:28:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10706#issuecomment-2668989850",
+      "text": "This is by design.\n\n(1) Multiple patients maybe registered under one number (for example: one number for members of a household)\n(2) Phone numbers are unique (compared to names, which are more common) so this isn't solving an issue from efficiency perspective\n(3) User should have know patient's number and year of birth to gain basic access (in this case, to create an appointment or an encounter via the search).\n\nWe will be introducing permissions to restrict further access (since we are dealing with healthcare data, the whole idea maintain restricted level access)."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10706",
+      "time": "2025-02-19T15:28:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10706",
+      "text": "Add Name and Additional Fields as Search Parameters in Search Patient"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10704",
@@ -6849,8 +6870,7 @@
       "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review",
-        "merge conflict"
+        "needs review"
       ]
     },
     {
