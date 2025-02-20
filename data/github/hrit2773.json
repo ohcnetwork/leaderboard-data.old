@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-02-19T15:48:11.000Z",
+  "last_updated": "2025-02-20T04:58:44.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10673",
+      "time": "2025-02-20T04:58:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10673#issuecomment-2670467359",
+      "text": "@rithviknishad @Jacobjeevan can you just confirm if its valid?? If Its valid I can make a  PR on it today. Can you assign me"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10674",
+      "time": "2025-02-20T04:57:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10674#issuecomment-2670465541",
+      "text": "@rithviknishad @Jacobjeevan I was anyways working with questionnaires so can I take this up can you assign me. I want to get this done"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10684",
+      "time": "2025-02-20T04:54:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10684#issuecomment-2670463019",
+      "text": "@rithviknishad  instead of using 2 instances of useFilters I used it once and then passed those as props together and Lets keep the QueryParams interface coz its still in use and increased limit to 15 and also discarded setStatus and status state and used them as qParams. I feel that works??"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10684",
+      "time": "2025-02-20T04:18:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10684#issuecomment-2670425153",
+      "text": "@rithviknishad we are using QueryParams interface in useEffect so lets not remove that. "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10684",
@@ -1722,15 +1750,9 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10676",
-      "title": "Added search and status filters to questionnaires Page",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10634",
       "title": "Fixing all File upload dialog content overflow bugs ",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "question",
         "changes required",
@@ -1740,7 +1762,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/100",
       "title": "Added CEP for Patient Tagging system",
-      "stale_for": 15,
+      "stale_for": 16,
       "labels": []
     }
   ],

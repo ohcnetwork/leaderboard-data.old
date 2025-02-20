@@ -1,6 +1,28 @@
 {
-  "last_updated": "2025-02-19T20:28:56.000Z",
+  "last_updated": "2025-02-20T10:34:52.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2850",
+      "time": "2025-02-20T10:34:52.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2850",
+      "text": "Handle AttributeError in batch requests"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2848",
+      "time": "2025-02-20T10:27:07.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2848",
+      "text": "Fix Facility.DoesNotExist in scheduling"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10710",
+      "time": "2025-02-20T10:02:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10710",
+      "text": "Add react-scan",
+      "turnaround_time": 48828
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10710",
@@ -18223,27 +18245,39 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10710",
-      "title": "Add react-scan",
+      "link": "https://github.com/ohcnetwork/care/pull/2852",
+      "title": "Fix username validator to include deleted users in user create spec",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2850",
+      "title": "Handle AttributeError in batch requests",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2848",
+      "title": "Fix Facility.DoesNotExist in scheduling",
       "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2847",
       "title": "Make typst installation configurable",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2763",
       "title": "Data Migration",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/16",
       "title": "Update config variables to follow standard naming scheme",
-      "stale_for": 41,
+      "stale_for": 42,
       "labels": []
     },
     {
