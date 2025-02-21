@@ -1,6 +1,69 @@
 {
-  "last_updated": "2025-02-19T14:09:51.000Z",
+  "last_updated": "2025-02-20T17:35:12.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2849",
+      "time": "2025-02-20T17:35:12.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2849",
+      "text": "AttributeError: 'RequestFactory' object has no attribute 'post/**/union/**/all/**/select/**/null,null,null,null,n..."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-20T17:35:04.000Z",
+      "title": "ohcnetwork/care#2850",
+      "link": "https://github.com/ohcnetwork/care/pull/2850#pullrequestreview-2630688422",
+      "text": "Handle AttributeError in batch requests"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2846",
+      "time": "2025-02-20T17:34:09.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2846",
+      "text": "Add support for generating discharge summary in digital ocean deployments"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-20T17:33:56.000Z",
+      "title": "ohcnetwork/care#2847",
+      "link": "https://github.com/ohcnetwork/care/pull/2847#pullrequestreview-2630685960",
+      "text": "Make typst installation configurable"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-20T17:32:57.000Z",
+      "title": "ohcnetwork/care#2855",
+      "link": "https://github.com/ohcnetwork/care/pull/2855#pullrequestreview-2630683359",
+      "text": "Adds support for having multiple plugs in same package"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2851",
+      "time": "2025-02-20T17:31:29.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2851",
+      "text": "IntegrityError: duplicate key value violates unique constraint \"users_user_username_key\""
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-20T17:31:18.000Z",
+      "title": "ohcnetwork/care#2852",
+      "link": "https://github.com/ohcnetwork/care/pull/2852#pullrequestreview-2630679743",
+      "text": "Fix username validator to include deleted users in user create spec"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2843",
+      "time": "2025-02-20T17:30:49.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2843",
+      "text": "Facility.DoesNotExist: Facility matching query does not exist."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-20T17:30:36.000Z",
+      "title": "ohcnetwork/care#2848",
+      "link": "https://github.com/ohcnetwork/care/pull/2848#pullrequestreview-2630677837",
+      "text": "Fix Facility.DoesNotExist in scheduling"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-02-19T14:09:51.000Z",
@@ -13291,7 +13354,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/6",
       "title": "[CEP-4] RBAC: initial spec",
-      "stale_for": 140,
+      "stale_for": 141,
       "labels": []
     }
   ],

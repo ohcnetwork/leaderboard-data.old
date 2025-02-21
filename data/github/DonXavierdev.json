@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-20T09:13:12.000Z",
+  "last_updated": "2025-02-20T17:16:54.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10732",
+      "time": "2025-02-20T17:16:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10732",
+      "text": "Fix overflow of medication details for better responsiveness"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10551",
+      "time": "2025-02-20T17:10:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10551#issuecomment-2672138612",
+      "text": "Hey @vishwansh01 thanks for checking in, The functionality is done here . There is some issue on the BE which prevents this PR to be merged so currently waiting on it. "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10713",
@@ -624,23 +638,32 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10732",
-      "title": "Fix overflow of medication details for better responsiveness",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10740",
+      "title": "Cypress: Patient Prescription Management",
       "stale_for": 0,
       "labels": []
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10592",
-      "title": "Cypress: User Avatar Modification",
-      "stale_for": 1,
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10732",
+      "title": "Fix overflow of medication details for better responsiveness",
+      "stale_for": 0,
       "labels": [
         "changes required"
       ]
     },
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10592",
+      "title": "Cypress: User Avatar Modification",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10571",
       "title": "Add Deletion Functionality to Locations",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "changes required"
       ]
@@ -648,9 +671,9 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10411",
       "title": "Redesign: Departments page root view ",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs review"
       ]
     }
   ],
