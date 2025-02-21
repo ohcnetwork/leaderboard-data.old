@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-20T20:33:32.000Z",
+  "last_updated": "2025-02-21T05:41:14.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10695",
+      "time": "2025-02-21T05:41:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10695#issuecomment-2673517755",
+      "text": "Hey @Rishith25 , Let's don't do it the issue you are solving that is related to questionnaire not valueset and additional it is about css change not any bug solved. Let not combine unrelated issues/tasks \nCc: @rithviknishad @Jacobjeevan "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10695",
+      "time": "2025-02-20T21:29:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10695#issuecomment-2672726967",
+      "text": "@nihal467 , I have encountered a couple of bugs while solving above \n- [ ] Action column is hidden in case of long description (no scroll is there)\n<img width=\"1144\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0b18ff11-cf16-4f21-ade5-a96962a1ca40\" />\n\n- [ ] Use Primary variant for Edit button. It is confused as text currently\n- [ ] on Editing a valueset and editing it again, it is not updating the form with last edit done \n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10738",
@@ -4097,8 +4111,7 @@
       "stale_for": 0,
       "labels": [
         "question",
-        "needs testing",
-        "reviewed",
+        "changes required",
         "needs-triage"
       ]
     },
