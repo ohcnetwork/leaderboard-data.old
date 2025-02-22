@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-13T15:11:24.000Z",
+  "last_updated": "2025-02-21T10:17:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9456",
+      "time": "2025-02-21T10:17:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9456#issuecomment-2674142786",
+      "text": "> [@yash-learner](https://github.com/yash-learner) I would like to give it a shot, can you assign it to me.\n\n@abhimanyurajeesh \n\n@AnveshNalimela had initially [worked](https://github.com/ohcnetwork/care_fe/pull/9633) this, and he waited for BE to be done.\n\nLet's wait for his reply if he still wants to continue working on this. If not, you can take over then"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9633",
+      "time": "2025-02-21T09:38:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/9633#issuecomment-2674053014",
+      "text": "@AnveshNalimela \r\n\r\nHere is the https://github.com/ohcnetwork/care/pull/2830 backend PR, you can start wiring the API's. There will not be any major changes.\r\n\r\nAlso, have a look at the design on user profile page where we keep these settings - https://www.figma.com/design/Z93EYKSa1MdBmXndsMBJSQ/Care?node-id=4785-4837&p=f&t=PuUQGBYFlMTytATd-0 and start working on this as well."
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/leaderboard-data#84",
@@ -385,8 +399,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9260",
       "title": "Labs",
-      "stale_for": 17,
+      "stale_for": 5,
       "labels": [
+        "blocked",
+        "hold",
         "Deploy-Failed",
         "merge conflict",
         "stale"
@@ -395,7 +411,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/81",
       "title": "Add proposal for MFA",
-      "stale_for": 82,
+      "stale_for": 88,
       "labels": []
     }
   ],

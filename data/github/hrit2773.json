@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-20T15:01:34.000Z",
+  "last_updated": "2025-02-21T09:09:30.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10741",
+      "time": "2025-02-21T09:09:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10741#issuecomment-2673991365",
+      "text": "@Jacobjeevan @rithviknishad The cause for this bug was that after updating a valueset the cache was not cleared. To address this root cause I added removeQueries so that on update mutation the cache gets cleared. Its only after updating that the valueset gets refetched."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10741",
+      "time": "2025-02-21T09:06:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10741",
+      "text": "Fixing Valueset editor refetching bug"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10634",
@@ -1774,15 +1788,6 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10741",
-      "title": "Fixing Valueset editor refetching bug",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10684",
       "title": "Added pagination to Appointments List view",
       "stale_for": 1,
@@ -1811,6 +1816,10 @@
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10720",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10741"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10620",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10636"

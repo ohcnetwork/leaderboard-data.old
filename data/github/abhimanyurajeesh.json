@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-21T04:35:07.000Z",
+  "last_updated": "2025-02-21T11:48:39.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10731",
+      "time": "2025-02-21T11:48:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10731#issuecomment-2674343236",
+      "text": "> **To Reproduce** Steps to reproduce the behavior:\n> \n>     1. Navigate to [Staging Environment](https://staging.ohc.network/facility/451c19a1-17f2-4304-8165-f84d958f3efe/).\n> \n>     2. Click on Encounter and attempt to change the patient’s location.\n> \n>     3. Notice that the location field is not accessible.\n> \n> \n> note: test-feb-doc01 (password: Test@123)\n> \n\n\n<img width=\"1470\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/fe507d1e-eedd-4b6b-9e9c-0d816228a2e5\" /> also there is no locations in it to update 🧐 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9456",
+      "time": "2025-02-21T10:10:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9456#issuecomment-2674128373",
+      "text": "@yash-learner I would like to give it a shot, can you assign it to me."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10722",
@@ -1010,7 +1024,8 @@
       "title": "Fix: Add a new list view to locations in the facility settings",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     }
   ],

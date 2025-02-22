@@ -1,12 +1,19 @@
 {
-  "last_updated": "2025-02-21T03:38:36.000Z",
+  "last_updated": "2025-02-21T11:43:14.000Z",
   "activity": [
     {
       "type": "pr_reviewed",
-      "time": "2025-02-18T02:40:21.000Z",
-      "title": "ohcnetwork/care_fe#10655",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10655#pullrequestreview-2622304039",
-      "text": "Update SBOM data fetching"
+      "time": "2025-02-21T11:43:14.000Z",
+      "title": "ohcnetwork/care_fe#10745",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10745#pullrequestreview-2632804893",
+      "text": "Adding patient Id to props in Encounter Files"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care#2858",
+      "time": "2025-02-21T11:19:08.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2858",
+      "text": "Add support for storing artifact meta objects such as excalidraw drawings"
     },
     {
       "type": "pr_reviewed",
@@ -16,11 +23,53 @@
       "text": "Questionnaire List & Edit UI Redesign"
     },
     {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10698",
+      "time": "2025-02-21T10:37:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10698",
+      "text": "Fix the Search functionality in manage tags section of questionnaire"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10699",
+      "time": "2025-02-21T10:29:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10699",
+      "text": "Hide the discharge summary from file upload section on patient details page"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10597",
+      "time": "2025-02-21T10:29:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10597",
+      "text": "Patient Tabs Modifications"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10721",
+      "time": "2025-02-21T08:27:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10721#issuecomment-2673892686",
+      "text": "@nihal467 I don't see any issue here, this particular API will give ALL users that has a schedule in the facility in the first call to the API itself and the rest is filtered at client side.\n\n"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10721",
+      "time": "2025-02-21T08:27:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10721",
+      "text": "Appointments Tab Username Search Results Are Limited to the Initially Loaded 15 Entries"
+    },
+    {
       "type": "pr_reviewed",
       "time": "2025-02-21T03:12:05.000Z",
       "title": "ohcnetwork/care_fe#10680",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10680#pullrequestreview-2631741265",
       "text": "Integrated Excalidraw for drawing Files"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-18T02:40:21.000Z",
+      "title": "ohcnetwork/care_fe#10655",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10655#pullrequestreview-2622304039",
+      "text": "Update SBOM data fetching"
     },
     {
       "type": "pr_reviewed",
@@ -61046,6 +61095,15 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10754",
+      "title": "Potential fix for code scanning alert no. 116: DOM text reinterpreted as HTML",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10560",
       "title": "Basic CRUD pages for Devices",
