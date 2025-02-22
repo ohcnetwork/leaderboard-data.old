@@ -1,6 +1,83 @@
 {
-  "last_updated": "2025-02-21T18:06:27.000Z",
+  "last_updated": "2025-02-22T08:15:33.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10761",
+      "time": "2025-02-22T08:15:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10761#issuecomment-2676086197",
+      "text": "@Rishith25 Okk... thanks for the information. Will have to close this issue then."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10761",
+      "time": "2025-02-22T08:15:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10761",
+      "text": "Questionnaires list page minor UI enhancements"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10760",
+      "time": "2025-02-22T07:19:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10760#issuecomment-2676068034",
+      "text": "@rithviknishad @Sulochan-khadka Ohh got it. Thanks for informing"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10761",
+      "time": "2025-02-22T07:18:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10761#issuecomment-2676067532",
+      "text": "@Jacobjeevan @rithviknishad is this valid. Can i take this up"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10761",
+      "time": "2025-02-22T07:17:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10761",
+      "text": "Questionnaires list page minor UI enhancements"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10760",
+      "time": "2025-02-22T07:05:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10760#issuecomment-2676062972",
+      "text": "@Jacobjeevan @rithviknishad can you assign me. Will make a PR immediately."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10760",
+      "time": "2025-02-22T07:04:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10760",
+      "text": "Pagination Not implemented in Valuesets page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10689",
+      "time": "2025-02-22T06:34:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10689#issuecomment-2676051313",
+      "text": "@samholics We need to add a field in the backend also I guess as there is no field called treating doctor. There should be a field referencing to the user model. In the frontend also we have to fetch the Users whose role is a doctor and who belongs to the facility. Changes are required both in the backend and frontend. cc @rithviknishad @Jacobjeevan Can I take this up. Both frontend and backend."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2839",
+      "time": "2025-02-22T06:23:33.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2839#issuecomment-2676048018",
+      "text": "@sainak @vigneshhari We need to add a field nationality with choices I guess and also make necessary changes in the pydantic models. Can I work on this??? Can I get it assigned."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10759",
+      "time": "2025-02-22T04:55:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10759#issuecomment-2676014643",
+      "text": "@Jacobjeevan @rithviknishad made changes according to the format suggested by @amjithtitus09 \r\n![415661993-71e6e986-5bbb-47ba-94b6-9722135cb0fa](https://github.com/user-attachments/assets/71d2f861-bcde-46c4-9f8b-42d6d8ac3497)\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10759",
+      "time": "2025-02-22T04:50:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10759",
+      "text": "Added Symptoms onset date field in encounters overview"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#10741",
@@ -1817,13 +1894,15 @@
       "stale_for": 0,
       "labels": [
         "invalid",
-        "changes required"
+        "question",
+        "changes required",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10634",
       "title": "Fixing all File upload dialog content overflow bugs ",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "question",
         "changes required",
@@ -1833,7 +1912,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/100",
       "title": "Added CEP for Patient Tagging system",
-      "stale_for": 17,
+      "stale_for": 18,
       "labels": []
     }
   ],
