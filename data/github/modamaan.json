@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-02-18T06:35:15.000Z",
+  "last_updated": "2025-02-21T19:15:17.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10681",
+      "time": "2025-02-21T19:15:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10681#issuecomment-2675348472",
+      "text": "@rithviknishad can you please chack this PR"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#10458",
@@ -1412,15 +1419,16 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/10681",
       "title": "Refactor Tooltip Implementations to Use TooltipComponent for Consistent and Simplified Management",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "changes required"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10635",
       "title": "Ensure DialogContent Accessibility by Adding Description Support",
       "stale_for": 0,
       "labels": [
-        "invalid",
-        "changes required"
+        "needs review"
       ]
     },
     {
@@ -1428,7 +1436,8 @@
       "title": "Fix Button Overflow and Minor Responsive Issues on Mobile View",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs review",
+        "tested"
       ]
     },
     {
@@ -1436,7 +1445,8 @@
       "title": "Add Confirmation Pop-up to Prevent Accidental Exception Deletions",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     }
   ],

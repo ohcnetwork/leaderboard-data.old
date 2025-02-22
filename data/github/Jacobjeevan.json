@@ -1,6 +1,56 @@
 {
-  "last_updated": "2025-02-21T13:17:53.000Z",
+  "last_updated": "2025-02-21T18:13:37.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-21T18:12:16.000Z",
+      "title": "ohcnetwork/care_fe#10754",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10754#pullrequestreview-2633872388",
+      "text": "Potential fix for code scanning alert no. 116: DOM text reinterpreted as HTML"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10720",
+      "time": "2025-02-21T18:06:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10720",
+      "text": "Valueset data is not always getting refetched in valueset edit page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10659",
+      "time": "2025-02-21T18:03:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10659#issuecomment-2675214205",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/415764727-86ba5e97-f4b9-4f36-bb4b-3617429b90f5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxNjEyNjIsIm5iZiI6MTc0MDE2MDk2MiwicGF0aCI6Ii81NzA1NTk5OC80MTU3NjQ3MjctODZiYTVlOTctZjRiOS00ZjM2LWJiNGItMzYxNzQyOWI5MGY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDE4MDI0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEwMTRjMGEwNTI1YjhmMTU4ZjZlM2RmMDJlYmM3NjI2ZTU4MDZkNjVmMTIyMjhiNTdkYmVhODMwYTA1Y2IxYWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.27ydpZmanRFQI7a2Jmd9n9VMxPfgNWlGsfDPF9P_3ck)\r\n> \r\n>     * [ ]  Hide the button if they don't have access to do the action, for example a nurse doesn't have access to edit the user role, so hide this button for those users\r\n\r\nShould be handled via perms 👍 "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10751",
+      "time": "2025-02-21T15:42:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10751",
+      "text": "Location Edit Form and Files Fixes"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10731",
+      "time": "2025-02-21T15:18:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10731#issuecomment-2674832761",
+      "text": "Permissions were synced on staging. Issue should be resolved (I checked with the test account).\n\ncc: @aravindm4 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10731",
+      "time": "2025-02-21T15:18:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10731",
+      "text": "Locations Are Not Accessible by Non-Super Admins in Staging Environment"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10745",
+      "time": "2025-02-21T13:59:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10745",
+      "text": "Adding patient Id to props in Encounter Files",
+      "turnaround_time": 11985
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-02-21T13:17:53.000Z",
