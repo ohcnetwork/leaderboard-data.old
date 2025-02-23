@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-02-22T08:15:33.000Z",
+  "last_updated": "2025-02-22T09:21:00.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10684",
+      "time": "2025-02-22T09:21:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10684#issuecomment-2676116054",
+      "text": "@rithviknishad Now if we want pagination in this page as there is a separate component Appointment row, we need useFilters in that also right. In other places in care everything is included in one page so by declaring useFilters once only we are able to access qParams, updateQuery, resultsPerPage and Pagination. So what is the alternative?? should I declare useFilters once in the  Appointments page component and again in the Appointments row component?? because we want the Pagination omponent in the AppointmentRow commponent."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10763",
+      "time": "2025-02-22T08:57:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10763#issuecomment-2676107503",
+      "text": "@rithviknishad @Jacobjeevan this needs a minor change in the backend. I want to take this up. Can you assign me"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10763",
+      "time": "2025-02-22T08:56:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10763",
+      "text": "Valueset create/edit name field needs further validation"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10684",
+      "time": "2025-02-22T08:24:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10684#issuecomment-2676088979",
+      "text": "@rithviknishad can I get a review on the changes"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10761",
