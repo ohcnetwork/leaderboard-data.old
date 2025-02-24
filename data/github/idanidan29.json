@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-23T16:26:32.000Z",
+  "last_updated": "2025-02-23T22:40:42.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10785",
+      "time": "2025-02-23T22:40:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10785",
+      "text": "Bugfix: Keep Cancel Button Visible After Removing All Questionnaires #10769"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10769",
+      "time": "2025-02-23T22:23:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10769#issuecomment-2677147953",
+      "text": "The current issue contains multiple bugs. Splitting them into separate issues could make tracking, fixing, and collaboration easier. It would also help contributors focus on specific problems and speed up things.\n\nI’ve fixed the bug where clicking remove should show a cancel button (previously missing) and am submitting a PR for it. I’ll keep working on the rest later.\n\nWould love to hear any feedback!"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10784",
@@ -16,6 +30,13 @@
       "text": "hi im working on this one, will submit a pr soon"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10785",
+      "title": "Bugfix: Keep Cancel Button Visible After Removing All Questionnaires #10769",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }

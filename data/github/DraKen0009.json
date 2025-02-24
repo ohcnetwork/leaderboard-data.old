@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-02-22T18:42:32.000Z",
+  "last_updated": "2025-02-24T00:02:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10763",
+      "time": "2025-02-24T00:02:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10763#issuecomment-2677198381",
+      "text": "It will be basically  the copy paste of the required validation from here https://github.com/ohcnetwork/care_fe/pull/10735 (once it get completed)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10735",
+      "time": "2025-02-23T23:59:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10735#issuecomment-2677197132",
+      "text": "@Harsh-D-2004  , while you are at it. Please add a extra validation on slug to follow the pattern - `r\"^[-\\w]+$\"`\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10763",
+      "time": "2025-02-23T23:56:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10763#issuecomment-2677195211",
+      "text": "@hrit2773  I'll make the backend changes for it. can you add validation on the frontend, so user isn't able to send request with empty name and also add a validation for slug to have length between 5-25 , following the pattern- `r\"^[-\\w]+$\"`"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10770",
@@ -2140,7 +2161,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2856",
       "title": "Adding consent Viewset",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": []
     },
     {
