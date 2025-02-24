@@ -36573,5 +36573,205 @@
                 }
             ]
         }
+    ],
+    "2025-02-24 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1740376244.914769",
+            "client_msg_id": "dce85461-8010-4dcf-bf46-f8372ca4a808",
+            "text": "*Feb 17-23*\n\n\u2022 Mostly building out the teleicu plugs.\n\u2022 Couple of issues being tackled with new middleware\n\u2022 Added support for having multiple plugs in same package <https://github.com/ohcnetwork/care/pull/2855|#2855>\n\u2022 Debugging and understanding things with camera and streaming (at times had to remind myself the camera at my hand is not really ONVIF).\n\u2022 Playing with ffmpeg commands.\n\u2022 Got fed up of the camera i had and ended up building my own mock onvif camera using threejs and ffmpeg to render RTSP frames and mediamtx to convert it to web. Now i can just docker run onvif cameras that listens to PTZ inputs and accordingly render  ICU and few beds in scene :slightly_smiling_face:  (- fully authored by cursor)\n\u2022 Reviewed bunch of PRs\n\u2022 Fixes issues with Autocomplete pre-fill <https://github.com/ohcnetwork/care_fe/pull/10646|#10646>\n*Next*\n\u2022 Get done with teleicu plug. FE changes and camera position presets pending.\n\u2022 Try to get stream to work properly with RTSPtoWeb instead of mediamtx server.\n\u2022 Build BE for storing meta artifacts for storing JSON data such as excalidraw.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "yPivq",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Feb 17-23",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Mostly building out the teleicu plugs."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Couple of issues being tackled with new middleware"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added support for having multiple plugs in same package "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2855",
+                                            "text": "#2855",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Debugging and understanding things with camera and streaming (at times had to remind myself the camera at my hand is not really ONVIF)."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Playing with ffmpeg commands."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Got fed up of the camera i had and ended up building my own mock onvif camera using threejs and ffmpeg to render RTSP frames and mediamtx to convert it to web. Now i can just docker run onvif cameras that listens to PTZ inputs and accordingly render  ICU and few beds in scene "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "slightly_smiling_face",
+                                            "unicode": "1f642"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "  (- fully authored by cursor)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed bunch of PRs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixes issues with Autocomplete pre-fill "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10646",
+                                            "text": "#10646",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Get done with teleicu plug. FE changes and camera position presets pending."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Try to get stream to work properly with RTSPtoWeb instead of mediamtx server."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Build BE for storing meta artifacts for storing JSON data such as excalidraw."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "fire",
+                    "users": [
+                        "U02TB83Q5V0",
+                        "U01JB8L8P7Y"
+                    ],
+                    "count": 2
+                }
+            ]
+        }
     ]
 }
