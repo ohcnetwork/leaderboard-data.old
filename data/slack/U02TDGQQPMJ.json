@@ -36578,6 +36578,184 @@
         {
             "user": "U02TDGQQPMJ",
             "type": "message",
+            "ts": "1740412364.498349",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1740412429.000000"
+            },
+            "client_msg_id": "5a503d26-e19d-45e1-be2b-780a7962e46a",
+            "text": "*Feb 24*\n\u2022 weekly eng. sync call\n\u2022 :headphones: w. bodhi and vignesh on associating devices to location and encounter\n\u2022 :headphones:s w. nihal on random things\n\u2022 some progress made on camera plug\n\u2022 fiddled with linux remote dev. setup\n*Next*\n\u2022 :racing_motorcycle: license exam tomorrow morning\n\u2022 teleicu plug\n\u2022 meta-artifact BE\n\u2022 write onvif driver/server code to directly control the mock camera",
+            "team": "TC99SV7B6",
+            "thread_ts": "1740412364.498349",
+            "reply_count": 4,
+            "reply_users_count": 2,
+            "latest_reply": "1740413538.844969",
+            "reply_users": [
+                "UC8TSEGCQ",
+                "U02TDGQQPMJ"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "B9Wwm",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Feb 24",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "weekly eng. sync call"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " w. bodhi and vignesh on associating devices to location and encounter"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "s w. nihal on random things"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "some progress made on camera plug"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fiddled with linux remote dev. setup"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "racing_motorcycle",
+                                            "unicode": "1f3cd-fe0f"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " license exam tomorrow morning"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "teleicu plug"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "meta-artifact BE"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "write onvif driver/server code to directly control the mock camera"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
             "ts": "1740376244.914769",
             "client_msg_id": "dce85461-8010-4dcf-bf46-f8372ca4a808",
             "text": "*Feb 17-23*\n\n\u2022 Mostly building out the teleicu plugs.\n\u2022 Couple of issues being tackled with new middleware\n\u2022 Added support for having multiple plugs in same package <https://github.com/ohcnetwork/care/pull/2855|#2855>\n\u2022 Debugging and understanding things with camera and streaming (at times had to remind myself the camera at my hand is not really ONVIF).\n\u2022 Playing with ffmpeg commands.\n\u2022 Got fed up of the camera i had and ended up building my own mock onvif camera using threejs and ffmpeg to render RTSP frames and mediamtx to convert it to web. Now i can just docker run onvif cameras that listens to PTZ inputs and accordingly render  ICU and few beds in scene :slightly_smiling_face:  (- fully authored by cursor)\n\u2022 Reviewed bunch of PRs\n\u2022 Fixes issues with Autocomplete pre-fill <https://github.com/ohcnetwork/care_fe/pull/10646|#10646>\n*Next*\n\u2022 Get done with teleicu plug. FE changes and camera position presets pending.\n\u2022 Try to get stream to work properly with RTSPtoWeb instead of mediamtx server.\n\u2022 Build BE for storing meta artifacts for storing JSON data such as excalidraw.",

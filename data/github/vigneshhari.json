@@ -1,19 +1,68 @@
 {
-  "last_updated": "2025-02-24T08:23:04.000Z",
+  "last_updated": "2025-02-24T09:43:32.000Z",
   "activity": [
-    {
-      "type": "comment_created",
-      "title": "ohcnetwork/care#2862",
-      "time": "2025-02-24T08:23:04.000Z",
-      "link": "https://github.com/ohcnetwork/care/pull/2862#issuecomment-2677708778",
-      "text": "Why ? Just Why ?"
-    },
     {
       "type": "pr_reviewed",
       "time": "2025-02-24T08:21:37.000Z",
       "title": "ohcnetwork/care#2864",
       "link": "https://github.com/ohcnetwork/care/pull/2864#pullrequestreview-2636258770",
       "text": "Changes for some minor improvements/bugs"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2225",
+      "time": "2025-02-24T09:43:09.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2225",
+      "text": "Celery not reconnecting with redis when the cluster restarts"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2788",
+      "time": "2025-02-24T09:42:57.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2788#issuecomment-2677881961",
+      "text": "This is not an issue, the patient data is forbidden once an encounter is closed. No user in the facility will be allowed patient data once the encounter is closed. "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2788",
+      "time": "2025-02-24T09:42:57.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2788",
+      "text": "Staff users are not able to view complete marked encounter"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2839",
+      "time": "2025-02-24T09:41:54.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2839#issuecomment-2677879525",
+      "text": "The options will be always picked from a valueset, as per FHIR, the recommended one seems to be `urn:iso:std:iso:3166`\n\nThere is a considerable amount of work in valueset needed for this. The valueset needs to be seeded to all instances and then used.\n\nIf you want to work on it based on these parameters you can. "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2840",
+      "time": "2025-02-24T09:38:31.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2840#issuecomment-2677871557",
+      "text": "Yeah, @areebahmeddd take a look."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2863",
+      "time": "2025-02-24T09:37:05.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2863#issuecomment-2677867729",
+      "text": "Yeah, why not, add it. Just follow the same conventions and build it out, add a custom and system filter as well. "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-21T11:52:09.000Z",
+      "title": "ohcnetwork/care#2856",
+      "link": "https://github.com/ohcnetwork/care/pull/2856#pullrequestreview-2632805111",
+      "text": "Adding consent Viewset"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2862",
+      "time": "2025-02-24T08:23:04.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2862#issuecomment-2677708778",
+      "text": "Why ? Just Why ?"
     },
     {
       "type": "pr_reviewed",
@@ -28,13 +77,6 @@
       "title": "ohcnetwork/care#2859",
       "link": "https://github.com/ohcnetwork/care/pull/2859#pullrequestreview-2633568072",
       "text": "Fix discharge summary issues"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-21T11:52:09.000Z",
-      "title": "ohcnetwork/care#2856",
-      "link": "https://github.com/ohcnetwork/care/pull/2856#pullrequestreview-2632805111",
-      "text": "Adding consent Viewset"
     },
     {
       "type": "comment_created",
