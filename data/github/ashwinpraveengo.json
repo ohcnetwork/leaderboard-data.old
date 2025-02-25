@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-02-22T18:52:21.000Z",
+  "last_updated": "2025-02-24T15:42:25.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard-data#88",
+      "time": "2025-02-24T15:42:25.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/88",
+      "text": "Update ashwinpraveengo.md"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10802",
+      "time": "2025-02-24T15:28:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10802",
+      "text": "bugfix:fix Overapping greenindicator and scrollbar in Patient Details"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10789",
+      "time": "2025-02-24T15:03:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10789#issuecomment-2678729493",
+      "text": "@nihal467 Can I work on this issue ?\n\nMy Approach:\n- Add medicine details (already present, but with additional instructions).\n- Add plots for blood pressure, pulse, etc., or display data with code, value, and date instead of graphs.\n- If needed, I can also add symptoms, diagnoses, allergies, and reports.\n"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10773",
@@ -347,9 +368,21 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/88",
+      "title": "Update ashwinpraveengo.md",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10802",
+      "title": "bugfix:fix Overapping greenindicator and scrollbar in Patient Details",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10773",
       "title": "bugfix:Remove arrow icon from cancel button in Create Questionnaire",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "changes required"
       ]
