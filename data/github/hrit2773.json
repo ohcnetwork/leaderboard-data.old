@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-02-24T11:25:18.000Z",
+  "last_updated": "2025-02-25T08:43:26.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10684",
+      "time": "2025-02-25T08:43:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10684#issuecomment-2681154354",
+      "text": "@rithviknishad @Jacobjeevan I passed pagination component as a JSX function renderer. Removed QueryParams interface. Only one useFilters instance. I have accordingly refactored the code. Can you review this."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10805",
+      "time": "2025-02-25T06:10:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10805#issuecomment-2680724491",
+      "text": "@rithviknishad @Jacobjeevan fixed the validations in valueset form. The backend was fixed by @DraKen0009"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10805",
+      "time": "2025-02-25T06:09:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10805",
+      "text": "Fixed Name and Slug field validations in Valueset form"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10794",
@@ -1939,15 +1960,10 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/10805",
       "title": "Fixed Name and Slug field validations in Valueset form",
       "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10759",
-      "title": "Added Symptoms onset date field in encounters overview",
-      "stale_for": 0,
       "labels": [
-        "tested",
-        "reviewed"
+        "needs testing",
+        "needs review",
+        "merge conflict"
       ]
     },
     {
@@ -1964,7 +1980,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10634",
       "title": "Fixing all File upload dialog content overflow bugs ",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": [
         "question",
         "changes required",
@@ -1974,7 +1990,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/100",
       "title": "Added CEP for Patient Tagging system",
-      "stale_for": 20,
+      "stale_for": 21,
       "labels": []
     }
   ],
