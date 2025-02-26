@@ -1,6 +1,44 @@
 {
-  "last_updated": "2025-02-25T02:21:15.000Z",
+  "last_updated": "2025-02-25T12:57:25.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10738",
+      "time": "2025-02-25T12:57:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10738",
+      "text": "Fix: Bugs in valueset page",
+      "turnaround_time": 407116
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10738",
+      "time": "2025-02-25T12:27:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10738#issuecomment-2681799177",
+      "text": "@Jacobjeevan  Done "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10563",
+      "time": "2025-02-25T12:15:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10563#issuecomment-2681764303",
+      "text": "@amjithtitus09 @rithviknishad , I have made some changes in Medication table since Medication Table PR got merged . Could you review them as well (the medication table PR needs to be merged first to made these changes ) Like \r\n- [x] Removed Encounter ID and Patient ID as prop from MedicationTable bcoz only Treatment Summary was passing them before \r\n- [x] Handles only active medcation message like this \r\n<img width=\"1163\" alt=\"Screenshot 2025-02-25 at 5 44 12 PM\" src=\"https://github.com/user-attachments/assets/ba63b380-2f40-4080-8de1-c34d9277a875\" />\r\n"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10613",
+      "time": "2025-02-25T09:57:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10613",
+      "text": "Fix: Medicine Section Bugs ",
+      "turnaround_time": 914266
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10659",
+      "time": "2025-02-25T09:56:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10659",
+      "text": "Profile redirection in Users Card and Design sync with dept Users design ",
+      "turnaround_time": 660169
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10585",
@@ -4377,6 +4415,12 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10815",
+      "title": "Support For BULK beds creation in location",
+      "stale_for": 0,
+      "labels": []
+    },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2867",
       "title": "Filter by name and status in valueset",

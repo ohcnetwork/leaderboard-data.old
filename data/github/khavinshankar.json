@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-02-25T04:53:22.000Z",
+  "last_updated": "2025-02-25T13:04:38.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-25T13:04:38.000Z",
+      "title": "ohcnetwork/care_fe#10808",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10808#pullrequestreview-2640998122",
+      "text": "Display year of birth when age is entered in public patient registration page"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10695",
+      "time": "2025-02-25T12:57:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10695",
+      "text": "Bugs in valueset page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-25T12:55:48.000Z",
+      "title": "ohcnetwork/care_fe#10754",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10754#pullrequestreview-2640974680",
+      "text": "Potential fix for code scanning alert no. 116: DOM text reinterpreted as HTML"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-25T12:51:26.000Z",
+      "title": "ohcnetwork/care_fe#10738",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10738#pullrequestreview-2640961399",
+      "text": "Fix: Bugs in valueset page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10794",
+      "time": "2025-02-25T12:48:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10794#issuecomment-2681877322",
+      "text": "@areebahmeddd this issue is due to the placement of PLUGIN_Component in the FacilityHome page, moving that accordingly should fix the issue.\n\nThis component is injected by the ABDM Plug, checkout https://github.com/ohcnetwork/care_abdm_fe for plug setup docs. Also use staging apis (`REACT_CARE_API_URL=https://staging-api.ohc.network`) in which ABDM plug is already enabled.\n\nLet me know if you need further help setting up."
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_abdm_fe#9",
