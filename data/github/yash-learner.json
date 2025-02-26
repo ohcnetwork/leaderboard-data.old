@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-02-24T07:38:24.000Z",
+  "last_updated": "2025-02-25T17:37:03.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2830",
+      "time": "2025-02-25T17:37:03.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2830#issuecomment-2682813087",
+      "text": "> @yash-learner Are we considering a case where all the backup code are used. So we will have to alert the user to generate new set of codes? 🤔\r\n\r\nNice catch @DraKen0009 \r\n\r\nBut practically, I would think this would never or rarely happen. In years I never logged in using a backup code. \r\n\r\nI think instead frontend should redirect user to user settings page whenever user logs in using backup code and prompt them to re-configure TOTP device properly, and this would regenerate the backup codes.\r\n\r\nIf a user ever continuously logs in using backup code, it indicates something is wrong with their totp device.\r\n\r\nand \r\n\r\nA user can re-generate backup codes anytime as long as they are logged in\r\n\r\n@vigneshhari what do you think should we handle this case ?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#9456",
@@ -406,7 +413,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/9260",
       "title": "Labs",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": [
         "blocked",
         "hold",
@@ -418,7 +425,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/81",
       "title": "Add proposal for MFA",
-      "stale_for": 92,
+      "stale_for": 93,
       "labels": []
     }
   ],

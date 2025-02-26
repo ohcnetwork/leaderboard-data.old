@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-02-25T13:52:20.000Z",
+  "last_updated": "2025-02-25T16:19:10.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10672",
+      "time": "2025-02-25T16:19:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10672#issuecomment-2682551460",
+      "text": "The latest commits replaced the `getLocationFormLabel(location.form)` call with `t(location_form${location.form})` to use the translation system directly."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10377",
@@ -1046,17 +1053,7 @@
       "text": "@rithviknishad I guess I can help you with this! Can I work on this?\n"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10672",
-      "title": "Fix: Add a new list view to locations in the facility settings",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested"
-      ]
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10638",

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-02-24T03:45:05.000Z",
+  "last_updated": "2025-02-25T16:10:04.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10756",
+      "time": "2025-02-25T16:10:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10756#issuecomment-2682523281",
+      "text": "> Check the issue description again, this isn't solving the issue.\r\n\r\n1. \"It need to applicable all places where this feature is used\", I missed this from the description. Did you mean this or something else? Just confirming.😅\r\n2. Also is there any need to change something in code? It is working fine but if there's something you want to suggest."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10787",
@@ -947,19 +954,26 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10767",
       "title": "fix: Improve responsiveness in Encounter medicine tab",
-      "stale_for": 2,
-      "labels": []
+      "stale_for": 1,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10756",
       "title": "Allow to select preferable camera during photo capturing",
-      "stale_for": 2,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "invalid",
+        "question",
+        "needs-triage"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10714",
       "title": "Improve responsiveness of User Details page",
-      "stale_for": 3,
+      "stale_for": 5,
       "labels": [
         "changes required"
       ]
@@ -967,11 +981,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10553",
       "title": "fix: Adjust containers flexibility and inconsistency",
-      "stale_for": 4,
+      "stale_for": 1,
       "labels": [
-        "question",
-        "changes required",
-        "needs-triage"
+        "needs testing",
+        "needs review"
       ]
     }
   ],
