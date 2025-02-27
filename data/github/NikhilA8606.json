@@ -1,6 +1,21 @@
 {
-  "last_updated": "2025-02-18T16:28:09.000Z",
+  "last_updated": "2025-02-26T16:07:32.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2871",
+      "time": "2025-02-26T16:07:32.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2871",
+      "text": "Correctly serialized the updated_by mapping in the ValueSetReadSpec",
+      "turnaround_time": -124
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2871",
+      "time": "2025-02-26T15:43:12.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2871",
+      "text": "Correctly serialized the updated_by mapping"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10680",
@@ -454,8 +469,11 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10680",
       "title": "Integrated Excalidraw for drawing Files",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "hold",
+        "merge conflict"
+      ]
     }
   ],
   "authored_issue_and_pr": [
