@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-02-20T18:05:02.000Z",
+  "last_updated": "2025-02-26T13:02:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10828",
+      "time": "2025-02-26T13:02:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10828#issuecomment-2684896962",
+      "text": "Can I work on this?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10823",
+      "time": "2025-02-26T10:41:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10823#issuecomment-2684586728",
+      "text": "@rithviknishad i would like to work on this"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10820",
+      "time": "2025-02-26T07:55:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10820#issuecomment-2684203048",
+      "text": "@rithviknishad can i work on this?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10736",
+      "time": "2025-02-26T07:46:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10736#issuecomment-2684186526",
+      "text": "Moving issue https://github.com/ohcnetwork/care_fe/issues/10723  to PR https://github.com/ohcnetwork/care_fe/pull/10819. That is done and can be merged"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10819",
+      "time": "2025-02-26T07:43:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10819",
+      "text": "Fixed : Newly Added Patient Is Not Instantly Visible in the patient-switcher "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10736",
@@ -1605,10 +1640,20 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10736",
-      "title": "Fixed : Newly Added Patient Is Not Instantly Visible in the patient-switcher | Patient search bar auto focus ",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10819",
+      "title": "Fixed : Newly Added Patient Is Not Instantly Visible in the patient-switcher ",
       "stale_for": 0,
       "labels": [
+        "needs testing",
+        "reviewed"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10736",
+      "title": "Fix : Patient search bar auto focus on visiting",
+      "stale_for": 0,
+      "labels": [
+        "test failed",
         "changes required"
       ]
     }

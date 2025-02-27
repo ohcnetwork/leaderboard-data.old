@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-02-24T15:42:25.000Z",
+  "last_updated": "2025-02-26T06:11:09.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10817",
+      "time": "2025-02-26T06:11:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10817#issuecomment-2684006366",
+      "text": "@rithviknishad @Jacobjeevan Can I work on this issue if it's relevant\nMy Approach:\n- Identify the rot cause of the issue by analyzing how react-hook-form's Controller interacts with @radix-ui/react-select.\n- Wrap the Select component with React.forwardRef() to properly handle refs.\n- Update the UserForm.tsx (or relevant file) to use the corrected Select component.\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10817",
+      "time": "2025-02-26T06:09:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10817",
+      "text": "Error When Editing Profile (Function components cannot be given refs)"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/leaderboard-data#88",
@@ -370,7 +384,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/88",
       "title": "Update ashwinpraveengo.md",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
@@ -378,8 +392,7 @@
       "title": "bugfix:fix Overapping greenindicator and scrollbar in Patient Details",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs testing"
       ]
     },
     {
@@ -387,14 +400,14 @@
       "title": "bugfix:Remove arrow icon from cancel button in Create Questionnaire",
       "stale_for": 0,
       "labels": [
-        "changes required",
+        "needs review",
         "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10655",
       "title": "Update SBOM data fetching",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "changes required",
         "discussion required"
