@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-02-26T12:37:47.000Z",
+  "last_updated": "2025-02-27T00:29:43.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10827",
+      "time": "2025-02-27T00:29:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10827#issuecomment-2686511051",
+      "text": "> instead of checking if the input was previously focused and then re-focusing, we can always focus the input if the selected filter has changed; keeps the code cleaner\r\n\r\nOk I can use a ref instead of useState hook. We have to use it for tracking the selectedOption. It will look more cleaner , right?\r\n<img width=\"626\" alt=\"Screenshot 2025-02-27 at 5 58 49 AM\" src=\"https://github.com/user-attachments/assets/63addcec-a274-4b11-a56f-02e0712baa8d\" />\r\n"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10827",
@@ -976,14 +983,6 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10767",
-      "title": "fix: Improve responsiveness in Encounter medicine tab",
-      "stale_for": 0,
-      "labels": [
-        "needs testing"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10756",
       "title": "Allow to select preferable camera during photo capturing",
       "stale_for": 0,
@@ -1005,13 +1004,16 @@
       "title": "fix: Adjust containers flexibility and inconsistency",
       "stale_for": 0,
       "labels": [
-        "question",
-        "test failed",
-        "needs-triage"
+        "needs testing",
+        "needs review"
       ]
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10715",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10767"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10618",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10630"
