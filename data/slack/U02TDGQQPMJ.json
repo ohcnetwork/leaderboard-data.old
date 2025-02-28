@@ -37182,5 +37182,203 @@
                 }
             ]
         }
+    ],
+    "2025-02-27 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1740677864.966239",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1740677939.000000"
+            },
+            "client_msg_id": "0a43abb1-7db8-4786-b765-6243fddba8e1",
+            "text": "*26th feb*\n\u2022 wasted a bunch of time trying to build driver for mock onvif\u2019s camera driver; \n\u2022 ran cursor in agent mode with yolo mode; realised that was a bad decision;\n\u2022 burnt a lot of cursor credits, in the end what was intended didn\u2019t work;\n\u2022 getting bombarded with lots of review requests on DMs due to month end\u2026\n*27th feb*\n\u2022 bunch of PR reviews; starting to not like month ends\u2026\n\u2022 made API queries to fail fast by skipping retries for things that\u2019ll obviously fail again even if retired; <https://github.com/ohcnetwork/care_fe/pull/10837|#10837>\n\u2022 teleicu plugs FE: partially done with configure form, re-setup shadcn and tailwind due to index.css not being loaded for some reason on plug;\n\u2022 debugged a weird issue with drawings list page (search causes tabs to unmount and remount), turns out issue is due to how encounter tabs are rendered through routes.\n\u2022 made some tiny fixes to meta-artifacts BE and guided nikhila on how to write tests;\n*next*\n\u2022 mostly gonna be inactive on PR reviews until im done with teleicu plugs",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "QPuoZ",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "26th feb",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "wasted a bunch of time trying to build driver for mock onvif\u2019s camera driver; "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "ran cursor in agent mode with yolo mode; realised that was a bad decision;"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "burnt a lot of cursor credits, in the end what was intended didn\u2019t work;"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "getting bombarded with lots of review requests on DMs due to month end\u2026"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "27th feb",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "bunch of PR reviews; starting to not like month ends\u2026"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "made API queries to fail fast by skipping retries for things that\u2019ll obviously fail again even if retired; "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/10837",
+                                            "text": "#10837",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "teleicu plugs FE: partially done with configure form, re-setup shadcn and tailwind due to index.css not being loaded for some reason on plug;"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "debugged a weird issue with drawings list page (search causes tabs to unmount and remount), turns out issue is due to how encounter tabs are rendered through routes."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "made some tiny fixes to meta-artifacts BE and guided nikhila on how to write tests;"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "mostly gonna be inactive on PR reviews until im done with teleicu plugs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
