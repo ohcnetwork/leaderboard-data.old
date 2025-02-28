@@ -1,6 +1,14 @@
 {
-  "last_updated": "2025-02-26T06:11:09.000Z",
+  "last_updated": "2025-02-27T13:26:11.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10802",
+      "time": "2025-02-27T13:26:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10802",
+      "text": "bugfix:fix Overapping greenindicator and scrollbar in Patient Details",
+      "turnaround_time": 251852
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10817",
@@ -382,31 +390,19 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/88",
-      "title": "Update ashwinpraveengo.md",
-      "stale_for": 2,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10802",
-      "title": "bugfix:fix Overapping greenindicator and scrollbar in Patient Details",
-      "stale_for": 0,
-      "labels": [
-        "needs testing"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10773",
       "title": "bugfix:Remove arrow icon from cancel button in Create Questionnaire",
       "stale_for": 0,
       "labels": [
-        "needs review"
+        "needs testing",
+        "needs review",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10655",
       "title": "Update SBOM data fetching",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "changes required",
         "discussion required"
@@ -414,6 +410,10 @@
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10707",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10802"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10293",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10298"
