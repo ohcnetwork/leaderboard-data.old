@@ -1,12 +1,12 @@
 ---
 name: aravindm4
-title: Contributor
+title: Community Manager
 github: aravindm4
 twitter: ""
-linkedin: ""
-slack: ""
+linkedin: https://www.linkedin.com/in/aravind-mahadevan-0ba22411b/
+slack: U02D0NA6RHR
 joining_date: ""
-role : contributor
+role : core
 ---
 
 Still waiting for this
