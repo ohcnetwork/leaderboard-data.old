@@ -1,5 +1,5 @@
 ---
-name: aravindm4
+name: Aravind Mahadevan
 title: Community Manager
 github: aravindm4
 twitter: ""
@@ -9,4 +9,3 @@ joining_date: ""
 role : core
 ---
 
-Still waiting for this
