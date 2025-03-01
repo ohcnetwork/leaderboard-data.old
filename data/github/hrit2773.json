@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-02-28T15:48:37.000Z",
+  "last_updated": "2025-03-01T09:41:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10861",
+      "time": "2025-03-01T09:41:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10861#issuecomment-2692104345",
+      "text": "@DraKen0009 I guess we can add further validations can I look into this. Backend"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10634",
+      "time": "2025-03-01T09:38:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10634#issuecomment-2692102420",
+      "text": "@nihal467 can you test this on your side lets close this"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10634",
+      "time": "2025-03-01T09:11:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10634#issuecomment-2692085762",
+      "text": "can you check it once again on your side @nihal467 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10634",
+      "time": "2025-03-01T09:10:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10634#issuecomment-2692085223",
+      "text": "@nihal467 @khavinshankar I fixed it and checked for multiple images with large heights and widths its working fine now"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10634",
+      "time": "2025-03-01T07:55:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10634#issuecomment-2692050349",
+      "text": "@nihal467 let me look at it immediately"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10634",
+      "time": "2025-02-28T19:17:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10634#issuecomment-2691379559",
+      "text": "@nihal467 so the cypress tests are fixed and the unwanted scroll got fixed. "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10634",
+      "time": "2025-02-28T19:16:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10634#issuecomment-2691378626",
+      "text": "![Screenshot 2025-02-28 213132](https://github.com/user-attachments/assets/9d4a6e52-3db9-45c2-a7de-e3a091cf1d07)\r\nI have removed the unwanted scroll while zoom in"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10634",
+      "time": "2025-02-28T19:15:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10634#issuecomment-2691375822",
+      "text": "@nihal467 fixed the cypress actually in user avatar the dialog was not scrolling to the bottom. It was trying to go to the bottom of the view only and not the dialog so I explicitly found the dialog and scrolled inside the dialog rather than the whole page. That worked."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10634",
@@ -2184,7 +2240,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10845",
       "title": "Valueset options fetching in choice question component",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review"
       ]
@@ -2192,7 +2248,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10838",
       "title": "Added Validations to Valueset form Name and Slug fields along with translations for error messages.",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing"
       ]
@@ -2207,18 +2263,9 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10634",
-      "title": "Fixing all File upload and view overflow bugs ",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "P2"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/docs/pull/100",
       "title": "Added CEP for Patient Tagging system",
-      "stale_for": 24,
+      "stale_for": 25,
       "labels": []
     }
   ],
