@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-02-28T09:44:44.000Z",
+  "last_updated": "2025-02-28T14:24:23.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10871",
+      "time": "2025-02-28T14:24:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10871#issuecomment-2690774493",
+      "text": "> Just so that I get you right, are you asking me to add questionnaire response section the way right now there is allergy, diagnose and symptom section?\r\n\r\nSo allergies, diagnosis and symptoms have a view all button that will show medications that were marked as `entered_in_error`.\r\n\r\nYou can modify the show all button instead to display a dialog similar to the screenshot above (instead of displaying all the results in the table)."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-13T12:27:48.000Z",
+      "title": "ohcnetwork/care_fe#10546",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10546#pullrequestreview-2614746514",
+      "text": "Fix Button Overflow and Minor Responsive Issues on Mobile View"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-20T14:25:39.000Z",
+      "title": "ohcnetwork/care_fe#10714",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10714#pullrequestreview-2630019807",
+      "text": "Improve responsiveness of User Details page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10696",
+      "time": "2025-02-28T13:48:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10696#issuecomment-2690695040",
+      "text": "> temp11.mp4\r\n\r\nGo ahead and adjust the width of the popover content as well, to match the trigger."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10861",
+      "time": "2025-02-28T13:31:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10861#issuecomment-2690659249",
+      "text": "@DraKen0009 Can we add backend validation for dosage_quantity? 🤔 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-28T13:13:39.000Z",
+      "title": "ohcnetwork/care_fe#10777",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10777#pullrequestreview-2650716916",
+      "text": "Fix : Clear search field when navigating back with browser controls"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10863",
@@ -194,13 +236,6 @@
       "time": "2025-02-27T07:59:18.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10696#issuecomment-2687177374",
       "text": "> @nihal467 The code for the current implementation has already been completed. but there seems to be a slight misunderstanding regarding the issue that Jacob Jeevan mentioned earlier.\r\n> \r\n> @Jacobjeevan Could you please confirm if I need to close this PR and the issue?\r\n\r\n🤔  I am not sure why you need to close this PR - you are still adding popover for clone questionnaire, no?\r\n\r\nChanges in QuestionnaireEditor can be discarded."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-13T12:27:48.000Z",
-      "title": "ohcnetwork/care_fe#10546",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10546#pullrequestreview-2614746514",
-      "text": "Fix Button Overflow and Minor Responsive Issues on Mobile View"
     },
     {
       "type": "issue_closed",
@@ -871,13 +906,6 @@
       "time": "2025-02-20T14:50:23.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10676#issuecomment-2671727391",
       "text": "Components were redesigned in #10678 (which includes search and tabs), so closing this PR."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-20T14:25:39.000Z",
-      "title": "ohcnetwork/care_fe#10714",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10714#pullrequestreview-2630019807",
-      "text": "Improve responsiveness of User Details page"
     },
     {
       "type": "issue_closed",
@@ -7761,63 +7789,6 @@
       "text": "Update Jacobjeevan.md"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2874",
-      "title": "Added permissions to encounter, patient and facility",
-      "stale_for": 1,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10526",
-      "title": "Perms based Rendering",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review",
-        "waiting for backend",
-        "merge conflict"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2767",
-      "title": "Alt phone number and qualificationspec",
-      "stale_for": 35,
-      "labels": []
-    }
-  ],
-  "authored_issue_and_pr": [
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10597",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10642"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10285",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10308"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10285",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/2799"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10285",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/2803"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9776",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9787"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9364",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9382"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care/issues/2619",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9186"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8845",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8852"
-    }
-  ]
+  "open_prs": [],
+  "authored_issue_and_pr": []
 }
