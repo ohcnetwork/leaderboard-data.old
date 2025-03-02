@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-01T12:15:26.000Z",
+  "last_updated": "2025-03-02T04:48:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10861",
+      "time": "2025-03-02T04:48:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10861#issuecomment-2692556299",
+      "text": "@DraKen0009 further validations are already added (dose_and_rate: DoseAndRate | None = None\nmax_dose_per_period: DoseRange | None = None) so no need of doing anything further only make it non nullable thats it. By the way I was working on adding filters in to medication request, symptoms ,allergy got it assigned so I can make changes in the same PR itself. Its a small one though"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10861",
+      "time": "2025-03-02T04:41:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10861#issuecomment-2692554934",
+      "text": "@DraKen0009 I have seen the models. All proper validations are there only thing is it is nullable and only that is causing problems\n`class DosageInstruction(BaseModel):\n    sequence: int | None = None\n    text: str | None = None\n    additional_instruction: list[Coding] | None = Field(\n        None, json_schema_extra={\"slug\": CARE_ADDITIONAL_INSTRUCTION_VALUESET.slug}\n    )\n    patient_instruction: str | None = None\n    timing: Timing | None = None\n    as_needed_boolean: bool\n    as_needed_for: Coding | None = Field(\n        None, json_schema_extra={\"slug\": CARE_AS_NEEDED_REASON_VALUESET.slug}\n    )\n    site: Coding | None = Field(\n        None, json_schema_extra={\"slug\": CARE_BODY_SITE_VALUESET.slug}\n    )\n    route: Coding | None = Field(\n        None, json_schema_extra={\"slug\": CARE_ROUTE_VALUESET.slug}\n    )\n    method: Coding | None = Field(\n        None, json_schema_extra={\"slug\": CARE_ADMINISTRATION_METHOD_VALUESET.slug}\n    )\n    dose_and_rate: DoseAndRate | None = None\n    max_dose_per_period: DoseRange | None = None\n\n    @field_validator(\"additional_instruction\")\n    @classmethod\n    def validate_additional_instruction(cls, codes):\n        if not codes:\n            return codes\n        return [\n            validate_valueset(\n                \"additional_instruction\",\n                cls.model_fields[\"additional_instruction\"].json_schema_extra[\"slug\"],\n                code,\n            )\n            for code in codes\n        ]\n\n    @field_validator(\"site\")\n    @classmethod\n    def validate_site(cls, code):\n        if not code:\n            return code\n        return validate_valueset(\n            \"site\",\n            cls.model_fields[\"site\"].json_schema_extra[\"slug\"],\n            code,\n        )\n\n    @field_validator(\"route\")\n    @classmethod\n    def validate_route(cls, code):\n        if not code:\n            return code\n        return validate_valueset(\n            \"route\",\n            cls.model_fields[\"route\"].json_schema_extra[\"slug\"],\n            code,\n        )\n\n    @field_validator(\"method\")\n    @classmethod\n    def validate_method(cls, code):\n        if not code:\n            return code\n        return validate_valueset(\n            \"method\",\n            cls.model_fields[\"method\"].json_schema_extra[\"slug\"],\n            code,\n        )`"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care#2817",
@@ -2257,6 +2271,51 @@
       "text": "Soft delete assets from deleted facilities/hospitals"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10845",
+      "title": "Valueset options fetching in choice question component",
+      "stale_for": 1,
+      "labels": [
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10838",
+      "title": "Added Validations to Valueset form Name and Slug fields along with translations for error messages.",
+      "stale_for": 1,
+      "labels": [
+        "needs testing"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10684",
+      "title": "Added pagination to Appointments List view",
+      "stale_for": 2,
+      "labels": [
+        "invalid",
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/100",
+      "title": "Added CEP for Patient Tagging system",
+      "stale_for": 25,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10720",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10741"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10620",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10636"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10600",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10619"
+    }
+  ]
 }

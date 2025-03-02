@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-01T13:51:10.000Z",
+  "last_updated": "2025-03-02T09:06:01.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10934",
+      "time": "2025-03-02T09:06:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10934",
+      "text": "feature: Added services history section in device details page (10828)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10924",
+      "time": "2025-03-02T08:19:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10924#issuecomment-2692616801",
+      "text": "@rithviknishad \n\n1) Integrate the i18n-unused library to scan and remove unused i18n keys from public/locale/{locale}.json.\n\n2) Create an npm script (npm run i18n:cleanup) to run the cleanup process.\n\n3) Add the cleanup command to the existing .husky/pre-commit file to automate the cleanup before every commit.\n\n 4) Ensure the translation files are automatically cleaned up with every commit.\n"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10915",
@@ -30,6 +44,19 @@
       "text": "@rithviknishad @nihal467 I want to work on this issue I got the point I have a make a page that will list down all the services related to devices and there will be + button a form will popup and that will create a new service I have a experience of react I can do the the task within 2-3 days\n"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10934",
+      "title": "feature: Added services history section in device details page (10828)",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10915",
+      "title": "Bug : fixed the Resposiveness of facility card(#10911)",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }
