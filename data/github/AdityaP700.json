@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-01T09:19:13.000Z",
+  "last_updated": "2025-03-01T18:21:13.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10924",
+      "time": "2025-03-01T18:21:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10924#issuecomment-2692353318",
+      "text": "> Hello [@rithviknishad](https://github.com/rithviknishad), There is is npm package named [i18n-unused](https://www.npmjs.com/package/i18n-unused) using this we can create a script to remove the unused keys. To prevent this in future we can add this script CI/CD integration.\n\nI share a similar perspective, but I'm committed to integrating automated tests that verify the workflow continues to function correctly after keys are removed. These tests can include snapshot tests or runtime checks for missing translations."
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#10908",

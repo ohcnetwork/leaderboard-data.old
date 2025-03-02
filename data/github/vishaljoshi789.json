@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-02-28T19:01:48.000Z",
+  "last_updated": "2025-03-01T16:56:10.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10924",
+      "time": "2025-03-01T16:56:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10924#issuecomment-2692317665",
+      "text": "Hello @rithviknishad, \nThere is is npm package named [i18n-unused](https://www.npmjs.com/package/i18n-unused) using this we can create a script to remove the unused keys.\nTo prevent this in future we can add this script CI/CD integration.\n\n"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10895",
@@ -73,6 +80,20 @@
       "text": "Hi, @Jeffrin2005 \nI have checked for the issue, I am not able to find any icon name \"Edit2\" in UniconPaths.json file\n\n<img width=\"423\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ad696eb1-9803-4034-9d72-fb1ffbfae1d8\" />\n\nInstead there is another for \"l-edit\" named \"l-edit-alt\" which is viewed as -\n\n<img width=\"852\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c4421ccb-683c-41b0-92fd-4efc2d3273b5\" />\n\nPlease let me know if I missed something."
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10895",
+      "title": "Removed the unwanted padding in the bottom of the patient details page",
+      "stale_for": 0,
+      "labels": [
+        "needs testing"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10865",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10867"
+    }
+  ]
 }
