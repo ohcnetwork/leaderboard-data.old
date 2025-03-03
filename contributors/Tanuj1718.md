@@ -1,10 +1,10 @@
 ---
 name: Tanuj Nainwal
-title: Contributor
+title: Intern
 github: Tanuj1718
 twitter: ""
 linkedin: ""
-slack: ""
+slack: U082GUAL80N
 joining_date: ""
 role : intern
 ---
