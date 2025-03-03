@@ -37640,21 +37640,263 @@
                 {
                     "name": "melting_face",
                     "users": [
-                        "U022THM4U2U"
+                        "U022THM4U2U",
+                        "U0576PEACG0"
                     ],
-                    "count": 1
+                    "count": 2
                 },
                 {
                     "name": "rolling_on_the_floor_laughing",
                     "users": [
-                        "U02D0NA6RHR"
+                        "U02D0NA6RHR",
+                        "U0576PEACG0"
                     ],
-                    "count": 1
+                    "count": 2
                 },
                 {
                     "name": "face_exhaling",
                     "users": [
-                        "U06L50QL1AQ"
+                        "U06L50QL1AQ",
+                        "U0576PEACG0"
+                    ],
+                    "count": 2
+                }
+            ]
+        }
+    ],
+    "2025-03-02 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1740940487.860939",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1740940527.000000"
+            },
+            "client_msg_id": "563e6749-8fd6-446c-914e-770fccf662ab",
+            "text": "*march 1*\n\u2022 :headphones::headphones::headphones::headphones::headphones::headphones::headphones::headphones: with nihal\n\u2022 tried to progress on camera plug FE. very little progress.\n\u2022 kerala care launch discussion call\n\u2022 fixed keralacare landing page font and some minor fixes.\n\u2022 tried to cleanup unused translation keys to make it easier for folks to add malayalam translations for whats necessary only, there\u2019s A LOT though.\n*march 2*\n\u2022 long call with aravind and keralacare team on updating landing page translations for malayalam and some minor fixes.\n\u2022 added og image to keralacare landing. spent a while figuring out why og image wasn\u2019t showing up when served from s3 but works on cf and local builds even the og meta tools was able to detect them for s3 as well. <@UC8TSEGCQ>\u2019s magic solved it :melting_face: \n\u2022 tried to restrict keralacare\u2019s locales to english for launch purposes, but passed it to vignesh since it was out of my access.\n\u2022 added autoscroll and improved some things in the launch page for the landing page.\n\u2022 reviewed few PRs",
+            "team": "TC99SV7B6",
+            "thread_ts": "1740940487.860939",
+            "reply_count": 1,
+            "reply_users_count": 1,
+            "latest_reply": "1740946207.302179",
+            "reply_users": [
+                "UC8TSEGCQ"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "bOSjQ",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "march 1",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " with nihal"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "tried to progress on camera plug FE. very little progress."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "kerala care launch discussion call"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fixed keralacare landing page font and some minor fixes."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "tried to cleanup unused translation keys to make it easier for folks to add malayalam translations for whats necessary only, there\u2019s A LOT though."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "march 2",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "long call with aravind and keralacare team on updating landing page translations for malayalam and some minor fixes."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "added og image to keralacare landing. spent a while figuring out why og image wasn\u2019t showing up when served from s3 but works on cf and local builds even the og meta tools was able to detect them for s3 as well. "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "UC8TSEGCQ"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "\u2019s magic solved it "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "melting_face",
+                                            "unicode": "1fae0"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "tried to restrict keralacare\u2019s locales to english for launch purposes, but passed it to vignesh since it was out of my access."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "added autoscroll and improved some things in the launch page for the landing page."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "reviewed few PRs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U0576PEACG0"
                     ],
                     "count": 1
                 }
