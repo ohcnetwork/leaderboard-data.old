@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-02-28T07:01:43.000Z",
+  "last_updated": "2025-03-03T13:00:13.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10967",
+      "time": "2025-03-03T13:00:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10967#issuecomment-2694321781",
+      "text": "@Jacobjeevan @rithviknishad Can I work on this issue if it's relevant"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10967",
+      "time": "2025-03-03T12:59:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10967",
+      "text": "Text Overflow in \"Plots\" Tab in Mobile View"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10966",
+      "time": "2025-03-03T12:35:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10966",
+      "text": "Validation error for profile picture upload is unclear and Save button is still enabled"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10966",
+      "time": "2025-03-03T12:33:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10966#issuecomment-2694222248",
+      "text": "@Jacobjeevan @rithviknishad Can I work on this issue if it's relevant \n\nMy Approach:\n- Extract the exact error Message\n- Instead of showing \"Bad Request\", display the actual issue (e.g., \"Image width exceeds 1024px\") Then show the error message in UI\n- Display a clear validation message below the upload field.\n- Disable Save Button When Image is Invalid\n\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10966",
+      "time": "2025-03-03T12:31:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10966",
+      "text": "Validation error for profile picture upload is unclear and Save button is still enabled"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#10965",
+      "time": "2025-03-03T12:08:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10965",
+      "text": "bugfix- resolve Function components cannot be given refs error in rea…"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/leaderboard-data#88",
@@ -409,19 +451,24 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10965",
+      "title": "bugfix- resolve Function components cannot be given refs error in rea…",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10773",
       "title": "bugfix:Remove arrow icon from cancel button in Create Questionnaire",
       "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review",
-        "merge conflict"
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10655",
       "title": "Update SBOM data fetching",
-      "stale_for": 4,
+      "stale_for": 7,
       "labels": [
         "changes required",
         "discussion required"

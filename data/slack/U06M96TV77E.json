@@ -1164,5 +1164,158 @@
                 }
             ]
         }
+    ],
+    "2025-03-03 00:00:00": [
+        {
+            "user": "U06M96TV77E",
+            "type": "message",
+            "ts": "1741020555.282809",
+            "client_msg_id": "9ccea3e3-03e6-4e2e-8fca-2de2cf1987df",
+            "text": "3rd Feb\n\u2022 Not productive as I was having exam in the college so had to be present there for whole day.\n\u2022 So thats why I worked at 12:00 AM the previous night and made a PR <https://github.com/ohcnetwork/care/pull/2883> in the backend to add status and name filters for allergy, symptoms and diagnosis which got merged today.\nNext\n\u2022 Make small changes requested by <@U02TDGQQPMJ> in the existing PR's\n\u2022 Make backend validation change for issue <https://github.com/ohcnetwork/care_fe/issues/10861> \n\u2022 Finally close the PR's for this month by tmrw EOD and only after then will take up new issues.",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1740935251,
+                    "color": "6f42c1",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care/pull/2883",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#2883 Added name and status filters to condition and allergy intolerance",
+                    "title": "#2883 Added name and status filters to condition and allergy intolerance",
+                    "title_link": "https://github.com/ohcnetwork/care/pull/2883",
+                    "footer": "<https://github.com/ohcnetwork/care|ohcnetwork/care>"
+                },
+                {
+                    "id": 2,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1740692565,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/issues/10861",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#10861 Bug : Dosage Input Allows Null Values on Save",
+                    "title": "#10861 Bug : Dosage Input Allows Null Values on Save",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/issues/10861",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>"
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "alkBa",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "3rd Feb\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Not productive as I was having exam in the college so had to be present there for whole day."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "So thats why I worked at 12:00 AM the previous night and made a PR "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2883"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " in the backend to add status and name filters for allergy, symptoms and diagnosis which got merged today."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Make small changes requested by "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U02TDGQQPMJ"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " in the existing PR's"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Make backend validation change for issue "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/issues/10861"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Finally close the PR's for this month by tmrw EOD and only after then will take up new issues."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

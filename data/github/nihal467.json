@@ -1,6 +1,76 @@
 {
-  "last_updated": "2025-03-03T06:58:56.000Z",
+  "last_updated": "2025-03-03T11:01:43.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10526",
+      "time": "2025-03-03T11:01:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10526#issuecomment-2694001309",
+      "text": "Testing on going\r\n\r\n- [ ] admin and facility admin are not allowed to create questionnaire or access them"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10960",
+      "time": "2025-03-03T09:51:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10960#issuecomment-2693815495",
+      "text": " @AdityaP700 \n\nSince there are only three location types, we should keep them in a single test rather than separating them. Splitting them would add unnecessary steps and increase execution time without any additional benefit.\nCurrently, if a location is already occupied, it does not appear in the dropdown. Since we're connected to the local development backend, this could lead to flaky tests. To avoid this, we should ignore the occupied locations for now."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10853",
+      "time": "2025-03-03T08:50:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10853#issuecomment-2693659317",
+      "text": "@prynsh there is multiple cypress issues open for grab, look into them,"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10421",
+      "time": "2025-03-03T08:50:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10421",
+      "text": "Handling the blinking issue of pages in CARE due to plug components"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10406",
+      "time": "2025-03-03T08:49:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10406",
+      "text": "Minor issues with ABDM"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10961",
+      "time": "2025-03-03T08:47:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10961",
+      "text": "Add a cypress test to cover functionality of devices"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10960",
+      "time": "2025-03-03T08:45:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10960",
+      "text": "Create a new cypress test to add a new location to a facility"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#10959",
+      "time": "2025-03-03T08:41:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10959",
+      "text": "Create a new cypress test to add department and team in a facility"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10386",
+      "time": "2025-03-03T08:31:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10386#issuecomment-2693616929",
+      "text": "@hrit2773 unassigning you from the issue due to inactivity "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10351",
+      "time": "2025-03-03T08:29:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10351#issuecomment-2693613002",
+      "text": "@rahulharpal1603 unassigning you from the issue due to inactivity "
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#10923",
