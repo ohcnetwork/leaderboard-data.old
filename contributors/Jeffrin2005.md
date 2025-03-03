@@ -1,12 +1,12 @@
 ---
 name: Jeffrin Jojo
-title: Contributor
+title: Intern
 github: Jeffrin2005
 twitter: ""
 linkedin: ""
-slack: ""
+slack: U08226KPBF1
 joining_date: ""
-role : contributor
+role : intern
 ---
 
 Still waiting for this
