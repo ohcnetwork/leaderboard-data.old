@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-03-03T13:35:43.000Z",
+  "last_updated": "2025-03-04T07:13:06.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10861",
+      "time": "2025-03-04T07:13:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10861#issuecomment-2696432267",
+      "text": "@hrit2773 Questionnaire submit since we're talking about validations"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10861",
+      "time": "2025-03-04T06:50:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10861#issuecomment-2696386963",
+      "text": "@hrit2773 Please share the response json here"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10861",
+      "time": "2025-03-04T06:16:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10861#issuecomment-2696332989",
+      "text": "@hrit2773 You just need to remove `None = None` for `dose_and_rate` right?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10987",
+      "time": "2025-03-04T05:53:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10987#issuecomment-2696297631",
+      "text": "> @nihal467 @rithviknishad @amjithtitus09\r\n> \r\n> * [ ]  In the questionnaire under \"Update Encounter,\" the content is getting clipped in normal review mode.\r\n>   > I couldn't understand the issue clearly. Could you share a screenshot? If it's the first one you shared in the issue, it is outdated issue then.\r\n> * [x]  When the dosage field is completely removed in a medicine request, `0` gets auto-filled, and users are unable to erase it.\r\n> * [ ]  When all symptoms, diagnoses, and allergies are removed, the message shows \"No recorded.\" Update it to \"No active available\" or provide an option to view removed items, even if none are currently active.\r\n>   > Please confirm the expected behavior, as this requires significant changes based on the final decision.\r\n> * [ ]  Display the recorded time in questionnaires in a human-readable format.\r\n>   > This seems to be caused by broken data. A similar issue was previously assigned to me but was closed as \"Not Planned\": [Issue #10661](https://github.com/ohcnetwork/care_fe/issues/10661).\r\n> * [x]  If the encounter class is changed to a non-hospitalization class, any existing hospitalization data should be cleared.\r\n\r\n@AdityaJ2305 Why not clear these doubts in the issue itself?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10861",
+      "time": "2025-03-04T04:57:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10861#issuecomment-2696203389",
+      "text": "@hrit2773 Update?"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10969",
@@ -1526,6 +1561,24 @@
       "text": "Explicity mention Public Read ACL for Facility Image S3 Uploads"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10969",
+      "title": "Encounter Locations view",
+      "stale_for": 0,
+      "labels": [
+        "needs testing"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2817",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10447"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10480",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10447"
+    }
+  ]
 }

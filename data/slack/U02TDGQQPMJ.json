@@ -37902,5 +37902,404 @@
                 }
             ]
         }
+    ],
+    "2025-03-04 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1741065699.348329",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1741066034.000000"
+            },
+            "client_msg_id": "454f2f34-6496-4672-9841-fca1bdfaef4e",
+            "text": "*march 3*\n\u2022 made some progress on camera teleicu plug; \n    \u25e6 spent some time debugging why stream no longer worked on RTSPtoWeb.\n    \u25e6 thanks to <@U06CY7RUZ9S>, discovered a tool called <https://github.com/sshuttle/sshuttle|sshuttle>, used it along with tailscale, made mac from office connect to my linux at home as exit node, and was able to directly debug what was going on at my home network from office; realised camera had loose connection, brought it back online;\n\u2022 completed hl7 vitals observation device plug BE, FE also almost done, pending: showing it in encounter page; (waiting for encounter association PR to be merged)\n\u2022 updated device show page to show plug related informations.\n\u2022 story point reviews with <@U02D0NA6RHR> \n\u2022 explained how devices worked to Sam\n\u2022 merged all teleicu device plugs to 1 plug in FE\n\u2022 reviewed PRs\n*next*\n\u2022 teleicu plug\n    \u25e6 gateway device:\n        \u25aa\ufe0e migrations\n    \u25e6 camera device\n        \u25aa\ufe0e progress on the stream player\n        \u25aa\ufe0e show on encounter page\n        \u25aa\ufe0e position presets\n        \u25aa\ufe0e migrations\n    \u25e6 vitals observation device \n        \u25aa\ufe0e test ventilator as observation device, have to update the mock script to out this.\n        \u25aa\ufe0e show on encounter page\n        \u25aa\ufe0e migrations\n    \u25e6 translations, haven\u2019t looked at that yet\u2026\n    \u25e6 have a solution for write and read to not use same keys when going through configure forms causing error\n    \u25e6 figure why value errors from device registry handlers are yielding 500s instead of 400s",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "cwSuW",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "march 3",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "made some progress on camera teleicu plug; "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "spent some time debugging why stream no longer worked on RTSPtoWeb."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "thanks to "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U06CY7RUZ9S"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ", discovered a tool called "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/sshuttle/sshuttle",
+                                            "text": "sshuttle"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ", used it along with tailscale, made mac from office connect to my linux at home as exit node, and was able to directly debug what was going on at my home network from office; realised camera had loose connection, brought it back online;"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "completed hl7 vitals observation device plug BE, FE also almost done, pending: showing it in encounter page; (waiting for encounter association PR to be merged)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "updated device show page to show plug related informations."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "story point reviews with "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U02D0NA6RHR"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "explained how devices worked to Sam"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "merged all teleicu device plugs to 1 plug in FE"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "reviewed PRs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "teleicu plug"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "gateway device:"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "migrations"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 2,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "camera device"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "progress on the stream player"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "show on encounter page"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "position presets"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "migrations"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 2,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "vitals observation device "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "test ventilator as observation device, have to update the mock script to out this."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "show on encounter page"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "migrations"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 2,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "translations, haven\u2019t looked at that yet\u2026"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "have a solution for write and read to not use same keys when going through configure forms causing error"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "figure why value errors from device registry handlers are yielding 500s instead of 400s"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U022THM4U2U",
+                        "U01JB8L8P7Y",
+                        "U06L50QL1AQ",
+                        "U07UB6TQWRE"
+                    ],
+                    "count": 4
+                }
+            ]
+        }
     ]
 }

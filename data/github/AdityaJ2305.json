@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-03T18:35:30.000Z",
+  "last_updated": "2025-03-04T05:58:35.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10253",
+      "time": "2025-03-04T05:58:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10253#issuecomment-2696306427",
+      "text": "@nihal467  @rithviknishad @amjithtitus09 \n\n- [ ] In the questionnaire under \"Update Encounter,\" the content is getting clipped in normal review mode.  \n  > I couldn't understand the issue clearly. Could you share a screenshot? If it's the first one you shared in the issue, it is outdated issue then.  \n\n- [x] When the dosage field is completely removed in a medicine request, `0` gets auto-filled, and users are unable to erase it.  \n\n- [ ] When all symptoms, diagnoses, and allergies are removed, the message shows \"No recorded.\" Update it to \"No active available\" or provide an option to view removed items, even if none are currently active.  \n  > Please confirm the expected behavior, as this requires significant changes based on the final decision.  \n\n- [ ] Display the recorded time in questionnaires in a human-readable format.  \n  > This seems to be caused by broken data. A similar issue was previously assigned to me but was closed as \"Not Planned\": [Issue #10661](https://github.com/ohcnetwork/care_fe/issues/10661).  \n\n- [x] If the encounter class is changed to a non-hospitalization class, any existing hospitalization data should be cleared.  "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10987",
@@ -4913,7 +4920,9 @@
       "title": "Fix: Minor UI Enhancement in questionnaire",
       "stale_for": 0,
       "labels": [
+        "invalid",
         "question",
+        "changes required",
         "needs-triage"
       ]
     },

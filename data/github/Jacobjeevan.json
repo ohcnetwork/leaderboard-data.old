@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-03-03T19:20:18.000Z",
+  "last_updated": "2025-03-04T07:48:48.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10999",
+      "time": "2025-03-04T07:48:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10999#issuecomment-2696519951",
+      "text": "No, this is the correct behavior. Public facility listings display list of schedule-able users, if there are any."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10999",
+      "time": "2025-03-04T07:48:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10999",
+      "text": "No Users Found Message Appears in Facility Page"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10482",
+      "time": "2025-03-04T07:47:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10482",
+      "text": "Add Support for Live Preview during Questionnaire Creation Phase"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10993",
+      "time": "2025-03-04T06:50:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10993#issuecomment-2696388143",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) , i have attach the screenshot of the facilities card after change . review it and tell me is it better now . should i create a pr with this changes ?\n> \n> ```\n>         after change:\n> ```\n> \n> ![Image](https://github.com/user-attachments/assets/c5641090-4cf0-4739-9160-7d05e66c8e9c)\n> \n> ```\n>          before change :       \n> ```\n> \n> ![Image](https://github.com/user-attachments/assets/92814a58-a2f0-4bcc-88f5-f6518de8bf72)\n\nYep, create a PR."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10982",
+      "time": "2025-03-04T05:47:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10982",
+      "text": "Offline support for encounters route and overview of each encounter"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10993",
+      "time": "2025-03-04T05:42:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10993#issuecomment-2696278988",
+      "text": "Hmm 🤔  Let's not change that, instead we can adjust the grid size. Right now, we switch over to 2 columns at md breakpoints, let's switch that to lg for the cards."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10821",
+      "time": "2025-03-04T05:34:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10821#issuecomment-2696265431",
+      "text": "> > > The behavior on expanding a node isn't ideal 🤔 Right now, it zooms out and focuses on the entire tree; it would be better if it focuses on the node that is being expanded (zooming in if needed).\r\n> > \r\n> > \r\n> > Just focus on the node that is being expanded or did you mean the child nodes of the parent?\r\n> \r\n> @Jacobjeevan did you mean like this?\r\n> Screen.Recording.2025-03-04.at.9.01.33.AM.mov\r\n\r\nSomewhat 🤔  On expansion, it still zooms out for a second there (0:08 onwards..instead of just zooming in directly to focus on the node that's expanded).\r\n\r\nOn collapse, focus on node's (that's being collapsed) parent."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10986",
+      "time": "2025-03-04T01:27:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10986",
+      "text": "Confirmation pop-up Required: Marking Patient as Deceased"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#10988",
@@ -8186,8 +8242,7 @@
       "stale_for": 0,
       "labels": [
         "changes required",
-        "waiting for backend",
-        "merge conflict"
+        "waiting for backend"
       ]
     },
     {
