@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-04T07:29:09.000Z",
+  "last_updated": "2025-03-04T10:49:12.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10838",
+      "time": "2025-03-04T10:49:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10838#issuecomment-2697059912",
+      "text": "@rithviknishad @Jacobjeevan made the suggested change"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10684",
+      "time": "2025-03-04T09:51:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10684#issuecomment-2696875588",
+      "text": "@Jacobjeevan I removed all those unnecessary page resets and also tested. It turns out that {...qParams, page:1} are not needed while using updateQuery so removed those. And to fix linting I ran npx audit fix and the lock file changes appeared should I keep it or...."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10684",
+      "time": "2025-03-04T09:44:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10684#issuecomment-2696850950",
+      "text": "@Jacobjeevan @rithviknishad \r\n![Screenshot 2025-03-04 150640](https://github.com/user-attachments/assets/47e9728d-3524-4bad-94f1-37b614bd808c)\r\n![Screenshot 2025-03-04 150614](https://github.com/user-attachments/assets/db5f1857-9ee1-47f0-bca6-339b223b2d31)\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10861",
@@ -2377,7 +2398,8 @@
       "title": "Added Validations to Valueset form Name and Slug fields along with translations for error messages.",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "changes required",
+        "merge conflict"
       ]
     },
     {
@@ -2392,7 +2414,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/100",
       "title": "Added CEP for Patient Tagging system",
-      "stale_for": 27,
+      "stale_for": 28,
       "labels": []
     }
   ],

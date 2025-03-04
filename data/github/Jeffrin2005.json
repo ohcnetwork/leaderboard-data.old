@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-04T07:16:22.000Z",
+  "last_updated": "2025-03-04T12:11:00.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10830",
+      "time": "2025-03-04T12:11:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10830#issuecomment-2697337614",
+      "text": "@Jacobjeevan  className={cn(\r\n                      \"transition-transform duration-100 relative\",\r\n                      dragState.isDragging ? \"duration-0\" : \"\",\r\n                      `translate-x-[${dragState.position.x}px]`,\r\n                      `translate-y-[${dragState.position.y}px]`\r\n                    )} while using tailwind , the drag functionality is not working, and also i forgot to test it \r\n                    \r\n                   For dragging functionality, We need to use inline style approach ? "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10830",
+      "time": "2025-03-04T11:58:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10830#issuecomment-2697303206",
+      "text": "@nihal467 Sorry , Actualy i forgot to test after the recent request change of jacobjeevan. Could You please verify currently it is working ? "
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#10999",
@@ -1584,7 +1598,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/90",
       "title": "Update Jeffrin2005.md",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
@@ -1592,8 +1606,8 @@
       "title": "Fix : Auto Comment Box Expansion",
       "stale_for": 0,
       "labels": [
-        "question",
-        "needs-triage"
+        "tested",
+        "changes required"
       ]
     },
     {
@@ -1602,7 +1616,8 @@
       "stale_for": 0,
       "labels": [
         "question",
-        "changes required",
+        "needs review",
+        "test failed",
         "needs-triage"
       ]
     },
@@ -1611,8 +1626,8 @@
       "title": "Fix : Clear search field when navigating back with browser controls",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "test failed"
       ]
     },
     {

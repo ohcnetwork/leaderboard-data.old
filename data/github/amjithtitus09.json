@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-04T07:13:06.000Z",
+  "last_updated": "2025-03-04T10:54:56.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-04T10:54:56.000Z",
+      "title": "ohcnetwork/care_fe#10886",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10886#pullrequestreview-2656944731",
+      "text": "fix: Disable 'Save Valueset' button when there is no changes"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-04T10:41:04.000Z",
+      "title": "ohcnetwork/care_fe#10997",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10997#pullrequestreview-2656905481",
+      "text": "Fix facilities card issue #10993"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10861",
+      "time": "2025-03-04T09:57:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10861#issuecomment-2696889912",
+      "text": "@hrit2773 Let's not modify BE since dose_and_rate is an optional field in FHIR.\n@AdityaP700 Refer how validation is written in QuestionnaireForm.tsx,  you'll have to add custom validation for MedicationRequest type. Either fixed dosage or titrate/taper is required."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10861",

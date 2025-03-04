@@ -1,6 +1,70 @@
 {
-  "last_updated": "2025-03-03T15:17:18.000Z",
+  "last_updated": "2025-03-04T12:10:43.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10553",
+      "time": "2025-03-04T12:10:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10553",
+      "text": "fix: Adjust containers flexibility and inconsistency",
+      "turnaround_time": 1827609
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#10553",
+      "time": "2025-03-04T12:10:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10553",
+      "text": "fix: Adjust containers flexibility and inconsistency",
+      "collaborated_with": [
+        "Tanuj1718",
+        "Jacobjeevan"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10714",
+      "time": "2025-03-04T12:05:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10714",
+      "text": "Improve responsiveness of User Details page",
+      "turnaround_time": 1046975
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#10714",
+      "time": "2025-03-04T12:05:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10714",
+      "text": "Improve responsiveness of User Details page",
+      "collaborated_with": [
+        "Tanuj1718",
+        "Jacobjeevan"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10886",
+      "time": "2025-03-04T11:58:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10886",
+      "text": "fix: Disable 'Save Valueset' button when there is no changes",
+      "turnaround_time": 330557
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#10886",
+      "time": "2025-03-04T11:58:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10886",
+      "text": "fix: Disable 'Save Valueset' button when there is no changes",
+      "collaborated_with": [
+        "Tanuj1718",
+        "Jacobjeevan"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10921",
+      "time": "2025-03-04T11:10:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10921#issuecomment-2697139664",
+      "text": "> @Tanuj1718 What's the status here?\r\n\r\nI have solved it with different approach. I have added checks for deviceId so that it can not navigate to the invalid URL (we have done similar type in PatientRegistration) . Is it correct?\r\n\r\n<img width=\"430\" alt=\"screenshot1\" src=\"https://github.com/user-attachments/assets/814c3cf6-4586-4b71-99f4-ae249a3b281e\" />\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10976",
@@ -1142,6 +1206,89 @@
       "text": "Sign up page for authenticate a new user"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10921",
+      "title": "fix: Add cancel button and disable save button",
+      "stale_for": 0,
+      "labels": [
+        "invalid",
+        "question",
+        "changes required",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10827",
+      "title": "fix: Focus retained in search input after selection",
+      "stale_for": 3,
+      "labels": [
+        "question",
+        "changes required",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10756",
+      "title": "Allow to select preferable camera during photo capturing",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10866",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10886"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10847",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10884"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10715",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10767"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10686",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10714"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10618",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10630"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10528",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10553"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10429",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10413"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10412",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10511"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10405",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10413"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10362",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10379"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10361",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10415"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9461",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9490"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9321",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9322"
+    }
+  ]
 }
