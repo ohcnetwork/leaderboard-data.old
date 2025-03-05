@@ -1,6 +1,76 @@
 {
-  "last_updated": "2025-03-04T23:11:45.000Z",
+  "last_updated": "2025-03-05T06:36:07.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10978",
+      "time": "2025-03-05T06:36:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10978#issuecomment-2700006492",
+      "text": "@Jeffrin2005 Complete merge checklist. "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-03T15:49:42.000Z",
+      "title": "ohcnetwork/care_fe#10978",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10978#pullrequestreview-2654532863",
+      "text": "Fix : Button Refreshes Entire Organizations"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10821",
+      "time": "2025-03-05T06:12:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10821#issuecomment-2699973976",
+      "text": "> Screen.Recording.2025-03-04.at.4.34.00.PM.mov\r\n> \r\n> @Jacobjeevan can you please check this out? I hope this will do 🫡\r\n\r\nGreat 👍 \r\n\r\n- Root doesn't allow expansion/collapse..is that intended? 🤔  If so, we should disable the button and hide the chevron.\r\n- Since we are allowing users to move the nodes around, expand/collapse should preserve their current position, no? Instead it resets it 🤔 \r\n\r\nWell, not a big deal per say, depends on what we want product side."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-05T05:53:17.000Z",
+      "title": "ohcnetwork/care_fe#10921",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10921#pullrequestreview-2660010915",
+      "text": "fix: Add cancel button and disable save button"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-03T16:49:35.000Z",
+      "title": "ohcnetwork/care_fe#10879",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10879#pullrequestreview-2654687577",
+      "text": "add bed end time support"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11023",
+      "time": "2025-03-05T04:38:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11023#issuecomment-2699794668",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/10706#issuecomment-2668989850"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11023",
+      "time": "2025-03-05T04:38:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11023",
+      "text": "Add name as a parameter for searching patients"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11016",
+      "time": "2025-03-05T01:37:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11016#issuecomment-2699492381",
+      "text": "@Spandan-Mishra Assigned."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11021",
+      "time": "2025-03-05T01:34:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11021#issuecomment-2699486851",
+      "text": "Patient details are editable through the patient page 👍 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11021",
+      "time": "2025-03-05T01:34:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11021",
+      "text": "Add Editable Fields for Patient Details with 'Edit' Button and Dynamic Button Text"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11020",
@@ -70,13 +140,6 @@
       "title": "ohcnetwork/care_fe#10965",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10965#pullrequestreview-2657509586",
       "text": "bugfix- resolve Function components cannot be given refs error in rea…"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-03T15:49:42.000Z",
-      "title": "ohcnetwork/care_fe#10978",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10978#pullrequestreview-2654532863",
-      "text": "Fix : Button Refreshes Entire Organizations"
     },
     {
       "type": "pr_reviewed",
@@ -285,13 +348,6 @@
       "title": "ohcnetwork/care_fe#10915",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10915#pullrequestreview-2654707907",
       "text": "Bug : fixed the Resposiveness of facility card(#10911)"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-03T16:49:35.000Z",
-      "title": "ohcnetwork/care_fe#10879",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10879#pullrequestreview-2654687577",
-      "text": "add bed end time support"
     },
     {
       "type": "pr_reviewed",
@@ -8420,9 +8476,7 @@
       "title": "Patient Questionnaire: Org Access",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "merge conflict",
-        "reviewed"
+        "needs testing"
       ]
     },
     {
@@ -8436,7 +8490,9 @@
       "title": "Perms based Rendering",
       "stale_for": 0,
       "labels": [
-        "changes required",
+        "needs testing",
+        "needs review",
+        "P1",
         "waiting for backend",
         "merge conflict"
       ]

@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-03-04T17:14:46.000Z",
+  "last_updated": "2025-03-05T06:52:56.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10821",
+      "time": "2025-03-05T06:52:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10821#issuecomment-2700030053",
+      "text": "\r\n> Great 👍\r\n> \r\n>  1. Root doesn't allow expansion/collapse..is that intended? 🤔  If so, we should disable the button and hide the chevron.\r\n> \r\n> 2. Since we are allowing users to move the nodes around, expand/collapse should preserve their current position, no? Instead it resets it 🤔\r\n> \r\n> \r\n> Well, not a big deal per say, depends on what we want product side.\r\n\r\n\r\n1. Yeah, the root doesn’t allow expansion/collapse, so I’ll hide the chevron.\r\n2. Good point it depends on what we want from the product side. If needed, we could add a button to reset the node, though it’s not mandatory.\r\n\r\nI guess for now, I’ll quickly hide the chevron for the root.\r\n\r\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11025",
+      "time": "2025-03-05T05:31:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11025",
+      "text": "Mardown Template for Facility Description"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11024",
+      "time": "2025-03-05T03:59:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11024#issuecomment-2699744394",
+      "text": "@rithviknishad I would like to work on this. Thank You!\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11024",
+      "time": "2025-03-05T03:59:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11024",
+      "text": "Brush up on the Facility General/Home page design"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11009",
@@ -1135,6 +1163,64 @@
       "text": "@rithviknishad I guess I can help you with this! Can I work on this?\n"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10972",
+      "title": "Add Two-Factor Authentication (2FA) Support",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10821",
+      "title": "Fix: Add a new map view to the locations section of a facility settings",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "changes required",
+        "needs-triage"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10638",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10640"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10059",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10062"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10018",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10021"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10018",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10085"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9968",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9958"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9837",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9840"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9837",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9892"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9837",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9995"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9751",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9758"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9751",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9780"
+    }
+  ]
 }

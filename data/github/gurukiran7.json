@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-04T13:56:48.000Z",
+  "last_updated": "2025-03-05T07:31:36.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11025",
+      "time": "2025-03-05T07:31:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11025#issuecomment-2700092190",
+      "text": "@rithviknishad , can I be assigned to this issue?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11025",
+      "time": "2025-03-05T07:07:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11025#issuecomment-2700053317",
+      "text": "@abhimanyurajeesh , @Jacobjeevan \nI propose adding a default Markdown template to the facility description input. When a user opts to add or edit the facility description, the input field will be pre-populated with a template containing predefined headings (e.g., Overview, Features, Contact Information), formatting examples (e.g., for bold, italics, bullet lists), and placeholders to guide content structuring. The template will be editable so users can easily modify or remove parts as needed. Additionally, I plan to integrate a live preview mode using an existing Markdown library (such as marked.js) to show how the final description will be rendered. This approach should help improve consistency in facility descriptions while offering flexibility for both novice and advanced users.\n\nExpected Timeline:\n\nEnd Date: 2025-03-11\n\nI have prior experience integrating Markdown support in React applications.\nAlternatives considered include linking to an external Markdown guide or using a rich-text editor; however, a pre-populated template with live preview seems most aligned with our current UI/UX and is lightweight.\nThis solution should provide a straightforward and user-friendly way for users to format their facility descriptions effectively."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10996",
@@ -65,6 +79,26 @@
       "text": "@nihal467, can I be assigned to this issue?"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10996",
+      "title": "Fix: Make Medication Request table scrollable in Edit Prescription vi…",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "changes required",
+        "work-in-progress",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10898",
+      "title": "Add Edit and See Details buttons for Location Sub-Groups (Close #10894)",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }
