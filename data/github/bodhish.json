@@ -1,6 +1,56 @@
 {
-  "last_updated": "2025-03-04T07:18:20.000Z",
+  "last_updated": "2025-03-04T17:55:59.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-04T17:55:59.000Z",
+      "title": "ohcnetwork/care#2890",
+      "link": "https://github.com/ohcnetwork/care/pull/2890#pullrequestreview-2658487318",
+      "text": "Add more consent types"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11010",
+      "time": "2025-03-04T17:49:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11010",
+      "text": "Update feature_request.md",
+      "turnaround_time": 93
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11010",
+      "time": "2025-03-04T17:48:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11010",
+      "text": "Update feature_request.md"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10860",
+      "time": "2025-03-04T17:39:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10860",
+      "text": "Feat : Implement Sorting in Medicine Administer List"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10860",
+      "time": "2025-03-04T17:39:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10860#issuecomment-2698437134",
+      "text": "I don't think we should implement this at this point in time. Sort is a good to have but without clear ask from field it will eventually end up as a tech debt, we had many sort possibilities in the previous version but the usage patterns showed that 99% of the users were happy with the default view. \n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#1105",
+      "time": "2025-03-04T17:35:54.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1105#issuecomment-2698429246",
+      "text": "@ARH-MNAJS when you request to assign its great if you can respond with your approach so that we are super clear what you have in your mind."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#8646",
+      "time": "2025-03-04T17:02:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/8646#issuecomment-2698348260",
+      "text": "We will only assign once you complete the CEP process "
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/landing#64",
@@ -7910,32 +7960,6 @@
       "text": "Add support for patient tags"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10808",
-      "title": "Display year of birth when age is entered in public patient registration page",
-      "stale_for": 4,
-      "labels": [
-        "work-in-progress"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2465",
-      "title": "New Crowdin updates",
-      "stale_for": 2,
-      "labels": [
-        "blocked"
-      ]
-    }
-  ],
-  "authored_issue_and_pr": [
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8020",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8021"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7999",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8000"
-    }
-  ]
+  "open_prs": [],
+  "authored_issue_and_pr": []
 }

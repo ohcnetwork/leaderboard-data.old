@@ -1,6 +1,125 @@
 {
-  "last_updated": "2025-03-04T03:57:06.000Z",
+  "last_updated": "2025-03-04T21:38:26.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_scribe_fe#18",
+      "time": "2025-03-04T21:38:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_scribe_fe/issues/18#issuecomment-2698997757",
+      "text": "@nihal467 i would like to work on this issue can you assign this to me?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/10bedicu#92",
+      "time": "2025-03-04T21:32:50.000Z",
+      "link": "https://github.com/ohcnetwork/10bedicu/issues/92#issuecomment-2698982022",
+      "text": "@mathew-alex @rithviknishad if this is relevant. I would like to work on it"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/10bedicu#92",
+      "time": "2025-03-04T21:32:32.000Z",
+      "link": "https://github.com/ohcnetwork/10bedicu/issues/92",
+      "text": "Non-Portable Dev Script and Port Mismatch in README"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/10bedicu#91",
+      "time": "2025-03-04T21:26:43.000Z",
+      "link": "https://github.com/ohcnetwork/10bedicu/issues/91#issuecomment-2698964191",
+      "text": "@mathew-alex @rithviknishad if this is relevant. I would like to work on it"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/10bedicu#91",
+      "time": "2025-03-04T21:26:32.000Z",
+      "link": "https://github.com/ohcnetwork/10bedicu/issues/91",
+      "text": "Upgrade Next.js and React Dependencies to Latest Versions"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/10bedicu#90",
+      "time": "2025-03-04T21:25:28.000Z",
+      "link": "https://github.com/ohcnetwork/10bedicu/issues/90#issuecomment-2698960202",
+      "text": "@mathew-alex @rithviknishad if this is relevant. I would like to work on it"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/10bedicu#90",
+      "time": "2025-03-04T21:25:20.000Z",
+      "link": "https://github.com/ohcnetwork/10bedicu/issues/90",
+      "text": "Optimize Image Loading Using Next.js Image Component"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/10bedicu#89",
+      "time": "2025-03-04T21:22:39.000Z",
+      "link": "https://github.com/ohcnetwork/10bedicu/issues/89#issuecomment-2698951983",
+      "text": "@mathew-alex @rithviknishad if this is relevant. I would like to work on it"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/10bedicu#89",
+      "time": "2025-03-04T21:22:25.000Z",
+      "link": "https://github.com/ohcnetwork/10bedicu/issues/89",
+      "text": "Fix README vs Code Mismatch for Development Server Port"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/10bedicu#88",
+      "time": "2025-03-04T21:19:47.000Z",
+      "link": "https://github.com/ohcnetwork/10bedicu/issues/88#issuecomment-2698942619",
+      "text": "@mathew-alex @rithviknishad if this is relevant. I would like to work on it"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/10bedicu#88",
+      "time": "2025-03-04T21:18:18.000Z",
+      "link": "https://github.com/ohcnetwork/10bedicu/issues/88",
+      "text": "Improve Project Purpose and Architecture Documentation"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11019",
+      "time": "2025-03-04T20:29:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11019#issuecomment-2698834211",
+      "text": "@rithviknishad @nihal467 if this issue is relevant i would like to work on this issue"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11019",
+      "time": "2025-03-04T20:28:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11019",
+      "text": "Reduce Bundle Size by Removing Redundant Date Libraries"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#1105",
+      "time": "2025-03-04T20:20:36.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/1105#issuecomment-2698817385",
+      "text": "@bodhish Sure here's a high-level approach to solve the issue effectively. I am planning to implement the changes with both frontend and backend solutions. The focus will be on ensuring images are appropriately resized/cropped before upload (for efficiency and user control) and validating them on the server (for safety and consistency).\n### Front-End Image Cropping & Resizing\n - **Implement a Crop & Resize UI:** On the facility cover image upload form, introduce a simple image cropping tool. When a user selects an image, show a preview and allow them to crop to the desired aspect ratio (likely a square, since that seems to be the expected format)\n - **Enforce Recommended Aspect Ratio:** By using the cropping tool, we can enforce a square (1:1) aspect ratio for all cover images at the time of selection. This means the user will see a square crop box (which they can scale and move) on their image.\n - **Client-Side Resizing/Compression:** Once the user is happy with the crop, resize the image on the client side to a reasonable maximum size (for example, 700px or 720px width/height). This can be done in the browser (again via a canvas or a library) before uploading. By doing this:\n    - We significantly reduce the file size that needs to be uploaded, saving bandwidth and time.\n    - The user’s browser, not the server, does the heavy work of resizing, which reduces server load and speeds up the process.\n    - We can also compress the image (e.g., adjust JPEG quality) to ensure it’s under the desired size threshold (1MB or even lower if possible) before sending.\n - **Preview to User:** The front-end should show the user a preview of how the image will look after crop and resize. This way, there are no surprises – the user knows exactly what will be uploaded and how it will appear as a cover image.\n### Back-End Validation and Processing\n\n> If someone bypasses the front-end (or for older browsers), the back-end will still handle large images. But for the vast majority of cases, the image will already be in the right format when it reaches the server.\n\n - **Server-Side Resize (Fallback):** Incorporate a server-side resizing step similar to PR #1106 :\n    - Use Pillow (or a similar imaging library) to check the image dimensions and file size on upload. If the image is larger than our maximum allowed dimensions (e.g., >720px), resize it down on the server. This is a safety net in case the front-end resizing was skipped or failed. It ensures no excessively large image ever gets saved.\n    - Preserve the image’s aspect ratio during this resize (using thumbnail or equivalent), unless we decide the server should also enforce the square crop. Ideally, cropping is handled on the front-end where the user can choose the crop area. The back-end can assume the image is already square if the front-end did its job. If not, the back-end could either reject non-square images or automatically center-crop them to square.\n - **File Size Limit Check:** Even after resizing, double-check the file size. We will retain the 1MB (or whatever configured) file size limit as a validation step​. If the image somehow is still too large, the server will reject it with a clear error message (as was attempted in the previous PR) – e.g., “Image too large, please upload an image under 1MB.” This prevents oversized images from slipping through.\n - **Correct Image Format Handling:** Ensure the filename or path uses the appropriate extension to match the format (e.g., “.jpg” or “.png”), so that the content type in S3 is correct.\n - **Upload to S3:** Use the existing S3 bucket configuration to upload the processed image. This will replace the old direct upload of the raw file with an upload of the resized (and possibly cropped) image bytes. Essentially, this is what PR #1106 did with `s3.put_object` using the `BytesIO` from Pillow​. After upload, update the `facility.cover_image_url` to point to the new image location as is done currently.\n\nDo let me know if you need any further clarifications"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11017",
+      "time": "2025-03-04T19:25:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11017#issuecomment-2698690585",
+      "text": "Ah, I see! 😅 Looks like I completely missed that—thanks for pointing it out! If the hardcoded API key isn't being used, we could consider removing it altogether to keep the codebase clean and avoid any potential confusion."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11017",
+      "time": "2025-03-04T19:17:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11017#issuecomment-2698672389",
+      "text": "@nihal467 @rithviknishad I would like to take on this issue. Can you please assign this to me?"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11017",
+      "time": "2025-03-04T19:17:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11017",
+      "text": "Remove Hardcoded Google Maps API Key from care.config.ts"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care#1105",
