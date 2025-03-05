@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-04T16:59:29.000Z",
+  "last_updated": "2025-03-05T11:26:55.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2858",
+      "time": "2025-03-05T11:26:55.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2858",
+      "text": "Add support for storing artifact meta objects such as excalidraw drawings"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-01T09:04:50.000Z",
+      "title": "ohcnetwork/care#2880",
+      "link": "https://github.com/ohcnetwork/care/pull/2880#pullrequestreview-2652356786",
+      "text": "Adds support for storing meta artifacts for patient and encounter"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2886",
+      "time": "2025-03-05T11:18:20.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2886#issuecomment-2700621981",
+      "text": "We need the API to return this error in this case, the value error was already being raised "
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care#2881",
@@ -113,13 +134,6 @@
       "time": "2025-03-01T11:49:26.000Z",
       "link": "https://github.com/ohcnetwork/care/issues/2614#issuecomment-2692165924",
       "text": "This issue is already resolved through #2830 "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-01T09:04:50.000Z",
-      "title": "ohcnetwork/care#2880",
-      "link": "https://github.com/ohcnetwork/care/pull/2880#pullrequestreview-2652356786",
-      "text": "Adds support for storing meta artifacts for patient and encounter"
     },
     {
       "type": "comment_created",
@@ -13623,6 +13637,13 @@
       "text": "Add Plug Config API"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/6",
+      "title": "[CEP-4] RBAC: initial spec",
+      "stale_for": 153,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }

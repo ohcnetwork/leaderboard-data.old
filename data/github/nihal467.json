@@ -1,6 +1,91 @@
 {
-  "last_updated": "2025-03-05T07:31:29.000Z",
+  "last_updated": "2025-03-05T15:15:42.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10988",
+      "time": "2025-03-05T15:15:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10988#issuecomment-2701236944",
+      "text": "![image](https://github.com/user-attachments/assets/14bf5c96-e5a0-42a6-bb19-87d163cea935)\r\n\r\n- [ ] add preview of the submitted data, otherwise users wont be able to view them post submission"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11037",
+      "time": "2025-03-05T15:07:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11037#issuecomment-2701212562",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10969",
+      "time": "2025-03-05T15:01:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10969#issuecomment-2701196281",
+      "text": "![image](https://github.com/user-attachments/assets/c1ecfab0-ce0f-4c2e-8434-d7450cc83091)\r\n\r\n10bedicu (Root) → ICU 1 Room (Child) → Room 1 Bed (Inner Child) When a user is added only to the ICU 1 Room organization, the ICU 1 Room and its inner child, Room 1 Bed, are not visible to the user.\r\n\r\nNote: When a user is added to the 10bedicu root location, they have proper access and can view all associated child locations, including ICU 1 Room and Room 1 Bed."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10969",
+      "time": "2025-03-05T14:49:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10969#issuecomment-2701163666",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10969",
+      "time": "2025-03-05T14:43:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10969#issuecomment-2701146289",
+      "text": "![image](https://github.com/user-attachments/assets/68ef46bf-e5ec-46c2-856d-420d6267fa6e)\r\n\r\n- [ ] sort the bed to show available of the top always (Enhancement)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10680",
+      "time": "2025-03-05T14:15:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10680#issuecomment-2701071094",
+      "text": "![image](https://github.com/user-attachments/assets/2b15529c-0ff8-43f6-b1b2-67829f4b2551)\r\n\r\n- [ ] in the view drawing page, grey out the file name and replace save button name with go back or cancel\r\n- [ ] Add translation for successfully notification"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11038",
+      "time": "2025-03-05T11:38:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11038#issuecomment-2700682923",
+      "text": "@ARH-MNAJS @NOOB-3301 @oathar @ashwinpraveengo steps to replicate have been modified, try once again to replicate the bug"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10526",
+      "time": "2025-03-05T11:28:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10526#issuecomment-2700649698",
+      "text": "Conditionally approving this due to priority nature. \r\n\r\n@Jacobjeevan \r\n\r\n1. Open up additional follow-up issues for necessary changes required based on the above comments (Since they are product calls)\r\n2. Revert the frontend changes that allowed Admin and Facility Admin users to access the Create Questionnaire page, as they are not permitted to create questionnaires."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10526",
+      "time": "2025-03-05T10:19:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10526#issuecomment-2700479410",
+      "text": "![image](https://github.com/user-attachments/assets/fddb1eac-2128-46a0-881e-4b054f634444)\r\n\r\n- [ ] Doctors with the admin role in the Kerala organization can create questionnaires. However, they can only grant access to these questionnaires for their own user type, not for other user types. "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11038",
+      "time": "2025-03-05T09:52:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11038",
+      "text": "Mobile Responsive issue : Encounter Page on Staging"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11036",
+      "time": "2025-03-05T09:32:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11036",
+      "text": "New cypress test for facility location"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11031",
+      "time": "2025-03-05T09:09:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11031",
+      "text": "Restructured the cy.viewport usage to more reusable way",
+      "turnaround_time": 5878
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11031",
@@ -54399,7 +54484,14 @@
       "text": "Merge Develop To Staging v24.48.0 | Patch"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11036",
+      "title": "New cypress test for facility location",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10788",

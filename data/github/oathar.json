@@ -1,0 +1,21 @@
+{
+  "last_updated": "2025-03-05T12:05:45.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11038",
+      "time": "2025-03-05T12:05:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11038#issuecomment-2700741751",
+      "text": "I have reproduced the issue by following the provided steps. The problem seems to be related to the sidebar or certain elements overflowing the viewport in mobile view.\n\nI will implement fixes by ensuring the layout adapts correctly using responsive CSS techniques (e.g., flexbox adjustments, media queries, and ensuring proper width constraints). I will also test across multiple devices to confirm the fix.\n\nExpected timeline:  6March. Please assign me this issue @nihal467 \n\n![Image](https://github.com/user-attachments/assets/3785e28c-23ec-4d59-bea2-4fecc8ac71e3)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11038",
+      "time": "2025-03-05T11:34:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11038#issuecomment-2700673041",
+      "text": "I have analyzed the issue and plan to implement the following fixes:  \n1. Ensure the viewport meta tag is correctly set.  \n2. Fix layout issues using responsive CSS (flexbox, media queries).  \n3. Resolve any overflowing elements.  \n4. Test the fix on multiple devices.  \n\nHowever, I am unable to log in to the staging environment as it shows \"Not Found.\" I ran the project locally on `http://localhost:4000/`, where login worked, but I am unsure how to reproduce this issue. \n@nihal467 \nCould you provide steps or credentials to access the staging environment?\n![Image](https://github.com/user-attachments/assets/974eebaf-4233-445c-8249-f2ae51c21217)"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}
