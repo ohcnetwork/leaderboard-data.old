@@ -1,6 +1,49 @@
 {
-  "last_updated": "2025-03-06T08:39:15.000Z",
+  "last_updated": "2025-03-06T13:56:00.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10967",
+      "time": "2025-03-06T13:56:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10967",
+      "text": "Text Overflow in \"Plots\" Tab in Encounter Tab in Mobile View"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11012",
+      "time": "2025-03-06T12:05:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11012#issuecomment-2703658807",
+      "text": "@Spandan-Mishra Truncate and tooltip 👍 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11077",
+      "time": "2025-03-06T10:54:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11077#issuecomment-2703500622",
+      "text": "No, the dataset would never be large enough for useMemo to be useful in this context. 👍 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11077",
+      "time": "2025-03-06T10:54:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11077",
+      "text": "Landing Page Code Optimization – Improve Search Performance with useMemo"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11066",
+      "time": "2025-03-06T10:13:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11066#issuecomment-2703401515",
+      "text": "> @nihal467 should I make the changes mentioned by coderabbit and make another commit?\n\nIf the suggestion makes sense yes"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11073",
+      "time": "2025-03-06T09:52:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11073",
+      "text": "Minor layout fixes",
+      "turnaround_time": 4791
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11038",
@@ -8724,21 +8767,13 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11073",
-      "title": "Minor layout fixes",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review",
-        "P1"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10988",
       "title": "Patient Questionnaire: Org Access",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing",
+        "needs review",
+        "merge conflict"
       ]
     },
     {
@@ -8762,7 +8797,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2767",
       "title": "Alt phone number and qualificationspec",
-      "stale_for": 40,
+      "stale_for": 41,
       "labels": []
     }
   ],

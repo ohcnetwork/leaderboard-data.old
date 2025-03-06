@@ -1,6 +1,32 @@
 {
-  "last_updated": "2025-03-06T07:28:53.000Z",
+  "last_updated": "2025-03-06T12:21:04.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11079",
+      "time": "2025-03-06T12:21:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11079#issuecomment-2703694302",
+      "text": "approach:\n-  i will  implement a breadcrumb component similar to the one used in the Locations view.\n-  then update the organizations view to include breadcrumbs dynamically based on the selected organization or category.\n-   breadcrumbs follow the structure: Home > Organizations > [Selected Organization]\n-i will modify the UI to seamlessly integrate the breadcrumbs   by first analyzing the breadcrumbs of location view properly.\nETA -  2 days\n"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10940",
+      "time": "2025-03-06T11:04:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10940",
+      "text": "feat:Add Resend OTP  button at the login page",
+      "turnaround_time": 325650
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#10940",
+      "time": "2025-03-06T11:04:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10940",
+      "text": "feat:Add Resend OTP  button at the login page",
+      "collaborated_with": [
+        "Vikaspal8923",
+        "rithviknishad"
+      ]
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/leaderboard-data#93",
@@ -206,21 +232,16 @@
       "labels": [
         "changes required"
       ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10940",
-      "title": "feat:Add Resend OTP  button at the login page",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested"
-      ]
     }
   ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10993",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10997"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10935",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10940"
     }
   ]
 }

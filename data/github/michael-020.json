@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-02T06:53:43.000Z",
+  "last_updated": "2025-03-06T12:18:04.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11079",
+      "time": "2025-03-06T12:18:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11079#issuecomment-2703687705",
+      "text": "@rithviknishad, I would like to work on this issue and here's how I would go about solving this issue:\n## Implementation Steps:\n\n#### 1. Identify the Breadcrumb Structure:\n- For locations, the breadcrumb follows: Home > Building 1 > Floor 1\n- For organizations, it could be: Home > State (Kerala) > Organization Name or something similar.\n\n#### 2. Modify the Breadcrumb Component:\n- Reuse and make the necessary changes in the existing Breadcrumb component.\n\n#### 3. Update the Organization View:\n- Fetch the necessary hierarchy details (e.g., state name, organization name).\n- Pass these details to the breadcrumb component.\n\n#### 4. Ensure Navigation Works:\n- Clicking on a breadcrumb should navigate to the respective level.\n\nExpected Timeline:\n- Complete Implementation and submission of pull request: 1-2 days, before 8th March."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10923",

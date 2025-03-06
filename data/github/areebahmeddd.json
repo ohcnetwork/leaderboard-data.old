@@ -1,6 +1,28 @@
 {
-  "last_updated": "2025-03-05T18:13:41.000Z",
+  "last_updated": "2025-03-06T11:55:14.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_sbom#10",
+      "time": "2025-03-06T11:55:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_sbom/pull/10",
+      "text": "chore: remove cron job for now"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_sbom#9",
+      "time": "2025-03-06T11:52:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_sbom/issues/9",
+      "text": "track major version release only"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_sbom#7",
+      "time": "2025-03-06T11:03:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_sbom/pull/7",
+      "text": "fix: use vars instead of env",
+      "turnaround_time": 845207
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care#2892",
@@ -673,6 +695,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_sbom/pull/10",
+      "title": "chore: remove cron job for now",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2893",
       "title": "fix: update project issues automation workflow",
       "stale_for": 0,
@@ -681,7 +709,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11058",
       "title": "feat: Improve issue automation using GitHub Apps instead of PAT",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -691,15 +719,9 @@
       "labels": []
     },
     {
-      "link": "https://github.com/ohcnetwork/care_sbom/pull/7",
-      "title": "fix: use vars instead of env",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/infra_template/pull/4",
       "title": "fix: update kubernetes configurations for care infrastructure",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     }
   ],
@@ -707,6 +729,10 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10836",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10939"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_sbom/issues/6",
+      "pr_link": "https://github.com/ohcnetwork/care_sbom/pull/7"
     },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10461",

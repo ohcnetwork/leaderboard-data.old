@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-04T19:18:24.000Z",
+  "last_updated": "2025-03-06T11:44:07.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11079",
+      "time": "2025-03-06T11:44:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11079#issuecomment-2703613475",
+      "text": "@rithviknishad, I would like to work on this.\n\n## Implementation Steps\n\n- **Check Existing Breadcrumbs** – Review the breadcrumb logic in the Locations view and reuse the same pattern.  \n- **Fetch Organization Hierarchy** – Modify the query to fetch the organization's hierarchy.  \n- **Generate & Render Breadcrumbs** – Implement a function similar to `generateBreadcrumbs` for organizations and render it in the UI.  \n\n**ETA:** By tomorrow EOD.  \n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11016",
