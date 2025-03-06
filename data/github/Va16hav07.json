@@ -1,0 +1,14 @@
+{
+  "last_updated": "2025-03-05T16:14:54.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11054",
+      "time": "2025-03-05T16:14:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11054#issuecomment-2701418482",
+      "text": "Do not modify the packages file. To fix this issue, update /home/your_file/care_fe/cypress/support/commands.ts by adding import { Cypress, cy } from 'cypress'; at the top. The packages file is auto-generated, so resolve the dependency issue at its source.\r\n\r\nyou can never change pakages files however you wanted to."
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}

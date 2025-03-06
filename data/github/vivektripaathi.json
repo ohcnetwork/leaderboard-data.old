@@ -1,0 +1,42 @@
+{
+  "last_updated": "2025-03-05T18:37:30.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11049",
+      "time": "2025-03-05T18:37:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11049#issuecomment-2701764956",
+      "text": "@Jacobjeevan, I have addressed this issue in [PR#11065](https://github.com/ohcnetwork/care_fe/pull/11065). Please review."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11065",
+      "time": "2025-03-05T18:33:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11065",
+      "text": "fix(ui): Prevent text overflow in popover content."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11049",
+      "time": "2025-03-05T18:18:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11049#issuecomment-2701724972",
+      "text": "@Jacobjeevan below is my proposal for this issue. Please assign it if it looks good to you, and let me know if you have any comments or suggestions.\n\n**Proposed Solution Description:**\nI propose adding the `break-words` class to the `Popover` component to ensure consistent text wrapping across all popover instances. This will prevent text overflow by allowing long words to break and wrap within the popover container.\n\n**Specific change:**\n- Add `break-words` to the existing classes in the popover className.\n\n**Expected Timeline:**\nEnd date: 06-03-2025."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11057",
+      "time": "2025-03-05T16:54:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11057#issuecomment-2701526200",
+      "text": "@sj11105 \n\n**Solution Description:**\nI propose to modify the Zod validation schema in the `CreateScheduleTemplateSheet` component to prevent creating schedule templates with past dates. The solution involves:\n- Adding date refinement for `valid_from` to allow today or future dates\n- Adding date refinement for `valid_to` to allow strictly a future date.\n- Implementing custom error messages for clear user feedback\n\n**Expected Timeline:**\nEnd date: 05-03-2025"
+    }
+  ],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11065",
+      "title": "fix(ui): Prevent text overflow in popover content.",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": []
+}

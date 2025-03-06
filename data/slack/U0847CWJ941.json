@@ -408,6 +408,94 @@
         {
             "user": "U0847CWJ941",
             "type": "message",
+            "ts": "1741197114.289449",
+            "client_msg_id": "0211f5ee-3eb1-4619-9abc-610ef248c962",
+            "text": "March 5\n\nWork Done:\n\u2022 Fixed the controller problem in add exception page by adding default values yo start time and end time  raised draft PR. There are similar issues in another pages also so need to find and make changes.\n\u2022 Issue related to functional refs not found, was noticed in Add Patient and Add schedule.\n\u2022 Got Assigned to the issue related to Mobile responsiveness in Encounter and Patient Detail Page\nNext:\n\u2022 Fix the mobile responsiveness in Encounter Page.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "qGd7i",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "March 5\n\nWork Done:\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed the controller problem in add exception page by adding default values yo start time and end time  raised draft PR. There are similar issues in another pages also so need to find and make changes."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Issue related to functional refs not found, was noticed in Add Patient and Add schedule."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Got Assigned to the issue related to Mobile responsiveness in Encounter and Patient Detail Page"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\nNext:\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fix the mobile responsiveness in Encounter Page."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U0847CWJ941",
+            "type": "message",
             "ts": "1741159963.255709",
             "client_msg_id": "b73efae5-9dca-4347-b870-aa390c33a2f8",
             "text": "4 March 2025\n\u2022 Tried to solve the issue related to adding schedule exception but couldn't solve.\n\u2022 Also got some Reviews in the last pr to find more places where there is form control error.",
