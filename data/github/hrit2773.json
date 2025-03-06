@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-03-05T16:08:53.000Z",
+  "last_updated": "2025-03-06T08:36:23.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11028",
+      "time": "2025-03-06T08:36:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11028#issuecomment-2703162900",
+      "text": "@Jacobjeevan \n**Approach**\n- Lets follow the existing template. We can create a new component for Vitals Summary with patient details and the table.\n- We can fetch the data coming from he observation analyse end point.\n- Using the existing PrintPreview component.\n- We can convert that to a table with columns Date, Systolic BP, Diastolic BP, Respiratory Date and Pulse Rate.\n### ETA\n3 days after assignment"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11069",
+      "time": "2025-03-06T07:42:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11069#issuecomment-2703054560",
+      "text": "I mean to say that we can replicate this filter @Bhavishya2601 @Jacobjeevan \n\n![Image](https://github.com/user-attachments/assets/c79247d4-7233-4820-962e-ed0a54219e8c)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11069",
+      "time": "2025-03-06T07:34:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11069#issuecomment-2703042028",
+      "text": "I guess if there is something which can be added is a filter based on date range similar to the way in the appointments page. For that we need to add backend filters in availability_exceptions viewset and then we can make use of useFilters to filter in a similar fashion as that of appointments page date_from and date_to query params. cc @Jacobjeevan let me know if its needed. If yes then I can make a PR with ETA: 4days"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11028",
+      "time": "2025-03-06T06:21:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11028#issuecomment-2702920561",
+      "text": "@Jacobjeevan @rithviknishad I guess the vitals entered in the consultation-copy-health questionnaire to show up in the overview and the data should be shown in the plots I guess but the data is not showing up even after entering those values"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11028",
+      "time": "2025-03-06T04:56:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11028#issuecomment-2702809164",
+      "text": "@Jacobjeevan vitals are those present in the plots right then we can catch those values and generate a summary with the required table"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10684",
@@ -2454,6 +2489,49 @@
       "text": "Soft delete assets from deleted facilities/hospitals"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11026",
+      "title": "Added Fetching Valueset options in Encounter Questionnaire Choice Question component",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10838",
+      "title": "Added Validations to Valueset form Name and Slug fields along with translations for error messages.",
+      "stale_for": 0,
+      "labels": [
+        "test failed"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10684",
+      "title": "Added pagination to Appointments List view",
+      "stale_for": 0,
+      "labels": [
+        "invalid",
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/100",
+      "title": "Added CEP for Patient Tagging system",
+      "stale_for": 29,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10720",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10741"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10620",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10636"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10600",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10619"
+    }
+  ]
 }

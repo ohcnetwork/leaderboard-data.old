@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-03-05T09:09:28.000Z",
+  "last_updated": "2025-03-06T07:13:12.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_abdm#28",
+      "time": "2025-03-06T07:13:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/pull/28",
+      "text": "Adds migration for patient reference in abha number model"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11071",
+      "time": "2025-03-06T06:59:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11071#issuecomment-2702981756",
+      "text": "After discussing the UI with @amjithtitus09 and @bodhish, this needs some changes,\r\n1. Add a table in the next page, that lists of all the administrations along with exact time, and administered by and sort it by administration date.\r\n2. Instead of calendar days in the header, use last 7 days."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11071",
+      "time": "2025-03-06T05:33:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11071",
+      "text": "Added print feature for medication administrations"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9553",
+      "time": "2025-03-06T05:30:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9553#issuecomment-2702854875",
+      "text": "This is already completed and is live in staging; ABDM supports linking abha number in patient form and about HCX the entire UI is under a redesign"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9553",
+      "time": "2025-03-06T05:30:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9553",
+      "text": "Add ABDM, HCX support to patient registration form"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10996",
+      "time": "2025-03-06T05:27:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10996#issuecomment-2702851463",
+      "text": "@gurukiran7 check with a lengthier screen"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#10853",
@@ -41927,6 +41969,23 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_abdm/pull/28",
+      "title": "Adds migration for patient reference in abha number model",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11071",
+      "title": "Added print feature for medication administrations",
+      "stale_for": 0,
+      "labels": [
+        "urgent",
+        "needs testing",
+        "needs review",
+        "P1"
+      ]
+    },
     {
       "link": "https://github.com/ohcnetwork/care_hcx/pull/11",
       "title": "Care HCX V3.0 Refactor",

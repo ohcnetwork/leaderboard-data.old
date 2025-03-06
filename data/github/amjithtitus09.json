@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-05T09:29:21.000Z",
+  "last_updated": "2025-03-06T08:27:19.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10969",
+      "time": "2025-03-06T08:27:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10969#issuecomment-2703143776",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/419803759-a5dff327-0054-48fd-9a69-28b6b19a5059.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDEyNDkyODYsIm5iZiI6MTc0MTI0ODk4NiwicGF0aCI6Ii81NzA1NTk5OC80MTk4MDM3NTktYTVkZmYzMjctMDA1NC00OGZkLTlhNjktMjhiNmIxOWE1MDU5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzA2VDA4MTYyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ1YjAzZmNhZmYwOTZhZWU0ZjAzYWFjYTJjMjM0MWY5NWRhMTBjMzRiZjU2NjEyYzAyYTYxOGFkNTk1MTQzN2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.b5haXz1KWH8jMlgx2VSXxSnOeKBNSXOkJfsbrqFg4PY)\r\n> \r\n> * [ ]  A user can access the parent location through breadcrumbs from a child location, even if they only have permission to view the child location.\r\n\r\n@nihal467 This is not a bug since the user will be able to see only the child locations they have access to even in the parent's view"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11018",
+      "time": "2025-03-06T06:37:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11018#issuecomment-2702941179",
+      "text": "@modamaan Can you change \"Expired on\" to \"Time of death\"? And wherever \"Expired\" badge is displayed to \"Deceased\"."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10969",
+      "time": "2025-03-06T06:13:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10969#issuecomment-2702908886",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/419506374-c1ecfab0-ce0f-4c2e-8434-d7450cc83091.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDEyNDAwMTgsIm5iZiI6MTc0MTIzOTcxOCwicGF0aCI6Ii81NzA1NTk5OC80MTk1MDYzNzQtYzFlY2ZhYjAtY2UwZi00YzJlLTg0MzQtZDc0NTBjYzgzMDkxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzA2VDA1NDE1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU4OTBlZTgzNGFmMDU2YmFlNDAwYmE1N2VjMDlhNzVmNTc3YjFkY2FmNTA5OWMwODRhMmRjMDg3MWNiMmZkMzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.09y3iVqyye9TSaIwlflqLocLXUcidXcipmV-m7GpuFo)\r\n> \r\n> 10bedicu (Root) → ICU 1 Room (Child) → Room 1 Bed (Inner Child) When a user is added only to the ICU 1 Room organization, the ICU 1 Room and its inner child, Room 1 Bed, are not visible to the user.\r\n> \r\n\r\n@nihal467 Fixed"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10905",
@@ -1639,7 +1660,7 @@
       "title": "Encounter Locations view",
       "stale_for": 0,
       "labels": [
-        "test failed"
+        "changes required"
       ]
     }
   ],

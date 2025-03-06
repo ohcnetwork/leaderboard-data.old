@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-05T19:22:47.000Z",
+  "last_updated": "2025-03-06T06:00:37.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11012",
+      "time": "2025-03-06T06:00:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11012#issuecomment-2702891088",
+      "text": "**Approach:**\nChanges must be made in the `OrganizationUsers.tsx` component\nThere can be two solutions to this:\n1. Breaking the name to the next line, i.e, wrapping the long words\n2. Truncate the long names with ellipsis (...)\n\nOne more approach could be to truncate the name with ellipsis normally, and show the full name with wrapping on hover.\n\n**End Date:** By end of tomorrow (07/03/25) or 1-2 Days after being assigned\n\n@Jacobjeevan I would like to work on this issue, please assign it to me"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11066",

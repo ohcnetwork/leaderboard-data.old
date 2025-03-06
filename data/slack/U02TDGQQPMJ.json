@@ -38301,5 +38301,236 @@
                 }
             ]
         }
+    ],
+    "2025-03-06 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1741239300.201049",
+            "client_msg_id": "a3e14849-4002-4a1b-89cd-9760c21ecc51",
+            "text": "*march 4, 5*\n\u2022 reviewed PRs, closed a bunch of them that didn\u2019t follow merge checklist\n\u2022 wrote camera action APIs in BE plug\n\u2022 rewrote majority of the old camera feed component to work with new things, almost done.\n\u2022 was running teleicu gateway locally, switched to docker-compose to have make it sit behind nginx along with rtsp-to-web and other things. spent some time debugging things there.\n\u2022 followed up on excalidraw PR and fixed some things during QA testing. :headphones:s w/. nihal on the same\n\u2022 stuck at figuring out why some middleware APIs are yielding 404.\n*next*\n\u2022 teleicu plug\n    \u25e6 gateway: figure out why some APIs are yielding 404\n    \u25e6 camera: wire up PTZ controls and other actions\n    \u25e6 camera: position presets\n    \u25e6 camera: add authzn. checks for actions APIs\n    \u25e6 migrations\n    \u25e6 setup translations\n    \u25e6 show it on encounter page\n    \u25e6 fix update device gateway problem\n    \u25e6 catch value errors and re-throw drf validation errors in device registry handlers",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Zuer6",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "march 4, 5",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "reviewed PRs, closed a bunch of them that didn\u2019t follow merge checklist"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "wrote camera action APIs in BE plug"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "rewrote majority of the old camera feed component to work with new things, almost done."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "was running teleicu gateway locally, switched to docker-compose to have make it sit behind nginx along with rtsp-to-web and other things. spent some time debugging things there."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "followed up on excalidraw PR and fixed some things during QA testing. "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "s w/. nihal on the same"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "stuck at figuring out why some middleware APIs are yielding 404."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "teleicu plug"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "gateway: figure out why some APIs are yielding 404"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "camera: wire up PTZ controls and other actions"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "camera: position presets"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "camera: add authzn. checks for actions APIs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "migrations"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "setup translations"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "show it on encounter page"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fix update device gateway problem"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "catch value errors and re-throw drf validation errors in device registry handlers"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-05T18:23:39.000Z",
+  "last_updated": "2025-03-06T03:04:10.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11055",
+      "time": "2025-03-06T03:04:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11055#issuecomment-2702671284",
+      "text": "@Jacobjeevan I've tested it, and the scroll issue is not coming from the common layout (App) for the Encounter page. As shown in the screenshots, the issue was due to space-x-6 on the tabs, which caused horizontal scrolling on smaller screens. After changing it to space-x-4, the issue was resolved.\nFor other pages, like the Questionnaire page, the horizontal scroll is caused by the table overflowing, which breaks the layout.\nGiven these findings, please reconsider checking the issue "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11064",
