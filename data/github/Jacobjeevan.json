@@ -1,6 +1,99 @@
 {
-  "last_updated": "2025-03-06T22:54:38.000Z",
+  "last_updated": "2025-03-07T07:37:54.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11104",
+      "time": "2025-03-07T07:37:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11104#issuecomment-2705740194",
+      "text": "Let's keep it as is, users may want to back-fill data (past to future or past to past).\n\nInstead, let's show a call out underneath when both dates are in the past."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11028",
+      "time": "2025-03-07T07:11:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11028#issuecomment-2705697695",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) [@rithviknishad](https://github.com/rithviknishad) I already started working on it will raise a PR by EOD or tmrw morning. Can I get it assigned. Only then I shall raise a PR\n\nI'd suggest waiting on issue being assigned before you start working on it. Issues like this needs to be addressed product side first."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11104",
+      "time": "2025-03-07T07:03:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11104#issuecomment-2705685638",
+      "text": "Need to be adjusted on the backend as well."
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11103",
+      "time": "2025-03-07T06:52:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11103",
+      "text": "patient questionnaire minor fix",
+      "turnaround_time": 939
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11103",
+      "time": "2025-03-07T06:37:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11103",
+      "text": "patient questionnaire minor fix"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-07T05:55:31.000Z",
+      "title": "ohcnetwork/care_fe#11011",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11011#pullrequestreview-2666311840",
+      "text": "Refactor: Replace cacheBlacklist with disableCache for complete cache disabling"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-07T05:51:27.000Z",
+      "title": "ohcnetwork/care_fe#11098",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11098#pullrequestreview-2666306948",
+      "text": "Default to nurse user type in the create user form"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11097",
+      "time": "2025-03-07T05:48:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11097",
+      "text": "Staging Patch: Patient questionnaire"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-07T05:22:25.000Z",
+      "title": "ohcnetwork/care_fe#10989",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10989#pullrequestreview-2666263888",
+      "text": "Added centralized function to handle camera permission error"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-05T13:49:32.000Z",
+      "title": "ohcnetwork/care_fe#10684",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10684#pullrequestreview-2661109152",
+      "text": "Added pagination to Appointments List view"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10988",
+      "time": "2025-03-07T04:20:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10988",
+      "text": "Patient Questionnaire: Org Access",
+      "turnaround_time": 291624
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11049",
+      "time": "2025-03-06T23:30:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11049#issuecomment-2705167002",
+      "text": "This isn't needed, no word is going to be that long. Normal paragraphs are rendered correctly.\n\nAlso please refrain from opening PRs until issue is assigned to you."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11049",
+      "time": "2025-03-06T23:30:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11049",
+      "text": "Text overflowing display area for notes in allergies section"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#11030",
@@ -309,13 +402,6 @@
       "time": "2025-03-05T17:19:25.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/11057",
       "text": "Doctor can create a template with a past date and set its validity to a past date."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-05T13:49:32.000Z",
-      "title": "ohcnetwork/care_fe#10684",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10684#pullrequestreview-2661109152",
-      "text": "Added pagination to Appointments List view"
     },
     {
       "type": "pr_reviewed",
@@ -8795,25 +8881,15 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10988",
-      "title": "Patient Questionnaire: Org Access",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review",
-        "merge conflict"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care/pull/2874",
       "title": "Added permissions to encounter, patient and facility",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10526",
       "title": "Perms based Rendering",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "tested",

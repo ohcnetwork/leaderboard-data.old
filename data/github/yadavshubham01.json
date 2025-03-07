@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-05T14:41:55.000Z",
+  "last_updated": "2025-03-07T06:10:22.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11099",
+      "time": "2025-03-07T06:10:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11099#issuecomment-2705613743",
+      "text": "Hey @nihal467 , \nI would like to work on this issue so , I propose replacing all instances of the React Date Picker with the device’s default date picker to enhance the UX, particularly on mobile devices. My approach will involve:\n\nIdentifying all occurrences of the React Date Picker across the platform.\nReplacing it with the native <input type=\"date\">, which triggers the default date picker on mobile devices.\nEnsuring proper styling and compatibility across different browsers and devices.\nTesting the implementation to confirm it improves the UX without breaking any existing functionality.\n\nEnd date: EOD\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10509",
