@@ -1,6 +1,69 @@
 {
-  "last_updated": "2025-03-06T11:19:24.000Z",
+  "last_updated": "2025-03-06T22:18:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10386",
+      "time": "2025-03-06T22:18:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10386#issuecomment-2705067678",
+      "text": "> [@hrit2773](https://github.com/hrit2773) unassigning you from the issue due to inactivity\n\nTest 1: Submission with Mandatory Fields Only\n1.  Navigate to the Form Page – Open the Community Nurse Homecare Questionnaire form.\n2. Fill Only Mandatory Fields – Enter data in required fields, leaving optional fields empty.\n3. Submit the Form – Click submit and verify API response using cy.intercept().\n4. Check Submission Behavior:\n\nIf any mandatory field is missing, ensure the form submission fails with an error message.\nIf all mandatory fields are filled, verify a successful submission.\n5. Verify Data Reflection – Check data appears correctly in the Encounter page.\n\nTest 2: Submission with All Fields\n1.  Navigate to the Form Page – Open the Community Nurse Homecare Questionnaire form.\n2. Fill All Fields – Enter data in both mandatory and optional fields.\n3. Submit the Form – Click submit and verify API response.\n4. Verify Data Reflection – Ensure all submitted data appears correctly across all sections, tabs, and charts in the Encounter page."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/docs#104",
+      "time": "2025-03-06T21:48:13.000Z",
+      "link": "https://github.com/ohcnetwork/docs/pull/104#issuecomment-2705017152",
+      "text": "@bodhish @khavinshankar @Jacobjeevan @vigneshhari @gigincg Sir plz review this CEP and lets move forward if we are ok to go."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11095",
+      "time": "2025-03-06T21:45:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11095#issuecomment-2705012051",
+      "text": "@bodhish @Jacobjeevan Can I work on this Issue ?"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11095",
+      "time": "2025-03-06T21:42:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11095",
+      "text": "Bug :  Questionnaire is not getting submitted in the Safari Browser"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11050",
+      "time": "2025-03-06T21:37:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11050#issuecomment-2704998930",
+      "text": "@NOOB-3301 Dont change this this thing is fixed in PR #10144 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10144",
+      "time": "2025-03-06T21:23:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10144#issuecomment-2704973725",
+      "text": "@rithviknishad @nihal467 I was facing some issues in package-lock-json thats why its merged . Sorry for that ... plz review my code its all working now\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11093",
+      "time": "2025-03-06T21:06:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11093",
+      "text": "Fix/profile photo upload issues"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11092",
+      "time": "2025-03-06T20:26:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11092",
+      "text": "Fix/profile photo upload issues"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10388",
+      "time": "2025-03-06T20:08:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10388#issuecomment-2704834138",
+      "text": "@nihal467 Can you assign it to me as I have 0 issues assigned now I can get it done by Today."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10144",
@@ -405,9 +468,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11093",
+      "title": "Fix/profile photo upload issues",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/docs/pull/104",
       "title": "Cep/add patients tag",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": []
     }
   ],

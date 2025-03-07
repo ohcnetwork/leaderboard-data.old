@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-03-06T12:31:16.000Z",
+  "last_updated": "2025-03-06T20:24:13.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-06T20:24:13.000Z",
+      "title": "ohcnetwork/care_fe#11065",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11065#pullrequestreview-2665543543",
+      "text": "fix(ui): Prevent text overflow in popover content."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11066",
+      "time": "2025-03-06T20:17:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11066#issuecomment-2704850553",
+      "text": "@Spandan-Mishra , do \"Mark as Resolved\" with comment or acknowledgement after changes are done or unnecessary ones by coderabbitai"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-06T19:56:19.000Z",
+      "title": "ohcnetwork/care_fe#11088",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11088#pullrequestreview-2665483511",
+      "text": "Redesigned public page as per the figma design"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11087",
+      "time": "2025-03-06T19:42:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11087#issuecomment-2704784336",
+      "text": "Hey Team, Currently we are filtering out based on only `entered_in_error` , I think as per issue Should it also include status = inactive ? "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11087",
+      "time": "2025-03-06T19:28:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11087",
+      "text": "Update Empty State Messaging and Add toggle  to View in overview tables"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11086",
+      "time": "2025-03-06T17:48:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11086#issuecomment-2704544899",
+      "text": "I think instead of installing types, it worked with Cypress @14.1.0. I just checked, and we currently have 14.0.0.\n\ncc: @nihal467 "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10927",
@@ -5050,6 +5092,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11087",
+      "title": "Update Empty State Messaging and Add toggle  to View in overview tables",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11068",
       "title": "Cypress test for resources",
       "stale_for": 0,
@@ -5058,7 +5109,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11011",
       "title": "Refactor: Replace cacheBlacklist with disableCache for complete cache disabling",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "question",
         "needs-triage"
@@ -5067,7 +5118,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10987",
       "title": "Fix: Minor UI Enhancement in questionnaire",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "invalid",
         "question",
