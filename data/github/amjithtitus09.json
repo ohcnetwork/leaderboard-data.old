@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-07T08:52:45.000Z",
+  "last_updated": "2025-03-07T13:31:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11112",
+      "time": "2025-03-07T13:31:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11112#issuecomment-2706462100",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/420300770-b65558bb-e0ca-4368-825d-98fd183ba389.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDEzNTQzOTQsIm5iZiI6MTc0MTM1NDA5NCwicGF0aCI6Ii81NzA1NTk5OC80MjAzMDA3NzAtYjY1NTU4YmItZTBjYS00MzY4LTgyNWQtOThmZDE4M2JhMzg5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzA3VDEzMjgxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTllMDc2N2Q3YmQyNDA1N2M5N2Q1NzY0OTEwM2NjMjFkZGJjYzM3NzNmNWFiMjIyODU4MTc5ZWUwZWFiNmY3ODgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.YsjXsxr1OkZz9RP_rTL9pFZzC0fv1bIYq-I8_zwgksI)\r\n> \r\n> * [ ]  The next visit on the questionnaire, time slot is throwing field required validation even though the slot is valid\r\n> * [ ]  hide expired timeslot in the dropdown\r\n\r\n@nihal467 Fixed these. Also added validation for dosage & duration of Medication Request."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10861",
+      "time": "2025-03-07T11:22:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10861#issuecomment-2706202854",
+      "text": "@AdityaP700 This issue is now part of another priority issue where validation is being added to all structured questions. Since I'm working on them and it's conflicting with this, I'm assigning this to myself. "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11112",
@@ -1664,11 +1678,10 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11112",
-      "title": "Questionnaire | Validation added for Appointment & Medication Statement",
+      "title": "Questionnaire | Validation added for Appointment & Medication Statement, Medication Request",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs testing"
       ]
     },
     {
@@ -1676,8 +1689,8 @@
       "title": "Encounter Locations view",
       "stale_for": 0,
       "labels": [
-        "changes required",
-        "merge conflict"
+        "needs testing",
+        "needs review"
       ]
     }
   ],
