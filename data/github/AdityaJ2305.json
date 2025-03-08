@@ -1,6 +1,76 @@
 {
-  "last_updated": "2025-03-07T09:43:01.000Z",
+  "last_updated": "2025-03-07T20:33:03.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-07T18:01:55.000Z",
+      "title": "ohcnetwork/care_fe#10871",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10871#pullrequestreview-2667967511",
+      "text": "Fix encounter overview tables to display more than 14 items"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11128",
+      "time": "2025-03-07T19:32:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11128#issuecomment-2707249690",
+      "text": "Hey Team, this issue was created after the PR 😅. The original issue was actually reported by @bodhish in the Slack channel"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11128",
+      "time": "2025-03-07T19:29:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11128",
+      "text": "Double Scroll Issue in Application"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11127",
+      "time": "2025-03-07T19:26:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11127#issuecomment-2707239069",
+      "text": "@bodhish , It is fixed overall in the application could you share ss if it still there in any section"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11127",
+      "time": "2025-03-07T19:22:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11127",
+      "text": "Fix double scroll"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11126",
+      "time": "2025-03-07T18:37:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11126",
+      "text": "Replaced React Date & Time Picker with the device's default date and Time picker"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10871",
+      "time": "2025-03-07T17:58:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10871#issuecomment-2707069003",
+      "text": "@Naman-45 \r\n<img width=\"848\" alt=\"Screenshot 2025-03-07 at 11 27 13 PM\" src=\"https://github.com/user-attachments/assets/d9d8e1c7-9953-4bbe-a51e-52dec38125c5\" />\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11104",
+      "time": "2025-03-07T16:53:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11104#issuecomment-2706944440",
+      "text": "Zod validations should trigger, surprising why zod error is not triggering on selecting date before start date 🤔\ncc: @Jacobjeevan "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10871",
+      "time": "2025-03-07T14:56:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10871#issuecomment-2706659696",
+      "text": "@Naman-45 , Checks are failing "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11099",
+      "time": "2025-03-07T14:50:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11099#issuecomment-2706644297",
+      "text": "@nihal467, don’t you think the issues created after this one will automatically be resolved once this issue is completed? 🤔"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11099",
@@ -5111,6 +5181,184 @@
       "text": "Fix: Spo2 twice rendering and wrong thresholds "
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11127",
+      "title": "Fix double scroll",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11126",
+      "title": "Replaced React Date & Time Picker with the device's default date and Time picker",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11087",
+      "title": "Update Empty State Messaging and Add toggle  to View in overview tables",
+      "stale_for": 1,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11068",
+      "title": "Cypress test for resources",
+      "stale_for": 0,
+      "labels": [
+        "merge conflict"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11011",
+      "title": "Refactor: Replace cacheBlacklist with disableCache for complete cache disabling",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "tested"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10987",
+      "title": "Fix: Minor UI Enhancement in questionnaire",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "changes required",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10927",
+      "title": "Fix: Search is not working in facility departmental section",
+      "stale_for": 1,
+      "labels": [
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10815",
+      "title": "Support For BULK beds creation in location",
+      "stale_for": 1,
+      "labels": [
+        "tested",
+        "changes required"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10857",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10858"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10855",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10856"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10834",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10839"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10772",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10841"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2863",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2867"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10651",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10659"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10610",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10613"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10459",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10462"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10191",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10230"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10087",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10092"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10079",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10081"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10073",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10077"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10073",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10081"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10053",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10054"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10041",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10042"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9975",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9954"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9975",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9982"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9955",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9954"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9953",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9954"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9915",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9916"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9913",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9851"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9868",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9851"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9850",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9851"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9800",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9708"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9770",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9708"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/569",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/570"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/563",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/564"
+    }
+  ]
 }
