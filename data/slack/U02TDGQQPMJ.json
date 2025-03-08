@@ -38683,9 +38683,153 @@
                     "name": "bed",
                     "users": [
                         "U0576PEACG0",
-                        "U07NGSB2MUP"
+                        "U07NGSB2MUP",
+                        "U082GUAL80N"
                     ],
-                    "count": 2
+                    "count": 3
+                }
+            ]
+        }
+    ],
+    "2025-03-08 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1741406503.269979",
+            "client_msg_id": "fee87b75-6364-494d-b284-f088818654f0",
+            "text": "*march 7*\n\u2022 _was not at office for first half of the day, went to test drive classic 350 and bought milano_ :ice_cream: _to office._\n\u2022 leaderboard: grouped eod updates by date.\n\u2022 i\u2019ve no clue why some APIs on gateway were yielding 404 when hit directly from curl/hoppscotch, but somehow magically works when dispatched from care_fe, proxied via BE (plug) to gateway.\n*next*\n\u2022 take rest",
+            "team": "TC99SV7B6",
+            "thread_ts": "1741406503.269979",
+            "reply_count": 3,
+            "reply_users_count": 2,
+            "latest_reply": "1741419258.014029",
+            "reply_users": [
+                "U07NXCASM89",
+                "U02TDGQQPMJ"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "uvy6a",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "march 7",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "was not at office for first half of the day, went to test drive classic 350 and bought milano ",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "ice_cream",
+                                            "unicode": "1f368",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " to office.",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "leaderboard: grouped eod updates by date."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "i\u2019ve no clue why some APIs on gateway were yielding 404 when hit directly from curl/hoppscotch, but somehow magically works when dispatched from care_fe, proxied via BE (plug) to gateway."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "take rest"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "fire",
+                    "users": [
+                        "UC8TSEGCQ"
+                    ],
+                    "count": 1
                 }
             ]
         }

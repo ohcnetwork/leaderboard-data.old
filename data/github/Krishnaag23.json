@@ -1,0 +1,21 @@
+{
+  "last_updated": "2025-03-08T04:58:19.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11029",
+      "time": "2025-03-08T04:58:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11029#issuecomment-2708021186",
+      "text": "@Deepjyoti14 and @Jacobjeevan , can I work on this issue?\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11029",
+      "time": "2025-03-08T04:44:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11029#issuecomment-2708016413",
+      "text": "# Proposed Solution for Fluid I/O Chart Feature\n\nI'd like to request assignment for this issue. After reviewing the codebase, I propose the following implementation for the fluid intake/output tracking functionality:\n\n## Solution Overview\n\nI plan to implement a comprehensive fluid balance tracking system with the following components:\n\n1. **Data Structure & API Integration**:\n   - Create new types in `src/types/emr/fluidBalance.ts` to model fluid intake/output records\n   - Implement API services for CRUD operations in `src/types/emr/fluidBalance/fluidBalanceApi.ts`\n\n2. **UI Components**:\n   - Develop a **FluidBalanceChart** component that will:\n     - Allow recording intake (oral, IV, enteral feeding, etc.)\n     - Track output (urine, drains, vomit, stool, etc.)\n     - Automatically calculate cumulative balance per shift and for 24h periods\n   - Add printable PDF view using the existing `PrintPreview` component structure\n\n3. **Integration Points**:\n   - Add a new tab in the patient encounter flow (`src/pages/Encounters/tabs/EncounterFluidBalanceTab.tsx`)\n   - Extend the patient records system to include fluid balance history\n   - Implement data visualization for trends using components similar to `src/components/Common/Charts/ObservationChart.tsx`\n\n4. **Printing Functionality**:\n   - Create a dedicated fluid chart PDF view similar to `src/pages/Encounters/PrintPrescription.tsx`\n   - Ensure the printable view includes shift totals and cumulative balances\n\nI plan to implement a comprehensive fluid balance tracking system broken down into the following PRs:\n\n### PR 1: Core Data Structure & Basic UI (3 days (11/03/25))\n- Create data models in `src/types/emr/fluidBalance.ts`\n- Implement API services in `src/types/emr/fluidBalance/fluidBalanceApi.ts`\n- Add basic form components for recording fluid entries\n- Unit tests for the core functionality\n\n### PR 2: Fluid Balance Recording UI (3 days (14/03/25))\n- Complete the FluidBalanceChart component with:\n  - Intake recording (oral, IV, enteral, etc.)\n  - Output recording (urine, drains, vomit, etc.)\n- Implement automatic calculations for balances\n- Add the new tab in encounter flow (`src/pages/Encounters/tabs/EncounterFluidBalanceTab.tsx`)\n\n### PR 3: Visualization & Printing (3 days (17/03/25))\n- Implement visualization for fluid balance trends\n- Create the printable PDF view\n- Add historical fluid balance data to patient records\n- Complete end-to-end test coverage\n\n## Technical Approach\n\nI'll follow the project's existing patterns:\n- Leverage the React component structure already in place\n- Use the same API request pattern as in `src/Utils/request`\n- Implement form controls using the UI library in `src/components/ui`\n- Follow the existing state management approach\n\n## Expected Timeline\n\n- End date: 17/03/25\n"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}

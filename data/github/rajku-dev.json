@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-06T14:23:44.000Z",
+  "last_updated": "2025-03-07T23:53:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10774",
+      "time": "2025-03-07T23:53:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10774#issuecomment-2707742787",
+      "text": "> > newly added files move to last page\r\n> \r\n> let's reverse sort it, lastest to show up first\r\n\r\nwe can modify the `get_queryset` method in `FileUploadViewSet` to order the files by `created_date` in descending in backend\r\nshould i go make that that change @rithviknishad , i have tested it locally though 🙂"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10961",

@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-03-07T13:10:39.000Z",
+  "last_updated": "2025-03-08T07:05:38.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-08T07:05:38.000Z",
+      "title": "ohcnetwork/care_fe#10758",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10758#pullrequestreview-2669023835",
+      "text": "Update all dependencies (minor, patch)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-21T03:12:05.000Z",
+      "title": "ohcnetwork/care_fe#10680",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10680#pullrequestreview-2631741265",
+      "text": "Integrated Excalidraw for drawing Files"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#250",
+      "time": "2025-03-08T06:41:40.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/250#issuecomment-2708073038",
+      "text": "mostly until rearchitecture is completed. trying to cleanup tech debts and make it more generic."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-26T11:30:46.000Z",
+      "title": "ohcnetwork/care_fe#10819",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10819#pullrequestreview-2644145896",
+      "text": "Fixed : Newly Added Patient Is Not Instantly Visible in the patient-switcher "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#250",
+      "time": "2025-03-08T06:33:18.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/250#issuecomment-2708070388",
+      "text": "leaderboards architecture is being rewritten completely. since this is not adding a huge value by doing it right now, will reconsider assigning once that's completed."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/leaderboard#454",
+      "time": "2025-03-08T05:57:36.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/454",
+      "text": "Include activity-bot Updates in Contributor Dashboard"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/leaderboard#454",
+      "time": "2025-03-08T05:57:32.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/454#issuecomment-2708050585",
+      "text": "we no longer have activity bots. EOD updates are scraped by slack scraper and shown in leaderboard already."
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#10377",
@@ -343,13 +392,6 @@
       "time": "2025-03-06T03:04:05.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/11070#issuecomment-2702671208",
       "text": "i don't think any word is this long. use spaces, it works fine."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-21T03:12:05.000Z",
-      "title": "ohcnetwork/care_fe#10680",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10680#pullrequestreview-2631741265",
-      "text": "Integrated Excalidraw for drawing Files"
     },
     {
       "type": "comment_created",
@@ -1594,13 +1636,6 @@
       "title": "ohcnetwork/care_fe#10835",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10835#pullrequestreview-2646551105",
       "text": "Fixed facility home actions styles"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-26T11:30:46.000Z",
-      "title": "ohcnetwork/care_fe#10819",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10819#pullrequestreview-2644145896",
-      "text": "Fixed : Newly Added Patient Is Not Instantly Visible in the patient-switcher "
     },
     {
       "type": "pr_reviewed",
@@ -63056,6 +63091,63 @@
       "text": "gh scraper: improve logging and scrape everything"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11116",
+      "title": "Adds support for device plugins",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10506",
+      "title": "Improved global error handler; support for registering custom error handlers on component mount",
+      "stale_for": 7,
+      "labels": [
+        "merge conflict",
+        "stale"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2858",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2880"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10347",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10390"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9966",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10214"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9877",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2725"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9810",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9799"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9809",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9799"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2667",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2675"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9447",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9463"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/556",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/557"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_camera_asset/issues/1",
+      "pr_link": "https://github.com/ohcnetwork/care_camera_asset/pull/2"
+    }
+  ]
 }
