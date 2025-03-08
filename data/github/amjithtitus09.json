@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-03-07T13:31:05.000Z",
+  "last_updated": "2025-03-08T17:51:30.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11132",
+      "time": "2025-03-08T17:51:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11132#issuecomment-2708416580",
+      "text": "> [@amjithtitus09](https://github.com/amjithtitus09) , the description said to fix the ui issues in medical description as well but i don't think there is any error in that. I am attaching a video to show.\n> \n>  ohc_medical_description_ui.mp4\n\n@modamaan Is this what you meant?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10996",
+      "time": "2025-03-08T17:50:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10996#issuecomment-2708416102",
+      "text": "@gurukiran7 Not sure what happened here, this issue doesn't exist currently. Test in latest develop"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11118",
+      "time": "2025-03-08T17:45:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11118#issuecomment-2708413706",
+      "text": "> [@amjithtitus09](https://github.com/amjithtitus09) in the PR 10996 [@khavinshankar](https://github.com/khavinshankar) commented([#10996 (comment)](https://github.com/ohcnetwork/care_fe/pull/10996#issuecomment-2697429184)) to make the width dynamic because of the white space to the right in larger screens . So I made it dynamic and noticed the above issue. Since the PR 10996 is not merged yet, The Remove button is not in the position like the one in my screen shot So that's y its bit difficult to notice it.\n\n@gurukiran7 If the issue exists in your PR alone, the problem is with the approach in your fix right? Closing it as it's not a bug"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11118",
+      "time": "2025-03-08T17:45:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11118",
+      "text": "Symptoms & Diagnosis Table Not Extending to Full Screen Width"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11132",
+      "time": "2025-03-08T17:02:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11132#issuecomment-2708396562",
+      "text": "> Hey @rithviknishad I think the medical description page needs to have a horizontal scroll for the medicine table so no need to change anything in that. Would like to know what you think of it.\n\n@motaboii  Can you add a screenshot/video of what you're talking about?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11118",
+      "time": "2025-03-08T14:54:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11118#issuecomment-2708338950",
+      "text": "@gurukiran7 Is the screenshot above the current behaviour or your expected behaviour? I don't see the issue here. \n![Image](https://github.com/user-attachments/assets/9abcf50e-5898-4541-b7f1-ff523e7c05a8)\n\nWe are locking the width beyond a certain point though except for very wide tables eg - Medication Request."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11112",
@@ -1675,6 +1717,33 @@
       "text": "Explicity mention Public Read ACL for Facility Image S3 Uploads"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11112",
+      "title": "Questionnaire | Validation added for Appointment & Medication Statement, Medication Request",
+      "stale_for": 1,
+      "labels": [
+        "needs testing"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10969",
+      "title": "Encounter Locations view",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2817",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10447"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10480",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10447"
+    }
+  ]
 }

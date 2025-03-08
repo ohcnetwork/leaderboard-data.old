@@ -1,6 +1,118 @@
 {
-  "last_updated": "2025-03-08T07:09:50.000Z",
+  "last_updated": "2025-03-08T18:19:22.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11132",
+      "time": "2025-03-08T18:19:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11132#issuecomment-2708429236",
+      "text": "Then switch mobile view, you can see prescription not responsive"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11132",
+      "time": "2025-03-08T18:17:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11132#issuecomment-2708428050",
+      "text": "@motaboii [Click here to reproduce](https://care.ohc.network/facility/605215bd-6215-45dd-bc20-aaeceb474ca1/patient/6e7b2961-6b21-4f1f-94ea-f12ae5fb692f/encounter/fb423c25-98c1-4081-a2f7-5d774204d6e6/prescriptions/print)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11146",
+      "time": "2025-03-08T18:12:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11146#issuecomment-2708425940",
+      "text": "got it 👍"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11132",
+      "time": "2025-03-08T17:59:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11132#issuecomment-2708419831",
+      "text": "> > [@amjithtitus09](https://github.com/amjithtitus09) , the description said to fix the ui issues in medical description as well but i don't think there is any error in that. I am attaching a video to show.\n> > ohc_medical_description_ui.mp4\n> \n> [@modamaan](https://github.com/modamaan) Is this what you meant?\n\n@amjithtitus09  i didnt mension any issue about the table"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11146",
+      "time": "2025-03-08T17:54:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11146#issuecomment-2708418028",
+      "text": "if it is not necessary, oky👍"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11146",
+      "time": "2025-03-08T17:53:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11146#issuecomment-2708417300",
+      "text": "this is what i expect, like `TooltipComponent `"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11146",
+      "time": "2025-03-08T17:52:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11146#issuecomment-2708416905",
+      "text": "```\n<AlertDialogComponent\n  trigger={<Button variant=\"destructive\" className=\"w-full\">{t(\"remove_user\")}</Button>}\n  title={t(\"remove_user_organization\")}\n  description={t(\"remove_user_warn\", {\n    firstName: userRole.user.first_name,\n    lastName: userRole.user.last_name,\n  })}\n  confirmLabel={t(\"remove\")}\n  cancelLabel={t(\"cancel\")}\n  onConfirm={() => removeRole()}\n  onCancel={() => console.log(\"Canceled\")}\n/>\n```"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11146",
+      "time": "2025-03-08T17:51:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11146#issuecomment-2708416399",
+      "text": "`import * as React from \"react\";\nimport {\n  AlertDialog,\n  AlertDialogAction,\n  AlertDialogCancel,\n  AlertDialogContent,\n  AlertDialogDescription,\n  AlertDialogFooter,\n  AlertDialogHeader,\n  AlertDialogTitle,\n  AlertDialogTrigger,\n} from \"@/components/ui/alert-dialog\";\nimport { cn } from \"@/lib/utils\";\nimport { buttonVariants } from \"@/components/ui/button\";\n\ninterface AlertDialogComponentProps {\n  trigger?: React.ReactNode; // Button to open the dialog\n  show?: boolean; // Controlled state (if needed)\n  title: string;\n  description: string;\n  confirmLabel?: string;\n  cancelLabel?: string;\n  onConfirm: () => void;\n  onCancel: () => void;\n  confirmVariant?: \"destructive\" | \"default\" | \"outline\";\n}\n\nconst AlertDialogComponent = ({\n  trigger,\n  show,\n  title,\n  description,\n  confirmLabel = \"Confirm\",\n  cancelLabel = \"Cancel\",\n  onConfirm,\n  onCancel,\n  confirmVariant = \"destructive\",\n}: AlertDialogComponentProps) => {\n  return (\n    <AlertDialog open={show} onOpenChange={onCancel}>\n      {trigger && <AlertDialogTrigger asChild>{trigger}</AlertDialogTrigger>}\n      <AlertDialogContent>\n        <AlertDialogHeader>\n          <AlertDialogTitle>{title}</AlertDialogTitle>\n          <AlertDialogDescription>{description}</AlertDialogDescription>\n        </AlertDialogHeader>\n        <AlertDialogFooter>\n          <AlertDialogCancel onClick={onCancel}>{cancelLabel}</AlertDialogCancel>\n          <AlertDialogAction\n            onClick={onConfirm}\n            className={cn(buttonVariants({ variant: confirmVariant }))}\n          >\n            {confirmLabel}\n          </AlertDialogAction>\n        </AlertDialogFooter>\n      </AlertDialogContent>\n    </AlertDialog>\n  );\n};\n\nexport default AlertDialogComponent;\n`"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11148",
+      "time": "2025-03-08T17:09:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11148#issuecomment-2708399386",
+      "text": "@nihal467 solved"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11148",
+      "time": "2025-03-08T16:18:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11148",
+      "text": "FIXED: Nav Redirection from discharge summary file upload page is not working"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11147",
+      "time": "2025-03-08T14:52:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11147#issuecomment-2708337976",
+      "text": "@nihal467 i would like to work on this"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11146",
+      "time": "2025-03-08T14:42:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11146#issuecomment-2708329658",
+      "text": "@rithviknishad @Jacobjeevan i would like pick it up \nETA: 3 days "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11146",
+      "time": "2025-03-08T14:41:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11146",
+      "text": "Create a Reusable ShadCN AlertDialog Component for Cleaner Code"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11132",
+      "time": "2025-03-08T11:19:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11132#issuecomment-2708216521",
+      "text": "sure"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11129",
+      "time": "2025-03-08T11:11:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11129#issuecomment-2708214103",
+      "text": "![Screenshot 2025-03-08 130222](https://github.com/user-attachments/assets/d410dedf-32c5-486a-ab08-222c8fe1cf74)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11138",
+      "time": "2025-03-08T11:00:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11138#issuecomment-2708206503",
+      "text": "#11132 "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11132",
@@ -1741,6 +1853,12 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11148",
+      "title": "FIXED: Nav Redirection from discharge summary file upload page is not working",
+      "stale_for": 0,
+      "labels": []
+    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11129",
       "title": "FIX:  Close Button and Title Not Visible in Edit Avatar & Edit Cover Photo Dialogs on Mobile",

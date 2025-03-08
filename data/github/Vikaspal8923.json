@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-07T07:30:07.000Z",
+  "last_updated": "2025-03-08T17:47:13.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11104",
+      "time": "2025-03-08T17:47:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11104#issuecomment-2708414553",
+      "text": "@AdityaJ2305 zod validation should  trigger an error if valid_from is after valid_to, but currently, there is no validation to prevent selecting past dates . "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11149",
+      "time": "2025-03-08T17:44:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11149#issuecomment-2708413315",
+      "text": "@Jacobjeevan  i have add the callout .  review the pr and tell me if you needed any changes\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11149",
+      "time": "2025-03-08T17:34:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11149",
+      "text": "add callout when both valid from and valid till  dates are past date …"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11104",
@@ -267,6 +288,36 @@
       "text": "Request for resend OTP button on  patient login"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11149",
+      "title": "add callout when both valid from and valid till  dates are past date …",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/93",
+      "title": "add my data",
+      "stale_for": 2,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10992",
+      "title": "fix:alignment issue for view details button in encounter list",
+      "stale_for": 1,
+      "labels": [
+        "changes required"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10993",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10997"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10935",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10940"
+    }
+  ]
 }
