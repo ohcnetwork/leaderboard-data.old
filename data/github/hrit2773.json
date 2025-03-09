@@ -1,6 +1,49 @@
 {
-  "last_updated": "2025-03-09T09:07:31.000Z",
+  "last_updated": "2025-03-09T15:49:43.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#10684",
+      "time": "2025-03-09T15:49:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10684",
+      "text": "Added pagination to Appointments List view",
+      "turnaround_time": 1582854
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11026",
+      "time": "2025-03-09T14:33:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11026#issuecomment-2708887288",
+      "text": "@gigincg I just want a clarification on how to change these types which you requested changes for."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11026",
+      "time": "2025-03-09T14:31:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11026#issuecomment-2708886354",
+      "text": "@gigincg I used a custom questionnaire that I just randomly created and the valueset was one of those disease valuesets maybe of some existing slug."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11026",
+      "time": "2025-03-09T14:27:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11026#issuecomment-2708884087",
+      "text": "@gigincg I have made changes and I understood that the coding field needs to be passed so I passed that accordingly and now its working. Now the questionnaire is getting submitted and to view it in overview page I have made a small change to view it.\r\n![Screenshot 2025-03-09 194349](https://github.com/user-attachments/assets/32c292f5-8899-42c4-af3a-9377b88bc2ae)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11026",
+      "time": "2025-03-09T09:30:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11026#issuecomment-2708757374",
+      "text": "When I added the parameter value_code to the newValues along with type and value invalid choice validation is gone only coding required is there"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11026",
+      "time": "2025-03-09T09:14:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11026#issuecomment-2708751580",
+      "text": "@gigincg in the console its showing 400 bad request"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11026",
@@ -2647,18 +2690,9 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10684",
-      "title": "Added pagination to Appointments List view",
-      "stale_for": 1,
-      "labels": [
-        "needs review",
-        "tested"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/docs/pull/100",
       "title": "Added CEP for Patient Tagging system",
-      "stale_for": 32,
+      "stale_for": 33,
       "labels": []
     }
   ],
@@ -2666,6 +2700,10 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10720",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10741"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10668",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10684"
     },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10620",
