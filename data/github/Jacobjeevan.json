@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-03-08T21:47:04.000Z",
+  "last_updated": "2025-03-09T07:31:46.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-06T02:13:02.000Z",
+      "title": "ohcnetwork/care_fe#11018",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11018#pullrequestreview-2663012571",
+      "text": "Enhance Expired On Label Styling on Encounter and Patient details Page for Better Visibility"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-06T07:35:34.000Z",
+      "title": "ohcnetwork/care_fe#11022",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11022#pullrequestreview-2663575280",
+      "text": "Fixes Issue  #11008 : Changes  to close the issue of Alignment of User Login Status "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-03T10:24:09.000Z",
+      "title": "ohcnetwork/care_fe#10883",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10883#pullrequestreview-2653701714",
+      "text": "Fixes: Removing remove Button for Structured Edit Page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11156",
+      "time": "2025-03-09T07:25:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11156#issuecomment-2708712115",
+      "text": "Please do not create broad issues like these.\n\n- We already have a global API error handler; there's a few instances where they are handled manually, but that's being taken care of.\n- Let's not do that, schemas are specific to each form, it doesn't make sense to make them resuable\n- Offline support needs to be handled broadly, but we have planned a GSOC project for that\n- We already have reusable components for loading (Skeleton for cards and Loading for general scenarios)\n- Responsiveness, there's already a few issues tackling this for mobile optimization\n- Debounce: We already have debounce support and it's being used in searches\n- Intl support: Translations are missing in some of the components, but we are slowly adding them with each issue.\n\nI'd suggest looking for smaller issues that you can get started with 👍 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11156",
+      "time": "2025-03-09T07:25:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11156",
+      "text": "Enhancing Frontend Components and Utilities"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-03-06T01:39:58.000Z",
@@ -436,13 +471,6 @@
       "text": "@sj11105 Complete the merge checklist please."
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-03-06T07:35:34.000Z",
-      "title": "ohcnetwork/care_fe#11022",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11022#pullrequestreview-2663575280",
-      "text": "Fixes Issue  #11008 : Changes  to close the issue of Alignment of User Login Status "
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11067",
       "time": "2025-03-06T06:46:19.000Z",
@@ -518,13 +546,6 @@
       "title": "ohcnetwork/care_fe#10992",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10992#pullrequestreview-2663060624",
       "text": "fix:alignment issue for view details button in encounter list"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-06T02:13:02.000Z",
-      "title": "ohcnetwork/care_fe#11018",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11018#pullrequestreview-2663012571",
-      "text": "Enhance Expired On Label Styling on Encounter and Patient details Page for Better Visibility"
     },
     {
       "type": "comment_created",
@@ -1069,13 +1090,6 @@
       "time": "2025-03-03T13:45:01.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/10970#issuecomment-2694450447",
       "text": "No, a map view is already under review."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-03T10:24:09.000Z",
-      "title": "ohcnetwork/care_fe#10883",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10883#pullrequestreview-2653701714",
-      "text": "Fixes: Removing remove Button for Structured Edit Page"
     },
     {
       "type": "issue_closed",
@@ -9048,7 +9062,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2874",
       "title": "Added permissions to encounter, patient and facility",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {

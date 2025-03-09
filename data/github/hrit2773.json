@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-08T08:04:39.000Z",
+  "last_updated": "2025-03-09T09:07:31.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11026",
+      "time": "2025-03-09T09:07:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11026#issuecomment-2708749007",
+      "text": "const handleValuesetSelectChange = (code: Code) => {\r\n    clearError();\r\n    setCurrentCode(code);\r\n    const newValues = [...questionnaireResponse.values];\r\n    newValues[index] = {\r\n      type: \"string\",\r\n      value: code.display,\r\n    };\r\n    updateQuestionnaireResponseCB(\r\n      newValues,\r\n      questionnaireResponse.question_id,\r\n      questionnaireResponse.note,\r\n    );\r\n  };\r\n\r\n@gigincg just tell me about this function the value which we are passing is ok right??"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11026",
+      "time": "2025-03-09T09:04:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11026#issuecomment-2708747516",
+      "text": "@gigincg \r\n![Screenshot 2025-03-09 143123](https://github.com/user-attachments/assets/ed40c8ec-2f00-46ca-98e1-c0eead3d0be1)\r\nWhen I'm submitting the choice in its showing these validation errors. Is it the problem of valueset or the format of data passed?? can you help me with this."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11136",
@@ -2608,6 +2622,58 @@
       "text": "Soft delete assets from deleted facilities/hospitals"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11136",
+      "title": "Minor UI enhancements in Questionniares and Valuesets list pages",
+      "stale_for": 1,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11026",
+      "title": "Added Fetching Valueset options in Encounter Questionnaire Choice Question component",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10838",
+      "title": "Added Validations to Valueset form Name and Slug fields along with translations for error messages.",
+      "stale_for": 0,
+      "labels": [
+        "test failed"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10684",
+      "title": "Added pagination to Appointments List view",
+      "stale_for": 1,
+      "labels": [
+        "needs review",
+        "tested"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/100",
+      "title": "Added CEP for Patient Tagging system",
+      "stale_for": 32,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10720",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10741"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10620",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10636"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10600",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10619"
+    }
+  ]
 }

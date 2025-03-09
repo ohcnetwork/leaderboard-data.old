@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-08T12:02:59.000Z",
+  "last_updated": "2025-03-09T06:42:21.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10972",
+      "time": "2025-03-09T06:42:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10972#issuecomment-2708699778",
+      "text": "> @abhimanyurajeesh I've reviewed your PR implementing Two-Factor Authentication (2FA) support. Here's my assessment:\r\n> ## Strengths\r\n> \r\n>     * **Complete Implementation**: You've created a comprehensive 2FA solution with TOTP support, backup codes, and proper user flows.\r\n> \r\n>     * **Security**: Your implementation follows security best practices with temporary tokens and proper authentication flows.\r\n> \r\n>     * **User Experience**: The UI includes clear instructions, error states, and recovery options.\r\n> \r\n>     * **Internationalization**: All strings are properly localized in the en.json file.\r\n> \r\n>     * **Integration**: The changes seamlessly integrate with the existing authentication system.\r\n> \r\n> \r\n> ## Implementation Details\r\n> \r\n>     * The authentication flow correctly handles both standard and MFA responses\r\n> \r\n>     * Type guards ensure proper type safety for different response types\r\n> \r\n>     * Backup code generation and management is properly implemented\r\n> \r\n>     * The new `/authenticate` route handles the MFA verification step\r\n> \r\n>     * User profile pages appropriately show 2FA options only for the user's own profile\r\n> \r\n> \r\n> Overall, this is a well-architected implementation that follows the codebase's existing patterns and provides a robust 2FA solution.\r\n> ✅ Actions performed\r\n\r\nwhat about a code review\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10972",
+      "time": "2025-03-09T06:39:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10972#issuecomment-2708698971",
+      "text": "@coderabbitai review the changes "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11143",
@@ -1300,6 +1314,83 @@
       "text": "@rithviknishad I guess I can help you with this! Can I work on this?\n"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11143",
+      "title": "Validate Unique Contact Values in Device Form",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11142",
+      "title": "Fix: Enhance LocationMap with interactive features and tooltips",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11117",
+      "title": "Update organization navigation",
+      "stale_for": 1,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10972",
+      "title": "Add Two-Factor Authentication (2FA) Support",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11043",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11045"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11024",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11041"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10638",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10640"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10059",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10062"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10018",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10021"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10018",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10085"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9968",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9958"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9837",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9840"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9837",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9892"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9837",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9995"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9751",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9758"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9751",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9780"
+    }
+  ]
 }
