@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-09T20:41:38.000Z",
+  "last_updated": "2025-03-10T10:08:38.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11155",
+      "time": "2025-03-10T10:08:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11155#issuecomment-2710049959",
+      "text": "Hey @Tanuj1718 , For tables in medical prescriptions and treatment summaries, I kept horizontal scrolling because forcing them to fit within a small screen (e.g., 500x800) would make the text too small and unreadable at some times. I think keeping a scroll for the table is necessary when it comes to smaller mobile screens. Do let me know your thoughts on that.\r\n\r\ncc: @abhimanyurajeesh "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11167",
@@ -112,7 +119,10 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/11155",
       "title": "improved ui for mobile responsiveness",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
     }
   ],
   "authored_issue_and_pr": []

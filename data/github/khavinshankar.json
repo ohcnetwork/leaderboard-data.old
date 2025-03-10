@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-10T07:22:49.000Z",
+  "last_updated": "2025-03-10T08:43:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_abdm#3",
+      "time": "2025-03-10T08:43:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/3#issuecomment-2709816221",
+      "text": "@Rustix69 the approach sounds good, but a small change is required;\n\n- Instead of using signals, we'll be using the frontend to do these manually\n- So the idea is to keep it similar to the Health Facility Implementation; Have a trigger in the frontend to create the health professional or link the existing health professional to the user (take health professional id as input)\n- Update can be done based on signals\n- While linking the existing Health Professional, we need to check if the it exists"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_abdm#3",
@@ -42074,31 +42081,31 @@
     {
       "link": "https://github.com/ohcnetwork/care_hcx/pull/11",
       "title": "Care HCX V3.0 Refactor",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_abdm/pull/25",
       "title": "ABDM EMR Refactor",
-      "stale_for": 41,
+      "stale_for": 42,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 50,
+      "stale_for": 51,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 50,
+      "stale_for": 51,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 50,
+      "stale_for": 51,
       "labels": []
     }
   ],

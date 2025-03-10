@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-07T11:27:22.000Z",
+  "last_updated": "2025-03-10T13:12:46.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10960",
+      "time": "2025-03-10T13:12:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10960#issuecomment-2710557553",
+      "text": "Hello @nihal467\nI apologize for the delay in responding, as I was busy with my mid-term exams. Upon investigating the issue in depth, I’ve identified some concerns while attempting to replicate it myself. \nFor Test-1:  \nWhen creating a new location, one must be an Admin to add a new location within a facility. However, when creating a Multi-type location, I’d like to clarify your statement about keeping the location within a single test. Did you mean something like this:\n\n- ![Image](https://github.com/user-attachments/assets/72a49fae-8f42-4f73-b898-7834dddbd8f8)\n\n- ![Image](https://github.com/user-attachments/assets/ed1dab63-1fb5-4823-8361-dbc1fda94ba0)\n\n\nOr were you referring to something different? When assigning a new location to a patient during a live encounter, the search functionality works correctly under certain conditions, such as when the child location is set to Bed.\nWell looking forward for your response as with clarifications i will be able to complete the testing and make the PR soon.\nThanks\n\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10861",
@@ -270,5 +277,10 @@
     }
   ],
   "open_prs": [],
-  "authored_issue_and_pr": []
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10907",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10908"
+    }
+  ]
 }

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-10T05:03:10.000Z",
+  "last_updated": "2025-03-10T10:20:55.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11167",
+      "time": "2025-03-10T10:20:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11167#issuecomment-2710084896",
+      "text": "@Jacobjeevan  sir i  have implemented text wrapping by removing line-clamp-2, and it works properly when the sentence consists of normal words. but one problem coming when,  someone adds a long single word, it doesn’t wrap correctly. although generally no one can add long single words but if want to  handle that case also then, I have to used 'break-all whitespace-normal' also in p tag.\n\n i have attached the screenshot of normal long description and long single word description :\n\nnormal long description\n![Image](https://github.com/user-attachments/assets/a5828469-1f95-418a-92ac-d3f2a221855d)\n\nlong single word description:\n\n![Image](https://github.com/user-attachments/assets/0e875853-5b4c-45f0-9528-774bbd8638af)\n so if i use 'break-all whitespace-normal'  long single word description also wrap properly but it break the long word .\n\nso  tell  me is i have to use 'break-all whitespace-normal' or not . Mostly time no one write single word description.  "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11167",
@@ -337,6 +344,38 @@
       "text": "Request for resend OTP button on  patient login"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11149",
+      "title": "add callout when both valid from and valid till  dates are past date …",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/93",
+      "title": "add my data",
+      "stale_for": 4,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10992",
+      "title": "fix:alignment issue for view details button in encounter list",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10993",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10997"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10935",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10940"
+    }
+  ]
 }

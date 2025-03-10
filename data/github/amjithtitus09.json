@@ -1,6 +1,97 @@
 {
-  "last_updated": "2025-03-10T08:08:48.000Z",
+  "last_updated": "2025-03-10T12:06:54.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11183",
+      "time": "2025-03-10T12:06:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11183",
+      "text": "Loading Skeleton Doesn't Match User Cards"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-10T12:06:47.000Z",
+      "title": "ohcnetwork/care_fe#11185",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11185#pullrequestreview-2670723494",
+      "text": "Fix: Align loading skeleton with user cards layout"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-10T12:06:15.000Z",
+      "title": "ohcnetwork/care_fe#11117",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11117#pullrequestreview-2670722336",
+      "text": "Update organization navigation"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11082",
+      "time": "2025-03-10T11:50:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11082",
+      "text": "Profile initials disappear after avatar deletion"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-10T11:50:37.000Z",
+      "title": "ohcnetwork/care_fe#11144",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11144#pullrequestreview-2670682905",
+      "text": "Fix : Profile Initials Disappear After Deletion"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11175",
+      "time": "2025-03-10T11:37:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11175#issuecomment-2710290205",
+      "text": "@abeeto Truncate might not be a good option\r\n![image](https://github.com/user-attachments/assets/9ed03707-f300-42b2-8e78-7b398231cd1b)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10987",
+      "time": "2025-03-10T11:14:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10987#issuecomment-2710234277",
+      "text": "@AdityaJ2305 Date field looks very weird\r\n![image](https://github.com/user-attachments/assets/ab48038c-9f05-421f-823f-3cef57c9b8c7)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10871",
+      "time": "2025-03-10T10:05:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10871#issuecomment-2710041982",
+      "text": "@Naman-45 Can you wire this popup to the existing \"View all\" button instead of a new Full View button? In the overview table, fetch records only from the active statuses and display first. Along with it, fire an API for inactive statuses with limit 0, to decide if \"View all\" button needs to be displayed or not. On click can open up the new Popup. Let me know if you need any clarifications.\r\n\r\nHere is an image for reference (Credits: @AdityaJ2305 ). This would also fix https://github.com/ohcnetwork/care_fe/issues/11184\r\n![image](https://github.com/user-attachments/assets/56779fd2-62c1-4245-bd29-75683d7d7221)\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11184",
+      "time": "2025-03-10T09:56:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11184#issuecomment-2710016860",
+      "text": "@Naman-45 Assigning this to you"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10253",
+      "time": "2025-03-10T09:41:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10253#issuecomment-2709971507",
+      "text": "@nihal467 \n\n> * [ ]  When all existing symptoms, diagnoses, and allergies are removed, the message displays as \"No  recorded.\" Update this to \"No active  available\" and always provide an option to view removed items, regardless of whether anything is currently active.\n\nLet's wire the new Full View popup to the current \"View all\" button instead of loading more items below. Above issue can be fixed while making that change in https://github.com/ohcnetwork/care_fe/pull/10871.\nMoving out the issue to https://github.com/ohcnetwork/care_fe/issues/11184\n\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11184",
+      "time": "2025-03-10T09:39:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11184",
+      "text": "When all existing symptoms, diagnoses, and allergies are removed, the message displays as \"No  recorded.\" Update this to \"No active  available\" and always provide an option to view removed items, regardless of whether anything is currently active."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11087",
+      "time": "2025-03-10T09:30:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11087#issuecomment-2709943243",
+      "text": "@AdityaJ2305 View all button seems redundant with the full view that's being added in https://github.com/ohcnetwork/care_fe/pull/10871 which fixes https://github.com/ohcnetwork/care_fe/issues/10869. It would be better to directly wire the Full view popover to the current \"View all\" button. Closing this as it can be done in the other larger PR and to avoid conflicts. "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-10T08:33:43.000Z",
+      "title": "ohcnetwork/care_fe#11175",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11175#pullrequestreview-2670141011",
+      "text": "UI changes for Questionnaire cards"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11071",
@@ -1746,7 +1837,8 @@
       "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review"
+        "needs review",
+        "merge conflict"
       ]
     }
   ],

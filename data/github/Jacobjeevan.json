@@ -1,6 +1,42 @@
 {
-  "last_updated": "2025-03-10T07:33:40.000Z",
+  "last_updated": "2025-03-10T10:33:31.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2874",
+      "time": "2025-03-10T10:33:31.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2874",
+      "text": "Added permissions to encounter, patient and facility",
+      "turnaround_time": 958851
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-06T22:37:32.000Z",
+      "title": "ohcnetwork/care_fe#10900",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10900#pullrequestreview-2665665851",
+      "text": "Replaced headlessui popover with shadcn popover in UpdatableApp; Uninstall headlessui"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-10T09:42:25.000Z",
+      "title": "ohcnetwork/care_fe#11150",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11150#pullrequestreview-2670336561",
+      "text": "Fixed: Long Usernames Overflow in User Cards #11133"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11151",
+      "time": "2025-03-10T09:41:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11151",
+      "text": "Truncating names in all user cards and adding a tooltip"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-10T09:36:37.000Z",
+      "title": "ohcnetwork/care_fe#10904",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10904#pullrequestreview-2669871515",
+      "text": "Add support for associating devices to an encounter"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-03-08T09:54:50.000Z",
@@ -493,13 +529,6 @@
       "time": "2025-03-06T22:54:38.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/11030",
       "text": "To add Patient intake/output fluid balance as a questionnaire"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-06T22:37:32.000Z",
-      "title": "ohcnetwork/care_fe#10900",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10900#pullrequestreview-2665665851",
-      "text": "Replaced headlessui popover with shadcn popover in UpdatableApp; Uninstall headlessui"
     },
     {
       "type": "pr_reviewed",
@@ -9183,27 +9212,20 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2874",
-      "title": "Added permissions to encounter, patient and facility",
-      "stale_for": 4,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10526",
       "title": "Perms based Rendering",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
         "needs review",
         "tested",
         "P1",
-        "waiting for backend",
         "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2767",
       "title": "Alt phone number and qualificationspec",
-      "stale_for": 44,
+      "stale_for": 45,
       "labels": []
     }
   ],

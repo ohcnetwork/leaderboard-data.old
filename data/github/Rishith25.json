@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-09T10:21:56.000Z",
+  "last_updated": "2025-03-10T13:16:33.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11160",
+      "time": "2025-03-10T13:16:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11160#issuecomment-2710568186",
+      "text": "Hey @rithviknishad \nMy bad, the flow is working fine now. \nThe Link user sheet is opening after creating a user.\nI think it got fixed somewhere."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11160",
+      "time": "2025-03-10T13:16:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11160",
+      "text": "After creating a user then it should get linked to the department"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10831",
+      "time": "2025-03-10T12:11:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10831#issuecomment-2710378139",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/420876669-4ee9da42-28d2-4639-8b58-e0db8a89ecb7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE2MDc4OTQsIm5iZiI6MTc0MTYwNzU5NCwicGF0aCI6Ii81NzA1NTk5OC80MjA4NzY2NjktNGVlOWRhNDItMjhkMi00NjM5LThiNTgtZTBkYjhhODllY2I3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzEwVDExNTMxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFhZGIwMDY4Mjg5YjgxODE0MjhiNTliZDEzNDk3MDIzZGEzZjVkNjg3ZDU2ZjA0NmI3ODY1OTZlNTE5NWM1NDEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.yYUv5zwGAkZKoit0Fcm1gAMri_emlUTYeFXCfI_B5QU) ![image](https://private-user-images.githubusercontent.com/57055998/420876848-aa0f21d6-797c-4385-81a9-1eea8e141dcd.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE2MDc4OTQsIm5iZiI6MTc0MTYwNzU5NCwicGF0aCI6Ii81NzA1NTk5OC80MjA4NzY4NDgtYWEwZjIxZDYtNzk3Yy00Mzg1LTgxYTktMWVlYThlMTQxZGNkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzEwVDExNTMxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQxNDgzYjhmNDVmMTU4N2NlMTc5NGVlMmI5YjkzZTkyNDk0MWM3OTNkOWZlMzUzMGMxMDEyOTJkZTdhNmUxY2ImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.8gKFk1RnG7Y8rj4nBimxQ8oZj1lIIxviB0_7Lwpc4zE)\r\n> \r\n> * Keeping the name as a searchable text box and the location as a dropdown selector is not consistent with our platform's design. We should combine them into one search area\r\n> * Align it with the encounter page search, where users type to filter data and select name or location from badges within the search component.\r\n> \r\n> @Rishith25 when working on elements commonly used across the platform, ensure UI consistency\r\n> \r\n> can you share the ETD to get this done\r\n\r\nHey @nihal467 \r\nOn using SearchByMultipleField Component we cant show location list to select a location. If we use SearchByMultipleField component then we have to add a location_id as field becz we have to pass location_id as queryparam in api call.\r\n\r\nShould i add location_id as search filed ??\r\n\r\ncc: @rithviknishad @Jacobjeevan"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11160",
@@ -2375,6 +2396,92 @@
       "text": "Disallow picking out of range month or year in date input dropdown"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10831",
+      "title": "Add Search Feature in Devices with name and location wise | Add Clear button in Location Search",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2876",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2877"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2872",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2873"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2866",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10801"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10779",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10801"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10765",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10766"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10701",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10712"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10664",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10665"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10381",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10402"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10131",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10146"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10103",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10124"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10074",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10080"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10024",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10025"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9998",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10005"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9862",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9864"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9769",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9835"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9725",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9735"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9714",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9723"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9688",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9696"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/583",
+      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/584"
+    }
+  ]
 }
