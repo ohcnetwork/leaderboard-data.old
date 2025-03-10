@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-08T23:11:52.000Z",
+  "last_updated": "2025-03-10T07:22:49.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_abdm#3",
+      "time": "2025-03-10T07:22:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/3#issuecomment-2709647437",
+      "text": "@Rustix69 Yes, the direction is correct,\n1. Create a model in care_abdm that has one to one reference with users\n1. Create a service to proxy hpr apis\n1. Create signals to call hpr service when a user is created or updated\n1. Also consider existing users; care is currently running in production and there are multiple users already registered in care; so we have to create hpr id for them too. (Consider the case when the abdm plug is enabled later down the line too)\n1. Have a fallback when hpr api errors out\n\n\nPlease explain your approach to 4 and 5."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_abdm#10",
+      "time": "2025-03-10T07:15:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/10#issuecomment-2709633891",
+      "text": "@vishaljoshi789 @gitsofaryan @Rustix69 ABDM requires us to send an sms while patient is trying to link their medical records through abha app, so basically right now, we just need to send sms (use the existing modules to send sms from care core) to the patient and cache, I have added a todo as a placeholder, https://github.com/ohcnetwork/care_abdm/blob/main/abdm/api/v3/viewsets/hip.py#L238.\n\nConsider setting up the care abdm plug first and go through the otp sending implementation in care core, and comment your implementation strategy and timeline here to get it assigned"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11177",
+      "time": "2025-03-10T06:39:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11177",
+      "text": "Create a print previews for questionnaire responses"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_abdm#3",
@@ -42036,7 +42057,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_abdm/pull/28",
       "title": "Adds migration for patient reference in abha number model",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
@@ -42044,10 +42065,10 @@
       "title": "Added print feature for medication administrations",
       "stale_for": 0,
       "labels": [
-        "urgent",
+        "question",
         "needs review",
         "tested",
-        "P1"
+        "needs-triage"
       ]
     },
     {

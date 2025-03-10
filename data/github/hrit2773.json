@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-03-09T17:42:55.000Z",
+  "last_updated": "2025-03-10T07:54:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11174",
+      "time": "2025-03-10T07:54:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11174#issuecomment-2709707222",
+      "text": "@Jacobjeevan @rithviknishad can you confirm if its valid and can I get it assigned"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2839",
+      "time": "2025-03-10T06:59:52.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2839#issuecomment-2709608310",
+      "text": "@vigneshhari you can go ahead with seeding the valueset with a predefined slug similar to the way we did for symptoms and diagnosis and then I will go ahead with adding nationality field in the patient model which will be of type code. and will also  add necessary validations. I guess we can start working"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11174",
+      "time": "2025-03-10T05:00:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11174#issuecomment-2709436214",
+      "text": "@rithviknishad @Jacobjeevan this is a backend issue. I want to work on this. ETA: Tomorrow  EOD"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11174",
+      "time": "2025-03-10T04:59:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11174",
+      "text": "Resource Request details page recently added comments are not appearing first"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11028",
@@ -2672,6 +2700,53 @@
       "text": "Soft delete assets from deleted facilities/hospitals"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11136",
+      "title": "Minor UI enhancements in Questionniares and Valuesets list pages",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11026",
+      "title": "Added Fetching Valueset options in Encounter Questionnaire Choice Question component",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10838",
+      "title": "Added Validations to Valueset form Name and Slug fields along with translations for error messages.",
+      "stale_for": 0,
+      "labels": [
+        "test failed"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/100",
+      "title": "Added CEP for Patient Tagging system",
+      "stale_for": 33,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10720",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10741"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10668",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10684"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10620",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10636"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10600",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10619"
+    }
+  ]
 }

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-09T02:29:51.000Z",
+  "last_updated": "2025-03-10T08:02:30.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_abdm#10",
+      "time": "2025-03-10T08:02:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/10#issuecomment-2709724095",
+      "text": "Hello @khavinshankar, I have gone through the care_fe module and checked how the OTP module works there.\n\n<img width=\"337\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d37cc31d-66bf-4a27-ac58-16ab347626c4\" />\n\nI got this api which can be used to send OTP in this module, If this is the implementation of the OTP we are looking for, then we can ->\n\n1. Generate OTP\n2. For phone number i have gone through the [HipPatientCareContextDiscoverSerializer](https://github.com/ohcnetwork/care_abdm/blob/aa0853313d332a815db217c5741a4c1170b3c1e5/abdm/api/v3/serializers/hip.py#L47), we can use the abhaAddress and get the phone number from [PatientSerializer](https://github.com/ohcnetwork/care_abdm/blob/aa0853313d332a815db217c5741a4c1170b3c1e5/abdm/api/v3/serializers/hip.py#L213)\n3. Send the OTP using the api.\n\nETA: 2-3 days\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10874",

@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-09T16:48:38.000Z",
+  "last_updated": "2025-03-10T07:47:58.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11177",
+      "time": "2025-03-10T07:47:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11177#issuecomment-2709695528",
+      "text": "@khavinshankar Can I work on this Issue with you or solely ? I have no active issues now .... "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_abdm#10",
+      "time": "2025-03-10T07:40:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/10#issuecomment-2709681433",
+      "text": "@khavinshankar \nApproach : \nGenerate OTP: Replace the hardcoded \"000000\" with a randomly generated OTP\nGet Patient Phone Number: Extract the patient's phone number from the database\nSend SMS: Use Care Core's existing SMS module to send the OTP\nCache OTP: Continue caching the OTP for verification when patient confirms\n\nETA : EOD today"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_abdm#3",
+      "time": "2025-03-10T07:30:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm/issues/3#issuecomment-2709662779",
+      "text": "@khavinshankar \nIf ABDM integration is enabled later, another script can be run to process only unsynced profiles.\nApproach for fallback : \n1. In the signal, if the HPRService.create_or_update_hpr() returns None, we simply skip updating hpr_id but do not stop user creation/update flow.\n2. Failed syncs can be retried via a cron-triggered management command on a schedule (e.g., 2Hr/day).\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11093",
@@ -557,6 +578,22 @@
       "text": "@rithviknishad @Jacobjeevan I had debugged the issue and set the codebase. Can I work on this issue if it is ok ?\n"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11093",
+      "title": "Fix/profile photo upload issues",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/104",
+      "title": "Cep/add patients tag",
+      "stale_for": 1,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }

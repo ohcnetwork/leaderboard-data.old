@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-03-09T16:28:31.000Z",
+  "last_updated": "2025-03-10T04:56:36.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-10T04:56:36.000Z",
+      "title": "ohcnetwork/care_fe#11022",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11022#pullrequestreview-2669785709",
+      "text": "Fixes Issue  #11008 : Changes  to close the issue of Alignment of User Login Status "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-05T17:03:59.000Z",
+      "title": "ohcnetwork/care_fe#11037",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11037#pullrequestreview-2661803436",
+      "text": "Retain sidebar collapse state on reload"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-10T04:48:33.000Z",
+      "title": "ohcnetwork/care_fe#11042",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11042#pullrequestreview-2669776889",
+      "text": "Multiple Minor UI Fixes"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11087",
+      "time": "2025-03-10T04:42:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11087#issuecomment-2709417183",
+      "text": "Status based filtering can happen inside the view all tab; Lets not complicate the view inside the encounter"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10996",
+      "time": "2025-03-10T04:34:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10996#issuecomment-2709409067",
+      "text": "Closing the PR as the issue doesn't exisit "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10929",
@@ -321,13 +356,6 @@
       "time": "2025-03-05T19:08:47.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11066#issuecomment-2701833803",
       "text": "Lets rename `administration` to `governance`"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-05T17:03:59.000Z",
-      "title": "ohcnetwork/care_fe#11037",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11037#pullrequestreview-2661803436",
-      "text": "Retain sidebar collapse state on reload"
     },
     {
       "type": "comment_created",
@@ -8295,6 +8323,28 @@
       "text": "Add support for patient tags"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2465",
+      "title": "New Crowdin updates",
+      "stale_for": 8,
+      "labels": [
+        "blocked"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11090",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11091"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8020",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8021"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7999",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8000"
+    }
+  ]
 }
