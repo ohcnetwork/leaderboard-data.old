@@ -1,0 +1,14 @@
+{
+  "last_updated": "2025-03-09T20:42:51.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11163",
+      "time": "2025-03-09T20:42:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11163#issuecomment-2709058188",
+      "text": "@srijan2607 @rithviknishad , Could I work on this issue please?\nMy solution is to enhance the password visibility toggle button with proper ARIA attributes\nWe can modify src/components/ui/input-password.tsx to include:\n- **aria-label:** Describes the button’s purpose (Show password / Hide password).\n- **aria-pressed:** Indicates whether the password is currently visible.\n- **title (optional)**: Provides a tooltip for sighted users.\nETA: 2 days"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-09T14:55:57.000Z",
+  "last_updated": "2025-03-09T17:57:56.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11166",
+      "time": "2025-03-09T17:57:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11166#issuecomment-2708989236",
+      "text": "https://github.com/user-attachments/assets/667fe7a4-c6b4-4316-9208-fe5eaafbbde2\n\nFixed issue with tab links in EncounterShow not preserving subPage, which caused a mismatch between the expected route and the UI state when navigating to /files/discharge_summary. Now, the correct UI updates accordingly.\n\nI can create a PR once assigned. @Jacobjeevan @nihal467 "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11113",
@@ -107,13 +114,6 @@
       "text": "feat: added Markdown preview"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11125",
-      "title": "Fix: Ensure unique keys for comments in ResourceCommentSection",
-      "stale_for": 1,
-      "labels": []
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }
