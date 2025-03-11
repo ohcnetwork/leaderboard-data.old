@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-10T02:01:18.000Z",
+  "last_updated": "2025-03-10T19:29:01.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11200",
+      "time": "2025-03-10T19:29:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11200",
+      "text": "Redesigned Select/Register Patient Table for Better Mobile Usability and Visibility"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11172",
@@ -1875,9 +1882,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11200",
+      "title": "Redesigned Select/Register Patient Table for Better Mobile Usability and Visibility",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11148",
       "title": "FIXED: Nav Redirection from discharge summary file upload page is not working",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -1893,7 +1906,8 @@
       "title": "Enhance Expired On Label Styling on Encounter and Patient details Page for Better Visibility",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "changes required",
+        "merge conflict"
       ]
     }
   ],

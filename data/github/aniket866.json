@@ -1,0 +1,49 @@
+{
+  "last_updated": "2025-03-10T21:16:15.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11181",
+      "time": "2025-03-10T21:16:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11181#issuecomment-2711859745",
+      "text": "@rithviknishad @shuchitachawla2909 @brainless @giju @Ashesh3 \n**Can i work on this Issue  , I have following approaches:**\n\n**1. Make each appointment entry clickable, redirecting users to the facility details page.\n2. Display key information such as facility name, location, and an embedded map upon navigation.\n3. Ensure smooth navigation with Tailwind or Bootstrap styling for consistency and responsiveness.\n4. As an alternative, add a \"View Facility\" button within the appointment details section.\n5. Validate UX with user testing to confirm ease of access and reduced navigation effort.**"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11192",
+      "time": "2025-03-10T21:14:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11192#issuecomment-2711855027",
+      "text": "@Tanuj1718 @brainless @giju @Ashesh3 @riginoommen \n\n**Can I solve this Issue ,I have following Approaches:**\n\n**1. Add a cancel button or cross icon inside the dropdown for easy dismissal.\n2. Ensure clicking the button resets the dropdown state and restores the previous view.\n3. Use Tailwind or Bootstrap classes to maintain design consistency with other UI elements.\n4. Implement event listeners to handle both button clicks and outside clicks for smooth UX.\n5. Test responsiveness to ensure proper visibility and functionality on all screen sizes.**\n\n\n\n\n\n\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11193",
+      "time": "2025-03-10T21:10:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11193#issuecomment-2711845474",
+      "text": "**PLEASE ASSIGN ME THIS ISSUE I WANT TO WORK , HERE ARE MY APPROACHES:**\n\n\n**1. Review and update the mobile layout to ensure that the tabs adjust correctly on smaller screens.\n2. Use responsive design techniques so that the content scales properly without causing overflow or readability issues.\n3. Change the placeholder text for the input box: for the first tab, use \"Enter Aadhaar Number OR Virtual ID,\" and for the second tab, use \"Enter linked ID.\"\n4. Consider adding tooltips to the tabs or input fields to offer additional guidance.\n5. Test the updated design on various mobile devices and screen sizes to confirm that the changes resolve the issues and improve usability.**\n\n@Tanuj1718 @brainless @giju @Ashesh3 @riginoommen "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11194",
+      "time": "2025-03-10T21:05:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11194#issuecomment-2711832399",
+      "text": "@Rishith25 @brainless @giju @Ashesh3 @riginoommen \n**please assign me this issue i have following approaches to solve this:**\n\nAPPROACHES:\n**1. Ensure the username availability check runs before validating its strength.\n2. Prevent conflicting messages by displaying only the relevant validation result.\n3. Sync frontend and backend password validation logic to avoid mismatches.\n4. Update error handling to prioritize availability errors over strength validation.\n5. Test with different username and password combinations to verify fixes.**"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11195",
+      "time": "2025-03-10T20:57:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11195#issuecomment-2711808272",
+      "text": "@Mahendar0701 @brainless @giju @Ashesh3 @riginoommen \n\n**please allow me to solve this Issue I have following approaches,**\n\n**1. Use responsive utility classes from Tailwind or Bootstrap to adjust widths dynamically.\n2. Ensure the correct viewport settings are in place to allow mobile scaling.\n3. Implement flexbox or grid systems for better adaptability on smaller screens.\n4. Prevent content overflow by making elements scrollable or adjusting their layout.\n5. Adjust font sizes and padding dynamically based on screen size.\n6. Test the layout across different devices using browser developer tools.**\n\nI will complete this in less than half an hour."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11196",
+      "time": "2025-03-10T20:48:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11196#issuecomment-2711789727",
+      "text": "Possible Causes & Solutions:\n\n**1.Sorting Issue:**\n The files might not be sorted by the latest created \n**Solution**: Ensure files are sorted by created_at or updated_at in descending order.\n\n**2.Pagination Caching:**\n\nThe first page might be cached, not reflecting the new file immediately.\n**Solution**: Invalidate or refresh the first page cache when a new file is added.\n\n**3.Database Query Not Updating:**\n\nThe query fetching files may not include the latest records.\n **Solution**: Verify that the query fetches real-time data instead of relying on stale cache.\n\n**4.Frontend State Not Updating:**\n\nThe UI might not be re-rendering after adding a new file.\n **Solution**: Update the frontend state after file upload, either by fetching new data or using state management.\n\n**5.Backend Delay in Processing New Files:**\n\nThe backend might take time to process and reflect new files.\n**Solution**: Implement WebSockets or polling to detect new files instantly.\n\n\nplease assign me to solve these issues, @rajku-dev @giju @brainless @Ashesh3 @riginoommen "
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}
