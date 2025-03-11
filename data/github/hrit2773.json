@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-10T10:46:44.000Z",
+  "last_updated": "2025-03-10T18:07:45.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2839",
+      "time": "2025-03-10T18:07:45.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2839#issuecomment-2711425009",
+      "text": "{\n  \"resourceType\" : \"ValueSet\",\n  \"id\" : \"country\",\n  \"meta\" : {\n    \"lastUpdated\" : \"2023-03-26T15:21:02.749+11:00\",\n    \"profile\" : [\"http://hl7.org/fhir/StructureDefinition/shareablevalueset\"]\n  },\n  \"text\" : {\n    \"status\" : \"generated\",\n    \"div\" : \"<div xmlns=\\\"http://www.w3.org/1999/xhtml\\\"><ul><li>Include all codes defined in <a href=\\\"http://terminology.hl7.org/5.1.0/CodeSystem-ISO3166Part1.html\\\"><code>urn:iso:std:iso:3166</code></a></li></ul></div>\"\n  },\n  \"extension\" : [{\n    \"url\" : \"http://hl7.org/fhir/StructureDefinition/structuredefinition-wg\",\n    \"valueCode\" : \"fhir\"\n  },\n  {\n    \"url\" : \"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status\",\n    \"valueCode\" : \"trial-use\"\n  },\n  {\n    \"url\" : \"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm\",\n    \"valueInteger\" : 1\n  }],\n  \"url\" : \"http://hl7.org/fhir/ValueSet/country\",\n  \"identifier\" : [{\n    \"system\" : \"urn:ietf:rfc:3986\",\n    \"value\" : \"urn:oid:2.16.840.1.113883.4.642.3.3297\"\n  }],\n  \"version\" : \"5.0.0\",\n  \"name\" : \"CountryValueSet\",\n  \"title\" : \"Country ValueSet\",\n  \"status\" : \"draft\",\n  \"experimental\" : true,\n  \"date\" : \"2023-03-26T15:21:02+11:00\",\n  \"publisher\" : \"FHIR Project team\",\n  \"contact\" : [{\n    \"telecom\" : [{\n      \"system\" : \"url\",\n      \"value\" : \"http://hl7.org/fhir\"\n    }]\n  }],\n  \"description\" : \"This value set defines a base set of codes for countries.   \\r\\n   \\r\\n   Note: The codes for countries are taken from    [ISO 3166](https://www.iso.org/iso-3166-country-codes.html).\",\n  \"jurisdiction\" : [{\n    \"coding\" : [{\n      \"system\" : \"http://unstats.un.org/unsd/methods/m49/m49.htm\",\n      \"code\" : \"001\",\n      \"display\" : \"World\"\n    }]\n  }],\n  \"compose\" : {\n    \"include\" : [{\n      \"system\" : \"urn:iso:std:iso:3166\"\n    }]\n  }\n}"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2839",
+      "time": "2025-03-10T16:02:40.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2839#issuecomment-2711088399",
+      "text": "@vigneshhari fine I will start working"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11186",

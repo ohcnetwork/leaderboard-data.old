@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-10T12:01:25.000Z",
+  "last_updated": "2025-03-10T18:03:39.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10777",
+      "time": "2025-03-10T18:03:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10777#issuecomment-2711415038",
+      "text": "@rithviknishad @Jacobjeevan Could you guide me to fix this https://github.com/ohcnetwork/care_fe/pull/10777#issuecomment-2697129343"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10830",
+      "time": "2025-03-10T17:34:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10830#issuecomment-2711343962",
+      "text": "@nihal467 \r\n* Fixed - can drag the entire image to the right until it is completely clipped. There should be a limit to prevent this.\r\n* Fixed - The normal images are clipping in at the bottom, and they have to drag the image in the normal view to view it fully."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10899",
+      "time": "2025-03-10T15:46:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10899#issuecomment-2711040051",
+      "text": "@bodhish @Jacobjeevan @khavinshankar Removed Unnecessary Files. As per the request of khavinshankar only added auto-expanding-textarea.tsx in src/components/ui. "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10830",
@@ -1788,9 +1809,11 @@
       "title": "Fix : Clear search field when navigating back with browser controls",
       "stale_for": 0,
       "labels": [
+        "question",
         "needs review",
         "test failed",
-        "changes required"
+        "changes required",
+        "needs-triage"
       ]
     }
   ],

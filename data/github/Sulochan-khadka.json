@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-03-10T12:54:05.000Z",
+  "last_updated": "2025-03-10T17:04:56.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11190",
+      "time": "2025-03-10T17:04:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11190#issuecomment-2711267296",
+      "text": "I guess i am unable to understand the issue here. @rithviknishad i also implemented  the same at first. But acting upon the suggestion of @Jacobjeevan that we should rather have SearchByMultipleFields , for consistency across the pages, made a commit https://github.com/ohcnetwork/care_fe/pull/10797/commits/f08e8fe16e622aa9aa578ebaa968eba458376e6a\r\n\r\nwhich is why i moved forward with that. \r\nWhat do both of you suggest ? I do not want @nihal467 to close this PR as well 😕"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10963",
+      "time": "2025-03-10T15:38:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10963#issuecomment-2711014263",
+      "text": "> @Sulochan-khadka Any updates?\r\n\r\nyes, @amjithtitus09 said to implement something similar to \"ALLERGY_VERIFICATION_STATUS_STYLES\" in AllergyIntolerance, since we do not currently have something like this for the medication statuses. @Jacobjeevan shall i go ahead and create this?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10883",
+      "time": "2025-03-10T15:06:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10883#issuecomment-2710916476",
+      "text": "> remove button should not be shown for the selected form, be it structured or non\r\n\r\nyou mean , we should not have remove button for the first question, right? Or remove the remove-button altogether?\r\n<img width=\"889\" alt=\"Screenshot 2025-03-10 at 8 35 51 PM\" src=\"https://github.com/user-attachments/assets/5d631fc7-c323-4a13-913c-fdc5d28f640c\" />\r\n\r\ncc: @Jacobjeevan @rithviknishad @nihal467 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10743",
+      "time": "2025-03-10T14:44:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10743#issuecomment-2710843789",
+      "text": "@nihal467 @amjithtitus09 what variants of Badges should be used? Like all active medications with Primary (green) and inactive medications with Outline?\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11190",
+      "time": "2025-03-10T14:33:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11190#issuecomment-2710810127",
+      "text": "> * Follow the merge checklist please (requested the same in the last PR for this issue)\r\n> * Rithvik provided some suggestions there which was never replied to/implemented.\r\n\r\n@Jacobjeevan \r\n1. Oh, i missed that. Will do it now\r\n2. I implemented the changes in this PR, i guess. Since that PR was closed By @nihal467 as the ETA had passed, i had to create a new PR\r\n\r\n"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11190",

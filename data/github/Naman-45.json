@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-08T18:30:31.000Z",
+  "last_updated": "2025-03-10T15:48:49.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10871",
+      "time": "2025-03-10T15:48:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10871#issuecomment-2711048162",
+      "text": "> @Naman-45 Can you wire this popup to the existing \"View all\" button instead of a new Full View button? In the overview table, fetch records only from the active statuses and display first. Along with it, fire an API for inactive statuses with limit 0, to decide if \"View all\" button needs to be displayed or not. On click can open up the new Popup. Let me know if you need any clarifications.\r\n> \r\n> Here is an image for reference (Credits: @AdityaJ2305 ). This would also fix #11184 ![image](https://private-user-images.githubusercontent.com/37619282/420856703-56779fd2-62c1-4245-bd29-75683d7d7221.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE2MTkxMzgsIm5iZiI6MTc0MTYxODgzOCwicGF0aCI6Ii8zNzYxOTI4Mi80MjA4NTY3MDMtNTY3NzlmZDItNjJjMS00MjQ1LWJkMjktNzU2ODNkN2Q3MjIxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzEwVDE1MDAzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQxMWI3MTY5MzQwNjkzYjE0NWYxZDRkZDAwNzE0NGIxYzQxZjdiNjhhZGI0NjQyYmJiMTNkNzY2YmY5NTU4MzQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.gxo1ULo_JLbCBPp7IMsaZNgD1SmC1AS-KxYnqdjdkwg)\r\n\r\nOk so I will remove Full View button and instead wire it up to the view all button? Now, as you said that you want to display all the active entries in the overview section so what all encounter statuses do you consider as active and which all inactive.\r\n\r\nAnd In the overview section you want to display all the active statuses entries then what if they are more than 14 i.e; cannot be fetched in a single call, how do you want that case to be handled?\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10871",
@@ -93,6 +100,18 @@
       "text": "Could you please assign this issue to me, would like to work on this.\n"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10871",
+      "title": "Fix encounter overview tables to display more than 14 items",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs testing",
+        "needs review",
+        "needs-triage"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }
