@@ -1,6 +1,146 @@
 {
-  "last_updated": "2025-03-10T14:32:41.000Z",
+  "last_updated": "2025-03-11T09:12:35.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-11T09:12:35.000Z",
+      "title": "ohcnetwork/care_fe#11205",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11205#pullrequestreview-2673523775",
+      "text": "fixed department  description overflow properly"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11195",
+      "time": "2025-03-11T09:11:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11195#issuecomment-2713258091",
+      "text": "Already a PR for this 👍 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11195",
+      "time": "2025-03-11T09:11:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11195",
+      "text": "Encounter page lacks responsiveness in mobile view"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10871",
+      "time": "2025-03-11T09:07:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10871#issuecomment-2713245465",
+      "text": "> > @Naman-45 Can you wire this popup to the existing \"View all\" button instead of a new Full View button? In the overview table, fetch records only from the active statuses and display first. Along with it, fire an API for inactive statuses with limit 0, to decide if \"View all\" button needs to be displayed or not. On click can open up the new Popup. Let me know if you need any clarifications.\r\n> > Here is an image for reference (Credits: @AdityaJ2305 ). This would also fix #11184 ![image](https://private-user-images.githubusercontent.com/37619282/420856703-56779fd2-62c1-4245-bd29-75683d7d7221.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE2MTkxMzgsIm5iZiI6MTc0MTYxODgzOCwicGF0aCI6Ii8zNzYxOTI4Mi80MjA4NTY3MDMtNTY3NzlmZDItNjJjMS00MjQ1LWJkMjktNzU2ODNkN2Q3MjIxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzEwVDE1MDAzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQxMWI3MTY5MzQwNjkzYjE0NWYxZDRkZDAwNzE0NGIxYzQxZjdiNjhhZGI0NjQyYmJiMTNkNzY2YmY5NTU4MzQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.gxo1ULo_JLbCBPp7IMsaZNgD1SmC1AS-KxYnqdjdkwg)\r\n> \r\n> Ok so I will remove Full View button and instead wire it up to the view all button? Now, as you said that you want to display all the active entries in the overview section so what all encounter statuses do we consider as active and which all as inactive statuses.\r\n> \r\n> And In the overview section as we want to display all the active entries then what if there are more than 14 i.e; cannot be fetched in a single call, how should I handle that case?\r\n\r\n\r\n\r\n> > @Naman-45 Can you wire this popup to the existing \"View all\" button instead of a new Full View button? In the overview table, fetch records only from the active statuses and display first. Along with it, fire an API for inactive statuses with limit 0, to decide if \"View all\" button needs to be displayed or not. On click can open up the new Popup. Let me know if you need any clarifications.\r\n> > Here is an image for reference (Credits: @AdityaJ2305 ). This would also fix #11184 ![image](https://private-user-images.githubusercontent.com/37619282/420856703-56779fd2-62c1-4245-bd29-75683d7d7221.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE2MTkxMzgsIm5iZiI6MTc0MTYxODgzOCwicGF0aCI6Ii8zNzYxOTI4Mi80MjA4NTY3MDMtNTY3NzlmZDItNjJjMS00MjQ1LWJkMjktNzU2ODNkN2Q3MjIxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzEwVDE1MDAzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQxMWI3MTY5MzQwNjkzYjE0NWYxZDRkZDAwNzE0NGIxYzQxZjdiNjhhZGI0NjQyYmJiMTNkNzY2YmY5NTU4MzQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.gxo1ULo_JLbCBPp7IMsaZNgD1SmC1AS-KxYnqdjdkwg)\r\n> \r\n> Ok so I will remove Full View button and instead wire it up to the view all button? Now, as you said that you want to display all the active entries in the overview section so what all encounter statuses do we consider as active and which all as inactive statuses.\r\n> \r\n> And In the overview section as we want to display all the active entries then what if there are more than 14 i.e; cannot be fetched in a single call, how should I handle that case?\r\n\r\nSymptom and Diagnosis\r\n- show everything else except:\r\n   - clinical status: inactive, resolved\r\n   - verification status: entered in error\r\n\r\nAllergy\r\n- show everything else except:\r\n   - clinical status: inactive, resolved\r\n   - verification status: entered in error\r\n\r\nAs for more than 14 entries, it's fine. Let's just show the default number of entries (14)."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-08T09:28:03.000Z",
+      "title": "ohcnetwork/care_fe#11044",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11044#pullrequestreview-2669068572",
+      "text": "Fixes Issue #11009:  Changes in the code to disable adding exceptions before date"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-08T09:54:50.000Z",
+      "title": "ohcnetwork/care_fe#11066",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11066#pullrequestreview-2669069552",
+      "text": "Redesigned the dashboard for the user organisation page"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11216",
+      "time": "2025-03-11T08:45:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11216",
+      "text": "Layout Fixes for Smaller Devices"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-11T07:33:32.000Z",
+      "title": "ohcnetwork/care_fe#11149",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11149#pullrequestreview-2673157900",
+      "text": "add callout when both valid from and valid till  dates are past date …"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-11T07:24:58.000Z",
+      "title": "ohcnetwork/care_fe#11136",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11136#pullrequestreview-2673151762",
+      "text": "Minor UI enhancements in Questionniares and Valuesets list pages"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-06T06:41:48.000Z",
+      "title": "ohcnetwork/care_fe#10934",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10934#pullrequestreview-2663446497",
+      "text": "feature: Added services history section in device details page (10828)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10872",
+      "time": "2025-03-11T06:49:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10872#issuecomment-2712861077",
+      "text": "Are you sure you have replaced all the relevant keys? like \"manage_organizations\"?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10872",
+      "time": "2025-03-11T06:47:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10872#issuecomment-2712854961",
+      "text": "Resolve the conflict in en.json 👍 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-10T05:33:49.000Z",
+      "title": "ohcnetwork/care_fe#10872",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10872#pullrequestreview-2669823816",
+      "text": "Add support for adding and removing managing organization for a device"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-06T02:19:06.000Z",
+      "title": "ohcnetwork/care_fe#10992",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10992#pullrequestreview-2663060624",
+      "text": "fix:alignment issue for view details button in encounter list"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-02-27T08:57:29.000Z",
+      "title": "ohcnetwork/care_fe#10838",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10838#pullrequestreview-2647063368",
+      "text": "Added Validations to Valueset form Name and Slug fields along with translations for error messages."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10838",
+      "time": "2025-03-11T06:23:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10838#issuecomment-2712810516",
+      "text": "> @Jacobjeevan the changes that was approved before failed in test because the translations are not visible when I'm using t() from i18-next import although the translations keys are properly written in en.json but when I used the t() from useTranslation inside a component the translations are working. That maybe due to rendering so I made this change. Can you acknowledge this??\r\n\r\nAlright, that's fine then 👍  Let's use the hook."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11201",
+      "time": "2025-03-11T06:17:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11201#issuecomment-2712794393",
+      "text": "As areeb said, please refrain from opening PRs until issue is assigned."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11201",
+      "time": "2025-03-11T06:17:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11201",
+      "text": "bg color of signin button"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11204",
+      "time": "2025-03-11T06:15:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11204#issuecomment-2712790560",
+      "text": "00:00 is the next day, start/end time is supposed to be within one day."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11204",
+      "time": "2025-03-11T06:15:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11204",
+      "text": "Unable to set end-time for schedule availability as midnight"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11174",
@@ -30,13 +170,6 @@
       "text": "> @Jacobjeevan I'll remove the banner. Should I keep the welcome_dr message or remove it and make it the same for all users?\r\n> \r\n> PS: Please do let me know when you want to implement the banner 😅. I'd like to work on it\r\n\r\nJust remove the banner 👍 "
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-03-08T09:54:50.000Z",
-      "title": "ohcnetwork/care_fe#11066",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11066#pullrequestreview-2669069552",
-      "text": "Redesigned the dashboard for the user organisation page"
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11190",
       "time": "2025-03-10T13:56:41.000Z",
@@ -49,13 +182,6 @@
       "title": "ohcnetwork/care_fe#10680",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10680#pullrequestreview-2663619486",
       "text": "Adds support for drawing 🎨 by integrating excalidraw"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-08T09:28:03.000Z",
-      "title": "ohcnetwork/care_fe#11044",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11044#pullrequestreview-2669068572",
-      "text": "Fixes Issue #11009:  Changes in the code to disable adding exceptions before date"
     },
     {
       "type": "pr_reviewed",
@@ -127,20 +253,6 @@
       "title": "ohcnetwork/care_fe#11129",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11129#pullrequestreview-2669986111",
       "text": "FIX:  Close Button and Title Not Visible in Edit Avatar & Edit Cover Photo Dialogs on Mobile"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-10T05:33:49.000Z",
-      "title": "ohcnetwork/care_fe#10872",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10872#pullrequestreview-2669823816",
-      "text": "Add support for adding and removing managing organization for a device"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-06T02:19:06.000Z",
-      "title": "ohcnetwork/care_fe#10992",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10992#pullrequestreview-2663060624",
-      "text": "fix:alignment issue for view details button in encounter list"
     },
     {
       "type": "comment_created",
@@ -306,13 +418,6 @@
       "title": "ohcnetwork/care_fe#10968",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10968#pullrequestreview-2656793019",
       "text": "Fix : Questionnaire Navigation main section not working"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-02-27T08:57:29.000Z",
-      "title": "ohcnetwork/care_fe#10838",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10838#pullrequestreview-2647063368",
-      "text": "Added Validations to Valueset form Name and Slug fields along with translations for error messages."
     },
     {
       "type": "comment_created",
@@ -705,13 +810,6 @@
       "time": "2025-03-06T06:45:58.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/11060",
       "text": "Implement Clear Button to Reset Contact Fields"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-06T06:41:48.000Z",
-      "title": "ohcnetwork/care_fe#10934",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10934#pullrequestreview-2663446497",
-      "text": "feature: Added services history section in device details page (10828)"
     },
     {
       "type": "pr_reviewed",
@@ -9261,18 +9359,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11216",
-      "title": "Layout Fixes for Smaller Devices",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10526",
       "title": "Perms based Rendering",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "tested",
@@ -9283,7 +9372,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2767",
       "title": "Alt phone number and qualificationspec",
-      "stale_for": 45,
+      "stale_for": 46,
       "labels": []
     }
   ],
