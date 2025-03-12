@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-10T17:04:56.000Z",
+  "last_updated": "2025-03-11T14:15:11.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11190",
+      "time": "2025-03-11T14:15:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11190#issuecomment-2714466991",
+      "text": "> > I guess i am unable to understand the issue here. @rithviknishad i also implemented the same at first. But acting upon the suggestion of @Jacobjeevan that we should rather have SearchByMultipleFields , for consistency across the pages, made a commit [f7413f4](https://github.com/ohcnetwork/care_fe/commit/f7413f4734eb3c7bf3c75866411954ee0bddefd9) which is why i moved forward with that. What do both of you suggest ? I do not want @nihal467 to close this PR as well 😕\r\n> \r\n> Try to understand how the code works\r\n> \r\n> (1) [#10797 (comment)](https://github.com/ohcnetwork/care_fe/pull/10797#discussion_r1978575429)\r\n> \r\n> In this case, the handleSearch isn't necessary, you can just use updateQuery instead.\r\n> \r\n> (2) [#10797 (comment)](https://github.com/ohcnetwork/care_fe/pull/10797#discussion_r1978575988)\r\n> \r\n> handleFieldChange isn't necessary since there's only one field anyways.\r\n\r\nUnderstood...\r\nKindly check the latest commit."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11190",
@@ -2337,7 +2344,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10963",
       "title": "Fix: Distinguish Active and Ended Medicines",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "invalid",
         "question",
@@ -2348,7 +2355,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10883",
       "title": "Fixes: Removing remove Button for Structured Edit Page",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "question",
         "changes required",

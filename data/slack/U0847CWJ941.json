@@ -654,5 +654,124 @@
                 }
             ]
         }
+    ],
+    "2025-03-11 00:00:00": [
+        {
+            "user": "U0847CWJ941",
+            "type": "message",
+            "ts": "1741725085.308919",
+            "edited": {
+                "user": "U0847CWJ941",
+                "ts": "1741725104.000000"
+            },
+            "client_msg_id": "def9cdb8-c2d9-4bee-b05f-8e2aaf37f7d7",
+            "text": "10,11 March\n\u2022 Fixed validateDOMNesting(...) error by replacing <p> with <div> and converting HtmlparagraphElement to HtmlDivElement.\n\u2022 Used React.forwardRef() for ForwardedSelect instead of Select to handle refs properly.\n\u2022 Converted controlled inputs to uncontrolled by setting default values in PatientRegistration.tsx.\n\u2022 Got Assigned to two issues one related to loading in mobile view and other is add a scrollbar to facility features.\n\u2022 Solved the loading issue by adding the scolling logic to AppRouter.tsx and raised the pr.\nPlanned:\n\u2022 Add scrollbar to facility features dropdown.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "UmzM5",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "10,11 March\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed validateDOMNesting(...) error by replacing <p> with <div> and converting HtmlparagraphElement to HtmlDivElement."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Used React.forwardRef() for ForwardedSelect instead of Select to handle refs properly."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Converted controlled inputs to uncontrolled by setting default values in PatientRegistration.tsx."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Got Assigned to two issues one related to loading in mobile view and other is add a scrollbar to facility features."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Solved the loading issue by adding the scolling logic to AppRouter.tsx and raised the pr."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\nPlanned:\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Add scrollbar to facility features dropdown."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U02TDGQQPMJ"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }

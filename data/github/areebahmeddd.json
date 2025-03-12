@@ -1,6 +1,14 @@
 {
-  "last_updated": "2025-03-11T00:25:06.000Z",
+  "last_updated": "2025-03-11T14:21:46.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_sbom#10",
+      "time": "2025-03-11T14:21:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_sbom/pull/10",
+      "text": "chore: remove cron job for now",
+      "turnaround_time": 440793
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11201",
@@ -708,6 +716,44 @@
       "text": "Add validation to disallow numeric values in patient names"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11241",
+      "title": "fix(ci): update Node.js version in Cypress workflow",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11058",
+      "title": "feat: Improve issue automation using GitHub Apps instead of PAT",
+      "stale_for": 0,
+      "labels": [
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/infra_template/pull/4",
+      "title": "fix: update kubernetes configurations for care infrastructure",
+      "stale_for": 3,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_sbom/issues/9",
+      "pr_link": "https://github.com/ohcnetwork/care_sbom/pull/10"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10836",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10939"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_sbom/issues/6",
+      "pr_link": "https://github.com/ohcnetwork/care_sbom/pull/7"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10461",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10577"
+    }
+  ]
 }

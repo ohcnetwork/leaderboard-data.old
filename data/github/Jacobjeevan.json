@@ -1,6 +1,133 @@
 {
-  "last_updated": "2025-03-11T09:12:35.000Z",
+  "last_updated": "2025-03-11T13:50:50.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-08T20:24:41.000Z",
+      "title": "ohcnetwork/care_fe#10928",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10928#pullrequestreview-2669258645",
+      "text": "Questionnaire preview redesign"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-11T12:29:32.000Z",
+      "title": "ohcnetwork/care_fe#11225",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11225#pullrequestreview-2674274305",
+      "text": "Staging Release"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-11T12:28:19.000Z",
+      "title": "ohcnetwork/care_fe#11224",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11224#pullrequestreview-2674270943",
+      "text": "Add datetime to Appointment Cards in Appointments Page"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11019",
+      "time": "2025-03-11T12:14:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11019",
+      "text": "Reduce Bundle Size by Removing Redundant Date Libraries"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11059",
+      "time": "2025-03-11T12:14:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11059#issuecomment-2713957763",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/11019#issuecomment-2713957480"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11019",
+      "time": "2025-03-11T12:14:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11019#issuecomment-2713957480",
+      "text": "Closing the issue for now since this will take time to test - limited bandwidth at the moment, and this isn't a priority."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-07T22:03:25.000Z",
+      "title": "ohcnetwork/care_fe#11124",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11124#pullrequestreview-2668478733",
+      "text": "Add Breadcrumbs for Organization View in Organization Layout"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-11T11:04:21.000Z",
+      "title": "ohcnetwork/care_fe#11221",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11221#pullrequestreview-2673957600",
+      "text": "Adds support for serching practicioners and refactor practicioner selector to be reusable component"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11216",
+      "time": "2025-03-11T10:52:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11216",
+      "text": "Layout Fixes for Smaller Devices",
+      "turnaround_time": 7629
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-11T10:46:34.000Z",
+      "title": "ohcnetwork/care_fe#11094",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11094#pullrequestreview-2673885660",
+      "text": "Fixed name overflow in user card"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11094",
+      "time": "2025-03-11T10:38:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11094#issuecomment-2713615261",
+      "text": "> @AdityaJ2305 yeah sure. Once changes in this PR get approved, I will do it for other user cards 👍🏻\r\n\r\nNo, there's already another PR for it 👍  So let's not worry about that."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-11T10:26:10.000Z",
+      "title": "ohcnetwork/care_fe#11141",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11141#pullrequestreview-2673803595",
+      "text": "Treatment and Discharge Summary for Completed Encounters"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11121",
+      "time": "2025-03-11T10:11:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11121",
+      "text": "Markdown Parsing Error & Error Boundary Failure During Rendering"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-07T21:54:12.000Z",
+      "title": "ohcnetwork/care_fe#11125",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11125#pullrequestreview-2668463137",
+      "text": "Fix: Ensure unique keys for comments in ResourceCommentSection"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11190",
+      "time": "2025-03-11T10:08:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11190#issuecomment-2713483045",
+      "text": "> I guess i am unable to understand the issue here. @rithviknishad i also implemented the same at first. But acting upon the suggestion of @Jacobjeevan that we should rather have SearchByMultipleFields , for consistency across the pages, made a commit [f7413f4](https://github.com/ohcnetwork/care_fe/commit/f7413f4734eb3c7bf3c75866411954ee0bddefd9) which is why i moved forward with that. What do both of you suggest ? I do not want @nihal467 to close this PR as well 😕\r\n\r\nTry to understand how the code works\r\n\r\n(1) https://github.com/ohcnetwork/care_fe/pull/10797#discussion_r1978575429\r\n\r\nIn this case, the handleSearch isn't necessary, you can just use updateQuery instead.\r\n\r\n(2) handleFieldChange isn't necessary since there's only one field anyways."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11200",
+      "time": "2025-03-11T09:56:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11200#issuecomment-2713437667",
+      "text": "Adjust for smaller devices as well\r\n\r\n<img width=\"646\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6001a6d9-2a31-49fe-bacd-7a01945ffeab\" />\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-11T09:53:43.000Z",
+      "title": "ohcnetwork/care_fe#11200",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11200#pullrequestreview-2673695326",
+      "text": "Redesigned Select/Register Patient Table for Better Mobile Usability and Visibility"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11219",
+      "time": "2025-03-11T09:46:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11219",
+      "text": "Overlapping buttons for facility cards on medium-sized screens/tablets"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-03-11T09:12:35.000Z",
@@ -427,13 +554,6 @@
       "text": "> @Jacobjeevan, the changes are done. Regarding the accordion, I’ve specifically added the ShadCN accordion for this form. If users don’t want to customize the names, the form stays clean and uncluttered. I personally feel it’s a great way to keep things organized—users can expand it only if they need to customize, otherwise, they can move to the next input field.\r\n\r\nI see where you are going with that, but let's not do. It's redundant because of the checkbox."
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-03-08T20:24:41.000Z",
-      "title": "ohcnetwork/care_fe#10928",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10928#pullrequestreview-2669258645",
-      "text": "Questionnaire preview redesign"
-    },
-    {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#10807",
       "time": "2025-03-08T20:19:18.000Z",
@@ -506,20 +626,6 @@
       "time": "2025-03-08T18:13:05.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10963#issuecomment-2708426049",
       "text": "@Sulochan-khadka Any updates?"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-07T22:03:25.000Z",
-      "title": "ohcnetwork/care_fe#11124",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11124#pullrequestreview-2668478733",
-      "text": "Add Breadcrumbs for Organization View in Organization Layout"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-07T21:54:12.000Z",
-      "title": "ohcnetwork/care_fe#11125",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11125#pullrequestreview-2668463137",
-      "text": "Fix: Ensure unique keys for comments in ResourceCommentSection"
     },
     {
       "type": "pr_reviewed",
@@ -9358,6 +9464,14 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11240",
+      "title": "Appointments Count and Navigation in Availability Page Calendar",
+      "stale_for": 0,
+      "labels": [
+        "waiting for backend"
+      ]
+    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10526",
       "title": "Perms based Rendering",

@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-03-10T18:00:50.000Z",
+  "last_updated": "2025-03-11T14:35:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11086",
+      "time": "2025-03-11T14:35:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11086#issuecomment-2714559293",
+      "text": "@nihal467  , Can I work on it , \nEta : few hours "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-07T18:01:55.000Z",
+      "title": "ohcnetwork/care_fe#10871",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10871#pullrequestreview-2667967511",
+      "text": "Fix encounter overview tables to display more than 14 items"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11168",
+      "time": "2025-03-11T12:33:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11168#issuecomment-2714009013",
+      "text": "\"not_taken\",\r\n  \"intended\",\r\n  \"stopped\"\r\n  \r\n  can we add this and use for medication statement with same prefix , rest status types are same "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11126",
+      "time": "2025-03-11T12:18:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11126#issuecomment-2713968425",
+      "text": "What should be done here ?\r\nLike directly use like input` type date `?\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10987",
+      "time": "2025-03-11T12:16:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10987#issuecomment-2713961376",
+      "text": "> @AdityaJ2305 Date field looks very weird ![image](https://private-user-images.githubusercontent.com/37619282/420882193-ab48038c-9f05-421f-823f-3cef57c9b8c7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE2OTU1MzAsIm5iZiI6MTc0MTY5NTIzMCwicGF0aCI6Ii8zNzYxOTI4Mi80MjA4ODIxOTMtYWI0ODAzOGMtOWYwNS00MjFmLTgyM2YtM2NlZjU3YzliOGM3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzExVDEyMTM1MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRlZTE0OWZiZDQyZjEyNmQ0YTAwOWQ0YjMxNjIzNjQwYTg0Njc5NDk0MThhNzA3YmY1MDBhMzU1YWQyMTM4OGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.h9hJk2uUw_BOKZwuHsHiYw8O_7nHAKL0SXduXNGPp6Q)\r\n\r\n@amjithtitus09 , that's the shadcn input we are using , what changes do I need to do to make it look good . If u are referring to calendar icon , as when field is disabled input doesn't enable calendar icon "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11199",
@@ -171,13 +206,6 @@
       "time": "2025-03-08T09:38:57.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/11135#issuecomment-2708167133",
       "text": "Duplicate of https://github.com/ohcnetwork/care_fe/issues/10887"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-07T18:01:55.000Z",
-      "title": "ohcnetwork/care_fe#10871",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10871#pullrequestreview-2667967511",
-      "text": "Fix encounter overview tables to display more than 14 items"
     },
     {
       "type": "comment_created",
@@ -5363,7 +5391,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11168",
       "title": "Fix: Edit Facility Button Size and tfunction for status",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "question",
         "changes required",
@@ -5373,13 +5401,15 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11141",
       "title": "Treatment and Discharge Summary for Completed Encounters",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11068",
       "title": "Cypress test for resources",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
@@ -5387,13 +5417,15 @@
       "title": "Fix: Minor UI Enhancement in questionnaire",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "question",
+        "changes required",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10927",
       "title": "Fix: Search is not working in facility departmental section",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "question",
         "changes required",
