@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-11T14:21:46.000Z",
+  "last_updated": "2025-03-12T00:04:38.000Z",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11242",
+      "time": "2025-03-12T00:04:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11242",
+      "text": "Fix invalid Node.js version in cypress workflow"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11241",
+      "time": "2025-03-12T00:00:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11241",
+      "text": "fix(ci): update Node.js version in Cypress workflow"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_sbom#10",
@@ -716,6 +730,42 @@
       "text": "Add validation to disallow numeric values in patient names"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11058",
+      "title": "feat: Improve issue automation using GitHub Apps instead of PAT",
+      "stale_for": 1,
+      "labels": [
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/infra_template/pull/4",
+      "title": "fix: update kubernetes configurations for care infrastructure",
+      "stale_for": 4,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11242",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11241"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_sbom/issues/9",
+      "pr_link": "https://github.com/ohcnetwork/care_sbom/pull/10"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10836",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10939"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_sbom/issues/6",
+      "pr_link": "https://github.com/ohcnetwork/care_sbom/pull/7"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10461",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10577"
+    }
+  ]
 }

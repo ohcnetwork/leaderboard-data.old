@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-03-08T13:52:54.000Z",
+  "last_updated": "2025-03-11T22:30:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/10bedicu#94",
+      "time": "2025-03-11T22:30:08.000Z",
+      "link": "https://github.com/ohcnetwork/10bedicu/pull/94#issuecomment-2715846294",
+      "text": "@shivankacker Please review the changes once and let me know if any changes are needed"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/10bedicu#94",
+      "time": "2025-03-11T22:29:14.000Z",
+      "link": "https://github.com/ohcnetwork/10bedicu/pull/94",
+      "text": "Documentation & Configuration Updates"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/10bedicu#91",
+      "time": "2025-03-11T22:23:33.000Z",
+      "link": "https://github.com/ohcnetwork/10bedicu/issues/91",
+      "text": "Upgrade Next.js and React Dependencies to Latest Versions"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/10bedicu#91",
+      "time": "2025-03-11T22:23:34.000Z",
+      "link": "https://github.com/ohcnetwork/10bedicu/issues/91#issuecomment-2715836924",
+      "text": "Upgrading ReactJS `(17.0.2 → 18.x)` and Next.js `(12.2 → 14.1.0)` is causing breaking changes due to dependency incompatibilities.\n\n- `google-map-react@2.1.10` does not support React 18, leading to peer dependency conflicts affecting `components/Map.js`\n- The Next.js upgrade introduces changes in routing and server components, requiring modifications in `pages/_app.js`, `pages/index.js`, and `next.config.js`\n- Updating Tailwind CSS `(2.2.4 → 3.4.1)` requires refactoring `tailwind.config.js` due to the removal of JIT mode and the renaming of `purge` to `content`\n\nGiven these issues, I am closing this upgrade attempt and retaining the current versions to ensure stability, with future upgrades requiring separate refactoring efforts."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11059",
@@ -312,6 +340,13 @@
       "text": "@shivankacker I can solve this! Could you please assign me this issue?"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/10bedicu/pull/94",
+      "title": "Documentation & Configuration Updates",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }
