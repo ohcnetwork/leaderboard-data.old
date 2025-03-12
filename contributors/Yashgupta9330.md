@@ -3,7 +3,7 @@ name: YASH GUPTA
 title: Contributor
 github: Yashgupta9330
 twitter: ""
-linkedin: ""
+linkedin: yash-gupta-64956b246
 slack: ""
 joining_date: ""
 role : contributor
