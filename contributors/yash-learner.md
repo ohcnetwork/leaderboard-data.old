@@ -6,7 +6,7 @@ twitter: ""
 linkedin: "yaswanth17"
 slack: "U0576PEACG0"
 joining_date: "06/11/2024"
-role : contributor
+role : core
 ---
 
 Hello 👋
