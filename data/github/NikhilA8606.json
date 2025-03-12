@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-11T11:03:12.000Z",
+  "last_updated": "2025-03-11T17:14:13.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11231",
+      "time": "2025-03-11T17:14:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11231",
+      "text": "Disabled exception creation for non schedulable users"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11222",
@@ -599,14 +606,17 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/11231",
       "title": "Disabled exception creation for non schedulable users",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "changes required"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10900",
       "title": "Replaced headlessui popover with shadcn popover in UpdatableApp; Uninstall headlessui",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     }
   ],

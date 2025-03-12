@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-11T14:39:41.000Z",
+  "last_updated": "2025-03-11T16:46:20.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-10T08:33:43.000Z",
+      "title": "ohcnetwork/care_fe#11175",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11175#pullrequestreview-2670141011",
+      "text": "UI changes for Questionnaire cards"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11175",
+      "time": "2025-03-11T14:51:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11175#issuecomment-2714630333",
+      "text": "> > @abeeto Truncate might not be a good option. Reduce the font size though, this big isn't needed.\r\n> > ![image](https://private-user-images.githubusercontent.com/37619282/420890524-87ad450f-1bb8-41b0-8797-7a818582ec8a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE3MDQ1MzQsIm5iZiI6MTc0MTcwNDIzNCwicGF0aCI6Ii8zNzYxOTI4Mi80MjA4OTA1MjQtODdhZDQ1MGYtMWJiOC00MWIwLTg3OTctN2E4MTg1ODJlYzhhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzExVDE0NDM1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEyMDliOGI2Yzg2OTU5ZmM4MzQzYjhjOGVjZjQwNDAxYTE2ZGYwM2ViMGM0ZmI5NDc3YjQwMzgwMmJkZWUzYjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Jp3vwkqqJWyMtCP1C0kT-tzDUXq1ZxNC_wiQFG45YvA)\r\n> \r\n> I can revert the commit if you'd like, but there is already a tooltip on the title so if we hover over the title for 1-2 secs, the full title should show.\r\n> \r\n> Will reduce the font size. @amjithtitus09 please let me know how to proceed :)\r\n\r\n@abeeto There's no hover on mobile screen right? Size looks better, just revert the truncate."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10987",
@@ -126,13 +140,6 @@
       "time": "2025-03-10T09:30:57.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11087#issuecomment-2709943243",
       "text": "@AdityaJ2305 View all button seems redundant with the full view that's being added in https://github.com/ohcnetwork/care_fe/pull/10871 which fixes https://github.com/ohcnetwork/care_fe/issues/10869. It would be better to directly wire the Full view popover to the current \"View all\" button. Closing this as it can be done in the other larger PR and to avoid conflicts. "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-10T08:33:43.000Z",
-      "title": "ohcnetwork/care_fe#11175",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11175#pullrequestreview-2670141011",
-      "text": "UI changes for Questionnaire cards"
     },
     {
       "type": "comment_created",
