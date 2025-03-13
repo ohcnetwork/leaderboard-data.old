@@ -1,6 +1,90 @@
 {
-  "last_updated": "2025-03-12T16:19:19.000Z",
+  "last_updated": "2025-03-13T08:04:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10526",
+      "time": "2025-03-13T08:04:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10526#issuecomment-2720302116",
+      "text": "> Conditionally approving this due to its priority nature.\r\n> \r\n> @Jacobjeevan\r\n> \r\n>     1. Open up additional follow-up issues for necessary changes required based on the above comments (Since they are product calls)\r\n> \r\n>     2. Revert the frontend changes that allowed Admin and Facility Admin users to access the Create Questionnaire page, as they are not permitted to create questionnaires.\r\n> \r\n>     3. Clear the merge conflict and as well as look into vignesh comments\r\n> \r\n> \r\n\r\n1. Yeah, permissions of departments, locations, devices and questionnaire editor are still to be added (to do in the next phase)\r\n2. That is done.\r\n\r\nAdditional changes made since last comment:\r\n\r\n- Update Button:\r\n\r\nShow update button with treatment/discharge summary for inactive encounters.\r\n\r\n- Encounter Quick Actions:\r\n\r\nEarlier quick actions tab was entirely hidden for inactive encounters, instead show it and only show treatment/discharge summary buttons\r\n\r\nInactive encounters are encounters of status: cancelled, entered_in_error, discontinued, completed and discharged.\r\n\r\n<img width=\"323\" alt=\"image\" src=\"https://github.com/user-attachments/assets/76178350-4dd6-4815-b932-cc1b7ca29bf5\" />\r\n\r\n- Ensured edit buttons for allergies, symptoms and diagnosis are disabled for inactive encounters\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11268",
+      "time": "2025-03-13T06:06:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11268#issuecomment-2720079203",
+      "text": "> [@rithviknishad](https://github.com/rithviknishad) [@Jacobjeevan](https://github.com/Jacobjeevan) if it is valid, i would like to work on it ETA: 14 March\n\nLet someone else take this, this is a small issue 👍 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-11T09:53:43.000Z",
+      "title": "ohcnetwork/care_fe#11200",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11200#pullrequestreview-2673695326",
+      "text": "Redesigned Select/Register Patient Table for Better Mobile Usability and Visibility"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-08T09:54:50.000Z",
+      "title": "ohcnetwork/care_fe#11066",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11066#pullrequestreview-2669069552",
+      "text": "Redesigned the dashboard for the user organisation page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-13T04:21:32.000Z",
+      "title": "ohcnetwork/care_fe#11175",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11175#pullrequestreview-2680501759",
+      "text": "UI changes for Questionnaire cards"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11018",
+      "time": "2025-03-13T04:17:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11018#issuecomment-2719866671",
+      "text": "Adjust for mobile as well, doesn't look too nice on patient details page.\r\n\r\n<img width=\"417\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c4bb4f2b-7d8d-465e-9e4a-12eadb6c9ad3\" />\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10735",
+      "time": "2025-03-13T04:09:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10735#issuecomment-2719834930",
+      "text": "@Harsh-D-2004 What's the status here? Double check earlier feedback as well, and mark as resolved if they are good to go."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10928",
+      "time": "2025-03-13T04:06:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10928#issuecomment-2719823041",
+      "text": "Marking this as draft for tracking purposes; Anyways, mark it as ready when done 👍 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-13T04:04:27.000Z",
+      "title": "ohcnetwork/care_fe#11168",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11168#pullrequestreview-2680449517",
+      "text": "Modified styling for edit facility button and added translations for medication status"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10736",
+      "time": "2025-03-13T04:00:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10736#issuecomment-2719800842",
+      "text": "> > ![image](https://private-user-images.githubusercontent.com/57055998/421348440-97ea7edf-67f6-490d-bad6-2925f1a9861c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE2OTkwNjMsIm5iZiI6MTc0MTY5ODc2MywicGF0aCI6Ii81NzA1NTk5OC80MjEzNDg0NDAtOTdlYTdlZGYtNjdmNi00OTBkLWJhZDYtMjkyNWYxYTk4NjFjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzExVDEzMTI0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM3OTM2ZDg4YzEzMzQ4NDAwY2ZlM2NmN2Q2OWFjZTI0ODZhZGYxMDU4NDA1ZjUxZjhhMmYxNDQ1OTdlNWJjNTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.zpI4rQaRUYMzJTHYuqwPzLkG3-YsHNbmotMO6IgMN3A)\r\n> > \r\n> > * [ ]   now the element is always focus on the search bar, the shift + P shortcut is not at all working, how are you planning to handle that issue caused by this PR ?\r\n> \r\n> @nihal467 SHIFT + P works when search bar gets unfocused by clicking outside.\r\n> \r\n> If it is a requirement to get SHIFT+P work even on focus , then i will proceed to update this PR with that\r\n> \r\n> Can you plz confirm it ??\r\n\r\nSince we are auto-focusing on the input, shortcut should work regardless, yes."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-06T01:39:58.000Z",
+      "title": "ohcnetwork/care_fe#10927",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10927#pullrequestreview-2662877703",
+      "text": "Fix: Search is not working in facility departmental section"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11264",
+      "time": "2025-03-13T00:30:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11264",
+      "text": "Cannot able to add multiple orgs together"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-03-12T16:19:19.000Z",
@@ -157,13 +241,6 @@
       "text": "Adjust for smaller devices as well\r\n\r\n<img width=\"646\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6001a6d9-2a31-49fe-bacd-7a01945ffeab\" />\r\n"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-03-11T09:53:43.000Z",
-      "title": "ohcnetwork/care_fe#11200",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11200#pullrequestreview-2673695326",
-      "text": "Redesigned Select/Register Patient Table for Better Mobile Usability and Visibility"
-    },
-    {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#11219",
       "time": "2025-03-11T09:46:56.000Z",
@@ -204,13 +281,6 @@
       "title": "ohcnetwork/care_fe#11044",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11044#pullrequestreview-2669068572",
       "text": "Fixes Issue #11009:  Changes in the code to disable adding exceptions before date"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-08T09:54:50.000Z",
-      "title": "ohcnetwork/care_fe#11066",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11066#pullrequestreview-2669069552",
-      "text": "Redesigned the dashboard for the user organisation page"
     },
     {
       "type": "pr_opened",
@@ -566,13 +636,6 @@
       "time": "2025-03-09T07:25:10.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/11156",
       "text": "Enhancing Frontend Components and Utilities"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-06T01:39:58.000Z",
-      "title": "ohcnetwork/care_fe#10927",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10927#pullrequestreview-2662877703",
-      "text": "Fix: Search is not working in facility departmental section"
     },
     {
       "type": "pr_reviewed",
@@ -9525,9 +9588,7 @@
       "title": "Perms based Rendering",
       "stale_for": 0,
       "labels": [
-        "needs review",
-        "P1",
-        "merge conflict"
+        "P1"
       ]
     },
     {

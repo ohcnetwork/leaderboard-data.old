@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-09T06:13:04.000Z",
+  "last_updated": "2025-03-13T07:09:59.000Z",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11270",
+      "time": "2025-03-13T07:09:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11270",
+      "text": "Add pagination to query parameters for better navigation"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10881",
+      "time": "2025-03-13T06:22:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10881#issuecomment-2720104947",
+      "text": "so @rithviknishad Should I reopen the old issue or create a new one for adding pagination to query parameters?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10881",
+      "time": "2025-03-13T05:35:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10881#issuecomment-2720038273",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/418840289-cbcdbc05-7e76-4a4f-a541-1921b8a221e4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE4NDM5NTgsIm5iZiI6MTc0MTg0MzY1OCwicGF0aCI6Ii81NzA1NTk5OC80MTg4NDAyODktY2JjZGJjMDUtN2U3Ni00YTRmLWE1NDEtMTkyMWI4YTIyMWU0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzEzVDA1MjczOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZkMjVlYWM3OWEwNjQ0ZTExYjRjNjIyOWZjYTYzMWYwYmMzZmQ2ZWVkMTQ0M2YwZmQ1MGI4NWFhMmNiNjU0ZjkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.78NqvYjpMQ3NgrOSy2zrjSE6qsHFjlV3CBrUO5942a4)\r\n> \r\n> * [ ]  Add pagination to the query parameters so that when a user clicks the back button, the pagination is preserved.\r\n\r\n@rithviknishad  The changes mentioned by @nihal467  regarding adding pagination to the query parameters (so pagination is preserved when using the back button) haven't been implemented yet. Should I create a new issue for this?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10881",
@@ -114,17 +135,6 @@
       "text": "Country Dropdown Search Not Filtering Correctly in Patient Form"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10881",
-      "title": "fix(pagination): auto-reset page on organization change",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review",
-        "merge conflict"
-      ]
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }

@@ -1,0 +1,14 @@
+{
+  "last_updated": "2025-03-13T06:41:33.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11268",
+      "time": "2025-03-13T06:41:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11268#issuecomment-2720135363",
+      "text": "@Jacobjeevan  I suspect this issue is related to Tailwind. The component works fine on smaller screen widths but breaks when the width increases, especially at md, lg, or xl breakpoints.\n\n**Proposed Solution:**\nI'll investigate and fix the issue by:\nChecking if any w-full, max-w-*, or container classes are affecting responsiveness.\nEnsuring md:flex, lg:grid, or other responsive utilities are correctly applied.\nDebugging overflow-hidden, min-w-0, flex-wrap, and gap-* to prevent layout shifts.\n\n**ETA:** 14 March"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}
