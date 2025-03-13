@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-13T06:46:53.000Z",
+  "last_updated": "2025-03-13T09:36:46.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11211",
+      "time": "2025-03-13T09:36:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11211#issuecomment-2720591354",
+      "text": "@nihal467  @rithviknishad  I want to work on this can you assign it to me? \nMy proposed solution:\nIf the dropdown list is empty, display a \"+\" icon within the dropdown.\nWhen the \"+\" icon is clicked, trigger the createTag function to allow users to add a new tag dynamically.\nAfter the new tag is successfully created, update the dropdown with the newly added tag in real-time, without requiring a page refresh.  \n\nETA  Tomorrow"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11211",
@@ -216,7 +223,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10934",
       "title": "feature: Added services history section in device details page (10828)",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "changes required"
       ]
