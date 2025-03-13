@@ -767,9 +767,100 @@
                 {
                     "name": "rocket",
                     "users": [
-                        "U02TDGQQPMJ"
+                        "U02TDGQQPMJ",
+                        "U0576PEACG0"
                     ],
-                    "count": 1
+                    "count": 2
+                }
+            ]
+        }
+    ],
+    "2025-03-12 00:00:00": [
+        {
+            "user": "U0847CWJ941",
+            "type": "message",
+            "ts": "1741804227.842489",
+            "client_msg_id": "f10286a7-7ef8-4987-9400-32bce3dc54f2",
+            "text": "March 12\n\nDone:\n\u2022 Got assigned to issue related to loading of page in Mobilr View. Solved it by using by adding a logic to load in App router and raised the PR.\n\u2022 Solved another issue realted to scrolling problem in the facility dropdown in add facility form and raised the PR. \n\u2022 Fixed uncontroll to controll errors in facility by adding ddfault values and now i need to solve the same isssue in add device form.\nPlanned:\n\u2022 Solve the errors in add device and give the PR for reviewing.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "UnYDf",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "March 12\n\nDone:\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Got assigned to issue related to loading of page in Mobilr View. Solved it by using by adding a logic to load in App router and raised the PR."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Solved another issue realted to scrolling problem in the facility dropdown in add facility form and raised the PR. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fixed uncontroll to controll errors in facility by adding ddfault values and now i need to solve the same isssue in add device form."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\nPlanned:\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Solve the errors in add device and give the PR for reviewing."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        }
+                    ]
                 }
             ]
         }

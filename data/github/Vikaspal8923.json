@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-11T05:47:35.000Z",
+  "last_updated": "2025-03-12T20:44:52.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11266",
+      "time": "2025-03-12T20:44:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11266#issuecomment-2719084518",
+      "text": "@Jacobjeevan  @rithviknishad  Sir, when navigating to the appointment tab of a patient through an organization, we do not have the facility id, which prevents us from viewing the appointment details when clicking on \"View\" in the appointment list. currently, fetching appointment details requires both the facility id and the appointment id. However, since we access the patient through an organization, the facility id is missing.\n\nTo resolve this, we have two possible approaches:\n\n1. Backend Modification: Update the backend to allow fetching appointment details using either the facility id or the organization id. although it is not a good approach.\n2. Frontend Adjustment: When clicking on a patient card to navigate to the Patient Details page, we can redirect to the following URL format: /facility/{facility_id}/patient/{patient_id} instead of: /patient/{patient_id}  . but this also need one backend modification that when we  send data  of patients in  while patients tab we also have to include facility id  so that we add that facility id in the route .  i think second approach will be better  form first   as it  need less change in backend .\n3. If modifying the backend or frontend is not feasible, we can disable the \"View\" button when accessing the appointment tab through the organization route  to preventing users from attempting to fetch appointment details without a facility id.\n\n if this is valid issue then i want to work on this issue . although only these approch come in my mind  currently  .but if there is other approch please let me know ."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11266",
+      "time": "2025-03-12T19:55:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11266",
+      "text": "Error Page When Viewing Appointment details of a patient via Organization ."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11205",
@@ -353,8 +367,8 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11205",
-      "title": "fixed department  description overflow properly",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11149",
+      "title": "add callout when both valid from and valid till  dates are past date …",
       "stale_for": 0,
       "labels": [
         "needs testing",
@@ -362,29 +376,20 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11149",
-      "title": "add callout when both valid from and valid till  dates are past date …",
-      "stale_for": 0,
-      "labels": [
-        "changes required"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/93",
-      "title": "add my data",
-      "stale_for": 5,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10992",
       "title": "fix:alignment issue for view details button in encounter list",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11167",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11205"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10993",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10997"

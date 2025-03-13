@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-03-11T20:33:21.000Z",
+  "last_updated": "2025-03-12T18:37:56.000Z",
   "activity": [
     {
       "type": "pr_reviewed",
@@ -7,6 +7,13 @@
       "title": "ohcnetwork/care_fe#10972",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10972#pullrequestreview-2669509661",
       "text": "Add Two-Factor Authentication (2FA) Support"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2911",
+      "time": "2025-03-12T17:48:06.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2911#issuecomment-2718660556",
+      "text": "> [@yash-learner](https://github.com/yash-learner) Hi, could you please say is this a feasible solution? Could I work on it with you if possible?\n> \n> * Give superadmins an API endpoint to toggle global_mfa_enforced.(field added to configuration settings or environment variables)\n> * Give facility admins an API endpoint to toggle mfa_enforced(added as boolean to Facility model) for their respective facilities.\n> * When logging in, check the status of MFA enforcement (both global and facility level).\n> * If MFA is enforced and not configured, redirect the user to the MFA setup page.\n> \n> Add appropriate UI changes ETA: 2 days\n\n@ByteKnight-SRM \n\n\n> could you please say is this a feasible solution?\n\nYou just re-wrote the sentences of what I had written in issue description 😅\n\n> Could I work on it with you if possible?\n\nI don't think this issue is large enough to collaborate, maybe you can work on the FE issue when we file it. "
     },
     {
       "type": "comment_created",

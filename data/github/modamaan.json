@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-10T19:29:01.000Z",
+  "last_updated": "2025-03-12T16:58:34.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11259",
+      "time": "2025-03-12T16:58:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11259#issuecomment-2718535729",
+      "text": "@deepANghan \n[Click here to reproduce](https://care.ohc.network/facility/490a6d07-1baf-47f3-9f0f-18be27284fcb/patient/0a337f3c-d4c0-47c1-85d3-86cc24d16f9a/encounter/23551bba-7daa-432a-8cf5-dfd3c67492f1/claims)"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11200",
@@ -1884,21 +1891,18 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11200",
       "title": "Redesigned Select/Register Patient Table for Better Mobile Usability and Visibility",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11148",
-      "title": "FIXED: Nav Redirection from discharge summary file upload page is not working",
       "stale_for": 1,
-      "labels": []
+      "labels": [
+        "changes required"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11129",
       "title": "FIX:  Close Button and Title Not Visible in Edit Avatar & Edit Cover Photo Dialogs on Mobile",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing",
+        "reviewed"
       ]
     },
     {
@@ -1906,8 +1910,7 @@
       "title": "Enhance Expired On Label Styling on Encounter and Patient details Page for Better Visibility",
       "stale_for": 0,
       "labels": [
-        "changes required",
-        "merge conflict"
+        "changes required"
       ]
     }
   ],

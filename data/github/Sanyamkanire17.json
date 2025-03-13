@@ -1,0 +1,14 @@
+{
+  "last_updated": "2025-03-12T17:15:50.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11181",
+      "time": "2025-03-12T17:15:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11181#issuecomment-2718581916",
+      "text": "*\"Hi, I'm Sanyam A. Kanire, a Front-End Developer skilled in React, JavaScript, HTML, CSS, and UI/UX optimization. I’d love to contribute to enhancing this feature by improving navigation efficiency and user experience.\n\nUnique Proposed Solution:\nDynamic Hover & Quick Preview: Instead of only making appointments clickable, implement a hover-triggered quick preview that displays essential facility details (name, location, map preview) without leaving the page. This improves user experience by reducing unnecessary navigation.\nOptimized Navigation: If a user decides to proceed, clicking an appointment will dynamically load the full facility details page with preloaded data using React Suspense and Lazy Loading, ensuring fast transitions.\nSmart Navigation Memory: Implement localStorage/sessionStorage caching to remember the last visited facility details. If a user returns to the appointment list, it highlights their last selection, reducing redundant searches.\nAdaptive UI with Tailwind CSS: Ensure the design remains intuitive and responsive, adapting based on user behavior (e.g., touch vs. hover interactions for mobile vs. desktop).\nAlternative \"View Facility\" Button: For users who prefer a manual option, a \"View Facility\" button can be added within the appointment details section.\nUser-Centric Validation: Conduct A/B testing on hover vs. click navigation to measure engagement and improve usability before finalizing the approach.\nExpected Timeline:\nWeek 1: Implement appointment clickability and quick preview on hover.\nWeek 2: Integrate optimized navigation techniques and caching for smart memory.\nWeek 3: Conduct A/B testing, refine UX, and optimize performance.\nLooking forward to collaborating on this innovative solution!\"* "
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}
