@@ -39373,5 +39373,169 @@
                 }
             ]
         }
+    ],
+    "2025-03-14 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1741952192.658689",
+            "client_msg_id": "033cea43-147f-44c3-9dc6-b1bfca638206",
+            "text": "*march 13*\n\u2022 completed camera presets managements\n\u2022 tried a lot of ways to fix command input crashing in plug; ended up writing a custom autocomplete without using command input;\n\u2022 <https://github.com/kyeotic/raviger/pull/135|raviger#135>: Added support for history replace in `useQueryParams` in raviger routing library, to solve an issue in <https://github.com/ohcnetwork/care_fe/issues/10657|care_fe#10657>\n*next*\n\u2022 show camera in encounter page; test out hl7 monitor as well;\n\u2022 miscellaneous things before making it production ready: translations and other cleanups;\n\u2022 fix update device\u2019s gateway problem\n\u2022 catch value errors and re-throw drf validation errors in device registry handlers;",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "+GE89",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "march 13",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "completed camera presets managements"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "tried a lot of ways to fix command input crashing in plug; ended up writing a custom autocomplete without using command input;"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/kyeotic/raviger/pull/135",
+                                            "text": "raviger#135"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ": Added support for history replace in "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "useQueryParams",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " in raviger routing library, to solve an issue in "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/issues/10657",
+                                            "text": "care_fe#10657"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "show camera in encounter page; test out hl7 monitor as well;"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "miscellaneous things before making it production ready: translations and other cleanups;"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fix update device\u2019s gateway problem"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "catch value errors and re-throw drf validation errors in device registry handlers;"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U07UB6TQWRE",
+                        "U08EYLQE75M"
+                    ],
+                    "count": 2
+                }
+            ]
+        }
     ]
 }

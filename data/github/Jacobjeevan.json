@@ -1,6 +1,97 @@
 {
-  "last_updated": "2025-03-13T15:10:04.000Z",
+  "last_updated": "2025-03-14T07:48:30.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-03T16:37:23.000Z",
+      "title": "ohcnetwork/care_fe#10756",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10756#pullrequestreview-2654646639",
+      "text": "Allow to select preferable camera during photo capturing"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11235",
+      "time": "2025-03-14T06:29:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11235#issuecomment-2723767250",
+      "text": "> @khavinshankar @nihal467 I have fixed the truncation problem. But the tooltip only appears for those questionnaires with title length more than 20, with the current code. Should I change that too?\r\n\r\nYea, let's change that."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-14T06:25:37.000Z",
+      "title": "ohcnetwork/care_fe#11093",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11093#pullrequestreview-2684409740",
+      "text": "Fix/profile photo upload issues"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-10T07:23:15.000Z",
+      "title": "ohcnetwork/care_fe#11142",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11142#pullrequestreview-2669996143",
+      "text": "Fix: Enhance LocationMap with interactive features and tooltips"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-06T07:35:34.000Z",
+      "title": "ohcnetwork/care_fe#11022",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11022#pullrequestreview-2663575280",
+      "text": "Fixes Issue  #11008 : Changes  to close the issue of Alignment of User Login Status "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11292",
+      "time": "2025-03-14T05:29:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11292#issuecomment-2723586301",
+      "text": "Duplicate \n\ncc: @rithviknishad "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11292",
+      "time": "2025-03-14T05:29:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11292",
+      "text": "Feat : Role Filter Add in this Page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-08T09:28:03.000Z",
+      "title": "ohcnetwork/care_fe#11044",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11044#pullrequestreview-2669068572",
+      "text": "Fixes Issue #11009:  Changes in the code to disable adding exceptions before date"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10963",
+      "time": "2025-03-14T05:09:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10963#issuecomment-2723531763",
+      "text": "> > > > @Sulochan-khadka Any updates?\r\n> > > \r\n> > > \r\n> > > yes, @amjithtitus09 said to implement something similar to \"ALLERGY_VERIFICATION_STATUS_STYLES\" in AllergyIntolerance, since we do not currently have something like this for the medication statuses. @Jacobjeevan shall i go ahead and create this?\r\n> > \r\n> > \r\n> > @Sulochan-khadka Go ahead buddy.\r\n> \r\n> Just a quick question. I think one of the active medication status is \"on-hold\" but it should be \"on_hold\" as the translation supports the latter. Shall i change it ? that would require a change of 1 word in MedicationRequestTable and PrintPrescription. Otherwise i will have to just work around with \"on-hold\". What do you say?\r\n> \r\n> I guess \"on-hold\" is a typo itself of \"on_hold\".\r\n> \r\n> @rithviknishad your views?\r\n\r\nShould be updated yes, since backend expects on_hold. Make sure to test it and replace other instances of \"on-hold\" as well."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-14T04:41:06.000Z",
+      "title": "ohcnetwork/care_fe#11244",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11244#pullrequestreview-2684158320",
+      "text": "Switched to using Autocomplete in Questionnaire editor valuesets dropdown"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11152",
+      "time": "2025-03-14T04:37:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11152#issuecomment-2723455159",
+      "text": "> > Let's not modify this file; this is deprecated;\r\n> \r\n> Then how do i handle it , can u guide me??\r\n\r\nCheck if https://github.com/ohcnetwork/care_fe/pull/10506 handles it 👍  (Pull locally and test)."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11194",
+      "time": "2025-03-14T04:35:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11194",
+      "text": "Username and password validation enhancement in user creation form"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-14T04:35:01.000Z",
+      "title": "ohcnetwork/care_fe#11230",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11230#pullrequestreview-2684142525",
+      "text": "Fix: Username validation in user creation form"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11281",
@@ -318,13 +409,6 @@
       "text": "> > @Naman-45 Can you wire this popup to the existing \"View all\" button instead of a new Full View button? In the overview table, fetch records only from the active statuses and display first. Along with it, fire an API for inactive statuses with limit 0, to decide if \"View all\" button needs to be displayed or not. On click can open up the new Popup. Let me know if you need any clarifications.\r\n> > Here is an image for reference (Credits: @AdityaJ2305 ). This would also fix #11184 ![image](https://private-user-images.githubusercontent.com/37619282/420856703-56779fd2-62c1-4245-bd29-75683d7d7221.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE2MTkxMzgsIm5iZiI6MTc0MTYxODgzOCwicGF0aCI6Ii8zNzYxOTI4Mi80MjA4NTY3MDMtNTY3NzlmZDItNjJjMS00MjQ1LWJkMjktNzU2ODNkN2Q3MjIxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzEwVDE1MDAzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQxMWI3MTY5MzQwNjkzYjE0NWYxZDRkZDAwNzE0NGIxYzQxZjdiNjhhZGI0NjQyYmJiMTNkNzY2YmY5NTU4MzQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.gxo1ULo_JLbCBPp7IMsaZNgD1SmC1AS-KxYnqdjdkwg)\r\n> \r\n> Ok so I will remove Full View button and instead wire it up to the view all button? Now, as you said that you want to display all the active entries in the overview section so what all encounter statuses do we consider as active and which all as inactive statuses.\r\n> \r\n> And In the overview section as we want to display all the active entries then what if there are more than 14 i.e; cannot be fetched in a single call, how should I handle that case?\r\n\r\n\r\n\r\n> > @Naman-45 Can you wire this popup to the existing \"View all\" button instead of a new Full View button? In the overview table, fetch records only from the active statuses and display first. Along with it, fire an API for inactive statuses with limit 0, to decide if \"View all\" button needs to be displayed or not. On click can open up the new Popup. Let me know if you need any clarifications.\r\n> > Here is an image for reference (Credits: @AdityaJ2305 ). This would also fix #11184 ![image](https://private-user-images.githubusercontent.com/37619282/420856703-56779fd2-62c1-4245-bd29-75683d7d7221.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE2MTkxMzgsIm5iZiI6MTc0MTYxODgzOCwicGF0aCI6Ii8zNzYxOTI4Mi80MjA4NTY3MDMtNTY3NzlmZDItNjJjMS00MjQ1LWJkMjktNzU2ODNkN2Q3MjIxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzEwVDE1MDAzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQxMWI3MTY5MzQwNjkzYjE0NWYxZDRkZDAwNzE0NGIxYzQxZjdiNjhhZGI0NjQyYmJiMTNkNzY2YmY5NTU4MzQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.gxo1ULo_JLbCBPp7IMsaZNgD1SmC1AS-KxYnqdjdkwg)\r\n> \r\n> Ok so I will remove Full View button and instead wire it up to the view all button? Now, as you said that you want to display all the active entries in the overview section so what all encounter statuses do we consider as active and which all as inactive statuses.\r\n> \r\n> And In the overview section as we want to display all the active entries then what if there are more than 14 i.e; cannot be fetched in a single call, how should I handle that case?\r\n\r\nSymptom and Diagnosis\r\n- show everything else except:\r\n   - clinical status: inactive, resolved\r\n   - verification status: entered in error\r\n\r\nAllergy\r\n- show everything else except:\r\n   - clinical status: inactive, resolved\r\n   - verification status: entered in error\r\n\r\nAs for more than 14 entries, it's fine. Let's just show the default number of entries (14)."
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-03-08T09:28:03.000Z",
-      "title": "ohcnetwork/care_fe#11044",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11044#pullrequestreview-2669068572",
-      "text": "Fixes Issue #11009:  Changes in the code to disable adding exceptions before date"
-    },
-    {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11216",
       "time": "2025-03-11T08:45:17.000Z",
@@ -523,13 +607,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2025-03-10T07:23:15.000Z",
-      "title": "ohcnetwork/care_fe#11142",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11142#pullrequestreview-2669996143",
-      "text": "Fix: Enhance LocationMap with interactive features and tooltips"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2025-03-10T07:17:34.000Z",
       "title": "ohcnetwork/care_fe#11129",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11129#pullrequestreview-2669986111",
@@ -650,13 +727,6 @@
       "title": "ohcnetwork/care_fe#11018",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11018#pullrequestreview-2663012571",
       "text": "Enhance Expired On Label Styling on Encounter and Patient details Page for Better Visibility"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-06T07:35:34.000Z",
-      "title": "ohcnetwork/care_fe#11022",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11022#pullrequestreview-2663575280",
-      "text": "Fixes Issue  #11008 : Changes  to close the issue of Alignment of User Login Status "
     },
     {
       "type": "pr_reviewed",
@@ -943,13 +1013,6 @@
       "time": "2025-03-06T22:54:38.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/11030",
       "text": "To add Patient intake/output fluid balance as a questionnaire"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-03T16:37:23.000Z",
-      "title": "ohcnetwork/care_fe#10756",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10756#pullrequestreview-2654646639",
-      "text": "Allow to select preferable camera during photo capturing"
     },
     {
       "type": "comment_created",
@@ -9628,7 +9691,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10526",
       "title": "Perms based Rendering",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review",
@@ -9638,7 +9701,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2767",
       "title": "Alt phone number and qualificationspec",
-      "stale_for": 48,
+      "stale_for": 49,
       "labels": []
     }
   ],

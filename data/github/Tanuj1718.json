@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-03-13T11:40:24.000Z",
+  "last_updated": "2025-03-14T05:26:52.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11290",
+      "time": "2025-03-14T05:26:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11290#issuecomment-2723578295",
+      "text": "> Please describe the root cause of the issue and how you are planning to solve this? The ETA should be said based on that!\n\nIt is due to the return type of Flag Component. In it we are passing country name which contains all the countries. So when we are rendering flag component and giving it title as countryName , it is showing this behaviour. Since it is necessary to give the title to the component, we can give it country code as a title. It is working fine when we are passing country code as title.🤔\nStill trying to find why this is happening."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11289",
+      "time": "2025-03-14T03:46:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11289#issuecomment-2723342815",
+      "text": "> Closes #11272\r\n> \r\n> * Fixed overlap on tiny screens (<400px) by constraining widths.\r\n> * Shrunk avatar, text, and padding for small screens, scales up smoothly.\r\n> * Tested across all breakpoints—no overlap, functionality intact.\r\n> \r\n> https://drive.google.com/file/d/1jyk18p8OpJYxPtMTAd3s81SqI0OHZOk6/view?usp=sharing\r\n> \r\n> @Jacobjeevan Plz Review it once\r\n> \r\n> ## Summary by CodeRabbit\r\n> * **Bug Fixes**\r\n>   \r\n>   * Improved phone number filtering in search results to ensure only valid entries influence the results.\r\n> * **Style**\r\n>   \r\n>   * Enhanced the overall layout with refined alignment and spacing for a cleaner interface.\r\n>   * Reorganized the display of user details and badges for improved responsiveness and visual consistency.\r\n\r\n@Gurdeep75way \r\n1. Try to keep Role and Phone Number on the same row.\r\n2. Please Follow the merge checklist in your PR\r\ncc: @Jacobjeevan "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11290",
+      "time": "2025-03-14T03:27:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11290#issuecomment-2723317055",
+      "text": "@rithviknishad I would like to work on it, if it is valid"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11290",
+      "time": "2025-03-14T03:27:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11290",
+      "text": "Bug: Searching 'India' in country selection is not working as expected"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11192",
