@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-13T15:18:04.000Z",
+  "last_updated": "2025-03-13T19:20:56.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10783",
+      "time": "2025-03-13T19:20:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10783#issuecomment-2722460706",
+      "text": "@rithviknishad @Jacobjeevan @nihal467 this is what we wanted right? Uniformity of organizations input tab with input tabs of others- users, patients, facilities.\n2 things happen now-\n-  Input tab clears whenever there is change in parent organization.\n- Input field is restored whenever we come back from sub-organizations (stored in cache), since parent organization remains same.\n\nPlease suggest if any other changes are required.\nChanged the code from saving local state of (id, page) to useFilters etc which is used in other tabs as well.\n\nhttps://github.com/user-attachments/assets/f7762e5c-aa1d-4d39-bd28-fc95eb098dc1"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11282",
