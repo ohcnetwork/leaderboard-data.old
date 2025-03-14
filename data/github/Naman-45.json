@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-11T18:47:13.000Z",
+  "last_updated": "2025-03-13T17:16:09.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10871",
+      "time": "2025-03-13T17:16:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10871#issuecomment-2722059672",
+      "text": "I think now I have committed all of the requested changes. I do have one confusion though, you asked me conditionally render view all button i.e; render only if there are any inactive entries and in the overview section we are only showing 14 active entries then what if there are more than 14 active entries and no inactive entries, how will those be accessible?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10871",
@@ -118,7 +125,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10871",
       "title": "Fix encounter overview tables to display more than 14 items",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "question",
         "changes required",

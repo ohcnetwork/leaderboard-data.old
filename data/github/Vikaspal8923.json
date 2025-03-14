@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-12T20:44:52.000Z",
+  "last_updated": "2025-03-13T13:25:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11279",
+      "time": "2025-03-13T13:25:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11279#issuecomment-2721252306",
+      "text": "@Jacobjeevan  @rithviknishad  approach  to fix this issue : We can add horizontal scrolling to the user list to prevent UI breakage on small screens .  can i work on this issue."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11279",
+      "time": "2025-03-13T13:23:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11279",
+      "text": "UI Breaks in User List View on Small Screens"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11266",
@@ -365,6 +379,44 @@
       "text": "Request for resend OTP button on  patient login"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11286",
+      "title": "fix ui breakout  of list view of user's in user tab",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11149",
+      "title": "add callout when both valid from and valid till  dates are past date …",
+      "stale_for": 1,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10992",
+      "title": "fix:alignment issue for view details button in encounter list",
+      "stale_for": 1,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11167",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11205"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10993",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10997"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10935",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10940"
+    }
+  ]
 }
