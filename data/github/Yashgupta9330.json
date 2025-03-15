@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-14T12:03:13.000Z",
+  "last_updated": "2025-03-14T15:25:11.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10959",
+      "time": "2025-03-14T15:25:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10959#issuecomment-2725027039",
+      "text": "Hii @nihal467 I want to work on this issue can you assign it to me? \nMy proposed solution:\n\n- Create New User & Setup Test Environment:\nRegister a new user on the platform by calling the dev backend API and update the Cypress fixture with the new user ID.\nCreate the test file patient_department.cy.ts and a related object file for reusable elements.\n\n- Test-1: Department and Sub-department Creation & Search:\nNavigate to the \"Add Department\" section, create a department and sub-department.\nVerify the department and sub-department using the dashboard search functionality.\n\n- Test-2: Link User to Facility:\nNavigate to the facility's administration department and link the newly created user to the facility.\nVerify the user is successfully linked by checking the department’s user list.\n\n- Test-3: Assign Patient to New Department in Encounter:\n\nOpen a live encounter, assign the patient to the newly created department in the \"Manage Organization\" section.\nVerify that the patient is successfully assigned to the organization.\n\nEOD 16/03/25"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11296",
@@ -238,13 +245,15 @@
       "title": "feature: Added services history section in device details page (10828)",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "question",
+        "changes required",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10915",
       "title": "Bug : fixed the Resposiveness of facility card(#10911)",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs testing",
         "needs review"
