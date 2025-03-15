@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-13T19:20:56.000Z",
+  "last_updated": "2025-03-14T15:07:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11282",
+      "time": "2025-03-14T15:07:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11282#issuecomment-2724983651",
+      "text": "Hey @rithviknishad, I saw the alignment thing for small/mobile devices.\r\nThe changes I made in alignment in the pr were only for **medium and large screen devices.**\r\nIn this issue I only changed it to display the actual facility location name.\r\nThe alignment in location, date, time slot **was already there,** i thought it was intentionally like that. So did not think much of it.\r\nThe changes after changing the name to facility name did not introduce any new alignment issues for mobile devices that is why i ticked it in the merge checklist.\r\nReally sorry if not confirming it with you caused further delays.\r\nWould it be okay if I made changes in the alignment now?\r\nAlso there is 1 more issue where we are making this facility name clickable.\r\n**I could also correct the alignment in that issue. (#11181). Would that work?**"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10783",
