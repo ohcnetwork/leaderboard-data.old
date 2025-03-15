@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-03-14T03:02:02.000Z",
+  "last_updated": "2025-03-15T10:37:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11306",
+      "time": "2025-03-15T10:37:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11306#issuecomment-2726428076",
+      "text": "@mnshrm Done ✅"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11307",
+      "time": "2025-03-15T09:42:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11307#issuecomment-2726395782",
+      "text": "Hi @Jacobjeevan , I would like to work on this issue and request you to assign it to me. My proposed approach is to initially fetch and display the full list of patients in the Facilities → Patients section. The existing search functionality will remain intact, allowing users to filter the list dynamically as they type.\n\nTo optimize performance, I plan to implement pagination or lazy loading if the patient list is large. Please let me know if you have any suggestions or if there's a preferred approach to follow. Looking forward to your guidance!"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11307",
+      "time": "2025-03-15T09:36:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11307",
+      "text": "Enhancement: Display Full Patient List in Facilities → Patients Section"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11306",
+      "time": "2025-03-15T08:28:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11306",
+      "text": "Issues/11272/fix user card responsive"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11289",
@@ -16,6 +44,13 @@
       "text": "Comment on Issue #11272 – Adjust Organization Users Cards for Tablet\n\nHi @rithviknishad, @Jacobjeevan,\n\nI would like to work on this issue. Here’s my proposed solution:\n\nProposed Solution:\nAdjust CSS styles – Ensure that the text inside the user cards is wrapped properly using word-wrap: break-word;, overflow: hidden;, and text-overflow: ellipsis where necessary.\nResponsive Design Fixes – Implement proper flex/grid adjustments and media queries to optimize card layout for tablet screens.\nTesting & Verification – Test across multiple screen sizes (both portrait and landscape tablet views) to confirm the fix works as expected.\nExpected Timeline:\nI can submit a pull request by March 14th or earlier.\n\nPlease assign me this task if everything looks good. Looking forward to contributing!\n\nBest,\nGurdeep Singh"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11306",
+      "title": "Fixes for OrganizationUsers.tsx component responsiveness #11272",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }
