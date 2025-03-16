@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-03-14T11:35:54.000Z",
+  "last_updated": "2025-03-15T17:37:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11304",
+      "time": "2025-03-15T17:37:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11304#issuecomment-2726817408",
+      "text": "**Hey @Rustix69,**  \n\nThis issue is happening because, in the last test of `PatientCreation`, a new encounter is being created for a patient and verified. However, someone created a new encounter for the same patient and left it as active.  \n\nAs a result, the test couldn’t find a success toast for creating an encounter since the API is throwing an error for exceeding the limit of active encounters for that patient.  \n\nI marked the encounter as completed, and it’s working fine locally now. Let’s try re-running the checks for your PR.  \n\nBy the way, it passed for the PR I raised after that.  \n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11313",
+      "time": "2025-03-15T17:35:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11313#issuecomment-2726815977",
+      "text": "Hey @rithviknishad @Jacobjeevan, \r\n\r\nPlease review this and let me know if any changes are required.  \r\n\r\n- In the `EncounterQuestionnaire` page, should we display the active medications at the top and then show the inactive ones like we are showing in the other pages, or should we leave it as it is?  \r\n- When I try to navigate to the `EncounterQuestionnaire` page from the organization view, it's showing a 404 not found error since this page is currently set up only for the Facility View, similar to the Treatment Summary Page. Should I add this page to the Organization View, or should we hardcode the facility view URL like the Treatment Summary Page?  \r\n\r\nPlease let me know your thoughts on the above two questions.  \r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11313",
+      "time": "2025-03-15T17:20:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11313",
+      "text": "fix(medication): update UI for inactive medications"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11309",
+      "time": "2025-03-15T14:17:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11309#issuecomment-2726585784",
+      "text": "**Hey @Rustix69,**  \nThis issue is happening because, in the last test of `PatientCreation`, a new encounter is being created for a patient and verified. However, someone created a new encounter for the same patient and left it as active.  \n\nAs a result, the test couldn’t find a success toast for creating an encounter since the API is throwing an error for exceeding the limit of active encounters for that patient.  \n\nI marked an encounter as completed, and it’s working fine locally now. Let’s try re-running the checks for your PR.  \n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11304",
+      "time": "2025-03-15T11:29:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11304#issuecomment-2726460906",
+      "text": "**Hey @abhimanyurajeesh,**  \nIf you’re not working on this, can I take it up?  \n\n**Approach:**  \n- We can add a `line-through` class to the display name when the medication status is not active.  \n- The edit button is currently only visible on small screens. Since both the edit and delete buttons are already disabled, we can either leave them as is or remove them if necessary.  \n\n**ETA:** EOD  \n\nPlease assign me this @rithviknishad @Jacobjeevan and let me know if there’s anything else to consider.  \n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11294",
@@ -368,6 +403,34 @@
       "text": "Hey @Jeffrin2005 Can you assign this to me?"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11313",
+      "title": "fix(medication): add indication for inactive medication requests",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11154",
+      "title": "Test: Add cypress tests for encounter notes",
+      "stale_for": 3,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11124",
+      "title": "Add Breadcrumbs for Organization View in Organization Layout",
+      "stale_for": 1,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }
