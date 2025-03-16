@@ -107,6 +107,17 @@
       "text": "Hello @Chinmayee-cd \nI have already updated the “Welcome back” text by removing the hardcoded string and replacing it with an i18n key in both en.json and hi.json. This change has been tested locally and is now displaying correctly in Hindi when the user switches the language.\n\n**Next, I propose to:**\n- Identify all remaining hardcoded English strings (e.g., “Choose your login method to continue,” “Patient Login,” “Staff Login,” etc.) within the login page and any related components.\n- Add corresponding translation keys in both en.json and hi.json (and any other relevant language files).\n- Replace the hardcoded text in the components with the translation function calls.\n- Verify that all text updates properly when switching languages, and address any missing or incorrect translations.\n- This approach ensures full localization coverage on the login page.\n\n**Expected Timeline:**\n- End date: 8th March\n\nAfter changes:\n![Image](https://github.com/user-attachments/assets/6d9a9999-dfca-4707-a4a4-24a995c34c86)\n\nKindly note the changes only for **Welcome back** for now. Will implement rest after confirmation."
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11282",
+      "title": "Fix Facility Name Display, Alignment Issues in Appointment Card & Removed Extra spans from Buttons",
+      "stale_for": 1,
+      "labels": [
+        "question",
+        "changes required",
+        "needs-triage"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

@@ -44,6 +44,13 @@
       "text": "Comment on Issue #11272 – Adjust Organization Users Cards for Tablet\n\nHi @rithviknishad, @Jacobjeevan,\n\nI would like to work on this issue. Here’s my proposed solution:\n\nProposed Solution:\nAdjust CSS styles – Ensure that the text inside the user cards is wrapped properly using word-wrap: break-word;, overflow: hidden;, and text-overflow: ellipsis where necessary.\nResponsive Design Fixes – Implement proper flex/grid adjustments and media queries to optimize card layout for tablet screens.\nTesting & Verification – Test across multiple screen sizes (both portrait and landscape tablet views) to confirm the fix works as expected.\nExpected Timeline:\nI can submit a pull request by March 14th or earlier.\n\nPlease assign me this task if everything looks good. Looking forward to contributing!\n\nBest,\nGurdeep Singh"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11306",
+      "title": "Fixes for OrganizationUsers.tsx component responsiveness #11272",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }

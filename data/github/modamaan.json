@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-12T16:58:34.000Z",
+  "last_updated": "2025-03-16T06:30:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11018",
+      "time": "2025-03-16T06:30:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11018#issuecomment-2727222875",
+      "text": "![Screenshot 2025-03-16 114625](https://github.com/user-attachments/assets/ce485e88-805d-4dbd-8012-b109630b73bf)\r\n![Screenshot 2025-03-16 114617](https://github.com/user-attachments/assets/5615be1a-5c21-4d37-a646-52718dcc306a)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11259",
+      "time": "2025-03-16T06:29:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11259#issuecomment-2727222533",
+      "text": "> Hey [@modamaan](https://github.com/modamaan),\n> \n> I don't know, but there is some code syncronization error in my repo. Sorry about that\n> \n> Production website has insurance cliams tab in encounter section but in my local repo, though I synched forked repo from original Care_Fe till latest commit but still now showing this options and manually tried to go there but shows page not found error\n> \n> Here is the problem video: [bug video drive link](https://drive.google.com/file/d/1sDcIhBQWPF2ar425pNvyBrSoW1SRy-Q4/view?usp=drive_link)\n> \n> Solution of issue :\n> \n> The\n> \n> that renders Payer Id can be assigned tailwind class 'break-words' which wrap the overflow text inside container\n> \n> Here is developer tool based demo solution of it : [solution video demo link](https://drive.google.com/file/d/1CDvD_FUNNQzMVnJqxA_sVElyEV9nSFNa/view?usp=drive_link)\n\n@Jacobjeevan "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11259",
@@ -1887,6 +1901,86 @@
       "text": "Updated Test Details page form UI"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11200",
+      "title": "Redesigned Select/Register Patient Table for Better Mobile Usability and Visibility",
+      "stale_for": 3,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11129",
+      "title": "FIX:  Close Button and Title Not Visible in Edit Avatar & Edit Cover Photo Dialogs on Mobile",
+      "stale_for": 4,
+      "labels": [
+        "needs testing",
+        "reviewed"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11018",
+      "title": "Enhance Expired On Label Styling on Encounter and Patient details Page for Better Visibility",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10617",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10635"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10564",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10681"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10524",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10546"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10428",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10458"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10396",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10419"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10358",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10359"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10262",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10267"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10259",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10283"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10129",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10198"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10107",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10106"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10033",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10034"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10031",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10106"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9869",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9870"
+    }
+  ]
 }
