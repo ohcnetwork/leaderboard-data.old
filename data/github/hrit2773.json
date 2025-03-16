@@ -1,6 +1,90 @@
 {
-  "last_updated": "2025-03-15T04:39:12.000Z",
+  "last_updated": "2025-03-16T14:46:49.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11319",
+      "time": "2025-03-16T14:46:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11319#issuecomment-2727480147",
+      "text": "@abhimanyurajeesh yes edit/delete buttons for each department in departments list. I was updating that issue then it got closed...."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11274",
+      "time": "2025-03-16T14:39:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11274#issuecomment-2727476059",
+      "text": "@sainak should the unit be a dropdown field fetching all the units as per fhir or should it be up to the users"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11319",
+      "time": "2025-03-16T14:29:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11319#issuecomment-2727471045",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/11271 I opened an issue for fixing this but was closed as not planned as @rithviknishad  mentioned that there are redesigns being done not sure if its valid. Can I get it assigned if valid"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11273",
+      "time": "2025-03-16T14:13:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11273#issuecomment-2727462604",
+      "text": "@abhimanyurajeesh are you working on this?? is the backend supporting it now or yet to support??"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11309",
+      "time": "2025-03-16T14:09:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11309#issuecomment-2727460841",
+      "text": "@Rustix69 already fixed its working"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11319",
+      "time": "2025-03-16T14:07:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11319#issuecomment-2727459951",
+      "text": "@aravindm4 @rithviknishad can I take this up. ETA: tomorrow EOD. I don't have new issues to take up."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11026",
+      "time": "2025-03-16T14:02:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11026#issuecomment-2727457177",
+      "text": "because the Valueset select takes a system of type ValuesetSystem"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11026",
+      "time": "2025-03-16T14:01:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11026#issuecomment-2727456561",
+      "text": "@rithviknishad @Jacobjeevan @gigincg The custom valueset is a slug which is a string so What kind of type changes can be done here??"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11316",
+      "time": "2025-03-16T13:01:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11316#issuecomment-2727385802",
+      "text": "@Jacobjeevan @rithviknishad Approach: We can add a frontend validation for medicines. Alternatively we may allow users to update the existing medicine?? multiple administrations for same medicines doesn't look good I guess. cc @bodhish ETA: 2 days. Can I work on this. Can I get it assigned if its valid"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11316",
+      "time": "2025-03-16T12:56:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11316",
+      "text": "Stop users from adding same medications multiple times"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11315",
+      "time": "2025-03-16T12:42:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11315#issuecomment-2727375539",
+      "text": "@Jacobjeevan @rithviknishad if the responses contains responses for only type= group fields then the function was not propagating forward. So if the question further contains a questions field (group fields like Blood pressure containing questions like systolic and diastolic) then the function should propagate forward even if hasResponses is False we cant just stop there and return null. So hence I added an extra check for group.questions also. Can you review this. This solve the problem. "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11315",
+      "time": "2025-03-16T12:35:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11315",
+      "text": "Fixed a condition for grouped fields not visible properly in Questionnaire responses"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11304",
@@ -2982,6 +3066,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11315",
+      "title": "Fixed a condition for grouped fields not visible properly in Questionnaire responses",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11244",
       "title": "Switched to using Autocomplete in Questionnaire editor valuesets dropdown",
       "stale_for": 2,
@@ -2992,7 +3082,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11136",
       "title": "Minor UI enhancements in Questionniares and Valuesets list pages",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"
@@ -3001,7 +3091,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11026",
       "title": "Added Fetching Valueset options in Encounter Questionnaire Choice Question component",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": [
         "question",
         "needs-triage"
@@ -3010,7 +3100,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/100",
       "title": "Added CEP for Patient Tagging system",
-      "stale_for": 39,
+      "stale_for": 40,
       "labels": []
     }
   ],
