@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-14T17:21:54.000Z",
+  "last_updated": "2025-03-17T07:47:13.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11259",
+      "time": "2025-03-17T07:47:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11259#issuecomment-2728477289",
+      "text": "Hi, I had a look at the code, I would like to work on this.\nMy approach:\n- switch from `grid` to `flex` display, so that, by default both PayorID and PayorName should share same row BUT:\n- if PayorID is too big, PayorName will shift down to accomodate.\n\nETA: 1 day"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11291",
@@ -160,19 +167,19 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11295",
       "title": "Mobile layout fixes for Appointments List view",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11291",
       "title": "Encounter Page Layout Fix for Smaller Screens",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11175",
       "title": "UI changes for Questionnaire cards",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "reviewed"

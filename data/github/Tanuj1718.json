@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-15T15:59:15.000Z",
+  "last_updated": "2025-03-17T04:56:16.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11290",
+      "time": "2025-03-17T04:56:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11290#issuecomment-2728151580",
+      "text": "> that's just fixing some side effect of some other problem. the root cause is not solved yet.\n> \n> why does it scroll to the bottom in the first place?\n\n@rithviknishad  Shadcn component causing this issue but I am not able to find where exactly it is. The only solution I know is to forcefully moves the scroller at the top. Can you give some idea?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11263",
+      "time": "2025-03-17T03:55:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11263#issuecomment-2728061513",
+      "text": "> [@Tanuj1718](https://github.com/Tanuj1718) are you working on this issue?\n\nyeah waiting for confirmation if it is valid or not"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#11311",
@@ -1468,7 +1482,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10756",
       "title": "Allow to select preferable camera during photo capturing",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "changes required"
       ]

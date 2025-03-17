@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-03-16T14:46:49.000Z",
+  "last_updated": "2025-03-17T08:25:52.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11026",
+      "time": "2025-03-17T08:25:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11026#issuecomment-2728563161",
+      "text": "@Jacobjeevan I'm updating the questionnaire types in this itself because this would affect the submission of the questionnaire with valueset choice options as I would get coding is required validation error that's the reason its important to fix the types in this PR itself"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11329",
+      "time": "2025-03-17T08:11:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11329#issuecomment-2728527879",
+      "text": "https://github.com/ohcnetwork/care_fe/pull/11026/commits/693639b9274bc0b054d78990b8a9d017cae74dcf for reference look at this I changed a type in form.ts"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11329",
+      "time": "2025-03-17T08:01:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11329#issuecomment-2728504635",
+      "text": "@AdityaJ2305 @Jacobjeevan  https://github.com/ohcnetwork/care_fe/pull/11026 I have made a change in this PR to ensure proper submission of the valueset options as I was initially getting an error of coding required and some paramenters like value_code doesnt exist so I fixed there itself. I guess we can take this within this PR only"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11290",
+      "time": "2025-03-17T07:23:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11290#issuecomment-2728431022",
+      "text": "@Tanuj1718 @rithviknishad the issue lies with the radix ui in the phone-input the default search is causing the scroll to get focussed which is eventually pushing them down and when you type back its pushing the scroll up its better to remove the scrollArea in phone-input and write a custom filter after setting shouldFilter attribute of command to False. Your thoughts?? its happening in the login page phone number input also"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11332",
+      "time": "2025-03-17T07:18:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11332#issuecomment-2728422070",
+      "text": "@gigincg can I work on this. Approach: Frontend validation. ETA: 2 days. cc @rithviknishad @Jacobjeevan "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11329",
+      "time": "2025-03-17T06:15:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11329#issuecomment-2728282973",
+      "text": "@gigincg @rithviknishad @Jacobjeevan no issues to work on can I do it ETA: tmrw EOD. Anyways I already worked on questionnaire responses bug just before.. Can I get it assigned. No issues to work with"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11319",
@@ -3074,7 +3116,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11244",
       "title": "Switched to using Autocomplete in Questionnaire editor valuesets dropdown",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs testing"
       ]

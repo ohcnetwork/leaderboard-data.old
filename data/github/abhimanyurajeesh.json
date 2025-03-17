@@ -1,6 +1,29 @@
 {
-  "last_updated": "2025-03-16T14:53:54.000Z",
+  "last_updated": "2025-03-17T08:04:14.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11337",
+      "time": "2025-03-17T08:04:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11337",
+      "text": "Add location search functionality to LocationPicker component"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11228",
+      "time": "2025-03-17T07:33:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11228",
+      "text": "fix: Add mobile navigation handling for sidebar (Auto hide)",
+      "turnaround_time": 496323
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11310",
+      "time": "2025-03-17T06:05:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11310",
+      "text": "Integrate pigeon-maps and add location selection feature in FacilityForm",
+      "turnaround_time": 143861
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-03-16T14:53:54.000Z",
@@ -1656,15 +1679,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11310",
-      "title": "Integrate pigeon-maps and add location selection feature in FacilityForm",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11337",
+      "title": "Add location search functionality to LocationPicker component",
       "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11228",
-      "title": "fix: Add mobile navigation handling for sidebar (Auto hide)",
-      "stale_for": 3,
       "labels": [
         "changes required"
       ]
@@ -1672,16 +1689,16 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11142",
       "title": "Fix: Enhance LocationMap with interactive features and tooltips",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review"
+        "reviewed"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10972",
       "title": "Add Two-Factor Authentication (2FA) Support",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs testing",
         "reviewed"
@@ -1689,6 +1706,10 @@
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11294",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11310"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11182",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11187"
