@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-03-17T04:56:16.000Z",
+  "last_updated": "2025-03-17T11:22:30.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11290",
+      "time": "2025-03-17T11:22:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11290#issuecomment-2729129549",
+      "text": "\n\n\n> [@Tanuj1718](https://github.com/Tanuj1718) yes we are using same components there as well not sure why is it not working..... One thing we can do is just copy all the css classes exactly in phone input. Smart solution !!! lets see what happens\n\nDone that but not working. The Shadcn component of phone-input has the same problem as i have verified it from their given example.\n\nhttps://github.com/user-attachments/assets/767eab93-a362-4f11-914c-1cc26e75dc89"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11341",
+      "time": "2025-03-17T11:13:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11341#issuecomment-2729107714",
+      "text": "Yeah you can take this as I have an exam tomorrow🥲"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11341",
+      "time": "2025-03-17T10:41:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11341",
+      "text": "Adjust Orgs patients and orgs facilities cards for tablet"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11290",
+      "time": "2025-03-17T10:31:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11290#issuecomment-2728992566",
+      "text": "> [@Tanuj1718](https://github.com/Tanuj1718) [@rithviknishad](https://github.com/rithviknishad) the issue lies with the radix ui in the phone-input the default search is causing the scroll to get focussed which is eventually pushing them down and when you type back its pushing the scroll up its better to remove the scrollArea in phone-input and write a custom filter after setting shouldFilter attribute of command to False. Your thoughts?? its happening in the login page phone number input also\nyeah i think we have to write the custom filter but I did not get why it is happening only for phone input. Like Location search is working fine , we are using same components there🤔\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11290",

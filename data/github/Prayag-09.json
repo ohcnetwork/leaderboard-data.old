@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-10T18:04:00.000Z",
+  "last_updated": "2025-03-17T13:07:36.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11346",
+      "time": "2025-03-17T13:07:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11346#issuecomment-2729443692",
+      "text": "I would like to take on this issue as I have navigated the issue and the issue lies in the zod form schema. \n\nSolution:\nI will update the .refine method in formSchema to correctly merge valid_from with start_time and valid_to with end_time for accurate isBefore comparisons. This will be done by extracting hours and minutes from the time string using .split(':') and applying .setHours(). The fix will ensure proper handling of both same-day and multi-day cases\n\nExpected Time : \nI have fixed the issue already. "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11346",
+      "time": "2025-03-17T13:05:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11346",
+      "text": "Invalid Time Range Error in Unavailability Form"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#11199",
@@ -142,13 +156,6 @@
       "text": "feat: added Markdown preview"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11125",
-      "title": "Fix: Ensure unique keys for comments in ResourceCommentSection",
-      "stale_for": 0,
-      "labels": []
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }

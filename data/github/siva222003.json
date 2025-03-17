@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-03-16T07:56:37.000Z",
+  "last_updated": "2025-03-17T13:06:43.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11343",
+      "time": "2025-03-17T13:06:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11343#issuecomment-2729441037",
+      "text": "Hey @rithviknishad, I have made the requested changes. Please review them."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11343",
+      "time": "2025-03-17T11:34:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11343#issuecomment-2729157301",
+      "text": "Hey @rithviknishad @Jacobjeevan,\r\nPlease review the PR and let me know if any changes are required."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11343",
+      "time": "2025-03-17T11:31:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11343",
+      "text": "feat: show unsupported browser warning on all pages"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11339",
+      "time": "2025-03-17T10:11:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11339#issuecomment-2728903073",
+      "text": "@rithviknishad Can I take this up?  \n\n**Approach:**  \n- Create a **global unsupported state** using context or state.  \n- On app load, check if the browser is unsupported:  \n    - If unsupported and the alert has not been dismissed (use `localStorage` or `global state` to track this), show the alert dialog.  \n    - After dismissal, update the state to avoid showing the alert again.  \n- Keep the overlay tied to the global state so it persists across all soft navigations.  \n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11313",
@@ -412,12 +440,20 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11343",
+      "title": "feat: show unsupported browser warning on all pages",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11313",
       "title": "fix(medication): add indication for inactive medication requests",
       "stale_for": 0,
       "labels": [
-        "question",
-        "needs-triage"
+        "needs testing",
+        "needs review"
       ]
     },
     {
@@ -426,14 +462,13 @@
       "stale_for": 0,
       "labels": [
         "question",
-        "merge conflict",
         "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11124",
       "title": "Add Breadcrumbs for Organization View in Organization Layout",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs testing",
         "needs review"
