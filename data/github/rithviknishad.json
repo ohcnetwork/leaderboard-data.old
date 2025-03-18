@@ -1,6 +1,98 @@
 {
-  "last_updated": "2025-03-17T17:09:22.000Z",
+  "last_updated": "2025-03-18T06:25:58.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11360",
+      "time": "2025-03-18T06:25:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11360",
+      "text": "Adds support for search in valueset select in questionnaire editor",
+      "turnaround_time": 154
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11360",
+      "time": "2025-03-18T06:23:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11360",
+      "text": "Adds support for search in valueset select in questionnaire editor"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11358",
+      "time": "2025-03-18T05:30:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11358#issuecomment-2731716432",
+      "text": "Let's not deal with this issue in the front-end. Backend should not ideally be yielding two schedule-able user resources."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11352",
+      "time": "2025-03-18T04:05:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11352#issuecomment-2731558801",
+      "text": "Feature requests can be made at: https://github.com/orgs/ohcnetwork/discussions/categories/ideas"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11352",
+      "time": "2025-03-18T04:05:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11352",
+      "text": "AI Chatbot & Appointment Booking System for Patients"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11318",
+      "time": "2025-03-18T04:00:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11318",
+      "text": "Missing Option to Add Availability Exceptions in Scheduling under Doctor"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11348",
+      "time": "2025-03-18T03:59:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11348#issuecomment-2731552563",
+      "text": "> @shuchitachawla2909 hey, i also raised Pr on other issue, but my build is getting errors regarding SBOM, did you get it, if you did then can you pls tell how you resolved it?\r\n\r\nSBOM failures are due to GitHub APIs being rate limited; You can ignore that for now; @tellmeY18 / @areebahmeddd we need to get the SBOM thing sorted ASAP;"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-18T03:58:54.000Z",
+      "title": "ohcnetwork/care_fe#11348",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11348#pullrequestreview-2692850410",
+      "text": "Updated the FE wordings for availability in exceptions"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10658",
+      "time": "2025-03-18T03:54:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10658#issuecomment-2731544971",
+      "text": "@AdityaJ2305 you can take over this!"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11353",
+      "time": "2025-03-18T03:50:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11353#issuecomment-2731541029",
+      "text": "Closing as merge checklist not followed"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-18T02:24:58.000Z",
+      "title": "ohcnetwork/docs#103",
+      "link": "https://github.com/ohcnetwork/docs/pull/103#pullrequestreview-2692644419",
+      "text": "Updated links on docs"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-18T02:24:08.000Z",
+      "title": "ohcnetwork/.github#3",
+      "link": "https://github.com/ohcnetwork/.github/pull/3#pullrequestreview-2692643598",
+      "text": "Update README.md"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9545",
+      "time": "2025-03-18T02:12:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9545",
+      "text": "Remove timeout hack from patient address autofill"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11351",
@@ -64172,22 +64264,13 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11345",
-      "title": "Staging Patch",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2912",
-      "title": "Device: Adds `care_type` filter and remove `perform_action` handler",
-      "stale_for": 5,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11116",
       "title": "Adds support for device plugins",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10506",
