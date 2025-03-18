@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-03-17T12:55:39.000Z",
+  "last_updated": "2025-03-17T17:09:22.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11351",
+      "time": "2025-03-17T17:09:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11351",
+      "text": "Enhance Appointment Question: Show availability heatmap and improved slot selection"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11346",
+      "time": "2025-03-17T17:01:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11346#issuecomment-2730250119",
+      "text": "Scheduling and Exceptions are based on from and to date; and for each day in those days: valid from time and valid to time;"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11346",
+      "time": "2025-03-17T17:00:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11346#issuecomment-2730248502",
+      "text": "This is expected behaviour"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11346",
+      "time": "2025-03-17T17:00:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11346",
+      "text": "Invalid Time Range Error in Unavailability Form"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-14T14:13:48.000Z",
+      "title": "ohcnetwork/care_fe#11282",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11282#pullrequestreview-2685694929",
+      "text": "Fix Facility Name Display, Alignment Issues in Appointment Card & Removed Extra spans from Buttons"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11342",
+      "time": "2025-03-17T15:38:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11342#issuecomment-2729989248",
+      "text": "PR title is invalid; DateRangePicker is being done in another PR"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-17T14:43:44.000Z",
+      "title": "ohcnetwork/care_fe#11342",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11342#pullrequestreview-2690824041",
+      "text": "Fix: Replacing shadcn DateRangePicker with html default one "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11342",
+      "time": "2025-03-17T14:42:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11342#issuecomment-2729778353",
+      "text": "@AdityaJ2305 you can skip Date Range pickers; that's being handled in:\r\n\r\nhttps://github.com/ohcnetwork/care_fe/issues/11113"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11342",
@@ -301,13 +357,6 @@
       "time": "2025-03-14T14:19:25.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11289#issuecomment-2724842195",
       "text": "PR's not following the PR template and merge checklist will not be considered for reviews."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-14T14:13:48.000Z",
-      "title": "ohcnetwork/care_fe#11282",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11282#pullrequestreview-2685694929",
-      "text": "Fix Facility Name Display, Alignment Issues in Appointment Card & Removed Extra spans from Buttons"
     },
     {
       "type": "comment_created",
@@ -64117,6 +64166,8 @@
       "title": "Enhance Appointment Question: Show availability heatmap and improved slot selection",
       "stale_for": 0,
       "labels": [
+        "needs testing",
+        "needs review",
         "P1"
       ]
     },

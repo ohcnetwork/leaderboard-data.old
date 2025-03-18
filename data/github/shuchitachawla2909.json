@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-16T13:49:40.000Z",
+  "last_updated": "2025-03-17T14:35:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11348",
+      "time": "2025-03-17T14:35:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11348#issuecomment-2729750598",
+      "text": "I think they have updated the dependencies, so just run npm install again."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11348",
+      "time": "2025-03-17T14:24:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11348",
+      "text": "Updated the FE wordings for availability in exceptions"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11282",
@@ -151,13 +165,20 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11348",
+      "title": "Updated the FE wordings for availability in exceptions",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11282",
       "title": "Fix Facility Name Display, Alignment Issues in Appointment Card & Removed Extra spans from Buttons",
       "stale_for": 0,
       "labels": [
-        "question",
-        "changes required",
-        "needs-triage"
+        "needs review"
       ]
     }
   ],
