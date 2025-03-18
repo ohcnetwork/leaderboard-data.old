@@ -39713,9 +39713,211 @@
                 {
                     "name": "rocket",
                     "users": [
-                        "U07NGSB2MUP"
+                        "U07NGSB2MUP",
+                        "U082GUAL80N"
                     ],
-                    "count": 1
+                    "count": 2
+                }
+            ]
+        }
+    ],
+    "2025-03-18 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1742284708.878349",
+            "client_msg_id": "457aa232-5ebb-4a1c-a282-35f319de7d73",
+            "text": "*march 17th*\n\u2022 :bus: from bangalore to home\n\u2022 debugged why creating schedules doesn\u2019t reflect slots for some users in deployment; couldn\u2019t replicate locally; yet to figure out\u2026\n\u2022 prevent browser translate <https://github.com/ohcnetwork/care_fe/pull/11333|#11333>\n\u2022 pushed some fixes and cleanups to <@U086E5U2CSJ>\u2019s location search map picker PR <https://github.com/ohcnetwork/care_fe/pull/11337/commits/10808d03f0622d34259d9555d74f63771db3d505|#11337>\n\u2022 Appointment Question: show availability heatmap and improved slot picking workflow <https://github.com/ohcnetwork/care_fe/pull/11351|#11351>\n\u2022 some miscellaneous things on teleicu plugs\n*next*\n\u2022 complete device encounter overview page and get it ready for first round of testing\n\u2022 look into appointments/scheduling related feedbacks\n\u2022 fix update device\u2019s gateway problem\n\u2022 catch value errors and re-throw drf validation errors in device registry handlers",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "BqPU+",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "march 17th",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "bus",
+                                            "unicode": "1f68c",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " ",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "from bangalore to home"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "debugged why creating schedules doesn\u2019t reflect slots for some users in deployment; couldn\u2019t replicate locally; yet to figure out\u2026"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "prevent browser translate "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/11333",
+                                            "text": "#11333",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "pushed some fixes and cleanups to "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U086E5U2CSJ"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "\u2019s location search map picker PR "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/11337/commits/10808d03f0622d34259d9555d74f63771db3d505",
+                                            "text": "#11337",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Appointment Question: show availability heatmap and improved slot picking workflow "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/11351",
+                                            "text": "#11351",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "some miscellaneous things on teleicu plugs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "complete device encounter overview page and get it ready for first round of testing"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "look into appointments/scheduling related feedbacks"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fix update device\u2019s gateway problem"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "catch value errors and re-throw drf validation errors in device registry handlers"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
                 }
             ]
         }
