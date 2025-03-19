@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-18T16:10:00.000Z",
+  "last_updated": "2025-03-18T21:10:49.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11381",
+      "time": "2025-03-18T21:10:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11381#issuecomment-2734739119",
+      "text": "@nihal467 Can i work on this issue?\n**Estimated Time:** 1 Day\nApproach: \n- In `UserForm.tsx` the password and c_password fields must be kept optional at first. \n- Only when the user enters a value in password, both fields become mandatory.\n- If value is removed from password, both revert back to being optional.\n- Necessary schema changes have to be made and the fields must be optional/mandatory dynamically."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11235",
@@ -381,15 +388,6 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11314",
-      "title": "Fixed content overflow in location page for smaller devices",
-      "stale_for": 2,
-      "labels": [
-        "needs testing",
-        "reviewed"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/95",
       "title": "Update Spandan-Mishra.md",
       "stale_for": 5,
@@ -398,9 +396,14 @@
     {
       "link": "https://github.com/ohcnetwork/landing/pull/66",
       "title": "Fixed responsive issue between 640-767px",
-      "stale_for": 14,
+      "stale_for": 15,
       "labels": []
     }
   ],
-  "authored_issue_and_pr": []
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11298",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11314"
+    }
+  ]
 }

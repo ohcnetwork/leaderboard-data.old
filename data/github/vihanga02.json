@@ -1,0 +1,14 @@
+{
+  "last_updated": "2025-03-18T19:40:44.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11381",
+      "time": "2025-03-18T19:40:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11381#issuecomment-2734523656",
+      "text": "Hello @nihal467 ,\nI'm Vihanga Muthumala and I would like to be assigned to this issue. Below is my proposed solution.\n\n\n**_Solution:_**\n\n**1. Make Password Fields Optional:**\nI will update the schema in `src/components/Users/UserForm.tsx` so that the password and `c_password` fields are not required.\n\n**2. Conditional Confirm Password Validation:**\nI will change the `.refine()` check in the schema so that the `c_password` field is required only when a password is entered.\n\n**3. Update UI Indicators:**\nI will update the form labels and validation messages in both `src/components/Users/UserForm.tsx` and `src/components/Users/UserFormValidations.tsx` to show that the password fields are optional.\n\nOther than this changes I can update the test files to make sure everything works with new changes. I will also test manually to check that the fix works with the backend changes.\n\n\nEnd date by _March 22, 2025._\n\n"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}

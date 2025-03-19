@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-17T07:57:41.000Z",
+  "last_updated": "2025-03-18T18:52:54.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11381",
+      "time": "2025-03-18T18:52:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11381#issuecomment-2734404256",
+      "text": "Hii @nihal467 I want to work on this issue can you assign it to me?\nMy proposed solution:\nMake the Password and Confirm Password fields optional when creating a user.\nSet the Confirm Password field as mandatory only if a password is entered in the Password field.\nUpdate the frontend to reflect the new backend changes and ensure smooth integration.\n\nEOD 20/03/25"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11336",
@@ -251,23 +258,26 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11296",
       "title": "feat : Added create tag option in dropdown",
-      "stale_for": 2,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "waiting for backend"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10934",
       "title": "feature: Added services history section in device details page (10828)",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "question",
-        "changes required",
-        "needs-triage"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10915",
       "title": "Bug : fixed the Resposiveness of facility card(#10911)",
-      "stale_for": 2,
+      "stale_for": 4,
       "labels": [
         "needs testing",
         "needs review"
