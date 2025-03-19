@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-16T17:45:15.000Z",
+  "last_updated": "2025-03-18T11:57:12.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11371",
+      "time": "2025-03-18T11:57:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11371#issuecomment-2732957170",
+      "text": "@bodhish @Jacobjeevan @rithviknishad I want to work on this issue. I'm not working on any other issues currently.\n**ETA:** 2-3 Days\n**Approach:** Based on whether normal users can visit this page, the approach would differ\n- If they are not allowed, then removing the view details option would be better\n- Else the error message shouldn't appear on the screen. I will try to find the reason behind this problem and fix it."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11371",
+      "time": "2025-03-18T11:54:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11371",
+      "text": "Inconsistency while updating encounter"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11356",
+      "time": "2025-03-18T11:44:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11356#issuecomment-2732911478",
+      "text": "@abhimanyurajeesh I want to work on this issue. Can you please assign it to me?\n**ETA:** 2 Days\n**Approach:** The first thing to do would be to check if the location data is being fetched correctly or not. If yes, then I will work upon the rendering logic. If no, then I will first try to find the error because of which fetching doesn't happen correctly, and then fix it."
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#11066",
@@ -355,7 +376,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11314",
       "title": "Fixed content overflow in location page for smaller devices",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "reviewed"
@@ -364,19 +385,22 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/95",
       "title": "Update Spandan-Mishra.md",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11235",
       "title": "Truncated questionnaire name",
-      "stale_for": 2,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/landing/pull/66",
       "title": "Fixed responsive issue between 640-767px",
-      "stale_for": 12,
+      "stale_for": 14,
       "labels": []
     }
   ],

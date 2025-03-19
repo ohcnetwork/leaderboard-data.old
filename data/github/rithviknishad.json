@@ -1,6 +1,91 @@
 {
-  "last_updated": "2025-03-18T06:25:58.000Z",
+  "last_updated": "2025-03-18T13:31:04.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-17T12:45:36.000Z",
+      "title": "ohcnetwork/care_fe#11227",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11227#pullrequestreview-2690345405",
+      "text": "Add support for Prefix and Suffix"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-18T12:42:49.000Z",
+      "title": "ohcnetwork/care_fe#11372",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11372#pullrequestreview-2694380322",
+      "text": "Fix :  Search Bar Box Visibility"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11345",
+      "time": "2025-03-18T11:36:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11345",
+      "text": "Staging Patch",
+      "turnaround_time": 82562
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-17T12:54:19.000Z",
+      "title": "ohcnetwork/care_fe#11343",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11343#pullrequestreview-2690377342",
+      "text": "feat: show unsupported browser warning on all pages"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-18T09:14:53.000Z",
+      "title": "ohcnetwork/care_fe#11366",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11366#pullrequestreview-2693606933",
+      "text": "Fixed all the flaky test in cypress test due to latest frontend changes and Modified on caught condition of cypress"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11334",
+      "time": "2025-03-18T09:10:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11334#issuecomment-2732229071",
+      "text": "Let's re-use the `autocomplete` component here; "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11358",
+      "time": "2025-03-18T09:05:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11358#issuecomment-2732207229",
+      "text": "No; let's only address the root cause which should fix it; Let's not unnecessarily do distinct select query; Adds 0 value over the performance difference with and without distinct select query;"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11364",
+      "time": "2025-03-18T09:01:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11364",
+      "text": "Wrap device form inside Sheet component"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10822",
+      "time": "2025-03-18T08:09:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10822",
+      "text": "Add support for associating devices to an encounter"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11138",
+      "time": "2025-03-18T08:09:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11138",
+      "text": "Make the facility devices page mobile device responsive"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10904",
+      "time": "2025-03-18T08:07:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10904#issuecomment-2732036008",
+      "text": "@rajku-dev this will be merged to #11116 as it's a high priority and this feature is needed in that!\r\n\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-03T04:43:05.000Z",
+      "title": "ohcnetwork/care_fe#10904",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10904#pullrequestreview-2653035895",
+      "text": "Add support for associating devices to an encounter"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#11360",
@@ -157,13 +242,6 @@
       "text": "DateRange Picker is being rebuilt in another PR; issue is not about date range picker in the first place;"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-03-17T12:54:19.000Z",
-      "title": "ohcnetwork/care_fe#11343",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11343#pullrequestreview-2690377342",
-      "text": "feat: show unsupported browser warning on all pages"
-    },
-    {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#11222",
       "time": "2025-03-17T12:50:48.000Z",
@@ -182,13 +260,6 @@
         "i",
         "rithviknishad"
       ]
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-17T12:45:36.000Z",
-      "title": "ohcnetwork/care_fe#11227",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11227#pullrequestreview-2690345405",
-      "text": "Add support for Prefix and Suffix"
     },
     {
       "type": "pr_opened",
@@ -596,13 +667,6 @@
       "title": "ohcnetwork/care_fe#11258",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11258#pullrequestreview-2680809238",
       "text": "fix(deps): update all dependencies (minor, patch)"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-03T04:43:05.000Z",
-      "title": "ohcnetwork/care_fe#10904",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10904#pullrequestreview-2653035895",
-      "text": "Add support for associating devices to an encounter"
     },
     {
       "type": "pr_reviewed",

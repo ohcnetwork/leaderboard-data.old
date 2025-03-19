@@ -1,6 +1,83 @@
 {
-  "last_updated": "2025-03-18T07:01:12.000Z",
+  "last_updated": "2025-03-18T13:58:48.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2923",
+      "time": "2025-03-18T13:58:48.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2923#issuecomment-2733357404",
+      "text": "@sainak the values should not repeat also right? should I add validation for that as well?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11315",
+      "time": "2025-03-18T13:43:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11315#issuecomment-2733301013",
+      "text": "@Jacobjeevan made the change"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11315",
+      "time": "2025-03-18T13:27:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11315#issuecomment-2733226710",
+      "text": "@Jacobjeevan I have added a function that recursively checks the questions and finds id. This is also working. Can you just view it. I will discard the lock file changes"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10386",
+      "time": "2025-03-18T12:47:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10386#issuecomment-2733103780",
+      "text": "@nihal467 this form was not updated thats why I was waiting but now its clearly updated so will take it up and ETA: 3 days. Can you assign me back. I have anyways started working on it again"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11358",
+      "time": "2025-03-18T12:12:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11358#issuecomment-2733000689",
+      "text": "@rithviknishad Well the existing code looks good I guess this is only due to addition of duplicate users. But adding duplicate users is not possible now. That maybe just happening in the test data which existed in previous migrations.\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11370",
+      "time": "2025-03-18T11:58:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11370#issuecomment-2732960058",
+      "text": "good first issue"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2923",
+      "time": "2025-03-18T11:07:56.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2923#issuecomment-2732757082",
+      "text": "> > > @hrit2773 please create an issue and get it assigned before working on the issue.\r\n> > \r\n> > \r\n> > It was linked to an issue in care_fe repository [ohcnetwork/care_fe#11332](https://github.com/ohcnetwork/care_fe/issues/11332) so l linked this PR to that\r\n> \r\n> Backend contributions only after an issue is opened in the BE repo and assigned.\r\n\r\n@vigneshhari I have opened an issue for this do check it out and assign me."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2930",
+      "time": "2025-03-18T11:03:31.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2930#issuecomment-2732731990",
+      "text": "@vigneshhari can you assign this to me. I'll link the pull request immediately."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care#2930",
+      "time": "2025-03-18T11:02:51.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2930",
+      "text": "Add further validations for checking empty custom choice values in questionnaire editor"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11332",
+      "time": "2025-03-18T08:56:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11332#issuecomment-2732174956",
+      "text": "https://github.com/ohcnetwork/care/pull/2923"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2923",
+      "time": "2025-03-18T08:23:58.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2923#issuecomment-2732086616",
+      "text": "@DraKen0009 @sainak I have updated the test to add a faulty value : \"  \" and changed to option.value.strip() so that the users cannot add any leading or trailing spaces. the tests are passing. Can you guys review it again. "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11358",
