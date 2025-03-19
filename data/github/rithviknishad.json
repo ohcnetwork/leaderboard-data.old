@@ -1,6 +1,42 @@
 {
-  "last_updated": "2025-03-18T13:31:04.000Z",
+  "last_updated": "2025-03-18T14:53:34.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2912",
+      "time": "2025-03-18T14:53:34.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2912",
+      "text": "Device: Adds `care_type` filter and remove `perform_action` handler",
+      "turnaround_time": 525082
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-18T14:50:53.000Z",
+      "title": "ohcnetwork/care_fe#11283",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11283#pullrequestreview-2694898399",
+      "text": "Fix : Country Selection Additional Click"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-10T06:27:15.000Z",
+      "title": "ohcnetwork/care_fe#11168",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11168#pullrequestreview-2669905122",
+      "text": "Fix: Edit Facility Button Size and tfunction for status"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_abdm_fe#14",
+      "time": "2025-03-18T14:29:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/14#issuecomment-2733463879",
+      "text": "@khavinshankar could you review this"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-18T14:28:19.000Z",
+      "title": "ohcnetwork/care_abdm_fe#14",
+      "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/14#pullrequestreview-2694808096",
+      "text": "Refactor health facility localization and update UI components"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-03-17T12:45:36.000Z",
@@ -1148,13 +1184,6 @@
       "time": "2025-03-10T06:28:56.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11168#issuecomment-2709559971",
       "text": "Have meaningful understandable titles and PR bodies. Hard for anyone to understand what's the end output and QA / @nihal467 to know what to test"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-10T06:27:15.000Z",
-      "title": "ohcnetwork/care_fe#11168",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11168#pullrequestreview-2669905122",
-      "text": "Fix: Edit Facility Button Size and tfunction for status"
     },
     {
       "type": "comment_created",
@@ -64333,13 +64362,14 @@
       "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review"
+        "needs review",
+        "P1"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10506",
       "title": "Improved global error handler; support for registering custom error handlers on component mount",
-      "stale_for": 17,
+      "stale_for": 18,
       "labels": [
         "merge conflict",
         "stale"

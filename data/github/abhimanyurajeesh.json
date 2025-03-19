@@ -1,6 +1,28 @@
 {
-  "last_updated": "2025-03-18T13:40:17.000Z",
+  "last_updated": "2025-03-18T14:58:18.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_abdm_fe#14",
+      "time": "2025-03-18T14:58:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/14",
+      "text": "Refactor health facility localization and update UI components",
+      "turnaround_time": 15242
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11373",
+      "time": "2025-03-18T14:34:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11373#issuecomment-2733480103",
+      "text": "I would like to work on this.\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11373",
+      "time": "2025-03-18T14:33:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11373",
+      "text": "Replace OTP Input Feild with shadcn Input OTP"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-03-13T07:21:43.000Z",
@@ -1781,9 +1803,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11391",
+      "title": "Refactor authentication components to use InputOTP",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11142",
       "title": "Fix: Enhance LocationMap with interactive features and tooltips",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs testing",
         "reviewed"
