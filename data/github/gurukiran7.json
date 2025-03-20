@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-18T10:39:40.000Z",
+  "last_updated": "2025-03-20T06:40:52.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11380",
+      "time": "2025-03-20T06:40:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11380#issuecomment-2739357765",
+      "text": "@bodhish , @Jacobjeevan Can you pls assign me the issue. Below is my approch \nThe back button in src/pages/PublicAppointments/auth/PatientLogin.tsx is missing the back icon. The <CareIcon icon=\"l-arrow-left\" className=\"h-4 w-4 mr-1\" /> should be added inside the <Button> component to maintain consistency with other back buttons in the application.\nETA:EOD"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11420",
+      "time": "2025-03-20T04:42:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11420#issuecomment-2739134569",
+      "text": "> Translations missing\r\n\r\nadded\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11420",
+      "time": "2025-03-20T03:12:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11420",
+      "text": "Replaced DateRangePicker with native input in AppointmentsPage (#11113)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11368",
@@ -212,6 +233,25 @@
       "text": "@nihal467, can I be assigned to this issue?"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11420",
+      "title": "Replaced DateRangePicker with native input in AppointmentsPage (#11113)",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10898",
+      "title": "Add Edit and See Details buttons for Location Sub-Groups (Close #10894)",
+      "stale_for": 0,
+      "labels": [
+        "invalid",
+        "changes required"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

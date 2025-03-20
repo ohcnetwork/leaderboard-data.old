@@ -1,6 +1,20 @@
 {
-  "last_updated": "2024-11-29T05:05:15.000Z",
+  "last_updated": "2025-03-20T08:39:10.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11259",
+      "time": "2025-03-20T08:39:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11259#issuecomment-2739594706",
+      "text": "Hi, I had a look at the code, and I would like to work on this.\n\nMy approach:\n\nSwitch from grid to flex display for the Coverage Card.\nEnsure Payor ID and Payor Name share the same row by default.\nIf Payor ID is too long, Payor Name will shift to the next line to accommodate the overflow while maintaining readability.\nUse Tailwind’s flex, flex-wrap, and min-w-0 utilities to manage wrapping and alignment.\nETA: 1 day"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11413",
+      "time": "2025-03-20T08:24:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11413#issuecomment-2739554052",
+      "text": "I propose converting the diagnoses table into a responsive card layout to improve readability on mobile devices. My approach involves the following steps:\n\nResponsive Layout with Tailwind CSS:\n\nUse flex and grid utilities to switch between a table on larger screens and cards on smaller screens using Tailwind's responsive breakpoints (e.g., sm:, md:, lg:).\n\nCard Design:\n\nEach diagnosis will be displayed as a card with the following fields:\n\nDiagnosis name (highlighted for emphasis)\nDate and status (in a smaller font or a badge for clarity)\nAny action buttons (if present) for quick interactions\n\nImplementation Plan:\n\nRefactor the table component to conditionally render either a table (for md: screens and above) or a card layout (for smaller screens).\nApply Tailwind’s hidden, block, and flex classes to toggle views efficiently.\nEnsure that sorting and filtering logic remains functional in both layouts.\nTesting:\n\nVerify the layout on common devices (iOS, Android, and desktops).\nEnsure no regression in features and maintain accessibility (e.g., aria-label for interactive elements).\nExpected Timeline:\nETA 1 day\n\nAdditional Context:\nI will ensure the new card layout adheres to the app’s design system and maintains a clean, user-friendly experience. Let me know if you have any specific design preferences or additional fields to include."
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#9196",

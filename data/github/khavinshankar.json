@@ -1,6 +1,54 @@
 {
-  "last_updated": "2025-03-19T22:18:04.000Z",
+  "last_updated": "2025-03-20T07:27:19.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11269",
+      "time": "2025-03-20T07:27:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11269#issuecomment-2739450878",
+      "text": "@nihal467 the not found issue should be fixed in this PR https://github.com/ohcnetwork/care/pull/2940.\r\n\r\nAnd about print questionnaire responses, doesn't print all the responses, but only the responses of that particular questionnaire type; The naming is bit confusing will update it to better one"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11027",
+      "time": "2025-03-20T07:21:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11027",
+      "text": "Enable medicine administration history to print"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11071",
+      "time": "2025-03-20T07:21:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11071",
+      "text": "Added print feature for medication administrations",
+      "turnaround_time": 1216048
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#11071",
+      "time": "2025-03-20T07:21:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11071",
+      "text": "Added print feature for medication administrations",
+      "collaborated_with": [
+        "khavinshankar",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T07:18:22.000Z",
+      "title": "ohcnetwork/care_fe#11367",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11367#pullrequestreview-2701420379",
+      "text": "Location Association Redesign"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2940",
+      "time": "2025-03-20T04:20:16.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2940",
+      "text": "Fixed 404 issue in questionnaire response retrieve endpoint",
+      "turnaround_time": 21731
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2940",
@@ -42221,10 +42269,9 @@
       "title": "Added consent creation flows",
       "stale_for": 0,
       "labels": [
+        "needs testing",
         "needs review",
-        "test failed",
-        "P1",
-        "merge conflict"
+        "P1"
       ]
     },
     {
@@ -42232,27 +42279,27 @@
       "title": "Added print feature for questionnaire responses",
       "stale_for": 0,
       "labels": [
+        "needs testing",
         "needs review",
-        "test failed",
         "P1"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 60,
+      "stale_for": 61,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 60,
+      "stale_for": 61,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 60,
+      "stale_for": 61,
       "labels": []
     }
   ],

@@ -40196,6 +40196,257 @@
         {
             "user": "U02TDGQQPMJ",
             "type": "message",
+            "ts": "1742490955.008859",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1742491164.000000"
+            },
+            "client_msg_id": "4036fe0a-ebab-4914-a289-a288feafd254",
+            "text": "*march 20th*\n\u2022 :headphones: w. <@U06CY7RUZ9S> on test deploying teleicu plug on prod.\n\u2022 added support showing camera in encounter based on presets in same location as encounter instead of associating camera to encounter (<https://github.com/ohcnetwork/care_teleicu_devices/commit/f7237bc934b242e0f91594ca64d7774881d94349|BE \u2197> | <https://github.com/10bedicu/care_teleicu_devices_fe/commit/4897c9706d08ac6c47f213957db8d3b14a39878b|FE \u2197>)\n\u2022 cursor somehow figured out multi-camera support per encounter, and it decided to add that as well along with that\n\u2022 added authzn. checks on APIs by teleicu plugs <https://github.com/ohcnetwork/care_teleicu_devices/commit/461936a081cbfaa930a899baa3434067545d8bd6|commit \u2197>\n\u2022 fixed gateway update issue <https://github.com/10bedicu/care_teleicu_devices_fe/commit/163b15c25cf33ac07b597f262387b86fe95e2800|commit \u2197>\n\u2022 fixed delete device not working <https://github.com/ohcnetwork/care/pull/2943|#2943 \u2197>\n\u2022 realized camera has a 30 min. lock if incorrect credentials given. updated to show the same in FE.\n\u2022 short :headphones: w. <@U02D0NA6RHR> on translations and wrote a script to get newly added translations that were not present in the sheet.\n\u2022 long :headphones: w. <@U022THM4U2U> and lots of other minor fixes made live while QA by <@U022THM4U2U> (more like, me listening to nihal, and translating it to cursor and cursor fixing it (only frontend)); finally mergable\u2026\n*next*\n\u2022 presets and camera config. migrations",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Kyc69",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "march 20th",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " w. "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U06CY7RUZ9S"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on test deploying teleicu plug on prod."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "added support showing camera in encounter based on presets in same location as encounter instead of associating camera to encounter ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_teleicu_devices/commit/f7237bc934b242e0f91594ca64d7774881d94349",
+                                            "text": "BE \u2197"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " | "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/10bedicu/care_teleicu_devices_fe/commit/4897c9706d08ac6c47f213957db8d3b14a39878b",
+                                            "text": "FE \u2197"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "cursor somehow figured out multi-camera support per encounter, and it decided to add that as well along with that"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "added authzn. checks on APIs by teleicu plugs "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_teleicu_devices/commit/461936a081cbfaa930a899baa3434067545d8bd6",
+                                            "text": "commit \u2197"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fixed gateway update issue "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/10bedicu/care_teleicu_devices_fe/commit/163b15c25cf33ac07b597f262387b86fe95e2800",
+                                            "text": "commit \u2197"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fixed delete device not working "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2943",
+                                            "text": "#2943 \u2197",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "realized camera has a 30 min. lock if incorrect credentials given. updated to show the same in FE."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "short "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " w. "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U02D0NA6RHR"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on translations and wrote a script to get newly added translations that were not present in the sheet."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "long "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " w. "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U022THM4U2U"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " and lots of other minor fixes made live while QA by "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U022THM4U2U"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " (more like, me listening to nihal, and translating it to cursor and cursor fixing it (only frontend)); finally mergable\u2026"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "presets and camera config. migrations"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
             "ts": "1742451410.290179",
             "client_msg_id": "c04fb4ba-5076-4c1e-be5f-f2d5a3c9337a",
             "text": "*march 19*\n\u2022 _not very productive, somewhat not feeling well\u2026_\n\u2022 added support for booking appointment on ongoing slot; but that wasn\u2019t needed until we have better understanding. <https://github.com/ohcnetwork/care/pull/2934|#2934>\n\u2022 long :headphones: w. <@U022THM4U2U> on testing teleicu plug;\n\u2022 made few fixes based on QA on teleicu plug; some more left before mergable;\n*next*\n\u2022 get done with remaining priority issues in teleicu plugs;\n\u2022 take some break once teleicu plugs are merged;\n\u2022 look into appointments/scheduling related issues",
@@ -40360,9 +40611,11 @@
                 {
                     "name": "sleeping_accommodation",
                     "users": [
-                        "U06L50QL1AQ"
+                        "U06L50QL1AQ",
+                        "U082GUAL80N",
+                        "U0576PEACG0"
                     ],
-                    "count": 1
+                    "count": 3
                 },
                 {
                     "name": "sleeping_accommodation::skin-tone-4",

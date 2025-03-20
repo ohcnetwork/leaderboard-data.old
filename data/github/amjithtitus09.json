@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-03-18T12:25:34.000Z",
+  "last_updated": "2025-03-20T09:18:25.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11275",
+      "time": "2025-03-20T09:18:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11275#issuecomment-2739695117",
+      "text": "> [@amjithtitus09](https://github.com/amjithtitus09) , that's backend throwing error\n\nYes, see if we can show a relevant message as toast. Need not spend much time on it though."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11275",
+      "time": "2025-03-20T08:47:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11275#issuecomment-2739613462",
+      "text": "> Hey @amjithtitus09 , Could you please share reproducing steps and ss for 2nd bug, as admin credentials are not available now, so setup backend locally with no data \n\n@AdityaJ2305 Try to get an error by submitting invalid questionnaire. Here I've tried to submit a choice question without choices.\n![image](https://github.com/user-attachments/assets/ee8d4ce6-54fd-4972-8b10-513d5448a1a5)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10883",
+      "time": "2025-03-20T08:40:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10883#issuecomment-2739598019",
+      "text": "> @amjithtitus09 could you kindly check if this works?\r\n\r\n@Sulochan-khadka Can you explain the change you have done? What do you think about removing the button for the ones with the slug equal to slug in the url?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11227",
+      "time": "2025-03-20T05:02:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11227#issuecomment-2739156297",
+      "text": "@shivankacker Can you check why the build is failing?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11251",
@@ -1933,17 +1961,8 @@
       "title": "Location Association Redesign",
       "stale_for": 0,
       "labels": [
-        "needs testing"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11251",
-      "title": "Encounter Quick Access - New Questionnaire",
-      "stale_for": 0,
-      "labels": [
-        "tested",
-        "P1",
-        "reviewed"
+        "needs testing",
+        "needs review"
       ]
     }
   ],

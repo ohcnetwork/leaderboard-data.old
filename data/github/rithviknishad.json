@@ -1,6 +1,45 @@
 {
-  "last_updated": "2025-03-19T15:33:07.000Z",
+  "last_updated": "2025-03-20T09:18:36.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-08T09:59:24.000Z",
+      "title": "ohcnetwork/care_fe#11044",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11044#pullrequestreview-2669085606",
+      "text": "Fixes Issue #11009:  Changes in the code to disable adding exceptions before date"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T07:23:24.000Z",
+      "title": "ohcnetwork/care_fe#11354",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11354#pullrequestreview-2701543660",
+      "text": "chore(deps): update dependency @react-scan/vite-plugin-react-scan to v0.1.8"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T07:22:35.000Z",
+      "title": "ohcnetwork/care_fe#11412",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11412#pullrequestreview-2701541848",
+      "text": "chore(deps): update all dependencies (minor, patch)"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#11071",
+      "time": "2025-03-20T07:21:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11071",
+      "text": "Added print feature for medication administrations",
+      "collaborated_with": [
+        "khavinshankar",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T06:47:36.000Z",
+      "title": "ohcnetwork/care_fe#11423",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11423#pullrequestreview-2701465085",
+      "text": "Fixed code unverified bug in Valueset editor"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11405",
@@ -1310,13 +1349,6 @@
       "time": "2025-03-08T11:07:54.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/11132#issuecomment-2708212867",
       "text": "@motaboii you can ignore the devices page location history thing as it's already fixed in #11138"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-08T09:59:24.000Z",
-      "title": "ohcnetwork/care_fe#11044",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11044#pullrequestreview-2669085606",
-      "text": "Fixes Issue #11009:  Changes in the code to disable adding exceptions before date"
     },
     {
       "type": "pr_reviewed",
@@ -64366,7 +64398,8 @@
       "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review"
+        "needs review",
+        "P1"
       ]
     },
     {
@@ -64375,8 +64408,8 @@
       "stale_for": 0,
       "labels": [
         "needs review",
-        "P1",
-        "changes required"
+        "tested",
+        "P1"
       ]
     },
     {

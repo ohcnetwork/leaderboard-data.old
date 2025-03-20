@@ -1,6 +1,69 @@
 {
-  "last_updated": "2025-03-19T19:04:51.000Z",
+  "last_updated": "2025-03-20T08:37:04.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11136",
+      "time": "2025-03-20T08:37:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11136#issuecomment-2739590127",
+      "text": "@Jacobjeevan @khavinshankar I have resolved the merge conflicts. @nihal467 to test and merge"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11136",
+      "time": "2025-03-20T08:34:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11136#issuecomment-2739582639",
+      "text": "@nihal467 can you test this and merge"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11358",
+      "time": "2025-03-20T07:39:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11358#issuecomment-2739469610",
+      "text": "@rithviknishad did you find the root cause???"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11423",
+      "time": "2025-03-20T07:10:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11423#issuecomment-2739415331",
+      "text": "@rithviknishad committed"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2923",
+      "time": "2025-03-20T06:35:40.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2923#issuecomment-2739351302",
+      "text": "@sainak can you re run it again"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2936",
+      "time": "2025-03-20T06:35:00.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2936#issuecomment-2739350504",
+      "text": "@sainak can you re run the lint checks and verify. I made changes to the code"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11423",
+      "time": "2025-03-20T06:28:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11423#issuecomment-2739341904",
+      "text": "@Jacobjeevan @rithviknishad conceptIndex=0 was causing the problem. Small one though.... fixed it. Can I get a review"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11423",
+      "time": "2025-03-20T06:26:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11423",
+      "text": "Fixed code unverified bug in Valueset editor"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11399",
+      "time": "2025-03-20T05:15:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11399#issuecomment-2739176448",
+      "text": "@rithviknishad @Jacobjeevan no need of any backend changes just pass a field for email in Edit User form and send it through the backend. I can take this up ETA:EOD"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11400",
@@ -3368,43 +3431,34 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2936",
-      "title": "Added Backend Validations for preventing Entry of Death Date Before Birth Date in Patient Form",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2923",
-      "title": "Added a Backend validation for not allowing users to submit questions with empty custom choice options",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11315",
       "title": "Fixed a condition for grouped fields not visible properly in Questionnaire responses",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "changes required",
         "merge conflict"
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11136",
-      "title": "Minor UI enhancements in Questionniares and Valuesets list pages",
-      "stale_for": 0,
-      "labels": [
-        "tested",
-        "reviewed"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/docs/pull/100",
       "title": "Added CEP for Patient Tagging system",
-      "stale_for": 43,
+      "stale_for": 44,
       "labels": []
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2933",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2936"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2930",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2923"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11131",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11136"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10763",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10838"

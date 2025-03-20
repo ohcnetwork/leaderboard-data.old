@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-17T11:17:34.000Z",
+  "last_updated": "2025-03-20T04:24:42.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11335",
+      "time": "2025-03-20T04:24:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11335#issuecomment-2739111591",
+      "text": "@rithviknishad i want to work on this issue my approach \nApproach:\nCheck for Updates on Login:\n\nFetch the latest app version from the backend.\nCompare it with the locally stored version.\nIf a new version is detected, show a banner with an \"Update Now\" button.\nSeamless Update Process:\n\nClicking \"Update Now\" will reload the app with the latest version.\nUse service workers or cache-busting strategies to ensure the latest assets load.\nSync Across Open Tabs:\n\nUse the BroadcastChannel API to notify all tabs when an update is triggered in any tab.\nAll other tabs will reload automatically to apply the update.\nExpected Timeline\nEnd date: Saturday "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11099",

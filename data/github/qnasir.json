@@ -1,0 +1,42 @@
+{
+  "last_updated": "2025-03-20T08:12:57.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11290",
+      "time": "2025-03-20T08:12:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11290#issuecomment-2739527038",
+      "text": "I will fix the search issue for 'India' in the country selection dropdown to ensure it works as expected. My approach includes:\n\nInvestigating the Root Cause:\nChecking how the search is implemented (e.g., case sensitivity, sorting order, filtering logic).\nIdentifying whether the issue is due to API response, frontend filtering, or database ordering.\nImplementing Fixes:\nEnsuring 'India' appears at the top when searched.\nImproving search logic to handle special cases.\nChecking for inconsistent data formats or ranking issues in search results.\nTesting:\nVerifying that 'India' appears correctly in the search results.\nEnsuring no unintended side effects on other country searches.\nExpected Timeline:\n📅 End date: 3 days\n\nAdditional Context:\n\nI will align the fix with the project’s existing search behavior.\nOpen to feedback or alternative approaches if required.\nLooking forward to your approval! 🚀"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11380",
+      "time": "2025-03-20T08:09:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11380#issuecomment-2739520600",
+      "text": "I will add a Back icon to the Back button to improve usability and visual clarity. My approach includes:\n\nIdentifying Button Implementation: Checking if the button is using a standard HTML <button>, a UI framework (e.g., Material-UI, Bootstrap), or a custom component.\nAdding Back Icon:\nUsing an appropriate icon library (e.g., FontAwesome, Material Icons) or an SVG for consistency.\nPlacing the icon before the text label for better UX.\nEnsuring proper alignment and spacing with CSS.\nTesting:\nVerifying that the icon appears correctly on different screen sizes.\nEnsuring that adding the icon does not break existing button functionality.\nExpected Timeline:\n📅 End date: 1 day\n\nAdditional Context:\n\nI will follow the project's existing UI/UX patterns for consistency.\nOpen to suggestions on icon style (e.g., arrow, chevron, or standard back icon).\nLooking forward to your approval! 🚀"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11406",
+      "time": "2025-03-20T08:07:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11406#issuecomment-2739516370",
+      "text": "I will remove the tooltips on the 'See Details' and 'Expand All' buttons to ensure they do not appear on hover. My approach includes:\n\nIdentifying Tooltip Implementation: Checking if tooltips are added via HTML attributes (title), a UI library, or custom JavaScript.\nRemoving Tooltips:\nIf using title, I will remove it from the button elements.\nIf using a UI library (e.g., Material-UI, Bootstrap), I will update the component configuration.\nIf added via JavaScript, I will modify the logic to prevent tooltip rendering.\nTesting: Verifying that tooltips no longer appear while ensuring button functionality remains intact.\nExpected Timeline:\n📅 End date: 3 days\n\nAdditional Context:\n\nI will ensure consistency with the project's design guidelines.\nOpen to feedback and alternative approaches if required.\nLooking forward to your approval! 🚀\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11259",
+      "time": "2025-03-20T08:04:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11259#issuecomment-2739510510",
+      "text": "I will fix the text overflow issue in the Coverage Card by ensuring long Payor IDs wrap correctly and remain readable. My approach includes:\n\nCSS Fix: Implementing word-wrap: break-word; or overflow-wrap: break-word; to prevent text overflow.\nResponsive Styling: Adjusting max-width, white-space, and text-overflow properties for better text handling.\nTesting: Ensuring the fix works across different screen sizes and browsers without breaking UI consistency.\nExpected Timeline:\n📅 End date: [Mention your expected completion date]\n\nAdditional Context:\n\nI will verify the fix on multiple test cases with varying Payor ID lengths.\nOpen to feedback and adjustments to align with project design guidelines.\nLooking forward to your approval! 🚀"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11401",
+      "time": "2025-03-20T07:55:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11401#issuecomment-2739494991",
+      "text": "I plan to enhance the device cards UI in the Devices tab by improving visual consistency, responsiveness, and usability. My approach includes:\n\nUI Improvements: Refining card layout, spacing, and typography for better readability.\nResponsive Design: Ensuring cards adjust well across different screen sizes using CSS Grid/Flexbox.\nInteractivity Enhancements: Adding hover effects, better alignment, and potential tooltips for key information.\nPerformance Optimization: Ensuring minimal re-renders and efficient DOM updates to keep UI smooth.\nExpected Timeline:\n📅 3 Days from assigned date\n\nAdditional Context:\n\nI will follow the project’s existing design patterns for consistency.\nIf needed, I will share design mockups before final implementation.\nOpen to feedback and suggestions to align with project goals.\nLooking forward to your approval! 🚀\n\n"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}
