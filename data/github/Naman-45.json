@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-03-18T22:32:00.000Z",
+  "last_updated": "2025-03-19T21:22:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10871",
+      "time": "2025-03-19T21:22:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10871#issuecomment-2738150518",
+      "text": "> You’re filtering from the first 14 items, right? That won’t guarantee the first 14 active ones. For example, if the fetch returns 10 active and 4 entered_in_error, you’ll only display those 10 active ones, even though more active items exist but weren’t included in the initial request.\r\n\r\nI also have the same doubt, hence I asked the following\r\n\r\n![Screenshot From 2025-03-20 02-49-45](https://github.com/user-attachments/assets/1b20e6cb-0589-4081-b2a5-91c9d519ec0e)\r\n\r\nand @Jacobjeevan asked to display only 14 entries..\r\n\r\n![Screenshot From 2025-03-20 02-50-12](https://github.com/user-attachments/assets/5e5dfdc2-0083-43d8-ae16-10c658647e73)\r\n\r\n![Screenshot From 2025-03-20 02-51-46](https://github.com/user-attachments/assets/e3ed4692-d8db-4aef-b352-bcca6ada56f4)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10871",
+      "time": "2025-03-19T21:18:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10871#issuecomment-2738141497",
+      "text": "> You’re filtering from the first 14 items, right? That won’t guarantee the first 14 active ones. For example, if the fetch returns 10 active and 4 entered_in_error, you’ll only display those 10 active ones, even though more active items exist but weren’t included in the initial request.\r\n\r\nI also have the same doubt - \r\n\r\nhttps://github.com/ohcnetwork/care_fe/pull/10871/#issuecomment-2722059672"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11419",
+      "time": "2025-03-19T21:13:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11419",
+      "text": "Add option to edit clinical status while creating new allergy or editing an existing one"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11419",
+      "time": "2025-03-19T21:13:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11419#issuecomment-2738127759",
+      "text": "Oh my bad :("
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11419",
+      "time": "2025-03-19T21:05:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11419#issuecomment-2738112185",
+      "text": "@Jacobjeevan Could you please assign this issue to me, would like to work on this.\n\nWill add an option to edit clinical status while adding new or editing existing allergy via dropdown option.\n\nETA:  2 days."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11419",
+      "time": "2025-03-19T21:05:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11419",
+      "text": "Add option to edit clinical status while creating new allergy or editing an existing one"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10871",
+      "time": "2025-03-19T20:54:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10871#issuecomment-2738088428",
+      "text": "> > @Naman-45, we need to display the first 14 active items in the overview section tables. With the current implementation, it’s fetching 14 items in total, not specifically 14 active ones. correct me if i'm wrong\r\n> \r\n> We are displaying only active entries in the overview section, as you can see in the below screen shot, by default i.e; in the overview section hideFullViewButton is false and when the dialog pops up hideFullViewButton prop is passed as true. ![Screenshot From 2025-03-20 02-14-31](https://private-user-images.githubusercontent.com/126798758/424690637-cdca52a9-b1c6-43de-a5c3-7074cbd81b21.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0MTc2MDIsIm5iZiI6MTc0MjQxNzMwMiwicGF0aCI6Ii8xMjY3OTg3NTgvNDI0NjkwNjM3LWNkY2E1MmE5LWIxYzYtNDNkZS1hNWMzLTcwNzRjYmQ4MWIyMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMxOVQyMDQ4MjJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hODNmODE0MWJmYTE4NjdmZGE2NDU4MGQ4ZTQwODk0NDBkNzk3YjkwOThhZGZkNzlkOWUwOGQwZTE5MGZlNGExJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.sOuhjmHpYfNn3CWNKdOzvUU2BWL-wcFrSKORvu3HUgA)\r\n\r\nAlso change previous nomenclature of dialog popup prop from hideFullViewButton -> dialogView"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10871",
+      "time": "2025-03-19T20:47:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10871#issuecomment-2738074575",
+      "text": "> @Naman-45, we need to display the first 14 active items in the overview section tables. With the current implementation, it’s fetching 14 items in total, not specifically 14 active ones. correct me if i'm wrong\r\n\r\nWe are only displaying active entries only in the overview section, as you can see in the below screen shot, by default i.e; in the overview section hideFullViewButton is false and when the dialog pops up hideFullViewButton prop is passed as true.\r\n![Screenshot From 2025-03-20 02-14-31](https://github.com/user-attachments/assets/cdca52a9-b1c6-43de-a5c3-7074cbd81b21)\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10871",
