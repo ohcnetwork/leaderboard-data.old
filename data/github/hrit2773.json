@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-03-18T13:58:48.000Z",
+  "last_updated": "2025-03-19T19:04:51.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11400",
+      "time": "2025-03-19T19:04:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11400#issuecomment-2737733226",
+      "text": "@rithviknishad If this is valid can I take this up?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2923",
+      "time": "2025-03-19T18:00:15.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2923#issuecomment-2737565934",
+      "text": "> @hrit2773 lint error\r\n\r\nfixed"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2839",
+      "time": "2025-03-19T17:03:17.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2839#issuecomment-2737415024",
+      "text": "@vigneshhari Once you import the code into the SNOMED do let me know I will proceed further"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2936",
+      "time": "2025-03-19T16:28:00.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2936#issuecomment-2737298976",
+      "text": "will fix it"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care#2923",
@@ -3330,6 +3358,65 @@
       "text": "Soft delete assets from deleted facilities/hospitals"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2936",
+      "title": "Added Backend Validations for preventing Entry of Death Date Before Birth Date in Patient Form",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2923",
+      "title": "Added a Backend validation for not allowing users to submit questions with empty custom choice options",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11315",
+      "title": "Fixed a condition for grouped fields not visible properly in Questionnaire responses",
+      "stale_for": 0,
+      "labels": [
+        "changes required",
+        "merge conflict"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11136",
+      "title": "Minor UI enhancements in Questionniares and Valuesets list pages",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "merge conflict",
+        "reviewed"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/100",
+      "title": "Added CEP for Patient Tagging system",
+      "stale_for": 43,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10763",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10838"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10720",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10741"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10668",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10684"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10620",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10636"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10600",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10619"
+    }
+  ]
 }
