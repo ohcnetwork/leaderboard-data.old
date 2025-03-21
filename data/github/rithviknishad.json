@@ -1,6 +1,154 @@
 {
-  "last_updated": "2025-03-20T09:18:36.000Z",
+  "last_updated": "2025-03-20T13:34:48.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11430",
+      "time": "2025-03-20T13:34:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11430#issuecomment-2740479513",
+      "text": "simply telling the schema to have the field as a required field would be sufficient "
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2943",
+      "time": "2025-03-20T13:22:29.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2943",
+      "text": "Call `handle_delete` instead of `handle_update` when deleting device",
+      "turnaround_time": 528
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11116",
+      "time": "2025-03-20T13:14:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11116#issuecomment-2740420267",
+      "text": "> * Bring back custom preset in the patient page and default preset in asset page\r\n\r\nPresets in encounter is now shown; The camera automatically moves to the first preset of that camera for that given location;\r\n\r\n> * moving toaster to understand the request in processing *\r\nadded response feedback within the controls itself when a move is triggered;\r\n\r\n> * multiple patients cannot be assign same camera\r\nsolved; camera feed is now shown based on location, if preset is configured for that encounter's location (bed).\r\n\r\nAlso, now supports multiple cameras per encounter if multiple cameras has presets for the same location.\r\n\r\n<img width=\"869\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b0e51b71-e075-41f6-846a-1f69aa2e0ec3\" />\r\n\r\n> * move all the button and bed to right side in the camera preview (Optional)\r\ncan be taken up separately\r\n\r\n> * Status ping is going on a loop outside the config page *\r\nresolved;\r\n\r\n> * deleting any device is not working *\r\nresolved in backend change: https://github.com/ohcnetwork/care/pull/2943\r\n\r\n> * unable to update a existing device details without touching the gateway dropdown *\r\npending\r\n\r\n> * unable to unlink a device *\r\nskipping this in this PR; will be done as follow-up;\r\n\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2943",
+      "time": "2025-03-20T13:13:42.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2943",
+      "text": "Call `handle_delete` instead of `handle_update` when deleting device"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T11:17:12.000Z",
+      "title": "ohcnetwork/care_fe#11393",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11393#pullrequestreview-2702233689",
+      "text": "Fix non-responsiveness of org patients and org facilities"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T11:15:35.000Z",
+      "title": "ohcnetwork/care_fe#10927",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10927#pullrequestreview-2702229413",
+      "text": "Fix: Search is not working in facility departmental section"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11210",
+      "time": "2025-03-20T11:11:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11210",
+      "text": "Add loading state to questionnaire dashboard for mobile view"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11131",
+      "time": "2025-03-20T11:11:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11131",
+      "text": "Valuesets list page has no proper Empty State"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T10:49:25.000Z",
+      "title": "ohcnetwork/care_fe#11136",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11136#pullrequestreview-2702114163",
+      "text": "Minor UI enhancements in Questionniares and Valuesets list pages"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11424",
+      "time": "2025-03-20T11:09:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11424",
+      "text": "Style the noscript fallback in CARE"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11129",
+      "time": "2025-03-20T10:54:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11129#issuecomment-2739947152",
+      "text": "the bug still exists!\r\n\r\n<img width=\"518\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5ddbdd21-f63c-4f6d-a229-88eacb932808\" />\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T10:47:48.000Z",
+      "title": "ohcnetwork/care_fe#11037",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11037#pullrequestreview-2702110452",
+      "text": "Retain sidebar collapse state on reload"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T10:46:16.000Z",
+      "title": "ohcnetwork/care_fe#11251",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11251#pullrequestreview-2702106847",
+      "text": "Encounter Quick Access - New Questionnaire"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10971",
+      "time": "2025-03-20T10:45:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10971",
+      "text": "BUG: alignment issue for view details button in encounter list"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-04T04:16:30.000Z",
+      "title": "ohcnetwork/care_fe#10992",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10992#pullrequestreview-2655882829",
+      "text": "fix:alignment issue for view details button in encounter list"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T10:43:42.000Z",
+      "title": "ohcnetwork/care_fe#11088",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11088#pullrequestreview-2702100216",
+      "text": "Redesigned public page as per the figma design"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10848",
+      "time": "2025-03-20T10:23:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10848",
+      "text": "Auto-Expanding Comment Box"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-01T05:01:33.000Z",
+      "title": "ohcnetwork/care_fe#10900",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10900#pullrequestreview-2652249413",
+      "text": "Replaced headlessui popover with shadcn popover in UpdatableApp"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T10:18:45.000Z",
+      "title": "ohcnetwork/care_fe#11427",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11427#pullrequestreview-2702034370",
+      "text": "Handle Cypress test flakiness in encounter"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T10:00:13.000Z",
+      "title": "ohcnetwork/care_fe#11420",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11420#pullrequestreview-2701973361",
+      "text": "Replaced DateRangePicker with native input in AppointmentsPage (#11113)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T09:55:51.000Z",
+      "title": "ohcnetwork/care_fe#11426",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11426#pullrequestreview-2701959420",
+      "text": "fix: style error message when javascript is blocked"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-03-08T09:59:24.000Z",
@@ -1777,13 +1925,6 @@
       "text": "Patient Questionnaire: Org Access"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-03-01T05:01:33.000Z",
-      "title": "ohcnetwork/care_fe#10900",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10900#pullrequestreview-2652249413",
-      "text": "Replaced headlessui popover with shadcn popover in UpdatableApp"
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11025",
       "time": "2025-03-05T07:11:06.000Z",
@@ -2088,13 +2229,6 @@
       "time": "2025-03-04T04:18:06.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10991#issuecomment-2696149465",
       "text": "This is not needed;"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-04T04:16:30.000Z",
-      "title": "ohcnetwork/care_fe#10992",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10992#pullrequestreview-2655882829",
-      "text": "fix:alignment issue for view details button in encounter list"
     },
     {
       "type": "pr_reviewed",
@@ -64399,16 +64533,6 @@
       "labels": [
         "needs testing",
         "needs review",
-        "P1"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11116",
-      "title": "Adds support for device plugins",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "tested",
         "P1"
       ]
     },

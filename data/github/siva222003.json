@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-18T18:27:55.000Z",
+  "last_updated": "2025-03-20T11:10:44.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11154",
+      "time": "2025-03-20T11:10:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11154#issuecomment-2740011354",
+      "text": "Hey @nihal467, could you please review this PR? It's been open for a while, and conflicts are coming up frequently."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11124",
+      "time": "2025-03-20T10:29:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11124#issuecomment-2739887716",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/424904423-330cd0c8-b1d8-4617-848a-03cd3413aaf9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0NjY3MDQsIm5iZiI6MTc0MjQ2NjQwNCwicGF0aCI6Ii81NzA1NTk5OC80MjQ5MDQ0MjMtMzMwY2QwYzgtYjFkOC00NjE3LTg0OGEtMDNjZDM0MTNhYWY5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIwVDEwMjY0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE5ZjEyY2E3MzdkNDI4NmU0OWQ5ZTAxNGI0NmVjNGMwNzQzOWEyOWU5ODBhOWM0OTg2NjI5ZWEwZjY4MWQ4YjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.29iK7nZFEMYW23sL6SqAcJq1DsXXW2frbKHmPEQ-elw) ![image](https://private-user-images.githubusercontent.com/57055998/424904535-69578a82-9e4b-40d1-bb9e-fc1c4ea0080e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0NjY3MDQsIm5iZiI6MTc0MjQ2NjQwNCwicGF0aCI6Ii81NzA1NTk5OC80MjQ5MDQ1MzUtNjk1NzhhODItOWU0Yi00MGQxLWJiOWUtZmMxYzRlYTAwODBlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIwVDEwMjY0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMxN2ViMTEyMzRkNjE0NTVkYTdkNjU1MzA5MmM3MTM4YzU3OWFmYWI4MDQ5MTE4YWEyMjkzNGEzZTljNDVmMWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.72s49z65xhwAHoBzZzkojmIsomoh-gSYeSkDy0p9WFc)\r\n> \r\n> @siva222003 the UI is breaking due to your PR, the develop is working well. So fix it\r\n\r\n@nihal, no, the `OrganizationLayout` was not responsive when I raised this PR, but it was later fixed by a different PR that got merged. So, you are not facing any issues in `develop` now. I've pushed my branch with all the latest changes, and it's working fine. Please check.\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11381",
@@ -470,7 +484,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11343",
       "title": "feat: show unsupported browser warning on all pages",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"
@@ -479,7 +493,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11313",
       "title": "fix(medication): add indication for inactive medication requests",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs testing",
         "needs review"
@@ -488,7 +502,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11154",
       "title": "Test: Add cypress tests for encounter notes",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "question",
         "needs-triage"
@@ -499,8 +513,8 @@
       "title": "Add Breadcrumbs for Organization View in Organization Layout",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "tested",
+        "reviewed"
       ]
     }
   ],
