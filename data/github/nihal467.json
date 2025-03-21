@@ -1,6 +1,28 @@
 {
-  "last_updated": "2025-03-20T10:46:38.000Z",
+  "last_updated": "2025-03-20T17:22:23.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11438",
+      "time": "2025-03-20T17:22:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11438",
+      "text": "Added API Intercept to the encounter cypress test",
+      "turnaround_time": 364
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11438",
+      "time": "2025-03-20T17:16:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11438",
+      "text": "Added API Intercept to the encounter cypress test"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11116",
+      "time": "2025-03-20T16:57:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11116#issuecomment-2741112330",
+      "text": "Conditionally approving it based on priority and not testing in mobile since they are not fully optimized\r\n\r\nFollowing-things to be taken up later **CURRENTLY UNDER CORE TEAM REVIEW, AND will be unlocked after triaging**\r\n\r\n- IP for a camera should be unique per facility\r\n- In-use devices shouldn't be allowed to delete\r\n- Toaster notification should be shown wherever seem necessary for devices\r\n- Add proper translation of devices tab in encounter\r\n- Show Device Type in the Heading of the device creation\r\n- Once a encounter is complete, refresh the state of the devices section to show all the association are disengaged\r\n- Add test ping support in device config page for HL7 and camera\r\n- Add a fine text for preset name field mentioning advisable character limit\r\n- Preset Location modification should be allowed (Dont work on this until a user requirement is raised)\r\n- Show connection strength in the camera feed and bring the the reset button as well\r\n- Dont sort the preset in the camera config page whenever their in a name updation "
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#11251",
@@ -55356,7 +55378,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11036",
       "title": "New cypress test for facility devices",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "merge conflict"
       ]

@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-03-20T09:01:00.000Z",
+  "last_updated": "2025-03-20T18:24:49.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11287",
+      "time": "2025-03-20T18:24:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11287#issuecomment-2741320369",
+      "text": "@amjithtitus09, wouldn’t this make the code more complex with multiple if-else conditions? Should I reach out to Prafful to check how backend errors are handled?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11287",
+      "time": "2025-03-20T18:14:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11287#issuecomment-2741296807",
+      "text": "\r\n<img width=\"458\" alt=\"Screenshot 2025-03-20 at 11 39 19 PM\" src=\"https://github.com/user-attachments/assets/64311be7-b5e2-4880-8eaa-5cb93a4ac535\" />"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11275",
+      "time": "2025-03-20T18:11:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11275#issuecomment-2741290523",
+      "text": "@amjithtitus09  done"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11275",
+      "time": "2025-03-20T17:48:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11275#issuecomment-2741237718",
+      "text": "I deleted that comment 😅 , I was like let me try first"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11275",
+      "time": "2025-03-20T17:42:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11275#issuecomment-2741223268",
+      "text": "@amjithtitus09 , here it is global error, we can use onError specifically for this one . what do you think ? "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11430",
+      "time": "2025-03-20T17:40:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11430#issuecomment-2741218757",
+      "text": "<img width=\"322\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/8756d27a-7301-4f67-bb1e-508f0344ca1f\" />\n\n@Harsh-D-2004, I’m unable to reproduce this issue. It looks like you’re trying to edit an old account where the gender field is an empty string.\n\ncc: @rithviknishad  @Jacobjeevan "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11275",
+      "time": "2025-03-20T17:34:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11275#issuecomment-2741204773",
+      "text": "> > [@amjithtitus09](https://github.com/amjithtitus09) , that's backend throwing error\n> \n> Yes, see if we can show a relevant message as toast. Need not spend much time on it though.\n\nI think we should add frontend validations for QuestionEditor. Since I’m not aware of all the required validations (only know about choice questions), we can create a separate issue for it. This issue mainly focuses on minor bugs. If you agree, please do edit the issue description otherwise it could be confusing for reviewers and testing "
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-03-20T09:01:00.000Z",
@@ -5653,24 +5702,17 @@
       "title": "Added Frontend Validations in Questionnaire Editor using React hook form and zod ",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "changes required",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11342",
       "title": "Fix: Replacing React DatePicker and Date time picker with Input comp to get default picker ",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "invalid",
         "changes required"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11302",
-      "title": "Remove duplicate addition for symptoms and diagnosis",
-      "stale_for": 1,
-      "labels": [
-        "needs testing"
       ]
     },
     {
@@ -5685,7 +5727,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11168",
       "title": "Modified styling for edit facility button and added translations for medication status",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "changes required"
       ]
@@ -5702,7 +5744,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11068",
       "title": "Cypress test for resources",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review"
@@ -5713,8 +5755,9 @@
       "title": "Fix: Minor UI Enhancement in questionnaire",
       "stale_for": 0,
       "labels": [
+        "needs testing",
         "needs review",
-        "tested"
+        "merge conflict"
       ]
     },
     {
@@ -5722,8 +5765,7 @@
       "title": "Fix: Search is not working in facility departmental section",
       "stale_for": 0,
       "labels": [
-        "needs review",
-        "tested"
+        "changes required"
       ]
     }
   ],
@@ -5731,6 +5773,10 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11327",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11328"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11299",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11302"
     },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11128",
@@ -5835,10 +5881,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9770",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9708"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/569",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/570"
     }
   ]
 }

@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-03-15T10:37:08.000Z",
+  "last_updated": "2025-03-20T18:34:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11441",
+      "time": "2025-03-20T18:34:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11441#issuecomment-2741340586",
+      "text": "yes sir already solved in that \n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11441",
+      "time": "2025-03-20T17:42:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11441#issuecomment-2741223826",
+      "text": "Hi @Jacobjeevan @nihal467 @rithviknishad,\n\nI'd like to work on this issue if it's valid. My approach is to check user permissions before rendering the 'Add Faculty' button. If the user lacks permission, the button will either be hidden or disabled with a tooltip. \n\nExpected completion: 22 March .\nPlease assign me this issue if valid. \nThanks"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11441",
+      "time": "2025-03-20T17:39:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11441",
+      "text": "Hide \"Add Faculty\" Button for Users Without Permission"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11193",
+      "time": "2025-03-20T17:33:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11193#issuecomment-2741202540",
+      "text": "Hi @Jacobjeevan @rithviknishad @nihal467,\n\nIf this issue is still open could you please assign this issue to me? \n\nBest Regards, \nGurdeep Singh"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11262",
+      "time": "2025-03-20T17:28:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11262#issuecomment-2741189611",
+      "text": "Hi @rithviknishad @nihal467 @Jacobjeevan \n\nIf this issue is still open can i work on this issue ?\n\nBest Regards, \nGurdeep Singh"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11437",
+      "time": "2025-03-20T17:14:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11437#issuecomment-2741155204",
+      "text": "ok sir\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11437",
+      "time": "2025-03-20T16:56:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11437#issuecomment-2741110998",
+      "text": "Hi @rithviknishad, @Jacobjeevan, @nihal467,\n\nI would like to work on this issue. Here’s my proposed solution:\n\nProposed Solution:\nAdjust CSS styles – Ensure that the text inside the cards is wrapped properly using word-wrap: break-word; and text-overflow: ellipsis where necessary.\nResponsive Design Fixes – Implement proper flex/grid adjustments and media queries to optimize card layout for tablet screens.\nTesting & Verification – Test across multiple screen sizes (both portrait and landscape tablet views) to confirm the fix works as expected.\nExpected Timeline:\nI can submit a pull request by March 21 or earlier.\n\nPlease assign me this task if everything looks good. Looking forward to contributing!\n\nBest,\nGurdeep Singh"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11437",
+      "time": "2025-03-20T16:54:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11437",
+      "text": "Adjust patients and facilities cards responsiveness"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11306",
@@ -44,6 +100,15 @@
       "text": "Comment on Issue #11272 – Adjust Organization Users Cards for Tablet\n\nHi @rithviknishad, @Jacobjeevan,\n\nI would like to work on this issue. Here’s my proposed solution:\n\nProposed Solution:\nAdjust CSS styles – Ensure that the text inside the user cards is wrapped properly using word-wrap: break-word;, overflow: hidden;, and text-overflow: ellipsis where necessary.\nResponsive Design Fixes – Implement proper flex/grid adjustments and media queries to optimize card layout for tablet screens.\nTesting & Verification – Test across multiple screen sizes (both portrait and landscape tablet views) to confirm the fix works as expected.\nExpected Timeline:\nI can submit a pull request by March 14th or earlier.\n\nPlease assign me this task if everything looks good. Looking forward to contributing!\n\nBest,\nGurdeep Singh"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11306",
+      "title": "Fixes for OrganizationUsers.tsx component responsiveness #11272",
+      "stale_for": 0,
+      "labels": [
+        "changes required"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

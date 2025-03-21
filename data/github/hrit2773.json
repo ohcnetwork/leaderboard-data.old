@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-20T12:57:29.000Z",
+  "last_updated": "2025-03-20T16:34:47.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11433",
+      "time": "2025-03-20T16:34:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11433#issuecomment-2741052931",
+      "text": "@Rishith25 edit and delete functiionalities in departments and location I once opened an issue on this but got closed as re designs were happening so I was suggested to not take it. Not sure if its valid at this point in time. cc @rithviknishad @Jacobjeevan if its valid can I get it assigned as I opened an issue first. 😄"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care#2936",
@@ -3447,20 +3454,32 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11447",
+      "title": "Added option for specifying Question unit in Questionnaire Editor",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11423",
       "title": "Fixed code unverified bug in Valueset editor",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing",
+        "needs review",
+        "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11315",
       "title": "Fixed a condition for grouped fields not visible properly in Questionnaire responses",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
+        "question",
         "changes required",
-        "merge conflict"
+        "needs-triage"
       ]
     },
     {
