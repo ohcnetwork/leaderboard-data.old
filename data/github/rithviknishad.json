@@ -1,6 +1,91 @@
 {
-  "last_updated": "2025-03-22T08:08:06.000Z",
+  "last_updated": "2025-03-22T16:47:19.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11469",
+      "time": "2025-03-22T16:47:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11469",
+      "text": "feat: show user phone number in LinkUserSheet component"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11468",
+      "time": "2025-03-22T16:27:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11468",
+      "text": "Update ml translations"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T18:26:15.000Z",
+      "title": "ohcnetwork/care_fe#11435",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11435#pullrequestreview-2703715754",
+      "text": "Removed close button and fixed clicking outside issues in Duplicate Warning Message"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11401",
+      "time": "2025-03-22T15:31:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11401#issuecomment-2745321698",
+      "text": "Also what if we need to filter by location and also want to search by name inside that location at the same time? 🤔 \n\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_teleicu_devices#4",
+      "time": "2025-03-22T13:56:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices/issues/4",
+      "text": "Camera Stream Authentication"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_teleicu_devices#3",
+      "time": "2025-03-22T13:55:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices/issues/3",
+      "text": "Switch to WebRTC for streaming"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_teleicu_devices_fe#1",
+      "time": "2025-03-22T13:52:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/1",
+      "text": "Ensure gateway status check APIs are not called once unmounted"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_teleicu_devices#2",
+      "time": "2025-03-22T13:50:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices/issues/2",
+      "text": "Skip pydantic validation in list / retrieve handlers"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11465",
+      "time": "2025-03-22T13:00:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11465#issuecomment-2745257651",
+      "text": "1. Duplicate PR, issue was already assigned to someone else that already has a PR linked to it.\r\n2. Not following original PR template.\r\n3. Not following merge checklists as mentioned in the template.\r\n\r\nPR will not be reviewed if failed to follow any of these."
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11466",
+      "time": "2025-03-22T12:55:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11466",
+      "text": "adds search and care_type filter for devices",
+      "turnaround_time": 471
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11466",
+      "time": "2025-03-22T12:47:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11466",
+      "text": "adds search and care_type filter for devices"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11401",
+      "time": "2025-03-22T12:02:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11401#issuecomment-2745237979",
+      "text": "This design misses few important things.\n\n1. `care_type` filter is quite important\n2. I don't see any where this shows icon specific to the device type or shows what type of device this is"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11463",
@@ -21,13 +106,6 @@
       "title": "ohcnetwork/care_fe#11361",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11361#pullrequestreview-2703819572",
       "text": "Add support for Preview Valueset in Valueset Editor "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-20T18:26:15.000Z",
-      "title": "ohcnetwork/care_fe#11435",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11435#pullrequestreview-2703715754",
-      "text": "Removed close button and fixed clicking outside issues in Duplicate Warning Message"
     },
     {
       "type": "comment_created",
@@ -64844,6 +64922,18 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11469",
+      "title": "feat: show user phone number in LinkUserSheet component",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11468",
+      "title": "Update ml translations",
+      "stale_for": 0,
+      "labels": []
+    },
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/1",
       "title": "Data migration",
