@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-03-21T23:02:22.000Z",
+  "last_updated": "2025-03-22T00:45:58.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11450",
+      "time": "2025-03-22T00:45:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11450#issuecomment-2744732133",
+      "text": "https://github.com/ohcnetwork/care_fe/pull/11461\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11461",
+      "time": "2025-03-22T00:45:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11461",
+      "text": "Fix: Edit display text for SNOMED codes value"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11413",
+      "time": "2025-03-22T00:38:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11413#issuecomment-2744727443",
+      "text": "https://github.com/ohcnetwork/care_fe/pull/11460"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11460",
+      "time": "2025-03-22T00:37:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11460",
+      "text": "Update Mobile UX: Use Card Layout for Better Readability & No Scrolling"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11454",
+      "time": "2025-03-22T00:20:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11454#issuecomment-2744715608",
+      "text": "https://github.com/ohcnetwork/care_fe/pull/11459\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11459",
+      "time": "2025-03-22T00:19:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11459",
+      "text": "Fix: OTP Sent Success Toast on Patient Appointment Booking"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11413",
+      "time": "2025-03-21T23:56:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11413#issuecomment-2744697452",
+      "text": "Solution:\n\nI have reproduced similar UI elements tailwind for the mobile devices to remove the problem of horizontal scrolling that existed, I have also added the similar UI for Symptoms Card / Table to match the UI with Diagnoses Card / Table and Allergies Card / Table , you can have a look at the implementation below : \n\n\nhttps://github.com/user-attachments/assets/f6d125ea-52aa-47bf-a5e5-9d57bac6f9ee\n\nExpected Deadline : Immediately after being assigned the Pull Request\n\nAlso let me know if any additional change in UI of these card Is required"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11450",
+      "time": "2025-03-21T23:17:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11450#issuecomment-2744661620",
+      "text": "Solution: \nThere is a read - only property associated to this element , removing it would solve the issue . You can see the highlighted part of the code which requires change: \n![Image](https://github.com/user-attachments/assets/a5531dec-cc6d-46dc-8311-49ef09da5acf)\n\nExpected Timeline:\nImmediately after being assigned the Pull Request"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11454",
@@ -9,25 +65,6 @@
       "text": "Solution : I have found the missing line of code for the toast, it is working as expected and in similarity to the Home page, the implementation of the solution can be seen below: \n\nhttps://github.com/user-attachments/assets/91fba414-af42-41b0-8f78-d14e3d99ff4d\n\nExpected Timeline: Immediately after being assigned the Pull Request\n\n"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11461",
-      "title": "Fix: Edit display text for SNOMED codes value",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11460",
-      "title": "Update Mobile UX: Use Card Layout for Better Readability & No Scrolling",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11459",
-      "title": "Fix: OTP Sent Success Toast on Patient Appointment Booking",
-      "stale_for": 0,
-      "labels": []
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }

@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-20T11:10:44.000Z",
+  "last_updated": "2025-03-22T09:09:14.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11313",
+      "time": "2025-03-22T09:09:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11313#issuecomment-2745154014",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/425299443-c080c569-9c2f-44d8-8cab-26517acfc509.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI2MzQ0MTMsIm5iZiI6MTc0MjYzNDExMywicGF0aCI6Ii81NzA1NTk5OC80MjUyOTk0NDMtYzA4MGM1NjktOWMyZi00NGQ4LThjYWItMjY1MTdhY2ZjNTA5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIyVDA5MDE1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZiYzRkNjU1NzcyZmExZTYzNzliNjI0OTE0MGY0NmFiN2YzZWZiNjdiYzA1ZDEwNDc0MjJhMjFiNzA0MTNlMzgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.f7xZbQ24iACawXDyGAhAcNAwRCSHbh-aJY922sR-i6E)\r\n> \r\n> * Show a strikethrough only for medicines marked as \"Removed\" on the Edit Medication page, but do not apply a strikethrough for medicines marked as \"Discontinued\" in the Medication Administration section.\r\n\r\n\r\nHey @nihal467, on the Edit Medication page, I'm showing a strike-through for all inactive medications, including those that are ended, completed, canceled, and removed. Do you want me to apply the strike-through only to removed medications and only in the Edit Medication list? \r\n\r\nCurrently, I'm also showing a strike-through in the Medicines tab and the Medicine Administration tab for all inactive medicines.\r\n "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11343",
+      "time": "2025-03-22T09:00:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11343#issuecomment-2745150302",
+      "text": "> Let's not put it inside the Page component. Let's just keep it at the top of the root.\r\n\r\n@rithviknishad When I place this at the root, I have to show it as an overlay; otherwise, the warning content goes behind the fixed sidebar on large screens. "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11154",
@@ -486,17 +500,20 @@
       "title": "feat: show unsupported browser warning on all pages",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "question",
+        "needs review",
+        "changes required",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11313",
       "title": "fix(medication): add indication for inactive medication requests",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "question",
+        "test failed",
+        "needs-triage"
       ]
     },
     {
@@ -505,16 +522,8 @@
       "stale_for": 0,
       "labels": [
         "question",
+        "merge conflict",
         "needs-triage"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11124",
-      "title": "Add Breadcrumbs for Organization View in Organization Layout",
-      "stale_for": 0,
-      "labels": [
-        "tested",
-        "reviewed"
       ]
     }
   ],

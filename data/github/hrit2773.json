@@ -1,6 +1,104 @@
 {
-  "last_updated": "2025-03-21T18:39:49.000Z",
+  "last_updated": "2025-03-22T08:45:23.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11464",
+      "time": "2025-03-22T08:45:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11464#issuecomment-2745145631",
+      "text": "@rithviknishad @Jacobjeevan When we click Appointments it should fetch properly so that the page restricts the user to view. The page is not getting fetched that's why its not getting restricted and needs a reload. Can I work on this. ETA: 4 days. Can you assign me"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11464",
+      "time": "2025-03-22T08:42:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11464",
+      "text": "Appointments can still be viewed after not having permission to view the page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11463",
+      "time": "2025-03-22T08:25:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11463#issuecomment-2745139437",
+      "text": "@rithviknishad I can add a validation handling the trim and special characters both in frontend and backend."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11463",
+      "time": "2025-03-22T08:15:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11463#issuecomment-2745136458",
+      "text": "And empty spaces must be trimmed"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11463",
+      "time": "2025-03-22T08:15:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11463#issuecomment-2745136352",
+      "text": "if we add device@123 then that should be correct name right"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11463",
+      "time": "2025-03-22T08:14:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11463#issuecomment-2745136055",
+      "text": "@rithviknishad Well I'm just asking if allowing special characters would not be good because its a registered name"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11447",
+      "time": "2025-03-22T08:05:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11447#issuecomment-2745132439",
+      "text": "cc @gigincg @Jacobjeevan your reviews??"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11463",
+      "time": "2025-03-22T08:02:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11463#issuecomment-2745131242",
+      "text": "@rithviknishad we can add a regex validation also to the name along with removing spaces??"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11463",
+      "time": "2025-03-22T08:01:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11463#issuecomment-2745130807",
+      "text": "@rithviknishad @Jacobjeevan We have to address both frontend and backend. I want to work on this. ETA: 2 days Can you assign me??"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11463",
+      "time": "2025-03-22T08:00:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11463",
+      "text": "Add proper validation in add device form to pass registered name correctly"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11248",
+      "time": "2025-03-22T07:23:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11248#issuecomment-2745109100",
+      "text": "@nihal467 if this is valid can I work on this. cc @rithviknishad @Jacobjeevan "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11447",
+      "time": "2025-03-22T04:40:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11447#issuecomment-2744981540",
+      "text": "@rithviknishad @Jacobjeevan can I get a review"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11461",
+      "time": "2025-03-22T04:21:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11461#issuecomment-2744973602",
+      "text": "@akshat1423 please refrain from raising a PR for issues you are not assigned because issues require to be addressed in product side as well you have to wait for assignment. Not sure that the issue is valid. Anyways Merge checklist not followed so this is invalid."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2839",
+      "time": "2025-03-22T04:16:58.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2839#issuecomment-2744971961",
+      "text": "@vigneshhari https://github.com/IHTSDO/snowstorm/blob/master/docs/using-the-fhir-api.md#custom-code-systems according to this document to import the valueset we have to make a PUT request and the valueset will be imported. I have seen in this document."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care#2839",
@@ -3493,8 +3591,7 @@
       "title": "Added option for specifying Question unit in Questionnaire Editor",
       "stale_for": 0,
       "labels": [
-        "invalid",
-        "changes required"
+        "needs testing"
       ]
     },
     {

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-15T12:51:02.000Z",
+  "last_updated": "2025-03-22T06:48:46.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11450",
+      "time": "2025-03-22T06:48:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11450#issuecomment-2745091109",
+      "text": "Hello @bodhish @gigincg @rithviknishad @samholics @akshat1423 @yadavshubham01 \njust wanted to share this, I thought it may be worth sharing.\n\nTASK - Allow medical staff to associate a commonly used term with a concept they wish to use\n\nSolution - FHIR valueset specs define display property, when we are adding concepts to a valueset.\n\n![Image](https://github.com/user-attachments/assets/b7d8024f-3393-439b-a81b-ee842a809716)\n\ndisplay field as stated in specs, should take up value as defined in the system, but if no value is present user can provide his/her own interpretation as value.\nWe can add functionality to override this display field (This feature can further be extended to support different languages as opposed to just English).\n\nOBSTACLE - Issue is that this is limited to concepts only, this idea cannot be extended to when user tries to include filters, in this case scenario he/she has no control over display string, since valueset will be generated dynamically.\n\nSo in conclusion I think with the current state of our project, if we go ahead with this issue, we would be able to only partially solve it, because our solution may work for concepts, but will not for filters"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11309",
@@ -170,8 +177,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11137",
       "title": "Add JS script to remove unused keys in codebase",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 5,
+      "labels": [
+        "merge conflict"
+      ]
     }
   ],
   "authored_issue_and_pr": []

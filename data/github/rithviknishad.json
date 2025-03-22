@@ -1,12 +1,110 @@
 {
-  "last_updated": "2025-03-20T19:27:41.000Z",
+  "last_updated": "2025-03-22T08:08:06.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11463",
+      "time": "2025-03-22T08:08:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11463#issuecomment-2745133557",
+      "text": "is there any issues with allowing special characters?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-22T07:38:37.000Z",
+      "title": "ohcnetwork/care_fe#11447",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11447#pullrequestreview-2707933673",
+      "text": "Added option for specifying Question unit in Questionnaire Editor"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T19:01:44.000Z",
+      "title": "ohcnetwork/care_fe#11361",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11361#pullrequestreview-2703819572",
+      "text": "Add support for Preview Valueset in Valueset Editor "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T18:26:15.000Z",
+      "title": "ohcnetwork/care_fe#11435",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11435#pullrequestreview-2703715754",
+      "text": "Removed close button and fixed clicking outside issues in Duplicate Warning Message"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11343",
+      "time": "2025-03-22T04:48:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11343#issuecomment-2744993325",
+      "text": "Let's not put it inside the Page component. Let's just keep it at the top of the root."
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-03-20T19:27:41.000Z",
       "title": "ohcnetwork/care_fe#11436",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11436#pullrequestreview-2703885869",
       "text": "Enabled Automatic OTP Autofill from SMS"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11413",
+      "time": "2025-03-22T04:43:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11413#issuecomment-2744984011",
+      "text": "we can reopen this once figma designs are finalized for mobile view for this.\n\n"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11413",
+      "time": "2025-03-22T04:43:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11413",
+      "text": "Enhance Mobile UX: Use Card Layout for Better Readability & No Scrolling"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11460",
+      "time": "2025-03-22T04:39:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11460#issuecomment-2744979131",
+      "text": "1. Not following original PR template\r\n2. Not following the merge checklist\r\n3. Issue was not assigned before working on\r\n\r\nPRs not following any of these will not be reviewed;"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11450",
+      "time": "2025-03-22T04:36:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11450#issuecomment-2744978088",
+      "text": "@gigincg is this required? 🤔 \n\nI don't think this is a requirement that solves any actual problem."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11454",
+      "time": "2025-03-22T04:33:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11454#issuecomment-2744977165",
+      "text": "I don't see any reason why we need a toast message here when the page literally also says that the OTP has been sent!"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11454",
+      "time": "2025-03-22T04:33:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11454",
+      "text": "BUG:Missing OTP Sent Success Toast on login patient during book appointment"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-22T04:30:05.000Z",
+      "title": "ohcnetwork/care_fe#11457",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11457#pullrequestreview-2707802111",
+      "text": "fix : validateDOMNesting Error in Location page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-22T04:26:19.000Z",
+      "title": "ohcnetwork/care_fe#11458",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11458#pullrequestreview-2707801570",
+      "text": "Update all dependencies (minor, patch)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-22T04:26:01.000Z",
+      "title": "ohcnetwork/care_fe#11462",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11462#pullrequestreview-2707801542",
+      "text": "Update dependency vite-plugin-pwa to v0.21.2"
     },
     {
       "type": "issue_closed",
@@ -28,13 +126,6 @@
       "title": "ohcnetwork/care_fe#11124",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11124#pullrequestreview-2703868132",
       "text": "Add Breadcrumbs for Organization View in Organization Layout"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-20T18:26:15.000Z",
-      "title": "ohcnetwork/care_fe#11435",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11435#pullrequestreview-2703715754",
-      "text": "Removed close button and fixed clicking outside issues in Duplicate Warning Message"
     },
     {
       "type": "comment_created",
@@ -89,13 +180,6 @@
       "title": "ohcnetwork/care_fe#11418",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11418#pullrequestreview-2703828419",
       "text": "Added Frontend Validations in Questionnaire Editor using React hook form and zod "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-20T19:01:44.000Z",
-      "title": "ohcnetwork/care_fe#11361",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11361#pullrequestreview-2703819572",
-      "text": "Add support for Preview Valueset in Valueset Editor "
     },
     {
       "type": "pr_reviewed",
