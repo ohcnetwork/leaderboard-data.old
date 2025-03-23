@@ -1,0 +1,38 @@
+{
+  "last_updated": "2025-03-23T07:25:59.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11358",
+      "time": "2025-03-23T07:25:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11358#issuecomment-2746066993",
+      "text": "Subject: Fix: Duplicate User Data Resolution (PR #11472)\n\nIssue: Duplicate user entries due to multiple API responses.\n\nRoot Cause: API returning redundant user data.\n\nSolution: Implemented unique ID filter in PR #11472.\n\nDetails:\n\nAfter investigating the reported duplicate user issue, I traced the source to the API providing multiple entries for the same user ID. To rectify this, I've added a filter within PR #11472 that ensures only unique user IDs are processed.\n\nThe attached screenshot demonstrates the filter's effectiveness in removing duplicate entries.\n\nRequest: Please review and merge PR #11472 to resolve this issue.\n\n\n\nLink: https://github.com/ohcnetwork/care_fe/pull/11472\n![Image](https://github.com/user-attachments/assets/3e6eaef1-ecaa-4258-b530-c9101ff12d68)\n\nAfter applying the filter for unique IDs.\n\n![Image](https://github.com/user-attachments/assets/8853228c-4322-439c-acbe-654cc2bc0923)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11463",
+      "time": "2025-03-23T06:52:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11463#issuecomment-2746056825",
+      "text": "Please review the pull request and merge it."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11472",
+      "time": "2025-03-23T06:48:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11472",
+      "text": "Add proper validation in add device form to pass registered name correctly #11463"
+    }
+  ],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11472",
+      "title": "Add proper validation in add device form to pass registered name correctly #11463",
+      "stale_for": 0,
+      "labels": [
+        "invalid",
+        "changes required"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": []
+}
