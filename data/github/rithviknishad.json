@@ -1,6 +1,21 @@
 {
-  "last_updated": "2025-03-22T16:47:19.000Z",
+  "last_updated": "2025-03-23T00:51:08.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-20T19:27:41.000Z",
+      "title": "ohcnetwork/care_fe#11436",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11436#pullrequestreview-2703885869",
+      "text": "Enabled Automatic OTP Autofill from SMS"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11469",
+      "time": "2025-03-22T19:02:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11469",
+      "text": "feat: show user phone number in LinkUserSheet component",
+      "turnaround_time": 8089
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11469",
@@ -113,13 +128,6 @@
       "time": "2025-03-22T04:48:42.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11343#issuecomment-2744993325",
       "text": "Let's not put it inside the Page component. Let's just keep it at the top of the root."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-20T19:27:41.000Z",
-      "title": "ohcnetwork/care_fe#11436",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11436#pullrequestreview-2703885869",
-      "text": "Enabled Automatic OTP Autofill from SMS"
     },
     {
       "type": "comment_created",
@@ -64923,16 +64931,12 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11469",
-      "title": "feat: show user phone number in LinkUserSheet component",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11468",
       "title": "Update ml translations",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/1",
