@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-03-20T13:05:36.000Z",
+  "last_updated": "2025-03-24T15:27:12.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11536",
+      "time": "2025-03-24T15:27:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11536#issuecomment-2748526315",
+      "text": "@AdityaJ2305 can you point out the duplicate issue?\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11537",
+      "time": "2025-03-24T15:25:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11537",
+      "text": "Unable to remove description from questionnaire in edit form"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11536",
+      "time": "2025-03-24T15:23:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11536",
+      "text": "Changing questionnaire slug on edit page should redirect to the new slug URL"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11531",
+      "time": "2025-03-24T12:32:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11531",
+      "text": "Add a structured question for consents"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11528",
+      "time": "2025-03-24T11:54:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11528",
+      "text": "Added a new structured question for time of death"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11429",
@@ -13159,24 +13194,28 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11429",
-      "title": "Add File Upload Structured Question",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11528",
+      "title": "Added a new structured question for time of death and changed `death_datetime` to `deceased_datetime`",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review",
+        "P1"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11403",
       "title": "Support for loading recent and favourite valuesets",
-      "stale_for": 0,
+      "stale_for": 3,
       "labels": [
-        "needs review",
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/105",
       "title": "Updated Scribe Docs",
-      "stale_for": 11,
+      "stale_for": 14,
       "labels": []
     },
     {
@@ -13184,20 +13223,21 @@
       "title": "Multiple Minor UI Fixes",
       "stale_for": 0,
       "labels": [
-        "test failed",
+        "needs testing",
+        "needs review",
         "merge conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/16",
       "title": "Add support for OCR and reduced token usage",
-      "stale_for": 35,
+      "stale_for": 39,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/78",
       "title": "Care plan proposal",
-      "stale_for": 52,
+      "stale_for": 56,
       "labels": []
     }
   ],

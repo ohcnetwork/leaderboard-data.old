@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-20T04:24:42.000Z",
+  "last_updated": "2025-03-24T12:14:48.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11514",
+      "time": "2025-03-24T12:14:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11514#issuecomment-2747927529",
+      "text": "hey @nihal467  @rithviknishad I propose to fix the clipping issue of the patient record pop-up in mobile view by applying responsive design adjustments. Specifically:\n\nUse position: fixed or absolute with appropriate z-index, top, and left settings.\n\nAdd media queries to adapt width and height for smaller screens (e.g., width: 90vw, max-height: 80vh, and scrollable content if needed).\n\nEnsure the container is scrollable (overflow-y: auto) and doesn’t exceed viewport height.\n\nThis will ensure the modal/pop-up remains fully visible and user-friendly across devices.\n\nExpected Timeline:\nEnd date: 26 March 2025"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11335",

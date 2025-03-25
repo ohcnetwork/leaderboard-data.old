@@ -1,6 +1,97 @@
 {
-  "last_updated": "2025-03-20T18:24:49.000Z",
+  "last_updated": "2025-03-24T18:00:54.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11537",
+      "time": "2025-03-24T18:00:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11537#issuecomment-2748988280",
+      "text": "@shivankacker , Backend bug"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11535",
+      "time": "2025-03-24T17:17:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11535#issuecomment-2748863959",
+      "text": "@rithviknishad , This is backend issue I created as backend repo is blocked so bodhi told me to create issue in frontend it will triage and add it to BE \nand more \non submission we get valueError stating slug should be unique "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11502",
+      "time": "2025-03-24T15:35:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11502#issuecomment-2748551198",
+      "text": "Team , I think we can close this isse as one is already reported and second one needs backend changes which are not planned right now \nhttps://github.com/ohcnetwork/care_fe/issues/11535#issuecomment-2748533469"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11535",
+      "time": "2025-03-24T15:33:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11535",
+      "text": "Implement Slug Availability Check API"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11536",
+      "time": "2025-03-24T15:30:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11536#issuecomment-2748537265",
+      "text": "Yeah , sorry for missing it out \nhttps://github.com/ohcnetwork/care_fe/issues/11275"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11537",
+      "time": "2025-03-24T15:30:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11537#issuecomment-2748535735",
+      "text": "Hey @shivankacker , I would like to work on this "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11536",
+      "time": "2025-03-24T15:24:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11536#issuecomment-2748519273",
+      "text": "@shivankacker , It is duplicate issue "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11535",
+      "time": "2025-03-24T15:11:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11535#issuecomment-2748475485",
+      "text": "Ref:\nhttps://github.com/ohcnetwork/care_fe/issues/11502"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11502",
+      "time": "2025-03-24T15:10:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11502#issuecomment-2748474443",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/11535\nCreated issue for above "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11535",
+      "time": "2025-03-24T15:10:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11535",
+      "text": "Implement Slug Availability Check API"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11502",
+      "time": "2025-03-24T14:27:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11502#issuecomment-2748320925",
+      "text": "@rithviknishad , it doesn't \n\none more  as in userForm we have differnent api which checks for username but here it returns valueError when you submit "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11342",
+      "time": "2025-03-24T11:47:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11342#issuecomment-2747850282",
+      "text": "@rithviknishad 🤔 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11523",
+      "time": "2025-03-24T11:20:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11523#issuecomment-2747781071",
+      "text": "<img width=\"574\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/254bce5f-3384-424d-860c-7fe4e5f1485b\" />\n\n@bodhish , I got options to display from careapi"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11287",
@@ -5719,22 +5810,13 @@
       "title": "Fix: Minor Questionnaire Edit bugs",
       "stale_for": 0,
       "labels": [
-        "question",
-        "needs-triage"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11168",
-      "title": "Modified styling for edit facility button and added translations for medication status",
-      "stale_for": 2,
-      "labels": [
         "changes required"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11068",
       "title": "Cypress test for resources",
-      "stale_for": 2,
+      "stale_for": 4,
       "labels": [
         "needs testing",
         "needs review"
@@ -5745,17 +5827,9 @@
       "title": "Fix: Minor UI Enhancement in questionnaire",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10927",
-      "title": "Fix: Search is not working in facility departmental section",
-      "stale_for": 0,
-      "labels": [
         "question",
-        "changes required",
+        "needs testing",
+        "needs review",
         "needs-triage"
       ]
     }

@@ -1,6 +1,200 @@
 {
-  "last_updated": "2025-03-23T08:31:33.000Z",
+  "last_updated": "2025-03-24T17:00:48.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11535",
+      "time": "2025-03-24T17:00:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11535#issuecomment-2748816649",
+      "text": "@AdityaJ2305 this can be achieved without needing backend changes right?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-24T16:58:51.000Z",
+      "title": "ohcnetwork/care_fe#11533",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11533#pullrequestreview-2711096793",
+      "text": "Update dependency @sentry/browser to v9.9.0"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11534",
+      "time": "2025-03-24T16:58:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11534#issuecomment-2748808719",
+      "text": "CardSkeleton is not the ideal loader to be used here. Design totally differs from the displayed content post loading."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-24T16:53:12.000Z",
+      "title": "ohcnetwork/care_fe#11539",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11539#pullrequestreview-2711078412",
+      "text": "Replace Date Inputs with Relative & Absolute Date Picker"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-24T15:10:41.000Z",
+      "title": "ohcnetwork/care_fe#11528",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11528#pullrequestreview-2710736989",
+      "text": "Added a new structured question for time of death and changed `death_datetime` to `deceased_datetime`"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11502",
+      "time": "2025-03-24T14:25:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11502#issuecomment-2748314070",
+      "text": "@AdityaJ2305 does #10658 cover availability check as well? if not can we add that as well?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-24T13:17:10.000Z",
+      "title": "ohcnetwork/care_fe#11520",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11520#pullrequestreview-2710355341",
+      "text": "Added support for patient level and org routes for q responses print"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11340",
+      "time": "2025-03-24T12:08:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11340#issuecomment-2747910529",
+      "text": "> We should use the same create form for edit purpose and I'm not sure , but we should only allow to change name, description not **type** right ?\r\n\r\n@Mahendar0701 look into this suggestion by @AdityaJ2305 \r\n\r\nmost of the code can be re-used that way"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-24T12:05:01.000Z",
+      "title": "ohcnetwork/care_fe#11340",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11340#pullrequestreview-2710148093",
+      "text": "Add edit functionality for facility departments"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11509",
+      "time": "2025-03-24T11:36:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11509",
+      "text": "Enhance File Preview by Adding Mouse Scroll Functionality"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11509",
+      "time": "2025-03-24T11:36:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11509#issuecomment-2747821938",
+      "text": "a duplicate issue was closed a while back. check the reason there."
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11525",
+      "time": "2025-03-24T11:32:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11525",
+      "text": "Enhancements to Appointment Slot Picker",
+      "turnaround_time": 3826
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-24T11:29:40.000Z",
+      "title": "ohcnetwork/care_fe#11236",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11236#pullrequestreview-2710049580",
+      "text": "Fix: Ensure Pages Load at Top on Route Change"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11137",
+      "time": "2025-03-24T11:27:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11137#issuecomment-2747798575",
+      "text": "PR is unreviewable due to too many changes than intended.\r\n\r\nLet's take it part by part. \r\n\r\nLet's first only have the script to remove unused keys and correct certain keys for enum choices alone. Any other changes, let it go as separate PR"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-24T11:23:29.000Z",
+      "title": "ohcnetwork/care_fe#11243",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11243#pullrequestreview-2710035373",
+      "text": "Bump @babel/helpers from 7.26.0 to 7.26.10"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-24T11:20:17.000Z",
+      "title": "ohcnetwork/care_fe#11526",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11526#pullrequestreview-2710027851",
+      "text": "Update dependency @types/node to v22.13.13"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-14T14:24:42.000Z",
+      "title": "ohcnetwork/care_fe#11295",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11295#pullrequestreview-2685741656",
+      "text": "Mobile layout fixes for Appointments List view"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10818",
+      "time": "2025-03-24T11:07:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10818#issuecomment-2747749833",
+      "text": "completed in #11466 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10818",
+      "time": "2025-03-24T11:07:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10818",
+      "text": "Add search feature for Devices | Add Clear button in Location Search"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-24T10:59:02.000Z",
+      "title": "ohcnetwork/care_fe#11287",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11287#pullrequestreview-2709975153",
+      "text": "Fix: Minor Questionnaire Edit bugs"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11463",
+      "time": "2025-03-24T10:52:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11463",
+      "text": "Add proper validation in add device form to pass registered name correctly"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#11477",
+      "time": "2025-03-24T10:52:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11477",
+      "text": "Added regex constraints to add device page",
+      "collaborated_with": [
+        "RohanAJacob2004",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-24T10:52:31.000Z",
+      "title": "ohcnetwork/care_fe#11477",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11477#pullrequestreview-2709957429",
+      "text": "Added regex constraints to add device page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11506",
+      "time": "2025-03-24T10:42:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11506#issuecomment-2747674141",
+      "text": "#11522 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11506",
+      "time": "2025-03-24T10:42:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11506",
+      "text": "Fix Responsiveness for Locations on Mobile Screens"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11521",
+      "time": "2025-03-24T10:38:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11521#issuecomment-2747659716",
+      "text": "![Uploading image.png…]()\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-24T10:36:29.000Z",
+      "title": "ohcnetwork/care_fe#11522",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11522#pullrequestreview-2709909560",
+      "text": "Translation/manage organization"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11421",
@@ -1154,13 +1348,6 @@
       "time": "2025-03-14T14:45:03.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/11297",
       "text": "Remove organization switcher"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-14T14:24:42.000Z",
-      "title": "ohcnetwork/care_fe#11295",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11295#pullrequestreview-2685741656",
-      "text": "Mobile layout fixes for Appointments List view"
     },
     {
       "type": "comment_created",
@@ -64938,14 +65125,6 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11468",
-      "title": "Update ml translations",
-      "stale_for": 0,
-      "labels": [
-        "needs review"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/1",
       "title": "Data migration",
       "stale_for": 0,
@@ -64988,10 +65167,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9447",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9463"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/556",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/557"
     }
   ]
 }

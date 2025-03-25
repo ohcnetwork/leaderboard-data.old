@@ -1,6 +1,64 @@
 {
-  "last_updated": "2025-03-20T18:17:53.000Z",
+  "last_updated": "2025-03-24T14:36:59.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11367",
+      "time": "2025-03-24T14:36:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11367",
+      "text": "Location Association Redesign",
+      "turnaround_time": 536885
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11367",
+      "time": "2025-03-24T13:25:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11367#issuecomment-2748130410",
+      "text": "> ### **1.**\r\n> <img alt=\"Screenshot 2025-03-20 at 2 19 58 PM\" width=\"769\" src=\"https://private-user-images.githubusercontent.com/16238306/424887819-fa7cf038-68c2-4aba-968a-4de2b68e90e5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI4MjMwMTIsIm5iZiI6MTc0MjgyMjcxMiwicGF0aCI6Ii8xNjIzODMwNi80MjQ4ODc4MTktZmE3Y2YwMzgtNjhjMi00YWJhLTk2OGEtNGRlMmI2OGU5MGU1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzI0VDEzMjUxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTExMTkxNWU2ODI4M2U3ZWE5NjQyNDU1MTM4MjVmMDFkNGJjZmQzNjUyMjA0ODI0NDk5ZGNiNjg1ODljZWUwZmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.G_o1NCHcVdT6MzN5I0c75pIZ9xK8VO2wmzCnvqzsnDs\"> I think, a tab would be more suitable here instead of a segmented control. <img alt=\"Screenshot 2025-03-20 at 2 24 57 PM\" width=\"1016\" src=\"https://private-user-images.githubusercontent.com/16238306/424889408-f34faffc-4b06-4a59-bd44-6445da6a757f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI4MjMwMTIsIm5iZiI6MTc0MjgyMjcxMiwicGF0aCI6Ii8xNjIzODMwNi80MjQ4ODk0MDgtZjM0ZmFmZmMtNGIwNi00YTU5LWJkNDQtNjQ0NWRhNmE3NTdmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzI0VDEzMjUxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThkMmNlYjllNTM3ODBiMWY4NDIwOWUyMTU1ZGU5MjRmNDZiNTA1NmNjOGMyYTMyZWFmM2ZkMTQxYzdmOTFjMWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.dZMdl_JR679f0clFVLky0TfFvuEwVseCbY7efrgSAZg\">\r\n> ### **2.**\r\n> <img alt=\"Screenshot 2025-03-20 at 3 05 33 PM\" width=\"757\" src=\"https://private-user-images.githubusercontent.com/16238306/424904450-fab25d06-fa6e-4106-96e4-8b670882ffb9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI4MjMwMTIsIm5iZiI6MTc0MjgyMjcxMiwicGF0aCI6Ii8xNjIzODMwNi80MjQ5MDQ0NTAtZmFiMjVkMDYtZmE2ZS00MTA2LTk2ZTQtOGI2NzA4ODJmZmI5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzI0VDEzMjUxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU4NzJlMWUwNTk4YzU4NDc5ZjM4MjhlZGM0MzY5ZjIxMTZjZjA1Y2YxZGNkYWUyNjc1ZjQ5MzdiNzJjYWYzOTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.6AdXLLjfqEyaZTTR9t7NFFEEs-s_4wEyvUIsMMtfd6U\">\r\n> The \"Clear Selection\" button can be placed inside the green box that displays the selected bed. <img alt=\"Screenshot 2025-03-20 at 3 08 24 PM\" width=\"1116\" src=\"https://private-user-images.githubusercontent.com/16238306/424904966-80ab437f-d7e7-4b5e-b77d-ab7450075209.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI4MjMwMTIsIm5iZiI6MTc0MjgyMjcxMiwicGF0aCI6Ii8xNjIzODMwNi80MjQ5MDQ5NjYtODBhYjQzN2YtZDdlNy00YjVlLWI3N2QtYWI3NDUwMDc1MjA5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzI0VDEzMjUxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQyMWVkMmNhM2I3MmIxYjMyNzVmYWZkMjRkMWMzOGFkMDE5YWFkZjYwYzA3YzYxZjU0ZGQxN2IzZDdmMmZmZWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.so_xJcE2KUnD5sbenWfL-C5fx90-hKoYN8SU0CULEPA\">\r\n> \r\n> ### **3.**\r\n> <img alt=\"Screenshot 2025-03-20 at 3 09 36 PM\" width=\"764\" src=\"https://private-user-images.githubusercontent.com/16238306/424905783-36c7e7cc-c86a-44d4-b523-7a1b852c00c9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI4MjMwMTIsIm5iZiI6MTc0MjgyMjcxMiwicGF0aCI6Ii8xNjIzODMwNi80MjQ5MDU3ODMtMzZjN2U3Y2MtYzg2YS00NGQ0LWI1MjMtN2ExYjg1MmMwMGM5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzI0VDEzMjUxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZlNDA3ZDBjN2YwNzMwNTAxNjMyOWU2ZjdlNzM1ZDM0YTE1OTAyYTIyNmMwZTA5NWQxN2RlMWRhZjczOTUyYTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.U1AK17nGXNiX77EycHY9tvy6ikuo1koZNJl0klpim_w\">\r\n> The bed sector boxes should all be the same size for consistency. <img alt=\"Screenshot 2025-03-20 at 3 11 19 PM\" width=\"678\" src=\"https://private-user-images.githubusercontent.com/16238306/424906029-dbe9a613-14de-4a5a-a978-d0a4b9217444.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI4MjMwMTIsIm5iZiI6MTc0MjgyMjcxMiwicGF0aCI6Ii8xNjIzODMwNi80MjQ5MDYwMjktZGJlOWE2MTMtMTRkZS00YTVhLWE5NzgtZDBhNGI5MjE3NDQ0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzI0VDEzMjUxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM4ZWUyM2JkMzYyYTZlOWQ1MjI1MDhhMDZiZGEzYzM4YmM0YjAwODQ0ZWFhNmIxYmQ1NjhmODQ3ZTJkNTc1YTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.XZ9ibvGc2tVO_CUxBBC78WKPkyeSPmPbLl1E-aySzmY\">\r\n> \r\n> ### **4**\r\n> <img alt=\"Screenshot 2025-03-20 at 3 12 32 PM\" width=\"756\" src=\"https://private-user-images.githubusercontent.com/16238306/424906462-ef15c499-8a1c-4385-b34a-6e7f21a79a22.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI4MjMwMTIsIm5iZiI6MTc0MjgyMjcxMiwicGF0aCI6Ii8xNjIzODMwNi80MjQ5MDY0NjItZWYxNWM0OTktOGExYy00Mzg1LWIzNGEtNmU3ZjIxYTc5YTIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzI0VDEzMjUxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTlhOWQ3OGExYTE4MGIxNWQ1NmY1MjMzOGIwNTRiNDAwMGM0YTZhN2I5MjU4MDNjZjgxZWEwYmJjZTZkNDBjODYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QLPmseReB2_9XSk7RuXXIReW_9H-uXOBP5RzKHliuoE\"> Clicking on the selected location is causing it to repeat infinitely.\r\n\r\nDone"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#11520",
+      "time": "2025-03-24T13:17:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11520",
+      "text": "Added support for patient level and org routes for q responses print",
+      "collaborated_with": [
+        "khavinshankar",
+        "amjithtitus09"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-24T11:31:30.000Z",
+      "title": "ohcnetwork/care_fe#11525",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11525#pullrequestreview-2710054328",
+      "text": "Enhancements to Appointment Slot Picker"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11281",
+      "time": "2025-03-24T11:16:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11281",
+      "text": "Appointments List View on mobile is not responsive"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#11295",
+      "time": "2025-03-24T11:16:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11295",
+      "text": "Mobile layout fixes for Appointments List view",
+      "collaborated_with": [
+        "abeeto",
+        "amjithtitus09"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-24T11:04:36.000Z",
+      "title": "ohcnetwork/care_fe#11295",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11295#pullrequestreview-2709991103",
+      "text": "Mobile layout fixes for Appointments List view"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11287",
@@ -2003,5 +2061,14 @@
     }
   ],
   "open_prs": [],
-  "authored_issue_and_pr": []
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2817",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10447"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10480",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10447"
+    }
+  ]
 }

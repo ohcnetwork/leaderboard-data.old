@@ -1,6 +1,14 @@
 {
-  "last_updated": "2025-03-19T17:28:00.000Z",
+  "last_updated": "2025-03-24T12:38:41.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11058",
+      "time": "2025-03-24T12:38:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11058",
+      "text": "feat: Improve issue automation using GitHub Apps instead of PAT",
+      "turnaround_time": 1628758
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_sbom#11",
@@ -783,18 +791,21 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11058",
-      "title": "feat: Improve issue automation using GitHub Apps instead of PAT",
+      "link": "https://github.com/ohcnetwork/docs/pull/108",
+      "title": "fix: Update documentation for DigitalOcean",
       "stale_for": 0,
-      "labels": [
-        "needs review",
-        "stale"
-      ]
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/107",
+      "title": "feat: Add GCP deployment guides for GCS and GKE",
+      "stale_for": 0,
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/infra_template/pull/4",
       "title": "fix: update kubernetes configurations for care infrastructure",
-      "stale_for": 11,
+      "stale_for": 16,
       "labels": []
     }
   ],
