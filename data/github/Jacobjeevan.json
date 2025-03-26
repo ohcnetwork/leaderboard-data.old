@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-03-24T18:13:54.000Z",
+  "last_updated": "2025-03-26T07:20:02.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11567",
+      "time": "2025-03-26T07:20:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11567#issuecomment-2753446621",
+      "text": "The behavior is working as intended."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11567",
+      "time": "2025-03-26T07:20:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11567",
+      "text": "Loop while logging the user"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11008",
+      "time": "2025-03-26T05:19:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11008",
+      "text": "Inconsistent Line Break in \"Never Logged In\" Status Label"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-06T07:35:34.000Z",
+      "title": "ohcnetwork/care_fe#11022",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11022#pullrequestreview-2663575280",
+      "text": "Fixes Issue  #11008 : Changes  to close the issue of Alignment of User Login Status "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-26T05:03:22.000Z",
+      "title": "ohcnetwork/care_fe#11403",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11403#pullrequestreview-2715902669",
+      "text": "Support for loading recent and favourite valuesets"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10934",
+      "time": "2025-03-26T04:52:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10934#issuecomment-2753238854",
+      "text": ">     * Restrict the submission of service history to a future date\r\n\r\nAdded the validation through zod.\r\n\r\n>     * Replace the date component to use the native browser one\r\n\r\nA new component is being written in another PR, we can circle back and replace this once that's added.\r\n\r\n>     * Add support to the archive / delete service history entry\r\n\r\nCurrently isn't supported on backend; we can open another issue for both of these. Let's get this PR merged.\r\n"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#11502",
@@ -572,13 +614,6 @@
       "title": "ohcnetwork/care_fe#11142",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11142#pullrequestreview-2669996143",
       "text": "Fix: Enhance LocationMap with interactive features and tooltips"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-06T07:35:34.000Z",
-      "title": "ohcnetwork/care_fe#11022",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11022#pullrequestreview-2663575280",
-      "text": "Fixes Issue  #11008 : Changes  to close the issue of Alignment of User Login Status "
     },
     {
       "type": "comment_created",
@@ -10188,7 +10223,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2954",
       "title": "Retrieve External Id in QuestionnaireTag",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],

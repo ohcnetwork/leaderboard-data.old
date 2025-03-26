@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-23T01:12:51.000Z",
+  "last_updated": "2025-03-26T03:02:50.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11436",
+      "time": "2025-03-26T03:02:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11436#issuecomment-2753123131",
+      "text": "@yash-learner I couldn't test it yet, we can't get otp in develop branch"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11200",
@@ -2008,11 +2015,22 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11499",
+      "title": "Confirmation Pop-up When Cancelling an Appointment",
+      "stale_for": 1,
+      "labels": [
+        "merge conflict"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11436",
       "title": "Enabled Automatic OTP Autofill from SMS",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "question",
+        "needs testing",
+        "needs review",
+        "needs-triage"
       ]
     },
     {
