@@ -1,0 +1,35 @@
+{
+  "last_updated": "2025-03-25T22:20:37.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11530",
+      "time": "2025-03-25T22:20:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11530#issuecomment-2752678825",
+      "text": "Hi @Tanuj1718,\n\nIs this bug still active? I believe I’ve resolved the issue. The root cause was that when submitting, some questionnaire forms were not sending any data to the backend. The problem was in `QuestionnaireForm.tsx`, where we need to check the data before adding it to the request.push.\n\nCurrently, we're checking the length of `nonStructuredResponses`, but since we're applying a filter and map, the filter might result in an empty array. We need to validate the data before proceeding. Once we stop invalid data from being sent, the rest of the process, including error handling through `Notification`, will work as expected.\n\nI’ve tested this locally, and it seems to be working fine now.\n\n📝**Suggestions**\n* Now, I was able to stop the couldn't find the resources But,\n* When we tried to submit the QuestionnaireForm , toast message will be shown like this.\n* Here I don't think toast message is not in proper form. We've to handle this case in `Notification.tsx`. We've to display a proper message rathter than just displaying Failed to submit Questionnaire.\n\n<img width=\"485\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c2957166-d406-4cce-859e-cd3a9b0c0988\" />\n\n* Please Let me know"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11564",
+      "time": "2025-03-25T21:04:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11564",
+      "text": "[BUG] Unfriendly Error Message When Uploading WebP Cover Photo"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11537",
+      "time": "2025-03-25T19:47:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11537#issuecomment-2752351173",
+      "text": "* clicked on view Dash Board.\n<img width=\"331\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/552350f5-fc52-4331-9b91-488addfe360a\" />\n\n* Then I saw this profile page. But there was no description field to edit. I am logged in as a Nurse.\n* Am i missing something? Can you please guide me?\n<img width=\"776\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ae2bdb1d-323c-4941-921b-39d30e53d0d8\" />"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11537",
+      "time": "2025-03-25T19:41:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11537#issuecomment-2752341125",
+      "text": "Hi @shivankacker,\nI logged in with nurse credentials which was provided in the repo. I wasn't able to login as admin. I was getting no account found with data something. "
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}
