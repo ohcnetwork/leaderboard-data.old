@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-03-26T08:08:22.000Z",
+  "last_updated": "2025-03-26T11:33:37.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_abdm_fe#16",
+      "time": "2025-03-26T11:33:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/16#issuecomment-2754098300",
+      "text": "Demo Video: \r\n\r\n\r\nhttps://github.com/user-attachments/assets/f40515ea-37b2-42aa-b47f-f157bee1cefd\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_abdm_fe#16",
+      "time": "2025-03-26T11:09:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/16#issuecomment-2754040589",
+      "text": "DEMO VIDEO: \r\n\r\nhttps://github.com/user-attachments/assets/64bf2c4f-5318-4b24-890a-7c0c58fded2c\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_abdm_fe#16",
+      "time": "2025-03-26T10:46:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/16#issuecomment-2753983170",
+      "text": "> @Tanuj1718 any updates on this PR\r\n\r\n@khavinshankar  Updated. Sorry for the delay👀"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11538",
+      "time": "2025-03-26T10:08:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11538#issuecomment-2753865060",
+      "text": "> @Tanuj1718 Once something is typed and then removed and then submitted, empty string is being passed in the request. ![image](https://private-user-images.githubusercontent.com/37619282/426488629-02fd58fe-5ddc-4ec3-93f1-fec67d9557a4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI5ODM2MzQsIm5iZiI6MTc0Mjk4MzMzNCwicGF0aCI6Ii8zNzYxOTI4Mi80MjY0ODg2MjktMDJmZDU4ZmUtNWRkYy00ZWMzLTkzZjEtZmVjNjdkOTU1N2E0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzI2VDEwMDIxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVjMGZmMTg0NmU0NjYwZGFhOGQzODcyY2YyNzMzMWJkNmI2NmMxZTBjMjJiNDlhYjQ0YjdlYzU2YWM3MzhiMWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.epDu4dHxYmLT9IfVaLKDsyTSBXnuYfF027cYLWfitjo)\r\n> \r\n> cc @nihal467\r\n\r\n@amjithtitus09 Is this the expected behaviour or am I missing something?\r\n\r\nhttps://github.com/user-attachments/assets/dacaeebb-4f72-4710-b654-a9a5b7ffaf4d\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11538",
+      "time": "2025-03-26T10:05:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11538#issuecomment-2753855915",
+      "text": "> can't we simply disable the submit button in the first place instead of all this? 🤔\r\n\r\n@rithviknishad We can. But is there any problem in this approach or is it unoptimized? I have just added simple checks🤔"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11530",
@@ -1610,8 +1645,10 @@
       "title": "fix: Handle page crash while submitting empty questionnaires",
       "stale_for": 0,
       "labels": [
+        "question",
         "needs review",
-        "test failed"
+        "test failed",
+        "needs-triage"
       ]
     },
     {
