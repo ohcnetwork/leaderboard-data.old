@@ -1,6 +1,57 @@
 {
-  "last_updated": "2025-03-27T05:01:19.000Z",
+  "last_updated": "2025-03-27T10:52:12.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11592",
+      "time": "2025-03-27T10:52:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11592",
+      "text": "Upgrade to React v19"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-27T10:45:28.000Z",
+      "title": "ohcnetwork/care_teleicu_devices#5",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/5#pullrequestreview-2720780483",
+      "text": "Move device metadata migration to core repo"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11290",
+      "time": "2025-03-27T10:28:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11290",
+      "text": "Bug: Searching 'India' in country selection is not working as expected"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11499",
+      "time": "2025-03-27T06:55:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11499#issuecomment-2756926146",
+      "text": "unassigning due to no activity than the ETD specified when requesting for assignment"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11588",
+      "time": "2025-03-27T06:25:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11588",
+      "text": "Remove unnecessary sticky positioning from ResourceForm footer for improved layout",
+      "turnaround_time": -1451
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11588",
+      "time": "2025-03-27T05:53:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11588",
+      "text": "Remove unnecessary sticky positioning from ResourceForm footer for improved layout"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11570",
+      "time": "2025-03-27T05:50:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11570",
+      "text": "TailwindCSS v4",
+      "turnaround_time": 69445
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#11586",
@@ -65225,15 +65276,21 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11592",
+      "title": "Upgrade to React v19",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/2",
       "title": "added translations",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2955",
       "title": "Task to cleanup expired `TokenSlot` objects and Skip creating slots in the past",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
@@ -65241,15 +65298,14 @@
       "title": "Format phone number being displayed across the platform",
       "stale_for": 0,
       "labels": [
-        "question",
         "needs testing",
         "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/1",
-      "title": "Data migration",
-      "stale_for": 3,
+      "title": "Migrate Camera Device's Position Presets from Care to Plug",
+      "stale_for": 0,
       "labels": []
     }
   ],

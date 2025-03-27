@@ -41322,5 +41322,296 @@
                 }
             ]
         }
+    ],
+    "2025-03-27 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1743075662.485809",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1743076935.000000"
+            },
+            "client_msg_id": "af8b6f38-e976-4b83-8626-a15359273c0a",
+            "text": "*march 27*\n\u2022 show phone number in facility users and patient users link sheet <https://github.com/ohcnetwork/care_fe/pull/11585|#11585>\n\u2022 rolled-back excalidraw dependency upgrade by renovate as most of it was broken; \n\u2022 follow up fixes on tailwindcss v4 upgrade caught by <@U022THM4U2U>; finally merged :marioluigidancing:  _(don\u2019t hate me yet for bringing merge conflict on most of your PRs_ :slightly_smiling_face:_)_ \n\u2022 :headphones: w. <@U07NXCASM89> on solving cascading renders in appointments page due to relative date range picker changes.\n\u2022 :headphones: w. <@U07UM20G3DW> abt. devices\n\u2022 upgrade to react 19 <https://github.com/ohcnetwork/care_fe/pull/11592|#11592> (some fixes left)\n\u2022 upgrading shadcn\u2019s phone input to latest solved the long known issue for scroll to bottom when searched.\n\u2022 made a small cypress fix for phone number rendering\n*next*\n\u2022 train to kochi\n\u2022 push remaining fixes for react 19 upgrade;\n\u2022 remove pydantic spec validations in device registry retrieve/list handlers in teleicu devices plug.\n\u2022 leaderboard v2",
+            "team": "TC99SV7B6",
+            "thread_ts": "1743075662.485809",
+            "reply_count": 2,
+            "reply_users_count": 2,
+            "latest_reply": "1743075759.397689",
+            "reply_users": [
+                "U07NXCASM89",
+                "U02TDGQQPMJ"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "IXd+o",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "march 27",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "show phone number in facility users and patient users link sheet "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/11585",
+                                            "text": "#11585",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "rolled-back excalidraw dependency upgrade by renovate as most of it was broken; "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "follow up fixes on tailwindcss v4 upgrade caught by "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U022THM4U2U"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "; finally merged "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "marioluigidancing"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "  "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "(don\u2019t hate me yet for bringing merge conflict on most of your PRs ",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "slightly_smiling_face",
+                                            "unicode": "1f642",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ") ",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " w. "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U07NXCASM89"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on solving cascading renders in appointments page due to relative date range picker changes."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " ",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "w. "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U07UM20G3DW"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " abt. devices"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "upgrade to react 19 "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/11592",
+                                            "text": "#11592",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " (some fixes left)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "upgrading shadcn\u2019s phone input to latest solved the long known issue for scroll to bottom when searched."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "made a small cypress fix for phone number rendering"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "train to kochi"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "push remaining fixes for react 19 upgrade;"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "remove pydantic spec validations in device registry retrieve/list handlers in teleicu devices plug."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "leaderboard v2"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "marioluigidancing",
+                    "users": [
+                        "U07NXCASM89"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }
