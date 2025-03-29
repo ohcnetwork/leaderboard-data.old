@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-28T03:39:13.000Z",
+  "last_updated": "2025-03-28T08:36:33.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11609",
+      "time": "2025-03-28T08:36:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11609",
+      "text": "Refactor PatientSelect component to use PatientCard for improved UI (desktop and mobile)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11200",
+      "time": "2025-03-28T06:51:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11200#issuecomment-2760379713",
+      "text": "> > > ![image](https://private-user-images.githubusercontent.com/121436543/425684475-2932d6a8-dc2f-4ea4-8be6-37449b05daa6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDMwNDkxNjksIm5iZiI6MTc0MzA0ODg2OSwicGF0aCI6Ii8xMjE0MzY1NDMvNDI1Njg0NDc1LTI5MzJkNmE4LWRjMmYtNGVhNC04YmU2LTM3NDQ5YjA1ZGFhNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMyN1QwNDE0MjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lODc3ZTYyNjE3OGU2YzhkYmM4MWQ0ZmY4YTNhNWJlZmU4YjM2ZDU0NmJjNmU1MjA0ODk1MmFlN2Y4M2RhMzI2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ZHp4qCCPDV_77ah1pBiMV38o-pQge0APPqAbuzF39gc)\r\n> > \r\n> > \r\n> > why do we need the parent most card in mobile view? 🤔 this does not look nice in mobile displays. simply wastes a lot a of screen space.\r\n> \r\n> @rithviknishad @Jacobjeevan @nihal467 what changes should i make\r\n\r\nremove the parent card.\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11400",
@@ -1896,7 +1910,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11518",
       "title": "Redesign: Location Settings Page",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],

@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-27T20:09:00.000Z",
+  "last_updated": "2025-03-28T12:09:12.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11552",
+      "time": "2025-03-28T12:09:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11552#issuecomment-2761180064",
+      "text": "> @nihal467 The backend validation throws an error if I change the format of `TimeQuestion` or `BooleanQuestion`, so I left it as is. Can we modify the backend validation?\r\n\r\n@siva222003  You don't need to change either of those, the responses are rendered based on logic in QuestionnaireReponsesList.\r\n\r\nYou would only need to modify formatValue fn in that file."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-28T11:54:39.000Z",
+      "title": "ohcnetwork/care_fe#11538",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11538#pullrequestreview-2725275216",
+      "text": "fix: Handle page crash while submitting empty questionnaires"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11456",
+      "time": "2025-03-28T05:38:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11456#issuecomment-2760242797",
+      "text": "@ZAPcodes What's the update here?"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11603",
