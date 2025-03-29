@@ -624,5 +624,122 @@
                 }
             ]
         }
+    ],
+    "2025-03-29 00:00:00": [
+        {
+            "user": "U08226KPBF1",
+            "type": "message",
+            "ts": "1743226245.359529",
+            "client_msg_id": "965198b4-be9a-479b-8bc2-5904fa06de3a",
+            "text": "March 27,28\n\u2022 Published an Issue - <https://github.com/ohcnetwork/care_fe/issues/11601|11601>\n\u2022 Merged 2 PRs.\nNext\n\u2022 Looking for new issue .",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1743097288,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/issues/11601",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#11601 Expand Tree items by clicking row/text instead of arrow icon",
+                    "text": "*Describe the bug*  \nIn the Department/Teams section of Settings. users must explicitly click the arrow button to expand/collapse department items which is not user friendly.\n\n*To Reproduce*  \nSteps to reproduce the behavior:\n\n1. Go to 'Settings'\n2. Navigate to 'Departments/Teams' section.\n3. Notice that clicking the text/name doesn't expand/collapse the item.\n4. Only clicking the small arrow icon works for expansion/collapse.\nfix21.mp4 \n\n*Expected behavior*\n\nClicking anywhere on the item text/name should expand/collapse the item\n\nExpected Output.\n\nFix22.mp4 \n\n*Screenshots*\n\n*Desktop (please complete the following information):*\n\n\u2022 OS: [e.g. iOS]\n\u2022 Browser [e.g. chrome, safari]\n\u2022 Version [e.g. 22]\n\n*Smartphone (please complete the following information):*\n\n\u2022 Device: [e.g. iPhone6]\n\u2022 OS: [e.g. iOS8.1]\n\u2022 Browser [e.g. stock browser, safari]\n\u2022 Version [e.g. 22]\n\n*Additional context*  \nAdd any other context about the problem here.\n\n---\n\n### :rotating_light: DO NOT EDIT BELOW THIS LINE :rotating_light:\n\n### Instructions for Requesting Assignment:\n\nTo request assignment, please clearly outline your solution and timeline by commenting on the issue using the format below:\n\n*Describe your solution clearly:*  \nProvide a detailed explanation of your proposed solution, including your approach, key implementation steps, and relevant examples or references. Mention any dependencies, assumptions, or risks you foresee that might affect your timeline or implementation.\n\n*Expected Timeline:*\n\n\u2022 End date: [Expected submission date of a completed Pull Request]\n\n*Additional Context:*  \nInclude any other relevant context, links, screenshots, or resources that support your proposed solution.\n\n> :rotating_light: Your assignment may be unassigned if there is no activity or progress within the stated timeline unless communicated clearly and agreed upon.",
+                    "title": "#11601 Expand Tree items by clicking row/text instead of arrow icon",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/issues/11601",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "question, needs-triage",
+                            "title": "Labels",
+                            "short": true
+                        },
+                        {
+                            "value": "2",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "epfm0",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "March 27,28\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Published an Issue - "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/issues/11601",
+                                            "text": "11601"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Merged 2 PRs."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Looking for new issue ."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
