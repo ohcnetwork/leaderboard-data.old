@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-28T09:00:11.000Z",
+  "last_updated": "2025-03-28T19:40:37.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11580",
+      "time": "2025-03-28T19:40:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11580#issuecomment-2762272703",
+      "text": "@Jacobjeevan @rithviknishad the above error message comes when i reload the form but if i make any changes in code and save , i can see the custom errors from zod schema and not the default message\n\nTried to debug and found registered name field has value undefined can be a cause and also form.reset function does not run from useEffect as device value is not getting set\n\nCan u guys pls guide me here ?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11152",
+      "time": "2025-03-28T19:37:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11152#issuecomment-2762267348",
+      "text": "> Also the PR title is too ambiguous.\r\n\r\nDoes the updated title work ??\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11152",
@@ -494,6 +508,12 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11624",
+      "title": "Added proper error messages for fields",
+      "stale_for": 0,
+      "labels": []
+    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11152",
       "title": "Added Validation block for large image upload error in edit Avatar Form",
