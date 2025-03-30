@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-27T08:01:36.000Z",
+  "last_updated": "2025-03-29T10:38:30.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11361",
+      "time": "2025-03-29T10:38:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11361#issuecomment-2763287318",
+      "text": "\r\n> * position the placeholder properly\r\n> * When data already exists, the dropdown is not prefilled with it. Additionally, even when the UI shows no results, data appears only after performing a search. The dropdown should prefetch the first 14 data to keep them align without existing dropdown behavior.\r\n\r\n\r\nfixed\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11161",
+      "time": "2025-03-29T09:18:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11161#issuecomment-2763249880",
+      "text": "> the issue still persist, do recheck your PR\r\nfixed\r\n"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#10774",
@@ -3137,7 +3151,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11453",
       "title": "Cypress tests for Adding new Location and Encounter Association",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": [
         "test failed",
         "merge conflict"
@@ -3148,40 +3162,40 @@
       "title": "Add support for Preview Valueset in Valueset Editor ",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "changes required"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11161",
       "title": "Fix : Form Validation Error Messages Not Displaying",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
-        "changes required"
+        "test failed"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/608",
       "title": "Add support for `pullHistoricalGitHubActivites` to fetch discussions",
-      "stale_for": 69,
+      "stale_for": 71,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/604",
       "title": "Enable Calendar to Display Data from the Past Three Years",
-      "stale_for": 61,
+      "stale_for": 63,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/602",
       "title": "Add support for tracking commits pushed to branch (Forked)",
-      "stale_for": 61,
+      "stale_for": 63,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/601",
       "title": "Add support for tracking commits pushed to branch (core)",
-      "stale_for": 36,
+      "stale_for": 38,
       "labels": []
     }
   ],

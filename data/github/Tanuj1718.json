@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-28T07:12:27.000Z",
+  "last_updated": "2025-03-29T02:20:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_abdm_fe#16",
+      "time": "2025-03-29T02:20:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/16#issuecomment-2763022886",
+      "text": "> @Tanuj1718 , dialog for large screen and command drawer for small screen the video I have shared does the same do take reference from it from care_fe codebase\r\n\r\nGot it. We have to create a hook and adjust it accordingly (as in care_fe). Just want a confirmation that do we really need this as it will not create any major difference in UI/UX.\r\ncc: @vinutv @khavinshankar "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11262",
@@ -1667,6 +1674,71 @@
       "text": "Sign up page for authenticate a new user"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11538",
+      "title": "fix: Handle page crash while submitting empty questionnaires",
+      "stale_for": 1,
+      "labels": [
+        "changes required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/16",
+      "title": "fix: Made 'Generate/Link ABHA Number' page mobile friendly",
+      "stale_for": 1,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10756",
+      "title": "Allow to select preferable camera during photo capturing",
+      "stale_for": 0,
+      "labels": [
+        "test failed",
+        "changes required"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11290",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11376"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11249",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11261"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10920",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10921"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10866",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10886"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10847",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10884"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10715",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10767"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10686",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10714"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10618",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10630"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10528",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10553"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10429",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10413"
+    }
+  ]
 }
