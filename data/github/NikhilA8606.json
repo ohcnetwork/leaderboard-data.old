@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-29T18:59:29.000Z",
+  "last_updated": "2025-03-30T04:10:59.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2959",
+      "time": "2025-03-30T04:10:59.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2959#issuecomment-2764374616",
+      "text": "> shouldn't these be field_validators instead of model validators? 🤔\r\n\r\nComparing valid_from and valid_to together requires both fields to be assigned first, so this is best suited for @model_validator"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11625",
