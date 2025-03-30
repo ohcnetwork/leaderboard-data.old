@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-28T17:34:09.000Z",
+  "last_updated": "2025-03-29T22:12:28.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11627",
+      "time": "2025-03-29T22:12:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11627#issuecomment-2764262042",
+      "text": "Hi @maintainers,\r\n\r\nI reviewed the OTP resend functionality and found that when the OTP fails to send, a feedback message is already triggered. The error handling is implemented in the handlePydanticErrors function inside ErrorHandler.ts, and I was able to see the corresponding toast notification during testing.\r\n\r\nSince failure feedback was already in place, I focused on adding feedback for a successful OTP resend, as there was no notification for it. I made sure not to alter the existing failure handling and only implemented the missing success feedback.\r\n\r\nLet me know if any further changes are needed. "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11627",
+      "time": "2025-03-29T21:21:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11627",
+      "text": "Fix: Show feedback for 'Resend OTP' button #11562"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11608",
@@ -23,16 +37,11 @@
       "text": "Fix: No Feedback When Resending OTP, Preventing Multiple Clicks and Rate Limiting"
     }
   ],
-  "open_prs": [
+  "open_prs": [],
+  "authored_issue_and_pr": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11627",
-      "title": "Fix: Show feedback for 'Resend OTP' button",
-      "stale_for": 0,
-      "labels": [
-        "question",
-        "needs-triage"
-      ]
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11562",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11627"
     }
-  ],
-  "authored_issue_and_pr": []
+  ]
 }
