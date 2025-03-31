@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-29T10:38:30.000Z",
+  "last_updated": "2025-03-31T13:56:39.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11453",
+      "time": "2025-03-31T13:56:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11453#issuecomment-2766325491",
+      "text": "> * make sure, all the test you created is passing CI/CD before you request a review\r\n\r\nIf it passes all tests locally then why it don't pass CI/CD?\r\n![image](https://github.com/user-attachments/assets/035f9590-5c4f-426b-a481-626c5a25ee13)\r\n\r\nI'm not able to reproduce this locally @nihal467 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11641",
+      "time": "2025-03-31T13:39:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11641#issuecomment-2766270167",
+      "text": "We can make changes in `handleStructuredErrors` to handle this case as well\nPlease assign me this issue\nETA : Tomorrow"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11641",
+      "time": "2025-03-31T13:39:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11641",
+      "text": "Permission Errors causing Page Crash"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11361",
@@ -3151,10 +3172,12 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11453",
       "title": "Cypress tests for Adding new Location and Encounter Association",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
+        "question",
         "test failed",
-        "merge conflict"
+        "merge conflict",
+        "needs-triage"
       ]
     },
     {
@@ -3177,7 +3200,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/608",
       "title": "Add support for `pullHistoricalGitHubActivites` to fetch discussions",
-      "stale_for": 72,
+      "stale_for": 73,
       "labels": []
     },
     {
@@ -3195,7 +3218,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/601",
       "title": "Add support for tracking commits pushed to branch (core)",
-      "stale_for": 39,
+      "stale_for": 40,
       "labels": []
     }
   ],

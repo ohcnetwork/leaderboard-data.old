@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-30T07:05:26.000Z",
+  "last_updated": "2025-03-31T12:55:55.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11529",
+      "time": "2025-03-31T12:55:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11529#issuecomment-2766141606",
+      "text": "> I can't find the component where the error is originating from, all sheetContent tags have a sheetTitle tag when I searched, this shouldn't necessarily be treated as an error imo, any suggestions?\n\n@RohanAJacob2004 It's a dialog error, why are you checking for sheet component.🤔\nCheck for the Dialog component and verify whether it contains the dialog title or not."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11630",
@@ -1692,7 +1699,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11538",
       "title": "fix: Handle page crash while submitting empty questionnaires",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "changes required"
       ]
