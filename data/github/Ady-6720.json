@@ -1,0 +1,66 @@
+{
+  "last_updated": "2025-03-30T20:51:42.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11637",
+      "time": "2025-03-30T20:51:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11637#issuecomment-2764740419",
+      "text": "> > @Ady-6720 ,\r\n> > \r\n> > * Do link PR with issue it is solving to avoid confusion\r\n> >   > https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue\r\n> > * It is better to post screenshot/screen-recording when changes are made in UI\r\n> > * Don't remove Merge Checklist from PR Description ,  ensure you adhere to the PR template.\r\n> \r\n> Missed ?\r\n\r\n@AdityaJ2305 Sorry I missed that, please do recheck."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11637",
+      "time": "2025-03-30T20:30:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11637#issuecomment-2764732577",
+      "text": "> Since, you are on this file could you also update styling for checkbox to make consistent with badge colouring <img alt=\"Screenshot 2025-03-31 at 1 54 00 AM\" width=\"155\" src=\"https://private-user-images.githubusercontent.com/148325158/428425899-79542591-c0b0-4b27-a98b-eb84187e30f9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDMzNjY4MDcsIm5iZiI6MTc0MzM2NjUwNywicGF0aCI6Ii8xNDgzMjUxNTgvNDI4NDI1ODk5LTc5NTQyNTkxLWMwYjAtNGIyNy1hOThiLWViODQxODdlMzBmOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMzMFQyMDI4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZTY4MGY3ZDljYzBkNzY5M2RiNWJmYjQwMjdhMmQxMGY1ZTg5ZWM5YzExNGFhZGIxZDNkNmVjMjQwYjNkMzI2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Xy5Q2UADSl7XhdSHOlL_m6fWF40wUr-p2GJxrpCEly4\">\r\n\r\n![image](https://github.com/user-attachments/assets/54103a4e-6730-498f-a50c-4fbffca37aa0)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11635",
+      "time": "2025-03-30T20:15:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11635#issuecomment-2764727129",
+      "text": "@AdityaJ2305 Already opened a separate PR "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11635",
+      "time": "2025-03-30T19:58:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11635#issuecomment-2764720686",
+      "text": "@rithviknishad @AdityaJ2305 Sorry for the previous confusion, I have made the changes in the right file have tested with Staff login and can verify that the effects are working now. \n\n![Image](https://github.com/user-attachments/assets/6f6a89be-e626-4b3d-95ac-1585f29bd716)\n\n![Image](https://github.com/user-attachments/assets/ef80ddf6-b6ff-49c2-b1ca-917f37b0eae5)"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11637",
+      "time": "2025-03-30T19:56:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11637",
+      "text": "feat: enhance feature tags hover effect with better contrast and anim…"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11636",
+      "time": "2025-03-30T16:15:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11636",
+      "text": "Enhance feature tag hover contrast in the facility editor."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11635",
+      "time": "2025-03-30T15:58:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11635#issuecomment-2764624882",
+      "text": "The current issue is that feature tags in the facility editor become unreadable on hover due to a lack of contrasting background styles. This is caused by missing hover background color classes in the FeatureBadge component located at src/pages/Facility/Utils.tsx.\n\nProposed Solution:\n\nI will update the variantStyles object in the FeatureBadge component to include hover:bg-{color}-200 Tailwind classes for all tag variants. This ensures the background color lightens on hover while maintaining readability against the dark text (text-{color}-800).\n\nAdditional Context:\n\n    Affected File: src/pages/Facility/Utils.tsx\n\n    Platform: Windows / Chrome v132.0.6834.111\n\n    Fix verified visually for all variants\n\n    Screenshots and diff confirm issue resolution\n\n\nETA - ASAP"
+    }
+  ],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11637",
+      "title": "feat: enhance feature tags hover effect with better contrast and anim…",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": []
+}
