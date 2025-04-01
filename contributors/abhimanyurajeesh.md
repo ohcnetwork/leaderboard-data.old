@@ -1,12 +1,12 @@
 ---
 name: Abhimanyu Rajeesh
-title: Junior Full Stack Developer Intern
+title: Full Stack Developer
 github: abhimanyurajeesh
 twitter: ""
 linkedin: abhimanyurajeesh
 slack: U086E5U2CSJ
 joining_date: "26/12/2024"
-role : intern
+role : core
 ---
 
 **Software Developer . Graphic Designer . Photographer**
