@@ -3237,5 +3237,171 @@
                 }
             ]
         }
+    ],
+    "2025-04-01 00:00:00": [
+        {
+            "user": "U07UB6TQWRE",
+            "type": "message",
+            "ts": "1743492023.183159",
+            "client_msg_id": "ffa7acb5-3366-4627-b411-e0fe7f9c25c9",
+            "text": "Last Week\n\n\u2022 Azure deployment is paused. Making Azure Blob S3 compatible is a pain (literally every other cloud provider is S3-compatible except Azure) :face_exhaling:\n\u2022 Created a doc with estimated costs for deploying on Azure: including Postgres (with replicas), Redis, and 3 container apps (backend, celery-worker, celery-beat) [ in case we go that route ]\n\u2022 Gave my portfolio website a random redesign during college labs out of boredom: <https://areeb.dev>\n\u2022 Huddle/Chat with alot of new contributors with frontend and backend setup and debugging.\n\u2022 Had a quick chat with Bodhi and Vignesh.\n\u2022 Raised PR <https://github.com/ohcnetwork/care/pull/2964|care#2964>: Caught ValueError on Sentry for Redis while testing backend dev on Azure.\nNext\n\n\u2022 Final GSoC proposal work for Open Food Facts :raised_hands::skin-tone-2:\n\u2022 Feedback from Vysakh\n\u2022 Working on a script to simplify care app deployment on VMs\n\u2022 Weekly engg call",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "jYeis",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Last Week\n\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Azure deployment is paused. Making Azure Blob S3 compatible is a pain (literally every other cloud provider is S3-compatible except Azure) "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "face_exhaling",
+                                            "unicode": "1f62e-200d-1f4a8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Created a doc with estimated costs for deploying on Azure: including Postgres (with replicas), Redis, and 3 container apps (backend, celery-worker, celery-beat) [ in case we go that route ]"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Gave my portfolio website a random redesign during college labs out of boredom: "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://areeb.dev"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Huddle/Chat with alot of new contributors with frontend and backend setup and debugging."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Had a quick chat with Bodhi and Vignesh."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Raised PR "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/2964",
+                                            "text": "care#2964"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ": Caught ValueError on Sentry for Redis while testing backend dev on Azure."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\nNext\n\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Final GSoC proposal work for Open Food Facts "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "raised_hands",
+                                            "unicode": "1f64c-1f3fb",
+                                            "skin_tone": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Feedback from Vysakh"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Working on a script to simplify care app deployment on VMs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Weekly engg call"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
