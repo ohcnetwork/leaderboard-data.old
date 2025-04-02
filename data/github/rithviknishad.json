@@ -1,6 +1,28 @@
 {
-  "last_updated": "2025-04-01T13:17:29.000Z",
+  "last_updated": "2025-04-01T17:57:50.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2955",
+      "time": "2025-04-01T17:57:50.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2955",
+      "text": "Task to cleanup expired `TokenSlot` objects and Skip creating slots in the past",
+      "turnaround_time": 621521
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-01T17:30:33.000Z",
+      "title": "ohcnetwork/care_fe#11652",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11652#pullrequestreview-2733533500",
+      "text": "fix(deps): update all dependencies (minor, patch)"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-29T14:34:16.000Z",
+      "title": "ohcnetwork/care#2959",
+      "link": "https://github.com/ohcnetwork/care/pull/2959#pullrequestreview-2727388318",
+      "text": "Add validation for date in Schedule creation and Exception creation"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11651",
@@ -229,13 +251,6 @@
       "time": "2025-03-30T10:12:03.000Z",
       "link": "https://github.com/ohcnetwork/leaderboard/issues/613",
       "text": "Excessive Padding on Contributors Page in Mobile View"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-29T14:34:16.000Z",
-      "title": "ohcnetwork/care#2959",
-      "link": "https://github.com/ohcnetwork/care/pull/2959#pullrequestreview-2727388318",
-      "text": "Add validation for date in Schedule creation and Exception creation"
     },
     {
       "type": "issue_closed",
@@ -65905,7 +65920,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11592",
       "title": "Upgrade to React v19",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "merge conflict"
       ]

@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-01T12:59:32.000Z",
+  "last_updated": "2025-04-01T17:44:54.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11657",
+      "time": "2025-04-01T17:44:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11657#issuecomment-2770231400",
+      "text": "> This appears to be a responsive design issue where user information is missing specifically in the mobile view after login.\n> \n> From my initial assessment, this is likely a CSS visibility or layout issue specific to the mobile breakpoint. I'd be happy to work on fixing this bug if you'd like to assign it to me, [@nihal467](https://github.com/nihal467) [@rithviknishad](https://github.com/rithviknishad). I'm excited to be back contributing to the project!\n> \n> End Date: 2 April (EOD)\n\nQuick question: Could you please provide clarification regarding the intended placement of the name and user ID elements? Specifically, should these elements be integrated within the patientSwitcher component or positioned externally to this component?\nAlso, the name refers to the appointed doctor's name, right?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11657",
+      "time": "2025-04-01T15:49:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11657#issuecomment-2769829328",
+      "text": "This appears to be a responsive design issue where user information is missing specifically in the mobile view after login.\nI've reproduced the steps:\n\n- Accessed the patient login page\n- Entered random credentials with OTP 45612\n- Confirmed that user ID, name, and patient name are not visible in mobile view\n\nFrom my initial assessment, this is likely a CSS visibility or layout issue specific to the mobile breakpoint. I'd be happy to work on fixing this bug if you'd like to assign it to me, @nihal467  @rithviknishad.\nI'm excited to be back contributing to the project! "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10878",
@@ -180,5 +194,10 @@
     }
   ],
   "open_prs": [],
-  "authored_issue_and_pr": []
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9077",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9078"
+    }
+  ]
 }
