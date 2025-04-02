@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-01T13:15:55.000Z",
+  "last_updated": "2025-04-01T20:58:06.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11663",
+      "time": "2025-04-01T20:58:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11663",
+      "text": " Fix: Resources Form Header UI"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11644",
@@ -6084,15 +6091,16 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11663",
-      "title": " Fix: Resources Form Header UI",
+      "title": " Fix: Minor Resources Form UI and `UserSelector` display option alignment",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11644",
-      "title": "Refactor SearchInput & Improve ResourceList Filtering UI",
+      "title": "Refactor SearchInput and Used it in CodeBase (affected pages in are in Description) & Improve ResourceList Filtering UI",
       "stale_for": 0,
       "labels": [
         "question",
