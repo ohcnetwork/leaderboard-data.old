@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-04-02T10:43:45.000Z",
+  "last_updated": "2025-04-02T14:56:10.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11677",
+      "time": "2025-04-02T14:56:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11677#issuecomment-2772828796",
+      "text": "Approving it conditionally will create a separate issue to handle all the existing data present in the deleted facility and how we are going to handle them in ABDM records"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11677",
+      "time": "2025-04-02T12:35:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11677#issuecomment-2772425982",
+      "text": "- Hide the Deleted facility from your facility dashboard of a superadmin user\r\n- When someone tries to open a deleted facility using query params, redirect them to 404 page, rather than loading the entire facility page\r\n- When there is live encounter present in the facility, add a warning post delete button is clicked, asking users to entire close all live encounters or mention in the warning that ___ number of the live encounter will be marked completed "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11361",
+      "time": "2025-04-02T12:12:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11361#issuecomment-2772368271",
+      "text": "\r\n![image](https://github.com/user-attachments/assets/4399674a-25f0-4eb3-bb9d-3b4884737a14)\r\n\r\n\r\nthe slug name is throwing a validation error instantly, even before the users goes out of focus from the element\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11343",
@@ -55893,9 +55914,9 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11036",
       "title": "New cypress test for facility devices",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
-        "merge conflict",
+        "Merge Conflict",
         "stale"
       ]
     }

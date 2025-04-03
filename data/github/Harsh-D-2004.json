@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-04-01T04:35:18.000Z",
+  "last_updated": "2025-04-02T12:39:21.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11638",
+      "time": "2025-04-02T12:39:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11638#issuecomment-2772434797",
+      "text": "@rithviknishad Hey , can u pls explain me why i am getting confilicts for package.json , package-lock.json , and also FilePreviewDialog File as i already resolved them  by using rebase and forced push for FilePreviewDialog.\r\n\r\nWhy for package.json , package-lock.json and again for FilePreviewDialog ?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11152",
+      "time": "2025-04-02T12:23:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11152#issuecomment-2772395418",
+      "text": "> follow the merge checklist, prs not following them will not be reviewed\r\n\r\nSorry , will follow the checklist and make next commit"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11152",
+      "time": "2025-04-02T11:55:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11152#issuecomment-2772327489",
+      "text": "@rithviknishad Not getting what changes u are requesting for\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11638",
@@ -583,8 +604,11 @@
       "title": "Fixed rotate function ui for images and next prev function ui for pdf in File Preview Dialog",
       "stale_for": 0,
       "labels": [
-        "changes required",
-        "merge conflict"
+        "invalid",
+        "question",
+        "Changes Required",
+        "Merge Conflict",
+        "needs-triage"
       ]
     },
     {
@@ -592,7 +616,7 @@
       "title": "Added consistent error messages for fields (registered_name , ContactPoints) in Add Device Form",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "Changes Required"
       ]
     },
     {
@@ -600,9 +624,7 @@
       "title": "Added Validation block for large image upload error in edit Avatar Form",
       "stale_for": 0,
       "labels": [
-        "question",
-        "changes required",
-        "needs-triage"
+        "Changes Required"
       ]
     }
   ],

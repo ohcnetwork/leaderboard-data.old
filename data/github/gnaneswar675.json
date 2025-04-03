@@ -1,0 +1,21 @@
+{
+  "last_updated": "2025-04-02T11:29:05.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10144",
+      "time": "2025-04-02T11:29:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10144#issuecomment-2772266331",
+      "text": "\nUsers can upload images with any ratio to their profile, but the system does not enforce or guide the required **1:1 ratio**.  \n\nAdditionally, when users try to upload a perfect **1:1** photo, an error about **pixel requirements** is displayed. However, this requirement is not mentioned in the frontend, leading to confusion.  \n\n\n### ✅ Expected Behavior  \n- When users upload a photo, provide an option to **crop the image to a 1:1 ratio** before submission.  \n- Alternatively, **restrict the capture area to 1:1** so users meet the required condition.  \n- If there is a **minimum pixel requirement**, it should be clearly stated in the frontend to avoid confusion.  \n- Proper error messaging should be displayed when an invalid image is uploaded.  \n\n\n### 🔧 Proposed Solution  \n1. **Implement a cropping tool** to allow users to adjust images to a **1:1 ratio**.  \n2. **Update the frontend UI** to display the **minimum pixel requirement** for images.  \n3. **Improve error handling**:  \n   - If an image does not meet the pixel requirement, show a **clear error message**.  \n   - Allow images of any resolution as long as they maintain the **1:1 ratio**.  \n\n\n\n### ⏳ Expected Timeline  \n- **End date**: [Insert your expected completion date, e.g., April 25, 2025]  \n\n\n🔹 **Please assign this issue to me so I can begin working on it.** 🚀\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11475",
+      "time": "2025-04-02T11:18:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11475#issuecomment-2772243129",
+      "text": "### 🚀 Describe your solution clearly  \nTo fix the issue where clicking the \"Cancel\" button immediately cancels an appointment without confirmation, I will implement a confirmation pop-up before proceeding with the cancellation.  \n\n#### 🔹 Approach:  \n1. **Modify the Cancel Button Behavior**  \n   - Update the `onClick` handler of the \"Cancel\" button to trigger a confirmation dialog instead of directly canceling the appointment.  \n\n2. **Implement a Confirmation Modal**  \n   - Use a modal component (e.g., Material UI, React Bootstrap, or a custom modal) to prompt the user for confirmation.  \n   - Provide two buttons:  \n     - ✅ **Yes, Cancel** – to proceed with cancellation.  \n     - ❌ **No, Keep Appointment** – to close the modal without making changes.  \n\n3. **Handle Appointment Cancellation**  \n   - If the user confirms, execute the existing cancellation logic.  \n   - Ensure appropriate error handling and user feedback (e.g., success/failure message).  \n\n4. **Ensure UI/UX Consistency**  \n   - Match modal styles with existing UI design.  \n   - Ensure accessibility and responsiveness.  \n\n5. **Test the Fix Thoroughly**  \n   - Validate functionality across different devices and browsers.  \n   - Ensure no unintended side effects on other functionalities.  \n\n\n### ⏳ Expected Timeline  \n- **End date**: [Insert your expected completion date, e.g., April 5, 2025]  \n\n\n### 📌 Additional Context  \n- **Reference**: Screenshot of the issue is provided above.  \n- **Dependencies**: If any UI library (e.g., Material UI modal) is introduced, I will document it.  \n- **Risks**: Minimal risks, as this change is isolated to the UI component.  \n\n🔹 **Please assign this issue to me so I can begin working on it.** 🚀\n"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}

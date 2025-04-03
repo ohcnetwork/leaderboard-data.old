@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-28T18:57:45.000Z",
+  "last_updated": "2025-04-02T12:42:18.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10144",
+      "time": "2025-04-02T12:42:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10144#issuecomment-2772442683",
+      "text": "> Users can upload images with any ratio to their profile, but the system does not enforce or guide the required **1:1 ratio**.\n> \n> Additionally, when users try to upload a perfect **1:1** photo, an error about **pixel requirements** is displayed. However, this requirement is not mentioned in the frontend, leading to confusion.\n> \n> ### ✅ Expected Behavior\n> * When users upload a photo, provide an option to **crop the image to a 1:1 ratio** before submission.\n> * Alternatively, **restrict the capture area to 1:1** so users meet the required condition.\n> * If there is a **minimum pixel requirement**, it should be clearly stated in the frontend to avoid confusion.\n> * Proper error messaging should be displayed when an invalid image is uploaded.\n> \n> ### 🔧 Proposed Solution\n> 1. **Implement a cropping tool** to allow users to adjust images to a **1:1 ratio**.\n> 2. **Update the frontend UI** to display the **minimum pixel requirement** for images.\n> 3. **Improve error handling**:\n>    \n>    * If an image does not meet the pixel requirement, show a **clear error message**.\n>    * Allow images of any resolution as long as they maintain the **1:1 ratio**.\n> \n> ### ⏳ Expected Timeline\n> * **End date**: [Insert your expected completion date, e.g., April 25, 2025]\n> \n> 🔹 **Please assign this issue to me so I can begin working on it.** 🚀\n\nAlready Solved in my PR its reviewed also ... Just Merging needed\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11620",
@@ -708,16 +715,15 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11093",
       "title": "Fix/profile photo upload issues",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "needs review",
-        "tested"
+        "Changes Required"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/104",
       "title": "Cep/add patients tag",
-      "stale_for": 21,
+      "stale_for": 25,
       "labels": []
     }
   ],

@@ -1,6 +1,28 @@
 {
-  "last_updated": "2025-04-02T10:50:03.000Z",
+  "last_updated": "2025-04-02T15:33:22.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11677",
+      "time": "2025-04-02T15:33:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11677",
+      "text": "Facility Archive for SuperAdmins",
+      "turnaround_time": 16992
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11677",
+      "time": "2025-04-02T15:32:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11677#issuecomment-2772969919",
+      "text": "@nihal467 Fixed the padding.\r\ncc @aravindm4 @bodhish "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11677",
+      "time": "2025-04-02T14:29:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11677#issuecomment-2772750143",
+      "text": "> - Hide the Deleted facility from your facility dashboard of a superadmin user\n> \n> - When someone tries to open a deleted facility using query params, redirect them to 404 page, rather than loading the entire facility page\n> \n> - When there is live encounter present in the facility, add a warning post delete button is clicked, asking users to close all live encounters or mention in the warning that ___ number of the live encounter will be marked completed , Product Call take a opinion from @bodhish / @gigincg \n\n@nihal467 Fixed FE & BE for first 2 issues. Please retest"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11677",
@@ -2227,7 +2249,17 @@
       "text": "Explicity mention Public Read ACL for Facility Image S3 Uploads"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11696",
+      "title": "Set Care Team for Encounter",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care/issues/2817",

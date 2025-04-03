@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-04-02T10:10:34.000Z",
+  "last_updated": "2025-04-02T14:46:02.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11681",
+      "time": "2025-04-02T14:46:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11681#issuecomment-2772799557",
+      "text": "The API now accepts a list of care team members along with the role they played in the encounter, Valueset code: `system-practitioner-role-code`"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/roadmap#65",
+      "time": "2025-04-02T14:44:42.000Z",
+      "link": "https://github.com/ohcnetwork/roadmap/issues/65",
+      "text": "Change Treating Doctors to Care Team"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/roadmap#65",
+      "time": "2025-04-02T14:44:33.000Z",
+      "link": "https://github.com/ohcnetwork/roadmap/issues/65",
+      "text": "Change Treating Doctors to Care Team"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/roadmap#66",
+      "time": "2025-04-02T14:44:28.000Z",
+      "link": "https://github.com/ohcnetwork/roadmap/issues/66",
+      "text": "Add Care Team to Discharge Summary"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11681",
+      "time": "2025-04-02T13:29:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11681#issuecomment-2772570947",
+      "text": "@bodhish check the UX, it might make more sense to select organization and then a user from that org, for large facilities getting a list of all users in that facility might not work. "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/roadmap#23",
+      "time": "2025-04-02T13:27:49.000Z",
+      "link": "https://github.com/ohcnetwork/roadmap/issues/23#issuecomment-2772567268",
+      "text": "Treating doctors are now called care team"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/roadmap#24",
+      "time": "2025-04-02T12:32:38.000Z",
+      "link": "https://github.com/ohcnetwork/roadmap/issues/24",
+      "text": "Backend for Treating doctors for encounters"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-01T12:37:45.000Z",
+      "title": "ohcnetwork/care#2956",
+      "link": "https://github.com/ohcnetwork/care/pull/2956#pullrequestreview-2732538139",
+      "text": "added treating doctors and validation for consent"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-04-02T10:10:34.000Z",
@@ -70,13 +126,6 @@
       "time": "2025-04-01T12:40:06.000Z",
       "link": "https://github.com/ohcnetwork/roadmap/issues/61",
       "text": "Cache User data in redis"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-01T12:37:45.000Z",
-      "title": "ohcnetwork/care#2956",
-      "link": "https://github.com/ohcnetwork/care/pull/2956#pullrequestreview-2732538139",
-      "text": "added treating doctors and validation for consent"
     },
     {
       "type": "pr_reviewed",
@@ -14387,7 +14436,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/6",
       "title": "[CEP-4] RBAC: initial spec",
-      "stale_for": 181,
+      "stale_for": 182,
       "labels": []
     }
   ],
