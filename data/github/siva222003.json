@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-28T01:09:01.000Z",
+  "last_updated": "2025-04-02T09:42:55.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11552",
+      "time": "2025-04-02T09:42:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11552#issuecomment-2772016661",
+      "text": "Hey @Jacobjeevan, sorry for the delay as I was working on another issue in the care_abdm repo, which took some time. Will complete this by EOD and push the new changes."
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#11313",
@@ -599,15 +606,17 @@
       "title": "Fix: Improve Questionnaire Type Validation for Time and Boolean Fields",
       "stale_for": 0,
       "labels": [
-        "changes required"
+        "question",
+        "changes required",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11343",
       "title": "feat: show unsupported browser warning on all pages",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": [
-        "changes required"
+        "test failed"
       ]
     }
   ],

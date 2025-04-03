@@ -1,6 +1,63 @@
 {
-  "last_updated": "2025-04-01T16:35:08.000Z",
+  "last_updated": "2025-04-02T10:00:26.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11571",
+      "time": "2025-04-02T10:00:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11571",
+      "text": "Addressing some bugs in the Encounter manage consents",
+      "turnaround_time": 599388
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11672",
+      "time": "2025-04-02T09:35:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11672#issuecomment-2771994304",
+      "text": "We do not want to display ongoing slots here so lets just filter that out in this page only without disturbing other things. "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11672",
+      "time": "2025-04-02T09:33:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11672#issuecomment-2771990382",
+      "text": "@rithviknishad I discarded any change to the function only making changes externally. Can you view it once and confirm"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11672",
+      "time": "2025-04-02T08:55:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11672#issuecomment-2771881508",
+      "text": "@rithviknishad lets do one thing, we can add a check while grouping the slots externally without changing the groupSlotsByAvailability function this would not break I guess"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11672",
+      "time": "2025-04-02T08:44:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11672#issuecomment-2771845077",
+      "text": "> this breaks lots of other things right?\r\n\r\ncan you elaborate what exactly it would break???"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11672",
+      "time": "2025-04-02T08:42:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11672#issuecomment-2771839643",
+      "text": "the condition was returning null and that's the reason I thought it would be better filtering it in the function itself because @abhimanyurajeesh mentioned that it should show No slots Available"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11672",
+      "time": "2025-04-02T08:34:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11672#issuecomment-2771813763",
+      "text": "@rithviknishad @Jacobjeevan @abhimanyurajeesh the root cause of this issue was that the TokenBookingSlot is returning null when the slot is ongoing so if we want to show no slots available then why not move the allowOngoingSlot to the groupSlotsByAvailability function so that we can filter directly there and the array returns [ ] and would therefore display No Slots Available."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11672",
+      "time": "2025-04-02T08:29:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11672",
+      "text": "Resolved Appointment booking bug to show No Slots Available instead of just session title"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11657",

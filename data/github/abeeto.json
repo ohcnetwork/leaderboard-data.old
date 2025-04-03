@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-28T00:44:43.000Z",
+  "last_updated": "2025-04-02T08:49:44.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11471",
+      "time": "2025-04-02T08:49:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11471#issuecomment-2771865038",
+      "text": "> I feel we should improve the UX here; instead of auto-fill, we could make this a tab section.\n> \n> First tab could be: \"By slot duration\", second tab could be: \"By number of slots\", switching to any of the tab, should use that logic appropriately. \n> \n> \n> @bodhish thoughts? 🤔 \n> \n> @abeeto feel free to pitch in better ideas.\n\nIs there a use case for having the two options? Feel like they're both quite similar and in practice people would just one. \n\nFrom UX perspective, slot duration seems more useful because people won't have to do as much mental maths (can just say 30mins/session). But the logic for this would be more complex I think (how to divide sessions times as close to the slot duration provided)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11665",
+      "time": "2025-04-02T06:13:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11665#issuecomment-2771435702",
+      "text": "Hi if valid I would like to work on this.\n\nMy approach would depend on the decided solution for the renaming button as its the only button that may not fit alongside Download, Archive and view.  But in general, I would try to remove the \"...\" button and show the action buttons.\n\nETA: 1-2 days after assignment"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11665",
+      "time": "2025-04-02T06:10:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11665",
+      "text": "Improve UI of action buttons in files tab view on Encounter Page"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#11175",
