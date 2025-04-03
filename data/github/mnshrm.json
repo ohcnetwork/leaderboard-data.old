@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-03-23T07:33:37.000Z",
+  "last_updated": "2025-04-02T16:33:35.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10924",
+      "time": "2025-04-02T16:33:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10924#issuecomment-2773133773",
+      "text": "Hello @rithviknishad \nThese are the rules I came up with to ensure uniform usage and declaration of i18n keys\nplease review them also provide any suggestions\n\n### Rules for Writing Translation Keys\n\n- If creating dynamic translation or keys which are resolved during runtime, use the following format: `static_part__dynamic_part`.\n- Always use a double underscore `__` to separate the static part and dynamic part.\n- Use descriptive and meaningful keys that reflect the purpose of the string.\n- Use snake_case for naming keys (e.g., `user_login_success`).\n- Avoid using special characters or spaces in keys.\n- Do not hardcode dynamic values; use placeholders (e.g., `welcome_message: \"Welcome, {username}!\"`).\n- Ensure keys are unique across the project to avoid conflicts.\n- Keep keys consistent and aligned with existing naming conventions.\n- Update the translation file in alphabetical order for easier maintenance (use sort-locale js script).\n- Always test translations to ensure they render correctly in the UI.\n\n### Rules for Using Translation Keys\n\n1. **Avoid Passing Translation Keys as Props:**  \n   Always use the `t` function or the `Trans` component to handle translations. Do not pass translation keys directly as props to components, and then use these props in `t` function or `Trans` component.\n\n2. **Dynamic Keys:**\n\n- Ensure dynamic keys follow the translation key naming conventions outlined above.\n- Use the `Trans` component to translate strings with dynamic keys instead of the `t` function.\n\n3. **Plural Keys:**\n\n- When using plural keys, ensure the entire translation key is passed to the `Trans` component. Avoid relying on i18n to determine the correct key dynamically.\n- Example:\n\n```javascript\nconst key =\n  count === 1 ? (\n    <Trans i18nKey=\"item_singular\" values={{ count }} />\n  ) : (\n    <Trans i18nKey=\"item_plural\" values={{ count }} />\n  );\n```\n\n- This approach ensures clarity and avoids potential issues with incorrect key resolution.\n\n\n\nNote : These rules are written with intention to achieve uniformity in i18n keys in addition to this these rules ensure that i18n scanner is able to scan all keys correctly.\n\nThanks And Regards\nAman Sharma"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10924",
@@ -180,15 +187,6 @@
       "text": "Conditionaly renders pagination component if number of entries is more than results per page"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11137",
-      "title": "Add JS script to remove unused keys in codebase",
-      "stale_for": 0,
-      "labels": [
-        "merge conflict"
-      ]
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }
