@@ -1,6 +1,83 @@
 {
-  "last_updated": "2025-04-03T13:29:34.000Z",
+  "last_updated": "2025-04-03T17:48:45.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11573",
+      "time": "2025-04-03T17:48:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11573#issuecomment-2776523607",
+      "text": "Closing this in favor of https://github.com/ohcnetwork/care_fe/issues/11626\n\n(This is the earlier issue, however that one has a PR attached, and addresses buttons broadly)."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11573",
+      "time": "2025-04-03T17:48:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11573",
+      "text": "Next button not showing in Discharge Summary"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11698",
+      "time": "2025-04-03T17:41:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11698#issuecomment-2776507559",
+      "text": "Let's not add things unnecessarily 🤔  Need to be clarified on product side first."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11669",
+      "time": "2025-04-03T17:39:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11669#issuecomment-2776504349",
+      "text": "@sivangbagri  Check @gobardan1707's comments as well.\n\nAssigning to former since you already have another issue assigned @gobardan1707."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11702",
+      "time": "2025-04-03T17:25:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11702#issuecomment-2776474348",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/11626"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11702",
+      "time": "2025-04-03T17:25:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11702",
+      "text": "Mobile PDF Viewer Responsiveness Issues in Discharge Summary"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11715",
+      "time": "2025-04-03T17:12:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11715#issuecomment-2776448807",
+      "text": "(1) Redirection is fine, that's expected behavior\n(2) It doesn't log out the user, just that authenticated state isn't kept track in landing page.\n\nIn this case, we would want to hide everything below the search bar section in landing page when user is logged in (check the logic in LoginHeader to detect if user is logged in or not in a public route)."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11710",
+      "time": "2025-04-03T16:29:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11710",
+      "text": "Sort Drawings List by Modified Date in Descending Order"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11711",
+      "time": "2025-04-03T16:28:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11711#issuecomment-2776346978",
+      "text": "Trying to do this on FE would be messy, especially with pagination. Better to do this on BE, but right now this isn't a priority."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11711",
+      "time": "2025-04-03T16:28:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11711",
+      "text": "Prioritize Active Files Above Archived Files"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11707",
+      "time": "2025-04-03T16:24:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11707",
+      "text": "Search by Facility Feature"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#11705",
@@ -10716,7 +10793,14 @@
       "text": "Update Jacobjeevan.md"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2975",
+      "title": "Allow to update geo org for the user",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10597",

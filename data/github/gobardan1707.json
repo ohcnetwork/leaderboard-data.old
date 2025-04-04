@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-04-03T11:48:31.000Z",
+  "last_updated": "2025-04-03T17:58:41.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11669",
+      "time": "2025-04-03T17:58:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11669#issuecomment-2776545842",
+      "text": "> [@gobardan1707](https://github.com/gobardan1707) can you please explain this how you solved this?\n\nso what happens is when you try print the details in the printquestinnaireresponce  part it only considering a single div with username and logo , it is not able to identify the encounter details and the responcecard so what i have identified that the problem was  in the printpreview part the overflow is hidden thats why  the  other things were not readable you can check it out \n\ni have solved the issue what i did is  i have changed the overflow hidden to overflow visible after that the print is working fine at everyplace and i have done few little more changes let me know if you want to know more  "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11669",
+      "time": "2025-04-03T17:46:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11669#issuecomment-2776519331",
+      "text": "@Jacobjeevan sure its fine let me know if anything i can help \n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11693",
