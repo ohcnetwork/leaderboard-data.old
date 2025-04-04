@@ -1,6 +1,240 @@
 {
-  "last_updated": "2025-04-02T12:52:09.000Z",
+  "last_updated": "2025-04-03T09:08:56.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-03T08:55:43.000Z",
+      "title": "ohcnetwork/care_fe#11699",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11699#pullrequestreview-2739028636",
+      "text": "Refactor QuestionnaireSearch, ValueSetSelect, and Autocomplete components to use Sheet for mobile UI, replacing CommandDrawer."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-03T09:04:11.000Z",
+      "title": "ohcnetwork/care_fe#11552",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11552#pullrequestreview-2739054413",
+      "text": "Fix: Improve Questionnaire Type Validation for Time and Boolean Fields"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11700",
+      "time": "2025-04-03T09:03:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11700",
+      "text": "fix: update merge conflict label to \"Merge Conflict\" in GitHub workflow",
+      "turnaround_time": 39
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11700",
+      "time": "2025-04-03T09:03:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11700",
+      "text": "fix: update merge conflict label to \"Merge Conflict\" in GitHub workflow"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11172",
+      "time": "2025-04-03T09:00:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11172",
+      "text": "Redesign Select/Register Patient Table for Better Mobile Usability and Visibility"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#11609",
+      "time": "2025-04-03T09:00:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11609",
+      "text": "Refactor PatientSelect component to use PatientCard for improved UI (desktop and mobile)",
+      "collaborated_with": [
+        "abhimanyurajeesh",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-03T08:54:05.000Z",
+      "title": "ohcnetwork/care_fe#11621",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11621#pullrequestreview-2739018928",
+      "text": "`DiagnosisQuestion` and `SymptomQuestion` to Use ShadCN Table Component  in large screen and Minor UI enhancement in AllergyQuestion"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-28T08:47:26.000Z",
+      "title": "ohcnetwork/care_fe#11609",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11609#pullrequestreview-2724707457",
+      "text": "Refactor PatientSelect component to use PatientCard for improved UI (desktop and mobile)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11691",
+      "time": "2025-04-03T08:29:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11691#issuecomment-2774881047",
+      "text": "https://github.com/ohcnetwork/care_fe/pull/11697#issuecomment-2774880097"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11691",
+      "time": "2025-04-03T08:29:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11691",
+      "text": "Enhance Doctor's schedule view for patient"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11697",
+      "time": "2025-04-03T08:29:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11697#issuecomment-2774880097",
+      "text": "we have heatmap API for achieving this, but this is not available for public patients page!"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-03T08:13:08.000Z",
+      "title": "ohcnetwork/care_fe#11545",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11545#pullrequestreview-2738912551",
+      "text": "Autofill feature to fill duration for multiple slots"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11471",
+      "time": "2025-04-03T08:05:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11471#issuecomment-2774817531",
+      "text": "okiez, for now I believe the current PR seems fine! we can improve later based on feedback"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11654",
+      "time": "2025-04-03T07:59:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11654",
+      "text": "Bug: Live Session Only Displays “Session Title” in Public View (Appoinment Booking)"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11675",
+      "time": "2025-04-03T07:59:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11675",
+      "text": "Profile picture of practitioners not shown in public appointment booking"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11676",
+      "time": "2025-04-03T07:59:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11676",
+      "text": "Hide ongoing slots in and fix practitioners avatar not being shown in public appointment booking",
+      "turnaround_time": 75792
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11515",
+      "time": "2025-04-03T07:57:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11515",
+      "text": "Add loader to the patient details dashboard"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#11534",
+      "time": "2025-04-03T07:57:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11534",
+      "text": "Added loader to the patient details dashboard ",
+      "collaborated_with": [
+        "sivangbagri",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-01T06:59:08.000Z",
+      "title": "ohcnetwork/care_fe#11534",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11534#pullrequestreview-2731607554",
+      "text": "Added loader to the patient details dashboard "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-03T05:59:06.000Z",
+      "title": "ohcnetwork/care_fe#11689",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11689#pullrequestreview-2738610694",
+      "text": "FIXED: Input Overflow in Edit Administration Dialog"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-03T07:35:30.000Z",
+      "title": "ohcnetwork/care_fe#11694",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11694#pullrequestreview-2738807510",
+      "text": "fix(deps): update dependency recharts to v2.15.2"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11340",
+      "time": "2025-04-03T07:24:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11340#issuecomment-2774723704",
+      "text": "Closing as long past the ETD mentioned in the issue;\r\n\r\n![image](https://github.com/user-attachments/assets/b69c0f7c-eb9b-4514-85c2-57df2c8c634d)\r\n"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11145",
+      "time": "2025-04-03T07:20:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11145",
+      "text": "Validation Messages Not Displaying as Intended"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-11T12:57:27.000Z",
+      "title": "ohcnetwork/care_fe#11152",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11152#pullrequestreview-2674398091",
+      "text": "Added Validation block for validation errors"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-08T09:59:24.000Z",
+      "title": "ohcnetwork/care_fe#11044",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11044#pullrequestreview-2669085606",
+      "text": "Fixes Issue #11009:  Changes in the code to disable adding exceptions before date"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-03T03:52:35.000Z",
+      "title": "ohcnetwork/care_fe#10946",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10946#pullrequestreview-2653002440",
+      "text": "Feature: multi-select for orgs in locations"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-28T09:01:03.000Z",
+      "title": "ohcnetwork/care_fe#10928",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10928#pullrequestreview-2724734351",
+      "text": "Questionnaire preview redesign"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-03T06:18:34.000Z",
+      "title": "ohcnetwork/care_fe#11678",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11678#pullrequestreview-2738643596",
+      "text": "Fix : Expand Tree items by clicking row/text instead of arrow icon"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11692",
+      "time": "2025-04-03T06:08:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11692#issuecomment-2774588783",
+      "text": "If we were to add validations to restrict incorrect pincodes, this should be added to the backend.\n\nI'm concerned about keeping the pin-code registry up-to-date with the latest information.\n\ncc: @bodhish @vigneshhari "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11063",
+      "time": "2025-04-03T06:05:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11063",
+      "text": "Close Button and Title Not Visible in Edit Avatar & Edit Cover Photo Dialogs on Mobile"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-03T06:03:59.000Z",
+      "title": "ohcnetwork/care_fe#11685",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11685#pullrequestreview-2738618070",
+      "text": " fixed dialog title and close button visible on mobile"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-03T05:57:35.000Z",
+      "title": "ohcnetwork/care_fe#11687",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11687#pullrequestreview-2738608434",
+      "text": "fix(deps): update all dependencies (minor, patch)"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-04-02T12:52:09.000Z",
@@ -168,13 +402,6 @@
       "text": "Expand Tree items by clicking row/text instead of arrow icon"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-03-28T08:47:26.000Z",
-      "title": "ohcnetwork/care_fe#11609",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11609#pullrequestreview-2724707457",
-      "text": "Refactor PatientSelect component to use PatientCard for improved UI (desktop and mobile)"
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11663",
       "time": "2025-04-02T06:04:04.000Z",
@@ -232,13 +459,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2025-03-11T12:57:27.000Z",
-      "title": "ohcnetwork/care_fe#11152",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11152#pullrequestreview-2674398091",
-      "text": "Added Validation block for validation errors"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2025-04-02T05:20:22.000Z",
       "title": "ohcnetwork/care_fe#11093",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11093#pullrequestreview-2734681853",
@@ -250,13 +470,6 @@
       "title": "ohcnetwork/care_fe#10756",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10756#pullrequestreview-2644691830",
       "text": "Allow to select preferable camera during photo capturing"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-01T06:59:08.000Z",
-      "title": "ohcnetwork/care_fe#11534",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11534#pullrequestreview-2731607554",
-      "text": "Added loader to the patient details dashboard "
     },
     {
       "type": "pr_reviewed",
@@ -293,13 +506,6 @@
       "time": "2025-04-01T13:17:29.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11651#issuecomment-2769330531",
       "text": "@Tanuj1718 next time make sure PR titles are more specific; This is very ambiguous and does not convey where it was solved;"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-08T09:59:24.000Z",
-      "title": "ohcnetwork/care_fe#11044",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11044#pullrequestreview-2669085606",
-      "text": "Fixes Issue #11009:  Changes in the code to disable adding exceptions before date"
     },
     {
       "type": "issue_closed",
@@ -571,13 +777,6 @@
       "title": "ohcnetwork/care_fe#11610",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11610#pullrequestreview-2724742854",
       "text": "fix(deps): update all dependencies (minor, patch) to v5.69.2"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-28T09:01:03.000Z",
-      "title": "ohcnetwork/care_fe#10928",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10928#pullrequestreview-2724734351",
-      "text": "Questionnaire preview redesign"
     },
     {
       "type": "comment_created",
@@ -4076,13 +4275,6 @@
       "title": "ohcnetwork/care_fe#10838",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10838#pullrequestreview-2653005230",
       "text": "Added Validations to Valueset form Name and Slug fields along with translations for error messages."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-03T03:52:35.000Z",
-      "title": "ohcnetwork/care_fe#10946",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10946#pullrequestreview-2653002440",
-      "text": "Feature: multi-select for orgs in locations"
     },
     {
       "type": "pr_reviewed",
@@ -66145,6 +66337,64 @@
       "text": "gh scraper: improve logging and scrape everything"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11592",
+      "title": "Upgrade to React v19",
+      "stale_for": 2,
+      "labels": [
+        "Merge Conflict"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/2",
+      "title": "added translations",
+      "stale_for": 9,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/1",
+      "title": "Migrate Camera Device's Position Presets from Care to Plug",
+      "stale_for": 7,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11675",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11676"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11336",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11351"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2858",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2880"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10347",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10390"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9966",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10214"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9877",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2725"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9810",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9799"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9809",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9799"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2667",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2675"
+    }
+  ]
 }

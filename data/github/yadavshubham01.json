@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-02T13:41:21.000Z",
+  "last_updated": "2025-04-03T09:52:41.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11684",
+      "time": "2025-04-03T09:52:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11684#issuecomment-2775138834",
+      "text": "Hey @abhimanyurajeesh, I found the root cause of the issue it was due to the sidebar state (open) not updating automatically when the screen size changed. The component wasn’t responding to changes in isMobile, causing inconsistent behavior.\r\n\r\nTo fix this, we added a useEffect hook inside the SidebarProvider component to detect screen size changes and ensure the sidebar opens automatically on mobile. Can you check it?"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11684",
@@ -126,6 +133,18 @@
       "text": "Hi @mathew-alex, @tellmeY18, and @shivankacker,\n\nI'm excited to contribute to this project and collaborate with you all! Looking forward to working together and making a meaningful impact. 💡✨\n\nBest,\nShubham"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11684",
+      "title": "Fix: Display Patient Name in Mobile View",
+      "stale_for": 0,
+      "labels": [
+        "invalid",
+        "question",
+        "Changes Required",
+        "needs-triage"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

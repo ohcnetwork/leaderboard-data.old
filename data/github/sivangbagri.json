@@ -1,6 +1,32 @@
 {
-  "last_updated": "2025-04-02T06:59:34.000Z",
+  "last_updated": "2025-04-03T09:47:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11669",
+      "time": "2025-04-03T09:47:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11669#issuecomment-2775122354",
+      "text": "@rithviknishad \nThis issue happening because of following reason I found:\n- The current CSS media query in index.css is only applying when the actual print dialog is opened, not during preview.\n-  The `ZoomProvider` and `ZoomTransform` components might be interfering with the print preview.\n\nI will be adding required css and fixing the Zoom provider \nend date: 3/april\n\nKidly assign. I will raise the PR."
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11534",
+      "time": "2025-04-03T07:57:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11534",
+      "text": "Added loader to the patient details dashboard ",
+      "turnaround_time": 839422
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#11534",
+      "time": "2025-04-03T07:57:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11534",
+      "text": "Added loader to the patient details dashboard ",
+      "collaborated_with": [
+        "sivangbagri",
+        "rithviknishad"
+      ]
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11669",
@@ -108,16 +134,7 @@
       "text": "Added loader to the patient details dashboard "
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11534",
-      "title": "Added loader to the patient details dashboard ",
-      "stale_for": 0,
-      "labels": [
-        "changes required"
-      ]
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11629",

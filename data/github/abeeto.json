@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-02T08:49:44.000Z",
+  "last_updated": "2025-04-03T05:30:41.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11529",
+      "time": "2025-04-03T05:30:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11529#issuecomment-2774535622",
+      "text": "Hi, @Tanuj1718  @Jacobjeevan \nI see that this issue hasn't been fixed yet, could I please have a look.\nApproach:\n1) Add a `DialogTitle`, will wrap it in `VisuallyHidden` component so it's only for screen readers, assuming solution will look a little like this:\n\n```\n    <Dialog>\n      {/* ... other dialog elements ... */}\n      <DialogContent>\n        <VisuallyHidden>\n          <DialogTitle>Search Questionnaires</DialogTitle>\n        </VisuallyHidden>\n        {/* ... dialog content ... */}\n      </DialogContent>\n    </Dialog>\n```\n\nETA: 1 day after assignment"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11471",
@@ -292,8 +299,11 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11545",
       "title": "Autofill feature to fill duration for multiple slots",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     }
   ],
   "authored_issue_and_pr": [
