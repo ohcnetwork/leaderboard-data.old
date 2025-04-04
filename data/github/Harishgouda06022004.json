@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-02T10:54:45.000Z",
+  "last_updated": "2025-04-03T11:25:10.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11702",
+      "time": "2025-04-03T11:25:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11702#issuecomment-2775448480",
+      "text": "Hi ashwinpraveengo, would like to work on this issue.\n\nProposed Solution:\nResponsive Design Fixes\n\nEnsure the PDF viewer container uses flexbox or grid for proper scaling on mobile screens.\n\nUse CSS media queries to adjust width, height, and positioning of zoom controls and navigation buttons for smaller screens.\n\nError Handling Improvement\n\nDebug why the \"Failed to load PDF file\" error occurs on mobile.\n\nEnsure the PDF.js library (or any viewer being used) properly loads files on mobile.\n\nTest different rendering methods like object/embed/iframe to check for compatibility issues.\n\nTouch-Friendly Controls\n\nIncrease button size for zoom and navigation controls for better mobile usability.\n\nAdd swipe gestures for navigation between pages if applicable.\n\nExpected Timeline:\nEnd date: April 5, 2025\n\nAdditional Context:\nI will test the fixes on multiple mobile devices, including Samsung Galaxy M34 (Android) and other screen sizes.\n\nIf needed, I will integrate a mobile-responsive PDF viewer library for better adaptability.\n\nPlease assign me this issue, and I will provide updates as I make progress.\n\nThanks!\n\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11607",

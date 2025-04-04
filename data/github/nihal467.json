@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-04-03T09:00:25.000Z",
+  "last_updated": "2025-04-03T13:29:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11705",
+      "time": "2025-04-03T13:29:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11705#issuecomment-2775796466",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11705",
+      "time": "2025-04-03T12:51:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11705#issuecomment-2775692476",
+      "text": "![image](https://github.com/user-attachments/assets/91bea2b7-9090-43f0-b823-51cd77456ebf)\r\n\r\n- when there is no end date, the health profile is showing current date and time as end time for medication"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11696",
+      "time": "2025-04-03T12:40:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11696#issuecomment-2775661264",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11403",
+      "time": "2025-04-03T12:26:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11403#issuecomment-2775626531",
+      "text": "![image](https://github.com/user-attachments/assets/45982853-27af-457d-8c41-e18ce971e34a)\r\n![image](https://github.com/user-attachments/assets/33fee8cf-c38c-4f44-9a98-13a7bcff1120)\r\n\r\n- The dropdown values are duplicated since the recent viewed API is showing same data multiple times"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11696",
+      "time": "2025-04-03T11:19:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11696#issuecomment-2775431363",
+      "text": "![image](https://github.com/user-attachments/assets/2441633a-b99c-457d-bbe9-f428d517c36e)\r\n\r\n- Remove the bottom save and cancel button, only add button is only needed\r\n- add toaster for addition, deletion, etc.\r\n- rather than move and arrange primary, click the icon and show a option to set any user primary\r\n- change place holder from select doctor to select member "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11699",
+      "time": "2025-04-03T11:06:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11699#issuecomment-2775399744",
+      "text": "avoid adding scroller to the mobile view, if the view port have the space to show the entire popup"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-27T17:32:39.000Z",
+      "title": "ohcnetwork/care_fe#11068",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11068#pullrequestreview-2722794485",
+      "text": "Cypress test for resources"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11044",
+      "time": "2025-04-03T10:03:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11044#issuecomment-2775168630",
+      "text": "![image](https://github.com/user-attachments/assets/2b9cb381-6a84-4fc9-b688-bd67f040e1c8)\r\n\r\nthe logic is incorrect"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11554",
@@ -270,13 +326,6 @@
       "time": "2025-03-27T18:39:11.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/10946#issuecomment-2759076294",
       "text": "![image](https://github.com/user-attachments/assets/a3932d04-6eee-4963-b09a-fe40e4d8703a)\r\n\r\n- add missing translation for the pop-up\r\n- fix the failing cypress\r\n\r\n![image](https://github.com/user-attachments/assets/eb3529a4-627d-41b1-8b5c-2fd5d2869507)\r\n\r\n- the pop-up is being clipping in behind the keyboard in mobile, improve the UX in mobile devices\r\n\r\n\"The organization search currently works only at the parent level or the selected level. However, fetching search results from all root and sub-root organizations together would make selection much easier for users."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-27T17:32:39.000Z",
-      "title": "ohcnetwork/care_fe#11068",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11068#pullrequestreview-2722794485",
-      "text": "Cypress test for resources"
     },
     {
       "type": "pr_reviewed",
@@ -55921,10 +55970,12 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11036",
       "title": "New cypress test for facility devices",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": [
+        "question",
         "Merge Conflict",
-        "stale"
+        "stale",
+        "needs-triage"
       ]
     }
   ],

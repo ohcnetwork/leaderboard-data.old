@@ -1,6 +1,47 @@
 {
-  "last_updated": "2025-04-03T09:03:39.000Z",
+  "last_updated": "2025-04-03T14:06:39.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11612",
+      "time": "2025-04-03T14:06:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11612",
+      "text": "Mobile Behavior for autocomplete dropdown are broken"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#11699",
+      "time": "2025-04-03T14:06:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11699",
+      "text": "Refactor QuestionnaireSearch, ValueSetSelect, and Autocomplete components to use Sheet for mobile UI, replacing CommandDrawer.",
+      "collaborated_with": [
+        "abhimanyurajeesh",
+        "rithviknishad",
+        "amjithtitus09"
+      ]
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11681",
+      "time": "2025-04-03T12:41:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11681",
+      "text": "Add support for logging treating doctors in encounter"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11696",
+      "time": "2025-04-03T12:41:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11696",
+      "text": "Set Care Team for Encounter",
+      "turnaround_time": 17730
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11696",
+      "time": "2025-04-03T11:47:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11696#issuecomment-2775500397",
+      "text": "@nihal467 Please retest"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-04-03T09:03:39.000Z",
@@ -2269,8 +2310,8 @@
       "title": "Care Team fixes",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "test failed"
       ]
     }
   ],

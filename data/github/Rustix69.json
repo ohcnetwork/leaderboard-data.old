@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-02T12:42:18.000Z",
+  "last_updated": "2025-04-03T11:49:46.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11093",
+      "time": "2025-04-03T11:49:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11093#issuecomment-2775505237",
+      "text": "> @Rustix69 as discussed on slack, let's not rescale or perform compressions here right now! let's only perform cropping here.\r\n\r\nOk then I will just remove the compress and scaling function right ???\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10144",
@@ -711,6 +718,23 @@
       "text": "@rithviknishad @Jacobjeevan I had debugged the issue and set the codebase. Can I work on this issue if it is ok ?\n"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11093",
+      "title": "Fix/profile photo upload issues",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "Changes Required",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/104",
+      "title": "Cep/add patients tag",
+      "stale_for": 26,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }
