@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-04-04T12:07:34.000Z",
+  "last_updated": "2025-04-04T18:06:41.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-04T18:06:41.000Z",
+      "title": "ohcnetwork/care_fe#11704",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11704#pullrequestreview-2743757504",
+      "text": "fixed broken ui for rotate and next , prev buttons in file preview Di…"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11736",
+      "time": "2025-04-04T17:46:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11736#issuecomment-2779401732",
+      "text": "That is not the file count, but rather the page count (of say, pdf file); previous/next buttons in this case are for navigating the page. Both are working as intended. \n\nWell, ig we could rename it to previous page and next page to make it clearer 🤔 \n\nHmm, the button placements are already being tweaked right now, can do this afterwards if needed."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11736",
+      "time": "2025-04-04T17:46:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11736",
+      "text": "Bug: File count is wrong in files tab of encounter and Buttons are not working as expected"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11735",
+      "time": "2025-04-04T17:37:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11735#issuecomment-2779382134",
+      "text": "Seems like you are on local, make sure to seed the organization data.\n\n`make load-seed-data` command should populate the required data for local backend."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11735",
+      "time": "2025-04-04T17:37:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11735",
+      "text": "Select Location is disabled"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11727",
@@ -10874,7 +10909,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2975",
       "title": "Allow to update geo org for the user",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],
