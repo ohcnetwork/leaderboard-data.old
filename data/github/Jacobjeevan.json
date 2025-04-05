@@ -1,12 +1,54 @@
 {
-  "last_updated": "2025-04-04T06:27:48.000Z",
+  "last_updated": "2025-04-04T12:07:34.000Z",
   "activity": [
     {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11727",
+      "time": "2025-04-04T12:07:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11727#issuecomment-2778501743",
+      "text": "May need to adjust the error message 👍  lgtm otherwise."
+    },
+    {
       "type": "pr_reviewed",
-      "time": "2025-04-04T06:27:48.000Z",
-      "title": "ohcnetwork/care_fe#11722",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11722#pullrequestreview-2741894445",
-      "text": "Add new facility types: Taluk Head Quarters Hospital and General Hospital"
+      "time": "2025-04-04T12:06:51.000Z",
+      "title": "ohcnetwork/care_fe#11727",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11727#pullrequestreview-2742765706",
+      "text": "Facility Creation - Fix Organization Required "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-04T11:37:43.000Z",
+      "title": "ohcnetwork/care_fe#11725",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11725#pullrequestreview-2742700892",
+      "text": "Add copy questionnaire to clipboard functionality in QuestionnaireEditor"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2975",
+      "time": "2025-04-04T10:01:07.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2975",
+      "text": "Allow for geo org edit for user"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-04T05:16:46.000Z",
+      "title": "ohcnetwork/care_fe#11719",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11719#pullrequestreview-2741781287",
+      "text": "Added : Edit option for department/team"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11724",
+      "time": "2025-04-04T09:39:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11724",
+      "text": "Add search by Patient name option"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11719",
+      "time": "2025-04-04T09:13:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11719#issuecomment-2778034663",
+      "text": "> @Jacobjeevan , If you observe in the demo video It is showing edit option for Root as well which I think should be dependent of canManageRootFacility from permission which I noticed is absent in backend and frontend, It shouldn't be great practice to hide to edit button for root by checking org.type am I right ? so need backned changes to push the permission for managerootorg\r\n\r\nNo, hide the edit button for root, it should not be editable."
     },
     {
       "type": "pr_reviewed",
@@ -16,11 +58,18 @@
       "text": "fix: cancel plan button to delete the planned location of the Encounter section."
     },
     {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11717",
+      "time": "2025-04-04T08:22:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11717#issuecomment-2777916421",
+      "text": "> @Jacobjeevan\r\n> \r\n> > You would also need to adjust the cancel button in LocationActionButtons so it shows us for all scenarios (not just planned).\r\n> > cc: @amjithtitus09\r\n> \r\n> I wanted to ask some clarifying questions, right now in modified component, we only have two scenarios (active / planned ). since we can not delete the active location, so there is only one case remains (planned) !\r\n\r\nWhy can't we delete active location? 🤔  What if user accidentally marks a bed as active and wants to delete it? Let's allow it unless backend rejects it."
+    },
+    {
       "type": "pr_reviewed",
-      "time": "2025-04-04T05:16:46.000Z",
-      "title": "ohcnetwork/care_fe#11719",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11719#pullrequestreview-2741781287",
-      "text": "Added : Edit option for department/team"
+      "time": "2025-04-04T06:27:48.000Z",
+      "title": "ohcnetwork/care_fe#11722",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11722#pullrequestreview-2741894445",
+      "text": "Add new facility types: Taluk Head Quarters Hospital and General Hospital"
     },
     {
       "type": "pr_reviewed",

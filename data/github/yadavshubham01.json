@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-04T07:16:24.000Z",
+  "last_updated": "2025-04-04T14:25:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11390",
+      "time": "2025-04-04T14:25:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11390#issuecomment-2778886583",
+      "text": "Hey @nihal467 , I just solved this issue! Now, the structured_type field is automatically set to \"allergy_intolerance\" and sent to the backend.\n\nThe issue occurred because the structured_type field wasn’t being sent when the default value (\"allergy_intolerance\") was selected but not explicitly changed. This was likely due to the field not being properly initialized or not getting included in the request payload when unchanged.\n\n![Image](https://github.com/user-attachments/assets/791d2c2c-743a-4d14-a32d-668897c457b4)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11684",
