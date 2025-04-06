@@ -1,0 +1,14 @@
+{
+  "last_updated": "2025-04-05T19:19:58.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11751",
+      "time": "2025-04-05T19:19:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11751#issuecomment-2781051066",
+      "text": "### Comment to be posted on Issue #11751\n\nHi @Jacobjeevan ,\n\nI'd love to work on this issue.\n\n**Proposed Solution**:\n- Implement a scheduled job (e.g., cron task) that runs daily to check all appointments with:\n  - `status: \"booked\"` and  \n  - `appointmentDate < currentDate`.\n- Based on the business logic, update the status to `\"completed\"` or `\"missed\"`.\n- Ensure the update is cleanly handled in the backend (or frontend logic if applicable).\n- Optionally trigger notifications if required.\n\n**Proposed Solution**:\nI will fix it within 24 hours after I get assigned\n\nLet me know if there's any existing function or preferred structure you'd like me to follow. Looking forward to contributing!\n"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}

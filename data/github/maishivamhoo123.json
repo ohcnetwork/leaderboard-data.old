@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-04-03T14:43:38.000Z",
+  "last_updated": "2025-04-05T19:11:44.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11751",
+      "time": "2025-04-05T19:11:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11751#issuecomment-2781048187",
+      "text": "@Jacobjeevan can you please assign me this issue \n\nDescribe your solution clearly\nTo handle expired appointments efficiently, I will implement an automatic cancellation system. When a user opens the appointment dialog, the system will check if the current date and time have passed the scheduled appointment time. If the appointment is still active and not in a final state (like “Completed” or “Cancelled”), it should be cancelled automatically\n\napproach :- \nI will use a useEffect hook to trigger a function that compares the current time with the appointment’s start_date_time.\nif the current time is greater, the system will call the cancel Appointment \nExpected Timeline\nEnd date: within 24 hours after I've been assigned"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11751",
+      "time": "2025-04-05T18:59:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11751",
+      "text": "The booking status is showing booked after passing the time"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11749",
+      "time": "2025-04-05T16:35:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11749#issuecomment-2780917668",
+      "text": "I am actually working on this but, i am waiting for response of mentor? they can assign the task to us \n\n\n> [@Jacobjeevan](https://github.com/Jacobjeevan) [@rithviknishad](https://github.com/rithviknishad) We can fix this by using calc() so that it would adjust itself to the smaller screens also [@maishivamhoo123](https://github.com/maishivamhoo123) if you are not working then can I get it assigned?? ETA: 7th April\n\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11749",
+      "time": "2025-04-05T15:56:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11749",
+      "text": "Search Bar is going out of the box or Frame"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11669",
