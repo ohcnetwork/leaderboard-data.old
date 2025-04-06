@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-28T00:33:24.000Z",
+  "last_updated": "2025-04-05T10:44:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11744",
+      "time": "2025-04-05T10:44:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11744#issuecomment-2780654237",
+      "text": "@hrit2773 I get your point  but as you can see in the screenshots I shared  there are different print layouts depending on the content. Making all of them fully responsive especially with wide tables is quite tricky. That’s why I feel horizontal scrolling is a more practical solution in this case. if  we  add horizontal scrolling then we dont have to change  so much just have to add `overflow-x-auto` only at the place where i am using the <Page> component in PrintPreview  component. Open to ideas if there's a better way!\nscrrenshot :\n\n![Image](https://github.com/user-attachments/assets/66e061c1-11b0-493b-abbd-405f28007d28)\n![Image](https://github.com/user-attachments/assets/b9ed137c-3b52-4404-93be-bc3721f6c660)\n![Image](https://github.com/user-attachments/assets/da634826-6a62-4824-a3b0-bd41879feb90)\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11744",
+      "time": "2025-04-05T09:54:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11744#issuecomment-2780638249",
+      "text": "@rithviknishad  @Jacobjeevan  approch: i will add horizontal scrolling to prevent ui breakout. can i work on this issue.\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11744",
+      "time": "2025-04-05T09:53:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11744",
+      "text": "Bug: UI Breaks in Print Preview  on small screens"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#11532",
