@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-04-05T17:13:39.000Z",
+  "last_updated": "2025-04-06T06:58:12.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11093",
+      "time": "2025-04-06T06:58:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11093#issuecomment-2781273215",
+      "text": "> @Rustix69 as discussed on slack, let's not rescale or perform compressions here right now! let's only perform cropping here.\r\n\r\nIf we dont rescale righnt now our users will face a bad experience as most images will be giving error. So as per the Core law of every developers lets accept all types the user uploads we will process it \r\n\r\n![image](https://github.com/user-attachments/assets/62058437-3651-4439-90d9-d76da875bb7e)"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11752",
+      "time": "2025-04-05T22:53:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11752",
+      "text": "Appointment Required Flag"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/leaderboard-data#97",
@@ -742,7 +756,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/97",
       "title": "Update Rustix69.md",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
