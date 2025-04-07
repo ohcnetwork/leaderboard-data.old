@@ -1,6 +1,14 @@
 {
-  "last_updated": "2025-04-04T15:17:46.000Z",
+  "last_updated": "2025-04-07T11:23:23.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2977",
+      "time": "2025-04-07T11:23:23.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2977",
+      "text": "Fix typo in class name",
+      "turnaround_time": 251181
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#11733",
@@ -854,6 +862,46 @@
       "text": "Add validation to disallow numeric values in patient names"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/110",
+      "title": "fix: Update documentation for AWS",
+      "stale_for": 4,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/108",
+      "title": "fix: Update documentation for DigitalOcean",
+      "stale_for": 4,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/infra_template/pull/4",
+      "title": "fix: update kubernetes configurations for care infrastructure",
+      "stale_for": 30,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11242",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11241"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_sbom/issues/9",
+      "pr_link": "https://github.com/ohcnetwork/care_sbom/pull/10"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10836",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10939"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_sbom/issues/6",
+      "pr_link": "https://github.com/ohcnetwork/care_sbom/pull/7"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10461",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10577"
+    }
+  ]
 }

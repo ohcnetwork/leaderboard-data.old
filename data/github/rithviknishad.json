@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-04-07T08:33:48.000Z",
+  "last_updated": "2025-04-07T13:07:23.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-03T05:59:06.000Z",
+      "title": "ohcnetwork/care_fe#11689",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11689#pullrequestreview-2738610694",
+      "text": "FIXED: Input Overflow in Edit Administration Dialog"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-07T13:04:49.000Z",
+      "title": "ohcnetwork/care_fe#11759",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11759#pullrequestreview-2746748844",
+      "text": "Fix: Make Update Location Dialog Fully Responsive on Mobile Devices"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11576",
+      "time": "2025-04-07T11:53:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11576#issuecomment-2783068746",
+      "text": "duplicate"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-07T10:09:28.000Z",
+      "title": "ohcnetwork/care_fe#11774",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11774#pullrequestreview-2746286188",
+      "text": "fix(deps): update all dependencies (minor, patch) to v5.72.0"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11471",
+      "time": "2025-04-07T10:08:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11471",
+      "text": "Extend AutoFill in ScheduleAvailability Template to fill multiple slots"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11480",
+      "time": "2025-04-07T10:07:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11480",
+      "text": "Questionnaire Type validation need to be improved"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11670",
+      "time": "2025-04-07T10:06:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11670",
+      "text": "Incorrect alignment for display name in User Selector and Practicioner Selector"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-07T08:09:56.000Z",
+      "title": "ohcnetwork/care_fe#11767",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11767#pullrequestreview-2745892465",
+      "text": "Fix: Location Association Sheet Search Bar Filtering"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11401",
@@ -28,13 +84,6 @@
       "time": "2025-04-07T08:19:01.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11768",
       "text": "Show device type filter only if there are types registered in care"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-07T08:09:56.000Z",
-      "title": "ohcnetwork/care_fe#11767",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11767#pullrequestreview-2745892465",
-      "text": "Fix: Location Association Sheet Search Bar Filtering"
     },
     {
       "type": "issue_closed",
@@ -105,13 +154,6 @@
       "title": "ohcnetwork/care_fe#11761",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11761#pullrequestreview-2745800173",
       "text": "fix(deps): update all dependencies (minor, patch)"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-03T05:59:06.000Z",
-      "title": "ohcnetwork/care_fe#11689",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11689#pullrequestreview-2738610694",
-      "text": "FIXED: Input Overflow in Edit Administration Dialog"
     },
     {
       "type": "issue_closed",
@@ -66787,8 +66829,8 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11768",
-      "title": "Show device type filter only if there are types registered in care",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11780",
+      "title": "fix: Update PatientNavUser and PatientSwitcher to show in mobile view",
       "stale_for": 0,
       "labels": [
         "needs testing",
@@ -66798,7 +66840,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11722",
       "title": "Add new facility types: Taluk Head Quarters Hospital and General Hospital",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "hold",
         "waiting for backend"
@@ -66821,13 +66863,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/2",
       "title": "added translations",
-      "stale_for": 12,
+      "stale_for": 13,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/1",
       "title": "Migrate Camera Device's Position Presets from Care to Plug",
-      "stale_for": 10,
+      "stale_for": 11,
       "labels": []
     }
   ],
@@ -66863,10 +66905,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9809",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9799"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care/issues/2667",
-      "pr_link": "https://github.com/ohcnetwork/care/pull/2675"
     }
   ]
 }
