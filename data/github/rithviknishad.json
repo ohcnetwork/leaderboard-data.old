@@ -1,6 +1,104 @@
 {
-  "last_updated": "2025-04-07T17:46:19.000Z",
+  "last_updated": "2025-04-08T06:36:09.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11792",
+      "time": "2025-04-08T06:36:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11792",
+      "text": "Improve Appointment Calendar UX by Indicating Slot Availability on Date Selector"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11792",
+      "time": "2025-04-08T06:36:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11792#issuecomment-2785384960",
+      "text": "See why #11691 was closed"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11783",
+      "time": "2025-04-08T06:32:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11783",
+      "text": "Prescription PDF Shows Only Logo no Medicine Details while Printing"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11799",
+      "time": "2025-04-08T06:30:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11799",
+      "text": "Incorrect tab index for keyboard navigation on fields in user create form"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11798",
+      "time": "2025-04-08T06:15:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11798",
+      "text": "docs: update API credentials in README for care.ohc.network"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11191",
+      "time": "2025-04-08T06:08:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11191#issuecomment-2785331631",
+      "text": "Unable to reproduce; we can re-open once this is reproducible; looking at the time of the issue being raised (assuming screenshot was captured at that time), this could be very likely due to past slots of today not being hidden which has already been handled in #11553"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11191",
+      "time": "2025-04-08T06:08:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11191",
+      "text": "Bug: Book Appointment not working as expected"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11797",
+      "time": "2025-04-08T05:20:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11797",
+      "text": "Replace history when updating filters; Upgrade raviger to beta"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-08T04:34:19.000Z",
+      "title": "ohcnetwork/care_fe#11794",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11794#pullrequestreview-2748624793",
+      "text": "Fix: `UserSelector` Popover width causing context overflow horizontally"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11795",
+      "time": "2025-04-08T04:33:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11795#issuecomment-2785196814",
+      "text": "I mean, is the useEffect really needed? 🤔 ALl other forms doesn't have such useEffects to achieve this"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11796",
+      "time": "2025-04-08T04:32:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11796#issuecomment-2785195785",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/11788#issuecomment-2784115104\r\n\r\n☝🏼 not done!"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-08T04:32:05.000Z",
+      "title": "ohcnetwork/care_fe#11796",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11796#pullrequestreview-2748622409",
+      "text": "fix: Added responsiveness in Select component"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-08T03:55:27.000Z",
+      "title": "ohcnetwork/care_fe#11795",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11795#pullrequestreview-2748585236",
+      "text": "Fix : Validation Error Messages Persist After Fixing Input Values"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11792",
+      "time": "2025-04-08T02:27:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11792#issuecomment-2785068173",
+      "text": "how would you get the availability stats though?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11788",
@@ -66988,36 +67086,24 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11810",
-      "title": "Ensure i18next's `t` is imported from `useTranslations`",
+      "link": "https://github.com/ohcnetwork/care/pull/2985",
+      "title": "Prevent duplicate users in scheduling's available users API",
       "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11797",
-      "title": "Replace history when updating filters; Upgrade raviger to beta",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11780",
       "title": "fix: Update PatientNavUser and PatientSwitcher to show in mobile view",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "Tested ✅"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11722",
       "title": "Add new facility types: Taluk Head Quarters Hospital and General Hospital",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
         "hold",
         "waiting for backend"
@@ -67040,13 +67126,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/2",
       "title": "added translations",
-      "stale_for": 13,
+      "stale_for": 14,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/1",
       "title": "Migrate Camera Device's Position Presets from Care to Plug",
-      "stale_for": 11,
+      "stale_for": 12,
       "labels": []
     }
   ],
@@ -67058,6 +67144,10 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11336",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11351"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11206",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11810"
     },
     {
       "issue_link": "https://github.com/ohcnetwork/care/issues/2858",

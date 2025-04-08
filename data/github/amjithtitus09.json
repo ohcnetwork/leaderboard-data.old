@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-07T11:12:08.000Z",
+  "last_updated": "2025-04-08T06:38:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11642",
+      "time": "2025-04-08T06:38:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11642#issuecomment-2785388734",
+      "text": "@yash-learner \r\n\r\n1. While adding the first records itself, button shows up as Add \"another\" Symptom. Can you fix that?\r\n2. When clicking on a valueset field in mobile, it used to open up the keyboard by default. Now it doesn't\r\n3. When clicking on a text field inside the Add medication drawer, screen auto zooms in. Let's not do that.\r\n4. Medication Request - Duration field is not shown in mobile for PRN. Isn't disabling enough?\r\n5. Medication Request - Titrate dosage values aren't showing up on the collapsed card in mobile\r\n6. \"src/components/Medicine/MedicationAdministration/MedicineAdminForm.tsx:\r\nRefactored for better mobile layout with improved spacing\" - I see not code change or difference in Admin form other than the unit code 🤔\r\n7. Consultation form - Admission recommended and Follow up advice dont't have same Notes styling"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11740",
@@ -2426,6 +2433,15 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11817",
+      "title": "Questionnaire Download & Import",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11777",
       "title": "Encounter Create | Add Start date & time field",

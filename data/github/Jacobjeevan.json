@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-07T17:21:14.000Z",
+  "last_updated": "2025-04-08T06:48:06.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-08T06:48:06.000Z",
+      "title": "ohcnetwork/care_fe#11797",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11797#pullrequestreview-2748848932",
+      "text": "Replace history when updating filters; Upgrade raviger to beta"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#11343",
@@ -11179,12 +11186,15 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/11800",
       "title": "Replace autocomplete for tags and orgs in create questionnaire",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11763",
       "title": "Allow geo org update for users",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Changes Required"
       ]
