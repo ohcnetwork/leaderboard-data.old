@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-04-07T17:07:42.000Z",
+  "last_updated": "2025-04-07T19:46:32.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11794",
+      "time": "2025-04-07T19:46:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11794",
+      "text": "Fix: `UserSelector` Popover width causing context overflow horizontally"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-07T19:06:22.000Z",
+      "title": "ohcnetwork/care_fe#11777",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11777#pullrequestreview-2747816390",
+      "text": "Encounter Create | Add Start date & time field"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#11719",
@@ -6406,9 +6420,12 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11794",
-      "title": "Fix: `UserSelector` Popover width causing context overflow horizontally",
+      "title": "Fix: `UserSelector` and `PractitionerSelector` Popover width causing context overflow horizontally",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "reviewed"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11767",

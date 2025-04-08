@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-07T14:42:15.000Z",
+  "last_updated": "2025-04-07T18:20:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11785",
+      "time": "2025-04-07T18:20:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11785#issuecomment-2784192556",
+      "text": "Hey @rithviknishad ,\r\nYou mean we should approach it like this, right?\r\n\r\n- The structured_type field no longer defaults to \"allergy_intolerance\".\r\n\r\n- Instead, a placeholder (\"Select structured type\") is shown until the user makes a selection.\r\n\r\n- If the user doesn't select any value, an error message like \"Structured type is required\" is displayed.\r\n\r\nJust wanted to confirm that this is the direction you're suggesting?"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11785",
