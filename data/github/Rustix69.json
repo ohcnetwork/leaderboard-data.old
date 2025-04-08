@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-06T06:58:12.000Z",
+  "last_updated": "2025-04-07T16:48:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11093",
+      "time": "2025-04-07T16:48:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11093#issuecomment-2783985762",
+      "text": "> > > @Rustix69 as discussed on slack, let's not rescale or perform compressions here right now! let's only perform cropping here.\r\n> > \r\n> > \r\n> > Hey @rithviknishad If we dont rescale righnt now our users will face a bad experience as most images will be giving error. So as per the Core law of every developers lets accept all types the user uploads we will process it\r\n> > #### So I made the hook but processing the image as usual ... we can move to middleware approach once that is created....\r\n> > ![image](https://private-user-images.githubusercontent.com/139000437/430683502-62058437-3651-4439-90d9-d76da875bb7e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQwMzk1MDEsIm5iZiI6MTc0NDAzOTIwMSwicGF0aCI6Ii8xMzkwMDA0MzcvNDMwNjgzNTAyLTYyMDU4NDM3LTM2NTEtNDQzOS05MGQ5LWQ3NmRhODc1YmI3ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwN1QxNTIwMDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYWU3NzUxYjc0NjJkMTVkYzljODExNDRhODUwNzQzNTc3MzhkMzBjMmRhYjM3NDE2OGI3NzlmMmUzMzI1ZWI1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.8tEH3EZ557HBJtN_F_tHWkyGrM7YM99Yt0Sp6wQ67gY)\r\n> \r\n> I think, as already agreed by @shivankacker and @rithviknishad, the rescaling and compression logic should not be included in frontend and is more of a backend thing.\r\n\r\nAs of now backend doesnt have this feature so if we skip this process then it will lead to non acceptable images more\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11093",
@@ -746,6 +753,37 @@
       "text": "@rithviknishad @Jacobjeevan I had debugged the issue and set the codebase. Can I work on this issue if it is ok ?\n"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11752",
+      "title": "Appointment Required Flag",
+      "stale_for": 0,
+      "labels": [
+        "Changes Required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/97",
+      "title": "Update Rustix69.md",
+      "stale_for": 2,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11093",
+      "title": "Fix/profile photo upload issues",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "Changes Required",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/104",
+      "title": "Cep/add patients tag",
+      "stale_for": 30,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }

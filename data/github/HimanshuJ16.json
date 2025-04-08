@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-29T07:24:02.000Z",
+  "last_updated": "2025-04-07T15:34:25.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11782",
+      "time": "2025-04-07T15:34:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11782#issuecomment-2783771435",
+      "text": "@Jacobjeevan @rithviknishad \nI can work on it...\n\nExpected Timeline:\nEnd date: **April 9, 2025**\n\n**Proposed Solution:**\n\nDetect Completion of OTP Input:\n\n- Use an event listener (e.g., onChange, onInput, or onComplete depending on the OTP input library being used).\n\n- Monitor the OTP input field and check when the total number of digits (e.g., 6) has been entered.\n\nTrigger Auto Verification:\n\n- Automatically call the OTP verification function (the same one used on \"Verify OTP\" button click) once all digits are entered.\n\n- UI Feedback & Loading State:\n\n- Show a loading spinner or “Verifying…” message while the auto-verification request is in progress.\n\n- Handle error states gracefully (e.g., incorrect OTP message, reset option).\n\nPreserve Manual Fallback:\n\n- Keep the \"Verify OTP\" button as a fallback for users who prefer manual submission or in case auto-verification fails.\n\nImplementation Reference:\n\n- Libraries like [react-otp-input](https://www.npmjs.com/package/react-otp-input) or custom OTP components can be easily extended to support this behavior using onChange.\n\nDay 1: Analyze the OTP input component & test behavior.\n\nDay 2: Implement auto-submit functionality and loading feedback.\n\nDay 3: Test across devices and submit PR with screenshots/demo.\n\nAdditional Context:\n\n- This change improves the mobile experience especially where minimal taps are crucial for retention.\n\n- Will ensure backward compatibility and accessibility (e.g., keyboard navigation, screen reader support if applicable)."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11783",
+      "time": "2025-04-07T15:26:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11783#issuecomment-2783726013",
+      "text": "@rithviknishad @Jacobjeevan \nCan I work on it...\n\nExpected Timeline:\nEnd date: Tommorow\n\n**Proposed Solution:**\n\nInvestigate Data Flow:\n\n- Ensure that the medicine data is correctly fetched and available when the Print button is clicked.\n\n- Add logging or breakpoints to verify the state of the prescription data during the PDF generation.\n\nReview Print Template:\n\n- Examine the template component used for generating the prescription PDF.\n\n- Ensure that prescription data is correctly mapped and not conditionally hidden during rendering.\n\nFix Rendering Logic:\n\n- Modify the print-view component to ensure medicine details are rendered and styled correctly.\n\n- Add a fallback UI for empty states, if needed.\n\nTest PDF Generation:\n\n- Validate with multiple patients and prescriptions to ensure the issue is consistently fixed.\n\nAdditional Context:\n\n- If the app uses libraries like react-to-print, html2pdf, or custom PDF renderers like jsPDF, those components will be closely reviewed.\n\n- Might suggest implementing a loading indicator or delaying the print call until data is fully ready.\n\n- Will include before/after screenshots or sample PDFs in the PR for clarity."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11475",
