@@ -1,6 +1,50 @@
 {
-  "last_updated": "2025-04-04T13:10:22.000Z",
+  "last_updated": "2025-04-07T13:41:44.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2982",
+      "time": "2025-04-07T13:41:44.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2982",
+      "text": "Fix test cases for period spec",
+      "turnaround_time": 4489
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2983",
+      "time": "2025-04-07T13:41:04.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2983",
+      "text": "Allow last user in the facility org to manage its own role"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2982",
+      "time": "2025-04-07T12:26:55.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2982",
+      "text": "Fix test cases for period spec"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2980",
+      "time": "2025-04-07T11:22:38.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2980",
+      "text": "Add timezone awareness validation for start and end dates in PeriodSpec",
+      "turnaround_time": 934
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#2980",
+      "time": "2025-04-07T11:07:03.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2980",
+      "text": "Add timezone awareness validation for start and end dates in PeriodSpec"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-07T07:07:20.000Z",
+      "title": "ohcnetwork/care#2973",
+      "link": "https://github.com/ohcnetwork/care/pull/2973#pullrequestreview-2745723334",
+      "text": "Add \"Taluk Head Quarters Hospital\" and \"General Hospital\" facility types"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#2976",
@@ -18584,33 +18628,39 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/2983",
+      "title": "A facility root org should have at least one facility admin at any point",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/2976",
       "title": "Add support for multiple patient identifiers",
-      "stale_for": 0,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2965",
       "title": "Add support for repeatable groups",
-      "stale_for": 2,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2763",
       "title": "Data Migration",
-      "stale_for": 9,
+      "stale_for": 12,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/72",
       "title": "[CEP-9] Add implementation details to Pharmacy Management",
-      "stale_for": 131,
+      "stale_for": 134,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/33",
       "title": "[CEP-X] Add support for customizable ordersets and trigger mechanisms",
-      "stale_for": 18,
+      "stale_for": 21,
       "labels": [
         "Changes Requested",
         "on hold"

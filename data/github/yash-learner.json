@@ -1,12 +1,26 @@
 {
-  "last_updated": "2025-04-03T20:09:56.000Z",
+  "last_updated": "2025-04-07T14:37:26.000Z",
   "activity": [
     {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11784",
+      "time": "2025-04-07T14:37:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11784",
+      "text": "Fix dosage popover collision "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11779",
+      "time": "2025-04-07T12:31:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11779",
+      "text": "Fix minor styling issues"
+    },
+    {
       "type": "comment_created",
-      "title": "ohcnetwork/care_fe#11689",
-      "time": "2025-04-03T20:09:56.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11689#issuecomment-2776811940",
-      "text": "@modamaan have you tested it on mobile using the deploy-preview url?"
+      "title": "ohcnetwork/care_fe#11740",
+      "time": "2025-04-07T10:03:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11740#issuecomment-2782783704",
+      "text": "@amjithtitus09 @Jacobjeevan \r\n\r\n![image](https://github.com/user-attachments/assets/13521191-8296-40ab-a35e-544c4475a190)\r\n"
     },
     {
       "type": "pr_reviewed",
@@ -14,6 +28,34 @@
       "title": "ohcnetwork/care_fe#11689",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11689#pullrequestreview-2740331619",
       "text": "FIXED: Input Overflow in Edit Administration Dialog"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11740",
+      "time": "2025-04-07T08:06:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11740#issuecomment-2782381802",
+      "text": "@amjithtitus09 \r\n\r\n![image](https://github.com/user-attachments/assets/b41e3796-cf86-49a2-ad1f-5c915f889f63)\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11740",
+      "time": "2025-04-04T19:04:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11740",
+      "text": "Consent fixes"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11642",
+      "time": "2025-04-04T16:49:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11642#issuecomment-2779276490",
+      "text": "> @yash-learner iam seeing commit beings pushed post the label, is it ready for testing\n\n\nYes @nihal467 it is ready for testing \n\n----\n\nI pushed for fixing some merge conflicts and in one PR we had replaced drawer with sheet and so I did the same in my PR in similar context \n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11689",
+      "time": "2025-04-03T20:09:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11689#issuecomment-2776811940",
+      "text": "@modamaan have you tested it on mobile using the deploy-preview url?"
     },
     {
       "type": "pr_opened",
@@ -723,12 +765,26 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11740",
-      "title": "Consent fixes",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11784",
+      "title": "Fix dosage popover collision ",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11779",
+      "title": "Fix minor styling issues",
       "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11740",
+      "title": "Consent fixes",
+      "stale_for": 0,
+      "labels": [
+        "Work in Progress 🚧"
       ]
     },
     {
@@ -736,14 +792,13 @@
       "title": "Improve mobile UI/UX for remaining questionnaire components ",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "Changes Required"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/81",
       "title": "[CEP-13] Add proposal for MFA",
-      "stale_for": 23,
+      "stale_for": 26,
       "labels": []
     }
   ],

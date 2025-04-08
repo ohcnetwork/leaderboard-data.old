@@ -1,6 +1,114 @@
 {
-  "last_updated": "2025-04-04T12:45:21.000Z",
+  "last_updated": "2025-04-07T17:27:33.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11538",
+      "time": "2025-04-07T17:27:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11538",
+      "text": "fix: Handle page crash while submitting empty questionnaires",
+      "turnaround_time": 1214274
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11754",
+      "time": "2025-04-07T17:04:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11754",
+      "text": "fix: Hide 'Scheduled Appointment' button in Appointment tab of Patient Details page",
+      "turnaround_time": 129171
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11788",
+      "time": "2025-04-07T16:27:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11788#issuecomment-2783933072",
+      "text": "@rithviknishad @Jacobjeevan will give it a quick fix if it is valid\nETA: 1 day"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11788",
+      "time": "2025-04-07T16:26:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11788",
+      "text": "Link User Sheet need styling and responsiveness"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11787",
+      "time": "2025-04-07T15:32:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11787#issuecomment-2783751151",
+      "text": "@rithviknishad @Jacobjeevan I would like to work on it, if it is valid"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11787",
+      "time": "2025-04-07T15:32:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11787",
+      "text": "Bug: Error while uploading file(image) in Avatar"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11728",
+      "time": "2025-04-07T13:12:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11728",
+      "text": "fix: Remove nullable which causes passing null values in 'assigned facility' field during Resource Request Update",
+      "turnaround_time": 260849
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11755",
+      "time": "2025-04-06T05:37:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11755#issuecomment-2781231472",
+      "text": "@Jacobjeevan if it is valid, would like to fix it\nWe are passing null values here, if we are passing values in fields, it gets submit."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11755",
+      "time": "2025-04-06T05:35:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11755",
+      "text": "Bug: Page getting crash on adding a questionnaire in 'Updates' tab in Patient Details page"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11754",
+      "time": "2025-04-06T05:11:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11754",
+      "text": "fix: Hide 'Scheduled Appointment' button in Appointment tab of Patient Details page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11741",
+      "time": "2025-04-05T07:14:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11741#issuecomment-2780371693",
+      "text": "@sj11105 1. Please check only relevant fields in merge checklist. \r\n2. There is no demo video after changes in the PR.\r\n3. Also there are unecessary changes in the PR which are not related to issue🤔\r\ncc: @Jacobjeevan "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11742",
+      "time": "2025-04-05T06:33:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11742#issuecomment-2780326461",
+      "text": "@rithviknishad @Jacobjeevan if it is valid , i would like to work on it"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11742",
+      "time": "2025-04-05T06:33:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11742",
+      "text": "Bug: Schedule Appointment for patient is redirecting to an error page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11736",
+      "time": "2025-04-04T16:09:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11736#issuecomment-2779196455",
+      "text": "@rithviknishad @Jacobjeevan if it is valid, i would like to work on it\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11736",
+      "time": "2025-04-04T16:09:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11736",
+      "text": "Bug: File count is wrong in files tab of encounter and Buttons are not working as expected"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11728",
@@ -1740,29 +1848,24 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11728",
-      "title": "fix: Remove nullable which causes passing null values in 'assigned facility' field during Resource Request Update",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11796",
+      "title": "fix: Added responsiveness in Select component",
       "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11538",
-      "title": "fix: Handle page crash while submitting empty questionnaires",
-      "stale_for": 2,
       "labels": [
+        "invalid",
         "Changes Required"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/16",
       "title": "fix: Made 'Generate/Link ABHA Number' page mobile friendly",
-      "stale_for": 7,
+      "stale_for": 10,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10756",
       "title": "Allow to select preferable camera during photo capturing",
-      "stale_for": 1,
+      "stale_for": 4,
       "labels": [
         "test failed",
         "Changes Required"
@@ -1771,8 +1874,20 @@
   ],
   "authored_issue_and_pr": [
     {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11742",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11754"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11706",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11728"
+    },
+    {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11630",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11651"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11530",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11538"
     },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11290",
@@ -1805,10 +1920,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10618",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10630"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10528",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10553"
     }
   ]
 }

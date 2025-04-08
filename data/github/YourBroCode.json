@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-04-04T06:39:38.000Z",
+  "last_updated": "2025-04-07T21:12:28.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10789",
+      "time": "2025-04-07T21:12:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10789#issuecomment-2784639653",
+      "text": "@praffq @nihal467 Could you please assign this issue to me . I want to work on it."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11717",
+      "time": "2025-04-06T10:16:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11717#issuecomment-2781347484",
+      "text": "> > @Jacobjeevan\r\n> > > You would also need to adjust the cancel button in LocationActionButtons so it shows us for all scenarios (not just planned).\r\n> > > cc: @amjithtitus09\r\n> > \r\n> > \r\n> > I wanted to ask some clarifying questions, right now in modified component, we only have two scenarios (active / planned ). since we can not delete the active location, so there is only one case remains (planned) !\r\n> \r\n> Why can't we delete active location? 🤔 What if user accidentally marks a bed as active and wants to delete it? Let's allow it unless backend rejects it.\r\n\r\n\r\n@Jacobjeevan , Okay, I will implement this feature for active session too, I studied LocationSheet.tsx file thoroughly and found that many functions are desgined to handle `cancel-plan` for planned session only . I need to do many modifications to acoomplish this.\r\nright now the bed location of  Encounter section is crashing that's why i am unable to work on this issue.\r\nI will make necessary changes in the PR after the issue will be fixed."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11717",
@@ -121,7 +135,9 @@
       "title": "fix: cancel plan button to delete the planned location of the Encounter section.",
       "stale_for": 1,
       "labels": [
-        "Changes Required"
+        "question",
+        "Changes Required",
+        "needs-triage"
       ]
     }
   ],

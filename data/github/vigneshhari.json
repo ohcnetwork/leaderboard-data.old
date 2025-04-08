@@ -1,6 +1,146 @@
 {
-  "last_updated": "2025-04-04T08:40:01.000Z",
+  "last_updated": "2025-04-07T16:43:44.000Z",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/roadmap#71",
+      "time": "2025-04-07T16:43:44.000Z",
+      "link": "https://github.com/ohcnetwork/roadmap/issues/71",
+      "text": "FHIR Adapter for all endpoints"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/roadmap#70",
+      "time": "2025-04-07T16:13:57.000Z",
+      "link": "https://github.com/ohcnetwork/roadmap/issues/70",
+      "text": "Support for PATCH or partial updates across all endpoints"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-07T15:02:41.000Z",
+      "title": "ohcnetwork/care#2984",
+      "link": "https://github.com/ohcnetwork/care/pull/2984#pullrequestreview-2747169908",
+      "text": "fixed recent views duplications"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/roadmap#67",
+      "time": "2025-04-07T11:22:38.000Z",
+      "link": "https://github.com/ohcnetwork/roadmap/issues/67",
+      "text": "PeriodSpec should throw Exception if start and end are not time aware or unaware."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-07T11:22:27.000Z",
+      "title": "ohcnetwork/care#2980",
+      "link": "https://github.com/ohcnetwork/care/pull/2980#pullrequestreview-2746468926",
+      "text": "Add timezone awareness validation for start and end dates in PeriodSpec"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/roadmap#69",
+      "time": "2025-04-07T11:21:45.000Z",
+      "link": "https://github.com/ohcnetwork/roadmap/issues/69",
+      "text": "Deleting locations breaks logic to automatically create sort index values"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-07T11:21:25.000Z",
+      "title": "ohcnetwork/care#2981",
+      "link": "https://github.com/ohcnetwork/care/pull/2981#pullrequestreview-2746466264",
+      "text": "used max instead of count to generate sort index"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/roadmap#26",
+      "time": "2025-04-07T11:21:00.000Z",
+      "link": "https://github.com/ohcnetwork/roadmap/issues/26",
+      "text": "Backend to store Discharge Summary Advice"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-07T09:50:48.000Z",
+      "title": "ohcnetwork/care#2971",
+      "link": "https://github.com/ohcnetwork/care/pull/2971#pullrequestreview-2746224710",
+      "text": "added discharge summary advice field to encounter"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/roadmap#69",
+      "time": "2025-04-07T10:42:55.000Z",
+      "link": "https://github.com/ohcnetwork/roadmap/issues/69",
+      "text": "Deleting locations breaks logic to automatically create sort index values"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/roadmap#68",
+      "time": "2025-04-07T10:21:41.000Z",
+      "link": "https://github.com/ohcnetwork/roadmap/issues/68",
+      "text": "AuthZ Not working as intended on Managing Org update in Devices"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2979",
+      "time": "2025-04-07T10:20:37.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2979#issuecomment-2782829094",
+      "text": "Ref : https://github.com/ohcnetwork/roadmap/issues/68"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/roadmap#68",
+      "time": "2025-04-07T10:20:30.000Z",
+      "link": "https://github.com/ohcnetwork/roadmap/issues/68",
+      "text": "AuthZ Not working as intended on Managing Org update in Devices"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-07T10:19:05.000Z",
+      "title": "ohcnetwork/care#2979",
+      "link": "https://github.com/ohcnetwork/care/pull/2979#pullrequestreview-2746310238",
+      "text": "Update facility org cache in add/remove managing org"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/roadmap#67",
+      "time": "2025-04-07T09:08:28.000Z",
+      "link": "https://github.com/ohcnetwork/roadmap/issues/67",
+      "text": "PeriodSpec should throw Exception if start and end are not time aware or unaware."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2973",
+      "time": "2025-04-06T02:05:37.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2973#issuecomment-2781174842",
+      "text": "Care being a location agnostic tool, cannot accommodate anything region specific, this needs to be rebuilt entirely ."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-06T02:04:12.000Z",
+      "title": "ohcnetwork/care#2972",
+      "link": "https://github.com/ohcnetwork/care/pull/2972#pullrequestreview-2745020767",
+      "text": "List the drawing files based on the modified_date"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#2978",
+      "time": "2025-04-06T02:03:28.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2978#issuecomment-2781174315",
+      "text": "Care internal API's are not FHIR compliant, a wrapper needs to be written to output data in FHIR format. This is already being tracked in the roadmap, as of now, this is not an issue. "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#2978",
+      "time": "2025-04-06T02:03:27.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/2978",
+      "text": "FHIR Terminology Inconsistencies Causing Bundle Validation Failures"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-06T02:01:24.000Z",
+      "title": "ohcnetwork/care#2975",
+      "link": "https://github.com/ohcnetwork/care/pull/2975#pullrequestreview-2745020431",
+      "text": "Allow to update geo org for the user"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-04-04T08:40:01.000Z",
@@ -14471,7 +14611,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/6",
       "title": "[CEP-4] RBAC: initial spec",
-      "stale_for": 184,
+      "stale_for": 187,
       "labels": []
     }
   ],

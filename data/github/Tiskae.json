@@ -1,0 +1,42 @@
+{
+  "last_updated": "2025-04-06T07:02:40.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11749",
+      "time": "2025-04-06T07:02:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11749#issuecomment-2781274841",
+      "text": "@maishivamhoo123 I just tried it on Windows Microsoft Edge and it displayed well for me (sorry for the poor quality of the image). Does it happen in any other browser and device aside that particular one?\n\n![Image](https://github.com/user-attachments/assets/8eb4f677-b33f-4afd-a014-f436328870fd)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11749",
+      "time": "2025-04-06T00:59:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11749#issuecomment-2781158053",
+      "text": "@maishivamhoo123 @Jacobjeevan I could not reproduce the bug. I tested it on Mac Chrome, Mac Firefox, Mac Safari, Windows Chrome and Android Chrome. All the fields were the right size and didn't overflow the parent (screenshots attached). What do you suggest I do?\n\n<img width=\"538\" alt=\"Testing on Mac Chrome\" src=\"https://github.com/user-attachments/assets/52c95d19-4ade-4b83-9518-19c721619716\" />\n\n<img width=\"538\" alt=\"Testing on Mac Firefox\" src=\"https://github.com/user-attachments/assets/0b6a8063-c9d8-4a65-ae51-43b05c51c69b\" />\n\n![Image](https://github.com/user-attachments/assets/fe41324a-e9ed-4159-97ad-8969c0c6e32a)\nTesting on Android Chrome\n\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11749",
+      "time": "2025-04-05T18:30:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11749#issuecomment-2781032457",
+      "text": "@Jacobjeevan Thanks, I will start working on it"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11749",
+      "time": "2025-04-05T16:24:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11749#issuecomment-2780912461",
+      "text": "I will like to work on this, @maishivamhoo123 @hrit2773  kindly assign it to me\n\n**Describe your solution clearly**\nMost likely, the select and input have some fixed width CSS properties on them (`width` or `min-width`). I would remove this and replace with a dynamic width that respects the width of the parent element.\n\n**Possible approach**\n- Use calc() just like @hrit2773 has mentioned\n- Use grid/flexbox on the parent and justify the children to stretch (with a max-width)\n\n\n**Expected Timeline**\nEnd date: within 24 hours after I've been assigned"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11744",
+      "time": "2025-04-05T10:37:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11744#issuecomment-2780652336",
+      "text": "Hello @Vikaspal8923 , I will like to work on this\n\n**My Solution**\nI will use the CSS `overflow-x: scroll` to enable horizontal scrolling in the appropriate section on the page.\n\n**Expected Timeline**\nEnd date: within 24 hours after I have been assigned"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}

@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-03-22T16:04:52.000Z",
+  "last_updated": "2025-04-07T12:46:10.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10831",
+      "time": "2025-04-07T12:46:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10831#issuecomment-2783219739",
+      "text": "> Please follow the merge checklist! i18n is checked; but there are missing translations! Also the code has unnecessary console.log statements; self-review not done!\r\n> \r\n> This has been repeated many times;\r\n\r\n@rithviknishad \r\nSelf-review: \r\n1. I have added i18n translations.\r\n2. Removed the unnecessary console logs and \r\n3.  Added the location filter by which the user can now know that the devices can be filtered with both location as well as name.\r\n4.  If Plugin devices types length is greater than 0, then the filter by type is visible."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10831",
+      "time": "2025-04-07T08:22:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10831#issuecomment-2782425163",
+      "text": "@rithviknishad This PR is ready for review. I have updated this PR with the new design \r\n\r\n![image](https://github.com/user-attachments/assets/86609ddb-23c1-4877-9d45-c0dc3d951686)\r\n\r\n\r\n- [x] Added the location filter by which the user can now know that the devices can be filtered with both location as well as name.\r\n- [x] If Plugin devices types length is greater than 0, then the filter by type is visible."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10831",
+      "time": "2025-04-05T03:42:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10831#issuecomment-2780177747",
+      "text": "@rithviknishad @jacobjeevan\r\nCan you reopen this PR, I have updated pr with latest design\r\n![image](https://github.com/user-attachments/assets/e126eb1b-13cd-4906-8bee-8fb0244fc9e8)\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10831",
@@ -2554,14 +2575,12 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10831",
-      "title": "Add Search Feature in Devices with name and location wise | Add Clear button in Location Search",
+      "title": "Redesign devices page",
       "stale_for": 0,
       "labels": [
-        "question",
-        "changes required",
-        "merge conflict",
-        "Waiting UI Approval",
-        "needs-triage"
+        "needs testing",
+        "needs review",
+        "Merge Conflict"
       ]
     }
   ],
@@ -2629,10 +2648,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9769",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9835"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9725",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9735"
     }
   ]
 }

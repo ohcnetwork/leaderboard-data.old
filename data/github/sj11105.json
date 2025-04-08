@@ -1,6 +1,69 @@
 {
-  "last_updated": "2025-04-03T10:07:08.000Z",
+  "last_updated": "2025-04-07T10:19:58.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11044",
+      "time": "2025-04-07T10:19:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11044#issuecomment-2782827388",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/430887357-6a52649c-20e2-4f11-8a47-1a3f5fdf79b6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQwMjAzMTEsIm5iZiI6MTc0NDAyMDAxMSwicGF0aCI6Ii81NzA1NTk5OC80MzA4ODczNTctNmE1MjY0OWMtMjBlMi00ZjExLThhNDctMWEzZjVmZGY3OWI2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDA3VDEwMDAxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAwZTJkODZjYWU5NjJkZDkxYWYwY2YxNWRkNGU0OWQ5NGYzMzU1N2QwOTA3ODk2M2Q4YmVlZTFlNDYxNjFkYzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._0YfmmUKepv5qpABdGJqc7ZXiB8KOnM-DTR8ER1VAIA)\r\n> \r\n> @sj11105 the same date should be allowed, the validation is not working properly\r\n\r\n@nihal467 Please check now, i have corrected the logic"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11044",
+      "time": "2025-04-06T07:42:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11044#issuecomment-2781288620",
+      "text": "> > > ![image](https://private-user-images.githubusercontent.com/115739037/430597499-3bb1db68-3a4f-432f-8b12-32f77564e116.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM4MzY2MjYsIm5iZiI6MTc0MzgzNjMyNiwicGF0aCI6Ii8xMTU3MzkwMzcvNDMwNTk3NDk5LTNiYjFkYjY4LTNhNGYtNDMyZi04YjEyLTMyZjc3NTY0ZTExNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwNVQwNjU4NDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04MjgyNjdlMmI3MjZmMjljZWQ3ZDE2NzFiNTNhMDBiNjhlOWFmYTM2NDkwMjQ4MzNhODBhZWYyYjRhZGNjYjI5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.p7sNcAPfonT5CVCaUnFgXeEZmHD1gbdp8iitFCOzTwI) Why isn't there a validation check for this condition?\r\n> > > @NikhilA8606  there are validations\r\n> > > ![Screenshot 2025-04-05 122819](https://private-user-images.githubusercontent.com/127857736/430599196-7b79acd6-e5c3-483b-8904-7e3370f56569.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM4Mzc4NDksIm5iZiI6MTc0MzgzNzU0OSwicGF0aCI6Ii8xMjc4NTc3MzYvNDMwNTk5MTk2LTdiNzlhY2Q2LWU1YzMtNDgzYi04OTA0LTdlMzM3MGY1NjU2OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwNVQwNzE5MDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xZGVhZDM0OWM5MjQxNGM4YTJlYzJlOTY3MmQxZDZhMzdhMjg5MGU4MDllNDVhZjdiM2FkZjI1NmFiYTA3MzMwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.mBDwk2hccGrE5n0FfldUJX32DKX3wTHljE_A6AXINP0)\r\n> \r\n> Use the dates I mentioned for testing\r\n\r\n@NikhilA8606  I have made the changes Please check\r\n![Screenshot 2025-04-06 131043](https://github.com/user-attachments/assets/d276f043-113b-47d4-a326-b0bc6fea54fd)\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11743",
+      "time": "2025-04-05T07:45:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11743",
+      "text": "Fixex Issue #11737: Correcting Navigation Route in Appointment Page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11044",
+      "time": "2025-04-05T06:59:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11044#issuecomment-2780361022",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/115739037/430597499-3bb1db68-3a4f-432f-8b12-32f77564e116.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM4MzY2MjYsIm5iZiI6MTc0MzgzNjMyNiwicGF0aCI6Ii8xMTU3MzkwMzcvNDMwNTk3NDk5LTNiYjFkYjY4LTNhNGYtNDMyZi04YjEyLTMyZjc3NTY0ZTExNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwNVQwNjU4NDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04MjgyNjdlMmI3MjZmMjljZWQ3ZDE2NzFiNTNhMDBiNjhlOWFmYTM2NDkwMjQ4MzNhODBhZWYyYjRhZGNjYjI5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.p7sNcAPfonT5CVCaUnFgXeEZmHD1gbdp8iitFCOzTwI) Why isn't there a validation check for this condition?\r\n@NikhilA8606  there are validations \r\n![Screenshot 2025-04-05 122819](https://github.com/user-attachments/assets/7b79acd6-e5c3-483b-8904-7e3370f56569)\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11044",
+      "time": "2025-04-05T06:44:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11044#issuecomment-2780350806",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/115739037/430597499-3bb1db68-3a4f-432f-8b12-32f77564e116.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM4MzU1NjAsIm5iZiI6MTc0MzgzNTI2MCwicGF0aCI6Ii8xMTU3MzkwMzcvNDMwNTk3NDk5LTNiYjFkYjY4LTNhNGYtNDMyZi04YjEyLTMyZjc3NTY0ZTExNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwNVQwNjQxMDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01YmZmOTMyMmM3ZDU4NWM1MWM1YmY4MGY5NTg5ZDI3MWVjNTUxMGJkNWY1OGVkNzMwNzM5ZGQ4MWFjN2QzYWVmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.lLnBI7iy0TAqQO-moISRfhHoJk5vQF-fJmr2BYTmIC8) Why isn't there a validation check for this condition?\r\n\r\n@NikhilA8606  I changed only the exception creation files but i will make changes for schedules as well by eod"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11741",
+      "time": "2025-04-05T06:28:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11741",
+      "text": "Fixes Issue "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11737",
+      "time": "2025-04-04T18:57:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11737#issuecomment-2779524569",
+      "text": "@hrit2773  I opened the issue and has already worked on this just waiting for their confirmation "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11737",
+      "time": "2025-04-04T16:09:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11737",
+      "text": "A button to navigate back for Booking Appointment"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11735",
+      "time": "2025-04-04T15:57:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11735",
+      "text": "Select Location is disabled"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11044",
@@ -198,8 +261,8 @@
       "title": "Fixes Issue #11009:  Changes in the code to disable adding exceptions before date",
       "stale_for": 0,
       "labels": [
-        "needs review",
-        "test failed"
+        "needs testing",
+        "needs review"
       ]
     }
   ],

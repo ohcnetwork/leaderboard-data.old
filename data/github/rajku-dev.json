@@ -1,6 +1,60 @@
 {
-  "last_updated": "2025-04-03T07:20:49.000Z",
+  "last_updated": "2025-04-07T16:14:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11093",
+      "time": "2025-04-07T16:14:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11093#issuecomment-2783899601",
+      "text": "> > @Rustix69 as discussed on slack, let's not rescale or perform compressions here right now! let's only perform cropping here.\r\n> \r\n> Hey @rithviknishad If we dont rescale righnt now our users will face a bad experience as most images will be giving error. So as per the Core law of every developers lets accept all types the user uploads we will process it\r\n> \r\n> #### So I made the hook but processing the image as usual ... we can move to middleware approach once that is created....\r\n> ![image](https://private-user-images.githubusercontent.com/139000437/430683502-62058437-3651-4439-90d9-d76da875bb7e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQwMzk1MDEsIm5iZiI6MTc0NDAzOTIwMSwicGF0aCI6Ii8xMzkwMDA0MzcvNDMwNjgzNTAyLTYyMDU4NDM3LTM2NTEtNDQzOS05MGQ5LWQ3NmRhODc1YmI3ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwN1QxNTIwMDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYWU3NzUxYjc0NjJkMTVkYzljODExNDRhODUwNzQzNTc3MzhkMzBjMmRhYjM3NDE2OGI3NzlmMmUzMzI1ZWI1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.8tEH3EZ557HBJtN_F_tHWkyGrM7YM99Yt0Sp6wQ67gY)\r\n\r\nI think, as already agreed by @shivankacker and @rithviknishad, the rescaling and compression logic should not be included in frontend and is more of a backend thing."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11259",
+      "time": "2025-04-07T12:20:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11259#issuecomment-2783147389",
+      "text": "@deepANghan are you working on this issue?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11361",
+      "time": "2025-04-07T12:14:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11361#issuecomment-2783132457",
+      "text": "@nihal467 can you please do the QA, i have made the changes as suggested."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11750",
+      "time": "2025-04-05T17:27:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11750#issuecomment-2781005396",
+      "text": "I already investigated and this is happening because of #11641 "
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11453",
+      "time": "2025-04-05T13:33:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11453",
+      "text": "Cypress tests for Adding new Location ",
+      "turnaround_time": 1302710
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#11453",
+      "time": "2025-04-05T13:33:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11453",
+      "text": "Cypress tests for Adding new Location ",
+      "collaborated_with": [
+        "rajku-dev",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11453",
+      "time": "2025-04-05T07:30:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11453#issuecomment-2780383956",
+      "text": "> @rajku-dev bro, i am taking over the PR, don't push anymore commit\r\n\r\nsorry @nihal, won't push commits on this one anymore."
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#11161",
@@ -3185,47 +3239,36 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11453",
-      "title": "Cypress tests for Adding new Location and Encounter Association",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review",
-        "Merge Conflict"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11361",
       "title": "Add support for Preview Valueset in Valueset Editor ",
       "stale_for": 0,
       "labels": [
-        "question",
-        "Changes Required",
-        "needs-triage"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/608",
       "title": "Add support for `pullHistoricalGitHubActivites` to fetch discussions",
-      "stale_for": 76,
+      "stale_for": 80,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/604",
       "title": "Enable Calendar to Display Data from the Past Three Years",
-      "stale_for": 68,
+      "stale_for": 73,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/602",
       "title": "Add support for tracking commits pushed to branch (Forked)",
-      "stale_for": 68,
+      "stale_for": 73,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/601",
       "title": "Add support for tracking commits pushed to branch (core)",
-      "stale_for": 43,
+      "stale_for": 47,
       "labels": []
     }
   ],
@@ -3289,10 +3332,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9984",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10004"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/leaderboard/issues/606",
-      "pr_link": "https://github.com/ohcnetwork/leaderboard/pull/607"
     }
   ]
 }
