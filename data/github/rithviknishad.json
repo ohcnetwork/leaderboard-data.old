@@ -1,6 +1,183 @@
 {
-  "last_updated": "2025-04-08T06:36:09.000Z",
+  "last_updated": "2025-04-08T12:38:26.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11726",
+      "time": "2025-04-08T12:38:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11726#issuecomment-2786302536",
+      "text": "Closing as completed in #11814"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11814",
+      "time": "2025-04-08T12:34:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11814",
+      "text": "fixes print preview"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11780",
+      "time": "2025-04-08T11:47:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11780#issuecomment-2786173021",
+      "text": "> can you remove the tooltip, rest looks good to me\r\n\r\ndone!"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11206",
+      "time": "2025-04-08T11:37:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11206",
+      "text": "Improve how we handle importing translation function from `i18next`"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11810",
+      "time": "2025-04-08T11:37:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11810",
+      "text": "Ensure i18next's `t` is imported from `useTranslations`",
+      "turnaround_time": 11997
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11809",
+      "time": "2025-04-08T10:59:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11809#issuecomment-2786051236",
+      "text": "let's not complicate;\n\nwe can either leverage `goBack` from `useAppHistory`, (super simple, but would still have the above mentioned issue), or also check if the last element of the `history` from `useAppHistory` has org. id and accordingly navigate using `goBack`"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10961",
+      "time": "2025-04-08T10:41:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10961",
+      "text": "Add a cypress test to cover functionality of devices"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-08T10:41:21.000Z",
+      "title": "ohcnetwork/care_fe#11813",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11813#pullrequestreview-2749516182",
+      "text": "Cypress test to verify the device creation work flow"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-22T07:38:37.000Z",
+      "title": "ohcnetwork/care_fe#11447",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11447#pullrequestreview-2707933673",
+      "text": "Added option for specifying Question unit in Questionnaire Editor"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11809",
+      "time": "2025-04-08T10:12:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11809#issuecomment-2785934552",
+      "text": "that wouldn't work if the user has came from some other page within the facility right?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11809",
+      "time": "2025-04-08T09:51:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11809#issuecomment-2785877776",
+      "text": "please stick with the solution described in the issues!"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11809",
+      "time": "2025-04-08T09:35:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11809#issuecomment-2785835383",
+      "text": "> @rithviknishad Can I work on this issue ?\n> we can use useState to keep track of updating this.\n\ni don't see any reason why we need a useState to achieve this"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11809",
+      "time": "2025-04-08T09:34:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11809#issuecomment-2785831839",
+      "text": "it's not everyday u keep deleting facilities, so that's fine 👍🏻"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#9882",
+      "time": "2025-04-08T09:00:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9882#issuecomment-2785734501",
+      "text": "https://github.com/ohcnetwork/care_fe/pull/10506#issuecomment-2742210357"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#9882",
+      "time": "2025-04-08T09:00:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/9882",
+      "text": "improve global error handler and create utility fn. to suppress field errors and set it to react-hook-form's state"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11809",
+      "time": "2025-04-08T08:58:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11809#issuecomment-2785730515",
+      "text": "@AdityaJ2305 there is!\n\nOpen up any facility from an org, let's say Kerala\n\n<img width=\"1029\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/09c73509-37ec-4503-9533-2dbcf34ed92c\" />\n\n\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-08T04:34:19.000Z",
+      "title": "ohcnetwork/care_fe#11794",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11794#pullrequestreview-2748624793",
+      "text": "Fix: `UserSelector` Popover width causing context overflow horizontally"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-08T03:55:27.000Z",
+      "title": "ohcnetwork/care_fe#11795",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11795#pullrequestreview-2748585236",
+      "text": "Fix : Validation Error Messages Persist After Fixing Input Values"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11810",
+      "time": "2025-04-08T08:17:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11810",
+      "text": "Ensure i18next's `t` is imported from `useTranslations`"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11765",
+      "time": "2025-04-08T07:39:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11765",
+      "text": "Add cypress test for validation organisation in the facility"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-08T07:38:57.000Z",
+      "title": "ohcnetwork/care_fe#11801",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11801#pullrequestreview-2748989326",
+      "text": "Test: Facility Creation Validation Check"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11802",
+      "time": "2025-04-08T07:26:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11802#issuecomment-2785494588",
+      "text": "To be taken up once we have a clear plan on how we'd be managing seeds/fixtures.\n\ncc: @nihal467 "
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11798",
+      "time": "2025-04-08T07:21:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11798",
+      "text": "docs: update API credentials in README for care.ohc.network",
+      "turnaround_time": 3641
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11802",
+      "time": "2025-04-08T07:20:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11802",
+      "text": "Update fixtures on BE to include creds. mentioned in README to be present 👍"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11358",
+      "time": "2025-04-08T06:55:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11358#issuecomment-2785425019",
+      "text": "This is an issue in the backend on how we are retrieving the available users.\n\nIf a user is linked in multiple departments of the same facility, multiple records for the same `SchedulableUserResource` object is returned.\n\nIn order to reproduce, simply link the same user that has a schedule already created to multiple departments under the same facility.\n\nhttps://github.com/ohcnetwork/care/blob/88b1d891df7d2ead10259977c350312fca425863/care/emr/api/viewsets/scheduling/booking.py#L169-L175\n\n<img width=\"1595\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c3ef57c0-4f33-427b-9c2f-f88ba07c192d\" />\n\ncc: @vigneshhari "
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#11792",
@@ -58,13 +235,6 @@
       "text": "Replace history when updating filters; Upgrade raviger to beta"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-04-08T04:34:19.000Z",
-      "title": "ohcnetwork/care_fe#11794",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11794#pullrequestreview-2748624793",
-      "text": "Fix: `UserSelector` Popover width causing context overflow horizontally"
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11795",
       "time": "2025-04-08T04:33:18.000Z",
@@ -84,13 +254,6 @@
       "title": "ohcnetwork/care_fe#11796",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11796#pullrequestreview-2748622409",
       "text": "fix: Added responsiveness in Select component"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-08T03:55:27.000Z",
-      "title": "ohcnetwork/care_fe#11795",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11795#pullrequestreview-2748585236",
-      "text": "Fix : Validation Error Messages Persist After Fixing Input Values"
     },
     {
       "type": "comment_created",
@@ -2332,13 +2495,6 @@
       "time": "2025-03-22T08:08:06.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/11463#issuecomment-2745133557",
       "text": "is there any issues with allowing special characters?"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-22T07:38:37.000Z",
-      "title": "ohcnetwork/care_fe#11447",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11447#pullrequestreview-2707933673",
-      "text": "Added option for specifying Question unit in Questionnaire Editor"
     },
     {
       "type": "pr_reviewed",
@@ -67085,6 +67241,14 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11821",
+      "title": "Migrate raviger to v5",
+      "stale_for": 0,
+      "labels": [
+        "needs review"
+      ]
+    },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2985",
       "title": "Prevent duplicate users in scheduling's available users API",

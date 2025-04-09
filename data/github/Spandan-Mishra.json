@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-04-06T07:51:51.000Z",
+  "last_updated": "2025-04-08T11:39:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11809",
+      "time": "2025-04-08T11:39:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11809#issuecomment-2786152780",
+      "text": "understood the approach.\nso can i work on it? "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11809",
+      "time": "2025-04-08T10:30:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11809#issuecomment-2785981921",
+      "text": "when navigating from `/org/:orgId/facilities `to `/facility/:facilityId/settings/general`, we can pass the `orgId` along with the navigation. To persist this orgId while moving across different pages within the facility section, we can wrap the entire facility layout or route in a FacilityNavigationProvider using useContext. This allows us to retain the orgId as long as we are within the facility context, and use it when we delete a facility to navigate back to the organization's facility list.\nis this spproach correct? @rithviknishad "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11809",
+      "time": "2025-04-08T10:02:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11809#issuecomment-2785906149",
+      "text": "@rithviknishad so when a user deletes a facility, instead of going back to the dashboard, we can use something like `useHistory,` or `navigate(-1)`, which will take the user to the previous page, i.e., the facility list of the organization. \nThe delete will happen same as before."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11809",
+      "time": "2025-04-08T09:50:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11809#issuecomment-2785874736",
+      "text": "@rithviknishad @aravindm4 can i work on this issue\nETA: 2 Days\nApproach: Add a delete icon on every facility card within an organization. When the user deletes a particular facility, the delete process would be the same as before. Only the current page will refresh and the deleted facility won't appear, and the user wouldn't be navigated to their dashboard."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11542",
@@ -512,6 +540,32 @@
       "text": "Fixed responsive issue between 640-767px"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11542",
+      "title": "Collapsible sections added in encounter overview",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "Changes Required",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/landing/pull/66",
+      "title": "Fixed responsive issue between 640-767px",
+      "stale_for": 35,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11417",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11435"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11298",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11314"
+    }
+  ]
 }

@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-04-07T19:46:32.000Z",
+  "last_updated": "2025-04-08T12:45:37.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11287",
+      "time": "2025-04-08T12:45:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11287#issuecomment-2786321198",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/431371325-9af4d41d-054e-4572-8ae3-644376dff9b4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQxMTYyNTIsIm5iZiI6MTc0NDExNTk1MiwicGF0aCI6Ii81NzA1NTk5OC80MzEzNzEzMjUtOWFmNGQ0MWQtMDU0S00NTcyLThhZTMtNjQ0Mzc2ZGZmOWI0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDA4VDEyMzkxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTgzYjU5OGRiOTYyYzlmZDFjNmIyYWUzODM2MDRkN2YzNTZjZWZhYWQxNjBiNzJmMDc2Y2VhZDIxNjg2MGQ1NTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.JOQq79InvFf05_JFNoG2K4nh3rhORCc_MzskYXZGzUo)\r\n> \r\n> * show the nested question in a . format, for example rather than showing Question 2 > Question 1 > Question 1 , show them as 2.1.1\r\n\r\n@nihal467, wouldn’t this still be a bit confusing? The main goal here is to make the error message more readable for the user. moreover, backend is returning similar message (just index starts with 0 instead of 1 and question text)\r\n<img width=\"408\" alt=\"Screenshot 2025-04-08 at 6 14 27 PM\" src=\"https://github.com/user-attachments/assets/424eb317-7072-43cc-bf3d-878015c51db3\" />\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11248",
+      "time": "2025-04-08T11:15:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11248#issuecomment-2786092882",
+      "text": "Hey @nihal467 , I would like to work on this eta 2 days "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11809",
+      "time": "2025-04-08T09:13:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11809#issuecomment-2785770988",
+      "text": "@rithviknishad , are you referring to this ?  \n\nhttps://github.com/user-attachments/assets/6d327ef1-db2e-4a7a-9b00-e613e4ab7b7c\n\nif yes, isn't it more frustrating especially for users who need to delete multiple facilities within a single organisation , my initial thoughts were may be delete button on facility card to delete facility within org  (pov: deleting multiple facilities)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11809",
+      "time": "2025-04-08T08:34:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11809#issuecomment-2785666257",
+      "text": "@aravindm4 , if I am not wrong, we don't have org > facilities deleting functionality, currently to delete a facility user needs to go to setting page in that particular facility and delete it \n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11803",
+      "time": "2025-04-08T07:33:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11803#issuecomment-2785511005",
+      "text": "Hey @aravindm4 , I would like to work on this eta: tomorrow"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11794",
@@ -6421,7 +6456,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11767",
       "title": "Fix: Location Association Sheet Search Bar Filtering and Empty State Handling ",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Changes Required"
       ]
