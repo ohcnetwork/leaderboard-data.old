@@ -1,6 +1,83 @@
 {
-  "last_updated": "2025-04-08T15:02:02.000Z",
+  "last_updated": "2025-04-08T17:45:19.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11821",
+      "time": "2025-04-08T17:45:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11821",
+      "text": "Switch raviger dep. to stable version"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-01T05:20:47.000Z",
+      "title": "ohcnetwork/care_fe#11644",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11644#pullrequestreview-2731133871",
+      "text": "Enhancement In Resources List Page Search and Filters"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-08T17:38:36.000Z",
+      "title": "ohcnetwork/care_fe#11704",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11704#pullrequestreview-2750881159",
+      "text": "fixed broken ui for rotate and next , prev buttons in file preview Di…"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-08T17:32:25.000Z",
+      "title": "ohcnetwork/care_fe#11752",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11752#pullrequestreview-2750870071",
+      "text": "Appointment Required Flag"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-07T17:37:08.000Z",
+      "title": "ohcnetwork/care_fe#11785",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11785#pullrequestreview-2747591532",
+      "text": "Fix: Ensure structured_type is set for structured questions"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11796",
+      "time": "2025-04-08T17:28:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11796#issuecomment-2787175074",
+      "text": "not all; only wherever applicable"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11795",
+      "time": "2025-04-08T17:27:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11795#issuecomment-2787173286",
+      "text": "there seems to be some other issue hidden beneath i suppose.\r\n\r\nrecently checkbox's onchange started failing and we had to make the following quick fix: https://github.com/ohcnetwork/care_fe/pull/11659/files"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11795",
+      "time": "2025-04-08T17:25:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11795#issuecomment-2787169405",
+      "text": "figure out the root cause, shadcn's checkbox does not require such hacks to be done in order for it to work as per the docs\r\n\r\nhttps://ui.shadcn.com/docs/components/checkbox"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11819",
+      "time": "2025-04-08T17:23:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11819#issuecomment-2787164006",
+      "text": "will revisit this once react v19 upgrade is done; "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11611",
+      "time": "2025-04-08T17:12:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11611",
+      "text": "`DiagnosisQuestion` and `SymptomQuestion` to Use ShadCN Table Component  in large screen"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-08T17:02:30.000Z",
+      "title": "ohcnetwork/care_fe#11820",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11820#pullrequestreview-2750779315",
+      "text": "Makes Admin Roles table header sticky #11623"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#10657",
@@ -326,13 +403,6 @@
       "time": "2025-04-07T17:46:19.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/11788#issuecomment-2784115104",
       "text": "@Tanuj1718 do this for all Select's wherever applicable!"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-07T17:37:08.000Z",
-      "title": "ohcnetwork/care_fe#11785",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11785#pullrequestreview-2747591532",
-      "text": "Fix: Ensure structured_type is set for structured questions"
     },
     {
       "type": "pr_reviewed",
@@ -919,13 +989,6 @@
       "title": "ohcnetwork/care_fe#11699",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11699#pullrequestreview-2739028636",
       "text": "Refactor QuestionnaireSearch, ValueSetSelect, and Autocomplete components to use Sheet for mobile UI, replacing CommandDrawer."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-01T05:20:47.000Z",
-      "title": "ohcnetwork/care_fe#11644",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11644#pullrequestreview-2731133871",
-      "text": "Enhancement In Resources List Page Search and Filters"
     },
     {
       "type": "pr_reviewed",
@@ -67302,13 +67365,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2985",
       "title": "Prevent duplicate users in scheduling's available users API",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11722",
       "title": "Add new facility types: Taluk Head Quarters Hospital and General Hospital",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "hold",
         "waiting for backend"
@@ -67322,22 +67385,23 @@
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11592",
-      "title": "Upgrade to React v19",
-      "stale_for": 8,
+      "title": "Upgrade to React 19",
+      "stale_for": 0,
       "labels": [
-        "Merge Conflict"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/2",
       "title": "added translations",
-      "stale_for": 14,
+      "stale_for": 15,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/1",
       "title": "Migrate Camera Device's Position Presets from Care to Plug",
-      "stale_for": 12,
+      "stale_for": 13,
       "labels": []
     }
   ],
@@ -67353,6 +67417,14 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11206",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11810"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11115",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11116"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11115",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11827"
     },
     {
       "issue_link": "https://github.com/ohcnetwork/care/issues/2858",
