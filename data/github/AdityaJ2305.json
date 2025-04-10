@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-04-08T17:23:26.000Z",
+  "last_updated": "2025-04-09T19:25:04.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11835",
+      "time": "2025-04-09T19:25:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11835#issuecomment-2790777951",
+      "text": "@karanziie1990 You’re on the right track! The first screenshot is the facility detail page, while the second one is the edit form—not the detail view. The delete button is only rendered for superusers, which is why you’re not seeing it.\n\nYou can either set up a local backend with a superuser or (since you’re only working on UI changes) temporarily bypass the condition to make the button visible and proceed with  UI updates using this little hack 😊"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11837",
+      "time": "2025-04-09T18:30:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11837",
+      "text": "Enable infinite scrolling in UserSelector"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-04-07T19:06:22.000Z",
@@ -6470,6 +6484,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11837",
+      "title": "Enable infinite scrolling in UserSelector",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11767",
       "title": "Fix: Location Association Sheet Search Bar Filtering and Empty State Handling ",
       "stale_for": 0,
@@ -6480,7 +6500,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11644",
       "title": "Refactor SearchInput and Used it in CodeBase (affected pages in are in Description) & Improve ResourceList Filtering UI",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "question",
         "Changes Required",
@@ -6494,7 +6514,6 @@
       "labels": [
         "question",
         "Changes Required",
-        "Merge Conflict",
         "needs-triage"
       ]
     }
