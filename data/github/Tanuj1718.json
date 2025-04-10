@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-09T17:45:40.000Z",
+  "last_updated": "2025-04-10T05:51:41.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11836",
+      "time": "2025-04-10T05:51:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11836#issuecomment-2791630529",
+      "text": "> Hi! [@rithviknishad](https://github.com/rithviknishad), I'd like to work on this issue.\n> \n> Here's my approach:\n> \n> * Use a tooltip (e.g., Material UI's  or a similar component) to display the full notes content when it's truncated.\n> * Disable the Update button when no changes are detected in the service record (can track form state or compare values).\n> * Disable the Save button when the description field is empty (simple validation check before enabling the button).\n> \n> Please assign this issue to me. Thanks!\n> \n> ETA: 1 day after assigning.\n\n@gaurav0140 Please read the comments ( [ref](https://github.com/ohcnetwork/care_fe/issues/11836#issuecomment-2791501779) ) and go through the repo for clarification before defining your approach."
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#11836",
@@ -1871,13 +1878,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/16",
       "title": "fix: Made 'Generate/Link ABHA Number' page mobile friendly",
-      "stale_for": 11,
+      "stale_for": 12,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10756",
       "title": "Allow to select preferable camera during photo capturing",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "test failed",
         "Changes Required"
