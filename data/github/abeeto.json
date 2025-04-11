@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-10T05:39:49.000Z",
+  "last_updated": "2025-04-11T08:30:57.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11868",
+      "time": "2025-04-11T08:30:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11868",
+      "text": "Device Info Page: expand option for notes and disable update/submit until valid input"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11836",
@@ -310,7 +317,17 @@
       "text": "Hi @abhimanyurajeesh , I think this would be a great first issue!\n\nHere's what I would do if I were to be assigned:\n\n-  Having a markdown template perhaps as a placeholder to only show the essentials ( headings, bold text, bullet points)\n-  The markdown template would use example placeholder text pertaining to a facility/hospital to give users better context\n-  more detailed information on using markdown by having a link next to the description label (perhaps using a tooltip)\n\nA question I have is:\n- Should embedding of images/urls using markdown be allowed on descriptions?\n\nAdditional considerations:\n- I think the preview or rich in-built editors are also good solutions, that could be added later on.\n\nIf assigned, I'm confident I could have a PR ready in 1-2 days.\n"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11868",
+      "title": "Device Info Page: expand option for notes and disable update/save button until valid input",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11471",

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-10T16:27:26.000Z",
+  "last_updated": "2025-04-11T05:40:50.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11843",
+      "time": "2025-04-11T05:40:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11843#issuecomment-2795884963",
+      "text": "Hey @nihal467,\n\nI’ve approached this issue by conditionally rendering the questionnaire print button so that it appears on all relevant pages except when the current route corresponds to `facility/..../encouter/.../treatment_summary`.\n\n1) It seems to work fine — the button is still there on other pages and hidden where it shouldn’t be. I've tried to keep the logic simple. Am I good to go with this approach, or would you suggest any changes? 😄 \n\n---\n\n2) Also, I know we usually follow certain conventions — like keeping UI text in i18n files and so on — but I wasn’t sure if that’s required here, so I just used it directly for now.\n\nFor the route check, I used:\n```js\nconst path = usePath() || \"\";\nconst isTreatmentSummaryRoute = path?.includes(\"/treatment_summary\");\n```\n\n- Does this look good?\ncc @AdityaJ2305 @nihal467\n\nIf everything looks fine, I’ll go ahead and raise the PR! 😌 \n\n"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#11848",
@@ -66,6 +73,13 @@
       "text": "Hi @rithviknishad ,\nCan I give this issue a try..?? I have locally setup the project and tried to familiarised myself with the code base.\n\nETA: Tomorrow (10/04/2025)"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11877",
+      "title": "Removed the questionnaire print button from the treatment summary page",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }

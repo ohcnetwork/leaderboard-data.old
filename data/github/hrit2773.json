@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-04-10T08:08:01.000Z",
+  "last_updated": "2025-04-11T07:27:21.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11861",
+      "time": "2025-04-11T07:27:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11861#issuecomment-2796078398",
+      "text": "only one default option for every questionnaire? or I guess it can be multiple?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11861",
+      "time": "2025-04-11T07:08:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11861#issuecomment-2796043735",
+      "text": "> [@samholics](https://github.com/samholics) can you elaborate as to where the default answer option would come from? because choice questions have 2 options valueset or custom options. If user selects custom options then they have to enter their own choices. Do we need a default choice in that case? cc [@rithviknishad](https://github.com/rithviknishad) [@Jacobjeevan](https://github.com/Jacobjeevan)\n\nI mean to ask if the default answer option would come from a url or can be set by user or is common to all questions?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11861",
+      "time": "2025-04-11T07:07:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11861#issuecomment-2796039991",
+      "text": "@samholics If I get a clarification on this. I can work on this as I'm anyways working on this questionnaires part"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11861",
+      "time": "2025-04-11T07:03:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11861#issuecomment-2796033958",
+      "text": "@samholics can you elaborate as to where the default answer option would come from? because choice questions have 2 options valueset or custom options. If user selects custom options then they have to enter their own choices. Do we need a default choice in that case? cc @rithviknishad @Jacobjeevan "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11839",
@@ -4344,6 +4372,73 @@
       "text": "Soft delete assets from deleted facilities/hospitals"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11824",
+      "title": "Added “Move Up / Move Down” Buttons to Reorder Options in Choice-Type Questions within Questionnaire",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "Tested ✅"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_hcx_fe/pull/6",
+      "title": "Fixed Coverage card overflow and position bug",
+      "stale_for": 10,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11447",
+      "title": "Added option for specifying Question unit in Question Editor and added validations to the question editor ",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs testing",
+        "needs review",
+        "Merge Conflict",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/100",
+      "title": "Added CEP for Patient Tagging system",
+      "stale_for": 66,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11718",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11745"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2933",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2936"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2930",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2923"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11207",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11315"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11131",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11136"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10763",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10838"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10720",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10741"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10668",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10684"
+    }
+  ]
 }

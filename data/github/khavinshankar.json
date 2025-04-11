@@ -1,6 +1,21 @@
 {
-  "last_updated": "2025-04-08T16:30:32.000Z",
+  "last_updated": "2025-04-11T07:24:57.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_doctor_connect_fe#5",
+      "time": "2025-04-11T07:24:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_doctor_connect_fe/pull/5",
+      "text": "fix cloud flare deployment",
+      "turnaround_time": 601
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_doctor_connect_fe#5",
+      "time": "2025-04-11T07:14:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_doctor_connect_fe/pull/5",
+      "text": "fix cloud flare deployment"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_abdm_fe#23",
@@ -42715,9 +42730,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11873",
+      "title": "Fixed code verification in valueset",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/23",
       "title": "DO NOT MERGE: Enforced abha linking while accessing consultation dashbaord",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -42729,7 +42753,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11682",
       "title": "added PatientInfoCardQuickActions plugin hook",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "Changes Required"
       ]
@@ -42737,45 +42761,46 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/112",
       "title": "Added docs for setiing up 10bedicu hub and spoke model",
-      "stale_for": 7,
+      "stale_for": 9,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/111",
       "title": "Added docs for setting up plug",
-      "stale_for": 13,
+      "stale_for": 14,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11605",
       "title": "Added abha number present validation for discharge",
-      "stale_for": 6,
+      "stale_for": 0,
       "labels": [
-        "do not merge"
+        "do not merge",
+        "stale"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/109",
       "title": "Added scan and share docs",
-      "stale_for": 15,
+      "stale_for": 16,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/143",
       "title": "added browser confirmation for uncheduling in Agenda",
-      "stale_for": 81,
+      "stale_for": 83,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/141",
       "title": "Added search bar in Patients",
-      "stale_for": 81,
+      "stale_for": 83,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/arike/pull/140",
       "title": "Refactored Patients from ruby-html to rescript-react",
-      "stale_for": 81,
+      "stale_for": 83,
       "labels": []
     }
   ],
