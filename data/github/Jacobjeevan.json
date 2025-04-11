@@ -1,6 +1,90 @@
 {
-  "last_updated": "2025-04-10T17:39:36.000Z",
+  "last_updated": "2025-04-10T21:29:12.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-07T05:25:35.000Z",
+      "title": "ohcnetwork/care_fe#11752",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11752#pullrequestreview-2745546004",
+      "text": "Appointment Required Flag"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11795",
+      "time": "2025-04-10T21:14:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11795#issuecomment-2795181999",
+      "text": "> there seems to be some other issue hidden beneath i suppose.\r\n> \r\n> recently checkbox's onchange started failing and we had to make the following quick fix: https://github.com/ohcnetwork/care_fe/pull/11659/files\r\n> \r\n> cc: @Jacobjeevan\r\n\r\nI checked against react v19 deployment, everything else apart from checkbox seems fine 😅  Same for phone number as well.\r\n\r\n<img width=\"618\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4a5c4bb2-662f-4719-959e-e4259dcc1f34\" />\r\n\r\nI unchecked and typed in, that cleared error for permanent address, but not address. Same for phone number.\r\n\r\n![image](https://github.com/user-attachments/assets/9a845bb7-79e3-4cc4-8760-5453998b7326)\r\n"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11390",
+      "time": "2025-04-10T21:06:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11390",
+      "text": "Structure Type Dropdown State Not Managed Properly in Questionnaire Creation Form"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-10T21:06:44.000Z",
+      "title": "ohcnetwork/care_fe#11785",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11785#pullrequestreview-2758421472",
+      "text": "Fix: Ensure structured_type is set for structured questions"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11857",
+      "time": "2025-04-10T21:03:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11857",
+      "text": "Optimize questionnaire editor for mobile"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-10T21:02:11.000Z",
+      "title": "ohcnetwork/care_fe#11824",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11824#pullrequestreview-2758412639",
+      "text": "Added “Move Up / Move Down” Buttons to Reorder Options in Choice-Type Questions within Questionnaire"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11849",
+      "time": "2025-04-10T20:41:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11849",
+      "text": "Starred Items Not Properly Removed from Unstarred List"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11849",
+      "time": "2025-04-10T20:41:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11849#issuecomment-2795115465",
+      "text": "Left side isn't \"un-starred\" list, but the full list; working as intended."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11850",
+      "time": "2025-04-10T20:38:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11850",
+      "text": "Search Input Not Working"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11850",
+      "time": "2025-04-10T20:38:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11850#issuecomment-2795107830",
+      "text": "It's not just an issue here, but occurring in multiple places. Will be fixed in https://github.com/ohcnetwork/care_fe/pull/11592"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-10T20:32:30.000Z",
+      "title": "ohcnetwork/care_fe#11851",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11851#pullrequestreview-2758307945",
+      "text": "Feat: Enable coding for group in question type within questionnaire"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-10T20:24:27.000Z",
+      "title": "ohcnetwork/care_fe#11853",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11853#pullrequestreview-2758290242",
+      "text": "update renovate config to include only patch version upgrades in combined dep. upgrades"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11856",
@@ -282,13 +366,6 @@
       "title": "ohcnetwork/care_fe#11728",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11728#pullrequestreview-2745573695",
       "text": "fix: Remove nullable which causes passing null values in 'assigned facility' field during Resource Request Update"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-07T05:25:35.000Z",
-      "title": "ohcnetwork/care_fe#11752",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11752#pullrequestreview-2745546004",
-      "text": "Appointment Required Flag"
     },
     {
       "type": "pr_reviewed",
