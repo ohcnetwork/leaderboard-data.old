@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-04-11T07:21:10.000Z",
+  "last_updated": "2025-04-11T20:49:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11883",
+      "time": "2025-04-11T20:49:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11883#issuecomment-2797986177",
+      "text": "Yeah you are right. Let me fix this, hope nothing else gets messed up 🙏🏻"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11883",
+      "time": "2025-04-11T20:41:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11883#issuecomment-2797973811",
+      "text": "@AdityaJ2305 let me close this PR and create another one, as this one got a bit messed up because of the package-lock.json.\r\nWould that be fine?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11883",
+      "time": "2025-04-11T20:15:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11883#issuecomment-2797931778",
+      "text": "@rithviknishad i was not able to test the functionality as I couldn't load the dummy data, please do check if its working as expected.\r\nAlso i couldn't find any `useAppHistory` hook, and the `useHistory` hook is no longer available on react-router-dom v6. Hence I used the `document.referrer` appraoch."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11883",
+      "time": "2025-04-11T20:12:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11883",
+      "text": "On delete navigation fixed in facility page of organizations."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11542",
