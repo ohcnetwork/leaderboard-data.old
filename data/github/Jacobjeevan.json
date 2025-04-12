@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-11T17:12:18.000Z",
+  "last_updated": "2025-04-12T06:55:58.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11883",
+      "time": "2025-04-12T06:55:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11883#issuecomment-2798688593",
+      "text": "> @rithviknishad i was not able to test the functionality as I couldn't load the dummy data, please do check if its working as expected. Also i couldn't find any `useAppHistory` hook, and the `useHistory` hook is no longer available on react-router-dom v6. Hence I used the `document.referrer` appraoch.\r\n\r\nPlease do not check QA testing as marked (in the checklist) if you hadn't tested the functionality yourself - that is misleading. The whole point of checklist is to ensure that contributors test the functionality before opening a PR 😅 "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11878",
@@ -11377,7 +11384,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11856",
       "title": "Fix: Verify Patient Encounter Card Link",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "test failed"
