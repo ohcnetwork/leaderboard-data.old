@@ -7316,5 +7316,210 @@
                 }
             ]
         }
+    ],
+    "2025-04-12 00:00:00": [
+        {
+            "user": "U086E5U2CSJ",
+            "type": "message",
+            "ts": "1744416088.261309",
+            "client_msg_id": "9DA514E9-D9F7-4AB9-9F23-E378CB6BEA2E",
+            "text": "April 12th\n\u2022 Back home, long ride(349km) was fun except the tiredness and body pain : ) \n\u2022 :headphones: w. <@U0168MBTGL8> <@U022THM4U2U> finalising the mark as discharge <https://github.com/ohcnetwork/care_fe/issues/11811|care_fe#11811> \n\u2022 :headphones: w. <@U02TDGQQPMJ> point out a on a weird issue. \nNext \n\u2022 Get <https://github.com/ohcnetwork/care_fe/pull/11815|care_fe#11815> tested and merged. \n\u2022 Take little rest. ",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1744117052,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/11815",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#11815 fix: Mark as Discharge",
+                    "text": "## Proposed Changes\n\n\u2022 BE <https://github.com/ohcnetwork/care/pull/2988|ohcnetwork/care#2988>\n\u2022 Fixes <https://github.com/ohcnetwork/care_fe/issues/11811|#11811>  \n   \u2022 Updated en.json to include translations for discharge summary advice and related fields.  \n   \u2022 Enhanced EncounterActions to handle discharge summary advice.  \n   \u2022 Implemented discharge summary advice input in EncounterQuestion component, displayed conditionally based on encounter status.  \n   \u2022 Updated structured handlers to include discharge summary advice in encounter data processing.  \n   \u2022 Modified Encounter interface and related request types to accommodate discharge summary advice.  \n   \u2022 Updated en.json to include translations for discharge summary advice and related fields.  \n   \u2022 Enhanced EncounterActions to handle discharge summary advice.  \n   \u2022 Implemented discharge summary advice input in EncounterQuestion component, displayed conditionally based on encounter status.  \n   \u2022 Updated structured handlers to include discharge summary advice in encounter data processing.  \n   \u2022 Modified Encounter interface and related request types to accommodate discharge summary advice.\n\n<https://github.com/orgs/ohcnetwork/teams/care-fe-code-reviewers|@ohcnetwork/care-fe-code-reviewers>\n\nScreen.Recording.2025-04-10.at.3.28.39.PM.mov \n\n## Merge Checklist\n\n\u2022 Add specs that demonstrate bug / test a new feature.\n\u2022 Update <https://docs.ohc.network|product documentation>.\n\u2022 Ensure that UI text is kept in I18n files.\n\u2022 Prep screenshot or demo video for changelog entry, and attach it to issue.\n\u2022 Request for Peer Reviews\n\u2022 Completion of QA in Mobile Devices\n\u2022 Completion of QA in Desktop Devices\n\n## Summary by CodeRabbit\n\n## Summary by CodeRabbit\n\n\u2022 *New Features*  \n   \u2022 Enhanced patient discharge workflow by adding a dedicated section to enter and view discharge summary advice.  \n   \u2022 Introduced new controls for marking patients for discharge, including options to set discharge date and time.  \n   \u2022 Improved user interface messaging and labels for clearer, more guided discharge-related actions.  \n   \u2022 Added support for additional discharge-related information in the system's data structures, including new properties for handling discharge advice.  \n   \u2022 New section for displaying discharge information, including date, time, and summary advice.  \n   \u2022 Conditional rendering of discharge summary advice based on encounter status, with toggle functionality for text visibility.  \n   \u2022 Added alert dialog for confirming discharge actions, improving user awareness before finalizing discharges.  \n   \u2022 Streamlined the process of updating discharge details and managing patient status.  \n   \u2022 New labels and messages to enhance clarity around discharge confirmation and summary advice.",
+                    "title": "#11815 fix: Mark as Discharge",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/11815",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "needs testing, needs review, P1",
+                            "title": "Labels",
+                            "short": true
+                        },
+                        {
+                            "value": "8",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "0GmAa",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "April 12th\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Back home, long ride(349km) was fun except the tiredness and body pain : ) "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " w. "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U0168MBTGL8"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U022THM4U2U"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " finalising the mark as discharge "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/issues/11811",
+                                            "text": "care_fe#11811"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " w. "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U02TDGQQPMJ"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " point out a on a weird issue. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next "
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Get "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/11815",
+                                            "text": "care_fe#11815"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " tested and merged. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Take little rest. "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "bed",
+                    "users": [
+                        "U07NGSB2MUP",
+                        "U02TDGQQPMJ"
+                    ],
+                    "count": 2
+                },
+                {
+                    "name": "joy",
+                    "users": [
+                        "U02TDGQQPMJ"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }

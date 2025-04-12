@@ -43175,5 +43175,233 @@
                 }
             ]
         }
+    ],
+    "2025-04-11 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1744392490.013589",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1744392668.000000"
+            },
+            "client_msg_id": "92876ee5-6dae-44da-9090-7da3d6840b4c",
+            "text": "*april 11*\n\u2022 :heads-down: w. <@U02TB8XHZD1> on <@U022THM4U2U> on debugging improper migrations for devices.\n\u2022 :heads-down: w. <@U086E5U2CSJ> on debugging weird state mgmt. issues\n\u2022 thought of starting with camera stream authn., ended up falling into the following rabbit hole:\n\u2022 upgraded teleicu devices plug to react v19, all good there.\n\u2022 thought i found a clean fix for the tailwind v4 styling conflict by plugs. realised that i was testing things out on the wrong machine altogether. had FE server running on both my linux and mac., ended up following gigin\u2019s method of name-spacing the styles to fix the styles conflict.\n\u2022 migrating abdm FE to react 19\u2026 but in order to complete that hi-profiles needs to be upgraded to react 19 first.\n\u2022 migrating hi-profiles to react 19\u2026 ended up realising it\u2019s dependency storybook has peer-dep. issues w. react 19 \n*next*\n\u2022 complete hi-profiles, abdm, hcx, scribe, doctor connect, livekit upgrade to v19\n\u2022 start working on camera stream authn. :slightly_smiling_face: \n\u2022 app auto-updates",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "P+DZr",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "april 11",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "heads-down"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " w. "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U02TB8XHZD1"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U022THM4U2U"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on debugging improper migrations for devices."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "heads-down"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " w. "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U086E5U2CSJ"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on debugging weird state mgmt. issues"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "thought of starting with camera stream authn., ended up falling into the following rabbit hole:"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "upgraded teleicu devices plug to react v19, all good there."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "thought i found a clean fix for the tailwind v4 styling conflict by plugs. realised that i was testing things out on the wrong machine altogether. had FE server running on both my linux and mac., ended up following gigin\u2019s method of name-spacing the styles to fix the styles conflict."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "migrating abdm FE to react 19\u2026 but in order to complete that hi-profiles needs to be upgraded to react 19 first."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "migrating hi-profiles to react 19\u2026 ended up realising it\u2019s dependency storybook has peer-dep. issues w. react 19 "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "complete hi-profiles, abdm, hcx, scribe, doctor connect, livekit upgrade to v19"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "start working on camera stream authn. "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "slightly_smiling_face",
+                                            "unicode": "1f642"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "app auto-updates"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U0576PEACG0"
+                    ],
+                    "count": 1
+                },
+                {
+                    "name": "rabbit2",
+                    "users": [
+                        "U0576PEACG0"
+                    ],
+                    "count": 1
+                },
+                {
+                    "name": "hole",
+                    "users": [
+                        "U0576PEACG0"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }
