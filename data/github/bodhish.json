@@ -1,6 +1,97 @@
 {
-  "last_updated": "2025-04-11T20:38:01.000Z",
+  "last_updated": "2025-04-12T21:18:13.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11905",
+      "time": "2025-04-12T21:18:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11905#issuecomment-2799042574",
+      "text": "This is done on purpose as we can't access the patient records without an active encounter in that facility, in most flows when a user ends up on this page the patient may not have a access to the patient records, they will only have the partial access to the patient records through the verified api. "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11905",
+      "time": "2025-04-12T21:18:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11905",
+      "text": "Navigation Link to Patient Page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11894",
+      "time": "2025-04-12T19:42:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11894#issuecomment-2799014160",
+      "text": "Tracked in https://github.com/ohcnetwork/roadmap/issues/82"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11802",
+      "time": "2025-04-12T19:41:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11802#issuecomment-2799013851",
+      "text": "We should update the FE once the pattern is fixed in BE. @praffq assigning this to you. "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11858",
+      "time": "2025-04-12T19:40:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11858#issuecomment-2799013482",
+      "text": "@yash-learner is it fixed?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11876",
+      "time": "2025-04-12T19:34:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11876#issuecomment-2799011828",
+      "text": "@samholics please don't remove the issue template. "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11897",
+      "time": "2025-04-12T19:33:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11897#issuecomment-2799011364",
+      "text": "Since its already assigned. I am opening it again. \n\nCC @rithviknishad "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11897",
+      "time": "2025-04-12T19:33:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11897",
+      "text": "Treatment Summary must be centrally aligned"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11897",
+      "time": "2025-04-12T19:33:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11897#issuecomment-2799011185",
+      "text": "For the purpose of printing this works so I don't think we need to make a change here. "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11894",
+      "time": "2025-04-12T19:29:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11894#issuecomment-2799009998",
+      "text": "@athulmanuel we don't support cross day scheduling just to avoid some complex logic, we can add it if its a blocker"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11903",
+      "time": "2025-04-12T19:28:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11903",
+      "text": "Validation error for overnight schedule templates."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11904",
+      "time": "2025-04-12T19:27:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11904#issuecomment-2799003420",
+      "text": "We are planning to fold into into 1 single tab that should address it. "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11904",
+      "time": "2025-04-12T19:27:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11904",
+      "text": "Same icon for ‘Search Patients’ and ‘Encounters’ tabs"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-04-11T20:38:01.000Z",
@@ -8880,7 +8971,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2465",
       "title": "New Crowdin updates",
-      "stale_for": 41,
+      "stale_for": 42,
       "labels": [
         "blocked"
       ]
