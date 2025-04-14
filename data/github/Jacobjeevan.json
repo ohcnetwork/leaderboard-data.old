@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-04-12T06:55:58.000Z",
+  "last_updated": "2025-04-13T20:09:30.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-13T20:09:30.000Z",
+      "title": "ohcnetwork/care_fe#11892",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11892#pullrequestreview-2762833125",
+      "text": "Fix device list not showing correct icon and make add device button responsive"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-13T20:07:40.000Z",
+      "title": "ohcnetwork/care_fe#11893",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11893#pullrequestreview-2762832790",
+      "text": "chore: run `setup` script in dev server if `pluginMap` doesn't already exists"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-13T19:56:55.000Z",
+      "title": "ohcnetwork/care_fe#11906",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11906#pullrequestreview-2762830174",
+      "text": "fixes the alignment issue of view detail button of encounter info card within the Beds card"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11908",
+      "time": "2025-04-13T19:55:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11908#issuecomment-2800099053",
+      "text": "@yadavshubham01 Please do the merge checklist - only check items that are relevant and that you have completed."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11913",
+      "time": "2025-04-13T19:50:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11913#issuecomment-2800097237",
+      "text": "Hmm, on what browser(s)/OS/resolution were you able to reproduce this issue? "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11872",
+      "time": "2025-04-13T17:50:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11872#issuecomment-2800051190",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/433051261-54482383-5810-4301-ab3e-d388820b7b5a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQ1NTQyNTQsIm5iZiI6MTc0NDU1Mzk1NCwicGF0aCI6Ii81NzA1NTk5OC80MzMwNTEyNjEtNTQ0ODIzODMtNTgxMC00MzAxLWFiM2UtZDM4ODgyMGI3YjVhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDEzVDE0MTkxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRmNDc2NTA5YjhjZmQxZmIxMmUzYjM4MWYwM2Y2ZGY2NzQzMjJlZjJmZTk2ZmE4NGM0NzQyYWQ4MmE4ZTJlNDgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.IRc3wwB-dZPWh3IqVSeYR9d_wcByQQ9sgaH17imv4Ic)\r\n> \r\n>     * the UI is breaking in the existing questionnaire we accessed through encounter\r\n> \r\n>     * @Jacobjeevan converting all the choices <6 to checkbox, wont it increase the length of the form unnecessarily ?\r\n\r\nHow about this? Reduced the padding on mobile so shouldn't be as long there. For desktop, I doubt the length would matter as much, no?\r\n\r\n<img width=\"356\" alt=\"image\" src=\"https://github.com/user-attachments/assets/12de7e06-e7d3-4979-aa8d-7084ef747a53\" />\r\n\r\n<img width=\"935\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d4ceea73-aa11-424d-ab3d-aa33994cb1f0\" />\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11883",
@@ -11384,7 +11426,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11856",
       "title": "Fix: Verify Patient Encounter Card Link",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs review",
         "test failed"
