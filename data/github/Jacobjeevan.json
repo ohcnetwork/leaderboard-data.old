@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-04-14T09:03:37.000Z",
+  "last_updated": "2025-04-15T07:37:13.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11678",
+      "time": "2025-04-15T07:37:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11678#issuecomment-2804114533",
+      "text": "That behavior isn't correct.\r\n\r\nRight now, if there's children, it expands to show direct children. However if not, clicking on it results to redirecting to the dept/team page.\r\n\r\nIdeally, we want both to happen - redirect and expand when applicable."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11872",
+      "time": "2025-04-15T07:24:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11872#issuecomment-2804084046",
+      "text": "<img width=\"802\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6d811a5c-023e-4e32-bb11-3c2495a64af1\" />\r\n\r\n<img width=\"470\" alt=\"image\" src=\"https://github.com/user-attachments/assets/bd6a1a46-3b45-4f12-8689-5d55b732352b\" />\r\n\r\nAdded slight gap between text area and the \"add note button\"\r\n\r\n<img width=\"687\" alt=\"image\" src=\"https://github.com/user-attachments/assets/49f98b25-0442-4279-ad85-c86b463a7399\" />\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-14T07:50:56.000Z",
+      "title": "ohcnetwork/care_fe#11914",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11914#pullrequestreview-2763436179",
+      "text": "Modify placeholder of Select inputs for Appointment booking"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-15T04:21:38.000Z",
+      "title": "ohcnetwork/care_fe#11927",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11927#pullrequestreview-2766665475",
+      "text": "Added edit button to system valuesets without saving"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-15T04:06:32.000Z",
+      "title": "ohcnetwork/care_fe#11936",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11936#pullrequestreview-2766636811",
+      "text": "Made Treatment Summary centrally aligned"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-15T03:57:13.000Z",
+      "title": "ohcnetwork/care_fe#11938",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11938#pullrequestreview-2766609109",
+      "text": "Added facilityId prop to PatientHomeActions and PatientRegistrationForm plugin hook"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11915",
@@ -63,13 +105,6 @@
       "time": "2025-04-14T07:56:26.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11704#issuecomment-2800786462",
       "text": "> Seems fine so far, but please check responsiveness of file preview on smaller devices, also check responsiveness when zoom functions are used and adjust the file preview accordingly for all devices (and complete the checklist items for QA).\r\n\r\n@Harsh-D-2004 In case you missed this. Still seeing the issue."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-14T07:50:56.000Z",
-      "title": "ohcnetwork/care_fe#11914",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11914#pullrequestreview-2763436179",
-      "text": "Modify placeholder of Select inputs for Appointment booking"
     },
     {
       "type": "pr_reviewed",
@@ -11509,11 +11544,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11872",
       "title": "Choice Qn: render as radio btn when choices <= 5",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
+        "question",
         "urgent",
         "needs testing",
-        "reviewed"
+        "reviewed",
+        "needs-triage"
       ]
     },
     {

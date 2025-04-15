@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-04-13T16:50:55.000Z",
+  "last_updated": "2025-04-15T07:51:10.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11941",
+      "time": "2025-04-15T07:51:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11941#issuecomment-2804149818",
+      "text": " sir can you tell me is this issue resolved or left over "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11941",
+      "time": "2025-04-15T07:48:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11941#issuecomment-2804142702",
+      "text": "I have resolved this issue by:\n\nRemoving the \"Discard\" button to avoid UI redundancy and confusion.\n\nEnsuring the close (cross) icon performs the expected discard functionality smoothly. can you assign me this work and its working well\n\n![Image](https://github.com/user-attachments/assets/4a482750-5175-447b-b87b-5046ee925fa2)\n\nhttps://github.com/user-attachments/assets/d21143fc-b34b-4b3d-aca8-e0f4b48883c3"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11930",
+      "time": "2025-04-15T07:03:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11930#issuecomment-2804034300",
+      "text": "if there is anything wrong please correct me sir"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11930",
+      "time": "2025-04-15T07:03:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11930#issuecomment-2804032547",
+      "text": "The issue with the bottom part of the <EncounterInfoCard /> content getting hidden behind the fixed message input bar on mobile devices has been resolved.\n\nI verified the layout locally and confirmed that adding bottom padding\n\n) inside <CardContent> ensures the content is fully visible and scrollable without being obstructed.\n\nEverything is working as expected now. Ready for review \n![Image](https://github.com/user-attachments/assets/7cedd9bc-d4a4-4e2a-9cac-b3d3a05c8eb8)\n"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/leaderboard-data#100",
@@ -95,7 +123,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/100",
       "title": "Update Harishgouda06022004.md",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": []
     }
   ],
