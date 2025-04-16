@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-15T09:44:36.000Z",
+  "last_updated": "2025-04-15T19:46:59.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11642",
+      "time": "2025-04-15T19:46:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11642#issuecomment-2807315220",
+      "text": "Thanks @nihal467 for finding them 🙌\r\n\r\n\r\n\r\n> * When we submit a Medication Request, and view the preview in the medication section, the units are visible without \r\n\r\nI reverted this I assumed it is working similar to duration but not, so fixing it will lead to more changes as this PR already has to many changes, I just reverted it out.\r\n\r\n> * [ ]  the text area used by the number in duration is different when the units are day and days, where the design is becoming inconsistent.\r\n\r\nI fixed it now\r\n\r\n![image](https://github.com/user-attachments/assets/07a51722-f205-44fb-b317-d76938e22183)\r\n\r\n\r\n> @yash-learner The newly identified bugs have appeared in the same area where Cypress initially flagged a functionality issue. Since repeated functionality problems are being observed in your UX-related PRs, Request you to perform a thorough self-review of both functionality and design before submitting your PR for review\r\n\r\nThese tiny issues came after adding translations in the last minute, I should have checked it. 😁\r\n\r\nI will do a full check and then request again, sorry for inconvience @nihal467 \r\n\r\n\r\n CC: @amjithtitus09\r\n\r\n"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#11946",

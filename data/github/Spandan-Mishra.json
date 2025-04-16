@@ -1,6 +1,21 @@
 {
-  "last_updated": "2025-04-14T10:02:45.000Z",
+  "last_updated": "2025-04-15T22:34:53.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11936",
+      "time": "2025-04-15T22:34:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11936",
+      "text": "Made Treatment Summary centrally aligned",
+      "turnaround_time": 111866
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11927",
+      "time": "2025-04-15T18:59:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11927#issuecomment-2807194425",
+      "text": "@nihal467 valuesets which have `is_system_defined` attribute as true will show the preview button and others will show the edit button, since system valuesets are not meant to be editable."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11927",
@@ -654,8 +669,8 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11936",
-      "title": "Made Treatment Summary centrally aligned",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11927",
+      "title": "Added edit button to system valuesets without saving",
       "stale_for": 0,
       "labels": [
         "needs review",
@@ -663,18 +678,9 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11927",
-      "title": "Added edit button to system valuesets without saving",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "test failed"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11883",
       "title": "On delete navigation fixed in facility page of organizations.",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Changes Required"
       ]
@@ -697,6 +703,10 @@
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11897",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11936"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11417",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11435"
