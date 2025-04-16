@@ -6,7 +6,7 @@ twitter: ""
 linkedin: abdul-azees-7b88921b6
 slack: ""
 joining_date: ""
-role : contributor
+role: contributor
 ---
 
 Still waiting for this

@@ -6,6 +6,6 @@ twitter: ""
 linkedin: https://www.linkedin.com/in/aravind-mahadevan-0ba22411b/
 slack: U02D0NA6RHR
 joining_date: ""
-role : core
+role: core
 ---
 

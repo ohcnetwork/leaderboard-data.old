@@ -6,7 +6,7 @@ twitter: ""
 linkedin: abhimanyurajeesh
 slack: U086E5U2CSJ
 joining_date: "26/12/2024"
-role : core
+role: core
 ---
 
 **Software Developer . Graphic Designer . Photographer**

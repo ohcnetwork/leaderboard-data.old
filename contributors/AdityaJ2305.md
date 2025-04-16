@@ -6,7 +6,7 @@ twitter: AdityaJindal23
 linkedin: aditya-jindal-5232b0260
 slack: U07NGSB2MUP
 joining_date: 11/12/2024
-role : intern
+role: intern
 ---
 
 Still waiting for this
