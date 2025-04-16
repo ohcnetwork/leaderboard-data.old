@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-15T13:56:14.000Z",
+  "last_updated": "2025-04-16T03:17:17.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11960",
+      "time": "2025-04-16T03:17:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11960",
+      "text": "fix: Questionnaire is Hidden When Encounter Status is Marked as \"Discharged\""
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#11955",
@@ -2307,8 +2314,11 @@
       "title": "fix: Mark as Discharge",
       "stale_for": 0,
       "labels": [
+        "question",
         "P1",
-        "Changes Required"
+        "Changes Required",
+        "Merge Conflict",
+        "needs-triage"
       ]
     },
     {
@@ -2317,8 +2327,7 @@
       "stale_for": 0,
       "labels": [
         "needs review",
-        "Tested ✅",
-        "Merge Conflict"
+        "Tested ✅"
       ]
     }
   ],

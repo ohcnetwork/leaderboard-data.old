@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-15T14:10:48.000Z",
+  "last_updated": "2025-04-16T01:12:58.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11957",
+      "time": "2025-04-16T01:12:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11957#issuecomment-2807921426",
+      "text": "Hi, I would like to work on this issue.\n\nApproach:\nI will replace the current usage of:\n{t(\"remove_medication_confirmation\", {\n  medication: medications[medicationToDelete!]?.medication?.display,\n})}\nwith the <Trans /> component to ensure i18n scanner compatibility and proper handling of dynamic values.\nThis will be done in both MedicationRequestQuestion.tsx and MedicationStatementQuestion.tsx.\n<Trans\n  i18nKey=\"remove_medication_confirmation\"\n  values={{\n    medication: medications[medicationToDelete!]?.medication?.display,\n  }}\n/>\nTimeline:\nI will complete this within 24 hours of assignment."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11954",
