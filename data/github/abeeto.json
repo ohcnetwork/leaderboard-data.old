@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-11T08:30:57.000Z",
+  "last_updated": "2025-04-15T16:21:27.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11868",
+      "time": "2025-04-15T16:21:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11868#issuecomment-2806729490",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/433918371-84a4cef2-3b53-4333-a4f4-914fc7f596a0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQ3MzM5NzQsIm5iZiI6MTc0NDczMzY3NCwicGF0aCI6Ii81NzA1NTk5OC80MzM5MTgzNzEtODRhNGNlZjItM2I1My00MzMzLWE0ZjQtOTE0ZmM3ZjU5NmEwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDE1VDE2MTQzNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRiNmRiN2M5MDJjNzc0ODJkYWExNTc5NTJhMTdhZTJhYWY4Mjk1Zjg0ZDQ5NTMzNDUxODViMDVjOWMyNjRhNjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.BgPC5CS12FTex3hvD8hE0Fmm6wj_3ZwWAxHTzjSFj_o)\r\n> \r\n> * expand or tooltip is missing for truncated note as per issue\r\n\r\nHi, @nihal467 \r\nThe expand was missing because recent changes were made to the parent component, `TableCell` (only applied after you merged the develop branch). TableCell got a `whitespace-wrap`  added which is why my code was no-longer working, as I have a useEffect that needs to check if text is wrapping in order to render the expand.\r\n\r\nAdded a quick fix by just overriding the class to  `whitespace-normal`  for this particular `TableCell` element.\r\nPlease have a look now, should work!"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11868",
@@ -323,8 +330,10 @@
       "title": "Device Info Page: expand option for notes and disable update/save button until valid input",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "question",
+        "needs review",
+        "test failed",
+        "needs-triage"
       ]
     }
   ],
