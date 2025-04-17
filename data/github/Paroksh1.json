@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-04-06T09:49:22.000Z",
+  "last_updated": "2025-04-16T19:04:33.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11982",
+      "time": "2025-04-16T19:04:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11982#issuecomment-2810494258",
+      "text": "Hi team \r\n\r\nThis PR updates the EncounterQuestion component to make the Discharge Summary Advice textarea a controlled component. It ensures the UI reflects any dynamic changes to encounter.discharge_summary_advice.\r\n\r\n1. Also added the discharge_summary_advice field to the EncounterEditRequest type.\r\n2.  Verified the change by logging the value and checking its sync with form state.\r\n\r\nPlease review and let me know if any further changes are needed! "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11982",
+      "time": "2025-04-16T19:03:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11982",
+      "text": "fix: make discharge summary advice a controlled component"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11747",
@@ -16,6 +30,13 @@
       "text": "@Jacobjeevan can u please assign this task to me\n"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11982",
+      "title": "fix: make discharge summary advice a controlled component",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }
