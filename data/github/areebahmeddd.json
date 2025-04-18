@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-04-17T06:08:25.000Z",
+  "last_updated": "2025-04-18T05:09:41.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11997",
+      "time": "2025-04-18T05:09:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11997#issuecomment-2814553193",
+      "text": "hmm haven't tried tj-actions/changed-files but from what i know of it, it allows for conditional job runs rather skipping entire workflows. In the case of cypress test there's only one job so in my opinion (for now) we should stick with default filters from github (`paths` and `paths-ignore`)\n\nif you want to pick this issue up, do go ahead and start a discussion in the care_engineering channel for better suggestion from people far better than me : )"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11997",
+      "time": "2025-04-18T03:53:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11997#issuecomment-2814477437",
+      "text": "good first issue for the community : )"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11997",
+      "time": "2025-04-18T03:53:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11997",
+      "text": "Unnecessary workflow triggers"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_sbom#15",
@@ -944,7 +965,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11962",
       "title": "add label for core assignees",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "Changes Required"
       ]
@@ -958,25 +979,25 @@
     {
       "link": "https://github.com/ohcnetwork/hi-profiles/pull/5",
       "title": "add action workflow for npm publishing",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/114",
       "title": "feat: Add Azure deployment guides for CARE-BE app",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/110",
       "title": "fix: Update documentation for AWS",
-      "stale_for": 14,
+      "stale_for": 15,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/108",
       "title": "fix: Update documentation for DigitalOcean",
-      "stale_for": 14,
+      "stale_for": 15,
       "labels": []
     },
     {

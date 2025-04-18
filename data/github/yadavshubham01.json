@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-17T15:03:43.000Z",
+  "last_updated": "2025-04-18T04:37:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11997",
+      "time": "2025-04-18T04:37:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11997#issuecomment-2814517225",
+      "text": "Hey @areebahmeddd  I think we should consider using [tj-actions/changed-files](https://github.com/tj-actions/changed-files) to detect which files were changed in a PR or push. It’s really helpful for conditionally running jobs in our CI/CD pipeline—like only triggering tests or builds when relevant parts of the codebase change. Would be great for optimizing things like Cypress runs too."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11992",
