@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-04-17T09:47:37.000Z",
+  "last_updated": "2025-04-17T15:03:43.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11992",
+      "time": "2025-04-17T15:03:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11992#issuecomment-2813244732",
+      "text": "@abhimanyurajeesh Hey! I got this issue when navigating directly to the Settings tab. Currently, when I click on the \"Settings\" link in the sidebar, it takes me to /facility/:id/settings, which doesn't render the intended content. Ideally, it should redirect to the default sub-tab, like /facility/:id/settings/general.\r\n\r\nCan we solve this by adding a redirect inside the SettingsLayout that checks for the base settings path and navigates to the general tab when matched?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11992",
+      "time": "2025-04-17T14:23:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11992#issuecomment-2813115390",
+      "text": "Hey @abhimanyurajeesh, I just checked locally and it's working fine on my end the sidebar highlight appears correctly across all the Settings tabs (General, Departments, Locations, etc.).\r\n\r\nCould you please elaborate a bit on the issue you're seeing? Maybe share the exact steps you're following? That would help me understand better and debug if needed. \r\n\r\nhttps://github.com/user-attachments/assets/07d0da83-20ff-4ca5-8abf-4ecc345662b3\r\n\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11992",
+      "time": "2025-04-17T13:21:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11992",
+      "text": "fix: retain sidebar highlight when switching settings tabs"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10622",
+      "time": "2025-04-17T13:01:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10622#issuecomment-2812790198",
+      "text": "\n\n\n> [@rithviknishad](https://github.com/rithviknishad) ! We were able to solve this without creating a custom ActiveLink component by making a small modification to the facility-nav component. After removing \"general\" from the list, everything started working correctly.\n> \n> ![Image](https://github.com/user-attachments/assets/4bc2c4aa-2009-4e5e-bbcf-f14e505a843a)\n> \n> ![Image](https://github.com/user-attachments/assets/c6a83d7d-4fe0-452e-a798-c8668a23388a)\n\nhey @rithviknishad  @Jacobjeevan  Just wanted to check: are we allowed to make changes in this component? I remember you mentioned modifications in the shacn component aren't allowed, so wanted to confirm if this is okay here."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11989",

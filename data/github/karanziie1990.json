@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-17T09:05:38.000Z",
+  "last_updated": "2025-04-17T14:34:16.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11966",
+      "time": "2025-04-17T14:34:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11966#issuecomment-2813144141",
+      "text": "Hey @amjithtitus09 👋\n\nI was able to successfully reproduce the issue for **Diagnosis records** by following these steps:\n\n> Staff Login (as Doctor) → Encounters → Select a Patient → Choose Questionnaire (Diagnosis) / Edit button (under Diagnosis section)\n\nHowever, I wasn’t able to reproduce the issue for **Medication Statement**, **Allergy**, and **Symptom** records — the **Verification** column seems to be missing in those sections for me. I just wanted to check if I might be missing a step or if this could be related to data setup or user permissions.\n\nThat said, since I could reproduce and fix the bug for Diagnosis, I’ve gone ahead and implemented the same solution pattern for the other records as well, even though I couldn’t directly observe the bug behavior in those.\n\nWould appreciate any clarification here.  \ncc: @AdityaJ2305 – if you’ve come across this and could share some insight, that’d be super helpful!\n\nThanks! 😊"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11989",

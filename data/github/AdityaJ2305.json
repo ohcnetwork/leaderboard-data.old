@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-04-17T10:20:08.000Z",
+  "last_updated": "2025-04-17T18:31:27.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#11996",
+      "time": "2025-04-17T18:31:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11996",
+      "text": "Enhancement: Update the cap logic in the Quick Finder so it dynamically adjusts the maximum value can be selected"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-17T09:17:30.000Z",
+      "title": "ohcnetwork/leaderboard-data#100",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/100#pullrequestreview-2775118533",
+      "text": "Update Harishgouda06022004.md"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11966",
+      "time": "2025-04-17T16:39:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11966#issuecomment-2813514964",
+      "text": "@karanziie1990, it’s just a terminology difference for allergy and symptoms — if you click “Remove allergy” or “Remove symptoms” from the three-dot dropdown, it works the same way by marking them as “entered in error.”\n\nAlso, while checking this for your doubt, I noticed the same dropdown exists for diagnosis (like “Remove diagnosis”), which correctly updates the verification to “entered in error” but updates verification  to confirmed on submit. Could you fix that as well?\n\ncc: @amjithtitus09 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11981",
+      "time": "2025-04-17T13:03:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11981#issuecomment-2812793939",
+      "text": "Ready for testing and review \r\n\r\n@nihal467 @Jacobjeevan @rithviknishad "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11919",
+      "time": "2025-04-17T13:02:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11919#issuecomment-2812793304",
+      "text": "Ready for testing and review \r\n\r\n@nihal467 @Jacobjeevan @rithviknishad "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11837",
+      "time": "2025-04-17T13:02:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11837#issuecomment-2812792480",
+      "text": "Ready for testing and review \r\n\r\n@nihal467 @Jacobjeevan @rithviknishad "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11644",
+      "time": "2025-04-17T13:00:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11644#issuecomment-2812788158",
+      "text": "> * the clear search field, in the facility user management page looks weird\r\n- Should I remove clear search in first place ?\r\n> the UI in the search by encounter also looks weird\r\n- Should I sync with design team or could anyone provide suggestion ? \r\n> the icon also placed weird, can you revisit it once\r\n- which icon ? \r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11989",
@@ -14,13 +63,6 @@
       "time": "2025-04-17T09:55:08.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11767#issuecomment-2812371127",
       "text": "@Jacobjeevan , If I'm getting it right , Just need to rm the no_location_found condition handling right ? "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-17T09:17:30.000Z",
-      "title": "ohcnetwork/leaderboard-data#100",
-      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/100#pullrequestreview-2775118533",
-      "text": "Update Harishgouda06022004.md"
     },
     {
       "type": "comment_created",
@@ -6793,6 +6835,12 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11996",
+      "title": "Enhancement: Update the cap logic in the Quick Finder so it dynamically adjusts the maximum value can be selected",
+      "stale_for": 0,
+      "labels": []
+    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11981",
       "title": "Update Questionnaire Response to conform with Backend",

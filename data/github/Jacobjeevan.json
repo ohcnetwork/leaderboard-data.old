@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-04-17T10:56:53.000Z",
+  "last_updated": "2025-04-17T15:31:12.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-02T10:19:28.000Z",
+      "title": "ohcnetwork/care_fe#11542",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11542#pullrequestreview-2735723130",
+      "text": "Collapsible sections added in encounter overview"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10622",
+      "time": "2025-04-17T13:08:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10622#issuecomment-2812815783",
+      "text": "> > [@rithviknishad](https://github.com/rithviknishad) ! We were able to solve this without creating a custom ActiveLink component by making a small modification to the facility-nav component. After removing \"general\" from the list, everything started working correctly.\n> > ![Image](https://github.com/user-attachments/assets/4bc2c4aa-2009-4e5e-bbcf-f14e505a843a)\n> > ![Image](https://github.com/user-attachments/assets/c6a83d7d-4fe0-452e-a798-c8668a23388a)\n> \n> hey [@rithviknishad](https://github.com/rithviknishad) [@Jacobjeevan](https://github.com/Jacobjeevan) Just wanted to check: are we allowed to make changes in this component? I remember you mentioned modifications in the shacn component aren't allowed, so wanted to confirm if this is okay here.\n\nfacility-nav isn't a shadcn component so feel free to change it 👍 "
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-04-07T12:25:29.000Z",
@@ -1179,13 +1193,6 @@
       "title": "ohcnetwork/care_fe#11677",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11677#pullrequestreview-2736064675",
       "text": "Facility Archive for SuperAdmins"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-02T10:19:28.000Z",
-      "title": "ohcnetwork/care_fe#11542",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11542#pullrequestreview-2735723130",
-      "text": "Collapsible sections added in encounter overview"
     },
     {
       "type": "issue_closed",
@@ -11733,7 +11740,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11983",
       "title": "Location and Device Perms",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Work in Progress 🚧",
         "waiting for related PR"
