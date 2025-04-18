@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-04-17T17:31:15.000Z",
+  "last_updated": "2025-04-18T13:26:02.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11910",
+      "time": "2025-04-18T13:26:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11910#issuecomment-2815448305",
+      "text": "@nihal467 Have moved to date based grouping from earlier encounter based grouping. \r\n\r\nWaiting on BE for these:\r\n1. Return created_date for Symptom & Diagnosis records\r\n2. Return latest first records or provide an option for custom sort by field for all 4 types\r\n\r\ncc @vigneshhari @bodhish "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11966",
+      "time": "2025-04-18T10:44:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11966#issuecomment-2815228692",
+      "text": "@karanziie1990 No worries"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11966",
@@ -2589,10 +2603,11 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11910",
       "title": "Add Medications, Symptom & Diagnosis from previous encounters",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "needs review",
-        "test failed"
+        "test failed",
+        "waiting for backend"
       ]
     }
   ],

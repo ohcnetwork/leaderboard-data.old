@@ -1,0 +1,14 @@
+{
+  "last_updated": "2025-04-18T16:33:23.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10470",
+      "time": "2025-04-18T16:33:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10470#issuecomment-2815811948",
+      "text": "Hi @dauntlessnomad @vigneshhari @mathew-alex, 👋,  \n\nI’d love to take on Diet Management in CARE #10470. I’ll focus on:  \n\n1. Clarify Requirements:  \n   - Collaborate to finalize specs via a shared Spec Doc (meal plan JSON structure, API payloads for patient sync).  \n   - Example: Align diet data fields (calories, allergens) with CARE’s existing patient records.  \n\n2. Frontend (care_fe):  \n   - Deliver Figma mockups (mobile/desktop).  \n   - Build React/TypeScript components (e.g., <CalorieTracker />, <MealPlanCard />).\n\n3. Backend (care):  \n   - Define Django APIs for diet logs (POST /api/diet/logs) following CARE’s REST patterns.  \n   - Implement using *Django REST Framework* (DRF) serializers for seamless patient record integration.  \n\n4. Ship Incremental PRs:  \n   - Submit PRs in <500-line chunks (e.g., UI skeleton → API integration → tests).  \n   - Tag mentors for review within 24 hours of each PR.  \n\nTimeline:  \n* Week 1: Finalize specs + UI mockups.  \n* Week 2-3: Core feature development.  \n* Week 4: Testing + polish. \nCould I please be assigned to #10470?\n\nI’d be happy to help unblock this however you need. Let me know! 😊"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}

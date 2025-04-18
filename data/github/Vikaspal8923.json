@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-04-17T16:47:53.000Z",
+  "last_updated": "2025-04-18T12:48:00.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11998",
+      "time": "2025-04-18T12:48:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11998#issuecomment-2815386171",
+      "text": "@rithviknishad  @Jacobjeevan  i wolud like to work on this issue\nETA : 2 day"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#11998",
+      "time": "2025-04-18T12:47:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11998",
+      "text": "BUG:Unexpected error occurs when clicking the Complete button under the Assign Location card"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11995",
+      "time": "2025-04-18T07:27:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11995",
+      "text": "BUG: Current Consent flow allowing creating  new consents today  with both start and finished dates in the past"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11995",
+      "time": "2025-04-18T07:15:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11995#issuecomment-2814749302",
+      "text": "@hrit2773  Hmm i think its fine. But I have a question regarding a scenario where I select all three dates in the past, and the consent date is before the expiration date. Would this case be considered valid? Doesn't the consent date need to be the present date at the time the form is submitted or the consent is created?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11995",
@@ -714,7 +742,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11913",
       "title": "fix overaping of tabbar over navbar by reducing the z-index of tababr",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Tested ✅"
       ]

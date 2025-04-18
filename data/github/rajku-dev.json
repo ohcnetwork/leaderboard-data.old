@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-04-17T15:50:40.000Z",
+  "last_updated": "2025-04-18T14:32:59.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#31",
+      "time": "2025-04-18T14:32:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/31#issuecomment-2815562254",
+      "text": "@harshsingh1805 Add demo video of what this PR solves."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#32",
+      "time": "2025-04-18T13:54:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/32#issuecomment-2815494129",
+      "text": "@rithviknishad Can you please check the demo video in PR description, if this is the right way then i'll go ahead with implementing same in camera configure form!"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_teleicu_devices_fe#32",
+      "time": "2025-04-18T13:51:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/32",
+      "text": "Add Support for updating presets from encounter view"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#17",
+      "time": "2025-04-18T09:52:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/17#issuecomment-2815106677",
+      "text": "yes i just figured that out few minutes ago"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#17",
+      "time": "2025-04-18T08:53:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/17#issuecomment-2814952098",
+      "text": "> no, just moving the camera to a new position and then allowing to update the preset with current position should be enough\n\nso we need similar functionality of show-page-card in the other two places, but why the camera feed not being rendered on Encounter overview for associated camera, HL7 monitor does show up.\n@rithviknishad \n\n![Image](https://github.com/user-attachments/assets/bbdea838-c1b3-42e3-bbc8-9fd95a0218c8)\n\n![Image](https://github.com/user-attachments/assets/3d6de6ac-f4f1-4e25-99a2-d86291c59060)\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#29",
+      "time": "2025-04-18T07:44:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/29#issuecomment-2814844628",
+      "text": "> Hey, @rajku-dev Could you please help me how to setup this project locally ?\r\n\r\nYou can follow the docs here - https://care-be-docs.ohc.network/pluggable-apps/configuration.html#development"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#17",
+      "time": "2025-04-18T07:11:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/17#issuecomment-2814738907",
+      "text": "I would like to work on this issue, can i get some reference into what needs to be done exactly, like adding new form field to set the ptz in camera configure form?\n@rithviknishad "
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_teleicu_devices_fe#29",
@@ -3304,6 +3353,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/32",
+      "title": "Add Support for updating presets from encounter view",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11823",
       "title": "Cypress Tests for User Schedule and Patient Appointments 🗓️",
       "stale_for": 3,
@@ -3312,7 +3367,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/608",
       "title": "Add support for `pullHistoricalGitHubActivites` to fetch discussions",
-      "stale_for": 90,
+      "stale_for": 91,
       "labels": []
     },
     {
@@ -3330,7 +3385,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/601",
       "title": "Add support for tracking commits pushed to branch (core)",
-      "stale_for": 57,
+      "stale_for": 58,
       "labels": []
     }
   ],

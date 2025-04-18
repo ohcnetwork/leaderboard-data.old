@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-04-17T15:47:35.000Z",
+  "last_updated": "2025-04-18T15:28:15.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11996",
+      "time": "2025-04-18T15:28:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11996#issuecomment-2815645225",
+      "text": "Hey @AdityaJ2305,\r\nI might be wrong, but I think defining maxValue function as a global function outside component might be a better idea, as we would still be able to avoid unnecessary function recreation, without having to cache the function.\r\n```\r\nconst maxValue = useMemo(() => {\r\n    switch (selected.unit) {\r\n      case \"days\":\r\n        return 31;\r\n      case \"weeks\":\r\n        return 12;\r\n      case \"months\":\r\n        return 36;\r\n      case \"years\":\r\n        return 60;\r\n      default:\r\n        return 31;\r\n    }\r\n  }, [selected.unit]);\r\n  ```\r\n  Please correct me if I am wrong.\r\n \r\n Regards\r\n Aman Sharma"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12001",
+      "time": "2025-04-18T14:37:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12001#issuecomment-2815568940",
+      "text": "@rithviknishad,\nif valid can I start work on it.\nETA: 1 day\nIf any delay is faced, I will make sure to communicate them.\n\nRegards,\nAman Sharma"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12001",
+      "time": "2025-04-18T14:32:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12001",
+      "text": "BUG: Message box in notes section on encounter overview page is stuck to the bottom"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11984",
@@ -233,7 +254,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11984",
       "title": "Change styling to wrap text in Symptoms table on encounter overview page",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Work in Progress 🚧"
       ]
@@ -241,7 +262,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11852",
       "title": "Add JS script to remove unused i18n keys and guidelines on i18n key usage",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     }
   ],
