@@ -3,7 +3,7 @@ name: Kumar Kartikay
 title: Contributor
 github: KKartikay-27
 twitter: ""
-linkedin: "https://www.linkedin.com/in/kkartikay/"
+linkedin: kkartikay
 slack: ""
 joining_date: ""
 role : contributor
