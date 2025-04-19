@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-15T16:21:27.000Z",
+  "last_updated": "2025-04-18T18:28:45.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11966",
+      "time": "2025-04-18T18:28:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11966#issuecomment-2815985661",
+      "text": "Hi could I please work on this?\nMy approach:\n- records with `entered-in-error` status must have some state that is causing it to be disabled. This state should be overridden/ignored when editing.\n\nAs for the bug @AdityaJ2305 mentioned, I'm not sure what the expected behaviour is.. \nOn submit, should the diagnosis table on Encounter page show the record with `entered-in-error` status? Because when I try to create a record with the `entered-in-status` or modify it, the encounter page either removes it from the diagnosis table."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11868",
@@ -328,7 +335,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11868",
       "title": "Device Info Page: expand option for notes and disable update/save button until valid input",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": [
         "question",
         "needs review",

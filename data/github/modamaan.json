@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-04-18T10:40:20.000Z",
+  "last_updated": "2025-04-18T20:10:23.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#22",
+      "time": "2025-04-18T20:10:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/22#issuecomment-2816121561",
+      "text": "@YourBroCode npm install @rollup/rollup-darwin-arm64"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#22",
+      "time": "2025-04-18T19:49:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/22#issuecomment-2816099407",
+      "text": "When you make updates locally, make sure to run npm run build to see the changes, \nYou should run npm run build after each change to see the updates"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#22",
+      "time": "2025-04-18T19:43:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/22#issuecomment-2816093023",
+      "text": "1. Fork the care_teleicu_devices_fe repo, then clone it to your local machine.\n2. Inside the cloned repo, run npm install.\n3. Then run npm run build.\n4. After that, run npm run preview.\n5. The project will be running on port 10120.\n6. Add the following to your care_fe repo’s environment variables:\n7. REACT_ENABLED_APPS=\"{your-username}/care_teleicu_devices_fe@localhost:10120\"\n8. Then run care_fe using:\n9. npm run dev\n\nif you face any ui issue add   important: true,  in tailwind.config.js on care_fe repo\nmake sure to run the two repo simultaneously"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_teleicu_devices_fe#23",
@@ -2612,7 +2633,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11953",
       "title": "FIXED: Confirmation Pop-up When Cancelling an Appointment",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "Changes Required"
       ]

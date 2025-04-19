@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-04-18T06:31:08.000Z",
+  "last_updated": "2025-04-18T20:15:22.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#22",
+      "time": "2025-04-18T20:15:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/22#issuecomment-2816126952",
+      "text": "@modamaan stucked with new error.\n```\nShyams-MacBook-Pro:care_teleicu_devices_fe shyamkumar$ npm run build preview\n\n> care-teleicu-devices@0.0.1 build\n> vite build preview\n\nvite v6.3.2 building for production...\n✓ 0 modules transformed.\n✗ Build failed in 5ms\nerror during build:\nCould not resolve entry module \"preview/index.html\".\n    at getRollupError (file:///Users/shyamkumar/Desktop/care_teleicu_devices_fe/node_modules/rollup/dist/es/shared/parseAst.js:397:41)\n    at error (file:///Users/shyamkumar/Desktop/care_teleicu_devices_fe/node_modules/rollup/dist/es/shared/parseAst.js:393:42)\n    at ModuleLoader.loadEntryModule (file:///Users/shyamkumar/Desktop/care_teleicu_devices_fe/node_modules/rollup/dist/es/shared/node-entry.js:21349:20)\n    at async Promise.all (index 0)\n```"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#22",
+      "time": "2025-04-18T20:07:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/22#issuecomment-2816118708",
+      "text": "hey @modamaan getting this error while running `npm run build` .\n```csharp\nShyams-MacBook-Pro:care_teleicu_devices_fe shyamkumar$ npm run build\n> care-teleicu-devices@0.0.1 build\n> vite build\n/Users/shyamkumar/Desktop/care_teleicu_devices_fe/node_modules/rollup/dist/native.js:64\n                throw new Error(\n                      ^\nError: Cannot find module @rollup/rollup-darwin-arm64. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.\n   at requireWithFriendlyError .requireWithFriendlyError (/Users/shyamkumar/Desktop/care_teleicu_devices_fe/node_modules/rollup/dist/native.js:64:9 undefined)\n   at Object.<anonymous> (/Users/shyamkumar/Desktop/care_teleicu_devices_fe/node_modules/rollup/dist/native.js:73:76 undefined)\n    ... 3 lines matching cause stack trace ...\n   at Module._load (node:internal/modules/cjs/loader:1104:12 undefined)\n   at cjsLoader .cjsLoader (node:internal/modules/esm/translators:346:17 undefined)\n   at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:286:7 undefined)\n   at ModuleJob.run (node:internal/modules/esm/module_job:234:25 undefined)\n   at async ModuleLoader.import (node:internal/modules/esm/loader:473:24 undefined) {\n  [cause]: Error: Cannot find module '@rollup/rollup-darwin-arm64'\n  Require stack:\n  - /Users/shyamkumar/Desktop/care_teleicu_devices_fe/node_modules/rollup/dist/native.js\n   at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15 undefined)\n   at Module._load (node:internal/modules/cjs/loader:1051:27 undefined)\n   at Module.require (node:internal/modules/cjs/loader:1311:19 undefined)\n   at require .require (node:internal/modules/helpers:179:18 undefined)\n   at requireWithFriendlyError .requireWithFriendlyError (/Users/shyamkumar/Desktop/care_teleicu_devices_fe/node_modules/rollup/dist/native.js:46:10 undefined)\n   at Object.<anonymous> (/Users/shyamkumar/Desktop/care_teleicu_devices_fe/node_modules/rollup/dist/native.js:73:76 undefined)\n   at Module._compile (node:internal/modules/cjs/loader:1469:14 undefined)\n   at Module._extensions..js (node:internal/modules/cjs/loader:1548:10 undefined)\n   at Module.load (node:internal/modules/cjs/loader:1288:32 undefined)\n   at Module._load (node:internal/modules/cjs/loader:1104:12 undefined) {\n    code: 'MODULE_NOT_FOUND',\n    requireStack: [\n      '/Users/shyamkumar/Desktop/care_teleicu_devices_fe/node_modules/rollup/dist/native.js'\n    ]\n  }\n}\nNode.js v20.18.1\n\n```\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#22",
+      "time": "2025-04-18T19:54:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/22#issuecomment-2816104572",
+      "text": "@modamaan Thank you so much 🥹\nIt was really much needed help 🙏🏼."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_teleicu_devices_fe#29",
