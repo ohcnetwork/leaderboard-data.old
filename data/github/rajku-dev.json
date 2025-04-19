@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-04-18T14:32:59.000Z",
+  "last_updated": "2025-04-19T14:42:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#32",
+      "time": "2025-04-19T14:42:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/32#issuecomment-2816734458",
+      "text": "@rithviknishad Can you please review,\r\nThe Camera feed on configure page is only rendered once we pass deviceId though care_fe\r\nI tried to think every other possible way, but only this worked, to render it on configure page we need cameraId other than meta data, which is common for multiple cameras.\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#32",
+      "time": "2025-04-19T14:38:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/32#issuecomment-2816732445",
+      "text": "> Fixes #17\r\n> \r\n>  presets.mp4\r\n\r\n\r\nThough Camera Configure Form\r\n![image](https://github.com/user-attachments/assets/2d397cbd-7d7d-4f9b-9be8-090a7812021f)\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_teleicu_devices_fe#31",
@@ -3367,7 +3381,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/608",
       "title": "Add support for `pullHistoricalGitHubActivites` to fetch discussions",
-      "stale_for": 91,
+      "stale_for": 92,
       "labels": []
     },
     {
@@ -3385,7 +3399,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/601",
       "title": "Add support for tracking commits pushed to branch (core)",
-      "stale_for": 58,
+      "stale_for": 59,
       "labels": []
     }
   ],
