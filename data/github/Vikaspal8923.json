@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-18T12:48:00.000Z",
+  "last_updated": "2025-04-19T20:52:16.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11998",
+      "time": "2025-04-19T20:52:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11998#issuecomment-2816862481",
+      "text": "@RitoG09  Although you have to wait  for the issue to be assign  by memeber's . but its ok if you are new to CARE.\n                   And I see you pr  I think we don't need so many changes for this, as the backend already checks the validation of dates\n                  and  also sends a response related to that . The actual issue here is that we’re seeing a generic error instead of displaying \n                  the error message in toast .\n\nThis can be resolved simply by adding { silent: true } to the mutate function — that way, the error handling logic will properly show the toast with the backend’s message.\n\n  I have already resolved the issue locally Just waiting to be assigned.\n\n @Jacobjeevan @rithviknishad "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11998",
