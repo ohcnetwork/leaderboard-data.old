@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-19T14:42:05.000Z",
+  "last_updated": "2025-04-20T08:11:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#18",
+      "time": "2025-04-20T08:11:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/18#issuecomment-2817055433",
+      "text": "I would like to work on this feature.\nThis would require adding `is_default` field in `PositionPreset` and updating spec in backend plugin.\nWe can add new form field in Modify Preset Popover form to set the preset as default.\nThis would send two PUT requests to `position_presets` endpoint, one for unsetting previous default and one for updating new default, or alternatively create new API for this.\n@rithviknishad If this approach looks good, then assign this to me\nETA : 2 Days.\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_teleicu_devices_fe#32",
@@ -3375,7 +3382,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11823",
       "title": "Cypress Tests for User Schedule and Patient Appointments 🗓️",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     },
     {
@@ -3387,13 +3394,13 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/604",
       "title": "Enable Calendar to Display Data from the Past Three Years",
-      "stale_for": 84,
+      "stale_for": 85,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard/pull/602",
       "title": "Add support for tracking commits pushed to branch (Forked)",
-      "stale_for": 84,
+      "stale_for": 85,
       "labels": []
     },
     {
