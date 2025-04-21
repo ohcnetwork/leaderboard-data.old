@@ -1,0 +1,28 @@
+{
+  "last_updated": "2025-04-21T14:12:59.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11695",
+      "time": "2025-04-21T14:12:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11695#issuecomment-2818494447",
+      "text": "Hi @Jacobjeevan , Below is my proposed solution. Could you please review and assign this issue to me. \n\n**Describe your solution clearly:**\nI propose to enhance the user experience after creating a new location by automatically opening the \"Manage Organizations\" sidebar. Currently, users must manually click the \"Manage Organizations\" button after location creation.\n\n**Technical Approach:**\n\nIn the existing LocationForm.tsx component, the creation logic uses React Query's useMutation hook for API interactions.\n\nI'll leverage the existing onSuccess callback of the location creation mutation to trigger the sidebar state change immediately after the API responds successfully.\n\nI'll reuse the existing sidebar toggle state/function (already present in the parent component or context) to automatically display the sidebar, eliminating an additional click.\n\n**Implementation Steps:**\n\nIdentify the existing state handler responsible for the \"Manage Organizations\" sidebar visibility.\n\nModify the onSuccess method within the mutation in LocationForm.tsx to trigger this sidebar immediately upon location creation.\n\nEnsure the sidebar opens only upon creation (not when editing an existing location).\n\n**Dependencies & Risks:**\n\n**Assumption:** The sidebar visibility is controlled via local component state or context.\n\n**Risk:** Minimal risk; isolated UI enhancement, no backend changes required.\n\n**Expected Timeline:**\nEnd date: April 22nd, 2025\n\n**Additional Context:**\nNo major changes to the existing UI logic or API structure are required.\n\nMinimal testing effort required—only UI/UX validation necessary."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12019",
+      "time": "2025-04-21T12:47:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12019#issuecomment-2818344651",
+      "text": "Hi @abhimanyurajeesh,\nI want to work on this issue. can you assign this issue to me.\nETA: 1day\n\nThank you"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12017",
+      "time": "2025-04-21T10:46:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12017#issuecomment-2818157330",
+      "text": "Hii @Jeffrin2005 , can i work on this issue?\n"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}

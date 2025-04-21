@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-10T07:00:10.000Z",
+  "last_updated": "2025-04-21T16:33:37.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11966",
+      "time": "2025-04-21T16:33:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11966#issuecomment-2818971683",
+      "text": "@AdityaJ2305 I have tried to solve this issue but I am not exactly getting where is the issue. The way in which *DiagnosisQuestion* component is written differs a bit from how *SymtomQuestion* and *AllergyQuestion* components are written. These all components share common logic for while the form is submitted in *QuestionnaireForm.tsx* but the problem is only occuring in the case of Diagnosis Form. I have checked for the logic part but I didn't find any bug there like all things are proper. I tried to remove the `exclude_verification_status` key but I guess it is responsible only to decide whether to show the `entered_in_error` rows to the user. Also other status are getting reflected only the problem occurs with *remove_diagnosis*, the status is getting to `confirmed` as if it is some default value. \n\nI am not getting how to proceed from here. Can you help me out about exactly where I am going wrong."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#11838",

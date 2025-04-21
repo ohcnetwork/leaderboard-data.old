@@ -1,6 +1,76 @@
 {
-  "last_updated": "2025-04-21T08:24:05.000Z",
+  "last_updated": "2025-04-21T12:53:36.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-21T12:53:36.000Z",
+      "title": "ohcnetwork/care_fe#11927",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11927#pullrequestreview-2781185197",
+      "text": "Added edit button to system valuesets without saving"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11911",
+      "time": "2025-04-21T12:50:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11911",
+      "text": "BUG:Tab Bar Overlaps Navbar When Scrolled Horizontally on small screens"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-21T12:50:10.000Z",
+      "title": "ohcnetwork/care_fe#11913",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11913#pullrequestreview-2781181184",
+      "text": "fix overaping of tabbar over navbar by reducing the z-index of tababr"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11709",
+      "time": "2025-04-21T12:48:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11709",
+      "text": "Update Location Dialog Not Fully Responsive on Mobile Devices"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-07T13:04:49.000Z",
+      "title": "ohcnetwork/care_fe#11759",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11759#pullrequestreview-2746748844",
+      "text": "Fix: Make Update Location Dialog Fully Responsive on Mobile Devices"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-15T07:34:17.000Z",
+      "title": "ohcnetwork/care_fe#11919",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11919#pullrequestreview-2767162303",
+      "text": "Redesigned DeviceList Page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12022",
+      "time": "2025-04-21T12:33:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12022#issuecomment-2818325646",
+      "text": "Bodhi said to merge. cc: @nihal467 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-21T12:33:14.000Z",
+      "title": "ohcnetwork/care_fe#12022",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12022#pullrequestreview-2781159325",
+      "text": "Lets rebuild facility nav"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-10T05:17:23.000Z",
+      "title": "ohcnetwork/care_fe#11729",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11729#pullrequestreview-2755345954",
+      "text": "fix: Allow users to order locations"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-21T12:00:33.000Z",
+      "title": "ohcnetwork/care_fe#11856",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11856#pullrequestreview-2781117616",
+      "text": "Fix: Verify Patient Encounter Card Link"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-04-21T08:18:26.000Z",
@@ -104,13 +174,6 @@
       "time": "2025-04-15T07:35:06.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11919#issuecomment-2804109604",
       "text": "@AdityaJ2305 kept it as draft as I see a todo... keep things draft until things are completed."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-15T07:34:17.000Z",
-      "title": "ohcnetwork/care_fe#11919",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11919#pullrequestreview-2767162303",
-      "text": "Redesigned DeviceList Page"
     },
     {
       "type": "comment_created",
@@ -795,13 +858,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2025-04-10T05:17:23.000Z",
-      "title": "ohcnetwork/care_fe#11729",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11729#pullrequestreview-2755345954",
-      "text": "fix: Allow users to order locations"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2025-04-07T08:09:56.000Z",
       "title": "ohcnetwork/care_fe#11767",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11767#pullrequestreview-2745892465",
@@ -1445,13 +1501,6 @@
       "title": "ohcnetwork/care_fe#11728",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11728#pullrequestreview-2746775924",
       "text": "fix: Remove nullable which causes passing null values in 'assigned facility' field during Resource Request Update"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-07T13:04:49.000Z",
-      "title": "ohcnetwork/care_fe#11759",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11759#pullrequestreview-2746748844",
-      "text": "Fix: Make Update Location Dialog Fully Responsive on Mobile Devices"
     },
     {
       "type": "comment_created",
@@ -68213,7 +68262,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11842",
       "title": "Adds support for auto-updates",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": [
         "Merge Conflict"
       ]
@@ -68221,13 +68270,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/2",
       "title": "added translations",
-      "stale_for": 26,
+      "stale_for": 27,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/1",
       "title": "Migrate Camera Device's Position Presets from Care to Plug",
-      "stale_for": 24,
+      "stale_for": 25,
       "labels": []
     }
   ],

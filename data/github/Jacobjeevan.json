@@ -1,6 +1,83 @@
 {
-  "last_updated": "2025-04-21T08:17:42.000Z",
+  "last_updated": "2025-04-21T14:51:16.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-21T14:50:30.000Z",
+      "title": "ohcnetwork/care_fe#11795",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11795#pullrequestreview-2781440934",
+      "text": "Fix : Validation Error Messages Persist After Fixing Input Values"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12017",
+      "time": "2025-04-21T13:46:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12017#issuecomment-2818442732",
+      "text": "@Jeffrin2005 Not able to replicate this 🤔  I'm seeing the correct behavior - whichever one I select is being deleted."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12016",
+      "time": "2025-04-21T13:42:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12016#issuecomment-2818435147",
+      "text": "Addressed in #11978"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12016",
+      "time": "2025-04-21T13:42:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12016",
+      "text": "Alignment Issue: Refresh Button and Input Field Not Aligned"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12024",
+      "time": "2025-04-21T13:38:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12024#issuecomment-2818429091",
+      "text": "https://github.com/ohcnetwork/care_fe/pull/11704"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12024",
+      "time": "2025-04-21T13:36:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12024#issuecomment-2818426035",
+      "text": "There's already a PR resolving the issue 👍 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12024",
+      "time": "2025-04-21T13:36:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12024",
+      "text": "Zooming applies on dialog instead of the file"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-14T06:40:04.000Z",
+      "title": "ohcnetwork/care_fe#11883",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11883#pullrequestreview-2763278388",
+      "text": "On delete navigation fixed in facility page of organizations."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-14T06:25:37.000Z",
+      "title": "ohcnetwork/care_fe#11093",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11093#pullrequestreview-2684409740",
+      "text": "Fix/profile photo upload issues"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10739",
+      "time": "2025-04-21T11:22:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10739#issuecomment-2818215568",
+      "text": "@Jeffrin2005 Assigned"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11704",
+      "time": "2025-04-21T11:16:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11704#issuecomment-2818205936",
+      "text": "> @Jacobjeevan Can u check the responsiveness now , i have made the neccessary changes\r\n\r\nPrevious page/next page buttons are not visible on desktop. While the zoom works better now, we would want to add drag functionality if we are doing this (but that can be taken up in another PR).\r\n\r\n<img width=\"556\" alt=\"image\" src=\"https://github.com/user-attachments/assets/cd50b5de-2f9c-44a7-bbe8-e2b9128a55d9\" />\r\n"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-04-21T08:17:42.000Z",
@@ -415,13 +492,6 @@
       "time": "2025-04-14T07:56:26.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11704#issuecomment-2800786462",
       "text": "> Seems fine so far, but please check responsiveness of file preview on smaller devices, also check responsiveness when zoom functions are used and adjust the file preview accordingly for all devices (and complete the checklist items for QA).\r\n\r\n@Harsh-D-2004 In case you missed this. Still seeing the issue."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-14T06:40:04.000Z",
-      "title": "ohcnetwork/care_fe#11883",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11883#pullrequestreview-2763278388",
-      "text": "On delete navigation fixed in facility page of organizations."
     },
     {
       "type": "pr_reviewed",
@@ -2217,13 +2287,6 @@
       "time": "2025-03-14T06:29:14.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11235#issuecomment-2723767250",
       "text": "> @khavinshankar @nihal467 I have fixed the truncation problem. But the tooltip only appears for those questionnaires with title length more than 20, with the current code. Should I change that too?\r\n\r\nYea, let's change that."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-14T06:25:37.000Z",
-      "title": "ohcnetwork/care_fe#11093",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11093#pullrequestreview-2684409740",
-      "text": "Fix/profile photo upload issues"
     },
     {
       "type": "pr_reviewed",
@@ -11817,16 +11880,17 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11983",
       "title": "Location and Device Perms",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": [
         "Work in Progress 🚧",
-        "waiting for related PR"
+        "waiting for related PR",
+        "Merge Conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11856",
       "title": "Fix: Verify Patient Encounter Card Link",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
         "needs review",
         "Tested ✅"
