@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-04-19T01:34:56.000Z",
+  "last_updated": "2025-04-21T00:49:04.000Z",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12010",
+      "time": "2025-04-21T00:49:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12010",
+      "text": "Device/Location Perms"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10142",
+      "time": "2025-04-21T00:43:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10142",
+      "text": "Edit Support for other users profile details"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12009",
+      "time": "2025-04-21T00:41:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12009#issuecomment-2817422403",
+      "text": "Right now, we are limiting access to super users only (in this case, you have navigated to the questionnaire editor url directly, as the link would not be visible on dashboard when logging in).\n\nIn the future, we would want to extend the access, so I'm not too keen on editing the routers right now."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12006",
+      "time": "2025-04-21T00:29:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12006",
+      "text": "Remove Diagnosis not working as expected in all the cases"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11998",
+      "time": "2025-04-21T00:24:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11998#issuecomment-2817410470",
+      "text": "Since @RitoG09 has already opened a PR, I'll assign it to them (exception since you are a new contributor, but for the future, please make sure to get the issue assigned first 👍 ).\n\nAdding the FE validation is nice, but you also need to handle the original error as Vikas mentioned.\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11989",
+      "time": "2025-04-21T00:18:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11989#issuecomment-2817406897",
+      "text": "> hey [@aravindm4](https://github.com/aravindm4) [@rithviknishad](https://github.com/rithviknishad) I’d like to take this issue up—could you assign it to me? ETA : tomorrow Approach : -\n> \n>     * Update the Textarea component to support a 1000-word limit\n> \n>     * Prevent users from typing beyond 1000 words\n> \n>     * Display a warning message when the word limit is reached instead of blocking input abruptly\n\nYou can display word count (something like: 100/1000) on top right/top left and highlight in red when count exceeds 1000, along with the warning message."
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-04-17T05:45:40.000Z",
@@ -11740,7 +11782,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11983",
       "title": "Location and Device Perms",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "Work in Progress 🚧",
         "waiting for related PR"

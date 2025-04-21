@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-04-18T20:14:30.000Z",
+  "last_updated": "2025-04-21T00:09:26.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12003",
+      "time": "2025-04-21T00:09:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12003#issuecomment-2817401259",
+      "text": "@Jacobjeevan @rithviknishad this would be my approach can you assign me this issue \n\nsolution:      \nupdating the handleMarkAsComplete function in EncounterActions.tsx to ensure that when an encounter is marked as completed, the period.end field is set to the current date and time (if it is not already set). This guarantees that the end date will be accurately reflected for completed encounters, resolving the issue where it previously displayed as \"ongoing.\n\n- When marking an encounter as completed, the end date is now set to the current timestamp if it was not already present.\n \nEND DATE : TODAY\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11943",
+      "time": "2025-04-20T23:50:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11943#issuecomment-2817393777",
+      "text": "@bodhish @vinutv  @rithviknishad  i am working on the redesigned part and i have uploaded a file but it is showing failed to load  pdf file can i get any reference or information why is this happening and how to fix this ?\n\n- should i have to keep the next file button  inside the dialog or can i remove them ?\n- any suggestions regarding the design that i should focus on ?\n\n![Image](https://github.com/user-attachments/assets/a57bb8b1-f2e0-437a-8e77-290a868f41f5)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12001",
