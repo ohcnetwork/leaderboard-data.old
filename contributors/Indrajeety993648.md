@@ -6,7 +6,7 @@ twitter: ""
 linkedin: indrajeet-yadav-5619b8283
 slack: ""
 joining_date: "4 Aug 2024"
-role : contributor
+role: contributor
 ---
 
 Still waiting for this
