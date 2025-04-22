@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-04-21T08:22:51.000Z",
+  "last_updated": "2025-04-21T22:33:20.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12029",
+      "time": "2025-04-21T22:33:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12029#issuecomment-2819629545",
+      "text": "@Jeffrin2005 can you assign me this issue this would be my approach \n\nsolution :  keeping the Priority dropdown state local to the Encounters tab component and reset it automatically when the user leaves the tab. Use a useEffect in the parent tab component to detect when activeTab changes away from Encounters and call setPriority(  ). This keeps state management simple, avoids stale UI, and ensures clear separation of concerns between tabs.\n\nEND DATE : TODAY"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11994",
+      "time": "2025-04-21T22:22:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11994#issuecomment-2819615503",
+      "text": "@Jacobjeevan can you please explain me how to fix the cypress tests failure"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11799",
@@ -191,8 +205,10 @@
       "title": "Encounter Notes - User Icon and Time Not Visible on Mobile View #11693 #11952",
       "stale_for": 0,
       "labels": [
+        "question",
         "needs testing",
-        "needs review"
+        "needs review",
+        "needs-triage"
       ]
     },
     {

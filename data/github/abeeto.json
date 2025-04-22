@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-21T11:26:51.000Z",
+  "last_updated": "2025-04-21T17:22:43.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11966",
+      "time": "2025-04-21T17:22:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11966#issuecomment-2819065966",
+      "text": "> [@AdityaJ2305](https://github.com/AdityaJ2305) I have tried to solve this issue but I am not exactly getting where is the issue. The way in which _DiagnosisQuestion_ component is written differs a bit from how _SymtomQuestion_ and _AllergyQuestion_ components are written. These all components share common logic for while the form is submitted in _QuestionnaireForm.tsx_ but the problem is only occuring in the case of Diagnosis Form. I have checked for the logic part but I didn't find any bug there like all things are proper. I tried to remove the `exclude_verification_status` key but I guess it is responsible only to decide whether to show the `entered_in_error` rows to the user. Also other status are getting reflected only the problem occurs with _remove_diagnosis_, the status is getting to `confirmed` as if it is some default value.\n> \n> I am not getting how to proceed from here. Can you help me out about exactly where I am going wrong.\n\nI managed to get it fixed in my draft PR,  setting `dirty` prop to `true` in the `handleRemoveDiagnosis` fn did the trick."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12021",
@@ -348,12 +355,9 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11868",
       "title": "Device Info Page: expand option for notes and disable update/save button until valid input",
-      "stale_for": 6,
+      "stale_for": 0,
       "labels": [
-        "question",
-        "needs review",
-        "test failed",
-        "needs-triage"
+        "Changes Required"
       ]
     }
   ],
