@@ -6,7 +6,7 @@ twitter: ""
 linkedin: ""
 slack: U08226KPBF1
 joining_date: ""
-role : intern
+role: intern
 ---
 
 Still waiting for this

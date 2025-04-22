@@ -6,7 +6,7 @@ twitter: ""
 linkedin: "jeevanjacobjohn"
 slack: "U07NXCASM89"
 joining_date: "23/10/2024"
-role : core
+role: core
 ---
 
 Hey there 👋 I'm a software engineer by trade, but chef and consumer of fiction (from books to games) and non-fiction if you go by my hobbies. 

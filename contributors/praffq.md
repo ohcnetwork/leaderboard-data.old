@@ -6,7 +6,7 @@ twitter: ""
 linkedin: ""
 slack: U06L50QL1AQ
 joining_date: "15/09/2024"
-role : core
+role: core
 ---
 
 ## Hello!

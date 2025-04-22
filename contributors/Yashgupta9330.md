@@ -6,7 +6,7 @@ twitter: ""
 linkedin: yash-gupta-64956b246
 slack: ""
 joining_date: ""
-role : contributor
+role: contributor
 ---
 
 Still waiting for this

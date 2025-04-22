@@ -6,7 +6,7 @@ twitter: ""
 linkedin: vikas-pal-44966528a
 slack: U08FVLGMBKP
 joining_date: ""
-role : contributor
+role: contributor
 ---
 
 Still waiting for this

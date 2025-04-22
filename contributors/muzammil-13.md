@@ -6,7 +6,7 @@ twitter: "_muzammil13"
 linkedin: "muzammil-ibrahim-pm"
 slack: "U0859KYJSB0"
 joining_date: "17/12/2024"
-role : contributor
+role: contributor
 ---
 
 **A Bio about Muzammil Ibrahim**  
