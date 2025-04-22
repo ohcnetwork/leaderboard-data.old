@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-21T14:32:01.000Z",
+  "last_updated": "2025-04-22T09:26:15.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12027",
+      "time": "2025-04-22T09:26:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12027#issuecomment-2820721717",
+      "text": "@rithviknishad @Jacobjeevan  Hii\nI tinkered with this issue yesterday and found why this happening, it was because of the QuissionaireResponseList component rendering elements when routed from the encounters page. I have also solved this issue using useEffect and scrolling to the top when loading with window.scrollTo function. But i was searching for a better solution as same problems may arise if Encounter Overview component is used somewhere else in the future. \n\nhttps://github.com/user-attachments/assets/e8da9b2e-b8ad-4394-b027-bf5a2a30c9cc\n\nAs i have requested the issue from Spandan-Mishra first and worked on it, It would be nice to contribute to this.\n@gaurav0140 I value your feedback and admire your correct fix."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12027",

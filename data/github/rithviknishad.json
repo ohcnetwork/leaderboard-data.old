@@ -1,6 +1,100 @@
 {
-  "last_updated": "2025-04-22T08:18:14.000Z",
+  "last_updated": "2025-04-22T13:30:31.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_teleicu_devices_fe#34",
+      "time": "2025-04-22T13:30:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/34",
+      "text": "safely handle devices when no gateway is linked",
+      "turnaround_time": 33
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_teleicu_devices_fe#34",
+      "time": "2025-04-22T13:29:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/34",
+      "text": "safely handle devices when no gateway is linked"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11961",
+      "time": "2025-04-22T11:43:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11961",
+      "text": "add label to issue created by core team"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-22T11:42:10.000Z",
+      "title": "ohcnetwork/care_fe#11962",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11962#pullrequestreview-2783815617",
+      "text": "Move issues to teams based on assignee(s)"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#3003",
+      "time": "2025-04-22T11:03:17.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3003",
+      "text": "Fixes `parent` obj. not being saved when setting `has_children` for `FaciityLocation`",
+      "turnaround_time": 9903
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#30",
+      "time": "2025-04-22T10:07:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/30#issuecomment-2820831405",
+      "text": "This is not zoom button. This is precision toggle button."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_teleicu_devices_fe#30",
+      "time": "2025-04-22T10:07:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/30",
+      "text": "The zoom button (2x, 4x, 8x, etc.) are not working properly."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#18",
+      "time": "2025-04-22T10:04:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/18#issuecomment-2820824170",
+      "text": "I'd say, let's create a new API called \"set_as_default\" in the position presets viewset. \n\nThink of backend like a standalone API. Anyone can hit the API. This may not necessarily be from Care FE itself. So backend should always ensure data is consistent."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_teleicu_devices_fe#17",
+      "time": "2025-04-22T09:58:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/17",
+      "text": "Support for updating the preset's ptz position"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_teleicu_devices_fe#33",
+      "time": "2025-04-22T09:58:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/33",
+      "text": "Adds support for updating preset's PTZ position in configure and encounter view",
+      "turnaround_time": 2722
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_teleicu_devices_fe#33",
+      "time": "2025-04-22T09:13:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/33",
+      "text": "Adds support for updating preset's PTZ position in configure and encounter view"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#32",
+      "time": "2025-04-22T09:09:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/32#issuecomment-2820675056",
+      "text": "I'm taking over this as this is a priority to be shipped now."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#32",
+      "time": "2025-04-22T09:09:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/32#issuecomment-2820674323",
+      "text": "@rajku-dev this is quite different from what was expected.\r\n\r\nIn encounter view, preset is being created instead of updating. Also, we shouldn't be showing ptz values inside the encounter view. This is not meaningful to the users using this page. Camera Configure page is mostly used by technicians or maybe some clinicians. But encounter overview page is mostly used by clinicians only, and rarely by technicians."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#3003",
@@ -68274,18 +68368,6 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/33",
-      "title": "Adds support for updating preset's PTZ position in configure and encounter view",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/3003",
-      "title": "Fixes `parent` obj. not being saved when setting `has_children` for `FaciityLocation`",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12036",
       "title": "Enhance API call functionality by adding support for default query parameters in callApi function",
       "stale_for": 0,
@@ -68294,7 +68376,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11842",
       "title": "Adds support for auto-updates",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": [
         "Merge Conflict"
       ]
@@ -68308,11 +68390,15 @@
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/1",
       "title": "Migrate Camera Device's Position Presets from Care to Plug",
-      "stale_for": 25,
+      "stale_for": 26,
       "labels": []
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/17",
+      "pr_link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/33"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11675",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11676"
@@ -68352,10 +68438,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9877",
       "pr_link": "https://github.com/ohcnetwork/care/pull/2725"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9810",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9799"
     }
   ]
 }

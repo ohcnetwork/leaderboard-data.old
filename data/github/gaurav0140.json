@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-22T04:42:11.000Z",
+  "last_updated": "2025-04-22T09:47:16.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12027",
+      "time": "2025-04-22T09:47:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12027#issuecomment-2820780326",
+      "text": "Thanks for diving into the issue and sharing your insights, @dexterhere04! 🙌\n\nReally appreciate your investigation and the temporary fix using window.scrollTo in useEffect. I agree — finding a more scalable and component-agnostic solution would be ideal, especially if the EncounterOverview or similar components are reused elsewhere.\n\nI’d be happy to collaborate on refining the solution further, possibly by exploring scroll restoration strategies or layout-level resets that don’t tightly couple the fix to a specific component.\n\nLet’s sync up if needed — happy to contribute alongside! "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12027",

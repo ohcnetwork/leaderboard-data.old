@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-04-17T09:29:06.000Z",
+  "last_updated": "2025-04-22T10:03:10.000Z",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12040",
+      "time": "2025-04-22T10:03:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12040",
+      "text": "State Dropdown Showing Only Kerala"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12039",
+      "time": "2025-04-22T09:46:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12039#issuecomment-2820776996",
+      "text": "I have resolved This changes what i did added min-w and w-full for valid form which were missing \ncode snippet \n          <div className=\"grid md:grid-cols-2 gap-4 w-full \">\n            <FormField\n              control={form.control}\n              name=\"valid_from\"\n              render={({ field }) => (\n                <FormItem className=\"flex flex-col w-full min-w-[210px]\">\n                  <FormLabel aria-required>{t(\"valid_from\")}</FormLabel>\n                  <DatePicker\n                    date={field.value}\n                    onChange={(date) => field.onChange(date)}\n                  />\n                  <FormMessage />\n                </FormItem>\n              )}\n            /> \n\n![Image](https://github.com/user-attachments/assets/7332e28f-9c0d-4c49-b57b-7de0a4b9a5d8)\n\nscreenshot"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12039",
+      "time": "2025-04-22T09:42:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12039",
+      "text": "DatePicker input cuts off long month names (e.g., September)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/leaderboard-data#100",
@@ -158,7 +179,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/100",
       "title": "Update Harishgouda06022004.md",
-      "stale_for": 1,
+      "stale_for": 4,
       "labels": []
     }
   ],

@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-04-21T15:01:45.000Z",
+  "last_updated": "2025-04-22T13:42:04.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12043",
+      "time": "2025-04-22T13:42:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12043#issuecomment-2821377658",
+      "text": "> > The EntitySelectionSheet should be reused not only for the creation flow but also for the edit flow. When editing, it should display a summary of the selected entity’s details, with a layout optimized for mobile devices.\n> \n> [@abhimanyurajeesh](https://github.com/abhimanyurajeesh), Do we really require it for edit 🤔\n> \n> I think collapsible already provides support with edits, which is already good experience for edits (POV).\n\nDiscussed over huddle 🎧."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-22T11:43:45.000Z",
+      "title": "ohcnetwork/care_fe#11993",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11993#pullrequestreview-2783534794",
+      "text": "feat: Add EntitySelectionSheet in MedicationRequestQuestion"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12043",
+      "time": "2025-04-22T12:31:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12043",
+      "text": "Reuse EntitySelectionSheet for Edit Flow with Summary View on Mobile"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12038",
+      "time": "2025-04-22T11:04:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12038#issuecomment-2820967818",
+      "text": "@Vikaspal8923 open on actual device."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12038",
+      "time": "2025-04-22T09:04:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12038",
+      "text": "Sidebar Appears Broken on Mobile View"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12030",
@@ -2381,7 +2416,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12030",
       "title": "fix: The Active Tab Not Updating When Navigating to Sub-Location",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review"
@@ -2404,6 +2439,7 @@
         "question",
         "needs review",
         "Tested ✅",
+        "Merge Conflict",
         "needs-triage"
       ]
     }
