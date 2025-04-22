@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-10T06:04:33.000Z",
+  "last_updated": "2025-04-22T04:42:11.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12027",
+      "time": "2025-04-22T04:42:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12027#issuecomment-2820054056",
+      "text": "Hi @Spandan-Mishra, @rithviknishad and @Jacobjeevan👋\n\nI'd like to take this up.\n\nApproach: I’ll ensure that when a new encounter detail view is opened, the scroll position resets to the top—either by calling window.scrollTo({ top: 0 }) in a useEffect on mount or by resetting the scroll on the container if it's a modal or drawer. This will align the behavior with expected UX standards.\n\nPlease assign this issue to me so I can begin working on it.\nEOD:1 day\n\nThanks!"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11836",
