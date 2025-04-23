@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-04-22T12:10:42.000Z",
+  "last_updated": "2025-04-22T17:32:13.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11922",
+      "time": "2025-04-22T17:32:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11922#issuecomment-2822017145",
+      "text": "Yes, let's wait until @nihal467 shares his thoughts on this."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11922",
+      "time": "2025-04-22T15:46:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11922#issuecomment-2821751007",
+      "text": "@hrit2773 Yeah, we need to verify whether the symptom or diagnosis exists. I was also writing tests for a questionnaire that includes these as well, but for simplicity, I'm creating a new encounter at the start and marking it as complete at the end of the test."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12028",
+      "time": "2025-04-22T15:24:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12028#issuecomment-2821692223",
+      "text": "@maishivamhoo123, could you please share the problem you are facing?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11714",
+      "time": "2025-04-22T15:21:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11714#issuecomment-2821682039",
+      "text": "@hrit2773 If you are not working on this, can I take this up?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12048",
+      "time": "2025-04-22T14:53:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12048#issuecomment-2821600218",
+      "text": "@nihal467 Please review this PR and let me know if any changes are required.\r\n\r\n- For now, I’ve temporarily added slots for the user `caresuperadmin` to select the appointment. This should be updated to the correct user once [this test](https://github.com/ohcnetwork/care_fe/issues/10351) is merged.\r\n\r\n- Also, each day should have only one slot per user. If multiple slots are available, the test will fail because the patient will attempt to book an appointment for the same slot.\r\n\r\nNeed to address the above things."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11922",
+      "time": "2025-04-22T14:46:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11922#issuecomment-2821579468",
+      "text": "@hrit2773 Have you checked if the symptom or diagnosis you're trying to add already exists in the encounter? It will throw an error in such cases. Please clarify if I missed anything.\r\n\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12048",
+      "time": "2025-04-22T14:34:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12048",
+      "text": "test: add tests for Community Nurse Homecare Form questionnaire"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10386",

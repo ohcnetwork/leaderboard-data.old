@@ -1,6 +1,28 @@
 {
-  "last_updated": "2025-04-22T05:09:43.000Z",
+  "last_updated": "2025-04-22T19:15:20.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12051",
+      "time": "2025-04-22T19:15:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12051#issuecomment-2822251511",
+      "text": "@AdityaRathi-10, @abeeto is already working on this. Please avoid raising a PR if the issue isn’t assigned to you and already has an open PR. Also, the changes are in the wrong file and not related to the actual issue, so this PR is invalid."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-22T19:09:56.000Z",
+      "title": "ohcnetwork/care_fe#12051",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12051#pullrequestreview-2785090777",
+      "text": "Fixed structured records uneditable when in entered-in-error status #11966"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11287",
+      "time": "2025-04-22T16:57:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11287",
+      "text": "Fix: Minor Questionnaire Edit bugs",
+      "turnaround_time": 3450267
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-04-21T12:05:28.000Z",
@@ -6917,12 +6939,14 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/12035",
       "title": "Enhancement: Allow multiple Additional Instructions in Medication Request",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "Merge Conflict"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12005",
       "title": "Cypress test to add department and team in a facility Management",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
@@ -6937,8 +6961,11 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11981",
       "title": "Update Questionnaire Response to conform with Backend",
-      "stale_for": 5,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11919",
@@ -6949,10 +6976,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11837",
       "title": "Enable infinite scrolling in UserSelector",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": [
-        "invalid",
-        "Changes Required"
+        "needs testing",
+        "needs review"
       ]
     },
     {
@@ -6967,12 +6994,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11644",
       "title": "Refactor SearchInput and Used it in CodeBase (affected pages in are in Description) & Improve ResourceList Filtering UI",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": [
-        "question",
-        "needs review",
         "Changes Required",
-        "needs-triage"
+        "Work in Progress 🚧"
       ]
     }
   ],

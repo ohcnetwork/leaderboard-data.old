@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-04-22T03:19:28.000Z",
+  "last_updated": "2025-04-22T15:57:33.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11922",
+      "time": "2025-04-22T15:57:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11922#issuecomment-2821782410",
+      "text": "otherwise we can do it anyways a new encounter gets created when you run all the tests. We can just mark the encounter as complete"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11922",
+      "time": "2025-04-22T15:55:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11922#issuecomment-2821776244",
+      "text": "@siva222003 Hmm.. we can do that there can be many ways it will be better if Nihal confirms it or otherwise lets consider adding it but what if someone adds a symptom while the test is going on. In that case also it would break"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11978",
+      "time": "2025-04-22T15:49:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11978#issuecomment-2821761951",
+      "text": "and also made the bottom border and spacing as well so that user can differentiate between options"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11978",
+      "time": "2025-04-22T15:48:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11978#issuecomment-2821757503",
+      "text": "@Jacobjeevan \r\n![Screenshot 2025-04-22 211343](https://github.com/user-attachments/assets/8e3b2286-94bb-416a-9d14-dd151f6b1310)\r\nMade it look cleaner for small screens"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11714",
+      "time": "2025-04-22T15:38:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11714#issuecomment-2821729670",
+      "text": "@siva222003 I am almost ready with the PR will raise it tmrw"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11922",
+      "time": "2025-04-22T15:37:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11922#issuecomment-2821726584",
+      "text": "@siva222003 yes that's why the last and first is the difference if you see my code for allergy the position in first but for symptoms and diagnosis its last. I guess you are talking about delete? Hmm... now we cant add duplicate symptoms or diagnosis right so maybe we can select a symptom or diagnosis which does not already exist. Thanks for catching that but again not sure should I actually update that because we are selecting out of the set of few. But ya I can change that"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11978",
@@ -4504,8 +4546,7 @@
       "title": "Added support for specifying Question Unit and added validations to coding editor and also added Move up/down buttons to custom choices",
       "stale_for": 0,
       "labels": [
-        "Changes Required",
-        "Merge Conflict"
+        "Changes Required"
       ]
     },
     {

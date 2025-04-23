@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-04-21T20:13:43.000Z",
+  "last_updated": "2025-04-22T19:48:51.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12037",
+      "time": "2025-04-22T19:48:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12037#issuecomment-2822325791",
+      "text": "@awaiskhan21 I would like to work on this issue. Can you tell exacly how to login as nurse and where to get the Camera option."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12051",
+      "time": "2025-04-22T19:12:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12051#issuecomment-2822246000",
+      "text": "@AdityaJ2305 can you tell exactly what did I do wrong and changes that ideally need to be done?"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12051",
+      "time": "2025-04-22T18:20:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12051",
+      "text": "Fixed structured records uneditable when in entered-in-error status #11966"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11966",
+      "time": "2025-04-22T17:59:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11966#issuecomment-2822078093",
+      "text": "@AdityaJ2305 \n\nhttps://github.com/user-attachments/assets/00700c7e-8db7-4a4f-8876-9dab55eda915\n\nThis is the behavior I tried to achieve in **diagnoses**. I made *View All* option for both the *Chronic Conditions* & *Diagnosis* so that it becomes consistent with **symptoms** and **allergies**. Does this solve the issue or I need to do something else as well?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11966",
@@ -30,6 +58,17 @@
       "text": "Hey @rithviknishad, I would like to take this issue. I had made the ui changes for the delete card but as this facility is available only for superusers, is there any attribute in the user model for their role so that I can render the card only for the superusers optionally."
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12051",
+      "title": "Fixed structured records uneditable when in entered-in-error status #11966",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "Merge Conflict",
+        "needs-triage"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }
