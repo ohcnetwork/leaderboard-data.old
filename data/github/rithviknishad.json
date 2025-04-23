@@ -1,6 +1,83 @@
 {
-  "last_updated": "2025-04-22T16:59:06.000Z",
+  "last_updated": "2025-04-23T08:03:31.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-23T08:03:31.000Z",
+      "title": "ohcnetwork/care_fe#12056",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12056#pullrequestreview-2786339588",
+      "text": "Added Flags to handle electron crash and Adjusted entire cypress test to handle sidebar UI changes"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices#7",
+      "time": "2025-04-23T07:22:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/7#issuecomment-2823307699",
+      "text": "Step 2 is right. Step 4 is not right. Both are same, but step 4 is just example way of writing things of step 2 right? readme is not making sense on overall flow."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12029",
+      "time": "2025-04-23T07:19:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12029#issuecomment-2823302379",
+      "text": "keeping this on hold until further clarification of whether caching is needed or not from product side."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12029",
+      "time": "2025-04-23T07:19:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12029#issuecomment-2823300850",
+      "text": "this is not a bug, this is expected behaviour."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12037",
+      "time": "2025-04-23T07:16:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12037#issuecomment-2823294169",
+      "text": "This is not open for contributions yet!\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12055",
+      "time": "2025-04-23T07:07:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12055#issuecomment-2823280827",
+      "text": "@yadavshubham01 just do keep in mind that, care's codebase should not have terms such as \"state\" / \"district\" / etc... These are geo-organization levels that is obtained from backend. \n\nSo build accordingly by keeping this restriction in mind.\n\nAlso, please do follow the instructions for requesting assignment. Do comment a proposed solution on how this is going to be solved."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_teleicu_devices#8",
+      "time": "2025-04-23T07:02:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/8",
+      "text": "Add `sort_index` to PositionPreset model and spec"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-30T03:16:03.000Z",
+      "title": "ohcnetwork/care_fe#11624",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11624#pullrequestreview-2727793533",
+      "text": "Added proper error messages for fields"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11624",
+      "time": "2025-04-23T05:54:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11624#issuecomment-2823143134",
+      "text": "https://github.com/ohcnetwork/care_fe/pull/11624#discussion_r2035104261\r\n\r\nthis is still not resolved"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12008",
+      "time": "2025-04-23T05:46:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12008",
+      "text": "BUG: Fix styling of user roles page for smaller widths"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-23T05:46:29.000Z",
+      "title": "ohcnetwork/care_fe#12031",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12031#pullrequestreview-2785999323",
+      "text": "Refactor CSS to wrap permissions column text on user roles page"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#11044",
@@ -1448,13 +1525,6 @@
       "time": "2025-04-07T17:46:19.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/11788#issuecomment-2784115104",
       "text": "@Tanuj1718 do this for all Select's wherever applicable!"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-30T03:16:03.000Z",
-      "title": "ohcnetwork/care_fe#11624",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11624#pullrequestreview-2727793533",
-      "text": "Added proper error messages for fields"
     },
     {
       "type": "pr_reviewed",
@@ -68402,13 +68472,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12036",
       "title": "Enhance API call functionality by adding support for default query parameters in callApi function",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11842",
       "title": "Adds support for auto-updates",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": [
         "Merge Conflict"
       ]
@@ -68416,7 +68486,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/2",
       "title": "added translations",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],

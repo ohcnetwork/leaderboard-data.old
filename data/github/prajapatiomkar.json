@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-04-22T13:25:27.000Z",
+  "last_updated": "2025-04-23T07:14:57.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12046",
+      "time": "2025-04-23T07:14:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12046#issuecomment-2823291922",
+      "text": "Do we have a UI/UX reference for how the page should behave after the changes?\n\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12053",
+      "time": "2025-04-23T06:23:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12053",
+      "text": "🐛 Fix: Mobile sidebar state issue (#12038)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12038",
+      "time": "2025-04-23T04:42:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12038#issuecomment-2823040097",
+      "text": "@abhimanyurajeesh The current implementation persists the sidebar's \"expanded\" or \"collapsed\" state using cookies, and it works correctly on the web screen. However, for mobile, the cookie logic was not implemented. I found a solution that correctly reflects the sidebar's open or closed state based on the current implementation, but the state is not being persisted in the cookie.\n\nThis line of code is able to fix the current bug.\n![Image](https://github.com/user-attachments/assets/f44d6fab-b005-416e-baff-d1bcab0ec77f)\n\nHere is the video\n\nhttps://github.com/user-attachments/assets/f1724c51-2452-46a0-9dbc-7a6e6d5039b5"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12038",
@@ -23,6 +44,13 @@
       "text": "@rithviknishad @Jacobjeevan Assign this issue to me."
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12053",
+      "title": "🐛 Fix: Mobile sidebar state issue (#12038)",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }

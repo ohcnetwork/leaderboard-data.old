@@ -1,6 +1,83 @@
 {
-  "last_updated": "2025-04-22T19:48:08.000Z",
+  "last_updated": "2025-04-23T08:07:10.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-23T08:07:10.000Z",
+      "title": "ohcnetwork/care_fe#12030",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12030#pullrequestreview-2786348893",
+      "text": "fix: The Active Tab Not Updating When Navigating to Sub-Location"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12023",
+      "time": "2025-04-23T07:57:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12023#issuecomment-2823399727",
+      "text": "Fix the type errors (causing test failure) - also make sure to test extensively, there are cases where user should only be allowed to select one (like managing organization for a device). Are you handling those?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12055",
+      "time": "2025-04-23T07:22:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12055#issuecomment-2823309211",
+      "text": "🤔  Are you on local? Because this seems like a mismatch issue with local org data."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10756",
+      "time": "2025-04-23T07:19:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10756#issuecomment-2823302045",
+      "text": "> @Jacobjeevan Can you please provide screen recording?\r\n> \r\n> Edit: Isn't it fine if we have the different option for switching camera? Because we are only selecting camera here. Won't it be congested or confusing if we merge this functionality with it?\r\n\r\nTry to think from a user's perspective - when they select a different camera, what should be the expected behavior? Does it make sense to continue showing front camera if I have selected to back camera?\r\n\r\nhttps://github.com/user-attachments/assets/8e050e75-04d8-43db-b45b-f31a5f592303\r\n\r\n"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12049",
+      "time": "2025-04-23T06:31:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12049",
+      "text": "Login Page has two eye button in password section"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-23T05:42:31.000Z",
+      "title": "ohcnetwork/care_fe#11919",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11919#pullrequestreview-2785971706",
+      "text": "Redesigned DeviceList Page and Add Location Filter on DeviceList "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11919",
+      "time": "2025-04-23T04:44:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11919#issuecomment-2823042456",
+      "text": "Hmm, when clicking on Building A, it filters to devices directly associated with Building A; which makes sense in one way, but given the current interface, users may also expect results to include devices corresponding to all locations under Building A, not just direct assoc.\r\n\r\n<img width=\"836\" alt=\"image\" src=\"https://github.com/user-attachments/assets/485263b2-f3b3-4e88-8c55-1c7c2c38db6d\" />\r\n\r\n@nihal467 what do you think?"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12007",
+      "time": "2025-04-23T04:34:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12007",
+      "text": "BUG:Page Not found when click on  associated organization of a particular device in device information page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-23T04:34:01.000Z",
+      "title": "ohcnetwork/care_fe#12013",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12013#pullrequestreview-2785901228",
+      "text": "fixed navigation route to the associated organization."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11781",
+      "time": "2025-04-23T04:29:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11781#issuecomment-2823024910",
+      "text": "Closing due to inactivity."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-03T16:37:23.000Z",
+      "title": "ohcnetwork/care_fe#10756",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10756#pullrequestreview-2654646639",
+      "text": "Allow to select preferable camera during photo capturing"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11942",
@@ -257,13 +334,6 @@
       "time": "2025-04-21T11:16:02.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11704#issuecomment-2818205936",
       "text": "> @Jacobjeevan Can u check the responsiveness now , i have made the neccessary changes\r\n\r\nPrevious page/next page buttons are not visible on desktop. While the zoom works better now, we would want to add drag functionality if we are doing this (but that can be taken up in another PR).\r\n\r\n<img width=\"556\" alt=\"image\" src=\"https://github.com/user-attachments/assets/cd50b5de-2f9c-44a7-bbe8-e2b9128a55d9\" />\r\n"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-03T16:37:23.000Z",
-      "title": "ohcnetwork/care_fe#10756",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10756#pullrequestreview-2654646639",
-      "text": "Allow to select preferable camera during photo capturing"
     },
     {
       "type": "pr_reviewed",
@@ -12063,7 +12133,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11856",
       "title": "Fix: Verify Patient Encounter Card Link",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs review",
         "Tested ✅"

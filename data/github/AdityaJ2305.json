@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-22T19:15:20.000Z",
+  "last_updated": "2025-04-23T03:23:11.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-21T12:05:28.000Z",
+      "title": "ohcnetwork/care_fe#12021",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12021#pullrequestreview-2781125218",
+      "text": "Allow edit of questionnaire structured records with `entered-in-error` status"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12051",
@@ -22,13 +29,6 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/11287",
       "text": "Fix: Minor Questionnaire Edit bugs",
       "turnaround_time": 3450267
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-21T12:05:28.000Z",
-      "title": "ohcnetwork/care_fe#12021",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12021#pullrequestreview-2781125218",
-      "text": "Allow edit of questionnaire structured records with `entered-in-error` status"
     },
     {
       "type": "pr_opened",
@@ -6940,20 +6940,22 @@
       "title": "Enhancement: Allow multiple Additional Instructions in Medication Request",
       "stale_for": 0,
       "labels": [
+        "question",
         "needs testing",
-        "needs review"
+        "needs review",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12005",
       "title": "Cypress test to add department and team in a facility Management",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11996",
       "title": "Enhancement: Update the cap logic in the Quick Finder so it dynamically adjusts the maximum value can be selected",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"
@@ -6986,7 +6988,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11767",
       "title": "Fix: Location Association Sheet Search Bar Filtering and Blank Sheet on second time opening same sheet",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"
