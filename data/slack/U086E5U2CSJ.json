@@ -8410,5 +8410,83 @@
                 }
             ]
         }
+    ],
+    "2025-04-24 00:00:00": [
+        {
+            "user": "U086E5U2CSJ",
+            "type": "message",
+            "ts": "1745506990.385929",
+            "client_msg_id": "a6e8416c-3424-444f-a2db-f1b8c8af1b0c",
+            "text": "April 23rd\n\u2022 Made PR <https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/35|care_teleicu_devices_fe#35>: Enhance camera position presets with sorting functionality.\n\u2022 ",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1745409773,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/35",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#35 Enhance camera position presets with sorting functionality.",
+                    "text": "\u2022 Requires the following backend: <https://github.com/ohcnetwork/care_teleicu_devices/pull/8|ohcnetwork/care_teleicu_devices#8>\n\u2022 Fixes <https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/19|#19>\n\nEnhance camera position presets management by adding sorting functionality and batch update support\n\n\u2022 Introduced `useReorderMutation` hook for handling the reordering of camera presets.\n\u2022 Updated `PresetDropdown` and `CameraPositionPresets` components to support sorting by `sort_index`.\n\u2022 Added batch request capability to `cameraPositionPresetApi` for efficient updates.\n\u2022 Improved UI with new icons for reordering presets and adjusted accessibility attributes.\n\nThis update aligns with the microfrontend architecture by ensuring efficient state management and enhancing user experience in the camera configuration workflow.\n\n*Demo*\n\nScreen.Recording.2025-04-23.at.6.18.47.PM.mov",
+                    "title": "#35 Enhance camera position presets with sorting functionality.",
+                    "title_link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/35",
+                    "footer": "<https://github.com/ohcnetwork/care_teleicu_devices_fe|ohcnetwork/care_teleicu_devices_fe>",
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "aFXXm",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "April 23rd\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Made PR "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/35",
+                                            "text": "care_teleicu_devices_fe#35"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ": Enhance camera position presets with sorting functionality."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": []
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

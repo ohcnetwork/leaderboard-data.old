@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-23T09:59:24.000Z",
+  "last_updated": "2025-04-23T20:21:49.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12073",
+      "time": "2025-04-23T20:21:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12073#issuecomment-2825420881",
+      "text": "@rithviknishad @Jacobjeevan  can you please assign me this issue \n\nthis issue occurs only when the person is logout from the facility page in mobile view \nafter logout from the facility page in mobile view, input labels become unclickable and login fails until a hard refresh—the issue is almost certainly caused by stale React context, event listeners, or DOM overlays that are not being properly reset or unmounted on logout. This is a classic React SPA  zombie state or stuck overlay problem, especially common with custom sidebars, modals, or mobile navigation components.\n\nSOLUTION : \n-  Before navigating to /login, ensure that any sidebar or mobile overlay is closed.\n-  Access the sidebar context in logout logic and call setOpen(false) and setOpenMobile(false) if available.\n- Ensure any event listeners are removed on logout or when the sidebar is unmounted.\n\nEND DATE : 2 Days\n\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12037",
@@ -231,19 +238,8 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12052",
       "title": "Bug: End Date value is still 'ongoing' in Encounters despite having the status completed #12003",
-      "stale_for": 1,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11994",
-      "title": "Encounter Notes - User Icon and Time Not Visible on Mobile View #11693 #11952",
       "stale_for": 0,
-      "labels": [
-        "question",
-        "needs testing",
-        "needs review",
-        "needs-triage"
-      ]
+      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11855",

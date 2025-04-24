@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-23T13:16:11.000Z",
+  "last_updated": "2025-04-23T19:04:19.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-23T13:12:39.000Z",
+      "title": "ohcnetwork/care_fe#12066",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12066#pullrequestreview-2787263009",
+      "text": "chromium browser"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#12068",
@@ -15,13 +22,6 @@
       "time": "2025-04-23T13:15:54.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12068",
       "text": "Production release"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-23T13:12:39.000Z",
-      "title": "ohcnetwork/care_fe#12066",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12066#pullrequestreview-2787263009",
-      "text": "chromium browser"
     },
     {
       "type": "pr_reviewed",
@@ -18781,9 +18781,21 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/3007",
+      "title": "Update model deserialize to only exclude unset values",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/3006",
+      "title": "Remove nr and dependencies",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/3001",
       "title": "Add validations for facility organization deletion",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     },
     {
@@ -18801,7 +18813,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2983",
       "title": "A facility root org should have at least one facility admin at any point",
-      "stale_for": 15,
+      "stale_for": 16,
       "labels": []
     },
     {
@@ -18813,13 +18825,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2965",
       "title": "Add support for repeatable groups",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2763",
       "title": "Data Migration",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": [
         "do-not-merge"
       ]

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-23T04:42:13.000Z",
+  "last_updated": "2025-04-23T18:13:55.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10756",
+      "time": "2025-04-23T18:13:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10756#issuecomment-2825129100",
+      "text": "> > @Jacobjeevan Can you please provide screen recording?\r\n> > Edit: Isn't it fine if we have the different option for switching camera? Because we are only selecting camera here. Won't it be congested or confusing if we merge this functionality with it?\r\n> \r\n> Try to think from a user's perspective - when they select a different camera, what should be the expected behavior? Does it make sense to continue showing front camera if I have selected to back camera?\r\n> \r\n>  az_recorder_20250423_120350.mp4\r\n\r\nI am able to think two approaches for this: \r\n1. We can filter out the the camera according to their facingmode(like whether it is front camera or back camera). And then we can show camera according to the facing mode to the user.\r\n2. Another approach is we can merge the switching functionality but I think it will be very confusing for the user to select the camera.\r\nIs there any other way I can do it? @Jacobjeevan "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10756",
@@ -2023,15 +2030,6 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11914",
-      "title": "Modify placeholder of Select inputs for Appointment booking",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "Tested ✅"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/16",
       "title": "fix: Made 'Generate/Link ABHA Number' page mobile friendly",
       "stale_for": 1,
@@ -2050,6 +2048,10 @@
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11909",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11914"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11788",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11796"
