@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-04-22T22:18:32.000Z",
+  "last_updated": "2025-04-23T09:59:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12037",
+      "time": "2025-04-23T09:59:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12037#issuecomment-2823758374",
+      "text": "@khavinshankar @rithviknishad  as a part of discussion  i think allowing camera feed view but restricting camera movements would be a good option because : \n- Nurses can observe the patient’s condition in real-time.\n- in critical care settings, seeing the feed may help with patient awareness or coordination.\n- Nurses can act quickly without needing to ask doctors for every update.\n-  More responsive care without giving full control keeps everyone informed.\n\n **As a organisation, we should consider  maximum patient privacy without compromising operational efficiency. If nurses need the camera feed to make faster decisions, we should be  okay with them seeing it — but they must not control it. We’ll strictly log all access and review compliance**\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11943",
+      "time": "2025-04-23T09:27:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11943#issuecomment-2823660058",
+      "text": "@vivekrajuv18    there are two buttons in the original design\n\n![Image](https://github.com/user-attachments/assets/fb44da80-3440-4b0c-9d99-0f23fbcebcf3)\n\n- next file button \n- next page button \n- in the code base the arrow next to the image  directs to the next file not next page . the next page button is different \n\n\nTHINGS TO DO : \n- replace the next file arrow button with the next page buttons and vice versa or should i remove the next file button in the dialog and just keep the next page buttons ?\n- allignment of zoom and download buttons .\n- i will add the pr by today .\n\n![Image](https://github.com/user-attachments/assets/bfbfb17b-7079-418e-9418-7f46b59de5e3)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11943",
+      "time": "2025-04-23T08:43:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11943#issuecomment-2823522328",
+      "text": "@vivekrajuv18 \n\n> [@gobardan1707](https://github.com/gobardan1707) few suggestions, keep the next file button next to the file. and small rearrangement in button placements refer below image.\n> \n> ![Image](https://github.com/user-attachments/assets/63eb44eb-f79f-4bd6-834f-13fa4121e4f0)\n\n-  i want to clarify one thing where should i place the next page buttons and thank you for the reference ."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12052",
@@ -210,7 +231,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12052",
       "title": "Bug: End Date value is still 'ongoing' in Encounters despite having the status completed #12003",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -227,7 +248,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11855",
       "title": "Tab key does not navigate correctly across form fields in user create form #11799",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "Changes Required"
       ]
