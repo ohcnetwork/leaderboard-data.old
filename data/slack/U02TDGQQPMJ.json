@@ -44572,5 +44572,172 @@
                 }
             ]
         }
+    ],
+    "2025-04-24 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1745470807.792169",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1745470892.000000"
+            },
+            "client_msg_id": "02bd8680-b3cb-4be3-9335-d7855c3b2164",
+            "text": "*april 23*\n\u2022 <https://github.com/ohcnetwork/care_teleicu_devices/pull/8|#8> backend support for sorting position presets in camera device\n\u2022 spent quite a while debugging why some of the APIs are yielding 404 in gateway.\n\u2022 worked on camera stream authn.; almost complete\n\u2022 <@U0168MBTGL8>\u2019s birthday :cake: :scissors: \n*next*\n\u2022 write migration for backfilling `sort_index` for existing position presets\n\u2022 debug why stream is not streaming with auth. enabled in rtsp-to-web.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "MjHr6",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "april 23",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_teleicu_devices/pull/8",
+                                            "text": "#8",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " backend support for sorting position presets in camera device"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "spent quite a while debugging why some of the APIs are yielding 404 in gateway."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "worked on camera stream authn.; almost complete"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "user",
+                                            "user_id": "U0168MBTGL8"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "\u2019s birthday "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "cake",
+                                            "unicode": "1f370"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "scissors",
+                                            "unicode": "2702-fe0f"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "write migration for backfilling "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "sort_index",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " for existing position presets"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "debug why stream is not streaming with auth. enabled in rtsp-to-web."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
