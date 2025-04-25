@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-23T20:21:49.000Z",
+  "last_updated": "2025-04-23T22:35:31.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12058",
+      "time": "2025-04-23T22:35:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12058#issuecomment-2825638396",
+      "text": "@rithviknishad @Jacobjeevan  can you please assign me the issue \n\n- The country selector uses a Popover (Radix UI) in the CountrySelect component (phone-input.tsx)\n- When a country is selected (onChange in CountrySelectOption), the popover does not automatically close\n- this is because the popover’s open state is not controlled in response to a selection; it is only controlled by the trigger.\n\nSOLUTION :\n\n- Use a useState hook in CountrySelect to manage the open state of the popover.\n- When a country is selected (onChange) and  also set the popover’s open state to false\n\nEND DATE : TODAY"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12073",
@@ -244,7 +251,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11855",
       "title": "Tab key does not navigate correctly across form fields in user create form #11799",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Changes Required"
       ]
