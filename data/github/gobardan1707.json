@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-04-23T22:35:31.000Z",
+  "last_updated": "2025-04-25T10:54:42.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12100",
+      "time": "2025-04-25T10:54:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12100#issuecomment-2830086532",
+      "text": "@nihal467 @abhimanyurajeesh @Jacobjeevan can you assign me this issue \n\nSOLUTION : \n- Using  flex items-center gap-x-4 min-w-0 for all field containers.\n- Using  min-w-0 flex-1 and truncate for value wrappers.\n -  providing  a fallback for missing data.\n -   print/save mode uses the same layout and overflow handling.\n\nEND DATE : TODAY"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12097",
+      "time": "2025-04-25T10:39:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12097#issuecomment-2830055649",
+      "text": "@abhimanyurajeesh can you assign me this issue \n\nissue 1 solution :  \n-  make the parent tab (like \"Settings\") check if any of its sub-tabs are active, and if so, highlight the parent as active too. Use the same logic for both expanded and collapsed sidebar states so the highlight always matches the user's current location.\n\nissue 2 solution : \n- make the sidebar highlight a tab if the current route starts with that tab’s base path, so even when navigating to deeper pages (like a specific encounter), the main section (e.g., \"Encounters\") stays visibly active. This keeps users oriented, no matter how deep they go.\n\nEND DATE : TODAY"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12058",
@@ -245,7 +259,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12052",
       "title": "Bug: End Date value is still 'ongoing' in Encounters despite having the status completed #12003",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {

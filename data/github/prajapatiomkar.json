@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-04-23T07:14:57.000Z",
+  "last_updated": "2025-04-25T11:04:17.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12100",
+      "time": "2025-04-25T11:04:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12100#issuecomment-2830105010",
+      "text": "> [@nihal467](https://github.com/nihal467) [@abhimanyurajeesh](https://github.com/abhimanyurajeesh) [@Jacobjeevan](https://github.com/Jacobjeevan) can you assign me this issue\n> \n> SOLUTION :\n> \n> * Using  flex items-center gap-x-4 min-w-0 for all field containers.\n> * Using  min-w-0 flex-1 and truncate for value wrappers.\n> * providing  a fallback for missing data.\n> * print/save mode uses the same layout and overflow handling.\n> \n> END DATE : TODAY\n\nNo need to do all these steps. I've already fixed it locally, so we can do it in a much simpler way."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12100",
+      "time": "2025-04-25T08:32:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12100#issuecomment-2829738387",
+      "text": "@abhimanyurajeesh Assign this issue to me so I can raise a PR."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12100",
+      "time": "2025-04-25T08:29:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12100",
+      "text": "UI in the Appointment Details section breaks when the card is saved, affecting fields like Phone, Token No., and Gender."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12046",
@@ -46,9 +67,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12053",
-      "title": "🐛 Fix: Mobile sidebar state issue (#12038)",
-      "stale_for": 1,
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12112",
+      "title": "Fix UI misalignment in Appointment Details card (#12100)",
+      "stale_for": 0,
       "labels": []
     }
   ],

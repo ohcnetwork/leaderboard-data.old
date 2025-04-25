@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-07T06:52:50.000Z",
+  "last_updated": "2025-04-25T08:11:50.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12099",
+      "time": "2025-04-25T08:11:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12099",
+      "text": "Made choice question controlled"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11403",
@@ -13337,37 +13344,33 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11589",
-      "title": "Added Structured Question for Consent",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12099",
+      "title": "Made choice question controlled",
       "stale_for": 0,
       "labels": [
-        "stale"
+        "needs testing",
+        "needs review"
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11403",
-      "title": "Support for loading recent and favourite valuesets",
-      "stale_for": 0,
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11589",
+      "title": "Added Structured Question for Consent",
+      "stale_for": 3,
       "labels": [
-        "test failed"
+        "Merge Conflict",
+        "stale"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/105",
       "title": "Updated Scribe Docs",
-      "stale_for": 28,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/16",
-      "title": "Add support for OCR and reduced token usage",
-      "stale_for": 0,
+      "stale_for": 46,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/78",
       "title": "Care plan proposal",
-      "stale_for": 69,
+      "stale_for": 88,
       "labels": []
     }
   ],
@@ -13406,6 +13409,10 @@
     },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8978",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8469"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8821",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8469"
     }
   ]

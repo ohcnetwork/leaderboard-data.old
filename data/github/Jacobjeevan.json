@@ -1,6 +1,24 @@
 {
-  "last_updated": "2025-04-23T12:18:19.000Z",
+  "last_updated": "2025-04-25T07:44:38.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#11542",
+      "time": "2025-04-25T07:44:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11542",
+      "text": "Collapsible sections added in encounter overview",
+      "collaborated_with": [
+        "Spandan-Mishra",
+        "Jacobjeevan"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10756",
+      "time": "2025-04-25T07:25:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10756#issuecomment-2829588902",
+      "text": "> But won't it still be the same? We are just changing UI. The device list will show all the camera(front and back) and user can select front camera as preferred camera while having facing mode as back.🤔 We can do one more thing, isn't it possible to filter camera on the basis of facing mode? I tried to find out this whether we can do it or not but not able to get any solid answer. @Jacobjeevan\r\n\r\nNo, current approach would make it seem like the dropdown value should correspond to preview. Changing the UI in this case provides a separation and makes it more clear that they are separate elements.\r\n\r\nLet's not filter by facing mode, just do as I mentioned - dropdown should list all possible cameras; when user opens up the preview modal to take a picture, it should be defaulting to the preferred camera (assuming user has picked one before and it's in cache)."
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#11755",
@@ -12151,7 +12169,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11983",
       "title": "Location and Device Perms",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "Work in Progress 🚧",
         "waiting for related PR",
