@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-23T18:13:55.000Z",
+  "last_updated": "2025-04-25T02:15:20.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10756",
+      "time": "2025-04-25T02:15:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10756#issuecomment-2829225086",
+      "text": "> > > > @Jacobjeevan Can you please provide screen recording?\r\n> > > > Edit: Isn't it fine if we have the different option for switching camera? Because we are only selecting camera here. Won't it be congested or confusing if we merge this functionality with it?\r\n> > > \r\n> > > \r\n> > > Try to think from a user's perspective - when they select a different camera, what should be the expected behavior? Does it make sense to continue showing front camera if I have selected to back camera?\r\n> > > az_recorder_20250423_120350.mp4\r\n> > \r\n> > \r\n> > I am able to think two approaches for this:\r\n> > ```\r\n> > 1. We can filter out the the camera according to their facingmode(like whether it is front camera or back camera). And then we can show camera according to the facing mode to the user.\r\n> > \r\n> > 2. Another approach is we can merge the switching functionality but I think it will be very confusing for the user to select the camera.\r\n> >    Is there any other way I can do it? @Jacobjeevan\r\n> > ```\r\n> \r\n> Not sure why it would confusing - if anything current approach would be confusing 😅\r\n> \r\n> Anyways, do one thing: create a kebab/3-dot menu (similar to what you see in google meet for example) that has both switch camera and set preferred camera as options.\r\n> \r\n> Switch camera can do the current switch functionality while set preferred camera would open up a dialog with the dropdown menu which we currently have (also add save button to make it clear).\r\n> \r\n> Ofc, remove the dropdown menu and switch button from current screen.\r\n\r\nBut won't it still be the same? We are just changing UI. The device list will show all the camera(front and back) and user can select front camera as preferred camera while having facing mode as back.🤔\r\nWe can do one more thing, isn't it possible to filter camera on the basis of facing mode? @Jacobjeevan "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10756",
