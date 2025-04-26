@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-25T15:58:33.000Z",
+  "last_updated": "2025-04-26T08:09:18.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12118",
+      "time": "2025-04-26T08:09:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12118#issuecomment-2831950747",
+      "text": "@aravindm4 @Jacobjeevan can you assign me this issue \n\nApproach :  ensure consistency, update all components where \"Logged By\" is displayed to use user.fullName instead of username. Search for all instances where username is rendered for \"Logged By\" and replace them with the user's full name property. This will standardize the display of user information \n\nEND DATE : TODAY"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12062",
@@ -280,7 +287,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12052",
       "title": "Bug: End Date value is still 'ongoing' in Encounters despite having the status completed #12003",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
