@@ -44921,5 +44921,414 @@
                 }
             ]
         }
+    ],
+    "2025-04-26 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1745647906.840969",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1745648453.000000"
+            },
+            "client_msg_id": "22e907f7-f40f-49d5-ae66-ab5a471d041a",
+            "text": "*april 25*\n\u2022 :headphones: w. James and <@U022THM4U2U> on finding out issue with camera and middleware. passed it on to <@U06CY7RUZ9S>\n\u2022 show camera\u2019s ptz controls in mobile screens (<https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/41|#41>)\n\u2022 switched gateway status checks to use tanstack query to fix an issue when unmounted (<https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/42|#42>)\n\u2022 improved fallback ui for camera stream for errors (<https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/43|#43>)\n\u2022 made some changes to contributors PR in teleicu devices, tested and got it merged:\n    \u25e6 sort for position presets (<https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/35|#35>)\n    \u25e6 support for default position presets for a location (<https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/36|#36>, <https://github.com/ohcnetwork/care_teleicu_devices/pull/9|#9>)\n\u2022 made camera device\u2019s type in metadata optional (<https://github.com/ohcnetwork/care_teleicu_devices/commit/380d6de0b751fcc19686847f4674316f53fe4ef1|380d6de>)\n\u2022 spent a while figuring out why teleicu devices plug was not loading on my mobile devices on tailscale network, turns out dev server\u2019s cors (<https://github.com/ohcnetwork/care_teleicu_devices_fe/commit/0455a97d611afa942b103aa38323c70c74d41c83|0455a97>)\n\u2022 minor pr to fix layout jumps when popover is opened/closed due to scrollbar tweaks in care\u2019s css (<https://github.com/ohcnetwork/care_fe/pull/12109|#12109>)\n\u2022 updated lockfile to fix deploy failing issues (<https://github.com/ohcnetwork/care_fe/pull/12111|#12111>)\n\u2022 3 interviews w. gsoc candidates\n\u2022 reviewed prs in care_fe\n\u2022 <@U022THM4U2U> and <@U086E5U2CSJ> woke me up in the middle of my peaceful sleep to merge a cypress PR :expressionless:\n*next*\n\u2022 checkout labs\n\u2022 complete teleicu devices translations\n\u2022 task to cascade delete schedule\u2019s metas when user / depts associating user to facility is deleted\n\u2022 app auto updates",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "wWGpO",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "april 25",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " w. James and "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U022THM4U2U"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on finding out issue with camera and middleware. passed it on to "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U06CY7RUZ9S"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "show camera\u2019s ptz controls in mobile screens ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/41",
+                                            "text": "#41",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "switched gateway status checks to use tanstack query to fix an issue when unmounted ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/42",
+                                            "text": "#42",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "improved fallback ui for camera stream for errors ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/43",
+                                            "text": "#43",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "made some changes to contributors PR in teleicu devices, tested and got it merged:"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "sort for position presets ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/35",
+                                            "text": "#35",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "support for default position presets for a location ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/36",
+                                            "text": "#36",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ", "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_teleicu_devices/pull/9",
+                                            "text": "#9",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "made camera device\u2019s type in metadata optional ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_teleicu_devices/commit/380d6de0b751fcc19686847f4674316f53fe4ef1",
+                                            "text": "380d6de"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "spent a while figuring out why teleicu devices plug was not loading on my mobile devices on tailscale network, turns out dev server\u2019s cors ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_teleicu_devices_fe/commit/0455a97d611afa942b103aa38323c70c74d41c83",
+                                            "text": "0455a97"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "minor pr to fix layout jumps when popover is opened/closed due to scrollbar tweaks in care\u2019s css ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/12109",
+                                            "text": "#12109",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "updated lockfile to fix deploy failing issues ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/12111",
+                                            "text": "#12111",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "3 interviews w. gsoc candidates"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "reviewed prs in care_fe"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "user",
+                                            "user_id": "U022THM4U2U"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " and "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U086E5U2CSJ"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " woke me up in the middle of my peaceful sleep to merge a cypress PR "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "expressionless",
+                                            "unicode": "1f611"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "checkout labs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "complete teleicu devices translations"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "task to cascade delete schedule\u2019s metas when user / depts associating user to facility is deleted"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "app auto updates"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "face_holding_back_tears",
+                    "users": [
+                        "U086E5U2CSJ",
+                        "U0576PEACG0"
+                    ],
+                    "count": 2
+                },
+                {
+                    "name": "sleepy",
+                    "users": [
+                        "U07NXCASM89",
+                        "U0576PEACG0"
+                    ],
+                    "count": 2
+                },
+                {
+                    "name": "smiling_face_with_tear",
+                    "users": [
+                        "U0576PEACG0"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }

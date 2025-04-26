@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-25T11:55:07.000Z",
+  "last_updated": "2025-04-25T20:45:18.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12033",
+      "time": "2025-04-25T20:45:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12033#issuecomment-2831399188",
+      "text": "@nihal467 I just realised that the search we are doing in for consent is client-side 😁\r\n\r\nhttps://github.com/ohcnetwork/care_fe/blob/267e73b95c9c3cfacc1d1e298ee7203a210a413e/src/components/Consent/ConsentSheet.tsx#L87\r\n\r\nSo it is unreliable across paginated pages, and we do not have a backend support for filtering consents based on files attached \r\n\r\n---\r\n\r\nI will get it as a follow-up PR, after backend support \r\n\r\ncc: @amjithtitus09 "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12033",
@@ -1000,7 +1007,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11784",
       "title": "Fix dosage popover collision ",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "bug",
         "stale"
