@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-25T10:58:51.000Z",
+  "last_updated": "2025-04-25T12:37:48.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12106",
+      "time": "2025-04-25T12:37:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12106#issuecomment-2830314697",
+      "text": "Hey @gobardan1707 I think the maintainers would have thought of it. But if I would have to give a solution for it, then we can send a confirmation email on given email id so that it is not any fake one.\n\nServices like **Nodemailer** and **Resend** are used to send emails to users. Like we can send email with a confirmation link in it or like otp which user will fill and things will go accordingly.\n\nI would like to work on this issue if its really an issue. Maybe you can assign it to me. @rithviknishad @Jacobjeevan "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12100",
@@ -90,7 +97,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12051",
       "title": "Fixed structured records uneditable when in entered-in-error status #11966",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "question",
         "Merge Conflict",

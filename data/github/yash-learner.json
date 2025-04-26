@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-25T11:02:27.000Z",
+  "last_updated": "2025-04-25T11:55:07.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12033",
+      "time": "2025-04-25T11:55:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12033#issuecomment-2830218098",
+      "text": "@nihal467 Thanks for testing \r\n\r\n> Major Bug\r\n\r\nActually, it's not a bug, that was a deliberate change made after discussion on [slack](https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1745269867137029?thread_ts=1744207192.430929&cid=C06KGMUAB0V)\r\n\r\n> add the file upload with the create consent slideover & file upload will be a optional thing\r\n\r\nOkay, will bring it back there\r\n\r\n> post saving, they shouldn't be redirected to the view details page\r\n\r\nOkay, previously it was done because we kept it separate, will fix it \r\n\r\n> in the edit consent form, only the status and note should be visible allow to edit, hide rest on field\r\n\r\nOkay 👍\r\n\r\n> Currently, the consent search functionality only supports searching by the name of the first uploaded file. However, consents can be created without any files or with multiple files.\r\n\r\n@nihal467 search works when consent has multiple files and yes, currently search does not work when no files attached because consent does not have any title, the search is file-based and will fix that to show consents that don't have files attached.\r\n\r\n\r\n> When we upload multiple files back-to-back to a single consent from the details page, an error message appears in the pop-up as shown in the screenshot. Sometimes, the file upload or file selection itself also fails.\r\n\r\nI guess the issue with the file upload component, this issue is already present on `care.ohc.network`, will look into it and fix it.\r\n\r\n![image](https://github.com/user-attachments/assets/c9f96ab5-4021-4968-9650-6bfdd5699f5a)\r\n\r\n> Remove the green border when the note is not in focus\r\n\r\n👍\r\n\r\n---\r\n\r\ncc: @amjithtitus09 \r\n\r\n"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12105",
