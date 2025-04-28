@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-04-28T02:09:21.000Z",
+  "last_updated": "2025-04-28T08:52:19.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12124",
+      "time": "2025-04-28T08:52:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12124#issuecomment-2834495382",
+      "text": "@bodhish i would like to work on this issue can you please assign me this issue \n\nEND DATE : TOMORROW "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12123",
+      "time": "2025-04-28T08:51:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12123#issuecomment-2834492583",
+      "text": "@bodhish i would like to work on this issue can you assign me this issue \n\nEND DATE : TOMORROW "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12127",
+      "time": "2025-04-28T08:09:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12127#issuecomment-2834338523",
+      "text": "> > [@Jacobjeevan](https://github.com/Jacobjeevan) [@rithviknishad](https://github.com/rithviknishad) can you assign me this issue\n> > solution :\n> > ```\n> > * In the function that handles date clicks , add a check to see if the selected date is in the past.\n> > \n> > * if the clicked date is before today, do NOT trigger the code that opens the \"Add Exception\" popup.\n> > ```\n> > \n> > \n> >     \n> >       \n> >     \n> > \n> >       \n> >     \n> > \n> >     \n> >   \n> > END DATE : TODAY\n> \n> Let's not complicate this, don't display the button in the popup for past dates.\n\nsure i will not display them .\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12141",
+      "time": "2025-04-28T03:03:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12141#issuecomment-2833865819",
+      "text": "@Jacobjeevan @rithviknishad i would like to work on this issue can you assign me this issue \n\napproach : \n- Add an onKeyDown handler to the Textarea inside NotesInput.\n- In this handler, check if the pressed key is \"Enter\" \n- If Enter is pressed, call the note update handler and close the Popover by setting setOpen(false), \n\n\nEND DATE : TOMORROW "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12141",
+      "time": "2025-04-28T02:57:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12141",
+      "text": "\"Add Note\" dialog does not close on pressing Enter after writing a note"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12139",
+      "time": "2025-04-28T02:44:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12139#issuecomment-2833847461",
+      "text": "@Jacobjeevan @rithviknishad i would like to work on this issue can you assign me this issue.\n\nsolution : \n- Extract the camera stopping logic (stream.getTracks().forEach(track => track.stop())) into a reusable function, e.g., stopMediaStream, in a common utility file.\n- Update both CameraCaptureDialog.tsx and AvatarEditModal.tsx to use this shared utility for stopping the camera stream.\n- Use the utility immediately after photo capture/upload and also in the dialog/modal close handler to guarantee the camera is always released.\n- After stopping the stream, reset related state variables (like setStream(null) or setIsCameraOpen(false)) to keep UI and hardware in sync.\n\nEND DATE : TOMORROW"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12139",
+      "time": "2025-04-28T02:30:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12139",
+      "text": "Camera remains active after image capture and upload via \"Add Files\" button"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12137",
@@ -341,7 +390,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11855",
       "title": "Tab key does not navigate correctly across form fields in user create form #11799",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "Changes Required"
       ]

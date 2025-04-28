@@ -1,0 +1,42 @@
+{
+  "last_updated": "2025-04-28T09:56:08.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12136",
+      "time": "2025-04-28T09:56:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12136#issuecomment-2834668248",
+      "text": "@Jacobjeevan I have raised the pr"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12143",
+      "time": "2025-04-28T09:51:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12143",
+      "text": "Enhance file upload functionality by managing dropdown state and closing it after file capture actions"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12136",
+      "time": "2025-04-28T06:46:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12136#issuecomment-2834142349",
+      "text": "@JagjeevanAK  @modamaan \nSo I've been looking at the FileQuestion component and think I've found the problem. The dropdown stays open because:\n\nWe're using preventDefault() on the file input which stops the dropdown from closing naturally\nThe camera and audio buttons don't have any code to close the menu after clicking\nI'm thinking we can fix this by:\n\nAdding a state variable to track if the dropdown is open or closed\nConnecting this state to the DropdownMenu component\nAdding handlers for file upload, camera, and audio that will close the menu\nGetting rid of that preventDefault() that's keeping it open\nIt's a pretty straightforward fix - just need to manage the dropdown state properly.\nETA : Today\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12131",
+      "time": "2025-04-28T06:01:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12131#issuecomment-2834064625",
+      "text": " @aravindm4 @Jacobjeevan  @rithviknishad I'd like to request assignment for this issue.\n\n## Proposed Solution:\nI'll optimize the PatientIndex component by implementing useMemo hooks to prevent unnecessary recalculations of appointment filtering and sorting operations. My approach will:\n\n1. Identify the three key areas needing optimization:\n   - The main appointment filtering and datetime sorting logic\n   - Past appointments filtering\n   - Scheduled appointments filtering\n\n2. Implement useMemo hooks for each operation with carefully defined dependency arrays that only trigger recalculations when necessary data changes (like filters, sort criteria, or appointment data)\n\n3. Ensure proper typing for all memoized values\n\nThis will significantly improve performance with larger datasets by preventing redundant calculations on every render.\n\n## Expected Timeline:\nEnd date: Today\n"
+    }
+  ],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12143",
+      "title": "Enhance file upload functionality by managing dropdown state and closing it after file capture actions",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": []
+}

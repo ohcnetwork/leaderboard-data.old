@@ -1,6 +1,104 @@
 {
-  "last_updated": "2025-04-26T09:24:55.000Z",
+  "last_updated": "2025-04-28T09:49:41.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-28T09:49:41.000Z",
+      "title": "ohcnetwork/care_fe#12044",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12044#pullrequestreview-2798734462",
+      "text": "Fix : unnecessary workflow triggers"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-14T06:40:04.000Z",
+      "title": "ohcnetwork/care_fe#11883",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11883#pullrequestreview-2763278388",
+      "text": "On delete navigation fixed in facility page of organizations."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-28T09:29:35.000Z",
+      "title": "ohcnetwork/care_fe#12075",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12075#pullrequestreview-2798675392",
+      "text": "Fixed alignment issue in prescription preview"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-21T20:01:35.000Z",
+      "title": "ohcnetwork/care_fe#11868",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11868#pullrequestreview-2782134894",
+      "text": "Device Info Page: expand option for notes and disable update/save button until valid input"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11624",
+      "time": "2025-04-28T08:25:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11624#issuecomment-2834407304",
+      "text": "Closing due to inactivity, and this PR has been open for way too long for small change like this."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12137",
+      "time": "2025-04-28T08:19:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12137",
+      "text": "Overflow on Appointments Page — Search Button Not Visible"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12137",
+      "time": "2025-04-28T08:17:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12137#issuecomment-2834374977",
+      "text": "Folks read the instructions for requesting assignment and make sure you are following them."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12131",
+      "time": "2025-04-28T07:19:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12131#issuecomment-2834214456",
+      "text": "Let's not prematurely optimize unless we notice a slowdown - in this case, we are just filtering for upcoming/past appointments for a single patient, unlikely to be a huge overhead."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12131",
+      "time": "2025-04-28T07:19:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12131",
+      "text": "Optimize Appointment Filtering and Sorting with useMemo in PatientIndex."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12129",
+      "time": "2025-04-28T07:13:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12129#issuecomment-2834198330",
+      "text": "For (2), you would need to wait for #12033 to get merged. You are welcome to pull that and make/test your changes there though."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12127",
+      "time": "2025-04-28T07:10:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12127#issuecomment-2834191249",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) [@rithviknishad](https://github.com/rithviknishad) can you assign me this issue\n> \n> solution :\n> \n>     * In the function that handles date clicks , add a check to see if the selected date is in the past.\n> \n>     * if the clicked date is before today, do NOT trigger the code that opens the \"Add Exception\" popup.\n> \n> \n> END DATE : TODAY\n\nLet's not complicate this, don't display the button in the popup for past dates."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11093",
+      "time": "2025-04-28T05:45:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11093#issuecomment-2834043253",
+      "text": "I'm making the PR as draft. Please make sure to test all changes and do a complete self-review before requesting for review again."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-03-14T06:25:37.000Z",
+      "title": "ohcnetwork/care_fe#11093",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11093#pullrequestreview-2684409740",
+      "text": "Fix/profile photo upload issues"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11704",
+      "time": "2025-04-28T04:48:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11704#issuecomment-2833973164",
+      "text": "Closing due to inactivity."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11633",
@@ -431,13 +529,6 @@
       "text": "feat: Add EntitySelectionSheet in MedicationRequestQuestion"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-04-21T20:01:35.000Z",
-      "title": "ohcnetwork/care_fe#11868",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11868#pullrequestreview-2782134894",
-      "text": "Device Info Page: expand option for notes and disable update/save button until valid input"
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11752",
       "time": "2025-04-21T19:46:53.000Z",
@@ -492,20 +583,6 @@
       "time": "2025-04-21T13:36:55.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/12024",
       "text": "Zooming applies on dialog instead of the file"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-14T06:40:04.000Z",
-      "title": "ohcnetwork/care_fe#11883",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11883#pullrequestreview-2763278388",
-      "text": "On delete navigation fixed in facility page of organizations."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-03-14T06:25:37.000Z",
-      "title": "ohcnetwork/care_fe#11093",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11093#pullrequestreview-2684409740",
-      "text": "Fix/profile photo upload issues"
     },
     {
       "type": "comment_created",
@@ -12317,7 +12394,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11983",
       "title": "Location and Device Perms",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": [
         "Work in Progress 🚧",
         "waiting for related PR",
