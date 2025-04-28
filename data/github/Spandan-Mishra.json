@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-04-26T11:35:50.000Z",
+  "last_updated": "2025-04-28T13:27:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12149",
+      "time": "2025-04-28T13:27:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12149#issuecomment-2835246180",
+      "text": "@nihal467 i would like to work on this issue\nETA: 2 days\nApproach: use refs for the form fields and when an error occurs, use the scrollIntoView function to scroll to that particular field."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12145",
+      "time": "2025-04-28T13:20:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12145#issuecomment-2835226074",
+      "text": "@nihal467 can i work on this issue?\nETA: Today\nApproach: Add a check for never logged in user, conditionally rendering the tooltip"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12146",
+      "time": "2025-04-28T11:04:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12146#issuecomment-2834879865",
+      "text": "@rithviknishad @Jacobjeevan if this issue is valid can i work on it\n**ETA**: I have prepared the solution, can make PR after being assigned\n**Approach**: \n- In `QuestionnaireEditor.tsx`, the `tagOptions` only had the previously available tags, and the `selectedNotInAvailable`. But it does not include `createdNotInAvailable`. This is why the issue was arising when it was deselected. \n- I have created a new state variable `createdTags` which will store all the tags which are created. Using this we can find out the tags present in createdTags, but not in the other two tag variables, i.e, `createdNotInAvailable`.\n- Now `tagOptions `returns `availableTags.results`, `selectedNotInAvailable`, and `createdNotInAvailable`"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12146",
+      "time": "2025-04-28T10:56:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12146",
+      "text": "Toggling newly created tag removes it from available tags in Questionnaire Editor"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12046",
@@ -784,6 +812,52 @@
       "text": "Fixed responsive issue between 640-767px"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12075",
+      "title": "Fixed alignment issue in prescription preview",
+      "stale_for": 0,
+      "labels": [
+        "needs testing"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11927",
+      "title": "Added edit button to system valuesets without saving",
+      "stale_for": 0,
+      "labels": [
+        "Tested ✅",
+        "Changes Required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11883",
+      "title": "On delete navigation fixed in facility page of organizations.",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/landing/pull/66",
+      "title": "Fixed responsive issue between 640-767px",
+      "stale_for": 55,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11897",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11936"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11417",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11435"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11298",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11314"
+    }
+  ]
 }

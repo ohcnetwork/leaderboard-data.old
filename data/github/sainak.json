@@ -1,6 +1,36 @@
 {
-  "last_updated": "2025-04-28T08:24:10.000Z",
+  "last_updated": "2025-04-28T13:26:02.000Z",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/roadmap#90",
+      "time": "2025-04-28T13:26:02.000Z",
+      "link": "https://github.com/ohcnetwork/roadmap/issues/90",
+      "text": "Create fine grained permissions for notes"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#3010",
+      "time": "2025-04-28T12:56:57.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3010",
+      "text": "Prevent deletion of organizations with associated encounters, locations, or devices"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#2999",
+      "time": "2025-04-28T12:42:08.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/2999",
+      "text": "Allow doctors and nurses to associate devices to encounters",
+      "turnaround_time": 1015987
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#3001",
+      "time": "2025-04-28T12:10:56.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3001",
+      "text": "Add validations for facility organization deletion",
+      "turnaround_time": 773270
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-04-21T09:49:08.000Z",
@@ -18803,6 +18833,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/3011",
+      "title": "Refactor AllergyIntolerance specs",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/3010",
+      "title": "Prevent deletion of organizations with associated encounters, locations, or devices",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/3008",
       "title": "Refactor mock for validate_valueset and enhance Celery error logging",
       "stale_for": 0,
@@ -18811,19 +18853,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/3007",
       "title": "Update model deserialize to only exclude unset values",
-      "stale_for": 3,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/3001",
-      "title": "Add validations for facility organization deletion",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/2999",
-      "title": "Allow doctors and nurses to associate devices to encounters",
-      "stale_for": 7,
+      "stale_for": 4,
       "labels": []
     },
     {
@@ -18835,7 +18865,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2983",
       "title": "A facility root org should have at least one facility admin at any point",
-      "stale_for": 19,
+      "stale_for": 20,
       "labels": []
     },
     {
@@ -18847,13 +18877,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2965",
       "title": "Add support for repeatable groups",
-      "stale_for": 10,
+      "stale_for": 11,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2763",
       "title": "Data Migration",
-      "stale_for": 10,
+      "stale_for": 11,
       "labels": [
         "do-not-merge"
       ]
