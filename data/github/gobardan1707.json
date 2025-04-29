@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-04-28T10:18:06.000Z",
+  "last_updated": "2025-04-29T02:58:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12152",
+      "time": "2025-04-29T02:58:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12152#issuecomment-2837309442",
+      "text": "@nihal467 @Jacobjeevan I would like to work on this issue can you assign me this issue \n\nsolution : \n- Use the isMobile variable  from useBreakpoints to detect mobile screen sizes.\n-  conditional layouts: flex flex-col for mobile and grid grid-cols- for larger screens.\n- Update components like SymptomRow, AllergyTableRow , DiagnosisTableRow , and QuestionnaireRow to use isMobile for responsive styling.\n\nEND DATE : TODAY "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12145",
+      "time": "2025-04-29T00:27:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12145#issuecomment-2837105091",
+      "text": "@nihal467 @Jacobjeevan i have solved this issue, can you please assign me this issue to raise the pr \n\nsolution : what i have done is \n- added this logic `  const tooltipTitle = user.last_login ? new Date(user.last_login).toLocaleString() : \"\"; `\n- changed the title to tooltiptitle \n\nhttps://github.com/user-attachments/assets/5805797b-b2ae-4dae-b955-a04f5a2ad478\n\nEND DATE : immediatly as you assign "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12165",
+      "time": "2025-04-28T23:30:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12165",
+      "text": "Add Exception popup should be disabled for past dates #12127"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12142",
@@ -395,15 +416,9 @@
       "labels": []
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12052",
-      "title": "Bug: End Date value is still 'ongoing' in Encounters despite having the status completed #12003",
-      "stale_for": 4,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11855",
       "title": "Tab key does not navigate correctly across form fields in user create form #11799",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "Changes Required"
       ]
