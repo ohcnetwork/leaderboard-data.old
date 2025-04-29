@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-23T05:00:13.000Z",
+  "last_updated": "2025-04-29T05:04:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12152",
+      "time": "2025-04-29T05:04:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12152#issuecomment-2837459665",
+      "text": "@nihal467 I have successfully identified the issue.\n\n**Here’s the current bug:**\n\n<img width=\"410\" alt=\"Current Bug\" src=\"https://github.com/user-attachments/assets/70027cda-ceb7-4cfe-af3f-5ac47fdef010\" />\n\n\n**And here’s the fixed view after my solution:**\n\n<img width=\"415\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/98ce628e-ceb1-442d-b60c-2e08a86d5c30\" />\n\n**My solution:**\n- I will update the button layout to use a responsive flex-wrap structure instead of the current grid, ensuring proper wrapping and spacing on smaller screens without breaking desktop layouts. \n- The fix will be minimal, clean, and maintain design consistency.\n\n**Expected Timeline:**\nI will raise the PR today i.e. 29 April.\n\n**Additional Context:**\nAfter the fix, the buttons will wrap properly on smaller screens instead of overflowing or squishing. The layout stays clean and user-friendly across all devices."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12049",

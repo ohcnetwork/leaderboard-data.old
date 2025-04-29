@@ -1,6 +1,33 @@
 {
-  "last_updated": "2025-04-29T02:58:29.000Z",
+  "last_updated": "2025-04-29T07:35:56.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12052",
+      "time": "2025-04-29T07:35:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12052",
+      "text": "Bug: End Date value is still 'ongoing' in Encounters despite having the status completed #12003",
+      "turnaround_time": 551845
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#12052",
+      "time": "2025-04-29T07:35:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12052",
+      "text": "Bug: End Date value is still 'ongoing' in Encounters despite having the status completed #12003",
+      "collaborated_with": [
+        "gobardan1707",
+        "Jacobjeevan",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12149",
+      "time": "2025-04-29T03:21:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12149#issuecomment-2837332501",
+      "text": "@nihal467 i have started work regarding the issue can you assign me the issue \n\nI have seen in other forms like questionnarie form the auto scroll is working fine because there it uses react-hook-form which will bydefault porvides the service of auto scroll or focuing the fields with validiation failure but it wont work for custom component like datepicker and select boxes for that we need to do the below solution \n\nsolution  :  \n- Use formState.errors  from React Hook Form to get the list of validation errors.\n- Use Object.keys(errors) to get all fields with errors.\n- Identify the first field with an error.\n- Use the ref or  id of the field to locate it in the DOM.\n- Use scrollIntoView to bring the field into view:\n\nEND DATE : TODAY \n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12152",

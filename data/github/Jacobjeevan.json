@@ -1,6 +1,82 @@
 {
-  "last_updated": "2025-04-28T14:39:52.000Z",
+  "last_updated": "2025-04-29T08:20:49.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-01T06:38:21.000Z",
+      "title": "ohcnetwork/care_fe#11633",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11633#pullrequestreview-2731434227",
+      "text": "Fix : Implemented Image Preview in File Upload"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11633",
+      "time": "2025-04-29T08:17:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11633#issuecomment-2837898509",
+      "text": "<img width=\"244\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ef1ffd34-46d4-4f65-8c66-f4b2ebfa4348\" />\r\n\r\nMinor thing, other than that, seems fine 👍 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10756",
+      "time": "2025-04-29T08:11:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10756#issuecomment-2837885613",
+      "text": "> @Jacobjeevan Is it like we are expecting?\r\n> Screen.Recording.2025-04-25.at.5.08.43.PM.mov\r\n\r\nSeems fine, maybe add a bit of margin bottom to the menu.\r\n\r\nTest the functionality on your phone. I tried on android and iOS, functionality isn't working:\r\n\r\n- Have back camera on, set front camera as preferred (doesn't update the preview btw, even though component remounts)\r\n- When I reload the page and upload dialogue again, it still defaults to back camera.\r\n\r\nPreferred camera is ignored on Android as well. Seems like it has to do with permissions more than anything 🤔 On android clicking on switch camera closes the modal and requires user to reopen the whole thing anyways, rather than asking for permissions."
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12168",
+      "time": "2025-04-29T07:43:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12168",
+      "text": "add perms check for buttons in EncounterShow",
+      "turnaround_time": 891
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#12052",
+      "time": "2025-04-29T07:35:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12052",
+      "text": "Bug: End Date value is still 'ongoing' in Encounters despite having the status completed #12003",
+      "collaborated_with": [
+        "gobardan1707",
+        "Jacobjeevan",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12063",
+      "time": "2025-04-29T07:29:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12063#issuecomment-2837786578",
+      "text": "Closing due to inactivity."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12168",
+      "time": "2025-04-29T07:28:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12168",
+      "text": "add perms check for buttons in EncounterShow"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-29T07:05:02.000Z",
+      "title": "ohcnetwork/care_fe#11678",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11678#pullrequestreview-2802295281",
+      "text": "Fix : Expand Tree items by clicking row/text instead of arrow icon"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-29T06:47:52.000Z",
+      "title": "ohcnetwork/care_fe#12036",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12036#pullrequestreview-2802238840",
+      "text": "Enhance API call functionality by adding support for default query parameters in callApi function"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-29T06:42:56.000Z",
+      "title": "ohcnetwork/care_fe#12052",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12052#pullrequestreview-2802215905",
+      "text": "Bug: End Date value is still 'ongoing' in Encounters despite having the status completed #12003"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#12148",
@@ -2012,13 +2088,6 @@
       "link": "https://github.com/ohcnetwork/care/pull/2954",
       "text": "Retrieve External Id in QuestionnaireTag",
       "turnaround_time": 620296
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-01T06:38:21.000Z",
-      "title": "ohcnetwork/care_fe#11633",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11633#pullrequestreview-2731434227",
-      "text": "Fix : Implemented Image Preview in File Upload"
     },
     {
       "type": "pr_reviewed",
