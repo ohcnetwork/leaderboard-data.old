@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-27T08:17:40.000Z",
+  "last_updated": "2025-04-30T14:48:25.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12093",
+      "time": "2025-04-30T14:48:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12093#issuecomment-2842245295",
+      "text": "> @abhimanyurajeesh @AdityaJ2305 when i am clicking on setting button tooltip become invisible but when i am clicking on children it again coming up i tasted while fixing it the problem is i am trying to fix this also but the problem is after clicking on SubButton the click function is not working i emplemented this logic also but that error doesn't got fix function SidebarMenuSubItem({ <Tooltip open={state === \"collapsed\"} onOpenChange={setIsTooltipOpen}> <Comp data-sidebar=\"menu-sub-button\" data-size={size} data-active={isActive} className={cn( \"flex h-7 w-full min-w-0 -translate-x-px items-center gap-2 overflow-hidden rounded-md px-2 text-sidebar-foreground outline-hidden ring-sidebar-ring hover:bg-sidebar-accent hover:text-sidebar-accent-foreground focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 [&>span:last-child]:truncate [&>svg]:size-4 [&>svg]:shrink-0 [&>svg]:text-sidebar-accent-foreground\", \"data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground\", size === \"sm\" && \"text-xs\", size === \"md\" && \"text-sm\", \"group-data-[collapsible=icon]:hidden\", className, )} onClick={handleClick} onMouseEnter={() => setIsTooltipOpen(true)} onMouseLeave={() => setIsTooltipOpen(false)} {...props} > {children} <TooltipContent side=\"right\" align=\"center\" {...(typeof children === \"string\" ? { children } : {})} /> can you please guide me how to solve this\r\n\r\n\r\nHey @maishivamhoo123, I have solved the issue in https://github.com/ohcnetwork/care_fe/pull/12187.\r\n\r\nAs you know the issue was the tooltip would flash briefly after closing the popover. This happened because tooltips open on focus, and when the popover closed, focus automatically returned to the trigger, causing the tooltip to reappear. To fix this, I added onCloseAutoFocus={(e) => e.preventDefault()} to the PopoverContent. This prevents focus from returning to the trigger after the popover closes, which stops the tooltip from being triggered again."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12132",
@@ -2627,10 +2634,21 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12187",
+      "title": "Enhance sidebar navigation button styling and fixed the tooltip issues",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12132",
       "title": "Improved location select v2",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 2,
+      "labels": [
+        "Merge Conflict"
+      ]
     }
   ],
   "authored_issue_and_pr": [

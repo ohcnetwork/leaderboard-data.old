@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-29T17:28:44.000Z",
+  "last_updated": "2025-04-30T14:35:13.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12093",
+      "time": "2025-04-30T14:35:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12093#issuecomment-2842197487",
+      "text": "@abhimanyurajeesh @AdityaJ2305  when i am clicking on setting button tooltip become invisible but when i am clicking on children it again coming up i tasted while fixing it the problem is i am trying to fix this also but the problem is after clicking on SubButton  the click function is not working  i emplemented this logic also but that error doesn't got fix function SidebarMenuSubItem({\r\n  <SidebarMenuSubItem>\r\n      <Tooltip open={state === \"collapsed\"} onOpenChange={setIsTooltipOpen}>\r\n        <TooltipTrigger asChild>\r\n          <Comp\r\n            data-sidebar=\"menu-sub-button\"\r\n            data-size={size}\r\n            data-active={isActive}\r\n            className={cn(\r\n              \"flex h-7 w-full min-w-0 -translate-x-px items-center gap-2 overflow-hidden rounded-md px-2 text-sidebar-foreground outline-hidden ring-sidebar-ring hover:bg-sidebar-accent hover:text-sidebar-accent-foreground focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 [&>span:last-child]:truncate [&>svg]:size-4 [&>svg]:shrink-0 [&>svg]:text-sidebar-accent-foreground\",\r\n              \"data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground\",\r\n              size === \"sm\" && \"text-xs\",\r\n              size === \"md\" && \"text-sm\",\r\n              \"group-data-[collapsible=icon]:hidden\",\r\n              className,\r\n            )}\r\n            onClick={handleClick}\r\n            onMouseEnter={() => setIsTooltipOpen(true)}\r\n            onMouseLeave={() => setIsTooltipOpen(false)}\r\n            {...props}\r\n          >\r\n            {children}\r\n          </Comp>\r\n        </TooltipTrigger>\r\n        <TooltipContent\r\n          side=\"right\"\r\n          align=\"center\"\r\n          {...(typeof children === \"string\" ? { children } : {})}\r\n        />\r\n      </Tooltip>\r\n    </SidebarMenuSubItem>\r\ncan you please guide me how to solve this"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12179",
@@ -233,13 +240,6 @@
       "text": "pop up after appointment got cancelled #11475"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12093",
-      "title": "change in visibility of tooltip",
-      "stale_for": 1,
-      "labels": []
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }
