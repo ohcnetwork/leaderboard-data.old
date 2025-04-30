@@ -1,0 +1,28 @@
+{
+  "last_updated": "2025-04-29T17:38:39.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12158",
+      "time": "2025-04-29T17:38:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12158#issuecomment-2839700046",
+      "text": "@bodhish is the issue resolved?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12179",
+      "time": "2025-04-29T17:34:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12179#issuecomment-2839692330",
+      "text": "hey @maishivamhoo123, that sounds great. There is no need of deactivating the button, but i think a preview functionality can be implemented and the upload file must be active only when upload button is clicked but here when we are clicking on the uploaded file the file upload is popping up ? I request thoughts on this..\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12179",
+      "time": "2025-04-29T17:20:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12179#issuecomment-2839650024",
+      "text": "I would like to work on this issue. Here's my proposed workaround:\n\n**Solution Overview: Identify the Problem**\n\nThis problem has two parts.  \n\n1. The upload file button continues to be active (enabled) after an upload has been completed.\n  \n2. Files that have already been uploaded cannot be previewed by users upon clicking on them.\n\nThe resolving steps will involve the following:\n\n1. Implementing the add file upload state and selected file state behavior.\n2. Deactivating the upload button whenever a file is uploaded successfully\n3. Implementing the preview feature by allowing users to click on the file names of uploaded files that are displayed.\n4. Only enabling upload button upon the action of pressing the “clear” button afterwards. \n5. Enabling mark for showing non-active state and for non-active file names that can be clicked.\n\n**Implementation Steps:**\n\n1. Upload state can be implements in `LinkConsentDialog.tsx` so need to change this file.\n\n2. Put up a new component called `FilePreview` which will be used for file viewing.\n\n3. Change the text which appears on the file upload button to show that it is inactive.\n\n4. Implement the click event for file previews.\n\n5. When clearing file, add appropriate state cleanup.\n  \n6. Add relevant types on TypeScript.\n  \n7. Add the as far as the behavior it will be assumed to change is the while tests document new tests, new behaviors and will be confirmed\n\n\n**Timeline expected**  \nwill start as soon as the issue assigned.\nSubmission : within a few hours of assignment\n\n**what this solution provides**\nThis solution:\n1. Disables the upload button after successful upload.\n2. Makes the file name clickable to open the preview.\n3. Shows a proper preview dialog for different file types (PDF, images, etc.)\n4. Maintains the existing functionality while adding the new features.\n\n"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}

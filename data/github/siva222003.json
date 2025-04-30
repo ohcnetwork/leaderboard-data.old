@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-22T17:32:13.000Z",
+  "last_updated": "2025-04-29T15:26:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12176",
+      "time": "2025-04-29T15:26:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12176#issuecomment-2839338589",
+      "text": "This is happening because we are directly comparing the response of the Boolean question with the condition to render the second question, but their types don’t match. We can solve this by typecasting the response value to match the condition type or by handling different types separately during the comparison.\n\n@Jacobjeevan @rithviknishad  Can i solve this?\nETA : EOD"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11922",
@@ -704,6 +711,15 @@
       "text": "Hey @Jeffrin2005 Can you assign this to me?"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12048",
+      "title": "test: add tests for Community Nurse Homecare Form questionnaire",
+      "stale_for": 5,
+      "labels": [
+        "Merge Conflict"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-04-28T17:07:37.000Z",
+  "last_updated": "2025-04-29T16:52:44.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#3015",
+      "time": "2025-04-29T16:52:44.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/3015",
+      "text": "BE: Disable Reschedule Button When Appointment Status Is 'In Consultation'"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#3015",
+      "time": "2025-04-29T16:28:28.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/3015#issuecomment-2839523468",
+      "text": "Please clean up the issue description"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care#3016",
+      "time": "2025-04-29T16:27:07.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/3016",
+      "text": "Incorrect organizations data imported using the `load_govt_organization_csv` command"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#3016",
+      "time": "2025-04-29T16:27:05.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/3016#issuecomment-2839520231",
+      "text": "When an organization is saved the model save method will ensure that the has_parent has the right values, no need to explicitly set it."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#3017",
+      "time": "2025-04-29T16:26:54.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3017#issuecomment-2839519742",
+      "text": "When an organization is saved the model save method will ensure that the has_parent has the right values, no need to explicitly set it."
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-04-28T17:07:37.000Z",
@@ -14876,7 +14911,7 @@
     {
       "link": "https://github.com/ohcnetwork/docs/pull/6",
       "title": "[CEP-4] RBAC: initial spec",
-      "stale_for": 208,
+      "stale_for": 209,
       "labels": []
     }
   ],
