@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-28T19:07:03.000Z",
+  "last_updated": "2025-04-29T13:12:44.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12172",
+      "time": "2025-04-29T13:12:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12172#issuecomment-2838839603",
+      "text": "hey @bodhish i also observed issue relate this  questionnaire form, i add question when I select a type and assign a structure_type (for example, MedicationRequest), but not saved . However, if I later change the type to something else (where no structure_type should be set), the previously selected structure_type (MedicationRequest) is still being saved in the backend.\n\n![Image](https://github.com/user-attachments/assets/74985b2a-3f56-45b9-ae5c-4728b9d7f45a)"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12159",
@@ -406,7 +413,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12159",
       "title": "Enhancement: Add newPatient type",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
