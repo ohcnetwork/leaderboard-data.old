@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-29T18:03:04.000Z",
+  "last_updated": "2025-04-30T17:58:04.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10756",
+      "time": "2025-04-30T17:58:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10756#issuecomment-2842851557",
+      "text": "> > @Jacobjeevan Is it like we are expecting?\r\n> > Screen.Recording.2025-04-25.at.5.08.43.PM.mov\r\n> \r\n> Seems fine, maybe add a bit of margin bottom to the menu.\r\n> \r\n> Test the functionality on your phone. I tried on android and iOS, functionality isn't working:\r\n> \r\n> * Have back camera on, set front camera as preferred (doesn't update the preview btw, even though component remounts)\r\n> * When I reload the page and upload dialogue again, it still defaults to back camera.\r\n> \r\n> Preferred camera is ignored on Android as well. Seems like it has to do with permissions more than anything 🤔 On android clicking on switch camera closes the modal and requires user to reopen the whole thing anyways, rather than asking for permissions.\r\n\r\n@Jacobjeevan Functionality is working fine in Android I think. Back camera and front camera are getting saved as preferred camera. Although I don't know in IOS since I don't have ios device. \r\n\r\nhttps://github.com/user-attachments/assets/d8ce3355-75f3-4b5a-ad96-3fc74854623b\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_teleicu_devices_fe#48",
@@ -2171,7 +2178,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10756",
       "title": "Allow to select preferable camera during photo capturing",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "Changes Required"
       ]
