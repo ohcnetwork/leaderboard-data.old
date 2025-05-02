@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-04-30T20:22:58.000Z",
+  "last_updated": "2025-05-02T14:51:20.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11644",
+      "time": "2025-05-02T14:51:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11644#issuecomment-2847396858",
+      "text": "@nihal467 , Ready for re-test"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12039",
+      "time": "2025-05-02T12:26:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12039#issuecomment-2847088771",
+      "text": "@Harishgouda06022004 , could you share  dimensions on which you are encountering this error , I'm not able to reproduce the same "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12184",
+      "time": "2025-05-02T09:19:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12184#issuecomment-2846760187",
+      "text": "Like this \r\n\r\nhttps://github.com/user-attachments/assets/68478472-3a78-44f9-b15d-a07865997e98\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12184",
+      "time": "2025-05-02T08:36:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12184#issuecomment-2846670355",
+      "text": "@Jacobjeevan @rithviknishad — just wanted to confirm before making any changes: should I now directly use the two existing CombinedDatePicker from the appointment selection page, remove the newly created merged DateRangePicker, and instead adjust min and max in RelativeDatePicker? Is that correct?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12184",
@@ -7170,12 +7198,10 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12184",
-      "title": "Created new DateRangePicker with split start date and end date ",
+      "title": "Used two CombinedDatePicker to split start date and end date  instead of DateRangePicker",
       "stale_for": 0,
       "labels": [
-        "question",
-        "Changes Required",
-        "needs-triage"
+        "Changes Required"
       ]
     },
     {
@@ -7204,9 +7230,18 @@
       ]
     },
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11981",
+      "title": "Update Questionnaire Response to conform with Backend",
+      "stale_for": 0,
+      "labels": [
+        "invalid",
+        "Tested ✅"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11919",
       "title": "Redesigned DeviceList Page and Add Location Filter on DeviceList ",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "question",
         "needs-triage"
@@ -7217,8 +7252,7 @@
       "title": "Refactor SearchInput and Used it in CodeBase (affected pages in are in Description) & Improve ResourceList Filtering UI",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "test failed"
       ]
     }
   ],

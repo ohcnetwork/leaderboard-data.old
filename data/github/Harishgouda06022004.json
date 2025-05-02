@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-04-27T11:53:03.000Z",
+  "last_updated": "2025-05-02T12:50:43.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12039",
+      "time": "2025-05-02T12:50:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12039#issuecomment-2847130399",
+      "text": "Sure! Here are the dimensions on which I'm encountering the issue:\n\n- **OS**: Arch Linux\n- **Browser**: Chrome Version 123.0.x\n- **Screen resolution**: 1366x768\n- **Component usage**: Inside the Schedule Template Editor form\n- **Issue**: The input for `valid_from` clips part of long month names like \"September\" (e.g., \"September 17th, 2026\")\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12096",
@@ -203,6 +210,22 @@
       "text": "sir in website where this kind of date picker is present is it present in stafflogin or patient login or can you share the link of that"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12096",
+      "title": "Fix UI Overflow for valid_from Date Field in Schedule Template Editor",
+      "stale_for": 0,
+      "labels": [
+        "invalid",
+        "Changes Required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/100",
+      "title": "Update Harishgouda06022004.md",
+      "stale_for": 14,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }
