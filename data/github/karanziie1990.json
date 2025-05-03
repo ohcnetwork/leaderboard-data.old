@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-03T09:04:57.000Z",
+  "last_updated": "2025-05-03T14:21:19.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12208",
+      "time": "2025-05-03T14:21:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12208#issuecomment-2848648292",
+      "text": "Hey @rithviknishad,\r\nI’ve refactored the hard-coded usages of `\"India\"` by updating `careConfig.defaultCountry` to be an object, and replaced direct `\"India\"` strings with `careConfig.defaultCountry.name` across the codebase, as discussed.\r\n\r\nHowever, some Cypress tests are failing due to timeout errors — possibly because `careConfig.defaultCountry.name` is being accessed multiple times in quick succession.\r\n\r\nTo address this, would it be fine to assign it to a variable like:\r\n> `const defaultCountry = careConfig.defaultCountry.name`\r\n\r\nand use `defaultCountry` in place of repeated `\"India\"` references within the same file?\r\n\r\nLet me know if this sounds good, or if you think the issue might be caused by something else.\r\n\r\n"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12208",
@@ -195,7 +202,10 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/12208",
       "title": "Refactor: Replaced hard-coded `India` with careConfig's `defaultCountry`",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
     }
   ],
   "authored_issue_and_pr": []
