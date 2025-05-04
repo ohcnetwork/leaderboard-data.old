@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-04-29T07:28:56.000Z",
+  "last_updated": "2025-05-04T16:14:23.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11937",
+      "time": "2025-05-04T16:14:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11937#issuecomment-2849296300",
+      "text": "@rithviknishad, raised PR for the issue, please let me know if any changes are required"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12216",
+      "time": "2025-05-04T15:45:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12216#issuecomment-2849285090",
+      "text": "@Tanuj1718, \r\nThis PR is required to refactor usage of entity_count i18n key, i18n scanner is unable to scan entity_count key in the code base because of the way it is used, we need to ensure that translation function is called by passing complete i18n key, whereas as of now we are only passing a part of the key in translation function."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12216",
+      "time": "2025-05-04T15:26:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12216",
+      "text": "Refactor entity count i18n key usage"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12155",
@@ -358,9 +379,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12216",
+      "title": "Refactor entity count i18n key usage",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12155",
       "title": "Add appointment question 'required' flag support",
-      "stale_for": 1,
+      "stale_for": 5,
       "labels": [
         "question",
         "needs-triage"
@@ -369,14 +399,16 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12070",
       "title": "Refactor remove_medication_confirmation i18n key usage code",
-      "stale_for": 0,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11852",
       "title": "Add JS script to remove unused i18n keys and guidelines on i18n key usage",
-      "stale_for": 6,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "stale"
+      ]
     }
   ],
   "authored_issue_and_pr": [
