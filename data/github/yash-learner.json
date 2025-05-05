@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-05-03T11:20:13.000Z",
+  "last_updated": "2025-05-05T10:57:29.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12227",
+      "time": "2025-05-05T10:57:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12227",
+      "text": "fix: prevent sheet from closing when interacting with select dropdown"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12151",
+      "time": "2025-05-05T10:21:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12151#issuecomment-2850552112",
+      "text": "For the sake of reviewers and testers:\r\n\r\nNoticed this https://github.com/ohcnetwork/care_fe/issues/12222, will fix this separately this is already there on develop"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12222",
+      "time": "2025-05-05T10:19:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12222",
+      "text": "Handle back propagation with select inside the EntitySelectionSheet"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12221",
+      "time": "2025-05-05T08:37:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12221",
+      "text": "Fix the rare crash in MedicationStatement"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#12042",
@@ -1118,10 +1146,21 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12227",
+      "title": "fix: prevent sheet from closing when interacting with select dropdown",
+      "stale_for": 0,
+      "labels": [
+        "Work in Progress 🚧"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12221",
       "title": "Fix the rare crash in MedicationStatement",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12181",
@@ -1146,7 +1185,7 @@
       "title": "Use EntitySelectionsheet and enhance collapsible for AllergyQuestion",
       "stale_for": 0,
       "labels": [
-        "Changes Required"
+        "needs review"
       ]
     },
     {

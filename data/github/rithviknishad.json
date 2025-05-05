@@ -1,12 +1,59 @@
 {
-  "last_updated": "2025-05-04T18:40:19.000Z",
+  "last_updated": "2025-05-05T12:19:52.000Z",
   "activity": [
     {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#3018",
+      "time": "2025-05-05T12:19:52.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3018",
+      "text": "Management command to update `FacilityLocation` objects that has `has_children=False` but actually has children objects",
+      "turnaround_time": 249993
+    },
+    {
       "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#59",
+      "time": "2025-05-05T10:48:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/59#issuecomment-2850607599",
+      "text": "https://develop.ohc.network/facility/fa778d26-b5d5-4ff0-9785-ff44486e6bd6/settings/devices/fb801309-5299-4426-aa08-a5d7eb425254\n\nrithviknishad\nOhcn@123"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#59",
+      "time": "2025-05-05T10:23:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/59#issuecomment-2850557043",
+      "text": "@hrit2773 willing to take this up? 🤔 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#59",
+      "time": "2025-05-05T10:23:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/59#issuecomment-2850556028",
+      "text": "Understood!\n\nWhat we could do is: when we click \"Update with Camera's current position\" button, let's show a tick icon for a brief time in the button and disable the button as well for a brief time."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#59",
+      "time": "2025-05-05T10:18:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/59#issuecomment-2850544733",
+      "text": "This is working as expected @Jrl0 \n\nCould you provide more specific information or a screen recording?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-29T14:17:38.000Z",
+      "title": "ohcnetwork/care_fe#12171",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12171#pullrequestreview-2803803739",
+      "text": "Redesign not-found page"
+    },
+    {
+      "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#12190",
-      "time": "2025-05-04T18:40:19.000Z",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12190#issuecomment-2849358406",
-      "text": "@gobardan1707 do a self-review of the code, some of the previously requested reviews before this has also not been resolved yet"
+      "time": "2025-05-05T10:02:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12190",
+      "text": "Session Expired Page #12123",
+      "collaborated_with": [
+        "gobardan1707",
+        "rithviknishad"
+      ]
     },
     {
       "type": "pr_reviewed",
@@ -14,6 +61,13 @@
       "title": "ohcnetwork/care_fe#12190",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12190#pullrequestreview-2811255717",
       "text": "Session Expired Page #12123"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12190",
+      "time": "2025-05-04T18:40:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12190#issuecomment-2849358406",
+      "text": "@gobardan1707 do a self-review of the code, some of the previously requested reviews before this has also not been resolved yet"
     },
     {
       "type": "pr_reviewed",
@@ -283,13 +337,6 @@
       "time": "2025-05-02T11:09:16.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12171#issuecomment-2846959496",
       "text": "https://github.com/ohcnetwork/care_fe/pull/12171#discussion_r2066648168"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-29T14:17:38.000Z",
-      "title": "ohcnetwork/care_fe#12171",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12171#pullrequestreview-2803803739",
-      "text": "Redesign not-found page"
     },
     {
       "type": "pr_reviewed",
@@ -69359,12 +69406,6 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care/pull/3018",
-      "title": "Management command to update `FacilityLocation` objects that has `has_children=False` but actually has children objects",
-      "stale_for": 2,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12036",
       "title": "Enhance API call functionality by adding support for default query parameters in callApi function",
       "stale_for": 0,
@@ -69384,7 +69425,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/2",
       "title": "added translations",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     }
   ],

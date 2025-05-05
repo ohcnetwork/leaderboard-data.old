@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-04-29T15:26:08.000Z",
+  "last_updated": "2025-05-05T12:01:22.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12224",
+      "time": "2025-05-05T12:01:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12224#issuecomment-2850772051",
+      "text": "@Spandan-Mishra I feel the current functionality might actually be more user-friendly. If a user accidentally clicks outside the sheet, they won’t lose the data they’ve already entered , which is helpful, especially since the form is a bit complex.\n\nAlso, if the user intentionally clicks the Cancel button, it’s unlikely they’ll want to fill out the form again immediately. And even if they do, they still have the option to manually update the fields from the start which is like creating a new one.\n\nWould love to hear your thoughts on this."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12226",
+      "time": "2025-05-05T10:53:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12226#issuecomment-2850620304",
+      "text": "@nihal467 I couldn't replicate the first issue , the location values are being sent properly even without modifying the location field. I created a new facility and tried to reproduce the issue but didn’t face any problems.\n\nFor the second one, we can add a Clear/Reset button to allow resetting the current location in both the Create and Edit forms.\n\nCan I work on this?\nETA: EOD"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12176",
@@ -713,12 +727,19 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12235",
+      "title": "Fix: improve facility location handling in create/edit form",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12048",
       "title": "test: add tests for Community Nurse Homecare Form questionnaire",
-      "stale_for": 6,
-      "labels": [
-        "Merge Conflict"
-      ]
+      "stale_for": 0,
+      "labels": []
     }
   ],
   "authored_issue_and_pr": []

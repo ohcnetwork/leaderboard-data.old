@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-05-04T13:14:52.000Z",
+  "last_updated": "2025-05-05T14:25:23.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12232",
+      "time": "2025-05-05T14:25:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12232#issuecomment-2851186815",
+      "text": "@nihal467 I have solved a similar problem in #12215, in which there was a scrollable area in the page due to which whole page was scrolling\nETA: 1 Day\nApproach: Restrict the scrolling of the page. Prevent overflow of the scrolling component and make it the only scrollable component in the page."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12224",
+      "time": "2025-05-05T13:14:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12224#issuecomment-2850972278",
+      "text": "@siva222003 I think clicking on cancel and then creating a new template should show an empty one. Because if the user does this, most likely they want to create one from scratch.\n\nAs for the clicking outside one, your reasoning is better and would reduce errors."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12226",
+      "time": "2025-05-05T11:38:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12226#issuecomment-2850720679",
+      "text": "@nihal467 I want to work on this issue\nETA: 2 Days\nApproach:\n1. The first issue is occurring because `FacilityForm.tsx` has the following onSubmit code:\n  ```\nconst onSubmit: (data: FacilityFormValues) => void = (\n    data: FacilityFormValues,\n  ) => {\n    if (facilityId) {\n      updateFacility({\n        ...data,\n        latitude: data.latitude ?? 0,\n        longitude: data.longitude ?? 0,\n      });\n    } else {\n      createFacility(data);\n    }\n  }; \n```\nBy removing the fallback condition of setting latitude and longitude to 0 when they are undefined, the location values dont get updated on their own.\n\n2. In the `GeoLocationPicker.tsx` component, beside the Get Current Location button, a Remove Location Button can be added. When the user clicks this, the form.latitude & form.longitude will be set to undefined in that component as well as parent component. Also the searchQuery will be set to \"\""
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12065",
+      "time": "2025-05-05T11:01:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12065#issuecomment-2850636227",
+      "text": "@Jacobjeevan I would like to work on this issue\nETA: EOD\nApproach: In the top-level div returned by `QuantityQuestion.tsx`, if we add `flex-col sm:flex-row items-center`, it solves the issue\n\n![Image](https://github.com/user-attachments/assets/5747d224-f8bf-49ad-9ecb-e32c4116bce7)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12224",
+      "time": "2025-05-05T10:29:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12224#issuecomment-2850568510",
+      "text": "@bodhish @rithviknishad @Jacobjeevan I would like to work on this issue if it is valid\nETA: 1 Day\nApproach: Track the clicking on Cancel button, or outside the sheet and change the value of `form` to its default value when this happens."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12224",
+      "time": "2025-05-05T10:27:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12224",
+      "text": "Schedule Template value clears only on reload"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12214",
+      "time": "2025-05-05T09:56:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12214#issuecomment-2850495521",
+      "text": "I've made the suggested changes👍 @Tanuj1718 \r\n\r\nI saw somewhere that custom components are not automatically connected to react hook form's error state. So I have explicitly included `fieldState.error?.message` for them."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12215",
@@ -839,29 +888,34 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/12214",
       "title": "Added autoscroll for custom components in create schedule",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12075",
       "title": "Fixed alignment issue in prescription preview",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": [
-        "Changes Required"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11883",
       "title": "On delete navigation fixed in facility page of organizations.",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": [
         "invalid",
-        "test failed"
+        "test failed",
+        "Merge Conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/landing/pull/66",
       "title": "Fixed responsive issue between 640-767px",
-      "stale_for": 61,
+      "stale_for": 62,
       "labels": []
     }
   ],

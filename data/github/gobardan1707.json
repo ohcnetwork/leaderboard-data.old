@@ -1,6 +1,46 @@
 {
-  "last_updated": "2025-05-04T15:16:47.000Z",
+  "last_updated": "2025-05-05T13:51:39.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12233",
+      "time": "2025-05-05T13:51:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12233#issuecomment-2851082988",
+      "text": "@nihal467 @Jacobjeevan @rithviknishad  can you please assign this issue , this would be my approach \n \nSOLUTION :  \n\n- Used the isAfter function from the date-fns library to check if the current date is beyond the consent's validity period .\n- Updated the consentStatus dynamically to \"expired\" if the consent is past its validity period.\n - Modified the ConsentCard component to display the updated status (\"Expired\") when applicable.\n\nEND DATE  : TOMORROW "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12233",
+      "time": "2025-05-05T13:39:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12233",
+      "text": "Expired Consent Records Incorrectly Displayed as Active"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12231",
+      "time": "2025-05-05T13:34:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12231#issuecomment-2851032096",
+      "text": "@nihal467 can you assign me this issue , this would be my approach \n\nSOLUTION :  \n- QuestionnaireForm.tsx and QuestionnaireEditor.tsx. These files include logic for rendering the questionnaire and its navigation, with a sidenav-like structure for navigating between questions or groups.\n- I will  make the sidenav sticky by applying position: sticky to the relevant container and ensuring it remains accessible during scrolling.\n\nEND DATE : TOMORROW "
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12190",
+      "time": "2025-05-05T10:02:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12190",
+      "text": "Session Expired Page #12123",
+      "turnaround_time": 347186
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#12190",
+      "time": "2025-05-05T10:02:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12190",
+      "text": "Session Expired Page #12123",
+      "collaborated_with": [
+        "gobardan1707",
+        "rithviknishad"
+      ]
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#12213",
@@ -500,17 +540,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12190",
-      "title": "Session Expired Page #12123",
-      "stale_for": 0,
-      "labels": [
-        "Changes Required"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11855",
       "title": "Tab key does not navigate correctly across form fields in user create form #11799",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "Changes Required"
       ]

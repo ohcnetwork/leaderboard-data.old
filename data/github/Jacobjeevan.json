@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-05-02T15:35:59.000Z",
+  "last_updated": "2025-05-05T11:56:16.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-28T09:29:35.000Z",
+      "title": "ohcnetwork/care_fe#12075",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12075#pullrequestreview-2798675392",
+      "text": "Fixed alignment issue in prescription preview"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-05T11:53:56.000Z",
+      "title": "ohcnetwork/care_fe#12155",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12155#pullrequestreview-2814561997",
+      "text": "Add appointment question 'required' flag support"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-05T09:34:17.000Z",
+      "title": "ohcnetwork/care_fe#12067",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12067#pullrequestreview-2814286125",
+      "text": "Added Organiztion selector to care team sheet"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-05T09:22:05.000Z",
+      "title": "ohcnetwork/care_fe#12133",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12133#pullrequestreview-2814259777",
+      "text": "Added Description for Single Input questions to display while accessing encounter questionnaires"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-05T09:16:35.000Z",
+      "title": "ohcnetwork/care_fe#12126",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12126#pullrequestreview-2814245463",
+      "text": "fix:Encounter status and class tags overlap in Encounter view"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-04T06:09:04.000Z",
+      "title": "ohcnetwork/care_fe#11717",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11717#pullrequestreview-2741810595",
+      "text": "fix: cancel plan button to delete the planned location of the Encounter section."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12212",
+      "time": "2025-05-05T08:58:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12212#issuecomment-2850342875",
+      "text": "There are multiple places where sheet can be open, so you would need to figure out a solution that works for all cases (going and modifying each instance of sheet isn't ideal)."
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#11868",
@@ -267,13 +316,6 @@
       "title": "ohcnetwork/care_fe#11883",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11883#pullrequestreview-2763278388",
       "text": "On delete navigation fixed in facility page of organizations."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-28T09:29:35.000Z",
-      "title": "ohcnetwork/care_fe#12075",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12075#pullrequestreview-2798675392",
-      "text": "Fixed alignment issue in prescription preview"
     },
     {
       "type": "pr_reviewed",
@@ -1842,13 +1884,6 @@
       "time": "2025-04-04T09:13:59.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11719#issuecomment-2778034663",
       "text": "> @Jacobjeevan , If you observe in the demo video It is showing edit option for Root as well which I think should be dependent of canManageRootFacility from permission which I noticed is absent in backend and frontend, It shouldn't be great practice to hide to edit button for root by checking org.type am I right ? so need backned changes to push the permission for managerootorg\r\n\r\nNo, hide the edit button for root, it should not be editable."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-04T06:09:04.000Z",
-      "title": "ohcnetwork/care_fe#11717",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11717#pullrequestreview-2741810595",
-      "text": "fix: cancel plan button to delete the planned location of the Encounter section."
     },
     {
       "type": "comment_created",
@@ -12625,7 +12660,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12117",
       "title": "Report Builder",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
         "Work in Progress 🚧"
       ]
@@ -12633,7 +12668,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11983",
       "title": "Location and Device Perms",
-      "stale_for": 11,
+      "stale_for": 12,
       "labels": [
         "Work in Progress 🚧",
         "waiting for related PR",
