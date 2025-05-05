@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-04T15:33:11.000Z",
+  "last_updated": "2025-05-04T17:31:22.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12216",
+      "time": "2025-05-04T17:31:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12216#issuecomment-2849329593",
+      "text": "> @Tanuj1718, This PR is required to refactor usage of entity_count i18n key, i18n scanner is unable to scan entity_count key in the code base because of the way it is used, we need to ensure that translation function is called by passing complete i18n key, whereas as of now we are only passing a part of the key in translation function.\r\n> \r\n> Please refer to #10924\r\n\r\n@mnshrm Fine btw I was talking about those changes which you have reverted👍\r\nIt was a draft PR when I reviewed it, so it was a mistake from my end.😅"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-05-04T15:31:34.000Z",
@@ -2269,7 +2276,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10756",
       "title": "Allow to select preferable camera during photo capturing",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "Changes Required"
       ]
