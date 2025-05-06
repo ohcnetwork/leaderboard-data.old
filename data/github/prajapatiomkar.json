@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-03T06:53:52.000Z",
+  "last_updated": "2025-05-06T11:27:36.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12243",
+      "time": "2025-05-06T11:27:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12243#issuecomment-2854223266",
+      "text": "As @Jeffrin2005 mentioned, we have to manually reload the page to fix the 'Update Available' status on the button. After the toast closes, I can automatically reload the page so that the updateStatus value resets to its default state.\n\nAfter Fix:\n\nhttps://github.com/user-attachments/assets/57537191-69cc-4ee3-8817-17edc0796999"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12243",
+      "time": "2025-05-06T11:10:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12243#issuecomment-2854175443",
+      "text": "I debugged the issue — the updateStatus state is responsible for the different states of the button. My question is: what behavior are you expecting when the toast is either canceled ?\n\n![Image](https://github.com/user-attachments/assets/7d769b3a-4311-43b4-823a-9d55f9a34044)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12204",
