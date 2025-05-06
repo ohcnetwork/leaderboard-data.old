@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-05-05T12:01:22.000Z",
+  "last_updated": "2025-05-05T17:19:34.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12230",
+      "time": "2025-05-05T17:19:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12230#issuecomment-2851710404",
+      "text": "@nihal467 We can avoid calling the `availability_stats` API by checking if the `templates` array is empty.\n\nCan I take this up?\nETA: ASAP (should be a quick fix)."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12235",
+      "time": "2025-05-05T16:52:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12235#issuecomment-2851634626",
+      "text": "@rithviknishad @Jacobjeevan\r\nI’ve added a reset button to clear the selected location in both the create and edit facility forms. However, if a location has been added at least once, removing the selected location and submitting the form will not remove the location from the facility.\r\n\r\nPlease let me know if any changes are needed."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12235",
+      "time": "2025-05-05T16:48:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12235",
+      "text": "Fix: improve facility location handling in create/edit form"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12224",

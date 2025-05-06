@@ -1,0 +1,14 @@
+{
+  "last_updated": "2025-05-05T15:29:20.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12212",
+      "time": "2025-05-05T15:29:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12212#issuecomment-2851372989",
+      "text": "hey @Srayash, The issue occurs due to a z-index or pointer-events conflict between the sidebar and the toaster notification. When the sidebar opens, it likely introduces an overlay or element that blocks interaction with the toast. I will resolve this by ensuring the toast container has a higher z-index than the sidebar and that no overlay is intercepting clicks. I’ll also verify that the toast is rendered outside the sidebar's DOM tree to avoid stacking issues. \n\nexpected time -> 1-2 days(max)\n\nplease assign me this issue"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}

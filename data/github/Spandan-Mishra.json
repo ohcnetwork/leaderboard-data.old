@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-05-05T14:25:23.000Z",
+  "last_updated": "2025-05-05T18:32:31.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12230",
+      "time": "2025-05-05T18:32:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12230#issuecomment-2851964345",
+      "text": "@nihal467 i would like to work on this issue\nETA: I have the solution ready, just need to make a PR\nApproach: Conditional rendering of `DailyDetailsPopover`, based on whether templates is empty or not. This is because this component uses `useAvailabilityHeatmap`, and in its implementation this hook calls `/availability_stats`"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12231",
+      "time": "2025-05-05T17:46:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12231#issuecomment-2851838626",
+      "text": "@nihal467 I would like to work on this issue\nETA: 1 Day\nApproach: Add a sticky floating navbar in `QuestionnaireForm.tsx` which appears when user scrolls past the left navigation bar. It will look like this:\n\n![Image](https://github.com/user-attachments/assets/a989f5b2-a6a3-4aea-b654-4fad803c1c64)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11883",
+      "time": "2025-05-05T16:11:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11883#issuecomment-2851504477",
+      "text": "i believe it is working correctly now\r\n@rithviknishad @Jacobjeevan \r\n\r\nhttps://github.com/user-attachments/assets/820d117a-c5d0-480e-b647-3120563defa4\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12232",
