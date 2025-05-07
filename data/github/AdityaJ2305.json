@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-05-06T11:57:15.000Z",
+  "last_updated": "2025-05-06T19:41:19.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-06T19:41:19.000Z",
+      "title": "ohcnetwork/care_fe#12248",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12248#pullrequestreview-2819423222",
+      "text": "Validation check of 'From Date' against Consent Date"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-11T20:24:46.000Z",
+      "title": "ohcnetwork/care_fe#11883",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11883#pullrequestreview-2761504711",
+      "text": "On delete navigation fixed in facility page of organizations."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12244",
+      "time": "2025-05-06T19:34:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12244#issuecomment-2855723980",
+      "text": "\r\n\r\n> existing thing works, let's not change things unless an issue is filed!\r\n\r\nOh okay, since DateTimePicker has the deprecated tag and medication request was the only place still using it, I thought I’d just update it in this PR\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12244",
+      "time": "2025-05-06T18:41:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12244#issuecomment-2855565843",
+      "text": "@rithviknishad, just wanted to know the reason for closing this PR 😅"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12247",
+      "time": "2025-05-06T18:39:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12247",
+      "text": "Enhancement: Show Bed Start and End time in the location sidebar of the encounter"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12244",
@@ -636,13 +671,6 @@
       "time": "2025-04-11T20:36:28.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11287#issuecomment-2797964239",
       "text": "@bodhish \r\n<img width=\"917\" alt=\"Screenshot 2025-04-12 at 2 05 55 AM\" src=\"https://github.com/user-attachments/assets/5c0f8cef-b492-4b23-a913-f9ecf3765a41\" />\r\n"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-11T20:24:46.000Z",
-      "title": "ohcnetwork/care_fe#11883",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11883#pullrequestreview-2761504711",
-      "text": "On delete navigation fixed in facility page of organizations."
     },
     {
       "type": "pr_opened",
@@ -7300,9 +7328,9 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11981",
       "title": "Update Questionnaire Response to conform with Backend",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": [
-        "invalid",
+        "needs review",
         "Tested ✅"
       ]
     },
@@ -7311,16 +7339,16 @@
       "title": "Redesigned DeviceList Page and Add Location Filter on DeviceList ",
       "stale_for": 0,
       "labels": [
-        "question",
-        "needs-triage"
+        "Changes Required"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11644",
       "title": "Refactor SearchInput and Used it in CodeBase (affected pages in are in Description) & Improve ResourceList Filtering UI",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
-        "test failed"
+        "needs testing",
+        "needs review"
       ]
     }
   ],
