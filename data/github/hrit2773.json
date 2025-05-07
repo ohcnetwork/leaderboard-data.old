@@ -1,6 +1,46 @@
 {
-  "last_updated": "2025-05-06T18:35:39.000Z",
+  "last_updated": "2025-05-07T06:07:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#3025",
+      "time": "2025-05-07T06:07:08.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/3025#issuecomment-2857170513",
+      "text": "@vigneshhari @rithviknishad We can schedule a celery job for every 24 hrs to check for the consents passing the end date and we can change the status to inactive. Can you assign me? I want to work on this if valid"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#3025",
+      "time": "2025-05-07T06:04:54.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/3025#issuecomment-2857166738",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/12233"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care#3025",
+      "time": "2025-05-07T06:04:33.000Z",
+      "link": "https://github.com/ohcnetwork/care/issues/3025",
+      "text": "Mark the consents which have passed the valid end date as inactive"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#11978",
+      "time": "2025-05-07T05:06:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11978",
+      "text": "Added support for specifying Question Unit and added validations to coding editor and also added Move up/down buttons to custom choices",
+      "turnaround_time": 1774558
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#11978",
+      "time": "2025-05-07T05:06:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11978",
+      "text": "Added support for specifying Question Unit and added validations to coding editor and also added Move up/down buttons to custom choices",
+      "collaborated_with": [
+        "hrit2773",
+        "nihal467"
+      ]
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#12133",
@@ -4734,7 +4774,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12067",
       "title": "Added Organiztion selector to care team sheet",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "Changes Required"
       ]
@@ -4745,6 +4785,7 @@
       "stale_for": 0,
       "labels": [
         "question",
+        "Merge Conflict",
         "stale",
         "needs-triage"
       ]

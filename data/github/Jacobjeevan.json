@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-05-06T06:26:32.000Z",
+  "last_updated": "2025-05-07T05:05:55.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-22T03:06:28.000Z",
+      "title": "ohcnetwork/care_fe#11978",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11978#pullrequestreview-2782647226",
+      "text": "Added support for specifying Question Unit and added validations to coding editor and also added Move up/down buttons to custom choices"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-07T04:33:06.000Z",
+      "title": "ohcnetwork/care_fe#12186",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12186#pullrequestreview-2820311454",
+      "text": "Fix : Sidebar Active Tab Highlight"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12128",
+      "time": "2025-05-07T04:18:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12128#issuecomment-2856983806",
+      "text": "> > You need to check for this in other places in the app as well, not just the page explicitly pointed out in the issue 😅\r\n> \r\n> ![Screenshot 2025-05-01 220534](https://private-user-images.githubusercontent.com/102869520/439656691-07b56752-bf9e-494c-bc48-d3f166ac5a3d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY1OTEyNzgsIm5iZiI6MTc0NjU5MDk3OCwicGF0aCI6Ii8xMDI4Njk1MjAvNDM5NjU2NjkxLTA3YjU2NzUyLWJmOWUtNDk0Yy1iYzQ4LWQzZjE2NmFjNWEzZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUwN1QwNDA5MzhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01ZmY1NTkxMDI3ZWQ3Njg4OTU4ZTJjMWM2ZjFjNjU1NzUxYTI5ZWU1ZTA3ZGQ5NThiNzdkYWE3MWJkODc3OWQ5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ROKvAZdXDIQJ-DR19GgztHCuW18yxbMzXeTu4cuDoaI) Only this part contains a username because of the href.\r\n> \r\n> Other than this, now sure all places are consistent in full name.\r\n\r\nYou might be searching just for created_by, but that isn't the only use case:\r\n\r\nEx: file.archived_by?.username in Archived File Dialog or file.uploaded_by?.username in FilesTab; search for .username mentions in the codebase.\r\n\r\nThough check the specific file as well, in some cases, we are displaying both username and username's first/last name, so they should be kept as is (unless it's not using formatName)."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-23T09:00:20.000Z",
+      "title": "ohcnetwork/care_fe#12025",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12025#pullrequestreview-2786504266",
+      "text": "change sm to lg in emergency compo which causing this error"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#10756",
+      "time": "2025-05-07T04:08:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/10756#issuecomment-2856964803",
+      "text": "> > > @Jacobjeevan Is it like we are expecting?\r\n> > > Screen.Recording.2025-04-25.at.5.08.43.PM.mov\r\n> > \r\n> > \r\n> > Seems fine, maybe add a bit of margin bottom to the menu.\r\n> > Test the functionality on your phone. I tried on android and iOS, functionality isn't working:\r\n> > \r\n> > * Have back camera on, set front camera as preferred (doesn't update the preview btw, even though component remounts)\r\n> > * When I reload the page and upload dialogue again, it still defaults to back camera.\r\n> > \r\n> > Preferred camera is ignored on Android as well. Seems like it has to do with permissions more than anything 🤔 On android clicking on switch camera closes the modal and requires user to reopen the whole thing anyways, rather than asking for permissions.\r\n> \r\n> @Jacobjeevan Functionality is working fine in Android I think. Back camera and front camera are getting saved as preferred camera. Although I don't know in IOS since I don't have ios device.\r\n> WhatsApp.Video.2025-04-30.at.22.46.18.1.mp4\r\n\r\nDo a self review of the video 😅 \r\n\r\n0:15 - Both camera options should show up here first. User having to select the option, save and then come back to see this wouldn't make sense.\r\n0:56 - Even though back camera is shown as preferred, preview is showing front cam."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12233",
@@ -288,13 +323,6 @@
       "time": "2025-04-28T13:10:56.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11942#issuecomment-2835194864",
       "text": "> @Jacobjeevan Now everything is good. The tick mark symbol is perfectly in center while marking it. for desktop,\r\n> Error22.mp4\r\n> \r\n> Mobile view,\r\n> error222.mp4\r\n\r\nDoes the mobile view look right to you? Is that readable?"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-23T09:00:20.000Z",
-      "title": "ohcnetwork/care_fe#12025",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12025#pullrequestreview-2786504266",
-      "text": "change sm to lg in emergency compo which causing this error"
     },
     {
       "type": "issue_closed",
@@ -808,13 +836,6 @@
       "time": "2025-04-22T03:12:41.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/12029#issuecomment-2819952644",
       "text": "No, the solution is much more simple. Check what happens in elsewhere in the code base for examples."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-22T03:06:28.000Z",
-      "title": "ohcnetwork/care_fe#11978",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11978#pullrequestreview-2782647226",
-      "text": "Added support for specifying Question Unit and added validations to coding editor and also added Move up/down buttons to custom choices"
     },
     {
       "type": "pr_reviewed",
