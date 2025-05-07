@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-05T10:35:23.000Z",
+  "last_updated": "2025-05-06T14:24:04.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12175",
+      "time": "2025-05-06T14:24:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12175#issuecomment-2854772961",
+      "text": "> [@samholics](https://github.com/samholics) can you give more details to reproduce this issue and where particularly is it to set the radio option in form? Is this added recently?\n\nTo reproduce: \n- Login as admin and access admin dashboard\n- click on Create Questionnaire\n-  add a question and select the answer type as choice\n- Select the type as custom options and add some answers\n- submit the form and see it on the form where user fills the data.\n\ncurrently its not called radio it is choice in the types."
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#12225",

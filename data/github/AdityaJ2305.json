@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-06T10:01:54.000Z",
+  "last_updated": "2025-05-06T11:57:15.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12244",
+      "time": "2025-05-06T11:57:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12244",
+      "text": "Delete Deprecated `DateTimePicker` and update to use `type=\"datetime-local\"` Input"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10875",
@@ -7246,15 +7253,27 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12244",
-      "title": "Delete Deprecated `DateTimePicker` and update to use `type=\"datetime-local\"` Input",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12247",
+      "title": "Enhancement: Show Bed Start and End time in the location sidebar of the encounter",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12244",
+      "title": "Replace Deprecated DateTimePicker with Native datetime-local Input in Medication Request Question",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12094",
       "title": "Enhancement: Add generic RelativeDateTooltip component for viewing relative date ",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "invalid",
         "question",

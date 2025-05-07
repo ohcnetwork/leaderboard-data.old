@@ -1,6 +1,14 @@
 {
-  "last_updated": "2025-05-05T10:57:29.000Z",
+  "last_updated": "2025-05-06T13:25:00.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12221",
+      "time": "2025-05-06T13:25:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12221",
+      "text": "Fix the rare crash in MedicationStatement",
+      "turnaround_time": 99138
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12227",
@@ -1147,19 +1155,10 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12227",
-      "title": "fix: prevent sheet from closing when interacting with select dropdown",
+      "title": "fix: prevent EntitySelecetionsheet from closing when interacting with select dropdown",
       "stale_for": 0,
       "labels": [
         "Work in Progress 🚧"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12221",
-      "title": "Fix the rare crash in MedicationStatement",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
       ]
     },
     {
@@ -1174,7 +1173,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12163",
       "title": "Use EnitySelectionSheet in Symptom",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "needs review",
         "Tested ✅"
@@ -1183,18 +1182,9 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12151",
       "title": "Use EntitySelectionsheet and enhance collapsible for AllergyQuestion",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11784",
-      "title": "Fix dosage popover collision ",
-      "stale_for": 12,
-      "labels": [
-        "bug",
-        "stale"
       ]
     }
   ],

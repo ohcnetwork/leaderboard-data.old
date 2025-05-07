@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-05T17:19:34.000Z",
+  "last_updated": "2025-05-06T15:04:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12230",
+      "time": "2025-05-06T15:04:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12230#issuecomment-2854907831",
+      "text": "@rithviknishad Instead of checking for templates, we should check using `isSchedulableResource` before calling the API, right? If I'm not wrong?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12230",
@@ -748,18 +755,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12246",
-      "title": "fix resource not reschedulable error",
-      "stale_for": 0,
-      "labels": [
-        "question",
-        "needs-triage"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12235",
       "title": "Fix: improve facility location handling in create/edit form",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "question",
         "needs-triage"

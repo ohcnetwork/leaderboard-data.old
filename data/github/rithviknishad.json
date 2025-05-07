@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-05-06T07:00:31.000Z",
+  "last_updated": "2025-05-06T14:29:31.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12230",
+      "time": "2025-05-06T14:29:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12230#issuecomment-2854791674",
+      "text": "Since the backend says resource is not schedulable, the solution here is to check if the resource is schedulable or not before calling that!\n\nWe follow that pattern in many places already! Let's keep following that itself"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12230",
+      "time": "2025-05-06T14:25:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12230#issuecomment-2854777361",
+      "text": "Re-assigning to @Spandan-Mishra since that's the right solution for this!"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-06T14:24:06.000Z",
+      "title": "ohcnetwork/care_fe#12245",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12245#pullrequestreview-2818493445",
+      "text": "FIXED: The /slots/availability_stats/ API is throwing resource is not schedulable error in the frontend"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#12239",
@@ -69432,7 +69453,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/2",
       "title": "added translations",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],
