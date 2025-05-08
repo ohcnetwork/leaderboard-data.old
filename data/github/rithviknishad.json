@@ -1,6 +1,38 @@
 {
-  "last_updated": "2025-05-07T05:24:25.000Z",
+  "last_updated": "2025-05-07T12:50:06.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12238",
+      "time": "2025-05-07T12:50:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12238",
+      "text": "Prevent Granting Consent on Past Dates"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#12248",
+      "time": "2025-05-07T12:50:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12248",
+      "text": "Validation check of 'From Date' against Consent Date",
+      "collaborated_with": [
+        "NikhilA8606",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-07T01:37:46.000Z",
+      "title": "ohcnetwork/care_fe#12248",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12248#pullrequestreview-2820105119",
+      "text": "Validation check of 'From Date' against Consent Date"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12233",
+      "time": "2025-05-07T12:26:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12233#issuecomment-2858388931",
+      "text": "So the meaning of \"status\" here is different and does not have anything to do with the validity of the consent.\n\nRefer: https://build.fhir.org/valueset-consent-state-codes.html\n\nHowever, to show the users that the consent has expired, we can flag it in front-end itself. This does not require any backend changes.\n\ncc: @vigneshhari "
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#11529",
@@ -153,13 +185,6 @@
       "title": "ohcnetwork/care_fe#12244",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12244#pullrequestreview-2820114439",
       "text": "Delete Deprecated `DateTimePicker` and update to use `type=\"datetime-local\"` Input"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-05-07T01:37:46.000Z",
-      "title": "ohcnetwork/care_fe#12248",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12248#pullrequestreview-2820105119",
-      "text": "Validation check of 'From Date' against Consent Date"
     },
     {
       "type": "comment_created",
@@ -69655,7 +69680,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/2",
       "title": "added translations",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     }
   ],

@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-05-03T14:21:19.000Z",
+  "last_updated": "2025-05-07T12:49:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12249",
+      "time": "2025-05-07T12:49:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12249#issuecomment-2858465542",
+      "text": "@siva222003 Well I tried the way you suggested and somehow reached the Page to `Add questionnaire`, but there too I am not getting to see the `medication`, `diagnosis` or `symptoms` questionnaire.\n\n\nhttps://github.com/user-attachments/assets/a0aa4181-cbc8-43fc-9c38-1005ad87efb4\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12249",
+      "time": "2025-05-07T12:14:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12249#issuecomment-2858359318",
+      "text": "Hey @siva222003 thank you for replying promptly , I tried your way, but still not able to reach there.\nWell, see this is how I am reaching to the `Quick Access` section, but still not getting an option to add a questionnaire\n\nLogged in with `fac-doctor` Credentials ---> Under the `Association` Tab, clicked on the `Doctor` ----> Then clicked on the `Patients` Tab ---> Selected one Patient ----> Got to the patient's `encounter` section ----> Then `View Encouter` ----> Then reached the encounter Page (The one in the SS)\n\n![Image](https://github.com/user-attachments/assets/02e5ff19-6bec-410f-ba6c-da063ff7eab9)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12249",
+      "time": "2025-05-07T11:55:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12249#issuecomment-2858298617",
+      "text": "@Spandan-Mishra @AdityaJ2305, can you help me reproduce this error? I tried to log in using the `fac-doctor's` credentials, but I couldn't reach the part where we can add the questionnaire form as mentioned above. The UI seems to have been updated since the last time I checked it out. 😃 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12249",
+      "time": "2025-05-07T09:08:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12249#issuecomment-2857781744",
+      "text": "Hey @aravindm4  can I take up this issue..??\n\nETA: Tonight (07/05)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12208",
@@ -201,7 +229,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12208",
       "title": "Refactor: Replaced hard-coded `India` with careConfig's `defaultCountry`",
-      "stale_for": 0,
+      "stale_for": 3,
       "labels": [
         "question",
         "needs-triage"
