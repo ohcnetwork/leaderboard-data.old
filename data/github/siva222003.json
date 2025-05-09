@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-07T13:18:02.000Z",
+  "last_updated": "2025-05-08T21:38:35.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12121",
+      "time": "2025-05-08T21:38:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12121#issuecomment-2864376894",
+      "text": "Hey @rithviknishad,\nDue to the `freeInput` prop, the `CommandInput` retains the selected value when reopening the popover, which causes the dropdown to show only that option. If there's no specific need for this behavior, we can remove the condition that sets the CommandInput value from the selected option,it works fine after that."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12249",
@@ -817,7 +824,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12048",
       "title": "test: add tests for Community Nurse Homecare Form questionnaire",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "Merge Conflict"
       ]
