@@ -1,6 +1,28 @@
 {
-  "last_updated": "2025-05-07T10:42:34.000Z",
+  "last_updated": "2025-05-08T10:45:06.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12250",
+      "time": "2025-05-08T10:45:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12250",
+      "text": "Fixed the overflow in appointments section",
+      "turnaround_time": 87596
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12250",
+      "time": "2025-05-08T09:24:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12250#issuecomment-2862367929",
+      "text": "@yash-learner yes it was working fine after fixing for sidebar too.\n\nUsing string interpolation was incorrect, according to the tailwind docs. I don't know how, but it was working locally 😅"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12250",
+      "time": "2025-05-08T07:20:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12250#issuecomment-2862039552",
+      "text": "@yash-learner I had tested the changes and it was working correctly, but as you and @rithviknishad suggested, that approach wasn't correct.\nI didn't know about string interpolation issues 😅, it is fixed now"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12250",
