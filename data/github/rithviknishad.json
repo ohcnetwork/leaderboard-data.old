@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-08T11:36:36.000Z",
+  "last_updated": "2025-05-08T14:33:15.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12250",
+      "time": "2025-05-08T14:33:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12250#issuecomment-2863284802",
+      "text": "\n> Using string interpolation was incorrect, according to the tailwind docs. I don't know how, but it was working locally 😅\n\nso how tailwind works is, tailwind's JIT compiler compiles all the vaid tailwind classes detected by scanning your codebase. If similar classes were used elsewhere in the codebase, that'd work cause it to work here by string interpolation. But that does not guarantee it to work here always. If the other thing was ever changed, it'd start breaking here as tailwind would omit compiling it as it assumes it's no longer there in the codebase.\n\nTailwinds tool cannot detect classes if string interpolated.\n\n"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#12204",
@@ -69733,7 +69740,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12036",
       "title": "Enhance API call functionality by adding support for default query parameters in callApi function",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "Changes Required"
       ]
@@ -69741,7 +69748,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11842",
       "title": "Adds support for auto-updates",
-      "stale_for": 14,
+      "stale_for": 15,
       "labels": [
         "Merge Conflict",
         "stale"
