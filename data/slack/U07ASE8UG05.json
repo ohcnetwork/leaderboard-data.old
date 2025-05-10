@@ -10256,5 +10256,163 @@
                 }
             ]
         }
+    ],
+    "2025-05-10 00:00:00": [
+        {
+            "user": "U07ASE8UG05",
+            "type": "message",
+            "ts": "1746848538.139359",
+            "edited": {
+                "user": "U07ASE8UG05",
+                "ts": "1746848620.000000"
+            },
+            "client_msg_id": "b41c8ba3-c826-470b-8970-4649207d82b6",
+            "text": "8th 9th May \nDone\n\u2022 Raised redesign userCard component <https://github.com/ohcnetwork/care_doctor_connect_fe/pull/14|PR#14> \n\u2022 Update PR disable reschedule button <https://github.com/ohcnetwork/care_fe/pull/12170|PR#12170> \n\u2022 Opened two issue <https://github.com/ohcnetwork/care_fe/issues/12264|Issue#12264> <https://github.com/ohcnetwork/care_fe/issues/12263|Issue#12263> \nNext \n\u2022  Looking for new issues ",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1746815306,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/issues/12263",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#12263 Prevent Future Dates in Death Form Submission on Questionnaire Page",
+                    "text": "*Describe the bug*  \nThe Death Form on the Questionnaire Page allows users to enter future dates, which should not be permitted.\n\n*To Reproduce*  \nSteps to reproduce the behavior:\n\n1. Go to 'Encounters'\n2. Click on 'Death Form Questionnaire'\n3. See error\n\n*Expected behavior*  \nThe Death Form should only accept past dates and times, rejecting any future entries to ensure accurate and valid data.\n\n*Screenshots*\n\ndeath.mp4 \n\n*Desktop (please complete the following information):*\n\n\u2022 OS: [e.g. iOS]\n\u2022 Browser [e.g. chrome, safari]\n\u2022 Version [e.g. 22]\n\n*Smartphone (please complete the following information):*\n\n\u2022 Device: [e.g. iPhone6]\n\u2022 OS: [e.g. iOS8.1]\n\u2022 Browser [e.g. stock browser, safari]\n\u2022 Version [e.g. 22]\n\n*Additional context*  \nAdd any other context about the problem here.\n\n---\n\n### :rotating_light: DO NOT EDIT BELOW THIS LINE :rotating_light:\n\n### Instructions for Requesting Assignment:\n\nTo request assignment, please clearly outline your solution and timeline by commenting on the issue using the format below:\n\n*Describe your solution clearly:*  \nProvide a detailed explanation of your proposed solution, including your approach, key implementation steps, and relevant examples or references. Mention any dependencies, assumptions, or risks you foresee that might affect your timeline or implementation.\n\n*Expected Timeline:*\n\n\u2022 End date: [Expected submission date of a completed Pull Request]\n\n*Additional Context:*  \nInclude any other relevant context, links, screenshots, or resources that support your proposed solution.\n\n> :rotating_light: Your assignment may be unassigned if there is no activity or progress within the stated timeline unless communicated clearly and agreed upon.",
+                    "title": "#12263 Prevent Future Dates in Death Form Submission on Questionnaire Page",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/issues/12263",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "2",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "OFrWL",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "8th 9th May \nDone\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Raised redesign userCard component "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_doctor_connect_fe/pull/14",
+                                            "text": "PR#14"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Update PR disable reschedule button "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/12170",
+                                            "text": "PR#12170"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Opened two issue "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/issues/12264",
+                                            "text": "Issue#12264"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/issues/12263",
+                                            "text": "Issue#12263"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next \n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": " Looking for new issues "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

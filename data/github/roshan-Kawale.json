@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-01T16:40:39.000Z",
+  "last_updated": "2025-05-09T13:09:08.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12261",
+      "time": "2025-05-09T13:09:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12261#issuecomment-2866478286",
+      "text": "@amjithtitus09 can you assign this issue to me.\nETA : 1 Day."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12128",
+      "time": "2025-05-09T12:57:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12128#issuecomment-2866446782",
+      "text": "> You might be searching just for created_by, but that isn't the only use case:\r\n> \r\n> Ex: `file.archived_by?.username` in Archived File Dialog or `file.uploaded_by?.username` in FilesTab; search for `.username` mentions in the codebase.\r\n> \r\n> Though check the specific file as well, in some cases, we are displaying both username and username's first/last name, so they should be kept as is (unless it's not using formatName, ex: in PatientHome, `{patientData.created_by?.first_name}{\" \"}{patientData.created_by?.last_name}`\r\n\r\nI think now it's done.\r\n\r\nA file contains both ( {formatName(userData)} and {userData.username} ) kept as it is because they show both username and name.\r\n\r\nOther than this, I changed all required files.\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12128",
@@ -64,7 +78,9 @@
       "title": "Fix: Make User Rendering Consistent",
       "stale_for": 0,
       "labels": [
-        "Work in Progress 🚧"
+        "question",
+        "Work in Progress 🚧",
+        "needs-triage"
       ]
     }
   ],
