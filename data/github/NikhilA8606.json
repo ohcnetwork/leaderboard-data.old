@@ -1,6 +1,21 @@
 {
-  "last_updated": "2025-05-09T16:09:16.000Z",
+  "last_updated": "2025-05-10T06:02:31.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12263",
+      "time": "2025-05-10T06:02:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12263#issuecomment-2868446465",
+      "text": "This should also be restricted on the backend. Can I handle the backend update?\nETA - EOD\n@rithviknishad "
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_teleicu_devices#7",
+      "time": "2025-05-09T17:30:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/7",
+      "text": "Update README with new instructions/info",
+      "turnaround_time": 2380236
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12261",
@@ -922,9 +937,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12268",
+      "title": "Restricted users from selecting a future date in the death form",
+      "stale_for": 0,
+      "labels": [
+        "Changes Required",
+        "waiting for backend"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12220",
       "title": "Relocation of drawingTab into fileSection",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs testing",
         "needs review"
