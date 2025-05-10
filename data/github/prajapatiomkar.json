@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-06T11:27:36.000Z",
+  "last_updated": "2025-05-09T11:25:19.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12243",
+      "time": "2025-05-09T11:25:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12243#issuecomment-2866191247",
+      "text": "@rithviknishad, take a look — I just lifted the state and was able to set the correct state through it.\n\nhttps://github.com/user-attachments/assets/51411e29-6d5a-4505-b332-7b248bdc5dcd"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12243",
+      "time": "2025-05-09T05:41:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12243#issuecomment-2865192551",
+      "text": "The state of the pop-up is managed in one place, and the page button state is managed in a different file. If we can somehow manage both at the parent level, we should be good to go."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12243",
@@ -123,7 +137,14 @@
       "text": "@rithviknishad @Jacobjeevan Assign this issue to me."
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12262",
+      "title": "🐞 Fix: Button remains disabled until manual refresh (#12243)",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12100",

@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-05-07T16:45:37.000Z",
+  "last_updated": "2025-05-09T11:55:32.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11894",
+      "time": "2025-05-09T11:55:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11894#issuecomment-2866265041",
+      "text": "@bodhish @rithviknishad What I feel is we can add an enable cross shift toggle button so that the auto fill slot duration calculates the slot duration accordingly in the frontend. In this way we can make the changes keeping the existing UI constant. And in the backend also we need to pass a field Enable_cross_shift as a boolean pydantic field which would be false by default. This is because we also want backend to calculate the slot duration properly as it would throw validation error slot duration showing Availability duration must be a multiple of slot size. Can I get it assigned? I want to work on this both frontend and backend. ETA: 13th May EOD"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12010",
+      "time": "2025-05-09T10:50:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12010#issuecomment-2866095118",
+      "text": "@Jacobjeevan are you working on this? If not can you provide details about what the permissions are exactly? I would like to take this up"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12233",
+      "time": "2025-05-09T10:41:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12233#issuecomment-2866071256",
+      "text": "@gobardan1707 are you still working on this?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11922",
