@@ -1,6 +1,13 @@
 {
-  "last_updated": "2024-05-13T16:41:43+00:00",
+  "last_updated": "2025-05-11T07:59:42.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12206",
+      "time": "2025-05-11T07:59:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12206#issuecomment-2869616443",
+      "text": "Hey @rithviknishad \nIs this still up for grab?\n\n- The new useCurrentFacility hook still hits the API via react-query. It centralises the call but doesn’t eliminate it. \n- Would you prefer we move the resolved facility object into context (or an atom) so subsequent components read it without any extra network requests?\n- Are there existing atoms we should integrate with, or would you like a fresh FacilityAtom?\n- What would you consider a complete resolution of this issue?"
+    },
     {
       "type": "pr_collaborated",
       "title": "ohcnetwork/care_fe#7801",
@@ -955,5 +962,26 @@
     }
   ],
   "open_prs": [],
-  "authored_issue_and_pr": []
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2117",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2118"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/7226",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/7228"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/ayushma_fe/issues/158",
+      "pr_link": "https://github.com/ohcnetwork/ayushma_fe/pull/159"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/6530",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/6596"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/6305",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/6405"
+    }
+  ]
 }
