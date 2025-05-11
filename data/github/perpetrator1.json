@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-04-18T14:25:38.000Z",
+  "last_updated": "2025-05-10T13:40:34.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11946",
+      "time": "2025-05-10T13:40:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11946#issuecomment-2868868974",
+      "text": "\n> have you investigated why this was not working?\nProlly because im using dev container, I didn't try it with the manual set up. But i got the browserstack plan from Github Student Dev Pack, and i dont really have a wifi network available i tested it with my friend's personal hotspot"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11946",
+      "time": "2025-05-10T12:35:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11946#issuecomment-2868826843",
+      "text": "## Solution\nIf we could make the `dosagedialog` component from `/care_fe/src/components/Questionnaire/QuestionTypes/MedicationRequestQuestion.tsx` be aware of the keyboard and make it readjust itself when the Keyboard pops up, I believe this bug could be fixed.\n\n## Expected Timeline\n1 or 2 days\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11946",
+      "time": "2025-05-10T12:29:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11946#issuecomment-2868823593",
+      "text": "\n> I guess you are a student, you should get a plan for free using `GitHub Student Deveoloper`, https://education.github.com/pack#:~:text=About-,BrowserStack,-Test%20your%20web\n\nI didn't knew about that, thanks\nI'll send my proposal right away"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11946",
+      "time": "2025-05-10T12:13:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11946#issuecomment-2868795385",
+      "text": "@yash-learner we could make the dialog option aware of the keyboard, i have changed up a bit of code but i cant seem to test it anywhere, browserstack is asking to buy a plan. I tried connecting my phone and laptop on the same wifi network and opened https://<ip_address>:port on the browser but its not loading. ive been trying to find a way to test the code"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care#2917",
@@ -65,7 +93,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2917",
       "title": "Added Notification for Backup Fail",
-      "stale_for": 2,
+      "stale_for": 1,
       "labels": []
     }
   ],

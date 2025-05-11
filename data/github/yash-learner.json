@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-05-08T10:45:00.000Z",
+  "last_updated": "2025-05-10T19:35:26.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12233",
+      "time": "2025-05-10T19:35:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12233#issuecomment-2869125411",
+      "text": "![Image](https://github.com/user-attachments/assets/842f5b27-79b2-49ad-b429-2e21c5f8a2b0)\n\n\n\nI feel adding `Expired` badge along with `Active` status looks little confused \n\n> So the meaning of \"status\" here is different and does not have anything to do with the validity of the consent.\n\nYes, but the inactive status is related right ?\n\nThe `valid Period` already conveys that, right? -  I do not see any value in adding the expired badge just make it noticeable → May be just adding May 07 –May 10, 2025 (Expired) or Expired on May 10, 2025 if we still want users to notice it \n\n---\n\nWhy not just show `Inactive` badge in place of `Active` and no `Expired` Badge? When validity expire?\n\nI feel the best thing would be a cron job doing at the end of each day.\n\nAccording to FHIR, I think we can use Inactive status once the validity is expired\n\nhttps://hl7.org/fhir/R5/codesystem-resource-status.html#resource-status-inactive:~:text=action%20is%20planned-,inactive,-The%20resource%20describes\n\n\nhttps://hl7.org/fhir/R5/valueset-consent-state-codes.html#:~:text=~active-,inactive,-http%3A//hl7.org\n\n\n----\n\nMay be later with follow-up PR, once the consent has status filters on BE, we always by default render only active/draft consents, other statues consents like inactive will be shown only when the user explicitly selects the in-active filter - Better UX\n\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11946",
+      "time": "2025-05-10T12:16:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11946#issuecomment-2868815046",
+      "text": "> [@yash-learner](https://github.com/yash-learner) we could make the dialog option aware of the keyboard, i have changed up a bit of code but i cant seem to test it anywhere, browserstack is asking to buy a plan. I tried connecting my phone and laptop on the same wifi network and opened https://<ip_address>:port on the browser but its not loading. ive been trying to find a way to test the code\n\n@perpetrator1\n\nI guess you are a student, you should get a plan for free using `GitHub Student Deveoloper`, https://education.github.com/pack#:~:text=About-,BrowserStack,-Test%20your%20web"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11946",
+      "time": "2025-05-10T12:08:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11946#issuecomment-2868782580",
+      "text": "Just dropping a quick thought here:\n\nI think it would be best to render those fields inside a sheet(position=\"bottom\")  than trying to fix the collision for mobile devices.\n\ncc: @amjithtitus09 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11946",
+      "time": "2025-05-10T11:58:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11946#issuecomment-2868778762",
+      "text": "@perpetrator1, are you stared working on this ?, have an approach ?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11946",
+      "time": "2025-05-10T11:56:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11946#issuecomment-2868778082",
+      "text": "@Jeffrin2005 Look for `Advise Medicine` in `consulation` questionnaire form "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12041",
+      "time": "2025-05-10T11:27:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12041#issuecomment-2868766484",
+      "text": "Partly done in https://github.com/ohcnetwork/care_fe/pull/12033\n\nWe are not doing the 3rd step for now - we are not verifying or not sending any verification details. We will be doing it when there is a use case"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12041",
+      "time": "2025-05-10T11:27:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12041",
+      "text": "Update Consent Workflow to Follow Clinical Standards"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12041",
+      "time": "2025-05-10T11:26:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12041#issuecomment-2868765994",
+      "text": "@hrit2773 \n\nThe first two steps are done in https://github.com/ohcnetwork/care_fe/pull/12033\n\n```\n- Create consent record with basic information (status, category, date, etc.)\n- Upload signed consent documents or other evidence\n```\n\nWe are not doing the 3rd step for now - we are not verifying or not sending any verification details. We will be doing it when there is a use case \n"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-05-07T15:02:55.000Z",
@@ -1192,7 +1248,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12227",
       "title": "fix: prevent EntitySelecetionsheet from closing when interacting with select dropdown",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "Work in Progress 🚧"
       ]
@@ -1200,7 +1256,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12181",
       "title": "Use entityselectionsheet and some clean-up in DiagnosisQuestion",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs review",
         "Tested ✅",
@@ -1210,7 +1266,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12151",
       "title": "Use EntitySelectionsheet and enhance collapsible for AllergyQuestion",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs review",
         "Merge Conflict"
