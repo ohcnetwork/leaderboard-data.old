@@ -1,6 +1,32 @@
 {
-  "last_updated": "2025-05-10T14:58:16.000Z",
+  "last_updated": "2025-05-11T16:52:12.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12269",
+      "time": "2025-05-11T16:52:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12269",
+      "text": "Clean up invalid Tailwind CSS class (text-muted-foreground)",
+      "turnaround_time": 93237
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#12269",
+      "time": "2025-05-11T16:52:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12269",
+      "text": "Clean up invalid Tailwind CSS class (text-muted-foreground)",
+      "collaborated_with": [
+        "Priyadharshini0101",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12254",
+      "time": "2025-05-11T13:59:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12254#issuecomment-2869871519",
+      "text": "\r\nhttps://github.com/user-attachments/assets/38cc91fc-0374-452e-bec9-744034bd8f26\r\n\r\nAdded a delay to the scrollToTop to handle route changes consistency across browsers. Firefox requires a small delay after route changes to ensure the page content is fully rendered before scrolling to the top unlike other browsers like Chrome, which handle the scroll more immediately."
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12269",
@@ -46,15 +72,9 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12269",
-      "title": "Clean up invalid Tailwind CSS class (text-muted-foreground)",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12254",
       "title": "Keep the view port at the top of the page on loading",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "question",
         "needs testing",
