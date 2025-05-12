@@ -1,6 +1,63 @@
 {
-  "last_updated": "2025-05-12T07:24:08.000Z",
+  "last_updated": "2025-05-12T11:36:53.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#3033",
+      "time": "2025-05-12T11:36:53.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3033",
+      "text": "Disallow same code for the same component type in Charge Item's pricing components"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-12T11:30:23.000Z",
+      "title": "ohcnetwork/care_fe#12284",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12284#pullrequestreview-2832888292",
+      "text": "Added support for injecting NavItems from Apps"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12283",
+      "time": "2025-05-12T10:52:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12283",
+      "text": "fix translation for local body",
+      "turnaround_time": 177
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12283",
+      "time": "2025-05-12T10:49:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12283",
+      "text": "fix translation for local body"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12260",
+      "time": "2025-05-12T10:18:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12260#issuecomment-2871935350",
+      "text": "https://github.com/ohcnetwork/roadmap/issues/101"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12260",
+      "time": "2025-05-12T10:18:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12260",
+      "text": "Total slots per day not retrieved for the scheduled time"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12260",
+      "time": "2025-05-12T10:06:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12260#issuecomment-2871895561",
+      "text": "@NikhilA8606 we've decided to stick with 30 for now. However, few things that needs to be changed in the backend:\n\nKeep this limit as a configurable constant in the codebase similar to how other limits are there in care.\n\nAlso reference that constant and add validation to prevent creating such availability records in the first place that would exceed the slot limit."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12258",
+      "time": "2025-05-12T10:02:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12258#issuecomment-2871877232",
+      "text": "@NikhilA8606 we have decided to make the valid from and valid till a date time input. backend already is datetime."
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-05-12T07:24:08.000Z",

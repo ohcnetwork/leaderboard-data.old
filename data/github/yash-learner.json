@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-05-12T07:45:02.000Z",
+  "last_updated": "2025-05-12T10:36:04.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12086",
+      "time": "2025-05-12T10:36:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12086#issuecomment-2871998728",
+      "text": "@hrit2773 \n\nWe will soon add status filters on BE, will let you know then"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12086",
+      "time": "2025-05-12T10:27:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12086#issuecomment-2871974833",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/12086#issuecomment-2871972454"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12086",
+      "time": "2025-05-12T10:26:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12086",
+      "text": "Sorting & filters the consents in the consents tab"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12086",
+      "time": "2025-05-12T10:26:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12086#issuecomment-2871972454",
+      "text": "> [@yash-learner](https://github.com/yash-learner) any update on this?\n\n\nHi @hrit2773 \n\nThere is no product use-case\n\nThere will be at-most one file per consent, I don't see anything more than that. There might not be more than 1-2 consent per encounter.\n\n\nhttps://github.com/ohcnetwork/care/pull/3032#issuecomment-2871890393\n\nSo sorting and filtering does add value with one or two consents \n\n----\n\nWill re-open if we really have a use-case or if we plan to show the all consents at patient level as well, not only at each enounter level"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12033",
+      "time": "2025-05-12T10:20:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12033#issuecomment-2871941964",
+      "text": "> @nihal467 I just realised that the search we are doing in for consent is client-side 😁\r\n> \r\n> https://github.com/ohcnetwork/care_fe/blob/267e73b95c9c3cfacc1d1e298ee7203a210a413e/src/components/Consent/ConsentSheet.tsx#L87\r\n> \r\n> So it is unreliable across paginated pages, and we do not have a backend support for filtering consents based on files attached\r\n> \r\n> I will get it as a follow-up PR, after backend support, so this would fix no files attached as well\r\n> \r\n> cc: @amjithtitus09\r\n\r\n\r\n@nihal467 https://github.com/ohcnetwork/care/pull/3032#issuecomment-2871890393"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#3032",
+      "time": "2025-05-12T10:06:04.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3032#issuecomment-2871890393",
+      "text": "Actually, there is no product use case\r\n\r\n\r\nVia @vigneshhari There will be at-most one file per consent, I don't see anything more than that. There might not be more than 1-2 consent per encounter. \r\n\r\nI agree with that\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12151",
@@ -1266,12 +1308,6 @@
     }
   ],
   "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/3032",
-      "title": "Filter consents by attachment name",
-      "stale_for": 0,
-      "labels": []
-    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12227",
       "title": "fix: prevent EntitySelecetionsheet from closing when interacting with select dropdown",

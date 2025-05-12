@@ -1849,5 +1849,79 @@
                 }
             ]
         }
+    ],
+    "2025-05-12 00:00:00": [
+        {
+            "user": "U0847CWJ941",
+            "type": "message",
+            "ts": "1747058551.944109",
+            "client_msg_id": "87d6569f-ef3e-436e-83f4-3a6429091da1",
+            "text": "May 10,11,12\n\u2022 Worked on the issue related to the double scrollbar in edit medication page. It took some time to identify the issue. First i thought it was the issue with the main container but actually it was the issue with `sidebar` so i raised the issue in Shadcn repo and raised PR and waiting for it to merged.\n\u2022 Got some comments in another Pr related to encounter tags and also add translations, so worked on that updated the PR",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "jtk/Z",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "May 10,11,12\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Worked on the issue related to the double scrollbar in edit medication page. It took some time to identify the issue. First i thought it was the issue with the main container but actually it was the issue with "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "sidebar",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " so i raised the issue in Shadcn repo and raised PR and waiting for it to merged."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Got some comments in another Pr related to encounter tags and also add translations, so worked on that updated the PR"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U082GUAL80N"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }
