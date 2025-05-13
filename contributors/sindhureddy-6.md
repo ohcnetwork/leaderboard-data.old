@@ -1,12 +1,12 @@
 ---
 name: Sindhu Reddyvari
-title: Contributor
+title: Intern
 github: sindhureddy-6
 twitter: ""
 linkedin: ""
-slack: ""
+slack: U08PPCX9LQ6
 joining_date: ""
-role: contributor
+role: intern
 ---
 
 Still waiting for this
