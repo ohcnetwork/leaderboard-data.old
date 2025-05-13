@@ -1,12 +1,12 @@
 ---
 name: Muneer
-title: Contributor
+title: Intern
 github: perpetrator1
 twitter: ""
 linkedin: ""
-slack: ""
+slack: U07ERHUJ3A9
 joining_date: ""
-role: contributor
+role: intern
 ---
 
 Still waiting for this
