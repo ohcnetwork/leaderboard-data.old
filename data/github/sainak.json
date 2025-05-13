@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-12T17:17:32.000Z",
+  "last_updated": "2025-05-13T09:22:39.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#3039",
+      "time": "2025-05-13T09:22:39.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3039",
+      "text": "Fix encounter organization links in fixtures"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-05-12T17:17:32.000Z",
@@ -19051,21 +19058,27 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/3041",
+      "title": "Add periodic cleanup for incomplete file uploads",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/3011",
       "title": "Refactor AllergyIntolerance specs",
-      "stale_for": 13,
+      "stale_for": 14,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/3010",
       "title": "Prevent deletion of organizations with associated encounters, locations, or devices",
-      "stale_for": 14,
+      "stale_for": 15,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/3007",
       "title": "Add partial updates and fix set values ignored in updates",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     },
     {
@@ -19077,7 +19090,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2983",
       "title": "A facility root org should have at least one facility admin at any point",
-      "stale_for": 34,
+      "stale_for": 35,
       "labels": []
     },
     {
@@ -19089,7 +19102,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/2763",
       "title": "Data Migration",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "do-not-merge"
       ]
