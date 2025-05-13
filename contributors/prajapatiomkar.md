@@ -1,12 +1,12 @@
 ---
 name: Omkar Prajapati 
-title: Contributor
+title: Intern
 github: prajapatiomkar
 twitter: ""
 linkedin: ""
-slack: ""
+slack: U08G3JP6Z1C
 joining_date: ""
-role: contributor
+role: intern
 ---
 
 Still waiting for this
