@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-12T17:05:35.000Z",
+  "last_updated": "2025-05-13T02:02:10.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12290",
+      "time": "2025-05-13T02:02:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12290",
+      "text": "Time input is allowed for the user"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care#3037",
@@ -1010,14 +1017,18 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12290",
-      "title": "Time input is allowed for the user",
+      "title": "Support for capturing time for consent's given date and validity period",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "test failed",
+        "P1",
+        "Changes Required"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12220",
       "title": "Relocation of drawingTab into fileSection",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review"

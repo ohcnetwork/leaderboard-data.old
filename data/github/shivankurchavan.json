@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-03-02T13:57:54.000Z",
+  "last_updated": "2025-05-13T05:36:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12212",
+      "time": "2025-05-13T05:36:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12212#issuecomment-2875101796",
+      "text": "https://github.com/user-attachments/assets/9b62847f-e08a-412d-a49e-8374cad6a7ef\n\n\nthis video shows how the toaster element is not getting detected"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12212",
+      "time": "2025-05-13T05:15:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12212#issuecomment-2875074191",
+      "text": "The `LinkDepartmentsSheet` uses a Sheet component (Radix UI) that renders an overlay with `pointer-events: auto` and a high `z-index`, blocking clicks on `sonner` toaster's \"Cross [x]\" and other page elements when open. The modal behavior of the `Sheet` prevents background interactions, and the toaster’s `z-index` may be too low. This causes only sidebar buttons to remain interactive.\n\n@Jacobjeevan if you dont mind id liek to take this up\nETA: 1 Day\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10531",
