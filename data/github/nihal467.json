@@ -1,6 +1,92 @@
 {
-  "last_updated": "2025-05-13T15:14:53.000Z",
+  "last_updated": "2025-05-14T10:12:52.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12309",
+      "time": "2025-05-14T10:12:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12309",
+      "text": "Adjusting the memory for chrome in forked PR",
+      "turnaround_time": 2109
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12309",
+      "time": "2025-05-14T09:37:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12309",
+      "text": "Adjusting the memory for chrome in forked PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12304",
+      "time": "2025-05-14T08:46:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12304#issuecomment-2879347127",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12170",
+      "time": "2025-05-14T08:35:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12170#issuecomment-2879311276",
+      "text": "![image](https://github.com/user-attachments/assets/78ff310f-2644-49ef-bf02-bd46d42ef868)\r\n![image](https://github.com/user-attachments/assets/2f26920a-8e10-45a4-beab-550858615fa1)\r\n\r\n- When we're trying to book a fresh appointment for an existing patient in a facility, after selecting the time slot, it crashes the page, since the local storage is not properly handled\r\n\r\nSteps to replicate\r\n\r\n1. login with +91 9855955878\r\n2. select facility test-nihal\r\n3. select a slot and try to select a patient\r\n4. See the crash"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12211",
+      "time": "2025-05-14T07:58:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12211#issuecomment-2879168620",
+      "text": "![image](https://github.com/user-attachments/assets/4874c6c4-589b-4510-ba0f-4d114e2cc2a5)\r\n\r\n- the camera is not release even though the camera capture pop-up is closed"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12306",
+      "time": "2025-05-14T07:43:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12306",
+      "text": "Modified the cypress test for patient search to be dynamic",
+      "turnaround_time": 4929
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12295",
+      "time": "2025-05-14T07:39:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12295#issuecomment-2879070995",
+      "text": "https://github.com/ohcnetwork/care_scribe_fe/pull/2 \r\n\r\nTested on the above PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_scribe_fe#2",
+      "time": "2025-05-14T07:05:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/2#issuecomment-2878954427",
+      "text": "LGTM\r\n\r\nEnhancement \r\n\r\n- Add a loading animation when using existing audio from history\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_scribe_fe#2",
+      "time": "2025-05-14T06:41:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/2#issuecomment-2878868492",
+      "text": "Changes Pushed\r\n\r\n- Moved the scribe position\r\n- reprocessing fixed & error message for reprocessing made user-friendly\r\n- mobile view overlapping"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12306",
+      "time": "2025-05-14T06:21:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12306",
+      "text": "Modified the cypress test for patient search to be dynamic"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12220",
+      "time": "2025-05-14T05:25:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12220#issuecomment-2878716558",
+      "text": "https://github.com/ohcnetwork/care_fe/actions/runs/15012585850?pr=12220\r\n\r\nthe cypress test of files are failing, before requesting a review, fix them, you can ignore the non-related failure"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12171",
+      "time": "2025-05-14T05:21:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12171#issuecomment-2878710941",
+      "text": "![image](https://github.com/user-attachments/assets/2cac9fa3-07f5-4643-b2ef-3142fb011a91)\r\n\r\n- The warning message feels a bit off — using three lines for a single point doesn’t look good in the UI. Ideally, it should be kept to two lines max.\r\n- It’s fine to use AI to help, but don’t just copy-paste stuff blindly. For example remove the unnecessary lengthy --- from the content.\r\n- If you’re unsure what to write, it’s okay — just come up with a few suggestions and bring them up in the slack channel to discuss with team"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#12281",

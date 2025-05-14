@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-12T20:30:34.000Z",
+  "last_updated": "2025-05-14T04:53:40.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12235",
+      "time": "2025-05-14T04:53:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12235#issuecomment-2878672487",
+      "text": "> > @rithviknishad @Jacobjeevan I’ve added a reset button to clear the selected location in both the create and edit facility forms. However, if a location has been added at least once, removing the selected location and submitting the form will not remove the location from the facility.\r\n> > Please let me know if any changes are needed.\r\n> \r\n> If I recall correctly, BE doesn't allow us to overwrite lat/log to undefined (once it's filled, hence why we added the fallback value). So, what would be the use case of a reset button here? 🤔\r\n> \r\n> @nihal467 Instead, we can hide the show on map link if coords are 0/0, no? 🤔\r\n\r\n@Jacobjeevan Yeah, we can't overwrite it once it's added. We can go with your approach as well, but the `reset` here is useful when you've filled the form, added the location, and want to clear it without closing the form and starting over.(not sure how significant that use case is, though)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12048",
@@ -886,16 +893,17 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12235",
       "title": "Fix: improve facility location handling in create/edit form",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "question",
+        "Work in Progress 🚧",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12048",
       "title": "test: add tests for Community Nurse Homecare Form questionnaire",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "question",
         "Merge Conflict",

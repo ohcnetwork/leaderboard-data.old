@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-10T13:40:34.000Z",
+  "last_updated": "2025-05-14T08:03:22.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12308",
+      "time": "2025-05-14T08:03:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12308",
+      "text": "Dosage dialog"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11946",
@@ -91,10 +98,14 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care/pull/2917",
-      "title": "Added Notification for Backup Fail",
-      "stale_for": 2,
-      "labels": []
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12308",
+      "title": "Fix dosage popover collision",
+      "stale_for": 0,
+      "labels": [
+        "do not merge",
+        "needs testing",
+        "needs review"
+      ]
     }
   ],
   "authored_issue_and_pr": []

@@ -46855,5 +46855,341 @@
                 }
             ]
         }
+    ],
+    "2025-05-14 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1747230541.551709",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1747230644.000000"
+            },
+            "client_msg_id": "c018053b-201b-45c2-b178-24e0854ef356",
+            "text": "*may 13*\n\u2022 tiny fixes to leaderboard:\n    \u25e6 <https://github.com/ohcnetwork/leaderboard/commit/73cdb37b3c602083849db8ad3a8da3cf6cb2d832|73cdb37>: fixed mismatch in activity counts between contributors profile and leaderboard rank page\n    \u25e6 <https://github.com/ohcnetwork/leaderboard/commit/31acf15fde6ab1daefbfc28c94e71e1647599bed|31acf15>: fixed timezone issue with slack eod update group by day logic causing incorrect eod update counts\n    \u25e6 <https://github.com/ohcnetwork/leaderboard/commit/08ff1e0af25ddd8f7c68440853e6211e80681193|08ff1e0>: fixed activity calendar not showing data beyond 1 year.\n\u2022 playing around to have two primary and secondary sidebars.\n\u2022 reviewed prs\n\u2022 :headphones:s w. <@U022THM4U2U> on priority issues\n\u2022 :headphones: w. <@U083HFWFESD> on timezone issue with when sending time for schedule creates and uncovered more hidden issues related to slot generation and heatmap once we start specifying time in schedule\u2019s validity.\n*may 14*\n\u2022 reviewed and tested prs on teleicu devices\n\u2022 <https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/65|#65>: setup eslint / prettier configs on teleicu devices FE\n\u2022 set-up i18n eslint rules in teleicu devices and came up with a solution to not manually always specify the namespace for all plugs.\n\u2022 :headphones:s w. <@UC99MFPU1> on location nav\n\u2022 <https://github.com/ohcnetwork/care_fe/commit/1e506a9efb69eba80f88cfa3c58ec53166fbdb50|1e506a9>: location nav for slowly moving things towards being location centric.\n\u2022 realized i unlocked the 4x pr badge on leaderboard\n*next*\n\u2022 complete teleicu devices translation; probably implement that namespace fix as well in main care",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "E6YAF",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "may 13",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "tiny fixes to leaderboard:"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/leaderboard/commit/73cdb37b3c602083849db8ad3a8da3cf6cb2d832",
+                                            "text": "73cdb37"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ": fixed mismatch in activity counts between contributors profile and leaderboard rank page"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/leaderboard/commit/31acf15fde6ab1daefbfc28c94e71e1647599bed",
+                                            "text": "31acf15"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ": fixed timezone issue with slack eod update group by day logic causing incorrect eod update counts"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/leaderboard/commit/08ff1e0af25ddd8f7c68440853e6211e80681193",
+                                            "text": "08ff1e0"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ": fixed activity calendar not showing data beyond 1 year."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "playing around to have two primary and secondary sidebars."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "reviewed prs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "s w. "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U022THM4U2U"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on priority issues"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " w. "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "U083HFWFESD"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on timezone issue with when sending time for schedule creates and uncovered more hidden issues related to slot generation and heatmap once we start specifying time in schedule\u2019s validity."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "may 14",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "reviewed and tested prs on teleicu devices"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/65",
+                                            "text": "#65",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ": setup eslint / prettier configs on teleicu devices FE"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "set-up i18n eslint rules in teleicu devices and came up with a solution to not manually always specify the namespace for all plugs."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "s w. "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "UC99MFPU1"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on location nav"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/commit/1e506a9efb69eba80f88cfa3c58ec53166fbdb50",
+                                            "text": "1e506a9"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ": location nav for slowly moving things towards being location centric."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "realized i unlocked the 4x pr badge on leaderboard"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "complete teleicu devices translation; probably implement that namespace fix as well in main care"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "four",
+                    "users": [
+                        "U08G3EL0XFS",
+                        "U06CY7RUZ9S"
+                    ],
+                    "count": 2
+                },
+                {
+                    "name": "alphabet-white-x",
+                    "users": [
+                        "U08G3EL0XFS",
+                        "U06CY7RUZ9S"
+                    ],
+                    "count": 2
+                }
+            ]
+        }
     ]
 }

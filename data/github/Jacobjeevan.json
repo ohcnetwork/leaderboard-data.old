@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-05-13T07:19:28.000Z",
+  "last_updated": "2025-05-14T05:06:53.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12212",
+      "time": "2025-05-14T05:06:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12212#issuecomment-2878690533",
+      "text": "> [#12212 (comment)](https://github.com/ohcnetwork/care_fe/issues/12212#issuecomment-2848702807) [#12212 (comment)](https://github.com/ohcnetwork/care_fe/issues/12212#issuecomment-2850596302) [@Jacobjeevan](https://github.com/Jacobjeevan) please asssign this issue to me ETA : 6 hour after assigned\n\nAs I mentioned in a previous post, modifying each sheet isn't ideal.\n\nAssigning to @shivankurchavan See if you can do this by modifying the z-index of sonner. FYI, modifications to Shadcn aren't allowed."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12235",
+      "time": "2025-05-14T04:44:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12235#issuecomment-2878659602",
+      "text": "> @rithviknishad @Jacobjeevan I’ve added a reset button to clear the selected location in both the create and edit facility forms. However, if a location has been added at least once, removing the selected location and submitting the form will not remove the location from the facility.\r\n> \r\n> Please let me know if any changes are needed.\r\n\r\nIf I recall correctly, BE doesn't allow us to overwrite lat/log to undefined (once it's filled, hence why we added the fallback value). So, what would be the use case of a reset button here? 🤔 \r\n\r\n@nihal467 Instead, we can hide the show on map link if coords are 0/0, no? 🤔 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-14T04:34:39.000Z",
+      "title": "ohcnetwork/care_fe#12254",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12254#pullrequestreview-2838691709",
+      "text": "Keep the view port at the top of the page on loading"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-14T04:20:18.000Z",
+      "title": "ohcnetwork/care_fe#12289",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12289#pullrequestreview-2838674357",
+      "text": "fix: Reset form on cancel button click in schedule template sheet"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-14T04:16:11.000Z",
+      "title": "ohcnetwork/care_fe#12295",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12295#pullrequestreview-2838668313",
+      "text": "Added support for plugin navigation buttons in the user nav"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-14T04:14:09.000Z",
+      "title": "ohcnetwork/care_fe#12298",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12298#pullrequestreview-2838666297",
+      "text": "Remove Accordion for Questionnaire Response Print Preview and Add Border around "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-14T04:07:32.000Z",
+      "title": "ohcnetwork/care_fe#12302",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12302#pullrequestreview-2838658921",
+      "text": "Fixed scroller in medication request"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-14T04:00:55.000Z",
+      "title": "ohcnetwork/care_fe#12304",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12304#pullrequestreview-2838652223",
+      "text": "fix geo validation error"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-05-13T07:19:06.000Z",
@@ -12772,7 +12828,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12117",
       "title": "Report Builder",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "Work in Progress 🚧"
       ]

@@ -1,6 +1,148 @@
 {
-  "last_updated": "2025-05-13T15:14:30.000Z",
+  "last_updated": "2025-05-14T10:15:19.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-14T08:53:51.000Z",
+      "title": "ohcnetwork/care_fe#12302",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12302#pullrequestreview-2839341925",
+      "text": "Fixed scroller in medication request"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-14T10:11:09.000Z",
+      "title": "ohcnetwork/care_fe#12309",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12309#pullrequestreview-2839596832",
+      "text": "Adjusting the memory for chrome in forked PR"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-14T07:48:46.000Z",
+      "title": "ohcnetwork/care#3042",
+      "link": "https://github.com/ohcnetwork/care/pull/3042#pullrequestreview-2839129989",
+      "text": "Introduce Instance-Specific Limit for Maximum Availability Slots"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12304",
+      "time": "2025-05-14T08:49:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12304#issuecomment-2879359862",
+      "text": "@ashwinpraveengo it'd be great if you could write more friendlier PR titles that are more meaningful!"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12286",
+      "time": "2025-05-14T08:49:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12286",
+      "text": "Show the geo error in patient creation form only on submission"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12170",
+      "time": "2025-05-14T08:49:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12170#issuecomment-2879356959",
+      "text": "@modamaan revert the change made in the local storage for now, create a separate issue to not be dependent on local storage for things like these.\r\n\r\nif i remember correctly, we decided not to use local storage for state management, this is bad."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-14T08:13:23.000Z",
+      "title": "ohcnetwork/care_fe#12304",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12304#pullrequestreview-2839208367",
+      "text": "fix geo validation error"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-14T08:12:08.000Z",
+      "title": "ohcnetwork/care_fe#12308",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12308#pullrequestreview-2839204918",
+      "text": "Fix dosage popover collision"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#3042",
+      "time": "2025-05-14T07:51:29.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3042#issuecomment-2879119912",
+      "text": "@NikhilA8606 check the nitpick comment as well: https://github.com/ohcnetwork/care/pull/3042#pullrequestreview-2839126104"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-14T07:42:59.000Z",
+      "title": "ohcnetwork/care_fe#12306",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12306#pullrequestreview-2839114073",
+      "text": "Modified the cypress test for patient search to be dynamic"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_teleicu_devices_fe#65",
+      "time": "2025-05-14T07:13:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/65",
+      "text": "Add ESLint and Prettier configuration files for improved code quality",
+      "turnaround_time": -3
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_teleicu_devices_fe#65",
+      "time": "2025-05-14T07:13:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/65",
+      "text": "Add ESLint and Prettier configuration files for improved code quality"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_teleicu_devices_fe#57",
+      "time": "2025-05-14T06:20:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/57",
+      "text": "WebSocket URL and Observation Device Section Text Overflow on Mobile View"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_teleicu_devices_fe#58",
+      "time": "2025-05-14T06:20:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/58",
+      "text": "fix: Text Overflow for web socket url and responsiveness for Vital Ob…",
+      "collaborated_with": [
+        "ashwinpraveengo",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-14T06:20:37.000Z",
+      "title": "ohcnetwork/care_teleicu_devices_fe#58",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/58#pullrequestreview-2838877228",
+      "text": "fix: Text Overflow for web socket url and responsiveness for Vital Ob…"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_teleicu_devices_fe#23",
+      "time": "2025-05-14T06:16:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/23",
+      "text": "Add watermark in camera stream"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_teleicu_devices_fe#61",
+      "time": "2025-05-14T06:16:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/61",
+      "text": "Add username prop to CameraStream and include watermark component",
+      "collaborated_with": [
+        "abhimanyurajeesh",
+        "rithviknishad"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-12T07:12:25.000Z",
+      "title": "ohcnetwork/care_teleicu_devices_fe#61",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/61#pullrequestreview-2832073005",
+      "text": "Add username prop to CameraStream and include watermark component"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-13T06:16:38.000Z",
+      "title": "ohcnetwork/care_fe#12289",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12289#pullrequestreview-2835389745",
+      "text": "fix: Reset form on cancel button click in schedule template sheet"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-05-13T15:14:30.000Z",
@@ -164,13 +306,6 @@
       "text": "@Tanuj1718 always update the ETA estimate if you think your PR won't be completed by the ETA already specified!\n\n"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-05-13T06:16:38.000Z",
-      "title": "ohcnetwork/care_fe#12289",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12289#pullrequestreview-2835389745",
-      "text": "fix: Reset form on cancel button click in schedule template sheet"
-    },
-    {
       "type": "issue_closed",
       "title": "ohcnetwork/care_teleicu_devices_fe#62",
       "time": "2025-05-12T23:24:01.000Z",
@@ -262,13 +397,6 @@
       "title": "ohcnetwork/care_fe#12214",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12214#pullrequestreview-2832104916",
       "text": "Added autoscroll for custom components in create schedule"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-05-12T07:12:25.000Z",
-      "title": "ohcnetwork/care_teleicu_devices_fe#61",
-      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/61#pullrequestreview-2832073005",
-      "text": "Add username prop to CameraStream and include watermark component"
     },
     {
       "type": "comment_created",

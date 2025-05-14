@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-12T16:53:28.000Z",
+  "last_updated": "2025-05-14T08:47:16.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12211",
+      "time": "2025-05-14T08:47:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12211#issuecomment-2879351504",
+      "text": "@rithviknishad @Jacobjeevan As @nihal467 mentioned , do i need to enable the camera accessing permission when clicking the button 'open camera' .\r\nCurrently the issue is related to fix avatar modal flickering, Can you clarify this . "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12307",
+      "time": "2025-05-14T07:29:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12307",
+      "text": "Fix : Avatar Modal Shows Camera View Instead of Avatar Edit View"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12288",
@@ -2615,12 +2629,22 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12211",
-      "title": "Fix : Profile Avatar Modal Flickers on Camera Access Denial",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12307",
+      "title": "Fix : Avatar Modal Shows Camera View Instead of Avatar Edit View",
       "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12211",
+      "title": "Fix : Profile Avatar Modal Flickers on Camera Access Denial",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "test failed",
+        "needs-triage"
       ]
     }
   ],
