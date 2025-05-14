@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-13T08:27:00.000Z",
+  "last_updated": "2025-05-13T20:49:29.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_teleicu_devices_fe#64",
+      "time": "2025-05-13T20:49:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/64",
+      "text": "FIXED: Input Fields Overflow on Add Camera Device Page"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_doctor_connect_fe#14",
@@ -3138,7 +3145,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_doctor_connect_fe/pull/14",
       "title": "Redesigned UserCard Component for Improved UI/UX",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
@@ -3146,8 +3153,7 @@
       "title": "FIXED: Disable Reschedule Button When Appointment Status Is 'In Consultation",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "reviewed"
+        "test failed"
       ]
     }
   ],
