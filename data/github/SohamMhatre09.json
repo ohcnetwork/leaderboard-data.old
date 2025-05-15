@@ -1,6 +1,14 @@
 {
-  "last_updated": "2025-05-13T13:34:54.000Z",
+  "last_updated": "2025-05-15T05:43:00.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12143",
+      "time": "2025-05-15T05:43:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12143",
+      "text": "Enhance file upload functionality by managing dropdown state and closing it after file capture actions",
+      "turnaround_time": 1453868
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12143",
@@ -37,16 +45,6 @@
       "text": " @aravindm4 @Jacobjeevan  @rithviknishad I'd like to request assignment for this issue.\n\n## Proposed Solution:\nI'll optimize the PatientIndex component by implementing useMemo hooks to prevent unnecessary recalculations of appointment filtering and sorting operations. My approach will:\n\n1. Identify the three key areas needing optimization:\n   - The main appointment filtering and datetime sorting logic\n   - Past appointments filtering\n   - Scheduled appointments filtering\n\n2. Implement useMemo hooks for each operation with carefully defined dependency arrays that only trigger recalculations when necessary data changes (like filters, sort criteria, or appointment data)\n\n3. Ensure proper typing for all memoized values\n\nThis will significantly improve performance with larger datasets by preventing redundant calculations on every render.\n\n## Expected Timeline:\nEnd date: Today\n"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12143",
-      "title": "Enhance file upload functionality by managing dropdown state and closing it after file capture actions",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }
