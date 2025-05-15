@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-13T05:36:05.000Z",
+  "last_updated": "2025-05-14T16:48:52.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12312",
+      "time": "2025-05-14T16:48:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12312",
+      "text": "fixes toaster notifs when sidebar is open"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12212",
+      "time": "2025-05-14T12:18:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12212#issuecomment-2880006848",
+      "text": "This is not a z-index problem.\n\nThe sheet is using modal property so the clicks on any other thing than the side bar are not captured. That’s why even tho the toaster appears we cannot click it. Now I can pass in modal={false} in props in <Sheet /> but it also removes the nice dark overlay that used to come on rest of screen, additionally, because the modal property is set to false the click on any other component than sidebar closes the side bar. This also includes the click on cross [x] to close the toaster.\n\n\n\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12212",
@@ -23,6 +37,13 @@
       "text": "can i get more guidance on this issue, id like to work on this one. \n"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12312",
+      "title": "Fix: Toaster notifications wont close on click, if sidebar is open",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }

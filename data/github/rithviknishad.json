@@ -1,6 +1,104 @@
 {
-  "last_updated": "2025-05-14T10:15:19.000Z",
+  "last_updated": "2025-05-14T15:30:47.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-14T08:12:08.000Z",
+      "title": "ohcnetwork/care_fe#12308",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12308#pullrequestreview-2839204918",
+      "text": "Fix dosage popover collision"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11764",
+      "time": "2025-05-14T15:29:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11764",
+      "text": "Keep the view port at the top of the page on loading the next page using pagination"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12158",
+      "time": "2025-05-14T15:28:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12158",
+      "text": "Remove `src/types/emr/patient/patient.ts` type and replace all usages with the `newPatient` type"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12243",
+      "time": "2025-05-14T15:08:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12243",
+      "text": "Button Remains Disabled Until Manual Page Refresh"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12212",
+      "time": "2025-05-14T14:36:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12212#issuecomment-2880491636",
+      "text": "just realised I don't think we should even allow opening that sheet in the first place if user does not have access to that facility!\n\ncc: @Jacobjeevan "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12212",
+      "time": "2025-05-14T14:27:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12212#issuecomment-2880459909",
+      "text": "https://github.com/shadcn-ui/ui/issues/3461#issuecomment-2473259927\n\nthis seems to fix it, but also closes the sheet. we somehow have to prevent click propogation"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#63",
+      "time": "2025-05-14T14:07:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/63#issuecomment-2880390573",
+      "text": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/64#issuecomment-2880389159"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_teleicu_devices_fe#63",
+      "time": "2025-05-14T14:07:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/63",
+      "text": "Input Fields Overflow on Add Camera Device Page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_teleicu_devices_fe#64",
+      "time": "2025-05-14T14:07:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/64#issuecomment-2880389159",
+      "text": "@modamaan this is an issue with how main care. main care's parent element is setting `grid` which is not desired. one line fix in main care solves this problem!\r\n\r\n<img width=\"1220\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5f2d8f95-11db-4941-bc98-6607497f1fb1\" />\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-14T13:26:12.000Z",
+      "title": "ohcnetwork/care_fe#12298",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12298#pullrequestreview-2840190986",
+      "text": "Remove Accordion for Questionnaire Response Print Preview and Add Border around "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-04-29T16:35:56.000Z",
+      "title": "ohcnetwork/care_fe#12170",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12170#pullrequestreview-2804321503",
+      "text": "FIXED: Disable Reschedule Button When Appointment Status Is 'In Consultation"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12170",
+      "time": "2025-05-14T12:38:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12170#issuecomment-2880064155",
+      "text": "NO! we do not want to store internal states that cannot be recreated.\r\n\r\nThink of this way: user navigates to something directly via a URL. This would break!\r\n\r\nCreate separate issue to not use local storage for now."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-04T15:41:45.000Z",
+      "title": "ohcnetwork/care_fe#12094",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12094#pullrequestreview-2813498895",
+      "text": "Enhancement: Add generic RelativeDateTooltip component for viewing relative date "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-06T18:39:23.000Z",
+      "title": "ohcnetwork/care_fe#11717",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11717#pullrequestreview-2819273994",
+      "text": "fix: cancel plan button to delete the locations of the Encounter section."
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-05-14T08:53:51.000Z",
@@ -49,13 +147,6 @@
       "title": "ohcnetwork/care_fe#12304",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12304#pullrequestreview-2839208367",
       "text": "fix geo validation error"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-05-14T08:12:08.000Z",
-      "title": "ohcnetwork/care_fe#12308",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12308#pullrequestreview-2839204918",
-      "text": "Fix dosage popover collision"
     },
     {
       "type": "comment_created",
@@ -276,13 +367,6 @@
       "title": "ohcnetwork/care_fe#12295",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12295#pullrequestreview-2835754968",
       "text": "Added support for plugin navigation buttons in the user nav"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-04-29T16:35:56.000Z",
-      "title": "ohcnetwork/care_fe#12170",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12170#pullrequestreview-2804321503",
-      "text": "FIXED: Disable Reschedule Button When Appointment Status Is 'In Consultation"
     },
     {
       "type": "comment_created",
@@ -614,13 +698,6 @@
       "time": "2025-05-12T05:00:56.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/12263",
       "text": "Prevent Future Dates in Death Form Submission on Questionnaire Page"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-05-04T15:41:45.000Z",
-      "title": "ohcnetwork/care_fe#12094",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12094#pullrequestreview-2813498895",
-      "text": "Enhancement: Add generic RelativeDateTooltip component for viewing relative date "
     },
     {
       "type": "issue_closed",
@@ -1302,13 +1379,6 @@
       "time": "2025-05-06T19:30:54.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12244#issuecomment-2855700951",
       "text": "existing thing works, let's not change things unless all issue is filed!"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-05-06T18:39:23.000Z",
-      "title": "ohcnetwork/care_fe#11717",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/11717#pullrequestreview-2819273994",
-      "text": "fix: cancel plan button to delete the locations of the Encounter section."
     },
     {
       "type": "issue_closed",
@@ -70742,7 +70812,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/2",
       "title": "added translations",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": []
     }
   ],

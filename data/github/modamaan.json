@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-13T20:49:29.000Z",
+  "last_updated": "2025-05-14T12:06:28.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12170",
+      "time": "2025-05-14T12:06:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12170#issuecomment-2879950961",
+      "text": "@rithviknishad can we use this method intead localstorage```\r\n   queryClient.setQueryData([\"appointment-selection\"], {\r\n      selectedSlot,\r\n      reason,\r\n    });\r\n```"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_teleicu_devices_fe#64",
@@ -3147,7 +3154,7 @@
       "title": "FIXED: Disable Reschedule Button When Appointment Status Is 'In Consultation",
       "stale_for": 0,
       "labels": [
-        "needs testing",
+        "Tested ✅",
         "reviewed"
       ]
     }
