@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-11T13:35:40.000Z",
+  "last_updated": "2025-05-15T14:19:38.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12319",
+      "time": "2025-05-15T14:19:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12319#issuecomment-2883955214",
+      "text": "@rithviknishad The error happens in the deviceform.tsx. The problem is while changing the email select box to phone Input the value in the email is passed to the phone Input, but the phone Input expects a number which causes this error. My solution is to sanitize the value when rendering the PhoneInput\nI have also fixed it locally. Happy to raise a PR if you approve"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12319",
+      "time": "2025-05-15T12:49:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12319#issuecomment-2883702165",
+      "text": "@rithviknishad Can I work on this ETA: 16 May\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12275",
@@ -164,7 +178,16 @@
       "text": "Mobile view of patient details page is not responsive"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12324",
+      "title": "Fix: Missing Default Flag on Phone/Fax Switch in Contact Points Section",
+      "stale_for": 0,
+      "labels": [
+        "Changes Required"
+      ]
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10949",

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-14T08:03:22.000Z",
+  "last_updated": "2025-05-15T10:47:28.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12308",
+      "time": "2025-05-15T10:47:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12308#issuecomment-2883380711",
+      "text": "_ If the sheet is opened while an input is focused elsewhere, the keyboard may collapse._, -Github Copilot\r\nMaybe something associated with `DosageSheet` has an input focused, Cause when we try to manually focus the `ComboboxQuantityInput`, its behaving strange. Is there anyway to find if another input  is focused?"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12308",
@@ -102,7 +109,9 @@
       "title": "Fix dosage popover collision",
       "stale_for": 0,
       "labels": [
-        "do not merge"
+        "question",
+        "do not merge",
+        "needs-triage"
       ]
     }
   ],
