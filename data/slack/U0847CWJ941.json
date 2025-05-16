@@ -1924,5 +1924,118 @@
                 }
             ]
         }
+    ],
+    "2025-05-16 00:00:00": [
+        {
+            "user": "U0847CWJ941",
+            "type": "message",
+            "ts": "1747371837.083729",
+            "edited": {
+                "user": "U0847CWJ941",
+                "ts": "1747371862.000000"
+            },
+            "client_msg_id": "42e7dce3-5305-46ef-8b1b-4292da6f5fca",
+            "text": "May 14 15\n\u2022 <https://github.com/ohcnetwork/care_fe/pull/12304|PR- 12304> for fixing geo validation error in add patient screen got merged .\n\u2022 <https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/58|PR-58> for overflow of web socket url in devices screen also got merged\n\u2022 There were some comments in PR related to encounter tags issue to add the constants related to classes status in `Encounter.ts` , so made changes and updated the PR\nNext:\n\u2022 Looking for new issues.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "hOYWz",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "May 14 15\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/12304",
+                                            "text": "PR- 12304"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " for fixing geo validation error in add patient screen got merged ."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/58",
+                                            "text": "PR-58"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " for overflow of web socket url in devices screen also got merged"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "There were some comments in PR related to encounter tags issue to add the constants related to classes status in "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "Encounter.ts",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " , so made changes and updated the PR"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\nNext:\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Looking for new issues."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
