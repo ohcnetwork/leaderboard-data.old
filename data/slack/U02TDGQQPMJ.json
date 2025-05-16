@@ -47199,6 +47199,195 @@
         {
             "user": "U02TDGQQPMJ",
             "type": "message",
+            "ts": "1747411315.014719",
+            "client_msg_id": "b446f136-95a0-4886-aa58-0b3b57e25f9a",
+            "text": "*may 16*\n\u2022 <https://github.com/ohcnetwork/care_fe/commit/33499c2301efa64e952efc458774886215909c98|33499c2>: added support for linking charge item def. to product\n\u2022 <https://github.com/ohcnetwork/leaderboard/commit/8f2473da7d3e32086624c04ae3b30ded89589dc5|8f2473d>: fixed year filter in leaderboard\n\u2022 <https://github.com/ohcnetwork/care_fe/pull/12334|#12334>: added clinical and non clinical ngo facility types in fe\n\u2022 partially worked on medicine dispense history for a location; stashed it away as location spf. API for that is not there yet.\n\u2022 looked into FE\u2019s timzeone issue from datetime inputs; created a zod schema type `tzAwareDateTimeString` in FE to match w. the BE;\n\u2022 :headphones: w. <@UC99MFPU1> on receive stock flow\n*next*\n\u2022 receive stock\n\u2022 medicine dispense history for location\n\u2022 admin crud for pharmacy supplier",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "8jPU/",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "may 16",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/commit/33499c2301efa64e952efc458774886215909c98",
+                                            "text": "33499c2"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ": added support for linking charge item def. to product"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/leaderboard/commit/8f2473da7d3e32086624c04ae3b30ded89589dc5",
+                                            "text": "8f2473d"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ": fixed year filter in leaderboard"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/12334",
+                                            "text": "#12334",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ": added clinical and non clinical ngo facility types in fe"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "partially worked on medicine dispense history for a location; stashed it away as location spf. API for that is not there yet."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "looked into FE\u2019s timzeone issue from datetime inputs; created a zod schema type "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "tzAwareDateTimeString",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " in FE to match w. the BE;"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "emoji",
+                                            "name": "headphones",
+                                            "unicode": "1f3a7"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " w. "
+                                        },
+                                        {
+                                            "type": "user",
+                                            "user_id": "UC99MFPU1"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on receive stock flow"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "receive stock"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "medicine dispense history for location"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "admin crud for pharmacy supplier"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
             "ts": "1747371354.716009",
             "client_msg_id": "f82cf6fb-bc25-4c20-a637-a5b0bd7cdd98",
             "text": "*may 15*\n\u2022 :headphones: w. <@U022THM4U2U> <@U02D0NA6RHR> on couple of issues and schedule validation\n\u2022 corrected verbiage \u2018Consultation Doctor\u2019 -&gt; \u2018Practitioner\u2019 in appointment list page\n\u2022 :headphones: w. <@UC8TSEGCQ> on timezone not being sent from couple of datetime fields from FE and schedule validity time issue\n\u2022 fixed smoll build fail due to file name casing issue in labs branch\n\u2022 inventory list page and types\n\u2022 fixed back button of location nav\u2019s url not to change on navigates within the location layout\n\u2022 reviewed prs\n*next*\n\u2022 teleicu devices translations\n\u2022 scheduling\n\u2022 any tasks from pharmacy/inventory",
