@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-05-15T16:13:29.000Z",
+  "last_updated": "2025-05-16T12:39:54.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12268",
+      "time": "2025-05-16T12:39:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12268#issuecomment-2886609557",
+      "text": "Minor changes is needed in this PR , to convert the datetime into timezone aware"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12333",
+      "time": "2025-05-16T12:09:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12333#issuecomment-2886541379",
+      "text": "I would like to work on this issue \nETA : Tommorow"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12329",
+      "time": "2025-05-16T10:40:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12329",
+      "text": "Prevent Duplicate Organization Selection"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12327",
+      "time": "2025-05-16T08:43:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12327#issuecomment-2886054648",
+      "text": "> [@NikhilA8606](https://github.com/NikhilA8606)\n> \n> > The user should not be able to select the same organization more than once.\n> \n> doing this alone should solve the problem right? 🤔 rest of them would be redundant and would never be hit once that's done right?\n\nyeah, you''re right"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12327",
+      "time": "2025-05-16T06:43:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12327#issuecomment-2885793807",
+      "text": "I would like to work on this issue\nETA : Today"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12327",
+      "time": "2025-05-16T06:42:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12327",
+      "text": "Duplicate Organization Selection Allowed, Leading to Confusing Error Toast"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12324",
@@ -1069,12 +1111,12 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/3042",
       "title": "Introduce Instance-Specific Limit for Maximum Availability Slots",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12268",
-      "title": "Restricted users from selecting a future date in the death form",
+      "title": "Disallow future `deceased_datetime` and fixed tz not being sent",
       "stale_for": 0,
       "labels": [
         "needs testing"
