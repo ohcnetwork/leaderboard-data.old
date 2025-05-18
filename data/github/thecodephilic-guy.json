@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-01-30T06:56:57.000Z",
+  "last_updated": "2025-05-18T06:16:06.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12347",
+      "time": "2025-05-18T06:16:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12347",
+      "text": "fix: camera capture dialog issue #12341"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12341",
+      "time": "2025-05-18T06:10:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12341#issuecomment-2888796931",
+      "text": "> [@thecodephilic-guy](https://github.com/thecodephilic-guy) go ahead, but next time do request for assignment before working on the PR.\n\nyeah sure"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12341",
+      "time": "2025-05-18T06:08:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12341#issuecomment-2888796032",
+      "text": "@rithviknishad I am ready to make a PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12341",
+      "time": "2025-05-18T06:07:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12341#issuecomment-2888795623",
+      "text": "https://github.com/user-attachments/assets/421cb8a6-6298-4283-9e7b-cd28e2357606"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12341",
+      "time": "2025-05-18T06:03:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12341#issuecomment-2888793857",
+      "text": "Ah I see, the problem is with cleanup logic in the useEffect, which only runs when the component unmount or when the dependencies change, not when the dialog box is manually closed using buttons.\n\nI wrote a seprate function for it and now it is working fine."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10284",
@@ -139,12 +174,10 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/landing/pull/21",
-      "title": "solved #20 i.e contact link is now working from other than homepage",
-      "stale_for": 26,
-      "labels": [
-        "changes requested"
-      ]
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12347",
+      "title": "fix: camera capture dialog issue #12341",
+      "stale_for": 0,
+      "labels": []
     }
   ],
   "authored_issue_and_pr": []
