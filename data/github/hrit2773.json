@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-05-15T09:47:33.000Z",
+  "last_updated": "2025-05-17T18:27:00.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11989",
+      "time": "2025-05-17T18:27:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11989#issuecomment-2888527037",
+      "text": "@Jacobjeevan @rithviknishad if this is not resolved can I take this up. I will follow the same approach mentioned by @Jacobjeevan by displaying 100/1000 type word count and also handle it and I will also resolve it in backend side first by adding validation check. ETA: 20th May"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12338",
+      "time": "2025-05-17T09:37:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12338#issuecomment-2888253348",
+      "text": "@rithviknishad the problem was that the logic under usememo was written in such a way that the options visible in the dropdown depended on selectedTags so that's why due to this unnecessary state management this issue was caused so what I did is I allowed the results to refetch the available tags because initially the logic was just a hack to add the newly created tags. So lets use simple search logic."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12338",
+      "time": "2025-05-17T09:32:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12338",
+      "text": "Allow refetching the available tags when user creates a new tag "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12067",
@@ -5045,9 +5066,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12338",
+      "title": "Allow refetching the available tags when user creates a new tag ",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "reviewed"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12067",
       "title": "Added Organiztion selector to care team sheet",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "question",
         "Changes Required",
@@ -5057,7 +5087,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11922",
       "title": "E2e tests for symptoms allergy and diagnosis",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Changes Required"
       ]
