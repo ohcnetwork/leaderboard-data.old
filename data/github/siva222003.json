@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-14T22:02:23.000Z",
+  "last_updated": "2025-05-18T16:08:38.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12289",
+      "time": "2025-05-18T16:08:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12289#issuecomment-2889073548",
+      "text": "@rithviknishad @Jacobjeevan\r\nI have added the reset on the sheets where I felt it was needed.  \r\nAlso, I added a `Cancel` button in two sheets to handle the state reset when clicking `Cancel` instead of relying on `onOpenChange`.\r\n\r\nPlease review and let me know if any changes are needed."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12235",
@@ -899,15 +906,17 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12289",
       "title": "fix: Reset form on cancel button click in schedule template sheet",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "Changes Required"
+        "question",
+        "Changes Required",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12235",
       "title": "Fix: improve facility location handling in create/edit form",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": [
         "question",
         "Work in Progress 🚧",
@@ -917,7 +926,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12048",
       "title": "test: add tests for Community Nurse Homecare Form questionnaire",
-      "stale_for": 2,
+      "stale_for": 5,
       "labels": [
         "question",
         "Merge Conflict",
