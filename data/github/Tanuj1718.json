@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-18T15:52:39.000Z",
+  "last_updated": "2025-05-19T06:32:48.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12355",
+      "time": "2025-05-19T06:32:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12355",
+      "text": "fix: Add validations for empty values in Valueset"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12349",
+      "time": "2025-05-19T05:51:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12349#issuecomment-2889702847",
+      "text": "> We can simply add front-end validation to prevent such payloads from being sent to the BE in the first place; no need adjust any backend error message or re-throwing a custom error message.\n\n@rithviknishad  Did you mean like this? Added a zod validation and form will not submit till the value is empty.\n\n<img width=\"491\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c23ecf72-ee05-4de0-94f5-b6b3c08e9091\" />"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12349",
@@ -2483,6 +2497,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12355",
+      "title": "fix: Add validations for empty values in Valueset",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/16",
       "title": "fix: Made 'Generate/Link ABHA Number' page mobile friendly",
       "stale_for": 2,
@@ -2491,7 +2514,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/10756",
       "title": "Allow to select preferable camera during photo capturing",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "Changes Required"
       ]
