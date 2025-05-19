@@ -1,6 +1,146 @@
 {
-  "last_updated": "2025-05-19T08:42:23.000Z",
+  "last_updated": "2025-05-19T13:09:58.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12339",
+      "time": "2025-05-19T13:09:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12339#issuecomment-2890980684",
+      "text": "@modamaan hold working on this; @aravindm4 will be updating on any necessary changes required for this soon;"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-17T12:07:27.000Z",
+      "title": "ohcnetwork/care_fe#12339",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12339#pullrequestreview-2848262644",
+      "text": "FIXED: Restrict \"Assign User\" list in Resource Request to Users within Facility "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12339",
+      "time": "2025-05-19T12:37:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12339#issuecomment-2890855870",
+      "text": "@modamaan i've reverted your last two commits based on https://github.com/ohcnetwork/care_fe/issues/12335#issuecomment-2890844907"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-19T11:50:01.000Z",
+      "title": "ohcnetwork/care_fe#12362",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12362#pullrequestreview-2850479960",
+      "text": "Added all facility type into the facility creation test"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12363",
+      "time": "2025-05-19T11:27:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12363#issuecomment-2890658017",
+      "text": "@NikhilA8606 were you able to replicate this issue? 🤔 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-19T08:28:46.000Z",
+      "title": "ohcnetwork/care_teleicu_devices#13",
+      "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/13#pullrequestreview-2849886356",
+      "text": "Cleaning up PositionPreset objects with deleted FacilityLocation"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12326",
+      "time": "2025-05-19T10:41:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12326",
+      "text": "Issue automation workflow updating status back to in-progress when assignees are changed after issue closed"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-19T10:41:48.000Z",
+      "title": "ohcnetwork/care_fe#12337",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12337#pullrequestreview-2850299285",
+      "text": "fix: update project status based on issue state and assignee count"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12361",
+      "time": "2025-05-19T10:32:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12361#issuecomment-2890511891",
+      "text": "You do realise that discharge summary doesn't work that way right? 🤔 \n\nUpon calling \"Discharge summary generate\", the backend queues this task in the background and the request is completed before even the report is generated. Report generation may take a while to be fully completed, hence this is not synchronous. \n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12361",
+      "time": "2025-05-19T10:30:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12361#issuecomment-2890506084",
+      "text": "@Jeffrin2005 how exactly were you planning on to solve this anyhow? 🤔 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12361",
+      "time": "2025-05-19T10:28:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12361#issuecomment-2890499551",
+      "text": "This is being reworked with reports; cc: @Jacobjeevan "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12361",
+      "time": "2025-05-19T10:28:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12361",
+      "text": "Generated File only Appears After Manual Refresh"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#10945",
+      "time": "2025-05-19T10:10:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/10945",
+      "text": "Bug : Large image upload error in edit avatar"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-19T05:12:16.000Z",
+      "title": "ohcnetwork/care_fe#12342",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12342#pullrequestreview-2849394929",
+      "text": "fixed image upload validation error in Edit Avatar"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12086",
+      "time": "2025-05-19T09:35:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12086#issuecomment-2890336236",
+      "text": "https://github.com/ohcnetwork/care/pull/3032#issuecomment-2871890393"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12086",
+      "time": "2025-05-19T09:35:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12086",
+      "text": "Sorting & filters the consents in the consents tab"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12353",
+      "time": "2025-05-19T09:23:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12353",
+      "text": "Confirm Field Shifts Down When Clicking New Password"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12346",
+      "time": "2025-05-19T09:20:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12346#issuecomment-2890276899",
+      "text": "this issue is known, and we have already implemented a fix in labs feat. branch; \n\nwith that getting merged, it should be fixed.\n\nhttps://github.com/ohcnetwork/care_fe/blob/labs-v2/Todo.md?plain=1#L24"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12360",
+      "time": "2025-05-19T09:10:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12360",
+      "text": "Usages of inputs with `datetime-local` sending timezone naive to backend"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12352",
+      "time": "2025-05-19T09:01:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12352",
+      "text": "Missing Password View Option in Two-Factor Authentication "
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-05-19T08:42:23.000Z",
@@ -51,13 +191,6 @@
       "text": "issue was not assigned; "
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-05-19T08:28:46.000Z",
-      "title": "ohcnetwork/care_teleicu_devices#13",
-      "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/13#pullrequestreview-2849886356",
-      "text": "Cleaning up PositionPreset objects with deleted FacilityLocation"
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12346",
       "time": "2025-05-19T08:26:26.000Z",
@@ -98,13 +231,6 @@
       "time": "2025-05-19T07:27:53.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/12223#issuecomment-2889912964",
       "text": "@Tanuj1718 do not work on this until the design is approved; "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-05-19T05:12:16.000Z",
-      "title": "ohcnetwork/care_fe#12342",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12342#pullrequestreview-2849394929",
-      "text": "fixed image upload validation error in Edit Avatar"
     },
     {
       "type": "comment_created",
@@ -224,13 +350,6 @@
       "title": "ohcnetwork/care_fe#12338",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12338#pullrequestreview-2848277165",
       "text": "Allow refetching the available tags when user creates a new tag "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-05-17T12:07:27.000Z",
-      "title": "ohcnetwork/care_fe#12339",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12339#pullrequestreview-2848262644",
-      "text": "FIXED: Restrict \"Assign User\" list in Resource Request to Users within Facility "
     },
     {
       "type": "pr_reviewed",

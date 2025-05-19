@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-17T18:25:52.000Z",
+  "last_updated": "2025-05-19T09:04:26.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12346",
+      "time": "2025-05-19T09:04:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12346#issuecomment-2890225587",
+      "text": ">  Date Input Scroll Behavior: The date input field supports mouse-wheel incrementing, but scrolling over it unintentionally scrolls the entire page instead of changing the date.\n   Issue: Wheel events are not captured properly, making the feature unusable.\nPincode Input Risks/: The pincode input allows mouse-wheel increment/decrement, which can accidentally alter values (e.g., changing 123456 to 123457).\nRisk: Could lead to incorrect data entry.\nAdditional Issue: No character limit enforced for the pincode field.\n\nHow about these problems?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12346",
@@ -121,7 +128,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12308",
       "title": "Fix dosage popover collision",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "question",
         "do not merge",
