@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-19T14:56:59.000Z",
+  "last_updated": "2025-05-20T06:19:33.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12039",
+      "time": "2025-05-20T06:19:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12039#issuecomment-2893094714",
+      "text": "hey @rithviknishad this issue was caused by className=\"truncate\" in the DatePicker component, which was cutting off long date strings like \"September 10th, 2026\" when they overflowed the input width.\n\nmy approach: I removed the truncate class from the <span>  in this code . Now it displays correctly without being clipped\nETA : Today\n\n```\n<span className=\"truncate\">\n            {date ? (\n              <>\n                <span className=\"block sm:hidden\">\n                  {format(date, \"MMM d, yyyy\")}\n                </span>\n                <span className=\"hidden sm:block\">{format(date, \"PPP\")}</span>\n              </>\n            ) : (\n              <span>{t(\"pick_a_date\")}</span>\n            )}\n          </span>\n\n```"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12182",
@@ -519,7 +526,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12186",
       "title": "Fix : Sidebar Active Tab Highlight",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Changes Required"
       ]
