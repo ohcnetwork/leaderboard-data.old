@@ -5592,5 +5592,111 @@
                 }
             ]
         }
+    ],
+    "2025-05-19 00:00:00": [
+        {
+            "user": "U06L50QL1AQ",
+            "type": "message",
+            "ts": "1747693413.048249",
+            "client_msg_id": "f7b625f1-0b29-4046-8775-d81d070537a3",
+            "text": "May 19\n\u2022 Weekly call\n\u2022 Trying to figure out why test in scheduling is failing ( :slightly_smiling_face: 90% sure that it's due to different ways we are using timezone/datetime , IST in apis and UTC in test )\nNext -\n\u2022 Raised MR for the fix for test\n\u2022 Separate out permissions for rescheduling ",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "8JJkM",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "May 19\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Weekly call"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Trying to figure out why test in scheduling is failing ( "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "slightly_smiling_face",
+                                            "unicode": "1f642"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " 90% sure that it's due to different ways we are using timezone/datetime , IST in apis and UTC in test )"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next -\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Raised MR for the fix for test"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Separate out permissions for rescheduling "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "eyes",
+                    "users": [
+                        "U02TDGQQPMJ"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }
