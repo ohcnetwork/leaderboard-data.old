@@ -1,6 +1,59 @@
 {
-  "last_updated": "2025-05-20T14:49:29.000Z",
+  "last_updated": "2025-05-21T10:54:17.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12338",
+      "time": "2025-05-21T10:54:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12338#issuecomment-2897507807",
+      "text": "LGTM"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#12220",
+      "time": "2025-05-21T10:41:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12220",
+      "text": "Relocation of drawingTab into fileSection",
+      "collaborated_with": [
+        "NikhilA8606",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12355",
+      "time": "2025-05-21T10:33:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12355#issuecomment-2897456207",
+      "text": "![image](https://github.com/user-attachments/assets/ff316bed-9114-4d54-8f14-5528e4db72cd)\r\n\r\n- there is unwanted request fired when we open the filters in the rules, the issue is present in the develop as well, @Tanuj1718 can you solve that issue as well in this PR"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12329",
+      "time": "2025-05-21T10:21:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12329#issuecomment-2897422047",
+      "text": "![image](https://github.com/user-attachments/assets/701e4c96-a7b1-4715-a90c-df9cada615ef)\r\n![image](https://github.com/user-attachments/assets/336d8bbe-f9e3-488b-85b6-0da788a7fbe3)\r\n\r\n\r\n- Don't change the existing workflow. If a user selects a location without any child locations, allow the selection without asking for confirmation. If the user selects a location that has already been added, show a message at the bottom indicating it has already been added, as similar to screenshot 2"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12322",
+      "time": "2025-05-21T08:32:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12322#issuecomment-2897081532",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12348",
+      "time": "2025-05-21T08:20:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12348#issuecomment-2897044873",
+      "text": "- The logic to keep the full width was explicitly written as per the product requirement, so revert the change you made\r\n\r\n![image](https://github.com/user-attachments/assets/75e8dd02-19f3-4041-8680-e6541b015436)\r\n![image](https://github.com/user-attachments/assets/730e978b-0530-409e-b5c8-161e570bda44)\r\n\r\n\r\n- On all screens, when there are no medications, the Medication History button should be placed in the top right end of the add medication button, as on the 1st screenshot,\r\n- When we have medication, the medication history button is expected to be placed on the top right above the remove button as on the 2nd screenshot"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12220",
+      "time": "2025-05-21T07:01:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12220#issuecomment-2896826960",
+      "text": "LGTM,\r\n\r\n- Discharge summaries are also coming under files, but this seem like a product call which can be taken later"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12117",
