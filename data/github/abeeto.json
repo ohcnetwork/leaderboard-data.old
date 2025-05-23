@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-21T11:07:09.000Z",
+  "last_updated": "2025-05-23T06:15:44.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12021",
+      "time": "2025-05-23T06:15:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12021#issuecomment-2903381866",
+      "text": "> @abeeto Works fine as per the linked issue. Could you do this for Medication Request as well? I had missed mentioning it in the issue.\r\n> \r\n> Can you also remove the \"Entered in error\" options from the dropdown for all these during creation as that scenario wouldn't happen?\r\n> \r\n> cc @nihal467\r\n\r\nI've removed the \"Entered in error\" options from the dropdown for new records. I'm not sure what the desired behaviour is for MedicationRequest as there is no option to set the record as \"Entered In Error\".  @amjithtitus09 Could you please elaborate? "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12021",
@@ -390,12 +397,9 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12021",
       "title": "Allow edit of questionnaire structured records with `entered-in-error` status",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "question",
-        "needs review",
-        "Tested ✅",
-        "needs-triage"
+        "Changes Required"
       ]
     }
   ],

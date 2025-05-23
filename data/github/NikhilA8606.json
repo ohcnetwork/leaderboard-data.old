@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-21T12:13:16.000Z",
+  "last_updated": "2025-05-23T07:26:52.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12389",
+      "time": "2025-05-23T07:26:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12389",
+      "text": "Implemented preview feature for File Upload"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-23T06:13:22.000Z",
+      "title": "ohcnetwork/care_fe#12388",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12388#pullrequestreview-2863306342",
+      "text": "Fix:Input area collapse with Save button in Drawings tab"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11632",
@@ -1199,12 +1213,17 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12389",
+      "title": "Implemented preview feature for File Upload",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12365",
       "title": "Redesign of the Couldn't Load the Page",
       "stale_for": 0,
       "labels": [
-        "Changes Required",
-        "Merge Conflict"
+        "Changes Required"
       ]
     },
     {
@@ -1218,7 +1237,8 @@
       "title": "Prevent Duplicate Organization Selection",
       "stale_for": 0,
       "labels": [
-        "test failed"
+        "needs review",
+        "Tested ✅"
       ]
     }
   ],

@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-21T11:59:51.000Z",
+  "last_updated": "2025-05-23T08:30:44.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12390",
+      "time": "2025-05-23T08:30:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12390",
+      "text": "Replace tooltip with a responsive popover"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12373",
+      "time": "2025-05-23T07:43:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12373#issuecomment-2903568008",
+      "text": "@gigincg I think it should be a `popover` instead of `ToolTip` because Tooltip's does not work on mobiles \n\nEither go with `popover` for both Desktop and mobile \n\nor \n\nFor mobile use `popover` and for desktop use `tooltip`"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12376",
@@ -1331,22 +1345,12 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12227",
-      "title": "fix: prevent EntitySelecetionsheet from closing when interacting with select dropdown",
-      "stale_for": 8,
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12390",
+      "title": "Replace tooltip with a responsive popover",
+      "stale_for": 0,
       "labels": [
-        "Work in Progress 🚧",
-        "stale"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12151",
-      "title": "Use EntitySelectionsheet and enhance collapsible for AllergyQuestion",
-      "stale_for": 1,
-      "labels": [
-        "needs review",
-        "Merge Conflict",
-        "stale"
+        "needs testing",
+        "needs review"
       ]
     }
   ],
