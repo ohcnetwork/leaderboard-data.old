@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-16T09:07:22.000Z",
+  "last_updated": "2025-05-23T12:13:44.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11589",
+      "time": "2025-05-23T12:13:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11589#issuecomment-2904227234",
+      "text": "@nihal467 \r\n\r\n> The consent has been moved to the date & time component\r\nMigrated\r\n\r\n> Can you look into it and properly reuse the existing consent code\r\n\r\nBoth are different components that are structured differently. It won't be possible to reuse that without extensive changes, which don't make sense."
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_scribe#5",
@@ -13472,21 +13479,22 @@
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/4",
       "title": "Updates for History Page",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/4",
       "title": "History page upgrades",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11589",
       "title": "Added Structured Question for Consent",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "test failed"
+        "needs testing",
+        "needs review"
       ]
     }
   ],

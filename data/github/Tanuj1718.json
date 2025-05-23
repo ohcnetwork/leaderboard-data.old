@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-19T06:32:48.000Z",
+  "last_updated": "2025-05-23T09:44:57.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12355",
+      "time": "2025-05-23T09:44:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12355#issuecomment-2903883322",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/446034280-ff316bed-9114-4d54-8f14-5528e4db72cd.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc5OTIyNTcsIm5iZiI6MTc0Nzk5MTk1NywicGF0aCI6Ii81NzA1NTk5OC80NDYwMzQyODAtZmYzMTZiZWQtOTExNC00ZDU0LThmMTQtNTUyOGU0ZGI3MmNkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTIzVDA5MTkxN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ1OTY1NDU3NDZlZDk0YWRhYTA0YmI0ZTg2MDM2N2VkM2IyYTlhYzY2YTdhNTgzYjEyYzY2ODYzNTUyODA5NjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.wkqPxMK61wwxFJOVkuwfJbjCGeedhvTtmBjbqYtY0nA)\r\n> \r\n> * there is unwanted request fired when we open the filters in the rules, the issue is present in the develop as well, @Tanuj1718 can you solve that issue as well in this PR\r\n\r\n@rithviknishad the requests to the backend are because of Valueset preview. Should i add default values in filter fields to prevent the validation error?"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12355",
@@ -2501,23 +2508,16 @@
       "title": "fix: Add validations for empty values in Valueset",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "question",
+        "Work in Progress 🚧",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/16",
       "title": "fix: Made 'Generate/Link ABHA Number' page mobile friendly",
-      "stale_for": 3,
+      "stale_for": 7,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/10756",
-      "title": "Allow to select preferable camera during photo capturing",
-      "stale_for": 2,
-      "labels": [
-        "Changes Required"
-      ]
     }
   ],
   "authored_issue_and_pr": [
@@ -2556,10 +2556,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11290",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11376"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11249",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11261"
     }
   ]
 }
