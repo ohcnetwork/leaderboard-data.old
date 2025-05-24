@@ -1,0 +1,14 @@
+{
+  "last_updated": "2025-05-24T09:18:25.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12403",
+      "time": "2025-05-24T09:18:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12403#issuecomment-2906685891",
+      "text": "Hi @rithviknishad, @Tanuj1718 , Could you assign this issue to me.\n\n\n<details><summary>Proposed solution:</summary>\n<p>\n\nFor the expected behavior:\n\n_1.There should be * mark in the required fields_ \n\nI see how other forms such as Add device uses `aria-required ` in the required field labels. Planning to do the same in location and organization forms.\n\n_2.The button should be disabled when user visits first time_\n\nCould see the button has a disabling logic already based on mutation and form state. I am thinking of adding another condition there to check the validity of form state.\n\n</p>\n</details> \n\n**Results:**\n\nWhen required field is empty\n\n<img width=\"1436\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a2293ca4-2974-49d4-9c99-d07f11e41e5e\" />\n<img width=\"1437\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4ed7cab9-2994-47c5-a120-c46a54ae202a\" />\n\nAnd when required field is filled\n\n<img width=\"796\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e9d8bf4b-bf0e-4191-934a-e59b3641d3b7\" />"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}
