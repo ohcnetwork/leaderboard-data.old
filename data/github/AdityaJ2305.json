@@ -1,6 +1,14 @@
 {
-  "last_updated": "2025-05-23T08:49:47.000Z",
+  "last_updated": "2025-05-24T04:51:11.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12366",
+      "time": "2025-05-24T04:51:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12366",
+      "text": "Fix: Responsiveness issue in the Update button dropdown for Encounter Action",
+      "turnaround_time": 330067
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-05-23T08:49:47.000Z",
@@ -7634,15 +7642,6 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12366",
-      "title": "Fix: Responsiveness issue in the Update button dropdown for Encounter Action",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "Tested ✅"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12336",
       "title": "Clinical History page",
       "stale_for": 0,
@@ -7655,7 +7654,8 @@
       "labels": [
         "question",
         "needs testing",
-        "needs review"
+        "needs review",
+        "Merge Conflict"
       ]
     },
     {
@@ -7671,7 +7671,8 @@
       "title": "Enhancement: Allow multiple Additional Instructions in Medication Request",
       "stale_for": 0,
       "labels": [
-        "Changes Required"
+        "needs testing",
+        "needs review"
       ]
     },
     {
@@ -7680,13 +7681,14 @@
       "stale_for": 0,
       "labels": [
         "question",
-        "Changes Required"
+        "Changes Required",
+        "Merge Conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11919",
       "title": "Redesigned DeviceList Page and Add Location Filter on DeviceList ",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": [
         "hold",
         "Changes Required"
