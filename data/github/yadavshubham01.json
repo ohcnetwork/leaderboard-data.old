@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-20T06:19:33.000Z",
+  "last_updated": "2025-05-25T16:16:25.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12186",
+      "time": "2025-05-25T16:16:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12186#issuecomment-2907922168",
+      "text": "@rithviknishad The only issue is that when navigating to a nested tab under a patient (like /book or /demography), only the base route /facility/{facilityId}/patient/{patientId} gets highlighted. The highlighting doesn't persist for the nested routes like /book-appointment or /demography. can give way to solve this problem?\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12039",
@@ -526,9 +533,11 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12186",
       "title": "Fix : Sidebar Active Tab Highlight",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "Changes Required"
+        "question",
+        "Changes Required",
+        "needs-triage"
       ]
     }
   ],
