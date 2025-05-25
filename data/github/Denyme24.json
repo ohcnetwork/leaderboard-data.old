@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-06T20:01:25.000Z",
+  "last_updated": "2025-05-24T19:16:48.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12403",
+      "time": "2025-05-24T19:16:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12403#issuecomment-2906984280",
+      "text": "Hi team, looking to make my first contribution! My approach:\n\nMade the following changes:\n\n* Added red asterisk for required fields in Location and Department forms using Tailwind CSS.\n* Updated button disable logic:\n\n  * Location form: disabled if unchanged or invalid.\n  * Department form: disabled if unchanged or loading.\n* Used React Hook Form's `isValid` and `isDirty` for validation.\n\nEOD: Changes done locally and self reviewed.\n\nApproach:\n\nhttps://github.com/user-attachments/assets/b8d82f5f-f83b-4faf-9bbc-4abb9dcfd329\n\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11946",
