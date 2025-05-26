@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-05-23T08:00:11.000Z",
+  "last_updated": "2025-05-26T07:14:04.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12416",
+      "time": "2025-05-26T07:14:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12416#issuecomment-2908788289",
+      "text": "@billjohnc can you elaborate it like what exactly do you mean by resources in this context. No. of tablets or anything like that?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12328",
+      "time": "2025-05-26T07:10:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12328#issuecomment-2908784699",
+      "text": "@rithviknishad I'll raise PR by tmrw EOD"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12387",
+      "time": "2025-05-26T04:23:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12387#issuecomment-2908479522",
+      "text": "@rithviknishad @Jacobjeevan can I get a review on this??"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11922",
+      "time": "2025-05-26T03:48:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11922#issuecomment-2908435949",
+      "text": "@nihal467 I have updated the flow of the test as suggested and also added cy.intercept() api verification. Toaster verification is handled by cy.verifyNotification in Questionnaire Submission itself. Can I get a review on this again?"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#11922",
@@ -5198,6 +5226,59 @@
       "text": "Soft delete assets from deleted facilities/hospitals"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12387",
+      "title": "Questionnaire Preview UI redesign",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/11922",
+      "title": "E2e tests for symptoms allergy and diagnosis",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "Changes Required",
+        "needs-triage"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11718",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11745"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2933",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2936"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2930",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2923"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11207",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11315"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11131",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11136"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10763",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10838"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10720",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10741"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10668",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10684"
+    }
+  ]
 }
