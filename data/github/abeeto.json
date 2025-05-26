@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-23T06:15:44.000Z",
+  "last_updated": "2025-05-26T11:34:53.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12021",
+      "time": "2025-05-26T11:34:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12021#issuecomment-2909414552",
+      "text": "@amjithtitus09 I've tried applying the same approach to MedicationRequest questionnaire but it doesn't make a lot of sense to me in this situation…\r\n\r\n1) When we add a new record and click the remove option before submitting, it will just remove the entry altogether, which is fine.\r\n\r\n2) Seems that any  pre-existing/previously submitted records are read only, so user can not edit them anyways… by making the remove button no longer \"disable\" the row, UI wise it looks like nothing has changed (even though internally, the record status is being changed to \"entered_in_error\")\r\n\r\nThe way it is currently offers more feedback to user that something has changed\r\n\r\nhttps://github.com/user-attachments/assets/7b5f1a70-f6b6-43e2-9a67-d6270773c173\r\n\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12021",
@@ -399,7 +406,9 @@
       "title": "Allow edit of questionnaire structured records with `entered-in-error` status",
       "stale_for": 0,
       "labels": [
-        "Changes Required"
+        "question",
+        "Changes Required",
+        "needs-triage"
       ]
     }
   ],
