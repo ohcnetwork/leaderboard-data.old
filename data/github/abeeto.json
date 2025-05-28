@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-27T09:58:30.000Z",
+  "last_updated": "2025-05-28T05:03:31.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12431",
+      "time": "2025-05-28T05:03:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12431#issuecomment-2914938280",
+      "text": "I would like to work on this.\n\nMy approach:\n- When user sets to entered-in-error, there should be a confirmation dialog that tells user it's a permanent change (e.g \"Are you sure? Marking as entered in error is a permanent change\")\n- After update, the consent file record will have stylings applied so that the UI appears disabled and can no longer be edited.\n\nETA: 2 days\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12431",
+      "time": "2025-05-28T04:58:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12431",
+      "text": "Bug: Patient Encounter Consent records do not change to read-only after `entered-in-error`"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12424",

@@ -1,12 +1,54 @@
 {
-  "last_updated": "2025-05-27T06:59:23.000Z",
+  "last_updated": "2025-05-28T08:17:16.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-23T07:13:23.000Z",
+      "title": "ohcnetwork/care_fe#12197",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12197#pullrequestreview-2863436946",
+      "text": "Add Allergies , Add Symptoms, Add diagnosis was not responsive in mobile view"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12197",
+      "time": "2025-05-28T08:16:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12197#issuecomment-2915401232",
+      "text": "> @Jacobjeevan sir i need a small help As you mentioned changes related to all three buttons and the \"Add Questionnaire\" button (which is currently in a separate div), I was thinking — would it be better to wrap all four buttons inside a single parent div? it will be much easier to manage\r\n\r\n\r\nHmm, let's not do that, I noticed we were hiding the add questionnaire button for smaller screens so keeping that behavior. Slightly adjusted the classes 👍 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-05T11:53:56.000Z",
+      "title": "ohcnetwork/care_fe#12155",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12155#pullrequestreview-2814561997",
+      "text": "Add appointment question 'required' flag support"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12302",
+      "time": "2025-05-28T07:28:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12302#issuecomment-2915270719",
+      "text": "@Spandan-Mishra what's the update here?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-23T10:38:46.000Z",
+      "title": "ohcnetwork/care_fe#12336",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12336#pullrequestreview-2863988417",
+      "text": "Clinical History page"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-05-27T06:58:29.000Z",
       "title": "ohcnetwork/care_fe#12413",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12413#pullrequestreview-2869837502",
       "text": "FIXED: Avoid Using localStorage for Navigation State in Public Appointment Flow"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-22T16:43:22.000Z",
+      "title": "ohcnetwork/care_fe#12094",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12094#pullrequestreview-2861919401",
+      "text": "Enhancement: Add generic RelativeDateTooltip component for viewing relative date "
     },
     {
       "type": "pr_reviewed",
@@ -84,13 +126,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2025-05-23T10:38:46.000Z",
-      "title": "ohcnetwork/care_fe#12336",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12336#pullrequestreview-2863988417",
-      "text": "Clinical History page"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2025-05-23T09:54:16.000Z",
       "title": "ohcnetwork/care_fe#12383",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12383#pullrequestreview-2863879800",
@@ -160,13 +195,6 @@
       "text": "Fix: Responsiveness issue in the Update button dropdown for Encounter Action"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-05-23T07:13:23.000Z",
-      "title": "ohcnetwork/care_fe#12197",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12197#pullrequestreview-2863436946",
-      "text": "Add Allergies , Add Symptoms, Add diagnosis was not responsive in mobile view"
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12364",
       "time": "2025-05-23T07:00:31.000Z",
@@ -219,13 +247,6 @@
       "title": "ohcnetwork/care_fe#11717",
       "link": "https://github.com/ohcnetwork/care_fe/pull/11717#pullrequestreview-2741810595",
       "text": "fix: cancel plan button to delete the planned location of the Encounter section."
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-05-22T16:43:22.000Z",
-      "title": "ohcnetwork/care_fe#12094",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12094#pullrequestreview-2861919401",
-      "text": "Enhancement: Add generic RelativeDateTooltip component for viewing relative date "
     },
     {
       "type": "pr_reviewed",
@@ -507,13 +528,6 @@
       "title": "ohcnetwork/care_fe#12075",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12075#pullrequestreview-2798675392",
       "text": "Fixed alignment issue in prescription preview"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-05-05T11:53:56.000Z",
-      "title": "ohcnetwork/care_fe#12155",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12155#pullrequestreview-2814561997",
-      "text": "Add appointment question 'required' flag support"
     },
     {
       "type": "pr_reviewed",
@@ -13104,7 +13118,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12419",
       "title": "Switch discharge summary to reports api",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs testing",
         "Backend",
