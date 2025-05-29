@@ -183,5 +183,139 @@
                 }
             ]
         }
+    ],
+    "2025-05-29 00:00:00": [
+        {
+            "user": "U08PPCX9LQ6",
+            "type": "message",
+            "ts": "1748530560.161829",
+            "client_msg_id": "dc73dac8-dbc1-4e35-a0f9-b5dd5f8c1caf",
+            "text": "May 29\n\u2022 PR got merged\n\u2022 updated this <https://github.com/ohcnetwork/care_fe/pull/12364|PR> \nnext\n\u2022 set up backend locally\n\u2022 upskill Django\n",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1747661800,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/12364",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#12364  Added a reusable DateTimeInput component",
+                    "text": "## Proposed Changes\n\n\u2022 Added a reusable DateTimeInput component\n\u2022 Added a Zod schema to validate ISO date-time with timezone\n\u2022 replaced datetime-local inputs with reusable DateTimeInput component across multiple files\n\u2022 Fixes <https://github.com/ohcnetwork/care_fe/issues/12360|#12360>\n\n@ohcnetwork/care-fe-code-reviewers\n\n## Merge Checklist\n\n\u2022 Add specs that demonstrate bug / test a new feature.\n\u2022 Update <https://docs.ohc.network|product documentation>.\n\u2022 Ensure that UI text is kept in I18n files.\n\u2022 Prep screenshot or demo video for changelog entry, and attach it to issue.\n\u2022 Request for Peer Reviews\n\u2022 Completion of QA in Mobile Devices\n\u2022 Completion of QA in Desktop Devices\n\n## Summary by CodeRabbit\n\n## Summary by CodeRabbit\n\n\u2022 *New Features*  \n   \u2022 Introduced a custom date-time input component with timezone support for forms and data entry.  \n   \u2022 Added a validator to ensure date-time strings include timezone information.\n\u2022 *Refactor*  \n   \u2022 Replaced native date-time inputs across multiple forms with the new custom component for improved consistency and timezone handling.  \n   \u2022 Updated form validation and state management to use ISO date-time strings with timezone awareness.",
+                    "title": "#12364  Added a reusable DateTimeInput component",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/12364",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "Changes Required",
+                            "title": "Labels",
+                            "short": true
+                        },
+                        {
+                            "value": "4",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "GcnCS",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "May 29\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "PR got merged"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "updated this "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/12364",
+                                            "text": "PR"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "set up backend locally"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "upskill Django"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
