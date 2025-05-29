@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-28T10:23:23.000Z",
+  "last_updated": "2025-05-28T17:45:54.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard-data#107",
+      "time": "2025-05-28T17:45:54.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/107",
+      "text": "Update yadavshubham01.md"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12437",
+      "time": "2025-05-28T14:59:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12437#issuecomment-2916666857",
+      "text": "hey @abhimanyurajeesh look like root causes of issue is that the \"Enable When\" answer for a boolean question is being stored as a string (e.g., \"yes\" or \"true\") instead of a boolean value (true/false). In your UI, when you set the answer to \"yes\", it is saved as a string, but the logic its expects a boolean (true/false)\nwhat your thoughts ??"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12435",
@@ -554,7 +568,9 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/12435",
       "title": "fix: DatePicker input cuts off in EditSchecule Template",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12186",
