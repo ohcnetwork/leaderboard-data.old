@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-28T12:08:29.000Z",
+  "last_updated": "2025-05-29T16:51:55.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12456",
+      "time": "2025-05-29T16:51:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12456",
+      "text": "Appointment card"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12411",
+      "time": "2025-05-29T16:50:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12411#issuecomment-2919993002",
+      "text": "Following @Jacobjeevan's suggestion, I've made some UI changes. Hopefully, this was what he was talking about in slack. Since the html-to-image library captures the current state of an element, I believe this is the most practical solution. While it did require some UI adjustments, the generated PNGs are now visually consistent across devices. The resolution may still vary because the library captures the current rendered state, but this shouldn't be a major concern. If there's a better approach or if these changes need adjustment, please let me know"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12437",
@@ -145,6 +159,24 @@
       "turnaround_time": 2177426
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12456",
+      "title": "fix: Dimension of png version of appointment token varies to the screen size",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12308",
+      "title": "Fix dosage popover collision",
+      "stale_for": 6,
+      "labels": [
+        "question",
+        "do not merge",
+        "stale",
+        "needs-triage"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }
