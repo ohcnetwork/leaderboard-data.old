@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-28T17:45:54.000Z",
+  "last_updated": "2025-05-29T09:02:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12436",
+      "time": "2025-05-29T09:02:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12436#issuecomment-2918774495",
+      "text": "hey @Jacobjeevan @rithviknishad  i want to work on this issue \nApproach:\n- This issue occurs because when you add another answer for a repeatable choice question, the new answer options do not have unique IDs. Without unique IDs, React cannot properly track and update the selected state for each repeated option, causing selection to break.\n- Ensure that every answer option (and every repeated answer instance) has a unique id property.\n- implement this by generating unique ID using crypto.randomUUID or similar methods to ensure Use this id as the React key and for tracking selection.\n\nETA : Tuesday \n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12186",
+      "time": "2025-05-29T08:19:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12186#issuecomment-2918675784",
+      "text": "need review \r\n@abhimanyurajeesh @rithviknishad  @Jacobjeevan "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/leaderboard-data#107",
@@ -561,7 +575,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/107",
       "title": "Update yadavshubham01.md",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {

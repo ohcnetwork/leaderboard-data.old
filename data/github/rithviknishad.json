@@ -1,6 +1,118 @@
 {
-  "last_updated": "2025-05-28T05:55:29.000Z",
+  "last_updated": "2025-05-29T10:09:57.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12449",
+      "time": "2025-05-29T10:09:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12449",
+      "text": "Bug: FacilityOrg form is submittimg even when no changes are made in Edit"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-29T10:09:51.000Z",
+      "title": "ohcnetwork/care_fe#12442",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12442#pullrequestreview-2877765224",
+      "text": "Fix: Disable FacilityOrg Form Submit when no changes made while Editing "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_doctor_connect_fe#15",
+      "time": "2025-05-29T10:06:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_doctor_connect_fe/pull/15",
+      "text": "fix cache issue by hashing build outputs"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_scribe_fe#5",
+      "time": "2025-05-29T10:01:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/5",
+      "text": "fixes cache issue by hashing build outputs"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-29T09:43:52.000Z",
+      "title": "ohcnetwork/care_fe#12439",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12439#pullrequestreview-2877703890",
+      "text": "fix: Unable to Save Questionnaire After Importing from JSON File"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12450",
+      "time": "2025-05-29T08:06:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12450#issuecomment-2918646136",
+      "text": "@NikhilA8606 let's also do few more minor things along with this... Hide `unit` field for non-quantity questions and fix the styling for type field\n\ncc: @aravindm4 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12397",
+      "time": "2025-05-29T08:03:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12397",
+      "text": "Remove extra space to improve UI in edit profile page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-29T08:02:45.000Z",
+      "title": "ohcnetwork/care_fe#12426",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12426#pullrequestreview-2877445343",
+      "text": "Improved UI in user Edit Profile view"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-29T07:16:29.000Z",
+      "title": "ohcnetwork/care_fe#12364",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12364#pullrequestreview-2877340078",
+      "text": " Added a reusable DateTimeInput component"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-29T07:13:13.000Z",
+      "title": "ohcnetwork/care_fe#12430",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12430#pullrequestreview-2877333617",
+      "text": "fix: Avoid unnecessary re-renders and handle page crash in Header of Report Builder"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-29T07:08:07.000Z",
+      "title": "ohcnetwork/care_fe#12447",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12447#pullrequestreview-2877323409",
+      "text": "Fix : Notes Textarea Incorrectly Positions At Start"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11799",
+      "time": "2025-05-29T07:00:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11799#issuecomment-2918504598",
+      "text": "@AdityaJ2305 what is the fix? 🤔 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12088",
+      "time": "2025-05-29T06:51:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12088",
+      "text": "Create a Component for Viewing Relative Date"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-04T15:41:45.000Z",
+      "title": "ohcnetwork/care_fe#12094",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12094#pullrequestreview-2813498895",
+      "text": "Enhancement: Add generic RelativeDateTooltip component for viewing relative date "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-25T05:56:44.000Z",
+      "title": "ohcnetwork/care_fe#12389",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12389#pullrequestreview-2866732440",
+      "text": "Implemented preview feature for File Upload"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12176",
+      "time": "2025-05-29T06:39:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12176",
+      "text": "Conditions are not working for Boolean type questions on Questionnaire"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#12432",
@@ -135,13 +247,6 @@
       "text": "Position Presets Not Removed When Location Is Deleted"
     },
     {
-      "type": "pr_reviewed",
-      "time": "2025-05-25T05:56:44.000Z",
-      "title": "ohcnetwork/care_fe#12389",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12389#pullrequestreview-2866732440",
-      "text": "Implemented preview feature for File Upload"
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12355",
       "time": "2025-05-25T06:18:38.000Z",
@@ -168,13 +273,6 @@
       "time": "2025-05-24T05:19:27.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12355#issuecomment-2906440200",
       "text": "@Tanuj1718 do you think the requests won't be sent even if we set default values? 🤔 "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-05-04T15:41:45.000Z",
-      "title": "ohcnetwork/care_fe#12094",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12094#pullrequestreview-2813498895",
-      "text": "Enhancement: Add generic RelativeDateTooltip component for viewing relative date "
     },
     {
       "type": "pr_reviewed",
@@ -72156,7 +72254,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/2",
       "title": "added translations",
-      "stale_for": 23,
+      "stale_for": 24,
       "labels": []
     }
   ],
