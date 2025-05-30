@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-28T04:07:25.000Z",
+  "last_updated": "2025-05-29T14:57:16.000Z",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12455",
+      "time": "2025-05-29T14:57:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12455",
+      "text": "Files tab in Encounter needs responsiveness for Mobile View UI"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12430",
@@ -2613,12 +2620,14 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/12430",
       "title": "fix: Avoid unnecessary re-renders and handle page crash in Header of Report Builder",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12355",
       "title": "fix: Add validations for empty values in Valueset",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "question",
         "Work in Progress 🚧",
