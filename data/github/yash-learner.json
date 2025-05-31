@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-29T08:02:56.000Z",
+  "last_updated": "2025-05-30T08:17:27.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12443",
+      "time": "2025-05-30T08:17:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12443#issuecomment-2921579122",
+      "text": "> Let's have validation to make sure that the user have selected the unit also, not just values. (selectedUnit)\r\n\r\n@abhimanyurajeesh fixed it \r\n\r\nI decided to preserve the old behaviour of auto-selecting the first unit, instead of getting selected without typing anything now it selects after user types some value \r\n\r\nBecause it is better UX, and they still have option to select a different unit from popover.\r\n\r\nhttps://github.com/ohcnetwork/care_fe/pull/12443/commits/dddca90334e375bb43c7f21336985222ce609b62"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-05-28T16:34:47.000Z",
@@ -1409,7 +1416,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12443",
       "title": "Fix some types and cleanup in Specimen Definition Form",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review"

@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-30T03:14:27.000Z",
+  "last_updated": "2025-05-30T12:33:28.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12462",
+      "time": "2025-05-30T12:33:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12462",
+      "text": "MedicationRequest: remove unwanted browser scrollbars"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12232",
+      "time": "2025-05-30T11:20:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12232#issuecomment-2922096618",
+      "text": "@Jacobjeevan \n\nAny chance I can take this up? Looked through @Spandan-Mishra 's PR (#12302 ), if we use different container scales as you suggested it works pretty well without needing to use calc()\n```\n      {medications.length > 0 && (\n        <div\n          className={cn(\n            \"md:overflow-x-auto w-auto\",\n            isSidebarOpen ? \"lg:max-w-4xl\" : \"lg:max-w-6xl\",\n          )}\n        >\n```\nETA: 1 day"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12444",

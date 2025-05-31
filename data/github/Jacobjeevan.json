@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-29T19:13:47.000Z",
+  "last_updated": "2025-05-30T10:46:16.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-26T06:51:10.000Z",
+      "title": "ohcnetwork/care_fe#12402",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12402#pullrequestreview-2867447571",
+      "text": "Demo Implementation of Offline Support Using TanStack Query"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12455",
@@ -179,13 +186,6 @@
       "time": "2025-05-26T10:36:12.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12419",
       "text": "Switch discharge summary to reports api"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-05-26T06:51:10.000Z",
-      "title": "ohcnetwork/care_fe#12402",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12402#pullrequestreview-2867447571",
-      "text": "Demo Implementation of Offline Support Using TanStack Query"
     },
     {
       "type": "pr_reviewed",
@@ -13202,7 +13202,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12419",
       "title": "Switch discharge summary to reports api",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs testing",
         "Backend",
@@ -13212,10 +13212,11 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11983",
       "title": "Location and Device Perms",
-      "stale_for": 7,
+      "stale_for": 0,
       "labels": [
         "Work in Progress 🚧",
-        "Merge Conflict"
+        "Merge Conflict",
+        "stale"
       ]
     }
   ],

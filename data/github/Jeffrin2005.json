@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-29T15:46:23.000Z",
+  "last_updated": "2025-05-30T11:00:15.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12440",
+      "time": "2025-05-30T11:00:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12440#issuecomment-2922035155",
+      "text": "@rithviknishad \nBy adding an onFocus in the Textarea that explicitly sets the cursor position to the end of the text. \ni think this is the root issue, so no need of any useEffect or anything.\n```\nonFocus={(e) => {\n  const length = e.currentTarget.value.length;\n  e.currentTarget.setSelectionRange(length, length);\n}}\n```"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12447",
