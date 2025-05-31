@@ -15898,5 +15898,480 @@
                 }
             ]
         }
+    ],
+    "2025-05-30 00:00:00": [
+        {
+            "user": "U0576PEACG0",
+            "type": "message",
+            "ts": "1748632885.071629",
+            "edited": {
+                "user": "U0576PEACG0",
+                "ts": "1748632998.000000"
+            },
+            "client_msg_id": "1abc67e6-8113-4c8c-8f79-400cb2e43c6b",
+            "text": "*May 28*\n\u2022 Reopened one of my stale PR and discussion with Amjith about it.\n\u2022 Long pair debugging and pair coding with Abhimanyu (_It's been a while I debugged and pair coded for this long with a Human_ :sweat_smile:_,..it was fun because it been mostly me & LLM's)_\n    \u25e6 Some issues with `SDF` , which I taken over.\n    \u25e6 import questionnaire error, and it turned out to be `CORS` error figured out how to import a JSON using url, eventually raw github url worked.\n    \u25e6 Questionnaire editor Form not getting submitted after import it turned out to be state sync issue between `RHF` and `useState`\n    \u25e6 Repeatable options not working - because of missing unique `id`'s for newly added options.\n    \u25e6 Guided him on creating some issues.\n\u2022 Quick DPG review call.\n\u2022 Replied to some GDC support emails and looked into Suma's question and went through some targets and automated tests. - (Didn't reply yet, need to)\n\u2022 Started working on <https://github.com/ohcnetwork/care_fe/pull/12443|PR#12443>\n*May 29*\n\u2022 Quick GSoC chat with Spandan\n\u2022 Completed <https://github.com/ohcnetwork/care_fe/pull/12443|PR#12443> and tested it and at same time playing with types.\n\u2022 Replied to some messages on slack and a review comment on a PR.\n\u2022 Huddle with Abhimanyu\n    \u25e6 Regarding testing of <https://github.com/ohcnetwork/care_fe/pull/12443|PR#12443> and replication of a bug\n    \u25e6 debugging a issue with SR update, it turned out to be a `BE` issue.\n\u2022 Async chat with Aravind regarding the `GDC` task and upcoming steps.\n\n*Next*\n\u2022 Send out the email draft prepared by Aravind to GDC-KTU students.\n\u2022 Create andShare the data asked by Suma.\n\u2022 Reply to GDC support emails.\n\u2022 Fix `rc` on <https://github.com/ohcnetwork/care_fe/pull/12443|PR#12443>\n\u2022 Discuss with Bodhi - GDC task.\n\u2022 Merge my stale PR.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "ogOOu",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "May 28",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reopened one of my stale PR and discussion with Amjith about it."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Long pair debugging and pair coding with Abhimanyu ("
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "It's been a while I debugged and pair coded for this long with a Human ",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "sweat_smile",
+                                            "unicode": "1f605",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ",..it was fun because it been mostly me & LLM's)",
+                                            "style": {
+                                                "italic": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Some issues with "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "SDF",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " , which I taken over."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "import questionnaire error, and it turned out to be "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "CORS",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " error figured out how to import a JSON using url, eventually raw github url worked."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Questionnaire editor Form not getting submitted after import it turned out to be state sync issue between "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "RHF",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " and "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "useState",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Repeatable options not working - because of missing unique "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "id",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "'s for newly added options."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Guided him on creating some issues."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Quick DPG review call."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Replied to some GDC support emails and looked into Suma's question and went through some targets and automated tests. - (Didn't reply yet, need to)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Started working on "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/12443",
+                                            "text": "PR#12443"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "May 29",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Quick GSoC chat with Spandan"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Completed "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/12443",
+                                            "text": "PR#12443"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " and tested it and at same time playing with types."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Replied to some messages on slack and a review comment on a PR."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Huddle with Abhimanyu"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Regarding testing of "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/12443",
+                                            "text": "PR#12443"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " and replication of a bug"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "debugging a issue with SR update, it turned out to be a "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "BE",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " issue."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Async chat with Aravind regarding the "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "GDC",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " task and upcoming steps."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Send out the email draft prepared by Aravind to GDC-KTU students."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Create andShare the data asked by Suma."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reply to GDC support emails."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fix "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "rc",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " on "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/12443",
+                                            "text": "PR#12443"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Discuss with Bodhi - GDC task."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Merge my stale PR."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

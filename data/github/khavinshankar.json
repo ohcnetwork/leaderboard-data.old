@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-05-26T14:16:36.000Z",
+  "last_updated": "2025-05-30T02:59:03.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-30T02:59:03.000Z",
+      "title": "ohcnetwork/care_fe#12458",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12458#pullrequestreview-2880067895",
+      "text": "FIXED: Make Google Location (URL) Clickable in Patient Update Form on Patient Details Page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-30T02:58:04.000Z",
+      "title": "ohcnetwork/care_fe#12413",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12413#pullrequestreview-2880066412",
+      "text": "FIXED: Avoid Using localStorage for Navigation State in Public Appointment Flow"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-30T02:53:40.000Z",
+      "title": "ohcnetwork/care_doctor_connect_fe#14",
+      "link": "https://github.com/ohcnetwork/care_doctor_connect_fe/pull/14#pullrequestreview-2880062812",
+      "text": "Redesigned UserCard Component for Improved UI/UX"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-05-26T14:16:36.000Z",
@@ -43317,6 +43338,52 @@
       "text": "Switched the abdm gateway endpoints to be consistent across sandbox and production"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/109",
+      "title": "Added scan and share docs",
+      "stale_for": 9,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/arike/pull/143",
+      "title": "added browser confirmation for uncheduling in Agenda",
+      "stale_for": 132,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/arike/pull/141",
+      "title": "Added search bar in Patients",
+      "stale_for": 132,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/arike/pull/140",
+      "title": "Refactored Patients from ruby-html to rescript-react",
+      "stale_for": 132,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11874",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11873"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11177",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11269"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9093",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9036"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8941",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9036"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8553",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8420"
+    }
+  ]
 }
