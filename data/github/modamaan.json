@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-31T09:47:45.000Z",
+  "last_updated": "2025-06-01T12:30:12.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12479",
+      "time": "2025-06-01T12:30:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12479",
+      "text": "FIXED: Excessive API Calls on Every Keystroke While Searching Users in \"Assign User to Patient\" Dialog"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#12470",
@@ -3459,9 +3466,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12479",
+      "title": "FIXED: Excessive API Calls on Every Keystroke While Searching Users in \"Assign User to Patient\" Dialog",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12413",
       "title": "FIXED: Avoid Using localStorage for Navigation State in Public Appointment Flow",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "Changes Required"
       ]
@@ -3469,7 +3482,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_doctor_connect_fe/pull/14",
       "title": "Redesigned UserCard Component for Improved UI/UX",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     }
   ],

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-29T12:26:24.000Z",
+  "last_updated": "2025-06-01T13:17:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12454",
+      "time": "2025-06-01T13:17:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12454#issuecomment-2927219113",
+      "text": "This happens only whe the user doesn't have an email\n\nYou can reproduce this by using your local backend, remove email for one of the user and try to edit it"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/roadmap#114",
@@ -19192,6 +19199,52 @@
       "text": "Update imports"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/3053",
+      "title": "Fix device list filters for super user",
+      "stale_for": 3,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/3049",
+      "title": "Add facility level questionnaires",
+      "stale_for": 10,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/3011",
+      "title": "Refactor AllergyIntolerance specs",
+      "stale_for": 33,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/3007",
+      "title": "Add partial updates and fix set values ignored in updates",
+      "stale_for": 26,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2763",
+      "title": "Data Migration",
+      "stale_for": 10,
+      "labels": [
+        "do-not-merge"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2846",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2847"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care/issues/2599",
+      "pr_link": "https://github.com/ohcnetwork/care/pull/2593"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/8588",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/8589"
+    }
+  ]
 }
