@@ -844,5 +844,21 @@
     },
     "participants": [],
     "repository": "care_fe"
+  },
+  {
+    "source": "github",
+    "title": "Medical Terminology Explainer",
+    "text": "Hey team,\r\n\r\nI have an idea for a new feature we could add to the CARE app — a Medical Terminology Explainer. The goal is to help users (especially patients or their caregivers) understand complex medical terms more easily. The idea is to let them input any medical term and get back a simple, clear explanation using the Gemini API.\r\n\r\nHere’s what I’m planning to do:\r\n\r\nCreate a new React + TypeScript component (MedicalTermExplainer.tsx) with:\r\n\r\nAn input field for the term\r\n\r\nA button to trigger the API call\r\n\r\nA display section for the explanation\r\n\r\nProper loading and error states\r\n\r\nClean, responsive UI using Tailwind\r\n\r\nAccessibility in mind with ARIA tags\r\n\r\nUpdate index.tsx, index.html, and index.css to support and include this new component\r\n\r\nAdd metadata for the new feature in metadata.json\r\n\r\nIntegrate Gemini (v2.5-flash-preview-04-17) with a simple prompt aimed at generating patient-friendly language\r\n\r\nFix any necessary TypeScript issues (like import.meta.env and ESM imports in Cypress config)\r\n\r\nI believe this feature could add real value, especially in terms of improving health literacy. Let me know if it’s okay for me to go ahead with this. Happy to hear any suggestions or concerns before starting.\r\n\r\nThanks,\r\nNavaneeth\r\n\r\n",
+    "author": "Navaneeth832",
+    "link": "https://github.com/orgs/ohcnetwork/discussions/12471",
+    "isAnswered": null,
+    "time": "2025-05-31T06:32:53Z",
+    "updateTime": "2025-05-31T06:32:53Z",
+    "category": {
+      "name": "Ideas",
+      "emoji": "💡"
+    },
+    "participants": [],
+    "repository": "care_fe"
   }
 ]
