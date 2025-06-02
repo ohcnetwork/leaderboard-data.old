@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-05-29T16:51:55.000Z",
+  "last_updated": "2025-06-02T11:41:53.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12456",
+      "time": "2025-06-02T11:41:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12456#issuecomment-2930233709",
+      "text": "@ohcnetwork/care-fe-code-reviewers\r\n\r\nThe current solution modifies the UI to achieve the desired outcome, which is likely the simplest approach. However, if we need to preserve the original UI, we could proceed with my initial suggestion: keeping a hidden clone of the element outside the viewport and making it visible only during capture.\r\n\r\nThis method avoids flickering or visual disruptions during the capture process while keeping the original UI intact. If you have any suggestions for an alternative approach, please let me know."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12491",
+      "time": "2025-06-02T11:29:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12491#issuecomment-2930161823",
+      "text": "May i get assigned?"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12491",
+      "time": "2025-06-02T11:29:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12491",
+      "text": "Add support for importing questionnaire from json file"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12456",
@@ -159,6 +180,27 @@
       "turnaround_time": 2177426
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12456",
+      "title": "fix: Dimension of png version of appointment token varies to the screen size",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12308",
+      "title": "Fix dosage popover collision",
+      "stale_for": 9,
+      "labels": [
+        "question",
+        "do not merge",
+        "stale",
+        "needs-triage"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

@@ -4418,5 +4418,70 @@
                 }
             ]
         }
+    ],
+    "2025-06-02 00:00:00": [
+        {
+            "user": "U07UB6TQWRE",
+            "type": "message",
+            "ts": "1748867722.941789",
+            "client_msg_id": "a2791ade-6d8d-405e-914a-c3068a5e71cd",
+            "text": "June 2nd\n\u2022 Some testing with monitoring (wip: <https://github.com/ohcnetwork/care/compare/develop...areebahmeddd:care:test-monitoring>)\nNext\n- Test alert manager on slack\n-try a very good way to send vm health: <https://cloud.google.com/run/docs/tutorials/custom-metrics-opentelemetry-sidecar>",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "+YzOF",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "June 2nd\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Some testing with monitoring (wip: "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/compare/develop...areebahmeddd:care:test-monitoring"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n- Test alert manager on slack\n-try a very good way to send vm health: "
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https://cloud.google.com/run/docs/tutorials/custom-metrics-opentelemetry-sidecar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

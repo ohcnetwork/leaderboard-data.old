@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-31T10:45:38.000Z",
+  "last_updated": "2025-06-02T12:16:10.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12473",
+      "time": "2025-06-02T12:16:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12473#issuecomment-2930400054",
+      "text": "I have found another approach\r\nPls let me know what you think\r\nAs the 2nd screenshot @nihal467 has provided is lacking the calendar logo\r\n\r\nWhat if we use `w-fit`, the results are below:\r\n\r\nMobile view: (for 320 px, the smallest one in the console)\r\n![image](https://github.com/user-attachments/assets/e0d00414-dc72-4f24-9416-6a567299d6e4)\r\n\r\n\r\nMobile view: (for iPhone 12 Pro that was mentioned)\r\n![image](https://github.com/user-attachments/assets/118b2250-d2b0-4436-bbca-1d611310d338)\r\n\r\n\r\nDesktop view:\r\n![image](https://github.com/user-attachments/assets/bff7224c-365c-45a4-9592-d1f8dc8eb7c0)\r\n\r\n\r\n"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12473",
@@ -29,8 +36,9 @@
       "title": "FIXED: Consent validation time in consent page in Mobile View",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "question",
+        "test failed",
+        "needs-triage"
       ]
     }
   ],
