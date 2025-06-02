@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-05-30T18:15:45.000Z",
+  "last_updated": "2025-06-02T08:24:46.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11989",
+      "time": "2025-06-02T08:24:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11989#issuecomment-2929397398",
+      "text": "https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1748852049645449?thread_ts=1748851935.391869&cid=C010GQBMFJ9"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#11989",
+      "time": "2025-06-02T08:24:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11989",
+      "text": "Increase Max Word Limit for Text-Type Questionnaire Questions from 500 to 1000"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11989",
+      "time": "2025-06-02T08:23:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11989#issuecomment-2929394818",
+      "text": "@aravindm4 I believe, just need to update the config at instance level config on deployment- https://github.com/ohcnetwork/care/blob/692092cbc1e55025583fd2c98a011b2a42c2532a/config/settings/custom_limits.py#L27"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#12151",
@@ -1437,7 +1458,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12443",
       "title": "Fix some types and cleanup in Specimen Definition Form",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs testing",
         "needs review"

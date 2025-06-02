@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-30T12:33:28.000Z",
+  "last_updated": "2025-06-02T07:07:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12462",
+      "time": "2025-06-02T07:07:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12462#issuecomment-2929133575",
+      "text": "> > Sidebar open: ![image](https://private-user-images.githubusercontent.com/59943893/449234905-188e5785-2eb4-4f21-9cd7-3952561a65d2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg4NDU5NjUsIm5iZiI6MTc0ODg0NTY2NSwicGF0aCI6Ii81OTk0Mzg5My80NDkyMzQ5MDUtMTg4ZTU3ODUtMmViNC00ZjIxLTljZDctMzk1MjU2MWE2NWQyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA2MDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNjAyVDA2Mjc0NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQyMTcwZTZlOGFhOGUxMmIzZTFiNDRhYTViZjBhNzFhYWNhNzdlOTIxODQ1NTcwNzE3YzljZjI2OTk0ZmJiNTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.jOzDLyYxO64F9tefzG2YBuLIlQjwqtQpZtkYY-hXjoo)\r\n> > Sidebar closed: ![image](https://private-user-images.githubusercontent.com/59943893/449235161-63846709-151a-432c-8f01-baf8bac26779.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg4NDU5NjUsIm5iZiI6MTc0ODg0NTY2NSwicGF0aCI6Ii81OTk0Mzg5My80NDkyMzUxNjEtNjM4NDY3MDktMTUxYS00MzJjLThmMDEtYmFmOGJhYzI2Nzc5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA2MDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNjAyVDA2Mjc0NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU3MmM4NzY5ZWE0OGJlZGU3MjNkZjYzMmM3MjMxMzYyMmY2NjQyZWJlMzRiYzZlMmJmMzZkNjYzNTVhMjMxMDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.XfOWZosoJA-GqGpIzkYxBbdQomluXRK25TSqtFvnBxQ)\r\n> \r\n> Does this look right to you? 🤔\r\n\r\nhmm.. is it not what's expected? I wanted to make sure the table does not overflow to the point browser needs to have scrollbars.  Should the table width be the same regardless of whether or not a sidebar is open?\r\n\r\nCould you please suggest any changes/clarify so I can resolve it quicker? Not sure if I need a different approach or just tweak the 'lg-max-w-#xl'.\r\n"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12462",
@@ -498,6 +505,41 @@
       "text": "Hi @abhimanyurajeesh , I think this would be a great first issue!\n\nHere's what I would do if I were to be assigned:\n\n-  Having a markdown template perhaps as a placeholder to only show the essentials ( headings, bold text, bullet points)\n-  The markdown template would use example placeholder text pertaining to a facility/hospital to give users better context\n-  more detailed information on using markdown by having a link next to the description label (perhaps using a tooltip)\n\nA question I have is:\n- Should embedding of images/urls using markdown be allowed on descriptions?\n\nAdditional considerations:\n- I think the preview or rich in-built editors are also good solutions, that could be added later on.\n\nIf assigned, I'm confident I could have a PR ready in 1-2 days.\n"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12462",
+      "title": "MedicationRequest: remove unwanted browser scrollbars",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "Changes Required",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12021",
+      "title": "Allow edit of questionnaire structured records with `entered-in-error` status",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "Changes Required",
+        "Merge Conflict",
+        "needs-triage"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11471",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11545"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11281",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11295"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11153",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11175"
+    }
+  ]
 }
