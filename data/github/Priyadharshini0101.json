@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-02T12:28:30.000Z",
+  "last_updated": "2025-06-03T11:16:49.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12393",
+      "time": "2025-06-03T11:16:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12393#issuecomment-2934753717",
+      "text": "No, it is not strictly needed for the symptom question because the symptoms history section content size does change, the width of the panel remains constant. Unlike Medication History, where the table layout, dynamic rows, and dropdowns can cause width shifts and overflow."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12484",
@@ -156,7 +163,9 @@
       "title": "Medication History button within questionnaire misaligned",
       "stale_for": 0,
       "labels": [
-        "Changes Required"
+        "question",
+        "Changes Required",
+        "needs-triage"
       ]
     }
   ],

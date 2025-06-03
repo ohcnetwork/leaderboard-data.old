@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-03T06:47:07.000Z",
+  "last_updated": "2025-06-03T10:54:31.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12501",
+      "time": "2025-06-03T10:54:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12501",
+      "text": "Add support for importing questionnaire from json file (#12491)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12491",
@@ -217,12 +224,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12501",
+      "title": "Add support for importing questionnaire from json file (#12491)",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12456",
       "title": "fix: Dimension of png version of appointment token varies to the screen size",
       "stale_for": 0,
       "labels": [
-        "question",
-        "needs-triage"
+        "needs testing",
+        "needs review"
       ]
     },
     {
