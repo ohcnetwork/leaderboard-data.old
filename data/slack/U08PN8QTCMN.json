@@ -522,5 +522,67 @@
                 }
             ]
         }
+    ],
+    "2025-06-03 00:00:00": [
+        {
+            "user": "U08PN8QTCMN",
+            "type": "message",
+            "ts": "1748930213.213329",
+            "client_msg_id": "29c5e441-8452-4a46-a57a-efa24c684126",
+            "text": "june 2\n\u2022 issue on reset password is sort out ,implemented with the existing Django signals. \n\u2022 tested locally the apis and migration required.\n\u2022 raised a pr on this issue for review.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "I9kjy",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "june 2\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "issue on reset password is sort out ,implemented with the existing Django signals. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "tested locally the apis and migration required."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "raised a pr on this issue for review."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-02T17:16:44.000Z",
+  "last_updated": "2025-06-03T06:47:07.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12491",
+      "time": "2025-06-03T06:47:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12491#issuecomment-2933748646",
+      "text": "**My solution:** \n- Rename `import_from_url` to `import`.\n- Show a drop down when clicked\n- Import from Url and Import from File\n- When clicked on `Import from Url` it does the existing functionality\n- When clicked on `import from File` it should show something like this:\n\n![Image](https://github.com/user-attachments/assets/914441a2-b736-4ea3-9166-e932e027d624)\n\nEnd Date: Max 2 days after assignment."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12491",
+      "time": "2025-06-03T06:16:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12491#issuecomment-2933641979",
+      "text": "> Rename the \"Import from URL\" button to simply \"Import\". When clicked, it should provide options to:\n> Import from URL (existing functionality).\n> Import from File (new option, ideally with drag-and-drop support).\n\nI did describe a solution"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12456",
@@ -214,7 +228,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12308",
       "title": "Fix dosage popover collision",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": [
         "question",
         "do not merge",

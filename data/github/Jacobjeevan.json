@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-02T13:08:40.000Z",
+  "last_updated": "2025-06-03T06:15:24.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12493",
+      "time": "2025-06-03T06:15:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12493#issuecomment-2933638384",
+      "text": "Didn't realize there was an issue, anyways better approach is to just default to drop down when qn is repeatable.\r\n\r\n#12494 "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12494",
@@ -13366,12 +13373,15 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/12492",
       "title": "Questionnaire Enable When",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12419",
       "title": "Switch discharge summary to reports api",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": [
         "needs testing",
         "Backend",
@@ -13381,7 +13391,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11983",
       "title": "Location and Device Perms",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "Work in Progress 🚧",
         "Merge Conflict",
