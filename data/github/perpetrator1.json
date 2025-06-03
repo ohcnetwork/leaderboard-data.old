@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-06-02T11:41:53.000Z",
+  "last_updated": "2025-06-02T17:16:44.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12456",
+      "time": "2025-06-02T17:16:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12456#issuecomment-2931668121",
+      "text": "@rithviknishad @Jacobjeevan\r\nThe current solution modifies the UI to achieve the desired outcome, which is likely the simplest approach. However, if we need to preserve the original UI, we could proceed with my initial suggestion: keeping a hidden clone of the element outside the viewport and making it visible only during capture.\r\n\r\nThis method avoids flickering or visual disruptions during the capture process while keeping the original UI intact. If you have any suggestions for an alternative approach, please let me know."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12491",
+      "time": "2025-06-02T15:57:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12491#issuecomment-2931375204",
+      "text": "We have to rely on 3rd party stuff for generating a link and all, adding support upload the json file will save some time. \n\n\n> Export as a file\n> Import from the file"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12491",
+      "time": "2025-06-02T15:54:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12491#issuecomment-2931361053",
+      "text": "@rithviknishad https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1748626389096759?thread_ts=1748626389.096759&cid=C010GQBMFJ9"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12456",
