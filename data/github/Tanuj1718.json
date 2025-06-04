@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-06-02T02:53:26.000Z",
+  "last_updated": "2025-06-04T06:50:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12487",
+      "time": "2025-06-04T06:50:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12487#issuecomment-2938815277",
+      "text": "Closing as not able to reproduce it now"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12487",
+      "time": "2025-06-04T06:50:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12487",
+      "text": "Bug: Org page required hard refresh to fetch data"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12510",
+      "time": "2025-06-04T06:25:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12510#issuecomment-2938747626",
+      "text": "@rithviknishad One more thing, user is not able to position the fields. Like when we are creating a new field , it is placing at the last. \r\nI think we should address this also.🤔"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12510",
+      "time": "2025-06-04T06:23:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12510",
+      "text": "fix: Add add field dynamically in Patient Information section of Report Template Builder"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12487",
@@ -2687,27 +2715,37 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12510",
+      "title": "fix: Add add field dynamically in Patient Information section of Report Template Builder",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12430",
       "title": "fix: Avoid unnecessary re-renders and handle page crash in Header of Report Builder",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "needs testing"
+        "Tested ✅"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12355",
       "title": "fix: Add validations for empty values in Valueset",
-      "stale_for": 7,
+      "stale_for": 1,
       "labels": [
         "question",
         "Work in Progress 🚧",
+        "stale",
         "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/16",
       "title": "fix: Made 'Generate/Link ABHA Number' page mobile friendly",
-      "stale_for": 17,
+      "stale_for": 19,
       "labels": []
     }
   ],
