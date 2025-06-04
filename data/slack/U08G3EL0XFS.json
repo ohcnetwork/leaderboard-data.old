@@ -652,5 +652,134 @@
                 }
             ]
         }
+    ],
+    "2025-06-03 00:00:00": [
+        {
+            "user": "U08G3EL0XFS",
+            "type": "message",
+            "ts": "1748980186.779819",
+            "client_msg_id": "c5942492-ce31-429c-9da7-6dfbcb5a8c45",
+            "text": "June 3rd\n\u2022 Made changes to the PHR enrollment and login flow PR and pushed the updates : <https://github.com/10bedicu/care_abdm/pull/38|PR> \n\u2022 Completed the Profile Management APIs\n\u2022 Started working on user-initiated linking flows\nNext\n\u2022 Sync with Khavin to finalize the flow for the PHR app\n\u2022 Continue working on user-initiated linking flows",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1747378072,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/10bedicu/care_abdm/pull/38",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#38 feat: Add PHR enrollment APIs",
+                    "text": "## Description\n\nThis PR adds the necessary APIs for PHR (Personal Health Record) enrollment.\n\n## New Features\n\n\u2022 *OTP Management*:  \n   \u2022 Send OTP for PHR enrollment with ABHA number or mobile number  \n   \u2022 Verify OTP for PHR enrollment authentication\n\u2022 *ABHA Address Management*:  \n   \u2022 Generate ABHA address suggestions based on user details  \n   \u2022 Check if an ABHA address already exists  \n   \u2022 Enroll/create new ABHA addresses with user details",
+                    "title": "#38 feat: Add PHR enrollment APIs",
+                    "title_link": "https://github.com/10bedicu/care_abdm/pull/38",
+                    "footer": "<https://github.com/10bedicu/care_abdm|10bedicu/care_abdm>",
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "2V77g",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "June 3rd\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Made changes to the PHR enrollment and login flow PR and pushed the updates : "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/10bedicu/care_abdm/pull/38",
+                                            "text": "PR"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Completed the Profile Management APIs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Started working on user-initiated linking flows"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Sync with Khavin to finalize the flow for the PHR app"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Continue working on user-initiated linking flows"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "offset": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
