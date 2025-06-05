@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-03T17:37:43.000Z",
+  "last_updated": "2025-06-04T09:41:27.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12513",
+      "time": "2025-06-04T09:41:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12513#issuecomment-2939337676",
+      "text": "My solution:\n- Refactor cleanup logic in CameraCaptureDialog to improve resource management by creating a function to cleanup the stream and recalling where applicable.\n\nEnd date: 6th june."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12513",
+      "time": "2025-06-04T09:38:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12513",
+      "text": "Bug: Camera stays active even after capture"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12506",
@@ -248,8 +262,8 @@
       "title": "Add support for importing questionnaire from json file (#12491)",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "Tested ✅"
       ]
     },
     {
@@ -257,6 +271,7 @@
       "title": "fix: Dimension of png version of appointment token varies to the screen size",
       "stale_for": 0,
       "labels": [
+        "question",
         "needs testing",
         "needs review"
       ]
