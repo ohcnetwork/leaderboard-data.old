@@ -1,6 +1,42 @@
 {
-  "last_updated": "2025-06-04T13:40:47.000Z",
+  "last_updated": "2025-06-05T11:31:20.000Z",
   "activity": [
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12360",
+      "time": "2025-06-05T11:31:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12360",
+      "text": "Usages of inputs with `datetime-local` sending timezone naive to backend"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-05T11:30:52.000Z",
+      "title": "ohcnetwork/care_fe#12434",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12434#pullrequestreview-2899927046",
+      "text": "Added validation Logic to Medication Statement Questionnaire"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-05T11:17:56.000Z",
+      "title": "ohcnetwork/care_fe#12520",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12520#pullrequestreview-2899892094",
+      "text": "Monthly filtering in Schedule and Exception"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12522",
+      "time": "2025-06-05T10:37:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12522",
+      "text": "Rithviknishad/fix/questionnaire preview"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#3065",
+      "time": "2025-06-05T10:20:30.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3065",
+      "text": "Update inventory item net content filter to allow filtering by range",
+      "turnaround_time": 1102
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-06-04T13:40:47.000Z",
@@ -72677,9 +72713,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12522",
+      "title": "Improve the questionnaire visualisation on encounter dashboard",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "Tested ✅"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_doctor_connect_fe/pull/15",
       "title": "fix cache issue by hashing build outputs",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": []
     },
     {

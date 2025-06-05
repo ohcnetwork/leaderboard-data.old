@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-04T09:55:04.000Z",
+  "last_updated": "2025-06-05T10:11:42.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12494",
+      "time": "2025-06-05T10:11:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12494#issuecomment-2943579490",
+      "text": "> Hide the repeatable for the following\r\n> \r\n>     * Group\r\n> \r\n>     * Display\r\n> \r\n> \r\n> When we are editing one field, the repeat field is also being affected\r\n> \r\n>     * Boolean\r\n> \r\n>     * Integer\r\n> \r\n>     * Decimal\r\n> \r\n>     * date\r\n> \r\n> \r\n> Similarly check other fields as well\r\n> \r\n> can you evaluate the fields and behavior\r\n\r\n- Hid repeatable option for group, display and boolean.\r\n- Adjusted logic for date, datetime, integer/decimal, string/text, time.\r\n"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#12513",
@@ -13400,7 +13407,8 @@
       "title": "Choice Qns: Dropdown for repeatable",
       "stale_for": 0,
       "labels": [
-        "Changes Required"
+        "needs review",
+        "Tested ✅"
       ]
     },
     {

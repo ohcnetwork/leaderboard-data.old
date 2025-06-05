@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-06-04T15:35:06.000Z",
+  "last_updated": "2025-06-05T13:05:11.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12524",
+      "time": "2025-06-05T13:05:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12524",
+      "text": "fix: Misalignment and inconsistency in the UI of 'Add Files' dropdown in encounter files"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12523",
+      "time": "2025-06-05T12:31:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12523#issuecomment-2944059983",
+      "text": "My solution:\n- Currently the dropdown menu's contents are rendered by a label and two buttons. Ive been working on this for sometime and ive tried replacing the buttons with divs and it worked\n\nEnd Date: EOD after assignment"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12523",
+      "time": "2025-06-05T12:29:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12523",
+      "text": "Misalignment and inconsistency in the UI of 'Add Files' dropdown in encounter files"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12516",
@@ -259,6 +280,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12524",
+      "title": "fix: Misalignment and inconsistency in the UI of 'Add Files' dropdown in encounter files",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12501",
       "title": "Add support for importing questionnaire from json file (#12491)",
       "stale_for": 0,
@@ -272,9 +299,7 @@
       "title": "fix: Dimension of png version of appointment token varies to the screen size",
       "stale_for": 0,
       "labels": [
-        "question",
-        "needs testing",
-        "needs review"
+        "Changes Required"
       ]
     },
     {
