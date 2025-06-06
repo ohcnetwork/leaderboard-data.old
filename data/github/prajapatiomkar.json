@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-30T06:29:12.000Z",
+  "last_updated": "2025-06-06T05:03:41.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12521",
+      "time": "2025-06-06T05:03:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12521#issuecomment-2948100898",
+      "text": "\r\n\r\n\r\n> Hey @prajapatiomkar, I believe we already have this translation in place. Instead of adding it again, could you please look into the root cause of why it's not being picked up? ![image](https://private-user-images.githubusercontent.com/126192924/452146652-79ffaa97-5bc1-486c-8157-678c0b7653f8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDkxODQ0MjUsIm5iZiI6MTc0OTE4NDEyNSwicGF0aCI6Ii8xMjYxOTI5MjQvNDUyMTQ2NjUyLTc5ZmZhYTk3LTViYzEtNDg2Yy04MTU3LTY3OGMwYjc2NTNmOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYwNlQwNDI4NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYTNjMTg2YTZiNjk0MGMzYzI1MGRmYzI5MmNhYmIwZmUyYTA3NTA2NDFkMThhNzQwMDM0YTQyYTE5OTY5Y2IwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.EoXBI5s0VjLCRV_Ih2updPDIa6lsW8qQXVV44gENRrU)\r\n\r\nThis field is responsible for setting the status\r\n![image](https://github.com/user-attachments/assets/9ef05745-b6f2-42f6-9c64-1ae702bb2e57)\r\n\r\nThis is where we iterate over the array of object to get the status dropdown value.\r\n![image](https://github.com/user-attachments/assets/c89739e6-96f6-4590-b85c-55170b3e5556)\r\n\r\nThis is this is the actual array of object value of the status value. Here we have to make the change of the key value so that from en.json it can get correct already present key value.\r\n![image](https://github.com/user-attachments/assets/7a15e459-1fa1-4de2-a798-54ba5e629c82)\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12455",
@@ -236,6 +243,21 @@
       "text": "@rithviknishad @Jacobjeevan Assign this issue to me."
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12521",
+      "title": "Add missing translations for request statuses (#12519)",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12100",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12112"
+    }
+  ]
 }
