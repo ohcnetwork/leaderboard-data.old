@@ -1,6 +1,67 @@
 {
-  "last_updated": "2025-06-09T03:05:06.000Z",
+  "last_updated": "2025-06-09T11:39:37.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-28T14:23:39.000Z",
+      "title": "ohcnetwork/care_fe#12393",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12393#pullrequestreview-2875319858",
+      "text": "Medication History button within questionnaire misaligned"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-13T05:54:11.000Z",
+      "title": "ohcnetwork/care_fe#12021",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12021#pullrequestreview-2835349201",
+      "text": "Allow edit of questionnaire structured records with `entered-in-error` status"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-09T09:48:37.000Z",
+      "title": "ohcnetwork/care_fe#12552",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12552#pullrequestreview-2909552307",
+      "text": "Revert Generate Discharge Summary tab"
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#12430",
+      "time": "2025-06-09T11:05:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12430",
+      "text": "fix: Avoid unnecessary re-renders and handle page crash in Header of Report Builder",
+      "collaborated_with": [
+        "Tanuj1718",
+        "Jacobjeevan"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12494",
+      "time": "2025-06-09T11:01:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12494",
+      "text": "Choice Qns: Dropdown for repeatable",
+      "turnaround_time": 597158
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12546",
+      "time": "2025-06-09T10:35:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12546#issuecomment-2955396736",
+      "text": "@hrit2773 Add > 5 options and check what happens."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12549",
+      "time": "2025-06-09T10:28:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12549#issuecomment-2955381306",
+      "text": "#12492 adds a bit of this - well, we aren't resetting the enable when, but just showing a small bubble whenever there's a dependency.  But could tweak as UI as needed.\n\n<img width=\"779\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/030a9bd6-34f2-422a-ab9c-55313e8d89bb\" />"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12546",
+      "time": "2025-06-09T10:19:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12546#issuecomment-2955361187",
+      "text": "Explore choice based question and propose what needs to be done for assignment 👍 "
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-06-09T03:05:06.000Z",
@@ -343,13 +404,6 @@
       "time": "2025-05-29T04:04:10.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/12445",
       "text": "Refresh Button Enabled When No Files Are Present in Encounter Files Tab"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-05-28T14:23:39.000Z",
-      "title": "ohcnetwork/care_fe#12393",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12393#pullrequestreview-2875319858",
-      "text": "Medication History button within questionnaire misaligned"
     },
     {
       "type": "issue_closed",
@@ -752,13 +806,6 @@
       "title": "ohcnetwork/care_fe#12126",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12126#pullrequestreview-2814245463",
       "text": "fix:Encounter status and class tags overlap in Encounter view"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-05-13T05:54:11.000Z",
-      "title": "ohcnetwork/care_fe#12021",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12021#pullrequestreview-2835349201",
-      "text": "Allow edit of questionnaire structured records with `entered-in-error` status"
     },
     {
       "type": "pr_reviewed",
@@ -13473,30 +13520,24 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12494",
-      "title": "Choice Qns: Dropdown for repeatable",
-      "stale_for": 3,
-      "labels": [
-        "needs review",
-        "Tested ✅"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12492",
       "title": "Questionnaire Enable When",
       "stale_for": 0,
       "labels": [
-        "test failed"
+        "needs testing",
+        "needs review",
+        "Merge Conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12419",
       "title": "Switch discharge summary to reports api",
-      "stale_for": 11,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "Backend",
-        "needs review"
+        "needs review",
+        "Merge Conflict"
       ]
     },
     {

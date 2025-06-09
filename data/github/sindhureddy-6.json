@@ -1,6 +1,70 @@
 {
-  "last_updated": "2025-06-06T13:56:25.000Z",
+  "last_updated": "2025-06-09T13:24:15.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12564",
+      "time": "2025-06-09T13:24:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12564",
+      "text": "Implemented autoscroll to newly added sub-Questions",
+      "turnaround_time": 210
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12564",
+      "time": "2025-06-09T13:20:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12564",
+      "text": "Implemented autoscroll to newly added sub-Questions"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12557",
+      "time": "2025-06-09T11:16:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12557#issuecomment-2955490695",
+      "text": "@rithviknishad @Jacobjeevan \nApproach: by adding a ref to the new subquestion and scrolling it into view after it mounts.\ncan you assign it me.\nETA: june 11\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12557",
+      "time": "2025-06-09T11:14:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12557",
+      "text": "Scroll to Newly Added Subquestion in Group Type Questions"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12551",
+      "time": "2025-06-09T10:09:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12551#issuecomment-2955331622",
+      "text": "@aravindm4 \nI will redefine the logic for evaluating conditions if it is a multi-select choice question, so that all selected options are considered instead of just the first one.\nplease assign this task to me\nETA:1 day after assignment"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12549",
+      "time": "2025-06-09T10:01:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12549#issuecomment-2955305668",
+      "text": "Hi @aravindm4 @rithviknishad @Jacobjeevan \ni would like to work on this issue.\nMy approch:\n\n-  Use a useEffect on the parent question’s value. \n-  On change, re-compute and update the child question’s options dynamically based on the latest \n-  parent selection.\nETA: 1 day after assignment"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12550",
+      "time": "2025-06-09T09:40:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12550#issuecomment-2955253639",
+      "text": "@aravindm4  \nI’d like to implement a visual highlight for the currently edited section/question using a ref to track and apply styles dynamically—please assign this task to me.\nETA: june 10"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12546",
+      "time": "2025-06-09T09:22:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12546#issuecomment-2955196490",
+      "text": "Hi @aravindm4 \ni would like to work on this issue.\ncould you please assign?\n\nETA:10 june"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12486",
+      "time": "2025-06-09T09:14:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12486#issuecomment-2955176867",
+      "text": "i have made changes related to this issue in [PR ](https://github.com/ohcnetwork/care_fe/pull/12463)\ncc: @Jacobjeevan "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12530",
@@ -516,19 +580,24 @@
       "title": "Added Mobile resposiveness to Questionnaire page",
       "stale_for": 0,
       "labels": [
-        "Work in Progress 🚧"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12434",
       "title": "Added validation Logic to Medication Statement Questionnaire",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "Changes Required"
       ]
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12557",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12564"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12343",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12344"

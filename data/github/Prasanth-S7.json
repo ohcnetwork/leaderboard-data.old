@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-05-16T04:54:49.000Z",
+  "last_updated": "2025-06-09T09:38:00.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12518",
+      "time": "2025-06-09T09:38:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12518#issuecomment-2955247318",
+      "text": "@Jacobjeevan \nI would like to work on this\nETA: Today\n\nSolution:\nThe fields don't validate automatically after clicking the \"Fill My Details\" button. Adding `shouldValidate: true` when setting the values will resolve this issue."
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#12324",
@@ -211,7 +218,14 @@
       "text": "Mobile view of patient details page is not responsive"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12566",
+      "title": "fix: resolves validation errors shown after clicking fill my details in resource request form",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10949",
