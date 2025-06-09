@@ -16,13 +16,6 @@
       "text": "I would like to take up this issue.\n\nThe current form treats both `password` and `c_password` fields as optional, which leads to unexpected behavior — specifically, when submitting without a password, focus shifts to `c_password` instead of `password`.\n\nI will update the `Zod` schema used with `useForm`:\n- Make `password` and `c_password` required when `password_setup_method === 'immediate'` and `!isEditMode`\n- Use `z.string().min(8)` for field-level validation to trigger focus properly\n- Ensure error messages are clear and correctly mapped\n\nThis will ensure both fields behave like other required fields and focus logic works as expected.\n\nETA: EOD\n\n"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12533",
-      "title": "fix : add proper password validation and focus behavior",
-      "stale_for": 0,
-      "labels": []
-    }
-  ],
+  "open_prs": [],
   "authored_issue_and_pr": []
 }

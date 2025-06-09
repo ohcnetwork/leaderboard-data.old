@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-06-06T04:11:07.000Z",
+  "last_updated": "2025-06-09T08:36:05.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12545",
+      "time": "2025-06-09T08:36:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12545#issuecomment-2955080191",
+      "text": "My solution: \n- Add a onkey event handler to prevent 'e' or  'E' from being entered in number input fields\n\nEnd Date: EOD after assignment"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12545",
+      "time": "2025-06-09T08:33:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12545",
+      "text": "Bug: Scientific notation 'e' character can be entered in number input fields"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12523",
+      "time": "2025-06-09T04:26:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12523#issuecomment-2954595942",
+      "text": "> @perpetrator1 Please refrain from opening PRs until issue is assigned.\n\nsorry, got too excited"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12524",
@@ -299,6 +320,48 @@
       "turnaround_time": 2177426
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12524",
+      "title": "fix: Misalignment and inconsistency in the UI of 'Add Files' dropdown in encounter files",
+      "stale_for": 3,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12501",
+      "title": "Add support for importing questionnaire from json file (#12491)",
+      "stale_for": 4,
+      "labels": [
+        "needs review",
+        "Tested ✅"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12456",
+      "title": "fix: Dimension of png version of appointment token varies to the screen size",
+      "stale_for": 3,
+      "labels": [
+        "Changes Required"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12308",
+      "title": "Fix dosage popover collision",
+      "stale_for": 4,
+      "labels": [
+        "question",
+        "do not merge",
+        "needs-triage"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12506",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12516"
+    }
+  ]
 }
