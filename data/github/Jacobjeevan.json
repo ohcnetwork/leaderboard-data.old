@@ -1,6 +1,90 @@
 {
-  "last_updated": "2025-06-09T11:39:37.000Z",
+  "last_updated": "2025-06-10T07:38:55.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-10T07:38:55.000Z",
+      "title": "ohcnetwork/care_fe#12515",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12515#pullrequestreview-2912323814",
+      "text": "Fix: auto-scroll to error fields in schedule creation / edit form"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12517",
+      "time": "2025-06-10T07:16:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12517#issuecomment-2957941545",
+      "text": "@modamaan Any updates?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12433",
+      "time": "2025-06-10T07:14:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12433#issuecomment-2957937098",
+      "text": "Marked as ready for testing since these are all minor changes."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-10T07:13:26.000Z",
+      "title": "ohcnetwork/care_fe#12433",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12433#pullrequestreview-2912157949",
+      "text": "Added Vitals section in encounters overview page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12462",
+      "time": "2025-06-10T06:34:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12462#issuecomment-2957846756",
+      "text": "> @Jacobjeevan Would this be better? A fixed width of max-w-4xl for parent div of table and button; table width won't change even if sidebar is open/closed and Medication History button will be in line with the other UI ![image](https://private-user-images.githubusercontent.com/59943893/451757974-bcfc5668-2e82-4416-9e06-afa9c51497c7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDk1MzYzNDMsIm5iZiI6MTc0OTUzNjA0MywicGF0aCI6Ii81OTk0Mzg5My80NTE3NTc5NzQtYmNmYzU2NjgtMmU4Mi00NDE2LTllMDYtYWZhOWM1MTQ5N2M3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA2MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNjEwVDA2MTQwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTljMDljOTg4NDcxOTBjNjVlYmVlNDg0ODc3OWJlODdmODVjYzczZTQ4NGI2ZTdiNTEyMTRkOGQyZDY3YmE0N2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.JcZpm-_VYSZrmbU8SMD6clgqM8hPQTl7Cz5lUB2iJ5M)\r\n\r\nDo check for multiple screens. Zoom out to about 50%; take a look at Community Nurse Homecare Form (or any other form with medication):\r\n\r\n<img width=\"1168\" alt=\"image\" src=\"https://github.com/user-attachments/assets/adf4d254-bd39-4900-8132-2f11d9c8d151\" />\r\n\r\nThe table width is fine (we want to keep as), but history button isn't right on top of it.\r\n\r\nIf you check medication req:\r\n\r\n<img width=\"1168\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c07e32ed-b53e-4835-90c8-456bd8f3acb1\" />\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-10T06:13:09.000Z",
+      "title": "ohcnetwork/care_fe#12496",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12496#pullrequestreview-2912081840",
+      "text": "Selecting encounter by default as subject type while creating a new questionnaire "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-02T11:25:25.000Z",
+      "title": "ohcnetwork/care_fe#12488",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12488#pullrequestreview-2887944418",
+      "text": "fix: Improve Facility Type dropdown responsiveness using a drawer on Edit Facility page "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-05-23T07:13:23.000Z",
+      "title": "ohcnetwork/care_fe#12197",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12197#pullrequestreview-2863436946",
+      "text": "Add Allergies , Add Symptoms, Add diagnosis was not responsive in mobile view"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12510",
+      "time": "2025-06-10T05:58:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12510#issuecomment-2957773906",
+      "text": "(1) Why switch to text area? Does it make sense to do so? Think from a user perspective and what would potentially go wrong?\r\n(2) What should the behavior be if user has already selected all available options?\r\n\r\nAnswering these two will help you figure out what the behavior should be."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12411",
+      "time": "2025-06-10T05:24:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12411",
+      "text": "Dimension of png version of appointment token varies to the screen size"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12456",
+      "time": "2025-06-10T05:23:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12456#issuecomment-2957717540",
+      "text": "I agree w/ @nihal467  🤔 \r\n\r\nThere isn't a pressing need for the token to remain same size across all devices - unless product asks for it 🤔 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12492",
+      "time": "2025-06-10T05:02:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12492#issuecomment-2957685413",
+      "text": "> @Jacobjeevan can you recheck everything is working, boolean issue still exist\r\n\r\n👍  Done. Also modified logic for exists (at present, exists with false doesn't work, so fixing that)."
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-05-28T14:23:39.000Z",
@@ -208,13 +292,6 @@
       "title": "ohcnetwork/care_fe#12489",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12489#pullrequestreview-2887957719",
       "text": "fix: department removal in encounters form"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-06-02T11:25:25.000Z",
-      "title": "ohcnetwork/care_fe#12488",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12488#pullrequestreview-2887944418",
-      "text": "fix: Improve Facility Type dropdown responsiveness using a drawer on Edit Facility page "
     },
     {
       "type": "comment_created",
@@ -425,13 +502,6 @@
       "title": "ohcnetwork/care_fe#12364",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12364#pullrequestreview-2874150097",
       "text": " Added a reusable DateTimeInput component"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-05-23T07:13:23.000Z",
-      "title": "ohcnetwork/care_fe#12197",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12197#pullrequestreview-2863436946",
-      "text": "Add Allergies , Add Symptoms, Add diagnosis was not responsive in mobile view"
     },
     {
       "type": "comment_created",
@@ -13531,7 +13601,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12419",
       "title": "Switch discharge summary to reports api",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "Backend",

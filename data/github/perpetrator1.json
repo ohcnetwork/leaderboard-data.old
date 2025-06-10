@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-09T15:01:51.000Z",
+  "last_updated": "2025-06-10T06:45:15.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12573",
+      "time": "2025-06-10T06:45:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12573",
+      "text": "Fix: Hide the zone and milli seconds in the time date component of questionnaire"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12565",
+      "time": "2025-06-10T06:32:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12565#issuecomment-2957840268",
+      "text": "@nihal467 So ive fixed the bug, just had to add a case for formating date\n\n![Image](https://github.com/user-attachments/assets/c16e8a45-47e6-4e6e-8957-69029854ad69)\n\n> Expected behavior\n   Only show the time and date\n\nAlso we are using the date component in this questionnaire instead of date time component so formating this wont give us a time, But when i tested this questionnaire with dateTime, its still not showing the time is that a bug or is it the expected behavior?\n\n![Image](https://github.com/user-attachments/assets/29c38422-c844-4c61-aacb-624f7427802a)\n![Image](https://github.com/user-attachments/assets/86a8525d-cce7-4643-8f7e-514de21f0a98)\n![Image](https://github.com/user-attachments/assets/94d239c0-d6d5-4c6c-9d40-90f0b7d0c850)\n\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12565",

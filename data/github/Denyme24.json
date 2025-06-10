@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-09T20:42:20.000Z",
+  "last_updated": "2025-06-10T04:57:23.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12509",
+      "time": "2025-06-10T04:57:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12509#issuecomment-2957678660",
+      "text": "@rithviknishad, I gave the suggested approach a try, but I ran into a limitation with React Hook Form’s onChange mode. It only re-validates the field that was updated, so when manufacture_date changes, it doesn’t automatically re-validate expiration_date, even though it's dependent on the updated value.\r\n\r\nBecause of that, the validation logic didn’t work as expected with this method. I’m happy to explore alternative solutions if needed"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12555",
@@ -395,9 +402,11 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12489",
       "title": "fix: department removal in encounters form",
-      "stale_for": 7,
+      "stale_for": 0,
       "labels": [
-        "Changes Required"
+        "question",
+        "Changes Required",
+        "needs-triage"
       ]
     },
     {
