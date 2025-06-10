@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-09T13:24:15.000Z",
+  "last_updated": "2025-06-09T15:47:13.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12567",
+      "time": "2025-06-09T15:47:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12567#issuecomment-2956185971",
+      "text": "Hi @nihal467 @rithviknishad \ni would like to take up this issue.\nMy approach\n\n- Check authentication before rendering protected routes.\n- Store the original URL .\n- Redirect to the login page if unauthenticated.\n- On successful login, redirect back using navigate().\n\nETA:11 june"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#12564",

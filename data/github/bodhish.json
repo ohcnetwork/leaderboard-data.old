@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-04T13:32:42.000Z",
+  "last_updated": "2025-06-09T19:54:30.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12556",
+      "time": "2025-06-09T19:54:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12556#issuecomment-2956856056",
+      "text": "The image given on the issue is incorrect, you should be looking at the Patient Address rendering in Patient Page. \nThe idea is that you can add a google map link to the address field which on render would show as a clickable link. \n\n@Denyme24 You should have also mentioned the approach when you have requested for assignment. "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-09T17:03:44.000Z",
+      "title": "ohcnetwork/care_fe#12421",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12421#pullrequestreview-2910682389",
+      "text": "New cypress test for specimen definition"
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#12499",
@@ -9312,6 +9326,34 @@
       "text": "Add support for patient tags"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/119",
+      "title": "Docs for billing",
+      "stale_for": 18,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12061",
+      "title": "Add support for Labs",
+      "stale_for": 0,
+      "labels": [
+        "Merge Conflict"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/2465",
+      "title": "New Crowdin updates",
+      "stale_for": 100,
+      "labels": [
+        "blocked"
+      ]
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11090",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11091"
+    }
+  ]
 }
