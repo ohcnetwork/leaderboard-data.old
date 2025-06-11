@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-06-10T07:38:55.000Z",
+  "last_updated": "2025-06-10T12:28:44.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12455",
+      "time": "2025-06-10T12:28:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12455#issuecomment-2959011835",
+      "text": "> hey [@Jacobjeevan](https://github.com/Jacobjeevan) [@rithviknishad](https://github.com/rithviknishad) I need some clarification regarding this issue.\n> \n> I'm currently working on it, and as we know, the \"Refresh\" and \"Generate Reports\" buttons were removed from the Files tab in PR [#12419](https://github.com/ohcnetwork/care_fe/pull/12419). So, for this issue, we only need to focus on adjusting the tab options (Files, Discharge Summary, Drawings), search input, and other buttons to make sure they render well on small devices.\n> \n> I checked the Discharge Summary tab in the main Care app and confirmed that the Generate Reports button is not clipped, so no changes are needed there.\n> \n> ![Image](https://github.com/user-attachments/assets/93c8044e-10a4-4c21-9762-53d4bbc594c1)\n> \n> I’ve pushed a fix that adjusts the layout for small screen sizes, as shown in the attached screenshot:\n> \n> ![Image](https://github.com/user-attachments/assets/e66e762d-8eab-44c3-b134-d91cea72b958)\n\nHmm...first one is the fix right? 🤔 \n\nRegardless, buttons should span the whole window, width wise, for smaller devices 👍 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-10T10:26:15.000Z",
+      "title": "ohcnetwork/care_fe#12507",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12507#pullrequestreview-2912897800",
+      "text": "Redesign FacilityOrganization (dept/team) list view section"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-10T10:09:15.000Z",
+      "title": "ohcnetwork/care#3056",
+      "link": "https://github.com/ohcnetwork/care/pull/3056#pullrequestreview-2912848318",
+      "text": "fix issue with enable when for boolean values"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12118",
+      "time": "2025-06-10T09:30:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12118#issuecomment-2958375033",
+      "text": "> [@aravindm4](https://github.com/aravindm4) [@Jacobjeevan](https://github.com/Jacobjeevan) I checked this and it looks like the user's full name is now consistently displayed where expected. Just wanted to confirm if it’s all good now or if there’s still any place where it’s not working? I’d be happy to take it up :)\n\nHmm 🤔  There's still a few places where username is displayed instead. Check the comments on [first](https://github.com/ohcnetwork/care_fe/pull/12128) PR."
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-06-10T07:38:55.000Z",

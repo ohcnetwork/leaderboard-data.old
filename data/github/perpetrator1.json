@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-10T06:45:15.000Z",
+  "last_updated": "2025-06-10T11:07:52.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12582",
+      "time": "2025-06-10T11:07:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12582#issuecomment-2958738542",
+      "text": "Hey @rithviknishad what do you think?\n\n**My Approach**\n> I feel like it would be better if the button says continue after pasting the link and just import on the next dialog and send the toast notification after importing the form\n\nSome minor changes in `QuestionnaireEditor.tsx` will help us implement this\n> The user experience would be better if pressing the enter key clicks continue and import form buttons\nAdd  a event listener in the dialog content\n\n> Add a 10 mb limit to the json file\n\nI'll add a size check for the JSON file before importing it\n\n> Disable download button when the questionnairre is updating\n\nDisable the download button just like cancel and import buttons\n\nEnd Date: EOD after assignment"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12582",
+      "time": "2025-06-10T11:06:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12582",
+      "text": "Suggestions for Improving Questionnaire Importing"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12573",
@@ -366,7 +380,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12524",
       "title": "fix: Misalignment and inconsistency in the UI of 'Add Files' dropdown in encounter files",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "question",
         "needs-triage"

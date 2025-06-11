@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-10T05:08:28.000Z",
+  "last_updated": "2025-06-10T12:34:11.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12455",
+      "time": "2025-06-10T12:34:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12455#issuecomment-2959020334",
+      "text": "\n> > hey [@Jacobjeevan](https://github.com/Jacobjeevan) [@rithviknishad](https://github.com/rithviknishad) I need some clarification regarding this issue.\n> > I'm currently working on it, and as we know, the \"Refresh\" and \"Generate Reports\" buttons were removed from the Files tab in PR [#12419](https://github.com/ohcnetwork/care_fe/pull/12419). So, for this issue, we only need to focus on adjusting the tab options (Files, Discharge Summary, Drawings), search input, and other buttons to make sure they render well on small devices.\n> > I checked the Discharge Summary tab in the main Care app and confirmed that the Generate Reports button is not clipped, so no changes are needed there.\n> > ![Image](https://github.com/user-attachments/assets/93c8044e-10a4-4c21-9762-53d4bbc594c1)\n> > I’ve pushed a fix that adjusts the layout for small screen sizes, as shown in the attached screenshot:\n> > ![Image](https://github.com/user-attachments/assets/e66e762d-8eab-44c3-b134-d91cea72b958)\n> \n> Hmm...first one is the fix right? 🤔\n> \n> Regardless, buttons should span the whole window, width wise, for smaller devices 👍\n\n\nfirst one is main care app which show me this already fixed"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12455",
+      "time": "2025-06-10T09:46:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12455#issuecomment-2958422018",
+      "text": "hey @Jacobjeevan  @rithviknishad I need some clarification regarding this issue.\n\nI'm currently working on it, and as we know, the \"Refresh\" and \"Generate Reports\" buttons were removed from the Files tab in PR #12419. So, for this issue, we only need to focus on adjusting the tab options (Files, Discharge Summary, Drawings), search input, and other buttons to make sure they render well on small devices.\n\nI checked the Discharge Summary tab in the main Care app and confirmed that the Generate Reports button is not clipped, so no changes are needed there.\n\n![Image](https://github.com/user-attachments/assets/93c8044e-10a4-4c21-9762-53d4bbc594c1)\n\nI’ve pushed a fix that adjusts the layout for small screen sizes, as shown in the attached screenshot:\n\n![Image](https://github.com/user-attachments/assets/e66e762d-8eab-44c3-b134-d91cea72b958)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12531",
@@ -762,7 +776,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/107",
       "title": "Update yadavshubham01.md",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": []
     },
     {
