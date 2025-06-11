@@ -244,5 +244,113 @@
                 }
             ]
         }
+    ],
+    "2025-06-11 00:00:00": [
+        {
+            "user": "U08FGQJ93NW",
+            "type": "message",
+            "ts": "1749617795.087369",
+            "client_msg_id": "f57defcd-54de-42e0-aae0-a2fe15b6403b",
+            "text": "June 10th\n\u2022 Focused on running the Django server locally with the plugin integrated.\n\u2022 Encountered and resolved a `ModuleNotFoundError` by linking the plugin using `pip install -e`.\n\u2022 Faced challenges with `ImproperlyConfigured: Application labels aren't unique` errors while setting up the plugin. Spent time debugging and trying various fixes.\n\u2022 Currently, the server runs locally, but the label configuration issue persists despite multiple attempts to resolve it.\n",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "NQjgO",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "June 10th\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Focused on running the Django server locally with the plugin integrated."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Encountered and resolved a "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "ModuleNotFoundError",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " by linking the plugin using "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "pip install -e",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Faced challenges with "
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "ImproperlyConfigured: Application labels aren't unique",
+                                            "style": {
+                                                "code": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " errors while setting up the plugin. Spent time debugging and trying various fixes."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Currently, the server runs locally, but the label configuration issue persists despite multiple attempts to resolve it."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

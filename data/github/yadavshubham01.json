@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-10T12:34:11.000Z",
+  "last_updated": "2025-06-10T16:46:15.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12550",
+      "time": "2025-06-10T16:46:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12550#issuecomment-2959863627",
+      "text": "@Jacobjeevan  I'm waiting for the related PR #12387 to be merged, as it introduces new navigation components. I believe we should hold off on proceeding with this issue until that PR is merged. In the meantime, I'm working on solutions for handling multiple expanded tab highlights."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12587",
+      "time": "2025-06-10T16:42:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12587",
+      "text": "fix : Adjust file Tab option buttons for small screen"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12455",
@@ -771,7 +785,10 @@
       "link": "https://github.com/ohcnetwork/care_fe/pull/12531",
       "title": "Fix: appointment structured question 'required' flag support",
       "stale_for": 0,
-      "labels": []
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/107",
