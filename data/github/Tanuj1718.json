@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-09T13:04:49.000Z",
+  "last_updated": "2025-06-11T16:37:28.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12510",
+      "time": "2025-06-11T16:37:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12510#issuecomment-2963494264",
+      "text": "> (1) Why switch to text area? Does it make sense to do so? Think from a user perspective and what could potentially go wrong? (2) What should the behavior be if user has already selected all available options?\r\n> \r\n> Answering these two will help you figure out what the behavior should be.\r\n\r\n1. Used text area so that user can add new field. There might be different formats of generating reports in different labs. \r\n2. Are we predefining options (fields) ? Like if user wants to add a new/custom field (suppose email), then we shouldn't give the permission?"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/landing#72",
@@ -2788,7 +2795,9 @@
       "stale_for": 0,
       "labels": [
         "invalid",
-        "Changes Required"
+        "question",
+        "Changes Required",
+        "needs-triage"
       ]
     },
     {
@@ -2796,14 +2805,13 @@
       "title": "fix: Add validations for empty values in Valueset",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "Tested ✅"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/16",
       "title": "fix: Made 'Generate/Link ABHA Number' page mobile friendly",
-      "stale_for": 25,
+      "stale_for": 26,
       "labels": []
     }
   ],
@@ -2831,10 +2839,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11788",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11796"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11742",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11754"
     }
   ]
 }

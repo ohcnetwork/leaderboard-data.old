@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-10T20:30:15.000Z",
+  "last_updated": "2025-06-11T17:28:01.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12572",
+      "time": "2025-06-11T17:28:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12572#issuecomment-2963628786",
+      "text": "> @Denyme24 , You also need to fix cypress failing happening due to changes in this PR\r\n\r\n I'm not able to figure out why this Cypress Tests workflow run is getting failed. what could be the potential reasons "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12572",
+      "time": "2025-06-11T17:18:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12572#issuecomment-2963601784",
+      "text": "@Jacobjeevan, I have made those suggested changes, Review it once. \r\n\r\n- Here's the Desktop view\r\n![image](https://github.com/user-attachments/assets/e8d42f01-5c0e-4c38-aa9e-98029d215aec)\r\n\r\n- Mobile View\r\n\r\n![image](https://github.com/user-attachments/assets/8c95186b-6ecf-4933-aa91-016cabe64b6b)\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12488",
@@ -399,7 +413,9 @@
       "title": "feat: add clear action buttons to encounter listing page",
       "stale_for": 0,
       "labels": [
-        "Changes Required"
+        "question",
+        "Changes Required",
+        "needs-triage"
       ]
     },
     {
@@ -425,7 +441,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12488",
       "title": "fix: Improve Facility Type dropdown responsiveness using a drawer on Edit Facility page ",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "question",
         "Changes Required",
