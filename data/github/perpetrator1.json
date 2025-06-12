@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-11T16:57:24.000Z",
+  "last_updated": "2025-06-12T09:25:28.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12599",
+      "time": "2025-06-12T09:25:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12599#issuecomment-2965831587",
+      "text": "> Notes Bugs \n- Add proper trimming before allowing message creation, Add proper message wrapping in the MessageItem component, Consider adding a character limit for fixing the space/ overflow issue\n\n> View All Visibility Issue\n- Add a button to collapase the cardcontent at the bottom\n- Make sure the sheet can be closed by clicking outside or pressing escape\n\n> Date Display Issue\n- To fix the date preview issue:\n- Add an entry for date in the table and render the formatted value\n\n> Deleted entry shows up in recent edited\n- Add a separate entry for deleted entries on the edit sheet\n\nEnd Date: EOD after assignment\n\n@rithviknishad @Jacobjeevan Any thoughts?\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12599",
+      "time": "2025-06-12T09:22:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12599",
+      "text": "A Few Bugs on the Encounter Page"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12573",
@@ -388,13 +402,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12594",
       "title": "Fixes: Suggestions for Improving Questionnaire Importing",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12573",
       "title": "Fix: Hide the zone and milli seconds in the time date component of questionnaire",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Changes Required"
       ]
@@ -402,7 +416,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12524",
       "title": "fix: Misalignment and inconsistency in the UI of 'Add Files' dropdown in encounter files",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "question",
         "Changes Required",

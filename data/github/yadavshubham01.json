@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-12T04:25:26.000Z",
+  "last_updated": "2025-06-12T07:58:58.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12531",
+      "time": "2025-06-12T07:58:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12531#issuecomment-2965545310",
+      "text": "Hey @Jacobjeevan, the reason questionnaire submission is failing is because If the user fills only the “Reason for Visit” and skips appointment scheduling, Then slot_id is null, And our appointment getRequests() returns an empty array,\r\nWhich causes the POST /batch_requests/ to fail with a 400 error.\r\n\r\nDo we have (or can we add) a backend fallback that allows submission even if no appointment is scheduled? For example: Either by accepting empty requests gracefully as a no-op, Or by having a separate request that stores just the reason_for_visit without requiring slot_id."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12531",
@@ -809,7 +816,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12186",
       "title": "Fix : Sidebar Active Tab Highlight",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "Tested ✅"
