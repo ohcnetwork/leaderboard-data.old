@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-12T07:58:58.000Z",
+  "last_updated": "2025-06-12T13:45:38.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12531",
+      "time": "2025-06-12T13:45:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12531#issuecomment-2966795302",
+      "text": "Hi @nihal467,\r\nI’ve implemented logic so that when a questionnaire contains multiple questions (including an appointment structured question), users can submit the questionnaire without scheduling an appointment (also empty reason for visit )\" In this case, the slot API is not called, which works as expected.\r\n\r\nHowever, if the questionnaire contains only the appointment structured question, and the user tries to submit it with just the \"reason for visit\" (without selecting a slot), the submission fails because the slot API is still called (since there’s no other structured request to send). This is due to the backend expecting at least one request, and our handler only generating a request if a slot is selected.\r\n\r\nPlease advise on how you’d like to handle this scenario:\r\n- Should we create a generic appointment endpoint for \"reason for visit\" only?\r\n- Or should we require a slot selection if the appointment question is the only question in the questionnaire?\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12531",
@@ -810,7 +817,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/107",
       "title": "Update yadavshubham01.md",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": []
     },
     {
