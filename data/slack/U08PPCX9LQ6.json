@@ -998,5 +998,131 @@
                 }
             ]
         }
+    ],
+    "2025-06-13 00:00:00": [
+        {
+            "user": "U08PPCX9LQ6",
+            "type": "message",
+            "ts": "1749829955.907749",
+            "client_msg_id": "e0a68100-562d-416e-8425-69c1ea406b50",
+            "text": "June 13\n\u2022 updated existing PRs\n\u2022 got assigned a new <https://github.com/ohcnetwork/care_fe/issues/10629|issue>\nNext:\n\u2022 Raise PR for<https://github.com/ohcnetwork/care_fe/issues/10629| issue>",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "image_url": "https://private-user-images.githubusercontent.com/25143503/413600731-7c46a447-d6d8-413f-b890-df73d0861de5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDk4MzAyNTgsIm5iZiI6MTc0OTgyOTk1OCwicGF0aCI6Ii8yNTE0MzUwMy80MTM2MDA3MzEtN2M0NmE0NDctZDZkOC00MTNmLWI4OTAtZGY3M2QwODYxZGU1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA2MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNjEzVDE1NTIzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM0OTUyYjE2NTA2Njk3MjA2N2E4YjNhMjg3YjBjYzMyMGNmZDhjNGVlOTdmNzkxNzdjNjZmMzAyNDI5ZTgyYTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.AmQwU_axlcmCFuNjsnf1CQcOUTH5wylXJayoxUiLRuc",
+                    "image_width": 3420,
+                    "image_height": 2224,
+                    "image_bytes": 2021596,
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1739694964,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/issues/10629",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "3420x2224px image",
+                    "text": "*Describe the bug*  \nIn a system where multiple cameras are present, users are unable to switch to preferred camera when multiple cameras are available in system\n\n*To Reproduce*  \nSteps to reproduce the behavior:\n\n1. Have multiple cameras in your system (maybe configure OBS Virtual Camera if you have OBS)\n2. Open File Uploads of a Patient/Encounter or use Avatar Edit of Facility/User.\n3. Observe there's no way we can switch to another preferred camera.\n\n*Expected behavior*  \nIf there are multiple cameras in system, users should be able to select the preferred camera (applicable for all places where this feature is used)\n\n*Screenshots*\n\n<https://private-user-images.githubusercontent.com/25143503/413600731-7c46a447-d6d8-413f-b890-df73d0861de5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDk4MzAyNTgsIm5iZiI6MTc0OTgyOTk1OCwicGF0aCI6Ii8yNTE0MzUwMy80MTM2MDA3MzEtN2M0NmE0NDctZDZkOC00MTNmLWI4OTAtZGY3M2QwODYxZGU1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA2MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNjEzVDE1NTIzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM0OTUyYjE2NTA2Njk3MjA2N2E4YjNhMjg3YjBjYzMyMGNmZDhjNGVlOTdmNzkxNzdjNjZmMzAyNDI5ZTgyYTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.AmQwU_axlcmCFuNjsnf1CQcOUTH5wylXJayoxUiLRuc|[Image](https://private-user-images.githubusercontent.com/25143503/413600731-7c46a447-d6d8-413f-b890-df73d0861de5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDk4MzAyNTgsIm5iZiI6MTc0OTgyOTk1OCwicGF0aCI6Ii8yNTE0MzUwMy80MTM2MDA3MzEtN2M0NmE0NDctZDZkOC00MTNmLWI4OTAtZGY3M2QwODYxZGU1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA2MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNjEzVDE1NTIzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM0OTUyYjE2NTA2Njk3MjA2N2E4YjNhMjg3YjBjYzMyMGNmZDhjNGVlOTdmNzkxNzdjNjZmMzAyNDI5ZTgyYTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.AmQwU_axlcmCFuNjsnf1CQcOUTH5wylXJayoxUiLRuc)>",
+                    "title": "#10629 Add support for switching to preferred camera when multiple cameras are available in system",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/issues/10629",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "<https://github.com/sindhureddy-6|@sindhureddy-6>",
+                            "title": "Assignees",
+                            "short": true
+                        },
+                        {
+                            "value": "question, wishlist, needs-triage",
+                            "title": "Labels",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "qwoG0",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "June 13\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "updated existing PRs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "got assigned a new "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/issues/10629",
+                                            "text": "issue"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next:\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Raise PR for"
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/issues/10629",
+                                            "text": " issue"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
