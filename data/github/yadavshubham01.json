@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-13T12:13:07.000Z",
+  "last_updated": "2025-06-13T17:55:20.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12186",
+      "time": "2025-06-13T17:55:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12186#issuecomment-2971132110",
+      "text": "> > Hey @nihal467, I think this is also a P1 issue.\r\n> \r\n> why would this be a P1 issue?\r\n\r\nSorry for the confusion earlier. I think this is important to complete for the sidebar navigation experience for users, so I’d say this is a P1 as well similar to issue #12550.\r\n\r\nAlso, I’ve started working on a scalable approach. Currently, I’m trying to use the **path-to-regexp** library to highlight active routes through pattern matching. I’m aiming to complete it by tomorrow."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12186",
@@ -812,7 +819,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12531",
       "title": "Fix: appointment structured question 'required' flag support",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "urgent",
         "Tested ✅",
