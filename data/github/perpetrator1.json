@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-14T05:18:23.000Z",
+  "last_updated": "2025-06-15T15:15:31.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12621",
+      "time": "2025-06-15T15:15:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12621#issuecomment-2974050917",
+      "text": "@rithviknishad @Jacobjeevan I would like to work on this issues\n\n**My approach**\n The current implementation considers a note to exist if notes.length > 0, which means even spaces are counted as valid notes.  Modifying the validation to trim the string before checking its length should fix this issue.\n\nEnd Date: EOD after assignment\n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12621",
+      "time": "2025-06-15T15:08:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12621",
+      "text": "Entering just whitespace in input fields still creates empty entries"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12614",
@@ -443,13 +457,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12594",
       "title": "Fixes: Suggestions for Improving Questionnaire Importing",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12573",
       "title": "Fix: Hide the zone and milli seconds in the time date component of questionnaire",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "Changes Required"
       ]
@@ -457,7 +471,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12524",
       "title": "fix: Misalignment and inconsistency in the UI of 'Add Files' dropdown in encounter files",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
         "question",
         "Changes Required",

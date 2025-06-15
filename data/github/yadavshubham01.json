@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-14T05:20:50.000Z",
+  "last_updated": "2025-06-15T13:00:30.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12186",
+      "time": "2025-06-15T13:00:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12186#issuecomment-2973808824",
+      "text": "Hey @rithviknishad, I’ve implemented the new approach using the [path-to-regexp](https://github.com/pillarjs/path-to-regexp) library. You can review this whenever you get a chance.\r\n\r\nIf you feel this approach isn’t scalable, we can fall back to solving it by explicitly fixing the page routings later. But from what I understand, this method should scale well for new tabs that have sub-pages"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12610",
@@ -826,7 +833,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12531",
       "title": "Fix: appointment structured question 'required' flag support",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "urgent",
         "Tested ✅",
@@ -844,7 +851,9 @@
       "title": "Fix : Sidebar Active Tab Highlight",
       "stale_for": 0,
       "labels": [
-        "invalid"
+        "invalid",
+        "question",
+        "needs-triage"
       ]
     }
   ],
