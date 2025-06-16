@@ -1,6 +1,47 @@
 {
-  "last_updated": "2025-06-16T07:49:04.000Z",
+  "last_updated": "2025-06-16T10:55:43.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12589",
+      "time": "2025-06-16T10:55:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12589#issuecomment-2976089412",
+      "text": "so can i work on BE ? \r\n\r\n@nihal467 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12589",
+      "time": "2025-06-16T10:54:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12589#issuecomment-2976084569",
+      "text": "@nihal\r\nissue is with Backend \r\nwhen i select the option (which is mentioned in enable behaviour) as first option. then it is displaying correctly. otherwise not\r\n\r\nhere for this question i have given option B for enabling new question.\r\n\r\n![image](https://github.com/user-attachments/assets/de4797c2-93a5-4904-98c2-c63ddb73b41c)\r\n\r\n\r\nresponse from Network\r\n\r\n\r\n![image](https://github.com/user-attachments/assets/32b3ac44-9e6e-4a35-9899-bbd68cfe0ff8)\r\n![image](https://github.com/user-attachments/assets/3b689852-5d6a-481d-8f63-f70e2406d206)\r\n\r\n"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12434",
+      "time": "2025-06-16T09:25:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12434",
+      "text": "Added validation Logic to Medication Statement Questionnaire",
+      "turnaround_time": 1641853
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#12434",
+      "time": "2025-06-16T09:25:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12434",
+      "text": "Added validation Logic to Medication Statement Questionnaire",
+      "collaborated_with": [
+        "sindhureddy-6",
+        "nihal467"
+      ]
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#3060",
+      "time": "2025-06-16T09:14:58.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3060",
+      "text": "Added Validation for effective Period in Medication Statement",
+      "turnaround_time": 1128796
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12589",
@@ -632,12 +673,19 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/3074",
+      "title": "Enhanced condition evaluation in questionnaire logic to support multiple Values",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12618",
       "title": "Fix : Show only unselected options in repeatable choice questions",
       "stale_for": 0,
       "labels": [
-        "P1",
-        "Changes Required"
+        "needs testing",
+        "needs review",
+        "P1"
       ]
     },
     {
@@ -645,9 +693,11 @@
       "title": "Fix: Updated condition check for multi-choice based Question",
       "stale_for": 0,
       "labels": [
+        "question",
         "urgent",
         "test failed",
-        "P1"
+        "P1",
+        "needs-triage"
       ]
     },
     {
@@ -657,17 +707,6 @@
       "labels": [
         "needs testing",
         "needs review"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12434",
-      "title": "Added validation Logic to Medication Statement Questionnaire",
-      "stale_for": 0,
-      "labels": [
-        "Backend",
-        "needs review",
-        "Tested ✅",
-        "P1"
       ]
     }
   ],

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-14T15:37:47.000Z",
+  "last_updated": "2025-06-16T10:05:15.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12621",
+      "time": "2025-06-16T10:05:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12621#issuecomment-2975921026",
+      "text": "No 🤔  Instead modify the forms to not check against trimmed string, so spaces aren't submitted to the BE."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12616",
@@ -13671,19 +13678,28 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12629",
+      "title": "Questionnaire select bug fix",
+      "stale_for": 0,
+      "labels": [
+        "needs testing"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12492",
       "title": "Questionnaire Enable When",
       "stale_for": 0,
       "labels": [
+        "needs testing",
         "needs review",
         "P1",
-        "Changes Required"
+        "Merge Conflict"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12419",
       "title": "Switch discharge summary to reports api",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": [
         "needs testing",
         "Backend",
