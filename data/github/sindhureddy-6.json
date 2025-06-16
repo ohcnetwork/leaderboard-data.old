@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-06-14T14:42:33.000Z",
+  "last_updated": "2025-06-16T07:49:04.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12589",
+      "time": "2025-06-16T07:49:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12589#issuecomment-2975458141",
+      "text": "> @sindhureddy-6 https://www.loom.com/share/8c769e1e9a49419090211f9b932aaccc?sid=8f2d6a39-d5af-4d86-a9c1-fdb5cec625c2\r\n> \r\n> the issue is that when we select option 1 + Option 2 , a new field is been enabled, now when we submit the data in the new enabled field, that data is missing in the overview page\r\n\r\ni got it. will check now\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12589",
+      "time": "2025-06-16T07:28:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12589#issuecomment-2975402382",
+      "text": "> @sindhureddy-6 i have combined both the PR and tested it, its not working, can you attach a video where its working\r\n\r\nUploading choice.mp4…\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12589",
+      "time": "2025-06-16T05:44:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12589#issuecomment-2975178879",
+      "text": "@nihal i have observed this issue. while working on this [PR](https://github.com/ohcnetwork/care_fe/pull/12618). \r\ni have made changes in that PR.\r\n\r\n> @sindhureddy-6 The condition check in the questionnaire is working correctly and enables the relevant field based on the selected choice. However, the value entered in that field isn't showing up on the overview page after submission.\r\n> \r\n> Can you recheck the functionality\r\n\r\n@nihal i have observed this issue. while working on this [PR](https://github.com/ohcnetwork/care_fe/pull/12618). \r\ni have made changes in that PR"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#12619",
@@ -613,13 +634,16 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12618",
       "title": "Fix : Show only unselected options in repeatable choice questions",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "P1",
+        "Changes Required"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12589",
       "title": "Fix: Updated condition check for multi-choice based Question",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "urgent",
         "test failed",
@@ -629,26 +653,21 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12500",
       "title": "fix:Stop camera stream on closing dialog in Add Files",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "Changes Required",
-        "Work in Progress 🚧"
+        "needs testing",
+        "needs review"
       ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/3060",
-      "title": "Added Validation for effective Period in Medication Statement",
-      "stale_for": 2,
-      "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12434",
       "title": "Added validation Logic to Medication Statement Questionnaire",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
+        "Backend",
         "needs review",
-        "waiting for backend"
+        "Tested ✅",
+        "P1"
       ]
     }
   ],

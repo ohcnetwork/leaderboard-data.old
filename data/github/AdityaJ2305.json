@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-06-14T20:27:23.000Z",
+  "last_updated": "2025-06-16T08:32:40.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-14T12:01:14.000Z",
+      "title": "ohcnetwork/care_fe#12612",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12612#pullrequestreview-2928268437",
+      "text": "Added note for each question in questionnaire"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12624",
+      "time": "2025-06-16T08:00:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12624#issuecomment-2975490616",
+      "text": "Hey Just checked,  it is happening bcoz we are having frontend filtering from already fetched appointments instead of backend (where we need to pass patientname as query param to backend )\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12612",
+      "time": "2025-06-16T07:17:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12612#issuecomment-2975370692",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/115739037/455371109-2a2fd7be-f718-400c-a4ce-2797df4e06ec.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTAwNTc3MjMsIm5iZiI6MTc1MDA1NzQyMywicGF0aCI6Ii8xMTU3MzkwMzcvNDU1MzcxMTA5LTJhMmZkN2JlLWY3MTgtNDAwYy1hNGNlLTI3OTdkZjRlMDZlYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYxNlQwNzAzNDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMjFhMDNiNDY0NmQ0YTc0MzkzZTUyYzY2ZjUzZGZjYzY0ZTlmMzQ1NmJlNzRjNDE3ZjEwM2RhYWU2OTUxMmExJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.4DdgUFWq_xbcYOvpSFg6sPoabcFOvck9IQAVEbgOF5g)\r\n> \r\n> Note is missing for non-group questions too\r\n\r\n@NikhilA8606 , If you referring to Wound in Arike f5 ,it is Group type question \r\n\r\n![image](https://github.com/user-attachments/assets/fe548a2d-577d-4490-bd4c-d8364757ac38)\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12488",
@@ -42,13 +63,6 @@
       "time": "2025-06-14T12:30:48.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/12598#issuecomment-2972734755",
       "text": "Hey Team, I would like to work on this issue - I have figured out problem it is we are only rendering index 0 instead map through response array and render all values both in group type question and non-group\neta 1 day\n"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-06-14T12:01:14.000Z",
-      "title": "ohcnetwork/care_fe#12612",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12612#pullrequestreview-2928268437",
-      "text": "Added note for each question in questionnaire"
     },
     {
       "type": "pr_reviewed",
@@ -8239,7 +8253,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12336",
       "title": "Clinical History page",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "stale"
       ]
@@ -8247,7 +8261,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11919",
       "title": "Redesigned DeviceList Page and Add Location Filter on DeviceList ",
-      "stale_for": 7,
+      "stale_for": 8,
       "labels": [
         "hold",
         "Changes Required"
