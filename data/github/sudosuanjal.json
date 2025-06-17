@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-06-16T12:41:09.000Z",
+  "last_updated": "2025-06-16T20:39:28.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12519",
+      "time": "2025-06-16T20:39:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12519#issuecomment-2978057324",
+      "text": "THE APPROACH:\n\nThere is an inconsistency in how status values are displayed in the Resource Requests table. While the status \"approved\" appears correctly as \"Approved\", other statuses like \"transfer_in_progress\" and \"transportation_to_be_arranged\" are displayed as raw keys.\n\nRoot Cause:\nThese specific status keys (\"transfer_in_progress\", \"transportation_to_be_arranged\", etc.) are missing from the en.json translation file, so the t() function returns the raw key instead of a user-friendly, translated string.\n\nETA: TODAY\n\n@rithviknishad "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12519",
+      "time": "2025-06-16T20:34:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12519#issuecomment-2978042130",
+      "text": "@rithviknishad can i work on this issue ??\nhttps://github.com/ohcnetwork/care_fe/pull/12521#issuecomment-2961216504"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12521",
+      "time": "2025-06-16T20:30:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12521#issuecomment-2978030467",
+      "text": "@Jacobjeevan can i work on this issue I think I can solve it"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12615",

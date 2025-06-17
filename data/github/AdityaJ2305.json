@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-16T18:34:45.000Z",
+  "last_updated": "2025-06-16T20:45:14.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12519",
+      "time": "2025-06-16T20:45:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12519#issuecomment-2978077090",
+      "text": "> There is an inconsistency in how status values are displayed in the Resource Requests table. While the status \"approved\" appears correctly as \"Approved\", other statuses like \"transfer_in_progress\" and \"transportation_to_be_arranged\" are displayed as raw keys.\n\nCorrect Root cause \n\n> These specific status keys (\"transfer_in_progress\", \"transportation_to_be_arranged\", etc.) are missing from the en.json translation file\n\nNot need to add any key in en.json "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12519",
+      "time": "2025-06-16T20:39:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12519#issuecomment-2978057402",
+      "text": "> [@rithviknishad](https://github.com/rithviknishad) can i work on this issue ?? [#12521 (comment)](https://github.com/ohcnetwork/care_fe/pull/12521#issuecomment-2961216504)\n\n@sudosuanjal . Could you mention the approach/ reason of bug with estimated time of completion ? "
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-06-13T10:15:51.000Z",
@@ -8256,6 +8270,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12632",
+      "title": "Enable Delete Functionality for Organizations (dept/team)",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12515",
       "title": "Fix: auto-scroll to error fields in schedule creation / edit form",
       "stale_for": 0,
@@ -8274,7 +8294,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12336",
       "title": "Clinical History page",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
         "stale"
       ]
@@ -8282,7 +8302,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11919",
       "title": "Redesigned DeviceList Page and Add Location Filter on DeviceList ",
-      "stale_for": 8,
+      "stale_for": 9,
       "labels": [
         "hold",
         "Changes Required"

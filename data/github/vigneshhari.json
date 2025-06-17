@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-16T10:34:00.000Z",
+  "last_updated": "2025-06-16T19:28:20.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care#3073",
+      "time": "2025-06-16T19:28:20.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3073#issuecomment-2977837046",
+      "text": "I ran it as a one time command\r\n```\r\nfrom django.db.models import Count, OuterRef, Subquery, Value\r\nfrom django.db.models.functions import Coalesce\r\n\r\nfrom care.emr.resources.scheduling.slot.spec import CANCELLED_STATUS_CHOICES\r\nfrom care.emr.models import TokenBooking, TokenSlot\r\nallocated_bookings_subquery = (\r\n    TokenBooking.objects.filter(\r\n        token_slot = OuterRef(\"pk\"),\r\n    )\r\n        .exclude(status__in = CANCELLED_STATUS_CHOICES)\r\n        .values(\"token_slot\")\r\n        .annotate(count = Count(\"id\"))\r\n        .values(\"count\")\r\n)\r\n\r\nTokenSlot.objects.update(\r\n    allocated = Coalesce(\r\n        Subquery(allocated_bookings_subquery),\r\n        Value(0),\r\n    ))\r\n```\r\n\r\nAlso never import models when writing migrations, its a disaster waiting to happen. "
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/roadmap#117",
