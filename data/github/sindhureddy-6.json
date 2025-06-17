@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-06-16T10:55:43.000Z",
+  "last_updated": "2025-06-16T16:52:39.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12589",
+      "time": "2025-06-16T16:52:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12589#issuecomment-2977351975",
+      "text": "i have raised[ PR](https://github.com/ohcnetwork/care/pull/3074) in Backend.\r\nplease check it.\r\n\r\n\r\nhttps://github.com/user-attachments/assets/93b04650-3572-4f95-b1e8-d41070707807\r\n\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#3074",
+      "time": "2025-06-16T16:48:10.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3074",
+      "text": "Enhanced condition evaluation in questionnaire logic to support multiple Values"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12589",
+      "time": "2025-06-16T16:34:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12589#issuecomment-2977303510",
+      "text": "> when i select the option (which is mentioned in enable behaviour) as first option. then it is displaying correctly. otherwise not\r\n\r\nyes. the logic in is_question_enabled function currently handling for values[0] (i.e only for first option). i will modify it consider all the values."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12589",
