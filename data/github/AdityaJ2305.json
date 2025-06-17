@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-06-16T20:45:14.000Z",
+  "last_updated": "2025-06-17T08:39:25.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12377",
+      "time": "2025-06-17T08:39:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12377#issuecomment-2979466285",
+      "text": "We can close this issue already done \ncc: @rithviknishad @Jacobjeevan "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12632",
+      "time": "2025-06-17T06:38:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12632",
+      "text": "Enable Delete Functionality for Organizations (dept/team)"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12627",
+      "time": "2025-06-17T06:32:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12627#issuecomment-2979112410",
+      "text": "Hey @Jeffrin2005 , If i'm not wrong, in the same PatientRegistration we have useMemo for zod schema I think we can remove that right ? "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-14T11:45:38.000Z",
+      "title": "ohcnetwork/care_fe#12614",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12614#pullrequestreview-2928226382",
+      "text": "Fix: Repeated Shift+Enter sends duplicate messages on discussion page"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12519",
+      "time": "2025-06-17T06:08:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12519#issuecomment-2979063345",
+      "text": "Hey @sudosuanjal , we should not handle login in function with translated text as argument , it won't work for other langs instead pass raw value as arg and do translate in `getStatusBadge` func itself "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12519",
@@ -98,13 +133,6 @@
       "time": "2025-06-14T20:18:37.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12126#issuecomment-2973141109",
       "text": "@ashwinpraveengo , What's the update here ? "
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-06-14T11:45:38.000Z",
-      "title": "ohcnetwork/care_fe#12614",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12614#pullrequestreview-2928226382",
-      "text": "Fix: Repeated Shift+Enter sends duplicate messages on discussion page"
     },
     {
       "type": "comment_created",
@@ -8278,7 +8306,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12515",
       "title": "Fix: auto-scroll to error fields in schedule creation / edit form",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Changes Required"
       ]
@@ -8286,7 +8314,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12404",
       "title": "Add Crop Image functionality to restrict within size and ratio ",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "Changes Required"
       ]
@@ -8302,7 +8330,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11919",
       "title": "Redesigned DeviceList Page and Add Location Filter on DeviceList ",
-      "stale_for": 9,
+      "stale_for": 0,
       "labels": [
         "hold",
         "Changes Required"
@@ -8400,14 +8428,6 @@
     },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10079",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10081"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10073",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10077"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10073",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10081"
     }
   ]

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-16T20:39:28.000Z",
+  "last_updated": "2025-06-17T03:00:53.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12519",
+      "time": "2025-06-17T03:00:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12519#issuecomment-2978767961",
+      "text": "Thanks for the clarification!\n\nI've updated the component to use the existing translation keys in en.json by prepending resource_status__ to the status value before passing it to the t() function.\n\n### the Implementation:\n```tsx\n<TableCell>\n  {getStatusBadge(t(`resource_status__${request.status}`))}\n</TableCell>\n```\n\nThis ensures that all status values, including transfer_in_progress and transportation_to_be_arranged , are now displayed as properly translated labels instead of raw keys.\n\nTested and working as expected. ✅\n\nTagging @rithviknishad @Jacobjeevan  I believe this issue can now be assigned to me.\n\n![Image](https://github.com/user-attachments/assets/f1d33304-b465-49ba-beb1-77e71e87e6b1)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12519",
