@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-17T03:00:53.000Z",
+  "last_updated": "2025-06-17T10:57:17.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12519",
+      "time": "2025-06-17T10:57:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12519#issuecomment-2979905051",
+      "text": "```\nreturn (\n  <Badge className={statusColors[status] || statusColors.DEFAULT}>\n    {t(`resource_status__${status}`)}\n  </Badge>\n);\n```\n\n```tsx\n<TableCell>\n  {getStatusBadge(request.status)}\n</TableCell>\n```\n\n@AdityaJ2305  Like this, I guess, correct me if I'm wrong."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12519",

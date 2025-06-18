@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-15T15:15:31.000Z",
+  "last_updated": "2025-06-17T12:53:03.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12634",
+      "time": "2025-06-17T12:53:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12634#issuecomment-2980269835",
+      "text": "@rithviknishad @Jacobjeevan i would like to work on this issue.\n\n**My Approach**\n\nIn the handleAddAllergy function in AllergyQuestion.tsx, we're creating a new allergy with ALLERGY_INITIAL_VALUE, but this initial value doesn't include the note field. So including the note field during the creation of a new allergy should fix this issue\n\nEnd Date: EOD after assignment"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12634",
+      "time": "2025-06-17T12:50:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12634",
+      "text": "Bug:  Allergy notes not visible on Encounter Overview tab when creating new allergy"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12621",
@@ -451,27 +465,19 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12614",
       "title": "Fix: Repeated Shift+Enter sends duplicate messages on discussion page",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12594",
       "title": "Fixes: Suggestions for Improving Questionnaire Importing",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12573",
-      "title": "Fix: Hide the zone and milli seconds in the time date component of questionnaire",
-      "stale_for": 5,
-      "labels": [
-        "Changes Required"
-      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12524",
       "title": "fix: Misalignment and inconsistency in the UI of 'Add Files' dropdown in encounter files",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "question",
         "Changes Required",
@@ -481,7 +487,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12308",
       "title": "Fix dosage popover collision",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "question",
         "do not merge",
