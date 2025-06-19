@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-06-17T18:44:50.000Z",
+  "last_updated": "2025-06-19T13:25:39.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12660",
+      "time": "2025-06-19T13:25:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12660",
+      "text": "Fix: Group-type questions without sub-questions should not be allowed in questionnaire creation"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12186",
+      "time": "2025-06-19T11:49:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12186#issuecomment-2987802133",
+      "text": "> <img alt=\"Screenshot 2025-06-19 at 2 36 11 PM\" width=\"284\" src=\"https://private-user-images.githubusercontent.com/148325158/456900080-e0be9cb4-cacf-43cb-be84-3338876f6362.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTAzMzM4ODMsIm5iZiI6MTc1MDMzMzU4MywicGF0aCI6Ii8xNDgzMjUxNTgvNDU2OTAwMDgwLWUwYmU5Y2I0LWNhY2YtNDNjYi1iZTg0LTMzMzg4NzZmNjM2Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYxOVQxMTQ2MjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iOTdjOTE0NzU5MzQ3YmNhOTM5MjU1NTMwOWQwMjUzOTM5OTY5OGYzY2YxODcyOTRiYmNmZjE3MThkM2JlZmI2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Az93mukBvSqWiZjC9Uyo9-u5E4eGt9pI3qVSsy8cheA\">\r\n> @yadavshubham01\r\n\r\nbecause I mistakenly pushed the package-lock.json file. After removing it, the PR was showing too many deletions, so I decided to start fresh.\r\nI just wanted to ask if you could review the approach and let me know if it looks correct, or if we can fix it using just page routing instead.\r\n@rithviknishad "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12640",
+      "time": "2025-06-19T09:45:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12640#issuecomment-2987450793",
+      "text": "Hey @Jacobjeevan @rithviknishad need review "
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12640",
@@ -872,6 +893,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12660",
+      "title": "Fix: Group-type questions without sub-questions should not be allowed in questionnaire creation",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12640",
       "title": "fix: Highlight Active Section/Question Being Edited in Questionnaire Editor",
       "stale_for": 0,
@@ -891,7 +918,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/107",
       "title": "Update yadavshubham01.md",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {

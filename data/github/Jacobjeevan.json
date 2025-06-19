@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-06-19T06:10:01.000Z",
+  "last_updated": "2025-06-19T11:21:38.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12643",
+      "time": "2025-06-19T11:21:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12643#issuecomment-2987714374",
+      "text": "> Thanks for the follow-up! The error occurs because vite-plugin-static-copy expects pdf.worker.min.mjs to exist under:\n> \n> ![Image](https://github.com/user-attachments/assets/14a6699a-cec4-41f8-969d-aea5de29aa19)\n> \n> This file may not exist in dev builds or when pdfjs-dist version changes .The plugin fails silently if the file isn’t found, leading to runtime PDF preview issues\n> \n> The backend (running via Docker) is irrelevant in this failure — it doesn't serve the worker or static files. So even if minio or other backends are up, this issue still occurs due to frontend worker misconfiguration.\n> \n> You can reproduce the error as specified in video : https://github.com/user-attachments/assets/ebbb8ff4-37f5-4dab-aa3f-6294489c0a80\n\nI talked to a colleague and this seems like a windows issue. You are welcome to try and resolve it, but we recommend using linux for development rather than windows."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12614",
+      "time": "2025-06-19T11:02:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12614#issuecomment-2987666036",
+      "text": "> Just noticed — shouldn’t we use Cmd + Enter instead of Shift + Enter ? 🤔 That’s what GitHub uses and a bunch of other too\r\n> \r\n> cc: @rithviknishad @Jacobjeevan\r\n\r\nShift + Enter is also used in a lot of places. Current setup is based on product feedback, we can change it if users request it again 👍 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-19T10:55:59.000Z",
+      "title": "ohcnetwork/care_fe#12614",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12614#pullrequestreview-2942515654",
+      "text": "Fix: Repeated Shift+Enter sends duplicate messages on discussion page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-19T10:50:46.000Z",
+      "title": "ohcnetwork/care_fe#12617",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12617#pullrequestreview-2942502365",
+      "text": "FIXED: \"Unable to preventDefault inside passive event listener\" warning for image preview drag"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-19T10:46:12.000Z",
+      "title": "ohcnetwork/care_fe#12627",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12627#pullrequestreview-2942476918",
+      "text": "Fix : Validation errors for conditional fields only appear after second submit"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12651",
+      "time": "2025-06-19T08:32:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12651#issuecomment-2987211317",
+      "text": "@sindhureddy-6 Please do not open a PR when the issue is assigned and there's already an open PR 😅 "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12634",
@@ -13860,7 +13902,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12419",
       "title": "Switch discharge summary to reports api",
-      "stale_for": 9,
+      "stale_for": 10,
       "labels": [
         "needs testing",
         "Backend",
