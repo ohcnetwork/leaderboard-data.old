@@ -1,0 +1,14 @@
+{
+  "last_updated": "2025-06-19T06:38:42.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12643",
+      "time": "2025-06-19T06:38:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12643#issuecomment-2986812242",
+      "text": "Thanks for the follow-up! \nThe error occurs because vite-plugin-static-copy expects pdf.worker.min.mjs to exist under:\n\n![Image](https://github.com/user-attachments/assets/14a6699a-cec4-41f8-969d-aea5de29aa19)\n\nThis file may not exist in dev builds or when pdfjs-dist version changes .The plugin fails silently if the file isn’t found, leading to runtime PDF preview issues\n\nThe backend (running via Docker) is irrelevant in this failure — it doesn't serve the worker or static files.\nSo even if minio or other backends are up, this issue still occurs due to frontend worker misconfiguration. \n\nYou can reproduce the error as specified in  video :\nhttps://github.com/user-attachments/assets/ebbb8ff4-37f5-4dab-aa3f-6294489c0a80"
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}
