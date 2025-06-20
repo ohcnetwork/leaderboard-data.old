@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-06-19T10:44:50.000Z",
+  "last_updated": "2025-06-19T19:15:57.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-17T14:20:27.000Z",
+      "title": "ohcnetwork/care_fe#12631",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12631#pullrequestreview-2935879423",
+      "text": "Move questions between Groups"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-19T19:12:33.000Z",
+      "title": "ohcnetwork/care_fe#12660",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12660#pullrequestreview-2943856208",
+      "text": "Fix: Group-type questions without sub-questions should not be allowed in questionnaire creation"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12664",
+      "time": "2025-06-19T19:11:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12664#issuecomment-2988948930",
+      "text": "As per FHIR, there's no such restriction specified. So, beds can exist as standalone Location resource.\n\n\n<img width=\"1215\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/6d0831ef-5ae0-47b7-b895-7073c592880f\" />"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12664",
+      "time": "2025-06-19T19:11:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12664",
+      "text": "Restricting Creating Bed Location when no parent location is present"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-06-19T10:44:50.000Z",
@@ -84,13 +112,6 @@
       "title": "ohcnetwork/care_fe#12492",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12492#pullrequestreview-2934521899",
       "text": "Questionnaire Enable When"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-06-17T14:20:27.000Z",
-      "title": "ohcnetwork/care_fe#12631",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12631#pullrequestreview-2935879423",
-      "text": "Move questions between Groups"
     },
     {
       "type": "comment_created",
@@ -73480,7 +73501,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/pull/2",
       "title": "added translations",
-      "stale_for": 44,
+      "stale_for": 45,
       "labels": []
     }
   ],
