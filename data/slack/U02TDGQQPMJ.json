@@ -49630,5 +49630,150 @@
                 }
             ]
         }
+    ],
+    "2025-06-20 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1750436065.722849",
+            "edited": {
+                "user": "U02TDGQQPMJ",
+                "ts": "1750436074.000000"
+            },
+            "client_msg_id": "eff60a8c-afd5-4805-95e2-90febdf370d5",
+            "text": "*june 20*\n\u2022 worked on scheduling optimizations <https://github.com/ohcnetwork/care/pull/3081|#3081> to dump token slot information to token booking\u2019s meta for expired slots. almost done.\n    \u25e6 kinda stuck on what to do with filters that filter on related token slot object\u2019s values.\n\u2022 spent a while debugging a weird issue when radio group was used along with form field. race condition on onValueChange with radix-ui\u2019s useControllableState in our specific use case due to our button needing a parent div for styling.\n\u2022 reviewed prs\n*next*\n\u2022 more scheduling related optimizations",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "6YP/k",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "june 20",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "worked on scheduling optimizations "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/3081",
+                                            "text": "#3081",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " to dump token slot information to token booking\u2019s meta for expired slots. almost done."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "kinda stuck on what to do with filters that filter on related token slot object\u2019s values."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "spent a while debugging a weird issue when radio group was used along with form field. race condition on onValueChange with radix-ui\u2019s useControllableState in our specific use case due to our button needing a parent div for styling."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "reviewed prs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "more scheduling related optimizations"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

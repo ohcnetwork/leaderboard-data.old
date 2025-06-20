@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-18T18:01:42.000Z",
+  "last_updated": "2025-06-20T12:21:40.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12654",
+      "time": "2025-06-20T12:21:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12654#issuecomment-2991351568",
+      "text": "@rithviknishad Do you have any suggestions?"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12654",
@@ -493,13 +500,15 @@
       "title": "Fix: Entering just whitespace in input fields still creates empty entries",
       "stale_for": 0,
       "labels": [
-        "Changes Required"
+        "question",
+        "Changes Required",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12614",
       "title": "Fix: Repeated Shift+Enter sends duplicate messages on discussion page",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing"
       ]

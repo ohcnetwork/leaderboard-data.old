@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-20T05:26:32.000Z",
+  "last_updated": "2025-06-20T10:46:17.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12669",
+      "time": "2025-06-20T10:46:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12669#issuecomment-2990925510",
+      "text": "@Jacobjeevan  @rithviknishad I would like to take this up\n\nApproach : Update the auth guard or route protection logic to use React Router’s <Navigate to=\"/login\" replace /> instead of conditionally rendering the <Login /> component in-place.\n\nETA : EOD"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12669",
+      "time": "2025-06-20T10:45:18.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12669",
+      "text": "Redirect unauthenticated users to /login instead of rendering Login component in-place"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12643",

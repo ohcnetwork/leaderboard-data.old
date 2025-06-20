@@ -1,6 +1,69 @@
 {
-  "last_updated": "2025-06-20T07:25:27.000Z",
+  "last_updated": "2025-06-20T12:40:50.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-20T12:40:50.000Z",
+      "title": "ohcnetwork/care_fe#12670",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12670#pullrequestreview-2945973665",
+      "text": "fix:Remove unwanted overflow"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12637",
+      "time": "2025-06-20T12:37:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12637",
+      "text": "Implement Debouncing for Necessary Search Inputs Across Care to Reduce Unnecessary API Calls"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-20T12:37:45.000Z",
+      "title": "ohcnetwork/care_fe#12663",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12663#pullrequestreview-2945964409",
+      "text": "FIXED: Debouncing for Necessary Search Inputs Across Care to Reduce Unnecessary API Calls"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12666",
+      "time": "2025-06-20T11:36:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12666#issuecomment-2991138545",
+      "text": "> The scrolling to the bottom issue in our auutocomplete component, the search input's forces browser scroll to the input at the bottom, so by adding setTimeout(() => { ... }, 0) similarly in **phone-input.tsx**\n\nwhy does this happen in the first place? 🤔 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12665",
+      "time": "2025-06-20T09:13:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12665#issuecomment-2990408996",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/12649#issuecomment-2990408151"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12649",
+      "time": "2025-06-20T09:13:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12649#issuecomment-2990408151",
+      "text": "This is expected behaviour. It is basically patient wise view / location wise view for viewing encounters"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12649",
+      "time": "2025-06-20T09:13:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12649",
+      "text": "Bug: Active name in sidebar and Tab name is mismatching for Encounter"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-20T09:11:40.000Z",
+      "title": "ohcnetwork/care_fe#12654",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12654#pullrequestreview-2945161877",
+      "text": "Fix: Entering just whitespace in input fields still creates empty entries"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-19T10:17:29.000Z",
+      "title": "ohcnetwork/care_fe#12658",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12658#pullrequestreview-2942407934",
+      "text": "Fix : Avoid unnecessary save API call in Edit Questionnarie"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care#3081",
@@ -63,13 +126,6 @@
       "title": "ohcnetwork/care_fe#12588",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12588#pullrequestreview-2942485604",
       "text": "Tab Bar Hover Shows Default Arrow"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-06-19T10:17:29.000Z",
-      "title": "ohcnetwork/care_fe#12658",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12658#pullrequestreview-2942407934",
-      "text": "Fix : Avoid unnecessary save API call in Edit Questionnarie"
     },
     {
       "type": "pr_reviewed",
@@ -73511,7 +73567,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_doctor_connect_fe/pull/15",
       "title": "fix cache issue by hashing build outputs",
-      "stale_for": 21,
+      "stale_for": 22,
       "labels": []
     },
     {
