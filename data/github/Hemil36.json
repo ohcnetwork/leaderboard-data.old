@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-19T06:38:42.000Z",
+  "last_updated": "2025-06-20T05:26:32.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12643",
+      "time": "2025-06-20T05:26:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12643#issuecomment-2989836120",
+      "text": " I’ve tested this in both Windows and Linux environments and confirmed that the issue is indeed related to path resolution differences between platforms.\n\nIt’s not OS-specific behavior, but rather a result of using hardcoded paths instead of platform-agnostic resolution.\n\nUsing path.resolve or path.posix normalizes the file path, resolving the issue cleanly across both environments.\n\nIf you're okay with it, I’d be happy to create a PR to fix this — it would improve cross-platform compatibility for all contributors.\n\nLet me know if I can proceed."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12643",
