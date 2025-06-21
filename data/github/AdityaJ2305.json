@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-06-20T14:25:08.000Z",
+  "last_updated": "2025-06-20T20:44:11.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12515",
+      "time": "2025-06-20T20:44:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12515#issuecomment-2992802035",
+      "text": "@sindhureddy-6,\r\n\r\n> @AdityaJ2305 can you add the same functionality in create Questionnaire.\r\n\r\nI think that might be better handled as a separate issue , this PR is specific to a different page. Also, the create questionnaire flow already has some validations, and there’s an open PR adding more for group type and scroll works fine (It is just not observable since submit button is on top and most probably all fields with error only in view 😅 ) there since the issue was specific of the component not the form here 👍 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12676",
+      "time": "2025-06-20T19:38:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12676#issuecomment-2992619752",
+      "text": "Hey Team, \r\n\r\nShould I hide it for mobile ? little confused there , here is the screen recording for mobile:\r\n\r\nhttps://github.com/user-attachments/assets/93bc3d47-9459-41ca-9eac-80805484875c\r\n\r\n\r\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12676",
+      "time": "2025-06-20T19:30:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12676",
+      "text": "Create `ScrollToTop` button to scroll on top of the page used in QuestinnaireEditor"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12175",
+      "time": "2025-06-20T14:58:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12175#issuecomment-2991940114",
+      "text": "@samholics The radio button design has been updated—could you please check it? If everything looks good, we can close this issue.\ncc: @Jacobjeevan @rithviknishad "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-20T14:52:08.000Z",
+      "title": "ohcnetwork/care_fe#12660",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12660#pullrequestreview-2946451925",
+      "text": "Fix: Group-type questions without sub-questions should not be allowed in questionnaire creation"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12672",
@@ -8465,6 +8500,15 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12676",
+      "title": "Create `ScrollToTop` button to scroll on top of the page used in QuestinnaireEditor",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12656",
       "title": "Fix: Unable to Submit Consent Edit Form ",
