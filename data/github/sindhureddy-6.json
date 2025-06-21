@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-06-20T18:29:24.000Z",
+  "last_updated": "2025-06-21T07:34:30.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12677",
+      "time": "2025-06-21T07:34:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12677#issuecomment-2993419424",
+      "text": "@rithviknishad @Jacobjeevan \ncan i work on this issue?\nETA:EOD"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12677",
+      "time": "2025-06-21T07:32:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12677",
+      "text": "Add auto-scroll to error fields in Questionnaire Editor"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12515",
+      "time": "2025-06-21T07:17:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12515#issuecomment-2993393774",
+      "text": "> @sindhureddy-6,\r\n> \r\n> > @AdityaJ2305 can you add the same functionality in create Questionnaire.\r\n> \r\n> I think that might be better handled as a separate issue , this PR is specific to a different page. Also, the create questionnaire flow already has some validations, and there’s an open PR adding more for group type and scroll works fine (It is just not observable since submit button is on top and most probably all fields with error are already in view 😅 ) and here the issue was specific of the component not the form here 👍\r\n\r\nokay. i will create separate issue."
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care_fe#12674",
@@ -822,7 +843,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12658",
       "title": "Fix : Avoid unnecessary save API call in Edit Questionnarie",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing"
       ]
