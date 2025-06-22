@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-20T14:33:11.000Z",
+  "last_updated": "2025-06-22T12:31:57.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12651",
+      "time": "2025-06-22T12:31:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12651#issuecomment-2994186376",
+      "text": "Hey @rithviknishad, I think issue #12097 is about handling navigation into deeper nested levels for example, when clicking on Encounters and then selecting a specific Patient Encounter. In this case, the Encounters tab should remain highlighted, and its parent tab (like patients) should also stay highlighted when the sub-tab view is closed, as long as any child route is still active.\r\n\r\n\r\nhttps://github.com/user-attachments/assets/31f7fac1-1cc4-4c6e-b9dd-42a4bd4b95cc\r\n\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12660",
@@ -902,13 +909,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12660",
       "title": "Fix: Group-type questions without sub-questions should not be allowed in questionnaire creation",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12640",
       "title": "fix: Highlight Active Section/Question Being Edited in Questionnaire Editor",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "question",
         "needs-triage"
@@ -925,7 +932,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/107",
       "title": "Update yadavshubham01.md",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     }
   ],
