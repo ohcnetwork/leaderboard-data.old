@@ -1,6 +1,64 @@
 {
-  "last_updated": "2025-06-23T07:03:26.000Z",
+  "last_updated": "2025-06-23T12:20:39.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12692",
+      "time": "2025-06-23T12:20:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12692#issuecomment-2996282776",
+      "text": "Hmm, I observed in Public patient registration only one thing gets submitted. Strange ! why are we submitting both in first place for facility patient registration , shouldn't it be only one like in public patient registration ? "
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12656",
+      "time": "2025-06-23T12:19:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12656",
+      "text": "Fix: Unable to Submit Consent Edit Form ",
+      "turnaround_time": 406228
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_fe#12404",
+      "time": "2025-06-23T12:16:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12404",
+      "text": "Add Crop Image functionality to restrict within size and ratio ",
+      "turnaround_time": 2593485
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12602",
+      "time": "2025-06-23T12:15:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12602#issuecomment-2996265193",
+      "text": "@StephZam , just a heads up , do convert PR into draft until it is ready for review 👍 \r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12692",
+      "time": "2025-06-23T12:13:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12692#issuecomment-2996259073",
+      "text": "@Jeffrin2005 , Only one field gets submitted based on type you select, it doesn't need to age == dob "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12467",
+      "time": "2025-06-23T11:19:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12467#issuecomment-2996024104",
+      "text": "Hey Team, Can I take this up ? \nEta: eod\nApproach:- use Autocomplete which already has popover for large and sheet for small screen"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-12T18:03:57.000Z",
+      "title": "ohcnetwork/care_fe#12602",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12602#pullrequestreview-2922160640",
+      "text": "Made User Rendering Consistent across the App"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12632",
+      "time": "2025-06-23T10:26:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12632#issuecomment-2995859560",
+      "text": "@nihal467 \r\n\r\n> The test 6 department was deleted and the sidebar nav is still showing the name.\r\n\r\nStrange , I'm not able to reproduce the same 👇 \r\n\r\nhttps://github.com/user-attachments/assets/af79a166-fcfa-4678-b8da-ba0834f20d64\r\n\r\n\r\nand it shouldn't happen since invalidating the main one querykey common for fetching every query related to FacilityOrganization \r\ncc: @rithviknishad @Jacobjeevan "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12598",
@@ -540,13 +598,6 @@
       "time": "2025-06-13T07:33:54.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/12556#issuecomment-2969393028",
       "text": "> [@rithviknishad](https://github.com/rithviknishad), if im not wrong then this is the page that we are talking about, where if the user enters a valid google map link to the address, that should render as a clickable link. please correct me if i have selected the wrong page !!\n> \n> ![Image](https://github.com/user-ttachments/assets/02b5ea1d-8b0f-4c46-9de1-117543a03c5a)\n\nYES"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-06-12T18:03:57.000Z",
-      "title": "ohcnetwork/care_fe#12602",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12602#pullrequestreview-2922160640",
-      "text": "Made User Rendering Consistent across the App"
     },
     {
       "type": "pr_reviewed",
@@ -8606,27 +8657,18 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12676",
       "title": "Create `ScrollToTop` button to scroll on top of the page used in QuestinnaireEditor",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "question",
         "needs-triage"
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12656",
-      "title": "Fix: Unable to Submit Consent Edit Form ",
-      "stale_for": 4,
-      "labels": [
-        "needs testing",
-        "reviewed"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12632",
       "title": "Enable Delete Functionality for Organizations (dept/team)",
-      "stale_for": 4,
+      "stale_for": 0,
       "labels": [
-        "needs testing"
+        "test failed"
       ]
     },
     {
@@ -8638,15 +8680,6 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12404",
-      "title": "Add Crop Image functionality to restrict within size and ratio ",
-      "stale_for": 2,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12336",
       "title": "Clinical History page",
       "stale_for": 0,
@@ -8655,7 +8688,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11919",
       "title": "Redesigned DeviceList Page and Add Location Filter on DeviceList ",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": [
         "hold",
         "Changes Required"
@@ -8663,6 +8696,10 @@
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12655",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12656"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12474",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12507"
@@ -8746,10 +8783,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10191",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10230"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10087",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10092"
     }
   ]
 }

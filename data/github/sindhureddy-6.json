@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-22T15:01:42.000Z",
+  "last_updated": "2025-06-23T08:56:12.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12500",
+      "time": "2025-06-23T08:56:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12500#issuecomment-2995560124",
+      "text": "@nihal467 \r\ncan you test it now."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12691",
+      "time": "2025-06-23T08:19:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12691",
+      "text": "Added auto-scroll to error fields in Questionnaire Editor"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12683",
@@ -863,9 +877,9 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12658",
       "title": "Fix : Avoid unnecessary save API call in Edit Questionnarie",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
-        "needs testing"
+        "Changes Required"
       ]
     },
     {
@@ -873,10 +887,7 @@
       "title": "FIX : Side Bar Active Tab Highlight in nested views",
       "stale_for": 0,
       "labels": [
-        "question",
-        "needs testing",
-        "needs review",
-        "needs-triage"
+        "test failed"
       ]
     },
     {
@@ -884,7 +895,8 @@
       "title": "fix:Stop camera stream on closing dialog in Add Files",
       "stale_for": 0,
       "labels": [
-        "test failed"
+        "test failed",
+        "Merge Conflict"
       ]
     }
   ],

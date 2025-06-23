@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-06-22T18:36:31.000Z",
+  "last_updated": "2025-06-23T12:17:28.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12692",
+      "time": "2025-06-23T12:17:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12692#issuecomment-2996271071",
+      "text": "@AdityaJ2305 if we are inputing both dob and age ( dob = 2007,age =90 ) , the form is getting submitted.  So inorder to prevent this can we show any validation message. "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12692",
+      "time": "2025-06-23T12:11:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12692#issuecomment-2996252532",
+      "text": "@rithviknishad @Jacobjeevan \n I would like to work on this issue if this is valid.\nETA : June 27\nwe can update the form validation logic so that when the Age and the Age calculated from DOB differ by more than 1 year, the form shows a  validation error and blocks submission."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12692",
+      "time": "2025-06-23T12:11:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12692",
+      "text": "Age and Date of Birth Mismatch Not Blocking Patient Registration Submission"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12666",
@@ -3111,7 +3132,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12627",
       "title": "Fix : Validation errors for conditional fields only appear after second submit",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
         "Changes Required"
       ]

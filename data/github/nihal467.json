@@ -1,6 +1,125 @@
 {
-  "last_updated": "2025-06-23T07:44:43.000Z",
+  "last_updated": "2025-06-23T12:43:49.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12694",
+      "time": "2025-06-23T12:43:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12694",
+      "text": "Production Release v3.0.17"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12607",
+      "time": "2025-06-23T12:41:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12607#issuecomment-2996349185",
+      "text": "LGTM, Merge only after the related abdm PR is merged"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12651",
+      "time": "2025-06-23T12:35:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12651#issuecomment-2996329548",
+      "text": "@sindhureddy-6 when we go deeper, its not highlight , for example, when we open the encounter, its not highlighting, can you recheck the entire PR functionality"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12662",
+      "time": "2025-06-23T12:30:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12662#issuecomment-2996315251",
+      "text": "LGTM"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12693",
+      "time": "2025-06-23T12:19:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12693",
+      "text": "Modify the medicine administration validation to be on or after date of medicine added"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12404",
+      "time": "2025-06-23T12:05:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12404#issuecomment-2996226203",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12197",
+      "time": "2025-06-23T11:58:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12197#issuecomment-2996197694",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12197",
+      "time": "2025-06-23T11:57:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12197#issuecomment-2996196689",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12614",
+      "time": "2025-06-23T11:26:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12614#issuecomment-2996077309",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12658",
+      "time": "2025-06-23T11:17:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12658#issuecomment-2996019893",
+      "text": "@sindhureddy-6 fix the cypress failure "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12617",
+      "time": "2025-06-23T11:16:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12617#issuecomment-2996016643",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12588",
+      "time": "2025-06-23T11:13:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12588#issuecomment-2996007117",
+      "text": "![image](https://github.com/user-attachments/assets/6452d7a3-88a6-40fa-b377-34abede00286)\r\n\r\n- don't change the design"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12656",
+      "time": "2025-06-23T10:57:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12656#issuecomment-2995959046",
+      "text": "LGTM"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12559",
+      "time": "2025-06-23T10:49:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12559",
+      "text": "\"Manage Care Team\" bug"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12632",
+      "time": "2025-06-23T10:13:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12632#issuecomment-2995816603",
+      "text": "![image](https://github.com/user-attachments/assets/21191dca-33f6-44a8-8e57-00ef8d76783c)\r\n\r\n- The test 6 department was deleted and the sidebar nav is still showing the name.\r\n\r\n- The backend is blocking deletion of departments/teams that have no active encounters but do have completed encounters. Was this intentional? @vigneshhari @sainak is this intentionally kept ?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12631",
+      "time": "2025-06-23T09:53:51.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12631#issuecomment-2995748588",
+      "text": "- whenever I'm moving a subgroup option to the same group or a different group, the entire questionnaire is been reset"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12690",
+      "time": "2025-06-23T08:37:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12690#issuecomment-2995474407",
+      "text": "LGTM"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12393",
@@ -58975,16 +59094,17 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12694",
+      "title": "Production Release v3.0.17",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12680",
       "title": "Cypress test for questionnaire",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     }
   ],
-  "authored_issue_and_pr": [
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11765",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11801"
-    }
-  ]
+  "authored_issue_and_pr": []
 }
