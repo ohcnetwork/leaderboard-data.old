@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-23T11:03:44.000Z",
+  "last_updated": "2025-06-23T13:07:52.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12634",
+      "time": "2025-06-23T13:07:52.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12634#issuecomment-2996436483",
+      "text": "@sainak @Jacobjeevan @rithviknishad \n\nI’ve checked and debugged this issue. The frontend is correctly passing the note value when a new allergy is added, but it's not being returned in the backend response.\n\nTurns out the note field is missing in the backend class handling this, which is likely causing the issue.\n\n![Image](https://github.com/user-attachments/assets/ef7bd903-a7eb-4a1a-b49f-64e536efc3c8)\n\nSince I’ve already spent quite some time debugging and confirming this, I’d like to work on fixing it from the backend side if that’s okay. Please let me know."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12602",
