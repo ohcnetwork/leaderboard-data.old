@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-06-23T16:49:18.000Z",
+  "last_updated": "2025-06-24T07:17:46.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-20T17:18:35.000Z",
+      "title": "ohcnetwork/care_fe#12668",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12668#pullrequestreview-2946873242",
+      "text": "Refactor Badge component to enhance styling and functionality"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-24T06:26:51.000Z",
+      "title": "ohcnetwork/care_fe#12696",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12696#pullrequestreview-2952337770",
+      "text": "fix appointment creation issue at patient level"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-19T10:44:50.000Z",
+      "title": "ohcnetwork/care_fe#12588",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12588#pullrequestreview-2942485604",
+      "text": "Tab Bar Hover Shows Default Arrow"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-24T05:13:37.000Z",
+      "title": "ohcnetwork/care_fe#12602",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12602#pullrequestreview-2952196858",
+      "text": "Made User Rendering Consistent across the App"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12601",
+      "time": "2025-06-24T04:59:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12601",
+      "text": "Bug: Repeated Shift+Enter sends duplicate messages on discussion page\""
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-23T12:15:24.000Z",
+      "title": "ohcnetwork/care_fe#12614",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12614#pullrequestreview-2949868554",
+      "text": "Fix: Repeated Shift+Enter sends duplicate messages on discussion page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-17T14:20:27.000Z",
+      "title": "ohcnetwork/care_fe#12631",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12631#pullrequestreview-2935879423",
+      "text": "Move questions between Groups"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-05-23T06:27:59.000Z",
@@ -49,13 +98,6 @@
       "time": "2025-06-23T12:16:21.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/10144",
       "text": "Profile Photo Upload Issues: Missing 1:1 Crop and Unclear Pixel Requirements"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-06-23T12:15:24.000Z",
-      "title": "ohcnetwork/care_fe#12614",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12614#pullrequestreview-2949868554",
-      "text": "Fix: Repeated Shift+Enter sends duplicate messages on discussion page"
     },
     {
       "type": "pr_reviewed",
@@ -141,13 +183,6 @@
       "title": "ohcnetwork/care_fe#12674",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12674#pullrequestreview-2947010271",
       "text": "fix: Update reason_for_visit handling to preserve whitespace"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-06-20T17:18:35.000Z",
-      "title": "ohcnetwork/care_fe#12668",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12668#pullrequestreview-2946873242",
-      "text": "Refactor Badge component to enhance styling and functionality"
     },
     {
       "type": "pr_reviewed",
@@ -298,13 +333,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2025-06-17T14:20:27.000Z",
-      "title": "ohcnetwork/care_fe#12631",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12631#pullrequestreview-2935879423",
-      "text": "Move questions between Groups"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2025-06-19T19:12:33.000Z",
       "title": "ohcnetwork/care_fe#12660",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12660#pullrequestreview-2943856208",
@@ -323,13 +351,6 @@
       "time": "2025-06-19T19:11:10.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/12664",
       "text": "Restricting Creating Bed Location when no parent location is present"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-06-19T10:44:50.000Z",
-      "title": "ohcnetwork/care_fe#12588",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12588#pullrequestreview-2942485604",
-      "text": "Tab Bar Hover Shows Default Arrow"
     },
     {
       "type": "issue_closed",
@@ -73720,11 +73741,20 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12706",
+      "title": "Adds support for minimal field requirement in patient registration (configurable)",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12702",
       "title": "Adds ordering filters for appointments and files",
       "stale_for": 0,
       "labels": [
-        "needs testing"
+        "test failed"
       ]
     },
     {
@@ -73744,7 +73774,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_doctor_connect_fe/pull/15",
       "title": "fix cache issue by hashing build outputs",
-      "stale_for": 25,
+      "stale_for": 26,
       "labels": []
     },
     {
