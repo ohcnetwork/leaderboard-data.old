@@ -1,10 +1,10 @@
 ---
 name: Abhinav Thota
-title: Contributor
+title: Intern
 github: abeeto
 twitter: ""
 linkedin: ""
-slack: ""
+slack: U08G0H61NJF
 joining_date: ""
 role: contributor
 ---
