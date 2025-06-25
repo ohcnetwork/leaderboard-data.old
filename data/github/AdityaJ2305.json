@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-06-23T14:34:34.000Z",
+  "last_updated": "2025-06-24T08:45:35.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-02T21:45:10.000Z",
+      "title": "ohcnetwork/leaderboard-data#107",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/107#pullrequestreview-2890032754",
+      "text": "Update yadavshubham01.md"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12695",
@@ -464,13 +471,6 @@
       "title": "ohcnetwork/care_fe#12021",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12021#pullrequestreview-2781125218",
       "text": "Allow edit of questionnaire structured records with `entered-in-error` status"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-06-02T21:45:10.000Z",
-      "title": "ohcnetwork/leaderboard-data#107",
-      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/107#pullrequestreview-2890032754",
-      "text": "Update yadavshubham01.md"
     },
     {
       "type": "pr_reviewed",
@@ -8659,8 +8659,11 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12688",
       "title": "Upgrade to Zod v4 Part 1",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12681",
@@ -8680,7 +8683,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12632",
       "title": "Enable Delete Functionality for Organizations (dept/team)",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "test failed"
       ]
