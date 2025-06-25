@@ -5206,5 +5206,67 @@
                 }
             ]
         }
+    ],
+    "2025-06-25 00:00:00": [
+        {
+            "user": "U02TB83Q5V0",
+            "type": "message",
+            "ts": "1750836145.270209",
+            "client_msg_id": "5e54f611-5988-4dd6-809c-56ff401c217e",
+            "text": "June 24\n\u2022 Made Scribe accept notes for all fields\n\u2022 Got Aravind to test out, found the LLM skipping a few fields in between\n\u2022 Worked on updating the prompt to fix that",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "/OLAv",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "June 24\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Made Scribe accept notes for all fields"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Got Aravind to test out, found the LLM skipping a few fields in between"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Worked on updating the prompt to fix that"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
