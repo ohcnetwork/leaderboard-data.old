@@ -945,5 +945,87 @@
                 }
             ]
         }
+    ],
+    "2025-06-25 00:00:00": [
+        {
+            "user": "U08FGQJ93NW",
+            "type": "message",
+            "ts": "1750874724.264169",
+            "edited": {
+                "user": "U08FGQJ93NW",
+                "ts": "1750874737.000000"
+            },
+            "client_msg_id": "48f5b5a5-6362-4f32-be76-1b19e1604142",
+            "text": "june 24th - 25\n\u2022 cleaned up and tested the Pydantic specs for leave type, leave balance, and leave request.\n\u2022 made sure updates and responses work as expected.\n\u2022 added signals so leave balances are auto-created when a new leave type or employee is added.\n*next:*\nStart on employee document upload, then move to the frontend.",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "XL1z0",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "june 24th - 25\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "cleaned up and tested the Pydantic specs for leave type, leave balance, and leave request."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "made sure updates and responses work as expected."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "added signals so leave balances are auto-created when a new leave type or employee is added."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "next:",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\nStart on employee document upload, then move to the frontend."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
