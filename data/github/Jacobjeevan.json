@@ -1,6 +1,97 @@
 {
-  "last_updated": "2025-06-24T10:00:16.000Z",
+  "last_updated": "2025-06-26T07:54:01.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-26T05:24:21.000Z",
+      "title": "ohcnetwork/care_fe#12660",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12660#pullrequestreview-2960596327",
+      "text": "Fix: Group-type questions without sub-questions should not be allowed in questionnaire creation"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-26T05:09:07.000Z",
+      "title": "ohcnetwork/care_fe#12676",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12676#pullrequestreview-2960567758",
+      "text": "Create `ScrollToTop` button to scroll on top of the page used in QuestinnaireEditor"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-26T04:42:02.000Z",
+      "title": "ohcnetwork/care_fe#12681",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12681#pullrequestreview-2960522234",
+      "text": "Fix: AutoComplete not getting scroll and focused on error "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12638",
+      "time": "2025-06-26T06:04:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12638#issuecomment-3007200511",
+      "text": "> Hi @Jacobjeevan @AdityaJ2305\r\n> \r\n> Everything works fine. when we search in search bar, the selected org also appears.\r\n> \r\n> video:\r\n> search_bug_video.mp4\r\n> \r\n> Thank you\r\n\r\nIt's fine if you are doing it for an already selected org, but not for a new org:\r\n\r\n\r\nhttps://github.com/user-attachments/assets/6693e505-b479-4a89-9575-2a752c609d15\r\n\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-26T05:34:57.000Z",
+      "title": "ohcnetwork/care_fe#12658",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12658#pullrequestreview-2960613715",
+      "text": "Fix : Avoid unnecessary save API call in Edit Questionnarie"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12678",
+      "time": "2025-06-26T05:30:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12678#issuecomment-3007107823",
+      "text": "@nihal467 Not sure why the test is failing 🤔  Button isn't disabled for me, also ran test locally and passing fine.\r\n\r\nHere's the summary screenshot for ref:\r\n\r\n![image](https://github.com/user-attachments/assets/c2b7349a-b419-4b15-903c-f42532a641d5)\r\n"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-26T05:29:13.000Z",
+      "title": "ohcnetwork/care_fe#12678",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12678#pullrequestreview-2960604106",
+      "text": "fix: Trigger expiration date validation on manufacture date change"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-26T05:05:37.000Z",
+      "title": "ohcnetwork/care_fe#12675",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12675#pullrequestreview-2960562357",
+      "text": "Make tabs responsive for mobile view on Resource Page #12615"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-26T01:45:51.000Z",
+      "title": "ohcnetwork/care_fe#12717",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12717#pullrequestreview-2960191652",
+      "text": "Fix: Disable Past Dates and Highlight Today in Schedule Creation Date Picker"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-26T02:22:45.000Z",
+      "title": "ohcnetwork/care_fe#12691",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12691#pullrequestreview-2960330782",
+      "text": "Added auto-scroll to error fields in Questionnaire Editor"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12710",
+      "time": "2025-06-26T02:11:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12710#issuecomment-3006800471",
+      "text": "@Krupa-1010 Do complete the merge checklist btw (check whichever ones you have done/applicable).\r\n\r\n@nihal467 what do you think about switching to numerical format here? i.e. 25/06/2025 11:00AM."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-26T01:49:29.000Z",
+      "title": "ohcnetwork/care_fe#12702",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12702#pullrequestreview-2960203435",
+      "text": "Adds ordering filters for appointments and files"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12708",
+      "time": "2025-06-26T01:34:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12708",
+      "text": "Accordion should remain open or collapsed until user change it manually"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-06-19T05:01:17.000Z",
@@ -13941,7 +14032,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11983",
       "title": "Location and Device Perms",
-      "stale_for": 25,
+      "stale_for": 26,
       "labels": [
         "Work in Progress 🚧",
         "Merge Conflict",

@@ -1,6 +1,41 @@
 {
-  "last_updated": "2025-06-25T18:56:46.000Z",
+  "last_updated": "2025-06-26T08:21:12.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12723",
+      "time": "2025-06-26T08:21:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12723#issuecomment-3007623648",
+      "text": "@NikhilA8606 , It is not working as expected for no repeat choice question \r\n- Unable to change the selected option \r\n- Gives already selected error \r\n\r\nTested on questionnaire:- test54 \r\n\r\nhttps://github.com/user-attachments/assets/b282f430-3ca7-4140-879d-24c1f351bce3\r\n\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12515",
+      "time": "2025-06-26T07:29:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12515#issuecomment-3007478940",
+      "text": "@Jacobjeevan @rithviknishad "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12722",
+      "time": "2025-06-26T06:23:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12722",
+      "text": "Fix: Questionnaire Editor UI broke due to bug in Questionnaire Properties rendering"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12721",
+      "time": "2025-06-26T06:07:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12721#issuecomment-3007213113",
+      "text": "Hey Team, Can I get assigned  i have solved the issue in local \n"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12721",
+      "time": "2025-06-26T06:07:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12721",
+      "text": "Questionnaire Editor UI broke for mobile screen"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12720",
@@ -8678,6 +8713,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12722",
+      "title": "Fix: Questionnaire Editor UI broke due to bug in Questionnaire Properties rendering",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12688",
       "title": "Upgrade to Zod v4 Part 1",
       "stale_for": 0,
@@ -8689,16 +8730,19 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12681",
       "title": "Fix: AutoComplete not getting scroll and focused on error ",
-      "stale_for": 2,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12676",
       "title": "Create `ScrollToTop` button to scroll on top of the page used in QuestinnaireEditor",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "question",
-        "needs-triage"
+        "needs testing",
+        "needs review"
       ]
     },
     {
@@ -8720,13 +8764,13 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12336",
       "title": "Clinical History page",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11919",
       "title": "Redesigned DeviceList Page and Add Location Filter on DeviceList ",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "hold",
         "Changes Required",
