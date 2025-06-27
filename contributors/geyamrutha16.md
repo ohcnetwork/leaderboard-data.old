@@ -1,6 +1,6 @@
 ---
 name: Geyamrutha Poluru
-title: Contributor
+title: Intern
 github: geyamrutha16
 twitter: "geyamrutha1612"
 linkedin: "geyamrutha-poluru"
