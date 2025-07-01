@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-26T10:19:14.000Z",
+  "last_updated": "2025-06-27T14:22:10.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard-data#120",
+      "time": "2025-06-27T14:22:10.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/120",
+      "text": "Update perpetrator1.md"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12654",
+      "time": "2025-06-26T14:57:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12654#issuecomment-3008794014",
+      "text": "> ![image](https://private-user-images.githubusercontent.com/57055998/459363380-eaa03643-ce5f-47e0-b967-2e225ce0f7b5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA5NDk3OTgsIm5iZiI6MTc1MDk0OTQ5OCwicGF0aCI6Ii81NzA1NTk5OC80NTkzNjMzODAtZWFhMDM2NDMtY2U1Zi00N2UwLWI5NjctMmUyMjVjZTBmN2I1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA2MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNjI2VDE0NTEzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRkYTJlYWFjZTU0M2RjOTFiOGUyOWQ3YjY3YzMxYmQ0ZjkzOTNiZWE2NmZmOWFmMjkxMTdmNDJiMzBjYTViZTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.5md4SBGU4xuVZz4eNkEBQv_oJCO5J58A9QfJeKtFlDk)\r\n> \r\n> * check the console error\r\n> \r\n> steps to replicate\r\n> \r\n> * add new allergy with empty allergy\r\n> * now option the add allergy form again, and try to add new allergy and submit it\r\n> * there are console error\r\n\r\nDone"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12654",
@@ -581,9 +595,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/120",
+      "title": "Update perpetrator1.md",
+      "stale_for": 3,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12717",
       "title": "Fix: Disable Past Dates and Highlight Today in Schedule Creation Date Picker",
-      "stale_for": 0,
+      "stale_for": 4,
       "labels": [
         "Changes Required"
       ]
@@ -591,7 +611,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12654",
       "title": "Fix: Entering just whitespace in input fields still creates empty entries",
-      "stale_for": 0,
+      "stale_for": 3,
       "labels": [
         "test failed"
       ]
@@ -599,7 +619,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12594",
       "title": "Fixes: Suggestions for Improving Questionnaire Importing",
-      "stale_for": 7,
+      "stale_for": 11,
       "labels": [
         "stale"
       ]
@@ -607,7 +627,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12524",
       "title": "fix: Misalignment and inconsistency in the UI of 'Add Files' dropdown in encounter files",
-      "stale_for": 0,
+      "stale_for": 4,
       "labels": [
         "test failed"
       ]
@@ -615,7 +635,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12308",
       "title": "Fix dosage popover collision",
-      "stale_for": 3,
+      "stale_for": 7,
       "labels": [
         "question",
         "do not merge",

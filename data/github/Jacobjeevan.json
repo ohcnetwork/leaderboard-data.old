@@ -1,6 +1,90 @@
 {
-  "last_updated": "2025-06-26T07:54:01.000Z",
+  "last_updated": "2025-06-30T12:03:17.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12759",
+      "time": "2025-06-30T12:03:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12759#issuecomment-3018892479",
+      "text": "Fine as is, if product asks for it, we can show UUID as well (though I am not sure how likely it is users would recall that)."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12759",
+      "time": "2025-06-30T12:03:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12759",
+      "text": "Bug: Add validations to reduce redundancy for devices"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-27T07:15:38.000Z",
+      "title": "ohcnetwork/care_fe#12722",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12722#pullrequestreview-2965062489",
+      "text": "Fix: Questionnaire Editor UI broke due to bug in Questionnaire Properties rendering"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-27T06:59:57.000Z",
+      "title": "ohcnetwork/care_fe#12651",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12651#pullrequestreview-2965017533",
+      "text": "FIX : Side Bar Active Tab Highlight in nested views"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#3098",
+      "time": "2025-06-27T06:08:03.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3098",
+      "text": "fix for supply request spec"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12661",
+      "time": "2025-06-27T03:31:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12661#issuecomment-3011362884",
+      "text": "Check if BE response includes more detail. If so, we can just display those.\n\nIf not, we will need to modify on BE side.\n\nGo ahead and map out different error scenarios/messages if that is the case."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12643",
+      "time": "2025-06-27T03:27:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12643#issuecomment-3011337831",
+      "text": "@Hemil36 Assigned."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12669",
+      "time": "2025-06-27T03:26:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12669#issuecomment-3011323371",
+      "text": "Current behavior is fine 👍  On login, it should redirect to the protected route if user has access to them."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12669",
+      "time": "2025-06-27T03:25:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12669",
+      "text": "Redirect unauthenticated users to /login instead of rendering Login component in-place"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12692",
+      "time": "2025-06-27T03:23:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12692#issuecomment-3011303932",
+      "text": "@Jeffrin2005 Let's not do that, if the user chooses to enter both, that is on them. We should be accepting whichever one is selected (Dob or Age)."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12692",
+      "time": "2025-06-27T03:23:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12692",
+      "text": "Age and Date of Birth Mismatch Not Blocking Patient Registration Submission"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12713",
+      "time": "2025-06-27T03:16:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12713#issuecomment-3011270070",
+      "text": "cc: @vinutv "
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-06-26T05:24:21.000Z",
@@ -14019,9 +14103,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/3098",
+      "title": "fix for supply request spec",
+      "stale_for": 4,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12419",
       "title": "Switch discharge summary to reports api",
-      "stale_for": 17,
+      "stale_for": 21,
       "labels": [
         "needs testing",
         "Backend",
@@ -14032,7 +14122,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11983",
       "title": "Location and Device Perms",
-      "stale_for": 26,
+      "stale_for": 31,
       "labels": [
         "Work in Progress 🚧",
         "Merge Conflict",

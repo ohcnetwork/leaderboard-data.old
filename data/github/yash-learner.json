@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-21T14:10:43.000Z",
+  "last_updated": "2025-06-30T11:50:09.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#3102",
+      "time": "2025-06-30T11:50:09.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3102",
+      "text": "Add encounter filter for Service Request"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12610",
+      "time": "2025-06-26T22:01:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12610#issuecomment-3010275456",
+      "text": "> @sj11105, the deploy is failing, fix it\r\n\r\n@sj11105 \r\n\r\nMake sure you format the files using prettier and linting is passing locally before pushing the code.\r\n\r\nand \r\n\r\nAll the changes in `.env` are Unnecessary. All keys are already present in https://github.com/ohcnetwork/care_fe/blob/develop/.env"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12610",
@@ -1484,14 +1498,5 @@
     }
   ],
   "open_prs": [],
-  "authored_issue_and_pr": [
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11410",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11411"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/9668",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/9711"
-    }
-  ]
+  "authored_issue_and_pr": []
 }
