@@ -1,6 +1,83 @@
 {
-  "last_updated": "2025-06-23T13:34:15.000Z",
+  "last_updated": "2025-07-01T16:31:29.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12769",
+      "time": "2025-07-01T16:31:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12769#issuecomment-3024748265",
+      "text": "@rithviknishad @Jacobjeevan \nI would like to work on this issue.\nETA : July 3\nWe can use a img element instead of AvatarPrimitive.Image, and by managing a loading state, we can handle the image flash issue showing the initials only while the image fails to show."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12769",
+      "time": "2025-07-01T16:31:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12769",
+      "text": "Letter Avatar Displays When Updating Profile Image"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12627",
+      "time": "2025-07-01T06:37:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12627#issuecomment-3022072825",
+      "text": "@Jacobjeevan made the required changes. "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12747",
+      "time": "2025-07-01T06:35:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12747#issuecomment-3022063689",
+      "text": "@Jacobjeevan @AdityaJ2305 \r\nNow we are showing 'deleting' transtion on the delete button and also we disable the upload button.\r\n\r\nhttps://github.com/user-attachments/assets/b588d343-cd73-4da9-bed1-9c1c23af0b9a\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/landing#82",
+      "time": "2025-07-01T02:44:43.000Z",
+      "link": "https://github.com/ohcnetwork/landing/issues/82#issuecomment-3021542174",
+      "text": "@sainak I would like to work on this issue. \nETA : Today.\nWe can replace with care-fe repo link. (By mistake raised the PR , if this is valid, we can re-open )."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/landing#83",
+      "time": "2025-07-01T02:40:35.000Z",
+      "link": "https://github.com/ohcnetwork/landing/pull/83",
+      "text": "Fix : Star on GitHub' Button Links to OHC Profile Instead of care-fe Repo"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/landing#82",
+      "time": "2025-07-01T02:39:23.000Z",
+      "link": "https://github.com/ohcnetwork/landing/issues/82",
+      "text": "Star on GitHub' Button Links to OHC Profile Instead of care-fe Repo"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12747",
+      "time": "2025-06-28T06:17:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12747",
+      "text": "Fix : Delete Avatar Shows Uploading Transition Instead of Deleting"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12745",
+      "time": "2025-06-28T01:58:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12745#issuecomment-3014828691",
+      "text": "@rithviknishad @Jacobjeevan \nI would like to work on this issue "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12745",
+      "time": "2025-06-28T01:57:57.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12745",
+      "text": "Delete Avatar Shows Uploading Transition Instead of Deleting"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12730",
+      "time": "2025-06-27T03:47:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12730",
+      "text": "Fix : Phone Numbers and Map Links Don't Appear Clickable"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12627",
@@ -3137,12 +3214,33 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/landing/pull/83",
+      "title": "Fix : Star on GitHub' Button Links to OHC Profile Instead of care-fe Repo",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12747",
+      "title": "Fix : Delete Avatar Shows Uploading Transition Instead of Deleting",
+      "stale_for": 1,
+      "labels": [
+        "question",
+        "Work in Progress 🚧",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12730",
+      "title": "Fix : Phone Numbers and Map Links Don't Appear Clickable",
+      "stale_for": 5,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12627",
       "title": "Fix : Validation errors for conditional fields only appear after second submit",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
-        "Changes Required",
-        "Merge Conflict"
+        "Changes Required"
       ]
     }
   ],

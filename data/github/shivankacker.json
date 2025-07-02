@@ -1,6 +1,22 @@
 {
-  "last_updated": "2025-06-25T22:40:44.000Z",
+  "last_updated": "2025-07-01T07:42:01.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_scribe#10",
+      "time": "2025-07-01T07:42:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_scribe/pull/10",
+      "text": "Minor : Cleanup",
+      "turnaround_time": 464478
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care_scribe_fe#10",
+      "time": "2025-01-12T15:30:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/10",
+      "text": "Fix accept all button and updated medication request prompt",
+      "turnaround_time": 4728
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_scribe#10",
@@ -925,14 +941,6 @@
       "title": "ohcnetwork/care_fe#9892",
       "link": "https://github.com/ohcnetwork/care_fe/pull/9892#pullrequestreview-2550588616",
       "text": "Removed unused feature flag handling and migrated to TanStack's query"
-    },
-    {
-      "type": "pr_merged",
-      "title": "ohcnetwork/care_scribe_fe#10",
-      "time": "2025-01-12T15:30:35.000Z",
-      "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/10",
-      "text": "Fix accept all button and updated medication request prompt",
-      "turnaround_time": 4728
     },
     {
       "type": "comment_created",
@@ -13550,27 +13558,21 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_scribe/pull/10",
-      "title": "Minor : Cleanup",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/10",
-      "title": "Changed handling of SNOMED codes",
+      "link": "https://github.com/ohcnetwork/docs/pull/145",
+      "title": "Updated Installation docs for Scribe",
       "stale_for": 0,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/6",
       "title": "Genkit",
-      "stale_for": 24,
+      "stale_for": 30,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11589",
       "title": "Added Structured Question for Consent",
-      "stale_for": 10,
+      "stale_for": 15,
       "labels": [
         "Changes Required",
         "Merge Conflict"
