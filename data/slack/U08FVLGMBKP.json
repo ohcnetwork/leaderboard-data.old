@@ -2219,6 +2219,114 @@
         {
             "user": "U08FVLGMBKP",
             "type": "message",
+            "ts": "1750965604.829839",
+            "client_msg_id": "a05f91cb-d8a3-4250-8695-e4a8e0401aa2",
+            "text": "June 26-27\n\u2022 Finally solved the issue of 403 API failures during the offline-to-online transition after identifying the root cause\u2014was stuck on it for days:smiling_face_with_tear:.\n\u2022 Clear some other race condition issue while fixing above issue.\n\u2022 Almost implement offline support for resource request form  and double check it .\nnext\n\u2022 complete resource request form functionality \n\u2022 Move to next forms for offline support\n",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "tMREE",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "June 26-27\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Finally solved the issue of 403 API failures during the offline-to-online transition after identifying the root cause\u2014was stuck on it for days"
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "smiling_face_with_tear",
+                                            "unicode": "1f972"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Clear some other race condition issue while fixing above issue."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Almost implement offline support for resource request form  and double check it ."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "complete resource request form functionality "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Move to next forms for offline support"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U08FVLGMBKP",
+            "type": "message",
             "ts": "1750908476.917569",
             "client_msg_id": "f83a00fd-ee61-4327-8aa2-275440fa8ef9",
             "text": "june 24 -25\n\u2022 working on patient home page for offline support\n\u2022 add offline support in resource request form\n\u2022 test some previous form  for offline support\n",
@@ -2275,6 +2383,77 @@
                         {
                             "type": "rich_text_section",
                             "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "2025-06-30 00:00:00": [
+        {
+            "user": "U08FVLGMBKP",
+            "type": "message",
+            "ts": "1751305491.454989",
+            "client_msg_id": "c471c95c-9058-4f5e-b035-c0ddd12ac759",
+            "text": "June 29-30\n\u2022 Debug some bug related to cache not update in some case \n\u2022 Add offline functionality to assign and remove user to patient\n\u2022 Add offline functionality to create Appointment\nNext\nComplete  Appointment flow for offline support",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "u+PkY",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "June 29-30\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Debug some bug related to cache not update in some case "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Add offline functionality to assign and remove user to patient"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Add offline functionality to create Appointment"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\nComplete  Appointment flow for offline support"
+                                }
+                            ]
                         }
                     ]
                 }

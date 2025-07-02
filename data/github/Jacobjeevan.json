@@ -1,6 +1,139 @@
 {
-  "last_updated": "2025-06-26T07:54:01.000Z",
+  "last_updated": "2025-07-01T04:56:48.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-01T04:56:48.000Z",
+      "title": "ohcnetwork/care_fe#12749",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12749#pullrequestreview-2973481704",
+      "text": "Use ShadCN Select for Language Selector in User Profile Page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-01T04:12:57.000Z",
+      "title": "ohcnetwork/care_fe#12737",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12737#pullrequestreview-2973405831",
+      "text": "Fix: Show “Add” button instead of “Edit” in Prescription section"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-01T04:09:59.000Z",
+      "title": "ohcnetwork/care_fe#12738",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12738#pullrequestreview-2973402744",
+      "text": "added margin to the label component #12707"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-01T04:05:51.000Z",
+      "title": "ohcnetwork/care_fe#12747",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12747#pullrequestreview-2973398385",
+      "text": "Fix : Delete Avatar Shows Uploading Transition Instead of Deleting"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-01T03:51:11.000Z",
+      "title": "ohcnetwork/care_fe#12750",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12750#pullrequestreview-2973383180",
+      "text": "Fix: Tooltip position for username in User Profile page"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-01T03:49:06.000Z",
+      "title": "ohcnetwork/care_fe#12761",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12761#pullrequestreview-2973381081",
+      "text": "Changed the description in user edit sheet"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12751",
+      "time": "2025-07-01T03:44:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12751#issuecomment-3021639657",
+      "text": "You might have to create a common component to replace all the instances of Tab. But, be sure to check shadcn's docs and see if there's a simpler flex.\n\nfyi organizations layout is using menu bar (diff component from Tab)."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12759",
+      "time": "2025-06-30T12:03:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12759#issuecomment-3018892479",
+      "text": "Fine as is, if product asks for it, we can show UUID as well (though I am not sure how likely it is users would recall that)."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12759",
+      "time": "2025-06-30T12:03:17.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12759",
+      "text": "Bug: Add validations to reduce redundancy for devices"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-27T07:15:38.000Z",
+      "title": "ohcnetwork/care_fe#12722",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12722#pullrequestreview-2965062489",
+      "text": "Fix: Questionnaire Editor UI broke due to bug in Questionnaire Properties rendering"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-27T06:59:57.000Z",
+      "title": "ohcnetwork/care_fe#12651",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12651#pullrequestreview-2965017533",
+      "text": "FIX : Side Bar Active Tab Highlight in nested views"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#3098",
+      "time": "2025-06-27T06:08:03.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3098",
+      "text": "fix for supply request spec"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12661",
+      "time": "2025-06-27T03:31:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12661#issuecomment-3011362884",
+      "text": "Check if BE response includes more detail. If so, we can just display those.\n\nIf not, we will need to modify on BE side.\n\nGo ahead and map out different error scenarios/messages if that is the case."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12643",
+      "time": "2025-06-27T03:27:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12643#issuecomment-3011337831",
+      "text": "@Hemil36 Assigned."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12669",
+      "time": "2025-06-27T03:26:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12669#issuecomment-3011323371",
+      "text": "Current behavior is fine 👍  On login, it should redirect to the protected route if user has access to them."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12669",
+      "time": "2025-06-27T03:25:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12669",
+      "text": "Redirect unauthenticated users to /login instead of rendering Login component in-place"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12692",
+      "time": "2025-06-27T03:23:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12692#issuecomment-3011303932",
+      "text": "@Jeffrin2005 Let's not do that, if the user chooses to enter both, that is on them. We should be accepting whichever one is selected (Dob or Age)."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12692",
+      "time": "2025-06-27T03:23:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12692",
+      "text": "Age and Date of Birth Mismatch Not Blocking Patient Registration Submission"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12713",
+      "time": "2025-06-27T03:16:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12713#issuecomment-3011270070",
+      "text": "cc: @vinutv "
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-06-26T05:24:21.000Z",
@@ -14019,11 +14152,16 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/3098",
+      "title": "fix for supply request spec",
+      "stale_for": 5,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12419",
       "title": "Switch discharge summary to reports api",
-      "stale_for": 16,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
         "Backend",
         "needs review",
         "Merge Conflict"
@@ -14032,7 +14170,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11983",
       "title": "Location and Device Perms",
-      "stale_for": 26,
+      "stale_for": 32,
       "labels": [
         "Work in Progress 🚧",
         "Merge Conflict",

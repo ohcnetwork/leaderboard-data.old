@@ -1,6 +1,62 @@
 {
-  "last_updated": "2025-06-19T18:41:06.000Z",
+  "last_updated": "2025-06-30T08:50:33.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12758",
+      "time": "2025-06-30T08:50:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12758#issuecomment-3018324451",
+      "text": "This was not a issue in the main branch so closed this .\n"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12758",
+      "time": "2025-06-30T08:47:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12758",
+      "text": "The date picker is not working properly."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12758",
+      "time": "2025-06-30T08:40:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12758",
+      "text": "The date picker is not working properly."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12661",
+      "time": "2025-06-30T08:18:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12661#issuecomment-3018231726",
+      "text": "@Jacobjeevan  I think someone resolved the issue as there is no validation erros coming now, in whatever way i am adding medicine it is getting added."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12748",
+      "time": "2025-06-28T07:27:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12748",
+      "text": "improved questionnare UX"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12610",
+      "time": "2025-06-27T11:34:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12610#issuecomment-3012694191",
+      "text": "I changed only 2 files, the rest are because of synch with develop branch ."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12610",
+      "time": "2025-06-27T05:08:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12610#issuecomment-3011689016",
+      "text": "> > @sj11105, the deploy is failing, fix it\r\n> \r\n> @sj11105\r\n> \r\n> Make sure you format the files using prettier and linting is passing locally before pushing the code.\r\n> \r\n> and\r\n> \r\n> All the changes in `.env` are unnecessary. All keys are already present in https://github.com/ohcnetwork/care_fe/blob/develop/.env\r\n\r\n\r\n\r\nOK, i will look into this today."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard-data#108",
+      "time": "2025-06-26T10:58:54.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/108",
+      "text": "Update sj11105.md"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12661",
@@ -396,14 +452,18 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12610",
-      "title": "Improved UX of questionnare",
-      "stale_for": 1,
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12748",
+      "title": "improved questionnare UX",
+      "stale_for": 0,
       "labels": [
-        "question",
-        "Merge Conflict",
-        "needs-triage"
+        "Changes Required"
       ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/108",
+      "title": "Update sj11105.md",
+      "stale_for": 5,
+      "labels": []
     }
   ],
   "authored_issue_and_pr": [
