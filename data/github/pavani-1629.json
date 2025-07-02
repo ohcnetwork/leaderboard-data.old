@@ -1,0 +1,42 @@
+{
+  "last_updated": "2025-06-30T18:10:27.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12732",
+      "time": "2025-06-30T18:10:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12732#issuecomment-3020230612",
+      "text": "Hi @AdityaJ2305  ,I’d like to work on this issue.\n\nThe horizontal scrolling is caused by the medication table overflowing its container width due to long values and lack of content wrapping. I plan to fix this by enclosing the table inside a responsive container with overflow-x-auto and applying appropriate styles like break-words and whitespace-normal to prevent the content from stretching the layout. I’ll also ensure that UI controls like Edit and Print remain accessible on all screen sizes.\n\nI'll apply the same fix to the Ongoing Medicines tab to ensure a consistent and clean UI experience across the app.\n\nExpected timeline: I will complete and submit a pull request by July 2, 2025.\n\nI’m using a Windows machine and will test the fix on different screen sizes and browsers to ensure it works as expected. Kindly assign this issue to me. Thank you!\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12757",
+      "time": "2025-06-30T18:03:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12757#issuecomment-3020211232",
+      "text": "Hi @nihal467 , I'd like to take up this issue.\n\nThe problem seems to occur because the same questionnaire component is being identified using a static key or ID, so when it's added multiple times in a single encounter, only one instance is rendered. To resolve this, I’ll modify the logic to generate a unique ID for each added questionnaire instance . for example, by using Date.now() or a UUID. This will ensure React treats each one as a separate component during rendering.\n\nI'll also make sure that each instance maintains its own form state and can be submitted independently. The rendering and state update logic will be adjusted to support multiple forms of the same type. I’ll use React with TypeScript and test the flow to confirm that everything works smoothly.\n\nExpected timeline: I’ll complete and raise a pull request by July 3, 2025.\n\nLooking forward to contributing. Please assign this issue to me. Thank you!"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12556",
+      "time": "2025-06-26T18:19:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12556#issuecomment-3009420544",
+      "text": "Hello sir @rithviknishad ,\n\nI would like to take up this enhancement and contribute to improving the user experience.\n\nI plan to enhance the rendering logic for the patient address field in the profile view. Specifically, I will implement a check to determine whether the saved address begins with a valid URL scheme such as \"http://\" or \"https://\". If a valid URL is detected, it will be rendered as a clickable hyperlink using an anchor tag with target=\"_blank\" and rel=\"noopener noreferrer\" to ensure security and open the link in a new tab. If the address does not contain a URL, it will continue to display as regular text.\n\nThis change will help users who paste links such as Google Maps URLs into the address field, making them directly accessible and improving overall usability without requiring manual copy-paste.\n\nExpected completion date: 29/06/2025\n\nPlease let me know if this approach works, and kindly assign the issue to me."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard-data#117",
+      "time": "2025-06-26T17:23:55.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/117",
+      "text": "Added my bio to contributors folder"
+    }
+  ],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/117",
+      "title": "Added my bio to contributors folder : pavani-1629.md",
+      "stale_for": 4,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": []
+}

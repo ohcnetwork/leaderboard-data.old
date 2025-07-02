@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-06-25T18:59:08.000Z",
+  "last_updated": "2025-06-30T14:17:59.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12413",
+      "time": "2025-06-30T14:17:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12413#issuecomment-3019345100",
+      "text": "@rithviknishad can you check the updates"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12711",
+      "time": "2025-06-27T17:55:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12711#issuecomment-3013940986",
+      "text": "@vishakh-abhayan are you working on this?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12741",
+      "time": "2025-06-27T17:53:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12741#issuecomment-3013935081",
+      "text": "What is expected behavior when the dropdown label is clicked?\n\n```\n  <CommandGroup>\n          {options.map((option) => (\n            <CommandItem\n              key={option.value}\n              value={`${option.label} - ${option.value}`}\n              onSelect={(v) => {\n                const currentValue =\n                  options.find((o) => `${o.label} - ${o.value}` === v)?.value ||\n                  \"\";\n                onChange(currentValue);\n                // If freeInput is enabled, update the input text with the selected option's label.\n                if (freeInput) {\n                  const selected = options.find(\n                    (o) => o.value === currentValue,\n                  );\n                  setInputValue(selected ? selected.label : currentValue);\n                }\n                if (closeOnSelect) {\n                  setOpen(false);\n                }\n              }}\n            >\n              <CheckIcon\n                className={cn(\n                  \"mr-2 size-4\",\n                  value === option.value ? \"opacity-100\" : \"opacity-0\",\n                )}\n              />\n              {option.label}\n            </CommandItem>\n          ))}\n        </CommandGroup>\n```"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12741",
+      "time": "2025-06-27T17:42:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12741#issuecomment-3013904118",
+      "text": "https://github.com/user-attachments/assets/2178cd02-94ab-497f-8da3-a30b845a9f22"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12741",
+      "time": "2025-06-27T16:28:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12741#issuecomment-3013641883",
+      "text": "@abhimanyurajeesh I would like to work on this \nETA: 1day"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12735",
+      "time": "2025-06-27T10:01:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12735#issuecomment-3012439426",
+      "text": "@rithviknishad @abhimanyurajeesh i would like to work on this\nsolution: Enable pinch-to-zoom and pan gestures for image/file preview on mobile\nETA: 2 days"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12413",
@@ -3688,24 +3730,24 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12517",
       "title": "FIXED: Enhance Progress Bar UI/UX for Better Visual Feedback During File Upload",
-      "stale_for": 0,
-      "labels": [
-        "Work in Progress 🚧"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12413",
-      "title": "FIXED: Avoid Using localStorage for Navigation State in Public Appointment Flow",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review"
       ]
     },
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12413",
+      "title": "FIXED: Avoid Using localStorage for Navigation State in Public Appointment Flow",
+      "stale_for": 1,
+      "labels": [
+        "Changes Required"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_doctor_connect_fe/pull/14",
       "title": "Redesigned UserCard Component for Improved UI/UX",
-      "stale_for": 8,
+      "stale_for": 0,
       "labels": []
     }
   ],

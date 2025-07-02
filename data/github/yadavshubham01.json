@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-06-23T15:20:43.000Z",
+  "last_updated": "2025-06-30T13:51:46.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12757",
+      "time": "2025-06-30T13:51:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12757#issuecomment-3019252553",
+      "text": "Hey @nihal467, I've resolved the issue  it's now possible to add the same questionnaire multiple times. Waiting for the PR to be assigned so I can open it.\n\nhttps://github.com/user-attachments/assets/a2e0ecb9-f50c-4278-8ba6-8b52e00a00c5"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12757",
+      "time": "2025-06-30T13:41:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12757#issuecomment-3019213172",
+      "text": "hey @nihal467  i want to work on this issue \nApproach:  \n-  Remove the duplicate check logic\n- To allow adding the same questionnaire multiple times, remove this check and instead, when adding, give each instance a unique identifier (such as instanceId )\nETA : today"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12640",
+      "time": "2025-06-30T06:04:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12640#issuecomment-3017909915",
+      "text": "Hey @Jacobjeevan,\r\nCould you please review this PR? it's related to a P1 issue and if there are any concerns in the implementation."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#10924",
@@ -921,15 +942,24 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12660",
-      "title": "Fix: Group-type questions without sub-questions should not be allowed in questionnaire creation",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12768",
+      "title": "Fix: Add Same Questionnaire Multiple Times",
       "stale_for": 0,
       "labels": []
     },
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12660",
+      "title": "Fix: Group-type questions without sub-questions should not be allowed in questionnaire creation",
+      "stale_for": 0,
+      "labels": [
+        "Changes Required",
+        "Merge Conflict"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12640",
       "title": "fix: Highlight Active Section/Question Being Edited in Questionnaire Editor",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "question",
         "Merge Conflict",
@@ -939,7 +969,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12587",
       "title": "fix : Adjust file Tab option buttons for small screen",
-      "stale_for": 7,
+      "stale_for": 13,
       "labels": [
         "stale"
       ]

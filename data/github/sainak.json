@@ -1,6 +1,116 @@
 {
-  "last_updated": "2025-06-26T08:26:41.000Z",
+  "last_updated": "2025-07-01T06:44:03.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-01T06:44:03.000Z",
+      "title": "ohcnetwork/care#3100",
+      "link": "https://github.com/ohcnetwork/care/pull/3100#pullrequestreview-2973747563",
+      "text": "fix: String length validation in UserSpec"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-01T06:42:49.000Z",
+      "title": "ohcnetwork/care#3101",
+      "link": "https://github.com/ohcnetwork/care/pull/3101#pullrequestreview-2973744338",
+      "text": "Bug: Field name for user_type in UserFilter"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#3103",
+      "time": "2025-07-01T06:19:47.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3103",
+      "text": "Add case-insensitive name filter to ProductFilters"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-30T15:24:17.000Z",
+      "title": "ohcnetwork/care#3102",
+      "link": "https://github.com/ohcnetwork/care/pull/3102#pullrequestreview-2971679369",
+      "text": "Add encounter filter for Service Request"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#3099",
+      "time": "2025-06-30T07:26:32.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3099",
+      "text": "Add ordering filter to Account, ChargeItem, and Invoice viewsets",
+      "turnaround_time": 244403
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#3099",
+      "time": "2025-06-27T11:33:10.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3099",
+      "text": "Add ordering filter to Account, ChargeItem, and Invoice viewsets"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-27T07:34:52.000Z",
+      "title": "ohcnetwork/care#3098",
+      "link": "https://github.com/ohcnetwork/care/pull/3098#pullrequestreview-2965134952",
+      "text": "fix for supply request spec"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/leaderboard#618",
+      "time": "2025-06-27T04:52:09.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard/issues/618",
+      "text": "Heatmap Overflowing — Year Change Button Not Accessible"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-26T14:25:11.000Z",
+      "title": "ohcnetwork/leaderboard#620",
+      "link": "https://github.com/ohcnetwork/leaderboard/pull/620#pullrequestreview-2962336359",
+      "text": "Adjustments for inflation"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#3097",
+      "time": "2025-06-26T10:44:36.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3097",
+      "text": "Exclude supplier from SupplyRequestSpec models fields",
+      "turnaround_time": 123
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#3097",
+      "time": "2025-06-26T10:42:32.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3097",
+      "text": "Exclude supplier from SupplyRequestSpec models fields"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#3096",
+      "time": "2025-06-26T08:50:07.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3096",
+      "text": "Add authorizing_prescription filter to MedicationDispenseFilters",
+      "turnaround_time": 413
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#3095",
+      "time": "2025-06-26T08:49:48.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3095",
+      "text": "Add ordering filter to PaymentReconciliationViewSet",
+      "turnaround_time": 7501
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/care#3094",
+      "time": "2025-06-26T08:49:32.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3094",
+      "text": "Order service requests by descending created time",
+      "turnaround_time": 7743
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#3096",
+      "time": "2025-06-26T08:43:15.000Z",
+      "link": "https://github.com/ohcnetwork/care/pull/3096",
+      "text": "Add authorizing_prescription filter to MedicationDispenseFilters"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_scribe_fe#12",
@@ -19331,33 +19441,45 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/3105",
+      "title": "Add item_name filter to SupplyRequestFilters",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care/pull/3103",
+      "title": "Add case-insensitive name filter to ProductFilters",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/12",
       "title": "Optimizations",
-      "stale_for": 0,
+      "stale_for": 4,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/3049",
       "title": "Add facility level questionnaires",
-      "stale_for": 34,
+      "stale_for": 40,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/3011",
       "title": "Refactor AllergyIntolerance specs",
-      "stale_for": 57,
+      "stale_for": 63,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/3007",
       "title": "Add partial updates and fix set values ignored in updates",
-      "stale_for": 50,
+      "stale_for": 56,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/2763",
       "title": "Data Migration",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "do-not-merge"
       ]
