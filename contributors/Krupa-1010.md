@@ -1,12 +1,12 @@
 ---
 name: Krupa Anna Kuruvilla
-title: Contributor
+title: Intern
 github: Krupa-1010
 twitter: ""
-linkedin: ""
-slack: ""
-joining_date: ""
-role: contributor
+linkedin: krupa-anna-kuruvilla
+slack: U09304QF6Q1
+joining_date: 23/06/2025
+role: intern
 ---
 
 Still waiting for this

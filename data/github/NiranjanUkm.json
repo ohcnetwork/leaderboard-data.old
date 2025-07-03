@@ -1,0 +1,21 @@
+{
+  "last_updated": "2025-07-01T17:53:14.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12239",
+      "time": "2025-07-01T17:53:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12239#issuecomment-3025000239",
+      "text": "I’ve triaged issue #12239 as requested. Below is my assessment:\n\n**Bug Description**:\n- When `disableCache` is set to `true`, the `useFilters` hook prevents writing new filters to `localStorage` but does not clear existing cached filters. This causes stale filter data to persist and be restored on page load, leading to unexpected behavior.\n- Impact: Users may see outdated filters applied, affecting the UI and functionality of filterable pages (e.g., patient or facility dashboards).\n\n**Reproduction Steps**:\n1. Apply filters (e.g., `category=emergency`) on a page using `useFilters` with `disableCache: false`.\n2. Refresh the page to confirm filters are cached in `localStorage` (key: `care_filters`).\n3. Update the component to set `disableCache: true`.\n4. Refresh the page again. The cached filters are still applied, despite `disableCache` being `true`.\n\n**Proposed Fix**:\n- Clear the cache using `FiltersCache.invalidateAll()` when `disableCache` is `true` or when `cacheKeys` is empty.\n- Replace `cacheBlacklist` and `disableCache` with `cacheKeys: string[]` for opt-in caching, where only specified keys are cached.\n- Update `useFilters` to:\n  - Call `FiltersCache.invalidateAll()` when `cacheKeys` is empty.\n  - Filter query parameters to only cache keys in `cacheKeys`.\n  - Only restore cache if `cacheKeys` is non-empty.\n- Remove `FILTERS_CACHE_BLACKLIST` as it’s no longer needed.\n\nI’m working on the fix and will submit a PR shortly. Please let me know if additional details."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12239",
+      "time": "2025-07-01T17:30:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12239#issuecomment-3024934009",
+      "text": "Hi, I’m Niranjan and I'm working on this issue as part of the Pupilfirst Junior Full Stack Developer Intern task. I’ll fix the bug where cached filters persist when disableCache is true and refactor the useFilters hook to use cacheKeys for opt-in caching. I’ll submit a PR soon."
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}

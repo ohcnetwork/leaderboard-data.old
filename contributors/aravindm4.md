@@ -1,6 +1,6 @@
 ---
 name: Aravind Mahadevan
-title: Community Manager
+title: Product Manager
 github: aravindm4
 twitter: ""
 linkedin: aravind-mahadevan-0ba22411b

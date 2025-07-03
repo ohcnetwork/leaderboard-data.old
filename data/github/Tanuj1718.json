@@ -1,6 +1,105 @@
 {
-  "last_updated": "2025-06-26T02:23:35.000Z",
+  "last_updated": "2025-07-03T04:51:59.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12751",
+      "time": "2025-07-03T04:51:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12751#issuecomment-3030741684",
+      "text": "> You might have to create a common component to replace all the instances of Tab. But, be sure to check shadcn's docs and see if there's a simpler flex.\n> \n> fyi organizations layout is using menu bar (diff component from Tab).\n\n@Jacobjeevan I have created a component for replacing Tabs. For desktop we are using the same but for mobile we are using dropdown.\n\n1. I was thinking about Navigation Menu (for grouping the tab items) but it will be more complex for users as they have to find which items belongs to which group.\n2. Is the current approach (dropdown) fine or I should think of some other approach?\n\nhttps://github.com/user-attachments/assets/99fd7df7-8dcb-47db-9422-763263b12927"
+    },
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/leaderboard-data#110",
+      "time": "2025-07-02T02:39:41.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/110",
+      "text": "Updated Tanuj1718.md",
+      "turnaround_time": 486251
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-01T08:57:47.000Z",
+      "title": "ohcnetwork/care_fe#12765",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12765#pullrequestreview-2974301703",
+      "text": "fix: tooltip remains visible after closing AlertDialog on location trigger"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12761",
+      "time": "2025-06-30T17:06:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12761#issuecomment-3020045143",
+      "text": "@Akhileswaran-K-R  Please check the relevant fields of merge checklist."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12759",
+      "time": "2025-06-30T11:26:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12759#issuecomment-3018789394",
+      "text": "@rithviknishad  I would like to work on it"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12759",
+      "time": "2025-06-30T11:25:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12759",
+      "text": "Bug: Add validations to reduce redundancy for devices"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12757",
+      "time": "2025-06-30T09:05:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12757#issuecomment-3018370554",
+      "text": "@nihal467 i would like to raise a quick pr"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12752",
+      "time": "2025-06-29T13:54:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12752#issuecomment-3016721323",
+      "text": "good first issue"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12752",
+      "time": "2025-06-29T13:53:58.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12752",
+      "text": "Provide a clear description for Edit User sheet"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12751",
+      "time": "2025-06-29T13:26:09.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12751#issuecomment-3016696015",
+      "text": "@rithviknishad I would like to work on it if it is valid\nETA: 2 Days"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12751",
+      "time": "2025-06-29T13:25:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12751",
+      "text": "Convert tabs into dropdown for Mobile View UI  in all places"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12739",
+      "time": "2025-06-27T13:29:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12739#issuecomment-3013097418",
+      "text": "@nihal467 can you please assign it to me?\nETA: 2 days"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-26T17:45:55.000Z",
+      "title": "ohcnetwork/leaderboard-data#117",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/117#pullrequestreview-2962945606",
+      "text": "Added my bio to contributors folder : pavani-1629.md"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard-data#110",
+      "time": "2025-06-26T11:35:32.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/110",
+      "text": "Updated Tanuj1718.md"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12707",
@@ -2881,7 +2980,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12510",
       "title": "fix: Add field dynamically in Patient Information section of Report Template Builder",
-      "stale_for": 0,
+      "stale_for": 7,
       "labels": [
         "invalid",
         "question",
@@ -2893,7 +2992,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_abdm_fe/pull/16",
       "title": "fix: Made 'Generate/Link ABHA Number' page mobile friendly",
-      "stale_for": 40,
+      "stale_for": 47,
       "labels": []
     }
   ],

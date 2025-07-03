@@ -1,6 +1,68 @@
 {
-  "last_updated": "2025-06-24T08:13:30.000Z",
+  "last_updated": "2025-07-02T02:41:20.000Z",
   "activity": [
+    {
+      "type": "pr_merged",
+      "title": "ohcnetwork/leaderboard-data#116",
+      "time": "2025-07-02T02:41:20.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/116",
+      "text": "update geyamrutha16.md",
+      "turnaround_time": 469788
+    },
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/leaderboard-data#116",
+      "time": "2025-07-02T02:41:20.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/116",
+      "text": "update geyamrutha16.md",
+      "collaborated_with": [
+        "geyamrutha16",
+        "o",
+        "d"
+      ]
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12746",
+      "time": "2025-06-28T06:14:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12746",
+      "text": "Fixes double-border on focused inputs #1234"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12713",
+      "time": "2025-06-28T05:53:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12713#issuecomment-3014998808",
+      "text": "As mentioned earlier, the double-border issue was due to overlapping `outline` and `border` styles on focus. I've made the following changes to address this:\n\n### Change Made:\n- Disabled the default browser focus outline by adding `outline-none focus:outline-none`.\n- Ensured a consistent border style on focus using `focus-visible:ring-0` and `focus:border-primary-400` (for brand consistency).\n- Applied this fix in the `Input`.\n\nETA: 1 Day\n\nhttps://github.com/user-attachments/assets/c8c37456-afca-4e54-b845-09d2e8214f5c\n\nCan you please assign this issue to me?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12736",
+      "time": "2025-06-27T14:30:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12736#issuecomment-3013282057",
+      "text": "@AdityaJ2305 @rithviknishad I would like to work on this issue..!\n\n**Proposed Solution:**\n\n- I will replace the native HTML <select> element in the language selector on the profile page with the ShadCN <Select> component.\n\n**Implementation Steps:**\n\n- Import ShadCN's components.\n- Map through the available languages.\n- Will Refer to other usages of ShadCN Select in the codebase to ensure consistent styling.\n\nETA: 1 day from assignment.\n\nIf approved, kindly assign this issue to me. Thank you!"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12736",
+      "time": "2025-06-27T14:24:27.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12736#issuecomment-3013261276",
+      "text": "@AdityaJ2305 @rithviknishad  I would like to work on this issue.!\n\n**Proposed Solution:**\n- I will replace the native HTML <Select> element in the language selector on the profile page with ShadCN component.\n\n**Implementation Steps:**\n- Import ShadCN's components\n- Map through available languages.\n- I will refer to other usages of ShadCN Select in the codebase to match styles.\n\n**ETA:** 1 day from assignment.\n\nIf approved, kindly assign this issue to me. Thank you !\n\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard-data#116",
+      "time": "2025-06-26T16:11:34.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/116",
+      "text": "update geyamrutha16.md"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard-data#115",
+      "time": "2025-06-26T16:05:17.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/115",
+      "text": "Update geyamrutha16.md"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12692",

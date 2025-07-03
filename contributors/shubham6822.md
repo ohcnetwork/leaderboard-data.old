@@ -1,12 +1,12 @@
 ---
 name: Shubham
-title: Contributor
+title: Intern
 github: shubham6822
 twitter: ""
 linkedin: ""
-slack: ""
+slack: "U08GYM1PJUQ"
 joining_date: ""
-role: contributor
+role: intern
 ---
 
 Still waiting for this
