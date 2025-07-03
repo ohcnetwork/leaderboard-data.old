@@ -1,6 +1,6 @@
 ---
 name: Ayushman Singh
-title: Contributor
+title: Intern
 github: ayushman31
 twitter: ayushman00singh
 linkedin: ayushman31
