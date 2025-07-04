@@ -4,13 +4,13 @@ title: Intern
 
 github: ArdhraSunil
 
-twitter: nil
+twitter: ""
 
 linkedin: ardhra-sunilkumar
 
-slack: U092BRETMTK
+slack: "U092BRETMTK"
 
-joining\_date: 18/06/2025
+joining_date: 18/06/2025
 
 role: intern
 
