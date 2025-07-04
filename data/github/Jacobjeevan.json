@@ -1,6 +1,90 @@
 {
-  "last_updated": "2025-07-01T04:56:48.000Z",
+  "last_updated": "2025-07-03T12:35:11.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12638",
+      "time": "2025-07-03T12:35:11.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12638#issuecomment-3032104639",
+      "text": "@vara-prasad-07 any updates?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12675",
+      "time": "2025-07-03T12:34:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12675#issuecomment-3032103793",
+      "text": "@sudosuanjal Any updates here?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-26T01:45:51.000Z",
+      "title": "ohcnetwork/care_fe#12717",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12717#pullrequestreview-2960191652",
+      "text": "Fix: Disable Past Dates and Highlight Today in Schedule Creation Date Picker"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12510",
+      "time": "2025-07-03T12:32:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12510#issuecomment-3032097085",
+      "text": "> > (1) Why switch to text area? Does it make sense to do so? Think from a user perspective and what could potentially go wrong? (2) What should the behavior be if user has already selected all available options?\r\n> > Answering these two will help you figure out what the behavior should be.\r\n> \r\n>     1. Used text area so that user can add new field. There might be different formats of generating reports in different labs.\r\n> \r\n>     2. Are we predefining options (fields) ? Like if user wants to add a new/custom field (suppose email), then we shouldn't give the permission?\r\n\r\n(1) Fields options are based on our specs, so makes more sense to pre-define them.\r\n(2) There's custom section if they want to add custom fields. Other than that, no. Could look into future  suppose."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-03T11:47:18.000Z",
+      "title": "ohcnetwork/care_fe#12594",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12594#pullrequestreview-2982833775",
+      "text": "Fixes: Suggestions for Improving Questionnaire Importing"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-03T11:34:40.000Z",
+      "title": "ohcnetwork/care_fe#12587",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12587#pullrequestreview-2982824641",
+      "text": "fix : Adjust file Tab option buttons for small screen"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12782",
+      "time": "2025-07-03T11:11:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12782#issuecomment-3031874804",
+      "text": "> > Hmm 🤔 can you recheck this behavior? This should be working (rechecked and seems to be fine).\n> \n> https://github.com/user-attachments/assets/f5fec097-d4df-43ea-922c-52b2fcb7797a checked it. it seems to be bug.\n\nCan you show the network tab w/ the GET req?"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12760",
+      "time": "2025-07-03T11:07:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12760#issuecomment-3031862719",
+      "text": "@Jrl0 Hmm, manipur instance should have a limit of 2500 🤔 \n\ncc: @tellmeY18 "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12773",
+      "time": "2025-07-03T09:44:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12773",
+      "text": "Care 3.0 inbuilt Back Button <--- /---->"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12774",
+      "time": "2025-07-03T09:42:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12774#issuecomment-3031602494",
+      "text": "cc: @aravindm4 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12751",
+      "time": "2025-07-03T09:37:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12751#issuecomment-3031587346",
+      "text": "Hmm, let's not do this right now 🤔  This will need some additional feedback from design team anyways. If tabs don't show up correctly on mobile, just adjust that."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12782",
+      "time": "2025-07-03T09:28:26.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12782#issuecomment-3031557948",
+      "text": "Hmm 🤔  can you recheck this behavior? This should be working (rechecked and seems to be fine)."
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-07-01T04:56:48.000Z",
@@ -189,13 +273,6 @@
       "title": "ohcnetwork/care_fe#12675",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12675#pullrequestreview-2960562357",
       "text": "Make tabs responsive for mobile view on Resource Page #12615"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-06-26T01:45:51.000Z",
-      "title": "ohcnetwork/care_fe#12717",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12717#pullrequestreview-2960191652",
-      "text": "Fix: Disable Past Dates and Highlight Today in Schedule Creation Date Picker"
     },
     {
       "type": "pr_reviewed",
@@ -14154,13 +14231,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/3098",
       "title": "fix for supply request spec",
-      "stale_for": 5,
+      "stale_for": 7,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12419",
       "title": "Switch discharge summary to reports api",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": [
         "Backend",
         "needs review",
@@ -14170,7 +14247,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11983",
       "title": "Location and Device Perms",
-      "stale_for": 32,
+      "stale_for": 34,
       "labels": [
         "Work in Progress 🚧",
         "Merge Conflict",
@@ -14179,6 +14256,10 @@
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12448",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12492"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11968",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11856"

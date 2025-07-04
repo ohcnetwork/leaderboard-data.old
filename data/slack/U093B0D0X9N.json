@@ -315,24 +315,111 @@
             "user": "U093B0D0X9N",
             "type": "message",
             "ts": "1751534555.583849",
+            "edited": {
+                "user": "U093B0D0X9N",
+                "ts": "1751534791.000000"
+            },
             "client_msg_id": "c32bd906-52c7-48d9-b59c-3fcd0661e773",
-            "text": "2 July 2025\nDone:",
+            "text": "2 July 2025\nDone:\n\u2022 Go through care_fe\n\u2022 Completed few modules on wd201\n\u2022 PR for leaderboard profile got merged\nnext:\n\u2022 finish a level in wd201\n\u2022 work on open issues\n",
             "team": "TC99SV7B6",
             "blocks": [
                 {
                     "type": "rich_text",
-                    "block_id": "TfsLP",
+                    "block_id": "mQ/gx",
                     "elements": [
                         {
                             "type": "rich_text_section",
                             "elements": [
                                 {
                                     "type": "text",
-                                    "text": "2 July 2025\nDone:"
+                                    "text": "2 July 2025\nDone:\n"
                                 }
                             ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Go through care_fe"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Completed few modules on wd201"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "PR for leaderboard profile got merged"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "next:\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "finish a level in wd201"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "work on open issues"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
                         }
                     ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U082GUAL80N"
+                    ],
+                    "count": 1
                 }
             ]
         }
