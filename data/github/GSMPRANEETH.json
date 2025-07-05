@@ -1,0 +1,42 @@
+{
+  "last_updated": "2025-07-03T14:11:59.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12783",
+      "time": "2025-07-03T14:11:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12783#issuecomment-3032432309",
+      "text": "Hello 👋\n\nI’d like to work on this task of replacing custom Popover + Calendar combinations with the standardized DatePicker component across the codebase.\n\nProposed Solution:\nI plan to locate all instances where Calendar from @/components/ui/calendar is used alongside a custom Popover, and systematically replace these with the reusable DatePicker component already present in the shared UI library. I’ll verify each replacement by manually testing the component and reviewing how the date is handled internally.\n\nExpected Timeline:\nEnd date: July 5, 2025 (including testing and review buffer)\n\nPlease let me know if I can take this forward. Thanks!"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12693",
+      "time": "2025-07-03T13:55:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12693#issuecomment-3032376001",
+      "text": "Hi @nihal467,\n\nI’d like to work on this issue—please assign it to me.\n\nHigh‑Level Overview\nI’ll update the existing time‑validation logic so that administering at the exact prescription time is allowed, while still blocking any timestamps before the prescription. I’ll also add a quick test to cover this edge case and verify everything works in the UI.\n\nETA\nI plan to have a PR ready within 24 hours after being assigned the task to resolve this issue.\n\nThanks! 😊"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12693",
+      "time": "2025-07-03T13:52:04.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12693#issuecomment-3032365039",
+      "text": "> **Describe the bug**\n> \n> A validation error is thrown when trying to administer a medicine at the same time it is added.\n> \n> **To Reproduce** Steps to reproduce the behavior:\n> \n> 1. Go to live encounter\n> 2. Medicine\n> 3. Add a medicine and administor it on the same time\n> 4. See error\n> \n> **Expected behavior**\n> \n> The medicine should be successfully administered if the administration time matches the time it was added, without triggering a validation error.\n> \n> **Screenshots**\n> \n> ![Image](https://github.com/user-attachments/assets/fbb83437-0b80-4be5-9d72-2d51ef121dce)\n> \n> ### 🚨 DO NOT EDIT BELOW THIS LINE 🚨\n> ### Instructions for Requesting Assignment:\n> To request assignment, please clearly outline your solution and timeline by commenting on the issue using the format below:\n> \n> **Describe your solution clearly:** Provide a detailed explanation of your proposed solution, including your approach, key implementation steps, and relevant examples or references. Mention any dependencies, assumptions, or risks you foresee that might affect your timeline or implementation.\n> \n> **Expected Timeline:**\n> \n> * End date: [Expected submission date of a completed Pull Request]\n> \n> **Additional Context:** Include any other relevant context, links, screenshots, or resources that support your proposed solution.\n> \n> > 🚨 Your assignment may be unassigned if there is no activity or progress within the stated timeline unless communicated clearly and agreed upon.\n\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard-data#124",
+      "time": "2025-07-03T13:24:39.000Z",
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/124",
+      "text": "Update profile for GSMPRANEETH"
+    }
+  ],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/leaderboard-data/pull/124",
+      "title": "Update profile for GSMPRANEETH",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": []
+}
