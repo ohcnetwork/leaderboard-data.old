@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-07-02T02:42:19.000Z",
+  "last_updated": "2025-07-03T09:59:35.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12683",
+      "time": "2025-07-03T09:59:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12683#issuecomment-3031659776",
+      "text": "I tried, `QuestionForm.tsx`, `QuestionRenderer.tsx`, `QuestionGroup.tsx`, `QuestionInput.tsx` passes `updateQuestionnaireResponseCB` to many child components (eg: MedicationRequestQuestion, MedicationStatementQuestion, AppointmentQuestion, EncounterQuestion, SymptomQuestion, DiagnosisQuestion, AllergyQuestion, FilesQuestion, etc). Each specialized question component might: Make API calls during mount, Set default values during initialization, Update values based on dependency changes, Update values based on actual user input. All of these scenarios trigger the same callback and marks the form as dirty. The best solution that i could come up with was to add a `isInitializing` state, and implementing a delay(500ms) before allowing dirty state changes, and updating conditions for enabling the submit button."
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/leaderboard-data#120",
@@ -601,69 +608,6 @@
       "turnaround_time": 2177426
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12772",
-      "title": "Draft : Questionnaires are submitted even when no edits are made",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12717",
-      "title": "Fix: Disable Past Dates and Highlight Today in Schedule Creation Date Picker",
-      "stale_for": 7,
-      "labels": [
-        "Changes Required"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12654",
-      "title": "Fix: Entering just whitespace in input fields still creates empty entries",
-      "stale_for": 6,
-      "labels": [
-        "test failed"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12594",
-      "title": "Fixes: Suggestions for Improving Questionnaire Importing",
-      "stale_for": 14,
-      "labels": [
-        "stale"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12524",
-      "title": "fix: Misalignment and inconsistency in the UI of 'Add Files' dropdown in encounter files",
-      "stale_for": 6,
-      "labels": [
-        "test failed"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12308",
-      "title": "Fix dosage popover collision",
-      "stale_for": 10,
-      "labels": [
-        "question",
-        "do not merge",
-        "stale",
-        "needs-triage"
-      ]
-    }
-  ],
-  "authored_issue_and_pr": [
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12601",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12614"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12506",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12516"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12491",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12501"
-    }
-  ]
+  "open_prs": [],
+  "authored_issue_and_pr": []
 }

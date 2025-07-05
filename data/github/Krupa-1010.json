@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-06-28T11:52:13.000Z",
+  "last_updated": "2025-07-04T17:44:48.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12795",
+      "time": "2025-07-04T17:44:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12795#issuecomment-3036955981",
+      "text": "@Jacobjeevan Updated to use numerical date format for both consent date and valid period."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12795",
+      "time": "2025-07-04T15:46:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12795",
+      "text": "Update Consent Card: Use numerical date format and improve Valid Peri…"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12749",
@@ -52,6 +66,13 @@
       "text": "@nihal467  I'm interested in working on this issue \nThe current issue  is due to the difference in the seconds and milliseconds part of the start time and prescribed time \n\n![Image](https://github.com/user-attachments/assets/945424e0-c0f0-4a4b-8b7c-7b89831bc03a)\n\n**Proposed Solution**:\nTruncating both the start time and prescribed time to minute level would be a possible fix for this issue.\n\nETA: June 25 ,2025\n\nIf this solution is acceptable,could you please assign this issue to me ?"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12795",
+      "title": "Update Consent Card: Use numerical date format and improve Valid Peri…",
+      "stale_for": 0,
+      "labels": []
+    }
+  ],
   "authored_issue_and_pr": []
 }
