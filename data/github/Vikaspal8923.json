@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-24T12:05:09.000Z",
+  "last_updated": "2025-07-04T17:29:13.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12797",
+      "time": "2025-07-04T17:29:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12797#issuecomment-3036934737",
+      "text": "@Jacobjeevan  Work in progress, and as mentioned, there are some bugs related to network status and auth provider, so that part is not complete yet. Additionally, I18n translation keys are missing. I will add proper translations just after I complete the questionnaire part. So until I can review the core logic of caching the query, saving offline records, and updating the cache whenever I add or update a new entity."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12797",
+      "time": "2025-07-04T17:24:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12797",
+      "text": "Offline support gsoc phase1-2 caching & saving  offline record"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12405",
@@ -902,23 +916,35 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12405",
-      "title": "Demo implementation for offline support using workbox approach",
-      "stale_for": 2,
-      "labels": []
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12797",
+      "title": "Offline support gsoc phase1-2 caching & saving  offline record",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12402",
-      "title": "Demo Implementation of Offline Support Using TanStack Query",
-      "stale_for": 0,
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12405",
+      "title": "Demo implementation for offline support using workbox approach",
+      "stale_for": 5,
       "labels": [
         "Merge Conflict"
       ]
     },
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12402",
+      "title": "Demo Implementation of Offline Support Using TanStack Query",
+      "stale_for": 25,
+      "labels": [
+        "Merge Conflict",
+        "stale"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/docs/pull/140",
       "title": "Add api-audit  md file that list  down some api need to handle while offline. ",
-      "stale_for": 1,
+      "stale_for": 32,
       "labels": []
     }
   ],
