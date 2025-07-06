@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-07-03T16:47:54.000Z",
+  "last_updated": "2025-07-05T10:35:02.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12794",
+      "time": "2025-07-05T10:35:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12794#issuecomment-3038725068",
+      "text": "Hi @AdityaJ2305 \nI will enhance the phone input field by automatically closing the country dropdown when a country is selected.\n\t•\tThe file I’ll update is:\nsrc/components/ui/phone-input.tsx\n\t•\tIn the CountrySelectOption component, I will modify the onSelect handler\n\nExpected Timeline: 24 hrs"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/leaderboard-data#125",
@@ -13,7 +20,7 @@
     {
       "link": "https://github.com/ohcnetwork/leaderboard-data/pull/125",
       "title": "Add Janetmaria to leaderboard",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": []
     }
   ],

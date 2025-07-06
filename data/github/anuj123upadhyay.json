@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-07-01T12:14:01.000Z",
+  "last_updated": "2025-07-04T17:22:55.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12732",
+      "time": "2025-07-04T17:22:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12732#issuecomment-3036922385",
+      "text": "\nhey @AdityaJ2305 @nihal467 \n\nI will like to work on this issue.\n\nProposed Solution:\n- Refactor the Medication table layout to use responsive design principles (e.g., overflow-x: auto on the table container, max-width constraints).\n\n- Apply proper table column sizing and ensure action buttons (Print, Edit) remain visible at all screen sizes.\n\n- Fix layout of the \"Ongoing\" tab by identifying and removing elements causing unnecessary horizontal scroll.\n\nEstimated Completion: 1 days\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12693",
+      "time": "2025-07-04T17:17:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12693#issuecomment-3036914367",
+      "text": "@nihal467 @Jacobjeevan  I'm interested in working on this issue and would like to contribute a fix.\n\nProposed Solution:\n\nI wanted to work on this by updating the validation logic to allow medicine administration, when the administration timestamp is equal to or later than medicine added .Hence, this includes modifying the date comparison logic in the form validation (to use appropriate comparison operator).\n\nExpected Timeline:\n\nETA: 1-2 days\n\nThis fix avoids false validation errors. Could you please assign this to me???"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12739",
+      "time": "2025-07-04T17:12:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12739#issuecomment-3036904077",
+      "text": "hey @nihal467 \ni Would like to work on this issue\n\nhere is the proposed solution\n\n- Fix mobile viewport issues by adjusting the layout and ensuring responsive container height for structured fields.\n\n- Prevent auto-scroll to the next question by intercepting the submit behaviour and rendering submitted data inline using conditional rendering or state update.\n\n\nETA: 2 days\n\n\nBut can you please  provide more context and the path of issue properly because i am not much familiar with these paths as this is my first time on OHC.\nand what should be the role of mine to reproduce this issue.\n\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12760",

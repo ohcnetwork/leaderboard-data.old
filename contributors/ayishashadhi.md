@@ -1,12 +1,12 @@
 ---
 name: Ayisha shadhi
-title: Contributor
+title: Intern
 github: ayishashadhi
-twitter: ""
-linkedin: ""
-slack: ""
-joining_date: ""
-role: contributor
+twitter: "ShadhiAyisha"
+linkedin: "ayishashadhi"
+slack: U091Z5UND1Q
+joining_date: 18/05/2025
+role: intern
 ---
 
 Still waiting for this
