@@ -1,6 +1,6 @@
 ---
 name: Sona Sara Shibu
-title:  Data Analyst Intern
+title: Data Analyst Intern
 github: sonzsara
 twitter: ""
 linkedin: sona-sara-9410a231a
