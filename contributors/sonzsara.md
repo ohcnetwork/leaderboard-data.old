@@ -9,4 +9,5 @@ joining_date: "01/07/2025"
 role: intern
 ---
 
+"Passionate about exploring patterns, solving problems, and transforming raw data into clear, meaningful insights. I enjoy creating intuitive dashboards that tell compelling data stories"
 
