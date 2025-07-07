@@ -2,7 +2,7 @@
 name: Anand Raja
 title: Intern
 github: AnandRajaM
-twitter: --na--
+twitter: ""
 linkedin: anandrajam
 slack: U08LE5LFYNA
 joining_date: 1/7/25
