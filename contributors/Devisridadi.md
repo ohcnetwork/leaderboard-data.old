@@ -1,6 +1,6 @@
 ---
 name: Devisridadi
-title:  Intern
+title: Intern
 github: Devisridadi
 twitter: ""
 linkedin: devisridadi
