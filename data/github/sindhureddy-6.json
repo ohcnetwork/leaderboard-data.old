@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-07-01T09:28:34.000Z",
+  "last_updated": "2025-07-07T11:20:35.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12810",
+      "time": "2025-07-07T11:20:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12810#issuecomment-3044568081",
+      "text": "@nihal467 \nI tried filling the form, changed the selection for the field with enableWhen, and submitted it. but didn’t face any error.\ncould you please elaborate it"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12744",
+      "time": "2025-07-07T08:29:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12744#issuecomment-3043970872",
+      "text": "> What happens if a group has structured questions 🤔 (eg: symptom/condition)\r\n\r\nin that situation ,each group instance holds its own independent structured records like this\r\n\r\n![image](https://github.com/user-attachments/assets/7039f55b-a20b-461c-9776-810fd59824ff)\r\nis this acceptable?\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12748",
+      "time": "2025-07-04T17:35:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12748#issuecomment-3036942412",
+      "text": "@sj11105\r\nCould you please recheck the functionality?\r\nWhen you click on a question, it should scroll to the corresponding question in the questionnaire form.\r\nAlso, the approach you mentioned while requesting doesn't seem to be reflected in the current implementation.\r\n\r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12739",
+      "time": "2025-07-04T17:16:31.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12739#issuecomment-3036912286",
+      "text": "@nihal467 \nI’ve checked it on both mobile and desktop using various dimensions, and it seems to be working fine on my end.\nCould you please recheck it once?\n\n![Image](https://github.com/user-attachments/assets/a49d5ad2-7257-4462-baf5-0777606b1ac1)\n![Image](https://github.com/user-attachments/assets/a79ad246-f599-4afd-ad7f-0e5fa544af8e)"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12796",
+      "time": "2025-07-04T16:44:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12796",
+      "text": "Fix: Show only encounter-type questionnaires in search "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12782",
+      "time": "2025-07-03T11:47:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12782#issuecomment-3031971056",
+      "text": "> > > Hmm 🤔 can you recheck this behavior? This should be working (rechecked and seems to be fine).\n> > \n> > \n> > https://github.com/user-attachments/assets/f5fec097-d4df-43ea-922c-52b2fcb7797a checked it. it seems to be bug.\n> \n> Can you show/check the network tab w/ the GET req; check the response.\n\nin network response it is correctly providing questionnaires with sub_type=encounter. and dropdown  it only shows encounter realted questionnaires. \nbut when i search for questionnaire with sub_type=patient .it is appearing in dropdown.\ni think search dropdown component is not using the filtered API response\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12782",
+      "time": "2025-07-03T09:56:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12782#issuecomment-3031648412",
+      "text": "> Hmm 🤔 can you recheck this behavior? This should be working (rechecked and seems to be fine).\n\nhttps://github.com/user-attachments/assets/f5fec097-d4df-43ea-922c-52b2fcb7797a\nchecked it. it seems to be bug."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12712",
@@ -926,46 +975,6 @@
       "text": "Hi @rithviknishad , I have already worked on this issue and made progress. Could you assign it to me? I will complete it by tonight."
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12744",
-      "title": "Added support to repeatable group-type questions in questionnaire",
-      "stale_for": 1,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12651",
-      "title": "FIX : Side Bar Active Tab Highlight in nested views",
-      "stale_for": 0,
-      "labels": [
-        "Changes Required"
-      ]
-    }
-  ],
-  "authored_issue_and_pr": [
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12677",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12691"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12673",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12674"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12657",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12658"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12583",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12618"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12557",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12564"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12343",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12344"
-    }
-  ]
+  "open_prs": [],
+  "authored_issue_and_pr": []
 }

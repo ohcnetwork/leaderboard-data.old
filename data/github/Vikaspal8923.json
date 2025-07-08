@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-05-24T12:05:09.000Z",
+  "last_updated": "2025-07-04T17:29:13.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12797",
+      "time": "2025-07-04T17:29:13.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12797#issuecomment-3036934737",
+      "text": "@Jacobjeevan  Work in progress, and as mentioned, there are some bugs related to network status and auth provider, so that part is not complete yet. Additionally, I18n translation keys are missing. I will add proper translations just after I complete the questionnaire part. So until I can review the core logic of caching the query, saving offline records, and updating the cache whenever I add or update a new entity."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12797",
+      "time": "2025-07-04T17:24:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12797",
+      "text": "Offline support gsoc phase1-2 caching & saving  offline record"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12405",
@@ -900,76 +914,6 @@
       "text": "Request for resend OTP button on  patient login"
     }
   ],
-  "open_prs": [
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12405",
-      "title": "Demo implementation for offline support using workbox approach",
-      "stale_for": 2,
-      "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12402",
-      "title": "Demo Implementation of Offline Support Using TanStack Query",
-      "stale_for": 0,
-      "labels": [
-        "Merge Conflict"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/docs/pull/140",
-      "title": "Add api-audit  md file that list  down some api need to handle while offline. ",
-      "stale_for": 1,
-      "labels": []
-    }
-  ],
-  "authored_issue_and_pr": [
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12015",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12025"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12007",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12013"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11940",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11958"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11911",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11913"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11888",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11906"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11828",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11831"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11279",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11305"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11266",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11422"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11167",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11205"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10993",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10997"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10971",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10992"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10935",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10940"
-    }
-  ]
+  "open_prs": [],
+  "authored_issue_and_pr": []
 }

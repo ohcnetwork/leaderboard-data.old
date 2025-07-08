@@ -1,6 +1,55 @@
 {
-  "last_updated": "2025-07-01T13:11:33.000Z",
+  "last_updated": "2025-07-07T17:47:28.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12768",
+      "time": "2025-07-07T17:47:28.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12768#issuecomment-3046052323",
+      "text": "Yeah I had the same thought initially 🤔\r\nHowever, I implemented it based on the expected behavior shared in this issue #12757 ??\r\nIf there's alignment on disallowing duplicates, I'm happy to update the logic accordingly. Let me know how you'd like to proceed"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12548",
+      "time": "2025-07-07T17:14:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12548#issuecomment-3045972416",
+      "text": "@rithviknishad @Jacobjeevan I'd love to take this up could you please assign it to me?\n\nApproach:\n- Remove the filter from the navigation bar so that it displays all types of questions, including sub-questions, in the left navigation.\n- Ensure that sub-question logic is also properly rendered in the navigation panel.\n- The logic for highlighting the active question/section is already present, and I’m familiar with it from my previous work on [#12640 Highlight Active Section/Question Being Edited in Questionnaire Editor](https://github.com/path/to/issue/12640).\n\nETA: Tomorrow"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12660",
+      "time": "2025-07-07T13:17:46.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12660#issuecomment-3045069136",
+      "text": "Hey @Jacobjeevan, I’ve completed the requested changes ready for review"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12810",
+      "time": "2025-07-07T10:21:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12810#issuecomment-3044345810",
+      "text": "@nihal467  @Jacobjeevan I’d love to take it up please assign it to me.\nMy Approach \nETA : Tomorrow "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11618",
+      "time": "2025-07-07T08:41:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11618#issuecomment-3044006272",
+      "text": "Hi @aravindm4 , Is this issue open for work? If so, I’d love to take it up please assign it to me.\nMy Approach  : \n- To enable search by patient name along with the current phone number search, you'll need to:\n- Update the search input to include name as an option.\n- Track name in the query parameters.\n- Update the query logic to call the search API with either or both phone_number and name.\n\nETA : 2 days"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#11695",
+      "time": "2025-07-07T08:11:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/11695#issuecomment-3043917716",
+      "text": "Hey @Jacobjeevan, Is this issue currently open for work? If so, I'd like to be assigned to it I'm interested in working on it.\nMY Approach: \n- Pass the new location's ID up from → LocationSheet → LocationView\n- Control the open state of LinkDepartmentsSheet in LocationView.\n- Open the org sheet with the new location's ID after creation\nETA : 2 days "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12792",
+      "time": "2025-07-04T10:51:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12792#issuecomment-3035561355",
+      "text": "@Jacobjeevan I want to work on this issue assign me \nApproach: redesign the facility organisation selector ui  and ensure that existing functionality works\nETA: 3 days"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#12768",
@@ -951,14 +1000,18 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12779",
       "title": "feat : Add Removed unused translation keys",
-      "stale_for": 0,
+      "stale_for": 5,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12768",
       "title": "Fix: Add Same Questionnaire Multiple Times",
-      "stale_for": 1,
-      "labels": []
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "Changes Required",
+        "needs-triage"
+      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12660",
@@ -971,7 +1024,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12640",
       "title": "fix: Highlight Active Section/Question Being Edited in Questionnaire Editor",
-      "stale_for": 0,
+      "stale_for": 5,
       "labels": [
         "question",
         "needs-triage"
@@ -980,9 +1033,9 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12587",
       "title": "fix : Adjust file Tab option buttons for small screen",
-      "stale_for": 15,
+      "stale_for": 0,
       "labels": [
-        "stale"
+        "test failed"
       ]
     }
   ],

@@ -1,12 +1,12 @@
 ---
-name: LibinThankayathil
-title: Contributor
+name: Libin T
+title: Intern
 github: LibinThankayathil
 twitter: ""
-linkedin: ""
-slack: ""
-joining_date: ""
-role: contributor
+linkedin: libin-t
+slack: U08HV1T4GAX
+joining_date: 07/07/2025
+role: intern
 ---
 
 Still waiting for this
