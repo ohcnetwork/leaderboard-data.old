@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-07-02T02:39:04.000Z",
+  "last_updated": "2025-07-07T15:25:38.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12748",
+      "time": "2025-07-07T15:25:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12748#issuecomment-3045616662",
+      "text": "@rithviknishad , so should I raise a new PR with only required changes."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12748",
+      "time": "2025-07-06T13:58:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12748#issuecomment-3041680504",
+      "text": "> @sj11105 is this fully written by AI?\r\n\r\nTook some reference from the questionnaire editor code and some improvements by AI "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12799",
+      "time": "2025-07-06T08:45:32.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12799#issuecomment-3041212371",
+      "text": "Restrict Future Dates in the UI:\nUpdate the date picker component in the allergy form to set the maximum selectable date to today (e.g., maxDate = new Date()), preventing users from choosing future dates.\n\nImplement Backend Validation:\nIn the API handling allergy submissions, validate that the received date is not later than today. If it is, return a 400 Bad Request with a descriptive error message."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12799",
+      "time": "2025-07-06T07:57:59.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12799#issuecomment-3041155998",
+      "text": "@Essa034 , I am already working on this issue , just waiting for the assignment."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#12799",
+      "time": "2025-07-06T07:41:03.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12799",
+      "text": "Allergy Date Picker Allows Future Dates"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12748",
+      "time": "2025-07-05T03:08:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12748#issuecomment-3037791230",
+      "text": "> @sj11105 Could you please recheck the functionality? When you click on a question, it should scroll to the corresponding question in the questionnaire form. Also, the approach you mentioned while requesting doesn't seem to be reflected in the current implementation.\r\n\r\nOk i will check with the functionality, actually later it was said to make the design similar to questionnare editor, so i was supposed to change my approach."
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/leaderboard-data#108",
@@ -459,5 +501,14 @@
     }
   ],
   "open_prs": [],
-  "authored_issue_and_pr": []
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11009",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11044"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11008",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11022"
+    }
+  ]
 }

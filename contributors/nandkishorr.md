@@ -1,12 +1,12 @@
 ---
 name: NANDKISHOR R 
-title: Contributor
+title: Software Engineer
 github: nandkishorr
 twitter: ""
-linkedin: ""
-slack: ""
-joining_date: ""
-role: contributor
+linkedin: nandkishorr
+slack: "U08PN8QTCMN"
+joining_date: "02/05/2025"
+role: core
 ---
 
 Still waiting for this
