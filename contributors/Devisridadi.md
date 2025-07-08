@@ -2,7 +2,7 @@
 name: Devisridadi
 title:  Intern
 github: Devisridadi
-twitter: 
+twitter: ""
 linkedin: devisridadi
 slack: U092L49MXUM
 joining_date: 23/06/2025
