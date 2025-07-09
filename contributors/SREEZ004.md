@@ -2,7 +2,7 @@
 name: Sreelekshmi S
 title: Product Documentation Intern
 github: SREEZ004
-twitter: Sreey004
+twitter: Sreey0004
 linkedin: sreelekshmi-sreekumar
 slack: U091SRNTVB8
 joining_date: 17/06/2025
