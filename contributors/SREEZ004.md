@@ -5,7 +5,7 @@ github: SREEZ004
 twitter: Sreey0004
 linkedin: sreelekshmi-sreekumar
 slack: U091SRNTVB8
-joining_date: 17/06/2025
+joining_date: "17/06/2025"
 role: intern 
 ---
 
