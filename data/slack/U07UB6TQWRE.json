@@ -5390,5 +5390,264 @@
                 }
             ]
         }
+    ],
+    "2025-07-09 00:00:00": [
+        {
+            "user": "U07UB6TQWRE",
+            "type": "message",
+            "ts": "1752070456.975549",
+            "client_msg_id": "821cb61b-c9af-484b-bd85-15844b3bccbc",
+            "text": "july 9\n\u2022 wrote this eod message\nnext\n\u2022 write next day eod message",
+            "team": "TC99SV7B6",
+            "thread_ts": "1752070456.975549",
+            "reply_count": 2,
+            "reply_users_count": 2,
+            "latest_reply": "1752071871.016989",
+            "reply_users": [
+                "U07UB6TQWRE",
+                "U07NXCASM89"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "GplF4",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "july 9\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "wrote this eod message"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "write next day eod message"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "joy",
+                    "users": [
+                        "U07NGSB2MUP",
+                        "U0576PEACG0"
+                    ],
+                    "count": 2
+                },
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U0576PEACG0"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    "2025-07-10 00:00:00": [
+        {
+            "user": "U07UB6TQWRE",
+            "type": "message",
+            "ts": "1752159184.501899",
+            "edited": {
+                "user": "U07UB6TQWRE",
+                "ts": "1752159216.000000"
+            },
+            "client_msg_id": "870edd1d-f039-4ce3-a2ca-337ef5ed6e45",
+            "text": "july 10\n\u2022 fixed postgres haproxy config after 6 hours of debugging\n               initially thought it was a resource deadlock problem, turns out there was an issue on how it initialized on start :hammer:\n\u2022 ~bothered~  pinged vignesh for a final look on this :care:\n\u2022 finished all components in production setup, a pr [ care <https://github.com/ohcnetwork/care/pull/3136|#3136> ]\nnext\n\u2022 await reply. possibly the swarm setup is finally complete after a month",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "bviBe",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "july 10\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fixed postgres haproxy config after 6 hours of debugging"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "               initially thought it was a resource deadlock problem, turns out there was an issue on how it initialized on start "
+                                },
+                                {
+                                    "type": "emoji",
+                                    "name": "hammer",
+                                    "unicode": "1f528"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "bothered ",
+                                            "style": {
+                                                "strike": true
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " pinged vignesh for a final look on this "
+                                        },
+                                        {
+                                            "type": "emoji",
+                                            "name": "care"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "finished all components in production setup, a pr [ care "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/3136",
+                                            "text": "#3136",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " ]"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "await reply. possibly the swarm setup is finally complete after a month"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U08LE5LFYNA",
+                        "U07NGSB2MUP",
+                        "U092JN46Y9Z",
+                        "U08G3EL0XFS",
+                        "U08GT94AHFA",
+                        "U082GUAL80N"
+                    ],
+                    "count": 6
+                },
+                {
+                    "name": "care",
+                    "users": [
+                        "U06CY7RUZ9S",
+                        "U08G3EL0XFS",
+                        "U082GUAL80N"
+                    ],
+                    "count": 3
+                }
+            ]
+        }
     ]
 }

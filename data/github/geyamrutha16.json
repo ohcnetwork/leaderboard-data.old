@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-07-02T02:41:20.000Z",
+  "last_updated": "2025-07-09T16:40:40.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12800",
+      "time": "2025-07-09T16:40:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12800#issuecomment-3053318425",
+      "text": "@rithviknishad @Jacobjeevan @Janetmaria I'd like to work on this issue. \n\n**Proposed Solution:**\n\nTo prevent future dates from being selected in the **Authored On** field within medication requests, I'll:\n\n1. **Update the `DateTimeInput.tsx` component**:\n   - Add a `max` attribute to the input field.\n   - Dynamically set its value to the current datetime using `new Date().toISOString().slice(0, 16)` (if the input type is `datetime-local`).\n   \n<img width=\"389\" height=\"221\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/dd368742-855a-4131-babd-abed61314396\" />\n\n2. **Add validation logic** in the form submit handler to prevent submission if a future date is detected, even via dev tools tampering.\n\n3. **Testing**:\n   - Ensure the max datetime is correctly rendered.\n   - Try selecting a future date manually and verify that it's blocked.\n\n**Expected Timeline:**\n\n- **ETA**: 1 day after assignment.\n\nLet me know if this approach looks good. Looking forward to contributing!\n"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#12832",
+      "time": "2025-07-09T14:48:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12832",
+      "text": "Fix: Allow administering medicine at the same time as it was added #12693"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/leaderboard-data#116",
@@ -78,6 +92,16 @@
       "text": "@nihal467 I'm interested in working on this issue and would like to contribute a fix.\n\n**Proposed Solution:**\n\nI wanted to work on this by updating the validation logic to allow medicine administration, when the administration timestamp is equal to or later than medicine added .Hence, this includes modifying the date comparison logic in the form validation (to use appropriate comparison operator).\n\n**Expected Timeline:**\n\nEnd Date: June 26,2025\n\nThis fix avoids false validation errors."
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12832",
+      "title": "Fix: Allow administering medicine at the same time as it was added #12693",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs-triage"
+      ]
+    }
+  ],
   "authored_issue_and_pr": []
 }

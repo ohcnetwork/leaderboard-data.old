@@ -1,6 +1,75 @@
 {
-  "last_updated": "2025-07-07T18:17:31.000Z",
+  "last_updated": "2025-07-09T18:39:34.000Z",
   "activity": [
+    {
+      "type": "pr_collaborated",
+      "title": "ohcnetwork/care_fe#12061",
+      "time": "2025-07-09T18:39:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12061",
+      "text": "Add support for Labs",
+      "collaborated_with": [
+        "yash-learner",
+        "abhimanyurajeesh",
+        "Jacobjeevan",
+        "amjithtitus09"
+      ]
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-09T10:08:02.000Z",
+      "title": "ohcnetwork/care_fe#12604",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12604#pullrequestreview-3000909731",
+      "text": "feat: make URLs clickable in patient address fields"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-09T07:43:49.000Z",
+      "title": "ohcnetwork/care_fe#12796",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12796#pullrequestreview-3000426148",
+      "text": "Fix: Show only encounter-type questionnaires in search "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-06-27T06:59:57.000Z",
+      "title": "ohcnetwork/care_fe#12651",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12651#pullrequestreview-2965017533",
+      "text": "FIX : Side Bar Active Tab Highlight in nested views"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-09T06:10:29.000Z",
+      "title": "ohcnetwork/care_fe#12788",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12788#pullrequestreview-3000123145",
+      "text": "Fixes Login Mode parameter not changing when switching tabs #12767"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-09T05:58:15.000Z",
+      "title": "ohcnetwork/care_fe#12787",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12787#pullrequestreview-3000070855",
+      "text": "Fix tooltip visibility after AlertDialog cancel in LocationTable"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-09T05:27:06.000Z",
+      "title": "ohcnetwork/care_fe#12789",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12789#pullrequestreview-3000008104",
+      "text": "Fix: Dropdown Hover Highlights Multiple Items with Same Display Name"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-09T05:24:46.000Z",
+      "title": "ohcnetwork/care_fe#12684",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12684#pullrequestreview-3000002190",
+      "text": "Add missing translations for request statuses #12519"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-07-03T11:47:18.000Z",
+      "title": "ohcnetwork/care_fe#12594",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12594#pullrequestreview-2982833775",
+      "text": "Fixes: Suggestions for Improving Questionnaire Importing"
+    },
     {
       "type": "pr_merged",
       "title": "ohcnetwork/care#3098",
@@ -158,13 +227,6 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2025-07-03T11:47:18.000Z",
-      "title": "ohcnetwork/care_fe#12594",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12594#pullrequestreview-2982833775",
-      "text": "Fixes: Suggestions for Improving Questionnaire Importing"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2025-07-03T11:34:40.000Z",
       "title": "ohcnetwork/care_fe#12587",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12587#pullrequestreview-2982824641",
@@ -281,13 +343,6 @@
       "title": "ohcnetwork/care_fe#12722",
       "link": "https://github.com/ohcnetwork/care_fe/pull/12722#pullrequestreview-2965062489",
       "text": "Fix: Questionnaire Editor UI broke due to bug in Questionnaire Properties rendering"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-06-27T06:59:57.000Z",
-      "title": "ohcnetwork/care_fe#12651",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/12651#pullrequestreview-2965017533",
-      "text": "FIX : Side Bar Active Tab Highlight in nested views"
     },
     {
       "type": "pr_opened",
@@ -14349,9 +14404,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12848",
+      "title": "added useFacilitySilently and useLocationSilently",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "Tested ✅"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12419",
       "title": "Switch discharge summary to reports api",
-      "stale_for": 6,
+      "stale_for": 8,
       "labels": [
         "Backend",
         "needs review",
@@ -14361,7 +14425,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/11983",
       "title": "Location and Device Perms",
-      "stale_for": 38,
+      "stale_for": 40,
       "labels": [
         "Work in Progress 🚧",
         "Merge Conflict",
