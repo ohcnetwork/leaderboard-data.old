@@ -1,12 +1,12 @@
 ---
 name: Naman Raj
-title: Contributor
+title: Full Stack Developer Intern
 github: Denyme24
 twitter: ""
-linkedin: ""
-slack: ""
-joining_date: ""
-role: contributor
+linkedin: "https://www.linkedin.com/in/namanraj24/"
+slack: "U08TZ7ZH42F"
+joining_date: "14/07/2025"
+role: intern
 ---
 
 Still waiting for this
