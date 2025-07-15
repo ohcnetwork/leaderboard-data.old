@@ -50784,5 +50784,168 @@
                 }
             ]
         }
+    ],
+    "2025-07-14 00:00:00": [
+        {
+            "user": "U02TDGQQPMJ",
+            "type": "message",
+            "ts": "1752515938.283739",
+            "client_msg_id": "196b05bb-1bf2-4157-abf8-ef2d18bfc216",
+            "text": "*july 14*\n\u2022 reviewed prs\n\u2022 switched to using backend for excluding entered in error records on symptoms, allergies, diagnosis and med. statement tables\n\u2022 add manage tags to encounter sidebar properties view\n\u2022 fixed encounter overview page overflow; added support for auto collapsing sidebar when entering that page.\n\u2022 fixed random crash when viewing encounter page; learned that we shouldn\u2019t be sharing same query key between useQuery and useInfiniteQuery the hard way. <https://tkdodo.eu/blog/effective-react-query-keys#caching-data|refer>\n*next*\n\u2022 update encounter tabs design\n\u2022 pick from todos if any",
+            "team": "TC99SV7B6",
+            "thread_ts": "1752515938.283739",
+            "reply_count": 2,
+            "reply_users_count": 1,
+            "latest_reply": "1752516856.619539",
+            "reply_users": [
+                "U07NXCASM89"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "0mkQN",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "july 14",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "reviewed prs"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "switched to using backend for excluding entered in error records on symptoms, allergies, diagnosis and med. statement tables"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "add manage tags to encounter sidebar properties view"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fixed encounter overview page overflow; added support for auto collapsing sidebar when entering that page."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fixed random crash when viewing encounter page; learned that we shouldn\u2019t be sharing same query key between useQuery and useInfiniteQuery the hard way. "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://tkdodo.eu/blog/effective-react-query-keys#caching-data",
+                                            "text": "refer"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "next",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "update encounter tabs design"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "pick from todos if any"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "eyes",
+                    "users": [
+                        "U0576PEACG0"
+                    ],
+                    "count": 1
+                },
+                {
+                    "name": "care",
+                    "users": [
+                        "U082GUAL80N"
+                    ],
+                    "count": 1
+                }
+            ]
+        }
     ]
 }
