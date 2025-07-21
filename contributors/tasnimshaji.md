@@ -6,7 +6,7 @@ twitter: ""
 linkedin: "tasnim-shaji"
 slack: "U093E78U1MZ"
 joining_date: "15/07/2025"
-role: Intern
+role: intern
 ---
 
 Still waiting for this
