@@ -1,12 +1,12 @@
 ---
 name: Nikhil Rajpoot
-title: Contributor
+title: Intern
 github: nikh022
 twitter: ""
-linkedin: ""
-slack: ""
-joining_date: ""
-role: contributor
+linkedin: nikhil022
+slack: U091UEW1H9A
+joining_date: "26/08/2025"
+role: intern
 ---
 
 Still waiting for this
