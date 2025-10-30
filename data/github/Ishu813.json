@@ -1,6 +1,12 @@
 {
-  "last_updated": "2025-10-29T10:33:17.000Z",
+  "last_updated": "2025-10-30T06:17:11.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-30T06:17:11.000Z",
+      "title": "ohcnetwork/care_fe#14031",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14031#pullrequestreview-3397586416"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#14176",
@@ -474,7 +480,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14141",
       "title": "Fixed some warnings and errors of main pages.",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "needs testing",
         "needs review"
@@ -483,7 +489,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14087",
       "title": "Fixed #13732: Fixed UI of Tags dropdown in Add Patient Details page",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "question",
         "needs testing",
@@ -494,16 +500,17 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14031",
       "title": "Fixed #13956: Made 'No Records Found' message input specific",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": [
-        "Work in Progress",
-        "stale"
+        "needs review",
+        "Tested",
+        "Playwright Test Pending"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13942",
       "title": "Fixed #13710: handle missing build-meta.json error gracefully in dev mode",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "needs testing"
       ]
