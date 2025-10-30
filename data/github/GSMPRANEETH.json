@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-10-29T17:11:03.000Z",
+  "last_updated": "2025-10-30T12:46:42.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13642",
+      "time": "2025-10-30T12:46:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/13642#issuecomment-3467819051",
+      "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) [@rithviknishad](https://github.com/rithviknishad) [@yash-learner](https://github.com/yash-learner) Editing the css so that flexing for those elements is proper should fix this issue ETA: PR will be raised in a few hours\n\n@aravindm4 \nI've identified the cause while creating the bug report and will work on it as mentioned"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13293",
+      "time": "2025-10-30T12:45:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/13293#issuecomment-3467815072",
+      "text": "> Hi, I've reviewed the source code and to solve this issue, adding a disabled prop for the calendar when status isnt planned could work ETA: PR will be opened within few hours PS: There is another status called On Hold, should this also be treated as planned or be restricted for future dates?\n\n@aravindm4 \nwill try as mentioned above ☝️ "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#14038",
@@ -967,8 +981,8 @@
       "title": "Fixing UI in settings/billing to highlight selected sidebar item",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "Tested"
       ]
     },
     {
@@ -976,22 +990,23 @@
       "title": "Aligning UI items in Queue Details page",
       "stale_for": 0,
       "labels": [
-        "Work in Progress"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14158",
       "title": "Disabling submit button when no changes made",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "Changes Required",
-        "Playwright Test Pending"
+        "Playwright Test Pending",
+        "reviewed"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14097",
       "title": "Added missing uncaught error for useKeyboardShortcuts.ts",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs review",
         "Tested"
@@ -1000,7 +1015,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14096",
       "title": "Added missing description for book appointment sheet",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs review",
         "Tested"

@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-10-28T12:12:24.000Z",
+  "last_updated": "2025-10-30T15:19:44.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13851",
+      "time": "2025-10-30T15:19:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/13851#issuecomment-3468564732",
+      "text": "> <img alt=\"image\" width=\"1837\" height=\"988\" src=\"https://private-user-images.githubusercontent.com/57055998/507034036-0c6e5b95-0454-4b43-a7d9-f9ff2d1dce4c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjE4MzU1NDcsIm5iZiI6MTc2MTgzNTI0NywicGF0aCI6Ii81NzA1NTk5OC81MDcwMzQwMzYtMGM2ZTViOTUtMDQ1NC00YjQzLWE3ZDktZjlmZjJkMWRjZTRjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDMwVDE0NDA0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWViMDBiNDY4ZWE2NWEyOTM5ZGEwZDVjMDkwZjBmM2E2ZGY4Mjk2Y2EyNmQyMmEwOWEwYTI5N2I5YmNhYzlhMzgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Oev8UzPJCnICqS9zpkeMDraR5ERX3Dw4iXiKn5BVaLw\"> <img alt=\"image\" width=\"1837\" height=\"988\" src=\"https://private-user-images.githubusercontent.com/57055998/507034115-7b3ca9fe-1455-4aaa-b6ba-e6decf6bcd73.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjE4MzU1NDcsIm5iZiI6MTc2MTgzNTI0NywicGF0aCI6Ii81NzA1NTk5OC81MDcwMzQxMTUtN2IzY2E5ZmUtMTQ1NS00YWFhLWI2YmEtZTZkZWNmNmJjZDczLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDMwVDE0NDA0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM2OWYxZDJmMmExNjE2MjkwNTkyODkyNTMxN2M1YWQ3YTNiZGRhZmEwMGYzMDQwOGFlM2Q4MzI0ODU4MmZhZjUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.OGr-ZkGctInkpKk7NS9dfMQzicFihejkoQ374ClixKU\">\r\n> * you can see the develop is using the full height on the view port rather than your PR is not using them, can you get it fixed\r\n> \r\n> Question\r\n> \r\n> * how are we planning to unarchive a user and how to view the list of archived users\r\n\r\n@nihal467  I think that's exactly why we use row strike through for archived roles in the roles table as @rithviknishad said there (comment)[https://github.com/ohcnetwork/care_fe/pull/13139#discussion_r2287221403] and through this we can simply unarchive any user . Also, the unarchive action is not working at the moment because it requires backend changes. The related PR on the backend is already open [Backed PR](https://github.com/ohcnetwork/care/pull/3210/files#diff-6bdde7e0f621aa96753f5aaeaa04c5b4bb895a683826e3828c8398272584d564)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#13851",
@@ -1937,7 +1944,9 @@
       "title": "Refactor: Update Roleform and add Archived Status in Form",
       "stale_for": 0,
       "labels": [
+        "question",
         "test failed",
+        "needs-triage",
         "Type Changes"
       ]
     }

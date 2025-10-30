@@ -1,6 +1,30 @@
 {
-  "last_updated": "2025-10-30T06:22:27.000Z",
+  "last_updated": "2025-10-30T14:01:07.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-30T09:06:17.000Z",
+      "title": "ohcnetwork/care_fe#14162",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14162#pullrequestreview-3398167337"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-30T13:27:39.000Z",
+      "title": "ohcnetwork/care_fe#14158",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14158#pullrequestreview-3399625015"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#14098",
+      "time": "2025-10-21T12:35:49.000Z"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#14190",
+      "time": "2025-10-30T11:27:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14190",
+      "text": "Addkeyboard shortcuts for viewing prescriptions and accounts in pharmacy module"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-10-28T04:38:43.000Z",
@@ -81,11 +105,6 @@
       "time": "2025-10-29T17:06:33.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/14038#issuecomment-3462720204",
       "text": "> [@Jacobjeevan](https://github.com/Jacobjeevan) [@abhimanyurajeesh](https://github.com/abhimanyurajeesh) i think these could be modified with nav-tabs implementation...\n> \n>     1. FacilityUsers.tsx -> activeTab card / list toggling \n🙅 \n\n>     2. PatientRegistration.tsx -> renders on field.value (dob / age) renders \n🙅 \n> \n>     3. AppointmentsPage.tsx -> for toggling board / list \n🙅 \n> \n>     4. Patient/index.tsx -> value (scheduled / history) wtih `getAppointmentCardContext` \n🙅 \n> \n>     5. ReportBuilder.tsx -> renders based on value (layout/ header/ sections)\n🙅 [ its not even in use ] \n> \n>     6. FacilityOrganisationList.tsx -> renders based on value of currentTab (users / depts) \n🙅 \n> \n>     7. DispensesView.tsx -> Unsure, navigates to different url...\n> \n>     8. HistoricalRecordSelector/index.tsx -> Unsure of implementation\n\n\n@GSMPRANEETH I don’t believe this change is necessary, as I don’t see any clear advantage at the moment. \n\n@rithviknishad Could you please look into this issue and share your view\n"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#14098",
-      "time": "2025-10-21T12:35:49.000Z"
     },
     {
       "type": "comment_created",
@@ -5430,9 +5449,28 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14193",
+      "title": "refactor: update inventory links and enhance delivery order handling",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "P1"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14191",
+      "title": "feat: add keyboard shortcuts for viewing prescriptions and accounts in pharmacy module",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14168",
       "title": "feat: add comprehensive tests for internal and external product order…",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "Work in Progress"
       ]
@@ -5440,10 +5478,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14165",
       "title": "Fix the confusing button when creating a categore/sub-category and then a definition.",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "Tested"
       ]
     },
     {
@@ -5457,7 +5495,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14122",
       "title": "Add Playwright tests for creating and managing encounters",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs review"
       ]
@@ -5465,10 +5503,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14098",
       "title": "feat: add delivery status update functionality ",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "Tested"
       ]
     },
     {
@@ -5476,8 +5514,7 @@
       "title": "refactor: update terminology for questionnaire responses and forms",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "Changes Required"
       ]
     }
   ],

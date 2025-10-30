@@ -1,6 +1,87 @@
 {
-  "last_updated": "2025-10-30T09:02:37.000Z",
+  "last_updated": "2025-10-30T13:45:45.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-30T13:45:45.000Z",
+      "title": "ohcnetwork/care_fe#14194",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14194#pullrequestreview-3399728208"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#14109",
+      "time": "2025-10-23T08:29:38.000Z"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14098",
+      "time": "2025-10-30T11:19:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14098#issuecomment-3467479626",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14087",
+      "time": "2025-10-30T10:48:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14087#issuecomment-3467315290",
+      "text": "@anaghathedesigner can you review it once"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14188",
+      "time": "2025-10-30T10:43:56.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14188#issuecomment-3467295953",
+      "text": "@Ishu813 feel free to take up after issue, as assigning it to copilot"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13942",
+      "time": "2025-10-30T10:39:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/13942#issuecomment-3467274854",
+      "text": "@khavinshankar can you look into it, the build is looking fine"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14177",
+      "time": "2025-10-30T10:38:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14177#issuecomment-3467270958",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13968",
+      "time": "2025-10-30T10:30:49.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/13968#issuecomment-3467235327",
+      "text": "<img width=\"1837\" height=\"988\" alt=\"image\" src=\"https://github.com/user-attachments/assets/8b5a2bd6-db43-4b0f-8a13-4b1b4aadb757\" />\r\n\r\n- the department search is not working.\r\n\r\nCan you fix the issue and write a playwright test for this and remove the existing cypress test"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14015",
+      "time": "2025-10-30T09:51:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14015#issuecomment-3467029315",
+      "text": "- add the tag inside the create form, view details of the request order"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14165",
+      "time": "2025-10-30T09:37:00.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14165#issuecomment-3466957711",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14141",
+      "time": "2025-10-30T09:34:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14141#issuecomment-3466942522",
+      "text": "LGTM"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14012",
+      "time": "2025-10-30T09:29:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14012#issuecomment-3466915919",
+      "text": "@abhimanyurajeesh Looks good to me, adjust the existing Cypress test since its breaking"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-10-30T09:02:37.000Z",
@@ -410,11 +491,6 @@
       "time": "2025-10-27T08:24:42.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/14145",
       "text": "Create a new  playwright test for new location creation"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#14109",
-      "time": "2025-10-23T08:29:38.000Z"
     },
     {
       "type": "comment_created",
@@ -62402,7 +62478,26 @@
       "text": "Merge Develop To Staging v24.48.0 | Patch"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14194",
+      "title": "Fixed the user schedule playwright test",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14192",
+      "title": "Fixed the conflicting config in tsconfig of playwright",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/14145",

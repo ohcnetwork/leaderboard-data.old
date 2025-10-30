@@ -1,6 +1,19 @@
 {
-  "last_updated": "2025-10-30T07:33:43.000Z",
+  "last_updated": "2025-10-30T11:13:25.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-30T11:13:25.000Z",
+      "title": "ohcnetwork/care_fe#14189",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14189#pullrequestreview-3398975664"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13867",
+      "time": "2025-10-30T11:11:45.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/13867#issuecomment-3467427516",
+      "text": "\r\n> add a playwright test for the same, to verify the functionality\r\n\r\n@nihal467 We can add test for this functionality after this [PR](https://github.com/ohcnetwork/care_fe/pull/14122/files) since it has already created encounter test file \r\ncc: @abhimanyurajeesh \r\n\r\n\r\n> can you hide the collapse icon all the time\r\n\r\ndone \r\n<img width=\"1145\" height=\"706\" alt=\"Screenshot 2025-10-30 at 4 41 24 PM\" src=\"https://github.com/user-attachments/assets/9da92a57-5ddd-4d83-b001-1e7c87dc4e8f\" />\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-10-30T07:33:43.000Z",
@@ -11854,8 +11867,9 @@
       "title": "Enhancement: Make Encounter switcher collapsible",
       "stale_for": 0,
       "labels": [
-        "Changes Required",
-        "Work in Progress"
+        "needs testing",
+        "needs review",
+        "Changes Required"
       ]
     }
   ],
