@@ -1,12 +1,11 @@
 ---
 name: Nikhila C
-title: Intern
+title: Software Engineer
 github: NikhilA8606
 twitter: ""
-linkedin: ""
+linkedin: "nikhila-c-408784254"
 slack: U083HFWFESD
-joining_date: ""
-role: intern
+joining_date: "14/01/2025"
+role: core
 ---
-
-Still waiting for this
+Passionate about continuous learning and growth in the tech industry
