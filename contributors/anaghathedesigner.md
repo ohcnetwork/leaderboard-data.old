@@ -1,5 +1,5 @@
 ---
-name: Anagha .M
+name: Anagha. M
 title: Junior Product Designer
 github: anaghathedesigner
 twitter: anagham1
