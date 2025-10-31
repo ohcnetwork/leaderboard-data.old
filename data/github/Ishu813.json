@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-10-30T09:38:27.000Z",
+  "last_updated": "2025-10-31T15:51:34.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14204",
+      "time": "2025-10-31T15:51:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14204#issuecomment-3473721974",
+      "text": "Hi Team,\nI would like to work on this issue.\n\n**Proposed Solution :**\n\nImplement a persistent global filter state so applied filters remain active across modules until manually cleared or on logout.\n- Use a shared store (Zustand/Redux/Context) and persist filters in sessionStorage.\n- On navigation or reload, auto-hydrate filters from the store.\n- Add a unified `Clear Filters` option to reset globally.\n\nETA : 2 days"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#14188",
@@ -487,7 +494,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14141",
       "title": "Fixed some warnings and errors of main pages.",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "Tested"
@@ -507,7 +514,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14031",
       "title": "Fixed #13956: Made 'No Records Found' message input specific",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "Tested",
@@ -517,7 +524,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13942",
       "title": "Fixed #13710: handle missing build-meta.json error gracefully in dev mode",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs review",
         "Tested"

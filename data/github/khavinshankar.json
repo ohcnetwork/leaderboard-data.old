@@ -1,17 +1,24 @@
 {
-  "last_updated": "2025-10-31T02:15:07.000Z",
+  "last_updated": "2025-10-31T12:28:00.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#14121",
+      "time": "2025-10-24T11:20:58.000Z"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14126",
+      "time": "2025-10-31T10:01:47.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14126#issuecomment-3472248760",
+      "text": "@nihal467 \n- Have created a PR in care_fe to show `Missing Consent` tag in red bg ([#14203](https://github.com/ohcnetwork/care_fe/pull/14203))\n- Yes, it is by design that only newly created encounters are tagged with `Missing Consent` because consent was already mandatory for encounters in Karnataka, so  all the previous encounters will have consents."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#13663",
       "time": "2025-10-31T02:15:07.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/13663#issuecomment-3471029879",
       "text": "@bodhish @gigincg Should we make the discharge disposition mandatory, this would be hard to do it via plug and it would be simpler to just do it in the core (care_fe) itself. The renaming part is handled as different issue #13664. But if we want to make discharge disposition mandatory only for selected instances, configurable env is an option.\n\nThoughts?"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#14121",
-      "time": "2025-10-24T11:20:58.000Z"
     },
     {
       "type": "comment_created",

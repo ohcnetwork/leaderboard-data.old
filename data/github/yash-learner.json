@@ -1,11 +1,31 @@
 {
-  "last_updated": "2025-10-30T20:13:01.000Z",
+  "last_updated": "2025-10-31T13:22:51.000Z",
   "activity": [
     {
       "type": "pr_reviewed",
       "time": "2025-10-30T13:35:09.000Z",
       "title": "ohcnetwork/care_fe#14194",
       "link": "https://github.com/ohcnetwork/care_fe/pull/14194#pullrequestreview-3399664190"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-31T13:14:01.000Z",
+      "title": "ohcnetwork/care_fe#14201",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14201#pullrequestreview-3404215174"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13603",
+      "time": "2025-10-31T11:44:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/13603#issuecomment-3472703478",
+      "text": "@coderabbitai what do you think about this https://github.com/ohcnetwork/care_fe/pull/13603#issuecomment-3472640312"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13603",
+      "time": "2025-10-31T11:30:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/13603#issuecomment-3472640312",
+      "text": "> <img alt=\"image\" width=\"1837\" height=\"988\" src=\"https://private-user-images.githubusercontent.com/57055998/506974347-b9123209-7665-4078-9de7-3e93a35c5a8f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjE5MDI5MzcsIm5iZiI6MTc2MTkwMjYzNywicGF0aCI6Ii81NzA1NTk5OC81MDY5NzQzNDctYjkxMjMyMDktNzY2NS00MDc4LTlkZTctM2U5M2EzNWM1YThmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDMxVDA5MjM1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU4N2MwMjc5MTE0NjY5ZTMzNDU4NzliZjk5OGM1OTM3MTFmODc3YWI3N2Q1NTdjMGY5NDA0OGZmOWU1MjNhMzUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Lm1EP3naBFktn13GU62LTrcVzzdify2lbf7o8SCAwcE\">\r\n> * the patient creation is failed since you are not passing the facility id during new patient registration, this was already flagged by copilot as well. Look into copilot review before seeking a review and add basic relevant test for the PR as well without causing conflict existing test others are working\r\n\r\n@nihal467, thanks for testing\r\n\r\nI think you're wrong, I can't replicate it, tried different ways.\r\n\r\n**What I found**\r\n\r\n> the patient creation is failed since you are not passing the facility id during new patient registration,\r\n\r\nFrom the image you have uploaded it shows encounter creation  failed not patient creation failed and if you read the error message, it says `No FacilityOrganization matches the given query`, AFAIK this could happen when `when it cannot find a FacilityOrganization that belong to a `organization` and `facility`\r\n\r\n> the patient creation is failed since you are not passing the facility id during new patient registration, \r\n\r\nIf you look at Backend API's https://github.com/ohcnetwork/care/blob/2eaaef51960bcf4ab966886672dd989f28224f83/care/emr/api/viewsets/patient.py#L115\r\n\r\nCreating `Patient` does not require any `facility` because it tied to a `geo_organization` -> they can visit any facility \r\n\r\nEncounter is linked to a `facility` where passing `facility` is required, which we are already passing\r\n\r\n@vigneshhari or @praffq  can you correct me if there is any wrong in above points related to BE API's\r\n\r\n> this was already flagged by copilot as well. Look into copilot review before seeking a review\r\n\r\nI always do that (9/10) times, I think I did it now as well [Fix some copilot and coderabbit review comments](https://github.com/ohcnetwork/care_fe/pull/13603/commits/f749563a423b8eab7a607eb2e8d3d17f53d52f9c) before requesting a review\r\n\r\n\r\nIf you pointing about this comment https://github.com/ohcnetwork/care_fe/pull/13603#discussion_r2469009700  from copilot then this added after reviewing a request when `develop` is merged into this branch by you.\r\n\r\nCopiot says this `but PatientCreate type requires a facility field according to the type definition.` in above -> its is blunt wrong -> I can't see that in the  type file in the PR https://github.com/ohcnetwork/care_fe/blob/d018c2f30f9d7b77c14618ad3ba5c5b8c811ae92/src/types/emr/patient/patient.ts#L62 -> Probably it is hallucinating.\r\n\r\n\r\nI removed it because it is not required in the type file in this PR.\r\n\r\n\r\n----\r\n\r\n> add basic relevant test for the PR as well without causing conflict existing test others are working\r\n\r\nWill check and add\r\n\r\n---\r\n\r\n\r\nEven @tasnimshaji  says it looks good to her, https://github.com/ohcnetwork/care_fe/pull/13603#issuecomment-3462294366.\r\n\r\nSo if you still feel I broke it, can you please list down the steps for reproducing so that I can replicate and fix it.\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
     },
     {
       "type": "pr_reviewed",
@@ -2563,14 +2583,13 @@
       "stale_for": 0,
       "labels": [
         "Changes Required",
-        "Work in Progress",
-        "Merge Conflict"
+        "Work in Progress"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13674",
       "title": "Clean up types and routes for Notes, Questionnaire, Observation",
-      "stale_for": 30,
+      "stale_for": 31,
       "labels": [
         "question",
         "Merge Conflict",
@@ -2582,7 +2601,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13603",
       "title": "Fix: Clean up missed for encounter and patient types",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "test failed",
         "Type Changes"
@@ -2591,7 +2610,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13568",
       "title": "Refactor the ValueSet, BatchRequest, and PlugConfig types and routes",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs review",
         "Tested",
