@@ -1,16 +1,37 @@
 {
-  "last_updated": "2025-10-28T08:44:08.000Z",
+  "last_updated": "2025-10-31T02:15:07.000Z",
   "activity": [
     {
-      "type": "pr_reviewed",
-      "time": "2025-10-28T08:44:08.000Z",
-      "title": "ohcnetwork/care_fe#13942",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/13942#pullrequestreview-3387395013"
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13663",
+      "time": "2025-10-31T02:15:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/13663#issuecomment-3471029879",
+      "text": "@bodhish @gigincg Should we make the discharge disposition mandatory, this would be hard to do it via plug and it would be simpler to just do it in the core (care_fe) itself. The renaming part is handled as different issue #13664. But if we want to make discharge disposition mandatory only for selected instances, configurable env is an option.\n\nThoughts?"
     },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#14121",
       "time": "2025-10-24T11:20:58.000Z"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14126",
+      "time": "2025-10-31T01:57:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14126#issuecomment-3470998662",
+      "text": "The above suggested solution is implemented through a new backend plug https://github.com/10bedicu/care_auto_tag which would take care of adding and removing `Missing Consent` tag.\n\nTo use this, the above plug has to be added in the backend configuration. This plug also requires an environment variable AUTO_TAG_MISSING_CONSENT_TAG_ID which can be a fixed uuid4"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13664",
+      "time": "2025-10-31T01:52:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/13664#issuecomment-3470991352",
+      "text": "Have create a repo https://github.com/10bedicu/care_fe_teleicu_translations in 10bedicu org that will host all the translation files that would overwrite the default translations from care_fe.\n\nTo use this, all we have to do is, add an env to care_fe\n```sh\nREACT_CUSTOM_REMOTE_I18N_URL=\"https://raw.githubusercontent.com/10bedicu/care_fe_teleicu_translations/refs/heads/main\"\n```"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-28T08:44:08.000Z",
+      "title": "ohcnetwork/care_fe#13942",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/13942#pullrequestreview-3387395013"
     },
     {
       "type": "pr_reviewed",
