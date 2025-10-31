@@ -1,16 +1,22 @@
 {
-  "last_updated": "2025-10-30T13:45:45.000Z",
+  "last_updated": "2025-10-30T19:47:14.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#14109",
+      "time": "2025-10-23T08:29:38.000Z"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-30T19:19:31.000Z",
+      "title": "ohcnetwork/care_fe#14192",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14192#pullrequestreview-3401263423"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-10-30T13:45:45.000Z",
       "title": "ohcnetwork/care_fe#14194",
       "link": "https://github.com/ohcnetwork/care_fe/pull/14194#pullrequestreview-3399728208"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#14109",
-      "time": "2025-10-23T08:29:38.000Z"
     },
     {
       "type": "comment_created",
@@ -62480,8 +62486,8 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14194",
-      "title": "Fixed the user schedule playwright test",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14197",
+      "title": "Modifed the yaml file of playwright to handle concurrency properly",
       "stale_for": 0,
       "labels": [
         "needs testing",
@@ -62489,12 +62495,21 @@
       ]
     },
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14194",
+      "title": "Fixed the user schedule playwright test",
+      "stale_for": 0,
+      "labels": [
+        "needs review",
+        "Tested"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14192",
       "title": "Fixed the conflicting config in tsconfig of playwright",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review"
+        "needs review",
+        "Tested"
       ]
     }
   ],
