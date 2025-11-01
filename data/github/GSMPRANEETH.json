@@ -1,6 +1,19 @@
 {
-  "last_updated": "2025-10-30T12:46:42.000Z",
+  "last_updated": "2025-11-01T12:32:40.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-01T12:32:40.000Z",
+      "title": "ohcnetwork/care_fe#14158",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14158#pullrequestreview-3407519675"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14158",
+      "time": "2025-11-01T12:29:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14158#issuecomment-3476340365",
+      "text": "@AdityaJ2305 \r\nWrote playwright tests too for queue creating and editing, will wait for feedback\r\nAlso disabled button in all modes when not touched so still referring the issue"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#13642",
@@ -979,7 +992,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14177",
       "title": "Fixing UI in settings/billing to highlight selected sidebar item",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": [
         "needs review",
         "Tested"
@@ -988,7 +1001,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14159",
       "title": "Aligning UI items in Queue Details page",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": [
         "needs testing",
         "needs review"
@@ -999,40 +1012,26 @@
       "title": "Disabling submit button when no changes made",
       "stale_for": 0,
       "labels": [
+        "question",
         "Playwright Test Pending",
-        "reviewed"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14097",
-      "title": "Added missing uncaught error for useKeyboardShortcuts.ts",
-      "stale_for": 3,
-      "labels": [
-        "needs review",
-        "Tested"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14096",
-      "title": "Added missing description for book appointment sheet",
-      "stale_for": 3,
-      "labels": [
-        "needs review",
-        "Tested"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14053",
-      "title": "Hiding the `Patient Home` button when in Patient Home page",
-      "stale_for": 0,
-      "labels": [
-        "needs review",
-        "Tested",
-        "Playwright Test Pending"
+        "reviewed",
+        "needs-triage"
       ]
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/14074",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/14096"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/14073",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/14097"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/14009",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/14053"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/13932",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/13935"
@@ -1040,10 +1039,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/13700",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/13747"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/13645",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/13744"
     }
   ]
 }

@@ -1,6 +1,11 @@
 {
-  "last_updated": "2025-10-31T15:51:34.000Z",
+  "last_updated": "2025-11-01T12:50:18.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#14095",
+      "time": "2025-10-21T11:55:50.000Z"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#14204",
@@ -41,11 +46,6 @@
       "time": "2025-10-27T06:54:03.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/13894#issuecomment-3449771472",
       "text": "> Does doing this make sense in context? aria tags are used for assistive technologies - just setting them to undefined is not the solution.\n\nHi @Jacobjeevan,\nThanks for the feedback. You’re right — setting `aria-describedby` to `undefined` directly isn’t the right fix.\n\nUpdated approach:\n- I’ll ensure DialogContent always receives a valid accessible description when required.\n- If no description is provided, I’ll conditionally omit the `aria-describedby` prop altogether instead of setting it to `undefined`.\n- This prevents the warning while keeping accessibility intact.\n\nETA : 1 day"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#14095",
-      "time": "2025-10-21T11:55:50.000Z"
     },
     {
       "type": "comment_created",
@@ -492,18 +492,18 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14141",
-      "title": "Fixed some warnings and errors of main pages.",
-      "stale_for": 1,
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14213",
+      "title": "fix: Fixed print invoice layout and mobile view scaling",
+      "stale_for": 0,
       "labels": [
-        "needs review",
-        "Tested"
+        "needs testing",
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14087",
       "title": "Fixed #13732: Fixed UI of Tags dropdown in Add Patient Details page",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "question",
         "needs testing",
@@ -514,24 +514,23 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14031",
       "title": "Fixed #13956: Made 'No Records Found' message input specific",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "needs review",
         "Tested",
         "Playwright Test Pending"
       ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/13942",
-      "title": "Fixed #13710: handle missing build-meta.json error gracefully in dev mode",
-      "stale_for": 1,
-      "labels": [
-        "needs review",
-        "Tested"
-      ]
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/14100",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/14141"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/14099",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/14141"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/13367",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/13425"

@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-10-22T08:22:08.000Z",
+  "last_updated": "2025-11-01T11:40:42.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14212",
+      "time": "2025-11-01T11:40:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14212#issuecomment-3476287123",
+      "text": "Hello @yash-learner @Jacobjeevan, I'd like to work on this issue.\n\nProposed Fix:\n\nRemove the empty fragment `trigger={<></>}` prop at lines 266 and 280, as the trigger prop is optional and the empty fragment serves no functional purpose.\n\nImplementation:\n\n-Remove the `trigger={<></>}` prop entirely\n\n-Test the affected components to ensure functionality remains intact\n\nETA: 1 day from assignment"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#14212",
+      "time": "2025-11-01T11:39:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14212",
+      "text": "Fix React Fragment Validation error in EncounterProvider trigger prop"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#14102",

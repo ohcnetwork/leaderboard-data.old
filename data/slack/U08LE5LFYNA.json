@@ -4268,6 +4268,61 @@
         {
             "user": "U08LE5LFYNA",
             "type": "message",
+            "ts": "1762012977.921209",
+            "client_msg_id": "eefee3c9-31aa-4169-92ab-41129d1450fe",
+            "text": "Nov 1:\n\u2022 Added new filters for all kpi cards in 'care' tab of arike dashboard\n\u2022 Updated all drill-downs with new filter for cards of care tab",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "/tvHR",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Nov 1:\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added new filters for all kpi cards in 'care' tab of arike dashboard"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Updated all drill-downs with new filter for cards of care tab"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "language": {
+                "locale": "en",
+                "is_reliable": true
+            }
+        },
+        {
+            "user": "U08LE5LFYNA",
+            "type": "message",
             "ts": "1761975268.470779",
             "client_msg_id": "9cd1019a-b265-40e1-93de-70d3fcce1b75",
             "text": "Oct 31:\n\u2022 Created card and drill down for \"non-visited be-bound patients\"\n\u2022 Created card and drill down for  \"patients currently having mobility bed-bound\"\n\u2022 Created card and drilldown for \"patients using specific comfort devices\" also added data points for 'patient - volunteer linkage' info\n\u2022 :headphones:  w/ Sona",
@@ -4341,7 +4396,16 @@
             "language": {
                 "locale": "en",
                 "is_reliable": true
-            }
+            },
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U093J1BPCRZ"
+                    ],
+                    "count": 1
+                }
+            ]
         }
     ]
 }

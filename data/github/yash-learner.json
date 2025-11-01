@@ -1,6 +1,12 @@
 {
-  "last_updated": "2025-10-31T13:22:51.000Z",
+  "last_updated": "2025-11-01T13:54:15.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-20T18:14:34.000Z",
+      "title": "ohcnetwork/care_fe#13568",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/13568#pullrequestreview-3357463925"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-10-30T13:35:09.000Z",
@@ -232,12 +238,6 @@
       "time": "2025-10-21T12:07:31.000Z",
       "link": "https://github.com/ohcnetwork/design/issues/26",
       "text": "Unify the design and style for filter tabs / tabs"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-10-20T18:14:34.000Z",
-      "title": "ohcnetwork/care_fe#13568",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/13568#pullrequestreview-3357463925"
     },
     {
       "type": "issue_closed",
@@ -2589,7 +2589,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13674",
       "title": "Clean up types and routes for Notes, Questionnaire, Observation",
-      "stale_for": 31,
+      "stale_for": 32,
       "labels": [
         "question",
         "Merge Conflict",
@@ -2604,16 +2604,17 @@
       "stale_for": 0,
       "labels": [
         "test failed",
+        "Merge Conflict",
         "Type Changes"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13568",
       "title": "Refactor the ValueSet, BatchRequest, and PlugConfig types and routes",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
-        "needs review",
         "Tested",
+        "Changes Required",
         "Playwright Test Pending",
         "Type Changes"
       ]
