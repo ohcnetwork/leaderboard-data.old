@@ -1,6 +1,11 @@
 {
-  "last_updated": "2025-11-01T11:40:42.000Z",
+  "last_updated": "2025-11-01T18:29:13.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#14102",
+      "time": "2025-10-22T08:22:08.000Z"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#14212",
@@ -16,11 +21,6 @@
       "text": "Fix React Fragment Validation error in EncounterProvider trigger prop"
     },
     {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#14102",
-      "time": "2025-10-22T08:22:08.000Z"
-    },
-    {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#14069",
       "time": "2025-10-22T07:47:07.000Z",
@@ -28,7 +28,17 @@
       "text": "Running a bit behind due to classes, will submit the PR ASAP. \n\n"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14217",
+      "title": "fix: replacing empty fragment with null in trigger prop",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/14069",

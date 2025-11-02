@@ -1,10 +1,24 @@
 {
-  "last_updated": "2025-10-31T12:28:00.000Z",
+  "last_updated": "2025-11-02T00:50:18.000Z",
   "activity": [
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#14121",
       "time": "2025-10-24T11:20:58.000Z"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14203",
+      "time": "2025-11-01T22:04:05.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14203#issuecomment-3476908897",
+      "text": "@tasnimshaji the backend changes are pushed to `teleicuapi.ohc.network`, pull this PR into your local and update the CARE_API_URL to the above teleicuapi url.\r\n\r\nAnd when an encounter is created, the missing_consent tag should be automatically added, tag should be in red color and also when a new consent is created in the encounter, the tag should be automatically removed"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14203",
+      "time": "2025-11-01T22:02:19.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14203#issuecomment-3476906969",
+      "text": "sure @bodhish, colors seems more standard "
     },
     {
       "type": "comment_created",
