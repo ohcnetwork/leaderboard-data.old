@@ -1,10 +1,23 @@
 {
-  "last_updated": "2025-10-21T11:31:59.000Z",
+  "last_updated": "2025-11-02T09:42:38.000Z",
   "activity": [
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#14094",
       "time": "2025-10-21T11:31:59.000Z"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-02T09:35:58.000Z",
+      "title": "ohcnetwork/care_fe#14219",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14219#pullrequestreview-3408578295"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14094",
+      "time": "2025-11-02T09:26:37.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14094#issuecomment-3477746668",
+      "text": "@bodhish Yep, it's work here: https://github.com/ohcnetwork/care_fe/blob/develop/.github/workflows/pr-checklist.yml#L24"
     },
     {
       "type": "pr_merged",
@@ -1393,44 +1406,35 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14094",
-      "title": "skip workflow run for bot + support review request by users",
-      "stale_for": 1,
-      "labels": [
-        "needs testing",
-        "needs review"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13925",
       "title": "update other agent instruction files",
-      "stale_for": 8,
+      "stale_for": 4,
       "labels": [
-        "stale"
+        "needs review"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/3198",
       "title": "add native monitoring",
-      "stale_for": 68,
+      "stale_for": 78,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/3136",
       "title": "add docker swarm deployment stack",
-      "stale_for": 26,
+      "stale_for": 36,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/114",
       "title": "feat: Add Azure deployment guides for CARE-BE app",
-      "stale_for": 140,
+      "stale_for": 151,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/infra_template/pull/4",
       "title": "fix: update kubernetes configurations for care infrastructure",
-      "stale_for": 156,
+      "stale_for": 166,
       "labels": []
     }
   ],
