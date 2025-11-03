@@ -1,6 +1,12 @@
 {
-  "last_updated": "2025-10-31T10:34:20.000Z",
+  "last_updated": "2025-11-03T09:04:34.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-25T07:19:20.000Z",
+      "title": "ohcnetwork/care_fe#14116",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14116#pullrequestreview-3379797932"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-10-29T13:19:05.000Z",
@@ -24,12 +30,6 @@
       "time": "2025-10-29T10:50:25.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/14178",
       "text": "Add tests for Specimen Definitions"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-10-25T07:19:20.000Z",
-      "title": "ohcnetwork/care_fe#14116",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14116#pullrequestreview-3379797932"
     },
     {
       "type": "comment_created",
@@ -513,7 +513,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14182",
       "title": "Playwright Tests for Specimen Definition",
-      "stale_for": 0,
+      "stale_for": 2,
       "labels": [
         "needs review"
       ]
@@ -521,23 +521,26 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14116",
       "title": "Feat - Redesigned Past Symptoms /  Past Diagnoses and Medication History Tabs",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "Changes Required"
+        "needs testing",
+        "needs review",
+        "Playwright Test Pending"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13990",
       "title": "Fixes order id being present in url while switching location",
-      "stale_for": 5,
+      "stale_for": 1,
       "labels": [
-        "Work in Progress"
+        "Work in Progress",
+        "stale"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13934",
       "title": "Feat: Add Location Picker to Payment Sheet",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "needs review",
         "Tested",
