@@ -5623,5 +5623,128 @@
                 }
             ]
         }
+    ],
+    "2025-11-04 00:00:00": [
+        {
+            "user": "U02TB83Q5V0",
+            "type": "message",
+            "ts": "1762243901.626839",
+            "client_msg_id": "5e5ed3a1-3a2f-48a1-a4ff-048e80428b4c",
+            "text": "Oct 30, 31, Nov 3\n\u2022 Worked on PRs <https://github.com/ohcnetwork/care_fe/pull/14171|#14171>, <https://github.com/ohcnetwork/care/pull/3326|#3326>\n\u2022 Weekly sync call\n\u2022 Worked on tests\n\u2022 Diverged into trying to make copilot use playwright mcp to create features",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1761719718,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/14171",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#14171 Automatically switch to test DB when running playwright tests",
+                    "title": "#14171 Automatically switch to test DB when running playwright tests",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/14171",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>"
+                },
+                {
+                    "id": 2,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1761644918,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care/pull/3326",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#3326 Added make commands to switch to test db during playwright tests",
+                    "title": "#3326 Added make commands to switch to test db during playwright tests",
+                    "title_link": "https://github.com/ohcnetwork/care/pull/3326",
+                    "footer": "<https://github.com/ohcnetwork/care|ohcnetwork/care>"
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "UpS0W",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Oct 30, 31, Nov 3\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Worked on PRs "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/14171",
+                                            "text": "#14171",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ", "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care/pull/3326",
+                                            "text": "#3326",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Weekly sync call"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Worked on tests"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Diverged into trying to make copilot use playwright mcp to create features"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "language": {
+                "locale": "en",
+                "is_reliable": true
+            }
+        }
     ]
 }

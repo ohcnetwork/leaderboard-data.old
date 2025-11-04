@@ -1,6 +1,25 @@
 {
-  "last_updated": "2025-11-03T12:23:16.000Z",
+  "last_updated": "2025-11-04T06:28:16.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13677",
+      "time": "2025-11-04T06:28:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/13677#issuecomment-3484100480",
+      "text": "Let's keep this device change only works in secure context"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13677",
+      "time": "2025-11-04T06:26:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/13677#issuecomment-3484097183",
+      "text": "> [@rithviknishad](https://github.com/rithviknishad) [@Jacobjeevan](https://github.com/Jacobjeevan) can i work on this issue? The issue appears to be in the useMediaStream.ts hook which uses `addEventListener` instead of the standard `ondevicechange` event handler property for the MediaDevices interface. so by Replacing `navigator.mediaDevices.addEventListener('devicechange', ...)` With `navigator.mediaDevices.ondevicechange = function()` and adding proper checks for browser compatibility throughout the code should fix it\n> \n> End Date: EOD after Assignment\n\nBut this solution will break when implementing another plugin that also assigns a function to ondevicechange, since only the latest one will run and the previous functions will be overwritten."
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard#630",
+      "time": "2025-10-21T09:41:33.000Z"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#14227",
@@ -13,11 +32,6 @@
       "time": "2025-11-03T08:22:19.000Z",
       "title": "ohcnetwork/care_fe#14199",
       "link": "https://github.com/ohcnetwork/care_fe/pull/14199#pullrequestreview-3409872269"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/leaderboard#630",
-      "time": "2025-10-21T09:41:33.000Z"
     },
     {
       "type": "pr_reviewed",
@@ -3429,7 +3443,8 @@
       "title": "Playwright test for token category creation, listing, and permission check",
       "stale_for": 0,
       "labels": [
-        "Changes Required"
+        "needs testing",
+        "reviewed"
       ]
     }
   ],

@@ -3489,5 +3489,104 @@
                 }
             ]
         }
+    ],
+    "2025-11-04 00:00:00": [
+        {
+            "user": "U02TB8XHZD1",
+            "type": "message",
+            "ts": "1762245790.645049",
+            "client_msg_id": "ad585a1a-aad1-45ee-87be-b80ae3752655",
+            "text": "3rd November\n\u2022 Updated aws pipeline for teleicu.ohc.network to use the upstream repo directly and added approval steps to trigger builds only when needed\n\u2022 Tried to debug and fix the care image bulids for fe tests, partially implemented by <https://github.com/ohcnetwork/care_fe/pull/14164|14164>\n",
+            "team": "TC99SV7B6",
+            "attachments": [
+                {
+                    "id": 1,
+                    "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+                    "ts": 1761644000,
+                    "color": "36a64f",
+                    "bot_id": "B01V56NBBNC",
+                    "bot_team_id": "TC99SV7B6",
+                    "app_unfurl_url": "https://github.com/ohcnetwork/care_fe/pull/14164",
+                    "is_app_unfurl": true,
+                    "app_id": "A01BP7R4KNY",
+                    "fallback": "#14164 Try to use cached db dump for playwright tests",
+                    "text": "## Proposed Changes\n\n\u2022 Try to use cached db dump for playwright tests\n\n<https://github.com/orgs/ohcnetwork/teams/care-fe-code-reviewers|@ohcnetwork/care-fe-code-reviewers>\n\n## Merge Checklist\n\n\u2022 Add specs that demonstrate bug / test a new feature.\n\u2022 Update <https://docs.ohc.network|product documentation>.\n\u2022 Ensure that UI text is kept in I18n files.\n\u2022 Prep screenshot or demo video for changelog entry, and attach it to issue.\n\u2022 Request for Peer Reviews\n\u2022 Completion of QA in Mobile Devices\n\u2022 Completion of QA in Desktop Devices",
+                    "title": "#14164 Try to use cached db dump for playwright tests",
+                    "title_link": "https://github.com/ohcnetwork/care_fe/pull/14164",
+                    "footer": "<https://github.com/ohcnetwork/care_fe|ohcnetwork/care_fe>",
+                    "fields": [
+                        {
+                            "value": "Work in Progress",
+                            "title": "Labels",
+                            "short": true
+                        },
+                        {
+                            "value": "3",
+                            "title": "Comments",
+                            "short": true
+                        }
+                    ],
+                    "mrkdwn_in": [
+                        "text"
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "IaFMe",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "3rd November\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Updated aws pipeline for teleicu.ohc.network to use the upstream repo directly and added approval steps to trigger builds only when needed"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tried to debug and fix the care image bulids for fe tests, partially implemented by "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/14164",
+                                            "text": "14164"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": []
+                        }
+                    ]
+                }
+            ],
+            "language": {
+                "locale": "en",
+                "is_reliable": true
+            }
+        }
     ]
 }
