@@ -1,6 +1,24 @@
 {
-  "last_updated": "2025-11-04T06:28:16.000Z",
+  "last_updated": "2025-11-04T12:38:25.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-04T12:38:25.000Z",
+      "title": "ohcnetwork/care_fe#14234",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14234#pullrequestreview-3416257994"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/leaderboard#630",
+      "time": "2025-10-21T09:41:33.000Z"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14233",
+      "time": "2025-11-04T10:43:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14233#issuecomment-3485253312",
+      "text": "I would like to assign this issue "
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#13677",
@@ -14,11 +32,6 @@
       "time": "2025-11-04T06:26:43.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/13677#issuecomment-3484097183",
       "text": "> [@rithviknishad](https://github.com/rithviknishad) [@Jacobjeevan](https://github.com/Jacobjeevan) can i work on this issue? The issue appears to be in the useMediaStream.ts hook which uses `addEventListener` instead of the standard `ondevicechange` event handler property for the MediaDevices interface. so by Replacing `navigator.mediaDevices.addEventListener('devicechange', ...)` With `navigator.mediaDevices.ondevicechange = function()` and adding proper checks for browser compatibility throughout the code should fix it\n> \n> End Date: EOD after Assignment\n\nBut this solution will break when implementing another plugin that also assigns a function to ondevicechange, since only the latest one will run and the previous functions will be overwritten."
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/leaderboard#630",
-      "time": "2025-10-21T09:41:33.000Z"
     },
     {
       "type": "issue_opened",
@@ -3438,6 +3451,16 @@
     }
   ],
   "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14234",
+      "title": "Hide Delete account for non super user",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "Playwright Test Pending"
+      ]
+    },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14224",
       "title": "Playwright test for token category creation, listing, and permission check",

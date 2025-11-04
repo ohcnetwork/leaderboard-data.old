@@ -3494,6 +3494,61 @@
         {
             "user": "U02TB8XHZD1",
             "type": "message",
+            "ts": "1762271894.751569",
+            "client_msg_id": "b61b62fa-656c-4a0d-ae90-3d03ead259de",
+            "text": "Nov 4\n\u2022 Trimmed down playwright test CI by upto 6 minutes\n\u2022 Reviewed backend PRs",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "E4RVA",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Nov 4\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Trimmed down playwright test CI by upto 6 minutes"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed backend PRs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "language": {
+                "locale": "en",
+                "is_reliable": true
+            }
+        },
+        {
+            "user": "U02TB8XHZD1",
+            "type": "message",
             "ts": "1762245790.645049",
             "client_msg_id": "ad585a1a-aad1-45ee-87be-b80ae3752655",
             "text": "3rd November\n\u2022 Updated aws pipeline for teleicu.ohc.network to use the upstream repo directly and added approval steps to trigger builds only when needed\n\u2022 Tried to debug and fix the care image bulids for fe tests, partially implemented by <https://github.com/ohcnetwork/care_fe/pull/14164|14164>\n",

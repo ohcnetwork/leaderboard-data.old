@@ -1,6 +1,11 @@
 {
-  "last_updated": "2025-11-04T04:11:42.000Z",
+  "last_updated": "2025-11-04T14:02:12.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#14098",
+      "time": "2025-10-21T12:35:49.000Z"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-11-04T04:11:42.000Z",
@@ -37,11 +42,6 @@
       "time": "2025-10-30T13:27:39.000Z",
       "title": "ohcnetwork/care_fe#14158",
       "link": "https://github.com/ohcnetwork/care_fe/pull/14158#pullrequestreview-3399625015"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#14098",
-      "time": "2025-10-21T12:35:49.000Z"
     },
     {
       "type": "issue_opened",
@@ -5474,9 +5474,19 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14241",
+      "title": "refactor: remove version field from questionnaire update",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "waiting for backend"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14168",
       "title": "feat: add comprehensive tests for internal and external product order…",
-      "stale_for": 6,
+      "stale_for": 7,
       "labels": [
         "Work in Progress"
       ]
