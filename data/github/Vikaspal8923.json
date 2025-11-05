@@ -1,6 +1,27 @@
 {
-  "last_updated": "2025-08-18T19:52:00.000Z",
+  "last_updated": "2025-11-05T16:48:23.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12797",
+      "time": "2025-11-05T16:48:23.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12797#issuecomment-3492275288",
+      "text": "@Jacobjeevan, Missing patient data in the cache is also resulting in an error in the appointment creation as well. \r\ncc: @nihal467 "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12797",
+      "time": "2025-11-05T16:42:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12797#issuecomment-3492248187",
+      "text": "@nihal467 Regarding the issue: Unless the user goes to Settings and manually syncs offline data after coming online, the frontend displays inconsistent or random data on the Encounter page.\r\n\r\nThis happens because, in online mode, all API calls fetch fresh data from the server instead of using the cache. If the data isn’t synced yet, it results in errors or missing data. This is the default behavior of online mode.\r\n\r\ncc: @Jacobjeevan "
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12797",
+      "time": "2025-11-05T16:36:16.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12797#issuecomment-3492223527",
+      "text": "@Jacobjeevan, regarding the second issue Nihal mentioned — which is related to caching — an encounter is created, but since the patient data is not present in the cache, the user cannot proceed offline. However, if Nihal tries to create the encounter right after visiting the patient homepage online first, it works because when the user visits the patient profile/homepage, the patient data is stored in the cache with the query key \"patient:id\".\r\n\r\nSince there’s no query call with the key \"patient:id\" on the verify patient page, the patient data isn’t cached there.\r\n\r\nWhat do you think I should do in this case? Should I call the same query on the verify patient page as well as on the patient homepage?\r\n\r\ncc: @nihal467"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12797",
@@ -928,6 +949,93 @@
       "text": "Request for resend OTP button on  patient login"
     }
   ],
-  "open_prs": [],
-  "authored_issue_and_pr": []
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12797",
+      "title": "Offline Data entry support Gsoc Project",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "Merge Conflict",
+        "needs-triage",
+        "Type Changes"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12405",
+      "title": "Demo implementation for offline support using workbox approach",
+      "stale_for": 85,
+      "labels": [
+        "Merge Conflict",
+        "stale"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12402",
+      "title": "Demo Implementation of Offline Support Using TanStack Query",
+      "stale_for": 6,
+      "labels": [
+        "question",
+        "Merge Conflict",
+        "stale",
+        "needs-triage"
+      ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/docs/pull/140",
+      "title": "Add api-audit  md file that list  down some api need to handle while offline. ",
+      "stale_for": 94,
+      "labels": []
+    }
+  ],
+  "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12015",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12025"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12007",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12013"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11940",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11958"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11911",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11913"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11888",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11906"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11828",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11831"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11279",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11305"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11266",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11422"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11167",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11205"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10993",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10997"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10971",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10992"
+    },
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/10935",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/10940"
+    }
+  ]
 }

@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-11-05T08:01:05.000Z",
+  "last_updated": "2025-11-05T14:51:34.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13842",
+      "time": "2025-11-05T14:51:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/13842#issuecomment-3491661622",
+      "text": "@Jacobjeevan can you mention an ETD for the PR ready for testing and related backend change current status"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12797",
+      "time": "2025-11-05T14:24:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12797#issuecomment-3491502280",
+      "text": "<img width=\"1896\" height=\"772\" alt=\"image\" src=\"https://github.com/user-attachments/assets/aef30f9c-f761-41ea-b6ec-791a13582e2d\" />\r\n\r\n- show the last synced date and time rather than never in the sync page\r\n\r\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/942cdee9-4f50-4d12-bc9e-8ca044d72939\" />\r\n\r\n- the encounter creation is failing when the patient registration was done online and suddenly turn off the internet and try to create a new encounter\r\n\r\nNote: For existing patient, we can create encounter offline, there are no issues or error thrown\r\n\r\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/de5002bc-7ea4-4184-b689-634a130d9b59\" />\r\n\r\n- create a newly created encounter for a existing patient (during offline), when we try to mark it as complete, its throwing error in the frontend\r\n\r\n<img width=\"1896\" height=\"1079\" alt=\"image\" src=\"https://github.com/user-attachments/assets/82629b59-990a-4f0b-bccb-43814a2a4b10\" />\r\n\r\n- unless the user go to the setting and sync the offline data upon coming online, the frontend is throwing random data in the encounter page.\r\n\r\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4e6ff08b-594c-4591-8e97-f449c31ff1e6\" />\r\n\r\n- unable to book appointment for the patient"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_scribe_fe#35",
+      "time": "2025-11-05T14:01:54.000Z",
+      "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/35#issuecomment-3491383423",
+      "text": "https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1760435384385799\r\n\r\nthe PR was approved long back, @gigincg can you review it"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13934",
+      "time": "2025-11-05T10:05:29.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/13934#issuecomment-3490302936",
+      "text": "PR functionality looks good but the playwright test is breaking down the entire test, looking into it now"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#14109",

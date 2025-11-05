@@ -4553,6 +4553,131 @@
         {
             "user": "U08LE5LFYNA",
             "type": "message",
+            "ts": "1762356052.615359",
+            "client_msg_id": "9f842ef6-4e66-4529-8277-81a920877702",
+            "text": "Nov 5th:\n\u2022 Updated forms used in the \u2018Patients Requiring Regular Care\u2019 card to use \u2018Nurses-Homecare\u2019 and \u2018Doctors DHC v2\u2019 instead.\n\u2022 Added \u2018Doctors DHC v2\u2019 form to the following cards and drilldowns in Facility Dashboard:\n    \u25e6 Volunteer Linkage for Bed-Bound Patients (Yes - No)\n    \u25e6 Registered Bed-Bound Patients\n    \u25e6 Non-Visited Bed-Bound Patients\n\u2022 Tweaked \u2018Doctors Complete, Nursing Incomplete\u2019 card logic in the Arike Dashboard to correctly apply shift-based filtering.\n\u2022 Reviewed multiple cards in the Arike Dashboard to identify any potential date-based filtering issues",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "D/TbI",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Nov 5th:\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Updated forms used in the \u2018Patients Requiring Regular Care\u2019 card to use \u2018Nurses-Homecare\u2019 and \u2018Doctors DHC v2\u2019 instead."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Added \u2018Doctors DHC v2\u2019 form to the following cards and drilldowns in Facility Dashboard:"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Volunteer Linkage for Bed-Bound Patients (Yes - No)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Registered Bed-Bound Patients"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Non-Visited Bed-Bound Patients"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tweaked \u2018Doctors Complete, Nursing Incomplete\u2019 card logic in the Arike Dashboard to correctly apply shift-based filtering."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Reviewed multiple cards in the Arike Dashboard to identify any potential date-based filtering issues"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "language": {
+                "locale": "en",
+                "is_reliable": true
+            },
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U093J1BPCRZ"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "user": "U08LE5LFYNA",
+            "type": "message",
             "ts": "1762329152.179269",
             "client_msg_id": "ff235f08-f2c1-4659-84bc-8f2273030754",
             "text": "Nov 4:\n\u2022 Updated these cards with latest patient diagnosis entries:\n    \u25e6 'Total count of patients currently marked as bed-bound'\n    \u25e6 'Total number of non-visited bed-bound patients'\n\u2022 Updated view for Volunteer Linkage card for bed bound patients\n\u2022 :headphones:  w/ Sona, Rohit and Merrin regarding the new &amp; archived tags ",
@@ -4651,7 +4776,16 @@
             "language": {
                 "locale": "en",
                 "is_reliable": true
-            }
+            },
+            "reactions": [
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U093J1BPCRZ"
+                    ],
+                    "count": 1
+                }
+            ]
         }
     ]
 }
