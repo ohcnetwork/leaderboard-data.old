@@ -6992,5 +6992,172 @@
                 }
             ]
         }
+    ],
+    "2025-11-05 00:00:00": [
+        {
+            "user": "U01JB8L8P7Y",
+            "type": "message",
+            "ts": "1762305611.638059",
+            "client_msg_id": "ace4d425-2a2d-4285-8a4e-083577039568",
+            "text": "Nov 4\n\u2022 Back and forths with Nihal with testing feedbacks and changes\n\u2022 fixed abha linking issue while creating or updating a patient (<https://github.com/ohcnetwork/care_fe/pull/14240|#14240>)\n\u2022 multiple huddles with Vyshak\n    \u25e6 to deploy multiple instances of abdm fe (with abha linking enforced and optional)\n    \u25e6 to debug issue with doctor connect\n    \u25e6 discussed about better managing plug specific env variables -- passing it via care_fe instance\nNext\n\u2022 Work on <https://github.com/ohcnetwork/care_fe/issues/14236|#14236>\n\u2022 Work on <https://github.com/ohcnetwork/care_fe/issues/14242|#14242>\n\u2022 Plugin registry implementation",
+            "team": "TC99SV7B6",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "xSAnV",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Nov 4\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Back and forths with Nihal with testing feedbacks and changes"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "fixed abha linking issue while creating or updating a patient ("
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/pull/14240",
+                                            "text": "#14240",
+                                            "unsafe": true
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ")"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "multiple huddles with Vyshak"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "to deploy multiple instances of abdm fe (with abha linking enforced and optional)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "to debug issue with doctor connect"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "discussed about better managing plug specific env variables -- passing it via care_fe instance"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 1,
+                            "border": 0
+                        },
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Next\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "rich_text_list",
+                            "elements": [
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Work on "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/issues/14236",
+                                            "text": "#14236",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Work on "
+                                        },
+                                        {
+                                            "type": "link",
+                                            "url": "https://github.com/ohcnetwork/care_fe/issues/14242",
+                                            "text": "#14242",
+                                            "unsafe": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "rich_text_section",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "Plugin registry implementation"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "bullet",
+                            "indent": 0,
+                            "border": 0
+                        }
+                    ]
+                }
+            ],
+            "language": {
+                "locale": "en",
+                "is_reliable": true
+            }
+        }
     ]
 }
