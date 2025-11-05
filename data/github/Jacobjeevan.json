@@ -1,6 +1,18 @@
 {
-  "last_updated": "2025-11-04T14:22:35.000Z",
+  "last_updated": "2025-11-05T06:30:07.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#3329",
+      "time": "2025-10-29T09:21:28.000Z"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#14244",
+      "time": "2025-11-05T06:29:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14244",
+      "text": "Inventory Redesign"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-11-04T14:09:48.000Z",
@@ -26,11 +38,6 @@
       "time": "2025-11-04T12:06:01.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/14217#issuecomment-3485652676",
       "text": "@atif09 Go ahead and remove the usage of trigger from CareTeamSheet. It's not being used any more 👍 "
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care#3329",
-      "time": "2025-10-29T09:21:28.000Z"
     },
     {
       "type": "pr_reviewed",
@@ -17874,6 +17881,16 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14245",
+      "title": "Inventory redesign",
+      "stale_for": 0,
+      "labels": [
+        "Work in Progress",
+        "Merge Conflict",
+        "Type Changes"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care/pull/3344",
       "title": "charge items: apply only highest charge item discount",
       "stale_for": 0,
@@ -17888,7 +17905,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13842",
       "title": "observation interpretation: form integration/errors and styling",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review",

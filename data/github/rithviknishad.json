@@ -1,6 +1,37 @@
 {
-  "last_updated": "2025-11-04T13:58:36.000Z",
+  "last_updated": "2025-11-05T08:58:12.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-04T13:47:21.000Z",
+      "title": "ohcnetwork/care_fe#14234",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14234#pullrequestreview-3416560965"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#14172",
+      "time": "2025-11-05T08:18:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14172",
+      "text": "Create new playwright tests for facility management"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-05T08:18:31.000Z",
+      "title": "ohcnetwork/care_fe#14246",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14246#pullrequestreview-3420506255"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-08T07:38:58.000Z",
+      "title": "ohcnetwork/care_fe#13934",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/13934#pullrequestreview-3313412989",
+      "text": "Feat: Add Location Picker to Payment Sheet"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#14142",
+      "time": "2025-10-27T08:08:03.000Z"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-11-04T13:58:36.000Z",
@@ -9,20 +40,9 @@
     },
     {
       "type": "pr_reviewed",
-      "time": "2025-11-04T13:47:21.000Z",
-      "title": "ohcnetwork/care_fe#14234",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14234#pullrequestreview-3416560965"
-    },
-    {
-      "type": "pr_reviewed",
       "time": "2025-11-04T13:45:09.000Z",
       "title": "ohcnetwork/care_fe#14238",
       "link": "https://github.com/ohcnetwork/care_fe/pull/14238#pullrequestreview-3416550395"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#14142",
-      "time": "2025-10-27T08:08:03.000Z"
     },
     {
       "type": "issue_opened",
@@ -30,13 +50,6 @@
       "time": "2025-11-04T13:35:28.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/14237",
       "text": "Duplicate Patient Name identifier config on searches"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-10-08T07:38:58.000Z",
-      "title": "ohcnetwork/care_fe#13934",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/13934#pullrequestreview-3313412989",
-      "text": "Feat: Add Location Picker to Payment Sheet"
     },
     {
       "type": "pr_reviewed",
@@ -78852,6 +78865,16 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14243",
+      "title": "Revert \"Ensure either one of facility/instance level patient name identifier is only shown based on context\"",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "Work in Progress"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13915",
       "title": "Token Categories list: nav tabs based on resource type",
       "stale_for": 6,
@@ -78863,7 +78886,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/3081",
       "title": "Dump token slot information to token booking's meta for expired slots",
-      "stale_for": 137,
+      "stale_for": 138,
       "labels": []
     }
   ],
