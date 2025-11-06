@@ -1,6 +1,12 @@
 {
-  "last_updated": "2025-11-06T08:33:42.000Z",
+  "last_updated": "2025-11-06T10:22:19.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-06T10:22:19.000Z",
+      "title": "ohcnetwork/care_fe#14245",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14245#pullrequestreview-3427390062"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-11-06T08:33:42.000Z",
@@ -17925,17 +17931,17 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14245",
       "title": "Inventory redesign",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
-        "Work in Progress",
-        "Merge Conflict",
+        "needs testing",
+        "needs review",
         "Type Changes"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care/pull/3344",
       "title": "charge items: apply only highest charge item discount",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": []
     },
     {
@@ -17943,9 +17949,10 @@
       "title": "observation interpretation: form integration/errors and styling",
       "stale_for": 0,
       "labels": [
+        "needs testing",
         "needs review",
         "P1",
-        "Work in Progress",
+        "waiting for backend",
         "Type Changes"
       ]
     },

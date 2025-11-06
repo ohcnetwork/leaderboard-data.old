@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-10-29T09:15:13.000Z",
+  "last_updated": "2025-11-06T14:42:00.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/design#34",
+      "time": "2025-11-06T14:42:00.000Z",
+      "link": "https://github.com/ohcnetwork/design/issues/34#issuecomment-3497575710",
+      "text": "This section is handed over to Varaprasad for development."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/design#34",
+      "time": "2025-11-06T14:39:41.000Z",
+      "link": "https://github.com/ohcnetwork/design/issues/34#issuecomment-3497565603",
+      "text": "## ⋮ Adding Kebab Menu\n**Design Page:** [View in Figma](https://www.figma.com/design/Z93EYKSa1MdBmXndsMBJSQ/Care---Master?node-id=29325-39988&p=f&t=G1AqA3LbMEQ0I1D8-11)\n\n---\n\n###  Interaction\nWhen the user clicks the **⋮ Kebab Menu**, a dropdown appears with two options:\n\n- **Edit Profile**  \n- **Remove User**\n\n\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/design#34",
+      "time": "2025-11-06T14:38:20.000Z",
+      "link": "https://github.com/ohcnetwork/design/issues/34#issuecomment-3497559893",
+      "text": "##  Edit Role Flow\n**Design Page:** [View in Figma](https://www.figma.com/design/Z93EYKSa1MdBmXndsMBJSQ/Care---Master?node-id=29325-39988&p=f&t=G1AqA3LbMEQ0I1D8-11)\n\n---\n\n### Trigger\nUser clicks on the **“Edit Role”** button within a **User Card**.\n\n---\n\n###  Navigation\nSystem navigates to the **Edit Role** screen.\n\nThis screen displays key user information in a structured layout:\n\n####  User Details Section\n- **Profile Name** – Full name of the selected user  \n- **Username** – System username or ID  \n- **Current Role** – Displays the user’s existing role  \n\n---\n\n### Role Selection Interaction\n- Below the details, show a **Role selection field (dropdown)**.  \n- When clicked, a **searchable dropdown** opens.\n\n---\n\n###  Update Action\n- After selecting a role, the **“Update Role”** button becomes active.  \n- On clicking **Update Role**, the new role is **saved** for that user.\n\n---\n\n###  Success Feedback\nOnce the update is successful, display a confirmation alert at the top of the screen:\n\n✅ **“User role updated successfully.”**\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/design#34",
+      "time": "2025-11-06T14:36:15.000Z",
+      "link": "https://github.com/ohcnetwork/design/issues/34#issuecomment-3497551483",
+      "text": "## 🔗 Link User Section\n**Design Page:** [View in Figma](https://www.figma.com/design/Z93EYKSa1MdBmXndsMBJSQ/Care---Master?node-id=29325-39988&p=f&t=G1AqA3LbMEQ0I1D8-11)\n\n---\n\n### Trigger\nUser clicks on **“Link User”** from their dashboard or relevant screen.\n\n---\n\n### Search Step\nA search field appears where the user can type the name of the person they want to link.\n\n---\n\n### Condition\n#### ✅ If the user exists:\nShow the matching user and allow linking directly.\n\n#### ❌ If the user does not exist:\nShow an option to add a new user.\n\n---\n\n### Add User Shortcut\nWhen clicking **“Add User”**:\n→ Redirect to the **Add User** screen.\n\n---\n\n### 🎯 Design Intent\nThis allows users (like admins, doctors, or staff) to quickly create and link a new user **without navigating back to the homepage**, improving **efficiency** and **flow continuity**."
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/design#34",
+      "time": "2025-11-06T13:33:35.000Z",
+      "link": "https://github.com/ohcnetwork/design/issues/34",
+      "text": "Edit User Role\" Dialog with Progressive Disclosure and Dynamic Role Update Button"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/design#33",
+      "time": "2025-11-06T13:22:15.000Z",
+      "link": "https://github.com/ohcnetwork/design/issues/33",
+      "text": "A11y Issue: Missing aria-labels"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/design#29",
