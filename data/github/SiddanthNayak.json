@@ -1,6 +1,12 @@
 {
-  "last_updated": "2025-11-05T12:00:33.000Z",
+  "last_updated": "2025-11-06T08:07:13.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-25T07:19:20.000Z",
+      "title": "ohcnetwork/care_fe#14116",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14116#pullrequestreview-3379797932"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#14252",
@@ -14,12 +20,6 @@
       "time": "2025-11-05T10:55:46.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/13934#issuecomment-3490529300",
       "text": "> PR functionality looks good but the playwright test is breaking down the entire test, looking into it now\r\n\r\n@nihal467  The tests assume that there is an account already created. Similar to `facilitySetup` I have created `accountSetup` to save an `accountId` for all tests.\r\n\r\nHope this helps --\r\n<img width=\"686\" height=\"248\" alt=\"Screenshot 2025-11-05 at 4 24 01 PM\" src=\"https://github.com/user-attachments/assets/a48a8693-7169-4b7c-b2c9-48a1a9f6bbab\" />\r\n<img width=\"1467\" height=\"789\" alt=\"Screenshot 2025-11-05 at 4 24 11 PM\" src=\"https://github.com/user-attachments/assets/df0e2ffe-ed35-411e-9519-1cafbf89d390\" />\r\n"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-10-25T07:19:20.000Z",
-      "title": "ohcnetwork/care_fe#14116",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14116#pullrequestreview-3379797932"
     },
     {
       "type": "comment_created",
@@ -534,9 +534,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14182",
       "title": "Playwright Tests for Specimen Definition",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": [
-        "needs review"
+        "needs review",
+        "Playwright Test Code Review"
       ]
     },
     {
@@ -547,15 +548,6 @@
         "needs testing",
         "needs review",
         "Playwright Test Pending"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/13990",
-      "title": "Fixes order id being present in url while switching location",
-      "stale_for": 3,
-      "labels": [
-        "Work in Progress",
-        "stale"
       ]
     }
   ],
