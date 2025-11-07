@@ -1,6 +1,20 @@
 {
-  "last_updated": "2025-11-07T07:52:19.000Z",
+  "last_updated": "2025-11-07T15:23:22.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14121",
+      "time": "2025-11-07T15:23:22.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14121#issuecomment-3503170776",
+      "text": "Fixed translations from plug; Added support to fetch plug i18n configuration from the plugin list api. While configuring the plug, the name or slug (if name is missing) should exactly match with the i18n namespace used in the plug (eg: https://github.com/ohcnetwork/care_abdm_fe/blob/527e363dd35de778cc058f1d2f7deb5f924e5e8b/src/lib/constants.ts#L4)\r\n\r\n\r\nNext:\r\nCurrently, if a plug is added or updated in the middle of the session, we need to manually refresh the entire app for the translations to take effect, this needs to be tackled."
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/abdm_phr#5",
+      "time": "2025-11-07T09:34:16.000Z",
+      "link": "https://github.com/ohcnetwork/abdm_phr/issues/5",
+      "text": "Initial Testing"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#14121",

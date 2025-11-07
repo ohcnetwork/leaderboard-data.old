@@ -1,6 +1,38 @@
 {
-  "last_updated": "2025-11-07T09:05:45.000Z",
+  "last_updated": "2025-11-07T13:45:37.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-07T13:45:37.000Z",
+      "title": "ohcnetwork/care_fe#14273",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14273#pullrequestreview-3434033663"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#14109",
+      "time": "2025-10-23T08:29:38.000Z"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#14272",
+      "time": "2025-11-07T12:28:01.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14272",
+      "text": "Create Playwright For Facility Device Management"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14268",
+      "time": "2025-11-07T11:10:53.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14268#issuecomment-3501928212",
+      "text": "LGTM , can you add a test to verify the functionality"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14245",
+      "time": "2025-11-07T09:33:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14245#issuecomment-3501502211",
+      "text": "<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/946e34b5-a43f-4a96-bf00-55dcce28651d\" />\r\n\r\n- unable to reset the value in the quantity to empty, always been defaulting to 1 upon trying to clear entire data\r\n\r\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/447b3afd-4a35-4744-93cf-a985c263bab4\" />\r\n<img width=\"438\" height=\"513\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ec6d0dd8-8f3e-4368-b370-bee4b5c19e2e\" />\r\n\r\n- once an item is added to the list, the no supply found and add item button shouldn't been shown as per the figma UI\r\n\r\n\r\n- Add a logic to show the draft against a request so that user doesn't create multiple delivery order\r\n- in the item to dispatch section itself show how much quantity already dispatch \r\n\r\n#### Enhancement for a followup PR\r\n\r\n<img width=\"1830\" height=\"1026\" alt=\"image\" src=\"https://github.com/user-attachments/assets/f68cab88-76af-4abd-80b4-fe310e5a601b\" />\r\n\r\n- unable to edit the request list, once its saved"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#14266",
@@ -217,11 +249,6 @@
       "time": "2025-11-06T10:48:51.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/14116#issuecomment-3496522491",
       "text": "@SiddanthNayak check into the action failure, the test is failing , look into it"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#14109",
-      "time": "2025-10-23T08:29:38.000Z"
     },
     {
       "type": "comment_created",
@@ -62841,7 +62868,17 @@
       "text": "Merge Develop To Staging v24.48.0 | Patch"
     }
   ],
-  "open_prs": [],
+  "open_prs": [
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14273",
+      "title": "Create playwright test for facility device creation",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    }
+  ],
   "authored_issue_and_pr": [
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/14172",

@@ -1,6 +1,31 @@
 {
-  "last_updated": "2025-11-07T07:44:18.000Z",
+  "last_updated": "2025-11-07T14:41:08.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-07T13:20:51.000Z",
+      "title": "ohcnetwork/care_fe#14162",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14162#pullrequestreview-3433884287"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#14111",
+      "time": "2025-10-23T10:10:31.000Z"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#14271",
+      "time": "2025-11-07T11:02:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14271",
+      "text": "Slug character validation is inconsistent"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14182",
+      "time": "2025-11-07T10:55:07.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14182#issuecomment-3501864283",
+      "text": "@nihal467 \r\n> your PR is failing in the action itself, can you review them and fix it\r\n\r\nThe test started failing because of #13755. Previously if user tried to save with slugs less than 5 characters and more than 25 characters, it showed a toast message. \r\n\r\nNow there is a form error message. My test was trying to locate the toast message which wasnt available after the PR changes were merged which is why it started failing.\r\n\r\nWill fix it."
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-10-29T13:19:05.000Z",
@@ -39,11 +64,6 @@
       "time": "2025-10-23T11:49:11.000Z",
       "title": "ohcnetwork/care_fe#13934",
       "link": "https://github.com/ohcnetwork/care_fe/pull/13934#pullrequestreview-3369546287"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#14111",
-      "time": "2025-10-23T10:10:31.000Z"
     },
     {
       "type": "issue_opened",
@@ -532,17 +552,28 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14274",
+      "title": "Fixed slug validation having incorrect min length",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14182",
       "title": "Playwright Tests for Specimen Definition",
       "stale_for": 0,
       "labels": [
-        "Changes Required"
+        "question",
+        "Changes Required",
+        "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14116",
       "title": "Feat - Redesigned Past Symptoms /  Past Diagnoses and Medication History Tabs",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Work in Progress"
       ]

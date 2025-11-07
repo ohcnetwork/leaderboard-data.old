@@ -1,6 +1,18 @@
 {
-  "last_updated": "2025-11-07T08:18:30.000Z",
+  "last_updated": "2025-11-07T13:09:20.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13968",
+      "time": "2025-11-07T13:09:20.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/13968#issuecomment-3502460565",
+      "text": "on UI side:\r\n\r\n- adjust cancel button (hover color)\r\n- save changes button (adjust flex since loader, which appears on button click, is on top instead of side by side to the text)\r\n\r\ncc: @StephZam "
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#3329",
+      "time": "2025-10-29T09:21:28.000Z"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-11-06T08:33:42.000Z",
@@ -38,11 +50,6 @@
       "time": "2025-11-05T14:53:49.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/13842#issuecomment-3491675391",
       "text": "> @Jacobjeevan can you mention an ETD for the PR ready for testing and related backend change current status\r\n\r\nhttps://github.com/ohcnetwork/care/pull/3346"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care#3329",
-      "time": "2025-10-29T09:21:28.000Z"
     },
     {
       "type": "issue_opened",
@@ -17919,6 +17926,12 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/3351",
+      "title": "add patient tag metric",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14255",
       "title": "enable when: bypass required and clear answers for not enabled qns",
       "stale_for": 0,
@@ -17929,18 +17942,11 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care/pull/3346",
-      "title": "tag metric: support for multi condition interpretation",
-      "stale_for": 0,
-      "labels": []
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14245",
       "title": "Inventory redesign",
       "stale_for": 0,
       "labels": [
-        "needs testing",
-        "needs review",
+        "Changes Required",
         "Type Changes"
       ]
     },
