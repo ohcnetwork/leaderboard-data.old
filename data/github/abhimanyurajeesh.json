@@ -1,11 +1,37 @@
 {
-  "last_updated": "2025-11-07T00:15:23.000Z",
+  "last_updated": "2025-11-07T08:23:30.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14158",
+      "time": "2025-11-07T08:23:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14158#issuecomment-3501246889",
+      "text": "@GSMPRANEETH closing this PR as the issue as been already sloved in develop. And its better to write the test once BE loads the fixtures. \r\n\r\nFeel free to create a new issue for test. "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#14155",
+      "time": "2025-11-07T08:19:36.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14155",
+      "text": "Unnecessary network call while editing queue name"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14155",
+      "time": "2025-11-07T08:19:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14155#issuecomment-3501234344",
+      "text": "This issue as been already solved in the develop."
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-10-21T12:43:33.000Z",
       "title": "ohcnetwork/care_fe#14098",
       "link": "https://github.com/ohcnetwork/care_fe/pull/14098#pullrequestreview-3360449039"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#14098",
+      "time": "2025-10-21T12:35:49.000Z"
     },
     {
       "type": "comment_created",
@@ -26,11 +52,6 @@
       "time": "2025-10-30T09:06:17.000Z",
       "title": "ohcnetwork/care_fe#14162",
       "link": "https://github.com/ohcnetwork/care_fe/pull/14162#pullrequestreview-3398167337"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#14098",
-      "time": "2025-10-21T12:35:49.000Z"
     },
     {
       "type": "pr_reviewed",
@@ -5499,7 +5520,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14168",
       "title": "feat: add comprehensive tests for internal and external product order…",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "Work in Progress",
         "stale"
@@ -5526,8 +5547,8 @@
       "title": "feat: add delivery status update functionality ",
       "stale_for": 0,
       "labels": [
-        "Tested",
-        "Changes Required"
+        "needs testing",
+        "needs review"
       ]
     }
   ],
