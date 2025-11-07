@@ -1,6 +1,19 @@
 {
-  "last_updated": "2025-11-06T16:40:46.000Z",
+  "last_updated": "2025-11-07T00:15:23.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-21T12:43:33.000Z",
+      "title": "ohcnetwork/care_fe#14098",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14098#pullrequestreview-3360449039"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14241",
+      "time": "2025-11-06T23:53:12.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14241#issuecomment-3499880259",
+      "text": "> @abhimanyurajeesh can you add more context for the issue, are we removing the versioning fully or will backend take care of versioning going forward? \n\nWhile updating a questionnaire, the backend was giving an error message stating that the version should be a string. As a temporary fix, the frontend was sending the integer as a string while updating the questionnaire. \n\nThis PR reverts that change, once BE fixes versioning. (BE will take care of versioning going forward)"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#14162",
@@ -258,12 +271,6 @@
       "time": "2025-10-24T04:34:54.000Z",
       "title": "ohcnetwork/care_fe#14115",
       "link": "https://github.com/ohcnetwork/care_fe/pull/14115#pullrequestreview-3374495181"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-10-21T12:43:33.000Z",
-      "title": "ohcnetwork/care_fe#14098",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14098#pullrequestreview-3360449039"
     },
     {
       "type": "pr_merged",
@@ -5517,10 +5524,10 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14098",
       "title": "feat: add delivery status update functionality ",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "needs review",
-        "Tested"
+        "Tested",
+        "Changes Required"
       ]
     }
   ],

@@ -1,6 +1,12 @@
 {
-  "last_updated": "2025-11-01T12:32:40.000Z",
+  "last_updated": "2025-11-06T19:12:00.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-29T10:49:55.000Z",
+      "title": "ohcnetwork/care_fe#14177",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14177#pullrequestreview-3392700526"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-11-01T12:32:40.000Z",
@@ -41,12 +47,6 @@
       "time": "2025-10-29T13:27:29.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/13940#issuecomment-3461518919",
       "text": "@yash-learner \r\n\r\n> `MedicationRequestList` maybe repeating the code AFAIR, @GSMPRANEETH can you confirm that ?\r\n\r\nYes, using modified filter-tabs in `MedicationRequestList`\r\n\r\n\r\n@nihal467 \r\n> @GSMPRANEETH icon already exist in medicine request list , can you attach screenshot of current develop and your PR change, if there is any mistake\r\n\r\nHere, I've modified `filter-tabs` to support icons and labels for options and implemented it in `MedicationRequestList`\r\n`MedicationRequestList` already has tabs with icons etc,  but rather than using tabs, i've implemented `filter-tabs` component in it,\r\nThis solves 2 issues:\r\n1. Making filter-tabs component support icons and labels\r\n2. Implemented filter-tabs in suitable components, `MedicationRequestList` is just for example where it can be implemented. more context : https://github.com/ohcnetwork/design/issues/26"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-10-29T10:49:55.000Z",
-      "title": "ohcnetwork/care_fe#14177",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14177#pullrequestreview-3392700526"
     },
     {
       "type": "pr_opened",
@@ -992,16 +992,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14177",
       "title": "Fixing UI in settings/billing to highlight selected sidebar item",
-      "stale_for": 3,
-      "labels": [
-        "needs review",
-        "Tested"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14159",
-      "title": "Aligning UI items in Queue Details page",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"
@@ -1010,7 +1001,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14158",
       "title": "Disabling submit button when no changes made",
-      "stale_for": 0,
+      "stale_for": 4,
       "labels": [
         "question",
         "Playwright Test Pending",
@@ -1020,6 +1011,10 @@
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/14105",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/14159"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/14074",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/14096"

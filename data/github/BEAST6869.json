@@ -1,0 +1,14 @@
+{
+  "last_updated": "2025-11-06T18:32:48.000Z",
+  "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13953",
+      "time": "2025-11-06T18:32:48.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/13953#issuecomment-3498820462",
+      "text": "Hi @Jacobjeevan could you please assing this issue to me ,\nFor \"Search by Phone Number\": I'll add an oninput event handler to the <input> element. This handler will use a regular expression (/\\D/g) to immediately strip out any non-digit characters as the user types.\n\nFor \"Search by Patient Name\": I will add a similar oninput handler to its <input> element, using a regex (/\\d/g) to strip out any digit characters.\n\nThis will enforce the expected input type for both fields without allowing invalid characters to be entered.\n\nPlease let me know if this approach is suitable. If so, I would be happy to be assigned this issue.\n\nThank you."
+    }
+  ],
+  "open_prs": [],
+  "authored_issue_and_pr": []
+}
