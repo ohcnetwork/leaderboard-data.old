@@ -1,6 +1,19 @@
 {
-  "last_updated": "2025-11-03T19:17:15.000Z",
+  "last_updated": "2025-11-09T14:12:02.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13603",
+      "time": "2025-11-09T14:12:02.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/13603#issuecomment-3508394685",
+      "text": "@nihal467 \r\n\r\nAre you able to reproduce the issue you had pointed here https://github.com/ohcnetwork/care_fe/pull/13603#issuecomment-3460294898 ?\r\n\r\nIf yes\r\n\r\ncan you please share the steps for replicating it.\r\n\r\nelse\r\n\r\nCan you please update the labels ?"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-21T18:55:34.000Z",
+      "title": "ohcnetwork/care_fe#13603",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/13603#pullrequestreview-3362262402"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#14065",
@@ -260,12 +273,6 @@
       "time": "2025-10-21T20:22:27.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/13603#issuecomment-3429426582",
       "text": "> @yash-learner can you clear the merge conflict\r\n\r\n@nihal467 cleared"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-10-21T18:55:34.000Z",
-      "title": "ohcnetwork/care_fe#13603",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/13603#pullrequestreview-3362262402"
     },
     {
       "type": "pr_reviewed",
@@ -2621,16 +2628,17 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14108",
       "title": "Add tests for activity definition ",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "Changes Required",
-        "Work in Progress"
+        "Work in Progress",
+        "stale"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13674",
       "title": "Clean up types and routes for Notes, Questionnaire, Observation",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "question",
         "Merge Conflict",
@@ -2641,10 +2649,11 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13603",
       "title": "Fix: Clean up missed for encounter and patient types",
-      "stale_for": 3,
+      "stale_for": 0,
       "labels": [
+        "needs testing",
+        "needs review",
         "test failed",
-        "Merge Conflict",
         "Type Changes"
       ]
     }
