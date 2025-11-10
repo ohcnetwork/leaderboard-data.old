@@ -1,6 +1,19 @@
 {
-  "last_updated": "2025-11-07T17:56:57.000Z",
+  "last_updated": "2025-11-10T07:41:04.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-10T07:11:32.000Z",
+      "title": "ohcnetwork/care_fe#14284",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14284#pullrequestreview-3441210399"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#14285",
+      "time": "2025-11-10T07:14:34.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14285",
+      "text": "Refactor Encounter shortcut to use new shortcut system"
+    },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#14098",
@@ -5515,6 +5528,18 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14284",
+      "title": "feat: enhance DispenseDrawer with account query and invoice sheet integration",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "needs testing",
+        "needs review",
+        "P1",
+        "needs-triage"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14241",
       "title": "refactor: remove version field from questionnaire update",
       "stale_for": 3,
@@ -5526,7 +5551,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14168",
       "title": "feat: add comprehensive tests for internal and external product order…",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": [
         "Work in Progress",
         "stale"
@@ -5535,10 +5560,11 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14162",
       "title": "Playwright Test: Product Knowledge & Charge Item Definitions & related changes",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review"
+        "needs review",
+        "P1"
       ]
     },
     {
@@ -5553,7 +5579,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14098",
       "title": "feat: add delivery status update functionality ",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review"
