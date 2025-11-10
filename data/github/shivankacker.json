@@ -1,6 +1,19 @@
 {
-  "last_updated": "2025-11-06T17:58:23.000Z",
+  "last_updated": "2025-11-10T10:34:59.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-05T22:45:29.000Z",
+      "title": "ohcnetwork/care_fe#14260",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14260#pullrequestreview-3424824511"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#14290",
+      "time": "2025-11-10T10:14:55.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14290",
+      "text": "Unable to save the edit healthcare service form with just a change to the icon"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-11-06T09:16:59.000Z",
@@ -19,12 +32,6 @@
       "time": "2025-11-06T11:43:12.000Z",
       "link": "https://github.com/ohcnetwork/care_scribe/pull/12#issuecomment-3496785733",
       "text": "@gigincg done"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-11-05T22:45:29.000Z",
-      "title": "ohcnetwork/care_fe#14260",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14260#pullrequestreview-3424824511"
     },
     {
       "type": "issue_opened",
@@ -13893,53 +13900,47 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14260",
-      "title": "Tests for healthcare services",
+      "title": "Bug Fixes and Tests for healthcare services",
       "stale_for": 0,
       "labels": [
-        "Changes Required"
+        "needs testing",
+        "needs review",
+        "Type Changes"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14257",
       "title": "Added test for Patient Identifier Config",
-      "stale_for": 1,
+      "stale_for": 3,
       "labels": [
-        "needs testing",
-        "needs review"
+        "Changes Required"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14171",
       "title": "Automatically switch to test DB when running playwright tests",
-      "stale_for": 5,
+      "stale_for": 1,
       "labels": [
-        "waiting for backend"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care/pull/3326",
-      "title": "Added make commands to switch to test db during playwright tests",
-      "stale_for": 2,
-      "labels": [
-        "peer-reviewed"
+        "waiting for backend",
+        "stale"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe/pull/14",
       "title": "Questionnaire instructions",
-      "stale_for": 67,
+      "stale_for": 71,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/41",
       "title": "Added questionnaire instructions",
-      "stale_for": 67,
+      "stale_for": 71,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/145",
       "title": "Updated Installation docs for Scribe",
-      "stale_for": 128,
+      "stale_for": 131,
       "labels": []
     }
   ],

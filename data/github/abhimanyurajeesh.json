@@ -1,6 +1,48 @@
 {
-  "last_updated": "2025-11-10T07:41:04.000Z",
+  "last_updated": "2025-11-10T13:39:14.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14292",
+      "time": "2025-11-10T13:39:14.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14292#issuecomment-3511717401",
+      "text": "> > @copilot we need not create new files, can you please check into\r\n> > \r\n> > * generate-supported-browsers.mjs\r\n> >   ...\r\n> \r\n> You're right - I've removed the unnecessary files. The fix only requires updating the browserslist configuration in package.json (commit [8d717d0](https://github.com/ohcnetwork/care_fe/commit/8d717d0436f7ee3bac9a7287f2e7057627ece470)).\r\n> \r\n> The existing `generate-supported-browsers.mjs` already reads from browserslist and generates the regex, and `BrowserWarning.tsx` already uses it to detect unsupported browsers. Chrome 109 is now correctly detected as unsupported.\r\n\r\nthis works but the issue is how we will know if these version also get removed tomorrow ? \r\n"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14292",
+      "time": "2025-11-10T13:30:30.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14292#issuecomment-3511669131",
+      "text": "\r\n@copilot we need not create new files, can you please check into \r\n- generate-supported-browsers.mjs\r\n- BrowserWarning.tsx\r\n\r\nto understand how we are currently doing it "
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#14291",
+      "time": "2025-11-10T12:54:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14291",
+      "text": "Chrome 109 Not Detected as Unsupported Browser"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#13093",
+      "time": "2025-11-10T12:36:41.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/13093",
+      "text": "Expand upto child location if search matches in Location select"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13093",
+      "time": "2025-11-10T12:36:39.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/13093#issuecomment-3511378492",
+      "text": "this was resolved "
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#14267",
+      "time": "2025-11-10T12:24:08.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14267",
+      "text": "Allow users to invoice medicines dispensed via Encounter"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-11-10T07:11:32.000Z",
@@ -5528,18 +5570,6 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14284",
-      "title": "feat: enhance DispenseDrawer with account query and invoice sheet integration",
-      "stale_for": 0,
-      "labels": [
-        "question",
-        "needs testing",
-        "needs review",
-        "P1",
-        "needs-triage"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14241",
       "title": "refactor: remove version field from questionnaire update",
       "stale_for": 3,
@@ -5558,19 +5588,9 @@
       ]
     },
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14162",
-      "title": "Playwright Test: Product Knowledge & Charge Item Definitions & related changes",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "needs review",
-        "P1"
-      ]
-    },
-    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14122",
       "title": "Add Playwright tests for creating and managing encounters",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "needs testing",
         "needs review"
@@ -5592,6 +5612,10 @@
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/14191"
     },
     {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/14151",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/14162"
+    },
+    {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/12438",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/12439"
     },
@@ -5610,10 +5634,6 @@
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11807",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11808"
-    },
-    {
-      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/11517",
-      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/11518"
     }
   ]
 }

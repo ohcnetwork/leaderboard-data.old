@@ -1,6 +1,34 @@
 {
-  "last_updated": "2025-11-07T13:09:20.000Z",
+  "last_updated": "2025-11-10T13:03:43.000Z",
   "activity": [
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#14293",
+      "time": "2025-11-10T13:03:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14293",
+      "text": "workflow: update issue on project board based on PR labels"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14289",
+      "time": "2025-11-10T12:45:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14289#issuecomment-3511422542",
+      "text": "https://github.com/ohcnetwork/care_fe/issues/13131#issuecomment-3511421549"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#13131",
+      "time": "2025-11-10T12:45:35.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/13131",
+      "text": " Refactor Permission System to Use Enums for Improved Type Safety"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#13131",
+      "time": "2025-11-10T12:45:33.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/13131#issuecomment-3511421549",
+      "text": "hmm, moving to enums is unnecessary in this case and doesn't provide much benefit 🤔  since we don't directly refer to the permission.\n\nWe should clean up permissions eventually though (to do, along with all the other permissions rendering)."
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#13968",
@@ -17928,43 +17956,35 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/3351",
       "title": "add patient tag metric",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": []
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14255",
-      "title": "enable when: bypass required and clear answers for not enabled qns",
-      "stale_for": 2,
-      "labels": [
-        "needs testing",
-        "needs review",
-        "P1"
-      ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14245",
       "title": "Inventory redesign",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
-        "Changes Required",
+        "needs testing",
+        "needs review",
         "Type Changes"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13842",
       "title": "observation interpretation: form integration/errors and styling",
-      "stale_for": 2,
+      "stale_for": 0,
       "labels": [
         "P1",
         "Work in Progress",
         "waiting for backend",
+        "Merge Conflict",
         "Type Changes"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13082",
       "title": "add ingredients, nutrients, and drug characteristics for prod definition",
-      "stale_for": 2,
+      "stale_for": 3,
       "labels": [
         "Work in Progress",
         "Merge Conflict"

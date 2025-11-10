@@ -1,6 +1,12 @@
 {
-  "last_updated": "2025-11-10T08:06:54.000Z",
+  "last_updated": "2025-11-10T13:00:42.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-25T07:19:20.000Z",
+      "title": "ohcnetwork/care_fe#14116",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14116#pullrequestreview-3379797932"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-11-10T08:06:54.000Z",
@@ -37,12 +43,6 @@
       "time": "2025-10-29T13:19:05.000Z",
       "title": "ohcnetwork/care_fe#14182",
       "link": "https://github.com/ohcnetwork/care_fe/pull/14182#pullrequestreview-3393322223"
-    },
-    {
-      "type": "pr_reviewed",
-      "time": "2025-10-25T07:19:20.000Z",
-      "title": "ohcnetwork/care_fe#14116",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14116#pullrequestreview-3379797932"
     },
     {
       "type": "issue_opened",
@@ -581,7 +581,9 @@
       "title": "Feat - Redesigned Past Symptoms /  Past Diagnoses and Medication History Tabs",
       "stale_for": 0,
       "labels": [
-        "Work in Progress"
+        "needs testing",
+        "needs review",
+        "Playwright Test Code Review"
       ]
     }
   ],
