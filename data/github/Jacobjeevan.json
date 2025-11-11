@@ -1,6 +1,51 @@
 {
-  "last_updated": "2025-11-10T13:03:43.000Z",
+  "last_updated": "2025-11-11T08:18:15.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12797",
+      "time": "2025-11-11T08:18:15.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12797#issuecomment-3515487869",
+      "text": "> @nihal467 Regarding the issue: Unless the user goes to Settings and manually syncs offline data after coming online, the frontend displays inconsistent or random data on the Encounter page.\r\n> \r\n> This happens because, in online mode, all API calls fetch fresh data from the server instead of using the cache. If the data isn’t synced yet, it results in errors or missing data. This is the default behavior of online mode.\r\n> \r\n> cc: @Jacobjeevan\r\n\r\nwe should use isOnline to display a popup whenever user gets back online; said popup should contain a button to trigger sync, rather than user having to remember to go to the page and click on sync."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12797",
+      "time": "2025-11-11T08:12:42.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12797#issuecomment-3515467143",
+      "text": "> @Jacobjeevan, regarding the second issue Nihal mentioned — which is related to caching — an encounter is created, but since the patient data is not present in the cache, the user cannot proceed offline. However, if Nihal tries to create the encounter right after visiting the patient homepage online first, it works because when the user visits the patient profile/homepage, the patient data is stored in the cache with the query key \"patient:id\".\r\n> \r\n> Since there’s no query call with the key \"patient:id\" on the verify patient page, the patient data isn’t cached there.\r\n> \r\n> What do you think I should do in this case? Should I call the same query on the verify patient page as well as on the patient homepage?\r\n> \r\n> cc: @nihal467\r\n\r\nSo VerifyPatient page calls search retrieve, which you can use along with setQueryData to populate patient data. \r\n\r\n> @Jacobjeevan, Missing patient data in the cache is also resulting in an error in the appointment creation as well. cc: @nihal467\r\n\r\nSame here. Patient home page, which contains both create encounter and create appointment buttons can't be reached without having access to patient data."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-11T07:53:43.000Z",
+      "title": "ohcnetwork/care_fe#14276",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14276#pullrequestreview-3446545923"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-11T06:12:26.000Z",
+      "title": "ohcnetwork/care_fe#14277",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14277#pullrequestreview-3446412419"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-11T05:58:21.000Z",
+      "title": "ohcnetwork/care_fe#14279",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14279#pullrequestreview-3446380798"
+    },
+    {
+      "type": "issue_closed",
+      "title": "ohcnetwork/care_fe#12964",
+      "time": "2025-11-11T05:50:21.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/12964",
+      "text": "Bug: Active tab in Billings is not getting highlighted"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-11T05:50:03.000Z",
+      "title": "ohcnetwork/care_fe#14177",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14177#pullrequestreview-3446363720"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#14293",
@@ -17984,7 +18029,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13082",
       "title": "add ingredients, nutrients, and drug characteristics for prod definition",
-      "stale_for": 3,
+      "stale_for": 4,
       "labels": [
         "Work in Progress",
         "Merge Conflict"

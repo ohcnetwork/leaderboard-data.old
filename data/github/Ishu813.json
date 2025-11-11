@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-11-03T10:51:47.000Z",
+  "last_updated": "2025-11-11T06:47:06.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14293",
+      "time": "2025-11-11T06:47:06.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14293#issuecomment-3515228651",
+      "text": "Hi Team,\nI would like to work on this issue\n\nSolution : I plan to add a GitHub Actions workflow that automatically updates the issue’s status on the project board based on PR labels\nETA : 2-3 days"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#14213",
@@ -501,10 +508,9 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14213",
       "title": "fix: Fixed print invoice layout and mobile view scaling",
-      "stale_for": 0,
+      "stale_for": 3,
       "labels": [
-        "needs testing",
-        "needs review"
+        "Changes Required"
       ]
     },
     {
@@ -512,20 +518,7 @@
       "title": "Fixed #13732: Fixed UI of Tags dropdown in Add Patient Details page",
       "stale_for": 2,
       "labels": [
-        "question",
-        "needs testing",
-        "needs review",
-        "needs-triage"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14031",
-      "title": "Fixed #13956: Made 'No Records Found' message input specific",
-      "stale_for": 1,
-      "labels": [
-        "needs review",
-        "Tested",
-        "Playwright Test Pending"
+        "Changes Required"
       ]
     }
   ],
