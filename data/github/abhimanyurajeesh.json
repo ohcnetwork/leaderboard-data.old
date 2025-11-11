@@ -1,6 +1,17 @@
 {
-  "last_updated": "2025-11-11T07:53:26.000Z",
+  "last_updated": "2025-11-11T16:00:22.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-11T16:00:22.000Z",
+      "title": "ohcnetwork/care_fe#14298",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14298#pullrequestreview-3448787159"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#14098",
+      "time": "2025-10-21T12:35:49.000Z"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-11-11T07:53:26.000Z",
@@ -61,11 +72,6 @@
       "time": "2025-11-10T07:14:34.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/issues/14285",
       "text": "Refactor Encounter shortcut to use new shortcut system"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#14098",
-      "time": "2025-10-21T12:35:49.000Z"
     },
     {
       "type": "pr_reviewed",
@@ -5576,6 +5582,16 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14298",
+      "title": "Refactor: PatientIdentifierFilter",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "Work in Progress"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14241",
       "title": "refactor: remove version field from questionnaire update",
       "stale_for": 4,
@@ -5591,15 +5607,6 @@
       "labels": [
         "Work in Progress",
         "stale"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14122",
-      "title": "Add Playwright tests for creating and managing encounters",
-      "stale_for": 3,
-      "labels": [
-        "needs testing",
-        "needs review"
       ]
     },
     {

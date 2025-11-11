@@ -1,6 +1,17 @@
 {
-  "last_updated": "2025-11-11T08:44:58.000Z",
+  "last_updated": "2025-11-11T14:23:28.000Z",
   "activity": [
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-11T14:23:28.000Z",
+      "title": "ohcnetwork/care_fe#14297",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14297#pullrequestreview-3448319738"
+    },
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#14111",
+      "time": "2025-10-23T10:10:31.000Z"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-10-29T13:19:05.000Z",
@@ -30,11 +41,6 @@
       "time": "2025-11-07T13:20:51.000Z",
       "title": "ohcnetwork/care_fe#14162",
       "link": "https://github.com/ohcnetwork/care_fe/pull/14162#pullrequestreview-3433884287"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#14111",
-      "time": "2025-10-23T10:10:31.000Z"
     },
     {
       "type": "issue_opened",
@@ -564,12 +570,22 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14297",
+      "title": "Added archive support for system generated patient identifier",
+      "stale_for": 0,
+      "labels": [
+        "needs testing",
+        "needs review",
+        "Playwright Test Code Review"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14274",
       "title": "Fixed slug validation having incorrect min length",
       "stale_for": 0,
       "labels": [
         "needs testing",
-        "needs review"
+        "reviewed"
       ]
     },
     {
