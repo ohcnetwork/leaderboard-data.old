@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-11-11T06:47:06.000Z",
+  "last_updated": "2025-11-12T08:00:50.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14302",
+      "time": "2025-11-12T08:00:50.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14302#issuecomment-3520538103",
+      "text": "Hi Team,\nI would like to work on this feature.\n\n**Proposed Solution:**\nImplement a sorting feature within the inventory items list that allows users to sort medicines based on stock quantity (both ascending and descending).\n\nApproach:\n- Add a `Sort by Stock` option in the inventory UI, possibly as a dropdown or toggle.\n- Integrate sorting logic in the frontend (depending on current data handling) to reorder items by stock quantity.\n- Ensure sorting works seamlessly with existing search and filter functionalities.\n- Optionally, allow multi-level sorting (e.g., by stock → name) for better usability.\n\n**Expected Outcome:**\nUsers can easily identify medicines with low or high stock, enabling faster restocking decisions and improved inventory management.\n\nETA : 2 - 5 days"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#14293",
