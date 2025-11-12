@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-11-11T14:23:28.000Z",
+  "last_updated": "2025-11-12T12:56:38.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14116",
+      "time": "2025-11-12T12:56:38.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14116#issuecomment-3521810824",
+      "text": "\r\n> * the insutruction and notes used to be in the old UI, is missing in yours. If figma doesn't have it, confirm with the product team whether it was taken off intentionally or a design mistake\r\n> * similarly status and note is removed from UI was intentionally removed after confirmation from product team\r\n> * new field name duration was added to medication statement, why this was added to medication statement, since the statement doesn't have a field labelled like that. can you clarify on that ?\r\n\r\n@nihal467 all changes were made after confirming with @vinutv according to the [design](https://www.figma.com/design/Z93EYKSa1MdBmXndsMBJSQ/Care---Master?node-id=21514-46623&p=f&t=6Bk9AHsqUKZDSNBH-0)\r\n\r\n<img width=\"373\" height=\"525\" alt=\"Screenshot 2025-11-12 at 6 07 24 PM\" src=\"https://github.com/user-attachments/assets/79328ba0-9c50-44b8-9e7b-1eb3cfc2e376\" />\r\n<img width=\"471\" height=\"481\" alt=\"Screenshot 2025-11-12 at 6 07 33 PM\" src=\"https://github.com/user-attachments/assets/0dc44d9f-48e8-4538-871f-785cab3e7d04\" />\r\n<img width=\"479\" height=\"427\" alt=\"Screenshot 2025-11-12 at 6 07 40 PM\" src=\"https://github.com/user-attachments/assets/97564bc5-0ee4-4872-9a2b-c99adc4b6f20\" />\r\n\r\nInitially it was discussed there would be an `Info Badge` where on click we would show notes and instructions, but after further discussion that was removed as well.\r\n\r\n\r\n<img width=\"989\" height=\"562\" alt=\"Screenshot 2025-11-12 at 6 24 41 PM\" src=\"https://github.com/user-attachments/assets/cffe5c30-9efd-4c87-8e9d-3e6370c070cf\" />\r\n<img width=\"990\" height=\"502\" alt=\"Screenshot 2025-11-12 at 6 25 06 PM\" src=\"https://github.com/user-attachments/assets/cf979b7d-59fe-4afc-b09c-d316962d36b7\" />\r\n"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-11-11T14:23:28.000Z",
@@ -574,43 +581,36 @@
       "title": "Added archive support for system generated patient identifier",
       "stale_for": 0,
       "labels": [
-        "needs testing",
         "needs review",
+        "Tested",
         "Playwright Test Code Review"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14274",
-      "title": "Fixed slug validation having incorrect min length",
-      "stale_for": 0,
-      "labels": [
-        "needs testing",
-        "reviewed"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14182",
       "title": "Playwright Tests for Specimen Definition",
-      "stale_for": 1,
-      "labels": [
-        "question",
-        "Changes Required",
-        "Work in Progress",
-        "needs-triage"
-      ]
-    },
-    {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14116",
-      "title": "Feat - Redesigned Past Symptoms /  Past Diagnoses and Medication History Tabs",
-      "stale_for": 1,
+      "stale_for": 0,
       "labels": [
         "needs testing",
         "needs review",
         "Playwright Test Code Review"
       ]
+    },
+    {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14116",
+      "title": "Feat - Redesigned Past Symptoms /  Past Diagnoses and Medication History Tabs",
+      "stale_for": 0,
+      "labels": [
+        "question",
+        "Changes Required"
+      ]
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/14271",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/14274"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/13751",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/13752"

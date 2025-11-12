@@ -1,6 +1,58 @@
 {
-  "last_updated": "2025-11-12T08:44:44.000Z",
+  "last_updated": "2025-11-12T14:56:25.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14181",
+      "time": "2025-11-12T14:56:25.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14181#issuecomment-3522365089",
+      "text": "> > > @copilot the issue this exist, the location label is not turning red\r\n> > \r\n> > \r\n> > Since Location is its own section, current solution is enough imo 🤔\r\n> > ...\r\n> \r\n> Reverted in commits [647a25f](https://github.com/ohcnetwork/care_fe/commit/647a25fe01a29f8a966f0b77dd1809ad088b7d5e) and [e4f9ca3](https://github.com/ohcnetwork/care_fe/commit/e4f9ca3a11b824c0033dcc883ae0f100b607594d). Removed the FormLabel and restored the section heading structure. The Locations section now maintains consistency with other complex selector sections - the heading stays neutral while the selector button shows the red border and error message on validation failure.\r\n\r\n@co-pilot Heading doesn't stay neutral, instead turns red, but the output is what we wanted. No need for any other changes."
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14181",
+      "time": "2025-11-12T12:46:43.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14181#issuecomment-3521759964",
+      "text": "> @copilot the issue this exist, the location label is not turning red\r\n\r\nEdit: With the revert below, solution is correct 👍 \r\n\r\n<img width=\"783\" height=\"158\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0f892efc-0924-444d-ae62-a93b538baa55\" />\r\n\r\n\r\nAlso added some minor styling changes for requirements selector \r\n\r\n- Used for Location multi select in Healthcare service Form (check scrollbar vs content spacing in list)\r\n- Used for observation/specimen for Activity Definition Form\r\n   - Should stay the same, but adjusted the layout\r\n- Adjusted trash icon hover\r\n\r\ncc: @nihal467 "
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-12T11:48:06.000Z",
+      "title": "ohcnetwork/care_fe#14306",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14306#pullrequestreview-3453036741"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14250",
+      "time": "2025-11-12T11:41:40.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14250#issuecomment-3521507767",
+      "text": "Do note that deletion currently requiring creating/removing a observation interpretation (fix is with the other PR)."
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-12T11:36:57.000Z",
+      "title": "ohcnetwork/care_fe#14250",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14250#pullrequestreview-3452999002"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-12T11:14:50.000Z",
+      "title": "ohcnetwork/care_fe#14183",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14183#pullrequestreview-3452919499"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-12T10:59:14.000Z",
+      "title": "ohcnetwork/care_fe#14299",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14299#pullrequestreview-3452868017"
+    },
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14281",
+      "time": "2025-11-12T10:47:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14281#issuecomment-3521291445",
+      "text": "Wait for #14276 "
+    },
     {
       "type": "issue_closed",
       "title": "ohcnetwork/care_fe#12477",
@@ -18021,7 +18073,7 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/3351",
       "title": "add patient tag metric",
-      "stale_for": 4,
+      "stale_for": 5,
       "labels": []
     },
     {
@@ -18037,7 +18089,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/13842",
       "title": "observation interpretation: form integration/errors and styling",
-      "stale_for": 1,
+      "stale_for": 2,
       "labels": [
         "P1",
         "Work in Progress",

@@ -1,6 +1,11 @@
 {
-  "last_updated": "2025-11-12T08:43:42.000Z",
+  "last_updated": "2025-11-12T11:21:34.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care_fe#14101",
+      "time": "2025-10-22T05:57:24.000Z"
+    },
     {
       "type": "issue_opened",
       "title": "ohcnetwork/care_fe#14303",
@@ -14,11 +19,6 @@
       "time": "2025-11-12T08:32:05.000Z",
       "link": "https://github.com/ohcnetwork/care_fe/pull/14183#issuecomment-3520651482",
       "text": "Backend fixtures are not available right now. So temporarily deleted the test file."
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care_fe#14101",
-      "time": "2025-10-22T05:57:24.000Z"
     },
     {
       "type": "comment_created",
@@ -412,8 +412,8 @@
   ],
   "open_prs": [
     {
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14299",
-      "title": "fix: Removed blank space on right side of notes tab",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14312",
+      "title": "Removed unnecessary scrollbars in notes tab and Encounters",
       "stale_for": 0,
       "labels": [
         "needs testing",
@@ -421,9 +421,17 @@
       ]
     },
     {
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14299",
+      "title": "fix: Removed blank space on right side of notes tab",
+      "stale_for": 0,
+      "labels": [
+        "Changes Required"
+      ]
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14288",
       "title": "playwright test to delete healthcare service",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "Changes Required"
       ]

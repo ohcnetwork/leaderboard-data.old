@@ -1,6 +1,13 @@
 {
-  "last_updated": "2025-11-05T16:48:23.000Z",
+  "last_updated": "2025-11-12T15:57:44.000Z",
   "activity": [
+    {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#12797",
+      "time": "2025-11-12T15:57:44.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/12797#issuecomment-3522666022",
+      "text": "> > @Jacobjeevan, regarding the second issue Nihal mentioned — which is related to caching — an encounter is created, but since the patient data is not present in the cache, the user cannot proceed offline. However, if Nihal tries to create the encounter right after visiting the patient homepage online first, it works because when the user visits the patient profile/homepage, the patient data is stored in the cache with the query key \"patient:id\".\r\n> > Since there’s no query call with the key \"patient:id\" on the verify patient page, the patient data isn’t cached there.\r\n> > What do you think I should do in this case? Should I call the same query on the verify patient page as well as on the patient homepage?\r\n> > cc: @nihal467\r\n> \r\n> So VerifyPatient page calls search retrieve, which you can use along with setQueryData to populate patient data.\r\n> \r\n> > @Jacobjeevan, Missing patient data in the cache is also resulting in an error in the appointment creation as well. cc: @nihal467\r\n> \r\n> Same here. Patient home page, which contains both create encounter and create appointment buttons can't be reached without having access to patient data.\r\n\r\n\r\nActually, the patient data return by search retrieve call does not contain permission. So, even if I populate the patient data returned by the search retrieve call, the offline user cannot proceed to the encounter page. So either I should call the getPatient API using the patient ID from the data returned by the search retrieve, so that the entire patient data is cached before going offline.\r\n"
+    },
     {
       "type": "comment_created",
       "title": "ohcnetwork/care_fe#12797",
@@ -964,7 +971,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12405",
       "title": "Demo implementation for offline support using workbox approach",
-      "stale_for": 86,
+      "stale_for": 92,
       "labels": [
         "Merge Conflict",
         "stale"
@@ -973,18 +980,17 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/12402",
       "title": "Demo Implementation of Offline Support Using TanStack Query",
-      "stale_for": 7,
+      "stale_for": 2,
       "labels": [
         "question",
         "Merge Conflict",
-        "stale",
         "needs-triage"
       ]
     },
     {
       "link": "https://github.com/ohcnetwork/docs/pull/140",
       "title": "Add api-audit  md file that list  down some api need to handle while offline. ",
-      "stale_for": 95,
+      "stale_for": 101,
       "labels": []
     }
   ],
