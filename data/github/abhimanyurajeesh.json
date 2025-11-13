@@ -1,16 +1,42 @@
 {
-  "last_updated": "2025-11-12T15:59:05.000Z",
+  "last_updated": "2025-11-13T07:55:10.000Z",
   "activity": [
     {
+      "type": "comment_created",
+      "title": "ohcnetwork/care_fe#14319",
+      "time": "2025-11-13T07:55:10.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14319#issuecomment-3526182067",
+      "text": " @copilot \r\n \r\n // eslint-disable-line i18next/no-literal-string -- FilterSelect handles translation internally this wont be needed, plus discard \r\n 1. public/locale/en.json\r\n 2. src/pages/Facility/services/inventory/InventoryList.tsx"
+    },
+    {
       "type": "pr_reviewed",
-      "time": "2025-10-21T12:43:33.000Z",
-      "title": "ohcnetwork/care_fe#14098",
-      "link": "https://github.com/ohcnetwork/care_fe/pull/14098#pullrequestreview-3360449039"
+      "time": "2025-11-13T05:53:50.000Z",
+      "title": "ohcnetwork/care_fe#14313",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14313#pullrequestreview-3457622554"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-11-13T04:51:08.000Z",
+      "title": "ohcnetwork/care_fe#14317",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14317#pullrequestreview-3457364533"
     },
     {
       "type": "pr_opened",
       "title": "ohcnetwork/care_fe#14098",
       "time": "2025-10-21T12:35:49.000Z"
+    },
+    {
+      "type": "issue_opened",
+      "title": "ohcnetwork/care_fe#14316",
+      "time": "2025-11-13T03:30:24.000Z",
+      "link": "https://github.com/ohcnetwork/care_fe/issues/14316",
+      "text": "Make the new Dispense InvoiceSheet feature environment-configurable"
+    },
+    {
+      "type": "pr_reviewed",
+      "time": "2025-10-21T12:43:33.000Z",
+      "title": "ohcnetwork/care_fe#14098",
+      "link": "https://github.com/ohcnetwork/care_fe/pull/14098#pullrequestreview-3360449039"
     },
     {
       "type": "issue_opened",
@@ -5597,7 +5623,7 @@
   "open_prs": [
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14313",
-      "title": "Add ordering parameter to inventory",
+      "title": "Add 'Sort by Qty.' filter to inventory items",
       "stale_for": 0,
       "labels": [
         "needs testing",
@@ -5616,7 +5642,7 @@
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14298",
       "title": "Refactor: PatientIdentifierFilter",
-      "stale_for": 0,
+      "stale_for": 1,
       "labels": [
         "needs testing",
         "needs review"
@@ -5643,6 +5669,10 @@
     }
   ],
   "authored_issue_and_pr": [
+    {
+      "issue_link": "https://github.com/ohcnetwork/care_fe/issues/14316",
+      "pr_link": "https://github.com/ohcnetwork/care_fe/pull/14317"
+    },
     {
       "issue_link": "https://github.com/ohcnetwork/care_fe/issues/14310",
       "pr_link": "https://github.com/ohcnetwork/care_fe/pull/14311"

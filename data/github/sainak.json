@@ -1,6 +1,11 @@
 {
-  "last_updated": "2025-11-12T11:54:29.000Z",
+  "last_updated": "2025-11-13T05:54:51.000Z",
   "activity": [
+    {
+      "type": "pr_opened",
+      "title": "ohcnetwork/care#3325",
+      "time": "2025-10-28T09:12:36.000Z"
+    },
     {
       "type": "pr_reviewed",
       "time": "2025-11-12T11:54:29.000Z",
@@ -20,11 +25,6 @@
       "title": "ohcnetwork/care-plugin-cookiecutter#2",
       "link": "https://github.com/ohcnetwork/care-plugin-cookiecutter/pull/2#pullrequestreview-2487861061",
       "text": "Adding new template"
-    },
-    {
-      "type": "pr_opened",
-      "title": "ohcnetwork/care#3325",
-      "time": "2025-10-28T09:12:36.000Z"
     },
     {
       "type": "pr_reviewed",
@@ -20080,9 +20080,15 @@
   ],
   "open_prs": [
     {
+      "link": "https://github.com/ohcnetwork/care/pull/3355",
+      "title": "Enhance plugin manager to autodetect installed plugs",
+      "stale_for": 0,
+      "labels": []
+    },
+    {
       "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/19",
       "title": "Refactor GatewayClient for improved request handling and error logging",
-      "stale_for": 5,
+      "stale_for": 6,
       "labels": []
     },
     {
@@ -20100,13 +20106,13 @@
     {
       "link": "https://github.com/ohcnetwork/care/pull/3328",
       "title": "Add scheduling and queue creation fixtures",
-      "stale_for": 12,
+      "stale_for": 13,
       "labels": []
     },
     {
       "link": "https://github.com/ohcnetwork/care_fe/pull/14164",
       "title": "Try to use cached db dump for playwright tests",
-      "stale_for": 5,
+      "stale_for": 0,
       "labels": [
         "needs review",
         "Tested"
